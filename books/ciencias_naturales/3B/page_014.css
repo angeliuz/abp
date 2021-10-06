@@ -1,3 +1,8 @@
+
+.hp-270 {
+    height: 270px;
+  }
+
 .cabecera{
    background-color: rgb(83, 83, 255);
     width: 100%;
@@ -42,7 +47,7 @@
 
 .cuadrado{
     position: absolute;
-    top: 130px;
+    top: 75px;
 }
 
 .imagen-detras{
@@ -57,6 +62,7 @@
     position: relative;
     border-style: solid;
     border-width: 9px;
+    height: 350px;
   
    /* border-radius: 20px 20px 20px 20px;
     -moz-border-radius: 20px 20px 20px 20px;
@@ -69,4 +75,12 @@
     top:-15px;
     background-image: url("images/page_014/espiral.png");
     background-repeat: repeat-x;
+}
+
+
+.linea-Cuaderno{
+    border: 5px dotted #4f4f4f;
+    padding: 10px;
+    border-bottom-size: 1px;
+     border-bottom-style: dotted;
 }

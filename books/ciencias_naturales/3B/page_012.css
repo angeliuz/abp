@@ -6,3 +6,7 @@
      -webkit-print-color-adjust: exact !important;
  
  }
+
+ .max-img{
+     max-width: 100%;
+ }
