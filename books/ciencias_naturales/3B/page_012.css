@@ -6,3 +6,22 @@
      -webkit-print-color-adjust: exact !important;
  
  }
+
+ .max-img{
+     max-width: 100%;
+ }
+ .outline{
+    outline: solid 2px #f29205;
+    outline-offset: -3px;
+}
+
+@media all and (max-width: 400px) {
+
+    .nat-page12 {
+        background: url(images/page_012/caminito-04.svg) top left/ cover no-repeat !important;
+     }
+
+     .cohete-abajo {
+        transform: rotate(90deg);
+     }
+}

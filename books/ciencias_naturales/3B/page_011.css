@@ -1,6 +1,12 @@
 
 .nat-page11 {
-   background: url(images/page_011/fondo-02.svg) #f39200 top left/ cover no-repeat !important;
+   background: url(images/page_011/fondo-02.svg) #F29205 top left/ cover no-repeat !important;
     -webkit-print-color-adjust: exact !important;
 
+}
+@media all and (max-width: 500px) {
+
+    .ft-m {
+        font-size: 30px;
+     }
 }

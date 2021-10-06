@@ -1,0 +1,22 @@
+/* MARGENES */
+.mtp--45 {
+    margin-top: -45px;
+  }
+
+.mtp--40 {
+    margin-top: -40px;
+  }
+
+.msp-8 {
+    margin-left: 8px;
+  }
+
+.w-120 {
+  flex:0 0 auto;
+  width:120%
+} 
+
+.sm-rotate--2 {
+  transform: rotate(
+-2deg);
+}
