@@ -2,134 +2,96 @@
 @font-face {
   font-family: "ccdigitaldelivery-bold";
   src: url("../fonts/ccdigitaldelivery-bold.otf");
-  font-weight: normal;
-  font-style: bold;
 }
 
 @font-face {
   font-family: "colby-bold";
   src: url("../fonts/colby-bold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: bold;
 }
 
 @font-face {
   font-family: "durotype-aspiranar-bold";
   src: url("../fonts/durotype-aspiranar-bold.otf");
-  font-weight: normal;
-  font-style: bold;
 }
 
 @font-face {
   font-family: "hanoded-butterflyball";
   src: url("../fonts/hanoded-butterflyball.otf");
-  font-weight: normal;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "IntroRustG-Base";
   src: url("../fonts/IntroRustG-Base.otf");
-  font-weight: normal;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "MinionPro-Regular";
   src: url("../fonts/MinionPro-Regular.otf");
-  font-weight: normal;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "Montara-Gothic";
   src: url("../fonts/Montara-Gothic.otf");
-  font-weight: normal;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "pixilate-bold";
   src: url("../fonts/pixilate-jollygood-proper-condensed-bold.otf");
-  font-weight: normal;
-  font-style: condensed bold;
 }
 
 @font-face {
   font-family: "pixilate-extrabold";
   src: url("../fonts/pixilate-jollygood-proper-condensed-extrabold.otf");
-  font-weight: normal;
-  font-style: condensed bold;
 }
 
 @font-face {
   font-family: "pixilate-italic";
   src: url("../fonts/pixilate-jollygood-proper-condensed-italic.otf");
-  font-weight: italic;
-  font-style: condensed;
 }
 
 @font-face {
   font-family: "pixilate-regular";
   src: url("../fonts/pixilate-jollygood-proper-condensed-regular.otf");
-  font-weight: normal;
-  font-style: condensed;
 }
 
 @font-face {
   font-family: "pixilate-semibold";
   src: url("../fonts/pixilate-jollygood-proper-condensed-semibold.otf");
-  font-weight: normal;
-  font-style: condensed bold;
 }
 
 @font-face {
   font-family: "Ubuntu-B";
   src: url("../fonts/Ubuntu-B.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "Ubuntu-L";
   src: url("../fonts/Ubuntu-L.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "Ubuntu-LI";
   src: url("../fonts/Ubuntu-LI.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "Ubuntu-M";
   src: url("../fonts/Ubuntu-M.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "Ubuntu-R";
   src: url("../fonts/Ubuntu-R.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "Ubuntu-RI";
   src: url("../fonts/Ubuntu-RI.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "ZapfDingbatsStd";
   src: url("../fonts/ZapfDingbatsStd.otf");
-  font-weight: normal;
-  font-style: normal;
 }
 
 /* FONTS HELPERS */
@@ -169,7 +131,7 @@
 .f-pixilate-semibold {
   font-family: "pixilate-semibold", sans-serif;
 }
-.f-f-Ubuntu-L {
+.f-Ubuntu-L {
   font-family: "f-Ubuntu-L", sans-serif;
 }
 .f-Ubuntu-LI {
@@ -551,6 +513,9 @@
 }
 .hp-10 {
   height: 10px;
+}
+.hp-12 {
+  height: 12px;
 }
 .hp-15 {
   height: 15px;
@@ -2023,6 +1988,9 @@
 .ptp-5 {
   padding-top: 5px;
 }
+.ptp-8 {
+  padding-top: 8px;
+}
 .ptp-10 {
   padding-top: 10px;
 }
@@ -3016,8 +2984,20 @@
   font-size: 200%;
 }
 
+.fsp-8 {
+  font-size: 8px;
+}
+.fsp-9 {
+  font-size: 9px;
+}
 .fsp-10 {
   font-size: 10px;
+}
+.fsp-11 {
+  font-size: 11px;
+}
+.fsp-12 {
+  font-size: 12px;
 }
 .fsp-13 {
   font-size: 13px;

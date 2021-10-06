@@ -447,7 +447,9 @@
 .bgc-milk {
   background-color: var(--milk);
 }
-
+.bgc-pidgey {
+  background-color: var(--pidgey);
+}
 .bgc-freezer {
   background-color: var(--freezer);
 }
