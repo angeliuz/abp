@@ -76,3 +76,11 @@
     background-image: url("images/page_014/espiral.png");
     background-repeat: repeat-x;
 }
+
+
+.linea-Cuaderno{
+    border: 5px dotted #4f4f4f;
+    padding: 10px;
+    border-bottom-size: 1px;
+     border-bottom-style: dotted;
+}
