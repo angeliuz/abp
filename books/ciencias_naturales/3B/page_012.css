@@ -1,8 +1,8 @@
 .bgc-page12{
     background-color: #feebd3;
 }
-.nat-page11 {
-    background: url(images/page_012/caminito-01.svg);
+.nat-page12 {
+    background: url(images/page_012/camino.png) #1ab21e top left/ cover no-repeat !important;
      -webkit-print-color-adjust: exact !important;
  
  }
