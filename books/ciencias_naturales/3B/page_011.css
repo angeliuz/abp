@@ -4,3 +4,9 @@
     -webkit-print-color-adjust: exact !important;
 
 }
+@media all and (max-width: 500px) {
+
+    .ft-m {
+        font-size: 30px;
+     }
+}
