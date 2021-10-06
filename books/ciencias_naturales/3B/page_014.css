@@ -1,3 +1,8 @@
+
+.hp-270 {
+    height: 270px;
+  }
+
 .cabecera{
    background-color: rgb(83, 83, 255);
     width: 100%;
@@ -42,7 +47,7 @@
 
 .cuadrado{
     position: absolute;
-    top: 130px;
+    top: 75px;
 }
 
 .imagen-detras{
@@ -57,6 +62,7 @@
     position: relative;
     border-style: solid;
     border-width: 9px;
+    height: 350px;
   
    /* border-radius: 20px 20px 20px 20px;
     -moz-border-radius: 20px 20px 20px 20px;
