@@ -17,36 +17,37 @@
   --light: #e5e9ec;
   --muted: black;
   --white: white;
-  --goku: #8f6a96;
-  --bulma: #34c1ee;
-  --krillin: #ddddd4;
-  --piccolo: #4f707f;
-  --gohan: #25beb2;
-  --vegeta: #e85b9b;
-  --trunks: #afdada;
-  --goten: #cfab89;
-  --yamcha: #7296ac;
-  --tshinhan: #bfe4f4;
-  --android18: #f9eca9;
-  --milk: #c4e4e2;
-  --pidgey: #cddfad;
-  --freezer: #f1c3dd;
-  --saitama: #ffc466;
-  --ash: #e7f4d0;
-  --pikachu: #fafbf6;
-  --leono: #ffcc00;
-  --tigro: #fff7cc;
-  --pantro: #8bb63a;
-  --chitara: #e8f0d7;
-  --raichu: #1ab21e;
-  --jaga: #009ddf;
-  --luke: #12b7ee;
-  --anakin: #f5486c;
-  --bang: #813da0;
-  --sonic: #f39200;
-  --genos: #7f3ea2;
+
+  --goku: #FECB00;
+  --bulma: #F29205;
+  --krillin: #D55F2A;
+  --piccolo: #FDE9D4;
+  --gohan: #DAE4B0;
+  --vegeta: #F4B4CF;
+  --trunks: #C3E3F5;
+  --goten: #E85152;
+  --yamcha: #F4B0A4;
+  --tshinhan: #F9CA8D;
+  --android18: #93BF21;
+  --milk: #D0DF9C;
+  --pidgey: #129CC4;
+  --freezer: #86CCE2;
+  --saitama: #7C6EAE;
+  --ash: #BCB3D7;
+  --pikachu: #B60F7F;
+  --leono: #D697C0;
+  --tigro: #FCDFBB;
+  --pantro: #CBE8F7;
+  --chitara: #E2EBC4;
+  --raichu: #F0C1AF;
+  --jaga: #FDEFC3;
+  --anakin: #DBDA00;
+  --bang: #EAF4F7;
+  --sonic: #BEE0EE;
+  /* --luke: #C3E3F5;
+  --genos: #129CC4;
   --garou: #f68c39;
-  --boros: #29c4b3;
+  --boros: #29c4b3; */
 }
 /* COLORES */
 .color-primary {

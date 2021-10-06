@@ -1,0 +1,12 @@
+.bgc-page12{
+    background-color: #feebd3;
+}
+.nat-page12 {
+    background: url(images/page_012/caminito-02.svg) top left/ cover no-repeat !important;
+     -webkit-print-color-adjust: exact !important;
+ 
+ }
+
+ .max-img{
+     max-width: 100%;
+ }

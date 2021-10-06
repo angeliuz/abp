@@ -223,7 +223,7 @@
   width: 55%;
 }
 .w-60 {
-  width: 60% !important;
+  width: 60%;
 }
 .w-65 {
   width: 65%;
@@ -3036,6 +3036,9 @@
 }
 .fsp-20 {
   font-size: 20px;
+}
+.fsp-22 {
+  font-size: 22px;
 }
 .fsp-25 {
   font-size: 25px;
