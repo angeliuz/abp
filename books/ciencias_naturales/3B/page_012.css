@@ -7,6 +7,9 @@
     outline: solid 2px #f29205;
     outline-offset: -3px;
 }
+#page_012{
+    min-height: 1060px;
+}
 
 @media all and (max-width: 440px) {
 
@@ -18,8 +21,8 @@
         transform: rotate(90deg);
      }
 
-     .cm_all {
-        display: flex;
-        align-items: center;
-     }
+
+     #page_012{
+        min-height: 800px !important;
+    }
 }
