@@ -8,7 +8,7 @@
     outline-offset: -3px;
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 440px) {
 
     .nat-page12 {
         background: url(images/page_012/caminito-04.svg) top left/ cover no-repeat !important;
