@@ -3,6 +3,10 @@
     -webkit-print-color-adjust: exact !important;
 
 }
+.t-shadow{
+    text-shadow: -5px -5px #D55F2A;
+}
+
 @media all and (max-width: 500px) {
 
     .ft-m {
