@@ -17,4 +17,9 @@
      .cohete-abajo {
         transform: rotate(90deg);
      }
+
+     .cm_all {
+        display: flex;
+        align-items: center;
+     }
 }
