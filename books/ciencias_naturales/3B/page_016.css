@@ -6,16 +6,22 @@
  }
  
  
- .ajustecuadro{
-     position: absolute;
-     top: 50px;
-     justify-content:center;
+ 
+
+ 
+ @media screen and (max-width: 800px){
+
+    .ajuste{
+        width: 100%;
+        
+        
+    }
  }
- 
- .contenedor{
-     position: relative;
-     display: inline-block;
-     text-align: center;
+ @media screen and (max-width: 300px){
+
+    .ajuste {
+        width: 100%;
+        background-color: blue;
+        
+    }
  }
- 
- 
