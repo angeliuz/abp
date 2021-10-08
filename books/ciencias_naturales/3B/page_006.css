@@ -1,10 +1,10 @@
 .nat-page12 {
-    background: url(images/page_012/caminito-05.svg) top left/ cover no-repeat !important;
+    background: url(images/page_012/caminito-05.svg)  top left/ cover no-repeat !important;
      -webkit-print-color-adjust: exact !important;
  }
 
  .outline{
-    outline: solid 2px #f29205;
+    outline: solid 2px #E85152;
     outline-offset: -3px;
 }
 #page_012{
