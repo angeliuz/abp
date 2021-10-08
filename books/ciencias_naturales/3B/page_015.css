@@ -13,14 +13,21 @@ box-shadow: 10px 10px 10px black;
 box-shadow: 5px 5px 1px -2px rgba(0,0,0,0.5);
 } */
 
-.rect_sesion{
+.cuadrado-naranja{
+  -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 96% 100%, 8% 100%);
+  background-color: #F29205;
+  height: 87px;
+}
+
+.rect-sesion{
     background-color: #ffcc00;
     border: 4px solid white;
-    padding: 5px 15px 0px 15px;
+    padding: 5px 8px 0px 8px;
     box-shadow: 2px 2px 1px 0px #9f9f9f;
 }
 
-.cuadro_selec {
+.cuadro-selec {
   background-color: #C3E3F5;
   display: block;
   width: 200px;
@@ -39,6 +46,12 @@ box-shadow: 5px 5px 1px -2px rgba(0,0,0,0.5);
 
 .rounded-caja {
   border-radius: 20px 20px 0px 0px;
+}
+
+.caja-flotante {
+  /* background-color: aqua; */
+  max-width: 821px;
+  width: calc(100% - 19px);
 }
 
 .triangulo2 {
