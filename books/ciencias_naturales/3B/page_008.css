@@ -30,11 +30,6 @@
   .rounded-caja {
     border-radius: 20px 20px 0px 0px;
   }
-  .linea {
-    border-bottom: 2px dotted black;
-    padding-top: 10px;
-    padding-bottom: 1px;
-}
 
 @media all and (max-width: 800px) {
     .superhero-image {
