@@ -17,17 +17,24 @@
     border: 1px dashed #dedede;
 }
 
-.block-bottom {
+.block-bottom{
     max-width: 700px;
-    margin: 7px auto 1px auto;
+    margin-right: auto;
+    margin-left: auto;
     width: calc(100% - 30px);
 }
-.block-white{
-    max-width: 700px;
-    margin: 0px auto 0px auto;
-    width: calc(100% - 30px);
+.caja-flotante {
+    max-width: 821px;
+    width: calc(100% - 19px);
+  }
+  .rounded-caja {
+    border-radius: 20px 20px 0px 0px;
+  }
+  .linea {
+    border-bottom: 2px dotted black;
+    padding-top: 10px;
+    padding-bottom: 1px;
 }
-
 
 @media all and (max-width: 800px) {
     .superhero-image {
