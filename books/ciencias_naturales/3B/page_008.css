@@ -19,7 +19,12 @@
 
 .block-bottom {
     max-width: 700px;
-    margin: 2px auto 0;
+    margin: 7px auto 1px auto;
+    width: calc(100% - 30px);
+}
+.block-white{
+    max-width: 700px;
+    margin: 0px auto 0px auto;
     width: calc(100% - 30px);
 }
 
