@@ -17,6 +17,13 @@
     border: 1px dashed #dedede;
 }
 
+.block-bottom {
+    max-width: 700px;
+    margin: 2px auto 0;
+    width: calc(100% - 30px);
+}
+
+
 @media all and (max-width: 800px) {
     .superhero-image {
         right: 0;
