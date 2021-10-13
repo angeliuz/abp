@@ -519,11 +519,9 @@
 .bgc-boros {
   background-color: var(--boros);
 }
-.border-color-leia {
-  border-color: var(--leia) !important;
+.bgc-leia {
+  background-color: var(--leia);
 }
-.border-color-hansolo {
-  border-color: var(--hansolo) !important;
+.bgc-hansolo {
+  background-color: var(--hansolo);
 }
-
-

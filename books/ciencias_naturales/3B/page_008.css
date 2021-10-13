@@ -18,7 +18,7 @@
     border: 1px dashed #dedede;
 }
 
-.block-bottom{
+.block-bottom {
     max-width: 700px;
     margin-right: auto;
     margin-left: auto;
@@ -32,6 +32,19 @@
 
 .rounded-caja {
     border-radius: 20px 20px 0px 0px;
+}
+
+.linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    padding-bottom: 1px;
+}
+
+.triangulo { 
+    height: 0px; 
+    border-left: 8px solid #bb0c20;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent; 
 }
 
 @media all and (max-width: 800px) {
