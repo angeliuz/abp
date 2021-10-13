@@ -5,15 +5,52 @@
   
  }
  
+ 
+
 
  .caja{
     position: relative;
-    
+    text-align: center;
 }
 .linea{
-    border-bottom: 2px dotted black;
-    padding-top: 10px;
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
     padding-bottom: 1px;
     
+   /* border: 5px dotted #4f4f4f;
+    padding: 10px;
+    border-bottom-size: 1px;
+     border-bottom-style: dotted;**/
+}
+.caja-flotante {
+  /* background-color: aqua; */
+  max-width: 810px;
+  width: calc(100% - 19px);
+}
+.line-dotted {
+    border: 1px dashed #dedede;
+}
+.block-border-yellow {
+    border: 10px solid #ffefc3;
+    border-radius: 20px;
+    max-width: 700px;
+    margin: 20px auto 0;
+    position: relative;
+    width: calc(100% - 30px);
+}
 
+
+.block-bottom{
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
+}
+
+.caja-flotante {
+    max-width: 821px;
+    width: calc(100% - 19px);
+}
+  .rounded-caja {
+    border-radius: 20px 20px 0px 0px;
 }
