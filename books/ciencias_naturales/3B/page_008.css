@@ -40,8 +40,11 @@
     padding-bottom: 1px;
 }
 
-.caja-lineas{
-    width: calc(100% / 2);
+.triangulo { 
+    height: 0px; 
+    border-left: 8px solid #bb0c20;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent; 
 }
 
 @media all and (max-width: 800px) {
