@@ -57,3 +57,35 @@
   z-index:1;
   transform: rotate(-5deg);
 }
+
+.texto_rotate5rosado{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  padding-left: 170px;
+  padding-top: 2px;
+  padding-bottom: 20px;
+  height: 80px;
+  width: 370px;
+  z-index:1;
+  transform: rotate(-5deg);
+}
+
+.texto_rotate5celeste{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  padding-left: 60px;
+  padding-top: 2px;
+  padding-bottom: 20px;
+  height: 80px;
+  width: 300px;
+  z-index:1;
+  transform: rotate(-5deg);
+}
