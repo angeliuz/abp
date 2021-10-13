@@ -9,7 +9,7 @@
 .hp-340 {
     height: 340px;
   }
-  
+
 
 .cabecera{
    background-color: rgb(83, 83, 255);
@@ -57,7 +57,7 @@
 
 .cuaderno-linea{
     border-bottom: 2px dotted black;
-    padding-top: 10px;
+    padding-top: 32px;
     padding-bottom: 1px;
     
    /* border: 5px dotted #4f4f4f;
@@ -66,8 +66,13 @@
      border-bottom-style: dotted;**/
 }
 
-/*  FIN CUADERNO  */
+.linea-punteada{
+    border-bottom: 2px dotted black;
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    padding-top: 32px;
 
+}
 
 
 .rounded-caja {

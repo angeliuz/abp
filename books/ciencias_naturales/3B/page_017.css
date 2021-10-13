@@ -1,0 +1,51 @@
+
+.encabezado{
+   position:absolute;
+   background-image: url("images/page_017/encabezado_2.svg");
+   height:162px;
+   width: 820px;
+   background-repeat:no-repeat
+}
+
+
+.fondo {
+    background: url(images/page_017/fondo.svg) top left / cover no-repeat !important;
+  }
+
+
+.bordesPagina{
+    background-color: #f1871d;
+    width: 100%;
+    height: 100%;
+}
+
+
+.caja-texto{
+    position: relative;
+    width: 230px;
+    background-color: #feead3;
+}
+
+.sombra{
+    -webkit-box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.17);
+    -moz-box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.17);
+    box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.17);
+}
+
+.cuadrado-respuesta{
+    position: absolute;
+    top: 25px;
+}
+
+
+.texto-encima{
+    position: absolute;
+    
+    left: 60px;
+}
+
+.cuadrado-clip{
+    position: absolute;
+    top: -15px;
+    left: 185px;
+}
