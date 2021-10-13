@@ -46,6 +46,8 @@
   --sonic: #BEE0EE;
   --luke: #bb0c20; 
   --genos: #fce1dc;
+  --leia: #009DC5;
+  --hansolo: #EAF6FB;
   /*
   --garou: #f68c39;
   --boros: #29c4b3; */
@@ -321,6 +323,13 @@
 .color-boros {
   color: var(--boros);
 }
+.color-leia {
+  color: var(--leia);
+}
+.color-hansolo {
+  color: var(--hansolo);
+}
+
 /* BORDERS */
 .border-color-goku {
   border-color: var(--goku) !important;
@@ -410,6 +419,13 @@
 .border-color-boros {
   border-color: var(--boros) !important;
 }
+.border-color-leia {
+  border-color: var(--leia) !important;
+}
+.border-color-hansolo {
+  border-color: var(--hansolo) !important;
+}
+
 
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -502,4 +518,10 @@
 }
 .bgc-boros {
   background-color: var(--boros);
+}
+.bgc-leia {
+  background-color: var(--leia);
+}
+.bgc-hansolo {
+  background-color: var(--hansolo);
 }
