@@ -43,25 +43,22 @@
   background: url(images/page_018/fondo.svg) top left / cover no-repeat !important;
 }
 
-.tv {
-  position: relative;
-  width: 100%;
-  height: 100px;
-  margin: 0px 0;
-  /* background: red; */
-  border: 2px solid red;
-  border-radius: 90% / 10%;
-  color: white;
-  text-align: center;
-  text-indent: .1em;
+.caja01 {
+  background: url(images/page_018/fondo_1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 263px;
 }
-.tv:before {
-  content: '';
-  position: absolute;
-  top: 10%;
-  bottom: 10%;
-  right: -5%;
-  left: -5%;
-  background: inherit;
-  border-radius: 5% / 50%;
+
+.caja02 {
+  background: url(images/page_018/fondo_2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 283px;
+}
+
+.cuaderno-linea {
+  border-bottom: 2px dotted black;
+  padding-top: 36px;
+  padding-bottom: 2px;
 }
