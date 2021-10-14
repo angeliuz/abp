@@ -37,10 +37,19 @@
 .linea {
     border-bottom: 1px dashed #dedede;
     padding-top: 5px;
-    padding-bottom: 1px;
 }
 
+
+
 .triangulo { 
+    position: relative;
+}
+
+.triangulo::before {
+    position: absolute;
+    content: '';
+    top: calc(100% - 13px);
+    left: -15px;
     height: 0px; 
     border-left: 8px solid #bb0c20;
     border-top: 5px solid transparent;
@@ -52,5 +61,9 @@
         right: 0;
         max-width: 190px;
         top: -85px;
+    }
+
+    .titulo-linea .linea{
+        width: 100%;
     }
 }
