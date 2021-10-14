@@ -46,3 +46,17 @@
   .rounded-caja {
     border-radius: 20px 20px 0px 0px;
 }
+.triangulo { 
+    position: relative;
+}
+
+.triangulo::before {
+    position: absolute;
+    content: '';
+    top: calc(100% - 13px);
+    left: -15px;
+    height: 0px; 
+    border-left: 8px solid #caa810;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent; 
+}
