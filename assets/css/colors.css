@@ -49,6 +49,7 @@
   --leia: #009DC5;
   --hansolo: #EAF6FB;
   --garou: #231F20;
+  --obiwan: #F39200;
   /*--boros: #29c4b3; */
 }
 
@@ -328,6 +329,10 @@
 .color-pidgey {
   color: var(--pidgey);
 }
+.color-obiwan {
+  color: var(--obiwan);
+}
+
 
 /* BORDERS */
 .border-color-goku {
@@ -426,6 +431,9 @@
 .border-color-pidgey {
   border-color: var(--pidgey) !important;
 }
+.border-color-obiwan {
+  border-color: var(--obiwan) !important;
+}
 
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -523,4 +531,7 @@
 }
 .bgc-hansolo {
   background-color: var(--hansolo);
+}
+.bgc-obiwan {
+  background-color: var(--obiwan);
 }

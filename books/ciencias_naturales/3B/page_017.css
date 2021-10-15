@@ -1,12 +1,22 @@
 
 .encabezado{
    position:absolute;
-   background-image: url("images/page_017/encabezado.svg");
+   background-image: url("images/page_017/fondo_top_1.svg");
    height:170px;
    width: 820px;
    background-repeat:no-repeat
    
 }
+
+
+.footer{
+    position:absolute;
+    background-image: url("images/page_017/fondo_bottom_1.svg");
+    height:100px;
+    width: 820px;
+    background-repeat:no-repeat;
+    bottom: 0px;
+ }
 
 
 .fondo {
@@ -71,4 +81,10 @@
     height: 100%;
     background-color: blue;
     left:20px;
+}
+
+.margenIzq{
+    top:500px;
+    height:100px;
+    width: 100%;
 }
