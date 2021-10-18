@@ -1,3 +1,9 @@
+.nat-page08 {
+    background: url(images/page_008/fondo_02-02.png)  top left/ cover !important;
+     -webkit-print-color-adjust: exact !important;
+ 
+ }
+
 .block-border-yellow {
     border: 10px solid #ffefc3;
     border-radius: 20px;
