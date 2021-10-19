@@ -1,4 +1,8 @@
 /* MARGENES */
+.mtp--10 {
+  margin-top: -10px;
+}
+
 .mtp--45 {
     margin-top: -45px;
   }
@@ -55,7 +59,7 @@
   height: 60px;
   width: 216px;
   z-index:1;
-  transform: rotate(-5deg);
+  transform: rotate(-4.1deg);
 }
 
 .texto_rotate5rosado{
@@ -71,7 +75,7 @@
   height: 80px;
   width: 370px;
   z-index:1;
-  transform: rotate(-5deg);
+  transform: rotate(-4.1deg);
 }
 
 .texto_rotate5celeste{
@@ -87,5 +91,6 @@
   height: 80px;
   width: 300px;
   z-index:1;
-  transform: rotate(-5deg);
+  transform: rotate(-4.1deg);
 }
+
