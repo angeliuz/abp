@@ -1,0 +1,27 @@
+.nat-page12 {
+    background: url(images/page_006/fondo.svg)  top left/ cover no-repeat !important;
+     -webkit-print-color-adjust: exact !important;
+ }
+
+ .outline{
+    outline: solid 2px #E85152;
+    outline-offset: -3px;
+}
+#page_012{
+    min-height: 1060px;
+}
+
+@media all and (max-width: 440px) {
+
+    .nat-page12 {
+        background: url(images/page_006/caminito-10.svg) top left/ cover no-repeat !important;
+     }
+
+     .cohete-abajo {
+        transform: rotate(90deg);
+     }
+
+     #page_012{
+        min-height: 800px !important;
+    }
+}

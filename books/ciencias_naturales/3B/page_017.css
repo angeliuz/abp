@@ -1,7 +1,7 @@
 
 .encabezado{
    position:absolute;
-   background-image: url("images/page_017/encabezado.svg");
+   background-image: url("images/page_017/fondo_top_1.svg");
    height:170px;
    width: 820px;
    background-repeat:no-repeat
@@ -9,11 +9,30 @@
 }
 
 
+.footer{
+    position:absolute;
+    background-image: url("images/page_017/fondo_bottom_1.svg");
+    height:100px;
+    width: 820px;
+    background-repeat:no-repeat;
+    bottom: 0px;
+ }
+
+
 .fondo {
     background: url(images/page_017/fondo.svg) top left / cover no-repeat !important;
   }
 
 
+.respuesta-nombre{
+    position: relative;
+}
+
+ .img-flecha-verde{
+    position: absolute;
+    top: 200px;
+   
+}
 
 .caja-texto{
     position: relative;
@@ -33,10 +52,8 @@
     top: 25px;
 }
 
-
 .texto-encima{
     position: absolute;
-    
     left: 60px;
 }
 
@@ -44,4 +61,30 @@
     position: absolute;
     top: -15px;
     left: 185px;
+}
+
+.img-calendario{
+    top: -140px;
+   
+}
+
+.img-lapices{
+    position: absolute;
+    top: 300px;
+    
+}
+
+
+.bordeIzq{
+    position: relative;
+    width: 50px;
+    height: 100%;
+    background-color: blue;
+    left:20px;
+}
+
+.margenIzq{
+    top:500px;
+    height:100px;
+    width: 100%;
 }

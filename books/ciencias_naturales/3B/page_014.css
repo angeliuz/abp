@@ -78,8 +78,26 @@
 .rounded-caja {
     border-radius: 20px 20px 0px 0px;
   }
-
-
+  
+  .caja-flotante {
+    /* background-color: aqua; */
+    max-width: 821px;
+    width: calc(100% - 19px);
+  }
+  
+  .caja {
+    background-image: url(../3B/images/page_015/caja.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8px 16px 2px 13px;
+  }
+  
+  @media (max-width: 576px) {
+  .cambio {
+    padding: 0;
+    color: var(--hardDark);
+  }
+  }
 
   .absoluto{
     position: absolute;

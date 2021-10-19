@@ -3,148 +3,205 @@
   font-family: "ccdigitaldelivery-bold";
   src: url("../fonts/ccdigitaldelivery-bold.otf");
 }
+.f-ccdigitaldelivery-bold {
+  font-family: "ccdigitaldelivery-bold", sans-serif;
+}
+
+@font-face {
+  font-family: "colby-light";
+  src: url("../fonts/Colby-StLt.ttf") format("truetype");
+}
+.f-colby-light {
+  font-family: "colby-light", sans-serif;
+}
+
+@font-face {
+  font-family: "colby-regular";
+  src: url("../fonts/Colby-StReg.ttf") format("truetype");
+}
+.f-colby-regular {
+  font-family: "colby-regular", sans-serif;
+}
 
 @font-face {
   font-family: "colby-bold";
   src: url("../fonts/colby-bold.ttf") format("truetype");
+}
+.f-colby-bold {
+  font-family: "colby-bold", sans-serif;
+}
+
+@font-face {
+  font-family: "colby-compres-bold";
+  src: url("../fonts/Colby_Com_B.ttf") format("truetype");
+}
+.f-colby-compres-bold {
+  font-family: "colby-compres-bold", sans-serif;
+}
+
+@font-face {
+  font-family: "colby-compres-medium";
+  src: url("../fonts/Colby_Com_M.ttf") format("truetype");
+}
+.f-colby-compres-medium {
+  font-family: "colby-compres-medium", sans-serif;
+}
+
+@font-face {
+  font-family: "colby-compres-regular";
+  src: url("../fonts/Colby_Com_R.ttf") format("truetype");
+}
+.f-colby-compres-regular {
+  font-family: "colby-compres-regular", sans-serif;
+}
+
+@font-face {
+  font-family: "colby-condensed-medium";
+  src: url("../fonts/Colby_Con_M.ttf") format("truetype");
+}
+.f-colby-condensed-medium {
+  font-family: "colby-condensed-medium", sans-serif;
+}
+
+@font-face {
+  font-family: "colby-extra-regular";
+  src: url("../fonts/Colby_Ext_R.ttf") format("truetype");
+}
+.f-colby-extra-regular {
+  font-family: "colby-extra-regular", sans-serif;
 }
 
 @font-face {
   font-family: "durotype-aspiranar-bold";
   src: url("../fonts/durotype-aspiranar-bold.otf");
 }
+.f-durotype-aspiranar-bold {
+  font-family: "durotype-aspiranar-bold", sans-serif;
+}
 
 @font-face {
   font-family: "hanoded-butterflyball";
   src: url("../fonts/hanoded-butterflyball.otf");
+}
+.f-hanoded-butterflyball {
+  font-family: "hanoded-butterflyball", sans-serif;
 }
 
 @font-face {
   font-family: "IntroRustG-Base";
   src: url("../fonts/IntroRustG-Base.otf");
 }
+.f-IntroRustG-Base {
+  font-family: "IntroRustG-Base", sans-serif;
+}
 
 @font-face {
   font-family: "MinionPro-Regular";
   src: url("../fonts/MinionPro-Regular.otf");
+}
+.f-MinionPro-Regular {
+  font-family: "MinionPro-Regular", sans-serif;
 }
 
 @font-face {
   font-family: "Montara-Gothic";
   src: url("../fonts/Montara-Gothic.otf");
 }
+.f-Montara-Gothic {
+  font-family: "Montara-Gothic", sans-serif;
+}
 
 @font-face {
   font-family: "pixilate-bold";
   src: url("../fonts/pixilate-jollygood-proper-condensed-bold.otf");
+}
+.f-pixilate-bold {
+  font-family: "pixilate-bold", sans-serif;
 }
 
 @font-face {
   font-family: "pixilate-extrabold";
   src: url("../fonts/pixilate-jollygood-proper-condensed-extrabold.otf");
 }
+.f-pixilate-extrabold {
+  font-family: "pixilate-extrabold", sans-serif;
+}
 
 @font-face {
   font-family: "pixilate-italic";
   src: url("../fonts/pixilate-jollygood-proper-condensed-italic.otf");
+}
+.f-pixilate-italic {
+  font-family: "pixilate-italic", sans-serif;
 }
 
 @font-face {
   font-family: "pixilate-regular";
   src: url("../fonts/pixilate-jollygood-proper-condensed-regular.otf");
 }
+.f-pixilate-regular {
+  font-family: "pixilate-regular", sans-serif;
+}
 
 @font-face {
   font-family: "pixilate-semibold";
   src: url("../fonts/pixilate-jollygood-proper-condensed-semibold.otf");
+}
+.f-pixilate-semibold {
+  font-family: "pixilate-semibold", sans-serif;
 }
 
 @font-face {
   font-family: "Ubuntu-B";
   src: url("../fonts/Ubuntu-B.ttf") format("truetype");
 }
+.f-Ubuntu-B {
+  font-family: "Ubuntu-B", sans-serif;
+}
 
 @font-face {
   font-family: "Ubuntu-L";
   src: url("../fonts/Ubuntu-L.ttf") format("truetype");
+}
+.f-Ubuntu-L {
+  font-family: "Ubuntu-L", sans-serif;
 }
 
 @font-face {
   font-family: "Ubuntu-LI";
   src: url("../fonts/Ubuntu-LI.ttf") format("truetype");
 }
+.f-Ubuntu-LI {
+  font-family: "Ubuntu-LI", sans-serif;
+}
 
 @font-face {
   font-family: "Ubuntu-M";
   src: url("../fonts/Ubuntu-M.ttf") format("truetype");
+}
+.f-Ubuntu-M {
+  font-family: "Ubuntu-M", sans-serif;
 }
 
 @font-face {
   font-family: "Ubuntu-R";
   src: url("../fonts/Ubuntu-R.ttf") format("truetype");
 }
+.f-Ubuntu-R {
+  font-family: "Ubuntu-R", sans-serif;
+}
 
 @font-face {
   font-family: "Ubuntu-RI";
   src: url("../fonts/Ubuntu-RI.ttf") format("truetype");
 }
+.f-Ubuntu-RI {
+  font-family: "Ubuntu-RI", sans-serif;
+}
 
 @font-face {
   font-family: "ZapfDingbatsStd";
   src: url("../fonts/ZapfDingbatsStd.otf");
-}
-
-/* FONTS HELPERS */
-.f-ccdigitaldelivery-bold {
-  font-family: "ccdigitaldelivery-bold", sans-serif;
-}
-.f-colby-bold {
-  font-family: "colby-bold", sans-serif;
-}
-.f-durotype-aspiranar-bold {
-  font-family: "durotype-aspiranar-bold", sans-serif;
-}
-.f-hanoded-butterflyball {
-  font-family: "hanoded-butterflyball", sans-serif;
-}
-.f-IntroRustG-Base {
-  font-family: "IntroRustG-Base", sans-serif;
-}
-.f-MinionPro-Regular {
-  font-family: "MinionPro-Regular", sans-serif;
-}
-.f-Montara-Gothic {
-  font-family: "Montara-Gothic", sans-serif;
-}
-.f-pixilate-bold {
-  font-family: "pixilate-bold", sans-serif;
-}
-.f-pixilate-extrabold {
-  font-family: "pixilate-extrabold", sans-serif;
-}
-.f-pixilate-italic {
-  font-family: "pixilate-italic", sans-serif;
-}
-.f-pixilate-regular {
-  font-family: "pixilate-regular", sans-serif;
-}
-.f-pixilate-semibold {
-  font-family: "pixilate-semibold", sans-serif;
-}
-.f-Ubuntu-L {
-  font-family: "f-Ubuntu-L", sans-serif;
-}
-.f-Ubuntu-LI {
-  font-family: "Ubuntu-LI", sans-serif;
-}
-.f-Ubuntu-M {
-  font-family: "Ubuntu-M", sans-serif;
-}
-.f-Ubuntu-R {
-  font-family: "Ubuntu-R", sans-serif;
-}
-.f-Ubuntu-RI {
-  font-family: "Ubuntu-RI", sans-serif;
 }
 .f-ZapfDingbatsStd {
   font-family: "ZapfDingbatsStd", sans-serif;

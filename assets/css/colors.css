@@ -48,10 +48,11 @@
   --genos: #fce1dc;
   --leia: #009DC5;
   --hansolo: #EAF6FB;
-  /*
-  --garou: #f68c39;
-  --boros: #29c4b3; */
+  --garou: #231F20;
+  --obiwan: #F39200;
+  /*--boros: #29c4b3; */
 }
+
 /* COLORES */
 .color-primary {
   color: var(--primary);
@@ -107,7 +108,6 @@
 }
 
 /* BACKGROUND */
-
 .bgc-primary {
   background-color: var(--primary);
 }
@@ -167,9 +167,6 @@
 .bgc-red {
   background-color: red;
 }
-.bgc-white {
-  background-color: #ffffff;
-}
 .bgc-yellow {
   background-color: yellow;
 }
@@ -186,7 +183,7 @@
   border-color: var(--primary) !important;
 }
 .border-color-secondary {
-  border-color: var(--scondary) !important;
+  border-color: var(--secondary) !important;
 }
 .border-color-tertiary {
   border-color: var(--tertiary) !important;
@@ -329,6 +326,13 @@
 .color-hansolo {
   color: var(--hansolo);
 }
+.color-pidgey {
+  color: var(--pidgey);
+}
+.color-obiwan {
+  color: var(--obiwan);
+}
+
 
 /* BORDERS */
 .border-color-goku {
@@ -367,7 +371,6 @@
 .border-color-milk {
   border-color: var(--milk) !important;
 }
-
 .border-color-freezer {
   border-color: var(--freezer) !important;
 }
@@ -425,7 +428,12 @@
 .border-color-hansolo {
   border-color: var(--hansolo) !important;
 }
-
+.border-color-pidgey {
+  border-color: var(--pidgey) !important;
+}
+.border-color-obiwan {
+  border-color: var(--obiwan) !important;
+}
 
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -506,7 +514,6 @@
 .bgc-bang {
   background-color: var(--bang);
 }
-
 .bgc-sonic {
   background-color: var(--sonic);
 }
@@ -524,4 +531,7 @@
 }
 .bgc-hansolo {
   background-color: var(--hansolo);
+}
+.bgc-obiwan {
+  background-color: var(--obiwan);
 }
