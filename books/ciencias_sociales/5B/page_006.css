@@ -1,5 +1,5 @@
 .nat-page12 {
-    background: url(images/page_006/fondo.svg)  top left/ cover no-repeat !important;
+    background: url(images/page_006/img_002.svg)  top left/ cover no-repeat !important;
      -webkit-print-color-adjust: exact !important;
  }
 
@@ -9,6 +9,20 @@
 }
 #page_012{
     min-height: 1060px;
+}
+.triangulo { 
+    position: relative;
+}
+
+.triangulo::before {
+    position: absolute;
+    content: '';
+    top: calc(100% - 13px);
+    left: -15px;
+    height: 0px; 
+    border-left: 8px solid #bb0c20;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
 }
 
 @media all and (max-width: 440px) {
