@@ -40,11 +40,7 @@
     border-radius: 20px 20px 0px 0px;
   }
   
-  .caja-flotante {
-    /* background-color: aqua; */
-    max-width: 821px;
-    width: calc(100% - 19px);
-  }
+
   
   .caja {
     background-image: url(../3B/images/cabecera/caja.svg);
