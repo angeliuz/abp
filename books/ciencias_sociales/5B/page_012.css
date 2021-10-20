@@ -25,3 +25,7 @@
         min-height: 800px !important;
     }
 }
+
+.mtp--150 {
+    margin-top: -155px;
+}
