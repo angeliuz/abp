@@ -14,13 +14,6 @@
 }
 
 
-
-.borde{
-    width:20px;
-    height:100%;
-    
-}
-
 .footer{
     position:absolute;
     background-image: url("images/page_017/fondo_bottom_1.svg");
@@ -64,26 +57,6 @@
     max-height: calc(100% - 5px);
     
 }
-
-
-
-.margenDer2{
-    position: absolute;
-    height:100%;
-    width: 20px;
-    right:820px;
-    float:right;
-    
-}
-
-
-
-
-
-.fondo {
-    background: url(images/page_017/fondo.svg) 
-    top left / cover no-repeat !important; 
-  }
 
 
 .respuesta-nombre{
@@ -196,7 +169,7 @@
 }
 
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 998px) {
 
     .titulo2{
         padding-bottom: 200px;
@@ -206,7 +179,7 @@
 }
 
 
-@media all and (max-width: 988px) {
+@media all and (max-width: 480px) {
 
     .img-flecha-verde{    
         visibility: hidden;
