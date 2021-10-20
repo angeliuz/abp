@@ -14,7 +14,7 @@
 @media all and (max-width: 440px) {
 
     .soc-page12 {
-        background: url(images/page_012/img_002.svg) top left/ cover no-repeat !important;
+        background: url(images/page_012/caminito-10.svg) top left/ cover no-repeat !important;
      }
 
      .cohete-abajo {
@@ -26,6 +26,10 @@
     }
 }
 
-.mtp--150 {
-    margin-top: -155px;
+.mtp--100 {
+    margin-top: -100px;
+}
+
+.mtp--20 {
+    margin-top: -20px;
 }
