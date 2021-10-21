@@ -41,10 +41,16 @@
 }
 
 .caja {
-  background-image: url(../3B/images/cabecera/caja.svg);
+  background-image: url(../5B/images/page_007/img_000.svg);
   background-repeat: no-repeat;
   background-size: contain;
   padding: 10px 10px 10px 10px;
+}
+.cb-caja {
+  background-image: url(../5B/images/page_007/img_002.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+
 }
 
 .cb-paper {
@@ -88,6 +94,18 @@
   transform: rotate(2deg);
 }
 
+.cb-lapiz{
+  position: absolute;
+    left: 25px;
+    bottom: 70px;
+    transform: rotate(-25deg);
+}
+.cb-carta{
+  position: absolute;
+    right: -35px;
+    top: 10px;
+    transform: rotate(5deg);
+}
 
 @media (max-width: 576px) {
   .cambio {
@@ -111,4 +129,11 @@
           padding: 20px;
           font-size: 15px;
       }
+
+      .cb-lapiz {
+        display: none;
+    }
+    .cb-carta {
+      display: none;
+  }
 }
