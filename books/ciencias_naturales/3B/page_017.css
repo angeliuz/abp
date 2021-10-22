@@ -1,13 +1,10 @@
 
-.encabezado{
+.dosier{
    position:absolute;
    background-image: url("images/page_017/fondo_top_1.svg");
    height:170px;
    width: 100%;
-
-  /*  max-width:100vh;
-  background-size: cover;*/ 
-  background-repeat:no-repeat;
+   background-repeat:no-repeat;
    
    z-index: 1;
    
@@ -132,10 +129,10 @@
 
 @media all and (max-width: 560px) {
 
-    .encabezado {
-        background: url(images/page_017/fondo_top_2.svg) top left/ cover no-repeat !important;
-        min-height: 200px;
-
+    .dosier {
+       background: url(images/page_017/fondo_top_2.svg) top left / cover no-repeat !important;
+   /*  background-image: url(images/page_017/fondo_top_2.svg) top / cover no-repeat !important;;*/
+       min-height: 200px;
     }
 
 
@@ -144,9 +141,7 @@
         min-width: 100%;
         width: 100%;
         height: 32px;
-
         /* overflow:auto;*/
-
     }
 
 
@@ -174,7 +169,6 @@
     .titulo2{
         padding-bottom: 200px;
     }
-
 
 }
 

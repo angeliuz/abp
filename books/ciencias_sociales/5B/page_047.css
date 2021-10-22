@@ -1,0 +1,45 @@
+.cabecera{
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
+    background-color: var(--pidgey);
+    height: 160px;
+}
+
+.rect-sesion{
+    background-color: #ffcc00;
+    border: 4px solid white;
+    padding: 5px 8px 0px 8px;
+    box-shadow: 2px 2px 1px 0px #9f9f9f;
+}
+
+.caja-flotante {
+    /* background-color: aqua; */
+    max-width: 821px;
+    width: calc(100% - 20px);
+}
+
+.caja {
+    background-image: url(images/page_047/caja.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px 10px 10px 10px;
+}
+
+@media (max-width: 576px) {
+  .cambio {
+    padding: 0;
+  }
+  .cabecera {
+    height: 290px;
+  }
+  .rotar {
+    transform: rotate(90deg);
+    margin: 10px;
+    width: 20px;
+  }
+  .centrar {
+    text-align: center;
+    padding: 10px 13px 0px 13px  !important;
+    justify-content: center;
+  }
+}
