@@ -22,9 +22,9 @@ body {
 }
 
 /* CSS PIE DE PAGINA COLORES */
-.caja-flotante {
+.caja-flotante2 {
   max-width: 821px;
-  width: calc(100%);
+  width: 100%;
 }
 
 .cuadrado-naranja{
