@@ -3,6 +3,13 @@
      -webkit-print-color-adjust: exact !important;
  }
 
+.cuadro {
+    background: url(images/page_046/rect.svg)  top left / cover no-repeat !important;
+    -webkit-print-color-adjust: exact !important;
+    width: 310px;
+    height: 74px;
+}
+
  .outline{
     outline: solid 2px #E85152;
     outline-offset: -3px;
