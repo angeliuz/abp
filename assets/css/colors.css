@@ -338,8 +338,23 @@
 .color-obiwan {
   color: var(--obiwan);
 }
-.color-misty{
+.color-misty {
   color: var(--misty);
+}
+.color-harry {
+  color: var(--harry);
+}
+.color-hermione {
+  color: var(--hermione);
+}
+.color-voldemort {
+  color: var(--voldemort);
+}
+.color-draco{
+  color: var(--draco);
+}
+.color-ron {
+  color: var(--ron);
 }
 
 /* BORDERS */
@@ -445,6 +460,21 @@
 .border-color-misty {
   border-color: var(--misty) !important;
 }
+.border-color-harry {
+  border-color: var(--harry) !important;
+}
+.border-color-hermione {
+  border-color: var(--hermione) !important;
+}
+.border-color-voldemort {
+  border-color: var(--voldemort) !important;
+}
+.border-color-draco {
+  border-color: var(--draco) !important;
+}
+.border-color-ron {
+  border-color: var(--ron) !important;
+}
 
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -546,6 +576,21 @@
 .bgc-obiwan {
   background-color: var(--obiwan);
 }
-.bgc-misty{
+.bgc-misty {
   background-color: var(--misty);
+}
+.bgc-harry {
+  background-color: var(--harry);
+}
+.bgc-hermione {
+  background-color: var(--hermione);
+}
+.bgc-voldemort {
+  background-color: var(--voldemort);
+}
+.bgc-draco {
+  background-color: var(--draco);
+}
+.bgc-ron {
+  background-color: var(--ron);
 }
