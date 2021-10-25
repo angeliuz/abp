@@ -1,3 +1,7 @@
+#page_006{
+    min-height: 1060px;
+}
+
 .cb-lineas {
     background: url(images/page_006/fondo.svg)  top left/ cover no-repeat !important;
      -webkit-print-color-adjust: exact !important;
@@ -7,24 +11,6 @@
     outline: solid 2px #E85152;
     outline-offset: -3px;
 }
-#page_006{
-    min-height: 1060px;
-}
-.cb-triangulo { 
-    position: relative;
-}
-
-.cb-triangulo::before {
-    position: absolute;
-    content: '';
-    top: calc(100% - 13px);
-    left: -15px;
-    height: 0px; 
-    border-left: 8px solid #bb0c20;
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
-}
-
 .cb-contenedor-1{
     justify-content: end;
     margin-right: 10px;
@@ -41,6 +27,7 @@
 .cb-titulo{
     margin-left: 40px;
     margin-bottom: 20px;
+    text-align: left;
 }
 .cb-cohete{
     margin-bottom: 30px;
@@ -79,6 +66,7 @@
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
+        text-align: center;
     }
     .cb-cohete{
         display: flex;
