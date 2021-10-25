@@ -57,6 +57,7 @@
   --voldemort: #f7b34d;
   --draco: #fde9cc;
   --ron: #e30613;
+  --shogun: #f7f9df;
 }
 
 /* COLORES */
@@ -356,6 +357,9 @@
 .color-ron {
   color: var(--ron);
 }
+.color-shogun {
+  color: var(--shogun);
+}
 
 /* BORDERS */
 .border-color-goku {
@@ -474,6 +478,9 @@
 }
 .border-color-ron {
   border-color: var(--ron) !important;
+}
+.border-color-shogun {
+  border-color: var(--shogun) !important;
 }
 
 /* BACKGROUND COLORS */
@@ -594,3 +601,7 @@
 .bgc-ron {
   background-color: var(--ron);
 }
+.bgc-shogun {
+  background-color: var(--shogun);
+}
+
