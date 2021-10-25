@@ -26,16 +26,16 @@
   --vegeta: #F4B4CF;
   --trunks: #C3E3F5;
   --goten: #ea5153;
-  --yamcha: #F4B0A4;
-  --tshinhan: #F9CA8D;
+  --yamcha: #f3afa4;
+  --tshinhan: #f9c980;
   --android18: #afca0b;
-  --milk: #D0DF9C;
+  --milk: #d7e585;
   --pidgey: #009dc5;
-  --freezer: #86CCE2;
+  --freezer: #80cee2;
   --saitama: #7c6eb0;
-  --ash: #BCB3D7;
+  --ash: #beb7d8;
   --pikachu: #b80e80;
-  --leono: #D697C0;
+  --leono: #db86bf;
   --tigro: #FCDFBB;
   --pantro: #CBE8F7;
   --chitara: #E2EBC4;
@@ -49,9 +49,14 @@
   --leia: #009DC5;
   --hansolo: #EAF6FB;
   --garou: #231F20;
-  --obiwan: #F39200;
+  --obiwan: #f39200;
   --misty: #d7dd3b;
   --boros: #dedc00;
+  --harry: #66c4dc;
+  --hermione: #e6f5f9;
+  --voldemort: #f7b34d;
+  --draco: #fde9cc;
+  --ron: #e30613;
 }
 
 /* COLORES */
@@ -333,8 +338,23 @@
 .color-obiwan {
   color: var(--obiwan);
 }
-.color-misty{
+.color-misty {
   color: var(--misty);
+}
+.color-harry {
+  color: var(--harry);
+}
+.color-hermione {
+  color: var(--hermione);
+}
+.color-voldemort {
+  color: var(--voldemort);
+}
+.color-draco{
+  color: var(--draco);
+}
+.color-ron {
+  color: var(--ron);
 }
 
 /* BORDERS */
@@ -440,6 +460,21 @@
 .border-color-misty {
   border-color: var(--misty) !important;
 }
+.border-color-harry {
+  border-color: var(--harry) !important;
+}
+.border-color-hermione {
+  border-color: var(--hermione) !important;
+}
+.border-color-voldemort {
+  border-color: var(--voldemort) !important;
+}
+.border-color-draco {
+  border-color: var(--draco) !important;
+}
+.border-color-ron {
+  border-color: var(--ron) !important;
+}
 
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -541,6 +576,21 @@
 .bgc-obiwan {
   background-color: var(--obiwan);
 }
-.bgc-misty{
+.bgc-misty {
   background-color: var(--misty);
+}
+.bgc-harry {
+  background-color: var(--harry);
+}
+.bgc-hermione {
+  background-color: var(--hermione);
+}
+.bgc-voldemort {
+  background-color: var(--voldemort);
+}
+.bgc-draco {
+  background-color: var(--draco);
+}
+.bgc-ron {
+  background-color: var(--ron);
 }
