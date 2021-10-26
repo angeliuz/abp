@@ -7,4 +7,27 @@
 
 
 
+/*abajo redondeado / arriba plano */
+.rounded-seb-10 {
+  border-radius: 0px 0px 10px 10px;
+}
+.rounded-set-10 {
+  border-radius: 10px 10px 0px 0px;
+}
+
+
+.alinea{
+  margin: 0 auto;
+}
+
+.flecha{
+
   
+}
+
+
+.cuaderno-linea{
+  border-bottom: 2px dotted black;
+  padding-top: 32px;
+  padding-bottom: 1px;
+  }

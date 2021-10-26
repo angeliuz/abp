@@ -15,7 +15,7 @@
 .caja-flotante {
     /* background-color: aqua; */
     max-width: 821px;
-    width: calc(100% - 20px);
+    width: 100%;
 }
 
 .caja {
