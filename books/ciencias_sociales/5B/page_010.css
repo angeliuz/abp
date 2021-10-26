@@ -33,7 +33,7 @@
 .cb-bloque-1::after{
     content: "";
     position: absolute;
-    width: 80px;
+    width: 90px;
     height: 5px;
     bottom: 10px;
     transform: rotate(30deg);
@@ -71,7 +71,7 @@
     bottom: -10px;
     transform: rotate(150deg);
     background-color: white;
-    left: -60px;
+    left: -70px;
 }
 .cb-bloque-4 {
     max-width: 180px;
@@ -88,7 +88,7 @@
     bottom: 40px;
     transform: rotate(-30deg);
     background-color: white;
-    right: -80px;
+    right: -90px;
 }
 .cb-bloque-5 {
     max-width: 132px;
