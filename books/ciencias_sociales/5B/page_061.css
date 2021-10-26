@@ -8,7 +8,7 @@
   .cabecera{
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
     clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
-    background-color: var(--goten);
+    background-color: var(--saitama);
     height: 160px;
   }
   
@@ -71,14 +71,55 @@
 }
 
 
+.rota-vertical {
+  transform: scaleY(-1);
+  -moz-transform: scaleY(-1); /* Firefox */
+  -webkit-transform: scaleY(-1); /* Chrome - Safari */
+  -o-transform: scaleY(-1); /* Opera */
+}
+
+
+.img-tijera{
+  position: absolute;
+  top: -420px;
+  right:15px;
+}
 
 
 
+.img-lapiz{
+  position: absolute;
+  top: -420px;
+  left:15px;
+}
 
 
+  
+@media (max-width: 932px) {
+
+  .img-tijera{
+    position: absolute;
+    top: -960px;
+    right:100px;
+  }
+
+  }
+
+  
+@media (max-width: 658px) {
+
+  .cabecera {
+    height: 200px;
+  }
 
 
+  .img-tijera{
+    position: absolute;
+    top: -960px;
+    right:15px;
+  }
 
+  }
 
 
 
@@ -101,4 +142,19 @@
     padding: 10px 13px 0px 13px  !important;
     justify-content: center;
   }
+
+  .img-tijera{
+    position: absolute;
+    top: -990px;
+    right:15px;
   }
+
+
+
+  }
+
+  @media (max-width: 576px) {
+
+  
+  
+    }
