@@ -7,4 +7,10 @@
 
 
 
-  
+/*abajo redondeado / arriba plano */
+.rounded-seb-10 {
+  border-radius: 0px 0px 10px 10px;
+}
+.rounded-set-10 {
+  border-radius: 10px 10px 0px 0px;
+}
