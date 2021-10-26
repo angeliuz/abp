@@ -58,6 +58,12 @@
   --draco: #fde9cc;
   --ron: #e30613;
   --shogun: #f7f9df;
+  --padme:#FFD500;
+  --jawa:#FFD000;
+  --yoda:#D6D3E9;
+  --quigon:#BAB5D7;
+  --windu:#D6D2E8;
+  --bobafett:#E3E1F0;
 }
 
 /* COLORES */
@@ -360,6 +366,25 @@
 .color-shogun {
   color: var(--shogun);
 }
+.color-padme {
+  color: var(--padme);
+}
+.color-jawa {
+  color: var(--jawa);
+}
+.color-yoda {
+  color: var(--yoda);
+}
+.color-quigon {
+  color: var(--quigon);
+}
+.color-windu {
+  color: var(--windu);
+}
+.color-bobafett {
+  color: var(--bobafett);
+}
+
 
 /* BORDERS */
 .border-color-goku {
@@ -481,6 +506,24 @@
 }
 .border-color-shogun {
   border-color: var(--shogun) !important;
+}
+.border-color-padme {
+  border-color: var(--padme) !important;
+}
+.border-color-jawa {
+  border-color: var(--jawa) !important;
+}
+.border-color-yoda {
+  border-color: var(--yoda) !important;
+}
+.border-color-quigon {
+  border-color: var(--quigon) !important;
+}
+.border-color-windu {
+  border-color: var(--windu) !important;
+}
+.border-color-bobafett {
+  border-color: var(--bobafett) !important;
 }
 
 /* BACKGROUND COLORS */
@@ -604,4 +647,21 @@
 .bgc-shogun {
   background-color: var(--shogun);
 }
-
+.bgc-padme {
+  background-color: var(--padme);
+}
+.bgc-jawa {
+  background-color: var(--jawa);
+}
+.bgc-yoda {
+  background-color: var(--yoda);
+}
+.bgc-quigon {
+  background-color: var(--quigon);
+}
+.bgc-windu {
+  background-color: var(--windu);
+}
+.bgc-bobafett {
+  background-color: var(--bobafett);
+}

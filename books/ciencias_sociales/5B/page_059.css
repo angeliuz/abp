@@ -1,10 +1,10 @@
-.nat-page11 {
-    background: url(images/page_059/fondo_01.svg) #F29205 top left/ cover no-repeat !important;
+.soc-page059 {
+    background: url(images/page_059/fondo_001.svg) #543d89 top left/ cover no-repeat !important;
      -webkit-print-color-adjust: exact !important;
  
  }
  .t-shadow{
-     text-shadow: -7px -8px #D55F2A;
+     text-shadow: -7px -8px #543d89;
  }
  
  @media all and (max-width: 500px) {

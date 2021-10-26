@@ -1,7 +1,7 @@
 
 .dosier{
    position:absolute;
-   background-image: url("images/page_017/fondo_top_1.svg");
+   background-image: url("images/page_017/dosier_top_1.svg");
    height:170px;
    width: 100%;
    background-repeat:no-repeat;
@@ -13,7 +13,7 @@
 
 .footer{
     position:absolute;
-    background-image: url("images/page_017/fondo_bottom_1.svg");
+    background-image: url("images/page_017/dosier_bottom_1.svg");
     width: 100%;
     height: 32px;
     background-repeat:no-repeat;
@@ -22,30 +22,15 @@
     
  }
 
- .hoja{
-    position: relative;
-    width:10%;
-    height:100%;
-   
 
+
+ .enunciado{
+    padding-top: 180px !important;
 }
 
-/*
 
- .margenIzq{
-    position: absolute;
-    height:100%;
-    width: 40px;
- 
-}
 
-.margenDer{
-    position: absolute;
-    height:93%;
-    width: 40;
-    left: 50%;
-    float:right;
-}*/
+
 
 .flotante{
     max-width:821px;
@@ -55,6 +40,14 @@
     
 }
 
+
+.hoja{
+    position: relative;
+    width:10%;
+    height:100%;
+   
+
+}
 
 .respuesta-nombre{
     position: relative;
@@ -127,17 +120,110 @@
 
 
 
+/*
+.keko {
+    display: none;
+
+ }
+
+ .nazka{
+display: none;
+ }
+
+
+
+
+   .dosierBarra{
+    display:none !important;
+   
+}
+   .dosierLogo{
+    display:none !important;
+}
+*/
+
 @media all and (max-width: 560px) {
 
     .dosier {
-       background: url(images/page_017/fondo_top_2.svg) top left / cover no-repeat !important;
+       background: url(images/page_017/dosier_top_3.svg) no-repeat;
+       
    /*  background-image: url(images/page_017/fondo_top_2.svg) top / cover no-repeat !important;;*/
-       min-height: 200px;
+       
+       display:block;
+       margin-left:auto;
+       margin-left: auto;
+       display:none !important;
+
     }
 
 
+    .dosier-barra{
+        position:absolute;
+        background-image: url("images/page_017/dosier_barra.svg") ;
+        background-size: cover;
+        height:100px;
+        width: 100%;
+        background-repeat:no-repeat;
+        
+        z-index: 1;
+       
+    }
+    .dosier-logo{
+
+        background: url("images/page_017/dosier_logo.svg") ; 
+        repeat:no-repeat;
+        background-size: cover;
+        height:200px;
+        margin: 0 auto;
+        margin-top: 70px;
+        min-width:150px;
+        max-width:300px;
+        /* 
+        background-image: url("images/page_017/dosier_logo.svg") ;
+       */        
+    }
+
+    /*ACOMODA EL PRIMER ENUNCIADO*/
+    .enunciado{
+        padding-top: 10px !important;
+    }
+
+    
+    .img-flecha-verde{
+        position: absolute;
+        top: 300px;
+       
+    }
+
+    .img-lapices{
+    position: absolute;
+    top: 400px;
+    
+}
+
+
+    /**/
+
+/*    .keko {
+        height: 30px;background-color: #F39200;
+        margin-left:auto;
+        margin-left: auto;
+        z-index: 1;
+        -webkit-box-shadow: 0 0 10px 0 rgb(0 0 0 / 12%);
+        box-shadow: 0 0 10px 0 rgb(0 0 0 / 52%);
+    display: block;
+     }
+
+  .nazka{
+        display: block;
+        margin-top: -10px;
+     }
+     .fix-keko {
+         padding-top: 30px !important;
+     }
+*/
     .footer {
-        background-image: url("images/page_017/fondo_bottom_1.svg") bottom left / contain no-repeat !important;
+        background-image: url("images/page_017/dosier_bottom_1.svg") bottom left / contain no-repeat !important;
         min-width: 100%;
         width: 100%;
         height: 32px;
