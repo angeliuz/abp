@@ -47,8 +47,31 @@ body {
 }
 
 .rotulo-etapa{
+  width: 120px;
   margin-top: -14px;
   margin-left: 5px;
-}
+  }
+  @media (max-width: 805px) {
+  .rotulo-etapa{
+  width: 100px;
+  margin-top: -12px;
+  margin-left: 5px;
+  }
+  }
+  @media (max-width: 695px) {
+  .rotulo-etapa{
+  width: 90px;
+  margin-top: -9px;
+  margin-left: 5px;
+  }
+  }
+  @media (max-width: 575px) {
+  .rotulo-etapa{
+  width: 120px;
+  margin-top: -14px;
+  margin-left: 5px;
+  }
+  }
 
+  
 /* FIN CSS PIE DE PAGINA COLORES */
