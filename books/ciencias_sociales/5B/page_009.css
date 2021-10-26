@@ -1,0 +1,154 @@
+.cb-page9 {
+    background: url(images/page_009/fondo_003.svg) top left/ cover no-repeat !important;
+     -webkit-print-color-adjust: exact !important;
+ 
+ }
+.cb-block-superior {
+    background-color: white;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+
+    width: calc(100% - 30px);
+}
+
+.line-dotted {
+    border: 1px dashed #dedede;
+}
+
+.cb-block-arriba {
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
+}
+
+.cb-block-inicial {
+    max-width: 500px;
+    background-color: white;
+    border: 1px solid rgb(212, 86, 86);
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    position: relative;
+    width: calc(100% - 30px);
+}
+
+
+.rounded-caja {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color:var(--dark);
+}
+
+.cb-personaje{
+    position: absolute;
+    right: 55px;
+    top: -86px;
+    transform: rotate(1grad);
+  }
+
+  .cb-compu{
+    position: absolute;
+    left: -90px;
+    top: -24px;
+  }
+
+  .cb-globo{
+    position: absolute;
+    right: -33px;
+    top: -47px;
+  }
+  
+  .cb-nota{
+    position: absolute;
+    right: -26px;
+    top: -51px;
+}
+.cb-cine{
+    position: absolute;
+    left: -60px;
+    top: 32px
+}
+.cb-flechab{
+    position: absolute;
+    right: -30px;
+    top: -50px;
+}
+.cb-flechaa{
+    position: absolute;
+    left: -30px;
+    top: -50px;
+}
+.cb-submarino{
+    position: absolute;
+    left: -60px;
+    bottom: -40px;
+}
+
+.cb-binoculares{
+    position: absolute;
+    right: -30px;
+    bottom: -60px;
+}
+.cb-dosier {
+width: 50%;
+}
+.cb-column-line {
+    max-width: 200px;
+    width: calc(100% / 3);
+}
+
+
+@media all and (max-width: 829px) {
+    .cb-page9 {
+        background: url(images/page_009/fondo_004.svg) top left/ cover no-repeat !important;
+     }
+
+}
+
+@media all and (max-width: 680px) {
+
+    .cb-page9 {
+        background: url(images/page_009/fondo_004.svg) top left/ cover no-repeat !important;
+     }
+    .titulo-linea .linea{
+        width: 100%;
+    }
+
+    .cb-compu{
+        display: none;
+    }
+    .cb-globo{
+        display: none;
+    }
+    .cb-nota{
+        display: none;
+    }
+    .cb-cine{
+        display: none;
+    }
+    .cb-flechab{
+        display: none;
+    }
+    .cb-flechaa{
+        display: none;
+    }
+    .cb-submarino{
+        display: none;
+    }
+    .cb-binoculares{
+        display: none;
+    }
+    .cb-dosier{
+        width: 90%;
+        }
+    
+}
