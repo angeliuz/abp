@@ -40,7 +40,6 @@
     border-radius: 20px 20px 0px 0px;
   }
   
-
   
   .caja {
     background-image: url(../3B/images/cabecera/caja.svg);
@@ -74,4 +73,29 @@
 
   .psp--120{
     padding-left: -120px;
+  }
+
+  .linea{
+    border-bottom: 2px dotted black;
+    padding-top: 10px;
+    padding-bottom: 1px;
+  }
+
+  #bg {
+    position: fixed; 
+    top: -60px; 
+    left: -30px; 
+    width: 216px; 
+    height: 60px;
+  }
+  #bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+    z-index: 0; 
   }
