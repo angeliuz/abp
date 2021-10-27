@@ -8,7 +8,7 @@
  }
 
  .cb-outline{
-    outline: solid 2px #E85152;
+    outline: solid 2px #b80e80;
     outline-offset: -3px;
 }
 .cb-contenedor-1{
@@ -21,8 +21,15 @@
     margin-left: 110px;
     margin-bottom: 70px;
     display: flex;
-    margin-top: 30px;
+    margin-top: 60px;
 }
+.cb-contenedor-3{
+    justify-content: end;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
 
 .cb-titulo{
     margin-left: 40px;
@@ -55,6 +62,13 @@
         margin-top: 10px;
     }
     .cb-contenedor-2{
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .cb-contenedor-3{
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
