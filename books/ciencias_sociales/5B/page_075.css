@@ -96,17 +96,36 @@
 
 .cb-lapiz{
   position: absolute;
-    left: 25px;
-    bottom: 70px;
-    transform: rotate(-25deg);
+    right: -15px;
+    top: -10px;
+    transform: rotate(14deg);
 }
 .cb-carta{
   position: absolute;
-    right: -35px;
-    top: 10px;
-    transform: rotate(5deg);
+    left: -35px;
+    bottom: 10px;
 }
-
+.linea {
+  border-bottom: 1px dashed #dedede;
+  padding-top: 5px;
+  border-color:var(--dark);
+}
+.cb-interior-caja{
+  background-color: white;
+  margin: -8px -8px 20px -8px;
+  border-radius: 8px 8px 0px 0px;
+  padding: 5px 10px;
+}
+.cb-outline{
+  outline: solid 4px #ffffff;
+  outline-offset: -5px;
+}
+.cb-block {
+  border: 1px solid #d390c0;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 @media (max-width: 820px) {
   .cabecera {
@@ -158,6 +177,11 @@ display: none;
 
 @media (max-width: 450px) {
   .cabecera {
-    height: 370px;
+    height: 410px;
+  }
+}
+@media (max-width: 390px) {
+  .cabecera {
+    height: 430px;
   }
 }
