@@ -64,6 +64,7 @@
   --quigon:#BAB5D7;
   --windu:#D6D2E8;
   --bobafett:#E3E1F0;
+  --kokomi:#f4e6f1;
 }
 
 /* COLORES */
@@ -384,6 +385,10 @@
 .color-bobafett {
   color: var(--bobafett);
 }
+.color-kokomi {
+  color: var(--kokomi);
+}
+
 
 
 /* BORDERS */
@@ -525,6 +530,9 @@
 .border-color-bobafett {
   border-color: var(--bobafett) !important;
 }
+.border-color-kokomi {
+  border-color: var(--kokomi) !important;
+}
 
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -664,4 +672,7 @@
 }
 .bgc-bobafett {
   background-color: var(--bobafett);
+}
+.bgc-kokomi {
+  background-color: var(--kokomi);
 }
