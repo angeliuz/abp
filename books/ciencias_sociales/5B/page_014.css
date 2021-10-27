@@ -1,0 +1,19 @@
+.cuadrado-naranja{
+    -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 96% 100%, 8% 100%);
+    background-color: #F29205;
+    height: 87px;
+  }
+  
+.cabecera{
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
+    background-color: var(--bulma);
+    height: 80px;
+  }
+
+.tf-outlineblanco{
+    outline: solid 2px #f8f7f6;
+    outline-offset: -3px;
+}
+
