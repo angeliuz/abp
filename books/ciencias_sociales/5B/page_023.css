@@ -44,8 +44,8 @@
 }
 .centrado1{
   position: absolute;
-  top: 300px;
-  left: 765px;
+  top: 665px;
+  left: 795px;
   transform: translate(-50%, -50%);
   height: 40px;
   width: 150px;
@@ -54,7 +54,7 @@
 }
 .centrado2{
   position: absolute;
-  top: 910px;
+  top: 925px;
   left: 370px;
   transform: translate(-50%, -50%);
   height: 40px;
@@ -64,8 +64,8 @@
 }
 .centrado3{
   position: absolute;
-  top: 720px;
-  left: 795px;
+  top:235px;
+  left: 775px;
   transform: translate(-50%, -50%);
   height: 40px;
   width: 150px;
