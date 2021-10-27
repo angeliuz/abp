@@ -15,6 +15,13 @@
   border-radius: 10px 10px 0px 0px;
 }
 
+.rounded-sb {
+  border-radius: 0px 0px 0px 20px;
+}
+.rounded-eb {
+  border-radius: 0px 0px 20px 0px;
+}
+
 
 .alinea{
   margin: 0 auto;
@@ -31,5 +38,25 @@
 
 .fondo-completo{
   border-color: var(--piccolo) !important;
+
+}
+
+
+
+
+
+@media all and (max-width: 991px) {
+
+.caja1{
+  border-radius: 0px 0px 10px 10px !important;
+  padding-right: 17px !important;
+  padding-top: 12px;
+}
+.caja2{
+  border-radius: 10px 10px 10px 10px !important;
+  padding-left: 17px !important;
+  padding-top: 12px;
+  margin-top: 20px !important;
+}
 
 }
