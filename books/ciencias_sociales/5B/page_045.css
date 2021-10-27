@@ -7,11 +7,20 @@
     text-shadow: -7px -8px #0067a9;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 550px) {
+    .ft-m {
+        font-size: 60px;
+    }
+    .t-shadow{
+        text-shadow: -5px -6px #0067a9;
+    }
+}
+
+@media all and (max-width: 430px) {
     .ft-m {
         font-size: 40px;
     }
     .t-shadow{
-        text-shadow: -5px -6px #0067a9;
+        text-shadow: -4px -5px #0067a9;
     }
 }
