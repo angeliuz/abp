@@ -5,18 +5,19 @@
     height: 87px;
   }
   
-  .cabecera{
+.cabecera{
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
     clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
     background-color: var(--bulma);
-    height: 210px;
+    height: 220px;
   }
 
-.cb-outlineblanco{
+.tf-outlineblanco{
     outline: solid 2px #f8f7f6;
     outline-offset: -3px;
 }
-.cb-hojaamarilla-content {
+
+.tf-hojaamarilla-content {
   position: relative;
   z-index: 3;
   background: #fefcfb;
@@ -24,11 +25,10 @@
   font-size: 16px;
 }  
 
-.cb-hojaamarilla{
+.tf-hojaamarilla{
   position: absolute;
     right: -35px;
     top: -10px;
-    transform: rotate(5deg);
 }
 
 .hojaamarilla_rotate{
@@ -39,20 +39,15 @@
   right: -65px;
   top: -25px;
   z-index:1;
-  transform: rotate(-4.1deg);
 }
 
-.cb-lapiz{
+.tf-lapiz{
   position: absolute;
     right: 95px;
     top: 210px;
-    transform: rotate(5deg);
-}
-.espacioblanco{
-  height: 160px;
 }
 
-.cantante{
+.tf-cantante{
   display: flex;
   justify-content:center;
   align-items: center;
@@ -62,10 +57,13 @@
   height: 145px;
   width: 115px;
   z-index:1;
-  transform: rotate(-4.1deg);
 }
 
-  .rect-sesion{
+.espacioblanco{
+  height: 160px;
+}
+
+.rect-sesion{
     background-color: #ffcc00;
     border: 4px solid white;
     padding: 5px 8px 0px 8px;
@@ -95,7 +93,7 @@
   
   
   .caja {
-    background-image: url(../3B/images/cabecera/caja.svg);
+    background-image: url(../5B/images/page_013/img_001.svg);
     background-repeat: no-repeat;
     background-size: contain;
     padding: 10px 10px 10px 10px;
@@ -106,7 +104,7 @@
     padding: 0;
   }
   .cabecera {
-    height: 320px;
+    height: 420px;
   }
   .rotar {
     transform: rotate(90deg);
