@@ -102,6 +102,14 @@
     padding: 10px 10px 10px 10px;
   }
   
+  @media (max-width: 820px) {
+
+.tf-lapiz{
+      display:none;
+    }
+
+  }
+
   @media (max-width: 576px) {
 .cambio {
     padding: 0;
