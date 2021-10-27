@@ -4,3 +4,11 @@
     background-color: var(--android18);
     height: 130px;
   }
+  .linea{
+    border-bottom: 2px dotted #dedede;
+    padding-top: 5px;
+    width: 50px;
+   
+    
+  
+}
