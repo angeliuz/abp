@@ -52,6 +52,7 @@
     display: flex;
 }
 
+
 @media all and (max-width: 820px) {
 
     .cb-lineas {
@@ -59,52 +60,52 @@
      }
 
      #page_012{
-        min-height: 800px !important;
+        min-height: 100% !important;
     }
 
-    .cb-contenedor-1{
+.cb-contenedor-1{
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 10px;
         margin-top: 10px;
     }
-    .cb-contenedor-2{
+.cb-contenedor-2{
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 10px;
         margin-top: 10px;
     }
-    .cb-contenedor-3{
+.cb-contenedor-3{
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 10px;
         margin-top: 10px;
     }
-    .cb-contenedor-4{
+.cb-contenedor-4{
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 10px;
         margin-top: 10px;
     }
-    .cb-titulo{
+.cb-titulo{
         display: flex;
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
     }
-    .cb-cohete{
+.cb-cohete{
         display: flex;
         justify-content: center;
         transform: rotate(90deg);
         margin-left: auto;
         margin-right: auto;
     }
-    .cb-cabecera{
+.cb-cabecera{
         display: inline;
     }
     
