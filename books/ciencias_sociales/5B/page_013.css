@@ -12,7 +12,7 @@
     height: 210px;
   }
 
-  .cb-outlineblanco{
+.cb-outlineblanco{
     outline: solid 2px #f8f7f6;
     outline-offset: -3px;
 }
@@ -27,7 +27,7 @@
 .cb-hojaamarilla{
   position: absolute;
     right: -35px;
-    top: 10px;
+    top: -10px;
     transform: rotate(5deg);
 }
 
@@ -36,10 +36,31 @@
   justify-content:center;
   align-items: center;
   position: absolute;
-  right: 10px;
-  top: 5px;
-  /* height: 60px; */
-  /* width: 216px; */
+  right: -65px;
+  top: -25px;
+  z-index:1;
+  transform: rotate(-4.1deg);
+}
+
+.cb-lapiz{
+  position: absolute;
+    right: 95px;
+    top: 210px;
+    transform: rotate(5deg);
+}
+.espacioblanco{
+  height: 160px;
+}
+
+.cantante{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  position: absolute;
+  right: -75px;
+  top: 75px;
+  height: 145px;
+  width: 115px;
   z-index:1;
   transform: rotate(-4.1deg);
 }
