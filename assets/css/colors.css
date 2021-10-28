@@ -65,6 +65,7 @@
   --windu:#D6D2E8;
   --bobafett:#E3E1F0;
   --kokomi:#f4e6f1;
+  --azuka:#ebf4d5;
 }
 
 /* COLORES */
@@ -675,4 +676,7 @@
 }
 .bgc-kokomi {
   background-color: var(--kokomi);
+}
+.bgc-azuka {
+  background-color: var(--azuka);
 }
