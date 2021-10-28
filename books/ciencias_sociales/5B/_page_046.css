@@ -1,0 +1,42 @@
+.fondo-linea {
+    background: url(images/page_046/linea-01.svg) top center / contain no-repeat !important;
+    -webkit-print-color-adjust: exact !important;
+}
+
+.cuadro {
+    background: url(images/page_046/rect.svg) top left / cover no-repeat !important;
+    -webkit-print-color-adjust: exact !important;
+    width: 325px;
+    height: 78.2407px;
+}
+
+.caja-flotante {
+    /* background-color: aqua; */
+    max-width: 820px;
+    width: calc(100% - 20px);
+}
+
+#page_046 {
+    min-height: 1060px;
+}
+
+@media all and (max-width: 700px) {
+    .fondo-linea {
+        background: url(images/page_046/linea-02.svg) top center / contain no-repeat !important;
+        height: 100%;
+     }
+     .cohete-abajo {
+        transform: rotate(90deg);
+        margin-left: calc(50% - 45px);
+     }
+     .sube-img {
+         padding-top: 50px;
+         padding-bottom: 10px;
+     }
+     #page_046 {
+        min-height: 800px !important;
+    }
+    .centra-text {
+        text-align: center;
+    }
+}
