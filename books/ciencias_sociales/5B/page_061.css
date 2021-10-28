@@ -106,10 +106,10 @@
   }
 
   
-@media (max-width: 658px) {
+@media (max-width: 673px) {
 
   .cabecera {
-    height: 200px;
+    height: 240px;
   }
 
 
@@ -130,7 +130,7 @@
     padding: 0;
   }
   .cabecera {
-    height: 320px;
+    height: 250px;
   }
   .rotar {
     transform: rotate(90deg);
@@ -154,7 +154,25 @@
   }
 
   @media (max-width: 576px) {
+    .cabecera {
+      height: 360px;
+    }
 
+    
+    .cambio {
+      width: 100%;
+      padding-top: 5px;
+      margin: 0 auto;
+      text-align: center !important;
+
+    }
+  
+    }
+
+  @media (max-width: 355px) {
+    .cabecera {
+      height: 390px;
+    }
   
   
     }
