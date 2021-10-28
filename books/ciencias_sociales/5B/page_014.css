@@ -17,3 +17,20 @@
     outline-offset: -3px;
 }
 
+.mtp--120{
+  margin-top: -120px;
+}
+
+.mtp--20{
+  margin-top: -20px;
+}
+
+.caja_draco{
+  height: 550px;
+  width: 250px;
+}
+
+.espacioblanco_caja{
+  height: 230px;
+  width: 250px;
+}

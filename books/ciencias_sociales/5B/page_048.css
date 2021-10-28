@@ -11,55 +11,18 @@
     width: 100%;
 }
 
-.caja {
-    background-image: url(images/page_047/caja.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 12px;
-    width: 158px;
-    height: 56px;
-    text-align: center;
-}
-
-@media (max-width: 608px) {
-  .cabecera {
-    height: 215px;
-  }
-  .centrar {
-    justify-content: center;
-  }
-  .cambio {
-    color: var(--garou);
-    padding-top: 3px;
-  }
-}
-
-@media (max-width: 591px) {
-  .cabecera {
-    height: 235px;
-  }
-}
-
-@media (max-width: 575px) {
+@media (max-width: 767px) {
   .rotar {
     transform: rotate(90deg);
-    margin: 10px;
-    width: 20px;
-  }
-  .cabecera {
-    height: 340px;
-  }
-  .rotar-flecha {
-    transform: rotate(90deg);
-    padding-top: 20px;
+    margin-left: calc(100% - 40px);
+    margin-top: 10px;
+    margin-bottom: -20px;
+    width: 60px;
   }
   .separa {
-    padding-top: 10px;
+    padding-bottom: 15px;
   }
-}
-
-@media (max-width: 450px) {
-  .cabecera {
-    height: 370px;
+  .espacio {
+    margin-bottom: 15px;
   }
 }

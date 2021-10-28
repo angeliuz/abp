@@ -529,6 +529,9 @@
 .ms-10 {
   margin-left: 10%;
 }
+.ms-12 {
+  margin-left: 12%;
+}
 .ms-15 {
   margin-left: 15%;
 }
@@ -771,6 +774,9 @@
 
 .me-5 {
   margin-right: 5%;
+}
+.me-8 {
+  margin-right: 8%;
 }
 .me-10 {
   margin-right: 10%;
