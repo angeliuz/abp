@@ -1,14 +1,48 @@
 .cabecera{
-    -webkit-clip-path: polygon(100% 100%, 0% 0%, 0% 0%, 8% 0%);
-    clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
-    background-color: var(--android18);
-    height: 130px;
-  }
-  .linea{
-    border-bottom: 2px dotted #dedede;
-    padding-top: 5px;
-    width: 50px;
-   
-    
-  
+  -webkit-clip-path: polygon(100% 100%, 0% 0%, 0% 0%, 8% 0%);
+  clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
+  background-color: var(--android18);
+  height: 130px;
 }
+.linea{
+  border-bottom: 2px dotted #dedede;
+  padding-top: 25px;
+}
+.container-row{
+  margin-left: 20px;
+  margin-right: 20px;
+  
+  } 
+  .linea1{
+    margin: 0 auto;
+  }
+  .cajota{
+    height: 300px;
+  }
+
+  .lupa{
+    top: 1050px;
+    left: 35px;
+    transform: translate(-50%, -50%);
+    height: auto;
+    width: 100px;
+    text-align: center;
+    visibility: visible;
+  }
+  .espiral{
+  height: auto;
+  width: 150px;
+  margin-top: 160px;
+  margin-left: -45px;
+  visibility: visible;
+  
+  }
+  .lapiz{
+    top: 300px;
+    left: 780px;
+    transform: translate(-50%, -50%);
+    height: auto;
+    width: 100px;
+    text-align: center;
+    visibility: visible;
+  }
