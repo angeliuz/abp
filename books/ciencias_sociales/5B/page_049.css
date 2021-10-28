@@ -28,22 +28,27 @@
   height: 100%;
 }
 
-@media (max-width: 608px) {
+@media (max-width: 727px) {
   .cabecera {
-    height: 215px;
+    height: 190px;
   }
   .centrar {
     justify-content: center;
   }
-  .cambio {
-    padding-top: 3px;
+}
+
+@media (max-width: 613px) {
+  .cabecera {
+    height: 215px;
   }
 }
 
-@media (max-width: 591px) {
+@media (max-width: 583px) {
   .cabecera {
-    height: 235px;
+    height: 260px;
   }
+  .cambio {
+    padding-top: 3px;
 }
 
 @media (max-width: 575px) {
@@ -64,8 +69,14 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 425px) {
   .cabecera {
     height: 370px;
+  }
+}
+
+@media (max-width: 423px) {
+  .cabecera {
+    height: 390px;
   }
 }
