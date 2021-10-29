@@ -1,0 +1,93 @@
+.cabecera{
+    -webkit-clip-path: polygon(100% 100%, 0% 0%, 0% 0%, 8% 0%);
+    clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
+    background-color: var(--android18);
+    height: 130px;
+  }
+  
+  
+  .container-row{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    } 
+    
+    .cajota{
+      height: 800px;
+      margin-left:40px;
+      margin-right:40px;
+     
+      
+    }
+ 
+
+    .hoja{
+      top: 850px;
+      left: 725px;
+      transform: translate(-50%, -50%);
+      height: auto;
+      width: 130px;
+      text-align: center;
+      visibility: visible;
+    }
+
+    .lapiz{
+        top: 450px;
+        left: 95px;
+        transform: translate(-50%, -50%);
+        height: auto;
+        width: 70px;
+        text-align: center;
+        visibility: visible;
+      }
+
+      .dibujo{
+        top: 940px;
+        left: 130px;
+        transform: translate(-50%, -50%);
+        height: auto;
+        width: 350px;
+        text-align: center;
+        visibility: visible;
+      }
+    
+      
+     
+        
+        @media (max-width: 992px) {
+            .hoja{
+                top: 850px;
+                left: 725px;
+                transform: translate(-50%, -50%);
+                height: auto;
+                width: 130px;
+                text-align: center;
+                visibility: hidden;
+              }
+          
+              .lapiz{
+                  top: 450px;
+                  left: 95px;
+                  transform: translate(-50%, -50%);
+                  height: auto;
+                  width: 70px;
+                  text-align: center;
+                  visibility: hidden;
+                }
+          
+                .dibujo{
+                  top: 940px;
+                  left: 130px;
+                  transform: translate(-50%, -50%);
+                  height: auto;
+                  width: 350px;
+                  text-align: center;
+                  visibility: hidden;
+                }
+        }
+        @media (max-width: 576px) {
+            .cajota{
+              margin: 0 auto; 
+              
+              }
+          }
