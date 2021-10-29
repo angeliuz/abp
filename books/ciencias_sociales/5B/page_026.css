@@ -6,84 +6,84 @@
   }
   
   
-  .container-row{
+.container-row{
     margin-left: 20px;
     margin-right: 20px;
     
-    } 
+  } 
     
-    .cajota{
-      height: 800px;
-      margin-left:40px;
-      margin-right:40px;
+.cajota{
+    height: 800px;
+    margin-left:40px;
+    margin-right:40px;
      
       
-    }
+  }
  
 
-    .hoja{
-      top: 850px;
-      left: 725px;
-      transform: translate(-50%, -50%);
-      height: auto;
-      width: 130px;
-      text-align: center;
-      visibility: visible;
-    }
+.hoja{
+    top: 850px;
+    left: 725px;
+    transform: translate(-50%, -50%);
+    height: auto;
+    width: 130px;
+    text-align: center;
+    visibility: visible;
+  }
 
-    .lapiz{
-        top: 450px;
-        left: 95px;
-        transform: translate(-50%, -50%);
-        height: auto;
-        width: 70px;
-        text-align: center;
-        visibility: visible;
-      }
+.lapiz{
+    top: 450px;
+    left: 95px;
+    transform: translate(-50%, -50%);
+    height: auto;
+    width: 70px;
+    text-align: center;
+    visibility: visible;
+  }
 
-      .dibujo{
-        top: 960px;
-        left: 130px;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        visibility: visible;
-      }
+.dibujo{
+    top: 960px;
+    left: 130px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+     visibility: visible;
+  }
     
       
      
         
-        @media (max-width: 992px) {
-            .hoja{
-                top: 850px;
-                left: 725px;
-                transform: translate(-50%, -50%);
-                height: auto;
-                width: 130px;
-                text-align: center;
-                visibility: hidden;
-              }
+@media (max-width: 992px) {
+      .hoja{
+          top: 850px;
+          left: 725px;
+          transform: translate(-50%, -50%);
+          height: auto;
+          width: 130px;
+          text-align: center;
+          visibility: hidden;
+  }
           
-              .lapiz{
-                  top: 450px;
-                  left: 95px;
-                  transform: translate(-50%, -50%);
-                  height: auto;
-                  width: 70px;
-                  text-align: center;
-                  visibility: hidden;
-                }
+      .lapiz{
+          top: 450px;
+          left: 95px;
+          transform: translate(-50%, -50%);
+          height: auto;
+          width: 70px;
+          text-align: center;
+          visibility: hidden;
+  }
           
-                .dibujo{
-                  top: 960px;
-                  left: 130px;
-                  transform: translate(-50%, -50%);
-                  text-align: center;
-                  visibility: hidden;
-                }
-        }
-        @media (max-width: 576px) {
-            .cajota{
-              margin: 0 auto; 
+      .dibujo{
+          top: 960px;
+          left: 130px;
+          transform: translate(-50%, -50%);
+          text-align: center;
+          visibility: hidden;
+  }
+    }
+@media (max-width: 576px) {
+      .cajota{
+          margin: 0 auto; 
               
               }
-          }
+    }
