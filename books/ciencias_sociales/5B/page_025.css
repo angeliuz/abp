@@ -92,11 +92,29 @@
               text-align: center;
               visibility: hidden;
             }
+            .afiche{
+                top: 890px;
+                left: 620px;
+                transform: translate(-50%, -50%);
+                height: auto;
+                width: 600px;
+                text-align: center;
+                visibility: hidden;
+              }
         }
         @media (max-width: 576px) {
-          .cajita2{
-            margin-left:20px ;
-            margin-right: 20px;  
-            margin-bottom: 20px;
+          .cajota{
+            margin: 0 auto; 
+            
             }
         }
+
+        @media (max-width: 576px) {
+            .afiche{
+            top: 1000px;
+              left: 330px;
+              visibility: visible;
+              width: 450px;
+              
+              }
+          }
