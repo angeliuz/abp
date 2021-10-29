@@ -46,17 +46,17 @@
         left: 100px;
         transform: translate(-50%, -50%);
         height: auto;
-        width: 350px;
+        width: 600px;
         text-align: center;
         visibility: visible;
       }
     
       .afiche{
         top: 890px;
-        left: 620px;
+        left: 600px;
         transform: translate(-50%, -50%);
         height: auto;
-        width: 600px;
+        width: 400px;
         text-align: center;
         visibility: visible;
       }
@@ -109,12 +109,4 @@
             }
         }
 
-        @media (max-width: 576px) {
-            .afiche{
-            top: 1000px;
-              left: 330px;
-              visibility: visible;
-              width: 450px;
-              
-              }
-          }
+        
