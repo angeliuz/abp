@@ -66,6 +66,7 @@
   --bobafett:#E3E1F0;
   --kokomi:#f4e6f1;
   --azuka:#ebf4d5;
+  --arlo:#2cbfc2;
 }
 
 /* COLORES */
@@ -679,4 +680,7 @@
 }
 .bgc-azuka {
   background-color: var(--azuka);
+}
+.bgc-arlo {
+  background-color: var(--arlo);
 }
