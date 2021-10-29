@@ -34,9 +34,17 @@ margin-bottom: 20px;
   
   margin-bottom: 20px;
   margin-right: 20px;
-    
-  }
+}
+.texto{
 
+  padding-top: 10px;
+  margin-left: 55px;
+}
+.texto1{
+
+  padding-top: 10px;
+  margin-left: 25px;
+}
   .lupa{
     top: 1000px;
     left: 45px;
