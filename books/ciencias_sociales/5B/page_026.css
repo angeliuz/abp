@@ -42,11 +42,9 @@
       }
 
       .dibujo{
-        top: 940px;
+        top: 960px;
         left: 130px;
         transform: translate(-50%, -50%);
-        height: auto;
-        width: 350px;
         text-align: center;
         visibility: visible;
       }
@@ -76,11 +74,9 @@
                 }
           
                 .dibujo{
-                  top: 940px;
+                  top: 960px;
                   left: 130px;
                   transform: translate(-50%, -50%);
-                  height: auto;
-                  width: 350px;
                   text-align: center;
                   visibility: hidden;
                 }
