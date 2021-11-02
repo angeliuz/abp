@@ -49,10 +49,11 @@ cuadrado-verde{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-    
-    
 }
 
+.rounded-tb-20 {
+  border-radius: 20px 10px 20px 10px;
+}
 
   @media (max-width: 576px) {
   .cambio {
