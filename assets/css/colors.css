@@ -67,6 +67,7 @@
   --kokomi:#f4e6f1;
   --azuka:#ebf4d5;
   --arlo:#2cbfc2;
+  --buzz:#fddbb6;
 }
 
 /* COLORES */
@@ -390,7 +391,9 @@
 .color-kokomi {
   color: var(--kokomi);
 }
-
+.color-buzz {
+  color: var(--buzz);
+}
 
 
 /* BORDERS */
@@ -534,6 +537,9 @@
 }
 .border-color-kokomi {
   border-color: var(--kokomi) !important;
+}
+.border-color-buzz {
+  border-color: var(--buzz) !important;
 }
 
 /* BACKGROUND COLORS */
@@ -683,4 +689,7 @@
 }
 .bgc-arlo {
   background-color: var(--arlo);
+}
+.bgc-buzz {
+  background-color: var(--buzz);
 }
