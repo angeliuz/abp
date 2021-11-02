@@ -51,8 +51,19 @@
 
 .img-mono{
   position: absolute;
-  top: -240 px;
-  right: 35px;
+  top: -250px;
+  right: 15px;
+}
+
+.img-regla{
+  position: absolute;
+  top: -50px;
+  right: 75px;
+}
+.img-lapiz{
+  position: absolute;
+  top: 45px;
+  left: 75px;
 }
 
 
@@ -84,6 +95,7 @@
   padding-right: 17px !important;
   padding-top: 12px;
   border: none !important;
+  
 }
 .caja2{
   border-radius: 10px 10px 10px 10px !important;
@@ -112,8 +124,8 @@
 @media all and (max-width: 450px) {
 
   .fila-ancho{
-    margin-left: 40px !important;
-    margin-right: 40px !important;
+    margin-left: 50px !important;
+    margin-right: 50px !important;
   
   }
 
@@ -152,7 +164,6 @@
     margin-left:0px !important;
     margin-right: 0px;
   }
-
   
   }
 
@@ -162,8 +173,30 @@
 
 
 
+@media all and (max-width: 720px) {
+  .img-mono{
+    display:none;
+  }
 
 
+}
+
+@media all and (max-width: 760px) {
+  .img-lapiz{
+    position: absolute;
+    top: 45px;
+    left: 6%;
+  }
+  
+
+}
+
+@media all and (max-width: 570px) {
+  .img-regla{
+    display:none;
+  }
+
+}
 
 
  /*MEDIAS V1  */
@@ -201,7 +234,7 @@
 
 
 
-@media all and (max-width: 465px) {
+@media all and (max-width: 500px) {
 
   .ajuste-cuadro {
     height: 145px;
@@ -209,9 +242,22 @@
 
   .ajuste-cuadro2 {
     height: 200px;
+    background-color: aqua;
   }
 
 
+}
+
+@media all and (max-width: 462px) {
+
+  .ajuste-cuadro {
+    height: 145px;
+  }
+
+  .ajuste-cuadro2 {
+    height: 200px;
+    background-color: aqua;
+  }
 
 
 }
