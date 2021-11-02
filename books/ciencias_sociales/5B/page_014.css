@@ -134,15 +134,13 @@
     bottom: 60px;
 }    
 
-@media (max-width: 575px) {
+@media (max-width: 760px) {
   .rotar {
     transform: rotate(90deg);
     margin: 10px;
     width: 20px;
   }
-  .cabecera {
-    height: 340px;
-  }
+
   .rotar-flecha {
     transform: rotate(90deg);
     padding-top: 20px;
@@ -150,4 +148,26 @@
   .separa {
     padding-top: 10px;
   }
+
+  .tf-tablet{
+    display:none;
+  }
+
+  .tf-semaforo{
+    top: 780px;
+  }
+
+  .tf-fila-ancho{
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    justify-content: center !important;
+  }
+
+  .tf-ajuste-cuadro{
+    height: 100px;
+  }
+
+  .tf-espaciotexto{
+  text-overflow: clip; 
+}
 }
