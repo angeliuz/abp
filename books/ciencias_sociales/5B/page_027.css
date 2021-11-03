@@ -126,78 +126,35 @@ text-align: center;
  
 @media (max-width: 992px) {
   .circulo {
-      width: 250px;
-      height: 250px;
-      margin-left: 260px;
-      margin-top: 250px;
-      border-radius: 50%;
-      background: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      visibility: hidden;
+    display: none;
       
   }
   .flecha{
-      top: 550px;
-      left: 315px;
-      transform: translate(-50%, -50%);
-      height: 40px;
-      width: 150px;
-      text-align: center;
-      visibility: hidden;
+    display: none;
     
     }
     
     .flecha1{
-      top: 540px;
-      margin-left:80px;
-      transform: translate(-50%, -50%);
-      height: 40px;
-      width: 150px;
-      text-align: center;
-      visibility: hidden;
+      display: none;
     
     }
     
     .flecha2{
-      top: 720px;
-      left: 320px;
-      transform: translate(-50%, -50%);
-      height: 40px;
-      width: 150px;
-      text-align: center;
-      visibility: hidden;
+      display: none;
     
     }
   
     .megafono{
-      top: 630px;
-      left: 720px;
-      transform: translate(-50%, -50%);
-      text-align: center;
-      visibility: hidden;
+      display: none;
     
     }
 }
     
 
       
-@media (max-width: 576px) {
+@media all and (max-width: 680px) {
   .circulo {
-      width: 250px;
-      height: 250px;
-      margin-left: 260px;
-      margin-top: 250px;
-      border-radius: 50%;
-      background: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      visibility: hidden;
-      
+    display: none;
   }
   .flecha{
       top: 550px;
@@ -211,33 +168,17 @@ text-align: center;
     }
     
     .flecha1{
-      top: 540px;
-      margin-left:80px;
-      transform: translate(-50%, -50%);
-      height: 40px;
-      width: 150px;
-      text-align: center;
-      visibility: hidden;
+      display: none;
     
     }
     
     .flecha2{
-      top: 720px;
-      left: 320px;
-      transform: translate(-50%, -50%);
-      height: 40px;
-      width: 150px;
-      text-align: center;
-      visibility: hidden;
+      display: none;
     
     }
   
     .megafono{
-      top: 630px;
-      left: 720px;
-      transform: translate(-50%, -50%);
-      text-align: center;
-      visibility: hidden;
+      display: none;
     
     }
 }
