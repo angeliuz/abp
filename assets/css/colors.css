@@ -68,6 +68,7 @@
   --azuka:#ebf4d5;
   --arlo:#2cbfc2;
   --buzz:#fddbb6;
+  --rex: #79d2f5;
 }
 
 /* COLORES */
@@ -394,6 +395,9 @@
 .color-buzz {
   color: var(--buzz);
 }
+.color-rex {
+  color: var(--rex);
+}
 
 
 /* BORDERS */
@@ -540,6 +544,9 @@
 }
 .border-color-buzz {
   border-color: var(--buzz) !important;
+}
+.border-color-rex {
+  border-color: var(--rex) !important;
 }
 
 /* BACKGROUND COLORS */
@@ -692,4 +699,7 @@
 }
 .bgc-buzz {
   background-color: var(--buzz);
+}
+.bgc-rex {
+  background-color: var(--rex);
 }
