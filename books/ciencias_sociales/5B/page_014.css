@@ -99,6 +99,7 @@
   position: absolute;
   top: 140px;
   right: -48px;
+  text-align: center;
 }
 
 .tf-margenes{
@@ -109,7 +110,7 @@
   margin-bottom: 0px;
 }
 
-.alinea{
+.tf-alinea{
   margin: 0 auto;
 }
 
@@ -119,7 +120,7 @@
   padding-bottom: 1px;
   }
 
-  @media (max-width: 985px) {
+@media (max-width: 985px) {
 
   .tf-caja-contenedora{
   display: inline;
@@ -130,15 +131,19 @@
 }
 
   .tf-flecha-uno{
-  right: 384px;
-  top: 177px;
-  transform: rotate(90deg);
+  /* right: 384px;
+  top: 177px; */
+  position: absolute;
+  text-align: center;
+  /* transform: rotate(90deg); */
 }
 
   .tf-margenes{
   margin-bottom: 40px;
   
 }
+
+
 
     /* .caja1{
       border-radius: 0px 0px 10px 10px !important;
