@@ -155,6 +155,7 @@
 
   .tf-semaforo{
     top: 780px;
+    left: 44px;
   }
 
   .tf-fila-ancho{
@@ -167,7 +168,10 @@
     height: 100px;
   }
 
-  .tf-espaciotexto{
-  text-overflow: clip; 
 }
+
+@media (max-width: 587px){
+  .tf-semaforo{
+    display: none;
+  }
 }
