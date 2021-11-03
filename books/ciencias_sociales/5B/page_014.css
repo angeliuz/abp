@@ -77,7 +77,9 @@
 .tf-tablet-content {
   position: relative;
   z-index: 3;
-  background: #fefcfb;
+  right: 100px;
+  top: -290px;
+  /* background: #fefcfb; */
 }
 
 .tf-tablet{
@@ -113,9 +115,9 @@
 
 .tf-semaforo{
     position: absolute;
-    margin-bottom: -35px;
-    left: 110px;
-    bottom: 60px;
+    /* margin-bottom: -35px; */
+    /* left: 110px; */
+    /* bottom: 60px; */
 }   
 
 .tf-flecha-uno{
@@ -168,83 +170,17 @@
   
 }
 
-
-
-    /* .caja1{
-      border-radius: 0px 0px 10px 10px !important;
-      padding-right: 17px !important;
-      padding-top: 12px;
-      border: none !important;
-      
-    }
-    .caja2{
-      border-radius: 10px 10px 10px 10px !important;
-      padding-left: 17px !important;
-      padding-top: 12px;
-      margin-top: 20px !important;
-      border: none !important;
-    } */
     
     }
   
 
 
-@media (max-width: 980px) {
-  /* .rotar {
-    transform: rotate(90deg);
-    margin: 60px;
-    margin-left: -20px;
-    width: 50px;
-  }
-
-  .rotar-flecha-uno {
-    transform: rotate(90deg);
-    padding-top: 70px;
-    margin-left: 200px;
-    margin-top: -100px;
-    position: absolute;
-  
-  }
-
-  .rotar-flecha-dos {
-    transform: rotate(90deg);
-    padding-top: 10px;
-    margin-left: -30px;
-    margin-top: 155px;
-    position: absolute;
-  } */
-
-
+@media (max-width: 672px){
   .tf-tablet{
-    display:none;
-  }
-
-  .tf-semaforo{
-    top: 780px;
-    left: 44px;
-  }
-
-
-}
-
-@media (max-width: 587px){
-  .tf-semaforo{
     display: none;
   }
 
 }
-
-/* @media (max-width: 815px){
-  .caja_dracogrande{
-    height: 300px;
-    width: 550px;
-  }
-
-  .caja_draco{
-    height: 210px;
-    width: 550px;
-  }
-} */
 
 
 @media (max-width: 608px) {
@@ -262,12 +198,18 @@
     margin-left: 0px;
     margin-top: -20px;
   }
+
+  .tf-tablet{
+    display:none;
+  }
+
 }
 
 @media (max-width: 591px) {
   .cabecera {
     height: 80px;
   }
+
 }
 
 @media (max-width: 575px) {
