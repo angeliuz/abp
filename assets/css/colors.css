@@ -69,6 +69,8 @@
   --arlo:#2cbfc2;
   --buzz:#fddbb6;
   --rex: #79d2f5;
+  --woody: #a7dff8;
+  --sid: #bde7f9;
 }
 
 /* COLORES */
@@ -398,7 +400,12 @@
 .color-rex {
   color: var(--rex);
 }
-
+.color-woody {
+  color: var(--woody);
+}
+.color-sid {
+  color: var(--sid);
+}
 
 /* BORDERS */
 .border-color-goku {
@@ -547,6 +554,12 @@
 }
 .border-color-rex {
   border-color: var(--rex) !important;
+}
+.border-color-woody {
+  border-color: var(--woody) !important;
+}
+.border-color-sid {
+  border-color: var(--sid) !important;
 }
 
 /* BACKGROUND COLORS */
@@ -702,4 +715,10 @@
 }
 .bgc-rex {
   background-color: var(--rex);
+}
+.bgc-woody {
+  background-color: var(--woody);
+}
+.bgc-sid {
+  background-color: var(--sid);
 }
