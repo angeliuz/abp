@@ -135,7 +135,9 @@
   top: 177px; */
   position: absolute;
   text-align: center;
-  /* transform: rotate(90deg); */
+  align-items: center;
+  justify-content: center;
+  transform: rotate(90deg);
 }
 
   .tf-margenes{
