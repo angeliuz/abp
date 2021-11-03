@@ -286,6 +286,10 @@
   .separa {
     padding-top: 10px;
   }
+
+  .caja-puntos{
+    width: 100px;
+  }
 }
 
 @media (max-width: 450px) {
