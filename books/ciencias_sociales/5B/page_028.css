@@ -1,0 +1,118 @@
+.cabecera{
+    -webkit-clip-path: polygon(100% 100%, 0% 0%, 0% 0%, 8% 0%);
+    clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
+    background-color: var(--android18);
+    height: 130px;
+  }
+  
+  
+  .container-row{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    } 
+    
+    .cajota{
+      height: 250px;
+      margin-left:40px;
+      margin-right:40px;
+     
+      
+    }
+ 
+    .cajamadre{
+
+       
+    }
+    .espacio{
+        height: 160px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+      }
+      
+    .linea {
+        border-bottom: 2px dotted lightgray;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        
+      }
+      
+      
+
+      .lineainterior{
+        outline: solid 2px #f8f7f6;
+        outline-offset: -3px;
+    }
+
+    .hoja{
+      top: 215px;
+      left: 725px;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      
+    }
+
+    .calendario{
+        top: 1010px;
+        left: 700px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        
+      }
+
+      .celular{
+        top: 830px;
+        left: 110px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        
+      }
+    
+      @media all and (max-width: 992px) {
+        .hoja{
+            display: none;
+              }
+          
+        .lapiz{
+            display: none;
+                }
+          
+        .celular{
+            display: none;
+        }
+        .calendario{
+            display: none;
+          }
+
+    }
+     
+        
+        @media all and (max-width: 680px) {
+        .hoja{
+            display: none;
+              }
+          
+        .lapiz{
+            display: none;
+                }
+          
+        .celular{
+            display: none;
+        }
+        .calendario{
+            display: none;
+          }
+
+    }
+        @media all and  (max-width: 680px) {
+            .cajota{
+              margin: 0 auto; 
+              
+              }
+              .container-row{
+
+                margin: 0 auto;
+              }
+              
+              
+          }
