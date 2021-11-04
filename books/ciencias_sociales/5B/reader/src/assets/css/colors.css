@@ -19,23 +19,23 @@
   --white: white;
 
   --goku: #FECB00;
-  --bulma: #F29205;
+  --bulma: #f39200;
   --krillin: #D55F2A;
   --piccolo: #FDE9D4;
   --gohan: #DAE4B0;
   --vegeta: #F4B4CF;
   --trunks: #C3E3F5;
-  --goten: #E85152;
-  --yamcha: #F4B0A4;
-  --tshinhan: #F9CA8D;
-  --android18: #93BF21;
-  --milk: #D0DF9C;
-  --pidgey: #129CC4;
-  --freezer: #86CCE2;
-  --saitama: #7C6EAE;
-  --ash: #BCB3D7;
-  --pikachu: #B60F7F;
-  --leono: #D697C0;
+  --goten: #ea5153;
+  --yamcha: #f3afa4;
+  --tshinhan: #f9c980;
+  --android18: #afca0b;
+  --milk: #d7e585;
+  --pidgey: #009dc5;
+  --freezer: #80cee2;
+  --saitama: #7c6eb0;
+  --ash: #beb7d8;
+  --pikachu: #b80e80;
+  --leono: #db86bf;
   --tigro: #FCDFBB;
   --pantro: #CBE8F7;
   --chitara: #E2EBC4;
@@ -49,9 +49,28 @@
   --leia: #009DC5;
   --hansolo: #EAF6FB;
   --garou: #231F20;
-  --obiwan: #F39200;
-  
-  /*--boros: #29c4b3; */
+  --obiwan: #f39200;
+  --misty: #d7dd3b;
+  --boros: #dedc00;
+  --harry: #66c4dc;
+  --hermione: #e6f5f9;
+  --voldemort: #f7b34d;
+  --draco: #fde9cc;
+  --ron: #e30613;
+  --shogun: #f7f9df;
+  --padme:#FCDB76;
+  --jawa:#FFD000;
+  --yoda:#BAB0D9;
+  --quigon:#A7A1CD;
+  --windu:#D6D2E8;
+  --bobafett:#E3E1F0;
+  --kokomi:#f4e6f1;
+  --azuka:#ebf4d5;
+  --arlo:#2cbfc2;
+  --buzz:#fddbb6;
+  --rex: #79d2f5;
+  --woody: #a7dff8;
+  --sid: #bde7f9;
 }
 
 /* COLORES */
@@ -333,7 +352,60 @@
 .color-obiwan {
   color: var(--obiwan);
 }
-
+.color-misty {
+  color: var(--misty);
+}
+.color-harry {
+  color: var(--harry);
+}
+.color-hermione {
+  color: var(--hermione);
+}
+.color-voldemort {
+  color: var(--voldemort);
+}
+.color-draco{
+  color: var(--draco);
+}
+.color-ron {
+  color: var(--ron);
+}
+.color-shogun {
+  color: var(--shogun);
+}
+.color-padme {
+  color: var(--padme);
+}
+.color-jawa {
+  color: var(--jawa);
+}
+.color-yoda {
+  color: var(--yoda);
+}
+.color-quigon {
+  color: var(--quigon);
+}
+.color-windu {
+  color: var(--windu);
+}
+.color-bobafett {
+  color: var(--bobafett);
+}
+.color-kokomi {
+  color: var(--kokomi);
+}
+.color-buzz {
+  color: var(--buzz);
+}
+.color-rex {
+  color: var(--rex);
+}
+.color-woody {
+  color: var(--woody);
+}
+.color-sid {
+  color: var(--sid);
+}
 
 /* BORDERS */
 .border-color-goku {
@@ -435,6 +507,60 @@
 .border-color-obiwan {
   border-color: var(--obiwan) !important;
 }
+.border-color-misty {
+  border-color: var(--misty) !important;
+}
+.border-color-harry {
+  border-color: var(--harry) !important;
+}
+.border-color-hermione {
+  border-color: var(--hermione) !important;
+}
+.border-color-voldemort {
+  border-color: var(--voldemort) !important;
+}
+.border-color-draco {
+  border-color: var(--draco) !important;
+}
+.border-color-ron {
+  border-color: var(--ron) !important;
+}
+.border-color-shogun {
+  border-color: var(--shogun) !important;
+}
+.border-color-padme {
+  border-color: var(--padme) !important;
+}
+.border-color-jawa {
+  border-color: var(--jawa) !important;
+}
+.border-color-yoda {
+  border-color: var(--yoda) !important;
+}
+.border-color-quigon {
+  border-color: var(--quigon) !important;
+}
+.border-color-windu {
+  border-color: var(--windu) !important;
+}
+.border-color-bobafett {
+  border-color: var(--bobafett) !important;
+}
+.border-color-kokomi {
+  border-color: var(--kokomi) !important;
+}
+.border-color-buzz {
+  border-color: var(--buzz) !important;
+}
+.border-color-rex {
+  border-color: var(--rex) !important;
+}
+.border-color-woody {
+  border-color: var(--woody) !important;
+}
+.border-color-sid {
+  border-color: var(--sid) !important;
+}
 
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -535,4 +661,64 @@
 }
 .bgc-obiwan {
   background-color: var(--obiwan);
+}
+.bgc-misty {
+  background-color: var(--misty);
+}
+.bgc-harry {
+  background-color: var(--harry);
+}
+.bgc-hermione {
+  background-color: var(--hermione);
+}
+.bgc-voldemort {
+  background-color: var(--voldemort);
+}
+.bgc-draco {
+  background-color: var(--draco);
+}
+.bgc-ron {
+  background-color: var(--ron);
+}
+.bgc-shogun {
+  background-color: var(--shogun);
+}
+.bgc-padme {
+  background-color: var(--padme);
+}
+.bgc-jawa {
+  background-color: var(--jawa);
+}
+.bgc-yoda {
+  background-color: var(--yoda);
+}
+.bgc-quigon {
+  background-color: var(--quigon);
+}
+.bgc-windu {
+  background-color: var(--windu);
+}
+.bgc-bobafett {
+  background-color: var(--bobafett);
+}
+.bgc-kokomi {
+  background-color: var(--kokomi);
+}
+.bgc-azuka {
+  background-color: var(--azuka);
+}
+.bgc-arlo {
+  background-color: var(--arlo);
+}
+.bgc-buzz {
+  background-color: var(--buzz);
+}
+.bgc-rex {
+  background-color: var(--rex);
+}
+.bgc-woody {
+  background-color: var(--woody);
+}
+.bgc-sid {
+  background-color: var(--sid);
 }
