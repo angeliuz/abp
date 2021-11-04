@@ -5,7 +5,7 @@ function Page005() {
     return (
         <div>
             <div className="wrapper bgc-light">
-                    <div className="d-flex flex-column align-items-center pbp-50">
+                    <div className="d-flex flex-column align-items-center pbp-10">
             
                         <div className="page position-relative nat-page11" id="page_005">
                             <div className="mep-0 position-absolute top-0 end-0">

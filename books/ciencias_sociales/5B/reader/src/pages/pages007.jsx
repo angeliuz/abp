@@ -1,28 +1,107 @@
 import React from 'react';
-import './page_005.css';
+import './page_007.css';
 
-function Page005() {
+function Page007() {
     return (
         <div>
-            <div className="wrapper bgc-light">
-                    <div className="d-flex flex-column align-items-center pbp-50">
-            
-                        <div className="page position-relative nat-page11" id="page_005">
-                            <div className="mep-0 position-absolute top-0 end-0">
-                                <div className="d-flex justify-content-start bgc-goku color-goten ptp-55 pb-2 px-3 text-center mep-55 rounded-seb-20 lh-1">
-                                    <div className="f-pixilate-regular fsp-25"> APRENDO CON <br/>  <span className="f-Ubuntu-R fw-800 fsp-22">PROYECTOS</span> </div>
+                <div class="wrapper bgc-light">
+                        <div class="d-flex flex-column align-items-center pbp-50">
+                            <div class="page bgc-white overflow-hidden position-relative" id="page_07">
+                                <div class="cabecera">
+                                    <div class="row row-cols-1 row-cols-sm-2 ptp-20 ps-5 centrar">
+                                        <div class="col-auto fsp-24 f-IntroRustG-Base color-garou caja">SESIÓN 1</div>
+                                        <div class="col fsp-24 f-Ubuntu-M color-white ptp-10 psp-15 cambio">Tenemos un desafío</div>
+                                    </div>
+                                    <div class="row f-colby-compres-medium fsp-17 lh-sm text-white text-center psp-60 pep-60 justify-content-center hp-60">
+                                        <div class="col p-0 align-self-center">Mis objetivos en<br> esta sesión son:</div>
+                                        <div class="col-sm-auto p-0 align-self-end"><img src="../5B/images/page_007/img_001.svg" class="wp-40 rotar"></div>
+                                        <div class="col p-0 align-self-center">Averiguar en qué consiste<br> el desafío.</div>
+                                        <div class="col-sm-auto p-0 align-self-start"><img src="../5B/images/page_007/img_003.svg" class="wp-40 rotar"></div>
+                                        <div class="col p-0 align-self-center">Comprender la <br> importancia del desafío.</div>
+                                        <div class="col-sm-auto p-0 align-self-end"><img src="../5B/images/page_007/img_001.svg" class="wp-40 rotar"></div>
+                                        <div class="col-auto ptp-10 pbp-5 color-garou cb-caja">Comprometerme <br> con el desafío.</div>
+                                    </div>
                                 </div>
+
+                                <div class="ptp-10 psp-60 mbp-80" style="padding-left: 6%; padding-right: 6%">
+                                    <div class="d-flex">
+                                        <div class="f-ccdigitaldelivery-bold fsp-35 color-goten">1</div>
+                                        <div class="f-Ubuntu-R fsp-16 ptp-18 psp-10">Veo el video, leo la carta y destaco las ideas principales.</div>
+                                    <img src="../5B/images/page_007/img_002.jpg" class="cambio hp-40 text-center mtp-10 psp-10 pep-40">
+                                    </div>
+                                    <div class="cb-paper">
+                                        <div class="cb-paper-content f-Ubuntu-L">
+                                            <img src="../5B/images/page_007/img_002.png" class="cb-carta" alt="">
+                                            <img src="../5B/images/page_007/img_001.png" class="cb-lapiz" alt="">
+                                            <p>Queridos estudiantes,</p>
+                                            <p>Soy dirigente de una organización que promueve el respeto de
+                                                los derechos de todas las personas en Chile.</p>
+
+                                            <p>Junto con nuestro equipo, hemos impulsado numerosas
+                                                iniciativas y reflexiones. A partir de ellas, aprendimos que es
+                                                fundamental que todos los integrantes de la comunidad estén
+                                                informados sobre los derechos y su situación actual.</p>
+
+                                            <p>Es por ello que decidimos proponer un desafío a estudiantes de
+                                                todo el país. Los invitamos a crear y publicar una revista centrada
+                                                en los derechos de las personas. En ella incluirán noticias y
+                                                un reportaje sobre la actualidad, entrevistas a personas de su
+                                                entorno y una campaña de difusión. Además, plantearán su
+                                                postura sobre el tema.</p>
+
+                                            <p>El formato de la revista será digital e impreso, y es fundamental
+                                                que la difundan en su comunidad escolar. De este modo,
+                                                contribuirán a una sociedad más justa, consciente de sus logros y
+                                                atenta a posibles mejoras.</p>
+
+                                            <p>¡Quedamos atentos a su respuesta!</p>
+                                            <p class="cb-paper-sign">Se despide con cariño, <br /> Nibaldo.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style="bottom: 70px; right:0px">
+                                    <div class="f-Ubuntu-M fsp-10 position-absolute mbp-60" style="transform: rotate(270deg);">ABP &copy; SM</div>
+                                    <div class="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">07</div>
+                                </div>
+                                <div class="row position-absolute caja-flotante2 p-0 m-0 align-items-end" style="bottom:0">
+                                    <div class="col-7 col-sm-2 p-0 m-0">
+                                    <img src="../../../assets/images/rotulo_motivacion.svg" class="visible rotulo-etapa position-absolute">
+                                        <div class="w-100 hp-15 bgc-yamcha" style="border-radius: 0px 20px 0px 0px;"></div>
+                                        <div class="w-100 hp-25 bgc-goten"></div>
+                                    </div>
+                                    <div class="col-1 col-sm-2 p-0 m-0">
+                                        <img src="../../../assets/images/rotulo_planificacion.svg" class="oculto">
+                                        <div class="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
+                                        <div class="w-100 hp-25 bgc-bulma"></div>
+                                    </div>
+                                    <div class="col-1 col-sm-2 p-0 m-0">
+                                    <img src="../../../assets/images/rotulo_investigacion.svg" class="oculto">
+                                        <div class="w-100 hp-15 bgc-milk rounded-caja"></div>
+                                        <div class="w-100 hp-25 bgc-android18"></div>
+                                    </div>
+                                    <div class="col-1 col-sm-2 p-0 m-0">
+                                    <img src="../../../assets/images/rotulo_experimentacion.svg" class="oculto">
+                                        <div class="w-100 hp-15 bgc-freezer rounded-caja"></div>
+                                        <div class="w-100 hp-25 bgc-pidgey"></div>
+                                    </div>
+                                    <div class="col-1 col-sm-2 p-0 m-0">
+                                    <img src="../../../assets/images/rotulo_creacion.svg" class="oculto">
+                                        <div class="w-100 hp-15 bgc-ash rounded-caja"></div>
+                                        <div class="w-100 hp-25 bgc-saitama"></div>
+                                    </div>
+                                    <div class="col-1 col-sm-2 p-0 m-0">
+                                    <img src="../../../assets/images/rotulo_difusion.svg" class="oculto">
+                                        <div class="w-100 hp-15 bgc-leono" style="border-radius: 20px 0px 0px 0px;"></div>
+                                        <div class="w-100 hp-25 bgc-pikachu"></div>
+                                    </div>
+                                </div>
+
                             </div>
-                            <div className="position-absolute top-50 start-50 translate-middle">
-                                <div className="fw-700 fsp-80 text-center color-white ft-m">
-                                    <span className="f-hanoded-butterflyball t-shadow">MOTIVACIÓN</span>
-                                </div>
-                            </div>       
                         </div>
                     </div>
-            </div>
         </div>
     );
   }
   
-  export default Page005;
+  export default Page007;
