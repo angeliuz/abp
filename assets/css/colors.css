@@ -71,6 +71,7 @@
   --rex: #79d2f5;
   --woody: #a7dff8;
   --sid: #bde7f9;
+  --betty: #e6e2d0;
 }
 
 /* COLORES */
@@ -406,6 +407,9 @@
 .color-sid {
   color: var(--sid);
 }
+.color-betty {
+  color: var(--betty);
+}
 
 /* BORDERS */
 .border-color-goku {
@@ -560,6 +564,9 @@
 }
 .border-color-sid {
   border-color: var(--sid) !important;
+}
+.border-color-betty {
+  border-color: var(--betty) !important;
 }
 
 /* BACKGROUND COLORS */
@@ -721,4 +728,7 @@
 }
 .bgc-sid {
   background-color: var(--sid);
+}
+.bgc-betty {
+  background-color: var(--betty);
 }
