@@ -119,6 +119,16 @@
                     display: none;
                   
                 }
+                .cajita{
+                  left: 102px;
+                  top:calc(18% - 2px);
+                  
+                }
+                .cajita2{
+                  left: 102px;
+                  top:calc(29% - 4px);
+                  
+                }
 
     }
         @media all and  (max-width: 680px) {
