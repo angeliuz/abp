@@ -43,7 +43,7 @@
 width: 250px;
 height: 250px;
 margin-left: 260px;
-margin-top: 280px;
+margin-top: 240px;
 border-radius: 50%;
 background: white;
 display: flex;
@@ -76,8 +76,8 @@ text-align: center;
 
 
 .flecha{
-  top: 570px;
-  left: 330px;
+  top: 540px;
+  left: 320px;
   transform: translate(-50%, -50%);
   height: 40px;
   width: 150px;
@@ -86,7 +86,7 @@ text-align: center;
 }
 
 .flecha1{
-  top: 565px;
+  top: 530px;
   margin-left:70px;
   transform: translate(-50%, -50%);
   height: 40px;
@@ -96,7 +96,7 @@ text-align: center;
 }
 
 .flecha2{
-  top: 750px;
+  top: 710px;
   left: 320px;
   transform: translate(-50%, -50%);
   height: 40px;
