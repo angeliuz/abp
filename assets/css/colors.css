@@ -73,6 +73,7 @@
   --sid: #bde7f9;
   --betty: #e6e2d0;
   --rukia:#5AB041;
+  --klee:#ebd0e4;
 }
 
 /* COLORES */
@@ -420,6 +421,9 @@
 .color-rukia {
   color: var(--rukia);
 }
+.color-klee {
+  color: var(--klee);
+}
 
 /* BORDERS */
 .border-color-goku {
@@ -587,6 +591,10 @@
 .border-color-rukia {
   border-color: var(--rukia) !important;
 }
+.border-color-klee {
+  border-color: var(--klee) !important;
+}
+
 
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -753,4 +761,7 @@
 }
 .bgc-rukia {
   background-color: var(--rukia);
+}
+.bgc-klee {
+  background-color: var(--klee);
 }
