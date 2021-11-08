@@ -411,6 +411,9 @@
 .color-betty {
   color: var(--betty);
 }
+.color-rukia {
+  color: var(--rukia);
+}
 
 /* BORDERS */
 .border-color-goku {
