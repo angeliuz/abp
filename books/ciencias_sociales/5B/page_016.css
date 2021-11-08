@@ -13,18 +13,6 @@
   }
 
 
-
-.caja-flotante {
-    /* background-color: aqua; */
-    max-width: 820px;
-    width: 100%;
-}
-
-.flecha{
-  width: 40px;
-  margin-left: -5px;
-}
-
 .caja {
     background-image: url(images/page_047/caja.svg);
     background-repeat: no-repeat;
@@ -80,7 +68,6 @@
   z-index: 3;
   right: 30px;
   top: -55px;
-  /* background: #fefcfb; */
 }
 
 .tf-personaje{
@@ -95,8 +82,9 @@
 .col-parrafo {
     justify-content: center !important;
     width: 100%;
-    margin-top: -80px;
+    text-align: center;
 }
+
   
 
 
