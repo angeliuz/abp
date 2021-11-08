@@ -72,7 +72,7 @@
   --woody: #a7dff8;
   --sid: #bde7f9;
   --betty: #e6e2d0;
-  --rukia:#5bac40;
+  --rukia:#5AB041;
 }
 
 /* COLORES */
@@ -396,6 +396,12 @@
 .color-kokomi {
   color: var(--kokomi);
 }
+.color-azuka {
+  color: var(--azuka);
+}
+.color-arlo {
+  color: var(--arlo);
+}
 .color-buzz {
   color: var(--buzz);
 }
@@ -557,6 +563,12 @@
 .border-color-kokomi {
   border-color: var(--kokomi) !important;
 }
+.border-color-azuka {
+  border-color: var(--azuka) !important;
+}
+.border-color-arlo {
+  border-color: var(--arlo) !important;
+}
 .border-color-buzz {
   border-color: var(--buzz) !important;
 }
@@ -571,6 +583,9 @@
 }
 .border-color-betty {
   border-color: var(--betty) !important;
+}
+.border-color-rukia {
+  border-color: var(--rukia) !important;
 }
 
 /* BACKGROUND COLORS */
