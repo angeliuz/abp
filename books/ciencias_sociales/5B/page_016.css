@@ -70,113 +70,38 @@
 }
 
 
-.colorbulmanumero{
-  color: #f39200;
+.tf-outlinebetty{
+  outline: solid 2px #f7f6f3;
+  outline-offset: -3px;
 }
 
-.tf-tablet-content {
+.tf-personaje-content {
   position: relative;
   z-index: 3;
-  right: 100px;
-  top: -290px;
+  right: 30px;
+  top: -55px;
   /* background: #fefcfb; */
 }
 
-.tf-tablet{
+.tf-personaje{
   position: absolute;
     right: -35px;
-    top: -10px;
+    top: -53px;
 }
 
-.tablet_rotate{
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  position: absolute;
-  right: -85px;
-  top: -65px;
-  z-index:1;
+@media (max-width: 790px){
+
+
+.col-parrafo {
+    justify-content: center !important;
+    width: 100%;
+    margin-top: -80px;
 }
-
-.espacioflechauno{
-  margin-left: 310px;
-  margin-top: -120px;
-  position: absolute;
-}
-
-
-.tf-cajarespuesta{
-  height: 230px;
-}
-
-.tf-caja-contenedora{
-  display:flex;
-}
-
-.tf-semaforo{
-    position: absolute;
-    /* margin-bottom: -35px; */
-    /* left: 110px; */
-    /* bottom: 60px; */
-}   
-
-.tf-flecha-uno{
-  position: absolute;
-  top: 140px;
-  right: -48px;
-  text-align: center;
-}
-
-.tf-margenes{
-  margin-bottom: 0px;
-}
-
-.tf-margen-caja-dos{
-  margin-bottom: 0px;
-}
-
-.tf-alinea{
-  margin: 0 auto;
-}
-
-.tf-linea{
-  border-bottom: 2px dotted black;
-  padding-top: 32px;
-  padding-bottom: 1px;
-  }
-
-@media (max-width: 985px) {
-
-  .tf-caja-contenedora{
-  display: inline;
-}
-
-  .tf-cajarespuesta{
-  height: 130px;
-}
-
-  .tf-flecha-uno{
-  /* right: 384px;
-  top: 177px; */
-  position: absolute;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  transform: rotate(90deg);
-}
-
-  .tf-margenes{
-  margin-bottom: 40px;
-  
-}
-
-    
-    }
   
 
 
 @media (max-width: 672px){
-  .tf-tablet{
+  .tf-personaje{
     display: none;
   }
 
@@ -193,13 +118,8 @@
   .cambio {
     padding-top: 3px;
   }
-  .flecha{
-    width: 40px;
-    margin-left: 0px;
-    margin-top: -20px;
-  }
-
-  .tf-tablet{
+ 
+  .tf-personaje{
     display:none;
   }
 
@@ -208,6 +128,9 @@
 @media (max-width: 591px) {
   .cabecera {
     height: 80px;
+  }
+  .espacio-titulo{
+    margin-bottom: 10px;
   }
 
 }
@@ -221,17 +144,7 @@
   .cabecera {
     height: 80px;
   }
-  .rotar-flecha {
-    transform: rotate(90deg);
-    padding-top: 20px;
-  }
-  .separa {
-    padding-top: 10px;
-  }
 
-  .caja-puntos{
-    width: 100px;
-  }
 }
 
 @media (max-width: 450px) {
