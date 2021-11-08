@@ -1,171 +1,160 @@
 .cabecera{
-    -webkit-clip-path: polygon(100% 100%, 0% 0%, 0% 0%, 8% 0%);
-    clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
-    background-color: var(--android18);
-    height: 130px;
+  -webkit-clip-path: polygon(100% 100%, 0% 0%, 0% 0%, 8% 0%);
+  clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
+  background-color: var(--android18);
+  height: 130px;
+}
+
+
+.container-row{
+  margin-left: 20px;
+  margin-right: 20px;
+  
+  } 
+  
+  .cajota{
+    height: 380px;
+    margin-left:10px;
+    margin-right:40px;
+   
+    
   }
-  
-  
-  .container-row{
-    margin-left: 20px;
-    margin-right: 20px;
+  .cajota1{
+    height: 380px;
+    margin-left:60px;
     
-    } 
+   
     
-    .cajota{
-      width:550px;
-      height: 450px;
-      margin-left:10px;
-      margin-right:10px;
-     
+  }
+
+  
+  .espacio{
+      height: 160px;
+      margin-right: 15px;
+      margin-bottom: 20px;
+    }
+    
+  .linea {
+      border-bottom: 2px dotted lightgray;
+      padding-top: 30px;
+      padding-bottom: 0px;
       
     }
-    .cajota2{
-        width:550px;
-        height: 450px;
-        margin-left:160px;
-        
-       
-        
-      }
     
-    .espacio{
-        height: 160px;
-        margin-right: 15px;
-        margin-bottom: 20px;
-      }
-      
-    .linea {
-        border-bottom: 2px dotted lightgray;
-        padding-top: 30px;
-        padding-bottom: 0px;
-        
-      }
-      
-      
+    
 
-      .lineainterior{
-        outline: solid 2px #f8f7f6;
-        outline-offset: -3px;
-    }
+    .lineainterior{
+      outline: solid 2px #f8f7f6;
+      outline-offset: -3px;
+  }
 
-    .celulares{
-      top: 260px;
-      left: 635px;
+  .celulares{
+    top: 250px;
+    left: 740px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+
+  .escuadra{
+      top: 510px;
+      left: 45px;
       transform: translate(-50%, -50%);
       text-align: center;
       
     }
 
-    .escuadra{
-        top: 590px;
-        left: 45px;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        
-      }
+    .niño{
+      top: 560px;
+      left: 720px;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      
+    }
+    .lupa{
+      top: 750px;
+      left: 755px;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      
+    }
 
-      .niño{
-        top: 630px;
-        left: 700px;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        
-      }
-      .lupa{
-        top: 830px;
-        left: 760px;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        
-        
-      }
-      .vinocular{
-        top: 1120px;
-        left: 205px;
-        transform: translate(-50%, -50%);
-        text-align: center;
+    .vinoculares{
+      top: 980px;
+      left: 110px;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      
+    }
+  
+  
+    @media all and (max-width: 992px) {
+      .celulares{
+        display: none;
         
       }
     
-      @media all and (max-width: 992px) {
+      .escuadra{
+        display: none;
+          
+        }
+    
+        .niño{
+          display: none;
+          
+        }
+        .lupa{
+          display: none;
+          
+        }
+    
+        .vinoculares{
+          display: none;
+          
+        }
+
+  }
+   
+      
+      @media all and (max-width: 680px) {
         .celulares{
+          display: none;
+          
+        }
+      
+        .escuadra{
+          display: none;
+            
+          }
+      
+          .niño{
+            display: none;
+            
+          }
+          .lupa{
             display: none;
             
           }
       
-          .escuadra{
+          .vinoculares{
             display: none;
-              
-            }
-      
-            .niño{
-                display: none;
-              
-            }
-            .lupa{
-                display: none;
-              
-              
-            }
-            .vinocular{
-                display: none;
-              
-            }
-          .cajota2{
-            width:550px; 
-            margin-left:80px;
+            
+          }
+
+  }
+      @media all and  (max-width: 680px) {
+          .cajota{
+            margin: 0 auto; 
             
             }
-            .cajota{
-                width:550px; 
-                margin-left:80px;
-                
-                }
-
-    }
-     
-        
-        @media all and (max-width: 680px) {
-            .celulares{
-                display: none;
-                
-              }
-          
-              .escuadra{
-                display: none;
-                  
-                }
-          
-                .niño{
-                    display: none;
-                  
-                }
-                .lupa{
-                    display: none;
-                  
-                  
-                }
-                .vinocular{
-                    display: none;
-                  
-                }
-
-    }
-        @media all and  (max-width: 680px) {
-            .cajota{
-              width:400px; 
+            .cajota1{
               margin: 0 auto; 
               
               }
-              .container-row{
+            .container-row{
 
-                margin: 0 auto;
-              }
-              
-              .cajota2{
-                width:400px; 
-                margin: 0 auto; 
-                
-                }
-          }
+              margin: 0 auto;
+            }
+            
+            
+        }
