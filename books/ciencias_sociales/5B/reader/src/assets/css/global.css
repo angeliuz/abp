@@ -22,9 +22,9 @@ body {
 }
 
 /* CSS PIE DE PAGINA COLORES */
-.caja-flotante {
+.caja-flotante2 {
   max-width: 821px;
-  width: calc(100%);
+  width: 100%;
 }
 
 .cuadrado-naranja{
@@ -37,6 +37,12 @@ body {
 .rounded-caja {
   border-radius: 20px 20px 0px 0px;
 }
+.rounded-caja-start {
+  border-radius: 0px 20px 0px 0px;
+}
+.rounded-caja-end {
+  border-radius: 20px 0px 0px 0px;
+}
 
 .visible{
   visibility:visible;
@@ -47,7 +53,31 @@ body {
 }
 
 .rotulo-etapa{
-  margin-top: -15px;
-}
+  width: 120px;
+  margin-top: -16px;
+  margin-left: 5px;
+  }
+  @media (max-width: 805px) {
+  .rotulo-etapa{
+  width: 100px;
+  margin-top: -14px;
+  margin-left: 5px;
+  }
+  }
+  @media (max-width: 695px) {
+  .rotulo-etapa{
+  width: 90px;
+  margin-top: -12px;
+  margin-left: 5px;
+  }
+  }
+  @media (max-width: 575px) {
+  .rotulo-etapa{
+  width: 120px;
+  margin-top: -16px;
+  margin-left: 5px;
+  }
+  }
+
 
 /* FIN CSS PIE DE PAGINA COLORES */
