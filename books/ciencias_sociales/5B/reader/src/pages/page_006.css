@@ -12,10 +12,10 @@
     outline-offset: -3px;
 }
 .cb-contenedor-1{
-    justify-content: end;
+    /* display: flex; */
+    /* justify-content: end; */
     margin-right: 10px;
     margin-bottom: 10px;
-    display: flex;
 }
 .cb-contenedor-2{
     margin-left: 110px;

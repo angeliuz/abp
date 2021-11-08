@@ -41,13 +41,14 @@
 }
 
 .caja {
-  background-image: url(../5B/images/page_007/img_000.svg);
+  background-image: url(images/page_007/img_000.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 10px 10px 10px 10px;
+  background-position: center;
+  padding: 8px;
 }
 .cb-caja {
-  background-image: url(../5B/images/page_007/img_002.svg);
+  background-image: url(images/page_007/img_002.svg);
   background-repeat: no-repeat;
   background-size: contain;
 
@@ -107,6 +108,15 @@
     transform: rotate(5deg);
 }
 
+/* Jorge */
+.contenedor-pagina{
+  padding-left: 6%; padding-right: 6%
+}
+
+.section-name{
+  justify-content: start;
+}
+
 @media (max-width: 576px) {
   .cambio {
       padding: 0;
@@ -135,5 +145,8 @@
     }
     .cb-carta {
       display: none;
+  }
+  .section-name{
+    justify-content: center;
   }
 }
