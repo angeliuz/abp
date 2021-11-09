@@ -16,12 +16,14 @@
     height: 380px;
     margin-left:10px;
     margin-right:40px;
+    overflow: hidden;
    
     
   }
   .cajota1{
     height: 380px;
     margin-left:60px;
+    overflow: hidden;
     
    
     
