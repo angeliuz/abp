@@ -7,6 +7,22 @@
     height: 250px; 
     margin-bottom: 60px;
  }
+
+ /* Agregado Aldo */
+.tf-Ubuntu-L {
+    font-family: "Ubuntu-L", sans-serif;
+}
+.text-center {
+    text-align: center!important;
+}
+.tf-outlineblanco {
+    outline: solid 2px #f8f7f6;
+    outline-offset: -3px;
+}
+.style-text {
+    font-size: 14px;
+    font-family: "Ubuntu-M", sans-serif;
+}
 .cb-block-superior {
     max-width: 160px;
     border-radius: 10px;

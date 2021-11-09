@@ -6,13 +6,6 @@
 }
 
 
-.cajota{
-  height: 800px !important;
-  margin-left:40px;
-  margin-right:40px;
-  
-  
-}
 
 .alinea {
   margin: 0 auto;
@@ -27,19 +20,22 @@
   height: 230px !important;
 }
 
-
-.recuadro{
-  position: absolute;
-  bottom: 70px;
-  right: 70px;
-
+.cuadro-lista{
+  bottom: 80px;
+  right: 50px;
+  height: 270px;
+  width: 270px;
 }
+
+ 
 
 .img-mono {
   position: absolute;
-  top: -160px;
-  left: 50px;
+  top: -140px;
+  left: 40px;
 }
+
+
 
 
 
@@ -198,38 +194,14 @@
 
 }
 
-/*
-@media all and (max-width: 400px) {
 
-  .con-parrafo{
-    width: 100%;
-    justify-content: center !important;
-    vertical-align: top !important;
+@media all and (max-width: 600px) {
+  .cuadro-lista{
+    bottom: 60px;
+    right: 50px;
+    height: 270px;
+    width: 270px;
   }
-
-  .ajusta-col{
-    width: 100%;
-    justify-content: center !important;
-    vertical-align: top !important;
-  }
-
-
-  .ajusta-alto{
-    
-    display:block;
-  
-    height: 90px !important;
-    padding-top: 0px !important;
-    vertical-align: top !important;
-    margin-top: 0px !important;
-  }
-  .rotar {
-    transform: rotate(90deg);
-    padding-top:100px !important;
-    justify-content: center !important;
-    margin: 0 auto !important; 
-  }
-
 
 }
-*/
+
