@@ -1,0 +1,119 @@
+.cb-cabecera {
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
+  background-color: var(--saitama);
+  height: 80px;
+}
+
+
+
+/*abajo redondeado / arriba plano */
+ 
+ 
+
+
+.alinea {
+  margin: 0 auto;
+}
+
+
+.caja2 {
+  background-image: url(images/page_047/caja.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 12px;
+  width: 158px;
+  height: 56px;
+  text-align: center;
+}
+
+
+
+/*       FIN ESTILOS BASE        */
+
+
+.img-paleta1{
+
+right: 60px;
+}
+.img-camara{
+top: -200px;
+left: 40px;
+}
+.img-mono {
+position: absolute;
+top: -110px;
+right: 50px;
+}
+
+
+.wp-250 {
+  width:  250px;
+}
+.wp-300 {
+  width:  300px;
+}
+.hp-280{
+height: 280px;
+}
+
+.hp-250{
+height: 250px;
+}
+
+.hp-300{
+height: 300px;
+}
+
+
+.recuadro-blanco{
+  vertical-align: bottom !important;
+}
+
+.recuadro-blanco2{
+  vertical-align: bottom !important;
+}
+
+.titulo-vinneta{
+  z-index: 1;
+  position: absolute;
+    top: 10px;
+    left:10px;
+   
+    height:100%;
+}
+.titulo-vinneta1-i2{
+  z-index: 1;
+  position: absolute;
+    top: 10px;
+    left:10px;
+   
+    height:100%;
+}
+
+.titulo-vinneta2-i2{
+  z-index: 2;
+  position: absolute;
+    top: 10px;
+    right:10px;
+   
+    height:100%;
+}
+
+
+.titulo-vinneta2{
+  position: absolute;
+  top: -50px;
+  right:-10px;
+}
+.barra{
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+
+.recuadro-titulo{
+  position: absolute;
+  top: -20px;
+
+}
