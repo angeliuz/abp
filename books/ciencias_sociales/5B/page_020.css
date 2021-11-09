@@ -1,7 +1,6 @@
 .cb-page10 {
     background: url(images/page_020/fondo_001.svg) #F29205 top left/ cover no-repeat !important;
     -webkit-print-color-adjust: exact !important;
- 
  }
  .cb-inicio{
     height: 250px; 
@@ -20,10 +19,42 @@
     outline-offset: -3px;
 }
 .style-text {
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Ubuntu-M", sans-serif;
+    text-align: center!important;
 }
-/*Aldo*/
+.style-title {
+    font-size: 16px;
+    font-family: ubuntu-M, sans-serif;
+    color: #fff;
+}
+.ra-pep {
+    padding-right: 5%;
+}
+.ra-psp {
+    padding-left: 5%;
+}
+.rf-pep {
+    padding right: 10%;
+}
+.rf-psp {
+    padding left: 10%;
+}
+@media all and (max-width: 768px){
+    .ra-pep {
+        padding-right: 15px;
+    }
+    .ra-psp {
+        padding-left: 15px;
+    }
+    .rf-pep {
+        padding right: 20%;
+    }
+    .rf-psp {
+        padding left: 20%;
+    }
+}
+/*Aldo 830*/
 .cb-block-superior {
     max-width: 160px;
     border-radius: 10px;
