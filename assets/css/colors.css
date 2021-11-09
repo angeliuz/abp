@@ -74,6 +74,8 @@
   --betty: #e6e2d0;
   --rukia:#5AB041;
   --klee:#ebd0e4;
+  --palpatine:#67BD43;
+   
 }
 
 /* COLORES */
@@ -424,6 +426,11 @@
 .color-klee {
   color: var(--klee);
 }
+.color-palpatine {
+  color: var(--palpatine);
+}
+
+
 
 /* BORDERS */
 .border-color-goku {
@@ -593,6 +600,9 @@
 }
 .border-color-klee {
   border-color: var(--klee) !important;
+}
+.border-color-palpatine {
+  border-color: var(--klee) !palpatine;
 }
 
 
@@ -764,4 +774,7 @@
 }
 .bgc-klee {
   background-color: var(--klee);
+}
+.bgc-palpatine {
+  background-color: var(--palpatine);
 }
