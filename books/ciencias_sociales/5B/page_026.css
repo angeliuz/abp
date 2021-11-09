@@ -28,7 +28,7 @@
     height: auto;
     width: 130px;
     text-align: center;
-    visibility: visible;
+    
   }
 
 .lapiz{
@@ -38,7 +38,7 @@
     height: auto;
     width: 70px;
     text-align: center;
-    visibility: visible;
+    
   }
 
 .dibujo{
@@ -46,7 +46,7 @@
     left: 130px;
     transform: translate(-50%, -50%);
     text-align: center;
-     visibility: visible;
+     
   }
     
       
@@ -60,7 +60,7 @@
           height: auto;
           width: 130px;
           text-align: center;
-          visibility: hidden;
+          display: none;
   }
           
       .lapiz{
@@ -70,7 +70,7 @@
           height: auto;
           width: 70px;
           text-align: center;
-          visibility: hidden;
+          display: none;
   }
           
       .dibujo{
@@ -78,7 +78,7 @@
           left: 130px;
           transform: translate(-50%, -50%);
           text-align: center;
-          visibility: hidden;
+          display: none;
   }
     }
 @media (max-width: 576px) {

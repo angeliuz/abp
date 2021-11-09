@@ -52,14 +52,14 @@ margin-bottom: 20px;
     height: auto;
     width: 100px;
     text-align: center;
-    visibility: visible;
+    
   }
   .espirales{
   height: auto;
   width: 160px;
   margin-top: 90px;
   margin-left: -48px;
-  visibility: visible;
+ 
   
   }
   .espiral-1{
@@ -67,7 +67,7 @@ margin-bottom: 20px;
     width: 25px;
     margin-top: -38px;
     margin-left: 60px;
-    visibility: visible;
+    
     
     }
     .espiral-2{
@@ -75,7 +75,7 @@ margin-bottom: 20px;
       width: 23px;
       margin-top: -38px;
       margin-left: 685px;
-      visibility: visible;
+      
       
       }
   .lapiz{
@@ -85,7 +85,7 @@ margin-bottom: 20px;
     height: auto;
     width: 100px;
     text-align: center;
-    visibility: visible;
+    
   }
 
   .rounded-set-10 {
@@ -99,14 +99,14 @@ margin-bottom: 20px;
         height: auto;
         width: 100px;
         text-align: center;
-        visibility: hidden;
+        display: none;
       }
       .espirales{
       height: auto;
       width: 160px;
       margin-top: 90px;
       margin-left: -48px;
-      visibility: hidden;
+      display: none;
       
       }
       .espiral-1{
@@ -114,7 +114,7 @@ margin-bottom: 20px;
         width: 25px;
         margin-top: -38px;
         margin-left: 60px;
-        visibility: hidden;
+        display: none;
         
         }
         .espiral-2{
@@ -122,7 +122,7 @@ margin-bottom: 20px;
           width: 23px;
           margin-top: -38px;
           margin-left: 685px;
-          visibility: hidden;
+          display: none;
           
           }
       .lapiz{
@@ -132,7 +132,7 @@ margin-bottom: 20px;
         height: auto;
         width: 100px;
         text-align: center;
-        visibility: hidden;
+        display: none;
       }
       }
 

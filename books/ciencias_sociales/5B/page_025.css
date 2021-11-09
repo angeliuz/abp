@@ -28,7 +28,7 @@
       height: auto;
       width: 160px;
       text-align: center;
-      visibility: visible;
+      
     }
 
     .pincel{
@@ -38,7 +38,7 @@
         height: auto;
         width: 45px;
         text-align: center;
-        visibility: visible;
+        
       }
 
       .pintor{
@@ -48,7 +48,7 @@
         height: auto;
         width: 600px;
         text-align: center;
-        visibility: visible;
+        
       }
     
       .afiche{
@@ -58,7 +58,7 @@
         height: auto;
         width: 400px;
         text-align: center;
-        visibility: visible;
+        
       }
      
         
@@ -70,7 +70,7 @@
             height: auto;
             width: 160px;
             text-align: center;
-            visibility: hidden;
+            display: none;
           }
       
           .pincel{
@@ -80,7 +80,7 @@
               height: auto;
               width: 45px;
               text-align: center;
-              visibility: hidden;
+              display: none;
             }
       
             .pintor{
@@ -90,7 +90,7 @@
               height: auto;
               width: 350px;
               text-align: center;
-              visibility: hidden;
+              display: none;
             }
             .afiche{
                 top: 890px;
@@ -99,7 +99,7 @@
                 height: auto;
                 width: 600px;
                 text-align: center;
-                visibility: hidden;
+                display: none;
               }
         }
         @media (max-width: 576px) {
