@@ -1,0 +1,15 @@
+.nat-page11 {
+   background: url(images/page_005/fondo_001.svg) #E85152 top left/ cover no-repeat !important;
+    -webkit-print-color-adjust: exact !important;
+
+}
+.t-shadow{
+    text-shadow: -7px -8px #bb0c20;
+}
+
+@media all and (max-width: 500px) {
+
+    .ft-m {
+        font-size: 50px;
+     }
+}
