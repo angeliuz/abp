@@ -20,13 +20,33 @@
 }
 .style-text {
     font-size: 16px;
-    font-family: "Ubuntu-M", sans-serif;
+    font-family: Ubuntu-M, sans-serif;
     text-align: center!important;
 }
 .style-title {
     font-size: 16px;
     font-family: ubuntu-M, sans-serif;
     color: #fff;
+}
+.style-caja {
+    font-size: 15px;
+    text-align: center!important;
+    color: #fff;
+}
+.parrafo-caja {
+    font-size: 13px;
+    text-align: left!important;
+    color: #000!important;
+}
+.lca {
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    color: white !important;
+
+}
+.block-1 {
+    max-width: 200px;
 }
 .ra-pep {
     padding-right: 5%;
@@ -35,10 +55,10 @@
     padding-left: 5%;
 }
 .rf-pep {
-    padding right: 10%;
+    padding-right: 10%;
 }
 .rf-psp {
-    padding left: 10%;
+    padding-left: 10%;
 }
 @media all and (max-width: 768px){
     .ra-pep {
@@ -48,10 +68,10 @@
         padding-left: 15px;
     }
     .rf-pep {
-        padding right: 20%;
+        padding-right: 15px;
     }
     .rf-psp {
-        padding left: 20%;
+        padding-left: 15px;
     }
 }
 /*Aldo 830*/
