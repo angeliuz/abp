@@ -44,6 +44,11 @@
     padding-top: 5px;
     border-color:var(--dark);
 }
+.contenedor-linea{
+  background: url(images/page_008/linea.svg);
+  -webkit-print-color-adjust: exact !important;
+  background-repeat: repeat-y;
+}
 
 .cb-personaje{
     position: absolute;
@@ -61,7 +66,7 @@
 
   .cb-interior-caja{
     background-color: white;
-    margin: -8px -8px 20px -8px;
+    margin: -8px -8px 0px -8px;
     border-radius: 8px 8px 0px 0px;
     padding: 5px 10px;
   }
@@ -69,6 +74,22 @@
   .cb-flecha{
     padding-bottom: -2px;
 }
+
+input[type=text], input[type=password]
+{
+    border:none;
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color:var(--dark);
+}
+textarea[type=text]{  
+    border:none;
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color:var(--dark);
+    height: auto;
+}    
+
 
 @media all and (max-width: 800px) {
 
