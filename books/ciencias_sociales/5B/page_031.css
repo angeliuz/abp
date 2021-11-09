@@ -42,24 +42,24 @@
  
 
   .circulo {
-	width: 200px;
-	height: 200px;
-  margin-left: 290px;
-  margin-top: 150px;
+	width: 180px;
+	height: 180px;
+  margin-left: 300px;
+  margin-top: 130px;
 	border-radius: 50%;
 	background: white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-    text-align: center;
+  text-align: center;
 }
 .tintero{
     margin-left: 620px;
 }
 
 .flecha{
-  top: 350px;
+  top: 330px;
   left: 420px;
   transform: translate(-50%, -50%);
   height: 40px;
@@ -70,7 +70,7 @@
 
 .flecha1{
   top: 495px;
-  left:680px;
+  left:700px;
   transform: translate(-50%, -50%);
   height: 40px;
   width: 150px;
@@ -79,7 +79,7 @@
 }
 
 .flecha2{
-  top: 680px;
+  top: 640px;
   left: 400px;
   transform: translate(-50%, -50%);
   height: 40px;
