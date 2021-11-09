@@ -33,17 +33,19 @@
 
 
 .img-paleta1{
+right: 60px;
+top: -25px;
+}
 
+.img-calendar{
+bottom: 150px;
 right: 60px;
 }
-.img-camara{
-top: -200px;
-left: 40px;
-}
+
 .img-mono {
 position: absolute;
-top: -110px;
-right: 50px;
+bottom: -15px;
+left: 50px;
 }
 
 
@@ -115,5 +117,18 @@ height: 300px;
 .recuadro-titulo{
   position: absolute;
   top: -20px;
+
+}
+
+
+
+@media all and (max-width: 400) {
+
+
+  .img-calendar{
+    display:none;
+    }
+
+
 
 }
