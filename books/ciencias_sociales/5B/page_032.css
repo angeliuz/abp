@@ -42,12 +42,23 @@
 top: 360px;
 left: 40px;
 transform: translate(-50%, -50%);
-height: 40px;
-width: 150px;
 text-align: center;
 
 }
+.lupa{
+top: 1200px;
+left: 30px;
+transform: translate(-50%, -50%);
+text-align: center;
 
+}
+.lapiz{
+top: 970px;
+left: 780px;
+transform: translate(-50%, -50%);
+text-align: center;
+
+}
 .linea {
   border-bottom: 2px dotted black;
   padding-top: 30px;
