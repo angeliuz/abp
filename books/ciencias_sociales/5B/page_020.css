@@ -37,6 +37,10 @@
     font-size: 13px;
     text-align: left!important;
     color: #000!important;
+    hyphens: none;
+}
+.bg-parrafo {
+    background-color: #ffe5ca;
 }
 .lca {
     border-top: 1px solid;
