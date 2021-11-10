@@ -61,6 +61,10 @@
   margin-top: -15px;
 }
 
+.mtp--10{
+  margin-top: -10px;
+}
+
 .mtp-5{
   margin-top: 5px;
 }
@@ -69,20 +73,51 @@
   padding-top: -15px;
 }
 
-.tf-caja{
-  min-height: 500px;
+.msp--40{
+  margin-left: -40px;
 }
 
-.tf-outlinebetty{
-  outline: solid 2px #f7f6f3;
+.msp--60{
+  margin-left: -60px;
+}
+
+.tf-caja{
+  min-height: 600px;
+}
+
+.tf-outlinesoldados{
+  outline: solid 2px #ee5b5e;
   outline-offset: -3px;
+}
+
+.tf-outlinetiburon{
+  outline: solid 2px #f59331;
+  outline-offset: -3px;
+}
+
+.tf-outlinebarbie{
+  outline: solid 2px #acce8c;
+  outline-offset: -3px;
+}
+
+.tf-outlineken{
+  outline: solid 2px #00accb;
+  outline-offset: -3px;
+}
+
+.tf-letrero {
+  position: absolute;
+  z-index: 3;
+  right: 80px;
+  bottom: -310px;
+
 }
 
 .tf-personaje-content {
   position: relative;
   z-index: 3;
-  right: 30px;
-  top: -150px;
+  right: 60px;
+  bottom: 285px;
 }
 
 .tf-personaje{
