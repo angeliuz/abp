@@ -76,7 +76,10 @@
   --klee:#ebd0e4;
   --palpatine:#67BD43;
   --tatooine:#F5DAC1;
- 
+  --sargento: #fcdbd3;
+  --hannah: #fee6cc;
+  --caradepapa: #ebf3d6;
+  --marcianos: #c8e9f2;
   
 }
 
@@ -434,7 +437,18 @@
 .color-tatooine {
   color: var(--tatooine);
 }
-
+.color-sargento {
+  color: var(--sargento);
+}
+.color-hannah {
+  color: var(--hannah);
+}
+.color-caradepapa {
+  color: var(--caradepapa);
+}
+.color-marcianos {
+  color: var(--marcianos);
+}
 
 
 /* BORDERS */
@@ -612,7 +626,18 @@
 .border-color-tatooine {
   border-color: var(--tatooine) !important;
 }
-
+.border-color-sargento {
+  border-color: var(--sargento) !important;
+}
+.border-color-hannah {
+  border-color: var(--hannah) !important;
+}
+.border-color-caradepapa {
+  border-color: var(--caradepapa) !important;
+}
+.border-color-marcianos {
+  border-color: var(--marcianos) !important;
+}
 
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -788,4 +813,16 @@
 }
 .bgc-tatooine {
   background-color: var(--tatooine);
+}
+.bgc-sargento {
+  background-color: var(--sargento);
+}
+.bgc-hannah {
+  background-color: var(--hannah);
+}
+.bgc-caradepapa {
+  background-color: var(--caradepapa);
+}
+.bgc-marcianos {
+  background-color: var(--marcianos);
 }
