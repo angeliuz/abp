@@ -203,7 +203,7 @@
   @media (max-width: 576px) {
     
     .cabecera {
-    height: 440px;
+    height: 360px;
     }
     .rotar {
     transform: rotate(90deg);
