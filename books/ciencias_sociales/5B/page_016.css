@@ -82,8 +82,8 @@
 
 .tf-mapa-content {
   z-index: 3;
-  right: 60px;
-  top: 30px;
+  right: -19px;
+  top: -45px;
 }
 
 .tf-mapa{
@@ -97,10 +97,9 @@
 }
 
 .tf-hoja-content {
-  position: relative;
   z-index: 3;
-  right: 15px;
-  top: -170px;
+  right: 330px;
+  top: 34px;
 }
 
 .tf-contraportada{
