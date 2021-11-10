@@ -84,6 +84,7 @@
   --tiburon: #f59331;
   --barbie: #acce8c;
   --ken: #00accb;
+  --ryu:#ece9d9;
 }
 
 /* COLORES */
@@ -464,6 +465,9 @@
 .color-ken {
   color: var(--ken);
 }
+.color-ryu {
+  color: var(--ryu);
+}
 
 /* BORDERS */
 .border-color-goku {
@@ -664,6 +668,9 @@
 .border-color-ken {
   border-color: var(--ken) !important;
 }
+.border-color-ryu {
+  border-color: var(--ryu) !important;
+}
 
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -863,4 +870,7 @@
 }
 .bgc-ken {
   background-color: var(--ken);
+}
+.bgc-ryu {
+  background-color: var(--ryu);
 }
