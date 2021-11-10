@@ -28,6 +28,14 @@
     outline-offset: -3px;
 }
 
+.tf-outlinesargento{
+  outline: solid 2px #ea5153;
+  outline-offset: -3px;
+}
+
+.alinea {
+  margin: 0 auto;
+}
 
 .mtp--120{
   margin-top: -120px;
@@ -61,6 +69,9 @@
   padding-top: -15px;
 }
 
+.tf-caja{
+  min-height: 500px;
+}
 
 .tf-outlinebetty{
   outline: solid 2px #f7f6f3;
@@ -77,7 +88,7 @@
 .tf-personaje{
   position: absolute;
     right: -35px;
-    top: -53px;
+    bottom: -400px;
 }
 
 .tf-mapa-content {

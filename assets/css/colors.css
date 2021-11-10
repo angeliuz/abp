@@ -80,7 +80,10 @@
   --hannah: #fee6cc;
   --caradepapa: #ebf3d6;
   --marcianos: #c8e9f2;
-  
+  --soldados: #ee5b5e;
+  --tiburon: #f59331;
+  --barbie: #acce8c;
+  --ken: #00accb;
 }
 
 /* COLORES */
@@ -449,7 +452,18 @@
 .color-marcianos {
   color: var(--marcianos);
 }
-
+.color-soldados {
+  color: var(--soldados);
+}
+.color-tiburon {
+  color: var(--tiburon);
+}
+.color-barbie {
+  color: var(--barbie);
+}
+.color-ken {
+  color: var(--ken);
+}
 
 /* BORDERS */
 .border-color-goku {
@@ -638,6 +652,18 @@
 .border-color-marcianos {
   border-color: var(--marcianos) !important;
 }
+.border-color-soldados {
+  border-color: var(--soldados) !important;
+}
+.border-color-tiburon {
+  border-color: var(--tiburon) !important;
+}
+.border-color-barbie {
+  border-color: var(--barbie) !important;
+}
+.border-color-ken {
+  border-color: var(--ken) !important;
+}
 
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -825,4 +851,16 @@
 }
 .bgc-marcianos {
   background-color: var(--marcianos);
+}
+.bgc-soldados {
+  background-color: var(--soldados);
+}
+.bgc-tiburon {
+  background-color: var(--tiburon);
+}
+.bgc-barbie {
+  background-color: var(--barbie);
+}
+.bgc-ken {
+  background-color: var(--ken);
 }
