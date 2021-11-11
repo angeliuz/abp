@@ -1,5 +1,5 @@
 .cb-page20 {
-  background: url(images/page_020/fondo_001.svg) top right;
+  background: url(images/page_020/fondo_001.svg) top left/cover no-repeat;
   width: 100% !important;
   height: 100% !important;
   -webkit-print-color-adjust: exact !important;
@@ -120,7 +120,7 @@
 }
 @media all and (max-width: 765px) {
     .cb-page20 {
-        background: url(images/page_020/fondo_001.svg) top right/cover no-repeat !important;
+        background: url(images/page_020/fondo_001.svg) top left/cover no-repeat !important;
         -webkit-print-color-adjust: exact !important;
     }
   .ra-pe {
