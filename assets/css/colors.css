@@ -76,8 +76,15 @@
   --klee:#ebd0e4;
   --palpatine:#67BD43;
   --tatooine:#F5DAC1;
- 
-  
+  --sargento: #fcdbd3;
+  --hannah: #fee6cc;
+  --caradepapa: #ebf3d6;
+  --marcianos: #c8e9f2;
+  --soldados: #ee5b5e;
+  --tiburon: #f59331;
+  --barbie: #acce8c;
+  --ken: #00accb;
+  --ryu:#ece9d9;
 }
 
 /* COLORES */
@@ -434,8 +441,33 @@
 .color-tatooine {
   color: var(--tatooine);
 }
-
-
+.color-sargento {
+  color: var(--sargento);
+}
+.color-hannah {
+  color: var(--hannah);
+}
+.color-caradepapa {
+  color: var(--caradepapa);
+}
+.color-marcianos {
+  color: var(--marcianos);
+}
+.color-soldados {
+  color: var(--soldados);
+}
+.color-tiburon {
+  color: var(--tiburon);
+}
+.color-barbie {
+  color: var(--barbie);
+}
+.color-ken {
+  color: var(--ken);
+}
+.color-ryu {
+  color: var(--ryu);
+}
 
 /* BORDERS */
 .border-color-goku {
@@ -612,7 +644,33 @@
 .border-color-tatooine {
   border-color: var(--tatooine) !important;
 }
-
+.border-color-sargento {
+  border-color: var(--sargento) !important;
+}
+.border-color-hannah {
+  border-color: var(--hannah) !important;
+}
+.border-color-caradepapa {
+  border-color: var(--caradepapa) !important;
+}
+.border-color-marcianos {
+  border-color: var(--marcianos) !important;
+}
+.border-color-soldados {
+  border-color: var(--soldados) !important;
+}
+.border-color-tiburon {
+  border-color: var(--tiburon) !important;
+}
+.border-color-barbie {
+  border-color: var(--barbie) !important;
+}
+.border-color-ken {
+  border-color: var(--ken) !important;
+}
+.border-color-ryu {
+  border-color: var(--ryu) !important;
+}
 
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -788,4 +846,31 @@
 }
 .bgc-tatooine {
   background-color: var(--tatooine);
+}
+.bgc-sargento {
+  background-color: var(--sargento);
+}
+.bgc-hannah {
+  background-color: var(--hannah);
+}
+.bgc-caradepapa {
+  background-color: var(--caradepapa);
+}
+.bgc-marcianos {
+  background-color: var(--marcianos);
+}
+.bgc-soldados {
+  background-color: var(--soldados);
+}
+.bgc-tiburon {
+  background-color: var(--tiburon);
+}
+.bgc-barbie {
+  background-color: var(--barbie);
+}
+.bgc-ken {
+  background-color: var(--ken);
+}
+.bgc-ryu {
+  background-color: var(--ryu);
 }
