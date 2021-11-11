@@ -46,8 +46,23 @@
 }
 .contenedor-linea{
   background: url(images/page_008/linea.svg);
-  -webkit-print-color-adjust: exact !important;
-  background-repeat: repeat-y;
+  background-size: 4px 35px;
+  background-repeat: repeat;
+  background-position: top;
+  line-height: 35px;
+}
+
+.min-hp-35 {
+  min-height: 35px !important;
+}
+.min-hp-70 {
+  min-height: 70px !important;
+}
+.min-hp-140 {
+  min-height: 140px !important;
+}
+.min-hp-175 {
+  min-height: 175px !important;
 }
 
 .cb-personaje{
