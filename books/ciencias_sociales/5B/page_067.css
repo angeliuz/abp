@@ -111,10 +111,10 @@
 
 
 
-.img-lapiz{
+.img-postit{
   position: absolute;
-  top: -420px;
-  left:15px;
+  top: -50px;
+  left:35px;
 }
 
 
@@ -123,6 +123,7 @@
   .page{
     height: 1580px;
   }
+
   .corcho{
     background-image: url(images/page_067/fondo-corcho.jpg);
     height: 1200px !important;
@@ -132,15 +133,7 @@
 }
 
   
-@media (max-width: 932px) {
-
-  .img-tijera{
-    position: absolute;
-    top: -960px;
-    right:100px;
-  }
-
-  }
+ 
 
   
 @media (max-width: 750px) {
@@ -157,11 +150,6 @@
   }
 
 
-  .img-tijera{
-    position: absolute;
-    top: -960px;
-    right:15px;
-  }
 
   }
 @media (max-width: 616px) {
@@ -177,28 +165,32 @@
 /*       MEDIAS BASE       */
   
   @media (max-width: 576px) {
+
   .cambio {
     padding: 0;
+    font-size: 20px;
+    padding-bottom: 10px;
   }
+
   .cabecera {
     height: 350;
   }
+
+
   .rotar {
     transform: rotate(90deg);
     margin: 10px;
     width: 20px;
   }
+
+  
   .centrar {
     text-align: center;
     padding: 10px 13px 0px 13px  !important;
     justify-content: center;
   }
 
-  .img-tijera{
-    position: absolute;
-    top: -990px;
-    right:15px;
-  }
+
 
   .page{
     height: 1750px;
