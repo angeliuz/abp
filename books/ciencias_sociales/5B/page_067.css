@@ -177,9 +177,13 @@
 /*       MEDIAS BASE       */
   
   @media (max-width: 576px) {
+
   .cambio {
     padding: 0;
+    font-size: 20px;
+    padding-bottom: 10px;
   }
+
   .cabecera {
     height: 350;
   }
