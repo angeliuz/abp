@@ -85,6 +85,7 @@
   --barbie: #acce8c;
   --ken: #00accb;
   --ryu:#ece9d9;
+  --honda:#ffedbf;
 }
 
 /* COLORES */
@@ -468,6 +469,9 @@
 .color-ryu {
   color: var(--ryu);
 }
+.color-honda {
+  color: var(--honda);
+}
 
 /* BORDERS */
 .border-color-goku {
@@ -671,6 +675,9 @@
 .border-color-ryu {
   border-color: var(--ryu) !important;
 }
+.border-color-honda {
+  border-color: var(--honda) !important;
+}
 
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -873,4 +880,7 @@
 }
 .bgc-ryu {
   background-color: var(--ryu);
+}
+.bgc-honda {
+  background-color: var(--honda);
 }
