@@ -1,0 +1,47 @@
+.cb-page19 {
+    background: url(images/page_019/fondo_001.svg) top center/cover no-repeat;
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-print-color-adjust: exact !important;
+  }
+  .cb-inicio {
+    margin-bottom: 60px;
+  }
+  .style-title {
+    font-size: 16px;
+    font-family: Ubuntu-B, sans-serif;
+    text-align: left !important;
+  }
+  .style-text {
+    font-size: 16px;
+    font-family: Ubuntu-l, sans-serif;
+    text-align: left !important;
+  }
+  .block-bottom {
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
+    box-sizing: border-box;
+  }
+  .tf-mapa {
+    display: flex;
+    position: absolute;
+    left: 10px;
+    top: 200px;
+    z-index: 1;
+}
+.tf-estrella {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 220px;
+    z-index: 1;
+}
+.tf-play {
+    display: flex;
+    position: absolute;
+    right: 210px;
+    top: 280px;
+    z-index: 1;
+}
