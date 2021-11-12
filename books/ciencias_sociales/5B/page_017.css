@@ -117,13 +117,13 @@
   position: relative;
   z-index: 3;
   right: 60px;
-  bottom: 285px;
+  bottom: 215px;
 }
 
 .tf-personaje{
   position: absolute;
     right: -35px;
-    bottom: -400px;
+    bottom: -380px;
 }
 
 .tf-mapa-content {
