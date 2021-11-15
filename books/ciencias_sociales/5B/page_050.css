@@ -11,6 +11,15 @@
     width: 100%;
 }
 
+.cuadro {
+  padding: -5px -25px -5px -10px !important;
+}
+
+.rounded-p-sup-15 {
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
 @media (max-width: 767px) {
   .rotar {
     transform: rotate(90deg);

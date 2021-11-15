@@ -86,6 +86,20 @@
   --ken: #00accb;
   --ryu:#ece9d9;
   --honda:#ffedbf;
+  --akuma:#f29eb7;
+  --bison:;
+  --sagat:;
+  --cammy:;
+  --guile:;
+  --zangief:;
+  --blanka:;
+  --dhalsim:;
+  --ibuki:;
+  --balrog:;
+  --birdie:;
+  --jurihan:;
+  --urien:;
+
 }
 
 /* COLORES */
@@ -472,6 +486,9 @@
 .color-honda {
   color: var(--honda);
 }
+.color-akuma {
+  color: var(--akuma);
+}
 
 /* BORDERS */
 .border-color-goku {
@@ -678,6 +695,9 @@
 .border-color-honda {
   border-color: var(--honda) !important;
 }
+.border-color-akuma {
+  border-color: var(--akuma) !important;
+}
 
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -883,4 +903,7 @@
 }
 .bgc-honda {
   background-color: var(--honda);
+}
+.bgc-akuma {
+  background-color: var(--akuma);
 }
