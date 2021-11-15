@@ -1,17 +1,11 @@
 import React from "react";
 import { useState } from "react";
 import ContentEditable from "react-contenteditable";
+import InputBox from "../components/InputBox";
 
 import "./page_008.css";
 
 function Page008() {
-  const [content1, setContent1] = useState("");
-
-  function handleChange1(event) {
-    setContent1(event.target.value);
-    console.log({ content1 });
-  }
-
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
@@ -26,40 +20,24 @@ function Page008() {
           <div className="d-flex cb-contenido-cajas mbp-60">
             <img src={process.env.PUBLIC_URL + "images/page_008/img_001.png"} className="cb-iphone" alt="" />
             <div className="d-flex flex-wrap justify-content-center w-100 mep-5 h-100 ">
-              <div className="bgc-shogun cb-block w-100 p-2 f-Ubuntu-L fsp-13 mbp-5 cb-outline">
+              <div className="bgc-shogun cb-block w-100 p-2 f-Ubuntu-L fsp-13 mbp-20 cb-outline">
                 <p className="cb-interior-caja text-start">Nos han enviado un mensaje una persona llamada</p>
-                <ContentEditable
-                  className="pt-2 px-1 text-start flex-grow-1 contenedor-linea"
-                  html={content1} // innerHTML of the editable div
-                  disabled={false} // use true to disable editing
-                  onChange={handleChange1} // hae a custom HTML tag (uses a div by default)
-                />
+                <InputBox id="input1" className="p-0 px-1 text-start flex-grow-1 contenedor-linea min-hp-70" />
               </div>
-              <div className="bgc-shogun cb-block w-100 p-2 pb-3 f-Ubuntu-L fsp-13 mtp-10 mbp-30 cb-outline">
+
+              <div className="bgc-shogun cb-block w-100 p-2 f-Ubuntu-L fsp-13 mbp-20 cb-outline">
                 <p className="cb-interior-caja text-start">El desafío que nos propone consiste en</p>
-                <div className="linea mbp-30"></div>
-                <div className="linea mbp-30"></div>
-                <div className="linea mbp-30"></div>
-                <div className="linea mbp-30"></div>
-                <div className="linea"></div>
+                <InputBox id="input2" className="p-0 px-1 text-start flex-grow-1 contenedor-linea min-hp-175" />
               </div>
             </div>
             <div className="d-flex flex-wrap justify-content-center w-100 msp-5">
-              <div className="bgc-shogun cb-block w-100 p-2 pb-3 f-Ubuntu-L fsp-13 mbp-5 cb-outline">
+              <div className="bgc-shogun cb-block w-100 p-2 f-Ubuntu-L fsp-13 mbp-20 cb-outline">
                 <p className="cb-interior-caja text-start">Esta persona se dedica a</p>
-                <div className="linea mbp-30"></div>
-                <div className="linea mbp-30"></div>
-                <div className="linea mbp-30"></div>
-                <div className="linea mbp-30"></div>
-                <div className="linea"></div>
+                <InputBox id="input3" className="p-0 px-1 text-start flex-grow-1 contenedor-linea min-hp-175" />
               </div>
-              <div className="bgc-shogun cb-block w-100 p-2 pb-3 f-Ubuntu-L fsp-13 mtp-10 mbp-30 cb-outline">
+              <div className="bgc-shogun cb-block w-100 p-2 f-Ubuntu-L fsp-13 mbp-20 cb-outline">
                 <p className="cb-interior-caja text-start">Este es importante porque</p>
-                <div className="linea mbp-30"></div>
-                <div className="linea mbp-30"></div>
-                <div className="linea mbp-30"></div>
-                <div className="linea mbp-30"></div>
-                <div className="linea"></div>
+                <InputBox id="input4" className="p-0 px-1 text-start flex-grow-1 contenedor-linea min-hp-175" />
               </div>
             </div>
           </div>
@@ -75,38 +53,38 @@ function Page008() {
                 </div>
               </div>
 
-              <ContentEditable
-                className="pt-2 text-start flex-grow-1 linea"
-                html={content1} // innerHTML of the editable div
-                disabled={false} // use true to disable editing
-                onChange={handleChange1} // hae a custom HTML tag (uses a div by default)
-              />
+              <div className="pt-0 flex-grow-1 mbp-20">
+                <InputBox id="input5" className="p-0 px-1 text-start flex-grow-1 contenedor-linea min-hp-35" />
+              </div>
 
-              <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-10">
+              <div className="d-flex flex-wrap w-100 align-items-end titulo-linea">
                 <div className="d-flex">
                   <img src={process.env.PUBLIC_URL + "images/page_006/arrow.svg"} className="mep-5 cb-flecha" alt="" />
                   <span className="w-24 f-Ubuntu-L">¿Qué aspectos del desafío no he entendido del todo?</span>
                 </div>
-                <div className="pt-2 flex-grow-1 linea " contentEditable="true"></div>
               </div>
-              <div className="linea mtp-30"></div>
+              <div className="pt-0 flex-grow-1">
+                <InputBox id="input6" className="p-0 px-1 text-start flex-grow-1 contenedor-linea min-hp-35" />
+              </div>
             </div>
             <div className="block-bottom text-start mtp-30 f-pixilate-bold">¿Cómo me siento?</div>
             <div className="block-bottom p-2 pb-2 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4">
-              <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-10">
+              <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
                 <div className="d-flex">
                   <img src={process.env.PUBLIC_URL + "images/page_006/arrow.svg"} className="mep-5 cb-flecha" alt="" />
                   <span className="w-24 f-Ubuntu-L">¿Cómo me siento ante el desafío?</span>
                 </div>
               </div>
-              <div className="linea mtp-30"></div>
+              <div className="pt-0 flex-grow-1">
+                <InputBox id="input7" className="p-0 px-1 text-start flex-grow-1 contenedor-linea min-hp-35" />
+              </div>
             </div>
             {/* PIE DE PAGINA */}
             <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
               <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
                 ABP &copy; SM
               </div>
-              <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">7</div>
+              <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">8</div>
             </div>
             <div className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
               <div className="col-7 col-sm-2 p-0 m-0 position-relative">
