@@ -16,6 +16,13 @@
     font-size: 16px;
     font-family: Ubuntu-r, sans-serif;
     text-align: left !important;
+    max-width: 75%;
+  }
+  .style-text-b {
+    font-size: 16px;
+    font-family: Ubuntu-r, sans-serif;
+    text-align: left !important;
+    max-width: 40%;
   }
   .style-puzzle {
     font-size: 16px;
@@ -69,15 +76,128 @@
     top: 200px;
     z-index: 1;
 }
-.tf-frase {
-    display: flex;
-    position: absolute;
-    right: 30px;
-    top: 200px;
-    z-index: 1;
+.tf-carta {
+  display: flex;
+  position: absolute;
+  left: 50px;
+  top: 370px;
+  z-index: 1;
 }
+.tf-celular {
+  display: flex;
+  position: absolute;
+  right: 40px;
+  top: 350px;
+  z-index: 1;
+}
+.tf-claqueta {
+  display: flex;
+  position: absolute;
+  left: 60px;
+  bottom: 175px;
+  z-index: 1;
+}
+.tf-camara {
+  display: flex;
+  position: absolute;
+  right: 45px;
+  bottom: 180px;
+  z-index: 1;
+}
+.tf-presentacion {
+  display: flex;
+  position: absolute;
+  right: 90px;
+  bottom: 0px;
+  z-index: 1;
+}
+.tf-metro {
+  display: flex;
+  position: absolute;
+  left: 30px;
+  bottom: -3px;
+  z-index: 1;
+}
+
+
 @media all and (max-width: 765px) {
     .ajuste-top {
         padding-top: 100px;
       }
-}
+      .style-text {
+        font-size: 16px;
+        font-family: Ubuntu-r, sans-serif;
+        text-align: left !important;
+      }
+      .tf-mapa {
+        display: flex;
+        position: absolute;
+        left: 0px;
+        top: 140px;
+        z-index: 1;
+    }
+    .tf-estrella {
+        display: flex;
+        position: absolute;
+        right: 30px;
+        top: 160px;
+        z-index: 1;
+    }
+    .tf-play {
+        display: flex;
+        position: absolute;
+        top: 240px;
+        right: 150px;
+        z-index: 1;
+    }
+    .tf-bloque {
+        display: flex;
+        position: absolute;
+        right: 30px;
+        top: 290px;
+        z-index: 1;
+    }
+    .tf-carta {
+      display: flex;
+      position: absolute;
+      left: 50px;
+      top: 430px;
+      z-index: 1;
+    }
+    .tf-celular {
+      display: flex;
+      position: absolute;
+      right: 40px;
+      top: 590px;
+      z-index: 1;
+    }
+    .tf-claqueta {
+      display: flex;
+      position: absolute;
+      left: 60px;
+      bottom: 510px;
+      z-index: 1;
+    }
+    .tf-camara {
+      display: flex;
+      position: absolute;
+      right: 45px;
+      bottom: 220px;
+      z-index: 1;
+    }
+    .tf-presentacion {
+      display: flex;
+      position: absolute;
+      right: 60px;
+      bottom: 20px;
+      z-index: 1;
+      transform: scale(0.9);
+    }
+    .tf-metro {
+      display: flex;
+      position: absolute;
+      left: 30px;
+      bottom: 25px;
+      z-index: 1;
+    }
+  }
