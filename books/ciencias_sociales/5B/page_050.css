@@ -11,10 +11,6 @@
     width: 100%;
 }
 
-.cuadro {
-  padding: -5px -25px -5px -10px !important;
-}
-
 .rounded-p-sup-15 {
   border-top-right-radius: 12px;
   border-top-left-radius: 12px;
@@ -23,15 +19,18 @@
 @media (max-width: 767px) {
   .rotar {
     transform: rotate(90deg);
-    margin-left: calc(100% - 40px);
-    margin-top: 10px;
-    margin-bottom: -20px;
-    width: 60px;
+    /* margin-left: calc(50% - 25px);
+    margin-top: -50px;
+    margin-bottom: -50px; */
+    /* width: 60px; */
   }
   .separa {
     padding-bottom: 15px;
   }
-  .espacio {
-    margin-bottom: 15px;
+  .espaciado {
+    margin-left: calc(50% - 25px);
+    margin-top: -50px;
+    margin-bottom: -50px;
+    margin-right: 0;
   }
 }
