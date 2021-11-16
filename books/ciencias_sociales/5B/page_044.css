@@ -1,0 +1,42 @@
+.cb-page44 {
+    background: url(images/page_044/fondo_001.svg) top center/cover no-repeat;
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-print-color-adjust: exact !important;
+  }
+  .cb-inicio {
+    margin-bottom: 60px;
+  }
+  .block-bottom {
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
+  }
+  .linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color: var(--dark);
+  }
+
+  .rf-pep {
+    padding-right: 10%;
+  }
+  .rf-psp {
+    padding-left: 10%;
+  }
+  .rojo {
+    background-color: red;
+  }
+  @media all and (min-width: 753px){
+    .ra-pe {
+      padding-right: 4%;
+      padding-left: 25px;
+    }
+    .ra-ps {
+      padding-left: 4%;
+      padding-right: 25px;
+    }
+  }
+  @media all and (max-width: 752px) {
+  }
