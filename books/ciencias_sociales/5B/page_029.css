@@ -37,19 +37,12 @@
     }
     
   .linea {
-      border-bottom: 2px dotted lightgray;
+      border-bottom: 2px dotted gray;
       padding-top: 30px;
       padding-bottom: 0px;
       
     }
     
-    
-
-    .lineainterior{
-      outline: solid 2px #f8f7f6;
-      outline-offset: -3px;
-  }
-
   .celulares{
     top: 250px;
     left: 740px;

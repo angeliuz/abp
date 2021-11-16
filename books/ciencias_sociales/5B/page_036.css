@@ -15,14 +15,14 @@
     .cajota{
       height: 380px;
       margin-left:10px;
-      margin-right:40px;
+      margin-right:80px;
       overflow: hidden;
      
       
     }
     .cajota1{
       height: 380px;
-      margin-left:60px;
+      margin-left:80px;
       overflow: hidden;
       
      }
@@ -53,15 +53,15 @@
         outline-offset: -3px;
     }
   
-    .globo{
-      top: 200px;
-      left: 720px;
+    .estrella{
+      top: 195px;
+      left: 690px;
       transform: translate(-50%, -50%);
       text-align: center;
       
     }
   
-    .lapiz{
+    .brocha{
         top: 400px;
         left: 60px;
         transform: translate(-50%, -50%);
@@ -69,35 +69,39 @@
         
       }
   
-      .vinoculares{
-        top: 625px;
-        left: 740px;
+      .calendario{
+        top: 880px;
+        left: 755px;
         transform: translate(-50%, -50%);
         text-align: center;
         
       }
   
-      .estrella{
-        top: 970px;
-        left: 115px;
+      .celulares{
+        top: 730px;
+        left: 130px;
         transform: translate(-50%, -50%);
         text-align: center;
         
       }
-    
-    
+    .niño{
+        top: 455px;
+        left: 710px;
+        transform: translate(-50%, -50%);
+        text-align: center;  
+    }
       @media all and (max-width: 992px) {
-        .globo{
+        .brocha{
           display: none;
           
         }
       
-        .lapiz{
+        .calendario{
           display: none;
             
           }
       
-          .vinoculares{
+          .celulares{
             display: none;
             
           }
@@ -105,28 +109,35 @@
             display: none;
             
           }
-      
+          .niño{
+            display: none;
+            
+          }
           
   
     }
      
         
         @media all and (max-width: 680px) {
-            .globo{
+            .brocha{
                 display: none;
                 
               }
             
-              .lapiz{
+              .calendario{
                 display: none;
                   
                 }
             
-                .vinoculares{
+                .celulares{
                   display: none;
                   
                 }
                 .estrella{
+                  display: none;
+                  
+                }
+                .niño{
                   display: none;
                   
                 }
