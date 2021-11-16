@@ -1,0 +1,161 @@
+.cabecera{
+    -webkit-clip-path: polygon(100% 100%, 0% 0%, 0% 0%, 8% 0%);
+    clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
+    background-color: var(--android18);
+    height: 130px;
+  }
+  
+  
+  .container-row{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    } 
+    
+    .cajota{
+      height: 380px;
+      margin-left:10px;
+      margin-right:80px;
+      overflow: hidden;
+     
+      
+    }
+    .cajota1{
+      height: 380px;
+      margin-left:80px;
+      overflow: hidden;
+      
+     }
+     .interior-caja{
+        background-color: white;
+        margin: -8px -8px 10px -8px;
+        border-radius: 8px 8px 0px 0px;
+        padding: 5px 10px;
+      }
+    
+    .espacio{
+        height: 160px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+      }
+      
+    .linea {
+        border-bottom: 2px dotted gray;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        
+      }
+      
+      
+  
+      .lineainterior{
+        outline: solid 2px #f8f7f6;
+        outline-offset: -3px;
+    }
+  
+    .estrella{
+      top: 195px;
+      left: 690px;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      
+    }
+  
+    .brocha{
+        top: 400px;
+        left: 60px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        
+      }
+  
+      .calendario{
+        top: 880px;
+        left: 755px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        
+      }
+  
+      .celulares{
+        top: 730px;
+        left: 130px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        
+      }
+    .niño{
+        top: 455px;
+        left: 710px;
+        transform: translate(-50%, -50%);
+        text-align: center;  
+    }
+      @media all and (max-width: 992px) {
+        .brocha{
+          display: none;
+          
+        }
+      
+        .calendario{
+          display: none;
+            
+          }
+      
+          .celulares{
+            display: none;
+            
+          }
+          .estrella{
+            display: none;
+            
+          }
+          .niño{
+            display: none;
+            
+          }
+          
+  
+    }
+     
+        
+        @media all and (max-width: 680px) {
+            .brocha{
+                display: none;
+                
+              }
+            
+              .calendario{
+                display: none;
+                  
+                }
+            
+                .celulares{
+                  display: none;
+                  
+                }
+                .estrella{
+                  display: none;
+                  
+                }
+                .niño{
+                  display: none;
+                  
+                }
+  
+    }
+        @media all and  (max-width: 680px) {
+            .cajota{
+              margin: 0 auto; 
+              
+              }
+              .cajota1{
+                margin: 0 auto; 
+                
+                }
+              .container-row{
+  
+                margin: 0 auto;
+              }
+              
+              
+          }
