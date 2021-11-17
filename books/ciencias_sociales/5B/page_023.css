@@ -1,43 +1,48 @@
-.cuadrado-verde{
+.cuadrado-verde {
   -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 8% 100%);
-    clip-path: polygon(0 0%, 100% 0, 96% 100%, 8% 100%);
-    background-color: #F29205;
-    height: 87px;
+  clip-path: polygon(0 0%, 100% 0, 96% 100%, 8% 100%);
+  background-color: #F29205;
+  height: 87px;
 }
 
-.cabecera{
+.cabecera {
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
   clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
   background-color: var(--android18);
   height: 210px;
 }
+
 .caja {
   background-image: url(../5B/images/page_023/img_001.svg);
   background-repeat: no-repeat;
   background-size: contain;
   padding: 10px 10px 10px 10px;
 }
+
 @media (max-width: 576px) {
-.cambio {
-  padding: 0;
-}
-.cabecera {
-  height: 320px;
-}
-.rotar {
-  transform: rotate(90deg);
-  margin: 10px;
-  width: 20px;
-}
-.centrar {
-  text-align: center;
-  padding: 10px 13px 0px 13px  !important;
-  justify-content: center;
-}
+  .cambio {
+    padding: 0;
+  }
+
+  .cabecera {
+    height: 320px;
+  }
+
+  .rotar {
+    transform: rotate(90deg);
+    margin: 10px;
+    width: 20px;
+  }
+
+  .centrar {
+    text-align: center;
+    padding: 10px 13px 0px 13px !important;
+    justify-content: center;
+  }
 }
 
 
-.centrado{
+.centrado {
   top: 460px;
   left: 60px;
   transform: translate(-50%, -50%);
@@ -46,16 +51,18 @@
   text-align: center;
 
 }
-.centrado1{
+
+.centrado1 {
   height: auto;
   width: 150px;
-  right: 0px!important;
+  right: 0px !important;
   margin-top: 120px;
   margin-right: 35px;
   text-align: right;
   visibility: visible;
 }
-.centrado2{
+
+.centrado2 {
   height: auto;
   width: 150px;
   right: 390px;
@@ -64,11 +71,12 @@
   text-align: right;
   visibility: visible;
 }
-.centrado3{
+
+.centrado3 {
   position: absolute;
   height: auto;
   width: 170px;
-  right: 0px!important;
+  right: 0px !important;
   margin-top: -75px;
   margin-right: 25px;
   text-align: right;
@@ -79,89 +87,97 @@
   border-bottom: 2px dotted gray;
   padding-top: 30px;
   padding-bottom: 0px;
-  
+
 }
-.linea1{
+
+.linea1 {
   margin: 0 auto;
 }
-@media (max-width: 992px) {
-.centrado3{
-
-height: 40px;
-width: 150px;
-visibility: hidden;
-}
-}
 
 @media (max-width: 992px) {
-  .centrado{
-  
-height: 40px;
-width: 150px;
-visibility: hidden;
+  .centrado3 {
+
+    height: 40px;
+    width: 150px;
+    visibility: hidden;
+  }
 }
-}
- 
+
 @media (max-width: 992px) {
-.centrado1{
-    
-height: 40px;
-width: 150px;
-visibility: hidden;
+  .centrado {
+
+    height: 40px;
+    width: 150px;
+    visibility: hidden;
+  }
 }
-}
-    
+
 @media (max-width: 992px) {
-.centrado2{
-     
-height: 40px;
-width: 150px;
-visibility: hidden;
+  .centrado1 {
+
+    height: 40px;
+    width: 150px;
+    visibility: hidden;
+  }
 }
+
+@media (max-width: 992px) {
+  .centrado2 {
+
+    height: 40px;
+    width: 150px;
+    visibility: hidden;
+  }
 }
-      
+
 @media (max-width: 576px) {
-.cambio {
-padding: 0;
+  .cambio {
+    padding: 0;
+  }
+
+  .cabecera {
+    height: 420px;
+  }
+
+  .rotar {
+    transform: rotate(90deg);
+    margin: 10px;
+    width: 20px;
+  }
+
+  .centrar {
+    text-align: center;
+    padding: 10px 13px 0px 13px !important;
+    justify-content: center;
+  }
+
+  .tf-lapiz {
+    display: none;
+  }
+
+  .hojaamarilla_rotate {
+    display: none;
+  }
+
+  .tf-cantante {
+    display: none;
+  }
 }
-.cabecera {
-height: 420px;
-}
-.rotar {
-transform: rotate(90deg);
-margin: 10px;
-width: 20px;
-}
-.centrar {
-text-align: center;
-padding: 10px 13px 0px 13px  !important;
-justify-content: center;
-}
-.tf-lapiz{
-display:none;
-}
-        
-.hojaamarilla_rotate{
-display:none;
-}
-        
-.tf-cantante{
-display:none;
-}
-}
+
 @media (max-width: 992px) {
-  .cajita{
-  visibility: hidden;
+  .cajita {
+    visibility: hidden;
+  }
 }
-}
+
 @media (max-width: 576px) {
-  .cajita{
-  visibility:visible;
-}
+  .cajita {
+    visibility: visible;
+  }
 }
 
-.container-row{
-margin-left: 20px;
-margin-right: 20px;
+.container-row {
+  margin-left: 20px;
+  margin-right: 20px;
 
-} 
+}

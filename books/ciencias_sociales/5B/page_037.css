@@ -1,144 +1,149 @@
-.cuadrado-verde{
-    -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 8% 100%);
-      clip-path: polygon(0 0%, 100% 0, 96% 100%, 8% 100%);
-      background-color: #F29205;
-      height: 87px;
+.cuadrado-verde {
+  -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 96% 100%, 8% 100%);
+  background-color: #F29205;
+  height: 87px;
+}
+
+.cabecera {
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
+  background-color: var(--android18);
+  height: 210px;
+}
+
+.caja {
+  background-image: url(../5B/images/page_037/img_001.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px 10px 10px 10px;
+}
+
+.container-row {
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-bottom: 20px;
+
+}
+
+.cajota {
+  height: 320px;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+
+
+}
+
+
+.linea {
+  border-bottom: 2px dotted gray;
+  padding-top: 30px;
+  padding-bottom: 0px;
+
+}
+
+
+
+
+.hoja {
+  top: 360px;
+  left: 760px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+
+
+.celulares {
+  top: 1025px;
+  left: 720px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+
+.profesor {
+  top: 900px;
+  left: 80px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+
+@media all and (max-width: 992px) {
+  .hoja {
+    display: none;
+
   }
-  
-  .cabecera{
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
-    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
-    background-color: var(--android18);
-    height: 210px;
+
+  .celulares {
+    display: none;
+
   }
-  .caja {
-    background-image: url(../5B/images/page_037/img_001.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding: 10px 10px 10px 10px;
+
+  .profesor {
+    display: none;
+
   }
-  
-  .container-row{
-    margin-left: 55px;
-    margin-right: 55px;
-    margin-bottom: 20px;
-    
-    } 
-    
-    .cajota{
-      height: 320px;
-      margin-left:10px;
-      margin-right:10px;
-      overflow: hidden;
-     
-      
-    }
-   
-  
-    .linea {
-        border-bottom: 2px dotted gray;
-        padding-top: 30px;
-        padding-bottom: 0px;
-        
-      }
-      
-      
-  
-     
-    .hoja{
-      top: 360px;
-      left: 760px;
-      transform: translate(-50%, -50%);
-      text-align: center;
-      
-    }
-  
-    
-  
-      .celulares{
-        top: 1025px;
-        left: 720px;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        
-      }
-      
-  
-      .profesor{
-        top: 900px;
-        left: 80px;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        
-      }
-    
-    
-      @media all and (max-width: 992px) {
-        .hoja{
-          display: none;
-          
-        }
-      
-        .celulares{
-          display: none;
-            
-          }
-      
-          .profesor{
-            display: none;
-            
-          }
-          
-  
-    }
-     
-        
-        @media all and (max-width: 680px) {
-            .hoja{
-                display: none;
-                
-              }
-            
-              .celulares{
-                display: none;
-                  
-                }
-            
-                .profesor{
-                  display: none;
-                  
-                }
-  
-    }
-        @media all and  (max-width: 680px) {
-            .cajota{
-              margin: 0 auto; 
-              
-              }
-             
-              .container-row{
-  
-                margin: 20px;
-              }
-              
-              
-          }
-          @media all and (max-width: 680px) {
-            .cambio {
-            padding: 0;
-            }
-            .cabecera {
-            height: 350px;
-            }
-            .rotar {
-            transform: rotate(90deg);
-            margin: 10px;
-            width: 20px;
-            }
-            .centrar {
-            text-align: center;
-            padding: 10px 13px 0px 13px  !important;
-            justify-content: center;
-            }
-            }
-            
+
+
+}
+
+
+@media all and (max-width: 680px) {
+  .hoja {
+    display: none;
+
+  }
+
+  .celulares {
+    display: none;
+
+  }
+
+  .profesor {
+    display: none;
+
+  }
+
+}
+
+@media all and (max-width: 680px) {
+  .cajota {
+    margin: 0 auto;
+
+  }
+
+  .container-row {
+
+    margin: 20px;
+  }
+
+
+}
+
+@media all and (max-width: 680px) {
+  .cambio {
+    padding: 0;
+  }
+
+  .cabecera {
+    height: 350px;
+  }
+
+  .rotar {
+    transform: rotate(90deg);
+    margin: 10px;
+    width: 20px;
+  }
+
+  .centrar {
+    text-align: center;
+    padding: 10px 13px 0px 13px !important;
+    justify-content: center;
+  }
+}
