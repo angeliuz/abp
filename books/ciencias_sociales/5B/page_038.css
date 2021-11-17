@@ -38,14 +38,14 @@
         
       }
 
-      .vinoculares{
-        top: 220px;
+    .vinoculares{
+        top: 240px;
         left: 740px;
         transform: translate(-50%, -50%);
         text-align: center;
         
       }
-      .reloj{
+    .reloj{
         top: 350px;
         left: 60px;
         transform: translate(-50%, -50%);
