@@ -1,0 +1,140 @@
+.cb-page43 {
+    background: url(images/page_043/fondo_001.svg) top center/cover no-repeat;
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-print-color-adjust: exact !important;
+  }
+  .cb-dossier {
+    width: 100%;
+  }
+  .style-title {
+    font-size: 16px;
+    font-family: Ubuntu-M, sans-serif;
+    text-align: left !important;
+  } 
+  .style-text {
+    font-size: 16px;
+    font-family: Ubuntu-r, sans-serif;
+    text-align: left !important;
+  }
+  .block-bottom {
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
+  }
+  .conteo {
+    padding-left: 40px;
+  }
+  .linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color: var(--dark);
+  }
+  .posicion {
+    left: 30px;
+    position: relative;
+  }
+  .style-num {
+    font-size: 21px;
+    font-family: Ubuntu-M, sans-serif;
+    text-align: left !important;
+  }
+  .tf-uno {
+    display: flex;
+    position: absolute;
+    top: 355px;
+    left: 95px;
+    z-index: 1;
+  }
+  .tf-dos {
+    display: flex;
+    position: absolute;
+    top: 420px;
+    left: 95px;
+    z-index: 1;
+  }
+  .tf-tres {
+    display: flex;
+    position: absolute;
+    top: 480px;
+    left: 95px;
+    z-index: 1;
+  }
+  .tf-cuatro {
+    display: flex;
+    position: absolute;
+    top: 545px;
+    left: 95px;
+    z-index: 1;
+  }
+  .tf-abajouno {
+    display: flex;
+    position: absolute;
+    bottom: 340px;
+    left: 95px;
+    z-index: 1;
+  }
+  .tf-abajodos {
+    display: flex;
+    position: absolute;
+    bottom: 280px;
+    left: 95px;
+    z-index: 1;
+  }
+  .tf-abajotres {
+    display: flex;
+    position: absolute;
+    bottom: 215px;
+    left: 95px;
+    z-index: 1;
+  }
+  .tf-abajocuatro {
+    display: flex;
+    position: absolute;
+    bottom: 150px;
+    left: 95px;
+    z-index: 1;
+  }
+  .tf-mapa {
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    z-index: 1;
+  }
+  .tf-tablet {
+    display: flex;
+    position: absolute;
+    top: 290px;
+    right: 40px;
+    z-index: 1;
+  }
+  .tf-reloj {
+    display: flex;
+    position: absolute;
+    top: 360px;
+    left: 50px;
+    z-index: 1;
+  }
+  .tf-globo {
+    display: flex;
+    position: absolute;
+    bottom: 160px;
+    right: 20px;
+    z-index: 1;
+  }
+  .tf-regla {
+    display: flex;
+    position: absolute;
+    bottom: 150px;
+    left: 30px;
+    z-index: 1;
+  }
+  .tf-auto {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    right: 230px;
+    z-index: 1;
+  }
