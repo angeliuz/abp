@@ -1,6 +1,4 @@
 import React from "react";
-import { useState } from "react";
-import ContentEditable from "react-contenteditable";
 import InputBox from "../components/InputBox";
 
 import "./page_008.css";
