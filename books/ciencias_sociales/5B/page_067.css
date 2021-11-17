@@ -43,7 +43,8 @@
 
 .clip{
   top:6px;
-  left: 150px;
+  left: 5px;
+  z-index: 3 !important;
 }
 
 .cuadrado-respuesta{
@@ -51,6 +52,10 @@
 
 }
 
+
+.texto-posit{
+
+}
 
 
 

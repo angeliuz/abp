@@ -530,8 +530,17 @@
 .ms-10 {
   margin-left: 10%;
 }
+.ms-11 {
+  margin-left: 11%;
+}
 .ms-12 {
   margin-left: 12%;
+}
+.ms-13 {
+  margin-left: 13%;
+}
+.ms-14 {
+  margin-left: 14%;
 }
 .ms-15 {
   margin-left: 15%;
@@ -767,6 +776,13 @@
 }
 .msp-200 {
   margin-left: 200px;
+}
+
+.msp--15 {
+  margin-left: -15px;
+}
+.mep--15 {
+  margin-right: -15px;
 }
 
 .mbp--20 {

@@ -12,7 +12,7 @@
   height: 210px;
 }
 .caja {
-  background-image: url(../5B/images/page_023/img_001.svg);
+  background-image: url(../5B/images/page_027/img_001.svg);
   background-repeat: no-repeat;
   background-size: contain;
   padding: 10px 10px 10px 10px;
@@ -113,7 +113,7 @@ text-align: center;
 
 }
 .linea {
-  border-bottom: 2px dotted black;
+  border-bottom: 2px dotted gray;
   padding-top: 30px;
   padding-bottom: 0px;
   

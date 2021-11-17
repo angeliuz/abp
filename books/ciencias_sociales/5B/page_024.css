@@ -5,11 +5,11 @@
   height: 130px;
 }
 .linea{
-  border-bottom: 2px dotted #dedede;
+  border-bottom: 2px dotted gray;
   padding-top: 25px;
 }
 .linea2{
-  border-bottom: 2px dotted #dedede;
+  border-bottom: 2px dotted gray;
   padding-top: 25px;
 }
 .container-row{
