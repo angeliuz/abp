@@ -1,16 +1,17 @@
-.cuadrado-verde{
+.cuadrado-verde {
   -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 8% 100%);
-    clip-path: polygon(0 0%, 100% 0, 96% 100%, 8% 100%);
-    background-color: #F29205;
-    height: 87px;
+  clip-path: polygon(0 0%, 100% 0, 96% 100%, 8% 100%);
+  background-color: #F29205;
+  height: 87px;
 }
 
-.cabecera{
+.cabecera {
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
   clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
   background-color: var(--android18);
   height: 210px;
 }
+
 .caja {
   background-image: url(../5B/images/page_027/img_001.svg);
   background-repeat: no-repeat;
@@ -20,62 +21,67 @@
 
 .cajita {
   padding: 0;
-  
-  
+
+
 }
+
 .cajita1 {
   padding: 0;
   right: -30px;
-  
-  
+
+
 }
 
-.cajota{
+.cajota {
   height: 300px;
-  
+
 }
 
-.textito{
-    margin-left: 250px;
+.textito {
+  margin-left: 250px;
 }
 
 .circulo {
-width: 250px;
-height: 250px;
-margin-left: 260px;
-margin-top: 240px;
-border-radius: 50%;
-background: white;
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
+  width: 250px;
+  height: 250px;
+  margin-left: 260px;
+  margin-top: 240px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .rounded-tb-20 {
   border-radius: 20px 10px 20px 10px;
 }
+
 @media (max-width: 576px) {
-.cambio {
-  padding: 0;
-}
-.cabecera {
-  height: 320px;
-}
-.rotar {
-  transform: rotate(90deg);
-  margin: 10px;
-  width: 20px;
-}
-.centrar {
-  text-align: center;
-  padding: 10px 13px 0px 13px  !important;
-  justify-content: center;
-}
+  .cambio {
+    padding: 0;
+  }
+
+  .cabecera {
+    height: 320px;
+  }
+
+  .rotar {
+    transform: rotate(90deg);
+    margin: 10px;
+    width: 20px;
+  }
+
+  .centrar {
+    text-align: center;
+    padding: 10px 13px 0px 13px !important;
+    justify-content: center;
+  }
 }
 
 
-.flecha{
+.flecha {
   top: 540px;
   left: 320px;
   transform: translate(-50%, -50%);
@@ -85,9 +91,9 @@ text-align: center;
 
 }
 
-.flecha1{
+.flecha1 {
   top: 530px;
-  margin-left:70px;
+  margin-left: 70px;
   transform: translate(-50%, -50%);
   height: 40px;
   width: 150px;
@@ -95,7 +101,7 @@ text-align: center;
 
 }
 
-.flecha2{
+.flecha2 {
   top: 710px;
   left: 320px;
   transform: translate(-50%, -50%);
@@ -105,133 +111,140 @@ text-align: center;
 
 }
 
-.megafono{
+.megafono {
   top: 630px;
   left: 720px;
   transform: translate(-50%, -50%);
   text-align: center;
 
 }
+
 .linea {
   border-bottom: 2px dotted gray;
   padding-top: 30px;
   padding-bottom: 0px;
-  
+
 }
-.linea1{
+
+.linea1 {
   margin: 0 auto;
 }
 
 
 
- 
+
 @media (max-width: 992px) {
   .circulo {
     display: none;
-      
-  }
-  .flecha{
-    display: none;
-    
-    }
-    
-    .flecha1{
-      display: none;
-    
-    }
-    
-    .flecha2{
-      display: none;
-    
-    }
-  
-    .megafono{
-      display: none;
-    
-    }
-}
-    
 
-      
+  }
+
+  .flecha {
+    display: none;
+
+  }
+
+  .flecha1 {
+    display: none;
+
+  }
+
+  .flecha2 {
+    display: none;
+
+  }
+
+  .megafono {
+    display: none;
+
+  }
+}
+
+
+
 @media all and (max-width: 680px) {
   .circulo {
     display: none;
   }
-  .flecha{
+
+  .flecha {
     display: none;
-    }
-    
-    .flecha1{
-      display: none;
-    
-    }
-    
-    .flecha2{
-      display: none;
-    
-    }
-  
-    .megafono{
-      display: none;
-    
-    }
-}
-
-@media all and (max-width: 992px){
-
-  .cajota{
-      margin-left: 20px;
-      margin-right: 20px;
-}
-  
-.cajita1 {
-  margin-left: 600px;
-  
-  
-}
-  .textito{
-      margin-left: 630px;
   }
 
-    }
+  .flecha1 {
+    display: none;
 
-@media all and (max-width: 576px){
+  }
 
-.cajota{
-  margin: 0;
+  .flecha2 {
+    display: none;
+
+  }
+
+  .megafono {
+    display: none;
+
+  }
+}
+
+@media all and (max-width: 992px) {
+
+  .cajota {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .cajita1 {
+    margin-left: 600px;
+
+
+  }
+
+  .textito {
+    margin-left: 630px;
+  }
 
 }
 
-.textito{
-  margin-left: 280px;
-}
-.cajita1 {
-  margin-left: 250px;
-  
-  
-}
+@media all and (max-width: 576px) {
+
+  .cajota {
+    margin: 0;
+
+  }
+
+  .textito {
+    margin-left: 280px;
+  }
+
+  .cajita1 {
+    margin-left: 250px;
+
+
+  }
 
 }
 
-.container-row{
-margin-left: 20px;
-margin-right: 20px;
+.container-row {
+  margin-left: 20px;
+  margin-right: 20px;
 
-} 
+}
 
 @media (max-width: 576px) {
-  
+
   .cabecera {
-  height: 440px;
+    height: 440px;
   }
+
   .rotar {
-  transform: rotate(90deg);
-  margin: 10px;
-  width: 20px;
+    transform: rotate(90deg);
+    margin: 10px;
+    width: 20px;
   }
-  
-          
-  
-          
-  
-  }
+
+
+
+
+
+}

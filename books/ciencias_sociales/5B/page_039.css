@@ -12,48 +12,44 @@
 
 }
 
-.cajota {
-  height: 250px;
-  margin-left: 40px;
-  margin-right: 40px;
 
 
-}
-
-
-.espacio {
+.espacioblanco {
   height: 160px;
   margin-right: 15px;
   margin-bottom: 20px;
 }
 
-.linea {
-  border-bottom: 2px dotted gray;
-  padding-top: 30px;
-  padding-bottom: 0px;
-
+.espacioblanco1 {
+  height: 90px;
+  margin-right: 15px;
+  margin-bottom: 20px;
 }
 
+.espacioblanco2 {
+  height: 350px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
 
-
-.hoja {
-  top: 215px;
+.lapiz {
+  top: 340px;
   left: 725px;
   transform: translate(-50%, -50%);
   text-align: center;
 
 }
 
-.calendario {
-  top: 1010px;
-  left: 720px;
+.niño {
+  top: 750px;
+  left: 680px;
   transform: translate(-50%, -50%);
   text-align: center;
 
 }
 
-.celular {
-  top: 830px;
+.hoja {
+  top: 880px;
   left: 110px;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -69,11 +65,7 @@
     display: none;
   }
 
-  .celular {
-    display: none;
-  }
-
-  .calendario {
+  .niño {
     display: none;
   }
 
@@ -89,21 +81,14 @@
     display: none;
   }
 
-  .celular {
+  .niño {
     display: none;
   }
 
-  .calendario {
-    display: none;
-  }
 
 }
 
 @media all and (max-width: 680px) {
-  .cajota {
-    margin: 0 auto;
-
-  }
 
   .container-row {
 
