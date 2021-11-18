@@ -7,6 +7,9 @@
   .cb-inicio {
     margin-bottom: 60px;
   }
+  .cb-dossier {
+    width: 100%;
+  }
   .style-title {
     font-size: 16px;
     font-family: Ubuntu-B, sans-serif;
@@ -42,9 +45,6 @@
     margin-left: auto;
     z-index: 1;
   }
-  .ajuste-top {
-    padding-top: 60px;
-  }
   .bgc-zoe {
       background-color: #76ccc9
   }
@@ -52,42 +52,42 @@
     display: flex;
     position: absolute;
     left: 20px;
-    top: 100px;
+    top: 40px;
     z-index: 1;
 }
 .tf-estrella {
     display: flex;
     position: absolute;
     right: 30px;
-    top: 120px;
+    top: 60px;
     z-index: 1;
 }
 .tf-play {
     display: flex;
     position: absolute;
     right: 190px;
-    top: 185px;
+    top: 125px;
     z-index: 1;
 }
 .tf-bloque {
     display: flex;
     position: absolute;
     right: 30px;
-    top: 200px;
+    top: 140px;
     z-index: 1;
 }
 .tf-carta {
   display: flex;
   position: absolute;
   left: 50px;
-  top: 370px;
+  top: 310px;
   z-index: 1;
 }
 .tf-celular {
   display: flex;
   position: absolute;
   right: 40px;
-  top: 350px;
+  top: 290px;
   z-index: 1;
 }
 .tf-claqueta {
@@ -115,7 +115,7 @@
   display: flex;
   position: absolute;
   left: 30px;
-  bottom: -3px;
+  bottom: -10px;
   z-index: 1;
 }
 
@@ -133,20 +133,20 @@
         display: flex;
         position: absolute;
         left: 0px;
-        top: 140px;
+        top: 40px;
         z-index: 1;
     }
     .tf-estrella {
         display: flex;
         position: absolute;
         right: 30px;
-        top: 160px;
+        top: 60px;
         z-index: 1;
     }
     .tf-play {
         display: flex;
         position: absolute;
-        top: 240px;
+        top: 135px;
         right: 150px;
         z-index: 1;
     }
@@ -154,14 +154,14 @@
         display: flex;
         position: absolute;
         right: 30px;
-        top: 290px;
+        top: 190px;
         z-index: 1;
     }
     .tf-carta {
       display: flex;
       position: absolute;
       left: 50px;
-      top: 430px;
+      top: 340px;
       z-index: 1;
     }
     .tf-celular {
