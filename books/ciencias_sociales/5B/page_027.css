@@ -2,7 +2,7 @@
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
   clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
   background-color: var(--android18);
-  height: 230px;
+  height: 250px;
 }
 
 .caja-flotante {
@@ -12,13 +12,10 @@
 }
 
 .caja {
-  background-image: url(images/page_027/img_001.svg);
+  background-image: url(../5B/images/page_027/img_001.svg);
   background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 12px;
-  width: 158px;
-  height: 56px;
-  text-align: center;
+  background-size: contain;
+  padding: 10px 10px 10px 10px;
 }
 
 .container-row {
