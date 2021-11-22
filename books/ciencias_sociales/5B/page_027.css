@@ -40,7 +40,27 @@
   padding-bottom: 0px;
 
 }
+.flecha {
+  top: 450px;
+  left: 160px;
+  transform: translate(-50%, -50%);
+  text-align: center;
 
+}
+.flecha1 {
+  top: 450px;
+  left: 410px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+.flecha2 {
+  top: 450px;
+  left: 660px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
 .megafono {
   top: 950px;
   left: 400px;
@@ -53,6 +73,18 @@
   .megafono {
       display: none;
 
+  }
+  .flecha {
+    display: none;
+  
+  }
+  .flecha1 {
+    display: none;
+  
+  }
+  .flecha2 {
+    display: none;
+  
   }
 }
 
