@@ -88,7 +88,7 @@
   --honda:#ffedbf;
   --akuma:#f29eb7;
   --bison:#d6eef5;
-  --sagat:;
+  --sagat:#e7e3d2;
   --cammy:;
   --guile:;
   --zangief:;
@@ -492,6 +492,9 @@
 .color-bison {
   color: var(--bison);
 }
+.color-sagat {
+  color: var(--sagat);
+}
 
 /* BORDERS */
 .border-color-goku {
@@ -703,6 +706,9 @@
 }
 .border-color-bison {
   border-color: var(--bison) !important;
+}
+.border-color-sagat {
+  border-color: var(--sagat) !important;
 }
 
 
@@ -916,4 +922,7 @@
 }
 .bgc-bison {
   background-color: var(--bison);
+}
+.bgc-sagat {
+  background-color: var(--sagat);
 }
