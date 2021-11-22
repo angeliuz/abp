@@ -75,16 +75,16 @@
 
   }
   .flecha {
-    
+    display: none;
   
   }
   .flecha1 {
     
-  
+    display: none;
   }
   .flecha2 {
    
-  
+    display: none;
   }
 }
 
