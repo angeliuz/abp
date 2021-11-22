@@ -19,6 +19,7 @@
 
 
 
+
 }
 
 .cajaestado {
@@ -68,6 +69,7 @@
   height: 40px;
   width: 150px;
   text-align: center;
+  z-index: 2;
 
 }
 
@@ -78,6 +80,7 @@
   height: 40px;
   width: 150px;
   text-align: center;
+  z-index: 2;
 
 }
 
@@ -88,6 +91,7 @@
   height: 40px;
   width: 150px;
   text-align: center;
+  z-index: 2;
 
 }
 
@@ -157,7 +161,7 @@
 
   .flecha1 {
     top: 795px;
-    left: 600px;
+    left: 220px;
     transform: translate(-50%, -50%);
     height: 40px;
     width: 150px;
@@ -190,16 +194,16 @@
   }
 
   .flecha {
-    display: none;
+    
   }
 
   .flecha1 {
-    display: none;
+    
 
   }
 
   .flecha2 {
-    display: none;
+    
 
   }
 
