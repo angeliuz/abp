@@ -68,6 +68,14 @@ li p {
   margin-bottom: 0;
 }
 
+.cajaafiche2 {
+
+  width: auto;
+  margin-left: 60px;
+  margin-right: 60px;
+  display: none;
+}
+
 
 @media (max-width: 992px) {
   .paleta {
@@ -101,14 +109,18 @@ li p {
   }
 
   .cajaafiche {
-    top: 890px;
-    left: 620px;
-    transform: translate(-50%, -50%);
-    height: 290px;
-    width: 260px;
     display: none;
 
 
 
+  }
+
+  .cajaafiche2 {
+
+    width: auto;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    display: block;
   }
 }

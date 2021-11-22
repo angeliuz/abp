@@ -41,6 +41,7 @@
 }
 
 .niño {
+  display: flex;
   top: 750px;
   left: 680px;
   transform: translate(-50%, -50%);
@@ -55,7 +56,15 @@
   text-align: center;
 
 }
-
+.tf-frase {
+  display: flex;
+  position: absolute;
+  font-size: 16px;
+  text-align: center !important;
+  left: 630px;
+  bottom: 500px;
+  z-index: 1;
+}
 @media all and (max-width: 992px) {
   .hoja {
     display: none;
@@ -68,7 +77,9 @@
   .niño {
     display: none;
   }
-
+.tf-frase{
+  display: none;
+}
 }
 
 
