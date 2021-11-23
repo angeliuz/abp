@@ -173,19 +173,14 @@
 
 
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 576px) {
 
     .titulo-linea .linea {
         width: 100%;
     }
 
-    .tf-iphone {
-        display: none;
-    }
-
-    .tf-lapiz {
-        display: none;
-    }
+   
+    
 
     .tf-contenido-cajas {
         flex-wrap: wrap;
