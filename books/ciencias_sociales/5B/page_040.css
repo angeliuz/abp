@@ -37,7 +37,7 @@
 
 .niño {
     position: absolute;
-    right: 55px;
+    right: 10px;
     top: -91px;
     transform: rotate(1grad);
 
@@ -78,13 +78,16 @@
     background-color: #f2f7e5;
     padding-left: 8px;
 }
-.estilocaja{
+
+.estilocaja {
     width: 60px;
-    text-align:center;
+    text-align: center;
 }
-.titulo-linea{
+
+.titulo-linea {
     font-size: 15px;
 }
+
 @media all and (max-width: 992px) {
     .estrella {
         display: none;
@@ -94,7 +97,7 @@
         display: none;
     }
 
-    
+
 }
 
 
@@ -107,7 +110,7 @@
         display: none;
     }
 
-    
+
 
 
 }
@@ -126,7 +129,7 @@
     max-width: 700px;
     margin-right: auto;
     margin-left: auto;
-    width: calc(100% - 30px);
+    width: calc(100% - 10px);
 }
 
 .rounded-caja {
@@ -157,16 +160,7 @@
         margin-left: 40px;
     }
 
-    .tf-contenido-caja-telefono {
 
-        position: relative;
-        margin-right: 190px;
-        margin-left: auto;
-        max-width: 550px;
-        width: calc(100% - 30px);
-        flex-wrap: nowrap;
-
-    }
 
 
 }
@@ -179,8 +173,8 @@
         width: 100%;
     }
 
-   
-    
+
+
 
     .tf-contenido-cajas {
         flex-wrap: wrap;
