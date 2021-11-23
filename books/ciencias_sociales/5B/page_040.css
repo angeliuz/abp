@@ -1,8 +1,8 @@
 .cabecera {
     -webkit-clip-path: polygon(100% 100%, 0% 0%, 0% 0%, 8% 0%);
-    clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
     background-color: var(--android18);
-    height: 130px;
+    height: 100px;
 }
 
 
