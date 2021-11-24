@@ -28,7 +28,7 @@
 
 
 .estrella {
-    top: 300px;
+    top: 250px;
     left: 750px;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -44,7 +44,7 @@
 }
 
 .brocha {
-    top: 400px;
+    top: 350px;
     left: 60px;
     transform: translate(-50%, -50%);
     text-align: center;
