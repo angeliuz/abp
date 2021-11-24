@@ -1,0 +1,80 @@
+.cabecera {
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
+  background-color: var(--android18);
+  height: 230px;
+}
+.caja {
+  background-image: url(../5B/images/page_041/img_001.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px 10px 10px 10px;
+}
+.titulo-bloque {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Ubuntu-M", sans-serif;
+}
+.linea {
+  padding-top: 5px;
+  min-width: 55px;
+  border: 3px;
+}
+.xd {
+  border: 1px solid;
+  border-radius: 5px;
+}
+.bloque {
+  min-width: 200px;
+}
+.espacio {
+  min-width: 200px;
+  min-height: 200px;
+}
+.distancia {
+  gap: 5rem !important;
+}
+.der {
+  margin-left: 10%;
+  align-items: left !important;
+}
+.izq {
+  margin-right: 50%;
+}
+
+.tf-caja {
+  display: flex;
+  position: absolute;
+  font-size: 16px;
+  text-align: center !important;
+  left: 80px;
+  top: 52px;
+  z-index: 1;
+}
+.tf-centro {
+  display: flex;
+  position: absolute;
+  font-size: 16px;
+  text-align: center !important;
+  left: 292px;
+  top: 490px;
+  z-index: 1;
+  height: 350px;
+}
+.cuadro-uno {
+  display: flex !important;
+  gap: 3rem !important;
+}
+
+@media (max-width: 860px) {
+  .cambio {
+    padding: 0;
+  }
+  .tf-centro {
+    display: none;
+  }
+  .cuadro-uno {
+    display: flex !important;
+    gap: 3rem !important;
+  }
+}
