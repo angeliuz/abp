@@ -183,6 +183,12 @@
     .tf-flecha {
         padding-bottom: 13px;
     }
-
+    .block-bottom {
+        max-width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+        width: calc(100% - 10px);
+    }
+    
 
 }
