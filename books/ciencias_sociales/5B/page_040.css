@@ -1,8 +1,8 @@
 .cabecera {
     -webkit-clip-path: polygon(100% 100%, 0% 0%, 0% 0%, 8% 0%);
-    clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
     background-color: var(--android18);
-    height: 130px;
+    height: 100px;
 }
 
 
@@ -28,7 +28,7 @@
 
 
 .estrella {
-    top: 300px;
+    top: 250px;
     left: 750px;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -37,14 +37,14 @@
 
 .niño {
     position: absolute;
-    right: 55px;
+    right: 40px;
     top: -91px;
     transform: rotate(1grad);
 
 }
 
 .brocha {
-    top: 400px;
+    top: 350px;
     left: 60px;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -78,13 +78,16 @@
     background-color: #f2f7e5;
     padding-left: 8px;
 }
-.estilocaja{
+
+.estilocaja {
     width: 60px;
-    text-align:center;
+    text-align: center;
 }
-.titulo-linea{
+
+.titulo-linea {
     font-size: 15px;
 }
+
 @media all and (max-width: 992px) {
     .estrella {
         display: none;
@@ -94,7 +97,7 @@
         display: none;
     }
 
-    
+
 }
 
 
@@ -107,7 +110,7 @@
         display: none;
     }
 
-    
+
 
 
 }
@@ -126,7 +129,7 @@
     max-width: 700px;
     margin-right: auto;
     margin-left: auto;
-    width: calc(100% - 30px);
+    width: calc(100% - 10px);
 }
 
 .rounded-caja {
@@ -157,35 +160,21 @@
         margin-left: 40px;
     }
 
-    .tf-contenido-caja-telefono {
 
-        position: relative;
-        margin-right: 190px;
-        margin-left: auto;
-        max-width: 550px;
-        width: calc(100% - 30px);
-        flex-wrap: nowrap;
-
-    }
 
 
 }
 
 
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 576px) {
 
     .titulo-linea .linea {
         width: 100%;
     }
 
-    .tf-iphone {
-        display: none;
-    }
 
-    .tf-lapiz {
-        display: none;
-    }
+
 
     .tf-contenido-cajas {
         flex-wrap: wrap;
@@ -194,6 +183,12 @@
     .tf-flecha {
         padding-bottom: 13px;
     }
-
+    .block-bottom {
+        max-width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+        width: calc(100% - 10px);
+    }
+    
 
 }
