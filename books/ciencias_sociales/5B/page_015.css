@@ -30,45 +30,225 @@
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 575px) {
-  .ajuste-A {
-    max-width: 100%;
-  }
-  .ajuste-B {
-max-width: 175%;
-  }
-  .ajuste-C {
-    max-width: 100%;
-  }
-  .altura {
-    min-height: 80px;
-    text-align: center;
-    padding-bottom: px;
+.tf-ge {
+  display: flex;
+  visibility: visible;
+  position: absolute;
+  left: 60px;
+  top: 200px;
+  z-index:1;
+  height: 25px
+}
+.izq-1 {
+  display: none;
+  visibility: hidden;
+}
+.izq-2 {
+  display: none;
+  visibility: hidden;
+}
+.izq-3 {
+  display: none;
+  visibility: hidden;
+}
+.izq-4 {
+  display: none;
+  visibility: hidden;
+}
+.izq-5 {
+  display: none;
+  visibility: hidden;
+}
+.izq-6 {
+  display: none;
+  visibility: hidden;
+}
+.izq-7 {
+  display: none;
+  visibility: hidden;
+}
+.izq-8 {
+  display: none;
+  visibility: hidden;
+}
+.der-1 {
+  display: none;
+  visibility: hidden;
+}
+.der-2 {
+  display: none;
+  visibility: hidden;
+}
+.der-3 {
+  display: none;
+  visibility: hidden;
+}
+.der-4 {
+  display: none;
+  visibility: hidden;
+}
+.der-5 {
+  display: none;
+  visibility: hidden;
+}
+.der-6 {
+  display: none;
+  visibility: hidden;
+}
+.der-7 {
+  display: none;
+  visibility: hidden;
+}
+.der-8 {
+  display: none;
+  visibility: hidden;
+}
+@media (min-width: 852px) {
+.izq-1 {
+  display: flex;
+  visibility: visible;
+  position: absolute;
+  left: 182px;
+  top: 320px;
+  z-index:1;
+  height: 8px
+}
+.izq-2 {
+  display: flex;
+  visibility: visible;
+  position: absolute;
+  left: 182px;
+  top: 430px;
+  z-index:1;
+  height: 8px
+}
+.izq-3 {
+  display: flex;
+  visibility: visible;
+  position: absolute;
+  left: 182px;
+  top: 545px;
+  z-index:1;
+  height: 8px
+}
+.izq-4 {
+  display: flex;
+  visibility: visible;
+  position: absolute;
+  left: 182px;
+  top: 660px;
+  z-index:1;
+  height: 8px
+}
+.izq-5 {
+  display: flex;
+  visibility: visible;
+  position: absolute;
+  left: 182px;
+  top: 775px;
+  z-index:1;
+  height: 8px
+}
+.izq-6 {
+  display: flex;
+  visibility: visible;
+  position: absolute;
+  left: 182px;
+  top: 890px;
+  z-index:1;
+  height: 8px
+}
+.izq-7 {
+  display: flex;
+  visibility: visible;
+  position: absolute;
+  left: 182px;
+  top: 1005px;
+  z-index:1;
+  height: 8px
+}
+.izq-8 {
+  display: flex;
+  visibility: visible;
+  position: absolute;
+  left: 182px;
+  top: 1120px;
+  z-index:1;
+  height: 8px
+}
+.der-1 {
+  display: flex;
+  visibility: visible;
+  position: absolute;
+  right: 182px;
+  top: 320px;
+  z-index:1;
+  height: 8px
+}
+.der-2 {
+  display: flex;
+  visibility: visible;
+  position: absolute;
+  right: 182px;
+  top: 430px;
+  z-index:1;
+  height: 8px
+}
+.der-3 {
+  display: flex;
+  visibility: visible;
+  position: absolute;
+  right: 182px;
+  top: 545px;
+  z-index:1;
+  height: 8px
+}
+.der-4 {
+  display: flex;
+  visibility: visible;
+  position: absolute;
+  right: 182px;
+  top: 660px;
+  z-index:1;
+  height: 8px
+}
+.der-5 {
+  display: flex;
+  visibility: visible;
+  position: absolute;
+  right: 182px;
+  top: 775px;
+  z-index:1;
+  height: 8px
+}
+.der-6 {
+  display: flex;
+  visibility: visible;
+  position: absolute;
+  right: 182px;
+  top: 890px;
+  z-index:1;
+  height: 8px
+}
+.der-7 {
+  display: flex;
+  visibility: visible;
+  position: absolute;
+  right: 182px;
+  top: 1005px;
+  z-index:1;
+  height: 8px
+}
+.der-8 {
+  display: flex;
+  visibility: visible;
+  position: absolute;
+  right: 182px;
+  top: 1120px;
+  z-index:1;
+  height: 8px
 }
 }
-@media (max-width: 770px) {
-    .ajuste-A {
-      max-width: 150px;
-    }
-    .ajuste-AA {
-        max-width: 150px;
-    }
-    .ajuste-B {
-      min-width: 100%;
-    }
-    .ajuste-BB {
-        max-width: 150px;
-    }
-    .ajuste-C {
-      min-width: 100px;
-    }
-    .altura {
-      min-height: 80px;
-      max-width: 100px;
-      text-align: center;
-      padding-bottom: px;
-  }
-  }
   @media (max-width: 992px) {
   .tf-rotar {
     transform: rotate(90deg);
@@ -77,17 +257,25 @@ max-width: 175%;
     margin: 0 auto !important;
     padding-left: 115px;
   }
-}
+
 @media (max-width: 770px) {
   .ajuste-A {
-      max-width: 130px;
+      min-width: 500px;
     }
     .ajuste-B {
-      m-width: 100px;
+      min-width: 500px;
     }
     .ajuste-C {
-      max-width: 130px;
+      min-width: 500px;
+      padding-top: 30px;
     }
+    .altura {
+      min-height: 80px;
+      max-width: 100px;
+      text-align: center;
+      padding-bottom: px;
+  }
+}
 }
   @media (max-width: 670px) {
     .ajuste-A {
