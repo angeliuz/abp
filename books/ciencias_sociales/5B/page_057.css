@@ -1,0 +1,14 @@
+.tf-mapa {
+    display: flex;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    z-index: 1;
+}
+.tf-estrella {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 60px;
+    z-index: 1;
+}
