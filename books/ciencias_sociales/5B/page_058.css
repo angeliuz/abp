@@ -1,0 +1,9 @@
+.cb-page58 {
+    background: url(images/page_058/fondo_001.svg) top center/cover no-repeat;
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-print-color-adjust: exact !important;
+  }
+  .cb-inicio {
+    margin-bottom: 60px;
+  }
