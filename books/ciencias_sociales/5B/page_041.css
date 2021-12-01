@@ -21,7 +21,7 @@
   border: 3px;
 }
 .xd {
-  border: 1px solid;
+  border: 1.5px solid;
   border-radius: 5px;
 }
 .bloque {
@@ -40,6 +40,9 @@
 }
 .izq {
   margin-right: 50%;
+}
+.visi-responsive {
+  display: none !important;
 }
 
 .tf-caja {
@@ -65,7 +68,40 @@
   display: flex !important;
   gap: 3rem !important;
 }
-
+.centrar {
+  align-items: center !important;
+  justify-content: center !important;
+}
+.giro {
+  transform : rotate(270deg);
+}
+.colorfondo {
+  background-color: #95a6b1;
+  width: 100%;
+  text-align: center !important;
+  align-items: center !important;
+  padding: 5px;
+  border-radius: 40px;
+}
+.tf-palabra {
+display: none;
+}
+.item {
+  width: 150px;
+  text-align: center !important;
+  padding: 5px;
+  border-radius: 40px;
+  justify-content: center !important;
+}
+.concepto {
+border-radius: 10px;
+width: 500%;
+}
+.imagen {
+  border-radius: 10px;
+  width: 600%;
+  }
+ 
 @media (max-width: 860px) {
   .cambio {
     padding: 0;
@@ -76,5 +112,23 @@
   .cuadro-uno {
     display: flex !important;
     gap: 3rem !important;
+  }
+  .visi-web {
+   display: none !important;
+  }
+  .visi-responsive {
+    display: flex !important;
+  }
+  .bloque {
+    min-width: 100%;
+  }
+  .tf-palabra {
+    display: flex;
+    position: absolute;
+    font-size: 16px;
+    text-align: center !important;
+    left: 15px;
+    top: 410px;
+    z-index: 1;
   }
 }
