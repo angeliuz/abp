@@ -119,28 +119,36 @@
 .flecha {
   left: 380px;
   top: 290px;
+  z-index: 2;
 }
 
 .flecha1 {
   left: 380px;
   top: 550px;
+  z-index: 2;
 }
 
 .flecha2 {
   left: 380px;
   top: 760px;
+  z-index: 2;
 }
-.niño{
-  top:745px;
-  left:5px;
+
+.niño {
+  top: 745px;
+  left: 5px;
 }
-.camara{
-  top:260px;
+
+.camara {
+  top: 260px;
   right: -70px;
+  z-index: 2;
 }
-.hoja{
-  top:860px;
+
+.hoja {
+  top: 860px;
   right: -15px;
+  z-index: 2;
 }
 
 @media (max-width: 992px) {
@@ -153,25 +161,29 @@
     margin-left: auto;
     margin-right: auto;
   }
+
   .flecha {
-   display: none;
-    
+    display: none;
+
   }
-  
+
   .flecha1 {
     display: none;
   }
-  
+
   .flecha2 {
     display: none;
   }
-  .niño{
+
+  .niño {
     display: none;
   }
+
   .camara {
     display: none;
   }
-  .hoja{
+
+  .hoja {
     display: none;
   }
 }
