@@ -132,7 +132,7 @@
 }
 .niño{
   top:745px;
-  left:-5px;
+  left:5px;
 }
 @media (max-width: 992px) {
   .cajota {
