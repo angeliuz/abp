@@ -28,6 +28,104 @@
   padding-right: 20px;
   padding-left: 20px;
 }
-@media screen(760px){
-  
+.caja.texto {
+  min-width: 200px;
+}
+.tf-megafono {
+  display: flex;
+  position: absolute;
+  left: 30px;
+  top: 210px;
+  z-index: 1;
+}
+.tf-estrella {
+  display: flex;
+  position: absolute;
+  right: 30px;
+  top: 320px;
+  z-index: 1;
+}
+.tf-regla {
+  display: flex;
+  position: absolute;
+  left: 40px;
+  bottom: 180px;
+  z-index: 1;
+}
+.tf-binoculares {
+  display: flex;
+  position: absolute;
+  right: 60px;
+  bottom: 160px;
+  z-index: 1;
+}
+@media (max-width: 780px) {
+  .bloque {
+    width: 180px;
+    height: 170px;
+    min-width: 60px;
+    min-height: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .titulo {
+    text-align: center;
+    font-size: 16px;
+}
+.tf-megafono {
+  display: flex;
+  position: absolute;
+  left: 10px;
+  top: 250px;
+  z-index: 1;
+}
+}
+@media (max-width: 710px) {
+  .bloque {
+    width: 150px;
+    height: 170px;
+    min-width: 60px;
+    min-height: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .titulo {
+    text-align: center;
+    font-size: 14px;
+}
+}
+@media (max-width: 600px) {
+  .bloque {
+    width: 120px;
+    height: 170px;
+    min-width: 60px;
+    min-height: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .titulo {
+    text-align: center;
+    font-size: 12px;
+}
+.tf-megafono {
+  display: flex;
+  position: absolute;
+  left: 10px;
+  top: 320px;
+  z-index: 1;
+}
+}
+@media (max-width: 510px) {
+  .bloque {
+    width: 100px;
+    height: 170px;
+    min-width: 60px;
+    min-height: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .titulo {
+    text-align: center;
+    font-size: 12px;
+}
 }
