@@ -140,6 +140,11 @@
   .separa {
     padding-top: 10px;
   }
+  .centrar {
+    justify-content: center;
+    text-align: center;
+    padding-left:0;
+  }
 }
 
 @media (max-width: 992px) {
@@ -151,6 +156,9 @@
 @media (max-width: 576px) {
   .cajita {
     visibility: visible;
+  }
+  .centrar {
+    justify-content: center;
   }
 }
 
