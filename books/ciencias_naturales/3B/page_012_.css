@@ -3,7 +3,7 @@
 }
 
 .cb-lineas {
-    background: url(images/page_012/img_002.svg)  top left/ cover no-repeat !important;
+    background: url(images/page_012/Caminito.svg)  top left/ cover no-repeat !important;
      -webkit-print-color-adjust: exact !important;
  }
 
@@ -59,7 +59,7 @@
 @media all and (max-width: 820px) {
 
     .cb-lineas {
-        background: url(images/page_012/fondo_movile.svg) top left/ cover no-repeat !important;
+        background: url(images/page_012/Caminito_movile.svg) top left/ cover no-repeat !important;
      }
 
      #page_012{
