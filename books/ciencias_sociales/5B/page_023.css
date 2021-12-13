@@ -103,6 +103,9 @@
     width: 150px;
     visibility: hidden;
   }
+  .margen{
+    margin-left: -10px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -192,7 +195,9 @@
   .cabecera {
     height: 450px !important;
   }
-
+  .margen{
+    margin-left: -5px;
+  }
   
   .cambio {
     width: 100%;
@@ -208,6 +213,9 @@
     .cabecera {
       height: 200px;
     }
+    .margen{
+      margin-left:  -5px;
+    }
   }
   
   @media (max-width: 680px) {
@@ -215,7 +223,9 @@
     .cabecera {
       height: 240px;
     }
-  
+    .margen{
+      margin-left: -5px;
+    }
   
   
     }
@@ -224,5 +234,14 @@
     .cabecera {
       height: 250px;
     }
+    .margen{
+      margin-left:5px;
+    }
+  }
+  @media (max-width: 490px) {
   
+    
+    .margen{
+      margin-left:10px;
+    }
   }
