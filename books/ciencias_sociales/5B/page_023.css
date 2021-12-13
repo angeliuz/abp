@@ -2,7 +2,7 @@
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
   clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
   background-color: var(--android18);
-  height: 230px;
+  height: 190px;
 }
 
 .caja {
@@ -11,18 +11,29 @@
   background-size: contain;
   padding: 10px 10px 10px 10px;
 }
+.cajita{
+  position:absolute;
+  z-index: 2;
+}
+@media (max-width: 576px) {
+  .cambio {
+    padding: 0;
+  }
 
-@media (max-width: 608px) {
   .cabecera {
-    height: 270px;
+    height: 320px;
+  }
+
+  .rotar {
+    transform: rotate(90deg);
+    margin: 10px;
+    width: 20px;
   }
 
   .centrar {
+    text-align: center;
+    padding: 10px 13px 0px 13px !important;
     justify-content: center;
-  }
-
-  .cambio {
-    padding-top: 3px;
   }
 }
 
@@ -119,6 +130,7 @@
     width: 150px;
     visibility: hidden;
   }
+  
 }
 
 @media (max-width: 575px) {
@@ -129,7 +141,7 @@
   }
 
   .cabecera {
-    height: 420px;
+    height: 450px;
   }
 
   .rotar-flecha {
@@ -140,17 +152,27 @@
   .separa {
     padding-top: 10px;
   }
+
+  .centrar {
+    justify-content: center;
+    text-align: center;
+    padding-left: 0;
+  }
 }
 
 @media (max-width: 992px) {
   .cajita {
-    visibility: hidden;
+    visibility: hiden;
   }
 }
 
 @media (max-width: 576px) {
   .cajita {
     visibility: visible;
+  }
+
+  .centrar {
+    justify-content: center;
   }
 }
 
@@ -165,3 +187,42 @@
   margin-right: 20px;
 
 }
+
+@media (max-width: 576px) {
+  .cabecera {
+    height: 450px !important;
+  }
+
+  
+  .cambio {
+    width: 100%;
+    padding-top: 5px;
+    margin: 0 auto;
+    text-align: center !important;
+
+  }
+
+  }
+  @media (max-width: 750px) {
+
+    .cabecera {
+      height: 200px;
+    }
+  }
+  
+  @media (max-width: 680px) {
+  
+    .cabecera {
+      height: 240px;
+    }
+  
+  
+  
+    }
+  @media (max-width: 616px) {
+  
+    .cabecera {
+      height: 250px;
+    }
+  
+  }

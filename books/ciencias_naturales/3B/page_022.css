@@ -1,0 +1,152 @@
+.cabecera {
+    -webkit-clip-path: polygon(100% 100%, 0% 0%, 0% 0%, 8% 0%);
+    clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
+    background-color: var(--android18);
+    height: 130px;
+}
+
+
+.container-row {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.cajota {
+    height: 380px;
+    margin-left: 20px;
+    margin-right: 40px;
+    overflow: hidden;
+    max-width: 550px;
+
+}
+
+.cajota1 {
+    height: 380px;
+    margin-left: 20px;
+    overflow: hidden;
+    max-width: 680px;
+}
+
+.linea {
+    border-bottom: 2px dotted gray;
+    padding-top: 30px;
+    padding-bottom: 0px;
+
+}
+
+.niño {
+    top: 545px;
+    left: 675px;
+    transform: translate(-50%, -50%);
+    height: auto;
+    width: 160px;
+    text-align: center;
+    z-index: 2;
+}
+
+.platano {
+    top: 340px;
+    left: 500px;
+    transform: translate(-50%, -50%);
+    float: right;
+    z-index: 2;
+
+}
+
+.texto {
+    float: left;
+    margin-left: 15px;
+}
+
+.queso {
+    top: 475px;
+    left: 440px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+
+}
+
+.te {
+    top: 560px;
+    left: 320px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.espiral {
+    top: 880px;
+    left: 610px;
+    transform: translate(-50%, -50%);
+    height: 290px;
+    width: 260px;
+    z-index: 2;
+}
+
+li {
+    color: #afca0b;
+}
+
+li p {
+    color: #000;
+    margin-bottom: 0;
+}
+
+
+
+
+@media (max-width: 992px) {
+    
+.niño{
+    display: none;
+}
+.cajota{
+    margin:0 auto;
+    max-width: 680px;
+}
+.cajota1{
+  margin:0 auto;
+  
+}
+.espiral{
+    display: none; 
+}
+}
+@media (max-width: 701px) {
+    .cajota{
+        margin:0 auto;
+    }
+    .cajota1{
+      margin:0 auto;
+  }
+  .platano {
+      display: none;
+  }
+  
+  .queso {
+      display: none;  
+  }
+  
+  .te {
+      display: none;
+  }
+  }
+@media (max-width: 575px) {
+  .cajota{
+      margin:0 auto;
+  }
+  .cajota1{
+    margin:0 auto;
+}
+.platano {
+    display: none;
+}
+
+.queso {
+    display: none;  
+}
+
+.te {
+    display: none;
+}
+}
