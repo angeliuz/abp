@@ -93,7 +93,7 @@
   --guile:#e0bad7;
   --zangief:#caeBea;
   --blanka:#f4e6f0;
-  --dhalsim:;
+  --dhalsim:#74be4b;
   --ibuki:;
   --balrog:;
   --birdie:;
@@ -507,6 +507,9 @@
 .color-blanka {
   color: var(--blanka);
 }
+.color-dhalsim {
+  color: var(--dhalsim);
+}
 /* BORDERS */
 .border-color-goku {
   border-color: var(--goku) !important;
@@ -733,6 +736,9 @@
 .border-color-blanka {
   border-color: var(--blanka) !important;
 }
+.border-color-dhalsim {
+  border-color: var(--dhalsim) !important;
+}
 /* BACKGROUND COLORS */
 .bgc-goku {
   background-color: var(--goku);
@@ -958,4 +964,7 @@
 }
 .bgc-blanka {
   background-color: var(--blanka);
+}
+.bgc-dhalsim {
+  background-color: var(--dhalsim);
 }
