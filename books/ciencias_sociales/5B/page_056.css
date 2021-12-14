@@ -32,21 +32,23 @@
 .caja {
     height: 520px;
 }
-.cajota{
+
+.cajota {
     height: 300px;
     margin-left: 20px;
     margin-right: 20px;
-    
-    
-    
-    
-  }
-.interior-caja{
+
+
+
+
+}
+
+.interior-caja {
     background-color: #d6eef5;
     margin: -8px -8px 0px -8px;
     border-radius: 8px 8px 0px 0px;
     padding: 10px 10px;
-  }
+}
 
 .calendario {
     margin-left: 290px;
@@ -59,18 +61,21 @@
     margin-left: 670px;
     z-index: 2;
 }
+
 .calendario {
     margin-top: 480px;
     margin-left: -380px;
     z-index: 2;
 }
+
 .lupa {
-    margin-top:230px;
-    margin-left:-10px;
+    margin-top: 230px;
+    margin-left: -10px;
     z-index: 2;
 }
+
 .carta {
-    margin-top:-15px;
+    margin-top: -15px;
     margin-left: 610px;
     z-index: 2;
 }
@@ -92,6 +97,7 @@
     justify-content: center;
     color: var(--pidgey);
 }
+
 .cajita2 {
     top: 300px;
     align-items: center;
@@ -103,7 +109,16 @@
 
 
 @media (max-width: 992px) {
-    
+
+    .cajita {
+        margin-left: 10px;
+    }
+    .cajita1 {
+        margin-left: 10px;
+    }
+    .cajita2 {
+        margin-left: 10px;
+    }
 
     .calendario {
         display: none;
@@ -112,22 +127,15 @@
     .lupa {
         display: none;
     }
+
     .carta {
         display: none;
     }
+
     .lapiz {
         display: none;
     }
 
-    
+
 
 }
-
-
-
-
-
-
-
-
-
