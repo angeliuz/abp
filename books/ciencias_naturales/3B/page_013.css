@@ -1,27 +1,47 @@
-  .cabecera{
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
-    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 95%);
-    background-color: var(--bulma);
-    height: 90px;
-  }
-  .w-120 {
-    flex:0 0 auto;
-    width:120%
-  } 
-  .mtp--45 {
-    margin-top: -45px;
-  }  
-  .mtp--10 {
-    margin-top: -10px;
-  }
-  
-  .mtp--65 {
-      margin-top: -65px;
-    }
-    .mtp--40 {
-        margin-top: -40px;
-      }
-    
-    .msp-8 {
-        margin-left: 8px;
-      }
+.cabecera {
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 130%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 99%, 0% 85%);
+  background-color: var(--bulma);
+  height: 110px;
+}
+.rect-sesion{
+  background-color: #ffcc00;
+  border: 4px solid white;
+  padding: 5px 8px 0px 8px;
+  box-shadow: 2px 2px 1px 0px #9f9f9f;
+}
+.w-120 {
+  flex: 0 0 auto;
+  width: 120%;
+}
+.mtp-30 {
+  margin-top: 30px;
+}
+.mtp--45 {
+  margin-top: -45px;
+}
+.msp-10 {
+  margin-left: 10px;
+}
+.mtp--20 {
+  margin-top: -20px;
+}
+
+.mtp-ajuste {
+  margin-top: -200px;
+}
+
+.giro-palabra {
+  transform: rotate(-4.1deg);
+  margin-top: -47px;
+}
+
+.linea{
+  border-bottom: 2px dotted #9f9f9f;
+  padding-top: 10px;
+  padding-bottom: 1px;
+}
+.imagen {
+  height: 430px;
+  z-index: 1;
+}
