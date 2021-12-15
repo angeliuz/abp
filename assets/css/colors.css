@@ -94,7 +94,7 @@
   --zangief:#caeBea;
   --blanka:#f4e6f0;
   --dhalsim:#74be4b;
-  --ibuki:;
+  --ibuki:#feca30;
   --balrog:;
   --birdie:;
   --jurihan:;
@@ -510,6 +510,9 @@
 .color-dhalsim {
   color: var(--dhalsim);
 }
+.color-ibuki {
+  color: var(--ibuki);
+}
 /* BORDERS */
 .border-color-goku {
   border-color: var(--goku) !important;
@@ -739,6 +742,9 @@
 .border-color-dhalsim {
   border-color: var(--dhalsim) !important;
 }
+.border-color-ibuki {
+  border-color: var(--ibuki) !important;
+}
 /* BACKGROUND COLORS */
 .bgc-goku {
   background-color: var(--goku);
@@ -967,4 +973,7 @@
 }
 .bgc-dhalsim {
   background-color: var(--dhalsim);
+}
+.bgc-ibuki {
+  background-color: var(--ibuki);
 }
