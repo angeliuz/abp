@@ -93,11 +93,11 @@
   --guile:#e0bad7;
   --zangief:#caeBea;
   --blanka:#f4e6f0;
-  --dhalsim:;
-  --ibuki:;
-  --balrog:;
-  --birdie:;
-  --jurihan:;
+  --dhalsim:#74be4b;
+  --ibuki:#feca30;
+  --balrog:#45ad4e;
+  --birdie:#a7cd45;
+  --jurihan:#ffe4a1;
   --urien:;
 
 }
@@ -507,6 +507,21 @@
 .color-blanka {
   color: var(--blanka);
 }
+.color-dhalsim {
+  color: var(--dhalsim);
+}
+.color-ibuki {
+  color: var(--ibuki);
+}
+.color-balrog {
+  color: var(--balrog);
+}
+.color-birdie {
+  color: var(--birdie);
+}
+.color-jurihan {
+  color: var(--jurihan);
+}
 /* BORDERS */
 .border-color-goku {
   border-color: var(--goku) !important;
@@ -733,6 +748,21 @@
 .border-color-blanka {
   border-color: var(--blanka) !important;
 }
+.border-color-dhalsim {
+  border-color: var(--dhalsim) !important;
+}
+.border-color-ibuki {
+  border-color: var(--ibuki) !important;
+}
+.border-color-balrog {
+  border-color: var(--balrog) !important;
+}
+.border-color-birdie {
+  border-color: var(--birdie) !important;
+}
+.border-color-jurihan {
+  border-color: var(--jurihan) !important;
+}
 /* BACKGROUND COLORS */
 .bgc-goku {
   background-color: var(--goku);
@@ -958,4 +988,19 @@
 }
 .bgc-blanka {
   background-color: var(--blanka);
+}
+.bgc-dhalsim {
+  background-color: var(--dhalsim);
+}
+.bgc-ibuki {
+  background-color: var(--ibuki);
+}
+.bgc-balrog {
+  background-color: var(--balrog);
+}
+.bgc-birdie {
+  background-color: var(--birdie);
+}
+.bgc-jurihan {
+  background-color: var(--jurihan);
 }

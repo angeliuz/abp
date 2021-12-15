@@ -12,6 +12,18 @@
 
 }
 
+.backimage {
+    width: 80%;
+    height: 30px;
+    position: absolute;
+    background: transparent url("images/page_022/img_007.png") repeat scroll 0% 0%;
+}
+
+
+.mostrar {
+    display: none;
+}
+
 .cajota {
     height: 380px;
     margin-left: 20px;
@@ -51,20 +63,18 @@
     transform: translate(-50%, -50%);
     float: right;
     z-index: 2;
+    max-width: 100%;
 
 }
 
-.texto {
-    float: left;
-    margin-left: 15px;
-}
 
-.queso {
+
+.tapa {
     top: 475px;
     left: 440px;
     transform: translate(-50%, -50%);
     z-index: 2;
-
+    max-width: 100%;
 }
 
 .te {
@@ -72,16 +82,10 @@
     left: 320px;
     transform: translate(-50%, -50%);
     z-index: 2;
+    max-width: 100%;
 }
 
-.espiral {
-    top: 880px;
-    left: 610px;
-    transform: translate(-50%, -50%);
-    height: 290px;
-    width: 260px;
-    z-index: 2;
-}
+
 
 li {
     color: #afca0b;
@@ -96,57 +100,49 @@ li p {
 
 
 @media (max-width: 992px) {
-    
-.niño{
-    display: none;
-}
-.cajota{
-    margin:0 auto;
-    max-width: 680px;
-}
-.cajota1{
-  margin:0 auto;
-  
-}
-.espiral{
-    display: none; 
-}
-}
-@media (max-width: 701px) {
-    .cajota{
-        margin:0 auto;
+    .mostrar {
+        display: inherit;
     }
-    .cajota1{
-      margin:0 auto;
-  }
-  .platano {
-      display: none;
-  }
-  
-  .queso {
-      display: none;  
-  }
-  
-  .te {
-      display: none;
-  }
-  }
-@media (max-width: 575px) {
-  .cajota{
-      margin:0 auto;
-  }
-  .cajota1{
-    margin:0 auto;
-}
-.platano {
-    display: none;
+
+    .ocultar {
+        display: none;
+    }
+
+    .niño {
+        display: none;
+    }
+
+    .cajota {
+        margin: 0 auto;
+        max-width: 680px;
+    }
+
+    .cajota1 {
+        margin: 0 auto;
+    }
+
+   
+
+    .texto {
+        text-align: start;
+        margin: 0 auto;
+    }
+
 }
 
-.queso {
-    display: none;  
+@media (max-width: 778px) {
+
+
+    .cajota1 {
+        margin: 0 auto;
+    }
+
+
 }
 
-.te {
-    display: none;
-}
-}
+@media (max-width: 766px) {
+    .cajota {
+        margin: 0 auto;
+    }
+
+}  
