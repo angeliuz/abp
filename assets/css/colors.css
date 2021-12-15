@@ -97,7 +97,7 @@
   --ibuki:#feca30;
   --balrog:#45ad4e;
   --birdie:#a7cd45;
-  --jurihan:;
+  --jurihan:#ffe4a1;
   --urien:;
 
 }
@@ -519,6 +519,9 @@
 .color-birdie {
   color: var(--birdie);
 }
+.color-jurihan {
+  color: var(--jurihan);
+}
 /* BORDERS */
 .border-color-goku {
   border-color: var(--goku) !important;
@@ -757,6 +760,9 @@
 .border-color-birdie {
   border-color: var(--birdie) !important;
 }
+.border-color-jurihan {
+  border-color: var(--jurihan) !important;
+}
 /* BACKGROUND COLORS */
 .bgc-goku {
   background-color: var(--goku);
@@ -994,4 +1000,7 @@
 }
 .bgc-birdie {
   background-color: var(--birdie);
+}
+.bgc-jurihan {
+  background-color: var(--jurihan);
 }
