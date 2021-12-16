@@ -18,15 +18,11 @@
 .mtp--55 {
   margin-top: -55px;
 }
-.mtp--47 {
-  margin-top: -47px;
-}
 .mtp--45 {
   margin-top: -45px;
 }
-
 .mtp--20 {
-  margin-top: -20px;
+  margin-top: 30px;
 }
 .mtp-30 {
   margin-top: 30px;
@@ -51,7 +47,7 @@
   padding-bottom: 1px;
 }
 
-@media (min-width: 820px) {
+@media (min-width: 991px) {
   .tf-imagen {
     display: flex;
     position: absolute;
@@ -60,13 +56,16 @@
     z-index: 1;
     height: 450px;
   }
-
   .tf-imagen-responsivo {
-
     visibility: hidden;
     position: absolute;
   }
-@media (max-width: 821px) {
+  .mtp--veo {
+    margin-top: -47px;
+  }
+}
+
+@media (max-width: 992px) {
   .tf-imagen {
     display: flex;
     position: absolute;
@@ -80,7 +79,8 @@
     visibility: visible;
     height: 200px;
   }
-  .mtp--47 {
-    margin-top: -57px;
+  .mtp--veo {
+    margin-top: -52px;
   }
+
 }
