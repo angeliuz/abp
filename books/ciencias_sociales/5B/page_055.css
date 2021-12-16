@@ -56,20 +56,6 @@
     padding: 5px 10px;
 }
 
-
-.pin {
-    margin-left: 140px;
-    margin-top: 25px;
-    z-index: 2;
-}
-
-.pin1 {
-    margin-left: 140px;
-    z-index: 2;
-}
-
-
-
 .hoja {
     margin-left: -20px;
     margin-top: 270px;
@@ -110,9 +96,10 @@
     .cabecera {
         height: 200px;
     }
-.margen{
-margin-top:-30px;
-}
+
+    .margen {
+        margin:0 auto;
+    }
 }
 
 @media (max-width: 727px) {
