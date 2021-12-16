@@ -52,7 +52,7 @@
     display: flex;
     position: absolute;
     right: 30px;
-    top: 30px;
+    top: 70px;
     z-index: 1;
     height: 450px;
   }
@@ -77,7 +77,7 @@
   }
   .tf-imagen-responsivo {
     visibility: visible;
-    height: 200px;
+    height: 300px;
   }
   .mtp--veo {
     margin-top: -52px;

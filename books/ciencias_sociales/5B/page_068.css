@@ -1,0 +1,19 @@
+.cb-cabecera {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
+    background-color: var(--saitama);
+    height: 80px;
+  }
+  .linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 25px;
+    border-color: var(--dark);
+    min-width: 55px;
+  }
+  .cuadrado {
+      width: 25px;
+      height: 25px;
+  }
+  .espacio {
+ height: 60px;
+}
