@@ -17,3 +17,80 @@
   .espacio {
  height: 60px;
 }
+.maximo {
+  max-width: 80%;
+}
+
+.mtp--2 {
+  margin-top: -10px;
+}
+.msp--15 {
+  margin-left: -15px;;
+}
+
+.uno {
+  display: flex;
+  position: absolute;
+  left: 80px;
+  top: 250px;
+  z-index: 1;
+  height: 30px;
+}
+.dos {
+  display: flex;
+  position: absolute;
+  left: 80px;
+  top: 335px;
+  z-index: 1;
+  height: 30px;
+}
+.tres {
+  display: flex;
+  position: absolute;
+  left: 80px;
+  top: 415px;
+  z-index: 1;
+  height: 30px;
+}
+.cuatro {
+  display: flex;
+  position: absolute;
+  left: 80px;
+  top: 500px;
+  z-index: 1;
+  height: 30px;
+}
+
+.block-bottom {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
+}
+
+.tf-flecha{
+  padding-bottom: -2px;
+}
+.tf-parrafo-caja {
+  font-size: 13px;
+  text-align: left !important;
+  color: #000 !important;
+  font-family: ubuntu-l, sans-serif;
+  background-color: #e4e0f0;
+  width: 335px;
+  padding-left: 8px;
+}
+.tf-letra {
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  color: white !important;
+}
+.tf-mono {
+  display: flex;
+  position: absolute;
+  right: 20px;
+  top: 405px;
+  z-index: 1;
+  height: 270px;
+}
