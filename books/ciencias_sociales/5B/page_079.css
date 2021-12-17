@@ -1,0 +1,114 @@
+.cb-page79 {
+    background: url(images/page_079/fondo_001.svg) top center/cover no-repeat;
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-print-color-adjust: exact !important;
+  }
+  .cb-inicio {
+    margin-bottom: 60px;
+  }
+  .cb-dossier {
+    width: 100%;
+  }
+  .linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 25px;
+    border-color: var(--dark);
+    min-width: 55px;
+  }
+
+  .alto-caja {
+      height: 60px;
+      min-width: 250px;
+  }
+  .texto-izq {
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    margin-left: 7%;
+    margin-top: -30px;
+    width: 20%;
+  }
+
+  .texto-der {
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    margin-left: 8%;
+    background-color: red;
+  }
+
+  .anillo {
+      margin-left: 262px;
+      margin-top: 0px;
+      z-index: 1;
+      display: flex;
+      position: absolute;
+      height: 12px;
+  }
+
+  .tf-parrafo-caja {
+    font-size: 16px;
+    text-align: left !important;
+    color: #000 !important;
+    font-family: ubuntu-l, sans-serif;
+    width: 400px;
+    padding-left: 8px;
+  }
+  .tf-letra {
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    color: white !important;
+  }
+
+  .tf-mapa {
+    display: flex;
+    position: absolute;
+    left: 30px;
+    top: 220px;
+    z-index: 1;
+    height: 70px;
+  }
+  .tf-estrella {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 210px;
+    z-index: 1;
+    height: 60px;
+  }
+  
+  .tf-celular {
+    display: flex;
+    position: absolute;
+    left: 60px;
+    top: 40px;
+    z-index: 1;
+    height: 90px;
+  }
+  .tf-megafono {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    bottom: 200px;
+    z-index: 1;
+    height: 60px;
+  }
+  .tf-nota {
+    display: flex;
+    position: absolute;
+    left: 50px;
+    top: 400px;
+    z-index: 1;
+    height: 60px;
+  }
+ 
+  .tf-lupa {
+    display: flex;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+    z-index: 1;
+    height: 70px;
+  }
