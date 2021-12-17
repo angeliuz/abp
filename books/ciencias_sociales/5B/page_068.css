@@ -1,21 +1,21 @@
 .cb-cabecera {
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
-    clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
-    background-color: var(--saitama);
-    height: 80px;
-  }
-  .linea {
-    border-bottom: 1px dashed #dedede;
-    padding-top: 25px;
-    border-color: var(--dark);
-    min-width: 55px;
-  }
-  .cuadrado {
-      width: 25px;
-      height: 25px;
-  }
-  .espacio {
- height: 60px;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
+  background-color: var(--saitama);
+  height: 80px;
+}
+.linea {
+  border-bottom: 1px dashed #dedede;
+  padding-top: 25px;
+  border-color: var(--dark);
+  min-width: 55px;
+}
+.cuadrado {
+  width: 25px;
+  height: 25px;
+}
+.espacio {
+  height: 60px;
 }
 .maximo {
   max-width: 80%;
@@ -25,7 +25,7 @@
   margin-top: -10px;
 }
 .msp--15 {
-  margin-left: -15px;;
+  margin-left: -15px;
 }
 
 .uno {
@@ -62,14 +62,15 @@
 }
 
 .block-bottom {
-    max-width: 700px;
-    margin-right: auto;
-    margin-left: auto;
-    width: calc(100% - 30px);
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  width: calc(100% - 30px);
 }
 
-.tf-flecha{
+.tf-flecha {
   padding-bottom: -2px;
+  height: 20px;
 }
 .tf-parrafo-caja {
   font-size: 13px;
@@ -93,4 +94,48 @@
   top: 405px;
   z-index: 1;
   height: 270px;
+}
+@media all and (max-width: 990px) {
+  .tf-mono {
+    display: flex;
+    position: absolute;
+    visibility: hidden;
+  }
+  .maximo {
+    max-width: 100%;
+  }
+}
+@media all and (max-width: 660px) {
+  .uno {
+    display: flex;
+    position: absolute;
+    left: 70px;
+    top: 275px;
+    z-index: 1;
+    height: 30px;
+  }
+  .dos {
+    display: flex;
+    position: absolute;
+    left: 70px;
+    top: 355px;
+    z-index: 1;
+    height: 30px;
+  }
+  .tres {
+    display: flex;
+    position: absolute;
+    left: 70px;
+    top: 435px;
+    z-index: 1;
+    height: 30px;
+  }
+  .cuatro {
+    display: flex;
+    position: absolute;
+    left: 70px;
+    top: 520px;
+    z-index: 1;
+    height: 30px;
+  }
 }
