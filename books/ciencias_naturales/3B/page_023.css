@@ -1,0 +1,82 @@
+.cabecera {
+    -webkit-clip-path: polygon(100% 100%, 0% 0%, 0% 0%, 8% 0%);
+    clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
+    background-color: var(--android18);
+    height: 130px;
+}
+
+
+.container-row {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.caja-borde {
+    height: 150px;
+    width: 250px;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+    border-color:#45ad4e;
+    border-width: 4px;
+
+
+
+}
+
+.caja-borde1 {
+    height: 180px;
+    width: 250px;
+    border-top-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+    border-color:#45ad4e;
+    border-width: 4px;
+
+
+
+}
+
+.cuadrado-respuesta{
+    position: absolute;
+    
+ 
+  
+  
+  
+  
+  }
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+
+
+   
+
+  
+
+}
+
+@media (max-width: 778px) {
+
+
+   
+
+
+}
+
+@media (max-width: 768px) {
+   .cambio{
+    
+    flex-direction: column;
+   }
+
+}
