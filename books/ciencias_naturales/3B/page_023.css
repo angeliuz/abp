@@ -38,7 +38,15 @@
 
 }
 
-
+.cuadrado-respuesta{
+    position: absolute;
+    
+ 
+  
+  
+  
+  
+  }
 
 
 
@@ -65,7 +73,7 @@
 
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
    .cambio{
     
     flex-direction: column;
