@@ -87,18 +87,23 @@
   --ryu:#ece9d9;
   --honda:#ffedbf;
   --akuma:#f29eb7;
-  --bison:;
-  --sagat:;
-  --cammy:;
-  --guile:;
-  --zangief:;
-  --blanka:;
-  --dhalsim:;
-  --ibuki:;
-  --balrog:;
-  --birdie:;
-  --jurihan:;
-  --urien:;
+  --bison:#d6eef5;
+  --sagat:#e7e3d2;
+  --cammy:#aee0ec;
+  --guile:#e0bad7;
+  --zangief:#caeBea;
+  --blanka:#f4e6f0;
+  --dhalsim:#74be4b;
+  --ibuki:#feca30;
+  --balrog:#45ad4e;
+  --birdie:#a7cd45;
+  --jurihan:#ffe4a1;
+  --urien:#fff2be;
+  --cody:;
+  --feilong:;
+  --gouken:;
+  --charlie:;
+  --rolento:;
 
 }
 
@@ -489,7 +494,42 @@
 .color-akuma {
   color: var(--akuma);
 }
-
+.color-bison {
+  color: var(--bison);
+}
+.color-sagat {
+  color: var(--sagat);
+}
+.color-cammy {
+  color: var(--cammy);
+}
+.color-guile {
+  color: var(--guile);
+}
+.color-zangief {
+  color: var(--zangief);
+}
+.color-blanka {
+  color: var(--blanka);
+}
+.color-dhalsim {
+  color: var(--dhalsim);
+}
+.color-ibuki {
+  color: var(--ibuki);
+}
+.color-balrog {
+  color: var(--balrog);
+}
+.color-birdie {
+  color: var(--birdie);
+}
+.color-jurihan {
+  color: var(--jurihan);
+}
+.color-urien {
+  color: var(--urien);
+}
 /* BORDERS */
 .border-color-goku {
   border-color: var(--goku) !important;
@@ -698,7 +738,42 @@
 .border-color-akuma {
   border-color: var(--akuma) !important;
 }
-
+.border-color-bison {
+  border-color: var(--bison) !important;
+}
+.border-color-sagat {
+  border-color: var(--sagat) !important;
+}
+.border-color-cammy {
+  border-color: var(--cammy) !important;
+}
+.border-color-guile {
+  border-color: var(--guile) !important;
+}
+.border-color-zangief {
+  border-color: var(--zangief) !important;
+}
+.border-color-blanka {
+  border-color: var(--blanka) !important;
+}
+.border-color-dhalsim {
+  border-color: var(--dhalsim) !important;
+}
+.border-color-ibuki {
+  border-color: var(--ibuki) !important;
+}
+.border-color-balrog {
+  border-color: var(--balrog) !important;
+}
+.border-color-birdie {
+  border-color: var(--birdie) !important;
+}
+.border-color-jurihan {
+  border-color: var(--jurihan) !important;
+}
+.border-color-urien {
+  border-color: var(--urien) !important;
+}
 /* BACKGROUND COLORS */
 .bgc-goku {
   background-color: var(--goku);
@@ -906,4 +981,40 @@
 }
 .bgc-akuma {
   background-color: var(--akuma);
+}
+.bgc-bison {
+  background-color: var(--bison);
+}
+.bgc-sagat {
+  background-color: var(--sagat);
+}
+.bgc-cammy {
+  background-color: var(--cammy);
+}
+.bgc-guile {
+  background-color: var(--guile);
+}
+.bgc-zangief {
+  background-color: var(--zangief);
+}
+.bgc-blanka {
+  background-color: var(--blanka);
+}
+.bgc-dhalsim {
+  background-color: var(--dhalsim);
+}
+.bgc-ibuki {
+  background-color: var(--ibuki);
+}
+.bgc-balrog {
+  background-color: var(--balrog);
+}
+.bgc-birdie {
+  background-color: var(--birdie);
+}
+.bgc-jurihan {
+  background-color: var(--jurihan);
+}
+.bgc-urien {
+  background-color: var(--urien);
 }
