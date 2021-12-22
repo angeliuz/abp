@@ -3328,6 +3328,13 @@
   border-top-right-radius: 10px;
 }
 
+.min-hp-75 {
+  min-height: 75px !important;
+}
+.min-hp-110 {
+  min-height: 110px !important;
+}
+
 .min-hp-150 {
   min-height: 150px !important;
 }
