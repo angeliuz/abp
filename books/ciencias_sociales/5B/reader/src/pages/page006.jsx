@@ -70,7 +70,7 @@ function Page006() {
                 <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
                   ABP &copy; SM
                 </div>
-                <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">8</div>
+                <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">6</div>
               </div>
               {/* End pie de página */}
             
