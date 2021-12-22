@@ -7,7 +7,7 @@
     height: 250px; 
     margin-bottom: 60px;
  }
-.cb-block-superior {
+.cb-block-superior-2 {
     max-width: 160px;
     border-radius: 10px;
     margin-right: auto;
@@ -137,7 +137,7 @@
     width: calc(100% - 30px);
 }
 
-.cb-block-inicial {
+.cb-block-inicial-2 {
     max-width: 500px;
     background-color: white;
     border-radius: 10px;

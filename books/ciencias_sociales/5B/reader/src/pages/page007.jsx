@@ -46,7 +46,7 @@ function Page007() {
             <div className="ptp-10 psp-60 mbp-80 contenedor-pagina">
               <div className="d-flex">
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-goten">1</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10">Veo el video, leo la carta y destaco las ideas principales.</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Veo el video, leo la carta y destaco las ideas principales.</div>
                 <img src={process.env.PUBLIC_URL + "images/page_007/img_002.jpg"} className="cambio hp-40 text-center mtp-10 psp-10 pep-40" alt="" />
               </div>
               <div className="cb-paper">
