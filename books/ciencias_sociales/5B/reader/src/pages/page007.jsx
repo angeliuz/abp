@@ -35,7 +35,7 @@ function Page007() {
                   Comprender la <br /> importancia del desafío.
                 </div>
                 <div className="col-sm-auto p-0 align-self-end">
-                  <img src={process.env.PUBLIC_URL + "images/page_007/img_001.svg"} className="wp-40 rotar" alt="" />
+                  <img src="images/page_007/img_001.svg" className="wp-40 rotar" alt="" />
                 </div>
                 <div className="col-auto ptp-10 pbp-5 color-garou cb-caja">
                   Comprometerme <br /> con el desafío.
