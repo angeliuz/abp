@@ -5,12 +5,22 @@
  }
 .cb-block-superior {
     background-color: white;
-    max-width: 500px;
+    max-width: 550px;
     border-radius: 10px;
     margin-right: auto;
     margin-left: auto;
     position: relative;
     width: calc(100% - 30px);
+}
+.cb-block-superior_02 {
+    background-color: white;
+    max-width: 550px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: calc(100% - 30px);
+    height: 100px;
 }
 
 .line-dotted {
@@ -18,14 +28,14 @@
 }
 
 .cb-block-arriba {
-    max-width: 500px;
+    max-width: 550px;
     margin-right: auto;
     margin-left: auto;
     width: calc(100% - 30px);
 }
 
 .cb-block-inicial {
-    max-width: 500px;
+    max-width: 550px;
     background-color: white;
     border: 1px solid rgb(212, 86, 86);
     border-radius: 10px;
@@ -36,7 +46,10 @@
     width: calc(100% - 30px);
 }
 
-
+.cb-outline_pg9{
+    outline: solid 1px var(--soldados);
+    outline-offset: 2px;
+}
 .rounded-caja {
     border-radius: 20px 20px 0px 0px;
 }
@@ -54,49 +67,37 @@
     transform: rotate(1grad);
   }
 
-  .cb-compu{
+  .cb-hojas{
     position: absolute;
-    left: -90px;
-    top: -24px;
+    left: -50px;
+    top: -154px;
+    width: 70px;
   }
 
-  .cb-globo{
+  .cb-flechahoja{
     position: absolute;
     right: -33px;
-    top: -47px;
+    top: -57px;
+    height: 70px;
   }
   
-  .cb-nota{
+  .cb-tronco{
     position: absolute;
-    right: -26px;
+    right: -56px;
     top: -51px;
 }
-.cb-cine{
+.cb-mundi{
     position: absolute;
     left: -60px;
     top: 32px
 }
-.cb-flechab{
+.cb-tinta{
     position: absolute;
-    right: -30px;
-    top: -50px;
-}
-.cb-flechaa{
-    position: absolute;
-    left: -30px;
-    top: -50px;
-}
-.cb-submarino{
-    position: absolute;
-    left: -70px;
-    bottom: -45px;
+    left: -130px;
+    top: 28px
 }
 
-.cb-binoculares{
-    position: absolute;
-    right: -30px;
-    bottom: -60px;
-}
+
 .cb-dosier {
     width: 50%;
 }
@@ -125,35 +126,20 @@
         width: 100%;
     }
 
-    .cb-compu{
+    .cb-flechahoja{
         display: none;
     }
-    .cb-globo{
+    .cb-hojas{
         display: none;
     }
-    .cb-nota{
+    .cb-mundi{
         display: none;
     }
-    .cb-cine{
+    .cb-tronco{
         display: none;
     }
-    .cb-flechab{
+    .cb-tinta{
         display: none;
-    }
-    .cb-flechaa{
-        display: none;
-    }
-    .cb-submarino{
-        display: none;
-    }
-    .cb-binoculares{
-        display: none;
-    }
-    .cb-dosier{
-        width: 90%;
-        }
-    .cb-firmas{
-        display: inline;
     }
     .cb-column-line {
         width: 100%;
