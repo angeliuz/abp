@@ -7,53 +7,58 @@
 .bloque {
   width: 35px;
   height: 35px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -20px;
   border: 1px solid #878786;
 }
 .linea {
   border-bottom: 2px dotted #9f9f9f;
-  padding-bottom: 1px;
 }
+.mse-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.msp--50 {
+  margin-left: -50px;
+}
+.msp--20 {
+  margin-left: -20px;
+}
+.msp-2 {
+  margin-left: 2px;
+}
+.msp--5 {
+  margin-left: -5px;
+}
+.mep-10 {
+  margin-right: 10px;
+}
+.mtp--31 {
+  margin-top: -31px;
+}
+.mtp--20 {
+  margin-top: -20px;
+}
+.mtp-190 {
+  margin-top: 190px;
+}
+
 .alto {
   min-height: 120px;
   padding-left: 5px;
   padding-right: 5px;
 }
 .basura {
-  margin-top: 190px;
-  margin-left: -20px;
   width: 35%;
   height: 35%;
   visibility: visible;
 }
-.anillo {
-  margin-top: -31px;
-  margin-left: 2px;
-  height: 35px;
-}
 
-.imagen-dos {
-  margin-left: -50px;
-}
-.imagen-tres {
-  margin-left: -50px;
-  margin-right: 10px;
-}
 @media (min-width: 992px) {
   .anillo-dos {
-    margin-top: -31px;
-    margin-left: -5px;
-    height: 35px;
     visibility: hidden;
     display: flex;
     position: absolute;
   }
   .anillo-tres {
-    margin-top: -31px;
-    margin-left: -5px;
-    height: 35px;
     visibility: hidden;
     display: flex;
     position: absolute;
@@ -62,23 +67,15 @@
 
 @media (max-width: 992px) {
   .basura {
-    margin-top: 190px;
-    margin-left: -20px;
     width: 110%;
     visibility: hidden;
     display: flex;
     position: absolute;
   }
   .anillo-dos {
-    margin-top: -31px;
-    margin-left: -5px;
-    height: 35px;
     visibility: visible;
   }
   .anillo-tres {
-    margin-top: -31px;
-    margin-left: -5px;
-    height: 35px;
     visibility: visible;
   }
 }
@@ -89,15 +86,9 @@
 }
 @media (max-width: 730px) {
   .anillo-dos {
-    margin-top: -31px;
-    margin-left: -5px;
-    height: 35px;
     visibility: visible;
   }
   .anillo-tres {
-    margin-top: -31px;
-    margin-left: -5px;
-    height: 35px;
     visibility: hidden;
     display: flex;
     position: absolute;
@@ -106,17 +97,11 @@
 
 @media (max-width: 536px) {
   .anillo-dos {
-    margin-top: -31px;
-    margin-left: -5px;
-    height: 35px;
     visibility: hidden;
     display: flex;
     position: absolute;
   }
   .anillo-tres {
-    margin-top: -31px;
-    margin-left: -5px;
-    height: 35px;
     visibility: hidden;
     display: flex;
     position: absolute;
