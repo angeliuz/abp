@@ -22,20 +22,20 @@ function Page007() {
                   <br /> esta sesión son:
                 </div>
                 <div className="col-sm-auto p-0 align-self-end">
-                  <img src={process.env.PUBLIC_URL + "images/page_007/img_001.svg"} className="wp-40 rotar" alt="" />
+                  <img src="images/page_007/img_001.svg" className="wp-40 rotar" alt="" />
                 </div>
                 <div className="col p-0 align-self-center">
                   Averiguar en qué consiste
                   <br /> el desafío.
                 </div>
                 <div className="col-sm-auto p-0 align-self-start">
-                  <img src={process.env.PUBLIC_URL + "images/page_007/img_003.svg"} className="wp-40 rotar" alt="" />
+                  <img src="images/page_007/img_003.svg" className="wp-40 rotar" alt="" />
                 </div>
                 <div className="col p-0 align-self-center">
                   Comprender la <br /> importancia del desafío.
                 </div>
                 <div className="col-sm-auto p-0 align-self-end">
-                  <img src={process.env.PUBLIC_URL + "images/page_007/img_001.svg"} className="wp-40 rotar" alt="" />
+                  <img src="images/page_007/img_001.svg" className="wp-40 rotar" alt="" />
                 </div>
                 <div className="col-auto ptp-10 pbp-5 color-garou cb-caja">
                   Comprometerme <br /> con el desafío.
@@ -46,13 +46,13 @@ function Page007() {
             <div className="ptp-10 psp-60 mbp-80 contenedor-pagina">
               <div className="d-flex">
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-goten">1</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10">Veo el video, leo la carta y destaco las ideas principales.</div>
-                <img src={process.env.PUBLIC_URL + "images/page_007/img_002.jpg"} className="cambio hp-40 text-center mtp-10 psp-10 pep-40" alt="" />
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Veo el video, leo la carta y destaco las ideas principales.</div>
+                <img src="images/page_007/img_002.jpg" className="cambio hp-40 text-center mtp-10 psp-10 pep-40" alt="" />
               </div>
               <div className="cb-paper">
                 <div className="cb-paper-content f-Ubuntu-L text-start">
-                  <img src={process.env.PUBLIC_URL + "images/page_007/img_002.png"} className="cb-carta" alt="" />
-                  <img src={process.env.PUBLIC_URL + "images/page_007/img_001.png"} className="cb-lapiz" alt="" />
+                  <img src="images/page_007/img_002.png" className="cb-carta" alt="" />
+                  <img src="images/page_007/img_001.png" className="cb-lapiz" alt="" />
                   <p>Queridos estudiantes,</p>
                   <p>Soy dirigente de una organización que promueve el respeto de los derechos de todas las personas en Chile.</p>
 
@@ -80,32 +80,32 @@ function Page007() {
             </div>
             <div className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
               <div className="col-7 col-sm-2 p-0 m-0 position-relative">
-                <img src={process.env.PUBLIC_URL + "images/rotulo_motivacion.svg"} className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
+                <img src="images/rotulo_motivacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
                 <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
                 <div className="w-100 hp-25 bgc-goten"></div>
               </div>
               <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-                <img src={process.env.PUBLIC_URL + "images/rotulo_planificacion.svg"} className="oculto" alt="" />
+                <img src="images/rotulo_planificacion.svg" className="oculto" alt="" />
                 <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
                 <div className="w-100 hp-25 bgc-bulma"></div>
               </div>
               <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-                <img src={process.env.PUBLIC_URL + "images/rotulo_investigacion.svg"} className="oculto" alt="" />
+                <img src="images/rotulo_investigacion.svg" className="oculto" alt="" />
                 <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
                 <div className="w-100 hp-25 bgc-android18"></div>
               </div>
               <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-                <img src={process.env.PUBLIC_URL + "images/rotulo_experimentacion.svg"} className="oculto" alt="" />
+                <img src="images/rotulo_experimentacion.svg" className="oculto" alt="" />
                 <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
                 <div className="w-100 hp-25 bgc-pidgey"></div>
               </div>
               <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-                <img src={process.env.PUBLIC_URL + "images/rotulo_creacion.svg"} className="oculto" alt="" />
+                <img src="images/rotulo_creacion.svg" className="oculto" alt="" />
                 <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
                 <div className="w-100 hp-25 bgc-saitama"></div>
               </div>
               <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-                <img src={process.env.PUBLIC_URL + "images/rotulo_difusion.svg"} className="oculto" alt="" />
+                <img src="images/rotulo_difusion.svg" className="oculto" alt="" />
                 <div className="w-100 hp-15 bgc-leono rounded-caja-end"></div>
                 <div className="w-100 hp-25 bgc-pikachu"></div>
               </div>

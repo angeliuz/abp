@@ -1,0 +1,150 @@
+.cb-page9 {
+    background: url(images/page_009/fondo_003.svg) top left/ cover no-repeat !important;
+     -webkit-print-color-adjust: exact !important;
+ 
+ }
+.cb-block-superior {
+    background-color: white;
+    max-width: 550px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: calc(100% - 30px);
+}
+.cb-block-superior_02 {
+    background-color: white;
+    max-width: 550px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: calc(100% - 30px);
+    height: 100px;
+}
+
+.line-dotted {
+    border: 1px dashed #dedede;
+}
+
+.cb-block-arriba {
+    max-width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
+}
+
+.cb-block-inicial {
+    max-width: 550px;
+    background-color: white;
+    border: 1px solid rgb(212, 86, 86);
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    position: relative;
+    width: calc(100% - 30px);
+}
+
+.cb-outline_pg9{
+    outline: solid 1px var(--soldados);
+    outline-offset: 2px;
+}
+.rounded-caja {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color:var(--lightDark);
+}
+
+.cb-personaje{
+    position: absolute;
+    right: 55px;
+    top: -86px;
+    transform: rotate(1grad);
+  }
+
+  .cb-hojas{
+    position: absolute;
+    left: -50px;
+    top: -154px;
+    width: 70px;
+  }
+
+  .cb-flechahoja{
+    position: absolute;
+    right: -33px;
+    top: -57px;
+    height: 70px;
+  }
+  
+  .cb-tronco{
+    position: absolute;
+    right: -56px;
+    top: -51px;
+}
+.cb-mundi{
+    position: absolute;
+    left: -60px;
+    top: 32px
+}
+.cb-tinta{
+    position: absolute;
+    left: -130px;
+    top: 28px
+}
+
+
+.cb-dosier {
+    width: 50%;
+}
+.cb-column-line {
+    max-width: 200px;
+    width: calc(100% / 3);
+}
+.cb-firmas {
+    display: flex;
+}
+
+
+@media all and (max-width: 829px) {
+    .cb-page9 {
+        background: url(images/page_009/fondo_004.svg) top left/ cover no-repeat !important;
+     }
+
+}
+
+@media all and (max-width: 680px) {
+
+    .cb-page9 {
+        background: url(images/page_009/fondo_004.svg) top left/ cover no-repeat !important;
+     }
+    .titulo-linea .linea{
+        width: 100%;
+    }
+
+    .cb-flechahoja{
+        display: none;
+    }
+    .cb-hojas{
+        display: none;
+    }
+    .cb-mundi{
+        display: none;
+    }
+    .cb-tronco{
+        display: none;
+    }
+    .cb-tinta{
+        display: none;
+    }
+    .cb-column-line {
+        width: 100%;
+        margin: auto;
+        max-width: 470px;
+        margin-top: 30px;
+    }
+}
