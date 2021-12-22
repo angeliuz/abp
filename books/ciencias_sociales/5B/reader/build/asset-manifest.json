@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1996ed49.chunk.css",
+    "main.js": "/static/js/main.bad5d748.chunk.js",
+    "main.js.map": "/static/js/main.bad5d748.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1d0da7c4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1d0da7c4.js.map",
+    "static/css/2.e6c1e8c5.chunk.css": "/static/css/2.e6c1e8c5.chunk.css",
+    "static/js/2.794a55cc.chunk.js": "/static/js/2.794a55cc.chunk.js",
+    "static/js/2.794a55cc.chunk.js.map": "/static/js/2.794a55cc.chunk.js.map",
+    "static/js/3.188ca8f8.chunk.js": "/static/js/3.188ca8f8.chunk.js",
+    "static/js/3.188ca8f8.chunk.js.map": "/static/js/3.188ca8f8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.e6c1e8c5.chunk.css.map": "/static/css/2.e6c1e8c5.chunk.css.map",
+    "static/css/main.1996ed49.chunk.css.map": "/static/css/main.1996ed49.chunk.css.map",
+    "static/js/2.794a55cc.chunk.js.LICENSE.txt": "/static/js/2.794a55cc.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/static/media/pixilate-jollygood-proper-condensed-semibold.9876aa40.otf",
+    "static/media/page_006.css": "/static/media/fondo_movile.bb3e000f.svg",
+    "static/media/page_005.css": "/static/media/fondo_001.718ffa14.svg",
+    "static/media/page_009.css": "/static/media/fondo_004.d4979466.svg",
+    "static/media/page_010.css": "/static/media/fondo_008.aff0078d.svg",
+    "static/media/page_007.css": "/static/media/img_002.386fc2af.svg",
+    "static/media/page_008.css": "/static/media/linea.608e3692.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d0da7c4.js",
+    "static/css/2.e6c1e8c5.chunk.css",
+    "static/js/2.794a55cc.chunk.js",
+    "static/css/main.1996ed49.chunk.css",
+    "static/js/main.bad5d748.chunk.js"
+  ]
+}
