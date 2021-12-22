@@ -15,7 +15,7 @@ function Page006() {
                   Mis objetivos <br /> en esta etapa son: 
                   </div>
                   <div className="cb-cohete">
-                    <img src={process.env.PUBLIC_URL + "images/page_006/img_001.png"} alt="" />
+                    <img src="images/page_006/img_001.png" alt="" />
                   </div>
                 </div>
                 {/* Begin Contendor1 */}
@@ -42,7 +42,7 @@ function Page006() {
                   <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
                     <div className="d-flex bgc-piccolo psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline"> 
                         <div className="d-flex"> 
-                          <img src={process.env.PUBLIC_URL + "images/page_006/arrow.svg"} className="mbp-20 mep-5" alt="" />
+                          <img src="images/page_006/arrow.svg" className="mbp-20 mep-5" alt="" />
                         </div> 
                         <div className="d-flex"> 
                           <span className="fsp-16 text-start f-pixilate-regular">
@@ -61,7 +61,7 @@ function Page006() {
 
               <div className="d-flex justify-content-center max-img mb-5">
                 <div className="">
-                  <img src={process.env.PUBLIC_URL + "images/page_006/img_003.jpg"} className="img-fluid" alt="" />
+                  <img src="images/page_006/img_003.jpg" className="img-fluid" alt="" />
                 </div>
               </div>
             
