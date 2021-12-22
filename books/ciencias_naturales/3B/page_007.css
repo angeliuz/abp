@@ -1,3 +1,31 @@
+/*cambiados por clau*/
+.cabecera-pag7{
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
+  background-color: var(--goten);
+  height: 128px;
+}
+/*.caja {
+  background-image: url(../3B/images/page_007/img_001.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px 10px 10px 10px;
+  width: 150px;
+}*/
+.cb-caja_bg{
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 23px;
+  width: 180px;
+  z-index: 1;
+}
+.cb-titulo-caja{
+  position: absolute;
+  margin-top: -37px;
+  margin-left: 53px;
+  z-index: 11;
+}
+/*fin cambiados por clau*/
 /* MARGENES */
 .mtp--45 {
     margin-top: -45px;
@@ -20,12 +48,13 @@
   transform: rotate(
 -2deg);
 }
-
+/*cambiados por clau*/
 .puntitos{
-  border-bottom: 3px dotted rgba(96, 93, 93, 0.92);
+  border-bottom: 1px dotted rgba(167, 167, 167, 0.92);
   padding-top: 10px;
   padding-bottom: 1px;
 }
+/*fin cambiados por clau*/
 
 #bg {
   position: fixed; 

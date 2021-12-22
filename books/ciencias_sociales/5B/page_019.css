@@ -45,6 +45,10 @@
     margin-left: auto;
     z-index: 1;
   }
+  .bloque {
+    min-width: 100px;
+    min-height: 150px;
+  }
   .bgc-zoe {
       background-color: #76ccc9
   }

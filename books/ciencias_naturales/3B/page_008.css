@@ -1,8 +1,10 @@
-.nat-page08 {
-    background: url(images/page_008/fondo_02-02.png) #ffffff top left/ cover no-repeat !important;
-     -webkit-print-color-adjust: exact !important;
- 
- }
+ .cb-cabecera{
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
+    background-color: var(--goten);
+    height: 80px;
+  }
+
 
 .block-border-yellow {
     border: 10px solid #ffefc3;

@@ -1,0 +1,182 @@
+.cb-page79 {
+    background: url(images/page_079/fondo_001.svg) top left/ cover no-repeat !important;
+     -webkit-print-color-adjust: exact !important;
+ }
+
+.cb-block-contenedor{
+  max-width: 570px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 200px;
+    width: calc(100% - 30px);
+}
+.cb-block-verde{
+  background-color: var(--palpatine);
+  max-width: 200px;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  left: 110px;
+  top: 130px;
+  border-radius: 3px;
+}
+.cb-block-naranja{
+  background-color: var(--obiwan);
+  max-width: 200px;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  left: 110px;
+  top: 400px;
+  border-radius: 3px;
+}
+.cb-block-white {
+  background-color: white;
+  border: 1px solid var(--garou);
+  border-radius: 10px;
+  height: 200px;
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+.cb-outline{
+  outline: solid 3px var(--kokomi);
+  outline-offset: -4px;
+}
+.cb-block-titulo {
+  max-width: 590px;
+  margin-right: auto;
+  margin-left: auto;
+  width: calc(100% - 30px);
+}
+
+.line-dotted {
+    border: 1px dashed #dedede;
+}
+
+.cb-block-texto{
+  max-width: 590px;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  z-index: 1;
+  left: 115px;
+  top:136px ;
+}
+
+  .cb-personaje{
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: -414px;
+    width: 100%;
+    max-width: 700px;
+  }
+
+  .cb-camara{
+    position: absolute;
+    right: 87px;
+    top: 113px;
+    transform: rotate(-13deg);
+    z-index: 11;
+  }
+  .cb-ampolleta{
+    position: absolute;
+    left: 157px;
+    top: 323px;
+    z-index: 11;
+    width: 70px;
+  }
+  
+  .cb-calendario{
+    position: absolute;
+    right: -56px;
+    top: -41px;
+    transform: rotate(-20deg);
+  }
+  .cb-lupa{
+    position: absolute;
+    right: -20px;
+    bottom: -8px
+  }
+  .cb-megafono{
+    position: absolute;
+    right: -60px;
+    top: -239px;
+  }
+  
+
+
+@media all and (max-width: 829px) {
+  .cb-page79 {
+     background: url(images/page_079/fondo_000.svg) top left/ cover no-repeat !important;
+     }
+     .cb-block-verde{
+      left: 12%;
+    }
+    .cb-block-naranja{
+      left: 12%;
+    }
+
+}
+@media all and (max-width:780px) {
+
+  .cb-page79 {
+    background: url(images/page_079/fondo_005.svg) top left/ cover no-repeat !important;
+   }
+   .cb-contenedor{
+    display: inline;
+  }
+  .cb-block-verde{
+    left: 9%;
+  }
+  .cb-block-naranja{
+    left: 9%;
+  }
+
+  .cb-camara{
+      display: none;
+  }
+  .cb-ampolleta{
+      display: none;
+  }
+  .cb-lupa{
+      display: none;
+  }
+  .cb-megafono{
+      display: none;
+  }
+  .cb-tablero{
+      display: none;
+  }
+  .cb-binoculares{
+      display: none;
+  }
+
+}
+@media all and (max-width: 720px) {
+  .cb-block-verde{
+    left: 5%;
+  }
+  .cb-block-naranja{
+    left: 5%;
+  }
+  .cb-block-titulo{
+    padding-left: 18px;
+        }
+  .cb-personaje{
+   width: 140%;
+   bottom: -380px;
+              }
+            
+  }
+
+  @media all and (max-width: 450px) {
+
+    .cb-personaje{
+     width: 155%;
+     bottom: -380px;
+                }
+              
+    }
+  
