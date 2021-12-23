@@ -3,8 +3,7 @@
 }
 
 .cb-lineas {
-    background: url(images/page_006/fondo.svg)  top left/ cover no-repeat !important;
-     -webkit-print-color-adjust: exact !important;
+    background: url(images/page_006/fondo.svg) top left/ cover no-repeat !important;
  }
 
  .cb-outline{
@@ -12,10 +11,10 @@
     outline-offset: -3px;
 }
 .cb-contenedor-1{
-    /* display: flex; */
-    /* justify-content: end; */
+    justify-content: flex-end;
     margin-right: 10px;
     margin-bottom: 10px;
+    display: flex;
 }
 .cb-contenedor-2{
     margin-left: 110px;

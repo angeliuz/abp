@@ -99,6 +99,7 @@
   --birdie:#a7cd45;
   --jurihan:#ffe4a1;
   --urien:#fff2be;
+  --yanfei:#f0b099;
 
 
 }
@@ -155,6 +156,9 @@
 }
 .color-info {
   color: var(--info);
+}
+.color-yanfei {
+  color: var(--yanfei)
 }
 
 /* BACKGROUND */
@@ -222,9 +226,6 @@
 }
 .bgc-green {
   background-color: green;
-}
-.bgc-pink {
-  background-color: pink;
 }
 /* END BACKGROUND PARA DESARROLLO */
 
@@ -526,6 +527,9 @@
 .color-urien {
   color: var(--urien);
 }
+.color-yanfei {
+  color: var(--yanfei);
+}
 /* BORDERS */
 .border-color-goku {
   border-color: var(--goku) !important;
@@ -770,6 +774,9 @@
 .border-color-urien {
   border-color: var(--urien) !important;
 }
+.border-color-yanfei {
+  border-color: var(--yanfei) !important;
+}
 /* BACKGROUND COLORS */
 .bgc-goku {
   background-color: var(--goku);
@@ -1013,4 +1020,7 @@
 }
 .bgc-urien {
   background-color: var(--urien);
+}
+.bgc-yanfei {
+  background-color: var(--yanfei);
 }
