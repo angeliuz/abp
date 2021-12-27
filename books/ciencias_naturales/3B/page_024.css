@@ -26,6 +26,7 @@
 .espiral {
     position: absolute;
     z-index: 2;
+   
     
 }
 .niño{
@@ -38,8 +39,8 @@
     .rotar {
         transform: rotate(90deg);
         margin-left: calc(50% - 80px);
-        margin-top: 105px;
-        margin-bottom: 40px;
+        margin-top: 100px;
+        
 
 
     }
