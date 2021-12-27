@@ -1,0 +1,79 @@
+.cabecera-pag57{
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
+  background-color: var(--pikachu);
+  height: 128px;
+}
+.cb-caja_bg{
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 23px;
+  width: 180px;
+  z-index: 1;
+}
+.cb-titulo-caja{
+  position: absolute;
+  margin-top: -37px;
+  margin-left: 53px;
+  z-index: 11;
+}
+.cb-titulonumero-p57{
+  max-width: 660px;
+  margin-left: 56px;
+  margin-right: auto;
+}
+.cb-img-p57{
+  max-width: 680px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+.cb-caja-inferior-p57{
+  max-width: 650px;
+  width: calc(100% - 30px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.cb-block-p57 {
+  border: 1px solid #d390c0;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.cb-outline-p57{
+  outline: solid 4px #ffffff;
+  outline-offset: -5px;
+}
+.linea {
+  border-bottom: 1px dashed #dedede;
+  padding-top: 5px;
+  border-color:var(--dark);
+}
+.cb-interior-caja-p57{
+  background-color: white;
+  margin: -12px -12px 20px -12px;
+  border-radius: 1px 1px 0px 0px;
+  padding: 5px 10px;
+}
+.cb-lapiz-p57{
+  position: absolute;
+    right: -5px;
+    top: 15px;
+    transform: rotate(10deg);
+}
+.puntitos{
+  border-bottom: 1px dotted rgba(167, 167, 167, 0.92);
+  padding-top: 10px;
+  padding-bottom: 1px;
+}
+@media all and (max-width: 820px) {
+
+  
+  .cb-lapiz-p57{
+      display: none;
+  }
+}
+  
+
+
+

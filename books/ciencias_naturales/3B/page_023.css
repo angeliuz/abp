@@ -13,41 +13,33 @@
 }
 
 .caja-borde {
-    height: 150px;
+    height: 160px;
     width: 250px;
     border-right-style: double;
     border-bottom-style: double;
     border-left-style: double;
     border-color: #45ad4e;
     border-width: 4px;
-
-
-
 }
 
-.caja-borde1 {
-    height: 180px;
-    width: 250px;
-    border-top-style: double;
-    border-bottom-style: double;
-    border-left-style: double;
-    border-color: #45ad4e;
-    border-width: 4px;
-    margin-top: 300px;
-
-
-
+.mostrar {
+    display: none;
 }
+
+
 
 .cuadrado-respuesta {
     position: absolute;
     z-index: 2;
+    margin-left: -2%;
 }
+
 .cuadrado-paso3 {
     position: absolute;
     z-index: 3;
     margin-left: 35%;
 }
+
 .caja-borde2 {
     height: 180px;
     width: 250px;
@@ -58,14 +50,11 @@
     border-color: #45ad4e;
     border-width: 4px;
     margin-top: -230px;
-    margin-left: 60px;
-
-
+    margin-left: 57px;
 }
 
 .imagen-paso3 {
     margin-left: 40%;
-    
     z-index: 2;
 }
 
@@ -79,28 +68,12 @@
 
 @media (max-width: 768px) {
 
+    .ocultar {
+        display: none;
+    }
 
-    .caja-borde2 {
-        height: 180px;
-        width: 250px;
-        border-top-style: double;
-        border-bottom-style: double;
-        border-left-style: double;
-        border-color: #45ad4e;
-        border-width: 4px;
-        margin-top: -2px;
-        margin-left: 30%;
+    .mostrar {
+        display: inherit;
     }
-    .imagen-paso3 {
-        margin-left: 20%;
-        margin-right: 30%;
-        z-index: 2;
-    }
-    .cuadrado-paso3 {
-        position: absolute;
-        z-index: 3;
-        margin-left: 18%;
-    }
-   
     
 }
