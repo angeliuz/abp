@@ -1,0 +1,26 @@
+.fondo {
+    background: url(images/page_037/fondo.svg) #129CC4 top left / cover no-repeat !important;
+    -webkit-print-color-adjust: exact !important;
+}
+
+.t-shadow{
+    text-shadow: -7px -8px #0067a9;
+}
+
+@media all and (max-width: 550px) {
+    .ft-m {
+        font-size: 60px;
+    }
+    .t-shadow{
+        text-shadow: -5px -6px #0067a9;
+    }
+}
+
+@media all and (max-width: 430px) {
+    .ft-m {
+        font-size: 40px;
+    }
+    .t-shadow{
+        text-shadow: -4px -5px #0067a9;
+    }
+}
