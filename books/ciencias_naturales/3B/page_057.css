@@ -1,0 +1,118 @@
+/*cambiados por clau*/
+.cabecera-pag57{
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
+  background-color: var(--pikachu);
+  height: 128px;
+}
+/*.caja {
+  background-image: url(../3B/images/page_007/img_001.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px 10px 10px 10px;
+  width: 150px;
+}*/
+.cb-caja_bg{
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 23px;
+  width: 180px;
+  z-index: 1;
+}
+.cb-titulo-caja{
+  position: absolute;
+  margin-top: -37px;
+  margin-left: 53px;
+  z-index: 11;
+}
+.cb-titulonumero{
+  max-width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cb-caja-inferior-p57{
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cb-block-p57 {
+  border: 1px solid #d390c0;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.cb-outline-p57{
+  outline: solid 4px #ffffff;
+  outline-offset: -5px;
+}
+.linea {
+  border-bottom: 1px dashed #dedede;
+  padding-top: 5px;
+  border-color:var(--dark);
+}
+.cb-interior-caja-p57{
+  background-color: white;
+  margin: -12px -12px 20px -12px;
+  border-radius: 1px 1px 0px 0px;
+  padding: 5px 10px;
+}
+/*fin cambiados por clau*/
+.mtp--45 {
+    margin-top: -45px;
+  }
+
+.mtp--40 {
+    margin-top: -40px;
+  }
+
+.msp-8 {
+    margin-left: 8px;
+  }
+
+.w-120 {
+  flex:0 0 auto;
+  width:120%
+} 
+
+.sm-rotate--2 {
+  transform: rotate(
+-2deg);
+}
+/*cambiados por clau*/
+.puntitos{
+  border-bottom: 1px dotted rgba(167, 167, 167, 0.92);
+  padding-top: 10px;
+  padding-bottom: 1px;
+}
+/*fin cambiados por clau*/
+
+#bg {
+  position: fixed; 
+  top: -60px; 
+  left: -30px; 
+  width: 216px; 
+  height: 60px;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  z-index: 0; 
+}
+.texto_rotate5{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  height: 60px;
+  width: 216px;
+  z-index:1;
+  transform: rotate(-5deg);
+}
