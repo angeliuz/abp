@@ -54,4 +54,10 @@
     width: 30px;
     height: 30px;
 }
-
+.mtp-30 {
+    margin-top: 30px;
+}
+.ps-pe-a {
+    padding-left: 30%;
+    padding-right: 30%;
+}
