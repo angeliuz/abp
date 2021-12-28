@@ -1,17 +1,9 @@
-/*cambiados por clau*/
 .cabecera-pag57{
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
   clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
   background-color: var(--pikachu);
   height: 128px;
 }
-/*.caja {
-  background-image: url(../3B/images/page_007/img_001.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 10px 10px 10px 10px;
-  width: 150px;
-}*/
 .cb-caja_bg{
   position: absolute;
   margin-top: -50px;
@@ -25,13 +17,20 @@
   margin-left: 53px;
   z-index: 11;
 }
-.cb-titulonumero{
+.cb-titulonumero-p57{
   max-width: 660px;
-  margin-left: auto;
+  margin-left: 56px;
   margin-right: auto;
+}
+.cb-img-p57{
+  max-width: 680px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
 }
 .cb-caja-inferior-p57{
   max-width: 650px;
+  width: calc(100% - 30px);
   margin-left: auto;
   margin-right: auto;
 }
@@ -56,63 +55,25 @@
   border-radius: 1px 1px 0px 0px;
   padding: 5px 10px;
 }
-/*fin cambiados por clau*/
-.mtp--45 {
-    margin-top: -45px;
-  }
-
-.mtp--40 {
-    margin-top: -40px;
-  }
-
-.msp-8 {
-    margin-left: 8px;
-  }
-
-.w-120 {
-  flex:0 0 auto;
-  width:120%
-} 
-
-.sm-rotate--2 {
-  transform: rotate(
--2deg);
+.cb-lapiz-p57{
+  position: absolute;
+    right: -5px;
+    top: 15px;
+    transform: rotate(10deg);
 }
-/*cambiados por clau*/
 .puntitos{
   border-bottom: 1px dotted rgba(167, 167, 167, 0.92);
   padding-top: 10px;
   padding-bottom: 1px;
 }
-/*fin cambiados por clau*/
+@media all and (max-width: 820px) {
 
-#bg {
-  position: fixed; 
-  top: -60px; 
-  left: -30px; 
-  width: 216px; 
-  height: 60px;
+  
+  .cb-lapiz-p57{
+      display: none;
+  }
 }
-#bg img {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
-  min-width: 50%;
-  min-height: 50%;
-  z-index: 0; 
-}
-.texto_rotate5{
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  position: absolute;
-  right: 10px;
-  top: 5px;
-  height: 60px;
-  width: 216px;
-  z-index:1;
-  transform: rotate(-5deg);
-}
+  
+
+
+
