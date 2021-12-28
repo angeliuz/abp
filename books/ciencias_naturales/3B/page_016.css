@@ -41,4 +41,17 @@
 .mw-100 {
     max-width: 100%;
 }
+.mxw-50 {
+    max-width: 50%;
+}
+.mep-a {
+    margin-right: -80px;
+}
+.w-a {
+    width: 25%;
+}
+.cuadrado {
+    width: 30px;
+    height: 30px;
+}
 
