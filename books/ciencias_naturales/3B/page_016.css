@@ -1,63 +1,100 @@
 .cb-cabecera {
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
-    clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
-    background-color: var(--bulma);
-    height: 80px;
-  }
-  .circulo {
-    width: 10px;
-    height: 10px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: var(--bulma);
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
+  background-color: var(--bulma);
+  height: 80px;
 }
-  .msp--40 {
-      margin-left: -40px;
-  }
-  .mtp--20 {
-      margin-top: -20px;
-  }
-  .mtp-30 {
-      margin-top: 30px;
-  }
-  .mnh-200 {
-      min-height: 200px;
-  }
-  .mtp-5 {
-      margin-top: 5px;
-  }
-  .mnw-120 {
-      min-width: 120px;
-  }
-  .linea {
-    border-bottom: 1px dashed #dedede;
-    padding-top: 5px;
-    border-color:var(--dark);
+.circulo {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: var(--bulma);
 }
-.mnw-50 {
-    min-width: 50px;
+.msp--40 {
+  margin-left: -40px;
 }
-.mw-100 {
-    max-width: 100%;
-}
-.mxw-50 {
-    max-width: 50%;
-}
-.mep-a {
-    margin-right: -80px;
-}
-.w-a {
-    width: 25%;
-}
-.cuadrado {
-    width: 30px;
-    height: 30px;
+.mtp--20 {
+  margin-top: -20px;
 }
 .mtp-30 {
-    margin-top: 30px;
+  margin-top: 30px;
 }
-.ps-pe-a {
-    padding-left: 30%;
-    padding-right: 30%;
+.mnh-200 {
+  min-height: 200px;
+}
+.mtp-5 {
+  margin-top: 5px;
+}
+.mnw-120 {
+  min-width: 120px;
+}
+.linea {
+  border-bottom: 1px dashed #dedede;
+  padding-top: 5px;
+  border-color: var(--dark);
+}
+.mnw-50 {
+  min-width: 50px;
+}
+.mw-100 {
+  max-width: 100%;
+}
+.mxw-50 {
+  max-width: 50%;
+}
+.mep-a {
+  margin-right: -80px;
+}
+.w-a {
+  width: 25%;
+}
+.cuadrado {
+  width: 30px;
+  height: 30px;
+}
+.mtp-30 {
+  margin-top: 30px;
+}
+.mtp--45 {
+  margin-top: -45px;
+}
+.mwp-300 {
+  max-width: 300px;
+}
+.mnw-50 {
+  min-width: 50%;
+}
+.padding-hor {
+  padding-right: 2.5rem !important;
+  padding-left: 2.5rem !important;
+}
+.espacio-casilla {
+  width: 120px;
+  height: 40px;
+}
+.ajuste-centro {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+@media all and (min-width: 768px) {
+  .hid-responsive {
+    visibility: visible;
+  }
+  .vis-responsive {
+    visibility: hidden;
+    position: relative;
+    display: none;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .hid-responsive {
+    visibility: hidden;
+    position: relative;
+  }
+  .vis-responsive {
+    visibility: visible;
+  }
 }
