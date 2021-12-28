@@ -112,9 +112,10 @@
 }
 .cb-personaje-p58{
   position: absolute;
-    left: 75px;
-    bottom: 93px;
-    max-width: 650px;
+  margin-right: auto;
+  margin-left: auto;
+    bottom: 64px;
+    max-width: 740px;
 }
 .cb-nota-p58{
   position: absolute;
@@ -155,20 +156,12 @@
     .titulo-linea .linea{
         width: 100%;
     }
-
-    .cb-personaje{
-        display: none;
-    }
-
-    .cb-contenido-cajas {
-        flex-wrap: wrap;
-    }
-    .cb-simbolo{
-        display: none;
-    }
-    .cb-mapa{
+    .cb-globo-p58{
       display: none;
-    }
+      }
+      .cb-personaje-p58{
+        bottom:84px  
+      }      
     .cb-nota-p58{
     display: none;
     }
