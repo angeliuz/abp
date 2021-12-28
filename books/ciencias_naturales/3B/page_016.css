@@ -27,3 +27,15 @@
   .mnw-120 {
       min-width: 120px;
   }
+  .linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color:var(--dark);
+}
+.mnw-50 {
+    min-width: 50px;
+}
+.mw-100 {
+    max-width: 100%;
+}
+
