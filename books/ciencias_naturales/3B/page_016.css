@@ -15,8 +15,11 @@
   .msp--40 {
       margin-left: -40px;
   }
-  .mtp-a {
+  .mtp--20 {
       margin-top: -20px;
+  }
+  .mtp-30 {
+      margin-top: 30px;
   }
   .mnh-200 {
       min-height: 200px;
