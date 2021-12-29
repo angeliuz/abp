@@ -105,6 +105,7 @@
   --scorpion:#FEDCB5;
   --itto: #feede9;
   --baki:#e7e4d1;
+  --lux: #ffe5ca;
 
 }
 
@@ -684,7 +685,9 @@
 .color-baki{
   color: var(--baki);
 }
-
+.color-lux{
+  color: var(--lux);
+}
 
 /* BORDERS */
 .border-color-goku {
@@ -1029,6 +1032,9 @@
 .border-color-baki {
   border-color: var(--baki) !important;
 }
+.border-color-lux {
+border-color: var(--lux) !important;
+}
 /* BACKGROUND COLORS */
 .bgc-goku {
   background-color: var(--goku);
@@ -1371,4 +1377,7 @@
 }
 .bgc-baki {
   background-color: var(--baki) !important;
+}
+.bgc-lux {
+  background-color: var(--lux) !important;
 }
