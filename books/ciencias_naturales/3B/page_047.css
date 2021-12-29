@@ -1,12 +1,12 @@
 .cabecera {
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
     clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
-    background-color: var(--piccolo);
+    background-color: var(--saitama);
     height: 90px;
 }
 
 .caja {
-    background-image: url(images/page_021/caja.svg);
+    background-image: url(images/page_047/caja.svg);
     background-size: cover;
     padding-top: 12px;
     width: 158px;
@@ -37,6 +37,65 @@
     text-align: center;
 
 }
+
+
+.cb-ep-paper {
+  position: relative;
+  width: calc(100% - 100px);
+  margin: 50px auto 46px;
+  /*max-width: 600px;*/
+}
+
+
+.cb-ep-paper-content {
+  position: relative;
+  z-index: 3;
+  background: #fefcfb;
+  padding: 5px 40px;
+  font-size: 16px;
+}
+
+.cb-ep-paper-sign {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.cb-ep-paper::before,
+.cb-ep-paper::after {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: #f1eee0;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
+  left: 0;
+  top: 0;
+}
+
+.cb-ep-paper::before {
+z-index: 2;
+transform: rotate(-2deg);
+}
+
+.cb-ep-paper::after {
+z-index: 1;
+transform: rotate(2deg);
+}
+
+
+
+
+.border-10 {
+  border-width: 10px!important;
+}
+
+
+
+
+
+
+
+
 @media (max-width: 992px) {
     .dibujo {
       display:none;
