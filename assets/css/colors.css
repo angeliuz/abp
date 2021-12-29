@@ -1358,6 +1358,6 @@
 .border-color-scorpion {
   border-color: var(--scorpion) !important;
 }
-.border-color-scorpion {
-  border-color: var(--itto) !important;
+.bgc-itto {
+  background-color: var(--itto) !important;
 }
