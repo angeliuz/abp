@@ -1,9 +1,4 @@
-.cb-page18 {
-  background: url(images/page_018/fondo_001.svg) top center/cover no-repeat;
-  width: 100% !important;
-  height: 100% !important;
-  -webkit-print-color-adjust: exact !important;
-}
+
 .linea {
   border-bottom: 1px dashed #dedede;
   padding-top: 5px;
@@ -59,6 +54,12 @@
   margin-left: 5px;
 }
 @media all and (min-width: 768px) {
+  .cb-page18 {
+    background: url(images/page_018/fondo_001.svg) top center/cover no-repeat;
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-print-color-adjust: exact !important;
+  }
   .hid-responsive {
     visibility: visible;
   }
