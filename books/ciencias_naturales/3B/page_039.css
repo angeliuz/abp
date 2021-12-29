@@ -28,10 +28,10 @@
 @media (max-width: 767px) {
   .rotar {
     transform: rotate(90deg);
-    margin-left: calc(100% - 40px);
-    margin-top: 10px;
-    margin-bottom: -20px;
-    width: 60px;
+    margin-left: 50%;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    width: 50px;
   }
   .separa {
     padding-bottom: 15px;
