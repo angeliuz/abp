@@ -101,6 +101,8 @@
   --urien: #fff2be;
   --yanfei: #f0b099;
   --makoto: #fef6e6;
+  --reptile:#DAEBC1;  
+  --scorpion:#FEDCB5;
 
 }
 
@@ -667,6 +669,13 @@
 .color-makoto {
   color: var(--makoto);
 }
+.color-reptile {
+  color: var(--reptile);
+}
+
+.color-scorpion {
+  color: var(--scorpion);
+}
 
 
 /* BORDERS */
@@ -1000,6 +1009,12 @@
 .border-color-makoto {
   border-color: var(--makoto) !important;
 }
+.border-color-reptile {
+  border-color: var(--reptile) !important;
+}
+.border-color-scorpion {
+  border-color: var(--scorpion) !important;
+}
 /* BACKGROUND COLORS */
 .bgc-goku {
   background-color: var(--goku);
@@ -1330,4 +1345,10 @@
 }
 .bgc-makoto {
   background-color: var(--makoto);
+}
+.bgc-reptile {
+  background-color: var(--reptile);
+}
+.bgc-scorpion {
+  background-color: var(--scorpion);
 }
