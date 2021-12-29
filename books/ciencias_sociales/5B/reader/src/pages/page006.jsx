@@ -9,19 +9,19 @@ function Page006() {
           <div className="page bgc-goten position-relative" id="page_006">
             <div className="w-100 mt-15 pe-5 ps-5 ">
               {/* Begin background lineas */}
-              <div className="cb-lineas pbp-60">
+              <div className="cb-lineas-6 pbp-60">
                 <div className="cb-cabecera">
-                  <div className="cb-titulo color-white fsp-20 lh-sm f-pixilate-bold">
+                  <div className="cb-titulo-6 color-white fsp-20 lh-sm f-pixilate-bold">
                   Mis objetivos <br /> en esta etapa son: 
                   </div>
-                  <div className="cb-cohete">
+                  <div className="cb-cohete-6">
                     <img src="images/page_006/img_001.png" alt="" />
                   </div>
                 </div>
                 {/* Begin Contendor1 */}
-                <div className="cb-contenedor-1">
+                <div className="cb-contenedor-6-1">
                   <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
-                    <div className="d-flex bgc-piccolo psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline"> 
+                    <div className="d-flex bgc-piccolo psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-6"> 
                       <div className="d-flex"> 
                         <img src="images/page_006/arrow.svg" className="mbp-20 mep-5" alt="" />
                       </div>  
@@ -38,9 +38,9 @@ function Page006() {
                 </div>
                 {/* End Contendor1 */}
                 {/* Begin Contendor2 */}
-                <div className="cb-contenedor-2">
+                <div className="cb-contenedor-6-2">
                   <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
-                    <div className="d-flex bgc-piccolo psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline"> 
+                    <div className="d-flex bgc-piccolo psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-6"> 
                         <div className="d-flex"> 
                           <img src="images/page_006/arrow.svg" className="mbp-20 mep-5" alt="" />
                         </div> 

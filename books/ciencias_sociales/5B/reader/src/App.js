@@ -10,6 +10,10 @@ import Page007 from "./pages/page007";
 import Page008 from "./pages/page008";
 import Page009 from "./pages/page009";
 import Page010 from "./pages/page010";
+import Page011 from "./pages/page011";
+import Page012 from "./pages/page012";
+import Page013 from "./pages/page013";
+import Page014 from "./pages/page014";
 
 function App() {
   return (
@@ -20,6 +24,10 @@ function App() {
       <Page008 />
       <Page009 />
       <Page010 />
+      <Page011 />
+      <Page012 />
+      <Page013 />
+      <Page014 />
     </div>
   );
 }

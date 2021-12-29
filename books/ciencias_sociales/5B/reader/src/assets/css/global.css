@@ -52,6 +52,15 @@ body {
   visibility:hidden;
 }
 
+.contenedor-linea{
+  background: url(../../pages/images/page_008/linea.svg);
+  background-size: 4px 35px;
+  background-repeat: repeat;
+  background-position: top;
+
+}
+
+
 .rotulo-etapa{
   width: 120px;
   margin-top: -16px;

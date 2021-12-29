@@ -10,7 +10,7 @@ function Page010() {
 
   return (
     <div className="wrapper bgc-light">
-      <div className="d-flex flex-column align-items-center pbp-50">
+      <div className="d-flex flex-column align-items-center pbp-20">
           <div className="page cb-page10 overflow-hidden position-relative" id="page_10">
 
             <div className="mtp-75 ">
@@ -20,7 +20,7 @@ function Page010() {
             <div className="cb-block-inicial-2 p-2 pb-3 mbp-10">
               <div className=" f-Ubuntu-L mbp-5 psp-20 fw-700 fsp-13 text-start">Este es el nombre de nuestra revista:</div>
               <div className="px-3">
-                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-sinlinea min-hp-150" />
+                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150" />
               </div>
               <img src="images/page_010/img_001.png" className="cb-lapiz" alt="" />
               <img src="images/page_010/img_002.png" className="cb-globo" width="130px" alt="" />
@@ -50,7 +50,7 @@ function Page010() {
                   </div>
                 </div>  
                 <div className="pt-0 flex-grow-1">
-                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea min-hp-75" />
+                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
                 </div>
 
                 <div className="d-flex flex-wrap w-100 align-items-end titulo-linea position-relative mtp-10">
@@ -62,7 +62,7 @@ function Page010() {
                   </div>                              
                 </div>   
                 <div className="pt-0 flex-grow-1">
-                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea min-hp-75" />
+                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
                 </div>
               </div>
 

@@ -134,7 +134,18 @@
     bottom: 60px;
 }    
 
+.contenedor-flecha-14{
+  transform: rotate(0deg);
+  top: 100px;
+  left: -20px;
+}
+
 @media (max-width: 760px) {
+  .contenedor-flecha-14{
+    transform: rotate(90deg);
+    top: -40px;
+    left: calc(50vw - 60px);
+  }
   .rotar {
     transform: rotate(90deg);
     margin: 10px;

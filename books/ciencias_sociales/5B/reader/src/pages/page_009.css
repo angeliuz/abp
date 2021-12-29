@@ -47,9 +47,6 @@
     border-color:var(--lightDark);
 }
 
-.contenedor-sinlinea{
-    line-height: 35px;
-  }
 
 .cb-personaje{
     position: absolute;

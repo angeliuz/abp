@@ -21,7 +21,7 @@ function Page009() {
                     <div className="cb-block-arriba mtp-40 f-Ubuntu-L mbp-5 psp-20 fw-700 fsp-13">Esta página ha sido completada por</div>
                     <div className="cb-block-inicial p-2 pb-3 mbp-30">
                       <div className="px-3">
-                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-sinlinea" />
+                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1  lhp-35" />
                       </div>
                         <img src="images/page_009/img_002.png" className="cb-compu" width="120px" alt="" />
                         <img src="images/page_009/img_001.png" className="cb-globo" height="100px" alt="" />
@@ -29,13 +29,13 @@ function Page009() {
                 <div className="cb-block-superior p-3 pb-4 f-Ubuntu-L fsp-15 text-center fw-700 ">
 
                     <span>Nuestro equipo lo formamos...</span>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-start flex-grow-1 contenedor-linea min-hp-150" />
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                 </div>
                 <div className="cb-block-superior p-3 pb-4 f-Ubuntu-L fsp-15 mtp-30 mbp-30 text-center fw-700 ">
                     <img src="images/page_009/img_003.png" className="cb-nota" alt="" />
                     <img src="images/page_009/img_004.png" className="cb-cine" alt="" />
                     <span>En el proyecto nos comprometemos a...</span>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-3 text-start flex-grow-1 contenedor-linea min-hp-150" />
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-3 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                 </div>
                 <div className="cb-block-superior p-3 pb-1 f-Ubuntu-L fsp-15 mtp-30 mbp-30 text-center fw-700 ">
                     <img src="images/page_009/img_006.png" className="cb-flechab" alt="" />
@@ -45,13 +45,13 @@ function Page009() {
                     <span>Y aquí reflejamos el compromiso con nuestras firmas</span>
                     <div className="cb-firmas mbp-30">
                       <div className="cb-column-line" >
-                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-start flex-grow-1 contenedor-linea min-hp-110 fsp-12" />
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110 fsp-12" />
                       </div>
                       <div className="cb-column-line msp-15 mep-15">
-                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-start flex-grow-1 contenedor-linea min-hp-110 fsp-12" />
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110 fsp-12" />
                       </div>
                       <div className="cb-column-line">
-                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-start flex-grow-1 contenedor-linea min-hp-110 fsp-12" />
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110 fsp-12" />
                       </div>
                     </div>
                 </div>
