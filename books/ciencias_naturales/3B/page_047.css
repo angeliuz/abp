@@ -114,12 +114,11 @@ transform: rotate(2deg);
 
 
 
-@media (max-width: 992px) {
-    .dibujo {
-      display:none;
-    }
+@media (max-width: 780px) {
+  .ajuste-sm{
+    margin-top:20px;
   }
-
+  }
 @media (max-width: 608px) {
     .cabecera {
       height: 150px;
