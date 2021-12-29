@@ -1,33 +1,89 @@
 .cb-page19 {
-    background: url(images/page_017/fondo_001.svg) top center/cover no-repeat;
-    width: 100% !important;
-    height: 100% !important;
-    -webkit-print-color-adjust: exact !important;
+  background: url(images/page_017/fondo_001.svg) top center/cover no-repeat;
+  width: 100% !important;
+  height: 100% !important;
+  -webkit-print-color-adjust: exact !important;
+}
+.margin-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.cuadrado {
+  width: 40px;
+  height: 40px;
+}
+.tamaño {
+  min-width: 150px;
+  max-width: 150px;
+}
+.mtp--85 {
+  margin-top: -85px;
+}
+.mtp--8 {
+  margin-top: -8px;
+}
+.mtp--35 {
+  margin-top: -35px;
+}
+.ms-15 {
+  margin-left: 15%;
+}
+.texto-izq {
+  text-align: left !important;
+}
+.mw-a {
+  max-width: 80%;
+}
+.tf-flecha {
+  display: flex;
+  position: absolute;
+  right: 120px;
+  top: 30px;
+  z-index: 1;
+}
+.tf-crayones {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    top: 140px;
+    z-index: 1;
   }
-  .margin-auto {
-      margin-left: auto !important;
-      margin-right: auto !important;
+  .tf-regla {
+    display: flex;
+    position: absolute;
+    left: 60px;
+    top: 290px;
+    z-index: 1;
   }
-  .cuadrado {
-    width: 40px;
-    height: 40px;
+  .tf-calendario {
+    display: flex;
+    position: absolute;
+    left: 45px;
+    bottom: 250px;
+    z-index: 1;
   }
-  .tamaño {
-      min-width: 150px;
-      max-width: 150px;
+  .tf-tijeras{
+    display: flex;
+    position: absolute;
+    right: 40px;
+    bottom: 210px;
+    z-index: 1;
   }
-  .mtp--85 {
-      margin-top: -85px;
+@media all and (max-width: 768px) and (min-width: 530px) {
+  .ms-x-a {
+    margin-left: 30%;
   }
-  .mtp--8 {
-      margin-top: -8px;
+  .tf-crayones {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    top: 240px;
+    z-index: 1;
   }
-  .mtp--35 {
-      margin-top: -35px;
+}
+@media all and (max-width: 630px) {
+  .ms-x-a {
+    margin-left: 25%;
   }
-  .ms-15 {
-      margin-left: 15%;
-  }
-  .texto-izq {
-      text-align: left !important;
-  }
+
+}
