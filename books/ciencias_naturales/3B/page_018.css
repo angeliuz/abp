@@ -9,12 +9,23 @@
   height: 30px;
 }
 .espacio-casilla {
-  width: 120px;
+  width: 80px;
   height: 40px;
 }
 .ajuste-centro {
   margin-left: auto !important;
   margin-right: auto !important;
+}
+.tf-mono {
+  display: flex;
+  position: absolute;
+  right: 20px;
+  bottom: 50px;
+  z-index: 1;
+}
+.tf-imagen {
+  position: absolute;
+  z-index: 1;
 }
 /* min and max*/
 .mxwp-210 {
@@ -39,17 +50,27 @@
 .mtp--10 {
   margin-top: -10px;
 }
+.mtp--15 {
+  margin-top: -15px;
+}
 .mtp--20 {
   margin-top: -20px;
 }
-.mtp--45 {
-  margin-top: -45px;
+.mtp--30 {
+  margin-top: -30px;
 }
 /* margin bot*/
 .mbp-60 {
   margin-bottom: 60px;
 }
+
 /* margin left*/
+.mlp-a {
+  margin-left: -20px;
+}
+.mlp--5 {
+  margin-left: -5px;
+}
 .mlp-5 {
   margin-left: 5px;
 }
@@ -68,6 +89,9 @@
     position: relative;
     display: none;
   }
+  .hp-330-res {
+    height: 330px;
+  }
 }
 
 @media all and (max-width: 768px) {
@@ -77,5 +101,11 @@
   }
   .vis-responsive {
     visibility: visible;
+  }
+  .mxwp-240 {
+    max-width: 100%;
+  }
+  .hp-330-res {
+    height: 270px;
   }
 }

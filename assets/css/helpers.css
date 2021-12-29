@@ -1919,6 +1919,15 @@
 .ptp-10 {
   padding-top: 10px;
 }
+.ptp-11 {
+  padding-top: 11px;
+}
+.ptp-12 {
+  padding-top: 12px;
+}
+.ptp-13 {
+  padding-top: 13px;
+}
 .ptp-14 {
   padding-top: 14px;
 }
@@ -2063,6 +2072,12 @@
 .pe-10 {
   padding-right: 10%;
 }
+.pe-11 {
+  padding-right: 11%;
+}
+.pe-12 {
+  padding-right: 12%;
+}
 .pe-15 {
   padding-right: 15%;
 }
@@ -2181,6 +2196,9 @@
 /* padding-right px */
 .pep-5 {
   padding-right: 5px;
+}
+.pep-8 {
+  padding-right: 8px;
 }
 .pep-10 {
   padding-right: 10px;
