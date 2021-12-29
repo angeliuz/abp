@@ -1,0 +1,155 @@
+.cabecera {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
+    background-color: var(--saitama);
+    height: 90px;
+}
+
+.caja {
+    background-image: url(images/page_047/caja.svg);
+    background-size: cover;
+    padding-top: 18px;
+    width: 158px;
+    height: 56px;
+    text-align: center;
+    
+}
+
+.container-row {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.cajota {
+    height: 800px;
+    margin-left:10px;
+    margin-right:10px;
+
+
+
+}
+
+.dibujo {
+    top: 906px;
+    left: 110px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+
+.cb-ep-paper {
+  position: relative;
+  width: calc(100% - 100px);
+  margin: 50px auto 46px;
+  /*max-width: 600px;*/
+}
+
+
+.cb-ep-paper-content {
+  position: relative;
+  z-index: 3;
+  background: #fefcfb;
+  padding: 20px 40px;
+  font-size: 16px;
+}
+
+.cb-ep-paper-sign {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.cb-ep-paper::before,
+.cb-ep-paper::after {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: #f1eee0;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
+  left: 0;
+  top: 0;
+}
+
+.cb-ep-paper::before {
+z-index: 2;
+transform: rotate(-2deg);
+}
+
+.cb-ep-paper::after {
+z-index: 1;
+transform: rotate(2deg);
+}
+
+
+.globo{
+  position: absolute;
+    right: -15px;
+    top: -30px;
+  
+}
+.lapiz{
+  position: absolute;
+    left: -35px;
+    bottom: 120px;
+}
+
+
+
+
+.border-10 {
+  border-width: 10px!important;
+}
+
+
+.linea {
+  border-bottom: 2px dotted #9f9f9f;
+}
+.hp-275 {
+  height: 275px;
+}
+
+
+
+
+
+@media (max-width: 780px) {
+  .ajuste-sm{
+    margin-top:20px;
+  }
+  }
+@media (max-width: 608px) {
+    .cabecera {
+      height: 150px;
+    }
+    .centrar {
+      justify-content: center;
+    }
+    .cambio {
+      padding-top: 3px;
+    }
+  }
+  @media (max-width: 591px) {
+    .cabecera {
+      height: 130px;
+    }
+  }
+  @media (max-width: 575px) {
+    
+    .cabecera {
+      height: 130px;
+    }
+    .cajota{
+        margin:0 auto;
+    }
+    .separa {
+        padding-top: 10px;
+      }
+  }
+  
+  @media (max-width: 463px) {
+    .cabecera {
+      height: 150px;
+    }
+  }
