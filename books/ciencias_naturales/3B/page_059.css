@@ -82,7 +82,9 @@
   outline-offset: 3px;
 }
 .cb-flecha-p59{
-  padding-bottom: -2px;
+  top: -3px;
+  position: absolute;
+  left: -20px;
 }
 
 .linea {
@@ -97,7 +99,7 @@
   padding: 5px 0px 5px 30px; 
 }
 
-.cb-contenedor-cuadrado-p59 {
+.cb-contenedor-cuadrados-p59 {
   position: relative;
   margin-right: auto;
   margin-left: auto;
@@ -169,12 +171,13 @@ z-index: 1;
   margin-right: auto;
   margin-top: 20px;
 }
+
 .puntitos{
   border-bottom: 1px dotted rgba(167, 167, 167, 0.92);
   padding-top: 10px;
   padding-bottom: 1px;
 }
-@media all and (max-width: 620px) {
+@media all and (max-width: 750px) {
 
   
   .cb-lapiz-p57{
