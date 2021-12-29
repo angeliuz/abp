@@ -1,4 +1,6 @@
-
+.bgc-lux {
+  background-color: #ffe5ca;
+}
 .linea {
   border-bottom: 1px dashed #dedede;
   padding-top: 5px;
@@ -95,6 +97,9 @@
 }
 
 @media all and (max-width: 768px) {
+  .cb-page-18 {
+    background-color: #ffe5ca;
+  }
   .hid-responsive {
     visibility: hidden;
     position: relative;
