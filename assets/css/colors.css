@@ -104,6 +104,8 @@
   --reptile:#DAEBC1;  
   --scorpion:#FEDCB5;
   --itto: #feede9;
+  --baki:#e7e4d1;
+
 }
 
 /* COLORES */
@@ -676,8 +678,11 @@
 .color-scorpion {
   color: var(--scorpion);
 }
-.color-scorpion {
+.color-itto {
   color: var(--itto);
+}
+.color-baki{
+  color: var(--baki);
 }
 
 
@@ -1018,8 +1023,11 @@
 .border-color-scorpion {
   border-color: var(--scorpion) !important;
 }
-.border-color-scorpion {
+.border-color-itto {
   border-color: var(--itto) !important;
+}
+.border-color-baki {
+  border-color: var(--baki) !important;
 }
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1360,4 +1368,7 @@
 }
 .bgc-itto {
   background-color: var(--itto) !important;
+}
+.bgc-baki {
+  background-color: var(--baki) !important;
 }
