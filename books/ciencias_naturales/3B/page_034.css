@@ -1,0 +1,56 @@
+.cb-cabecera {
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
+  background-color: var(--android18);
+  height: 80px;
+}
+.cuadrado {
+  width: 30px;
+  height: 30px;
+}
+.centrado-vert {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+.linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color: var(--dark);
+  }
+/*max width*/
+.mxw-85 {
+  max-width: 85%;
+}
+/*margin top*/
+/*margin bottom*/
+.mbp--20 {
+    margin-bottom: -20px;
+}
+/*margin right*/
+/*margin left*/
+.ml-50-r {
+    margin-left: 50%;
+}
+.mlp--10-r {
+    margin-left: -10px;
+}
+@media all and (min-width: 768px) {
+    .hid-responsive {
+      visibility: visible;
+    }
+    .vis-responsive {
+      visibility: hidden;
+      position: relative;
+      display: none;
+    }
+  }
+  
+  @media all and (max-width: 768px) {
+    .hid-responsive {
+      visibility: hidden;
+      position: relative;
+    }
+    .vis-responsive {
+      visibility: visible;
+    }
+  }
