@@ -2,7 +2,7 @@
     -webkit-clip-path: polygon(100% 100%, 0% 0%, 0% 0%, 8% 0%);
     clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
     background-color: var(--android18);
-    height: 130px;
+    height: 90px;
 }
 
 
@@ -48,7 +48,7 @@
 }
 
 .niño {
-    top: 545px;
+    top: 500px;
     left: 675px;
     transform: translate(-50%, -50%);
     height: auto;
@@ -58,7 +58,7 @@
 }
 
 .platano {
-    top: 340px;
+    top: 310px;
     left: 500px;
     transform: translate(-50%, -50%);
     float: right;
@@ -70,7 +70,7 @@
 
 
 .tapa {
-    top: 475px;
+    top: 445px;
     left: 440px;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -78,7 +78,7 @@
 }
 
 .te {
-    top: 560px;
+    top: 530px;
     left: 320px;
     transform: translate(-50%, -50%);
     z-index: 2;
