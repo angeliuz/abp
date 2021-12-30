@@ -1,0 +1,37 @@
+.cabecera {
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
+  background-color: var(--android18);
+  height: 90px;
+}
+.caja {
+    background-image: url(images/page_033/caja.svg);
+    background-size: cover;
+    padding-top: 15px;
+    width: 158px;
+    height: 56px;
+    text-align: center;
+}
+.caja-a-a {
+    min-width: 350px;
+    max-width: 350px;
+    min-height: 180px;
+    min-height: 180px;
+}
+/*max width*/
+
+/*min width*/
+
+/*max height*/
+
+/*min height*/
+
+/*margin top*/
+.mtp-a {
+    margin-top: 10px;
+}
+/*margin bottom*/
+
+/*margin right*/
+/*margin left*/
+

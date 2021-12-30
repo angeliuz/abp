@@ -1,0 +1,32 @@
+.cb-page35 {
+  background: url(images/page_035/fondo_001.svg) top center/cover no-repeat;
+  width: 100% !important;
+  height: 100% !important;
+  -webkit-print-color-adjust: exact !important;
+}
+.linea {
+  border-bottom: 1px dashed #dedede;
+  padding-top: 5px;
+  border-color: var(--dark);
+}
+.tf-tuerca {
+  display: flex;
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  z-index: 1;
+}
+.tf-hojas {
+  display: flex;
+  position: absolute;
+  right: 40px;
+  top: 50px;
+  z-index: 1;
+}
+.tf-mono {
+  display: flex;
+  position: absolute;
+  right: 50px;
+  bottom: 0px;
+  z-index: 1;
+}
