@@ -1,22 +1,36 @@
 import React, {useEffect} from "react";
 import { useState } from "react";
 import ContentEditable from "react-contenteditable";
-import { doc, getDoc, updateDoc, onSnapshot } from "firebase/firestore";
+import { doc, getDoc, setDoc, collection, updateDoc, onSnapshot } from "firebase/firestore";
 import db from "../firebase/firebaseConfig";
 
 function InputBox(props) {
   const coleccion = "books";
-  const documento = "682021";
+  const documento = "682022";
+  const docRef = doc(db, coleccion, documento);
 
   const className = props.className;
   const id = props.id;
   const [content1, setContent1] = useState("");
 
 
-  const docRef = doc(db, coleccion, documento);
 
   useEffect(() => {
-    getData();
+    const existeColeccion = async () => {
+      const docSnap = await getDoc(docRef);
+
+      if (docSnap.exists()) {
+        getData();
+        console.log("Document data:", docSnap.data());
+      } else {
+        // Add a new document in collection "cities"
+        //await setDoc(doc(db, coleccion, documento),{input:"1"});
+        doc(collection(db, coleccion));
+        console.log("No such document!");
+      }
+    }
+    existeColeccion();
+    //
   });
 
   const getData = () => {

@@ -7,13 +7,13 @@ function Page007() {
       <div className="wrapper bgc-light">
         <div className="d-flex flex-column align-items-center pbp-20">
           <div className="page bgc-white overflow-hidden position-relative" id="page_07">
-            <div className="cabecera">
+            <div className="cabecera-7">
               <div className="row ptp-20 px-4 m-0 centrar">
                 <div className="col-md-3 col-sm-3 p-0 m-0 color-garou f-IntroRustG-Base d-flex justify-content-center">
                   <div className="caja wp-150 text-center fsp-24 ">SESIÓN 1</div>
                 </div>
                 <div className="col-md-9 col-sm-9 p-0 m-0 fsp-24 f-Ubuntu-M color-white cambio">
-                  <div className="section-name w-100 h-100 d-flex align-items-center">Tenemos un desafío</div>
+                  <div className="section-name w-100 h-100 d-flex align-items-center fw-700">Tenemos un desafío</div>
                 </div>
               </div>
               <div className="row f-colby-compres-medium fsp-17 lh-sm text-white text-center psp-60 pep-60 justify-content-center hp-60">

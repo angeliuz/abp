@@ -19,7 +19,7 @@
     width: calc(100% - 30px);
     flex-wrap: nowrap;
   }
-  .cb-outline{
+  .cb-outline-2{
     outline: solid 4px #ffffff;
     outline-offset: -5px;
 }
@@ -44,13 +44,7 @@
     padding-top: 5px;
     border-color:var(--dark);
 }
-.contenedor-linea{
-  background: url(images/page_008/linea.svg);
-  background-size: 4px 35px;
-  background-repeat: repeat;
-  background-position: top;
-  line-height: 35px;
-}
+
 
 .min-hp-35 {
   min-height: 35px !important;

@@ -1,11 +1,11 @@
-.cuadrado-naranja{
+.cuadrado-naranja-13{
     -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 8% 100%);
     clip-path: polygon(0 0%, 100% 0, 96% 100%, 8% 100%);
     background-color: #F29205;
     height: 87px;
   }
   
-.cabecera{
+.cabecera-13{
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
     clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
     background-color: var(--bulma);
@@ -97,7 +97,7 @@
   
   
 .caja {
-    background-image: url(../5B/images/page_013/img_001.svg);
+    background-image: url(images/page_013/img_001.svg);
     background-repeat: no-repeat;
     background-size: contain;
     padding: 10px 10px 10px 10px;

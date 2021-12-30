@@ -22,24 +22,24 @@ function Page008() {
           <div className="d-flex cb-contenido-cajas mbp-60">
             <img src="images/page_008/img_001.png" className="cb-iphone" alt="" />
             <div className="d-flex flex-wrap justify-content-center w-100 mep-5 h-100 ">
-              <div className="bgc-shogun cb-block w-100 p-2 f-Ubuntu-L fsp-13 mbp-20 cb-outline">
+              <div className="bgc-shogun cb-block w-100 p-2 f-Ubuntu-L fsp-13 mbp-20 cb-outline-2">
                 <p className="cb-interior-caja text-start">Nos han enviado un mensaje una persona llamada</p>
-                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea min-hp-70" />
+                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
               </div>
 
-              <div className="bgc-shogun cb-block w-100 p-2 f-Ubuntu-L fsp-13 mbp-20 cb-outline">
+              <div className="bgc-shogun cb-block w-100 p-2 f-Ubuntu-L fsp-13 mbp-20 cb-outline-2">
                 <p className="cb-interior-caja text-start">El desafío que nos propone consiste en</p>
-                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea min-hp-175" />
+                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
               </div>
             </div>
             <div className="d-flex flex-wrap justify-content-center w-100 msp-5">
-              <div className="bgc-shogun cb-block w-100 p-2 f-Ubuntu-L fsp-13 mbp-20 cb-outline">
+              <div className="bgc-shogun cb-block w-100 p-2 f-Ubuntu-L fsp-13 mbp-20 cb-outline-2">
                 <p className="cb-interior-caja text-start">Esta persona se dedica a</p>
-                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea min-hp-175" />
+                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
               </div>
-              <div className="bgc-shogun cb-block w-100 p-2 f-Ubuntu-L fsp-13 mbp-20 cb-outline">
+              <div className="bgc-shogun cb-block w-100 p-2 f-Ubuntu-L fsp-13 mbp-20 cb-outline-2">
                 <p className="cb-interior-caja text-start">Este es importante porque</p>
-                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea min-hp-175" />
+                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
               </div>
             </div>
           </div>
@@ -56,7 +56,7 @@ function Page008() {
               </div>
 
               <div className="pt-0 flex-grow-1 mbp-20">
-                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea min-hp-35" />
+                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
               </div>
 
               <div className="d-flex flex-wrap w-100 align-items-end titulo-linea">
@@ -66,7 +66,7 @@ function Page008() {
                 </div>
               </div>
               <div className="pt-0 flex-grow-1">
-                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea min-hp-35" />
+                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
               </div>
             </div>
             <div className="block-bottom text-start mtp-30 f-pixilate-bold">¿Cómo me siento?</div>
@@ -78,7 +78,7 @@ function Page008() {
                 </div>
               </div>
               <div className="pt-0 flex-grow-1">
-                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea min-hp-35" />
+                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
               </div>
             </div>
             {/* PIE DE PAGINA */}
