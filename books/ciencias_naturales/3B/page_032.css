@@ -1,0 +1,54 @@
+.cb-cabecera {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
+    background-color: var(--android18);
+    height: 80px;
+  }
+  .linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color: var(--dark);
+  }
+  .tf-mundo {
+    display: flex;
+    position: absolute;
+    right: 70px;
+    top: 200px;
+    z-index: 1;
+  }
+  .tf-mono {
+    display: flex;
+    position: absolute;
+    right: 70px;
+    bottom: 135px;
+    z-index: 1;
+  }
+  .tf-frase {
+    display: flex;
+    position: absolute;
+    right: 85px;
+    bottom: 290px;
+    z-index: 1;
+  }
+  .hp-240 {
+      height: 240px;
+  }
+  .mxwp-140 {
+      max-width: 140px;
+  }
+  @media all and (max-width: 720px) {
+    .tf-mono {
+        display: flex;
+        position: absolute;
+        right: 10px;
+        bottom: 215px;
+        z-index: 1;
+      }
+      .tf-frase {
+        display: flex;
+        position: absolute;
+        right: 25px;
+        bottom: 370px;
+        z-index: 1;
+      }
+    }
