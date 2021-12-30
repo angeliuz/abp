@@ -17,7 +17,7 @@
     height: 350px;
     border: double;
     border-color: #fed894;
-    border-width: 4px;
+    border-width: 6px;
     border-radius: 20px;
 }
 
@@ -35,7 +35,7 @@
     width: 300px;
     border: solid;
     border-color: #45ad4e;
-    border-width: 4px;
+    border-width: 2px;
     border-radius: 20px;
 }
 
