@@ -100,52 +100,7 @@ li p {
 
 
 
-@media (max-width: 992px) {
 
-
-    .niño {
-        display: none;
-    }
-
-    .cajota {
-        margin: 0 auto;
-        max-width: 680px;
-    }
-
-    .cajota1 {
-        margin: 0 auto;
-    }
-
-    .platano {
-        top: 150px;
-        left: 130px;
-        transform: translate(-50%, -50%);
-
-        z-index: 2;
-
-    }
-
-    .tapa {
-        top: 500px;
-        left: 420px;
-        transform: translate(-50%, -50%);
-        z-index: 2;
-
-    }
-
-    .te {
-        top: 500px;
-        left: 200px;
-        transform: translate(-50%, -50%);
-        z-index: 2;
-    }
-
-    .texto {
-        text-align: start;
-        margin: 0 auto;
-    }
-
-}
 
 @media (max-width: 778px) {
 
@@ -157,9 +112,3 @@ li p {
 
 }
 
-@media (max-width: 766px) {
-    .cajota {
-        margin: 0 auto;
-    }
-
-}
