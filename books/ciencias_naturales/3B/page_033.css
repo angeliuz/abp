@@ -1,0 +1,82 @@
+.cabecera {
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
+  background-color: var(--android18);
+  height: 90px;
+}
+.caja {
+    background-image: url(images/page_033/caja.svg);
+    background-size: cover;
+    padding-top: 15px;
+    width: 158px;
+    height: 56px;
+    text-align: center;
+}
+.caja-320-170 {
+    min-width: 320px;
+    max-width: 320px;
+    min-height: 170px;
+    min-height: 170px;
+}
+.cuadrado {
+    width: 30px;
+    height: 30px;
+  }
+  .giro-2 {
+    transform: rotate(2deg);
+  }
+  .ajuste-centro {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+/*max width*/
+.mxh-85 {
+    max-width: 85%;
+}
+/*min width*/
+.mnw-100 {
+    min-width: 100%;
+}
+/*max height*/
+
+/*min height*/
+.mnh-a {
+    min-height: 550px;
+}
+/*margin top*/
+.mtp--30 {
+    margin-top: -30px;
+}
+.mtp--25 {
+    margin-top: -25px;
+}
+/*margin bottom*/
+.mbp--40 {
+    margin-bottom: -40px;
+}
+/*margin right*/
+/*margin left*/
+.mlp-230 {
+    margin-left: 230px;
+}
+@media all and (min-width: 768px) {
+    .hid-responsive {
+      visibility: visible;
+    }
+    .vis-responsive {
+      visibility: hidden;
+      position: relative;
+      display: none;
+    }
+  }
+  
+  @media all and (max-width: 768px) {
+    .hid-responsive {
+      visibility: hidden;
+      position: relative;
+    }
+    .vis-responsive {
+      visibility: visible;
+    }
+  }
+  
