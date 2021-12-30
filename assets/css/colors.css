@@ -110,7 +110,7 @@
   --goro:#fed894;
   --raiden:#71c078;
   --kano:#fffbd7;
-
+  --baraka:#fdfdfb;
 }
 
 /* COLORES */
@@ -703,6 +703,9 @@
 .color-kano{
   color: var(--kano);
 }
+.color-baraka{
+  color: var(--baraka);
+}
 
 
 /* BORDERS */
@@ -1063,6 +1066,9 @@
 .border-color-kano {
   border-color: var(--kano) !important;
 }
+.border-color-baraka {
+  border-color: var(--baraka) !important;
+}
 
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1421,4 +1427,7 @@
 }
 .bgc-kano {
   background-color: var(--kano) !important;
+}
+.bgc-baraka {
+  background-color: var(--baraka) !important;
 }
