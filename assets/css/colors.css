@@ -108,6 +108,7 @@
   --milena:#ffe197;
   --kitana:#f48a31;
   --goro:#fed894;
+  --raiden:#71c078;
 
 }
 
@@ -695,6 +696,9 @@
 .color-goro{
   color: var(--goro);
 }
+.color-raiden{
+  color: var(--raiden);
+}
 
 
 /* BORDERS */
@@ -1049,6 +1053,9 @@
 .border-color-goro {
   border-color: var(--goro) !important;
 }
+.border-color-raiden {
+  border-color: var(--raiden) !important;
+}
 
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1401,4 +1408,7 @@
 }
 .bgc-goro {
   background-color: var(--goro) !important;
+}
+.bgc-raiden {
+  background-color: var(--raiden) !important;
 }

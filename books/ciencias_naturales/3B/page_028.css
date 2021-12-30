@@ -15,11 +15,8 @@
 
 .caja-borde {
     height: 350px;
-    border-right-style: double;
-    border-bottom-style: double;
-    border-top-style: double;
-    border-left-style: double;
-    border-color: #45ad4e;
+    border: double;
+    border-color: #fed894;
     border-width: 4px;
     border-radius: 20px;
 }
