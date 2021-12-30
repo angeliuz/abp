@@ -5,48 +5,124 @@
   -webkit-print-color-adjust: exact !important;
 }
 .linea {
-    border-bottom: 1px dashed #dedede;
-    padding-top: 5px;
-    border-color: var(--dark);
-  }
+  border-bottom: 1px dashed #dedede;
+  padding-top: 5px;
+  border-color: var(--dark);
+}
+
 /*Margin Top*/
 .mtp--35 {
-    margin-top: -35px;
+  margin-top: -35px;
 }
 .mtp--32 {
-    margin-top: -32px;
+  margin-top: -32px;
 }
 .mtp--30 {
   margin-top: -30px;
 }
-.mtp-a {
-    margin-top: -90px;
+.mtp--95 {
+  margin-top: -95px;
+}
+.mtp--75 {
+  margin-top: -75px;
+}
+/*Margin Bot*/
+.mbp-a {
+  margin-bottom: -10px;
 }
 /*Margin left*/
-.mlp-a {
-    margin-left: 30px;
+.mlp-30 {
+  margin-left: 30px;
 }
-.ml-10 {
-  margin-left: 10%;
+.mlp-40 {
+  margin-left: 40px;
+}
+.mlp-40 {
+  margin-left: 40px;
 }
 .ml-2 {
-    margin-left: 2%;
+  margin-left: 2%;
 }
-.ml-30 {
-  margin-left: 30%;
+.mlp-115 {
+  margin-left: 115px;
 }
 .ml-45 {
-    margin-left: 45%;
-  }
+  margin-left: 175px;
+}
 
 /*Max width*/
-.mxwp-a {
-    max-width: 120px;
+.mxwp-120 {
+  max-width: 120px;
+}
+.mxwp-200 {
+  max-width: 200px;
 }
 /*Z index*/
 .zi1 {
-    z-index: 1;
+  z-index: 1;
 }
 .zi2 {
-    z-index: 2;
+  z-index: 2;
+}
+@media all and (min-width: 768px) {
+  .hid-responsive {
+    visibility: visible;
+  }
+  .vis-responsive {
+    visibility: hidden;
+    position: relative;
+    display: none;
+  }
+  .tf-mono {
+    display: flex;
+    position: absolute;
+    right: 60px;
+    bottom: 370px;
+    z-index: 1;
+  }
+  .tf-gota {
+    display: flex;
+    position: absolute;
+    left: 260px;
+    top: 120px;
+    z-index: 1;
+  }
+  .tf-bolsa {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 100px;
+    z-index: 1;
+  }
+}
+@media all and (max-width: 768px) {
+  .hid-responsive {
+    visibility: hidden;
+    position: relative;
+    display: none;
+  }
+  .vis-responsive {
+    visibility: visible;
+  }
+  .tf-mono {
+    display: flex;
+    position: absolute;
+    right: 60px;
+    bottom: 270px;
+    z-index: 1;
+  }
+  .tf-gota {
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 120px;
+    z-index: 1;
+  }
+  .tf-bolsa {
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 450px;
+    z-index: 1;
+  }
 }
