@@ -10,7 +10,7 @@ function Page005() {
             <div className="mep-0 position-absolute top-0 end-0">
               <div className="d-flex justify-content-start bgc-goku color-goten ptp-55 pb-2 px-3 text-center mep-55 rounded-seb-20 lh-1">
                 <div className="f-pixilate-regular fsp-25">
-                  APRENDO CON <br /> <span className="f-Ubuntu-R fw-800 fsp-22">PROYECTOS</span>{" "}
+                  APRENDO CON <br /> <span className="f-Ubuntu-R fw-800 fsp-22">PROYECTOS</span>
                 </div>
               </div>
             </div>
