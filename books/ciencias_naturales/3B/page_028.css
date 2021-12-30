@@ -1,0 +1,168 @@
+.cabecera {
+    -webkit-clip-path: polygon(100% 100%, 0% 0%, 0% 0%, 8% 0%);
+    clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
+    background-color: var(--android18);
+    height: 90px;
+}
+
+
+.container-row {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+.caja-borde {
+    height: 350px;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-top-style: double;
+    border-left-style: double;
+    border-color: #45ad4e;
+    border-width: 4px;
+    border-radius: 20px;
+}
+
+.carton {
+    left: 0px;
+}
+
+.plastico {
+    top: 250px;
+    right: 40px;
+}
+
+.caja-borde1 {
+    height: 450px;
+    width: 300px;
+    border: solid;
+    border-color: #45ad4e;
+    border-width: 4px;
+    border-radius: 20px;
+}
+
+.linea {
+    border-bottom: 2px dotted gray;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.niño {
+    top: 545px;
+    left: 675px;
+    transform: translate(-50%, -50%);
+    height: auto;
+    width: 160px;
+    text-align: center;
+    z-index: 2;
+}
+
+.platano {
+    top: 340px;
+    left: 500px;
+    transform: translate(-50%, -50%);
+    float: right;
+    z-index: 2;
+    max-width: 100%;
+
+}
+
+
+
+.tapa {
+    top: 475px;
+    left: 440px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    max-width: 100%;
+}
+
+.te {
+    top: 560px;
+    left: 320px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    max-width: 100%;
+}
+
+
+
+li {
+    color: #afca0b;
+}
+
+li p {
+    color: #000;
+    margin-bottom: 0;
+}
+
+
+
+
+@media (max-width: 992px) {
+
+
+    .niño {
+        display: none;
+    }
+
+    .cajota {
+        margin: 0 auto;
+        max-width: 680px;
+    }
+
+    .cajota1 {
+        margin: 0 auto;
+    }
+
+    .platano {
+        top: 150px;
+        left: 130px;
+        transform: translate(-50%, -50%);
+
+        z-index: 2;
+
+    }
+
+    .tapa {
+        top: 500px;
+        left: 420px;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+
+    }
+
+    .te {
+        top: 500px;
+        left: 200px;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+
+    .texto {
+        text-align: start;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 778px) {
+
+
+    .cajota1 {
+        margin: 0 auto;
+    }
+
+
+}
+
+@media (max-width: 766px) {
+    .cajota {
+        margin: 0 auto;
+    }
+
+}
