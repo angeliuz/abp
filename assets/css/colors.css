@@ -107,6 +107,7 @@
   --baki:#e7e4d1;
   --milena:#ffe197;
   --kitana:#f48a31;
+  --goro:#fed894;
 
 }
 
@@ -676,7 +677,6 @@
 .color-reptile {
   color: var(--reptile);
 }
-
 .color-scorpion {
   color: var(--scorpion);
 }
@@ -691,6 +691,9 @@
 }
 .color-kitana{
   color: var(--kitana);
+}
+.color-goro{
+  color: var(--goro);
 }
 
 
@@ -1043,6 +1046,10 @@
 .border-color-kitana {
   border-color: var(--kitana) !important;
 }
+.border-color-goro {
+  border-color: var(--goro) !important;
+}
+
 /* BACKGROUND COLORS */
 .bgc-goku {
   background-color: var(--goku);
@@ -1377,7 +1384,7 @@
 .bgc-reptile {
   background-color: var(--reptile);
 }
-.border-color-scorpion {
+.bgc-scorpion {
   border-color: var(--scorpion) !important;
 }
 .bgc-itto {
@@ -1391,4 +1398,7 @@
 }
 .bgc-kitana {
   background-color: var(--kitana) !important;
+}
+.bgc-goro {
+  background-color: var(--goro) !important;
 }
