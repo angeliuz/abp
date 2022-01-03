@@ -11,7 +11,7 @@ function Page010() {
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
-          <div className="page cb-page10 overflow-hidden position-relative" id="page_10">
+          <div className="page cb-page10 overflow-hidden position-relative" id="page_010">
 
             <div className="mtp-75 ">
                 <div className="d-flex justify-content-center">

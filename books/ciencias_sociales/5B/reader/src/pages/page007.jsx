@@ -1,12 +1,16 @@
 import React from "react";
+import ModalVideo from "../components/ModalVideo";
 import "./page_007.css";
 
 function Page007() {
+
+  const pagina = "008";
+  var indexInput = 0;
+
   return (
-    <div>
       <div className="wrapper bgc-light">
         <div className="d-flex flex-column align-items-center pbp-20">
-          <div className="page bgc-white overflow-hidden position-relative" id="page_07">
+          <div className="page bgc-white overflow-hidden position-relative" id="page_007">
             <div className="cabecera-7">
               <div className="row ptp-20 px-4 m-0 centrar">
                 <div className="col-md-3 col-sm-3 p-0 m-0 color-garou f-IntroRustG-Base d-flex justify-content-center">
@@ -47,7 +51,9 @@ function Page007() {
               <div className="d-flex">
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-goten">1</div>
                 <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Veo el video, leo la carta y destaco las ideas principales.</div>
-                <img src="images/page_007/img_002.jpg" className="cambio hp-40 text-center mtp-10 psp-10 pep-40" alt="" />
+                <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_002.jpg" className="p-0 px-1" />
+                <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" />
+                {/* <img src="images/page_007/img_002.jpg" className="cambio hp-40 text-center mtp-10 psp-10 pep-40" alt="" /> */}
               </div>
               <div className="cb-paper">
                 <div className="cb-paper-content f-Ubuntu-L text-start">
@@ -113,7 +119,6 @@ function Page007() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
 
