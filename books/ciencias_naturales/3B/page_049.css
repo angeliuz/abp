@@ -40,9 +40,7 @@ width: 550px !important;
 width: 600px !important;
 }
 
-.rounded-ts-10 {
-border-top-left-radius: 10px
-}
+
 
 .rounded-tsbe-10 {
 border-radius: 10px 0px 5px 0px;
@@ -60,17 +58,12 @@ padding-top: 30px;
 padding-bottom: 0px;
 }
 
-.border-10 {
-border-width: 10px!important;
+
+.cajita {
+  left: 0px;
+  top: 0px;
 }
 
-.rounded-sb {
-border-radius: 0px 0px 0px 20px;
-}
-
-.rounded-eb {
-border-radius: 0px 0px 20px 0px;
-}
 
 .linea {
 border-bottom: 2px dotted #9f9f9f;
@@ -103,12 +96,7 @@ height: 275px;
   .cabecera {
     height: 130px;
   }
-  .cajota{
-      margin:0 auto;
-  }
-  .separa {
-      padding-top: 10px;
-    }
+ 
 }
 
 @media (max-width: 463px) {
