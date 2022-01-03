@@ -50,8 +50,8 @@
   margin-left: -15px;
 }
 /*Min*/
-.mnwp-a {
-  min-height: px;
+.mxwp-200 {
+  max-width: 160px;
 }
 
 .posicion-cuadrado {
@@ -125,6 +125,13 @@
     bottom: 20px;
     z-index: 1;
   }
+  .tf-texto {
+    display: flex;
+    position: absolute;
+    left: 200px;
+    bottom: 70px;
+    z-index: 1;
+  }
 }
 @media all and (max-width: 768px) {
   .hid-responsive {
@@ -186,6 +193,13 @@
     position: absolute;
     right: 20px;
     bottom: 20px;
+    z-index: 1;
+  }
+  .tf-texto {
+    display: flex;
+    position: absolute;
+    right: 135px;
+    bottom: 65px;
     z-index: 1;
   }
 }
