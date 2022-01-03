@@ -50,8 +50,8 @@
   margin-left: -15px;
 }
 /*Min*/
-.mnwp-a {
-  min-height: px;
+.mxwp-200 {
+  max-width: 160px;
 }
 
 .posicion-cuadrado {
@@ -60,6 +60,7 @@
 .giro {
     transform: rotate(90deg);
 }
+
 @media all and (min-width: 768px) {
   .hid-responsive {
     visibility: visible;
@@ -79,7 +80,57 @@
     min-height: 85px;
   }
   .ajuste-cuadro {
-      padding-left: 50px;
+      padding-left: 30px;
+  }
+  .tf-ampolletas {
+    display: flex;
+    position: absolute;
+    right: 140px;
+    top: 150px;
+    z-index: 1;
+  }
+  .tf-flecha {
+    display: flex;
+    position: absolute;
+    right: 43%;
+    top: 370px;
+    z-index: 1;
+    transform: rotate(0deg);
+  }
+  .tf-hojas {
+    display: flex;
+    position: absolute;
+    right: 50px;
+    top: 500px;
+    z-index: 1;
+  }
+  .tf-estrella {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    bottom: 260px;
+    z-index: 1;
+  }
+  .tf-nota {
+    display: flex;
+    position: absolute;
+    left: 60px;
+    bottom: 100px;
+    z-index: 1;
+  }
+  .tf-mono {
+    display: flex;
+    position: absolute;
+    left: 180px;
+    bottom: 20px;
+    z-index: 1;
+  }
+  .tf-texto {
+    display: flex;
+    position: absolute;
+    left: 200px;
+    bottom: 70px;
+    z-index: 1;
   }
 }
 @media all and (max-width: 768px) {
@@ -99,6 +150,56 @@
     min-height: 120px;
   }
   .ajuste-cuadro {
-    padding-top: 50px;
+    padding-top: 20px;
 }
+.tf-ampolletas {
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 90px;
+    z-index: 1;
+  }
+.tf-flecha {
+    display: flex;
+    position: absolute;
+    right: 43%;
+    top: 470px;
+    z-index: 1;
+    transform: rotate(90deg);
+  }
+  .tf-hojas {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    bottom: 580px;
+    z-index: 1;
+  }
+  .tf-estrella {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    bottom: 240px;
+    z-index: 1;
+  }
+  .tf-nota {
+    display: flex;
+    position: absolute;
+    left: 60px;
+    bottom: 300px;
+    z-index: 1;
+  }
+  .tf-mono {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1;
+  }
+  .tf-texto {
+    display: flex;
+    position: absolute;
+    right: 135px;
+    bottom: 65px;
+    z-index: 1;
+  }
 }
