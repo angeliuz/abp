@@ -1,0 +1,75 @@
+.cb-page54 {
+  background: url(images/page_054/fondo_001.svg) top center/cover no-repeat;
+  width: 100% !important;
+  height: 100% !important;
+  -webkit-print-color-adjust: exact !important;
+}
+.cuadrado {
+  width: 30px;
+  height: 30px;
+}
+.centrar-ver {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+.centrar-hor {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+/*Margin Top */
+.mtp--15 {
+    margin-top: -15px;
+}
+.mtp--60 {
+    margin-top: -60px;
+}
+/*Margin Bottom */
+.mbp--15 {
+    margin-bottom: -15px;
+}
+/*Margin left */
+.mlp--15 {
+  margin-left: -15px;
+}
+/*Min*/
+.mnwp-a {
+  min-height: px;
+}
+.caja {
+  max-height: 120px;
+  min-height: 120px;
+}
+.posicion-cuadrado {
+    margin-left: -20px;
+  }
+@media all and (min-width: 768px) {
+  .hid-responsive {
+    visibility: visible;
+  }
+  .vis-responsive {
+    visibility: hidden;
+    position: none;
+    display: none;
+  }
+  .ajuste-texto-res {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    text-align: left;
+  }
+
+}
+@media all and (max-width: 768px) {
+  .hid-responsive {
+    visibility: hidden;
+    position: relative;
+  }
+  .vis-responsive {
+    visibility: visible;
+  }
+  .ajuste-texto-res {
+    margin-top: -40px;
+    text-align: center;
+  }
+
+}
