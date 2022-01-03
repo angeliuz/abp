@@ -3,7 +3,6 @@ import "./page_006.css";
 
 function Page006() {
   return (
-    <div>
       <div className="wrapper bgc-light">
         <div className="d-flex flex-column align-items-center pbp-20">
           <div className="page bgc-goten position-relative" id="page_006">
@@ -79,7 +78,6 @@ function Page006() {
           </div>
         </div>
 
-    </div>
   );
 }
 
