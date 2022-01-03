@@ -115,6 +115,7 @@
   --motaro:#E5E0C9;
   --ganyu: #eaf1f9;
   --qiqi: #d1e0f2;
+  --kabal:#dbd9ec;
 }
 
 /* COLORES */
@@ -722,6 +723,10 @@
 .color-qiqi {
   color: var(--qiqi);
 }
+.color-kabal {
+  color: var(--kabal);
+}
+
 /* BORDERS */
 .border-color-goku {
   border-color: var(--goku) !important;
@@ -1094,6 +1099,9 @@
 }
 .border-color-qiqi {
   border-color: var(--qiqi) !important;
+}
+.border-color-kabal {
+  border-color: var(--kabal) !important;
 }
 
 /* BACKGROUND COLORS */
@@ -1468,4 +1476,7 @@
 }
 .bgc-qiqi {
   background-color: var(--qiqi);
+}
+.bgc-kabal {
+  background-color: var(--kabal);
 }
