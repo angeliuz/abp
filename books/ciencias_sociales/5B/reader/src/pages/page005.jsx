@@ -2,8 +2,10 @@ import React from "react";
 import "./page_005.css";
 
 function Page005() {
+
+
+
   return (
-    <div>
       <div className="wrapper bgc-light">
         <div className="d-flex flex-column align-items-center pbp-10">
           <div className="page position-relative nat-page11" id="page_005">
@@ -22,7 +24,6 @@ function Page005() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
 

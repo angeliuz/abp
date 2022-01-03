@@ -11,7 +11,7 @@ function Page008() {
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
-        <div className="page bgc-white overflow-hidden position-relative" id="page_08">
+        <div className="page bgc-white overflow-hidden position-relative" id="page_008">
           <div className="w-100 cb-cabecera-2 mbp-5"></div>
           <div className="ptp-10 psp-0 mbp-20" style={{ paddingLeft: "6%", paddingRight: "6%" }}>
             <div className="d-flex">

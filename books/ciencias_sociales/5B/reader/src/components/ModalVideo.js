@@ -1,20 +1,29 @@
 import React, {useEffect} from "react";
 import { useState } from "react";
-import ContentEditable from "react-contenteditable";
+import Modal from 'react-bootstrap/Modal'
+import Button from 'react-bootstrap/Button'
+
 import { doc, getDoc, setDoc, updateDoc, onSnapshot } from "firebase/firestore";
 import db from "../firebase/firebaseConfig";
 
-function InputBox(props) {
-  const dokenArray = getUrlParameter("doken").split([','])
-  //console.log(dokenArray);
+function ModalVideo(props) {
+  
+  const dokenArray = getUrlParameter("doken").split([',']);
+  //console.log(dokenArray[1]);
 
-  const coleccion = "dataUsers";
-  const documento = dokenArray[0]+dokenArray[1];
+  const coleccion = "books";
+  const documento = dokenArray[1];
   const docRef = doc(db, coleccion, documento);
 
   const className = props.className;
+  const image = props.image;
   const id = props.id;
   const [content1, setContent1] = useState("");
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   function getUrlParameter(name) {
     name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
@@ -22,6 +31,7 @@ function InputBox(props) {
     var results = regex.exec(window.location.search);
     return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
   };
+
 
   useEffect(() => {
     getData();
@@ -60,29 +70,36 @@ function InputBox(props) {
     obtenerDatos();
   }
 
-  const handleTextChange = (event) => {
-    setContent1(event.target.value);
-    updateContenido(event.target.value);
-  };
-
-  const updateContenido = (data) =>{
-    //console.log("content1: " + data);
-    updateDoc(docRef, {
-      [id]: data,
-    });
-  }
-
-
-
 
   return (
-    <ContentEditable
-      className={className}
-      html={content1} // innerHTML of the editable div
-      disabled={false} // use true to disable editing
-      onChange={(e) => handleTextChange(e)} // hae a custom HTML tag (uses a div by default)
-    />
+    <>
+      <div className={className}>
+        <img src={image} className="cambio hp-40 text-center mtp-10 psp-10 pep-40" alt="" onClick={handleShow} />
+      </div>
+
+      <Modal 
+        show={show} 
+        onHide={handleClose} 
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter">
+        <Modal.Header closeButton>
+          <Modal.Title id="contained-modal-title-vcenter">Modal heading</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+        <iframe title={id} src={content1} width="100%" height="480" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
+        
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button variant="primary" onClick={handleClose}>
+            Save Changes
+          </Button>
+        </Modal.Footer>
+      </Modal>
+    </>
   );
 }
 
-export default InputBox;
+export default ModalVideo;
