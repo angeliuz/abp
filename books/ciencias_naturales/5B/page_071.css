@@ -8,7 +8,7 @@
 .cabecera{
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
   clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
-  background-color: var(--goten);
+  background-color: var(--pikachu);
   height: 180px;
 }
 
@@ -51,14 +51,6 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
-.cb-caja-2 {
-  background-image: url(../5B/images/page_007/img_004.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  justify-content: center;
-
-  display: flex;
-}
 
 .cb-contenedor-mail{
   position: relative;
@@ -67,7 +59,7 @@
   margin: 20px auto 30px;
   background-color: var(--ganyu);
   border-radius: 10px;
-  box-shadow: -2px 3px 13px 4px rgb(0 0 0 / 20%);
+  box-shadow: -2px 3px 13px 4px rgb(0 0 0 / 10%);
   border-top: 15px solid var(--qiqi)
 }
 
@@ -88,22 +80,29 @@ max-width: 630PX;
   font-size: 16px;
   border-radius: 0px 0px 10px 10px;
 }
-
-.cb-paper {
+/*mail inferior*/
+.cb-carta-content-2 {
   position: relative;
-  width: calc(100% - 100px);
-  margin: 50px auto 46px;
+  z-index: 3;
+  background: white;
+  padding: 30px 40px;
+  font-size: 16px;
+  border-radius: 0px 0px 10px 10px;
+  height: 190px;
 }
+/*mail inferior*/
 
-.cb-personaje-globo{
+.cb-globotextp-p71{
   position: absolute;
-  right: 27px;
-  bottom: 60px;
+  right: -13px;
+  bottom: -20px;
+  width: 70px;
 }
-.cb-computador-carta{
+.cb-celular-p71{
   position: absolute;
-    right: -75px;
-    top: 150px;
+  right: -35px;
+  bottom: -16px;
+    height: 90px;
     transform: rotate(5deg);
 }
 .linea {
@@ -121,12 +120,12 @@ max-width: 630PX;
   padding-left: 6%; 
   padding-right: 6%;
 }
-@media (max-width: 760px) {
+@media (max-width: 780px) {
   .cambio {
       padding: 0;
   }
   .cabecera {
-      height: 200px;
+      height: 230px;
   }
   .centrar {
       text-align: center;
@@ -140,12 +139,32 @@ max-width: 630PX;
   display: none;
 }
 }
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   .cambio {
       padding: 0;
   }
   .cabecera {
-      height: 520px;
+      height: 250px;
+  }
+  .rotar {
+      transform: rotate(90deg);
+      margin: 10px;
+      width: 20px;
+  }
+  .centrar {
+      text-align: center;
+      padding: 10px 13px 0px 13px  !important;
+      justify-content: center;
+  }
+
+
+}
+@media (max-width: 560px) {
+  .cambio {
+      padding: 0;
+  }
+  .cabecera {
+      height: 510px;
   }
   .rotar {
       transform: rotate(90deg);

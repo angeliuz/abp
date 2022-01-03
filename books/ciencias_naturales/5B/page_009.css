@@ -1,0 +1,144 @@
+.cb-page9 {
+    background: url(images/page_009/fondo_003.svg) top left/ cover no-repeat !important;
+     -webkit-print-color-adjust: exact !important;
+ 
+ }
+ .cb-block-arriba-p61 {
+    max-width: 590px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
+}
+.cb-block-superior {
+    background-color: white;
+    max-width: 550px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: calc(100% - 30px);
+    height: 120px;
+}
+.cb-block-superior-02 {
+    background-color: white;
+    max-width: 550px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: calc(100% - 30px);
+    height: 60px;
+}
+
+.line-dotted {
+    border: 1px dashed #dedede;
+}
+
+.cb-block-arriba {
+    max-width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
+}
+
+.cb-block-inicial {
+    max-width: 550px;
+    background-color: white;
+    border: 1px solid rgb(212, 86, 86);
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    position: relative;
+    width: calc(100% - 30px);
+}
+
+.cb-outline_pg9{
+    outline: solid 1px var(--soldados);
+    outline-offset: 2px;
+}
+.rounded-caja {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color:var(--lightDark);
+}
+
+  .cb-camara-p09{
+    position: absolute;
+    left: -50px;
+    top: -14px;
+    width: 70px;
+  }
+  .cb-sandia-p09{
+    position: absolute;
+    right: -50px;
+    top: 26px;
+    width: 90px;
+    transform: rotate(-35deg);
+    ;
+  }
+
+
+  .cb-lupa-p09{
+    position: absolute;
+    right: -13px;
+    top: -5px;
+    height: 70px;
+  }
+  
+  .cb-celular-p09{
+    position: absolute;
+    left: -56px;
+    top: 9px;
+}
+.cb-binoculares-p09{
+    position: absolute;
+    right: -30px;
+    bottom: 12px
+}
+.cb-carta-p09{
+    position: absolute;
+    left: -40px;
+    top: 28px
+}
+
+.cb-dosier {
+    width: 50%;
+}
+
+@media all and (max-width: 829px) {
+    .cb-page9 {
+        background: url(images/page_009/fondo_004.svg) top left/ cover no-repeat !important;
+     }
+
+}
+
+@media all and (max-width: 680px) {
+
+    .cb-page9 {
+        background: url(images/page_009/fondo_004.svg) top left/ cover no-repeat !important;
+     }
+    .titulo-linea .linea{
+        width: 100%;
+    }
+
+    .cb-camara-p09{
+        display: none;
+    }
+    .cb-lupa-p09{
+        display: none;
+    }
+    .cb-celular-p09{
+        display: none;
+    }
+    .cb-binoculares-p09{
+        display: none;
+    }
+    .cb-carta-p09{
+        display: none;
+    }
+}

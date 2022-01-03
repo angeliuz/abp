@@ -115,6 +115,9 @@
   --motaro:#E5E0C9;
   --ganyu: #eaf1f9;
   --qiqi: #d1e0f2;
+  --kabal:#dbd9ec;
+  --rain:#c5de9e;
+  --hutao: #fef7ea;
 }
 
 /* COLORES */
@@ -722,6 +725,17 @@
 .color-qiqi {
   color: var(--qiqi);
 }
+.color-kabal {
+  color: var(--kabal);
+}
+.color-rain {
+  color: var(--rain);
+}
+.color-hutao {
+  color: var(--hutao);
+}
+
+
 /* BORDERS */
 .border-color-goku {
   border-color: var(--goku) !important;
@@ -1094,6 +1108,15 @@
 }
 .border-color-qiqi {
   border-color: var(--qiqi) !important;
+}
+.border-color-kabal {
+  border-color: var(--kabal) !important;
+}
+.border-color-rain {
+  border-color: var(--rain) !important;
+}
+.border-color-hutao {
+  border-color: var(--hutao) !important;
 }
 
 /* BACKGROUND COLORS */
@@ -1468,4 +1491,13 @@
 }
 .bgc-qiqi {
   background-color: var(--qiqi);
+}
+.bgc-kabal {
+  background-color: var(--kabal);
+}
+.bgc-rain {
+  background-color: var(--rain);
+}
+.bgc-hutao {
+  background-color: var(--hutao);
 }
