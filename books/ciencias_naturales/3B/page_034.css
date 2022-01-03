@@ -13,65 +13,65 @@
   margin-bottom: auto !important;
 }
 .linea {
-    border-bottom: 1px dashed #dedede;
-    padding-top: 5px;
-    border-color: var(--dark);
-  }
-  .espacio-casilla {
-    width: 120px;
-    height: 40px;
-  }
-  .ajuste-centro {
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
+  border-bottom: 1px dashed #dedede;
+  padding-top: 5px;
+  border-color: var(--dark);
+}
+.espacio-casilla {
+  width: 120px;
+  height: 40px;
+}
+.ajuste-centro {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 /*max width*/
 .mxw-85 {
   max-width: 85%;
 }
 /*min width*/
 .mnw-50 {
-    min-width: 50%;
+  min-width: 50%;
 }
 /*margin top*/
 .mtp--45 {
-    margin-top: -45px;
+  margin-top: -45px;
 }
 .mtp-2 {
-    margin-top: 2px;
+  margin-top: 2px;
 }
 /*margin bottom*/
 .mbp--20 {
-    margin-bottom: -20px;
+  margin-bottom: -20px;
 }
 /*margin right*/
 /*margin left*/
 .ml-50-r {
-    margin-left: 50%;
+  margin-left: 50%;
 }
 .mlp--10-r {
-    margin-left: -10px;
+  margin-left: -10px;
 }
 @media all and (min-width: 768px) {
-    .hid-responsive {
-      visibility: visible;
-    }
-    .vis-responsive {
-      visibility: hidden;
-      position: relative;
-      display: none;
-    }
+  .hid-responsive {
+    visibility: visible;
   }
-  
-  @media all and (max-width: 768px) {
-    .hid-responsive {
-      visibility: hidden;
-      position: relative;
-    }
-    .vis-responsive {
-      visibility: visible;
-    }
-    .ml-50-r {
-        margin-left: 20%;
-    }
+  .vis-responsive {
+    visibility: hidden;
+    position: relative;
+    display: none;
   }
+}
+
+@media all and (max-width: 768px) {
+  .hid-responsive {
+    visibility: hidden;
+    position: relative;
+  }
+  .vis-responsive {
+    visibility: visible;
+  }
+  .ml-50-r {
+    margin-left: 20%;
+  }
+}
