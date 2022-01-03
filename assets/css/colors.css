@@ -117,6 +117,7 @@
   --qiqi: #d1e0f2;
   --kabal:#dbd9ec;
   --rain:#c5de9e;
+  --hutao: #fef7ea;
 }
 
 /* COLORES */
@@ -730,6 +731,9 @@
 .color-rain {
   color: var(--rain);
 }
+.color-hutao {
+  color: var(--hutao);
+}
 
 
 /* BORDERS */
@@ -1111,6 +1115,9 @@
 .border-color-rain {
   border-color: var(--rain) !important;
 }
+.border-color-hutao {
+  border-color: var(--hutao) !important;
+}
 
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1490,4 +1497,7 @@
 }
 .bgc-rain {
   background-color: var(--rain);
+}
+.bgc-hutao {
+  background-color: var(--hutao);
 }
