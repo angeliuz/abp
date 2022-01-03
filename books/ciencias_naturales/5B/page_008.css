@@ -1,0 +1,82 @@
+ .cb-cabecera{
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
+    background-color: var(--goten);
+    height: 80px;
+  }
+
+.cb-numero-inicial{
+    width: 100%;
+    max-width: 600px;
+    margin-right: 6%;
+    margin-left: 6%;
+}
+
+.line-dotted {
+    border: 1px dashed #dedede;
+}
+
+.cb-seccion-inferior-p08 {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
+}
+
+.rounded-caja {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.linea2 {
+    border-bottom: 1px dashed #525252;
+    padding-top: 5px;
+}
+.linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+}
+
+.cb-seccion-inicial-p07{
+    max-width: 650px;
+    width: calc(100% - 30px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cb-seccion-linea-p07 {
+    border: 1px solid var(--pidgey);
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .cb-seccion-outline-p07{
+    outline: solid 4px #ffffff;
+    outline-offset: -5px;
+  }
+  .cb-caja-firma{
+      width: 200px;
+      height: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: white;
+      border-radius: 10px;
+  }
+  .cb-seccion-lapiz-p08{
+      position: absolute;
+      top: -50px;
+      right: 140px;
+  }
+  .cb-nube-p08{
+    position: absolute;
+    top: -30px;
+    right: 40px;
+}
+.cb-flecha{
+    padding-bottom: -2px;
+}
+@media all and (max-width: 800px) {
+
+
+    .titulo-linea .linea{
+        width: 100%;
+    }
+}
