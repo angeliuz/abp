@@ -1,0 +1,104 @@
+.cb-page54 {
+  background: url(images/page_054/fondo_001.svg) top center/cover no-repeat;
+  width: 100% !important;
+  height: 100% !important;
+  -webkit-print-color-adjust: exact !important;
+}
+.linea {
+    border-bottom: 1px dashed #dedede;
+
+    border-color: var(--dark);
+  }
+.cuadrado {
+  width: 30px;
+  height: 30px;
+}
+.centrar-ver {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+.centrar-hor {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.bgc-mirio {
+    background-color: #cbde93;
+}
+.border-color-mirio {
+    border-color: #cbde93 !important;
+}
+
+/*Margin Top */
+.mtp--15 {
+  margin-top: -15px;
+}
+.mtp-10 {
+    margin-top: 10px;
+  }
+.mtp--20 {
+  margin-top: 0px;
+}
+/*Margin Bottom */
+.mbp--15 {
+  margin-bottom: -15px;
+}
+.mbp-a {
+    margin-bottom: -30px;
+}
+/*Margin left */
+.mlp--15 {
+  margin-left: -15px;
+}
+/*Min*/
+.mnwp-a {
+  min-height: px;
+}
+
+.posicion-cuadrado {
+  margin-left: -20px;
+}
+.giro {
+    transform: rotate(90deg);
+}
+@media all and (min-width: 768px) {
+  .hid-responsive {
+    visibility: visible;
+  }
+  .vis-responsive {
+    visibility: hidden;
+    position: none;
+    display: none;
+  }
+  .ajuste-texto-res {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    text-align: left;
+  }
+  .caja {
+    max-height: 85px;
+    min-height: 85px;
+  }
+  .ajuste-cuadro {
+      padding-left: 50px;
+  }
+}
+@media all and (max-width: 768px) {
+  .hid-responsive {
+    visibility: hidden;
+    position: none;
+    display: none;
+  }
+  .vis-responsive {
+    visibility: visible;
+  }
+  .ajuste-texto-res {
+    text-align: center;
+  }
+  .caja {
+    max-height: 120px;
+    min-height: 120px;
+  }
+  .ajuste-cuadro {
+    padding-top: 50px;
+}
+}
