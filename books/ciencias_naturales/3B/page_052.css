@@ -1,0 +1,164 @@
+.cabecera {
+    -webkit-clip-path: polygon(100% 100%, 0% 0%, 0% 0%, 8% 0%);
+    clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
+    background-color: var(--saitama);
+    height: 90px;
+}
+
+
+.container-row {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.foto {
+    width: 100%;
+    height: 500px;
+    display: block;
+    margin: 40px auto;
+}
+
+
+.mta {
+    margin-top: auto !important;
+}
+
+.mba {
+    margin-bottom: auto !important;
+}
+
+.mtp--45 {
+    margin-top: -45px;
+}
+
+.mtp-15 {
+    margin-top: 15px;
+}
+
+.mtp--65 {
+    margin-top: -65px;
+}
+
+.mtp-35 {
+    margin-top: 35px;
+}
+
+.mtp-15 {
+    margin-top: 15px;
+}
+
+.mtp-20 {
+    margin-top: 20px;
+}
+
+.mtp--40 {
+    margin-top: -40px;
+}
+
+.ms-8 {
+    margin-left: 8%;
+}
+
+.msp--10 {
+    margin-left: -10px;
+}
+
+.mep--10 {
+    margin-right: -10px;
+}
+
+.mxw-430 {
+    max-width: 430px;
+}
+
+.alto-100 {
+    height: 100px;
+}
+
+
+@media (max-width: 767px) {
+
+    .foto {
+        width: 100%;
+        height: 390px;
+        display: block;
+        margin: 70px auto;
+    }
+}
+
+
+.cuadrado {
+    width: 30px;
+    height: 30px;
+}
+
+.centrado-vert {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+.linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color: var(--dark);
+}
+
+.espacio-casilla {
+    width: 120px;
+    height: 40px;
+}
+
+.ajuste-centro {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/*max width*/
+.mxw-85 {
+    max-width: 85%;
+}
+
+/*min width*/
+.mnw-50 {
+    min-width: 50%;
+}
+
+/*margin top*/
+.mtp--45 {
+    margin-top: -45px;
+}
+
+.mtp-2 {
+    margin-top: 2px;
+}
+
+
+
+@media all and (min-width: 768px) {
+    .hid-responsive {
+        visibility: visible;
+    }
+
+    .vis-responsive {
+        visibility: hidden;
+        position: relative;
+        display: none;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .hid-responsive {
+        visibility: hidden;
+        position: relative;
+    }
+
+    .vis-responsive {
+        visibility: visible;
+
+    }
+
+    .ml-50-r {
+        margin-left: 20%;
+    }
+}
