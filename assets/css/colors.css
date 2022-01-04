@@ -119,6 +119,7 @@
   --rain:#c5de9e;
   --hutao: #fef7ea;
   --cyrax: #b0dedb;
+  --smoke:#ebf1f9;
 }
 
 /* COLORES */
@@ -738,6 +739,10 @@
 .color-cyrax {
   color: var(--cyrax);
 }
+.color-smoke {
+  color: var(--smoke);
+}
+
 
 
 
@@ -1126,6 +1131,10 @@
 .border-color-cyrax {
   border-color: var(--cyrax) !important;
 }
+.border-color-smoke {
+  border-color: var(--smoke) !important;
+}
+
 
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1511,4 +1520,7 @@
 }
 .bgc-cyrax {
   background-color: var(--cyrax);
+}
+.bgc-smoke {
+  background-color: var(--smoke);
 }

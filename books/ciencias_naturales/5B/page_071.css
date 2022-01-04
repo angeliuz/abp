@@ -11,7 +11,13 @@
   background-color: var(--pikachu);
   height: 180px;
 }
+.cb-cabecera-textos{
+  display: flex;
 
+}
+.cb-cabecera-seccion{
+  display: flex;
+}
 .rect-sesion{
   background-color: #ffcc00;
   border: 4px solid white;
@@ -40,16 +46,16 @@
   border-radius: 20px 20px 0px 0px;
 }
 
-.caja {
+.caja-p71 {
   background-image: url(../5B/images/page_007/img_000.svg);
   background-repeat: no-repeat;
   background-size: contain;
   padding: 10px 10px 10px 10px;
-}
-.cb-caja {
-  background-image: url(../5B/images/page_007/img_002.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
+  width: 100%;
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .cb-contenedor-mail{
@@ -125,7 +131,7 @@ max-width: 630PX;
       padding: 0;
   }
   .cabecera {
-      height: 230px;
+      height: 190px;
   }
   .centrar {
       text-align: center;
@@ -140,11 +146,17 @@ max-width: 630PX;
 }
 }
 @media (max-width: 600px) {
+  .cb-cabecera-textos{
+    display: inline;
+  }
+  .cb-cabecera-seccion{
+    display: inline;
+  }
   .cambio {
       padding: 0;
   }
   .cabecera {
-      height: 250px;
+      height: 550px;
   }
   .rotar {
       transform: rotate(90deg);

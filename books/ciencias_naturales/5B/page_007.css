@@ -11,6 +11,13 @@
   background-color: var(--goten);
   height: 180px;
 }
+.cb-cabecera-textos{
+  display: flex;
+
+}
+.cb-cabecera-seccion{
+  display: flex;
+}
 
 .rect-sesion{
   background-color: #ffcc00;
@@ -50,14 +57,25 @@
   background-image: url(../5B/images/page_007/img_002.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  width: 100%;
+  max-width: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 .cb-caja-2 {
-  background-image: url(../5B/images/page_007/img_004.svg);
+  background-image: url(../5B/images/page_007/img_006.svg);
   background-repeat: no-repeat;
   background-size: contain;
   justify-content: center;
-
-  display: flex;
+  width: 100%;
+  max-width: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;;
+}
+.cb-row{
+  max-width: 100px;
 }
 
 .cb-contenedor-mail{
@@ -133,6 +151,11 @@ max-width: 630PX;
       padding: 10px 13px 0px 13px  !important;
       justify-content: center;
   }
+  .centrar-2 {
+    text-align: center;
+    padding: 10px 25px 0px 25px  !important;
+    justify-content: center;
+}
   .cb-computador-carta {
     display: none;
 }
@@ -140,7 +163,47 @@ max-width: 630PX;
   display: none;
 }
 }
-@media (max-width: 576px) {
+@media (max-width: 620px) {
+  .cambio {
+      padding: 0;
+  }
+  .cabecera {
+      height: 220px;
+  }
+  .rotar {
+      transform: rotate(90deg);
+      margin: 10px;
+      width: 20px;
+  }
+  .centrar {
+      text-align: center;
+      padding: 10px 13px 0px 13px  !important;
+      justify-content: center;
+  }
+
+
+}
+@media (max-width: 580px) {
+  .cambio {
+      padding: 0;
+  }
+  .cabecera {
+      height: 250px;
+  }
+  .rotar {
+      transform: rotate(90deg);
+      margin: 10px;
+      width: 20px;
+  }
+  .centrar {
+      text-align: center;
+      padding: 10px 13px 0px 13px  !important;
+      justify-content: center;
+  }
+
+
+}
+@media (max-width: 570px) {
   .cambio {
       padding: 0;
   }

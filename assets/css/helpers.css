@@ -522,6 +522,12 @@
 .hp-200 {
   height: 200px;
 }
+.hp-250 {
+  height: 250px;
+}
+.hp-300 {
+  height: 300px;
+}
 
 /* MARGENES */
 .ms-5 {
@@ -3423,6 +3429,11 @@
 /*redondeado right-top*/
 .rounded-te-10 {
   border-top-right-radius: 10px;
+}
+
+.rounded-p-sup-15 {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 .min-hp-150 {

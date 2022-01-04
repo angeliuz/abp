@@ -1,0 +1,145 @@
+.cabecera {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
+    background-color: var(--android18);
+    height: 220px;
+}
+
+.caja {
+    background-image: url(../5B/images/page_023/img_001.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px 10px 10px 10px;
+}
+
+.cajita {
+    position: absolute;
+    z-index: 2;
+}
+
+.linea1 {
+    margin: 0 auto;
+}
+
+.cb-contenedor-mail {
+    position: relative;
+    width: calc(100% - 100px);
+    max-width: 700px;
+    margin: 20px auto 30px;
+    background-color: var(--ganyu);
+    border-radius: 10px;
+    box-shadow: -2px 3px 13px 4px rgb(0 0 0 / 20%);
+    border-top: 15px solid var(--qiqi)
+}
+
+.cb-datos-1 {
+    width: 100%;
+    background-color: white;
+    max-width: 630PX;
+}
+
+.cb-datos-a {
+    width: 100%;
+    max-width: 70px;
+}
+
+.cb-carta-content {
+    position: relative;
+    z-index: 3;
+    background: white;
+    padding: 30px 40px;
+    font-size: 16px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.cb-paper {
+    position: relative;
+    width: calc(100% - 100px);
+    margin: 50px auto 46px;
+}
+
+.cb-personaje-globo {
+    position: absolute;
+    right: 27px;
+    bottom: 60px;
+}
+
+.cb-computador-carta {
+    position: absolute;
+    right: -75px;
+    top: 150px;
+    transform: rotate(5deg);
+}
+
+.lapiz {
+    z-index: 3;
+    position: absolute;
+    left: 80px;
+
+
+}
+
+.linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color: var(--dark);
+}
+
+.cb-seccion-2 {
+    max-width: 625px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cb-pad {
+    padding-left: 6%;
+    padding-right: 3%;
+}
+
+@media (max-width: 760px) {
+    .cambio {
+        padding: 0;
+    }
+
+    .cabecera {
+        height: 260px;
+    }
+
+    .centrar {
+        text-align: center;
+        padding: 10px 13px 0px 13px !important;
+        justify-content: center;
+    }
+
+    .cb-computador-carta {
+        display: none;
+    }
+
+    .lapiz {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .cambio {
+        padding: 0;
+    }
+
+    .cabecera {
+        height: 520px;
+    }
+
+    .rotar {
+        transform: rotate(90deg);
+        margin: 10px;
+        width: 20px;
+    }
+
+    .centrar {
+        text-align: center;
+        padding: 10px 13px 0px 13px !important;
+        justify-content: center;
+    }
+
+
+}
