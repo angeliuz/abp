@@ -1,0 +1,295 @@
+.cb-page77 {
+    background: url(images/page_077/fondo_001.svg) top left/ cover no-repeat !important;
+     -webkit-print-color-adjust: exact !important;
+ 
+ }
+
+.cb-block-superior-p77 {
+    background-color: white;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: calc(100% - 30px);
+}
+.cb-seccion-inferior-p77 {
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  max-width: 580px;
+  width: 100%;
+}
+.cb-seccion-bgc-p77 {
+  background-color: var(--akuma);
+  margin: -4px -4px 25px -4px;
+  border-radius:6px 6px 0px 0px;
+  padding: 10px 10px;
+}
+.cb-box-a {
+  background-color: white;
+  left: 10px;
+  top: 93px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #7c7c7c;
+  text-align: center;
+}
+
+.line-dotted {
+    border: 1px dashed #dedede;
+}
+
+.cb-block-arriba-p77 {
+    max-width: 590px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
+}
+
+.cb-block-inicial-p77 {
+    max-width: 590px;
+    background-color: white;
+    border: 1px solid var(--pikachu);
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    position: relative;
+    width: calc(100% - 30px);
+}
+
+.rounded-caja {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color:var(--lightDark);
+}
+
+  .cb-personajetabla{
+    display: none;
+  }
+  
+  .cb-globotexto{
+    display: none;
+  }
+  
+  .cb-arrow{
+    display: none;
+  }
+  .cb-desliza{
+    display: none;
+  }
+  .cb-mt{
+    margin-top: 50px;
+  }
+  
+  .cb-bgccuaderno-1-p77{
+    background-color: var(--android18);
+    margin: -18px -18px 25px -18px;
+    border-radius: 8px 8px 0px 0px;
+    padding: 15px 10px;
+  }
+  .cb-bgccuaderno-2-p77{
+    background-color: var(--pidgey);
+    margin: -18px -18px 25px -18px;
+    border-radius: 8px 8px 0px 0px;
+    padding: 15px 10px;
+  }
+
+  .cb-contenedor-p77 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 580px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+  }
+  
+  .cb-block-cuaderno-p77 {
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    max-width: 280px;
+    width: 100%;
+
+  }
+  .cb-block-p77 {
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
+  }
+  .cb-w {
+      width:300px
+  }
+  .block-table {
+    width: 660px;
+  }
+  
+  .block-table-parent {
+    border-radius: 4px;
+    max-width: 590px;
+    margin: 20px auto 0;
+    position: relative;
+    width: calc(100% - 10px);
+    padding: 20px;
+
+  }
+  .block-table-parent {
+    padding: 6px;
+  }
+  
+  table { 
+    border-top: 0px !important;
+
+    border-color: var(--obiwan) !important;
+    margin-bottom: 0px !important;
+  }
+  
+  table th, table td { 
+    overflow: hidden; 
+    font-size: 12px;
+  }
+  
+  
+  table thead tr{
+    border-top: 0 !important;
+  }
+  
+  tr th:nth-child(2) { width: 50px; }
+  tr th:nth-child(3) { width: 60px; }
+  tr th:nth-child(4) { width: 100px; }
+  tr th:nth-child(5) { width: 70px; }
+  tr th {
+    font-size: 12px;
+    padding: 5px !important;
+  }
+  
+  tbody tr th {
+    background: var(--draco) !important;
+    font-weight: 300;
+  }
+  
+  tbody td{
+    background-color: var(--white) !important;
+    font-weight: 300;
+  }
+  
+  .xtable-head-orange {
+    color: #fff;
+    background: var(--obiwan) !important;
+    border-color: #f4e6f0 !important;
+  }
+  
+  .xtable-head-first {
+    border: 0 !important;
+    font-weight: 300;
+  }
+  
+  .cb-binoculares-p77{
+    position: absolute;
+    left: -50px;
+    top: -14px;
+  }
+
+  .cb-megafono-p77{
+    position: absolute;
+    right: -33px;
+    top: -7px;
+  }
+  
+  .cb-celu-p77{
+    position: absolute;
+    right: -56px;
+    top: 129px;
+width: 50px;
+  }
+  .cb-lupa-p77{
+    position: absolute;
+    left: -50px;
+    top: 142px;
+  }
+
+  .cb-fichas-p77{
+    position: absolute;
+    left: -70px;
+    top: -20px;
+    width: 60px;
+  }
+  .cb-tiempo-p77{
+    position: absolute;
+    right: -65px;
+    bottom: 40px;
+    width: 43px;
+    }
+
+  .cb-espiral-p77{
+  position: absolute;
+  right: 265px;
+  bottom: 40px;
+  width: 53px;
+  }
+  .cb-dosier {
+    width: 100%;
+  }
+  .cb-column-line {
+    max-width: 200px;
+    width: calc(100% / 3);
+  }
+  .cb-firmas {
+    display: flex;
+  }
+
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+@media all and (max-width: 829px) {
+  .cb-page77 {
+     background: url(images/page_077/fondo_000.svg) top left/ cover no-repeat !important;
+     }
+
+}
+@media all and (max-width:780px) {
+
+  .cb-page77 {
+    background: url(images/page_077/fondo_005.svg) top left/ cover no-repeat !important;
+   }
+   .cb-contenedor{
+    display: inline;
+  }
+  .cb-block-cuaderno{
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-top: 25px;
+  }
+  .cb-tiempo-p77{
+      display: none;
+  }
+  .cb-fichas-p77{
+      display: none;
+  }
+  .cb-binoculares-p77{
+      display: none;
+  }
+  .cb-megafono-p77{
+      display: none;
+  }
+  .cb-lupa-p77{
+      display: none;
+  }
+  .cb-celu-p77{
+      display: none;
+  }
+
+}
+
+
