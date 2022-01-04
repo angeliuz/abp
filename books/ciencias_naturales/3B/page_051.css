@@ -1,0 +1,99 @@
+.cabecera {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
+    background-color: var(--saitama);
+    height: 90px;
+}
+
+.caja {
+    background-image: url(images/page_051/caja.svg);
+    background-size: cover;
+    padding-top: 18px;
+    width: 158px;
+    height: 56px;
+    text-align: center;
+
+}
+
+.container-row {
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+.cajita {
+    left: 0px;
+    top: 0px;
+
+}
+
+.cajota {
+    height: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+
+
+}
+
+
+.linea {
+    border-bottom: 2px dotted gray;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+.mapa {
+    top: -50px;
+    right: -15px;
+}
+
+.circulo {
+    top: 450px;
+    left: -15px;
+}
+
+.dibujo {
+    top: 275px;
+    left: 520px;
+    
+}
+
+@media (max-width: 825px) {
+    .dibujo{
+        display: none;
+    }
+}
+
+@media (max-width: 615px) {
+    .cabecera {
+        height: 150px;
+    }
+
+    .centrar {
+        justify-content: center;
+    }
+
+    .cambio {
+        padding-top: 3px;
+    }
+
+    .mapa {
+        display: none;
+    }
+}
+
+
+@media (max-width: 610px) {
+    .cabecera {
+        height: 160px;
+    }
+
+    .centrar {
+        justify-content: center;
+    }
+
+    .cambio {
+        padding-top: 3px;
+    }
+}

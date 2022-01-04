@@ -1,0 +1,116 @@
+.bgc-lux {
+  background-color: #ffe5ca;
+}
+.linea {
+  border-bottom: 1px dashed #dedede;
+  padding-top: 5px;
+  border-color: var(--dark);
+}
+.cuadrado {
+  width: 30px;
+  height: 30px;
+}
+.espacio-casilla {
+  width: 80px;
+  height: 40px;
+}
+.ajuste-centro {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.tf-mono {
+  display: flex;
+  position: absolute;
+  right: 20px;
+  bottom: 50px;
+  z-index: 1;
+}
+.tf-imagen {
+  position: absolute;
+  z-index: 1;
+}
+/* min and max*/
+.mxwp-210 {
+  max-width: 210px;
+}
+.mxwp-240 {
+  max-width: 240px;
+}
+.mnhp-40 {
+  min-height: 40px;
+}
+.mnw-50 {
+  min-width: 50%;
+}
+/* margin top*/
+.mtp-30 {
+  margin-top: 30px;
+}
+.mtp--5 {
+  margin-top: -5px;
+}
+.mtp--10 {
+  margin-top: -10px;
+}
+.mtp--15 {
+  margin-top: -15px;
+}
+.mtp--20 {
+  margin-top: -20px;
+}
+.mtp--30 {
+  margin-top: -30px;
+}
+/* margin bot*/
+.mbp-60 {
+  margin-bottom: 60px;
+}
+
+/* margin left*/
+.mlp-a {
+  margin-left: -20px;
+}
+.mlp--5 {
+  margin-left: -5px;
+}
+.mlp-5 {
+  margin-left: 5px;
+}
+@media all and (min-width: 768px) {
+  .cb-page18 {
+    background: url(images/page_018/fondo_001.svg) top center/cover no-repeat;
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-print-color-adjust: exact !important;
+  }
+  .hid-responsive {
+    visibility: visible;
+  }
+  .vis-responsive {
+    visibility: hidden;
+    position: relative;
+    display: none;
+  }
+  .hp-330-res {
+    height: 330px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .cb-page-18 {
+    background-color: #ffe5ca;
+  }
+  .hid-responsive {
+    visibility: hidden;
+    position: relative;
+  }
+  .vis-responsive {
+    visibility: visible;
+  }
+  .mxwp-240 {
+    max-width: 100%;
+  }
+  .hp-330-res {
+    height: 270px;
+  }
+}

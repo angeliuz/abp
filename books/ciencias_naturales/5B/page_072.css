@@ -36,12 +36,6 @@
     margin-left: auto;
     width: 100%;
   }
-  .cb-caja-interior-p72{
-    max-width: 600px;
-    width: calc(100% - 30px);
-    margin-left: auto;
-    margin-right: auto;
-  }
   .cb-caja-contenedora-p72{
     max-width: 650px;
     width: calc(100% - 30px);
@@ -49,12 +43,26 @@
     margin-right: auto;
 
   }
-  .cb-block-p72{
-    border: 1px solid var(--jaga);
-    border-radius: 10px;
-    margin-right: auto;
-    margin-left: auto;
+  .cb-ejercicio2-p72{
+      max-width: 650px;
+      width: calc(100% - 30px);
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: space-between;
   }
+  .cb-ejercicio-ladoa{
+    width: 100% ;
+    max-width: 300px;
+  }
+  .cb-ejercicio-ladob{
+    width: 100% ;
+    max-width: 300px;
+  }
+  .cb-ejercicio-caja{
+    height: 50px;
+    border-radius: 5px;
+  }
+  
   .cb-outline-p72{
     outline: solid 4px var(--tshinhan);
     outline-offset: -5px;
@@ -64,38 +72,10 @@
     padding-top: 5px;
     border-color:var(--dark);
   }
-  .cb-interior-caja-p58{
-    background-color: white;
-    margin: -12px -12px 20px -12px;
-    border-radius: 1px 1px 0px 0px;
-    padding: 5px 10px;
-  }
-.cb-block {
-    border: 1px solid #ffffff;
-    border-radius: 10px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.cb-contenido-cajas {
-    position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 630px;
-    width: calc(100% - 30px);
-    flex-wrap: nowrap;
-  }
-  .cb-outline{
-    outline: solid 4px #f0e0c9;
-    outline-offset: -5px;
-}
+
 
 .line-dotted {
     border: 1px dashed #dedede;
-}
-
-
-.rounded-caja {
-    border-radius: 20px 20px 0px 0px;
 }
 
 .linea {
