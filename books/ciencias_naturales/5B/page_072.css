@@ -62,7 +62,48 @@
     height: 50px;
     border-radius: 5px;
   }
-  
+.cb-fondo-1{
+  width: 100%;
+  max-width: 150px;
+  height: 60px;
+  background: url( images/page_072/img_005.svg) top left/ contain no-repeat !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cb-fondo-2{
+  width: 100%;
+  max-width: 150px;
+  height: 60px;
+  background: url( images/page_072/img_004.svg) top left/ contain no-repeat !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cb-texto-cajaa{
+  width: 100%;
+  max-width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height : 15px;
+}
+.cb-texto-cajab{
+  width: 100%;
+  max-width: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height : 15px;
+}
+.cb-estrella-verde{
+  position: absolute;
+  left: -40px;
+  top: -16px;
+  width: 50px;
+}
+.cb-computador-p72{
+  position: absolute;
+  right: -40px;
+  top: -46px;
+  width: 70px;
+}
   .cb-outline-p72{
     outline: solid 4px var(--tshinhan);
     outline-offset: -5px;
@@ -73,115 +114,60 @@
     border-color:var(--dark);
   }
 
-
-.line-dotted {
-    border: 1px dashed #dedede;
-}
-
-.linea {
-    border-bottom: 1px dashed #dedede;
-    padding-top: 5px;
-    border-color:var(--dark);
-}
-
-  .cb-globo-p58{
-    position: absolute;
-    left: -15px;
-    top: -10px;
-    width: 50px;
-  }
-  .cb-interior-caja{
-    background-color: white;
-    margin: -8px -8px 20px -8px;
-    border-radius: 8px 8px 0px 0px;
-    padding: 5px 10px;
-  }
-
-.cb-alto{
-  height: 340px;
-}
-.cb-caja-principal{
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 650px;
-  background-color: #f0e0c9;
-  padding-top: 20px;
-  padding-bottom: 1px;
-  border-radius: 18px 18px 18px 18px;
-}
-.cb-cuatro-p58{
-  max-width: 300px;
-}
-.cb-personaje-p58{
-  position: absolute;
-  margin-right: auto;
-  margin-left: auto;
-    bottom: 64px;
-    max-width: 740px;
-}
-.cb-nota-p58{
+.cb-tijeras-p72{
   position: absolute;
     right: -55px;
-    bottom: 225px;
+    top: -25px;
+    width: 60px;
+    z-index: 1;
 }
-.cb-flechaa-p58{
+.cb-tarjeta-p72{
   position: absolute;
-    right: -7px;
-    top: -20px;
+  left: -37px;
+  top: 50px;
+    width: 60px;
 }
-.cb-flechac-p58{
+.triangulo-p72 { 
+  position: relative;
+}
+
+.triangulo-p72::before {
   position: absolute;
-    left: -7px;
-    bottom: 13px;
-}
-.cb-flechad-p58{
-  position: absolute;
-    left: 0px;
-    bottom: 5px;
-}
-.cb-flechab-p58{
-  position: absolute;
-    left: 3px;
-    top: -13px;
-}
-.cb-titulonumero{
-  max-width: 660px;
-  margin-left: auto;
-  margin-right: auto;
+  content: '';
+  top: calc(100% - 40px);
+  right: -40px;
+  height: 30px;
+  border-left: 18px solid #e8e468;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
 }
 
+@media all and (max-width: 770px) {
 
-
-
-@media all and (max-width: 670px) {
-
-    .titulo-linea .linea{
-        width: 100%;
-    }
-    .cb-globo-p58{
-      display: none;
-      }
-      .cb-personaje-p58{
-        bottom:84px  
-      }      
-    .cb-nota-p58{
+    .cb-estrella-verde{
     display: none;
     }
-    .cb-flechaa-p58{
+    .cb-computador-p72{
       display: none;
     }
-    .cb-flechab-p58{
+    .cb-tarjeta-p72{
       display: none;
     }
-    .cb-flechac-p58{
-      display: none;
-    }
-    .cb-flechad-p58{
+    .cb-tijeras-p72{
       display: none;
     }
     .cb-titulonumero{
       padding-left: 25px;
     }
-
-      
+  
 }
+@media all and (max-width: 700px) {
+
+  .triangulo-p72::before {
+    right: -18px;
+    border-left: 18px solid #acce8c;
+  }
+
+    
+}
+
