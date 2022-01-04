@@ -1,0 +1,110 @@
+.cb-cabecera{
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
+    background-color: var(--pikachu);
+    height: 80px;
+  }
+
+  .cb-titulonumero-p74{
+    max-width: 660px;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+
+  .cb-caja-contenedora-p74{
+    max-width: 650px;
+    width: calc(100% - 30px);
+    margin-left: auto;
+    margin-right: auto;
+   border-radius: 10px;
+   box-shadow: 2px 3px 6px 3px rgb(0 0 0 / 10%)
+  }
+  .cb-box-a {
+    background-color: white;
+    left: 10px;
+    top: 93px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #7c7c7c;
+    text-align: center;
+  }
+  .cb-seccion-cajas-p74{
+    max-width: 500px;
+    width: calc(100% - 30px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color:var(--dark);
+  }
+  .cb-outline-p74 {
+    outline: solid 4px var(--ganyu);
+    outline-offset: -5px;
+  }
+.cb-estrella-p74{
+  position: absolute;
+  left: -55px;
+  top: 155px;
+    width: 40px;
+}
+.cb-lapiz-p74{
+  position: absolute;
+  right: -25px;
+  top: -105px;
+  width: 40px;
+}
+.cb-jugo-p74{
+  position: absolute;
+  left: -85px;
+  bottom: -55px;
+  width: 60px;
+}
+.cb-fichas-p74{
+  position: absolute;
+  right: -25px;
+  bottom: 25px;
+  width: 60px;
+}
+
+
+.cb-bloqueinferior-p74 {
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: calc(100% - 30px);
+  max-width: 600px;
+  border: 1px solid var(--dark);
+}
+
+.line-dotted {
+  border: 1px dashed #dedede;
+}
+
+.linea {
+  border-bottom: 1px dashed #dedede;
+  padding-top: 5px;
+  border-color:var(--dark);
+}
+
+
+@media all and (max-width: 770px) {
+
+    .cb-jugo-p74{
+    display: none;
+    }
+    .cb-lapiz-p74{
+      display: none;
+    }
+    .cb-fichas-p74{
+      display: none;
+    }
+    .cb-estrella-p74{
+      display: none;
+    }
+  
+}
+
