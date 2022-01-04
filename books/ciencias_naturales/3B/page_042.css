@@ -1,7 +1,7 @@
 .cb-cabecera {
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
   clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
-  background-color: var(--android18);
+  background-color: var(--pidgey);
   height: 80px;
 }
 .cuadrado {
@@ -40,6 +40,9 @@
 .mtp-2 {
     margin-top: 2px;
 }
+.mtp-4 {
+  margin-top: 4px;
+}
 /*margin bottom*/
 .mbp--20 {
     margin-bottom: -20px;
@@ -74,4 +77,19 @@
     .ml-50-r {
         margin-left: 20%;
     }
+  }
+
+  .linea {
+    border-bottom: 2px dotted gray;
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+
+  .espiral {
+  z-index: 20;
+  background-image: url(images/page_042/espiral.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  margin-right: -35px;
   }
