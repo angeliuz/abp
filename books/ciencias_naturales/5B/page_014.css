@@ -1,0 +1,32 @@
+.cb-cabecera {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
+    background-color: var(--bulma);
+    height: 80px;
+  }
+  .centrar-ver {
+      margin-top: auto !important;
+      margin-bottom: auto !important;
+  }
+  .centrar-hor {
+      margin-left: auto !important;
+      margin-right: auto !important;
+  }
+  .caja-blanco{
+    position: relative;
+    text-align: center;
+  }
+  .recuadro-titulo{
+    position: absolute;
+    top: -20px;
+}
+  /*helper*/
+  .mxwp-160 {
+      max-width: 160px;
+  }
+  .mtp--15 {
+      margin-top: -15px;
+  }
+  .wp-250 {
+    width: 250px;
+  }
