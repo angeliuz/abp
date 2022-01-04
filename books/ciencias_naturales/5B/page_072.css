@@ -12,12 +12,13 @@
   }
   .cb-titulonumero-p72{
     max-width: 660px;
-    margin-left: 56px;
-    margin-right: auto;
+    margin-left: 6%;
+    margin-right: 6%;
+
   }
   .cb-bajada-p72{
     max-width: 660px;
-    margin-left: 56px;
+    margin-left: 6%;
     margin-right: auto;
     padding-left: 30px;
   }
