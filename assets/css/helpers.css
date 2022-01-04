@@ -3425,6 +3425,11 @@
   border-top-right-radius: 10px;
 }
 
+.rounded-p-sup-15 {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
 .min-hp-150 {
   min-height: 150px !important;
 }
