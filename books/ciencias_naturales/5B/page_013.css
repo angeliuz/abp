@@ -1,0 +1,106 @@
+.cuadrado-naranja {
+  -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 96% 100%, 8% 100%);
+  background-color: #f29205;
+  height: 87px;
+}
+
+.cabecera {
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
+  background-color: var(--bulma);
+  height: 180px;
+}
+.linea {
+  border-bottom: 1px dashed #dedede;
+  padding-top: 5px;
+  border-color: var(--dark);
+}
+.tf-outlineblanco {
+  outline: solid 2px #f8f7f6;
+  outline-offset: -3px;
+}
+.caja {
+  background-image: url(../5B/images/page_013/img_001.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px 10px 10px 10px;
+}
+.ajuste-hor {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.tf-lechuga {
+  display: flex;
+  position: absolute;
+  left: 30px;
+  bottom: 375px;
+  z-index: 1;
+}
+.tf-mono {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    bottom: 240px;
+    z-index: 1;
+  }
+  .tf-revista {
+    display: flex;
+    position: absolute;
+    right: 44%;
+    bottom: 305px;
+    z-index: 1;
+  }
+/*helpers*/
+.mxwp-100 {
+  max-width: 100px;
+}
+.mxwp-190 {
+  max-width: 190px;
+}
+.mnw-a {
+    max-width: 45%;
+}
+.hp-300-r {
+  height: 300px;
+}
+.mtp--20 {
+  margin-top: -20px;
+}
+.hp-240 {
+    height: 240px;
+}
+@media (max-width: 780px) {
+  .cabecera {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
+    background-color: var(--bulma);
+    height: 260px;
+  }
+}
+@media (max-width: 768px) {
+  .hp-300-r {
+    height: 150px;
+  }
+  .tf-lechuga {
+    display: flex;
+    position: absolute;
+    left: 30px;
+    bottom: 625px;
+    z-index: 1;
+  }
+  .tf-mono {
+      display: flex;
+      position: absolute;
+      right: 10px;
+      bottom: 370px;
+      z-index: 1;
+    }
+  .tf-revista {
+    display: flex;
+    position: absolute;
+    right: 44%;
+    bottom: 550px;
+    z-index: 1;
+  }
+}
