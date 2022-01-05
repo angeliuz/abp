@@ -12,7 +12,7 @@
 }
 
 .caja {
-    background-image: url(images/page_041/caja.svg);
+    background-image: url(images/page_045/caja.svg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 12px;
@@ -91,7 +91,7 @@
   width: 100%;
   max-width: 150px;
   height: 60px;
-  background: url( images/page_043/img_005.svg) top left/ contain no-repeat !important;
+  background: url( images/page_045/img_005.svg) top left/ contain no-repeat !important;
   margin-left: auto;
   margin-right: auto;
 }
@@ -99,7 +99,7 @@
   width: 100%;
   max-width: 150px;
   height: 60px;
-  background: url( images/page_043/img_004.svg) top left/ contain no-repeat !important;
+  background: url( images/page_045/img_004.svg) top left/ contain no-repeat !important;
   margin-left: auto;
   margin-right: auto;
 }
