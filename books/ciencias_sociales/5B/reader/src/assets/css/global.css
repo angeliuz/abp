@@ -65,7 +65,13 @@ body {
   width: 120px;
   margin-top: -16px;
   margin-left: 5px;
-  }
+}
+
+.boton-close{
+  color:white !important
+
+}
+
   @media (max-width: 805px) {
   .rotulo-etapa{
   width: 100px;
