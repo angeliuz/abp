@@ -1,9 +1,9 @@
 import React, {useEffect} from "react";
 import { useState } from "react";
 import Modal from 'react-bootstrap/Modal'
-import Button from 'react-bootstrap/Button'
+import CloseButton from 'react-bootstrap/CloseButton'
 
-import { doc, getDoc, setDoc, updateDoc, onSnapshot } from "firebase/firestore";
+import { doc, getDoc, setDoc } from "firebase/firestore";
 import db from "../firebase/firebaseConfig";
 
 function ModalVideo(props) {
@@ -18,12 +18,20 @@ function ModalVideo(props) {
   const className = props.className;
   const image = props.image;
   const id = props.id;
-  const [content1, setContent1] = useState("");
+  const [linkVideo, setLinkVideo] = useState("");
+  const [tituloVideo, setTituloVideo] = useState("");
+  const [tipoVideo, setTipoVideo] = useState("");
 
+  var tipoIframe = "";
+
+  const [fullscreen, setFullscreen] = useState(true);
   const [show, setShow] = useState(false);
 
+  function handleShow(breakpoint) {
+    setFullscreen(breakpoint);
+    setShow(true);
+  }
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
 
   function getUrlParameter(name) {
     name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
@@ -41,26 +49,9 @@ function ModalVideo(props) {
     const obtenerDatos = async () => {
       const docSnap = await getDoc(docRef);
       if(docSnap.exists()){
-        onSnapshot(doc(db, coleccion, documento), (doc) => {
-          const field = doc.data()[id];
-          //console.log("Current data: ", doc.data()[id]);
-          if (field) {
-            setContent1(doc.data()[id]);
-            //console.log("content1: " + content1);
-          } else {
-            console.log("Sin datos: "+id);
-          }
-        });
-
-          if (docSnap.data()[id] !== undefined) {
-            setContent1(docSnap.data()[id]);
-          } else {
-            setContent1("");
-            await updateDoc(docRef, {
-              [id]: content1,
-            });
-            console.log("undefined: "+id);
-          }
+        setLinkVideo(docSnap.data()[id][0]);
+        setTituloVideo(docSnap.data()[id][1]);
+        setTipoVideo(docSnap.data()[id][2]);
       }else{
         await setDoc(doc(db, coleccion, documento),{[id]:""});
       }
@@ -68,6 +59,14 @@ function ModalVideo(props) {
         // console.log("change: " + content1);
     };
     obtenerDatos();
+  }
+
+  function tipoDeVideo(){
+    if (tipoVideo == "vimeo") {
+      return <iframe title={id} src={linkVideo} width="100%" height="100%" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe> ;
+    } else {
+      return <iframe width="100%" height="100%" src={linkVideo} title={id} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>;
+    }
   }
 
 
@@ -81,22 +80,17 @@ function ModalVideo(props) {
         show={show} 
         onHide={handleClose} 
         size="lg"
-        aria-labelledby="contained-modal-title-vcenter">
-        <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter">Modal heading</Modal.Title>
+        fullscreen={fullscreen}
+        aria-labelledby="contained-modal-title-vcenter"
+        >
+        <Modal.Header style={{backgroundColor: "#000000", opacity: .9, color: "white"}} className="color-white boton-close-white">
+          <Modal.Title id="contained-modal-title-vcenter" className="f-Ubuntu-M fsp-20 color-white">{tituloVideo}</Modal.Title>
+          <CloseButton variant="white" onClick={handleClose} />
         </Modal.Header>
-        <Modal.Body>
-        <iframe title={id} src={content1} width="100%" height="480" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
-        
+        <Modal.Body style={{backgroundColor: "#000000", opacity: .9}}>
+          {tipoDeVideo()}
+          {/* <iframe title={id} src={linkVideo} width="100%" height="100%" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe> */}
         </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
-        </Modal.Footer>
       </Modal>
     </>
   );

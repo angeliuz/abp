@@ -4,7 +4,7 @@ import "./page_007.css";
 
 function Page007() {
 
-  const pagina = "008";
+  const pagina = "007";
   var indexInput = 0;
 
   return (
@@ -52,6 +52,7 @@ function Page007() {
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-goten">1</div>
                 <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Veo el video, leo la carta y destaco las ideas principales.</div>
                 <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_002.jpg" className="p-0 px-1" />
+                <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" />
                 <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" />
                 {/* <img src="images/page_007/img_002.jpg" className="cambio hp-40 text-center mtp-10 psp-10 pep-40" alt="" /> */}
               </div>
