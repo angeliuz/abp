@@ -1,0 +1,74 @@
+.cb-cabecera {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
+    background-color: var(--bulma);
+    height: 80px;
+    z-index: 1;
+    position: relative;
+  }
+  .centrar-ver {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+  .centrar-hor {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .caja-blanco {
+    position: absolute;
+    text-align: center;
+  }
+  .recuadro-titulo {
+    position: absolute;
+    margin-bottom: -40px;
+  }
+  .wp-400 {
+    width: 400px;
+}
+.mtp--20 {
+    margin-top: -20px;
+}
+.mtp-a {
+    margin-top: 30px;
+}
+
+.zi1 {
+    z-index: 1;
+}
+.po-absolute {
+    position: absolute;
+}
+.grado90 {
+    transform: rotate(90deg);
+}
+@media all and (min-width: 768px) {
+    .hid-responsive {
+      visibility: visible;
+    }
+    .vis-responsive {
+      visibility: hidden;
+      position: none;
+      display: none;
+    }
+    .anillo {
+        margin-left: 72px;
+        margin-right: -45px;
+        margin-top: 10px;
+    }
+}
+@media all and (max-width: 768px) {
+    .hid-responsive {
+      visibility: hidden;
+      position: none;
+      display: none;
+    }
+    .vis-responsive {
+      visibility: visible;
+    }
+    .anillo {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: -5px;
+        margin-bottom: -25px;
+    }
+}
