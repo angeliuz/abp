@@ -1,0 +1,140 @@
+.cb-page10 {
+    background: url(images/page_010/fondo_007.svg) top left/ cover no-repeat !important;
+     -webkit-print-color-adjust: exact !important;
+ 
+ }
+ .cb-inicio{
+    height: 250px; 
+    margin-bottom: 60px;
+ }
+ .cb-datos-1{
+    width: 100%;
+    background-color: white;
+    max-width: 630PX;
+    }
+.cb-datos-a{
+    width: 100%;
+    max-width: 70px;
+}
+.cb-m-auto{
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.cb-carta-content {
+    position: relative;
+    z-index: 3;
+    background: white;
+    padding: 30px 40px;
+    font-size: 16px;
+    border-radius: 0px 0px 10px 10px;
+}
+.cb-contenedor-mail{
+    position: relative;
+    width: calc(100% - 100px);
+    max-width: 700px;
+    margin: 20px auto 30px;
+    background-color: var(--ganyu);
+    border-radius: 10px;
+    box-shadow: -2px 3px 13px 4px rgb(0 0 0 / 20%);
+    border-top: 15px solid var(--qiqi)
+    }
+
+.cb-block-uno {
+    max-width: 160px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: calc(100% - 30px);
+}
+
+.line-dotted {
+    border: 1px dashed #dedede;
+}
+
+.cb-block-arriba {
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
+}
+
+.cb-block-bottom-p10 {
+    max-width: 630px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
+}
+
+.rounded-caja {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color:var(--dark);
+}
+
+  .cb-lapiz-p10{
+    position: absolute;
+    right: -73px;
+    bottom: 13px;
+    width: 110px;
+  }
+  
+.cb-personaje-p10{
+    position: absolute;
+    right: -96px;
+    bottom: -93px;
+}
+
+.cb-titulo-aceptamos {
+    max-width: 500px;
+    border-top: 1px solid var(--goten);
+    border-bottom: 1px solid var(--goten);
+}
+.cb-margen{
+    padding-left: 6%;
+    padding-right: 6%;
+
+}
+
+@media all and (max-width: 820px) {
+    .cb-page10 {
+        background: url(images/page_010/fondo_005.svg) top left/ cover no-repeat !important;
+     }
+
+
+    .cb-personaje{
+        top: 0px;;
+    }
+ 
+
+}
+
+@media all and (max-width: 680px) {
+    .cb-page10 {
+        background: url(images/page_010/fondo_005.svg) top left/ cover no-repeat !important;
+     }
+
+
+    .titulo-linea .linea{
+        width: 100%;
+    }
+    .cb-personaje-p10{
+        display: none;
+    }
+    .cb-lapiz-p10{
+        display: none;
+    }
+    .cb-block-inicial {
+        margin-bottom: 30px;
+    }
+    .cb-flecha{
+        padding-bottom: 13px;
+    }
+
+}
