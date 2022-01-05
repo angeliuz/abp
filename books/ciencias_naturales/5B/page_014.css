@@ -1,32 +1,131 @@
 .cb-cabecera {
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
-    clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
-    background-color: var(--bulma);
-    height: 80px;
-  }
-  .centrar-ver {
-      margin-top: auto !important;
-      margin-bottom: auto !important;
-  }
-  .centrar-hor {
-      margin-left: auto !important;
-      margin-right: auto !important;
-  }
-  .caja-blanco{
-    position: relative;
-    text-align: center;
-  }
-  .recuadro-titulo{
-    position: absolute;
-    top: -20px;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
+  background-color: var(--bulma);
+  height: 80px;
 }
-  /*helper*/
-  .mxwp-160 {
-      max-width: 160px;
+.centrar-ver {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+.centrar-hor {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.caja-blanco {
+  position: relative;
+  text-align: center;
+}
+.recuadro-titulo {
+  position: absolute;
+  top: -20px;
+}
+/*helper*/
+.mxwp-160 {
+  max-width: 160px;
+}
+.mxwp-100 {
+  max-width: 100px;
+}
+.mtp--15 {
+  margin-top: -15px;
+}
+.wp-250 {
+  width: 250px;
+}
+.mnw-100 {
+  min-width: 100%;
+}
+.mbp--20 {
+  margin-bottom: -20px;
+}
+.mbp--a {
+  margin-bottom: -25px;
+}
+.tf-frutilla {
+  display: flex;
+  position: absolute;
+  right: 40px;
+  top: 130px;
+  z-index: 1;
+}
+.tf-regla {
+  max-width: 100%;
+}
+
+@media all and (min-width: 768px) {
+  .tf-tomate {
+    display: flex;
+    position: absolute;
+    left: 60px;
+    top: 390px;
+    z-index: 1;
   }
-  .mtp--15 {
-      margin-top: -15px;
+  .tf-zanahoria {
+    display: flex;
+    position: absolute;
+    right: 60px;
+    top: 460px;
+    z-index: 1;
   }
-  .wp-250 {
-    width: 250px;
+  .tf-palta {
+    display: flex;
+    position: absolute;
+    left: 60px;
+    bottom: 350px;
+    z-index: 1;
   }
+  .tf-botella {
+    display: flex;
+    position: absolute;
+    right: 60px;
+    bottom: 350px;
+    z-index: 1;
+  }
+  .tf-revista {
+    display: flex;
+    position: absolute;
+    left: 445px;
+    bottom: 230px;
+    z-index: 1;
+  }
+}
+@media all and (max-width: 768px) {
+
+  .tf-tomate {
+    display: flex;
+    position: absolute;
+    left: 80px;
+    top: 620px;
+    z-index: 1;
+  } 
+  .tf-zanahoria {
+    display: flex;
+    position: absolute;
+    right: 60px;
+    top: 1000px;
+    z-index: 1;
+  }
+  .tf-palta {
+    display: flex;
+    position: absolute;
+    left: 60px;
+    bottom: 980px;
+    z-index: 1;
+  }
+  .tf-botella {
+    display: flex;
+    position: absolute;
+    right: 60px;
+    bottom: 350px;
+    z-index: 1;
+  }
+  .tf-revista {
+    display: flex;
+    position: absolute;
+    left: 445px;
+    bottom: 230px;
+    z-index: 1;
+  }
+
+}

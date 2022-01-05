@@ -1,0 +1,79 @@
+.cb-cabecera{
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
+    background-color: var(--goten);
+    height: 80px;
+  }
+
+  .cb-ejercicio-1-p08{
+    width: 100%;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--goro);
+    box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.2);
+  }
+  .cb-box-a {
+    background-color: white;
+    left: 10px;
+    top: 93px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #7c7c7c;
+    text-align: center;
+  }
+  .cb-notas-p08{
+    position: absolute;
+    left: 60px;
+    top: -60px;
+
+  }
+ .cb-padding{
+  padding-left: 6%; 
+  padding-right: 6%
+ }
+
+
+.line-dotted {
+    border: 1px dashed #dedede;
+}
+
+.cb-block-bottom-p08 {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
+}
+
+.rounded-caja {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color:var(--dark);
+}
+
+.cb-personajeacostado-p08{
+    position: absolute;
+    right: 55px;
+    top: -86px;
+    transform: rotate(1grad);
+  }
+  .cb-flecha{
+    padding-bottom: -2px;
+}
+
+@media all and (max-width: 800px) {
+
+    .titulo-linea .linea{
+        width: 100%;
+    }
+
+      .cb-flecha{
+        padding-bottom: 13px;
+    }
+
+      
+}

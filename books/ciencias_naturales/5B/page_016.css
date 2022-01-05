@@ -1,0 +1,90 @@
+.cb-cabecera {
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
+  background-color: var(--bulma);
+  height: 80px;
+  z-index: 1;
+  position: relative;
+}
+.linea {
+  border-bottom: 1px dashed #dedede;
+  padding-top: 5px;
+  border-color: var(--dark);
+}
+.mlp--a {
+  margin-left: -100px;
+  margin-right: auto;
+}
+.pos-relative {
+  position: relative !important;
+}
+.pos-absolute {
+  position: absolute !important;
+}
+.centrar-hor {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.tf-contenido {
+  position: absolute;
+  z-index: 2;
+}
+.tf-hoja {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+}
+.centrar-hor {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.hp-530 {
+  height: 530px;
+}
+.tf-semaforo {
+  margin-left: -30px;
+  margin-top: -20px;
+}
+.w-68 {
+  width: 68%;
+}
+@media all and (min-width: 840px) {
+  .mtp-ajuste {
+    margin-top: 0px;
+  }
+  .mxw-38 {
+    max-width: 38%;
+  }
+  .w-40-r {
+    width: 40%;
+  }
+  .tf-mono {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    bottom: 480px;
+    z-index: 2;
+  }
+}
+@media all and (max-width: 840px) {
+  .mtp-ajuste {
+    margin-top: 530px;
+  }
+  .centrados {
+    margin-left: 20%;
+    margin-right: auto;
+  }
+  .mxw-38 {
+    max-width: 340px;
+  }
+  .w-40-r {
+    width: 350px;
+  }
+  .tf-mono {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    top: 600px;
+    z-index: 2;
+  }
+}
