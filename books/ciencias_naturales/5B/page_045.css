@@ -1,0 +1,140 @@
+.cabecera {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 93%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 93%);
+    background-color: var(--pidgey);
+    height: 180px;
+}
+
+.caja-flotante {
+    /* background-color: aqua; */
+    max-width: 820px;
+    width: 100%;
+}
+
+.caja {
+    background-image: url(images/page_041/caja.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 12px;
+    width: 158px;
+    height: 56px;
+    text-align: center;
+}
+
+@media (max-width: 760px) {
+  .cabecera {
+    height: 215px;
+  }
+  .centrar {
+    justify-content: center;
+  }
+  .cambio {
+    padding-top: 3px;
+  }
+}
+
+@media (max-width: 591px) {
+  .cabecera {
+    height: 235px;
+  }
+}
+
+@media (max-width: 575px) {
+  .rotar {
+    transform: rotate(90deg);
+    margin: 10px;
+    width: 20px;
+  }
+  .cabecera {
+    height: 340px;
+  }
+  .rotar-flecha {
+    transform: rotate(90deg);
+    padding-top: 20px;
+  }
+  .separa {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .cabecera {
+    height: 370px;
+  }
+}
+
+.linea {
+  border-bottom: 2px dotted gray;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.linea_central{
+  outline: solid 4px var(--tshinhan);
+  outline-offset: -5px;
+}
+
+.ejercicio{
+  max-width: 650px;
+  width: calc(100% - 30px);
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+.ejercicio-lado{
+  width: 100% ;
+  max-width: 300px;
+}
+
+.fondo-1{
+  width: 100%;
+  max-width: 150px;
+  height: 60px;
+  background: url( images/page_043/img_005.svg) top left/ contain no-repeat !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fondo-2{
+  width: 100%;
+  max-width: 150px;
+  height: 60px;
+  background: url( images/page_043/img_004.svg) top left/ contain no-repeat !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.texto-caja{
+  width: 100%;
+  max-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height : 15px;
+}
+
+.caja-ejercicio{
+  height: 50px;
+  border-radius: 5px;
+}
+
+.triangulo { 
+  position: relative;
+}
+
+.triangulo::before {
+  position: absolute;
+  content: '';
+  top: calc(100% - 40px);
+  right: -40px;
+  height: 30px;
+  border-left: 18px solid #FFE3AB;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+
+@media all and (max-width: 700px) {
+  .triangulo::before {
+    right: -18px;
+    border-left: 18px solid #E5ECBC;
+  }
+}
