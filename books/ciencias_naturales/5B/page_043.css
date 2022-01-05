@@ -1,6 +1,6 @@
 .cabecera {
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
-    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 93%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 93%);
     background-color: var(--pidgey);
     height: 200px;
 }
