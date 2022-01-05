@@ -58,6 +58,13 @@
   .w-40-r {
     width: 40%;
   }
+  .tf-mono {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    bottom: 480px;
+    z-index: 2;
+  }
 }
 @media all and (max-width: 840px) {
   .mtp-ajuste {
@@ -72,5 +79,12 @@
   }
   .w-40-r {
     width: 350px;
+  }
+  .tf-mono {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    top: 600px;
+    z-index: 2;
   }
 }
