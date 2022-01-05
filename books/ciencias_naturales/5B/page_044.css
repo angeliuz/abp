@@ -32,3 +32,13 @@
   padding-top: 15px;
   padding-bottom: 10px;
 }
+
+.tarjeta {
+  background-image: url(images/page_044/tarjeta.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 230px;
+  height: 38px;
+  margin-left: calc(50% - 115px);
+  margin-bottom: -2px;
+}
