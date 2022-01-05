@@ -1,40 +1,105 @@
-  .cabecera {
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
-    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
-    background-color: var(--bulma);
-    height: 220px;
-  }
-  .tf-outlineblanco {
-    outline: solid 2px #f8f7f6;
-    outline-offset: -3px;
-  }
-  .caja {
-    background-image: url(../5B/images/page_013/img_001.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding: 10px 10px 10px 10px;
-  }
+.cabecera {
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
+  background-color: var(--bulma);
+  height: 220px;
+}
+.tf-outlineblanco {
+  outline: solid 2px #f8f7f6;
+  outline-offset: -3px;
+}
+.caja {
+  background-image: url(../5B/images/page_013/img_001.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px 10px 10px 10px;
+}
 .mtp--50 {
-    margin-top: -50px;
+  margin-top: -50px;
 }
 .linea {
-    border-bottom: 1px dashed #dedede;
-    padding-top: 5px;
-    border-color: var(--dark);
+  border-bottom: 1px dashed #dedede;
+  padding-top: 5px;
+  border-color: var(--dark);
+}
+.centrar-ver {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+.centrar-hor {
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
-  .ul {
-    list-style: none; /* Remove default bullets */
+.mtp-auto {
+  margin-top: auto !important;
+}
+.mbp-auto {
+  margin-bottom: auto !important;
+}
+.mtp-8 {
+  margin-top: 8px;
+}
+.punto {
+  min-width: 8px;
+  min-height: 8px;
+  max-width: 8px;
+  max-height: 8px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: var(--bulma);
+}
+.cuadrado {
+  min-width: 30px;
+  max-width: 30px;
+  min-height: 30px;
+  max-height: 30px;
+}
+.mtp--5 {
+  margin-top: -5px;
+}
+.mlp--5 {
+  margin-left: -5px;
+}
+.mtp--25 {
+  margin-top: -25px;
+}
+.tf-lapiz {
+  display: flex;
+  position: absolute;
+  right: 340px;
+  top: 310px;
+  z-index: 1;
+}
+.tf-mono {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 235px;
+    z-index: 1;
   }
-  
-.lista-bulma {
-    color: red; /* Change the color */
-    font-weight: bold; /* If you want it to be bold */
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
-  }
+.mxwp-300 {
+    max-width: 300px;
+}
+
 @media (max-width: 576px) {
-    .cabecera {
-      height: 500px;
-    }
+  .cabecera {
+    height: 500px;
   }
+}
+@media (max-width: 768px) {
+  .tf-lapiz {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 250px;
+    z-index: 1;
+  }
+  .tf-mono {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 545px;
+    z-index: 1;
+  }
+}
