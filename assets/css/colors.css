@@ -130,7 +130,8 @@
   --jarek:#ECF4D5;
   --kai:#CAECF3;
   --blaze:#5cac3c;
-  --aome:#ffdcb4;
+  --kagome:#ffdcb4;
+  --naraku:#b0dcec;
 }
 
 /* COLORES */
@@ -783,8 +784,11 @@
 .color-blaze {
   color: var(--blaze);
 }
-.color-aome {
-  color: var(--aome);
+.color-kagome {
+  color: var(--kagome);
+}
+.color-naraku {
+  color: var(--naraku);
 }
   
   
@@ -1215,9 +1219,13 @@
 .border-color-blaze {
   border-color: var(--blaze) !important;
 }
-.border-color-aome {
-  border-color: var(--aome) !important;
+.border-color-kagome {
+  border-color: var(--kagome) !important;
 }
+.border-color-naraku {
+  border-color: var(--naraku) !important;
+}
+/* B
 /* BACKGROUND COLORS */
 .bgc-goku {
   background-color: var(--goku);
@@ -1643,6 +1651,9 @@
 .bgc-blaze {
   background-color: var(--blaze);
 }
-.bgc-aome {
+.bgc-kagome {
   background-color: var(--aome);
+}
+.bgc-naraku {
+  background-color: var(--naraku);
 }
