@@ -63,33 +63,44 @@ body {
 
 .rotulo-etapa{
   width: 120px;
-  margin-top: -16px;
+  margin-top: -14px;
   margin-left: 5px;
 }
 
 .boton-close{
   color:white !important
+}
 
+.video-bgc{
+  background-color:#000000c7 !important;
+}
+
+.modal-header{
+  border-bottom: 1px solid transparent !important;
+}
+
+.marcador-etapa{
+  z-index:9;
 }
 
   @media (max-width: 805px) {
   .rotulo-etapa{
   width: 100px;
-  margin-top: -14px;
+  margin-top: -12px;
   margin-left: 5px;
   }
   }
   @media (max-width: 695px) {
   .rotulo-etapa{
   width: 90px;
-  margin-top: -12px;
+  margin-top: -10px;
   margin-left: 5px;
   }
   }
   @media (max-width: 575px) {
   .rotulo-etapa{
   width: 120px;
-  margin-top: -16px;
+  margin-top: -14px;
   margin-left: 5px;
   }
   }

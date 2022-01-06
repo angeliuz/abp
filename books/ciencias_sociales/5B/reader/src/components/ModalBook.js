@@ -41,33 +41,33 @@ function ModalVideo(props) {
   };
 
 
-  useEffect(() => {
-    getData();
-  });
+  // useEffect(() => {
+  //   getData();
+  // });
 
-  const getData = () => {
-    const obtenerDatos = async () => {
-      const docSnap = await getDoc(docRef);
-      if(docSnap.exists()){
-        setLinkVideo(docSnap.data()[id][0]);
-        setTituloVideo(docSnap.data()[id][1]);
-        setTipoVideo(docSnap.data()[id][2]);
-      }else{
-        await setDoc(doc(db, coleccion, documento),{[id]:""});
-      }
-        // console.log("useEffect: " + docSnap.data()[id]);
-        // console.log("change: " + content1);
-    };
-    obtenerDatos();
-  }
+  // const getData = () => {
+  //   const obtenerDatos = async () => {
+  //     const docSnap = await getDoc(docRef);
+  //     if(docSnap.exists()){
+  //       setLinkVideo(docSnap.data()[id][0]);
+  //       setTituloVideo(docSnap.data()[id][1]);
+  //       setTipoVideo(docSnap.data()[id][2]);
+  //     }else{
+  //       await setDoc(doc(db, coleccion, documento),{[id]:""});
+  //     }
+  //       // console.log("useEffect: " + docSnap.data()[id]);
+  //       // console.log("change: " + content1);
+  //   };
+  //   obtenerDatos();
+  // }
 
-  function tipoDeVideo(){
-    if (tipoVideo == "vimeo") {
-      return <iframe width="80%" height="80%" title={id} src={linkVideo} frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe> ;
-    } else {
-      return <iframe width="80%" height="80%" title={id} src={linkVideo} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>;
-    }
-  }
+  // function tipoDeVideo(){
+  //   if (tipoVideo == "vimeo") {
+  //     return <iframe width="80%" height="80%" title={id} src={linkVideo} frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe> ;
+  //   } else {
+  //     return <iframe width="80%" height="80%" title={id} src={linkVideo} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>;
+  //   }
+  // }
 
 
   return (
@@ -84,11 +84,11 @@ function ModalVideo(props) {
         aria-labelledby="contained-modal-title-vcenter"
         >
         <Modal.Header className="color-white boton-close-white video-bgc">
-          <Modal.Title id="contained-modal-title-vcenter" className="f-Ubuntu-M fsp-20 color-white">{tituloVideo}</Modal.Title>
+          <Modal.Title id="contained-modal-title-vcenter" className="f-Ubuntu-M fsp-20 color-white">Pagina</Modal.Title>
           <CloseButton variant="white" onClick={handleClose} />
         </Modal.Header>
         <Modal.Body className="d-flex justify-content-center align-items-center video-bgc">
-          {tipoDeVideo()}
+          Book
           {/* <iframe title={id} src={linkVideo} width="100%" height="100%" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe> */}
         </Modal.Body>
       </Modal>

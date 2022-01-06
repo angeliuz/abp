@@ -15,6 +15,7 @@ import Page011 from "./pages/page011";
 import Page012 from "./pages/page012";
 import Page013 from "./pages/page013";
 import Page014 from "./pages/page014";
+import Page015 from "./pages/page015";
 
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
       <Page012 />
       <Page013 />
       <Page014 />
+      <Page015 />
     </div>
   );
 }

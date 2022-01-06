@@ -38,10 +38,6 @@
   margin-top: -15px;
 }
 
-.mtp-5{
-  margin-top: 5px;
-}
-
 .ptp--15{
   padding-top: -15px;
 }
@@ -140,12 +136,23 @@
   left: -20px;
 }
 
+
+.seccion-semaforo{
+  z-index: 1;
+  margin-left: 70px;
+}
+
 @media (max-width: 760px) {
   .contenedor-flecha-14{
     transform: rotate(90deg);
     top: -40px;
     left: calc(50vw - 60px);
   }
+  .seccion-semaforo{
+    z-index: 1;
+    margin-left: 40px;
+  }
+
   .rotar {
     transform: rotate(90deg);
     margin: 10px;
