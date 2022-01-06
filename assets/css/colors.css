@@ -123,6 +123,8 @@
   --ermac:#f0f6df;
   --shaokhan:#FFF9EC;
   --sektor:#0071a1;
+  --kintaro:#e8e4f4;
+  --jade:#b0acd4;
 }
 
 /* COLORES */
@@ -754,7 +756,12 @@
 .color-sektor {
   color: var(--sektor);
 }
-
+.color-kintaro {
+  color: var(--kintaro);
+}
+.color-jade {
+  color: var(--jade);
+}
 
 
 
@@ -1158,7 +1165,14 @@
   border-color: var(--sektor) !important;
 
 }
+.border-color-kintaro {
+  border-color: var(--kintaro) !important;
 
+}
+.border-color-jade {
+  border-color: var(--jade) !important;
+
+}
 /* BACKGROUND COLORS */
 .bgc-goku {
   background-color: var(--goku);
@@ -1556,5 +1570,13 @@
 }
 .bgc-sektor {
   background-color: var(--sektor);
+
+}
+.bgc-kintaro {
+  background-color: var(--kintaro);
+
+}
+.bgc-jade {
+  background-color: var(--jade);
 
 }
