@@ -746,6 +746,9 @@
 .color-ermac {
   color: var(--ermac);
 }
+.color-shaokhan {
+  color: var(--shaokhan);
+}
 
 
 
@@ -1141,7 +1144,10 @@
 .border-color-ermac {
   border-color: var(--ermac) !important;
 }
+.border-color-shaokhan {
+  border-color: var(--shaokhan) !important;
 
+}
 
 
 /* BACKGROUND COLORS */
@@ -1534,4 +1540,8 @@
 }
 .bgc-ermac {
   background-color: var(--ermac);
+}
+.bgc-shaokhan {
+  background-color: var(--shaokhan);
+
 }
