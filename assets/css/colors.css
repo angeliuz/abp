@@ -750,7 +750,6 @@
 
 
 
-
 /* BORDERS */
 .border-color-goku {
   border-color: var(--goku) !important;
@@ -1142,6 +1141,7 @@
 .border-color-ermac {
   border-color: var(--ermac) !important;
 }
+
 
 
 /* BACKGROUND COLORS */
