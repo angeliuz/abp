@@ -120,6 +120,7 @@
   --hutao: #fef7ea;
   --cyrax: #b0dedb;
   --smoke:#ebf1f9;
+  --ermac:#f0f6df;
 }
 
 /* COLORES */
@@ -742,6 +743,10 @@
 .color-smoke {
   color: var(--smoke);
 }
+.color-ermac {
+  color: var(--ermac);
+}
+
 
 
 
@@ -1134,6 +1139,9 @@
 .border-color-smoke {
   border-color: var(--smoke) !important;
 }
+.border-color-ermac {
+  border-color: var(--ermac) !important;
+}
 
 
 /* BACKGROUND COLORS */
@@ -1523,4 +1531,7 @@
 }
 .bgc-smoke {
   background-color: var(--smoke);
+}
+.bgc-ermac {
+  background-color: var(--ermac);
 }
