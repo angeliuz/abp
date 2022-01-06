@@ -131,11 +131,12 @@
   box-shadow: 1px 1px 8px 3px rgb(0 0 0 / 20%);
 }
 
-.cb-lupa{
+.cb-texto-nube{
   position: absolute;
-    right: -18px;
-    top: -2px;
-    transform: rotate(5deg);
+  right: -18px;
+  top: -32px;
+  transform: rotate(5deg);
+  width: 70px;
 }
 .cb-lapiz{
   position: absolute;
@@ -143,11 +144,21 @@
     bottom: 30px;
     transform: rotate(-4deg);
 }
-.cb-tablero{
+.cb-sujetador-1{
   position: absolute;
-    right: -45px;
-    bottom: 130px;
+  left: 305px;
+  top: -11px;
+  z-index: 1;
+  width: 60px;
 }
+.cb-sujetador-2{
+  position: absolute;
+  right: -32px;
+  top: -11px;
+  z-index: 1;
+  width: 60px;
+}
+
   .cb-contenedor-dos {
     position: relative;
     margin-right: auto;
@@ -155,11 +166,8 @@
     max-width: 650px;
     width: 100%;
     display: flex;
+}
 
-}
-.cb-h{
-  height: 150px;
-}
 .cb-caja1{
   position: absolute;
   top:20px;
@@ -168,9 +176,9 @@
   border-radius: 5px;
 }
 
-.cb-caja2{
+.cb-caja2-p57{
   position: absolute;
-  bottom: -0px;
+  bottom: -10px;
   right: -19px;
   width: 103%;
   border-radius: 5px;
