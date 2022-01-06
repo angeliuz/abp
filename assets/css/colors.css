@@ -121,6 +121,8 @@
   --cyrax: #b0dedb;
   --smoke:#ebf1f9;
   --ermac:#f0f6df;
+  --shaokhan:#FFF9EC;
+  --sektor:#0071a1;
 }
 
 /* COLORES */
@@ -749,6 +751,10 @@
 .color-shaokhan {
   color: var(--shaokhan);
 }
+.color-sektor {
+  color: var(--sektor);
+}
+
 
 
 
@@ -1148,7 +1154,10 @@
   border-color: var(--shaokhan) !important;
 
 }
+.border-color-sektor {
+  border-color: var(--sektor) !important;
 
+}
 
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1543,5 +1552,9 @@
 }
 .bgc-shaokhan {
   background-color: var(--shaokhan);
+
+}
+.bgc-sektor {
+  background-color: var(--sektor);
 
 }
