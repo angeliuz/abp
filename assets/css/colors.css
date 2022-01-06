@@ -126,6 +126,8 @@
   --kintaro:#e8e4f4;
   --jade:#b0acd4;
   --tanya:#f0ecf4;
+  --kazuha:#fce3dd;
+  --sayu: #fde4cb;
 }
 
 /* COLORES */
@@ -766,6 +768,16 @@
 .color-tanya {
   color: var(--tanya);
 }
+.color-kazuha{
+  color: var(--kazuha);
+}
+.color-sayu {
+  color: var(--sayu);
+}
+
+
+
+
 
 
 
@@ -1181,6 +1193,12 @@
   border-color: var(--tanya) !important;
 
 }
+.border-color-kazuha{
+  border-color: var(--kazuha) !important;
+}
+.border-color-sayu{
+  border-color: var(--sayu) !important;
+}
 /* BACKGROUND COLORS */
 .bgc-goku {
   background-color: var(--goku);
@@ -1590,5 +1608,12 @@
 }
 .bgc-tanya {
   background-color: var(--tanya);
+
+}
+.bgc-kazuha {
+  background-color: var(--kazuha);
+}
+.bgc-sayu {
+  background-color: var(--sayu);
 
 }
