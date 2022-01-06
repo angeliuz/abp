@@ -125,6 +125,7 @@
   --sektor:#0071a1;
   --kintaro:#e8e4f4;
   --jade:#b0acd4;
+  --tanya:#f0ecf4;
 }
 
 /* COLORES */
@@ -762,6 +763,9 @@
 .color-jade {
   color: var(--jade);
 }
+.color-tanya {
+  color: var(--tanya);
+}
 
 
 
@@ -1173,6 +1177,10 @@
   border-color: var(--jade) !important;
 
 }
+.border-color-tanya {
+  border-color: var(--tanya) !important;
+
+}
 /* BACKGROUND COLORS */
 .bgc-goku {
   background-color: var(--goku);
@@ -1578,5 +1586,9 @@
 }
 .bgc-jade {
   background-color: var(--jade);
+
+}
+.bgc-tanya {
+  background-color: var(--tanya);
 
 }
