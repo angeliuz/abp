@@ -129,6 +129,7 @@
   --hotaru:#FFE9CD;
   --jarek:#ECF4D5;
   --kai:#CAECF3;
+  --blaze:#5cac3c;
 }
 
 /* COLORES */
@@ -778,6 +779,10 @@
   .color-kai {
   color: var(--kai);
 }
+.color-blaze {
+  color: var(--blaze);
+}
+  
   
   
 
@@ -1203,6 +1208,10 @@
   .border-color-kai {
   border-color: var(--kai) !important;
 }
+.border-color-blaze {
+  border-color: var(--blaze) !important;
+}
+
 /* BACKGROUND COLORS */
 .bgc-goku {
   background-color: var(--goku);
@@ -1623,4 +1632,8 @@
   
 .bgc-kai {
   background-color: var(--kai);
+}
+
+.bgc-blaze {
+  background-color: var(--blaze);
 }
