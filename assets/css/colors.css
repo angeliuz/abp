@@ -128,6 +128,10 @@
   --tanya:#f0ecf4;
   --kazuha:#fce3dd;
   --sayu: #fde4cb;
+  --hotaru:#FFE9CD;
+  --jarek:#ECF4D5;
+  --kai:#CAECF3;
+
 }
 
 /* COLORES */
@@ -774,6 +778,15 @@
 .color-sayu {
   color: var(--sayu);
 }
+.color-hotaru {
+  color: var(--hotaru);
+}
+.color-jarek {
+  color: var(--jarek);
+}
+.color-kai {
+  color: var(--kai);
+}
 
 
 
@@ -1199,6 +1212,25 @@
 .border-color-sayu{
   border-color: var(--sayu) !important;
 }
+.border-color-hotaru {
+  border-color: var(--hotaru) !important;
+}
+.border-color-jarek {
+  border-color: var(--jarek) !important;
+}
+.border-color-kai {
+  border-color: var(--kai) !important;
+}
+
+
+
+
+
+
+
+
+
+
 /* BACKGROUND COLORS */
 .bgc-goku {
   background-color: var(--goku);
@@ -1616,4 +1648,16 @@
 .bgc-sayu {
   background-color: var(--sayu);
 
+}
+
+.bgc-hotaru {
+  background-color: var(--hotaru);
+}
+
+.bgc-jarek {
+  background-color: var(--jarek);
+}
+
+.bgc-kai {
+  background-color: var(--kai);
 }
