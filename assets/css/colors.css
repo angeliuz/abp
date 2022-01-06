@@ -120,6 +120,7 @@
   --hutao: #fef7ea;
   --cyrax: #b0dedb;
   --smoke:#ebf1f9;
+  --shaokhan:#FFF9EC;
 }
 
 /* COLORES */
@@ -742,7 +743,9 @@
 .color-smoke {
   color: var(--smoke);
 }
-
+.color-shaokhan {
+  color: var(--shaokhan);
+}
 
 
 
@@ -1134,6 +1137,9 @@
 .border-color-smoke {
   border-color: var(--smoke) !important;
 }
+.border-color-shaokhan {
+  border-color: var(--shaokhan) !important;
+}
 
 
 /* BACKGROUND COLORS */
@@ -1523,4 +1529,7 @@
 }
 .bgc-smoke {
   background-color: var(--smoke);
+}
+.bgc-shaokhan {
+  background-color: var(--shaokhan);
 }
