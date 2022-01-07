@@ -14,7 +14,7 @@ function Page014() {
     <div className="wrapper bgc-light">
             <div className="d-flex flex-column align-items-center pbp-20">
               <div className="page bgc-white overflow-hidden position-relative" id="page_014">
-            <div className="cabecera">
+            <div className="cabecera-14">
 
             </div>
 

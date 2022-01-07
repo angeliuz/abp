@@ -53,7 +53,7 @@ body {
 }
 
 .contenedor-linea{
-  background: url(../../pages/images/page_008/linea.svg);
+  background: url(../../pages/images/generales/linea.svg);
   background-size: 4px 35px;
   background-repeat: repeat;
   background-position: top;
@@ -83,26 +83,60 @@ body {
   z-index:9;
 }
 
+.cabecera-v2{
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.contenedor-cabecera-v2{
+  flex-direction: row;
+  align-items: center;
+}
+
+.arrow-global{
+  transform: rotate(0deg);
+  margin-bottom: 0;
+  margin-top: 0;
+  z-index: 2000;
+}
+
+.cabecera-caja-blanca {
+  background: url(../../pages/images/cabecera/caja_blanca.svg) no-repeat;
+  background-size: contain;
+}
+
   @media (max-width: 805px) {
-  .rotulo-etapa{
-  width: 100px;
-  margin-top: -12px;
-  margin-left: 5px;
-  }
+    .rotulo-etapa{
+    width: 100px;
+    margin-top: -12px;
+    margin-left: 5px;
+    }
+
   }
   @media (max-width: 695px) {
-  .rotulo-etapa{
-  width: 90px;
-  margin-top: -10px;
-  margin-left: 5px;
-  }
+    .rotulo-etapa{
+      width: 90px;
+      margin-top: -10px;
+      margin-left: 5px;
+    }
+    .contenedor-cabecera-v2{
+      flex-direction: column;
+      align-items: center;
+    }
+    .arrow-global{
+      transform: rotate(90deg);
+      margin-bottom: 20px;
+      margin-top: 10px;
+    }
   }
   @media (max-width: 575px) {
-  .rotulo-etapa{
-  width: 120px;
-  margin-top: -14px;
-  margin-left: 5px;
-  }
+    .rotulo-etapa{
+      width: 120px;
+      margin-top: -14px;
+      margin-left: 5px;
+    }
   }
 
 

@@ -12,125 +12,208 @@ function Page015() {
 
     <div className="wrapper bgc-light">
             <div className="d-flex flex-column align-items-center pbp-20">
-              <div className="page bgc-white overflow-hidden position-relative" id="page_07">
-                <div className="cabecera-13">
-                  <div className="row ptp-20 px-4 m-0 centrar">
-                    <div className="col-md-3 col-sm-3 p-0 m-0 color-garou f-IntroRustG-Base d-flex justify-content-center">
-                      <div className="caja wp-150 text-center fsp-24 ">SESIÓN 2</div>
-                    </div>
-                    <div className="col-md-9 col-sm-9 p-0 m-0 fsp-24 f-Ubuntu-M color-white cambio">
-                      <div className="section-name w-100 h-100 d-flex align-items-center fw-700">¿Qué sé y qué necesito saber?</div>
-                    </div>
+              <div className="page bgc-white overflow-hidden position-relative" id="page_015">
+              {/* BEGIN CABECERA VERSIÓN 2 */}
+              <div className="cabecera-v2 bgc-bulma d-flex flex-column">
+                <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
+                  <div className="caja wp-150 text-center fsp-24 f-IntroRustG-Base">SESIÓN 3</div>
+                  <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡Este es nuestro plan!</div>
+                </div>
+                <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
+                  <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+                    Mis objetivos en <br /> esta sesión son:
                   </div>
-                  <div className="row f-colby-compres-medium fsp-17 lh-sm text-white text-center psp-60 pep-60 justify-content-center hp-60">
-                    <div className="col p-0 align-self-center">
-                      Mis objetivos en
-                      <br /> esta sesión son:
+                  <div className="p-0 align-self-center">
+                    <img src="images/page_007/img_001.svg" className="wp-40 arrow-global" alt="" />
+                  </div>
+                  <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+                  Planificar el orden de las<br/> secciones de la revista.
+                  </div>
+                  <div className="p-0 align-self-center">
+                    <img src="images/page_007/img_003.svg" className="wp-40 arrow-global" alt="" />
+                  </div>
+                  <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+                  Asignar roles para el<br/> trabajo en equipo.
+                  </div>
+                  <div className="p-0 align-self-center">
+                    <img src="images/page_007/img_001.svg" className="wp-40 arrow-global mbp-50" alt="" />
+                  </div>
+                  <div className="p-3 position-relative align-self-center f-colby-compres-bold fsp-17 lh-sm text-center color-dark">                        
+                    <div className="position-absolute top-0 start-0 w-100 h-100">
+                      <img src="images/cabecera/caja_blanca.png" width="100%" height="100%" alt=""/>
                     </div>
-                    <div className="col-sm-auto p-0 align-self-end">
-                      <img src="images/page_007/img_001.svg" className="wp-40 rotar" alt="" />
-                    </div>
-                    <div className="col p-0 align-self-center">
-                    Compartir lo que sé sobre
-                      <br /> los derechos y los deberes<br/> que estos generan.
-                    </div>
-                    <div className="col-sm-auto p-0 align-self-start">
-                      <img src="images/page_007/img_003.svg" className="wp-40 rotar" alt="" />
-                    </div>
-                    <div className="col p-0 align-self-center">
-                    Compartir lo que sé <br/> acerca de las revistas.
-                    </div>
-                    <div className="col-sm-auto p-0 align-self-end">
-                      <img src="images/page_007/img_001.svg" className="wp-40 rotar" alt="" />
-                    </div>
-                    <div className="col p-0 align-self-center">
-                    Reflexionar sobre lo que sé <br/> y lo que necesitamos saber <br/> para el proyecto.
+                    <div className="position-relative">
+                      Elaborar nuestro <br />plan de trabajo.
                     </div>
                   </div>
                 </div>
-
+              </div>
+              {/* END CABECERA VERSIÓN 2 */}
+            
                 <div className="ptp-10 psp-0">
                     <div className="d-flex">
-                        <img className="hp-20 align-center mt-3 me-2 ps-4 mb-2" src="images/page_013/img_002.svg" alt=""  />
+                        <img className="hp-20 align-center mt-3 me-2 psp-50 mb-2" src="images/page_015/img_002.svg" alt=""  />
                         <div className="f-ccdigitaldelivery-bold fsp-35 color-bulma">1</div>
                         <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Ejemplifico cómo se reflejan en mi entorno los siguientes principios.</div>
-                        <img src="images/page_013/img_003.png" className="tf-lapiz cambio hp-80 text-end mtp-0 psp-10 pep-40"  alt=""  />
+                        <img src="images/page_015/img_001.png" className="tf-lapiz cambio hp-80 text-end mtp-0 psp-10 pep-40"  alt=""  />
 
                     </div>
                 </div>
-                <div className="d-flex justify-content-center max-img mtp--65 psp-90 pep-70">
-                    <div className="p-0 w-100">
-                        <div className="p-3 f-Ubuntu-L mtp-20 border-color-lightDark border-style-solid border-2 rounded-p-10 text-start">
-                            <span>Las personas tenemos derechos.
-                                <div className="w-100 d-flex justify-content-start align-content-center text-left f-Ubuntu-L fsp-14 fw-500 color-dark">
-                                    <div className="w-100 pbp-10">
-                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-                                    </div>
-                                  </div>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-12 d-flex justify-content-center max-img mtp-10 psp-90 pep-70">
-                    <div className="p-0 w-100">
-                        <div className="tf-hojaamarilla-content">
-                            <img src="images/page_013/img_001.png" className="tf-hojaamarilla hojaamarilla_rotate cambio hp-70 text-end mtp-0 psp-10 pep-40"  alt=""  />
-                        </div>
-                        <div className="p-3 f-Ubuntu-L border-style-solid border-2 rounded-p-10 border-color-lightDark text-start">
-                            <span>Los derechos generan deberes en las personas.
-                                <div className="w-100 d-flex justify-content-start align-content-center text-left f-Ubuntu-L fsp-14 fw-300 color-dark">
-                                    <div className="w-100 pbp-10">
-                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-                                    </div>
-                                  </div>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-12 d-flex justify-content-center max-img mtp-10 psp-90 pep-70">
-                    <div className="p-0 w-100">
-                        <div className="p-3 f-Ubuntu-L border-style-solid border-2 rounded-p-10 border-color-lightDark text-start">
-                            <span>Los derechos generan deberes en el Estado.
-                                <div className="w-100 d-flex justify-content-start align-content-center text-left f-Ubuntu-L fsp-14 fw-500 color-dark">
-                                    <div className="w-100 pbp-10">
-                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-                                    </div>
-                                  </div>
-                            </span>
-                        </div>
-                    </div>
-                </div>
 
-
-
-                <div className="col-12 d-flex justify-content-center max-img mtp-10 psp-90 pep-70 pbp-80 ">
-
-                    <div className="tf-hojaamarilla-content">
-                        <img src="images/page_013/img_005.png" className="tf-cantante cambio text-start mtp-0 psp-10 pep-40"  alt="" />
-                    </div>
-
-                    <div className="row d-flex p-2 min-h-100 rounded-p-10 border-color-draco bgc-draco">
-                      <div className="color-dark f-Ubuntu-L ptp-10 text-start">Comparto las respuestas con mi grupo y completo:</div>
-                        <div className="col-lg-6 col-md-6 col-sm-12 pt-2">
-                            <div className="d-flex flex-column f-Ubuntu-L bgc-white psp-20 ptp-10 pbp-15 pep-20 rounded-p-10  text-center espacioblanco"> 
-                             <span>¿Qué principio ejemplificamos
-                                de mejor manera?</span>
-                                <div className="w-100 pbp-10">
-                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-2 fsp-12 text-center flex-grow-1  lhp-25 min-hp-95" />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-sm-12 pt-2">
-                            
-                            <div className="d-flex flex-column  f-Ubuntu-L bgc-white psp-20 ptp-10 pbp-15 pep-20 rounded-p-10  text-center espacioblanco"> 
-                             <span>¿Qué principio nos costó ejemplificar o generó más dudas?</span>
-                                <div className="w-100 pbp-10">
-                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-2 fsp-12 text-center flex-grow-1  lhp-25 min-hp-95" />
-                                </div>
-                            </div>
-                        </div>
+                <div className="d-flex flex-column mx-5 fsp-14 f-Ubuntu-R">
+                  <div className="d-flex contenedor-cajas-15 justify-content-center ptp-40 psp-30 pep-30">
+                    <div className="d-flex align-items-center justify-content-center caja-inicial position-relative justify-content-center rounded-p-10">
+                    Índice
+                      <div className="zindex-1 wp-200 position-absolute anillo-15-1">
+                        <img src="images/page_015/img_005.svg" className="wp-50" alt="" />
                       </div>
                     </div>
+                    <div className="d-flex align-items-center justify-content-center  caja-medio rounded-p-10">
+                    Lista ordenada con la ubicación de los contenidos.
+                    </div>
+                    <div className="d-flex align-items-center justify-content-center caja-final rounded-p-10">
+                    Una página.
+                      <div className="zindex-1 wp-200 position-absolute anillo-15-2">
+                        <img src="images/page_015/img_005.svg" className="wp-50" alt="" />
+                      </div>
+                    </div>
+                  </div>
+   
+                </div>
+                <div className="d-flex flex-column mx-5 fsp-14 f-Ubuntu-R">
+                  <div className="d-flex contenedor-cajas-15 justify-content-center ptp-20 psp-30 pep-30">
+                    <div className="d-flex align-items-center justify-content-center caja-inicial position-relative justify-content-center rounded-p-10">
+                    Noticia
+                      <div className="zindex-1 wp-200 position-absolute anillo-15-1">
+                        <img src="images/page_015/img_005.svg" className="wp-50" alt="" />
+                      </div>
+                    </div>
+                    <div className="d-flex align-items-center justify-content-center  caja-medio rounded-p-10">
+                    Relato que informa sobre una situación actual, verídica y de interés para la comunidad. Debe ser clara y precisa.
+                    </div>
+                    <div className="d-flex align-items-center justify-content-center caja-final rounded-p-10">
+                    Una página con dos noticias.
+                      <div className="zindex-1 wp-200 position-absolute anillo-15-2">
+                        <img src="images/page_015/img_005.svg" className="wp-50" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="d-flex flex-column mx-5 fsp-14 f-Ubuntu-R">
+                  <div className="d-flex contenedor-cajas-15 justify-content-center ptp-20 psp-30 pep-30">
+                    <div className="d-flex align-items-center justify-content-center caja-inicial position-relative justify-content-center rounded-p-10">
+                    Portada
+                      <div className="zindex-1 wp-200 position-absolute anillo-15-1">
+                        <img src="images/page_015/img_005.svg" className="wp-50" alt="" />
+                      </div>
+                    </div>
+                    <div className="d-flex align-items-center justify-content-center  caja-medio rounded-p-10">
+                    Presenta el nombre de la revista, los principales contenidos e imágenes representativas.
+                    </div>
+                    <div className="d-flex align-items-center justify-content-center caja-final rounded-p-10">
+                    Una página.
+                      <div className="zindex-1 wp-200 position-absolute anillo-15-2">
+                        <img src="images/page_015/img_005.svg" className="wp-50" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="d-flex flex-column mx-5 fsp-14 f-Ubuntu-R">
+                  <div className="d-flex contenedor-cajas-15 justify-content-center ptp-20 psp-30 pep-30">
+                    <div className="d-flex align-items-center justify-content-center caja-inicial position-relative justify-content-center rounded-p-10">
+                    Entrevista
+                      <div className="zindex-1 wp-200 position-absolute anillo-15-1">
+                        <img src="images/page_015/img_005.svg" className="wp-50" alt="" />
+                      </div>
+                    </div>
+                    <div className="d-flex align-items-center justify-content-center  caja-medio rounded-p-10">
+                    Diálogo estructurado entre una persona entrevistada y otra entrevistadora. Esta última orienta la conversación mediante preguntas.
+                    </div>
+                    <div className="d-flex align-items-center justify-content-center caja-final rounded-p-10">
+                    Dos entrevistas de dos páginas cada una.
+                      <div className="zindex-1 wp-200 position-absolute anillo-15-2">
+                        <img src="images/page_015/img_005.svg" className="wp-50" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="d-flex flex-column mx-5 fsp-14 f-Ubuntu-R">
+                  <div className="d-flex contenedor-cajas-15 justify-content-center ptp-20 psp-30 pep-30">
+                    <div className="d-flex align-items-center justify-content-center caja-inicial position-relative justify-content-center rounded-p-10">
+                    Créditos
+                      <div className="zindex-1 wp-200 position-absolute anillo-15-1">
+                        <img src="images/page_015/img_005.svg" className="wp-50" alt="" />
+                      </div>
+                    </div>
+                    <div className="d-flex align-items-center justify-content-center  caja-medio rounded-p-10">
+                    Información del equipo que participó en la elaboración de la revista.
+                    </div>
+                    <div className="d-flex align-items-center justify-content-center caja-final rounded-p-10">
+                    Una página.
+                      <div className="zindex-1 wp-200 position-absolute anillo-15-2">
+                        <img src="images/page_015/img_005.svg" className="wp-50" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="d-flex flex-column mx-5 fsp-14 f-Ubuntu-R">
+                  <div className="d-flex contenedor-cajas-15 justify-content-center ptp-20 psp-30 pep-30">
+                    <div className="d-flex align-items-center justify-content-center caja-inicial position-relative justify-content-center rounded-p-10">
+                    Afiche
+                      <div className="zindex-1 wp-200 position-absolute anillo-15-1">
+                        <img src="images/page_015/img_005.svg" className="wp-50" alt="" />
+                      </div>
+                    </div>
+                    <div className="d-flex align-items-center justify-content-center  caja-medio rounded-p-10">
+                    Texto con el cual se difunde una información o se promueve un producto o un servicio. Se compone de elementos escritos y visuales.
+                    </div>
+                    <div className="d-flex align-items-center justify-content-center caja-final rounded-p-10">
+                    Una página.
+                      <div className="zindex-1 wp-200 position-absolute anillo-15-2">
+                        <img src="images/page_015/img_005.svg" className="wp-50" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="d-flex flex-column mx-5 fsp-14 f-Ubuntu-R">
+                  <div className="d-flex contenedor-cajas-15 justify-content-center ptp-20 psp-30 pep-30">
+                    <div className="d-flex align-items-center justify-content-center caja-inicial position-relative justify-content-center rounded-p-10">
+                    Editorial
+                      <div className="zindex-1 wp-200 position-absolute anillo-15-1">
+                        <img src="images/page_015/img_005.svg" className="wp-50" alt="" />
+                      </div>
+                    </div>
+                    <div className="d-flex align-items-center justify-content-center  caja-medio rounded-p-10">
+                    Texto que plantea la postura del equipo que dirige la revista sobre un tema tratado en ella.
+                    </div>
+                    <div className="d-flex align-items-center justify-content-center caja-final rounded-p-10">
+                    Una página.
+                      <div className="zindex-1 wp-200 position-absolute anillo-15-2">
+                        <img src="images/page_015/img_005.svg" className="wp-50" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="d-flex flex-column mx-5 fsp-14 f-Ubuntu-R mbp-70">
+                  <div className="d-flex contenedor-cajas-15 justify-content-center ptp-20 psp-30 pep-30">
+                    <div className="d-flex align-items-center justify-content-center caja-inicial position-relative justify-content-center rounded-p-10">
+                    Reportaje
+                      <div className="zindex-1 wp-200 position-absolute anillo-15-1">
+                        <img src="images/page_015/img_005.svg" className="wp-50" alt="" />
+                      </div>
+                    </div>
+                    <div className="d-flex align-items-center justify-content-center  caja-medio rounded-p-10">
+                    Explica una situación de interés para la comunidad. Es más extenso que una noticia y entrega más detalles y antecedentes.
+                    </div>
+                    <div className="d-flex align-items-center justify-content-center caja-final rounded-p-10">
+                    Un reportaje de una página.
+                      <div className="zindex-1 wp-200 position-absolute anillo-15-2">
+                        <img src="images/page_015/img_005.svg" className="wp-50" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
 
                 
                 {/* PIE DE PAGINA */}
@@ -138,7 +221,7 @@ function Page015() {
                   <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
                     ABP &copy; SM
                   </div>
-                  <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">13</div>
+                  <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">15</div>
                 </div>
                 <div className="row position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{bottom:0}}>
 
@@ -182,4 +265,4 @@ function Page015() {
   );
 }
 
-export default Page013;
+export default Page015;
