@@ -108,7 +108,7 @@ function Page017() {
                   <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
                     ABP &copy; SM
                   </div>
-                  <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">16</div>
+                  <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">17</div>
               </div>
                 <div className="row position-absolute caja-flotante2 p-0 m-0 align-items-end marcador-etapa" style={{bottom:0}}>
 
