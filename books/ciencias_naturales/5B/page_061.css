@@ -38,9 +38,14 @@
  
 
 
-  .img-estrella{
-    top: 32px;
-    left: -56px !important;
+  .img-nota{
+    bottom: 267px;
+    left: -72px !important;
+
+  }
+  .img-ampolletas{
+    top: -34px;
+    right: -35px !important;
 
   }
   
@@ -60,7 +65,9 @@
   }
   
 
-
+.respeta-ancho{
+  width: 135px !important;
+}
 
 
 .wp-250 {
