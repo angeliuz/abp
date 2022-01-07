@@ -1,19 +1,11 @@
 .cabecera {
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
     clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
-    background-color: var(--android18);
+    background-color: var(--saitama);
     height: 90px;
 }
 
-.caja {
-    background-image: url(images/page_021/caja.svg);
-    background-size: cover;
-    padding-top: 12px;
-    width: 158px;
-    height: 56px;
-    text-align: center;
-    
-}
+
 
 .container-row {
     margin-left: 20px;
@@ -22,7 +14,7 @@
 }
 
 .cajota {
-    height: 800px;
+    height: 750px;
     margin-left:10px;
     margin-right:10px;
 
@@ -31,8 +23,15 @@
 }
 
 .dibujo {
-    top: 906px;
-    left: 110px;
+    bottom: -41px;
+    right: -64px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+.lapices {
+    top: 240px;
+    right: -29px;
     transform: translate(-50%, -50%);
     text-align: center;
 
