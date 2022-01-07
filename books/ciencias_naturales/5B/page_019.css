@@ -1,0 +1,29 @@
+.cb-page19 {
+    background: url(images/page_019/fondo_001.svg) top center/cover no-repeat;
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-print-color-adjust: exact !important;
+  }
+  .dot {
+    height: 8px;
+    width: 8px;
+    background-color: var(--bulma);
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .cuadrado {
+    width: 25px;
+    height: 25px;
+  }
+  .centrar-ver {
+      margin-top: auto !important;
+      margin-bottom: auto !important;
+  }
+  .centrar-hor {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.mtp--a {
+    margin-top: -10px;
+    margin-bottom: auto !important;
+}

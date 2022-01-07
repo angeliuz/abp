@@ -1,0 +1,34 @@
+.cb-cabecera {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
+    background-color: var(--bulma);
+    height: 80px;
+    z-index: 1;
+    position: relative;
+  }
+.centrar-ver {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+.centrar-hor {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color: var(--dark);
+  }
+.mep--7 {
+    margin-right: -7px;
+    margin-left: auto;
+}
+.msp--5 {
+    margin-left: -17px;
+}
+.mbp--40 {
+    margin-bottom: -40px;
+}
+.mtp--20 {
+    margin-top: -20px;
+}
