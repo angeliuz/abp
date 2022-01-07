@@ -1,0 +1,269 @@
+ 
+
+.cabecera{
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
+  background-color: var(--saitama);
+  height: 195px;
+}
+
+
+
+.rect-sesion{
+  background-color: #ffcc00;
+  border: 4px solid white;
+  padding: 5px 8px 0px 8px;
+  box-shadow: 2px 2px 1px 0px #9f9f9f;
+}
+
+.cuadro-selec {
+  background-color: #C3E3F5;
+  display: block;
+  width: 200px;
+  padding: .5rem;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right .45rem center;
+  background-size: 16px 12px;
+  border: 0px solid #ced4da;
+  border-radius: .3rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.linea {
+  border-bottom: 1px dashed #dedede;
+  padding-top: 5px;
+  border-color:var(--dark);
+}
+
+
+.img-estrella{
+  top: 10px;
+  left: 20px !important;
+  margin-left: 30px;
+  padding-left: 30px;
+}
+
+
+ 
+
+.rota-vertical {
+  transform: scaleY(-1);
+  -moz-transform: scaleY(-1); /* Firefox */
+  -webkit-transform: scaleY(-1); /* Chrome - Safari */
+  -o-transform: scaleY(-1); /* Opera */
+}
+
+.rounded-caja {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.caja {
+  background-image: url(../5B/images/page_007/img_000.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px 10px 10px 10px;
+}
+ 
+
+.wp-250 {
+  width: 250px;
+}
+.wp-500 {
+  width: 500px;
+}
+.wp-700 {
+  width: 700px;
+}
+.hp-400 {
+  height: 400px;
+}
+
+.cuaderno-espiral{
+  position: absolute;
+  top:-12px;
+  background-image: url("images/page_057/espiral_verdesvg");
+  background-repeat: repeat-x;
+}
+
+
+
+ 
+.cb-paper::before {
+  z-index: 2;
+  transform: rotate(-2deg);
+}
+
+.cb-paper::after {
+  z-index: 1;
+  transform: rotate(2deg);
+}
+
+.cb-lapiz{
+  position: absolute;
+    right: -15px;
+    top: -10px;
+    transform: rotate(14deg);
+}
+.cb-carta{
+  position: absolute;
+    left: -35px;
+    bottom: 10px;
+}
+.linea {
+  border-bottom: 1px dashed #dedede;
+  padding-top: 5px;
+  border-color:var(--dark);
+}
+.cb-interior-caja{
+  background-color: white;
+  margin: -8px -8px 20px -8px;
+  border-radius: 8px 8px 0px 0px;
+  padding: 5px 10px;
+}
+ 
+ 
+.cb-caja-inferior{
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cb-titulonumero{
+  max-width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-frutilla{
+  top:20px;
+  left:-30px;
+}
+.img-platano{
+  top:88%;
+  left:20%;
+}
+.img-pera{
+  top:-9%;
+  left:94%;
+}
+.img-bolsa{
+  bottom:-5%;
+  left:92%;
+}
+
+
+
+
+
+@media (max-width: 990px) {
+  .flecha-rotar{
+    transform: rotate(90deg);
+  
+  }
+
+  .flecha-ancho{
+    height: 25px !important;
+  }
+  
+  .page{
+
+    min-height: 1250px;
+  }
+
+}
+
+
+
+
+
+@media (max-width: 820px) {
+  .cabecera {
+    height: 220px;
+  }
+  .centrar {
+    justify-content: center;
+  }
+  .cambio {
+    color: var(--white);
+    padding-top: 3px;
+  }
+  .cb-titulonumero{
+    padding-left: 25px;
+  }
+  .cb-caja-inferior{
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .rotar-flecha {
+    transform: rotate(90deg);
+    padding-top: 20px;
+  }
+}
+
+
+@media (max-width: 680px) {
+  .cabecera {
+    height: 270px;
+  }
+  .page{
+    min-height: 1300px;
+  }
+  .img-bolsa{
+    bottom:-5%;
+    left:88%;
+  }
+}
+
+
+
+@media (max-width: 629px) {
+  .cabecera {
+    height: 320px;
+  }
+}
+@media (max-width: 600px) {
+  .cabecera {
+    height: 300px;
+  }
+}
+
+@media (max-width: 575px) {
+  .rotar {
+    transform: rotate(90deg);
+    margin: 10px;
+    width: 20px;
+  }
+  .cabecera {
+    height: 350px;
+  }
+
+  .page{
+    min-height: 1450px;
+  }
+
+}
+@media (max-width: 540px) {
+ 
+  .cabecera {
+    height: 360px;
+  }
+
+ 
+
+}
+
+@media (max-width: 470px) {
+  .cabecera {
+    height: 420px;
+  }
+
+}
+@media (max-width: 400px) {
+  .cabecera {
+    height: 550px;
+  }
+
+}

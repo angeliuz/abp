@@ -1,0 +1,128 @@
+.cb-cabecera{
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
+    background-color: var(--pikachu);
+    height: 80px;
+  }
+  .cb-pad{
+    padding-left: 6%;
+    padding-right: 6%
+  }
+
+.line-dotted {
+    border: 1px dashed #dedede;
+}
+
+.cb-block-p58 {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
+}
+.cb-block2-p58 {
+  max-width: 200px;
+  width: calc(100% - 30px);
+  align-items: start;
+  justify-content: start;
+  display: flex;
+   position: absolute;
+}
+
+.rounded-caja {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color:var(--lightDark);
+}
+
+.cb-personaje-p58{
+    position: absolute;
+    right: 55px;
+    top: -106px;
+    transform: rotate(1grad);
+    width: 190px;
+  }
+  .cb-engranajes-p58{
+    position: absolute;
+    left: 55px;
+    top: -55px;
+    width: 90px;
+  }
+
+.cb-contenedor-tabla{
+  max-width: 690px;
+  margin-right: auto;
+  margin-left: auto;
+  width: calc(100% - 60px);
+}
+.padding-hor {
+  padding-right: 2.5rem !important;
+  padding-left: 2.5rem !important;
+}
+.cb-radius{
+  border-radius: 5px 5px 5px 5px;
+}
+.cuadrado {
+  width: 30px;
+  height: 30px;
+}
+.espacio-casilla {
+  width: 120px;
+  height: 0px;
+}
+.ajuste-centro {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.mnw-50 {
+  min-width: 50%;
+}
+.msp--40 {
+  margin-left: -40px;
+}
+.mtp--20 {
+  margin-top: -20px;
+}
+.mtp-30 {
+  margin-top: 30px;
+}
+.mnh-200 {
+  min-height: 200px;
+}
+.mtp-5 {
+  margin-top: 5px;
+}
+.mnw-120 {
+  min-width: 120px;
+}
+
+@media all and (max-width: 760px) { 
+  .cb-responsive{
+    margin-bottom: 15px;
+  }
+}
+@media all and (min-width: 768px) {
+  .hid-responsive {
+    visibility: visible;
+  }
+  .vis-responsive {
+    visibility: hidden;
+    position: relative;
+    display: none;
+  }
+
+}
+
+@media all and (max-width: 768px) {
+  .hid-responsive {
+    visibility: hidden;
+    position: relative;
+  }
+  .vis-responsive {
+    visibility: visible;
+  }
+
+}
