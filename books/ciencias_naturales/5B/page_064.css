@@ -17,9 +17,16 @@
     height: 750px;
     margin-left:10px;
     margin-right:10px;
+}
 
 
-
+.espiral1{
+  top:-36px;
+  left: 5%;
+}
+.espiral2{
+  top:-36px;
+  left: 95%;
 }
 
 .dibujo {
