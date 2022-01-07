@@ -1,0 +1,92 @@
+.cabecera {
+    -webkit-clip-path: polygon(100% 100%, 0% 0%, 0% 0%, 8% 0%);
+    clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
+    background-color: var(--android18);
+    height: 90px;
+}
+
+
+.container-row {
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.caja-borde {
+    height: 300px;
+    border: double;
+    border-color: #f39200;
+    border-width: 6px;
+    border-radius: 20px;
+}
+
+.cb-seccion-2 {
+    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.dibujo {
+    position: absolute;
+    left: 54px;
+    top: -135px;
+}
+
+.crucigrama {
+    max-width: 680px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+   
+}
+.palta {
+    position: absolute;
+    left: 309px;
+    top: 253px;
+}
+
+.lapiz {
+    position: absolute;
+    left: -7px;
+    top: 25px;
+}
+.botella {
+    position: absolute;
+    left: -28px;
+    top: 109px;
+}
+
+
+.linea {
+    border-bottom: 2px dotted gray;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+@media (max-width: 848px) {
+    .palta{
+        display: none;
+    }
+}
+    
+@media (max-width: 767px) {
+    .rotar {
+      transform: rotate(90deg);
+      margin-left: calc(55% - 25px);
+      margin-top: -50px;
+      margin-bottom: 40px; 
+      
+    }
+    .separa {
+      padding-bottom: 15px;
+    }
+    .espaciado {
+     
+      margin-top: -30px;
+      margin-bottom: -110px;
+      
+    }
+}
