@@ -13,15 +13,7 @@
   }
 
 
-.caja {
-    background-image: url(images/page_047/caja.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 12px;
-    width: 158px;
-    height: 56px;
-    text-align: center;
-}
+
 .texto {
   max-width:400px;
   position: relative;
@@ -61,9 +53,9 @@
   margin-top: -15px;
 }
 
-.mtp-5{
+/* .mtp-5{
   margin-top: 5px;
-}
+} */
 
 .ptp--15{
   padding-top: -15px;
