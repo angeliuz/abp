@@ -132,6 +132,7 @@
   --blaze:#5cac3c;
   --kagome:#ffdcb4;
   --naraku:#b0dcec;
+  --sango:#f6f4ec;
 }
 
 /* COLORES */
@@ -790,7 +791,9 @@
 .color-naraku {
   color: var(--naraku);
 }
-  
+.color-sango {
+  color: var(--sango);
+}
   
   
 
@@ -1225,6 +1228,10 @@
 .border-color-naraku {
   border-color: var(--naraku) !important;
 }
+.border-color-sango {
+  border-color: var(--sango) !important;
+}
+
 /* B
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1656,4 +1663,7 @@
 }
 .bgc-naraku {
   background-color: var(--naraku);
+}
+.bgc-sango {
+  background-color: var(--sango);
 }
