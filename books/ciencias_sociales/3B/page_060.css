@@ -1,0 +1,169 @@
+.cb-page60{
+    background: url(images/page_060/fondo_001.svg) top left/ cover no-repeat !important;
+     -webkit-print-color-adjust: exact !important;
+ }
+ .cb-ejercicioinicial-p60{
+  max-width: 650px;
+  width: calc(100% - 30px);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #88cadc;
+}
+.cb-ejercicioinicial-caja-p60{
+  width: 100%;
+  background-color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+ .cb-ejerciciofinal-p60{
+  max-width: 650px;
+  width: calc(100% - 30px);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px 5px 5px 5px;
+}
+.cb-ejerciciofinal-cajas{
+  width: calc(100% / 2);
+  background-color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.cb-rotate-01{
+  transform: rotate(-1deg);
+  z-index: 1;
+}
+.cb-rotate-02{
+  transform: rotate(1deg);
+}
+.cb-caja-inicial{
+  left: calc(50% - 120px);
+  width: 100%;
+  max-width: 240px;
+  z-index: 11;
+  top: -10px;
+ background-color: #e0e6e7;
+ height: 40px;
+ border: 1px solid var(--dark);
+ border-radius: 10px;
+}
+.cb-bloque-1-p60 {
+  left: 8%;
+  width: 100%;
+  max-width: 70px;
+  z-index: 1;
+  top: 20px;
+ background-color: var(--white);
+ height: 40px;
+ border: 1px solid var(--dark);
+ border-radius: 10px;
+}
+.cb-bloque-1-p60::after{
+  content: "";
+  position: absolute;
+  width: 88px;
+  height: 2px;
+  bottom: 30px;
+  transform: rotate(-10deg);
+  background-color: var(--dark);
+  left: 68px;
+}
+.cb-bloque-2-p60 {
+  right: 8%;
+  width: 100%;
+  max-width: 70px;
+  z-index: 1;
+  top: 20px;
+ background-color: var(--white);
+ height: 40px;
+ border: 1px solid var(--dark);
+ border-radius: 10px;
+}
+.cb-bloque-2-p60::after{
+  content: "";
+  position: absolute;
+  width: 88px;
+  height: 2px;
+  bottom: 30px;
+  transform: rotate(10deg);
+  background-color: var(--dark);
+  right: 68px;
+}
+
+.cb-objeto-p60{
+  position: absolute;
+  left: 131px;
+  top: -23px;
+  width: 40px;
+}
+
+.cb-outline-p60{
+  outline: solid 1px #ffffff;
+  outline-offset: 2px;
+}
+.linea {
+  border-bottom: 1px dashed #dedede;
+  padding-top: 5px;
+  border-color:var(--dark);
+}
+
+.line-dotted {
+    border: 1px dashed #dedede;
+}
+
+  .cb-personaje-p60{
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: -414px;
+    width: 100%;
+    max-width: 700px;
+  }
+
+  
+@media all and (max-width: 829px) {
+  .cb-page60{
+     background: url(images/page_060/fondo_000.svg) top left/ cover no-repeat !important;
+     }
+     .cb-block-verde{
+      left: 12%;
+    }
+    .cb-block-naranja{
+      left: 12%;
+    }
+
+}
+
+
+
+@media all and (max-width: 720px) {
+  .cb-block-titulo{
+    padding-left: 18px;
+        }
+  .cb-personaje{
+   width: 140%;
+   bottom: -380px;
+              }
+            
+  }
+
+  @media all and (max-width: 450px) {
+
+    .cb-personaje{
+     width: 155%;
+     bottom: -380px;
+                }
+              
+    }
+  

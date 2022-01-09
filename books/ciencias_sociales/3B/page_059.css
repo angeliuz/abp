@@ -1,0 +1,221 @@
+.cb-page59 {
+    background: url(images/page_059/fondo_001.svg) top left/ cover no-repeat !important;
+     -webkit-print-color-adjust: exact !important;
+ }
+
+.line-dotted {
+    border: 1px dashed #dedede;
+}
+
+.cb-block-arriba-p59 {
+    max-width: 590px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
+}
+
+.cb-block-inicial-p59 {
+    max-width: 650px;
+    background-color: white;
+    border: 1px solid var(--pikachu);
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    position: relative;
+    width: calc(100% - 30px);
+}
+
+.rounded-caja {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color:var(--lightDark);
+}
+  .cb-outline-p59{
+    outline: solid 1px #ffffff;
+    outline-offset: 2px;
+  }
+  .linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color:var(--dark);
+  }
+  .cb-interior-caja-p59{
+    background-color: var(--birdie);
+    margin: -16px -16px 20px -16px;
+    border-radius: 6px 6px 0px 0px;
+    padding: 5px 10px;
+  }
+
+  .cb-radio-p59{
+    position: absolute;
+    left: -40px;
+    top: -4px;
+    width: 60px;
+  }
+
+  .cb-calendario-p59{
+    position: absolute;
+    right: -23px;
+    top: -7px;
+    width: 60px;
+  }
+  .cb-engranajes-p59{
+    position: absolute;
+    left: 0px;
+    top: -4px;
+    width: 70px;
+  }
+  .cb-rueda-p59{
+    position: absolute;
+    left: 7px;
+    top: 3px;
+    width: 50px;
+  }
+  
+  .cb-dosier {
+    width: 100%;
+  }
+
+  .cb-block2-p59 {
+    max-width: 200px;
+    width: calc(100% - 30px);
+    align-items: start;
+    justify-content: start;
+    display: flex;
+     position: absolute;
+  }
+  .cb-contenedor-tabla{
+    max-width: 620px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 60px);
+  }
+  .padding-hor {
+    padding-right: 2.5rem !important;
+    padding-left: 2.5rem !important;
+  }
+  .cb-radius{
+    border-radius: 5px 5px 5px 5px;
+  }
+  .cuadrado {
+    width: 30px;
+    height: 30px;
+  }
+  .espacio-casilla {
+    width: 120px;
+    height: 0px;
+  }
+  .ajuste-centro {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .mnw-50 {
+    min-width: 50%;
+  }
+  .msp--40 {
+    margin-left: -40px;
+  }
+  .mtp--20 {
+    margin-top: -20px;
+  }
+  .mtp-30 {
+    margin-top: 30px;
+  }
+  .mnh-200 {
+    min-height: 200px;
+  }
+  .mtp-5 {
+    margin-top: 5px;
+  }
+  .mnw-120 {
+    min-width: 120px;
+  }
+  .cb-ejerciciofinal-p59{
+    max-width: 650px;
+    width: calc(100% - 30px);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .cb-ejerciciofinal-cajas{
+    width: calc(100% / 2);
+    background-color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .cb-block2-p59 {
+    max-width: 240px;
+    width: calc(100% - 30px);
+    align-items: start;
+    justify-content: start;
+    display: flex;
+     position: absolute;
+  }
+  
+
+  @media all and (max-width: 760px) { 
+    .cb-responsive{
+      margin-bottom: 15px;
+    }
+  }
+  @media all and (min-width: 768px) {
+    .hid-responsive {
+      visibility: visible;
+    }
+    .vis-responsive {
+      visibility: hidden;
+      position: relative;
+      display: none;
+    }
+  }
+  
+  @media all and (max-width: 768px) {
+    .hid-responsive {
+      visibility: hidden;
+      position: relative;
+    }
+    .vis-responsive {
+      visibility: visible;
+    } 
+  }
+
+@media all and (max-width: 829px) {
+  .cb-page59{
+     background: url(images/page_059/fondo_000.svg) top left/ cover no-repeat !important;
+     }
+}
+@media all and (max-width:780px) {
+
+  .cb-page59 {
+    background: url(images/page_059/fondo_005.svg) top left/ cover no-repeat !important;
+   }
+
+  .cb-radio-p59{
+      display: none;
+  }
+  .cb-calendario-p59{
+      display: none;
+  }
+  .cb-engranajes-p59{
+      display: none;
+  }
+  .cb-rueda-p59{
+      display: none;
+  }
+
+
+}
+
+  
+

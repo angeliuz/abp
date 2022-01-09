@@ -12,7 +12,7 @@
 }
 
 .caja {
-    background-image: url(images/page_045/caja.svg);
+    background-image: url(images/page_047/caja.svg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 12px;
@@ -21,19 +21,31 @@
     text-align: center;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 838px) {
   .cabecera {
-    height: 215px;
+    height: 200px;
   }
+}
+
+@media (max-width: 768px) {
   .centrar {
     justify-content: center;
   }
   .cambio {
     padding-top: 3px;
   }
+  .oculta {
+    display: none;
+  }
 }
 
-@media (max-width: 591px) {
+@media (max-width: 692px) {
+  .cabecera {
+    height: 215px;
+  }
+}
+
+@media (max-width: 623px) {
   .cabecera {
     height: 235px;
   }
@@ -48,13 +60,6 @@
   .cabecera {
     height: 340px;
   }
-  .rotar-flecha {
-    transform: rotate(90deg);
-    padding-top: 20px;
-  }
-  .separa {
-    padding-top: 10px;
-  }
 }
 
 @media (max-width: 450px) {
@@ -67,74 +72,4 @@
   border-bottom: 2px dotted gray;
   padding-top: 20px;
   padding-bottom: 5px;
-}
-
-.linea_central{
-  outline: solid 4px var(--tshinhan);
-  outline-offset: -5px;
-}
-
-.ejercicio{
-  max-width: 650px;
-  width: calc(100% - 30px);
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: space-between;
-}
-
-.ejercicio-lado{
-  width: 100% ;
-  max-width: 300px;
-}
-
-.fondo-1{
-  width: 100%;
-  max-width: 150px;
-  height: 60px;
-  background: url( images/page_045/img_005.svg) top left/ contain no-repeat !important;
-  margin-left: auto;
-  margin-right: auto;
-}
-.fondo-2{
-  width: 100%;
-  max-width: 150px;
-  height: 60px;
-  background: url( images/page_045/img_004.svg) top left/ contain no-repeat !important;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.texto-caja{
-  width: 100%;
-  max-width: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  line-height : 15px;
-}
-
-.caja-ejercicio{
-  height: 50px;
-  border-radius: 5px;
-}
-
-.triangulo { 
-  position: relative;
-}
-
-.triangulo::before {
-  position: absolute;
-  content: '';
-  top: calc(100% - 40px);
-  right: -40px;
-  height: 30px;
-  border-left: 18px solid #FFE3AB;
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
-}
-
-@media all and (max-width: 700px) {
-  .triangulo::before {
-    right: -18px;
-    border-left: 18px solid #E5ECBC;
-  }
 }

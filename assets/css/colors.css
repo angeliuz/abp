@@ -132,6 +132,10 @@
   --blaze:#5cac3c;
   --kagome:#ffdcb4;
   --naraku:#b0dcec;
+  --sango:#f6f4ec;
+  --mozart:#43B0B8;
+  --bach:#7568A4;
+  --vivaldi:#F197B2;
 }
 
 /* COLORES */
@@ -790,8 +794,18 @@
 .color-naraku {
   color: var(--naraku);
 }
-  
-  
+.color-sango {
+  color: var(--sango);
+}
+.color-mozart {
+  color: var(--mozart);
+}
+.color-bach {
+  color: var(--bach);
+}
+.color-vivaldi {
+  color: var(--vivaldi);
+}  
   
 
 
@@ -1225,6 +1239,18 @@
 .border-color-naraku {
   border-color: var(--naraku) !important;
 }
+.border-color-sango {
+  border-color: var(--sango) !important;
+}
+.border-color-mozart {
+  border-color: var(--mozart) !important;
+}
+.border-color-bach {
+  border-color: var(--bach) !important;
+}
+.border-color-vivaldi {
+  border-color: var(--vivaldi) !important;
+}
 /* B
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1656,4 +1682,18 @@
 }
 .bgc-naraku {
   background-color: var(--naraku);
+}
+.bgc-sango {
+  background-color: var(--sango);
+}
+.bgc-mozart {
+  background-color: var(--mozart);
+}
+
+.bgc-bach {
+  background-color: var(--bach);
+}
+
+.bgc-vivaldi {
+  background-color: var(--vivaldi);
 }
