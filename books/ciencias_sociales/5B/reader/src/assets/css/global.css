@@ -120,6 +120,22 @@ body {
 .visible-695{
   visibility: visible;
 }
+.visible-768{
+  visibility: visible;
+}
+
+.caja-dibujo-global{
+  height: 800px;
+  margin-left:40px;
+  margin-right:40px;      
+}
+
+.rotacion-768-90{
+  transform: rotate(0deg);
+}
+.rotacion-768--90{
+  transform: rotate(0deg);
+}
 
 
   @media (max-width: 805px) {
@@ -129,6 +145,18 @@ body {
     margin-left: 5px;
     }
 
+  }
+  @media (max-width: 768px) {
+    .visible-768{
+      visibility: hidden;
+    }
+    .rotacion-768-90{
+      transform: rotate(90deg);
+    }
+    .rotacion-768--90{
+      transform: rotate(-90deg);
+    }
+    
   }
   @media (max-width: 695px) {
     .rotulo-etapa{

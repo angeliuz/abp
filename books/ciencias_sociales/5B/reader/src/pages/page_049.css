@@ -12,7 +12,7 @@
 }
 
 .caja {
-    background-image: url(images/page_047/caja.svg);
+    background-image: url(images/page_049/caja.svg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 12px;
@@ -43,7 +43,7 @@
   }
 }
 
-@media (max-width: 583px) {
+@media (max-width: 584px) {
   .cabecera {
     height: 260px;
   }

@@ -20,25 +20,49 @@
   }
   
 
-  .rounded-caja {
-    border-radius: 20px 20px 0px 0px;
+  .alinea {
+    margin: 0 auto;
   }
-  
 
   
-  .caja {
-    background-image: url(../3B/images/cabecera/caja.svg);
+  .caja2 {
+    background-image: url(images/page_047/caja.svg);
     background-repeat: no-repeat;
-    background-size: contain;
-    padding: 10px 10px 10px 10px;
+    background-size: cover;
+    padding-top: 12px;
+    width: 158px;
+    height: 56px;
+    text-align: center;
   }
+
+
 
 /*       FIN ESTILOS BASE        */
 
 
+.img-paleta1{
+  
+  right: 60px;
+}
+.img-camara{
+  top: -200px;
+  left: 40px;
+}
+.img-mono {
+  position: absolute;
+  top: -110px;
+  right: 50px;
+}
 
+
+
+
+ 
 .wp-250 {
     width:  250px;
+  }
+.wp-300 {
+    width:  300px;
   }
 .hp-280{
   height: 280px;
@@ -52,17 +76,60 @@
   height: 300px;
 }
 
-.caja-texto{
-    position: relative;
-    text-align: center;
+
+
+.recuadro-blanco{
+  vertical-align: bottom !important;
+}
+
+.recuadro-blanco2{
+  vertical-align: bottom !important;
 }
 
 
-.caja-blanco{
-  position: relative;
-  text-align: center;
+
+
+
+.titulo-vinneta{
+  z-index: 1;
+  position: absolute;
+    top: 10px;
+    left:10px;
+   
+    height:100%;
+}
+.titulo-vinneta1-i2{
+  z-index: 1;
+  position: absolute;
+    top: 10px;
+    left:10px;
+   
+    height:100%;
 }
 
+.titulo-vinneta2-i2{
+  z-index: 2;
+  position: absolute;
+    top: 10px;
+    right:10px;
+   
+    height:100%;
+}
+
+
+
+
+
+.titulo-vinneta2{
+    position: absolute;
+    top: -50px;
+    right:-10px;
+}
+.barra{
+    position: absolute;
+    top: 10px;
+    right:10px;
+}
 
 .recuadro-titulo{
     position: absolute;
@@ -79,32 +146,9 @@
 }
 
 
-.img-tijera{
-  position: absolute;
-  top: -420px;
-  right:15px;
-}
-
-
-
-.img-lapiz{
-  position: absolute;
-  top: -420px;
-  left:15px;
-}
-
-
-  
-@media (max-width: 932px) {
-
-  .img-tijera{
-    position: absolute;
-    top: -960px;
-    right:100px;
-  }
-
-  }
-
+ 
+ 
+ 
   
 @media (max-width: 673px) {
 
@@ -112,12 +156,7 @@
     height: 240px;
   }
 
-
-  .img-tijera{
-    position: absolute;
-    top: -960px;
-    right:15px;
-  }
+ 
 
   }
 
@@ -143,19 +182,14 @@
     justify-content: center;
   }
 
-  .img-tijera{
-    position: absolute;
-    top: -990px;
-    right:15px;
-  }
-
+  
 
 
   }
 
   @media (max-width: 576px) {
     .cabecera {
-      height: 360px;
+      height: 300px;
     }
 
     
@@ -171,8 +205,22 @@
 
   @media (max-width: 355px) {
     .cabecera {
-      height: 390px;
+      height: 330px;
     }
-  
+
+    .img-camara{
+    display: none;
+    }
+
+
+    .img-paleta1{
+      display: none;
+    }
+
+    .recuadro-blanco2{
+      vertical-align: bottom !important;
+      height: 230px;
+    }
+    
   
     }

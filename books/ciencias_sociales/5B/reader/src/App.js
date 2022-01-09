@@ -25,6 +25,14 @@ import Page021 from "./pages/page021";
 import Page022 from "./pages/page022";
 import Page023 from "./pages/page023";
 import Page024 from "./pages/page024";
+import Page025 from "./pages/page025";
+import Page026 from "./pages/page026";
+import Page027 from "./pages/page027";
+import Page028 from "./pages/page028";
+import Page029 from "./pages/page029";
+import Page030 from "./pages/page030";
+import Page031 from "./pages/page031";
+import Page032 from "./pages/page032";
 
 
 function App() {
@@ -81,6 +89,14 @@ function App() {
       <Page022 numeroPagina={clearZeros} />
       <Page023 numeroPagina={clearZeros} />
       <Page024 numeroPagina={clearZeros} />
+      <Page025 numeroPagina={clearZeros} />
+      <Page026 numeroPagina={clearZeros} />
+      <Page027 numeroPagina={clearZeros} />
+      <Page028 numeroPagina={clearZeros} />
+      <Page029 numeroPagina={clearZeros} />
+      <Page030 numeroPagina={clearZeros} />
+      <Page031 numeroPagina={clearZeros} />
+      <Page032 numeroPagina={clearZeros} />
     </div>
   );
 }

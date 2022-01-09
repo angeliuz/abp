@@ -55,7 +55,7 @@ function Page013(props) {
 
                     </div>
                 </div>
-                <div className="d-flex justify-content-center max-img mtp--65 psp-90 pep-70">
+                <div className="d-flex justify-content-center max-img psp-90 pep-70">
                     <div className="p-0 w-100">
                         <div className="p-3 f-Ubuntu-L mtp-20 border-color-lightDark border-style-solid border-2 rounded-p-10 text-start">
                             <span>Las personas tenemos derechos.
