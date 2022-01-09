@@ -18,6 +18,13 @@ import Page014 from "./pages/page014";
 import Page015 from "./pages/page015";
 import Page016 from "./pages/page016";
 import Page017 from "./pages/page017";
+import Page018 from "./pages/page018";
+import Page019 from "./pages/page019";
+import Page020 from "./pages/page020";
+import Page021 from "./pages/page021";
+import Page022 from "./pages/page022";
+import Page023 from "./pages/page023";
+import Page024 from "./pages/page024";
 
 
 function App() {
@@ -28,6 +35,12 @@ function App() {
     var s = num+"";
     while (s.length < size) s = "0" + s;
     return s;
+  }
+  // clear zeros before
+  function clearZeros(num) {
+      var num = num.toString();
+      var num = num.replace(/^0+/, '');
+      return num;
   }
 
   function getUrlParameter(name) {
@@ -48,19 +61,26 @@ function App() {
 
   return (
     <div className="App">
-      <Page005 />
-      <Page006 />
-      <Page007 />
-      <Page008 />
-      <Page009 />
-      <Page010 />
-      <Page011 />
-      <Page012 />
-      <Page013 />
-      <Page014 />
-      <Page015 />
-      <Page016 />
-      <Page017 />
+      <Page005 numeroPagina={clearZeros} />
+      <Page006 numeroPagina={clearZeros} />
+      <Page007 numeroPagina={clearZeros} />
+      <Page008 numeroPagina={clearZeros} />
+      <Page009 numeroPagina={clearZeros} />
+      <Page010 numeroPagina={clearZeros} />
+      <Page011 numeroPagina={clearZeros} />
+      <Page012 numeroPagina={clearZeros} />
+      <Page013 numeroPagina={clearZeros} />
+      <Page014 numeroPagina={clearZeros} />
+      <Page015 numeroPagina={clearZeros} />
+      <Page016 numeroPagina={clearZeros} />
+      <Page017 numeroPagina={clearZeros} />
+      <Page018 numeroPagina={clearZeros} />
+      <Page019 numeroPagina={clearZeros} />
+      <Page020 numeroPagina={clearZeros} />
+      <Page021 numeroPagina={clearZeros} />
+      <Page022 numeroPagina={clearZeros} />
+      <Page023 numeroPagina={clearZeros} />
+      <Page024 numeroPagina={clearZeros} />
     </div>
   );
 }

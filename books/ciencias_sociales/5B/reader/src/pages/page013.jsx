@@ -3,7 +3,7 @@ import InputBox from "../components/InputBox";
 
 import "./page_013.css";
 
-function Page013() {
+function Page013(props) {
 
   const pagina = "013";
   var indexInput = 0;
@@ -12,7 +12,7 @@ function Page013() {
 
     <div className="wrapper bgc-light">
             <div className="d-flex flex-column align-items-center pbp-20">
-              <div className="page bgc-white overflow-hidden position-relative" id="page_013">
+              <div className="page bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
                 {/* BEGIN CABECERA VERSIÓN 2 */}
                 <div className="cabecera-v2 bgc-bulma d-flex flex-column">
                   <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
@@ -135,7 +135,7 @@ function Page013() {
                   <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
                     ABP &copy; SM
                   </div>
-                  <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">13</div>
+                  <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
                 </div>
                 <div className="row position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{bottom:0}}>
 

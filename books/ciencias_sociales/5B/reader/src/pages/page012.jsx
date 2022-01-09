@@ -1,13 +1,17 @@
 import React from "react";
 import "./page_012.css";
 
-function Page012() {
+function Page012(props) {
+
+  const pagina = "012";
+  var indexInput = 0;
+
   return (
       
     <div className="wrapper bgc-light">
             <div className="d-flex flex-column align-items-center pbp-50">
 
-                <div className="page bgc-bulma position-relative" id="page_012">
+                <div className="page bgc-bulma position-relative" id={"page_"+pagina}>
                     <div className="w-100 mt-15 pe-5 ps-5 ">
                         <div className="cb-lineas-12 pbp-60">
                             <div className="cb-cabecera">
@@ -89,7 +93,7 @@ function Page012() {
                     <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
                       ABP &copy; SM
                     </div>
-                    <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">12</div>
+                    <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
                   </div>
                   {/* End pie de página */}
                     

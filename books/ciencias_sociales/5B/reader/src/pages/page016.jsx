@@ -4,7 +4,7 @@ import ModalBook from "../components/ModalBook";
 
 import "./page_016.css";
 
-function Page016() {
+function Page016(props) {
 
   const pagina = "016";
   var indexInput = 0;
@@ -13,8 +13,8 @@ function Page016() {
 
     <div className="wrapper bgc-light">
             <div className="d-flex flex-column align-items-center pbp-20">
-              <div className="page bgc-white overflow-hidden position-relative" id="page_016">
-            <div className="cabecera-14">
+              <div className="page bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
+            <div className="cabecera-v1 hp-80 bgc-bulma">
 
             </div>
 
@@ -92,7 +92,7 @@ function Page016() {
                   <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
                     ABP &copy; SM
                   </div>
-                  <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">16</div>
+                  <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
               </div>
                 <div className="row position-absolute caja-flotante2 p-0 m-0 align-items-end marcador-etapa" style={{bottom:0}}>
 

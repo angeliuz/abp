@@ -83,6 +83,11 @@ body {
   z-index:9;
 }
 
+.cabecera-v1{
+  -webkit-clip-path: polygon(100% 100%, 0% 0%, 0% 0%, 8% 0%);
+  clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
+}
+
 .cabecera-v2{
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
   clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
@@ -107,6 +112,16 @@ body {
   background-size: contain;
 }
 
+.container-titulo-global{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.visible-695{
+  visibility: visible;
+}
+
+
   @media (max-width: 805px) {
     .rotulo-etapa{
     width: 100px;
@@ -129,6 +144,13 @@ body {
       transform: rotate(90deg);
       margin-bottom: 20px;
       margin-top: 10px;
+    }
+    .container-titulo-global{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .visible-695{
+      visibility: hidden;
     }
   }
   @media (max-width: 575px) {

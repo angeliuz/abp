@@ -2,7 +2,7 @@ import React from "react";
 import ModalVideo from "../components/ModalVideo";
 import "./page_007.css";
 
-function Page007() {
+function Page007(props) {
 
   const pagina = "007";
   var indexInput = 0;
@@ -10,7 +10,7 @@ function Page007() {
   return (
       <div className="wrapper bgc-light">
         <div className="d-flex flex-column align-items-center pbp-20">
-          <div className="page bgc-white overflow-hidden position-relative" id="page_007">
+          <div className="page bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
             {/* BEGIN CABECERA VERSIÓN 2 */}
             <div className="cabecera-v2 bgc-goten d-flex flex-column">
               <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
@@ -54,7 +54,7 @@ function Page007() {
               <div className="d-flex">
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-goten">1</div>
                 <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Veo el video, leo la carta y destaco las ideas principales.</div>
-                <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_002.jpg" className="p-0 px-1" />
+                <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_002.jpg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
                 {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" />
                 <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
 
@@ -86,7 +86,7 @@ function Page007() {
               <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
                 ABP &copy; SM
               </div>
-              <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">7</div>
+              <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
             </div>
             <div className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
               <div className="col-7 col-sm-2 p-0 m-0 position-relative">

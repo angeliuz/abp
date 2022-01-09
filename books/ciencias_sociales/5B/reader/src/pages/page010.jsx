@@ -3,7 +3,7 @@ import InputBox from "../components/InputBox";
 
 import "./page_010.css";
 
-function Page010() {
+function Page010(props) {
 
   const pagina = "010";
   var indexInput = 0;
@@ -11,7 +11,7 @@ function Page010() {
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
-          <div className="page cb-page10 overflow-hidden position-relative" id="page_010">
+          <div className="page cb-page10 overflow-hidden position-relative" id={"page_"+pagina}>
 
             <div className="mtp-75 ">
                 <div className="d-flex justify-content-center">
@@ -24,7 +24,7 @@ function Page010() {
               </div>
               <img src="images/page_010/img_001.png" className="cb-lapiz" alt="" />
               <img src="images/page_010/img_002.png" className="cb-globo" width="130px" alt="" />
-              <img src="images/page_010/img_005.png" className="cb-binoculares" alt="" />
+              <img src="images/page_010/img_005.png" className="cb-binoculares-10 " alt="" />
               <img src="images/page_010/img_003.png" className="cb-nota" alt="" />
             </div>
 
@@ -72,7 +72,7 @@ function Page010() {
               <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "white" }}>
                 ABP &copy; SM
               </div>
-              <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">10</div>
+              <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
             </div>
             {/* End pie de página */}
           
