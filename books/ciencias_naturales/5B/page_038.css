@@ -1,0 +1,131 @@
+.cb-page38 {
+    background: url(images/page_038/fondo_001.svg) top center/cover no-repeat;
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-print-color-adjust: exact !important;
+  }
+  .linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color: var(--dark);
+  }
+  .mtp--20 {
+      margin-top: -20px;
+  }
+  .mxwp-a {
+    max-width: 100px;
+  }
+  @media all and (min-width: 768px) {
+  .tf-boligrafo {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 100px;
+    z-index: 1;
+  }
+  .tf-nota {
+    display: flex;
+    position: absolute;
+    left: 50px;
+    top: 180px;
+    z-index: 1;
+  }
+  .tf-lupa {
+    display: flex;
+    position: absolute;
+    left: 60px;
+    top: 310px;
+    z-index: 1;
+  }
+  .tf-crayones {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top: 500px;
+    z-index: 1;
+  }
+  .tf-hoja {
+    display: flex;
+    position: absolute;
+    left: 60px;
+    bottom: 140px;
+    z-index: 1;
+  }
+  .tf-mono {
+    display: flex;
+    position: absolute;
+    right: 60px;
+    bottom: 30px;
+    z-index: 1;
+  }
+  .tf-frase {
+    display: flex;
+    position: absolute;
+    right: 235px;
+    bottom: 43px;
+    z-index: 1;
+  }
+  .ptp-50-r {
+    padding-top: 0px;
+  }
+  .pbp-40-r {
+    padding-bottom: 0px;
+  } 
+}
+  @media all and (max-width: 768px) {
+    .ptp-50-r {
+      padding-top: 50px;
+    }
+    .tf-boligrafo {
+      display: flex;
+      position: absolute;
+      right: 30px;
+      top: 430px;
+      z-index: 1;
+    }
+    .tf-nota {
+      display: flex;
+      position: absolute;
+      left: 50px;
+      top: 210px;
+      z-index: 1;
+    }
+    .tf-lupa {
+      display: flex;
+      position: absolute;
+      left: 60px;
+      top: 610px;
+      z-index: 1;
+    }
+    .tf-crayones {
+      display: flex;
+      position: absolute;
+      right: 20px;
+      top:1040px;
+      z-index: 1;
+    }
+    .tf-hoja {
+      display: flex;
+      position: absolute;
+      left: 80px;
+      bottom: 80px;
+      z-index: 1;
+    }
+    .tf-mono {
+      display: flex;
+      position: absolute;
+      right: 60px;
+      bottom: 30px;
+      z-index: 1;
+    }
+    .tf-frase {
+      display: flex;
+      position: absolute;
+      right: 235px;
+      bottom: 43px;
+      z-index: 1;
+    }
+    .pbp-80-r {
+      padding-bottom: 80px;
+    } 
+  }
