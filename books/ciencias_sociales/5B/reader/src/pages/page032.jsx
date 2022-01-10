@@ -18,95 +18,123 @@ function Page032(props) {
               <div className="page bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
             <div className="cabecera-v1 hp-80 bgc-android18">
             </div>
+
             <div className="ptp-10 container-titulo-global mbp-20">
                 <div className="d-flex">
-                    <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_030/img_002.svg" alt=""  />
-                    <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">4</div>
-                    <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Propongo dos compromisos que contribuyan al respeto de los derechos durante nuestro trabajo en la revista.</div>
-
+                    {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_023/img_005.svg" alt=""  /> */}
+                    <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">2</div>
+                    <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Selecciono una noticia y completo.</div>
+                    {/* <img src="images/page_023/img_003.svg" className="cambio hp-50 text-end mtp-0 psp-10 pep-40"  alt=""  /> */}
+                    <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_032/img_002.svg" clasesImagen="hp-40 text-center mtp-15 msp-5" className="p-0 px-0" />
                 </div>
             </div>
-            
-            <div className="row container-row m-0 psp-60 pep-60">
 
-                <div className="col-12 justify-content-center mtp-10 psp-80 pep-80 pbp-50 position-relative">
-                    <div className="position-absolute top-0 start-100 translate-middle msp--20 mtp-55  zindex-1"><img src="images/page_030/img_001.png" className="wp-30 " alt="" /></div>
-                    <div className="position-absolute top-100 start-0 translate-middle msp-20 mtp--75  zindex-1"><img src="images/page_030/img_002.png" className="wp-100 " alt="" /></div>
-
-                    <div className="p-2 rounded-p-10 bgc-zangief">
-                        <div className="px-3">                            
-                            <div className="color-dark f-Ubuntu-L pp-10 text-center">Los compromisos que propongo son:</div>
-                            <div className="d-flex position-relative bgc-white psp-20 pep-20 ptp-10 pbp-15 mbp-20 rounded-p-10 border-style-solid border-2 border-color-freezer">
-                                
-                                <div className="position-absolute bgc-hermione borde-numero-30 border-style-solid border-start-0 border-top-0 border-2 border-color-freezer p-1 text-center color-pidgey wp-50 hp-40 f-Ubuntu-B fsp-20 msp--20 mtp--10">
-                                    1
-                                </div>
-                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp-40 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /> 
-                            </div>
-                            <div className="d-flex position-relative bgc-white psp-20 pep-20 ptp-10 pbp-15 mbp-20 rounded-p-10 border-style-solid border-2 border-color-freezer">
-                                <div className="position-absolute bgc-hermione borde-numero-30 border-style-solid border-start-0 border-top-0 border-2 border-color-freezer p-1 text-center color-pidgey wp-50 hp-40 f-Ubuntu-B fsp-20 msp--20 mtp--10">
-                                    2
-                                </div>
-                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp-40 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /> 
-                            </div>
-
-
+            <div className="d-flex msp-60 mep-60">
+                <div className="row">
+                <div className="col-md-6 col-sm-6 position-relative">
+                    <div className="position-absolute top-100 start-0 translate-middle wp-100 mtp--30 visible-695"><img src="images/page_032/img_002.png" className="w-45" /></div>
+                    <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-android18 border-1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
+                        <div className="d-flex interior-caja-v1 bgc-shogun text-start min-hp-0">
+                            <div className="w-100 text-center">La noticia se refiere a</div>
                         </div>
-
-
-                    </div>
-
-                </div>
-                <div className="col-12 justify-content-center mtp-10 psp-80 pep-80 mbp-10 position-relative">
-                    <div className="px-2 text-start f-Ubuntu-R ">
-                        Comparto mis propuestas con mi grupo. Luego, acordamos cuatro compromisos que asumiremos.
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                     </div>
                 </div>
-                
-                <div className="col-12 justify-content-center mtp-0 mbp-70 psp-80 pep-80 pbp-50 position-relative">
-                    <div className="position-absolute top-100 start-100 translate-middle msp--20 mtp--120  zindex-1"><img src="images/page_030/img_003.png" className="wp-60 " alt="" /></div>
-                    <div className="position-absolute top-50 start-0 translate-middle msp-20 mtp-75  zindex-1"><img src="images/page_030/img_005.png" className="wp-25 " alt="" /></div>
-
-                    <div className="p-2 rounded-p-10 bgc-chitara">
-                        <div className="px-3">                            
-                            <div className="color-dark f-Ubuntu-L pp-10 text-start">Los compromisos que asumiremos como grupo en el trabajo de la revista son:</div>
-                            <div className="d-flex position-relative bgc-white psp-20 pep-20 ptp-10 pbp-15 mbp-20 rounded-p-10 border-style-solid border-2 border-color-android18">
-                                
-                                <div className="position-absolute bgc-shogun borde-numero-30 border-style-solid border-start-0 border-top-0 border-2 border-color-android18 p-1 text-center color-android18 wp-50 hp-40 f-Ubuntu-B fsp-20 msp--20 mtp--10">
-                                    1
-                                </div>
-                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp-40 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /> 
-                            </div>
-                            <div className="d-flex position-relative bgc-white psp-20 pep-20 ptp-10 pbp-15 mbp-20 rounded-p-10 border-style-solid border-2 border-color-android18">
-                                <div className="position-absolute bgc-shogun borde-numero-30 border-style-solid border-start-0 border-top-0 border-2 border-color-android18 p-1 text-center color-android18 wp-50 hp-40 f-Ubuntu-B fsp-20 msp--20 mtp--10">
-                                    2
-                                </div>
-                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp-40 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /> 
-                            </div>
-                            <div className="d-flex position-relative bgc-white psp-20 pep-20 ptp-10 pbp-15 mbp-20 rounded-p-10 border-style-solid border-2 border-color-android18">
-                                <div className="position-absolute bgc-shogun borde-numero-30 border-style-solid border-start-0 border-top-0 border-2 border-color-android18 p-1 text-center color-android18 wp-50 hp-40 f-Ubuntu-B fsp-20 msp--20 mtp--10">
-                                    3
-                                </div>
-                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp-40 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /> 
-                            </div>
-                            <div className="d-flex position-relative bgc-white psp-20 pep-20 ptp-10 pbp-15 mbp-20 rounded-p-10 border-style-solid border-2 border-color-android18">
-                                <div className="position-absolute bgc-shogun borde-numero-30 border-style-solid border-start-0 border-top-0 border-2 border-color-android18 p-1 text-center color-android18 wp-50 hp-40 f-Ubuntu-B fsp-20 msp--20 mtp--10">
-                                    4
-                                </div>
-                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp-40 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /> 
-                            </div>
-
-
+                <div className="col-md-6 col-sm-6">
+                    <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-android18 border-1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
+                        <div className="d-flex interior-caja-v1 bgc-shogun text-start min-hp-0">
+                            <div className="w-100 text-center">¿Qué derecho se busca resguardar?</div>
                         </div>
-
-
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                     </div>
-
+                </div>
+                <div className="col-md-6 col-sm-6">
+                    <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-android18 border-1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
+                        <div className="d-flex interior-caja-v1 bgc-shogun text-start min-hp-0">
+                            <div className="w-100 text-center">¿Qué población se vería beneficiada?</div>
+                        </div>
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                    </div>
+                </div>
+                <div className="col-md-6 col-sm-6 position-relative">
+                    <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-android18 border-1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
+                        <div className="d-flex interior-caja-v1 bgc-shogun text-start min-hp-0">
+                            <div className="w-100 text-center">¿A qué riesgo estaba expuesta?</div>
+                        </div>
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                    </div>
+                </div>
+                <div className="col-md-12 col-sm-12 position-relative">
+                    
+                    <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-android18 border-1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
+                        <div className="d-flex interior-caja-v1 bgc-shogun text-start min-hp-0">
+                            <div className="w-100 text-center">¿Qué institución propuso la medida y a qué poder del Estado pertenece?</div>
+                        </div>
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                    </div>
+                </div>
                 </div>
 
-                
+            </div>
 
-                </div>          
+            <div className="container-titulo-global mbp-20">
+                <div className="d-flex">
+                    <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_032/img_001.svg" alt=""  />
+                    <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">3</div>
+                    <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">En grupo, busco noticias referidas a los deberes del Estado en relación con los derechos. Seleccionamos dos que consideramos especialmente importantes para incorporarlas en nuestra revista.</div>
+                    {/* <img src="images/page_023/img_003.svg" className="cambio hp-50 text-end mtp-0 psp-10 pep-40"  alt=""  /> */}
+                    <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_032/img_003.svg" clasesImagen="hp-40 text-center mtp-15 msp--10" className="p-0 px-0" />
+                </div>
+            </div>      
+            <div className="d-flex msp-60 mep-60 mbp-70">
+                <div className="row p-2 mtp-20 mbp-20 rounded-p-10 bgc-ryu ">
+                    <div className="col-12">
+                        <div className="color-dark f-Ubuntu-R ptp-10 pbp-10 text-center">Las noticias que seleccionamos para la revista son:</div>
+                    </div>
+                    <div className="col-lg-6 col-md-6 col-sm-12 pt-2 position-relative">
+                        <div className="position-absolute top-100 start-0 translate-middle mtp--20 zindex-1"><img src="images/page_032/img_003.png" className="wp-35 " alt="" /></div>
+                        <div className="f-Ubuntu-R bgc-white psp-20 ptp-10 pbp-15 pep-20 rounded-p-10 text-center">
+                            Noticia 1
+                        </div>
+                        <div className="mtp-10 pt-2 mbp-10 bgc-white rounded-p-10">
+                            <div className="f-Ubuntu-L bgc-white psp-20 pbp-15 pep-20  text-start">
+                                Titular
+                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                            </div>
+                            <div className="f-Ubuntu-L bgc-white psp-20 ptp-10 pbp-15 pep-20 rounded-p-10 text-start">
+                                ¿Cómo la recuperaremos al elaborar la revista?
+                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                            </div>
+                            <div className="f-Ubuntu-L psp-20 ptp-10 pbp-15 pep-20 rounded-p-10 text-start">
+                                ¿Por qué la seleccionamos?
+                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-6 col-md-6 col-sm-12 pt-2 position-relative">
+                        <div className="position-absolute top-0 start-100 translate-middle mtp-20 zindex-1"><img src="images/page_032/img_004.png" className="wp-35 " alt="" /></div>
+                        <div className="f-Ubuntu-R bgc-white psp-20 ptp-10 pbp-15 pep-20 rounded-p-10 text-center">
+                            Noticia 2
+                        </div>
+                        <div className="mtp-10 pt-2 mbp-10 bgc-white rounded-p-10">
+                            <div className="f-Ubuntu-L bgc-white psp-20 pbp-15 pep-20  text-start">
+                                Titular
+                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                            </div>
+                            <div className="f-Ubuntu-L bgc-white psp-20 ptp-10 pbp-15 pep-20 rounded-p-10 text-start">
+                                ¿Cómo la recuperaremos al elaborar la revista?
+                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                            </div>
+                            <div className="f-Ubuntu-L psp-20 ptp-10 pbp-15 pep-20 rounded-p-10 text-start">
+                                ¿Por qué la seleccionamos?
+                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>     
+            </div>     
 
                 {/* BEGIN PIE DE PAGINA */}
                 <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>

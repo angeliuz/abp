@@ -93,7 +93,7 @@ function Page031(props) {
            El Estado
           </div> 
         </div>
-        <div className="circuloEstado position-absolute top-50 start-50 translate-middle fsp-16 f-Ubuntu-R zindex-1 "><div className="f-colby-compres-medium fsp-30">El Estado</div></div>
+        <div className="circuloEstado position-absolute top-50 start-50 translate-middle fsp-16 f-Ubuntu-R mtp--50 zindex-1 "><div className="f-colby-compres-medium fsp-30">El Estado</div></div>
         
         <div className="row mx-4 position-relative">
 

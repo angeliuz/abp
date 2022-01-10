@@ -1963,6 +1963,36 @@
 .mtp--100 {
   margin-top: -100px;
 }
+.mtp--101 {
+  margin-top: -101px;
+}
+.mtp--102 {
+  margin-top: -102px;
+}
+.mtp--103 {
+  margin-top: -103px;
+}
+.mtp--104 {
+  margin-top: -104px;
+}
+.mtp--105 {
+  margin-top: -105px;
+}
+.mtp--106 {
+  margin-top: -106px;
+}
+.mtp--107 {
+  margin-top: -107px;
+}
+.mtp--108 {
+  margin-top: -108px;
+}
+.mtp--109 {
+  margin-top: -109px;
+}
+.mtp--110 {
+  margin-top: -110px;
+}
 
 
 .mb-5 {
@@ -4140,6 +4170,12 @@
 }
 .min-hp-120 {
   min-height: 120px !important;
+}
+.min-hp-130 {
+  min-height: 130px !important;
+}
+.min-hp-140 {
+  min-height: 140px !important;
 }
 .min-hp-150 {
   min-height: 150px !important;

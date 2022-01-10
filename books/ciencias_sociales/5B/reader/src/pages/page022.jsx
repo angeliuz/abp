@@ -9,7 +9,7 @@ function Page022(props) {
   return (
       
     <div className="wrapper bgc-light">
-            <div className="d-flex flex-column align-items-center pbp-50">
+            <div className="d-flex flex-column align-items-center pbp-20">
 
                 <div className="page bgc-android18 position-relative" id={"page_"+pagina}>
                     <div className="w-100 mt-15 pe-5 ps-5 ">

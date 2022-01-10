@@ -137,6 +137,16 @@ body {
   transform: rotate(0deg);
 }
 
+.exterior-caja-v1 {
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.interior-caja-v1{
+  margin: -8px -8px 0px -8px;
+  border-radius: 9px 9px 0px 0px;
+  padding: 5px 10px;
+}
 
   @media (max-width: 805px) {
     .rotulo-etapa{
