@@ -10,17 +10,17 @@
   .cb-dossier {
     width: 100%;
   }
-  .style-title {
+  /* .style-title {
     font-size: 16px;
     font-family: Ubuntu-B, sans-serif;
     text-align: left !important;
-  }
-  .style-text {
+  } */
+  /* .style-text {
     font-size: 16px;
     font-family: Ubuntu-r, sans-serif;
     text-align: left !important;
     max-width: 75%;
-  }
+  } */
   .style-text-b {
     font-size: 16px;
     font-family: Ubuntu-r, sans-serif;
@@ -32,20 +32,20 @@
     font-family: Ubuntu-m, sans-serif;
     text-align: center !important;
   }
-  .block-bottom {
+  .block-bottom-19{
     max-width: 600px;
     margin-right: auto;
     margin-left: auto;
     width: calc(100% - 30px);
   }
-  .caja {
+  .caja-respuesta-19 {
     width: 35px;
     height: 35px;
     margin-right: auto;
     margin-left: auto;
     z-index: 1;
   }
-  .bloque {
+  .bloque-19  {
     min-width: 100px;
     min-height: 150px;
   }
@@ -73,35 +73,35 @@
     top: 125px;
     z-index: 1;
 }
-.tf-bloque {
+.tf-bloque-19  {
     display: flex;
     position: absolute;
     right: 30px;
-    top: 140px;
+    top: 170px;
     z-index: 1;
 }
-.tf-carta {
+.tf-carta-19 {
   display: flex;
   position: absolute;
   left: 50px;
   top: 310px;
   z-index: 1;
 }
-.tf-celular {
+.tf-celular-19 {
   display: flex;
   position: absolute;
   right: 40px;
   top: 290px;
   z-index: 1;
 }
-.tf-claqueta {
+.tf-claqueta-19 {
   display: flex;
   position: absolute;
   left: 60px;
   bottom: 175px;
   z-index: 1;
 }
-.tf-camara {
+.tf-camara-19 {
   display: flex;
   position: absolute;
   right: 45px;
@@ -115,11 +115,11 @@
   bottom: 0px;
   z-index: 1;
 }
-.tf-metro {
+.tf-metro-19 {
   display: flex;
   position: absolute;
   left: 30px;
-  bottom: -10px;
+  bottom: 25px;
   z-index: 1;
 }
 
@@ -154,39 +154,39 @@
         right: 150px;
         z-index: 1;
     }
-    .tf-bloque {
+    .tf-bloque-19  {
         display: flex;
         position: absolute;
         right: 30px;
         top: 190px;
         z-index: 1;
     }
-    .tf-carta {
+    .tf-carta-19 {
       display: flex;
       position: absolute;
       left: 50px;
       top: 340px;
       z-index: 1;
     }
-    .tf-celular {
+    .tf-celular-19 {
       display: flex;
       position: absolute;
       right: 40px;
-      top: 590px;
+      top: 290px;
       z-index: 1;
     }
-    .tf-claqueta {
+    .tf-claqueta-19 {
       display: flex;
       position: absolute;
       left: 60px;
-      bottom: 510px;
+      bottom: 210px;
       z-index: 1;
     }
-    .tf-camara {
+    .tf-camara-19 {
       display: flex;
       position: absolute;
       right: 45px;
-      bottom: 220px;
+      bottom: 200px;
       z-index: 1;
     }
     .tf-presentacion {
@@ -197,7 +197,7 @@
       z-index: 1;
       transform: scale(0.9);
     }
-    .tf-metro {
+    .tf-metro-19 {
       display: flex;
       position: absolute;
       left: 30px;

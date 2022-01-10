@@ -1,18 +1,6 @@
-.cuadrado-verde{
-  -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 8% 100%);
-    clip-path: polygon(0 0%, 100% 0, 96% 100%, 8% 100%);
-    background-color: #F29205;
-    height: 87px;
-}
 
-.cabecera{
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
-  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
-  background-color: var(--android18);
-  height: 210px;
-}
 .caja {
-  background-image: url(../5B/images/page_023/img_001.svg);
+  background-image: url(images/page_023/img_001.svg);
   background-repeat: no-repeat;
   background-size: contain;
   padding: 10px 10px 10px 10px;
@@ -24,14 +12,17 @@
   
 }
 
+.border-color-srtoro{
+  border-color: #dee2e6;
+}
+
 .cajita1 {
   padding: 0;
   margin-left: 210px;
   
 }
-.cajota{
+.cajota-27{
   height: 300px;
-  
 }
 
 .textito{
@@ -284,9 +275,7 @@ margin-right: 20px;
 
 @media (max-width: 576px) {
   
-  .cabecera {
-  height: 440px;
-  }
+
   .rotar {
   transform: rotate(90deg);
   margin: 10px;

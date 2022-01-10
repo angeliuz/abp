@@ -3,7 +3,7 @@ import InputBox from "../components/InputBox";
 
 import "./page_008.css";
 
-function Page008() {
+function Page008(props) {
 
   const pagina = "008";
   var indexInput = 0;
@@ -11,8 +11,8 @@ function Page008() {
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
-        <div className="page bgc-white overflow-hidden position-relative" id="page_008">
-          <div className="w-100 cb-cabecera-2 mbp-5"></div>
+        <div className="page bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
+          <div className="cabecera-v1 hp-80 bgc-goten"></div>
           <div className="ptp-10 psp-0 mbp-20" style={{ paddingLeft: "6%", paddingRight: "6%" }}>
             <div className="d-flex">
               <div className="f-ccdigitaldelivery-bold fsp-35 color-goten">2</div>
@@ -45,7 +45,7 @@ function Page008() {
           </div>
 
           <div className="bgc-genos border-top border-color-dark border-2 pbp-90 position-relative">
-            <img src="images/page_008/img_002.png" className="cb-personaje" alt="" />
+            <img src="images/page_008/img_002.png" className="cb-personaje-18" alt="" />
             <div className="block-bottom text-start mtp-30 f-pixilate-bold">¿Cómo voy?</div>
             <div className=" block-bottom p-2 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4 nat-page08">
               <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
@@ -86,7 +86,7 @@ function Page008() {
               <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
                 ABP &copy; SM
               </div>
-              <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">8</div>
+              <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
             </div>
             <div className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
               <div className="col-7 col-sm-2 p-0 m-0 position-relative">

@@ -183,7 +183,7 @@
     bottom: -23px;
 }
 
-.cb-binoculares{
+.cb-binoculares-10 {
     position: absolute;
     left: -30px;
     bottom: -18px;
@@ -250,7 +250,7 @@
     .cb-nota{
         display: none;
     }
-    .cb-binoculares{
+    .cb-binoculares-10 {
         display: none;
     }
     .cb-tv{

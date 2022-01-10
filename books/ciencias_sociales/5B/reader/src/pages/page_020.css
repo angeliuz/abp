@@ -90,7 +90,7 @@
 .tf-doc {
     display: flex;
     position: absolute;
-    left: 80px;
+    left: 50px;
     top: 560px;
     z-index: 1;
 }
@@ -101,7 +101,7 @@
     top: 660px;
     z-index: 1;
 }
-.tf-personaje {
+.tf-personaje-20 {
     display: flex;
     position: absolute;
     right: 160px;
@@ -167,7 +167,7 @@
     top: 960px;
     z-index: 1;
 }
-.tf-personaje {
+.tf-personaje-20 {
     display: flex;
     position: absolute;
     right: 80px;
@@ -195,7 +195,7 @@
 }
 }
 /*Aldo 830*/
-.cb-block-superior {
+.cb-block-superior-20 {
   max-width: 160px;
   border-radius: 10px;
   margin-right: auto;
@@ -317,14 +317,14 @@
   border: 1px dashed #dedede;
 }
 
-.cb-block-arriba {
+.cb-block-arriba-20 {
   max-width: 500px;
   margin-right: auto;
   margin-left: auto;
   width: calc(100% - 30px);
 }
 
-.cb-block-inicial {
+.cb-block-inicial-20 {
   max-width: 500px;
   background-color: white;
   border-radius: 10px;
@@ -335,7 +335,7 @@
   width: calc(100% - 30px);
 }
 
-.block-bottom {
+.block-bottom-20 {
   max-width: 600px;
   margin-right: auto;
   margin-left: auto;
@@ -410,180 +410,4 @@
 .cb-flecha {
   padding-bottom: -2px;
 }
-/* medias
-@media all and (max-width: 820px) {
-    .cb-page10 {
-        background: url(images/page_010/fondo_008.svg) top left/ cover no-repeat !important;
-     }
-     .cb-globo{
-        display: none;
-    }
-    .cb-personaje{
-        top: 0px;;
-    }
- 
 
-}
-
-@media all and (max-width: 680px) {
-    .cb-page10 {
-        background: url(images/page_010/fondo_005.svg) top left/ cover no-repeat !important;
-     }
-
-
-    .titulo-linea .linea{
-        width: 100%;
-    }
-
-    .cb-lapiz{
-        display: none;
-    }
-
-    .cb-nota{
-        display: none;
-    }
-    .cb-binoculares{
-        display: none;
-    }
-    .cb-tv{
-        display: none;
-    }
-    .cb-personaje{
-        display: none;
-    }
-    .cb-estrella{
-        display: none;
-    }
-    .cb-inicio{
-        height: auto;
-        position: unset;
-        left: unset;
-        top: unset;
-        right:unset;
-        bottom: unset;
-        margin-bottom: 10px;
-     }
-     .cb-bloque-0 {
-        position: relative;
-        left: unset;
-        top: unset;
-        right:unset;
-        bottom: unset;
-        margin: 0 auto 15px auto;
-        width: 100%;
-        max-width: 400px;
-    }
-    .cb-bloque-1 {
-        position: relative;
-        left: unset;
-        top: unset;
-        right:unset;
-        bottom: unset;
-        margin: 0 auto 15px auto;
-        width: 100%;
-        max-width: 400px;
-    }
-    .cb-bloque-2 {
-        position: relative;
-        left: unset;
-        top: unset;
-        right:unset;
-        bottom: unset;
-        margin: 0 auto 15px auto;
-        width: 100%;
-        max-width: 400px;
-    }
-    .cb-bloque-3 {
-        position: relative;
-        left: unset;
-        top: unset;
-        right:unset;
-        bottom: unset;
-        margin: 0 auto 15px auto;
-        width: 100%;
-        max-width: 400px;
-    }
-    .cb-bloque-4 {
-        position: relative;
-        left: unset;
-        top: unset;
-        right:unset;
-        bottom: unset;
-        margin: 0 auto 15px auto;
-        width: 100%;
-        max-width: 400px;
-    }
-    .cb-bloque-5 {
-        position: relative;
-        left: unset;
-        top: unset;
-        right:unset;
-        bottom: unset;
-        margin: 0 auto 15px auto;
-        width: 100%;
-        max-width: 400px;
-    }
-    .cb-bloque-6 {
-        position: relative;
-        left: unset;
-        top: unset;
-        right:unset;
-        bottom: unset;
-        margin: 0 auto 15px auto;
-        width: 100%;
-        max-width: 400px;
-    }
-    .cb-block-superior {
-        max-width: 100%;
-    }
-    .cb-bloque-0::after{
-        right: calc(50% - 6px);
-        transform: rotate(90deg);
-        bottom: -10px;
-        width: 16px;
-    }
-    .cb-bloque-1::after{
-        right: calc(50% - 8px);
-        transform: rotate(90deg);
-        top: -10px;
-        width: 16px;
-    }
-    .cb-bloque-2::after{
-        left: calc(50% - 8px);
-        transform: rotate(90deg);
-        top: -10px;
-        width: 16px;
-    }
-    .cb-bloque-3::after{
-        left: calc(50% - 8px);
-        transform: rotate(90deg);
-        top: -10px;
-        width: 16px;
-    }
-    .cb-bloque-4::after{
-        right: calc(50% - 6px);
-        transform: rotate(90deg);
-        top: -10px;
-        width: 16px;
-    }
-    .cb-bloque-5::after{
-        right: calc(50% - 6px);
-        transform: rotate(90deg);
-        top: -10px;
-        width: 16px;
-    }
-    .cb-bloque-6::after{
-        right: calc(50% - 6px);
-        transform: rotate(90deg);
-        top: -10px;
-        width: 16px;
-    }
-    .cb-block-inicial {
-        margin-bottom: 30px;
-    }
-    .cb-flecha{
-        padding-bottom: 13px;
-    }
-
-}
-*/

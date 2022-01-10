@@ -18,6 +18,7 @@ function ModalVideo(props) {
   const className = props.className;
   const image = props.image;
   const id = props.id;
+  const clasesImagen = props.clasesImagen;
   const [linkVideo, setLinkVideo] = useState("");
   const [tituloVideo, setTituloVideo] = useState("");
   const [tipoVideo, setTipoVideo] = useState("");
@@ -73,7 +74,7 @@ function ModalVideo(props) {
   return (
     <>
       <div className={className}>
-        <img src={image} className="cambio hp-40 text-center mtp-10 psp-10 pep-40" alt="" onClick={handleShow} />
+        <img src={image} className={clasesImagen} alt="" onClick={handleShow} />
       </div>
 
       <Modal 

@@ -4,7 +4,7 @@ import ModalBook from "../components/ModalBook";
 
 import "./page_014.css";
 
-function Page014() {
+function Page014(props) {
 
   const pagina = "014";
   var indexInput = 0;
@@ -13,8 +13,8 @@ function Page014() {
 
     <div className="wrapper bgc-light">
             <div className="d-flex flex-column align-items-center pbp-20">
-              <div className="page bgc-white overflow-hidden position-relative" id="page_014">
-            <div className="cabecera-14">
+              <div className="page bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
+            <div className="cabecera-v1 hp-80 bgc-bulma">
 
             </div>
 
@@ -88,7 +88,7 @@ function Page014() {
                     <div className="f-ccdigitaldelivery-bold fsp-35 color-bulma">3</div>
                     <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Realizo los pasatiempos y respondo.  </div>
                     <div className="pep-10 psp-15 ptp-10">
-                      <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_014/img_003.svg" className="p-0 px-1" />
+                      <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_014/img_003.svg" clasesImagen="cambio hp-40 text-center mtp-0 psp-10 pep-40" className="p-0 px-1" />
                     </div>
                 </div>
             </div>
@@ -133,7 +133,7 @@ function Page014() {
                   <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
                     ABP &copy; SM
                   </div>
-                  <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">14</div>
+                  <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
               </div>
                 <div className="row position-absolute caja-flotante2 p-0 m-0 align-items-end marcador-etapa" style={{bottom:0}}>
 

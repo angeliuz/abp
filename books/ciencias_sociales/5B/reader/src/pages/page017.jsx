@@ -4,7 +4,7 @@ import ModalBook from "../components/ModalBook";
 
 import "./page_017.css";
 
-function Page017() {
+function Page017(props) {
 
   const pagina = "017";
   var indexInput = 0;
@@ -13,8 +13,8 @@ function Page017() {
 
     <div className="wrapper bgc-light">
             <div className="d-flex flex-column align-items-center pbp-20">
-              <div className="page bgc-white overflow-hidden position-relative" id="page_016">
-            <div className="cabecera-14">
+              <div className="page bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
+            <div className="cabecera-v1 hp-80 bgc-bulma">
 
             </div>
 
@@ -27,7 +27,7 @@ function Page017() {
                 {/* <div className="f-Ubuntu-L fsp-15 psp-70 text-start">Comparo mis respuestas con las de mi grupo. ¿Pensamos todos lo mismo?</div> */}
             </div>
 
-            <div className="w-100 mt-0 ms-0 me-0 mbp-90 p-0">
+            <div className="w-100 mt-0 ms-0 me-0 mbp-40 p-0">
                         
                         <div className="row m-0 ptp-20 psp-70 pep-70 mbp-30 bgc-white align-items-center tf-caja">
                             <div className="col-sm-12 col-md-6 d-flex justify-content-center align-items-end m-0 p-3">
@@ -94,11 +94,16 @@ function Page017() {
                             </div>
 
                             </div>
-                            
+
+
+
+                          <div className="col-sm-12 text-end">
+
+                              <img src="images/page_017/img_007.png" className="cambio pep-40 right" alt="" />
+                          </div>  
                         </div>
                         
                     </div> 
-
 
 
             {/*  ENCABEZADO FIN PARTE 3 */}
@@ -108,7 +113,7 @@ function Page017() {
                   <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
                     ABP &copy; SM
                   </div>
-                  <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">17</div>
+                  <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
               </div>
                 <div className="row position-absolute caja-flotante2 p-0 m-0 align-items-end marcador-etapa" style={{bottom:0}}>
 

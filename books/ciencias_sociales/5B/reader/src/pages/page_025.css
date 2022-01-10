@@ -1,16 +1,5 @@
-.cabecera{
-    -webkit-clip-path: polygon(100% 100%, 0% 0%, 0% 0%, 8% 0%);
-    clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
-    background-color: var(--android18);
-    height: 130px;
-  }
+
   
-  
-  .container-row{
-    margin-left: 20px;
-    margin-right: 20px;
-    
-    } 
     
     .cajota{
       height: 800px;
@@ -20,6 +9,7 @@
       
     }
  
+
 
     .paleta{
       top: 260px;
@@ -61,6 +51,21 @@
         visibility: visible;
       }
      
+      .cajaafiche-1{
+        visibility: visible;
+      }
+      .cajaafiche-2{
+        visibility: hidden;
+      }
+      @media (max-width: 768px) {
+        .cajaafiche-1{
+          visibility: hidden;
+        }
+        .cajaafiche-2{
+          visibility: visible;
+        }
+
+      }
         
         @media (max-width: 992px) {
           .paleta{

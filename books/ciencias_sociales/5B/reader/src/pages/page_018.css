@@ -15,15 +15,15 @@
   border-right: 1px solid;
   color: white !important;
 }
-.tf-iphone{
+.tf-iphone-18{
   position: absolute;
   left: 500px;
   top: -44px;
 }
-.tf-lapiz{
+.tf-lapiz-18{
   position: absolute;
-  left: -6px;
-  top: 78px;
+  left: 155px;
+  top: 130px;
 }
 .tf-block {
   border: 1px solid #242423;
@@ -60,7 +60,7 @@
 .tf-flecha{
   padding-bottom: -2px;
 }
-.tf-personaje{
+.tf-personaje-18{
   position: absolute;
   right: 55px;
   top: -86px;
@@ -82,7 +82,7 @@
     border: 1px dashed #dedede;
 }
 
-.block-bottom {
+.block-bottom-18 {
     max-width: 700px;
     margin-right: auto;
     margin-left: auto;
@@ -99,6 +99,16 @@
     border-color:var(--dark);
 }
 
+.padding-box-18-1{
+  padding-right: 150px;
+}
+.padding-box-18-2{
+  padding-left: 150px;
+}
+
+.border-color-tabla-18{
+  border-color: #ffb56e;
+}
 
 
 @media (max-width: 591px) {
@@ -125,10 +135,11 @@
     width: calc(100% - 30px);
     flex-wrap: nowrap;
 
-}
+  }
 
 
 }
+
 
 
 
@@ -138,11 +149,11 @@
         width: 100%;
     }
 
-    .tf-iphone {
+    .tf-iphone-18 {
         display: none;
     }
 
-    .tf-lapiz {
+    .tf-lapiz-18 {
       display: none;
   }
 
@@ -151,6 +162,12 @@
       }
     .tf-flecha{
         padding-bottom: 13px;
+    }
+    .padding-box-18-1{
+      padding-right: 0;
+    }
+    .padding-box-18-2{
+      padding-left: 0;
     }
 
       

@@ -1,11 +1,13 @@
 import React from "react";
 import "./page_006.css";
 
-function Page006() {
+function Page006(props) {
+  const pagina = "006";
+  var indexInput = 0;
   return (
       <div className="wrapper bgc-light">
         <div className="d-flex flex-column align-items-center pbp-20">
-          <div className="page bgc-goten position-relative" id="page_006">
+          <div className="page bgc-goten position-relative" id={"page_"+pagina}>
             <div className="w-100 mt-15 pe-5 ps-5 ">
               {/* Begin background lineas */}
               <div className="cb-lineas-6 pbp-60">
@@ -69,7 +71,7 @@ function Page006() {
                 <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
                   ABP &copy; SM
                 </div>
-                <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">6</div>
+                <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
               </div>
               {/* End pie de página */}
             

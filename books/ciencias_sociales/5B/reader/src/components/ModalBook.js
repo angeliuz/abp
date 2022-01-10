@@ -18,6 +18,7 @@ function ModalVideo(props) {
   const className = props.className;
   const image = props.image;
   const id = props.id;
+  const clasesImagen = props.clasesImagen;
   const [linkVideo, setLinkVideo] = useState("");
   const [tituloVideo, setTituloVideo] = useState("");
   const [tipoVideo, setTipoVideo] = useState("");
@@ -41,39 +42,10 @@ function ModalVideo(props) {
   };
 
 
-  // useEffect(() => {
-  //   getData();
-  // });
-
-  // const getData = () => {
-  //   const obtenerDatos = async () => {
-  //     const docSnap = await getDoc(docRef);
-  //     if(docSnap.exists()){
-  //       setLinkVideo(docSnap.data()[id][0]);
-  //       setTituloVideo(docSnap.data()[id][1]);
-  //       setTipoVideo(docSnap.data()[id][2]);
-  //     }else{
-  //       await setDoc(doc(db, coleccion, documento),{[id]:""});
-  //     }
-  //       // console.log("useEffect: " + docSnap.data()[id]);
-  //       // console.log("change: " + content1);
-  //   };
-  //   obtenerDatos();
-  // }
-
-  // function tipoDeVideo(){
-  //   if (tipoVideo == "vimeo") {
-  //     return <iframe width="80%" height="80%" title={id} src={linkVideo} frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe> ;
-  //   } else {
-  //     return <iframe width="80%" height="80%" title={id} src={linkVideo} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>;
-  //   }
-  // }
-
-
   return (
     <>
       <div className={className}>
-        <img src={image} className="cambio hp-40 text-center mtp-10 psp-10 pep-40" alt="" onClick={handleShow} />
+        <img src={image} className={clasesImagen} alt="" onClick={handleShow} />
       </div>
 
       <Modal 

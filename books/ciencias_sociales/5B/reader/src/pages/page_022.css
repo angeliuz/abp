@@ -7,8 +7,8 @@
      -webkit-print-color-adjust: exact !important;
  }
 
- .cb-outline{
-    outline: solid 2px #f39200;
+ .cb-outline-22{
+    outline: solid 2px var(--android18);
     outline-offset: -3px;
 }
 .cb-contenedor-1{
