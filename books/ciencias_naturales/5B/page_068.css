@@ -1,0 +1,179 @@
+.cb-page68 {
+  background: url(images/page_068/Fondo_001.svg) top center/cover no-repeat;
+  width: 100% !important;
+  height: 100% !important;
+  -webkit-print-color-adjust: exact !important;
+}
+.linea {
+  border-bottom: 1px dashed #dedede;
+  padding-top: 5px;
+  border-color: var(--dark);
+}
+.centrar-ver {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+.centrar-hor {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.mxwp-450 {
+  max-width: 450px;
+}
+.mxwp-480 {
+  max-width: 480px;
+}
+.mtp--20 {
+    margin-top: -20px;
+}
+.mtp-5 {
+    margin-top: 5px;
+}
+.mlp--40 {
+  margin-left: -40px;
+}
+.mlp--30 {
+  margin-left: -30px;
+}
+.hp-220 {
+    height: 220px;
+}
+.mxw-87 {
+    max-width: 87%;
+}
+.tf-nota1 {
+    margin-left: -30px;
+}
+.tf-nota2 {
+    margin-left: -40px;
+}
+.tf-nota3 {
+    margin-left: -40px;
+}
+.tf-camara {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    top: 100px;
+    z-index: 1;
+}
+.tf-notebook {
+    display: flex;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    z-index: 1;
+}
+.tf-celular {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    bottom: 380px;
+    z-index: 1;
+}
+.tf-mono {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    bottom: 25px;
+    z-index: 1;
+}
+@media all and (min-width: 837px) {
+.tf-respuesta1 {
+    display: flex;
+    position: absolute;
+    left: 80px;
+    top: 390px;
+    z-index: 1;
+}
+.tf-respuesta2 {
+    display: flex;
+    position: absolute;
+    left: 310px;
+    top: 390px;
+    z-index: 1;
+}
+.tf-respuesta3 {
+    display: flex;
+    position: absolute;
+    left: 530px;
+    top: 390px;
+    z-index: 1;
+}
+}
+@media all and (max-width: 837px) and (min-width: 623px){
+    .tf-respuesta1 {
+        display: flex;
+        position: absolute;
+        right: 55%;
+        top: 390px;
+        z-index: 1;
+    }
+    .tf-respuesta2 {
+        display: flex;
+        position: absolute;
+        left: 51%;
+        top: 390px;
+        z-index: 1;
+    }
+    .tf-respuesta3 {
+        display: flex;
+        position: absolute;
+        right: 38%;
+        top: 610px;
+        z-index: 1;
+    }
+    .tf-celular {
+        display: flex;
+        position: absolute;
+        right: 40px;
+        bottom: 340px;
+        z-index: 1;
+    }
+}
+@media all and (max-width: 622px) and (min-width: 605px){
+    .tf-respuesta1 {
+        display: flex;
+        position: absolute;
+        right: 38%;
+        top: 410px;
+        z-index: 1;
+    }
+    .tf-respuesta2 {
+        display: flex;
+        position: absolute;
+        right: 55%;
+        top: 630px;
+        z-index: 1;
+    }
+    .tf-respuesta3 {
+        display: flex;
+        position: absolute;
+        left: 51%;
+        top: 630px;
+        z-index: 1;
+    }
+}
+@media all and (max-width: 604px){
+    .tf-respuesta1 {
+        display: flex;
+        position: absolute;
+        right: 200px;
+        top: 440px;
+        z-index: 1;
+    }
+    .tf-respuesta2 {
+        display: flex;
+        position: absolute;
+        right: 200px;
+        top: 660px;
+        z-index: 1;
+    }
+    .tf-respuesta3 {
+        display: flex;
+        position: absolute;
+        right: 200px;
+        top: 880px;
+        z-index: 1;
+    }
+}
