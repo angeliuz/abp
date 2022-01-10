@@ -1,0 +1,134 @@
+.cb-page20 {
+  background: url(images/page_020/fondo_001.svg) top center/cover no-repeat;
+  width: 100% !important;
+  height: 100% !important;
+  -webkit-print-color-adjust: exact !important;
+}
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: var(--bulma);
+  border-radius: 50%;
+  display: inline-block;
+}
+.centrar-ver {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+.centrar-hor {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.mxwp-a {
+  max-width: 140px;
+}
+.tf-letra {
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  color: white !important;
+  font-size: 16px;
+}
+.tf-parrafo-caja {
+  font-size: 16px;
+  text-align: left !important;
+  color: #000 !important;
+  font-family: ubuntu-l, sans-serif;
+  background-color: #ffe5ca;
+  width: 420px;
+  padding-left: 8px;
+}
+.tf-megafono {
+  display: flex;
+  position: absolute;
+  left: 20px;
+  top: 180px;
+  z-index: 1;
+}
+.tf-regla {
+  display: flex;
+  position: absolute;
+  left: 60px;
+  top: 350px;
+  z-index: 1;
+}
+.tf-tijeras {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: 350px;
+  z-index: 1;
+}
+.tf-binoculares {
+  display: flex;
+  position: absolute;
+  left: 40px;
+  top: 550px;
+  z-index: 1;
+}
+.tf-nota {
+  display: flex;
+  position: absolute;
+  right: 30px;
+  top: 600px;
+  z-index: 1;
+}
+.tf-bicicleta {
+  display: flex;
+  position: absolute;
+  left: 200px;
+  bottom: 40px;
+  z-index: 1;
+}
+.tf-mono {
+  display: flex;
+  position: absolute;
+  right: 80px;
+  bottom: 15px;
+  z-index: 1;
+}
+.tf-frase {
+  display: flex;
+  position: absolute;
+  right: 180px;
+  bottom: 125px;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .tf-regla {
+    display: flex;
+    position: absolute;
+    left: 60px;
+    top: 530px;
+    z-index: 1;
+  }
+  .tf-tijeras {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 560px;
+    z-index: 1;
+  }
+  .tf-binoculares {
+    display: flex;
+    position: absolute;
+    left: 40px;
+    top: 780px;
+    z-index: 1;
+  }
+  .tf-nota {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 800px;
+    z-index: 1;
+  }
+  .tf-bicicleta {
+    display: flex;
+    position: absolute;
+    left: 80px;
+    bottom: 40px;
+    z-index: 1;
+  }
+}
