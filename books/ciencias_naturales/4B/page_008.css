@@ -1,0 +1,111 @@
+ .cb-cabecera{
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
+    background-color: var(--goten);
+    height: 80px;
+  }
+
+.cb-numero-inicial{
+    width: 100%;
+    max-width: 600px;
+    margin-right: 6%;
+    margin-left: 6%;
+}
+
+.linea2 {
+    border-bottom: 1px dashed #525252;
+    padding-top: 5px;
+}
+.linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+}
+
+.cb-seccion-inicial-p07{
+    max-width: 650px;
+    width: calc(100% - 30px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cb-seccion-inicial-col-a{
+    width: calc(100%/ 2);
+    max-width: 300px;
+  }
+  .cb-seccion-linea-p07 {
+    border: 1px solid var(--pidgey);
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .cb-seccion-outline-p07{
+    outline: solid 4px #ffffff;
+    outline-offset: -5px;
+  }
+.cb-pbp{
+    padding-bottom: 40px;
+}
+.cb-a span::before{
+    content: "a.";
+    color: crimson;
+    margin-right: 5px;
+}
+.cb-b span::before{
+    content: "b.";
+    color: crimson;
+    margin-right: 5px;
+}
+  .cb-union-a{
+      position: absolute;
+      top: 90px;
+      right: -19px;
+      transform: rotate(-90deg);
+      width: 10px;
+      z-index: 1;
+  }
+  .cb-union-b{
+    position: absolute;
+    top: 250px;
+    right: -19px;
+    transform: rotate(-90deg);
+    width: 10px;
+    z-index: 1;
+}
+.cb-ejercicio-final-bloques{
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
+}
+.cb-ejercicio-final-lef{
+    width: calc(100% / 2);
+    height: 280px;
+    background-color: var(--shogun);
+    margin-top: 50px;
+    max-width: 300px;
+    margin-right: 30px;
+
+}
+.cb-ejercicio-final-rig{
+    width: calc(100% / 2);
+}
+.cb-ejercicio-final-arriba{
+    max-width: 300px;
+    height: 250px;
+    margin-bottom: 20px;
+    background-color: var(--kazuha);
+}
+.cb-ejercicio-final-abajo{
+    max-width: 300px;
+    height: 200px;
+    background-color: var(--shogun);
+}
+@media all and (max-width: 600px) {
+
+
+    .cb-union-a{
+        display: none;
+    }
+    .cb-union-b{
+        display: none;
+    }
+}
