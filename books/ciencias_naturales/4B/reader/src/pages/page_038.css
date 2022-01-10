@@ -1,0 +1,82 @@
+.cabecera {
+  -webkit-clip-path: polygon(100% 100%, 0% 0%, 0% 0%, 8% 0%);
+  clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
+  background-color: var(--android18);
+  height: 130px;
+}
+
+
+.container-row {
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+}
+
+.cajota {
+  height: 800px;
+
+
+
+}
+
+
+.megafono {
+  top: 970px;
+  left: 80px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.calendario {
+  top: 800px;
+  left: 750px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.vinoculares {
+  top: 240px;
+  left: 740px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.reloj {
+  top: 350px;
+  left: 60px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+
+
+@media (max-width: 992px) {
+  .calendario {
+    display: none;
+  }
+
+  .megafono {
+    display: none;
+  }
+
+  .vinoculares {
+    display: none;
+  }
+
+  .reloj {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .cajota {
+    margin: 0 auto;
+
+  }
+}

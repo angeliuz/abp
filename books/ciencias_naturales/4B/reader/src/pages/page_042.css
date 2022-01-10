@@ -1,0 +1,93 @@
+.cabecera {
+    -webkit-clip-path: polygon(100% 100%, 0% 0%, 0% 0%, 8% 0%);
+    clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
+    background-color: var(--android18);
+    height: 130px;
+  }
+  .caja {
+      font-size: 18px;
+      height: 60px;
+      width: 128px;
+  }
+  .caja-titulo{
+      width: 580px;
+      height: 60px;
+  }
+  .cajarespuesta {
+      width: 453px;
+  }
+  .frase {
+      max-width: 530px;
+  }
+  .frase2 {
+    max-width: 460px;
+}
+.ajuste {
+    padding-left: 60px;
+}
+.cuadrado1 {
+    background-color: #4a96d2;
+    width: 30px;
+    height: 30px;
+}
+.cuadrado2 {
+    background-color: #ffcc00;
+    width: 30px;
+    height: 30px;
+}
+.cuadrado3 {
+    background-color: #3fa535;
+    width: 30px;
+    height: 30px;
+}
+.tf-cantante {
+    display: flex;
+    position: absolute;
+    right: 90px;
+    top: 400px;
+    z-index: 1;
+}
+.tf-camarografo {
+    display: flex;
+    position: absolute;
+    left: 60px;
+    bottom: 610px;
+    z-index: 1;
+}
+.tf-mono {
+    display: flex;
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    z-index: 1;
+}
+@media all and (max-width: 820px) {
+.ajuste {
+    padding-left: 0px;
+}
+.caja-titulo{
+    width: 580px;
+    height: 90px;
+}
+.tf-cantante {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    top: 450px;
+    z-index: 1;
+}
+.tf-camarografo {
+    display: flex;
+    position: absolute;
+    left: 20px;
+    bottom: 680px;
+    z-index: 1;
+}
+.tf-mono {
+    display: flex;
+    position: absolute;
+    right: 100px;
+    bottom: 80px;
+    z-index: 1;
+}
+}
