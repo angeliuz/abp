@@ -1,0 +1,121 @@
+.cb-cabecera{
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
+    background-color: var(--pikachu);
+    height: 80px;
+  }
+  .cb-pad{
+    padding-left: 6%;
+    padding-right: 6%
+  }
+.cb-inicio-3{
+  width: 100%;
+  max-width: 250px;
+}
+.cb-box-a {
+  background-color: white;
+  left: 10px;
+  top: 93px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #7c7c7c;
+  text-align: center;
+}
+.cb-ejercicio-1-p60{
+  width: 100%;
+  max-width: 370px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--goro);
+  box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.cb-opcion-a{
+  width: calc(100% / 2);
+}
+.cb-opcion-b{
+  width: calc(100% / 2);
+}
+.cb-interior-lista{
+  width: 100%;
+  max-width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.cb-ejercicioinicial-p56{
+  max-width: 650px;
+  width: calc(100% - 30px);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px 5px 5px 5px;
+}
+.cb-ejercicioinicial-cajas{
+  width: calc(100% / 2);
+  background-color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  box-shadow: 1px 1px 7px 1px rgb(0 0 0 / 20%);
+  height: 200px;
+}
+.cb-ejerciciofinal-caja-p56{
+  width: 100%;
+  background-color: #dff0ea;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  max-width: 680px;
+  box-shadow: 1px 1px 7px 1px rgb(0 0 0 / 20%);
+}
+.cb-rotate-01{
+  transform: rotate(-1deg);
+  z-index: 1;
+}
+.cb-rotate-02{
+  transform: rotate(1deg);
+}
+.cb-objeto-p56{
+  position: absolute;
+  left: 131px;
+  top: -23px;
+  width: 40px;
+}
+.cb-mujer-p56{
+  position: absolute;
+  right: -19px;
+  bottom: -3px;
+  width: 40px;
+}
+.line-dotted {
+    border: 1px dashed #dedede;
+}
+
+.linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color:var(--lightDark);
+}
+
+.cb-personaje-p56{
+    position: absolute;
+    left: 25px;
+    top: 134px;
+    transform: rotate(1grad);
+    width: 120px;
+  }
+
+@media all and (max-width: 660px) { 
+  .cb-interior-lista{
+    max-width: 280px;
+  }
+
+}

@@ -63,9 +63,9 @@ function ModalVideo(props) {
 
   function tipoDeVideo(){
     if (tipoVideo == "vimeo") {
-      return <iframe title={id} src={linkVideo} width="100%" height="100%" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe> ;
+      return <iframe width="80%" height="80%" title={id} src={linkVideo} frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe> ;
     } else {
-      return <iframe width="100%" height="100%" src={linkVideo} title={id} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>;
+      return <iframe width="80%" height="80%" title={id} src={linkVideo} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>;
     }
   }
 
@@ -83,11 +83,11 @@ function ModalVideo(props) {
         fullscreen={fullscreen}
         aria-labelledby="contained-modal-title-vcenter"
         >
-        <Modal.Header style={{backgroundColor: "#000000", opacity: .9, color: "white"}} className="color-white boton-close-white">
+        <Modal.Header className="color-white boton-close-white video-bgc">
           <Modal.Title id="contained-modal-title-vcenter" className="f-Ubuntu-M fsp-20 color-white">{tituloVideo}</Modal.Title>
           <CloseButton variant="white" onClick={handleClose} />
         </Modal.Header>
-        <Modal.Body style={{backgroundColor: "#000000", opacity: .9}}>
+        <Modal.Body className="d-flex justify-content-center align-items-center video-bgc">
           {tipoDeVideo()}
           {/* <iframe title={id} src={linkVideo} width="100%" height="100%" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe> */}
         </Modal.Body>

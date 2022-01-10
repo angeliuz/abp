@@ -1,0 +1,119 @@
+.cabecera {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
+    background-color: var(--android18);
+    height: 90px;
+}
+
+
+
+.container-row {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.bloque {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #878786;
+    border-radius: 50px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.bola-izquierdo {
+    left: 96%;
+    top: 43%;
+
+}
+
+.bola-derecha {
+    left: -2%;
+    top: 43%;
+
+}
+
+.mse-auto {
+    margin-left: -20px;
+}
+
+.msp--50 {
+    margin-left: -50px;
+}
+
+.msp--20 {
+    margin-left: -10px;
+}
+
+.msp-2 {
+    margin-left: 2px;
+}
+
+.msp--5 {
+    margin-left: -0px;
+}
+
+.mep-10 {
+    margin-right: 10px;
+}
+
+.mtp--31 {
+    margin-top: -31px;
+}
+
+.mtp--20 {
+    margin-top: -80px;
+}
+
+.mtp-190 {
+    margin-top: 190px;
+}
+
+.msp--10 {
+    margin-left: -10px;
+}
+
+.mep--10 {
+    margin-right: 0px;
+}
+
+.circulo {
+
+    left: 350px;
+
+}
+
+.caja {
+    width: 100%;
+}
+
+.alto {
+    min-height: 120px;
+    padding-left: auto;
+    padding-right: auto;
+    vertical-align: middle;
+
+}
+
+.mesa {
+    width: 100%;
+
+}
+
+.dibujo {
+    top: 906px;
+    left: 110px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+@media (max-width: 710px) {
+    .ajuste{
+        height:40px;
+    }
+}

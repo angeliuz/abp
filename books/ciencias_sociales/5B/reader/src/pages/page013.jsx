@@ -12,42 +12,39 @@ function Page013() {
 
     <div className="wrapper bgc-light">
             <div className="d-flex flex-column align-items-center pbp-20">
-              <div className="page bgc-white overflow-hidden position-relative" id="page_07">
-                <div className="cabecera-13">
-                  <div className="row ptp-20 px-4 m-0 centrar">
-                    <div className="col-md-3 col-sm-3 p-0 m-0 color-garou f-IntroRustG-Base d-flex justify-content-center">
-                      <div className="caja wp-150 text-center fsp-24 ">SESIÓN 2</div>
-                    </div>
-                    <div className="col-md-9 col-sm-9 p-0 m-0 fsp-24 f-Ubuntu-M color-white cambio">
-                      <div className="section-name w-100 h-100 d-flex align-items-center fw-700">¿Qué sé y qué necesito saber?</div>
-                    </div>
+              <div className="page bgc-white overflow-hidden position-relative" id="page_013">
+                {/* BEGIN CABECERA VERSIÓN 2 */}
+                <div className="cabecera-v2 bgc-bulma d-flex flex-column">
+                  <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
+                    <div className="caja wp-150 text-center fsp-24 f-IntroRustG-Base">SESIÓN 2</div>
+                    <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¿Qué sé y qué necesito saber?</div>
                   </div>
-                  <div className="row f-colby-compres-medium fsp-17 lh-sm text-white text-center psp-60 pep-60 justify-content-center hp-60">
-                    <div className="col p-0 align-self-center">
-                      Mis objetivos en
-                      <br /> esta sesión son:
+                  <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
+                    <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+                      Mis objetivos en <br /> esta sesión son:
                     </div>
-                    <div className="col-sm-auto p-0 align-self-end">
-                      <img src="images/page_007/img_001.svg" className="wp-40 rotar" alt="" />
+                    <div className="p-0 align-self-center">
+                      <img src="images/page_007/img_001.svg" className="wp-40 arrow-global" alt="" />
                     </div>
-                    <div className="col p-0 align-self-center">
-                    Compartir lo que sé sobre
-                      <br /> los derechos y los deberes<br/> que estos generan.
+                    <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+                    Compartir lo que sé sobre <br /> los derechos y los deberes<br/> que estos generan.
                     </div>
-                    <div className="col-sm-auto p-0 align-self-start">
-                      <img src="images/page_007/img_003.svg" className="wp-40 rotar" alt="" />
+                    <div className="p-0 align-self-center">
+                      <img src="images/page_007/img_003.svg" className="wp-40 arrow-global" alt="" />
                     </div>
-                    <div className="col p-0 align-self-center">
+                    <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
                     Compartir lo que sé <br/> acerca de las revistas.
                     </div>
-                    <div className="col-sm-auto p-0 align-self-end">
-                      <img src="images/page_007/img_001.svg" className="wp-40 rotar" alt="" />
+                    <div className="p-0 align-self-center">
+                      <img src="images/page_007/img_001.svg" className="wp-40 arrow-global" alt="" />
                     </div>
-                    <div className="col p-0 align-self-center">
+                    <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
                     Reflexionar sobre lo que sé <br/> y lo que necesitamos saber <br/> para el proyecto.
                     </div>
                   </div>
-                </div>
+                </div> 
+                {/* END CABECERA VERSIÓN 2 */}
+
 
                 <div className="ptp-10 psp-0">
                     <div className="d-flex">

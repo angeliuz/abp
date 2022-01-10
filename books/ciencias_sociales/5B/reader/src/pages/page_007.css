@@ -9,7 +9,8 @@
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
   clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
   background-color: var(--goten);
-  height: 160px;
+  height: auto;
+  padding-bottom: 30px;
 }
 
 .rect-sesion{
@@ -47,12 +48,12 @@
   background-position: center;
   padding: 8px;
 }
-.cb-caja {
+/* .cb-caja {
   background-image: url(images/page_007/img_002.svg);
   background-repeat: no-repeat;
   background-size: contain;
 
-}
+} */
 
 .cb-paper {
   position: relative;
@@ -121,8 +122,9 @@
   .cambio {
       padding: 0;
   }
-  .cabecera {
-      height: 380px;
+  .cabecera-7 {
+    height: auto;
+    padding-bottom: 30px;
   }
   .rotar {
       transform: rotate(90deg);

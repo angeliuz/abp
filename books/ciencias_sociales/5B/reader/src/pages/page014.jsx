@@ -1,5 +1,6 @@
 import React from "react";
 import InputBox from "../components/InputBox";
+import ModalBook from "../components/ModalBook";
 
 import "./page_014.css";
 
@@ -13,7 +14,7 @@ function Page014() {
     <div className="wrapper bgc-light">
             <div className="d-flex flex-column align-items-center pbp-20">
               <div className="page bgc-white overflow-hidden position-relative" id="page_014">
-            <div className="cabecera">
+            <div className="cabecera-14">
 
             </div>
 
@@ -85,35 +86,41 @@ function Page014() {
             <div className="ptp-10 psp-85 pe-6">
                 <div className="d-flex">
                     <div className="f-ccdigitaldelivery-bold fsp-35 color-bulma">3</div>
-                    <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10">Realizo los pasatiempos y respondo.  </div>
-                    <div className="pep-10 psp-15 ptp-10"><img src="images/page_014/img_003.svg" className="" alt="" /></div>
+                    <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Realizo los pasatiempos y respondo.  </div>
+                    <div className="pep-10 psp-15 ptp-10">
+                      <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_014/img_003.svg" className="p-0 px-1" />
+                    </div>
                 </div>
             </div>
 
             <div className="row p-0">
-              <div className="col-12">
-                <div className="position-absolute">
-                  <img src="images/page_014/img_005_.png" className="w-70" alt="" />
+              <div className="col-12 d-flex">
+               
+                <div className="mbp-30 seccion-semaforo">
+                  <img src="images/page_014/img_005_.png" className="wp-150" alt="" />
                 </div>
-                <div className="psp-100 ptp-20 pep-100 bgc-yellow">
 
-                  <div className="row p-0 mbp-200">
-                    <div className="col-12 f-Ubuntu-L hp-70 border-style-solid border-3 rounded-p-10 border-color-luke mbp-10 text-start">
-                      <div className="bgc-red msp-80">
+                <div className="w-70 msp--75 mtp-15 fsp-13">
+                  <div className="f-Ubuntu-L border-style-solid border-3 rounded-p-10 border-color-luke mb-1 text-start  hp-70">
+                    <div className="msp-80">
                         <span className="text-start">Para superar el desafío, tengo que profundizar en...</span>
-                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-2 fsp-12 text-start flex-grow-1 lhp-25" />
-                      </div>
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-2 fsp-12 text-start flex-grow-1 lhp-25 contenedor-linea mep-10" />
                     </div>
-                    <div className="col-12 f-Ubuntu-L hp-70 border-style-solid border-3 rounded-p-10 border-color-jawa mbp-10 text-start">
-                      <span className="">Las dudas que tengo son...</span>
+                  </div>
+                  <div className="f-Ubuntu-L border-style-solid border-3 rounded-p-10 border-color-jawa mb-1 text-start  hp-70">
+                    <div className="msp-80">
+                        <span className="text-start">Las dudas que tengo son...</span>
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-2 fsp-12 text-start flex-grow-1 lhp-25 contenedor-linea mep-10" />
                     </div>
-                    <div className="col-12 f-Ubuntu-L hp-70 border-style-solid border-3 rounded-p-10 border-color-success mbp-10 text-start">
-                      <span className="">Ya sé...</span>
+                  </div>
+                  <div className="f-Ubuntu-L border-style-solid border-3 rounded-p-10 border-color-success mbp-10 text-start  hp-70">
+                    <div className="msp-80">
+                        <span className="text-start">Ya sé...</span>
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-2 fsp-12 text-start flex-grow-1 lhp-25 contenedor-linea mep-10" />
                     </div>
-
+                  </div>
                 </div>
 
-                </div>
               </div>
             </div>
 
@@ -127,8 +134,8 @@ function Page014() {
                     ABP &copy; SM
                   </div>
                   <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">14</div>
-                </div>
-                <div className="row position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{bottom:0}}>
+              </div>
+                <div className="row position-absolute caja-flotante2 p-0 m-0 align-items-end marcador-etapa" style={{bottom:0}}>
 
                     <div className="col-1 position-relative col-sm-2 p-0 m-0">
                       <img src="images/rotulo_motivacion.svg" className="oculto" alt="" />
