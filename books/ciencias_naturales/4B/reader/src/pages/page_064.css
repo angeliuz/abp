@@ -1,0 +1,207 @@
+.cb-cabecera {
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
+  background-color: var(--saitama);
+  height: 80px;
+}
+
+
+
+.alinea {
+  margin: 0 auto;
+}
+
+
+.hp-700{
+  height: 730px !important;
+}
+
+.hp-300{
+  height: 230px !important;
+}
+
+.cuadro-lista{
+  bottom: 80px;
+  right: 70px;
+  height: 270px;
+  width: 270px;
+}
+
+ 
+
+.img-mono {
+  position: absolute;
+  top: -140px;
+  left: 40px;
+}
+
+
+
+
+
+.img-lapiz {
+  position: absolute;
+  bottom: 650px;
+  left: 50px;
+}
+
+
+@media all and (max-width: 991px) {
+
+  .caja1 {
+    border-radius: 0px 0px 10px 10px !important;
+    padding-right: 17px !important;
+    padding-top: 12px;
+    border: none !important;
+
+  }
+
+  .caja2 {
+    border-radius: 10px 10px 10px 10px !important;
+    padding-left: 17px !important;
+    padding-top: 12px;
+    margin-top: 20px !important;
+    border: none !important;
+  }
+
+}
+
+
+
+/*   MEDIAS V2*/
+
+@media all and (max-width: 465px) {
+
+  .ajuste-cuadro2 {
+    height: 105px !important;
+    margin-right: 0px;
+  }
+
+
+}
+
+@media all and (max-width: 450px) {
+
+  .fila-ancho {
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+
+  }
+
+  .col-parrafo {
+    justify-content: center !important;
+    margin: 0 auto !important;
+    width: 100%;
+    height: 80px !important;
+  }
+
+
+
+
+
+
+  .ajuste-cuadro {
+    height: 70px;
+    margin-left: 0px !important;
+    margin-right: 0px;
+  }
+
+
+  .ajuste-cuadro2 {
+    height: 90px;
+    margin-left: 0px !important;
+    margin-right: 0px;
+  }
+
+}
+
+
+
+
+
+
+
+@media all and (max-width: 720px) {
+  .img-mono {
+    display: none;
+  }
+
+
+}
+
+@media all and (max-width: 760px) {
+  .img-lapiz {
+    position: absolute;
+    bottom: 650px;
+    left: 6%;
+  }
+
+
+}
+
+
+
+/*MEDIAS V1  */
+@media all and (max-width: 780px) {
+
+
+  .ajuste-cuadro2 {
+    height: 85px;
+  }
+
+
+}
+
+
+@media all and (max-width: 607px) {
+
+  .ajuste-cuadro {
+    height: 100px;
+  }
+
+
+
+}
+
+ 
+
+
+@media all and (max-width: 500px) {
+
+  .ajuste-cuadro {
+    height: 145px;
+  }
+
+  .ajuste-cuadro2 {
+    height: 200px;
+    background-color: aqua;
+  }
+
+
+}
+
+@media all and (max-width: 462px) {
+
+  .ajuste-cuadro {
+    height: 145px;
+  }
+
+  .ajuste-cuadro2 {
+    height: 200px;
+    background-color: aqua;
+  }
+
+
+}
+
+
+@media all and (max-width: 600px) {
+  .cuadro-lista{
+    bottom: 60px;
+    right: 50px;
+    height: 270px;
+    width: 270px;
+  }
+
+}
+
