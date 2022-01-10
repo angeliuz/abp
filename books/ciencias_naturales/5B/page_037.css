@@ -1,0 +1,53 @@
+.cb-page37 {
+    background: url(images/page_037/fondo_001.svg) top center/cover no-repeat;
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-print-color-adjust: exact !important;
+  }
+  .linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color: var(--dark);
+  }
+  .tf-vaso {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    top: 200px;
+    z-index: 1;
+  }
+  .tf-manzana {
+    display: flex;
+    position: absolute;
+    left: 50px;
+    top: 210px;
+    z-index: 1;
+  }
+  .tf-computador {
+    display: flex;
+    position: absolute;
+    left: 40px;
+    top: 600px;
+    z-index: 1;
+  }
+  .tf-celular {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    top: 660px;
+    z-index: 1;
+  }
+  .tf-nota {
+    display: flex;
+    position: absolute;
+    left: 40px;
+    bottom: 120px;
+    z-index: 1;
+  }
+  .tf-banana {
+    display: flex;
+    position: absolute;
+    right: 60px;
+    bottom: 40px;
+    z-index: 1;
+  }

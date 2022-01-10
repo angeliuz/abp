@@ -35,6 +35,81 @@
 .mtp-8 {
   margin-top: 8px;
 }
+.hp-20 {
+  height: 20px;
+}
 .bgc-zoe {
   background-color: #76ccc9;
+}
+.tf-calendario {
+  display: flex;
+  position: absolute;
+  left: 40px;
+  top: 30px;
+  z-index: 1;
+}
+.tf-computador {
+  display: flex;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  z-index: 1;
+}
+@media all and (min-width: 768px) {
+  .psp-20-r {
+    padding-left: 20px;
+  }
+  .pep-20-r {
+    padding-right: 20px;
+  }
+  .tf-lapiz {
+    display: flex;
+    position: absolute;
+    right: 25px;
+    top: 160px;
+    z-index: 1;
+  }
+  .tf-ampolleta {
+    display: flex;
+    position: absolute;
+    left: 50px;
+    top: 480px;
+    z-index: 1;
+  }
+  .tf-planilla {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 520px;
+    z-index: 1;
+  }
+}
+@media all and (max-width: 768px) {
+  .psp-20-r {
+    padding-left: 0px;
+  }
+  .pep-20-r {
+    padding-right: 0px;
+  }
+  .tf-lapiz {
+    display: flex;
+    position: absolute;
+    right: 25px;
+    top: 160px;
+    z-index: 1;
+  }
+  .tf-ampolleta {
+    display: flex;
+    position: absolute;
+    left: 50px;
+    top: 580px;
+    z-index: 1;
+  }
+  .tf-planilla {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 870px;
+    z-index: 1;
+  }
 }
