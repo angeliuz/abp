@@ -1,0 +1,49 @@
+.cabecera {
+    -webkit-clip-path: polygon(100% 100%, 0% 0%, 0% 0%, 8% 0%);
+    clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
+    background-color: var(--android18);
+    height: 90px;
+}
+
+
+.container-row {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.cajota {
+    height: 750px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+
+
+.colores {
+    top: 400px;
+    left: 65px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+
+}
+
+.lapiz {
+    top: 114px;
+    left: 367px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+
+}
+
+.dibujo {
+    top: 806px;
+    right: -73px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+
+}
