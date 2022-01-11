@@ -1,0 +1,174 @@
+.cabecera{
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
+  background-color: var(--bulma);
+  height: 80px;
+}
+
+.mtp--2 {
+  margin-top: -10px;
+}
+
+.tf-letra {
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  color: white !important;
+}
+.tf-iphone-18{
+  position: absolute;
+  left: 500px;
+  top: -44px;
+}
+.tf-lapiz-18{
+  position: absolute;
+  left: 155px;
+  top: 130px;
+}
+.tf-block {
+  border: 1px solid #242423;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.tf-outline{
+  outline: solid 4px #ffffff;
+  outline-offset: -5px;
+}
+.tf-contenido-caja-telefono {
+  position: relative;
+  margin-right: 190px;
+  margin-left: auto;
+  max-width: 550px;
+  width: calc(100% - 30px);
+  flex-wrap: nowrap;
+}
+.tf-contenido-caja-lapiz {
+  position: relative;
+  margin-right: 90px;
+  margin-left: auto;
+  max-width: 550px;
+  width: calc(100% - 30px);
+  flex-wrap: nowrap;
+}
+.tf-interior-caja{
+  background-color: white;
+  margin: 0px 1px 4px 0px;
+  border-radius: 8px 8px 0px 0px;
+  padding: 5px 10px;
+}
+.tf-flecha{
+  padding-bottom: -2px;
+}
+.tf-personaje-18{
+  position: absolute;
+  right: 55px;
+  top: -86px;
+  transform: rotate(1grad);
+}
+
+.tf-parrafo-caja {
+  font-size: 13px;
+  text-align: left !important;
+  color: #000 !important;
+  font-family: ubuntu-l, sans-serif;
+  background-color: #ffe5ca;
+  width: 335px;
+  padding-left: 8px;
+}
+
+
+.line-dotted {
+    border: 1px dashed #dedede;
+}
+
+.block-bottom-18 {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
+}
+
+.rounded-caja {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color:var(--dark);
+}
+
+.padding-box-18-1{
+  padding-right: 150px;
+}
+.padding-box-18-2{
+  padding-left: 150px;
+}
+
+.border-color-tabla-18{
+  border-color: #ffb56e;
+}
+
+
+@media (max-width: 591px) {
+  .cabecera {
+    height: 80px;
+  }
+  .espacio-titulo{
+    margin-bottom: 10px;
+  }
+
+  .margen-centro{
+    align-items: center;
+    justify-items: center;
+    height: 35px;
+    margin-left: 40px;
+  }
+
+  .tf-contenido-caja-telefono {
+
+    position: relative;
+    margin-right: 190px;
+    margin-left: auto;
+    max-width: 550px;
+    width: calc(100% - 30px);
+    flex-wrap: nowrap;
+
+  }
+
+
+}
+
+
+
+
+@media all and (max-width: 800px) {
+
+    .titulo-linea .linea{
+        width: 100%;
+    }
+
+    .tf-iphone-18 {
+        display: none;
+    }
+
+    .tf-lapiz-18 {
+      display: none;
+  }
+
+    .tf-contenido-cajas {
+        flex-wrap: wrap;
+      }
+    .tf-flecha{
+        padding-bottom: 13px;
+    }
+    .padding-box-18-1{
+      padding-right: 0;
+    }
+    .padding-box-18-2{
+      padding-left: 0;
+    }
+
+      
+}

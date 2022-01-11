@@ -1,0 +1,134 @@
+.cabecera {
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
+  background-color: var(--android18);
+  height: 230px;
+}
+.caja {
+  background-image: url(../5B/images/page_041/img_001.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px 10px 10px 10px;
+}
+.titulo-bloque {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Ubuntu-M", sans-serif;
+}
+.linea {
+  padding-top: 5px;
+  min-width: 55px;
+  border: 3px;
+}
+.xd {
+  border: 1.5px solid;
+  border-radius: 5px;
+}
+.bloque {
+  min-width: 200px;
+}
+.espacio {
+  min-width: 200px;
+  min-height: 200px;
+}
+.distancia {
+  gap: 5rem !important;
+}
+.der {
+  margin-left: 10%;
+  align-items: left !important;
+}
+.izq {
+  margin-right: 50%;
+}
+.visi-responsive {
+  display: none !important;
+}
+
+.tf-caja {
+  display: flex;
+  position: absolute;
+  font-size: 16px;
+  text-align: center !important;
+  left: 80px;
+  top: 52px;
+  z-index: 1;
+}
+.tf-centro {
+  display: flex;
+  position: absolute;
+  font-size: 16px;
+  text-align: center !important;
+  left: 292px;
+  top: 490px;
+  z-index: 1;
+  height: 350px;
+}
+.cuadro-uno {
+  display: flex !important;
+  gap: 3rem !important;
+}
+.centrar {
+  align-items: center !important;
+  justify-content: center !important;
+}
+.giro {
+  transform : rotate(270deg);
+}
+.colorfondo {
+  background-color: #95a6b1;
+  width: 100%;
+  text-align: center !important;
+  align-items: center !important;
+  padding: 5px;
+  border-radius: 40px;
+}
+.tf-palabra {
+display: none;
+}
+.item {
+  width: 150px;
+  text-align: center !important;
+  padding: 5px;
+  border-radius: 40px;
+  justify-content: center !important;
+}
+.concepto {
+border-radius: 10px;
+width: 500%;
+}
+.imagen {
+  border-radius: 10px;
+  width: 600%;
+  }
+ 
+@media (max-width: 860px) {
+  .cambio {
+    padding: 0;
+  }
+  .tf-centro {
+    display: none;
+  }
+  .cuadro-uno {
+    display: flex !important;
+    gap: 3rem !important;
+  }
+  .visi-web {
+   display: none !important;
+  }
+  .visi-responsive {
+    display: flex !important;
+  }
+  .bloque {
+    min-width: 100%;
+  }
+  .tf-palabra {
+    display: flex;
+    position: absolute;
+    font-size: 16px;
+    text-align: center !important;
+    left: 15px;
+    top: 410px;
+    z-index: 1;
+  }
+}

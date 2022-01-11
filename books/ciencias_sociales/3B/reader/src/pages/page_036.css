@@ -1,0 +1,23 @@
+.bgc-contenedor-36{
+  background-color:#f3e2cd;
+}
+
+.padding-box-36-1{
+  padding-right: 30%;
+  padding-left: 0px;
+}
+.padding-box-36-2{
+  padding-right: 20px;
+  padding-left: 30%;
+}
+
+@media (max-width: 768px) {
+  .padding-box-36-1{
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .padding-box-36-2{
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
