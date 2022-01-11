@@ -5,7 +5,7 @@ import ModalBook from "../components/ModalBook";
 import "./page_038.css";
 
 function Page038(props) {
-REACT
+
   const pagina = "038";
   var indexInput = 0;
 

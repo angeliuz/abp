@@ -94,14 +94,7 @@
 .rounded-caja {
     border-radius: 20px 20px 0px 0px;
   }
-  
-  
-.caja {
-    background-image: url(images/page_013/img_001.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding: 10px 10px 10px 10px;
-  }
+
 
   @media (max-width: 750px) {
     .cabecera {
