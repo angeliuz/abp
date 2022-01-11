@@ -7,24 +7,29 @@
 
 
 .container-row {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #d8eeea;
+    border-radius: 10px;
+
 
 }
 
 .caja-borde {
-    height: 300px;
-    border: double;
-    border-color: #f39200;
-    border-width: 6px;
-    border-radius: 20px;
+    height: 600px;
+    max-width: 600px;
+    border: 1px solid;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
 
-.cb-seccion-2 {
-    
-    margin-left: 20px;
-    margin-right: 20px;
-}
+
 
 .dibujo {
     position: absolute;
@@ -32,61 +37,42 @@
     top: -135px;
 }
 
-.crucigrama {
-    max-width: 680px;
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
-   
-}
+
+
 .palta {
     position: absolute;
     left: 309px;
     top: 253px;
 }
 
-.lapiz {
-    position: absolute;
-    left: -7px;
-    top: 25px;
-}
-.botella {
-    position: absolute;
-    left: -28px;
-    top: 109px;
-}
 
 
-.linea {
-    border-bottom: 2px dotted gray;
-    padding-top: 5px;
-    padding-bottom: 0px;
-    margin-right: 10px;
-    margin-left: 10px;
 
-}
+
 
 @media (max-width: 848px) {
-    .palta{
+    .palta {
         display: none;
     }
 }
-    
+
 @media (max-width: 767px) {
     .rotar {
-      transform: rotate(90deg);
-      margin-left: calc(55% - 25px);
-      margin-top: -50px;
-      margin-bottom: 40px; 
-      
+        transform: rotate(90deg);
+        margin-left: calc(55% - 25px);
+        margin-top: -50px;
+        margin-bottom: 40px;
+
     }
+
     .separa {
-      padding-bottom: 15px;
+        padding-bottom: 15px;
     }
+
     .espaciado {
-     
-      margin-top: -30px;
-      margin-bottom: -110px;
-      
+
+        margin-top: -30px;
+        margin-bottom: -110px;
+
     }
 }
