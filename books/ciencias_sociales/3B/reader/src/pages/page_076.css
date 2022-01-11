@@ -1,0 +1,157 @@
+.cb-cabecera{
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
+    background-color: var(--pikachu);
+    height: 80px;
+  }
+
+.cb-block {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cb-contenido-cajas {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 550px;
+    width: calc(100% - 30px);
+    flex-wrap: nowrap;
+  }
+  .cb-outline{
+    outline: solid 4px #f0e0c9;
+    outline-offset: -5px;
+}
+
+.line-dotted {
+    border: 1px dashed #dedede;
+}
+
+
+.rounded-caja {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color:var(--dark);
+}
+
+  .cb-iphone{
+    position: absolute;
+    left: -55px;
+    bottom: 80px;
+  }
+  .cb-interior-caja{
+    background-color: white;
+    margin: -8px -8px 20px -8px;
+    border-radius: 8px 8px 0px 0px;
+    padding: 5px 10px;
+  }
+
+.cb-alto{
+  height: 340px;
+}
+.cb-caja-principal{
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 630px;
+  background-color: #f0e0c9;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  border-radius: 18px 18px 18px 18px;
+}
+.cb-cuatro{
+  max-width: 400px;
+}
+.cb-personaje{
+  position: absolute;
+    right: -55px;
+    top: 323px;
+}
+.cb-simbolo{
+  position: absolute;
+    left: -32px;
+    top: 25px;
+}
+.cb-mapa{
+  position: absolute;
+    right: -55px;
+    top: -95px;
+}
+.cb-nota{
+  position: absolute;
+    left: -75px;
+    bottom: -25px;
+}
+.cb-flechaa{
+  position: absolute;
+    right: -20px;
+    bottom: -25px;
+}
+.cb-flechac{
+  position: absolute;
+    left: -20px;
+    bottom: -25px;
+}
+.cb-flechad{
+  position: absolute;
+    left: -10px;
+    bottom: -15px;
+}
+.cb-flechab{
+  position: absolute;
+    left: -17px;
+    top: -22px;
+}
+.cb-titulonumero{
+  max-width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+@media all and (max-width: 800px) {
+
+    .titulo-linea .linea{
+        width: 100%;
+    }
+
+    .cb-personaje{
+        display: none;
+    }
+
+    .cb-contenido-cajas {
+        flex-wrap: wrap;
+    }
+    .cb-simbolo{
+        display: none;
+    }
+    .cb-mapa{
+      display: none;
+    }
+    .cb-nota{
+    display: none;
+    }
+    .cb-flechaa{
+      display: none;
+    }
+    .cb-flechab{
+      display: none;
+    }
+    .cb-flechac{
+      display: none;
+    }
+    .cb-flechad{
+      display: none;
+    }
+    .cb-titulonumero{
+      padding-left: 25px;
+    }
+
+      
+}

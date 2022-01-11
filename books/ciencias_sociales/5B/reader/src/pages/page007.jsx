@@ -63,7 +63,7 @@ function Page007(props) {
                 <div className="cb-paper-content f-Ubuntu-L text-start">
                   <img src="images/page_007/img_002.png" className="cb-carta" alt="" />
                   <img src="images/page_007/img_001.png" className="cb-lapiz" alt="" />
-                  <p>Queridos estudiantes,</p>
+                  <p className="text-start">Queridos estudiantes,</p>
                   <p>Soy dirigente de una organización que promueve el respeto de los derechos de todas las personas en Chile.</p>
 
                   <p>Junto con nuestro equipo, hemos impulsado numerosas iniciativas y reflexiones. A partir de ellas, aprendimos que es fundamental que todos los integrantes de la comunidad estén informados sobre los derechos y su situación actual.</p>

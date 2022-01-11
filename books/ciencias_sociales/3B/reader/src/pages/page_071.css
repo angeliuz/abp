@@ -1,0 +1,64 @@
+.cb-page71 {
+    background: url(images/page_071/fondo_001.svg) top center/cover no-repeat;
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-print-color-adjust: exact !important;
+  }
+  .cb-inicio {
+    margin-bottom: 60px;
+  }
+  .cb-dossier {
+    width: 100%;
+  }
+  .bloque-blanco {
+    min-width: 200px;
+    height: 300px;
+  }
+  .tf-estrella {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    top: 50px;
+    z-index: 1;
+    height: 40px;
+  }
+  .tf-celular {
+    display: flex;
+    position: absolute;
+    left: 60px;
+    top: 40px;
+    z-index: 1;
+    height: 90px;
+  }
+  .tf-megafono {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    top: 200px;
+    z-index: 1;
+    height: 60px;
+  }
+  .tf-nota {
+    display: flex;
+    position: absolute;
+    left: 50px;
+    top: 400px;
+    z-index: 1;
+    height: 60px;
+  }
+  .tf-mapa {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    bottom: 290px;
+    z-index: 1;
+    height: 70px;
+  }
+  .tf-lupa {
+    display: flex;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+    z-index: 1;
+    height: 70px;
+  }
