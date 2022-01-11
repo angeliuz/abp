@@ -1,0 +1,33 @@
+.cuadrado-naranja{
+    -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 96% 100%, 8% 100%);
+    background-color: #F29205;
+    height: 87px;
+  }
+  .cabecera-pag13{
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
+    background-color: var(--bulma);
+    height: 128px;
+  }
+  .cb-caja-bg{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 23px;
+    width: 180px;
+    z-index: 1;
+  }
+  .cb-titulo-caja{
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 53px;
+    z-index: 11;
+  }
+  .cb-cabecera-textos{
+    display: flex;
+  }
+  .linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color:var(--dark);
+  }
