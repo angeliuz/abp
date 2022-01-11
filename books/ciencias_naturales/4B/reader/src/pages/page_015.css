@@ -10,12 +10,7 @@
   background-color: var(--bulma);
   height: auto;
 }
-.caja {
-  background-image: url(images/page_015/img_001.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 10px 10px 10px 10px;
-}
+
 .altura {
   min-height: 80px;
   text-align: center;
