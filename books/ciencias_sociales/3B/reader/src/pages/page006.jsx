@@ -30,7 +30,7 @@ function Page006(props) {
                         <span className="fsp-16 f-IntroRustG-Base text-start"> 
                           COMPRENDER
                           <span className="fsp-16 text-start f-pixilate-regular">
-                            <br /> el desafío que nos plantean.
+                            <br /> cuál es el desafío.
                           </span> 
                         </span>
                       </div>  
@@ -62,7 +62,7 @@ function Page006(props) {
 
               <div className="d-flex justify-content-center max-img mb-5">
                 <div className="">
-                  <img src="images/page_006/img_003.jpg" className="img-fluid" alt="" />
+                  <img src="images/page_006/img_002.jpg" className="img-fluid" alt="" />
                 </div>
               </div>
             

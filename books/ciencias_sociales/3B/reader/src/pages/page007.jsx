@@ -15,36 +15,7 @@ function Page007(props) {
             <div className="cabecera-v2 bgc-goten d-flex flex-column">
               <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
                 <div className="caja wp-150 text-center fsp-24 f-IntroRustG-Base">SESIÓN 1</div>
-                <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Tenemos un desafío</div>
-              </div>
-              <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
-                <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                  Mis objetivos en <br /> esta sesión son:
-                </div>
-                <div className="p-0 align-self-center">
-                  <img src="images/page_007/img_001.svg" className="wp-40 arrow-global" alt="" />
-                </div>
-                <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                  Averiguar en qué consiste<br /> el desafío.
-                </div>
-                <div className="p-0 align-self-center">
-                  <img src="images/page_007/img_003.svg" className="wp-40 arrow-global" alt="" />
-                </div>
-                <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                  Comprender la <br /> importancia del desafío.
-                </div>
-                <div className="p-0 align-self-center">
-                  <img src="images/page_007/img_001.svg" className="wp-40 arrow-global" alt="" />
-                </div>
-
-                <div className="p-3 position-relative align-self-center f-colby-compres-bold fsp-17 lh-sm text-center color-dark">                        
-                    <div className="position-absolute top-0 start-0 w-100 h-100">
-                      <img src="images/cabecera/caja_blanca.png" width="100%" height="100%" alt=""/>
-                    </div>
-                    <div className="position-relative">
-                    Comprometerme <br /> con el desafío.
-                    </div>
-                  </div>
+                <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡Tenemos un desafío!</div>
               </div>
             </div>
             {/* END CABECERA VERSIÓN 2 */}
