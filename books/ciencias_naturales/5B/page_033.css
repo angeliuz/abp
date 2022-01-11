@@ -18,7 +18,7 @@
 }
 
 .container-row {
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 20px;
 }
 
@@ -40,23 +40,59 @@ td, th {
 }
 
 
-.lapiz {
+.jugo {
     position: absolute;
-    right: 25px;
-    top: 300px;
+    right: -10px;
+    top: 489px;
 
 }
 
+.hoja {
+    position: absolute;
+    right: -32px;
+    top: 13px;
+}
 
+.div1 {
+    float: left;
+}
 
+.div2 {
+    float: right;
+    text-align: right;
+}
 
+.borde {
+    border: 15px solid;
+    border-color: #f2b782;
+}
 
+.fondo {
+    background-color: #feecb8;
+}
+
+.fondo1 {
+    background-color: #fff7e2;
+}
 
 .linea {
     border-bottom: 1px dashed #dedede;
     padding-top: 5px;
     border-color: var(--dark);
 
+}
+
+@media (max-width: 767px) {
+    .borde {
+        margin-top: 20px;
+    }
+
+    .jugo {
+        position: absolute;
+        right: -10px;
+        top: 417px;
+
+    }
 }
 
 @media (max-width: 760px) {
