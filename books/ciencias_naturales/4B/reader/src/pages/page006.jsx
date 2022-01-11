@@ -4,6 +4,7 @@ import "./page_006.css";
 function Page006(props) {
   const pagina = "006";
   var indexInput = 0;
+  
   return (
       <div className="wrapper bgc-light">
         <div className="d-flex flex-column align-items-center pbp-20">
@@ -28,7 +29,7 @@ function Page006(props) {
                       </div>  
                       <div className="d-flex"> 
                         <span className="fsp-16 f-IntroRustG-Base text-start"> 
-                          COMPRENDER
+                        CONOCER
                           <span className="fsp-16 text-start f-pixilate-regular">
                             <br /> el desafío que nos plantean.
                           </span> 
