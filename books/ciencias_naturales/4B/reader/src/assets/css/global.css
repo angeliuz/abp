@@ -21,6 +21,12 @@ body {
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
 }
 
+.caja-seccion{
+  background-image: url(../../pages/images/generales/caja_seccion.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 /* CSS PIE DE PAGINA COLORES */
 .caja-flotante2 {
   max-width: 821px;

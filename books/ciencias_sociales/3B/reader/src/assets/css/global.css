@@ -27,6 +27,12 @@ body {
   width: 100%;
 }
 
+.caja-seccion{
+  background-image: url(../../pages/images/generales/caja_seccion.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .cuadrado-naranja{
   -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 8% 100%);
   clip-path: polygon(0 0%, 100% 0, 96% 100%, 8% 100%);
