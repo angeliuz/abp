@@ -6,9 +6,9 @@
 }
 
 
-.container-row {
-    margin-left: 40px;
-    margin-right: 40px;
+.margen-row {
+    margin-left: 60px;
+    margin-right: 60px;
     background-color: #d8eeea;
     border-radius: 10px;
 
@@ -25,54 +25,53 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-color: white;
+}
 
+.margen {
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 
+.papas {
+    position: absolute;
+    right: -52px;
+    top: -76px;
+    
+}
 
 .dibujo {
     position: absolute;
-    left: 54px;
-    top: -135px;
+    right: -35px;
+    top: -129px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 39%;
+    left: 40px;
+    top: 215px;
+}
+
+.fondo {
+    background-color: #9ec83d;
+    border-color: #d2e5a5;
+}
+
+.fondo1 {
+    background-color: #eaf2d0;
+    border-color: #d2e5a5;
+}
+
+.borde-tabla {
+    border-color: #d2e5a5;
+}
+
+td, th {
+    border: 2px solid #ccc;
+    padding: 1px;
 }
 
 
-
-.palta {
-    position: absolute;
-    left: 309px;
-    top: 253px;
-}
-
-
-
-
-
-
-@media (max-width: 848px) {
-    .palta {
-        display: none;
-    }
-}
-
-@media (max-width: 767px) {
-    .rotar {
-        transform: rotate(90deg);
-        margin-left: calc(55% - 25px);
-        margin-top: -50px;
-        margin-bottom: 40px;
-
-    }
-
-    .separa {
-        padding-bottom: 15px;
-    }
-
-    .espaciado {
-
-        margin-top: -30px;
-        margin-bottom: -110px;
-
-    }
-}
