@@ -127,6 +127,7 @@ function App() {
       <Page038 numeroPagina={clearZeros} />
       <Page039 numeroPagina={clearZeros} />
       <Page040 numeroPagina={clearZeros} />
+      <Page041 numeroPagina={clearZeros} />
       <Page042 numeroPagina={clearZeros} />
       <Page043 numeroPagina={clearZeros} />
       <Page044 numeroPagina={clearZeros} />
