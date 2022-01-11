@@ -1,0 +1,87 @@
+.cb-page54 {
+  background: url(images/page_054/Fondo_001.svg) top center/cover no-repeat;
+  width: 100% !important;
+  height: 100% !important;
+  -webkit-print-color-adjust: exact !important;
+}
+.linea {
+  border-bottom: 1px dashed #dedede;
+  padding-top: 5px;
+  border-color: var(--dark);
+}
+.centrar-ver {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+.centrar-hor {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.mxwp-160 {
+  max-width: 160px;
+}
+.mxwp-280 {
+  max-width: 280px;
+}
+.mxwp-490 {
+  max-width: 490px;
+}
+.hp-240 {
+    height: 240px;
+}
+.mrp--60 {
+    margin-right: -60px;
+}
+.tf-letra {
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    color: white !important;
+    font-size: 16px;
+  }
+  .tf-parrafo-caja {
+    font-size: 16px;
+    text-align: left !important;
+    color: #000 !important;
+    font-family: ubuntu-l, sans-serif;
+    background-color: var(--kai);
+    width: 400px;
+    padding-left: 8px;
+  }
+  .tf-mono {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    bottom: 70px;
+    z-index: 1;
+  }
+  .tf-megafono {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    top: 70px;
+    z-index: 1;
+  }
+  .tf-lupa {
+    display: flex;
+    position: absolute;
+    left: 60px;
+    top: 220px;
+    z-index: 1;
+  }
+  .tf-calendario {
+    display: flex;
+    position: absolute;
+    left: 40px;
+    top: 440px;
+    z-index: 1;
+  }
+  @media (max-width: 768px) {
+    .tf-mono {
+        display: flex;
+        position: absolute;
+        right: 0px;
+        bottom: 190px;
+        z-index: 1;
+      }
+    }
