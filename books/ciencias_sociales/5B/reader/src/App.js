@@ -119,14 +119,11 @@ function App() {
       <Page036 numeroPagina={clearZeros} />
       <Page037 numeroPagina={clearZeros} />
       <Page038 numeroPagina={clearZeros} />
-<<<<<<< HEAD
       <Page042 numeroPagina={clearZeros} />
       <Page043 numeroPagina={clearZeros} />
-=======
       <Page039 numeroPagina={clearZeros} />
       <Page040 numeroPagina={clearZeros} />
       <Page041 numeroPagina={clearZeros} />
->>>>>>> 47ac3ee0c43325db8ebf72783bd060d9da28883c
     </div>
   );
 }
