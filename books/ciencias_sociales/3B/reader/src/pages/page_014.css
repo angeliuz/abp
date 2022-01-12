@@ -1,8 +1,18 @@
+.bloque-respuesta {
+  -webkit-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.20);
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.20);
+}
+.bgc-yoru {
+background-color: #f7f4e8;
+}
 .text-left {
   text-align: left;
 }
 .mtp--31 {
   margin-top: -31px;
+}
+.msp--11 {
+  margin-left: -11px;
 }
 .mbp--220 {
   margin-bottom: -220px;
