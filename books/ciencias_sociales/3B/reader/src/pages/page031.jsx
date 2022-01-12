@@ -16,7 +16,7 @@ function Page031(props) {
                 </div>
             </div>
             <div className="position-absolute top-50 start-50 translate-middle">
-                <div className="fw-700 fsp-80 color-white f-hanoded-butterflyball t-shadow ft-m">EXPERIMENTACIÓN</div>
+                <div className="fw-700 fsp-80 color-white f-hanoded-butterflyball t-shadow-experimentacion ft-m">EXPERIMENTACIÓN</div>
             </div>
 
           </div>
