@@ -2,11 +2,11 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 
-import "./page_014.css";
+import "./page_040.css";
 
-function Page014(props) {
+function Page040(props) {
 
-  const pagina = "014";
+  const pagina = "040";
   var indexInput = 0;
 
   return (
@@ -20,7 +20,7 @@ function Page014(props) {
 
             <div className="ptp-10 psp-60">
                 <div className="d-flex">
-                    <img className="hp-15 align-center mt-3 me-2 mb-2" src="images/page_014/img_001.svg" alt="" />
+                    <img className="hp-15 align-center mt-3 me-2 mb-2" src="images/page_040/img_001.svg" alt="" />
                     <div className="f-ccdigitaldelivery-bold fsp-35 color-bulma">2</div>
                     <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10">Registro lo que sé sobre revistas.</div>
                 </div>
@@ -39,7 +39,7 @@ function Page014(props) {
 
               <div className="col-md-6 position-relative">
                 <div className="contenedor-flecha-14 position-absolute wp-40">
-                  <img src="images/page_014/img_002_b.png" className="w-100" alt="" />
+                  <img src="images/page_040/img_002_b.png" className="w-100" alt="" />
                 </div>
                 <div className="d-flex flex-column w-100">
                   <div className="f-Ubuntu-L text-center fsp-15">Comparo mis respuestas con las de mi grupo. ¿Pensamos todos lo mismo?</div>
@@ -67,7 +67,7 @@ function Page014(props) {
 
               <div className="col-md-6 ptp-0 position-relative">
                 <div className="contenedor-flecha-14 position-absolute wp-40">
-                  <img src="images/page_014/img_002_b.png" className="w-100" alt="" />
+                  <img src="images/page_040/img_002_b.png" className="w-100" alt="" />
                 </div>
                 <div className="d-flex flex-column w-100">
                   <div className="rounded-p-5 bgc-white w-100 border-style-solid border-2 border-color-buzz rounded-p-5 px-3">
@@ -75,7 +75,7 @@ function Page014(props) {
                   </div>
                 </div>
                 <div className="position-absolute top-0 end-0">
-                  <img src="images/page_014/img_004.png" className="tf-tablet tablet_rotate cambio hp-70 mtp-250 mep-70" alt="" />
+                  <img src="images/page_040/img_004.png" className="tf-tablet tablet_rotate cambio hp-70 mtp-250 mep-70" alt="" />
                 </div>
               </div>
             </div>
@@ -88,7 +88,7 @@ function Page014(props) {
                     <div className="f-ccdigitaldelivery-bold fsp-35 color-bulma">3</div>
                     <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Realizo los pasatiempos y respondo.  </div>
                     <div className="pep-10 psp-15 ptp-10">
-                      <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_014/img_003.svg" clasesImagen="cambio hp-40 text-center mtp-0 psp-10 pep-40" className="p-0 px-1" />
+                      <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_040/img_003.svg" clasesImagen="cambio hp-40 text-center mtp-0 psp-10 pep-40" className="p-0 px-1" />
                     </div>
                 </div>
             </div>
@@ -97,7 +97,7 @@ function Page014(props) {
               <div className="col-12 d-flex">
                
                 <div className="mbp-30 seccion-semaforo">
-                  <img src="images/page_014/img_005_.png" className="wp-150" alt="" />
+                  <img src="images/page_040/img_005_.png" className="wp-150" alt="" />
                 </div>
 
                 <div className="w-70 msp--75 mtp-15 fsp-13">
@@ -177,4 +177,4 @@ function Page014(props) {
   );
 }
 
-export default Page014;
+export default Page040;

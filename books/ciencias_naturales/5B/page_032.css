@@ -13,25 +13,28 @@
 }
 
 .cajota {
-    height: 200px;
+    height: 170px;
     border: 2px solid;
     border-color: #f29200;
 
 }
+
 .cajota1 {
-    height: 200px;
+    height: 170px;
     border: 2px solid;
     border-color: #df5656;
 
 }
+
 .cajota2 {
-    height: 200px;
+    height: 170px;
     border: 2px solid;
     border-color: #9ec83d;
 
 }
+
 .cajota3 {
-    height: 200px;
+    height: 170px;
     border: 2px solid;
     border-color: #00a1ba;
 
@@ -40,6 +43,7 @@
 .cajatexto {
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .flecha {
@@ -179,12 +183,13 @@
     .tf-flecha {
         padding-bottom: 13px;
     }
+
     .block-bottom {
         max-width: 700px;
         margin-right: auto;
         margin-left: auto;
         width: calc(100% - 10px);
     }
-    
+
 
 }

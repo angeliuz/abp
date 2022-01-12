@@ -152,6 +152,22 @@
 .w-200 {
   width: 200%;
 }
+
+.w-250 {
+  width: 250%;
+}
+.w-300 {
+  width: 300%;
+}
+.w-350 {
+  width: 350%;
+}
+.w-400 {
+  width: 400%;
+}
+.w-450 {
+  width: 450%;
+}
 .wp-5 {
   width: 5px;
 }
@@ -277,6 +293,27 @@
 }
 .wp-215 {
   width: 215px;
+}
+.wp-245 {
+  width: 245px;
+}
+.wp-250 {
+  width: 250px;
+}
+.wp-300 {
+  width: 300px;
+}
+.wp-350 {
+  width: 350px;
+}
+.wp-400 {
+  width: 400px;
+}
+.wp-450 {
+  width: 450px;
+}
+.wp-500 {
+  width: 500px;
 }
 
 /* HEIGHT */
@@ -3665,6 +3702,9 @@
 }
 .fsp-25 {
   font-size: 25px;
+}
+.fsp-27 {
+  font-size: 27px;
 }
 .fsp-30 {
   font-size: 30px;

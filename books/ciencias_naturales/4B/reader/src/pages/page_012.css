@@ -3,6 +3,17 @@
      -webkit-print-color-adjust: exact !important;
  
  }
+ .cb-titulo-aceptamos {
+  max-width: 500px;
+  border-top: 1px solid var(--goten) !important;
+  border-bottom: 1px solid var(--goten) !important;
+}
+ .cb-text-inicial{
+   margin-left: 8%;
+   margin-right: auto;
+   width: 100%;
+   max-width: 500px;
+ }
 
  .cb-contendor-carta {
      width: 100%;
@@ -19,27 +30,28 @@
     background-color: var(--ganyu);
     border-radius: 10px;
   }
-  .cb-celu-carta-p07{
-    position: absolute;
-    right: -31px;
-    top: -87px;
-  }
-  .cb-cerrar-carta-p07{
+  .cb-iconos-p12{
     position: absolute;
     right: 19px;
+    top: -97px;
+    width: 70px;
+  }
+  .cb-ipad-p12{
+    position: absolute;
+    right: -51px;
     top: -222px;
-    width: 50px;
+  
   }
-  .cb-favorito-carta-p07{
+  .cb-celu-p12{
     position: absolute;
-    right: 18px;
-    top: -145px;
-    width: 90px;
+    left: -22px;
+    bottom: -15px;
+    width: 60px;
   }
-  .cb-compu-carta-p07{
+  .cb-personaje-p12{
     position: absolute;
-    left: -29px;
-    bottom: -25px;
+    right: 51px;
+    bottom: 45px;
     width: 110px;
   }
   
