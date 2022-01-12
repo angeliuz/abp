@@ -12,17 +12,15 @@ function Page007(props) {
     <div className="wrapper bgc-light">
             <div className="d-flex flex-column align-items-center pbp-20">
               <div className="page bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
-                {/* BEGIN CABECERA VERSIÓN 2 */}
-                <div className="cabecera-v2 bgc-goten d-flex flex-column">
-                  <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-                    <div className="caja wp-150 text-center fsp-24 f-IntroRustG-Base color-goten">SESIÓN 1</div>
-                    <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¿Qué sé y qué necesito saber?</div>
-                  </div>
-                  <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
-                    
-                  </div>
-                </div> 
-                {/* END CABECERA VERSIÓN 2 */}
+               {/* BEGIN CABECERA VERSIÓN 2 */}
+          <div className="cabecera-v2 bgc-android18 d-flex flex-column">
+            <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
+              <div className="caja wp-150 text-center fsp-24 f-IntroRustG-Base">SESIÓN 8</div>
+              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Analizamos la situación de los derechos en Chile</div>
+            </div>
+
+          </div> 
+          {/* END CABECERA VERSIÓN 2 */}
 
             <div className="ptp-30 psp-60 pep-60">
               <div className="f-Ubuntu-M fsp-20 color-goten text-start">Conociendo el desafío</div>
