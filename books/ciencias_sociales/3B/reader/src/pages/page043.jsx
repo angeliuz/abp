@@ -69,9 +69,9 @@ function Page043(props) {
 
               </div>
             </div>
-            <div className="col-lg-8 col-md-12 bgc-aqua">
-              <div className="w-100 ">
-                    <div className="border border-3 p-2 hp-400 wp-450 bgc-yellow">
+            <div className="col-lg-8 col-md-12 m-0 p-0 bgc-aqua d-flex justify-content-end  ">
+              <div className="w-100 d-flex justify-content-end ">
+                    <div className="border border-3 p-2 hp-400 wp-450 bgc-yellow position-relative">
                     <div className="d-flex align-items-center p-1 w-100  "> 
                           <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white"><img src="images/page_043/img_003.svg" className="hp-20  " alt=""></img></div>
                           <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm  psp-10 lh-sm">Música diversa.</div>
@@ -105,7 +105,7 @@ function Page043(props) {
                           </div>
                       </div>
 
-                      <div><img src="images/page_043/img_004.png" className="position-absolute top-50 start-0 translate-middle wp-40" alt=""></img></div> 
+                      <div><img src="images/page_043/img_006.png" className="position-absolute bottom-0 start-0 wp-100 ms--150 " alt=""></img></div> 
                     </div>
                   </div>
             </div>
