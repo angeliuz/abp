@@ -21,14 +21,14 @@ function Page020(props) {
                                 <div className="cb-titulo-12 color-white fsp-20 lh-sm f-durotype-aspiranar-bold">
                                 Mis objetivos <br /> en esta etapa son: 
                                 </div>
-                                <div className="cb-cohete-12" ><img src="images/page_006/img_001.png" alt=""/>
+                                <div className="cb-cohete-12" ><img src="images/page_020/img_001.png" alt=""/>
                                 </div>
                             </div>
 
                 <div className="cb-contenedor-12-1">
                     <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
                         <div className="d-flex bgc-azuka psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-22"> 
-                        <div className="d-flex"> <img src="images/page_022/flecha.svg" className="mbp-20 mep-5" alt=""/></div>  
+                        <div className="d-flex"> <img src="images/page_020/flecha.svg" className="mbp-20 mep-5" alt=""/></div>  
                                 <div> 
                                     <span className="fsp-16 text-start f-pixilate-regular">
                                         <span className="fsp-16 f-IntroRustG-Base text-start"> 
@@ -44,7 +44,7 @@ function Page020(props) {
                     <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
                         <div className="d-flex bgc-azuka psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-22"> 
                             <div className="d-flex"> 
-                                <img src="images/page_022/flecha.svg" className="mbp-25 mep-5" alt=""/>
+                                <img src="images/page_020/flecha.svg" className="mbp-25 mep-5" alt=""/>
                             </div> 
                             <div className="d-flex"> 
                                 <span className="fsp-16 text-start f-pixilate-regular">
@@ -59,7 +59,7 @@ function Page020(props) {
                     <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
                         <div className="d-flex bgc-azuka psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-22"> 
                             <div className="d-flex"> 
-                                <img src="images/page_022/flecha.svg" className="mbp-25 mep-5" alt=""/>
+                                <img src="images/page_020/flecha.svg" className="mbp-25 mep-5" alt=""/>
                             </div> 
                             <div className="d-flex"> 
                                     <span className="fsp-16 text-start f-pixilate-regular">
@@ -73,7 +73,7 @@ function Page020(props) {
                 <div className="cb-contenedor-12-4">
                     <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
                         <div className="d-flex bgc-azuka psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-22"> 
-                            <div className="d-flex"> <img src="images/page_022/flecha.svg" className="mbp-20 mep-5" alt=""/></div> 
+                            <div className="d-flex"> <img src="images/page_020/flecha.svg" className="mbp-20 mep-5" alt=""/></div> 
 
                                 <div className="d-flex"> 
                                     <span className="fsp-16 text-start f-pixilate-regular">
@@ -88,7 +88,7 @@ function Page020(props) {
             
                     <div className="d-flex justify-content-center max-img mb-5">
                         <div className="">
-                            <img src="images/page_022/img_003.jpg" className="img-fluid" alt="" />
+                            <img src="images/page_020/img_003.jpg" className="img-fluid" alt="" />
                         </div>
                     </div>
                   {/* Begin pie de página */}
