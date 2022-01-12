@@ -22,13 +22,13 @@
   margin-left: -15px;
   margin-bottom: 70px;
   display: flex;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 .cb-contenedor-20-3{
   justify-content: flex-end;
   margin-right: -35px;
   margin-bottom: 10px;
-  margin-top: -15px;
+  ;
   display: flex;
 }
 .cb-contenedor-20-4{
@@ -59,32 +59,32 @@
       background: url(images/page_020/fondo_movile.svg) top left/ cover no-repeat !important;
    }
 
-   #page_022{
+   #page_020{
       min-height: 100% !important;
   }
 
-.cb-contenedor-1{
+.cb-contenedor-20-1{
       justify-content: center;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 10px;
       margin-top: 10px;
   }
-.cb-contenedor-2{
+.cb-contenedor-20-2{
       justify-content: center;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 10px;
       margin-top: 10px;
   }
-.cb-contenedor-3{
+.cb-contenedor-20-3{
       justify-content: center;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 10px;
       margin-top: 10px;
   }
-.cb-contenedor-4{
+.cb-contenedor-20-4{
       justify-content: center;
       margin-left: auto;
       margin-right: auto;
