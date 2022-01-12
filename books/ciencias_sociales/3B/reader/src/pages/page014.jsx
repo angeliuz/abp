@@ -60,7 +60,7 @@ function Page014(props) {
                   alt=""
                 />
                 <div className="pbp-20 pep-15 psp-15">
-                  <div class="f-pixilate-regular color-sektor fsp-19 text-left">
+                  <div className="f-pixilate-regular color-sektor fsp-19 text-left">
                     Respeto:
                   </div>
                   <div className="w-100 pbp-10">
@@ -69,7 +69,7 @@ function Page014(props) {
                       className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70"
                     />
                   </div>
-                  <div class="f-pixilate-regular color-sektor fsp-19 text-left">
+                  <div className="f-pixilate-regular color-sektor fsp-19 text-left">
                     Tolerancia:
                   </div>
                   <div className="w-100 pbp-10">
