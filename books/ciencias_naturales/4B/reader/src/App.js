@@ -42,7 +42,7 @@ import Page038 from "./pages/page038";
 import Page069 from "./pages/page069";
 import Page070 from "./pages/page070";
 import Page071 from "./pages/page071";
-//import Page072 from "./pages/page072";
+import Page072 from "./pages/page072";
 //import Page073 from "./pages/page073";
 //mport Page074 from "./pages/page074";
 //import Page075 from "./pages/page075";
@@ -122,6 +122,7 @@ function App() {
       <Page069 numeroPagina={clearZeros} />
       <Page070 numeroPagina={clearZeros} />
       <Page071 numeroPagina={clearZeros} />
+      <Page072 numeroPagina={clearZeros} />
     </div>
   );
 }

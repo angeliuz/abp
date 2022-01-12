@@ -2,11 +2,11 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
 
-import "./page_071.css";
+import "./page_072.css";
 
-function Page071(props) {
+function Page072(props) {
 
-  const pagina = "071";
+  const pagina = "072";
   var indexInput = 0;
 
   return (
@@ -123,4 +123,4 @@ function Page071(props) {
   );
 }
 
-export default Page071;
+export default Page072;
