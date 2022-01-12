@@ -36,7 +36,7 @@ function Page072(props) {
                 </div>
               </div>
              
-              <div className="cb-texto-mail-p71 mbp-40">
+              <div className="cb-texto-mail-p72 mbp-40">
                   <div class="cb-carta-content-p71 f-Ubuntu-L text-start">
                     <img src="images/page_072/img_007.png" className="cb-favorito-carta-p72" alt=""></img>
                       <img src="images/page_072/img_001.png" className="cb-ipad-p72" alt=""></img>
