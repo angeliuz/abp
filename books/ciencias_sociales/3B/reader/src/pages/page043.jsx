@@ -66,40 +66,44 @@ function Page043(props) {
                 <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Nuestro stand de <br></br>la fiesta tendrá...</div>
                  {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> */}
                  {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_043/img_001.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+                <div className="msp-30 mep-40 ">
+                  <div className="border border-3 p-2 hp-400 wp-450 bgc-yellow">
+                  <div className="d-flex align-items-center p-1 w-100  "> 
+                        <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white"><img src="images/page_043/img_003.svg" className="hp-20  " alt=""></img></div>
+                        <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm  psp-10 lh-sm">Música diversa.</div>
+                    </div>
+                  <div className="d-flex align-items-center p-1 w-100  "> 
+                        <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white"><img src="images/page_043/img_003.svg" className="hp-20  " alt=""></img></div>
+                        <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm  psp-10 lh-sm">Nuestros textos literarios sobre diversidad.</div>
+                    </div>
+                  <div className="d-flex align-items-center p-1 w-100  "> 
+                        <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white"><img src="images/page_043/img_003.svg" className="hp-20  " alt=""></img></div>
+                        <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm  psp-10 lh-sm">Obras artísticas que crearemos sobre diversidad.</div>
+                    </div>
+                  <div className="d-flex align-items-center p-1 w-100  "> 
+                        <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white"><img src="images/page_043/img_003.svg" className="hp-20  " alt=""></img></div>
+                        <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm  psp-10 lh-sm">Muestra de diversidad gastronómica.</div>
+                    </div>
+                  <div className="d-flex align-items-center p-1 w-100  "> 
+                        <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white"></div>
+                        <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm  psp-10 lh-sm">Muestra de vestimenta típica.</div>
+                    </div>
+                  <div className="d-flex align-items-center p-1 w-100  "> 
+                        <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white"></div>
+                        <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm  psp-10 lh-sm">Representación de diversas tradiciones.</div>
+                    </div>
+                  <div className="d-flex align-items-start  p-1 w-100 mbp-10 "> 
+                        <div className="d-inline wp-35 hp-30 border border-1 border-color-dark bgc-white"></div>
+                        <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm mt-1 psp-10 lh-sm "> Otra. 
+                        </div>
+                        <div className="w-100 m-0 p-0 ">
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-4 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                        </div>
+                    </div>
+                  </div>
+                </div>
             </div>
 
-          <div className="msp-60 mep-40">
-            <div className="border border-3 p-3 hp-400 wp-450 bgc-yellow">
-             <div className="d-flex align-items-center p-2 w-100  "> 
-                  <div className="d-inline wp-25 hp-25 border border-1 border-color-dark bgc-white"></div>
-                  <div className="d-inline f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Música diversa.</div>
-              </div>
-             <div className="d-flex align-items-center p-2 w-100  "> 
-                  <div className="d-inline wp-25 hp-25 border border-1 border-color-dark bgc-white"></div>
-                  <div className="d-inline f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Nuestros textos literarios sobre diversidad.</div>
-              </div>
-             <div className="d-flex align-items-center p-2 w-100  "> 
-                  <div className="d-inline wp-25 hp-25 border border-1 border-color-dark bgc-white"></div>
-                  <div className="d-inline f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Obras artísticas que crearemos sobre diversidad</div>
-              </div>
-             <div className="d-flex align-items-center p-2 w-100  "> 
-                  <div className="d-inline wp-25 hp-25 border border-1 border-color-dark bgc-white"></div>
-                  <div className="d-inline f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Muestra de diversidad gastronómica.</div>
-              </div>
-             <div className="d-flex align-items-center p-2 w-100  "> 
-                  <div className="d-inline wp-25 hp-25 border border-1 border-color-dark bgc-white"></div>
-                  <div className="d-inline f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Muestra de vestimenta típica.</div>
-              </div>
-             <div className="d-flex align-items-center p-2 w-100  "> 
-                  <div className="d-inline wp-25 hp-25 border border-1 border-color-dark bgc-white"></div>
-                  <div className="d-inline f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Representación de diversas tradiciones.</div>
-              </div>
-             <div className="d-flex align-items-center p-2 w-100  "> 
-                  <div className="d-inline wp-25 hp-25 border border-1 border-color-dark bgc-white"></div>
-                  <div className="d-inline f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Otra.</div>
-              </div>
-            </div>
-          </div>
 
 
 
