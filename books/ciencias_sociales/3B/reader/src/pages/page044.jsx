@@ -66,7 +66,26 @@ function Page044(props) {
  
             </div>
             <div className="col-4 bgc-red">
-              
+              <div className="d-block bgc-yellow p-2">
+                <div className="d-flex ">
+                    <div className="d-flex f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Los materiales que usaremos son:</div>
+                </div>
+                <div className="d-flex align-items-center p-1 w-100  "> 
+                      <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white"><img src="images/page_043/img_003.svg" className="hp-20  " alt=""></img></div>
+                      <div className="d-inline f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Nuestros trabajos:</div>
+                </div>
+                <div className="d-flex align-items-center p-1 w-100  "> 
+                      <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white"> </div>
+                      <div className="d-inline f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Adornos</div>
+                </div>
+                <div className="d-flex align-items-center p-1 w-100  "> 
+                      <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white"> </div>
+                      <div className="d-inline f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Otra:</div>
+                </div>
+                <div className="psp-30 pep-5">
+                       <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-4 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190" />
+                </div>
+              </div>
             </div>
           </div>
 
