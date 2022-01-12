@@ -41,7 +41,7 @@ function Page071(props) {
               <div className="cb-invitacion-p71 psp-35 f-Ubuntu-R fsp-18 fw-700 ptp-5">¡Felicitaciones!</div>
               <div className="cb-datos-mail pep-15 psp-10 ptp-10 pbp-10">
                 <div className="d-flex justify-content-between mbp-5"> 
-                  <div><img src="images/page_007/img_006.png" className="cb-computador-carta psp-30" alt=""></img></div> 
+                  <div><img src="images/page_071/img_006.png" className="cb-computador-carta psp-30" alt=""></img></div> 
                   <div className="cb-datos-1 msp-10 align-items-center d-flex">
                     <div className="psp-10 f-Ubuntu-l fsp-16"> <span className="fw-700"> Macarena </span> macarena@brigadistas.cl <br /> Para Estudiantes 4° básico </div>
                   </div>
@@ -50,7 +50,7 @@ function Page071(props) {
              
               <div className="cb-texto-mail-p71 mbp-90">
                   <div class="cb-carta-content-p71 f-Ubuntu-L text-start">
-                    <img src="images/page_071/img_007.png" className="cb-favorito-carta-p07" alt=""></img>
+                    <img src="images/page_071/img_007.png" className="cb-favorito-carta-p71" alt=""></img>
                       <img src="images/page_071/img_004.png" className="cb-celu-carta-p71" alt=""></img>
                       <p className="f-Ubuntu-R fw-700"> Estimados estudiantes:</p>
                       <p>Reciban de mi parte un cariñoso saludo y mis felicitaciones por el trabajo que

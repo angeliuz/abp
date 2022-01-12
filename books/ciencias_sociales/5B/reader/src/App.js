@@ -39,6 +39,11 @@ import Page035 from "./pages/page035";
 import Page036 from "./pages/page036";
 import Page037 from "./pages/page037";
 import Page038 from "./pages/page038";
+import Page039 from "./pages/page039";
+import Page040 from "./pages/page040";
+import Page041 from "./pages/page041";
+import Page042 from "./pages/page042";
+import Page043 from "./pages/page043";
 
 
 function App() {
@@ -58,7 +63,7 @@ function App() {
   }
 
 
-
+  
   function getUrlParameter(name) {
     name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
     var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
@@ -111,6 +116,11 @@ function App() {
       <Page036 numeroPagina={clearZeros} />
       <Page037 numeroPagina={clearZeros} />
       <Page038 numeroPagina={clearZeros} />
+      <Page042 numeroPagina={clearZeros} />
+      <Page043 numeroPagina={clearZeros} />
+      <Page039 numeroPagina={clearZeros} />
+      <Page040 numeroPagina={clearZeros} />
+      <Page041 numeroPagina={clearZeros} />
     </div>
   );
 }

@@ -11,7 +11,7 @@ function Page008(props) {
   return (
     <div className="wrapper bgc-light">
         <div className="d-flex flex-column align-items-center pbp-50">
-            <div className="page bgc-white position-relative" id="page_08">
+            <div className="page bgc-white position-relative" id={"page_"+pagina}>
             <div className="cabecera-v1 hp-80 bgc-goten">
 
             </div>

@@ -42,7 +42,7 @@ function Page014(props) {
                 diversidad.
               </div>
             </div>
-            <div className="bgc-woody p-2 rounded-p-10 ">
+            <div className="bgc-woody p-2 rounded-p-10 position-relative">
               <div className="bgc-white rounded-p-10">
                 <img
                   src="images/page_014/img_005.png"
@@ -79,6 +79,11 @@ function Page014(props) {
                     />
                   </div>
                 </div>
+                <img
+                  src="images/page_014/img_003.png"
+                  className="position-absolute top-100 start-100 translate-middle hp-60 mtp--20 msp--20"
+                  alt=""
+                />
               </div>
             </div>
             <div className="row ptp-15">
@@ -128,6 +133,12 @@ function Page014(props) {
             />
           </div>
           <div className="pbp-80"></div>
+
+          <img
+            src="images/page_014/img_002.png"
+            className="tf-niña hp-80"
+            alt=""
+          />
 
           {/* PIE DE PAGINA */}
           <div
