@@ -37,7 +37,7 @@ function Page033(props) {
                 <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_014/img_006.png" className="hp-25 mep-40 mtp-40" alt=""/></div>
                 <div className="mbp-20 mtp-10 msp-20 mep-20">
                   <div className="bloque-respuesta linea1 bgc-jugador001 min-hp-150 p-2 border-style-solid border-color-goku border-1">
-                    <div className="f-Ubuntu-L fsp-16 p-1 text-start">Con las encuestas podemos…</div>
+                    <div className="f-Ubuntu-L fsp-15 p-1 text-start">Con las encuestas podemos…</div>
                     <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                   </div>
                 </div>
