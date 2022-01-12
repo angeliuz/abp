@@ -1,154 +1,82 @@
-.cuadrado-naranja{
-  -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 8% 100%);
-  clip-path: polygon(0 0%, 100% 0, 96% 100%, 8% 100%);
-  background-color: #F29205;
-  height: 87px;
+.cb-pad{
+  padding-left: 6%; 
+  padding-right: 6%;
 }
-
-.cabecera-7{
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
-  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
-  background-color: var(--goten);
-  height: auto;
-  padding-bottom: 30px;
-}
-
-.rect-sesion{
-  background-color: #ffcc00;
-  border: 4px solid white;
-  padding: 5px 8px 0px 8px;
-  box-shadow: 2px 2px 1px 0px #9f9f9f;
-}
-
-.cuadro-selec {
-  background-color: #C3E3F5;
-  display: block;
-  width: 200px;
-  padding: .5rem;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
-  background-repeat: no-repeat;
-  background-position: right .45rem center;
-  background-size: 16px 12px;
-  border: 0px solid #ced4da;
-  border-radius: .3rem;
-  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
-.rounded-caja {
-  border-radius: 20px 20px 0px 0px;
-}
-
-.caja {
-  background-image: url(images/page_007/img_000.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  padding: 8px;
-}
-/* .cb-caja {
-  background-image: url(images/page_007/img_002.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-
-} */
-
-.cb-paper {
+.cb-contenedor-mail-p07{
   position: relative;
   width: calc(100% - 100px);
-  margin: 50px auto 46px;
+  max-width: 700px;
+  margin: 20px auto 30px;
+  background-color: var(--ganyu);
+  border-radius: 10px;
+  box-shadow: -2px 3px 13px 4px rgb(0 0 0 / 20%);
+  border-top: 40px solid #4d86cb
+}
+.cb-celu-carta-p07{
+  position: absolute;
+  right: -31px;
+  top: -87px;
+}
+.cb-cerrar-carta-p07{
+  position: absolute;
+  right: 19px;
+  top: -222px;
+  width: 50px;
+}
+.cb-favorito-carta-p07{
+  position: absolute;
+  right: 18px;
+  top: -145px;
+  width: 90px;
+}
+.cb-compu-carta-p07{
+  position: absolute;
+  left: -29px;
+  bottom: -25px;
+  width: 110px;
 }
 
-.cb-paper-content {
+.cb-datos-1{
+width: 100%;
+max-width: 450PX;
+}
+.cb-invitacion-p07 {
+  width: 100%;
+  background-color: white;
+  height: 40px;
+  align-items: center;
+  display: flex;
+}
+.cb-datos-a{
+  width: 100%;
+  max-width: 70px;
+}
+.cb-carta-content {
   position: relative;
   z-index: 3;
-  background: #fefcfb;
+  background: white;
   padding: 30px 40px;
   font-size: 16px;
+  border-radius: 0px 0px 10px 10px;
 }
 
-.cb-paper-sign {
-    margin-top: 30px;
-    text-align: right;
-}
-
-.cb-paper::before,
-.cb-paper::after {
+.cb-caja_bg{
   position: absolute;
-  content: '';
-  height: 100%;
-  width: 100%;
-  background: #f1eee0;
-  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
-  left: 0;
-  top: 0;
-}
-
-.cb-paper::before {
-  z-index: 2;
-  transform: rotate(-2deg);
-}
-
-.cb-paper::after {
+  margin-top: -50px;
+  margin-left: 23px;
+  width: 180px;
   z-index: 1;
-  transform: rotate(2deg);
 }
-
-.cb-lapiz{
+.cb-titulo-caja{
   position: absolute;
-    left: 25px;
-    bottom: 70px;
-    transform: rotate(-25deg);
+  margin-top: -37px;
+  margin-left: 53px;
+  z-index: 11;
 }
-.cb-carta{
-  position: absolute;
-    right: -35px;
-    top: 10px;
-    transform: rotate(5deg);
-}
+@media all and (max-width: 670px) {
 
-/* Jorge */
-.contenedor-pagina{
-  padding-left: 6%; padding-right: 6%
-}
 
-.section-name{
-  justify-content: start;
-}
-
-@media (max-width: 576px) {
-  .cambio {
-      padding: 0;
-  }
-  .cabecera-7 {
-    height: auto;
-    padding-bottom: 30px;
-  }
-  .rotar {
-      transform: rotate(90deg);
-      margin: 10px;
-      width: 20px;
-  }
-  .centrar {
-      text-align: center;
-      padding: 10px 13px 0px 13px  !important;
-      justify-content: center;
-  }
-
-   .cb-paper-content {
-          padding: 20px;
-          font-size: 15px;
-      }
-
-      .cb-lapiz {
-        display: none;
-    }
-    .cb-carta {
+  .cb-celu-carta-p07{
       display: none;
-  }
-  .section-name{
-    justify-content: center;
   }
 }

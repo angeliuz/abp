@@ -1,15 +1,112 @@
-.soc-page11 {
-   background: url(images/page_011/fondo_0011.svg) #F29205 top left/ cover no-repeat !important;
-    -webkit-print-color-adjust: exact !important;
+.cb-page11 {
+    background: url(images/page_011/fondo_003.svg) top left/ cover no-repeat !important;
+     -webkit-print-color-adjust: exact !important;
+ 
+ }
 
+.cb-block-superior-p09 {
+    background-color: white;
+    max-width: 550px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: calc(100% - 30px);
 }
-.t-shadow-11{
-    text-shadow: -7px -8px #D55F2A;
+.cb-block-inicial-etapa-p09 {
+    background-color: white;
+    max-width: 550px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: calc(100% - 30px);
 }
 
-@media all and (max-width: 500px) {
+.line-dotted {
+    border: 1px dashed #dedede;
+}
 
-    .ft-m {
-        font-size: 50px;
+.cb-block-arriba {
+    max-width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
+}
+
+.cb-outline_p11{
+    outline: solid 1px var(--soldados);
+    outline-offset: 2px;
+}
+
+  .cb-bloques-p11{
+    position: absolute;
+    right: -20px;
+    top: -24px;
+    width: 70px;
+  }
+  .cb-crallones-p11{
+    position: absolute;
+    right: -50px;
+    top: 136px;
+    width: 60px;
+  }
+
+  .cb-silvato-p11{
+    position: absolute;
+    left: -23px;
+    top: 21px;
+    height: 40px;
+  }
+  .cb-calendario-p11{
+    position: absolute;
+    right: -53px;
+    top: -15px;
+    width: 90px;
+    z-index: 1;
+  }
+  
+.cb-bomero-p11{
+    position: absolute;
+    left: -20px;
+    bottom: 2px;
+    z-index: 1;
+}
+.cb-bota-p11{
+    position: absolute;
+    left: -40px;
+    bottom: -2px;
+}
+
+.cb-dosier {
+    width: 50%;
+}
+
+@media all and (max-width: 829px) {
+    .cb-page11 {
+        background: url(images/page_011/fondo_004.svg) top left/ cover no-repeat !important;
      }
+
+}
+
+@media all and (max-width: 680px) {
+
+    .cb-bota-p11{
+        display: none;
+    }
+    .cb-bomero-p11{
+        display: none;
+    }
+    .cb-calendario-p11{
+        display: none;
+    }
+    .cb-silvato-p11{
+        display: none;
+    }
+    .cb-crallones-p11{
+        display: none;
+    }
+    .cb-bloques-p11{
+        display: none;
+    }
 }

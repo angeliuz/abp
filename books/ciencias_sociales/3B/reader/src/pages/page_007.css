@@ -5,12 +5,46 @@
   height: 87px;
 }
 
-.cabecera-7{
+.cabecera-pag7{
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
   clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
   background-color: var(--goten);
-  height: auto;
-  padding-bottom: 30px;
+  height: 128px;
+}
+.cb-caja-bg{
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 23px;
+  width: 180px;
+  z-index: 1;
+}
+.cb-titulo-caja{
+  position: absolute;
+  margin-top: -37px;
+  margin-left: 53px;
+  z-index: 11;
+}
+.cb-cabecera-textos{
+  display: flex;
+}
+.cb-box-a {
+  background-color: white;
+  left: 10px;
+  top: 93px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #7c7c7c;
+  text-align: center;
+}
+.cb-ejercicio-2-p07{
+  width: 100%;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--trunks);
+}
+.cb-cabecera-seccion{
+  display: flex;
 }
 
 .rect-sesion{
@@ -41,114 +75,119 @@
   border-radius: 20px 20px 0px 0px;
 }
 
-.caja {
-  background-image: url(images/page_007/img_000.svg);
+/* .caja {
+  background-image: url(../5B/images/page_007/img_000.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
-  padding: 8px;
+  padding: 10px 10px 10px 10px;
 }
-/* .cb-caja {
-  background-image: url(images/page_007/img_002.svg);
+.cb-caja {
+  background-image: url(../5B/images/page_007/img_002.svg);
   background-repeat: no-repeat;
   background-size: contain;
-
+  width: 100%;
+  max-width: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.cb-caja-2 {
+  background-image: url(../5B/images/page_007/img_006.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: center;
+  width: 100%;
+  max-width: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;;
 } */
+.cb-row{
+  max-width: 100px;
+}
 
-.cb-paper {
+.cb-contenedor-mail{
   position: relative;
   width: calc(100% - 100px);
-  margin: 50px auto 46px;
+  max-width: 700px;
+  margin: 20px auto 30px;
+  background-color: var(--ganyu);
+  border-radius: 10px;
+  box-shadow: -2px 3px 13px 4px rgb(0 0 0 / 20%);
+  border-top: 15px solid var(--qiqi)
 }
 
-.cb-paper-content {
+.cb-datos-1{
+width: 100%;
+background-color: white;
+max-width: 630PX;
+}
+.cb-datos-a{
+  width: 100%;
+  max-width: 70px;
+}
+.cb-carta-content {
   position: relative;
   z-index: 3;
-  background: #fefcfb;
+  background: white;
   padding: 30px 40px;
   font-size: 16px;
+  border-radius: 0px 0px 10px 10px;
 }
 
-.cb-paper-sign {
-    margin-top: 30px;
-    text-align: right;
-}
-
-.cb-paper::before,
-.cb-paper::after {
+.cb-personaje-p07{
   position: absolute;
-  content: '';
-  height: 100%;
-  width: 100%;
-  background: #f1eee0;
-  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
-  left: 0;
-  top: 0;
+  right: -63px;
+  bottom: -10px;
 }
-
-.cb-paper::before {
-  z-index: 2;
-  transform: rotate(-2deg);
-}
-
-.cb-paper::after {
-  z-index: 1;
-  transform: rotate(2deg);
-}
-
-.cb-lapiz{
+.cb-computador-p07{
   position: absolute;
-    left: 25px;
-    bottom: 70px;
-    transform: rotate(-25deg);
-}
-.cb-carta{
-  position: absolute;
-    right: -35px;
-    top: 10px;
+    right: -75px;
+    top: 150px;
     transform: rotate(5deg);
 }
-
-/* Jorge */
-.contenedor-pagina{
-  padding-left: 6%; padding-right: 6%
+.linea {
+  border-bottom: 1px dashed #dedede;
+  padding-top: 5px;
+  border-color:var(--dark);
 }
-
-.section-name{
-  justify-content: start;
+.cb-pad{
+  padding-left: 6%; 
+  padding-right: 6%;
 }
-
-@media (max-width: 576px) {
+@media (max-width: 760px) {
   .cambio {
       padding: 0;
   }
-  .cabecera-7 {
-    height: auto;
-    padding-bottom: 30px;
-  }
-  .rotar {
-      transform: rotate(90deg);
-      margin: 10px;
-      width: 20px;
+  .cabecera {
+      height: 200px;
   }
   .centrar {
       text-align: center;
       padding: 10px 13px 0px 13px  !important;
       justify-content: center;
   }
-
-   .cb-paper-content {
-          padding: 20px;
-          font-size: 15px;
-      }
-
-      .cb-lapiz {
-        display: none;
-    }
-    .cb-carta {
-      display: none;
-  }
-  .section-name{
+  .centrar-2 {
+    text-align: center;
+    padding: 10px 25px 0px 25px  !important;
     justify-content: center;
+}
+
+}
+@media (max-width: 620px) {
+  .cambio {
+      padding: 0;
   }
+}
+@media (max-width: 580px) {
+  .cambio {
+      padding: 0;
+  }
+
+}
+@media (max-width: 570px) {
+  .cambio {
+      padding: 0;
+  }
+
 }

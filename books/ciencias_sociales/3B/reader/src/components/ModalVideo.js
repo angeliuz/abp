@@ -63,8 +63,6 @@ function ModalVideo(props) {
         console.log("No existe el documento");
         await setDoc(doc(db, coleccion, documento),{[id]:""});
       }
-        // console.log("useEffect: " + docSnap.data()[id]);
-        // console.log("change: " + content1);
     };
     obtenerDatos();
   }
