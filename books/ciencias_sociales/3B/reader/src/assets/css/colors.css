@@ -132,6 +132,7 @@
   --blaze:#5cac3c;
   --kagome:#ffdcb4;
   --naraku:#b0dcec;
+  --jugador001:#FFFEF1;
 }
 
 /* COLORES */
@@ -793,9 +794,9 @@
 .color-naraku {
   color: var(--naraku);
 }
-  
-  
-  
+.color-jugador001 {
+  color: var(--jugador001);
+}
 
 
 
@@ -1228,6 +1229,9 @@
 .border-color-naraku {
   border-color: var(--naraku) !important;
 }
+.border-color-jugador001 {
+  border-color: var(--jugador001) !important;
+}
 /* B
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1659,4 +1663,7 @@
 }
 .bgc-naraku {
   background-color: var(--naraku);
+}
+.bgc-jugador001 {
+  background-color: var(--jugador001);
 }

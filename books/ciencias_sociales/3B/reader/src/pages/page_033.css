@@ -1,0 +1,193 @@
+.cuadrado-naranja{
+  -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 96% 100%, 8% 100%);
+  background-color: #F29205;
+  height: 87px;
+}
+
+.cabecera-pag7{
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
+  background-color: var(--pidgey);
+  height: 128px;
+}
+.cb-caja-bg{
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 23px;
+  width: 180px;
+  z-index: 1;
+}
+.cb-titulo-caja{
+  position: absolute;
+  margin-top: -37px;
+  margin-left: 53px;
+  z-index: 11;
+}
+.cb-cabecera-textos{
+  display: flex;
+}
+.cb-box-a {
+  background-color: white;
+  left: 10px;
+  top: 93px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #7c7c7c;
+  text-align: center;
+}
+.cb-ejercicio-2-p07{
+  width: 100%;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--trunks);
+}
+.cb-cabecera-seccion{
+  display: flex;
+}
+
+.rect-sesion{
+  background-color: #ffcc00;
+  border: 4px solid white;
+  padding: 5px 8px 0px 8px;
+  box-shadow: 2px 2px 1px 0px #9f9f9f;
+}
+
+.cuadro-selec {
+  background-color: #C3E3F5;
+  display: block;
+  width: 200px;
+  padding: .5rem;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right .45rem center;
+  background-size: 16px 12px;
+  border: 0px solid #ced4da;
+  border-radius: .3rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.rounded-caja {
+  border-radius: 20px 20px 0px 0px;
+}
+
+/* .caja {
+  background-image: url(../5B/images/page_007/img_000.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px 10px 10px 10px;
+}
+.cb-caja {
+  background-image: url(../5B/images/page_007/img_002.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  max-width: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.cb-caja-2 {
+  background-image: url(../5B/images/page_007/img_006.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: center;
+  width: 100%;
+  max-width: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;;
+} */
+.cb-row{
+  max-width: 100px;
+}
+
+.cb-contenedor-mail{
+  position: relative;
+  width: calc(100% - 100px);
+  max-width: 700px;
+  margin: 20px auto 30px;
+  background-color: var(--ganyu);
+  border-radius: 10px;
+  box-shadow: -2px 3px 13px 4px rgb(0 0 0 / 20%);
+  border-top: 15px solid var(--qiqi)
+}
+
+.cb-datos-1{
+width: 100%;
+background-color: white;
+max-width: 630PX;
+}
+.cb-datos-a{
+  width: 100%;
+  max-width: 70px;
+}
+.cb-carta-content {
+  position: relative;
+  z-index: 3;
+  background: white;
+  padding: 30px 40px;
+  font-size: 16px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.cb-personaje-p07{
+  position: absolute;
+  right: -63px;
+  bottom: -10px;
+}
+.cb-computador-p07{
+  position: absolute;
+    right: -75px;
+    top: 150px;
+    transform: rotate(5deg);
+}
+.linea {
+  border-bottom: 1px dashed #dedede;
+  padding-top: 5px;
+  border-color:var(--dark);
+}
+.cb-pad{
+  padding-left: 6%; 
+  padding-right: 6%;
+}
+@media (max-width: 760px) {
+  .cambio {
+      padding: 0;
+  }
+  .cabecera {
+      height: 200px;
+  }
+  .centrar {
+      text-align: center;
+      padding: 10px 13px 0px 13px  !important;
+      justify-content: center;
+  }
+  .centrar-2 {
+    text-align: center;
+    padding: 10px 25px 0px 25px  !important;
+    justify-content: center;
+}
+
+}
+@media (max-width: 620px) {
+  .cambio {
+      padding: 0;
+  }
+}
+@media (max-width: 580px) {
+  .cambio {
+      padding: 0;
+  }
+
+}
+@media (max-width: 570px) {
+  .cambio {
+      padding: 0;
+  }
+
+}

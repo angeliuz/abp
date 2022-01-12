@@ -1,170 +1,94 @@
-.cb-page72 {
-  background: url(images/page_072/fondo_001.svg) top center/cover no-repeat;
-  width: 100% !important;
-  height: 100% !important;
-  -webkit-print-color-adjust: exact !important;
+.cb-contenedor-mail-p72{
+  position: relative;
+  width: calc(100% - 100px);
+  max-width: 700px;
+  margin: 20px auto 0px;
+  border-radius: 10px;
+  box-shadow: -2px 3px 13px 4px rgb(0 0 0 / 20%);
 }
-.cb-inicio {
-  margin-bottom: 60px;
+
+.cb-carta-content-p72 {
+  position: relative;
+  z-index: 3;
+  background: white;
+  padding: 0px 40px;
+  font-size: 16px;
+  border-radius: 0px 0px 10px 10px;
 }
-.bloque-blanco {
-  min-width: 200px;
-  min-height: 200px;
-}
-.linea {
-  border-bottom: 1px dashed #dedede;
-  padding-top: 5px;
-  border-color: var(--dark);
-  min-width: 55px;
-}
-.maximo {
-    max-width:600px;
-}
-.tf-flecha1 {
-  display: flex;
+
+.cb-favorito-carta-p72{
   position: absolute;
-  left: 100px;
-  bottom: 335px;
-  z-index: 1;
-  height: 18px;
+  right: 18px;
+  top: -125px;
+  width: 70px;
 }
-.tf-flecha2 {
+.cb-ejercicio-final-p72{
+  width: calc(100% - 30px);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  position: absolute;
-  left: 100px;
-  bottom: 172px;
-  z-index: 1;
-  height: 18px;
 }
-.tf-camara {
-    display: flex;
-    position: absolute;
-    right: 20px;
-    top: -10px;
-    z-index: 1;
-    height: 90px;
+.cb-ejercicio3-p72{
+  width: calc(100% / 2);
+ max-width: 340px;
+ box-shadow: 1px 1px 4px 1px rgb(0 0 0 / 20%);
+}
+.cb-titulo-ejercicio{
+  padding-left: 20px;
+  padding-right: 0px;
+}
+.cb-personaje-p72{
+  position: absolute;
+  right: 70px;
+  bottom: -128px;
+  width: 220px;
+}
+.cb-notamorada-p72{
+  position: absolute;
+  left: -30px;
+  top: 120px;
+  width: 60px;
+}
+.cb-megafono-p72{
+  position: absolute;
+  right: -30px;
+  top: 108px;
+  width: 80px;
+}
+.cb-ipad-p72{
+  position: absolute;
+  right: 50px;
+  top: -192px;
+  width: 80px;
+}
+.cb-chinche-p72{
+ position: absolute;
+ right: 0px;
+ top: -20px;
+}
+@media all and (max-width: 800px) {
+
+
+  .cb-notamorada-p72{
+      display: none;
   }
-  .tf-calculadora {
-    display: flex;
-    position: absolute;
-    left: 65px;
-    top: 100px;
-    z-index: 1;
-    height: 70px;
-  }
-  .tf-hoja {
-    display: flex;
-    position: absolute;
-    right: 25px;
-    top: 350px;
-    z-index: 1;
-    height: 90px;
-  }
-  .tf-brocha {
-    display: flex;
-    position: absolute;
-    left: 80px;
-    top: 445px;
-    z-index: 1;
-    height: 40px;
-  }
-  .tf-persona {
-    display: flex;
-    position: absolute;
-    right: 30px;
-    bottom: 25px;
-    z-index: 1;
-    height: 280px;
-  }
-  .tf-tren {
-    display: flex;
-    position: absolute;
-    left: 30px;
-    bottom: -50px;
-    z-index: 1;
-    height: 50px;
-  }
-  @media all and (max-width: 815px) {
-    .tf-persona {
-        display: none;
-        position: none;
-        visibility: hidden;
-        right: 30px;
-        bottom: 25px;
-        z-index: 1;
-        height: 280px;
-      }
-  }
-@media all and (max-width: 684px) {
-  .tf-flecha1 {
-    display: flex;
-    position: absolute;
-    left: 100px;
-    bottom: 355px;
-    z-index: 1;
-    height: 18px;
-  }
-  .tf-flecha2 {
-    display: flex;
-    position: absolute;
-    left: 100px;
-    bottom: 195px;
-    z-index: 1;
-    height: 18px;
-  }
+  .cb-megafono-p72{
+    display: none;
+}
+  .cb-celu-carta-p71{
+    display: none;
+}
+.cb-ejercicio3-p72{
+  width: 100%;
+  max-width: calc(100% - 50px);
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
-@media all and (max-width: 520px) {
-  .tf-flecha1 {
-    display: flex;
-    position: absolute;
-    left: 100px;
-    bottom: 380px;
-    z-index: 1;
-    height: 18px;
-  }
-  .tf-flecha2 {
-    display: flex;
-    position: absolute;
-    left: 100px;
-    bottom: 195px;
-    z-index: 1;
-    height: 18px;
-  }
+.cb-ejercicio-final-p72{
+  display: inline;
+
 }
-@media all and (max-width: 460px) {
-  .tf-flecha1 {
-    display: flex;
-    position: absolute;
-    left: 100px;
-    bottom: 405px;
-    z-index: 1;
-    height: 18px;
-  }
-  .tf-flecha2 {
-    display: flex;
-    position: absolute;
-    left: 100px;
-    bottom: 218px;
-    z-index: 1;
-    height: 18px;
-  }
-}
-@media all and (max-width: 400px) {
-  .tf-flecha1 {
-    display: flex;
-    position: absolute;
-    left: 100px;
-    bottom: 430px;
-    z-index: 1;
-    height: 18px;
-  }
-  .tf-flecha2 {
-    display: flex;
-    position: absolute;
-    left: 100px;
-    bottom: 240px;
-    z-index: 1;
-    height: 18px;
-  }
 }

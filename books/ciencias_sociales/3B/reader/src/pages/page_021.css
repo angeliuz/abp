@@ -1,15 +1,64 @@
-.soc-page21 {
-    background: url(images/page_021/fondo_001.svg) #afca0b top left/ cover no-repeat !important;
-     -webkit-print-color-adjust: exact !important;
- 
- }
- .t-shadow-21{
-     text-shadow: -7px -8px #529f3a;
- }
- 
- @media all and (max-width: 500px) {
- 
-     .ft-m {
-         font-size: 50px;
-      }
- }
+.cabecera-21 {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+    background-color: var(--android18);
+    height: 90px;
+}
+
+.caja-21 {
+    background-image: url(images/page_021/caja.svg);
+    background-size: cover;
+    padding-top: 12px;
+    width: 158px;
+    height: 56px;
+    text-align: center;
+
+}
+
+.container-row {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+
+
+@media (max-width: 608px) {
+    .cabecera-21 {
+        height: 150px;
+    }
+
+    .centrar-21 {
+        justify-content: center;
+    }
+
+    .cambio-21 {
+        padding-top: 3px;
+    }
+}
+
+@media (max-width: 591px) {
+    .cabecera-21 {
+        height: 130px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .cabecera-21 {
+        height: 130px;
+    }
+
+    .cajota {
+        margin: 0 auto;
+    }
+
+    
+}
+
+@media (max-width: 463px) {
+    .cabecera-21 {
+        height: 150px;
+    }
+}
