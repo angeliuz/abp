@@ -124,9 +124,10 @@ function Page014(props) {
             </div>
             <InputBox
               id={"p" + pagina + "_input" + (indexInput += 1)}
-              className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 "
+              className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-160 "
             />
           </div>
+          <div className="pbp-80"></div>
 
           {/* PIE DE PAGINA */}
           <div
@@ -139,7 +140,7 @@ function Page014(props) {
             >
               ABP &copy; SM
             </div>
-            <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">
+            <div className="bgc-jawa wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">
               {props.numeroPagina(pagina)}
             </div>
           </div>
