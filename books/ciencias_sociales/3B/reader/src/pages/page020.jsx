@@ -13,7 +13,7 @@ function Page020(props) {
 
     <div className="wrapper bgc-light">
         <div className="d-flex flex-column align-items-center pbp-20">
-            <div className="cb-page20 page bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
+            <div className="cb-page20 page bgc-android18 overflow-hidden position-relative" id={"page_"+pagina}>
 
             <div className="w-100 mt-15 pe-5 ps-5 ">
                         <div className="cb-lineas-12 pbp-60">
@@ -32,9 +32,9 @@ function Page020(props) {
                                 <div> 
                                     <span className="fsp-16 text-start f-pixilate-regular">
                                         <span className="fsp-16 f-IntroRustG-Base text-start"> 
-                                        IDENTIFICAR
+                                        RECONOCER
                                         </span> 
-                                        <br /> qué sé acerca del desafío. 
+                                        <br /> los derechos de la niñez. 
                                     </span>
                                 </div>  
                         </div>
@@ -44,12 +44,12 @@ function Page020(props) {
                     <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
                         <div className="d-flex bgc-azuka psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-22"> 
                             <div className="d-flex"> 
-                                <img src="images/page_020/flecha.svg" className="mbp-25 mep-5" alt=""/>
+                                <img src="images/page_020/flecha.svg" className="mbp-40 mep-5" alt=""/>
                             </div> 
                             <div className="d-flex"> 
                                 <span className="fsp-16 text-start f-pixilate-regular">
                                     <span className="fsp-16 f-IntroRustG-Base text-start">
-                                        IDENTIFICAR</span>  que necesito <br />saber para afrontar el desafío.
+                                        IDENTIFICAR</span>  instituciones <br />que se encargan de garantizar<br />los derechos de la niñez.
                                     </span>
                             </div> 
                         </div>
@@ -64,7 +64,7 @@ function Page020(props) {
                             <div className="d-flex"> 
                                     <span className="fsp-16 text-start f-pixilate-regular">
                                         <span className="fsp-16 f-IntroRustG-Base text-start">
-                                        ASIGNAR</span> los roles <br /> para realizar el trabajo en equipo.
+                                        VALORAR</span> las <br /> diferencias culturales.
                                         </span>
                                 </div> 
                         </div>
@@ -78,7 +78,7 @@ function Page020(props) {
                                 <div className="d-flex"> 
                                     <span className="fsp-16 text-start f-pixilate-regular">
                                         <span className="fsp-16 f-IntroRustG-Base text-start">
-                                        ELABORAR</span> un plan para <br />superar el desafio.
+                                        EVALUAMOS</span> nuestro <br />trabajo en equipo.
                                         </span>
                                 </div> 
                         </div>
