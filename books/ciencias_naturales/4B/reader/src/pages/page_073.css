@@ -1,15 +1,65 @@
-.nat-page11 {
-   background: url(images/page_073/Fondo_001.svg) #b80e80 top left/ cover no-repeat !important;
-    -webkit-print-color-adjust: exact !important;
-
+.cb-contenedor-dos {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 650px;
+    width: 100%;
+    display: flex;
 }
-.t-shadow{
-    text-shadow: -7px -8px #8b288f;
-}
+.cb-block {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 320px;
+    width: 50%;
+  }
+  .cb-block-2 {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 320px;
+    width: 100%;
+    box-shadow: 1px 1px 8px 3px rgb(0 0 0 / 20%);
+  }
+  .cb-outline{
+    outline: solid 2px #ffffff;
+    outline-offset: -6px;
+  }  
+  .cb-caja1{
+    position: absolute;
+    top:20px;
+    right: -10px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #ffe0e0;
+  }
+  
+  .cb-caja2-p72{
+    position: absolute;
+    bottom: -10px;
+    right: -19px;
+    width: 103%;
+    border-radius: 5px;
+  }
+  .cb-caja3{
+    border-radius: 5px;
+    background-color: #ffecd5;
+    }
+  .cb-caja4{
+    border-radius: 5px;
 
-@media all and (max-width: 500px) {
-
-    .ft-m {
-        font-size: 50px;
-     }
-}
+  }
+  .cb-psp{
+    padding-left: 10px;
+  }
+  .cb-psp2{
+    padding-left: 20px;
+  }
+  .cb-seccion2-p73{
+      width: calc(100% - 30px);
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+  }
