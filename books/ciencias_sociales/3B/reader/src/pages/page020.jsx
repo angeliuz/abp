@@ -25,7 +25,7 @@ function Page020(props) {
                                 </div>
                             </div>
 
-                <div className="cb-contenedor-12-1">
+                <div className="cb-contenedor-20-1">
                     <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
                         <div className="d-flex bgc-azuka psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-22"> 
                         <div className="d-flex"> <img src="images/page_020/flecha.svg" className="mbp-20 mep-5" alt=""/></div>  
@@ -40,7 +40,7 @@ function Page020(props) {
                         </div>
                     </div>
                 </div>
-                <div className="cb-contenedor-12-2">
+                <div className="cb-contenedor-20-2">
                     <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
                         <div className="d-flex bgc-azuka psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-22"> 
                             <div className="d-flex"> 
@@ -55,7 +55,7 @@ function Page020(props) {
                         </div>
                     </div>
                 </div>
-                <div className="cb-contenedor-12-3">
+                <div className="cb-contenedor-20-3">
                     <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
                         <div className="d-flex bgc-azuka psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-22"> 
                             <div className="d-flex"> 
@@ -70,7 +70,7 @@ function Page020(props) {
                         </div>
                     </div>
                 </div>
-                <div className="cb-contenedor-12-4">
+                <div className="cb-contenedor-20-4">
                     <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
                         <div className="d-flex bgc-azuka psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-22"> 
                             <div className="d-flex"> <img src="images/page_020/flecha.svg" className="mbp-20 mep-5" alt=""/></div> 
