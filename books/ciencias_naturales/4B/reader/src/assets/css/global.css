@@ -11,7 +11,7 @@ body {
 }
 
 .caja {
-  background: url(../../pages/images/generales/caja.png);
+  background: url(../../pages/images/generales/caja_seccion.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -30,7 +30,7 @@ body {
 }
 
 .caja-seccion{
-  background-image: url(../../pages/images/generales/caja_seccion.svg);
+  background-image: url(../../pages/images/generales/caja_seccion.png);
   background-repeat: no-repeat;
   background-size: contain;
 }

@@ -1,77 +1,26 @@
-.flecha-23-1{
-  margin-top:-20px;
-  left:100%;
-  top: 50%;
-}
-.flecha-23-2{
-  margin-top:0;
-}
-.flecha-23-3{
-  margin-top:20px;
-  left:0%;
-  top: 50%;
+.fondo {
+    background: url(images/page_031/fondo.svg) var(--pidgey) top left / cover no-repeat !important;
+    -webkit-print-color-adjust: exact !important;
 }
 
-.cajas-fluid-inverso {
-    flex-wrap: nowrap;
-}
-.cajaEstado {
-  margin: 0 auto;
-  visibility: hidden;
-  display: none;
+.t-shadow-experimentacion{
+    text-shadow: -7px -8px #0067a9;
 }
 
-
-.interior-caja {
-  background-color: white;
-  margin: -8px -8px 10px -8px;
-  border-radius: 8px 8px 0px 0px;
-  padding: 5px 10px;
+@media all and (max-width: 550px) {
+    .ft-m {
+        font-size: 60px;
+    }
+    .t-shadow{
+        text-shadow: -5px -6px #0067a9;
+    }
 }
 
-
-.circuloEstado {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  background: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  text-align: center;
-}
-
-
-
-.rounded-tb-20 {
-  border-radius: 20px 10px 20px 10px;
-}
-
-@media all and (max-width: 768px) {
-  .cajas-fluid-inverso {
-    flex-wrap: wrap;
-  }
-  .circuloEstado {
-    display: none;
-  }
-  .cajaEstado {
-    margin: 0 auto !important;
-    display: flex;
-    visibility: visible
-  }
-  .flecha-23-1{
-    margin-top:-5px;
-    left:50%;
-    top: 100%
-  }
-  .flecha-23-2{
-    margin-top:0;
-  }
-  .flecha-23-3{
-    margin-top:-5px;
-    left:50%;
-    top: 0%;
-  }
-
+@media all and (max-width: 430px) {
+    .ft-m {
+        font-size: 40px;
+    }
+    .t-shadow{
+        text-shadow: -4px -5px #0067a9;
+    }
 }
