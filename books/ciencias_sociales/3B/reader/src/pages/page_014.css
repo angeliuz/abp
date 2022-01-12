@@ -20,6 +20,13 @@ background-color: #f7f4e8;
 .hp-220 {
   height: 220px;
 }
+.tf-niña {
+  display: flex;
+  position: absolute;
+  right: 40px;
+  top: 240px;
+  z-index: 1;
+}
 @media (min-width: 710px) {
   .anillo-dos {
     visibility: visible;
