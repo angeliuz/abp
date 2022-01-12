@@ -38,7 +38,7 @@ function Page016(props) {
                           <div className="col-sm-12 col-md-6 d-flex position-relative justify-content-center align-items-center m-0 p-3">
                               <img src="images/page_016/img_006.png" className="" alt="" />
                               <div className="tf-mapa-content position-absolute">
-                                  <img src="images/page_016/img_001.png" className="hp-90" alt="" />
+                                  <img src="images/page_016/img_001.png" className="hp-90" alt="" />ssss
                               </div>
                           </div>
 
