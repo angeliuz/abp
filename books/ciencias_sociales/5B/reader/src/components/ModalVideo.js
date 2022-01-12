@@ -48,12 +48,16 @@ function ModalVideo(props) {
     const obtenerDatos = async () => {
       const docSnap = await getDoc(docRef);
       if(docSnap.exists()){
-        console.log("LINKVIDEO: "+docSnap.data()[id][0])
-        console.log("TITULOVIDEO: "+docSnap.data()[id][1])
-        console.log("TIPOVIDEO: "+docSnap.data()[id][2])
-        setLinkVideo(docSnap.data()[id][0]);
-        setTituloVideo(docSnap.data()[id][1]);
-        setTipoVideo(docSnap.data()[id][2]);
+        if(docSnap.data()[id]){
+          console.log("LINKVIDEO: "+docSnap.data()[id][0])
+          console.log("TITULOVIDEO: "+docSnap.data()[id][1])
+          console.log("TIPOVIDEO: "+docSnap.data()[id][2])
+          setLinkVideo(docSnap.data()[id][0]);
+          setTituloVideo(docSnap.data()[id][1]);
+          setTipoVideo(docSnap.data()[id][2]);
+        }else{
+          console.log("No existe el video");
+        }
       }else{
         await setDoc(doc(db, coleccion, documento),{[id]:""});
       }

@@ -42,9 +42,23 @@ import Page038 from "./pages/page038";
 import Page039 from "./pages/page039";
 import Page040 from "./pages/page040";
 import Page041 from "./pages/page041";
+<<<<<<< HEAD
+// import Page042 from "./pages/page042";
+// import Page043 from "./pages/page043";
+// import Page044 from "./pages/page044";
+// import Page045 from "./pages/page045";
+// import Page046 from "./pages/page046";
+// import Page047 from "./pages/page047";
+// import Page048 from "./pages/page048";
+// import Page049 from "./pages/page049";
+// import Page050 from "./pages/page050";
+// import Page051 from "./pages/page051";
+// import Page052 from "./pages/page052";
+=======
 import Page042 from "./pages/page042";
 import Page043 from "./pages/page043";
 
+>>>>>>> 47ac3ee0c43325db8ebf72783bd060d9da28883c
 
 
 function App() {
@@ -119,10 +133,22 @@ function App() {
       <Page038 numeroPagina={clearZeros} />
       <Page039 numeroPagina={clearZeros} />
       <Page040 numeroPagina={clearZeros} />
-      <Page041 numeroPagina={clearZeros} />
+      {/* <Page041 numeroPagina={clearZeros} />
       <Page042 numeroPagina={clearZeros} />
       <Page043 numeroPagina={clearZeros} />
+<<<<<<< HEAD
+      <Page044 numeroPagina={clearZeros} />
+      <Page045 numeroPagina={clearZeros} />
+      <Page046 numeroPagina={clearZeros} />
+      <Page047 numeroPagina={clearZeros} />
+      <Page048 numeroPagina={clearZeros} />
+      <Page049 numeroPagina={clearZeros} />
+      <Page050 numeroPagina={clearZeros} />
+      <Page051 numeroPagina={clearZeros} />
+      <Page052 numeroPagina={clearZeros} /> */}
+=======
 
+>>>>>>> 47ac3ee0c43325db8ebf72783bd060d9da28883c
     </div>
   );
 }
