@@ -62,14 +62,14 @@ function Page021(props) {
 
           <div className="row container-row mtp-10 p-0 mx-4">
 
-          <div className="col-sm-12 col-md-4 mtp-20 mbp-40 position-relative">
+          <div className="col-sm-12 col-md-4 mtp-20  position-relative">
           <img
-                src="images/page_021/img_001.png"
-                className="rotulo-21"
+                src="images/page_021/img_003.png"
+                className="top-0 start-50 translate-middle-x position-absolute"
                 alt=""
               />
-              <div className="mbp-40 mtp-30 w-100">
-                <div className="w-100  borde-21-1 p-2 rounded-p-20 min-hp-400">
+              <div className=" margen-21 mtp-30 mbp-80 w-100">
+                <div className=" w-100  borde-21-1 p-2 rounded-p-20 min-hp-400">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-390"
@@ -78,8 +78,13 @@ function Page021(props) {
               </div>
             </div>
 
-            <div className="col-sm-12 col-md-4 mtp-20 mbp-20 position-relative">
-              <div className="mbp-40 mtp-30 w-100">
+            <div className="col-sm-12 col-md-4 mtp-20  position-relative">
+            <img
+                src="images/page_021/img_002.png"
+                className="top-0 start-50 translate-middle-x position-absolute"
+                alt=""
+              />
+              <div className=" margen-21 mtp-30 mbp-80 w-100">
                 <div className="w-100  borde-21-2 p-2 rounded-p-20 min-hp-400">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -89,8 +94,13 @@ function Page021(props) {
               </div>
             </div>
 
-            <div className="col-sm-12 col-md-4 mtp-20 mbp-20 position-relative">
-              <div className="mbp-40 mtp-30 w-100">
+            <div className="col-sm-12 col-md-4 mtp-20  position-relative">
+            <img
+                src="images/page_021/img_001.png"
+                className="top-0 start-50 translate-middle-x position-absolute"
+                alt=""
+              />
+              <div className=" mtp-30 mbp-80 w-100">
                 <div className="w-100  borde-21-3 p-2 rounded-p-20 min-hp-400">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}

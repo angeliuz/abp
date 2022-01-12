@@ -8,7 +8,7 @@
 .caja-21 {
     background-image: url(images/page_021/caja.svg);
     background-size: cover;
-    padding-top: 12px;
+    padding: 13px;
     width: 158px;
     height: 56px;
     text-align: center;
@@ -21,28 +21,29 @@
 
 }
 
-.borde-21-1{
+.borde-21-1 {
     border: 4px solid;
     border-color: #cde1a7;
+    
 }
 
-.borde-21-2{
+.borde-21-2 {
     border: 4px solid;
     border-color: #eba7c1;
 }
 
-.borde-21-3{
+.borde-21-3 {
     border: 4px solid;
     border-color: #b2deed;
 }
 
-.rotulo-21{
-    position: absolute;
-    left: 43px;
-    top: -12px;
+
+
+@media (max-width: 767px) {
+    .margen-21 {
+        margin-bottom: 10px;
+    }
 }
-
-
 
 @media (max-width: 608px) {
     .cabecera-21 {
@@ -74,7 +75,7 @@
         margin: 0 auto;
     }
 
-    
+
 }
 
 @media (max-width: 463px) {
