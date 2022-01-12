@@ -39,14 +39,11 @@ import Page035 from "./pages/page035";
 import Page036 from "./pages/page036";
 import Page037 from "./pages/page037";
 import Page038 from "./pages/page038";
-<<<<<<< HEAD
-import Page042 from "./pages/page042";
-import Page043 from "./pages/page043";
-=======
 import Page039 from "./pages/page039";
 import Page040 from "./pages/page040";
 import Page041 from "./pages/page041";
->>>>>>> 47ac3ee0c43325db8ebf72783bd060d9da28883c
+import Page042 from "./pages/page042";
+import Page043 from "./pages/page043";
 
 
 function App() {
