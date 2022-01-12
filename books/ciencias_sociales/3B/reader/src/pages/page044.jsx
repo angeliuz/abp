@@ -2,11 +2,11 @@ import React from "react";
 import ModalVideo from "../components/ModalVideo";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
-import "./page_043.css";
+import "./page_044.css";
 
-function Page043(props) {
+function Page044(props) {
 
-  const pagina = "043";
+  const pagina = "044";
   var indexInput = 0;
 
   return (
@@ -16,8 +16,7 @@ function Page043(props) {
                {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className="cabecera-v2 bgc-saitama d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja wp-150 text-center fsp-24 f-IntroRustG-Base">SESIÓN 11</div>
-              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Tomamos decisiones</div>
+          
             </div>
 
           </div> 
@@ -25,21 +24,55 @@ function Page043(props) {
 
 
 
-            <div className="ptp-30 psp-60 pep-60">
-              <div className="f-Ubuntu-M fsp-20 color-saitama text-start">Conociendo otras fiestas</div>
-            </div>
+      
             <div className=" container-titulo-global mbp-∫0">
             <div className="d-flex">
                 {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/img_002.svg" alt=""  /> */}
-                <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">1</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Completo y comparto con mi grupo.</div>
+                <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">3</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Lo que vamos a considerar para nuestra feria y la creación de nuestro stand:</div>
                  {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> */}
-                <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_043/img_001.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+                {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_043/img_001.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
 
+    <div className="d-flex msp-60 mep-40 ">
+          <div className="row w-100 m-0 p-2 rounded-p-10 ">
+            <div className="col-8 bgc-info  ">
 
-          <div className="d-flex msp-100 mep-60 position-relative mtp-30">
+              <div className="d-block p-2 ">
+                <div className="f-Ubuntu-L text-start fsp-15 lh-sm">Las personas que nos ayudarán son</div>
+                <div className="rounded-p-5 wp-400 hp-45 bgc-white"></div>
+              </div>
+              <div className="d-block p-2 ">
+                <div className="f-Ubuntu-L text-start fsp-15 lh-sm">El espacio donde se realizará será</div>
+                <div className="rounded-p-5 wp-400 hp-45 bgc-white"></div>
+              </div>
+              <div className="d-block p-2 ">
+                <div className="f-Ubuntu-L text-start fsp-15 lh-sm">Responsables de solicitar la ayuda</div>
+                <div className="rounded-p-5 wp-400 hp-45 bgc-white"></div>
+              </div>
+              <div className="d-block p-2 ">
+                <div className="f-Ubuntu-L text-start fsp-15 lh-sm">Responsables de solicitar la autorización</div>
+                <div className="rounded-p-5 wp-400 hp-45 bgc-white"></div>
+              </div>
+              <div className="d-block p-2 ">
+                <div className="f-Ubuntu-L text-start fsp-15 lh-sm">Responsables de solicitar la ayuda</div>
+                <div className="rounded-p-5 wp-400 hp-45 bgc-white"></div>
+              </div>
+              <div className="d-block p-2 ">
+                <div className="f-Ubuntu-L text-start fsp-15 lh-sm">Responsables de reunir los materiales</div>
+                <div className="rounded-p-5 wp-400 hp-45 bgc-white"></div>
+              </div>
+ 
+            </div>
+            <div className="col-4 bgc-red">
+              
+            </div>
+          </div>
+
+    </div>
+
+          {/* <div className="d-flex msp-100 mep-60 position-relative mtp-30">
             <div className="border border-3 p-3 hp-400 w-100 ">
             <div><img src="images/page_043/img_004.png" className="position-absolute top-50 start-0 translate-middle wp-40" alt=""></img></div> 
             <div className="f-Ubuntu-L text-start fsp-15 lh-sm msp-20 mbp-30">¿Qué elementos tiene la fiesta que se muestra en la revista?</div>
@@ -47,12 +80,8 @@ function Page043(props) {
             <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-4 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190" />
             </div>
             
-          </div>
-
-          <div className="ptp-30 psp-60 pep-60">
-              <div className="f-Ubuntu-M fsp-20 color-saitama text-start">Tomamos decisiones</div>
-          </div>
-       
+          </div> */}
+ 
        
           <div className="ptp-5 psp-60 pep-60">
           <div className="f-Ubuntu-L text-start fsp-17 lh-sm ">Junto con la información que recopilamos en las etapas anteriores para presentar en nuestra fiesta, montaremos un stand cultural.</div>
@@ -60,7 +89,7 @@ function Page043(props) {
 
 
 
-          <div className="row w-100  psp-60 pep-60"> 
+          {/* <div className="row w-100  psp-60 pep-60"> 
            
             <div className="col-lg-4 col-md-12  ">
               <div className="d-flex">
@@ -111,7 +140,7 @@ function Page043(props) {
             </div>
           
             </div>
-
+ */}
        
     
 
@@ -165,4 +194,4 @@ function Page043(props) {
   );
 }
 
-export default Page043;
+export default Page044;
