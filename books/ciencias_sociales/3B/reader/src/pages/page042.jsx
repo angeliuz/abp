@@ -22,9 +22,8 @@ function Page042(props) {
                         </div>
                         <div className="cb-contenedor-1">
                             <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
-                                <div className="d-flex bgc-bobafett psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-12">
-                                    <div className="d-flex"> <img src="images/page_012/img_004.svg" className="mbp-20 mep-5"
-                                            alt="" /></div>
+                                <div className="d-flex bgc-bobafett psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-42">
+                        
                                     <div> <span className="fsp-16 f-IntroRustG-Base">
                                     DEFINIR</span> cómo <br />representar la diversidad en <br />nuestra fiesta...
                                     </div>
@@ -33,9 +32,8 @@ function Page042(props) {
                         </div>
                         <div className="cb-contenedor-2">
                             <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
-                                <div className="d-flex bgc-bobafett psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-12">
-                                    <div className="d-flex"> <img src="images/page_012/img_004.svg" className="mbp-45 mep-5"
-                                            alt=""/></div>
+                                <div className="d-flex bgc-bobafett psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-42">
+                            
                                     <div> <span className="fsp-16 f-IntroRustG-Base">
                                     CREAR </span> expresiones<br />artísticas para presentar en<br />nuestra fiesta.
                                     </div>
@@ -44,9 +42,8 @@ function Page042(props) {
                         </div>
                         <div className="cb-contenedor-3">
                             <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
-                                <div className="d-flex bgc-bobafett psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-12">
-                                    <div className="d-flex"> <img src="images/page_012/img_004.svg" className="mbp-45 mep-5"
-                                            alt="" /></div>
+                                <div className="d-flex bgc-bobafett psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-42">
+                               
                                     <div> <span className="fsp-16 f-IntroRustG-Base">
                                     VALORAR</span>  nuestro<br />trabajo en equipo.
                                     </div>
