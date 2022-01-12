@@ -1,144 +1,82 @@
-.cb-page43 {
-    background: url(images/page_043/fondo_001.svg) top center/cover no-repeat;
-    width: 100% !important;
-    height: 100% !important;
-    -webkit-print-color-adjust: exact !important;
-  }
-  .cb-dossier {
-    width: 100%;
-  }
-  .style-title {
-    font-size: 16px;
-    font-family: Ubuntu-M, sans-serif;
-    text-align: left !important;
-  } 
-  .style-text {
-    font-size: 16px;
-    font-family: Ubuntu-r, sans-serif;
-    text-align: left !important;
-  }
-  .style-num {
-    font-size: 21px;
-    font-family: Ubuntu-M, sans-serif;
-    text-align: left !important;
-  }
-  .block-bottom {
-    max-width: 600px;
-    margin-right: auto;
-    margin-left: auto;
-    width: calc(100% - 30px);
-  }
-  .conteo {
-    padding-left: 40px;
-  }
-  .linea {
-    border-bottom: 1px dashed #dedede;
-    padding-top: 5px;
-    border-color: var(--dark);
-  }
-  .posicion {
-    left: 30px;
-    position: relative;
-  }
-
-  .tf-mapa {
-    display: flex;
-    position: absolute;
-    top: 195px;
-    left: 40px;
-    z-index: 1;
-  }
-  .tf-estrella {
-    display: flex;
-    position: absolute;
-    right: 30px;
-    top: 190px;
-    z-index: 1;
+.cb-pad{
+  padding-left: 6%; 
+  padding-right: 6%;
 }
-  .tf-tablet {
-    display: flex;
-    position: absolute;
-    top: 290px;
-    right: 40px;
-    z-index: 1;
+.cb-contenedor-mail-p07{
+  position: relative;
+  width: calc(100% - 100px);
+  max-width: 700px;
+  margin: 20px auto 30px;
+  background-color: var(--ganyu);
+  border-radius: 10px;
+  box-shadow: -2px 3px 13px 4px rgb(0 0 0 / 20%);
+  border-top: 40px solid #4d86cb
+}
+.cb-celu-carta-p07{
+  position: absolute;
+  right: -31px;
+  top: -87px;
+}
+.cb-cerrar-carta-p07{
+  position: absolute;
+  right: 19px;
+  top: -222px;
+  width: 50px;
+}
+.cb-favorito-carta-p07{
+  position: absolute;
+  right: 18px;
+  top: -145px;
+  width: 90px;
+}
+.cb-compu-carta-p07{
+  position: absolute;
+  left: -29px;
+  bottom: -25px;
+  width: 110px;
+}
+
+.cb-datos-1{
+width: 100%;
+max-width: 450PX;
+}
+.cb-invitacion-p07 {
+  width: 100%;
+  background-color: white;
+  height: 40px;
+  align-items: center;
+  display: flex;
+}
+.cb-datos-a{
+  width: 100%;
+  max-width: 70px;
+}
+.cb-carta-content {
+  position: relative;
+  z-index: 3;
+  background: white;
+  padding: 30px 40px;
+  font-size: 16px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.cb-caja_bg{
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 23px;
+  width: 180px;
+  z-index: 1;
+}
+.cb-titulo-caja{
+  position: absolute;
+  margin-top: -37px;
+  margin-left: 53px;
+  z-index: 11;
+}
+@media all and (max-width: 670px) {
+
+
+  .cb-celu-carta-p07{
+      display: none;
   }
-  .tf-reloj {
-    display: flex;
-    position: absolute;
-    top: 360px;
-    left: 50px;
-    z-index: 1;
-  }
-  .tf-globo {
-    display: flex;
-    position: absolute;
-    bottom: 160px;
-    right: 20px;
-    z-index: 1;
-  }
-  .tf-regla {
-    display: flex;
-    position: absolute;
-    bottom: 150px;
-    left: 30px;
-    z-index: 1;
-  }
-  .tf-auto {
-    display: flex;
-    position: absolute;
-    bottom: 20px;
-    right: 230px;
-    z-index: 1;
-  }
-  @media all and (max-width: 765px) {
-  
-    .tf-mapa {
-      display: flex;
-      position: absolute;
-      top: 155px;
-      left: 20px;
-      z-index: 1;
-    }
-    .tf-estrella {
-      display: flex;
-      position: absolute;
-      right: 20px;
-      top: 160px;
-      z-index: 1;
-  }
-    .tf-tablet {
-      display: flex;
-      position: absolute;
-      top: 280px;
-      right: 20px;
-      z-index: 1;
-    }
-    .tf-reloj {
-      display: flex;
-      position: absolute;
-      top: 330px;
-      left: 30px;
-      z-index: 1;
-    }
-    .tf-globo {
-      display: flex;
-      position: absolute;
-      bottom: 300px;
-      right: 10px;
-      z-index: 1;
-    }
-    .tf-regla {
-      display: flex;
-      position: absolute;
-      bottom: 150px;
-      left: 5px;
-      z-index: 1;
-    }
-    .tf-auto {
-      display: flex;
-      position: absolute;
-      bottom: 20px;
-      right: 80px;
-      z-index: 1;
-    }
-  }
+}
