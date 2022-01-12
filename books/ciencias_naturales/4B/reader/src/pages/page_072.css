@@ -1,170 +1,75 @@
-.cb-page72 {
-  background: url(images/page_072/fondo_001.svg) top center/cover no-repeat;
-  width: 100% !important;
-  height: 100% !important;
-  -webkit-print-color-adjust: exact !important;
+.cb-pad{
+  padding-left: 6%; 
+  padding-right: 6%;
 }
-.cb-inicio {
-  margin-bottom: 60px;
-}
-.bloque-blanco {
-  min-width: 200px;
-  min-height: 200px;
-}
-.linea {
-  border-bottom: 1px dashed #dedede;
-  padding-top: 5px;
-  border-color: var(--dark);
-  min-width: 55px;
-}
-.maximo {
-    max-width:600px;
-}
-.tf-flecha1 {
-  display: flex;
-  position: absolute;
-  left: 100px;
-  bottom: 335px;
-  z-index: 1;
-  height: 18px;
-}
-.tf-flecha2 {
-  display: flex;
-  position: absolute;
-  left: 100px;
-  bottom: 172px;
-  z-index: 1;
-  height: 18px;
-}
-.tf-camara {
-    display: flex;
-    position: absolute;
-    right: 20px;
-    top: -10px;
-    z-index: 1;
-    height: 90px;
-  }
-  .tf-calculadora {
-    display: flex;
-    position: absolute;
-    left: 65px;
-    top: 100px;
-    z-index: 1;
-    height: 70px;
-  }
-  .tf-hoja {
-    display: flex;
-    position: absolute;
-    right: 25px;
-    top: 350px;
-    z-index: 1;
-    height: 90px;
-  }
-  .tf-brocha {
-    display: flex;
-    position: absolute;
-    left: 80px;
-    top: 445px;
-    z-index: 1;
-    height: 40px;
-  }
-  .tf-persona {
-    display: flex;
-    position: absolute;
-    right: 30px;
-    bottom: 25px;
-    z-index: 1;
-    height: 280px;
-  }
-  .tf-tren {
-    display: flex;
-    position: absolute;
-    left: 30px;
-    bottom: -50px;
-    z-index: 1;
-    height: 50px;
-  }
-  @media all and (max-width: 815px) {
-    .tf-persona {
-        display: none;
-        position: none;
-        visibility: hidden;
-        right: 30px;
-        bottom: 25px;
-        z-index: 1;
-        height: 280px;
-      }
-  }
-@media all and (max-width: 684px) {
-  .tf-flecha1 {
-    display: flex;
-    position: absolute;
-    left: 100px;
-    bottom: 355px;
-    z-index: 1;
-    height: 18px;
-  }
-  .tf-flecha2 {
-    display: flex;
-    position: absolute;
-    left: 100px;
-    bottom: 195px;
-    z-index: 1;
-    height: 18px;
-  }
+.cb-contenedor-mail-p71{
+  position: relative;
+  width: calc(100% - 100px);
+  max-width: 700px;
+  margin: 20px auto 30px;
+  border-radius: 10px;
+  box-shadow: -2px 3px 13px 4px rgb(0 0 0 / 20%);
 
 }
-@media all and (max-width: 520px) {
-  .tf-flecha1 {
-    display: flex;
-    position: absolute;
-    left: 100px;
-    bottom: 380px;
-    z-index: 1;
-    height: 18px;
-  }
-  .tf-flecha2 {
-    display: flex;
-    position: absolute;
-    left: 100px;
-    bottom: 195px;
-    z-index: 1;
-    height: 18px;
-  }
+.cb-celu-carta-p71{
+  position: absolute;
+  right: -31px;
+  top: -87px;
 }
-@media all and (max-width: 460px) {
-  .tf-flecha1 {
-    display: flex;
-    position: absolute;
-    left: 100px;
-    bottom: 405px;
-    z-index: 1;
-    height: 18px;
-  }
-  .tf-flecha2 {
-    display: flex;
-    position: absolute;
-    left: 100px;
-    bottom: 218px;
-    z-index: 1;
-    height: 18px;
-  }
+
+.cb-favorito-carta-p07{
+  position: absolute;
+  right: 18px;
+  top: -145px;
+  width: 90px;
 }
-@media all and (max-width: 400px) {
-  .tf-flecha1 {
-    display: flex;
-    position: absolute;
-    left: 100px;
-    bottom: 430px;
-    z-index: 1;
-    height: 18px;
+
+
+.cb-datos-1{
+width: 100%;
+max-width: 450PX;
+}
+.cb-invitacion-p71 {
+  width: 100%;
+  background-color: white;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+}
+.cb-datos-a{
+  width: 100%;
+  max-width: 70px;
+}
+.cb-carta-content-p71 {
+  position: relative;
+  z-index: 3;
+  background: white;
+  padding: 30px 40px;
+  font-size: 16px;
+  border-radius: 0px 0px 10px 10px;
+}
+.cb-ficha-p71{
+  position: absolute;
+  right: -28px;
+  top: 18px;
+  width: 70px;
+}
+
+.cb-parte2-p71{
+  width: calc(100% - 30px);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+@media all and (max-width: 800px) {
+
+
+  .cb-ficha-p71{
+      display: none;
   }
-  .tf-flecha2 {
-    display: flex;
-    position: absolute;
-    left: 100px;
-    bottom: 240px;
-    z-index: 1;
-    height: 18px;
-  }
+  .cb-celu-carta-p71{
+    display: none;
+}
 }

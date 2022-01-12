@@ -1,82 +1,18 @@
-.cb-pad{
-  padding-left: 6%; 
-  padding-right: 6%;
+.wp-250 {
+  width: 250px;
 }
-.cb-contenedor-mail-p07{
-  position: relative;
-  width: calc(100% - 100px);
-  max-width: 700px;
-  margin: 20px auto 30px;
-  background-color: var(--ganyu);
-  border-radius: 10px;
-  box-shadow: -2px 3px 13px 4px rgb(0 0 0 / 20%);
-  border-top: 40px solid #4d86cb
+.wp-300 {
+  width: 300px;
 }
-.cb-celu-carta-p07{
-  position: absolute;
-  right: -31px;
-  top: -87px;
+.wp-350 {
+  width: 350px;
 }
-.cb-cerrar-carta-p07{
-  position: absolute;
-  right: 19px;
-  top: -222px;
-  width: 50px;
+.wp-400 {
+  width: 400px;
 }
-.cb-favorito-carta-p07{
-  position: absolute;
-  right: 18px;
-  top: -145px;
-  width: 90px;
+.wp-450 {
+  width: 450px;
 }
-.cb-compu-carta-p07{
-  position: absolute;
-  left: -29px;
-  bottom: -25px;
-  width: 110px;
-}
-
-.cb-datos-1{
-width: 100%;
-max-width: 450PX;
-}
-.cb-invitacion-p07 {
-  width: 100%;
-  background-color: white;
-  height: 40px;
-  align-items: center;
-  display: flex;
-}
-.cb-datos-a{
-  width: 100%;
-  max-width: 70px;
-}
-.cb-carta-content {
-  position: relative;
-  z-index: 3;
-  background: white;
-  padding: 30px 40px;
-  font-size: 16px;
-  border-radius: 0px 0px 10px 10px;
-}
-
-.cb-caja_bg{
-  position: absolute;
-  margin-top: -50px;
-  margin-left: 23px;
-  width: 180px;
-  z-index: 1;
-}
-.cb-titulo-caja{
-  position: absolute;
-  margin-top: -37px;
-  margin-left: 53px;
-  z-index: 11;
-}
-@media all and (max-width: 670px) {
-
-
-  .cb-celu-carta-p07{
-      display: none;
-  }
+.wp-500 {
+  width: 500px;
 }

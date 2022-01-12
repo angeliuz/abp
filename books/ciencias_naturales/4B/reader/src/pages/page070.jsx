@@ -8,7 +8,7 @@ function Page070(props) {
   return (
       <div className="wrapper bgc-light">
         <div className="d-flex flex-column align-items-center pbp-20">
-          <div className="page bgc-goten position-relative" id={"page_"+pagina}>
+          <div className="page bgc-pikachu position-relative" id={"page_"+pagina}>
             <div className="w-100 mt-15 pe-5 ps-5 ">
               {/* Begin background lineas */}
               <div className="cb-lineas-6 pbp-60">
@@ -17,7 +17,7 @@ function Page070(props) {
                   Mis objetivos <br /> en esta etapa son: 
                   </div>
                   <div className="cb-cohete-6">
-                    <img src="images/page_006/img_001.png" alt="" />
+                    <img src="images/page_070/img_001.png" alt="" />
                   </div>
                 </div>
                 {/* Begin Contendor1 */}
@@ -25,13 +25,13 @@ function Page070(props) {
                   <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
                     <div className="d-flex bgc-piccolo psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-6"> 
                       <div className="d-flex"> 
-                        <img src="images/page_006/arrow.svg" className="mbp-20 mep-5" alt="" />
+                        <img src="images/page_070/img_004.svg" className="mbp-20 mep-5 pep-5" alt="" />
                       </div>  
                       <div className="d-flex"> 
                         <span className="fsp-16 f-IntroRustG-Base text-start"> 
-                        CONOCER
+                        PRESENTAR
                           <span className="fsp-16 text-start f-pixilate-regular">
-                            <br /> el desafío que nos plantean.
+                          a brigada <br /> a la comunidad educativa.
                           </span> 
                         </span>
                       </div>  
@@ -44,26 +44,45 @@ function Page070(props) {
                   <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
                     <div className="d-flex bgc-piccolo psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-6"> 
                         <div className="d-flex"> 
-                          <img src="images/page_006/arrow.svg" className="mbp-20 mep-5" alt="" />
+                          <img src="images/page_070/img_004.svg" className="mbp-20 mep-5 pep-5" alt="" />
                         </div> 
                         <div className="d-flex"> 
                           <span className="fsp-16 text-start f-pixilate-regular">
                             <span className="fsp-16 f-IntroRustG-Base text-start"> 
-                            COMPROMETERME
+                            REFLEXIONAR
                             </span> 
-                            <br /> con el desafío.
+                            sobre <br /> nuestro trabajo en equipo
                           </span>
                         </div> 
                     </div>
                   </div>
                 </div>
                 {/* End Contendor2 */}
+                {/* Begin Contendor3 */}
+                <div className="cb-contenedor-6-1">
+                  <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
+                    <div className="d-flex bgc-piccolo psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-6"> 
+                      <div className="d-flex"> 
+                        <img src="images/page_070/img_004.svg" className="mbp-20 mep-5 pep-5" alt="" />
+                      </div>  
+                      <div className="d-flex"> 
+                        <span className="fsp-16 f-IntroRustG-Base text-start"> 
+                        VALORAR
+                          <span className="fsp-16 text-start f-pixilate-regular">
+                          lo aprendido <br /> VALORAR lo aprendido y el trabajo realizado. 
+                          </span> 
+                        </span>
+                      </div>  
+                    </div>
+                  </div>
+                </div>
+                {/* End Contendor3 */}
               </div>
               {/* End background lineas */}
 
               <div className="d-flex justify-content-center max-img mb-5">
                 <div className="">
-                  <img src="images/page_006/img_003.jpg" className="img-fluid" alt="" />
+                  <img src="images/page_070/img_003.jpg" className="img-fluid" alt="" />
                 </div>
               </div>
             
