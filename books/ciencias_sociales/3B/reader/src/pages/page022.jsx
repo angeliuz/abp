@@ -1,4 +1,7 @@
 import React from "react";
+import InputBox from "../components/InputBox";
+import ModalBook from "../components/ModalBook";
+
 import "./page_022.css";
 
 function Page022(props) {
@@ -6,106 +9,77 @@ function Page022(props) {
   const pagina = "022";
   var indexInput = 0;
 
+
+
   return (
-      
+
     <div className="wrapper bgc-light">
             <div className="d-flex flex-column align-items-center pbp-20">
+              <div className="page bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
+            <div className="cabecera-v1 hp-80 bgc-android18">
+            </div>
 
-                <div className="page bgc-android18 position-relative" id={"page_"+pagina}>
-                    <div className="w-100 mt-15 pe-5 ps-5 ">
-                        <div className="cb-lineas-12 pbp-60">
-                            <div className="cb-cabecera">
-                                <div className="cb-titulo-12 color-white fsp-20 lh-sm f-durotype-aspiranar-bold">
-                                Mis objetivos <br /> en esta etapa son: 
-                                </div>
-                                <div className="cb-cohete-12" ><img src="images/page_006/img_001.png" alt=""/>
-                                </div>
-                            </div>
+            <div className="ptp-30 psp-60 ">
+            <div className="f-Ubuntu-M fsp-20 color-android18 text-start">
+            ¡Tenemos derechos!
+            </div>
+          </div>
 
-                <div className="cb-contenedor-12-1">
-                    <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
-                        <div className="d-flex bgc-azuka psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-22"> 
-                        <div className="d-flex"> <img src="images/page_022/flecha.svg" className="mbp-20 mep-5" alt=""/></div>  
-                                <div> 
-                                    <span className="fsp-16 text-start f-pixilate-regular">
-                                        <span className="fsp-16 f-IntroRustG-Base text-start"> 
-                                        IDENTIFICAR
-                                        </span> 
-                                        <br /> qué sé acerca del desafío. 
-                                    </span>
-                                </div>  
-                        </div>
-                    </div>
-                </div>
-                <div className="cb-contenedor-12-2">
-                    <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
-                        <div className="d-flex bgc-azuka psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-22"> 
-                            <div className="d-flex"> 
-                                <img src="images/page_022/flecha.svg" className="mbp-25 mep-5" alt=""/>
-                            </div> 
-                            <div className="d-flex"> 
-                                <span className="fsp-16 text-start f-pixilate-regular">
-                                    <span className="fsp-16 f-IntroRustG-Base text-start">
-                                        IDENTIFICAR</span>  que necesito <br />saber para afrontar el desafío.
-                                    </span>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-                <div className="cb-contenedor-12-3">
-                    <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
-                        <div className="d-flex bgc-azuka psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-22"> 
-                            <div className="d-flex"> 
-                                <img src="images/page_022/flecha.svg" className="mbp-25 mep-5" alt=""/>
-                            </div> 
-                            <div className="d-flex"> 
-                                    <span className="fsp-16 text-start f-pixilate-regular">
-                                        <span className="fsp-16 f-IntroRustG-Base text-start">
-                                        ASIGNAR</span> los roles <br /> para realizar el trabajo en equipo.
-                                        </span>
-                                </div> 
-                        </div>
-                    </div>
-                </div>
-                <div className="cb-contenedor-12-4">
-                    <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
-                        <div className="d-flex bgc-azuka psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-22"> 
-                            <div className="d-flex"> <img src="images/page_022/flecha.svg" className="mbp-20 mep-5" alt=""/></div> 
-
-                                <div className="d-flex"> 
-                                    <span className="fsp-16 text-start f-pixilate-regular">
-                                        <span className="fsp-16 f-IntroRustG-Base text-start">
-                                        ELABORAR</span> un plan para <br />superar el desafio.
-                                        </span>
-                                </div> 
-                        </div>
-                    </div>
+            <div className="ptp-10 container-titulo-global mbp-0">
+                <div className="d-flex">
+                    
+                    <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">2</div>
+                    <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Leo la revista y contesto.</div>
+                    <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_022/img_001.svg" clasesImagen="hp-40 text-center mtp-15 msp--10" className="p-0 px-0" />
                 </div>
             </div>
             
-                    <div className="d-flex justify-content-center max-img mb-5">
-                        <div className="">
-                            <img src="images/page_022/img_003.jpg" className="img-fluid" alt="" />
-                        </div>
-                    </div>
-                  {/* Begin pie de página */}
-                  <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
+            
+
+                {/* BEGIN PIE DE PAGINA */}
+                <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
                     <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
-                      ABP &copy; SM
+                        ABP &copy; SM
                     </div>
                     <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
-                  </div>
-                  {/* End pie de página */}
-                    
-                    
-
                 </div>
+                <div className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
+                    <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+                        <img src="images/rotulo_motivacion.svg" className="oculto" alt="" />
+                        <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
+                        <div className="w-100 hp-25 bgc-goten"></div>
+                    </div>
+                    <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+                        <img src="images/rotulo_planificacion.svg" className="oculto" alt="" />
+                        <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
+                        <div className="w-100 hp-25 bgc-bulma"></div>
+                    </div>
+                    <div className="col-7 col-sm-2 p-0 m-0 position-relative">
+                        <img src="images/rotulo_investigacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
+                        <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
+                        <div className="w-100 hp-25 bgc-android18"></div>
+                    </div>
+                    <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+                        <img src="images/rotulo_experimentacion.svg" className="oculto" alt="" />
+                        <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
+                        <div className="w-100 hp-25 bgc-pidgey"></div>
+                    </div>
+                    <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+                        <img src="images/rotulo_creacion.svg" className="oculto" alt="" />
+                        <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
+                        <div className="w-100 hp-25 bgc-saitama"></div>
+                    </div>
+                    <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+                        <img src="images/rotulo_difusion.svg" className="oculto" alt="" />
+                        <div className="w-100 hp-15 bgc-leono rounded-caja-end"></div>
+                        <div className="w-100 hp-25 bgc-pikachu"></div>
+                    </div>
+                </div>
+                {/* END PIE DE PAGINA */}
                 
-                </div>
-                </div>
-
-            
-    </div>
+              </div>
+            </div>
+          </div>
 
   );
 }
