@@ -71,7 +71,7 @@ function Page043(props) {
             </div>
             <div className="col-lg-8 col-md-12 m-0 p-0 bgc-white d-flex justify-content-end  ">
               <div className="w-100 d-flex justify-content-end mbp-70">
-                    <div className="border border-3 border-color-dark  p-2 hp-400 wp-450 bgc-padme position-relative">
+                    <div className="border border-3 border-color-dark  p-2 hp-400 wp-450 bgc-urien position-relative">
                     <div className="d-flex align-items-center p-1 w-100  "> 
                           <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white"><img src="images/page_043/img_003.svg" className="hp-20  " alt=""></img></div>
                           <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm  psp-10 lh-sm">Música diversa.</div>
@@ -118,10 +118,10 @@ function Page043(props) {
 
                 {/* PIE DE PAGINA */}
                 <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
-                  <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
+                  <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60 " style={{ transform: `rotate(270deg)`, color: "dark" }}>
                     ABP &copy; SM
                   </div>
-                  <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+                  <div className="bgc-jawa wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
                 </div>
                 <div className="row position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{bottom:0}}>
 
