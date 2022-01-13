@@ -76,38 +76,81 @@ function Page023(props) {
             </div>
           </div>
 
-          <div className="row">
+          <div className="ptp-30 psp-60 ">
+            <div className="f-Ubuntu-M fsp-20 color-android18 text-start">
+              Garantizando nuestros derechos
+            </div>
+          </div>
 
-                <div className="col-md-5 col-12 psp-20 pep-20 pbp-20">
-                  <div className="d-flex">
-                    <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">3</div>
-                    <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-left">La institución que vamos a
-escoger para investigar es…</div>
+          <div className="ptp-10 psp-100 pep-100 mbp-0 contenedor-pagina position-relative">
+            <div className="position-absolute top-50 start-0">
+              <img
+                src="images/page_034/agenda.png"
+                className="wp-50 msp-180 mbp-90"
+                alt=""
+              />
+            </div>
+            <div className="position-absolute top-0 end-0 zindex-2">
+              <img
+                src="images/page_034/clip.png"
+                className="wp-30 mep-110 mtp-5"
+                alt=""
+              />
+            </div>
+            <div className="row">
+              <div className="col-md-5 col-12 psp-20 pep-20 pbp-20">
+                <div className="d-flex">
+                  <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">
+                    2
+                  </div>
+                  <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-left">
+                    La institución que vamos a escoger para investigar es…
                   </div>
                 </div>
-
-                <div className="col-md-7 position-relative pbp-20 ptp-15 rota">
-                  <div className="bloque-respuesta-23 w-100 p-3 text-left bgc-draco rota">
-                    <div className="d-flex align-items-center pbp-10">
-                      <div className="pep-10"><img src="images/page_034/cuadro.svg" className="hp-30" alt="" /></div>
-                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Compañeros de curso.</div>
-                    </div>
-                    <div className="d-flex align-items-center pbp-10">
-                      <div className="pep-10"><img src="images/page_034/cuadro.svg" className="hp-30" alt="" /></div>
-                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Profesores y profesoras.</div>
-                    </div>
-                    <div className="d-flex align-items-center pbp-10">
-                      <div className="pep-10"><img src="images/page_034/cuadro.svg" className="hp-30" alt="" /></div>
-                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Compañeros de otros cursos.</div>
-                    </div>
-                    <div className="d-flex align-items-center pbp-10">
-                      <div className="pep-10"><img src="images/page_034/cuadro.svg" className="hp-30" alt="" /></div>
-                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Otros trabajadores del colegio.</div>
-                    </div>
-                  </div>
-                </div>
-
               </div>
+
+              <div className="col-md-7 position-relative pbp-20 ptp-15 rota-23">
+                <div className="bloque-respuesta-23 w-100 p-3 text-left bgc-draco rota">
+                  <div className="d-flex align-items-center pbp-10">
+                    <div className="pep-10">
+                      <img
+                        src="images/page_023/cuadro.svg"
+                        className="hp-30"
+                        alt=""
+                      />
+                    </div>
+                    <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">
+                      Compañeros de curso.
+                    </div>
+                  </div>
+                  <div className="d-flex align-items-center pbp-10">
+                    <div className="pep-10">
+                      <img
+                        src="images/page_023/cuadro.svg"
+                        className="hp-30"
+                        alt=""
+                      />
+                    </div>
+                    <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">
+                      Profesores y profesoras.
+                    </div>
+                  </div>
+                  <div className="d-flex align-items-center pbp-10">
+                    <div className="pep-10">
+                      <img
+                        src="images/page_023/cuadro.svg"
+                        className="hp-30"
+                        alt=""
+                      />
+                    </div>
+                    <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">
+                      Compañeros de otros cursos.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
           {/* PIE DE PAGINA */}
           <div
