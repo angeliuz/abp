@@ -42,21 +42,21 @@ function Page034(props) {
 
                 <div className="col-md-7 position-relative pbp-20 ptp-15 rota">
                   <div className="bloque-respuesta w-100 p-3 text-left bgc-draco rota">
-                    <div class="d-flex align-items-center pbp-10">
-                      <div class="pep-10"><img src="images/page_034/cuadro.svg" class="hp-30" alt="" /></div>
-                      <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">Compañeros de curso.</div>
+                    <div className="d-flex align-items-center pbp-10">
+                      <div className="pep-10"><img src="images/page_034/cuadro.svg" className="hp-30" alt="" /></div>
+                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Compañeros de curso.</div>
                     </div>
-                    <div class="d-flex align-items-center pbp-10">
-                      <div class="pep-10"><img src="images/page_034/cuadro.svg" class="hp-30" alt="" /></div>
-                      <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">Profesores y profesoras.</div>
+                    <div className="d-flex align-items-center pbp-10">
+                      <div className="pep-10"><img src="images/page_034/cuadro.svg" className="hp-30" alt="" /></div>
+                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Profesores y profesoras.</div>
                     </div>
-                    <div class="d-flex align-items-center pbp-10">
-                      <div class="pep-10"><img src="images/page_034/cuadro.svg" class="hp-30" alt="" /></div>
-                      <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">Compañeros de otros cursos.</div>
+                    <div className="d-flex align-items-center pbp-10">
+                      <div className="pep-10"><img src="images/page_034/cuadro.svg" className="hp-30" alt="" /></div>
+                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Compañeros de otros cursos.</div>
                     </div>
-                    <div class="d-flex align-items-center pbp-10">
-                      <div class="pep-10"><img src="images/page_034/cuadro.svg" class="hp-30" alt="" /></div>
-                      <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">Otros trabajadores del colegio.</div>
+                    <div className="d-flex align-items-center pbp-10">
+                      <div className="pep-10"><img src="images/page_034/cuadro.svg" className="hp-30" alt="" /></div>
+                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Otros trabajadores del colegio.</div>
                     </div>
                   </div>
                 </div>
@@ -75,31 +75,31 @@ function Page034(props) {
 
             <div className="psp-140 pep-120 contenedor-pagina">
               <div className="w-100 psp-40 ptp-20 pbp-20 pep-15 text-left bgc-white border border-2 border-color-muted">
-                <div class="d-flex align-items-center pbp-10">
-                  <div class="pep-10"><img src="images/page_034/medialuna.svg" class="hp-15 mbp-5" alt="" /></div>
-                  <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">Cantidad de personas que cada uno va a encuestar:</div>
+                <div className="d-flex align-items-center pbp-10">
+                  <div className="pep-10"><img src="images/page_034/medialuna.svg" className="hp-15 mbp-5" alt="" /></div>
+                  <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Cantidad de personas que cada uno va a encuestar:</div>
                   <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                 </div>
-                <div class="d-flex align-items-center pbp-10">
-                <div class="pep-10"><img src="images/page_034/medialuna.svg" class="hp-15 mbp-5" alt="" /></div>
-                  <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">Haremos las encuestas:</div>
-                  <div class="d-flex align-items-center psp-10">
-                    <div class="pep-5"><img src="images/page_034/cuadro.svg" class="hp-30" alt="" /></div>
-                    <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">de manera individual.</div>
+                <div className="d-flex align-items-center pbp-10">
+                <div className="pep-10"><img src="images/page_034/medialuna.svg" className="hp-15 mbp-5" alt="" /></div>
+                  <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Haremos las encuestas:</div>
+                  <div className="d-flex align-items-center psp-10">
+                    <div className="pep-5"><img src="images/page_034/cuadro.svg" className="hp-30" alt="" /></div>
+                    <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">de manera individual.</div>
                   </div>
-                  <div class="d-flex align-items-center psp-10">
-                    <div class="pep-5"><img src="images/page_034/cuadro.svg" class="hp-30" alt="" /></div>
-                    <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">en parejas.</div>
+                  <div className="d-flex align-items-center psp-10">
+                    <div className="pep-5"><img src="images/page_034/cuadro.svg" className="hp-30" alt="" /></div>
+                    <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">en parejas.</div>
                   </div>
                 </div>
-                <div class="d-flex align-items-center pbp-10">
-                <div class="pep-10"><img src="images/page_034/medialuna.svg" class="hp-15 mbp-5" alt="" /></div>
-                  <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">El día que encuestaremos será:</div>
+                <div className="d-flex align-items-center pbp-10">
+                <div className="pep-10"><img src="images/page_034/medialuna.svg" className="hp-15 mbp-5" alt="" /></div>
+                  <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">El día que encuestaremos será:</div>
                   <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                 </div>
-                <div class="d-flex align-items-center pbp-10">
-                <div class="pep-10"><img src="images/page_034/medialuna.svg" class="hp-15 mbp-5" alt="" /></div>
-                  <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">El tiempo que destinaremos para encuestar será:</div>
+                <div className="d-flex align-items-center pbp-10">
+                <div className="pep-10"><img src="images/page_034/medialuna.svg" className="hp-15 mbp-5" alt="" /></div>
+                  <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">El tiempo que destinaremos para encuestar será:</div>
                   <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                 </div>
               </div>
@@ -122,25 +122,25 @@ function Page034(props) {
             <div className="psp-140 pep-120 contenedor-pagina position-relative">
             <div className="position-absolute bottom-0 end-0"><img src="images/page_034/mono.png" className="wp-90 mep-80 mtp-65" alt=""/></div>
               <div className="w-100 psp-40 ptp-20 pbp-20 text-left bgc-jarek rounded-p-20">
-                <div class="d-flex align-items-center pbp-10">
-                  <div class="pep-10"><img src="images/page_034/cuadro.svg" class="hp-30" alt="" /></div>
-                  <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">Seleccionamos las preguntas para nuestras encuestas.</div>
+                <div className="d-flex align-items-center pbp-10">
+                  <div className="pep-10"><img src="images/page_034/cuadro.svg" className="hp-30" alt="" /></div>
+                  <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Seleccionamos las preguntas para nuestras encuestas.</div>
                 </div>
-                <div class="d-flex align-items-center pbp-10">
-                  <div class="pep-10"><img src="images/page_034/cuadro.svg" class="hp-30" alt="" /></div>
-                  <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">Elaboramos nuestras encuestas.</div>
+                <div className="d-flex align-items-center pbp-10">
+                  <div className="pep-10"><img src="images/page_034/cuadro.svg" className="hp-30" alt="" /></div>
+                  <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Elaboramos nuestras encuestas.</div>
                 </div>
-                <div class="d-flex align-items-center pbp-10">
-                  <div class="pep-10"><img src="images/page_034/cuadro.svg" class="hp-30" alt="" /></div>
-                  <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">Definimos a quiénes íbamos a aplicar la encuesta.</div>
+                <div className="d-flex align-items-center pbp-10">
+                  <div className="pep-10"><img src="images/page_034/cuadro.svg" className="hp-30" alt="" /></div>
+                  <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Definimos a quiénes íbamos a aplicar la encuesta.</div>
                 </div>
-                <div class="d-flex align-items-center pbp-10">
-                  <div class="pep-10"><img src="images/page_034/cuadro.svg" class="hp-30" alt="" /></div>
-                  <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">Creamos un plan de acción.</div>
+                <div className="d-flex align-items-center pbp-10">
+                  <div className="pep-10"><img src="images/page_034/cuadro.svg" className="hp-30" alt="" /></div>
+                  <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Creamos un plan de acción.</div>
                 </div>
-                <div class="d-flex align-items-center">
-                  <div class="pep-10"><img src="images/page_034/cuadro.svg" class="hp-30" alt="" /></div>
-                  <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">Aplicamos las encuestas a quienes correspondía.</div>
+                <div className="d-flex align-items-center">
+                  <div className="pep-10"><img src="images/page_034/cuadro.svg" className="hp-30" alt="" /></div>
+                  <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Aplicamos las encuestas a quienes correspondía.</div>
                 </div>
               </div>
             </div>
