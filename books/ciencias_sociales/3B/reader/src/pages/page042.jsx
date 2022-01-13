@@ -25,7 +25,7 @@ function Page042(props) {
                                 <div className="d-flex bgc-bobafett psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-42">
                         
                                     <div> <span className="fsp-16 f-IntroRustG-Base">
-                                    DEFINIR</span> cómo <br />representar la diversidad en <br />nuestra fiesta...
+                                        DEFINIR</span> cómo <br />representar la diversidad en <br />nuestra fiesta...
                                     </div>
                                 </div>
                             </div>
@@ -35,7 +35,7 @@ function Page042(props) {
                                 <div className="d-flex bgc-bobafett psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-42">
                             
                                     <div> <span className="fsp-16 f-IntroRustG-Base">
-                                    CREAR </span> expresiones<br />artísticas para presentar en<br />nuestra fiesta.
+                                        CREAR </span> expresiones<br />artísticas para presentar en<br />nuestra fiesta.
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@ function Page042(props) {
                                 <div className="d-flex bgc-bobafett psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-42">
                                
                                     <div> <span className="fsp-16 f-IntroRustG-Base">
-                                    VALORAR</span>  nuestro<br />trabajo en equipo.
+                                        VALORAR</span>  nuestro<br />trabajo en equipo.
                                     </div>
                                 </div>
                             </div>

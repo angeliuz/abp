@@ -37,36 +37,37 @@ function Page044(props) {
 
     <div className="d-flex msp-60 mep-40 ">
           <div className="row w-100 m-0 p-2 rounded-p-10 ">
-            <div className="col-8 bgc-info  ">
+            <div className="col-lg-8 bgc-info  ">
 
               <div className="d-block p-2 ">
                 <div className="f-Ubuntu-L text-start fsp-15 lh-sm">Las personas que nos ayudarán son</div>
-                <div className="rounded-p-5 wp-400 hp-45 bgc-white"></div>
+                <div className="rounded-p-5 w-100 hp-45 bgc-white"></div>
               </div>
               <div className="d-block p-2 ">
                 <div className="f-Ubuntu-L text-start fsp-15 lh-sm">El espacio donde se realizará será</div>
-                <div className="rounded-p-5 wp-400 hp-45 bgc-white"></div>
+                <div className="rounded-p-5 w-100 hp-45 bgc-white"></div>
               </div>
               <div className="d-block p-2 ">
                 <div className="f-Ubuntu-L text-start fsp-15 lh-sm">Responsables de solicitar la ayuda</div>
-                <div className="rounded-p-5 wp-400 hp-45 bgc-white"></div>
+                <div className="rounded-p-5 w-100 hp-45 bgc-white"></div>
               </div>
               <div className="d-block p-2 ">
                 <div className="f-Ubuntu-L text-start fsp-15 lh-sm">Responsables de solicitar la autorización</div>
-                <div className="rounded-p-5 wp-400 hp-45 bgc-white"></div>
+                <div className="rounded-p-5 w-100 hp-45 bgc-white"></div>
               </div>
               <div className="d-block p-2 ">
                 <div className="f-Ubuntu-L text-start fsp-15 lh-sm">Responsables de solicitar la ayuda</div>
-                <div className="rounded-p-5 wp-400 hp-45 bgc-white"></div>
+                <div className="rounded-p-5 w-100 hp-45 bgc-white"></div>
               </div>
-              <div className="d-block p-2 ">
-                <div className="f-Ubuntu-L text-start fsp-15 lh-sm">Responsables de reunir los materiales</div>
-                <div className="rounded-p-5 wp-400 hp-45 bgc-white"></div>
+              <div className="d-block p-2 mbp-20">
+                <div className="f-Ubuntu-L text-start fsp-15 lh-sm">Responsables de reunir los materiales kekosas</div>
+                <div className="rounded-p-5 w-100 hp-45 bgc-white"></div>
               </div>
  
             </div>
-            <div className="col-4 bgc-red">
-              <div className="d-block bgc-yellow p-2">
+
+            <div className="col-lg-4 col-sm-12 wp-220 bgc-red">
+              <div className="d-block bgc-yellow cuadroRotado  hp-220 p-2">
                 <div className="d-flex ">
                     <div className="d-flex f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Los materiales que usaremos son:</div>
                 </div>
@@ -82,10 +83,15 @@ function Page044(props) {
                       <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white"> </div>
                       <div className="d-inline f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Otra:</div>
                 </div>
-                <div className="psp-30 pep-5">
-                       <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-4 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190" />
-                </div>
+                  <div className="psp-30 pep-5 mtp--25 ">
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-4 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                  </div>
+
               </div>
+              <div className="position-absolute bottom-0 start-50 translate-middle-x">
+              <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_043/img_001.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              </div>
+
             </div>
           </div>
 

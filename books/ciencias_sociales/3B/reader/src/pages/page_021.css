@@ -38,7 +38,7 @@
 
 @media (max-width: 608px) {
     .cabecera-21 {
-        height: 100px;
+        height: 150px;
     }
 
 
@@ -50,14 +50,14 @@
 
 @media (max-width: 591px) {
     .cabecera-21 {
-        height: 100px;
+        height: 150px;
     }
 }
 
 @media (max-width: 575px) {
 
     .cabecera-21 {
-        height: 130px;
+        height: 150px;
     }
 
 
