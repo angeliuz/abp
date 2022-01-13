@@ -59,7 +59,7 @@ function Page021(props) {
             </div>
           </div>
 
-          <div className="row container-row mtp-10 p-0 mx-4">
+          <div className="row container-row mtp-10 p-0 mx-4 position-relative">
             <div className="col-sm-12 col-md-4 mtp-20  position-relative">
               <img
                 src="images/page_021/img_003.png"

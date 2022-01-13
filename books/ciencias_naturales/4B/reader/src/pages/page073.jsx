@@ -30,29 +30,31 @@ function Page073(props) {
                 {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/img_002.svg" alt=""  /> */}
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-pikachu">1</div>
                 <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Trabajo en la revista y reflexiono sobre lo que aprendí en este proyecto.</div>
-                 {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> /*}
-                {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_031/img_002.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+                 {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> */}
+                <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_073/img_002.svg" clasesImagen="hp-40 text-center mtp-10 mbp-10 " className="p-0 px-0" />
             </div>
           </div>
                  <div className="cb-contenedor-dos justify-content-center pe-2 ps-2 pbp-15">
                     <div className="w-100 position-relative">
-                        <div className="bgc-kazuha cb-outline p-3 f-Ubuntu-L fsp-13 border-color-garou cb-caja1" >
-                        <p>¿Qué aprendí?</p>
+                    <img src="images/page_073/img_004.png" className="cb-notamorada-p73" alt=""></img>
+                        <div className="bgc-kazuha cb-outline p-3 f-Ubuntu-L fsp-15 border-color-garou cb-caja1" >
+                        <p className="cb-psp2 color-pikachu fw-700">¿Qué aprendí?</p>
                         <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" /> 
                          </div>
-                         <div className="bgc-marcianos cb-outline p-3 f-Ubuntu-L fsp-13 border-color-garou cb-caja2-p72" >
-                         <p>¿Con quién aprendí?</p>
+                         <div className="bgc-marcianos cb-outline p-3 f-Ubuntu-L fsp-15 border-color-garou cb-caja2-p73" >
+                         <p className="color-sektor fw-700">¿Con quién aprendí?</p>
                          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                          </div>
                     </div>
                      <div className="w-100">
 
-                         <div className="bgc-sayu p-3 cb-outline f-Ubuntu-L fsp-13 border-color-garou cb-caja3" >
-                         <p className="cb-psp">¿Cómo aprendí?</p>
+                         <div className="bgc-sayu p-3 cb-outline f-Ubuntu-L fsp-15 border-color-garou cb-caja3 position-relative" >
+                         <img src="images/page_073/img_003.png" className="cb-nube-p73" alt=""></img>
+                         <p className="cb-psp color-bulma fw-700">¿Cómo aprendí?</p>
                          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" /> 
                          </div>
-                         <div className="bgc-windu  cb-outline p-3 f-Ubuntu-L fsp-13 border-color-garou cb-caja4" >
-                             <p className="cb-psp2">¿Cómo me he sentido aprendiendo?</p>
+                         <div className="bgc-windu cb-outline p-3 f-Ubuntu-L fsp-15 border-color-garou cb-caja4" >
+                             <p className="cb-psp2 color-saitama fw-700">¿Cómo me he sentido aprendiendo?</p>
                              <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                             </div> 
                         </div>
@@ -60,11 +62,9 @@ function Page073(props) {
             {/* ETAPA 2*/}
                 <div className=" container-titulo-global mbp-∫0">
             <div className="d-flex">
-                {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/img_002.svg" alt=""  /> */}
+
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-pikachu">2</div>
                 <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Lo que mejor resultó de nuestro proyecto fue:  </div>
-                 {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> /*}
-                {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_031/img_002.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
           <div className="cb-seccion2-p73 text-start">
@@ -76,14 +76,12 @@ function Page073(props) {
                 {/* ETAPA 3*/}
                 <div className=" container-titulo-global mbp-∫0">
             <div className="d-flex">
-                {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/img_002.svg" alt=""  /> */}
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-pikachu">3</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Creemos que nos faltó o pudimos mejorar en:  </div>
-                 {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> /*}
-                {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_031/img_002.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Creemos que nos faltó o pudimos mejorar en:  </div>   
             </div>
           </div>
-          <div className="cb-seccion2-p73 text-start">
+          <div className="cb-seccion2-p73 text-start position-relative">
+          <img src="images/page_073/img_005.png" className="cb-doctora-p73" alt=""></img>
           <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
           <div className="mtp-15"> porque:</div>
           <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
@@ -91,17 +89,14 @@ function Page073(props) {
           {/* END ETAPA 3 */}
           {/* ETAPA 4*/}
           <div className=" container-titulo-global mbp-∫0">
-            <div className="d-flex">
-                {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/img_002.svg" alt=""  /> */}
+            <div className="d-flex"> 
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-pikachu">4</div>
                 <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-star">Los asistentes a la presentación opinan que la brigada...</div>
-                 {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> /*}
-                {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_031/img_002.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
-          <div className="cb-seccion2-p73 text-start">
+          <div className="cb-seccion2-p73 text-start mbp-30">
           <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
-          <div className="mtp-15"> porque:</div>
+          <div className="mtp-15"> Esto nos hace sentir:</div>
           <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
           </div>
           {/* END ETAPA 4 */}
