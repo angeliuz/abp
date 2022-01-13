@@ -4521,6 +4521,9 @@
   border-radius: 200%;
 }
 /*arriba redondeado / abajo plano */
+.rounded-set-10 {
+  border-radius: 10px 10px 0px 0px;
+}
 .rounded-set-20 {
   border-radius: 20px 20px 0px 0px;
 }
@@ -4528,6 +4531,9 @@
   border-radius: 6px 6px 0px 0px;
 }
 /*abajo redondeado / arriba plano */
+.rounded-seb-10 {
+  border-radius: 0px 0px 10px 10px;
+}
 .rounded-seb-20 {
   border-radius: 0px 0px 20px 20px;
 }

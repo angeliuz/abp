@@ -1,11 +1,11 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
-import "./page_033.css";
+import "./page_035.css";
 
-function Page033(props) {
+function Page035(props) {
 
-  const pagina = "033";
+  const pagina = "035";
   var indexInput = 0;
 
   return (
@@ -15,91 +15,93 @@ function Page033(props) {
                 {/* BEGIN CABECERA VERSIÓN 2 */}
                 <div className="cabecera-v2 bgc-pidgey d-flex flex-column">
                   <div className="d-flex contenedor-cabecera-v2 align-items-center ptp-40 psp-30 pep-30">
-                    <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-pidgey fsp-24 f-IntroRustG-Base">SESIÓN 8</div>
-                    <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Somos encuestadores</div>
+                    <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-pidgey fsp-24 f-IntroRustG-Base">SESIÓN 9</div>
+                    <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Analizamos resultadoss</div>
                   </div>
                 </div> 
                 {/* END CABECERA VERSIÓN 2 */}
 
-            <div className="ptp-10 psp-60 mbp-0 contenedor-pagina">
-              <div className="f-Ubuntu-B fsp-20 color-pidgey text-start lhp-20">Antes de partir…</div>
+            <div className="ptp-10 psp-60 mbp-0 contenedor-pagina psp-110">
+              <div className="f-Ubuntu-B fsp-20 color-pidgey text-start lhp-20">Primero comprendo</div>
               <div className="d-flex">
-              <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/g_i.svg" alt="" />
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">1</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Leo la revista y contesto.</div>
-                <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_033/revista.png" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Observo la revista, comprendo y completo.</div>
+                <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_035/revista.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
               </div>
             </div>
 
-            <div className="ptp-10 psp-100 pep-80 mbp-0 contenedor-pagina">
-              <div className="col-md-12 col-lg-12 mbp-10 position-relative">
-                <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_033/tabla.png" className="wp-60 mep-150" alt=""/></div>
-                <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_014/img_006.png" className="hp-25 mep-40 mtp-40" alt=""/></div>
-                <div className="mbp-20 mtp-10 msp-20 mep-20">
-                  <div className="bloque-respuesta linea1 bgc-jugador001 min-hp-150 p-2 border-style-solid border-color-goku border-1">
-                    <div className="f-Ubuntu-L fsp-15 p-1 text-start">Con las encuestas podemos…</div>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+            <div className="ptp-10 psp-135 pep-80 pbp-10">
+              <div className="col-12">
+                <div className="border border-2 border-color-pidgey rounded-p-10">
+                  <div className="p-2 bgc-white rounded-set-10">
+                    <div className="f-Ubuntu-L fsp-15 p-1 text-start">Los gráficos de la revista nos entregan información sobre…</div>
+                  </div>
+                  <div className="bgc-hansolo min-hp-110 p-2 rounded-seb-10">
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="ptp-10 psp-100 pep-100 mbp-0 contenedor-pagina position-relative">
-            <div className="position-absolute bottom-0 start-0"><img src="images/page_033/mono.png" className="wp-100 msp-120" alt=""/></div>
-            <div className="f-Ubuntu-B fsp-20 color-pidgey text-start lhp-20">Nos preparamos para elaborar nuestra encuesta</div>
+            <div className="ptp-10 psp-60 mbp-0 contenedor-pagina">
+              <div className="f-Ubuntu-B fsp-20 color-pidgey text-start lhp-20 psp-50">Tabulamos información</div>
+              <div className="d-flex">
+              <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_035/g_i.svg" alt="" />
+                <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">2</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Anoto los resultados de las encuestas que aplicamos en la sesión anterior.</div>
+              </div>
+            </div>
+
+            <div className="ptp-10 psp-135 pep-80 pbp-10">
               <div className="row">
-
-                <div className="col-md-4 col-12 psp-20 pep-20 pbp-20">
-                  <div className="d-flex">
-                    <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">2</div>
-                    <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-left">Elegimos cinco preguntas para elaborar nuestra encuesta con el material que nos entregarán.</div>
-                    <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_033/circ.png" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
-                  </div>
-                </div>
-
-                <div className="col-md-8 position-relative pbp-20 ptp-15">
-                  <div className="bloque-respuesta w-100 p-3 text-left bgc-yoru border-style-solid border-color-goku border-1 ">
-                    <div className="d-flex align-items-center pbp-10">
-                      <div className="pep-10"><img src="images/page_033/cuadro.svg" className="hp-30" alt="" /></div>
-                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Qué edad tienes?</div>
+                <div className="col-10 p-1">
+                  <div className="w-100 rounded-p-10 bgc-jaga p-2 m-0 position-relative">
+                    <div className="position-absolute top-0 start-0">
+                      <img src="images/page_035/pincho.png" className="hp-55" alt=""/>
+                      <div className="mtp--37 msp-25 color-white f-hanoded-butterflyball fsp-18 rota">Pregunta 1</div>
                     </div>
-                    <div className="d-flex align-items-center pbp-10">
-                      <div className="pep-10"><img src="images/page_033/cuadro.svg" className="hp-30" alt="" /></div>
-                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿De qué nacionalidad eres?</div>
-                    </div>
-                    <div className="d-flex align-items-center pbp-10">
-                      <div className="pep-10"><img src="images/page_033/cuadro.svg" className="hp-30" alt="" /></div>
-                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Te consideras parte de o perteneces a un pueblo originario?</div>
-                    </div>
-                    <div className="d-flex align-items-center pbp-10">
-                      <div className="pep-10"><img src="images/page_033/cuadro.svg" className="hp-30" alt="" /></div>
-                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Cuál es tu música favorita?</div>
-                    </div>
-                    <div className="d-flex align-items-center pbp-10">
-                      <div className="pep-10"><img src="images/page_033/cuadro.svg" className="hp-30" alt="" /></div>
-                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Cuál es tu comida típica favorita?</div>
-                    </div>
-                    <div className="d-flex align-items-center pbp-10">
-                      <div className="pep-10"><img src="images/page_033/cuadro.svg" className="hp-30" alt="" /></div>
-                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Cuál es tu deporte favorito?</div>
-                    </div>
-                    <div className="d-flex align-items-center pbp-10">
-                      <div className="pep-10"><img src="images/page_033/cuadro.svg" className="hp-30" alt="" /></div>
-                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Qué te gusta hacer en tu tiempo libre?</div>
-                    </div>
-                    <div className="d-flex align-items-center pbp-10">
-                      <div className="pep-10"><img src="images/page_033/cuadro.svg" className="hp-30" alt="" /></div>
-                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Cuál es tu asignatura favorita?</div>
-                    </div>
-                    <div className="d-flex align-items-center pbp-10">
-                      <div className="pep-10"><img src="images/page_033/cuadro.svg" className="hp-30" alt="" /></div>
-                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Otra:</div>
-                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                    <div className="w-100 rounded-p-10 bgc-white p-3 m-0">
+                      <div className="f-Ubuntu-L fsp-15 text-start ptp-30">Resultados:</div>
+                      <div className="min-hp-70">
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-70" />
+                      </div>
                     </div>
                   </div>
                 </div>
-
+                <div className="col-2"><img src="images/page_035/mono.png" alt="" className="hp-160 mtp-15  " /></div>
               </div>
+
+              <div className="row">
+                <div className="col-12 col-md-6 p-1">
+                  <div className="w-100 rounded-p-10 bgc-jaga p-2 m-0 position-relative">
+                    <div className="position-absolute top-0 start-0">
+                      <img src="images/page_035/pincho.png" className="hp-55" alt=""/>
+                      <div className="mtp--37 msp-25 color-white f-hanoded-butterflyball fsp-18 rota">Pregunta 2</div>
+                    </div>
+                    <div className="w-100 rounded-p-10 bgc-white p-3 m-0">
+                      <div className="f-Ubuntu-L fsp-15 text-start ptp-30">Resultados:</div>
+                      <div className="min-hp-140">
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-140" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 col-md-6 p-1">
+                  <div className="w-100 rounded-p-10 bgc-jaga p-2 m-0 position-relative">
+                    <div className="position-absolute top-0 start-0">
+                      <img src="images/page_035/pincho.png" className="hp-55" alt=""/>
+                      <div className="mtp--37 msp-25 color-white f-hanoded-butterflyball fsp-18 rota">Pregunta 3</div>
+                    </div>
+                    <div className="w-100 rounded-p-10 bgc-white p-3 m-0">
+                      <div className="f-Ubuntu-L fsp-15 text-start ptp-30">Resultados:</div>
+                      <div className="min-hp-140">
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-140" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
 
             <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
@@ -145,4 +147,4 @@ function Page033(props) {
   );
 }
 
-export default Page033;
+export default Page035;

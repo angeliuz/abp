@@ -5,6 +5,10 @@
   height: 87px;
 }
 
+.rota{
+  transform: rotate(-5deg);
+}
+
 .cabecera-pag7{
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
   clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
