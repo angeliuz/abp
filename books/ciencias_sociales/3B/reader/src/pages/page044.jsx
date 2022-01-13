@@ -69,7 +69,7 @@ function Page044(props) {
           
 
             <div className="col-lg-4 col-sm-12 wp-220 bgc-red position-relative">
-              <div className="d-block bgc-yellow cuadroRotado rounded-be-10 hp-220 p-2  ">
+              <div className="d-block bgc-kai cuadroRotado rounded-be-20 hp-220 p-2  ">
               <div className="position-absolute bottom-0 end-0  p-0 m-0"> 
                <img src="images/page_044/img_005.svg" className="hp-20  " alt=""></img>
 
