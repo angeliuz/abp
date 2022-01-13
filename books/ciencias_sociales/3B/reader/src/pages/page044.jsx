@@ -2,6 +2,7 @@ import React from "react";
 import ModalVideo from "../components/ModalVideo";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+// import esquinaAzul from "images/page_044/esquinaAzul.svg";
 import "./page_044.css";
 
 function Page044(props) {
@@ -65,9 +66,14 @@ function Page044(props) {
               </div>
  
             </div>
+          
 
-            <div className="col-lg-4 col-sm-12 wp-220 bgc-red">
-              <div className="d-block bgc-yellow cuadroRotado  hp-220 p-2">
+            <div className="col-lg-4 col-sm-12 wp-220 bgc-red position-relative">
+              <div className="d-block bgc-kai cuadroRotado rounded-be-20 hp-220 p-2  ">
+              <div className="position-absolute bottom-0 end-0  p-0 m-0"> 
+               <img src="images/page_044/img_005.svg" className="hp-20  " alt=""></img>
+
+              </div>
                 <div className="d-flex ">
                     <div className="d-flex f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Los materiales que usaremos son:</div>
                 </div>
@@ -88,13 +94,13 @@ function Page044(props) {
                   </div>
 
               </div>
-              <div className="position-absolute bottom-0 start-50 translate-middle-x">
-              <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_043/img_001.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              <div className="position-absolute bottom-0 start-50 visible-768 translate-middle-x"> 1
+                <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_044/img_003.png" clasesImagen="hp-150 text-center monito-44 mtp-10 " className="p-0 px-0" />
               </div>
 
             </div>
           </div>
-
+          
     </div>
 
           {/* <div className="d-flex msp-100 mep-60 position-relative mtp-30">
