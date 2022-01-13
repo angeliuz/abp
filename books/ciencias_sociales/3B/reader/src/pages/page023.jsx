@@ -178,7 +178,7 @@ function Page023(props) {
                   </div>
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300"
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-33 min-hp-290"
                   />
                 </div>
               </div>
@@ -191,7 +191,7 @@ function Page023(props) {
                   </div>
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300"
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-30 min-hp-300"
                   />
                 </div>
               </div>
@@ -205,7 +205,7 @@ function Page023(props) {
                   </div>
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300"
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-30 min-hp-300"
                   />
                 </div>
               </div>
