@@ -88,6 +88,10 @@ function Page044(props) {
                   </div>
 
               </div>
+              <div className="position-absolute bottom-0 start-50 translate-middle-x">
+              <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_043/img_001.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              </div>
+
             </div>
           </div>
 
