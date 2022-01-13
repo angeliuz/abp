@@ -4,6 +4,17 @@
   background-color: #F29205;
   height: 87px;
 }
+.espiral{
+  background-image: url(images/page_034/espiral.png);
+  background-repeat: repeat;
+  background-size: contain;
+  /* background-color: #ffcc00; */
+}
+.espiral-calado{
+  background-image: url(images/page_034/espiral_1.png);
+  background-repeat: repeat;
+  background-size: contain;
+}
 
 .rota{
   transform: rotate(1deg);
