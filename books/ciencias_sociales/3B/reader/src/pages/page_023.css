@@ -1,4 +1,4 @@
-.cabecera-21 {
+.cabecera-23 {
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
   clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
   height: auto;
@@ -22,6 +22,7 @@
 .borde-23 {
   border: 2px solid;
   border-color: #55524f;
+  background-color: #dbf1fd;
 }
 
 .dibujo{
@@ -29,38 +30,39 @@
   top:-117px;
 }
 
-.clip-23{
-  right:10px;
-  top: 10px;
-  z-index: 3;
-}
-@media (max-width: 767px) {
-  .margen-21 {
-    margin-bottom: 10px;
+
+@media (max-width: 770px) {
+  .dibujo{
+    display: none;
+    
   }
+  .clip{
+    display: none;
+  }
+  
 }
 
 @media (max-width: 608px) {
-  .cabecera-21 {
+  .cabecera-23 {
     height: 150px;
   }
 
 
 
-  .cambio-21 {
+  .cambio-23 {
     padding-top: 10px;
   }
 }
 
 @media (max-width: 591px) {
-  .cabecera-21 {
+  .cabecera-23 {
     height: 150px;
   }
 }
 
 @media (max-width: 575px) {
 
-  .cabecera-21 {
+  .cabecera-23 {
     height: 150px;
   }
 

@@ -15,7 +15,7 @@ function Page023(props) {
           className="page bgc-white overflow-hidden position-relative"
           id={"page_" + pagina}
         >
-          <div className="cabecera-21 bgc-android18 d-flex flex-column">
+          <div className="cabecera-23 bgc-android18 d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 align-items-center ptp-40 psp-30 pep-30">
               <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-balrog fsp-24 f-IntroRustG-Base">
                 SESIÓN 5
@@ -57,7 +57,7 @@ function Page023(props) {
           </div>
 
           <div className="d-flex msp-60 mep-60 position-relative mtp-30">
-          <div className="position-absolute dibujo">
+            <div className="position-absolute dibujo">
               <img
                 src="images/page_023/img_001.png"
                 className="  msp-180 mbp-90"
@@ -72,7 +72,7 @@ function Page023(props) {
                   alt=""
                 ></img>
               </div>
-              <div className="f-Ubuntu-L text-start fsp-15 lh-sm msp-20 mbp-30">
+              <div className="f-Ubuntu-L text-start fsp-16 lh-sm msp-20 mbp-30">
                 La Subsecretaría de la Niñez es importante porque…
               </div>
 
@@ -85,13 +85,12 @@ function Page023(props) {
 
           <div className="ptp-30 psp-60 ">
             <div className="f-Ubuntu-M fsp-20 color-android18 text-start">
-              Garantizando nuestros derechos
+              Investigamos en la web
             </div>
           </div>
 
           <div className="ptp-10 psp-100 pep-100 mbp-0 contenedor-pagina position-relative">
-            
-            <div className="position-absolute clip-23 ">
+            <div className="position-absolute top-0 end-0 zindex-2 clip">
               <img
                 src="images/page_023/clip.png"
                 className="wp-30 mep-110 mtp-5"
@@ -121,7 +120,7 @@ function Page023(props) {
                       />
                     </div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">
-                      Compañeros de curso.
+                      Unesco es.unesco.org
                     </div>
                   </div>
                   <div className="d-flex align-items-center pbp-10">
@@ -133,7 +132,7 @@ function Page023(props) {
                       />
                     </div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">
-                      Profesores y profesoras.
+                      Unicef www.unicef.cl
                     </div>
                   </div>
                   <div className="d-flex align-items-center pbp-10">
@@ -145,9 +144,68 @@ function Page023(props) {
                       />
                     </div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">
-                      Compañeros de otros cursos.
+                      Defensoría de la Niñez www.defensorianinez.cl
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="ptp-10 psp-60 mbp-0 contenedor-pagina">
+            <div className="d-flex">
+              <img
+                className="hp-20 align-center mt-3 me-2 mb-2"
+                src="images/page_023/img_005.svg"
+                alt=""
+              />
+              <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">
+                3
+              </div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">
+                Antes de investigar, proponemos nuestras preguntas de
+                investigación.
+              </div>
+            </div>
+          </div>
+
+          <div className="row container-row m-0 psp-60 pep-60">
+            <div className=" col-sm-12 col-md-4 position-relative">
+              <div className="d-flex mbp-20 mtp-10 w-100 padding-box-29-1">
+                <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-lightDark">
+                  <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-start">
+                    Lo que más nos interesaría saber de esta institución es…
+                  </div>
+                  <InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-12 col-md-4 position-relative">
+              <div className="d-flex mbp-20 mtp-10 w-100 padding-box-29-2">
+                <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-lightDark">
+                  <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-start">
+                    Lo que más nos interesaría saber de esta institución es…
+                  </div>
+                  <InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-12 col-md-4 position-relative">
+              <div className="d-flex mbp-20 mtp-10 w-100 padding-box-29-2">
+                <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-lightDark">
+                  <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-start">
+                    Lo que más nos interesaría saber de esta institución es…
+                  </div>
+                  <InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300"
+                  />
                 </div>
               </div>
             </div>
