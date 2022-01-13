@@ -55,7 +55,7 @@ function Page045(props) {
                   <div className="row d-flex justify-content-center bgc-bobafett sombra-contenedor-45 ">
 
                     <div className="col-lg-5 col-sm-12 -m-0 p-0 hp-180 caja-sobre">
-                    <div className="position-absolute top-100 start-0 translate-middle"><img src="images/page_045/img_008.png" className="hp-100 mtp-20 " alt=""/></div>
+                    <div className="position-absolute top-100 start-0 translate-middle"><img src="images/page_045/img_008.png" className="hp-80 mtp-100 " alt=""/></div>
                     
                       <div className="border border-1 mtp-10 border-color-saitama  bgc-white  hp-300 ">
                         <div className="d-flex   ">
@@ -68,7 +68,7 @@ function Page045(props) {
                     </div>
                     <div className="col-lg-7 col-sm-12  m-0 bgc-bobafett  ptp-20 h-100 position-relative">
 
-                        <div className="position-absolute bottom-0 start-0 "><img src="images/page_045/img_009.png" className="hp-120 mtp--120 msp--150 img-monito-45" alt=""/></div>
+                        <div className="position-absolute bottom-0 start-0 "><img src="images/page_045/img_009.png" className="hp-140 mtp--130 msp--210 img-monito-45" alt=""/></div>
                       <div className="caja-debajo-45 mtp-10 position-relative">
 
                           <div className=" bgc-white w-220  hp-385">
