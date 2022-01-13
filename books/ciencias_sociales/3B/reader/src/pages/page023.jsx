@@ -56,7 +56,7 @@ function Page023(props) {
             </div>
           </div>
 
-          <div className="d-flex msp-100 mep-60 position-relative mtp-30">
+          <div className="d-flex msp-60 mep-60 position-relative mtp-30">
             <div className="border border-3 p-3 hp-400 w-100 ">
               <div>
                 <img
@@ -85,14 +85,14 @@ function Page023(props) {
           <div className="ptp-10 psp-100 pep-100 mbp-0 contenedor-pagina position-relative">
             <div className="position-absolute top-50 start-0">
               <img
-                src="images/page_034/agenda.png"
+                src="images/page_023/clip.png"
                 className="wp-50 msp-180 mbp-90"
                 alt=""
               />
             </div>
             <div className="position-absolute top-0 end-0 zindex-2">
               <img
-                src="images/page_034/clip.png"
+                src="images/page_023/clip.png"
                 className="wp-30 mep-110 mtp-5"
                 alt=""
               />
