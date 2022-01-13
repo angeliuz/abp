@@ -15,8 +15,8 @@ function Page045(props) {
                 {/* BEGIN CABECERA VERSIÓN 2 */}
                 <div className="cabecera-v2 bgc-saitama d-flex flex-column">
                   <div className="d-flex contenedor-cabecera-v2 align-items-center ptp-40 psp-30 pep-30">
-                    <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-saitama fsp-24 f-IntroRustG-Base">SESIÓN 8</div>
-                    <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Somos encuestadores</div>
+                    <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-saitama fsp-24 f-IntroRustG-Base">SESIÓN 12</div>
+                    <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Comenzamos a crear</div>
                   </div>
                 </div> 
                 {/* END CABECERA VERSIÓN 2 */}
@@ -48,12 +48,15 @@ function Page045(props) {
 
 
           <div className="d-flex justify-content-center  msp-60 mep-40 mtp-40 ">
-              <div className="w-90 h-100 ">
-
+              <div className="w-90 h-100 position-relative ">
+                
+                    <div className="position-absolute top-0 start-100 translate-middle img-parlante"><img src="images/page_045/img_005.png" className="hp-100 mtp-20 " alt=""/></div>
+                    
                   <div className="row d-flex justify-content-center bgc-bobafett sombra-contenedor-45 ">
 
                     <div className="col-lg-5 col-sm-12 -m-0 p-0 hp-180 caja-sobre">
-
+                    <div className="position-absolute top-100 start-0 translate-middle"><img src="images/page_045/img_008.png" className="hp-100 mtp-20 " alt=""/></div>
+                    
                       <div className="border border-1 mtp-10 border-color-saitama  bgc-white  hp-300 ">
                         <div className="d-flex   ">
                             <img className="hp-20 align-center mt-3 me-2 mb-2 msp--40" src="images/page_045/img_006.svg" alt="" />
@@ -63,10 +66,13 @@ function Page045(props) {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-7 col-sm-12  m-0 bgc-bobafett  ptp-20 h-100 ">
-                      <div className="caja-debajo-45 mtp-10">
-                          <div className=" bgc-white w-220  hp-300">
-                            <div className="bgc-aqua msp-100 pep-20 ptp-20 psp-0   text-start">
+                    <div className="col-lg-7 col-sm-12  m-0 bgc-bobafett  ptp-20 h-100 position-relative">
+
+                        <div className="position-absolute bottom-0 start-0 "><img src="images/page_045/img_009.png" className="hp-120 mtp--120 msp--150 img-monito-45" alt=""/></div>
+                      <div className="caja-debajo-45 mtp-10 position-relative">
+
+                          <div className=" bgc-white w-220  hp-385">
+                            <div className=" msp-100 pep-20 ptp-20 psp-0   text-start">
 
                                 <div className="d-flex bgc-white  w-100 ">
                                     <img className="hp-20 align-center mt-3 me-2 mb-2  " src="images/page_045/img_007.svg" alt="" />
@@ -75,7 +81,15 @@ function Page045(props) {
                                     {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_033/circ.png" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                                    
                                 </div>
-                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-210" />
+                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
+
+                                <div className="d-flex bgc-white  w-100 ">
+                                    {/* <img className="hp-20 align-center mt-3 me-2 mb-2  " src="images/page_045/img_007.svg" alt="" /> */}
+                                    <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">4</div>
+                                    <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-left">Escribimos nuestra canción y la guardamos para nuestra fiesta.</div>
+                                    {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_033/circ.png" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+                                   
+                                </div>
                             </div>
                           </div>
 
