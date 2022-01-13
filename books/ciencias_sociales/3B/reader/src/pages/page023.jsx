@@ -1,5 +1,6 @@
 import React from "react";
 import InputBox from "../components/InputBox";
+import ModalBook from "../components/ModalBook";
 
 import "./page_023.css";
 
@@ -20,17 +21,15 @@ function Page023(props) {
                 SESIÓN 5
               </div>
               <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">
-              Navegando por la web
+                Navegando por la web
               </div>
             </div>
           </div>
           {/* END CABECERA VERSIÓN 2 */}
 
-          
-
           <div className="ptp-30 psp-60 ">
             <div className="f-Ubuntu-M fsp-20 color-android18 text-start">
-              Antes de partir...
+              Garantizando nuestros derechos
             </div>
           </div>
 
@@ -46,22 +45,69 @@ function Page023(props) {
                 1
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Observo la fotografía, pienso y me hago preguntas.
+                Leo la revista y comprendo.
               </div>
+              <ModalBook
+                id={"p" + pagina + "_book" + (indexInput += 1)}
+                image="images/page_023/img_002.svg"
+                clasesImagen="hp-40 text-center mtp-15 msp--10"
+                className="p-0 px-0"
+              />
             </div>
           </div>
 
           <div className="d-flex msp-100 mep-60 position-relative mtp-30">
             <div className="border border-3 p-3 hp-400 w-100 ">
-            <div><img src="images/page_023/img_004.png" className="position-absolute top-50 start-0 translate-middle wp-40" alt=""></img></div> 
-            <div className="f-Ubuntu-L text-start fsp-15 lh-sm msp-20 mbp-30">¿Qué elementos tiene la fiesta que se muestra en la revista?</div>
-            
-            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-4 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190" />
+              <div>
+                <img
+                  src="images/page_023/img_004.png"
+                  className="position-absolute top-50 start-0 translate-middle wp-40"
+                  alt=""
+                ></img>
+              </div>
+              <div className="f-Ubuntu-L text-start fsp-15 lh-sm msp-20 mbp-30">
+                La Subsecretaría de la Niñez es importante porque…
+              </div>
+
+              <InputBox
+                id={"p" + pagina + "_input" + (indexInput += 1)}
+                className="p-4 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190"
+              />
             </div>
-            
           </div>
 
-          
+          <div className="row">
+
+                <div className="col-md-5 col-12 psp-20 pep-20 pbp-20">
+                  <div className="d-flex">
+                    <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">3</div>
+                    <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-left">La institución que vamos a
+escoger para investigar es…</div>
+                  </div>
+                </div>
+
+                <div className="col-md-7 position-relative pbp-20 ptp-15 rota">
+                  <div className="bloque-respuesta-23 w-100 p-3 text-left bgc-draco rota">
+                    <div className="d-flex align-items-center pbp-10">
+                      <div className="pep-10"><img src="images/page_034/cuadro.svg" className="hp-30" alt="" /></div>
+                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Compañeros de curso.</div>
+                    </div>
+                    <div className="d-flex align-items-center pbp-10">
+                      <div className="pep-10"><img src="images/page_034/cuadro.svg" className="hp-30" alt="" /></div>
+                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Profesores y profesoras.</div>
+                    </div>
+                    <div className="d-flex align-items-center pbp-10">
+                      <div className="pep-10"><img src="images/page_034/cuadro.svg" className="hp-30" alt="" /></div>
+                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Compañeros de otros cursos.</div>
+                    </div>
+                    <div className="d-flex align-items-center pbp-10">
+                      <div className="pep-10"><img src="images/page_034/cuadro.svg" className="hp-30" alt="" /></div>
+                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Otros trabajadores del colegio.</div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
 
           {/* PIE DE PAGINA */}
           <div

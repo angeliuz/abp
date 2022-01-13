@@ -12,7 +12,9 @@
 
 }
 
-
+.bloque-respuesta-23 {
+  box-shadow: 3px 3px 3px 0px rgb(0 0 0 / 20%);
+}
 @media (max-width: 767px) {
   .margen-21 {
       margin-bottom: 10px;
