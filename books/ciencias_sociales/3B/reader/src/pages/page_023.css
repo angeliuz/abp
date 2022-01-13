@@ -19,6 +19,21 @@
   transform: rotate(8deg);
 }
 
+.borde-23 {
+  border: 2px solid;
+  border-color: #55524f;
+}
+
+.dibujo{
+  right:-34px;
+  top:-117px;
+}
+
+.clip-23{
+  right:10px;
+  top: 10px;
+  z-index: 3;
+}
 @media (max-width: 767px) {
   .margen-21 {
     margin-bottom: 10px;
