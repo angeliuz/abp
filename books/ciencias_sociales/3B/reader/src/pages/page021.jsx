@@ -14,13 +14,12 @@ function Page021(props) {
           className="page bgc-white overflow-hidden position-relative"
           id={"page_" + pagina}
         >
-          {/* BEGIN CABECERA VERSIÓN 2 */}
-          <div className="cabecera-21">
-            <div className="row m-0 ptp-20 psp-45 pep-45 pbp-5 centrar-21">
-              <div className=" col-12 col-sm-auto fsp-24 f-IntroRustG-Base caja-21 color-balrog">
+          <div className="cabecera-21 bgc-android18 d-flex flex-column">
+            <div className="d-flex contenedor-cabecera-v2 align-items-center ptp-40 psp-30 pep-30">
+              <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-balrog fsp-24 f-IntroRustG-Base">
                 SESIÓN 4
               </div>
-              <div className="col-12 col-sm-auto fsp-24 f-Ubuntu-M color-white ptp-15 psp-15 text-center cambio-21 lh-sm">
+              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">
                 ¡A investigar!
               </div>
             </div>
@@ -60,10 +59,9 @@ function Page021(props) {
             </div>
           </div>
 
-          <div className="row container-row mtp-10 p-0 mx-4">
-
-          <div className="col-sm-12 col-md-4 mtp-20  position-relative">
-          <img
+          <div className="row container-row mtp-10 p-0 mx-4 position-relative">
+            <div className="col-sm-12 col-md-4 mtp-20  position-relative">
+              <img
                 src="images/page_021/img_003.png"
                 className="top-0 start-50 translate-middle-x position-absolute"
                 alt=""
@@ -79,7 +77,7 @@ function Page021(props) {
             </div>
 
             <div className="col-sm-12 col-md-4 mtp-20  position-relative">
-            <img
+              <img
                 src="images/page_021/img_002.png"
                 className="top-0 start-50 translate-middle-x position-absolute"
                 alt=""
@@ -95,7 +93,7 @@ function Page021(props) {
             </div>
 
             <div className="col-sm-12 col-md-4 mtp-20  position-relative">
-            <img
+              <img
                 src="images/page_021/img_001.png"
                 className="top-0 start-50 translate-middle-x position-absolute"
                 alt=""

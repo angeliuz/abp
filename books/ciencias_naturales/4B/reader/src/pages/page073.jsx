@@ -24,57 +24,82 @@ function Page073(props) {
                     
                   </div>
                 </div> 
-                {/* END CABECERA VERSIÓN 2 */}
-
-            <div className="ptp-30 psp-60 pep-60">
-              <div className="f-Ubuntu-M fsp-20 color-pikachu text-start">Valoración de lo aprendido y del trabajo realizado</div>
-            </div>
-            <div className=" container-titulo-global mbp-∫0">
+                 {/* END CABECERA VERSIÓN 2 */}
+                 <div className=" container-titulo-global mbp-∫0">
             <div className="d-flex">
                 {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/img_002.svg" alt=""  /> */}
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-pikachu">1</div>
                 <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Trabajo en la revista y reflexiono sobre lo que aprendí en este proyecto.</div>
                  {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> */}
-                { <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_031/img_002.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> }
+                <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_073/img_002.svg" clasesImagen="hp-40 text-center mtp-10 mbp-10 " className="p-0 px-0" />
             </div>
           </div>
-            <div className="cb-contenedor-mail-p71">
-              <div className="cb-invitacion-p71 psp-35 f-Ubuntu-R fsp-18 fw-700 ptp-5">¡Felicitaciones!</div>
-              <div className="cb-datos-mail pep-15 psp-10 ptp-10 pbp-10">
-                <div className="d-flex justify-content-between mbp-5"> 
-                  <div><img src="images/page_071/img_006.png" className="cb-computador-carta psp-30" alt=""></img></div> 
-                  <div className="cb-datos-1 msp-10 align-items-center d-flex">
-                    <div className="psp-10 f-Ubuntu-l fsp-16"> <span className="fw-700"> Macarena </span> macarena@brigadistas.cl <br /> Para Estudiantes 4° básico </div>
-                  </div>
-                </div>
-              </div>
-             
-              <div className="cb-texto-mail-p71 mbp-90">
-                  <div class="cb-carta-content-p71 f-Ubuntu-L text-start">
-                    <img src="images/page_071/img_007.png" className="cb-favorito-carta-p71" alt=""></img>
-                      <img src="images/page_071/img_004.png" className="cb-celu-carta-p71" alt=""></img>
-                      <p className="f-Ubuntu-R fw-700"> Estimados estudiantes:</p>
-                      <p>Reciban de mi parte un cariñoso saludo y mis felicitaciones por el trabajo que
-                      han realizado. Como representante de la brigada comunal les transmito el
-                      orgullo que siente nuestro equipo por el gran compromiso que han mostrado
-                      y lo contentos que estamos al ver cómo se han organizado.</p>
+                 <div className="cb-contenedor-dos justify-content-center pe-2 ps-2 pbp-15">
+                    <div className="w-100 position-relative">
+                    <img src="images/page_073/img_004.png" className="cb-notamorada-p73" alt=""></img>
+                        <div className="bgc-kazuha cb-outline p-3 f-Ubuntu-L fsp-15 border-color-garou cb-caja1" >
+                        <p className="cb-psp2 color-pikachu fw-700">¿Qué aprendí?</p>
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" /> 
+                         </div>
+                         <div className="bgc-marcianos cb-outline p-3 f-Ubuntu-L fsp-15 border-color-garou cb-caja2-p73" >
+                         <p className="color-sektor fw-700">¿Con quién aprendí?</p>
+                         <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                         </div>
+                    </div>
+                     <div className="w-100">
 
-                      <p>Ahora se encuentran en la recta final y solo falta que todos se enteren de
-                         la hermosa labor que desempeñarán. Ahora que han completado el desafío
-                         pueden sentirse felices y orgullosos de su trabajo. </p>
+                         <div className="bgc-sayu p-3 cb-outline f-Ubuntu-L fsp-15 border-color-garou cb-caja3 position-relative" >
+                         <img src="images/page_073/img_003.png" className="cb-nube-p73" alt=""></img>
+                         <p className="cb-psp color-bulma fw-700">¿Cómo aprendí?</p>
+                         <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" /> 
+                         </div>
+                         <div className="bgc-windu cb-outline p-3 f-Ubuntu-L fsp-15 border-color-garou cb-caja4" >
+                             <p className="cb-psp2 color-saitama fw-700">¿Cómo me he sentido aprendiendo?</p>
+                             <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                            </div> 
+                        </div>
+                </div> 
+            {/* ETAPA 2*/}
+                <div className=" container-titulo-global mbp-∫0">
+            <div className="d-flex">
 
-                      <p>No olviden nunca su misión como brigadistas y lo importante que ha sido
-                         trabajar colaborativamente. ¡La seguridad es tarea de todos!<br/></p>
-                        <p className="justify-content-end d-flex">Atte. Macarena, brigadista comunal.</p> 
-                  </div>
-                </div>
-              </div>  
-              <div className="cb-parte2-p71 bgc-ganyu ptp-20 pep-15 psp-25 mbp-80 text-start f-Ubuntu-L fsp-15 position-relative">
-              <img src="images/page_071/img_005.png"  className="cb-ficha-p71" alt=""></img>
-              <p> Explico cómo me siento después de leer el mensaje de Macarena:  </p>
-              <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-270" /> 
-              </div>
-
+                <div className="f-ccdigitaldelivery-bold fsp-35 color-pikachu">2</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Lo que mejor resultó de nuestro proyecto fue:  </div>
+            </div>
+          </div>
+          <div className="cb-seccion2-p73 text-start">
+          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+          <div className="mtp-15"> porque:</div>
+          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+          </div>
+          {/* END ETAPA 2 */}
+                {/* ETAPA 3*/}
+                <div className=" container-titulo-global mbp-∫0">
+            <div className="d-flex">
+                <div className="f-ccdigitaldelivery-bold fsp-35 color-pikachu">3</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Creemos que nos faltó o pudimos mejorar en:  </div>   
+            </div>
+          </div>
+          <div className="cb-seccion2-p73 text-start position-relative">
+          <img src="images/page_073/img_005.png" className="cb-doctora-p73" alt=""></img>
+          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+          <div className="mtp-15"> porque:</div>
+          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+          </div>
+          {/* END ETAPA 3 */}
+          {/* ETAPA 4*/}
+          <div className=" container-titulo-global mbp-∫0">
+            <div className="d-flex"> 
+                <div className="f-ccdigitaldelivery-bold fsp-35 color-pikachu">4</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-star">Los asistentes a la presentación opinan que la brigada...</div>
+            </div>
+          </div>
+          <div className="cb-seccion2-p73 text-start mbp-30">
+          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+          <div className="mtp-15"> Esto nos hace sentir:</div>
+          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+          </div>
+          {/* END ETAPA 4 */}
                 {/* PIE DE PAGINA */}
                 <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
                   <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
@@ -117,8 +142,9 @@ function Page073(props) {
                 </div>
 
                 
-              </div>
+              
             </div>
+          </div>
           </div>
      
   );

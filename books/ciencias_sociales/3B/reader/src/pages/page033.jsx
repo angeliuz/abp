@@ -37,7 +37,7 @@ function Page033(props) {
                 <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_014/img_006.png" className="hp-25 mep-40 mtp-40" alt=""/></div>
                 <div className="mbp-20 mtp-10 msp-20 mep-20">
                   <div className="bloque-respuesta linea1 bgc-jugador001 min-hp-150 p-2 border-style-solid border-color-goku border-1">
-                    <div className="f-Ubuntu-L fsp-16 p-1 text-start">Con las encuestas podemos…</div>
+                    <div className="f-Ubuntu-L fsp-15 p-1 text-start">Con las encuestas podemos…</div>
                     <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                   </div>
                 </div>
@@ -59,41 +59,41 @@ function Page033(props) {
 
                 <div className="col-md-8 position-relative pbp-20 ptp-15">
                   <div className="bloque-respuesta w-100 p-3 text-left bgc-yoru border-style-solid border-color-goku border-1 ">
-                    <div class="d-flex align-items-center pbp-10">
-                      <div class="pep-10"><img src="images/page_033/cuadro.svg" class="hp-30" alt="" /></div>
-                      <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Qué edad tienes?</div>
+                    <div className="d-flex align-items-center pbp-10">
+                      <div className="pep-10"><img src="images/page_033/cuadro.svg" className="hp-30" alt="" /></div>
+                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Qué edad tienes?</div>
                     </div>
-                    <div class="d-flex align-items-center pbp-10">
-                      <div class="pep-10"><img src="images/page_033/cuadro.svg" class="hp-30" alt="" /></div>
-                      <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">¿De qué nacionalidad eres?</div>
+                    <div className="d-flex align-items-center pbp-10">
+                      <div className="pep-10"><img src="images/page_033/cuadro.svg" className="hp-30" alt="" /></div>
+                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿De qué nacionalidad eres?</div>
                     </div>
-                    <div class="d-flex align-items-center pbp-10">
-                      <div class="pep-10"><img src="images/page_033/cuadro.svg" class="hp-30" alt="" /></div>
-                      <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Te consideras parte de o perteneces a un pueblo originario?</div>
+                    <div className="d-flex align-items-center pbp-10">
+                      <div className="pep-10"><img src="images/page_033/cuadro.svg" className="hp-30" alt="" /></div>
+                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Te consideras parte de o perteneces a un pueblo originario?</div>
                     </div>
-                    <div class="d-flex align-items-center pbp-10">
-                      <div class="pep-10"><img src="images/page_033/cuadro.svg" class="hp-30" alt="" /></div>
-                      <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Cuál es tu música favorita?</div>
+                    <div className="d-flex align-items-center pbp-10">
+                      <div className="pep-10"><img src="images/page_033/cuadro.svg" className="hp-30" alt="" /></div>
+                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Cuál es tu música favorita?</div>
                     </div>
-                    <div class="d-flex align-items-center pbp-10">
-                      <div class="pep-10"><img src="images/page_033/cuadro.svg" class="hp-30" alt="" /></div>
-                      <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Cuál es tu comida típica favorita?</div>
+                    <div className="d-flex align-items-center pbp-10">
+                      <div className="pep-10"><img src="images/page_033/cuadro.svg" className="hp-30" alt="" /></div>
+                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Cuál es tu comida típica favorita?</div>
                     </div>
-                    <div class="d-flex align-items-center pbp-10">
-                      <div class="pep-10"><img src="images/page_033/cuadro.svg" class="hp-30" alt="" /></div>
-                      <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Cuál es tu deporte favorito?</div>
+                    <div className="d-flex align-items-center pbp-10">
+                      <div className="pep-10"><img src="images/page_033/cuadro.svg" className="hp-30" alt="" /></div>
+                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Cuál es tu deporte favorito?</div>
                     </div>
-                    <div class="d-flex align-items-center pbp-10">
-                      <div class="pep-10"><img src="images/page_033/cuadro.svg" class="hp-30" alt="" /></div>
-                      <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Qué te gusta hacer en tu tiempo libre?</div>
+                    <div className="d-flex align-items-center pbp-10">
+                      <div className="pep-10"><img src="images/page_033/cuadro.svg" className="hp-30" alt="" /></div>
+                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Qué te gusta hacer en tu tiempo libre?</div>
                     </div>
-                    <div class="d-flex align-items-center pbp-10">
-                      <div class="pep-10"><img src="images/page_033/cuadro.svg" class="hp-30" alt="" /></div>
-                      <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Cuál es tu asignatura favorita?</div>
+                    <div className="d-flex align-items-center pbp-10">
+                      <div className="pep-10"><img src="images/page_033/cuadro.svg" className="hp-30" alt="" /></div>
+                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Cuál es tu asignatura favorita?</div>
                     </div>
-                    <div class="d-flex align-items-center pbp-10">
-                      <div class="pep-10"><img src="images/page_033/cuadro.svg" class="hp-30" alt="" /></div>
-                      <div class="f-Ubuntu-L fsp-15 lh-sm pep-5">Otra:</div>
+                    <div className="d-flex align-items-center pbp-10">
+                      <div className="pep-10"><img src="images/page_033/cuadro.svg" className="hp-30" alt="" /></div>
+                      <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Otra:</div>
                       <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                     </div>
                   </div>

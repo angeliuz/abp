@@ -558,6 +558,126 @@
 .hp-200 {
   height: 200px;
 }
+.hp-205 {
+  height: 205px;
+}
+.hp-210 {
+  height: 210px;
+}
+.hp-215 {
+  height: 215px;
+}
+.hp-220 {
+  height: 220px;
+}
+.hp-225 {
+  height: 225px;
+}
+.hp-230 {
+  height: 230px;
+}
+.hp-235 {
+  height: 235px;
+}
+.hp-240 {
+  height: 240px;
+}
+.hp-245 {
+  height: 245px;
+}
+.hp-250 {
+  height: 250px;
+}
+.hp-255 {
+  height: 255px;
+}
+.hp-260 {
+  height: 260px;
+}
+.hp-265 {
+  height: 265px;
+}
+.hp-270 {
+  height: 270px;
+}
+.hp-275 {
+  height: 275px;
+}
+.hp-280 {
+  height: 280px;
+}
+.hp-285 {
+  height: 285px;
+}
+.hp-290 {
+  height: 290px;
+}
+.hp-295 {
+  height: 295px;
+}
+ .hp-300 {
+  height: 300px;
+}
+.hp-305 {
+  height: 305px;
+}
+.hp-310 {
+  height: 310px;
+}
+.hp-315 {
+  height: 315px;
+}
+.hp-320 {
+  height: 320px;
+}
+.hp-325 {
+  height: 325px;
+}
+.hp-330 {
+  height: 330px;
+}
+.hp-335 {
+  height: 335px;
+}
+.hp-340 {
+  height: 340px;
+}
+.hp-345 {
+  height: 345px;
+}
+.hp-350 {
+  height: 350px;
+}
+.hp-355 {
+  height: 355px;
+}
+.hp-360 {
+  height: 360px;
+}
+.hp-365 {
+  height: 365px;
+}
+.hp-370 {
+  height: 370px;
+}
+.hp-375 {
+  height: 375px;
+}
+.hp-380 {
+  height: 380px;
+}
+.hp-385 {
+  height: 385px;
+}
+.hp-390 {
+  height: 390px;
+}
+.hp-395 {
+  height: 395px;
+}
+.hp-400 {
+  height: 400px;
+}
 
 /* MARGENES */
 .ms-5 {
@@ -1776,6 +1896,9 @@
 }
 .mep-200 {
   margin-right: 200px;
+}
+.mep-230 {
+  margin-right: 230px;
 }
 
 .mt-5 {
@@ -4458,6 +4581,9 @@
   border-radius: 200%;
 }
 /*arriba redondeado / abajo plano */
+.rounded-set-10 {
+  border-radius: 10px 10px 0px 0px;
+}
 .rounded-set-20 {
   border-radius: 20px 20px 0px 0px;
 }
@@ -4465,6 +4591,9 @@
   border-radius: 6px 6px 0px 0px;
 }
 /*abajo redondeado / arriba plano */
+.rounded-seb-10 {
+  border-radius: 0px 0px 10px 10px;
+}
 .rounded-seb-20 {
   border-radius: 0px 0px 20px 20px;
 }
@@ -4495,6 +4624,12 @@
 /*redondeado right-bottom*/
 .rounded-be-10 {
   border-bottom-right-radius: 10px;
+}
+.rounded-be-20 {
+  border-bottom-right-radius: 20px;
+}
+.rounded-be-30 {
+  border-bottom-right-radius: 30px;
 }
 /*redondeado right-top*/
 .rounded-ts-10 {

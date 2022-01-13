@@ -60,18 +60,18 @@ function Page043(props) {
 
 
 
-          <div className="row w-100 psp-60 pep-60">
+          <div className="row w-100  psp-60 pep-60"> 
            
-            <div className="col-lg-4 col-md-12 bgc-red">
+            <div className="col-lg-4 col-md-12  ">
               <div className="d-flex">
                <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">2</div>
                 <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Nuestro stand de <br></br>la fiesta tendrá...</div>
 
               </div>
             </div>
-            <div className="col-lg-8 col-md-12 m-0 p-0 bgc-aqua d-flex justify-content-end  ">
-              <div className="w-100 d-flex justify-content-end ">
-                    <div className="border border-3 p-2 hp-400 wp-450 bgc-yellow position-relative">
+            <div className="col-lg-8 col-md-12 m-0 p-0 bgc-white d-flex justify-content-end  ">
+              <div className="w-100 d-flex justify-content-end mbp-70">
+                    <div className="mt-2 border border-2 border-color-goku bgc-jugador001 p-2 hp-400 wp-450 position-relative">
                     <div className="d-flex align-items-center p-1 w-100  "> 
                           <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white"><img src="images/page_043/img_003.svg" className="hp-20  " alt=""></img></div>
                           <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm  psp-10 lh-sm">Música diversa.</div>
@@ -105,7 +105,7 @@ function Page043(props) {
                           </div>
                       </div>
 
-                      <div><img src="images/page_043/img_006.png" className="position-absolute bottom-0 start-0 wp-100 ms--150 " alt=""></img></div> 
+                      <div><img src="images/page_043/img_006.png" className="position-absolute bottom-0 start-0 wp-100 ms--30 " alt=""></img></div> 
                     </div>
                   </div>
             </div>
@@ -116,55 +116,17 @@ function Page043(props) {
     
 
 
-
-            {/* <div className="cb-contenedor-mail-p07">
-              <div className="cb-invitacion-p07 psp-35 f-Ubuntu-R fsp-16">Invitación a ser brigadista escolar</div>
-              <div className="cb-datos-mail pep-15 psp-10 ptp-10 pbp-10">
-                <div className="d-flex justify-content-between mbp-5"> 
-                  <div><img src="images/page_007/img_006.png" className="cb-computador-carta psp-30" alt=""></img></div> 
-                  <div className="cb-datos-1 msp-10 align-items-center d-flex">
-                    <div className="psp-10 f-Ubuntu-l fsp-16"> <span className="fw-700"> Macarena </span> macarena@brigadistas.cl <br /> Para Estudiantes 4° básico </div>
-                  </div>
-                </div>
-              </div>
-             
-              <div className="cb-texto-mail mbp-90">
-                  <div class="cb-carta-content f-Ubuntu-L text-start">
-                    <img src="images/page_007/img_003.png"  className="cb-cerrar-carta-p07" alt=""></img>
-                    <img src="images/page_007/img_007.png" className="cb-favorito-carta-p07" alt=""></img>
-                      <img src="images/page_007/img_004.png" className="cb-celu-carta-p07" alt=""></img>
-                      <img src="images/page_007/img_005.png" className="cb-compu-carta-p07" alt=""></img>
-                      <p className="f-Ubuntu-R fw-700"> Estimados estudiantes:</p>
-                      <p>Reciban un cordial saludo. Mi nombre es Macarena y me dirijo a ustedes
-                        en representación de la brigada comunal de emergencia para hacerles una
-                        importante y entretenida invitación.</p>
-
-                      <p>¿Qué les parece la idea de conformar brigadas escolares? ¡Sería un desafío
-                        muy entretenido! Participando en una brigada podrán colaborar con sus
-                        profesores e inspectores ante alguna emergencia. También comunicarán de
-                        manera oportuna a la comunidad educativa la importancia de saber actuar
-                        ante distintos accidentes, además de enseñarles a sus compañeros a estar
-                        preparados y comportarse adecuadamente ante un evento de riesgo. </p>
-
-                      <p>¡Sé que lo harán excelente! ¿Qué dicen? Quedo atenta a su respuesta.<br />
-                        Reciban un cordial saludo de mi parte y de la brigada comunal a la que
-                        represento<br/></p>
-                        <p className="justify-content-end d-flex">Atte. Macarena, brigadista comunal.</p> 
-                  </div>
-                </div>
-              </div>   */}
-
                 {/* PIE DE PAGINA */}
                 <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
-                  <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
+                  <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60 " style={{ transform: `rotate(270deg)`, color: "dark" }}>
                     ABP &copy; SM
                   </div>
-                  <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+                  <div className="bgc-jawa wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
                 </div>
                 <div className="row position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{bottom:0}}>
 
                     <div className="col-1 position-relative col-sm-2 p-0 m-0">
-                      <img src="images/rotulo_motivacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
+                      <img src="images/rotulo_motivacion.svg" className="oculto" alt="" />
                         <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
                         <div className="w-100 hp-25 bgc-goten"></div>
                     </div>
@@ -184,7 +146,7 @@ function Page043(props) {
                         <div className="w-100 hp-25 bgc-pidgey"></div>
                     </div>
                     <div className="col-1 position-relative col-sm-2 p-0 m-0">
-                      <img src="images/rotulo_creacion.svg" className="oculto" alt="" />
+                      <img src="images/rotulo_creacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
                         <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
                         <div className="w-100 hp-25 bgc-saitama"></div>
                     </div>
