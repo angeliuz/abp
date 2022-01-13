@@ -3,11 +3,11 @@ import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
 import ModalBook from "../components/ModalBook";
 
-import "./page_073.css";
+import "./page_074.css";
 
-function Page073(props) {
+function Page074(props) {
 
-  const pagina = "073";
+  const pagina = "074";
   var indexInput = 0;
 
   return (
@@ -150,4 +150,4 @@ function Page073(props) {
   );
 }
 
-export default Page073;
+export default Page074;
