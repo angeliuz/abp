@@ -171,8 +171,8 @@ function Page023(props) {
 
           <div className="row container-row m-0 psp-60 pep-60">
             <div className=" col-sm-12 col-md-4 position-relative">
-              <div className="d-flex mbp-20 mtp-10 w-100 padding-box-29-1">
-                <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-lightDark">
+              <div className="d-flex margen-21 mbp-60 mtp-10 w-100 ">
+                <div className="p-2 w-100 borde-23-1 rounded-tbe-20 ">
                   <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-start">
                     Lo que más nos interesaría saber de esta institución es…
                   </div>
@@ -184,10 +184,10 @@ function Page023(props) {
               </div>
             </div>
             <div className="col-sm-12 col-md-4 position-relative">
-              <div className="d-flex mbp-20 mtp-10 w-100 padding-box-29-2">
-                <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-lightDark">
+              <div className="d-flex margen-21 mbp-60 mtp-10 w-100 ">
+                <div className="p-2  w-100 borde-23-2  rounded-tbe-20 ">
                   <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-start">
-                    Lo que más nos interesaría saber de esta institución es…
+                    Durante la investigación queremos profundizar sobre…
                   </div>
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -197,10 +197,11 @@ function Page023(props) {
               </div>
             </div>
             <div className="col-sm-12 col-md-4 position-relative">
-              <div className="d-flex mbp-20 mtp-10 w-100 padding-box-29-2">
-                <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-lightDark">
+              <div className="d-flex  mbp-60 mtp-10 w-100 ">
+                <div className="p-2 min-hp-100 w-100  borde-23-3  rounded-tbe-20 ">
                   <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-start">
-                    Lo que más nos interesaría saber de esta institución es…
+                    Al terminar, lo que quisiéramos saber sobre esta
+                    institución…
                   </div>
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
