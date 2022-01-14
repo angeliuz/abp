@@ -2,12 +2,19 @@
   background: url(images/page_076/fondo_001.svg) top left/ cover no-repeat !important;
    -webkit-print-color-adjust: exact !important;
 }
-.cb-trescontenedores-p76{
+.cb-contenedor-ejercicio-1-p76{
   max-width: 700px;
   width: calc(100% - 30px);
   margin-left: auto;
   margin-right: auto;
+  background-color: rgb(255, 239, 170);
   border-radius: 5px 5px 5px 5px;
+}
+.cb-border-b-p76{
+  border-radius: 5px 5px 5px 5px;
+}
+.cb-border-a-p76{
+  border-radius: 5px 5px 0px 0px;
 }
 .cb-lado-a-p76 {
 width: calc(100% / 4);
@@ -26,14 +33,7 @@ padding-top: 10px;
     margin-left: auto;
     width: calc(100% - 30px);
 }
-.cb-block2-p76 {
-  max-width: 200px;
-  width: calc(100% - 30px);
-  align-items: start;
-  justify-content: start;
-  display: flex;
-   position: absolute;
-}
+
 .cb-izq-p76{
   top:-17px;
   margin-right: auto;
@@ -52,12 +52,19 @@ padding-top: 10px;
   display: flex;
   border: 1px solid #7c7c7c;
 }
-.cb-texto-final-p76 {
-  max-width: 650px;
-  margin-right: auto;
-  margin-left: auto;
 
-} 
+.cb-ejercicio-final-p76{
+  max-width: 700px;
+  width: calc(100% - 30px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.cb-ejercicio-cajas-p76{
+  max-width: calc(100% / 2);
+  width: 100% ;
+  margin-left: auto;
+  margin-right: auto;
+}
 @media all and (max-width: 829px) {
   .cb-page76{
      background: url(images/page_076/fondo_000.svg) top left/ cover no-repeat !important;
