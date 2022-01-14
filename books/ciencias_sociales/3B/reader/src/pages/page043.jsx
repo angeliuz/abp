@@ -40,7 +40,7 @@ function Page043(props) {
 
 
           <div className="d-flex msp-100 mep-60 position-relative mtp-30">
-                <div className="border border-3 p-3 hp-400 w-100 ">
+                <div className="border border-3 p-3 hp-300 w-100 ">
                   <div><img src="images/page_043/img_004.png" className="position-absolute top-50 start-0 translate-middle wp-40" alt=""></img></div> 
                   <div className="f-Ubuntu-L text-start fsp-15 lh-sm msp-20 mbp-30">¿Qué elementos tiene la fiesta que se muestra en la revista?</div>
                   
@@ -48,6 +48,10 @@ function Page043(props) {
                 </div>
             
           </div>
+
+
+
+          
 
           <div className="ptp-30 psp-60 pep-60">
               <div className="f-Ubuntu-M fsp-20 color-saitama text-start">Tomamos decisiones</div>
