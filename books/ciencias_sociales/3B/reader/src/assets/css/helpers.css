@@ -678,6 +678,18 @@
 .hp-400 {
   height: 400px;
 }
+.hp-450 {
+  height: 450px;
+}
+.hp-500 {
+  height: 500px;
+}
+.hp-600 {
+  height: 600px;
+}
+.hp-700 {
+  height: 700px;
+}
 
 /* MARGENES */
 .ms-5 {
@@ -4797,6 +4809,18 @@
 }
 .min-hp-530 {
   min-height: 530px !important;
+}
+.min-hp-540 {
+  min-height: 540px !important;
+}
+.min-hp-560 {
+  min-height: 550px !important;
+}
+.min-hp-600 {
+  min-height: 600px !important;
+}
+.min-hp-650 {
+  min-height: 650px !important;
 }
 .min-h-100 {
   min-height: 100% !important;
