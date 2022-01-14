@@ -100,7 +100,7 @@ function Page072(props) {
                         <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
                         <div className="w-100 hp-25 bgc-goten"></div>
                     </div>
-                    <div className="col-7 position-relative col-sm-2 p-0 m-0">
+                    <div className="col-1 position-relative col-sm-2 p-0 m-0">
                         <img src="images/rotulo_planificacion.svg" className="oculto" alt="" />
                         <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
                         <div className="w-100 hp-25 bgc-bulma"></div>
@@ -120,7 +120,7 @@ function Page072(props) {
                         <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
                         <div className="w-100 hp-25 bgc-saitama"></div>
                     </div>
-                    <div className="col-1 position-relative col-sm-2 p-0 m-0">
+                    <div className="col-7 position-relative col-sm-2 p-0 m-0">
                       <img src="images/rotulo_difusion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
                         <div className="w-100 hp-15 bgc-leono rounded-caja-end"></div>
                         <div className="w-100 hp-25 bgc-pikachu"></div>

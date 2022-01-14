@@ -37,23 +37,23 @@ function Page073(props) {
                  <div className="cb-contenedor-dos justify-content-center pe-2 ps-2 pbp-15">
                     <div className="w-100 position-relative">
                     <img src="images/page_073/img_004.png" className="cb-notamorada-p73" alt=""></img>
-                        <div className="bgc-kazuha cb-outline p-3 f-Ubuntu-L fsp-15 border-color-garou cb-caja1" >
+                        <div className="bgc-kazuha cb-outline-p73 p-3 f-Ubuntu-L fsp-15 border-color-garou cb-caja1" >
                         <p className="cb-psp2 color-pikachu fw-700">¿Qué aprendí?</p>
                         <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" /> 
                          </div>
-                         <div className="bgc-marcianos cb-outline p-3 f-Ubuntu-L fsp-15 border-color-garou cb-caja2-p73" >
+                         <div className="bgc-marcianos cb-outline-p73 p-3 f-Ubuntu-L fsp-15 border-color-garou cb-caja2-p73" >
                          <p className="color-sektor fw-700">¿Con quién aprendí?</p>
                          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                          </div>
                     </div>
                      <div className="w-100">
 
-                         <div className="bgc-sayu p-3 cb-outline f-Ubuntu-L fsp-15 border-color-garou cb-caja3 position-relative" >
+                         <div className="bgc-sayu p-3 cb-outline-p73 f-Ubuntu-L fsp-15 border-color-garou cb-caja3 position-relative" >
                          <img src="images/page_073/img_003.png" className="cb-nube-p73" alt=""></img>
                          <p className="cb-psp color-bulma fw-700">¿Cómo aprendí?</p>
                          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" /> 
                          </div>
-                         <div className="bgc-windu cb-outline p-3 f-Ubuntu-L fsp-15 border-color-garou cb-caja4" >
+                         <div className="bgc-windu cb-outline-p73 p-3 f-Ubuntu-L fsp-15 border-color-garou cb-caja4" >
                              <p className="cb-psp2 color-saitama fw-700">¿Cómo me he sentido aprendiendo?</p>
                              <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                             </div> 
@@ -114,7 +114,7 @@ function Page073(props) {
                         <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
                         <div className="w-100 hp-25 bgc-goten"></div>
                     </div>
-                    <div className="col-7 position-relative col-sm-2 p-0 m-0">
+                    <div className="col-1 position-relative col-sm-2 p-0 m-0">
                         <img src="images/rotulo_planificacion.svg" className="oculto" alt="" />
                         <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
                         <div className="w-100 hp-25 bgc-bulma"></div>
@@ -134,7 +134,7 @@ function Page073(props) {
                         <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
                         <div className="w-100 hp-25 bgc-saitama"></div>
                     </div>
-                    <div className="col-1 position-relative col-sm-2 p-0 m-0">
+                    <div className="col-7 position-relative col-sm-2 p-0 m-0">
                       <img src="images/rotulo_difusion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
                         <div className="w-100 hp-15 bgc-leono rounded-caja-end"></div>
                         <div className="w-100 hp-25 bgc-pikachu"></div>

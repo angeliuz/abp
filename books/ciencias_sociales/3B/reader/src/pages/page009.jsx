@@ -10,8 +10,8 @@ function Page009(props) {
 
   return (
     <div className="wrapper bgc-light">
-        <div className="d-flex flex-column align-items-center pbp-20">
-            <div className="page cb-page9 overflow-hidden position-relative" id={"page_"+pagina}>
+      <div className="d-flex flex-column align-items-center pbp-20">
+        <div className="page cb-page9 overflow-hidden position-relative" id={"page_"+pagina}>
 
             <div className="mtp-60 ">
                 <div className="d-flex justify-content-center">

@@ -14,7 +14,7 @@ function Page011(props) {
              
           <div className="mtp-60 ">
                 <div className="d-flex justify-content-center">                    
-                    <img src="images/page_011/fondo_002.svg" className="cb-dosier" alt=""></img>
+                    <img src="images/page_011/fondo_002.svg" className="cb-dosier-p11" alt=""></img>
                 </div>
                     <div className="cb-block-inicial-etapa-p09 f-Ubuntu-L hp-90 fw-700 fsp-15 p-2 pb-3 mbp-30 text-center mtp-20 cb-outline_p11">
                     <p>Esta página ha sido completada por</p>
