@@ -35,44 +35,240 @@ function Page024(props) {
                   </div>
                 </div>
               </div>
-              <div className="position-absolute top-50 start-50 translate-middle mtp-250 cajaafiche-1 rounded-p-10 border-style-solid border-2 border-color-dark bgc-azuka text-start p-2" style={{width: "270px", marginLeft: "230px"}}>
-                    <div className="f-Ubuntu-R fsp-16 ptp-10 psp-10 pbp-10">Caracteristícas de un afiche:</div>
-                    <div className="f-Ubuntu-L fsp-15 ">
-                        <ul>
-                            <li className="color-android18">
-                                <span className="color-dark">Transmite un mensaje con claridad.</span>
-                            </li>
-                            <li className="color-android18">
-                                <span className="color-dark">Emplea una frase breve con lenguaje sencillo.</span>
-                            </li>
-                            <li className="color-android18">
-                                <span className="color-dark">Se puede leer con rapidez.</span>
-                            </li>
-                            <li className="color-android18">
-                                <span className="color-dark">Presenta una imagen que enfatiza el mensaje.</span>
-                            </li>
-                            <li className="color-android18">
-                                <span className="color-dark">Es visualmente atractivo.</span>
-                            </li>
-                            <li className="color-android18">
-                            <span className="color-dark">Sus elementos conforman un conjunto.</span>
-                            </li>
-                        </ul>
-                    </div>
-
-
+              <div
+                className="position-absolute caja-afiche-24 cajaafiche-24-1 rounded-p-10 border-style-solid border-2 border-color-dark bgc-azuka text-start p-2 mtp-20"
+                style={{ width: "270px" }}
+              >
+                <div className="f-Ubuntu-L fsp-15 ">
+                  <ul>
+                    <li className="color-android18">
+                      <span className="color-dark">
+                        Nombre de la institución.
+                      </span>
+                    </li>
+                    <li className="color-android18">
+                      <span className="color-dark">
+                        Logo de la institución (si corresponde).
+                      </span>
+                    </li>
+                    <li className="color-android18">
+                      <span className="color-dark">
+                        Misión u objetivos de la institución.
+                      </span>
+                    </li>
+                    <li className="color-android18">
+                      <span className="color-dark">
+                        Algunas labores que cumple.
+                      </span>
+                    </li>
+                    <li className="color-android18">
+                      <span className="color-dark">
+                        Otra información que consideren relevante.
+                      </span>
+                    </li>
+                  </ul>
                 </div>
+              </div>
+
+              <div className="col-md-12 col-lg-12 mbp-70">
+                <div className="psp-60 pep-60">
+                  <div className="cajaafiche-24-2 rounded-p-10 border-style-solid border-2 border-color-dark bgc-azuka text-start">
+                    <div className="f-Ubuntu-L fsp-16 ">
+                      <ul>
+                        <li className="color-android18">
+                          <span className="color-dark">
+                            Transmite un mensaje con claridad.
+                          </span>
+                        </li>
+                        <li className="color-android18">
+                          <span className="color-dark">
+                            Emplea una frase breve con lenguaje sencillo.
+                          </span>
+                        </li>
+                        <li className="color-android18">
+                          <span className="color-dark">
+                            Se puede leer con rapidez.
+                          </span>
+                        </li>
+                        <li className="color-android18">
+                          <span className="color-dark">
+                            Presenta una imagen que enfatiza el mensaje.
+                          </span>
+                        </li>
+                        <li className="color-android18">
+                          <span className="color-dark">
+                            Es visualmente atractivo.
+                          </span>
+                        </li>
+                        <li className="color-android18">
+                          <span className="color-dark">
+                            Sus elementos conforman un conjunto.
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div className="col-md-8 position-relative">
-            <div className="position-absolute pin-24">
-              <img
-                src="images/page_024/img_001.png"
-                className=" "
-                alt=""
-              />
-            </div>
+              <div className="position-absolute pin-24">
+                <img src="images/page_024/img_001.png" className=" " alt="" />
+              </div>
               <div class=" margen-24 w-90 hp-500 p-3 text-left  border-style-solid  border-1 mep-20 msp-20 mtp-10 "></div>
+            </div>
+          </div>
+
+          <div className="bgc-azuka border-top border-color-android18 border-2 pbp-120 psp-60 pep-60 position-relative">
+            <img
+              src="images/page_024/img_004.png"
+              className="dibujo-24"
+              alt=""
+            />
+            <div className="block-bottom text-start mtp-30 f-pixilate-bold">
+              ¿Cómo voy?
+            </div>
+            <div className=" block-bottom  pb-3 psp-15 ptp-10 pep-20 f-Ubuntu-L bgc-white fsp-13 rounded-p-10">
+              <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
+                <div className="d-flex">
+                  <div className="flecha-android18 pep-10 mtp-3"></div>
+                  <span className="w-24 f-Ubuntu-L text-start">
+                    Hoy hice varias tareas y lo que más me ayudó fue…
+                  </span>
+                </div>
+              </div>
+
+              <div className="pt-0 flex-grow-1 mbp-20">
+                <InputBox
+                  id={"p" + pagina + "_input" + (indexInput += 1)}
+                  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80"
+                />
+              </div>
+
+              <div className="d-flex flex-wrap w-100 align-items-end titulo-linea">
+                <div className="d-flex">
+                  <div className="flecha-android18 pep-10 mtp-3"></div>
+                  <span className="w-24 f-Ubuntu-L">
+                    ¿Qué podría mejorar para la próxima sesión?
+                  </span>
+                </div>
+              </div>
+              <div className="pt-0 flex-grow-1">
+                <InputBox
+                  id={"p" + pagina + "_input" + (indexInput += 1)}
+                  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80"
+                />
+              </div>
+            </div>
+
+            <div className="block-bottom">
+              <div className="d-flex pep-10">
+                <div className="block-bottom text-start mtp-30 f-pixilate-bold">
+                  ¿Cómo me siento?
+                </div>
+                <div className="d-flex flex-row-reverse block-bottom mtp-30">
+                  <div className="mnwp-50 f-pixilate-regular fsp-16">Núnca</div>
+                  <div className="mnwp-70 f-pixilate-regular fsp-16">
+                    A veces
+                  </div>
+                  <div className="mnwp-70  f-pixilate-regular fsp-16">
+                    Generalmente
+                  </div>
+                  <div className="mnwp-70  f-pixilate-regular fsp-16">
+                    Siempre
+                  </div>
+                </div>
+              </div>
+              <div className="psp-15 pep-20 ptp-10 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-set-10 ">
+                <div className="d-flex justify-content-between ">
+                  <div className="d-flex mnwp-400-r">
+                    <div className="flecha-android18 pep-10 mtp-8"></div>
+                    <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
+                      Me gusta investigar sobre el tema del proyecto.
+                    </span>
+                  </div>
+                  <div className="d-flex flex-row-reverse block-bottom ptp-5">
+                    <div className="psp-30">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                    <div className="psp-40">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                    <div className="psp-40">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                    <div className="">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="ptp-2"></div>
+              <div className="psp-15 pep-20 pbp-10 ptp-10 f-Ubuntu-L bgc-white fsp-13 rounded-seb-10 ">
+                <div className="d-flex justify-content-between ">
+                  <div className="d-flex mnwp-400-r">
+                    <div className="flecha-android18 pep-10 mtp-8"></div>
+                    <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
+                      Tengo ganas de encontrar soluciones al desafío planteado.
+                    </span>
+                  </div>
+                  <div className="d-flex flex-row-reverse block-bottom ptp-5">
+                    <div className="psp-30">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                    <div className="psp-40">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                    <div className="psp-40">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                    <div className="">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
