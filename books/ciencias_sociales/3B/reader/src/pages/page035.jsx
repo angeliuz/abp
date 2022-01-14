@@ -62,13 +62,13 @@ function Page035(props) {
                     </div>
                     <div className="w-100 rounded-p-10 bgc-white p-3 m-0">
                       <div className="f-Ubuntu-L fsp-15 text-start ptp-30">Resultados:</div>
-                      <div className="min-hp-70">
-                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-70" />
+                      <div className="min-hp-110">
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-110" />
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-2"><img src="images/page_035/mono.png" alt="" className="hp-160 mtp-15  " /></div>
+                <div className="col-2"><img src="images/page_035/mono.png" alt="" className="hp-160 mtp-15" /></div>
               </div>
 
               <div className="row">
