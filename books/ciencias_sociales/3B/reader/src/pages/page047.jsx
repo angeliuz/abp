@@ -2,11 +2,11 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
 import ModalBook from "../components/ModalBook";
-import "./page_045.css";
+import "./page_047.css";
 
-function Page045(props) {
+function Page047(props) {
 
-  const pagina = "045";
+  const pagina = "047";
   var indexInput = 0;
 
   return (
@@ -16,36 +16,35 @@ function Page045(props) {
                 {/* BEGIN CABECERA VERSIÓN 2 */}
                 <div className="cabecera-v2 bgc-saitama d-flex flex-column">
                   <div className="d-flex contenedor-cabecera-v2 align-items-center ptp-40 psp-30 pep-30">
-                    <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-saitama fsp-24 f-IntroRustG-Base">SESIÓN 12</div>
-                    <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Comenzamos a crear</div>
+                    <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-saitama fsp-24 f-IntroRustG-Base">SESIÓN 13</div>
+                    <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Somos escritores</div>
                   </div>
                 </div> 
                 {/* END CABECERA VERSIÓN 2 */}
 
             <div className="ptp-10 psp-60 mbp-0 contenedor-pagina">
-              <div className="f-Ubuntu-B fsp-20 color-saitama text-start lhp-20">Musicalizando-ando</div>
+              <div className="f-Ubuntu-B fsp-20 color-saitama text-start lhp-20">La diversidad en la literatura</div>
               <div className="d-flex">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/g_i.svg" alt="" /> */}
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">1</div>
                 <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Leo la revista, comprendo y completo.</div>
-                <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_045/img_001.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+                <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_047/img_001.svg" clasesImagen="hp-40 msp-30 text-center mtp-10 " className="p-0 px-0" />
                 {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/img_001.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               </div>
             </div>
+ 
 
-            <div className="ptp-10 psp-100 pep-80 mbp-0 contenedor-pagina">
-              <div className="col-md-12 col-lg-12 mbp-10 position-relative">
-                <div className="position-absolute top-0 start-0 translate-middle"><img src="images/page_045/img_002.png" className="wp-40 msp--100 mtp-40" alt=""/></div>
-                <div className="position-absolute top-100 start-0 translate-middle"><img src="images/page_045/img_003.png" className="hp-100 msp--80  mb-120" alt=""/></div>
-                <div className="mbp-20 mtp-10  mep-20">
-                  <div className=" linea1 min-hp-150 p-2  ">
-                    <div className="f-Ubuntu-L fsp-15 p-1 text-start">
-                      Lo que más me llamó la atención de los ejemplos musicales que se presentan en la revista es…</div>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                  </div>
-                </div>
-              </div>
+
+          <div className="d-flex msp-100 mep-60 position-relative mtp-30">
+            <div className="border border-3 p-3 hp-300 w-100 ">
+                <div><img src="images/page_043/img_004.png" className="position-absolute top-50 start-0 translate-middle wp-40" alt=""></img></div> 
+                <div className="f-Ubuntu-L text-start fsp-15 lh-sm msp-20 mbp-30">¿Qué elementos tiene la fiesta que se muestra en la revista?</div>
+                
+                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-4 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190" />
             </div>
+            
+          </div>
+
 
 
 
@@ -224,4 +223,4 @@ function Page045(props) {
   );
 }
 
-export default Page045;
+export default Page047;
