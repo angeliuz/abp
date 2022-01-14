@@ -16,7 +16,7 @@ function Page035(props) {
                 <div className="cabecera-v2 bgc-pidgey d-flex flex-column">
                   <div className="d-flex contenedor-cabecera-v2 align-items-center ptp-40 psp-30 pep-30">
                     <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-pidgey fsp-24 f-IntroRustG-Base">SESIÓN 9</div>
-                    <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Analizamos resultadoss</div>
+                    <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Analizamos resultados</div>
                   </div>
                 </div> 
                 {/* END CABECERA VERSIÓN 2 */}
@@ -32,7 +32,7 @@ function Page035(props) {
 
             <div className="ptp-10 psp-135 pep-80 pbp-10">
               <div className="col-12">
-                <div className="border border-2 border-color-pidgey rounded-p-10">
+                <div className="border-style-solid border-1 border-color-pidgey rounded-p-10">
                   <div className="p-2 bgc-white rounded-set-10">
                     <div className="f-Ubuntu-L fsp-15 p-1 text-start">Los gráficos de la revista nos entregan información sobre…</div>
                   </div>

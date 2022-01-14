@@ -62,7 +62,7 @@ function Page034(props) {
             </div>
 
             <div className="psp-140 pep-120 contenedor-pagina">
-              <div className="w-100 psp-40 ptp-20 pbp-20 pep-15 text-left bgc-white border border-2 border-color-muted position-relative">
+              <div className="w-100 psp-40 ptp-20 pbp-20 pep-15 text-left bgc-white border-style-solid border-2 border-color-muted position-relative">
               <div className="position-absolute top-50 start-0 translate-middle h-100 ptp-10 pbp-10"><div className="espiral wp-30 h-100"></div></div>
                 <div className="d-flex align-items-center pbp-10">
                   <div className="pep-10"><img src="images/page_034/medialuna.svg" className="hp-15 mbp-5" alt="" /></div>
