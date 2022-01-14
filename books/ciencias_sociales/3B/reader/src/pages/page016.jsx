@@ -19,7 +19,7 @@ function Page016(props) {
           <div className="cabecera-v1 hp-80 bgc-bulma"></div>
           {/* FIN HEADER */}
 
-          <div className="psp-60 pep-60 ptp-30">
+          <div className="psp-60 pep-60 ptp-30 pbp-40">
             <div className="f-Ubuntu-B color-bulma fsp-18 text-left">
               Todos aportamos en el equipo
             </div>
@@ -31,17 +31,24 @@ function Page016(props) {
                 El rol y las tareas que me gustaría asumir en mi equipo es...
               </div>
             </div>
-            <div className="bgc-white sombra psp-30 position-relative">
+            <div className="bgc-white sombra psp-40 pep-20 ptp-20 pbp-20 position-relative">
               <div className="row">
-                <div className="position-absolute top-50 start-0">
+                <div className="">
                   <img
-                    src="/images/page_016/img_005.png"
-                    className="giro-270 anillado-1 mtp--20"
+                    src="/images/page_016/img_002.png"
+                    className="tf-anillo-1"
+                    alt=""
+                  />
+                </div>
+                <div className="">
+                  <img
+                    src="/images/page_016/img_002.png"
+                    className="tf-anillo-2"
                     alt=""
                   />
                 </div>
 
-                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10">
+                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-pidgey">
                   <div className=" py-2 color-pidgey f-pixilate-bold fsp-18">
                     Coordinación
                   </div>
@@ -57,9 +64,8 @@ function Page016(props) {
                       Se asegura de que todos participen.
                     </div>
                   </div>
-                  <div className="linea-pidgey"></div>
                 </div>
-                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10">
+                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-pikachu">
                   <div className=" py-2 color-pikachu f-pixilate-bold fsp-18 ">
                     Supervisión
                   </div>
@@ -76,10 +82,9 @@ function Page016(props) {
                       asignado.
                     </div>
                   </div>
-                  <div className="linea-pikachu"></div>
                 </div>
 
-                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 borde-goten">
+                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-goten">
                   <div className="linea-goten"></div>
                   <div className=" py-2 color-goten f-pixilate-bold fsp-18 ">
                     Relaciones públicas
@@ -97,8 +102,7 @@ function Page016(props) {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 borde-balrog">
-                  <div className="linea-balrog"></div>
+                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-balrog">
                   <div className=" py-2 color-balrog f-pixilate-bold fsp-18 ">
                     Intendencia
                   </div>
@@ -118,7 +122,159 @@ function Page016(props) {
               </div>
             </div>
           </div>
+          <div className="bgc-buzz border-top border-color-dark border-2 pbp-50 position-relative">
+            <img
+              src="images/page_016/img_001.png"
+              className="hp-60 tf-nube"
+              alt=""
+            />
+            <div className="block-bottom text-start mtp-30 f-pixilate-bold">
+              ¿Cómo voy?
+            </div>
+            <div className=" block-bottom p-2 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4 nat-page08">
+              <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
+                <div className="d-flex">
+                  <div className="flecha-bulma pep-10 mtp-3"></div>
+                  <span className="w-24 f-Ubuntu-L text-start">
+                    Hoy aprendí...
+                  </span>
+                </div>
+              </div>
 
+              <div className="pt-0 flex-grow-1 mbp-20">
+                <InputBox
+                  id={"p" + pagina + "_input" + (indexInput += 1)}
+                  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80"
+                />
+              </div>
+
+              <div className="d-flex flex-wrap w-100 align-items-end titulo-linea">
+                <div className="d-flex">
+                  <div className="flecha-bulma pep-10 mtp-3"></div>
+                  <span className="w-24 f-Ubuntu-L">
+                    Y lo puedo utilizar para...
+                  </span>
+                </div>
+              </div>
+              <div className="pt-0 flex-grow-1">
+                <InputBox
+                  id={"p" + pagina + "_input" + (indexInput += 1)}
+                  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80"
+                />
+              </div>
+            </div>
+
+            <div className="block-bottom ">
+              <div className="d-flex ">
+                <div className="block-bottom text-start mtp-30 f-pixilate-bold">
+                  ¿Cómo me siento?
+                </div>
+                <div className="d-flex flex-row-reverse block-bottom mtp-30">
+                  <div className="mnwp-50 f-pixilate-regular fsp-16">Núnca</div>
+                  <div className="mnwp-70 f-pixilate-regular fsp-16">
+                    A veces
+                  </div>
+                  <div className="mnwp-70  f-pixilate-regular fsp-16">
+                    Generalmente
+                  </div>
+                  <div className="mnwp-70  f-pixilate-regular fsp-16">
+                    Siempre
+                  </div>
+                </div>
+              </div>
+              <div className="p-2 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-set-10 ">
+                <div className="d-flex justify-content-between ">
+                  <div className="d-flex mnwp-400-r">
+                    <div className="flecha-bulma pep-10 mtp-8"></div>
+                    <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
+                      El ambiente de trabajo en mi equipo es agradable.
+                    </span>
+                  </div>
+                  <div className="d-flex flex-row-reverse block-bottom ptp-5">
+                    <div className="psp-35">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                    <div className="psp-35">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                    <div className="psp-40">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                    <div className="">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="pt-0 flex-grow-1"></div>
+              </div>
+              <div className="ptp-2"></div>
+              <div className="p-2 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-seb-10 ">
+                <div className="d-flex justify-content-between ">
+                  <div className="d-flex mnwp-400-r">
+                    <div className="flecha-bulma pep-10 mtp-8"></div>
+                    <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
+                    Estoy contento de trabajar en este proyecto
+                    </span>
+                  </div>
+                  <div className="d-flex flex-row-reverse block-bottom ptp-5">
+                    <div className="psp-35">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                    <div className="psp-35">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                    <div className="psp-40">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                    <div className="">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="pt-0 flex-grow-1"></div>
+              </div>
+            </div>
+          </div>
           {/* PIE DE PAGINA */}
           <div
             className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2"

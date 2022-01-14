@@ -30,30 +30,20 @@
   border-width: 7px 0 7px 10px;
   border-color: transparent transparent transparent #45ad4e;
 }
-.giro-270 {
-  transform: rotate(270deg);
+.flecha-bulma {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7px 0 7px 10px;
+  border-color: transparent transparent transparent #f39200;
 }
-.anillado-1 {
-  display: flex;
-  position: absolute;
-  z-index: 1;
-  height: 50px;
-  margin-left: -132px;
+.border-buzz {
+  border-bottom: 2px solid;
+  border-color: var(--buzz);
+  margin-right: -10px;
 }
 .msp--108-rel {
   margin-left: -108px;
-}
-.linea-pidgey {
-  border-right: 2px solid var(--tshinhan);
-  height: 330px;
-  margin-top: -130px;
-  margin-bottom: -180px;
-}
-.linea-pikachu {
-  border-bottom: 2px solid var(--tshinhan);
-  max-width: 580px;
-  margin-left: -305px;
-  margin-top: 20px;
 }
 .vis-responsive {
   visibility: hidden;
@@ -62,24 +52,154 @@
 .hidden-responsive {
   visibility: visible;
 }
+.padding-hor {
+  padding-right: 2.5rem !important;
+  padding-left: 2.5rem !important;
+}
+.espacio-casilla {
+  width: 120px;
+  height: 40px;
+}
+.ajuste-centro {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.centrar-hor {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+.cuadrado {
+  width: 30px;
+  height: 30px;
+}
+.borde-cuadrado {
+  border: 1px solid #55524f;
+}
+.mnwp-400-r {
+  min-width: 400px;
+}
+.mnwp-70 {
+  min-width: 70px;
+}
+.mnwp-65 {
+  min-width: 65px;
+}
+.mnwp-80 {
+  min-width: 80px;
+}
+.mnwp-50 {
+  min-width: 50px;
+}
+.mxwp-250 {
+  max-width: 250px;
+}
+.mtp-8 {
+  margin-top: 8px;
+}
+.ptp-2 {
+  padding-top: 2px;
+}
+.mnw-100 {
+  min-width: 100%;
+}
 
-@media (max-width: 770px) {
+@media (min-width: 768px) {
+  .border-pidgey {
+    border-style: solid;
+    border-top: none !important;
+    border-left: none !important;
+    border-color: var(--tshinhan);
+    border-width: 1px !important;
+  }
+  .border-pikachu {
+    border-style: solid;
+    border-top: none !important;
+    border-right: none !important;
+    border-color: var(--tshinhan);
+    border-width: 1px !important;
+  }
+  .border-goten {
+    border-style: solid;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-color: var(--tshinhan);
+    border-width: 1px !important;
+  }
+  .border-balrog {
+    border-bottom: none !important;
+    border-right: none !important;
+    border-style: solid;
+    border-color: var(--tshinhan);
+    border-width: 1px !important;
+  }
+  .tf-anillo-1 {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    height: 280px;
+    left: -23px;
+    top: 50px;
+  }
+  .tf-anillo-2 {
+    visibility: hidden;
+    display: none;
+  }
+}
+@media (max-width: 767px) {
   .vis-responsive {
     visibility: visible;
   }
-  .hidden-responsive {
+  .hidden-responsive‹ {
     visibility: hidden;
   }
-  .anillado-1 {
-    height: 60px;
-    margin-left: -156px;
+  .tf-anillo-1 {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    height: 250px;
+    left: -20px;
+    bottom: 54%;
   }
-  .linea-pidgey {
-    border-right: 2px solid var(--red);
-    height: 50px;
+  .tf-anillo-2 {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    height: 250px;
+    left: -20px;
+    bottom: 10%;
   }
-  .linea-pikachu {
-    border-bottom: 2px solid var(--red);
-height: 50px;
+  .border-pidgey {
+    border-style: solid;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-color: var(--tshinhan);
+    border-width: 2px !important;
+  }
+  .border-pikachu {
+    border-style: solid;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-color: var(--tshinhan);
+    border-width: 2px !important;
+  }
+  .border-goten {
+    border-style: solid;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-right: none !important;
+    border-left: none !important;
+  }
+  .border-balrog {
+    border-style: solid;
+    border-bottom: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-color: var(--tshinhan);
+    border-width: 2px !important;
+  }
+  .mnwp-400-r {
+    min-width: 50%;
   }
 }
