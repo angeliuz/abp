@@ -65,6 +65,21 @@ padding-top: 10px;
   margin-left: auto;
   margin-right: auto;
 }
+.cb-personaje-p76{
+  position: absolute;
+  right: -9px;
+  bottom: -18px;
+  width: 60%;
+}
+.cb-zindex-76{
+  z-index: 1;
+}
+.cb-triangulo-p76{
+  position: absolute;
+  right: -18px;
+  bottom: 0px;
+  width: 70px;
+}
 @media all and (max-width: 829px) {
   .cb-page76{
      background: url(images/page_076/fondo_000.svg) top left/ cover no-repeat !important;
