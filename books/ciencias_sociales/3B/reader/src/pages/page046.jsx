@@ -151,7 +151,7 @@ function Page046(props) {
                         <div className="w-100 hp-25 bgc-goten"></div>
                     </div>
                     <div className="col-7 position-relative col-sm-2 p-0 m-0">
-                        <img src="images/rotulo_planificacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
+                        <img src="images/rotulo_planificacion.svg" className="oculto" alt="" />
                         <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
                         <div className="w-100 hp-25 bgc-bulma"></div>
                     </div>
@@ -166,7 +166,7 @@ function Page046(props) {
                         <div className="w-100 hp-25 bgc-pidgey"></div>
                     </div>
                     <div className="col-1 position-relative col-sm-2 p-0 m-0">
-                      <img src="images/rotulo_creacion.svg" className="oculto" alt="" />
+                      <img src="images/rotulo_creacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
                         <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
                         <div className="w-100 hp-25 bgc-saitama"></div>
                     </div>
