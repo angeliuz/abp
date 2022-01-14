@@ -76,12 +76,12 @@ function Page008(props) {
                         <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
                         <div className="w-100 hp-25 bgc-goten"></div>
                     </div>
-                    <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+                    <div className="col-7 col-sm-2 p-0 m-0 position-relative">
                         <img src="images/rotulo_planificacion.svg" className="oculto" alt="" />
                         <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
                         <div className="w-100 hp-25 bgc-bulma"></div>
                     </div>
-                    <div className="col-7 col-sm-2 p-0 m-0 position-relative">
+                    <div className="col-1 col-sm-2 p-0 m-0 position-relative">
                         <img src="images/rotulo_investigacion.svg" className="oculto" alt="" />
                         <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
                         <div className="w-100 hp-25 bgc-android18"></div>
