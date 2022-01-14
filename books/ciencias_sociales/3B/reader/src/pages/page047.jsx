@@ -62,8 +62,8 @@ function Page047(props) {
                 <div className="d-flex justify-content-center msp-60 mep-40">
                      <div className="row w-100 d-flex justify-content-center">
 
-                          <div className="col-6 d-flex h-100  ">
-                              <div className="d-flex">
+                          <div className="col-lg-6 col-sm-12 d-flex  bgc-red  ">
+                              <div className="d-flex ">
                                     {/* <img className="hp-15 align-center mt-3 me-2 mb-2" src="images/page_014/img_001.svg" alt="" /> */}
                                     <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">2</div>
                                     <div className="f-Ubuntu-R fsp-16 text-start ptp-18 psp-10">El texto narrativo que presentaré en nuestra feria de la diversidad será:…</div>
@@ -71,8 +71,8 @@ function Page047(props) {
                               </div>  
                           </div>
 
-                          <div className="col-md-6 d-flex justify-content-start  ">
-                                <div className="mtp-30 position-relative "><img className="hp-160" src="images/page_047/img_005.svg" alt="" />
+                          <div className="col-lg-6  col-sm-12 bgc-yellow d-flex justify-content-center mtp-20  ">
+                                <div className=" mtp-20 position-relative "><img className="hp-160" src="images/page_047/img_005.svg" alt="" />
                                     <img className="hp-30 align-center  position-absolute top-0 start-100 translate-middle msp--6  mtp-20   " src="images/page_047/img_003.svg" alt="" />
 
                                     <div className="position-absolute top-0 start-50 translate-middle-x  msp--40 mep-20 mtp-20 msp-20">
@@ -101,7 +101,7 @@ function Page047(props) {
 
   
 
-                <div className="d-flex msp-80 msp-40">
+                <div className="d-flex mtp-20 msp-80 msp-40">
                     {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/g_i.svg" alt="" /> */}
                       <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">3</div>
                       <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">El texto que creará tendrá…</div>
@@ -111,6 +111,21 @@ function Page047(props) {
  
 
 
+
+                <div className="row mtp-20 container-row px-5">
+                        <div className="col-sm-12 col-md-6  ">
+                            <div className="border-style-solid border-2 border-color-saitama rounded-p-10 hp-250 w-100 hp-190  ">
+                              <div className="f-pixilate-bold fsp-18  p-3 text-start color-saitama ">Personajes: </div>
+                            </div>
+                        </div>
+                        <div className="col-sm-12 col-md-6 position relative">
+                        <div className="espirales-creacion-47  position-absolute"><img src="images/page_047/img_006.png" className="w-45 " alt=""/></div>
+                            <div className="border-style-solid border-2 border-color-saitama rounded-p-10 hp-250 w-100 hp-190  ">
+                              <div className="f-pixilate-bold fsp-18  p-3 text-start color-saitama ">Ambiente/ poca: </div>
+                            </div>
+                        </div>
+
+                </div>
 
 
 
