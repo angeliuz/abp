@@ -122,7 +122,7 @@ function Page016(props) {
               </div>
             </div>
           </div>
-          <div className="bgc-buzz border-top border-color-dark border-2 pbp-50 position-relative">
+          <div className="bgc-buzz border-top border-color-dark border-2 pbp-120 psp-60 pep-60 position-relative">
             <img
               src="images/page_016/img_001.png"
               className="hp-60 tf-nube"
@@ -131,7 +131,7 @@ function Page016(props) {
             <div className="block-bottom text-start mtp-30 f-pixilate-bold">
               ¿Cómo voy?
             </div>
-            <div className=" block-bottom p-2 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4 nat-page08">
+            <div className=" block-bottom p-2 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-p-10">
               <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
                 <div className="d-flex">
                   <div className="flecha-bulma pep-10 mtp-3"></div>
