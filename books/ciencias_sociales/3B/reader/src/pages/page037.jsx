@@ -1,6 +1,6 @@
 import React from "react";
 import InputBox from "../components/InputBox";
-import ModalVideo from "../components/ModalVideo";
+// import ModalVideo from "../components/ModalVideo";
 import "./page_037.css";
 
 function Page037(props) {

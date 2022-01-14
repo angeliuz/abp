@@ -1,110 +1,76 @@
-.cabecera {
-  -webkit-clip-path: polygon(100% 100%, 0% 0%, 0% 0%, 8% 0%);
-  clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
-  background-color: var(--android18);
-  height: 130px;
+.cb-page53 {
+  background: url(images/page_039/fondo_001.svg) top center/cover no-repeat;
+  width: 100% !important;
+  height: 100% !important;
+  -webkit-print-color-adjust: exact !important;
 }
-
-
-.container-row {
-  margin-left: 20px;
-  margin-right: 20px;
-
+.linea {
+  border-bottom: 1px dashed #dedede;
+  padding-top: 5px;
+  border-color: var(--dark);
 }
-
-
-
-.espacioblanco {
-  height: 160px;
-  margin-right: 15px;
-  margin-bottom: 20px;
+.centrar-ver {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
 }
-
-.espacioblanco1 {
-  height: 90px;
-  margin-right: 15px;
-  margin-bottom: 20px;
+.centrar-hor {
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
-
-.espacioblanco2 {
-  height: 350px;
-  margin-right: 15px;
-  margin-bottom: 20px;
+.mxwp-230 {
+    max-width: 230px;
 }
-
-.lapiz {
-  top: 340px;
-  left: 725px;
-  transform: translate(-50%, -50%);
-  text-align: center;
-
+.mxwp-280 {
+  max-width: 280px;
 }
-
-.niño {
-  display: flex;
-  top: 750px;
-  left: 680px;
-  transform: translate(-50%, -50%);
-  text-align: center;
-
+.mxwp-520 {
+  max-width: 520px;
 }
-
-.hoja {
-  top: 880px;
-  left: 110px;
-  transform: translate(-50%, -50%);
-  text-align: center;
-
+.mtp--10 {
+  margin-top: -10px;
 }
-.tf-frase {
+.mlp--30 {
+  margin-left: -30px;
+}
+.mrp--30 {
+  margin-right: 0px;
+}
+.tf-notebook {
   display: flex;
   position: absolute;
-  font-size: 16px;
-  text-align: center !important;
-  left: 630px;
-  bottom: 500px;
   z-index: 1;
 }
-@media all and (max-width: 992px) {
-  .hoja {
-    display: none;
-  }
-
-  .lapiz {
-    display: none;
-  }
-
-  .niño {
-    display: none;
-  }
-.tf-frase{
-  display: none;
+.tf-crayones {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  right: 50px
 }
+.tf-bloc {
+  display: flex;
+  position: absolute;
+  left: 40px;
+  top: 400px;
+  z-index: 1;
 }
-
-
-@media all and (max-width: 680px) {
-  .hoja {
-    display: none;
-  }
-
-  .lapiz {
-    display: none;
-  }
-
-  .niño {
-    display: none;
-  }
-
-
+.tf-ampolleta {
+  display: flex;
+  position: absolute;
+  right: 55px;
+  top: 620px;
+  z-index: 1;
 }
-
-@media all and (max-width: 680px) {
-
-  .container-row {
-
-    margin: 0 auto;
-  }
-
-
+.tf-celular {
+  display: flex;
+  position: absolute;
+  right: 40px;
+  top: 890px;
+  z-index: 1;
+}
+.tf-nota {
+  display: flex;
+  position: absolute;
+  left: 40px;
+  top: 950px;
+  z-index: 1;
 }
