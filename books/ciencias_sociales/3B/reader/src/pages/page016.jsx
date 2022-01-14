@@ -54,13 +54,13 @@ function Page016(props) {
                   </div>
                   <div className="text-left psp-10 pep-20">
                     <div className="flecha-pidgey mep-10 mtp-10"></div>
-                    <div className="f-ubuntu-L py-1 mtp--23 msp-20">
+                    <div className="f-Ubuntu-L py-1 mtp--23 msp-20">
                       Ordenamos las siguientes etapas de trabajo.
                     </div>
                   </div>
                   <div className="text-left psp-10 pep-20">
                     <div className="flecha-pidgey mep-10 mtp-10"></div>
-                    <div className="f-ubuntu-L py-1 mtp--23 msp-20">
+                    <div className="f-Ubuntu-L py-1 mtp--23 msp-20">
                       Se asegura de que todos participen.
                     </div>
                   </div>
@@ -71,13 +71,13 @@ function Page016(props) {
                   </div>
                   <div className="text-left psp-10 pep-20">
                     <div className="flecha-pikachu mep-10 mtp-10"></div>
-                    <div className="f-ubuntu-L py-1 mtp--23 msp-20">
+                    <div className="f-Ubuntu-L py-1 mtp--23 msp-20">
                       Gestiona el tiempo de las tareas.
                     </div>
                   </div>
                   <div className="text-left psp-10 pep-20">
                     <div className="flecha-pikachu mep-10 mtp-10"></div>
-                    <div className="f-ubuntu-L py-1 mtp--23 msp-20">
+                    <div className="f-Ubuntu-L py-1 mtp--23 msp-20">
                       Se asegura de que todos cumplan las tareas en el plazo
                       asignado.
                     </div>
@@ -91,13 +91,13 @@ function Page016(props) {
                   </div>
                   <div className="text-left psp-10 pep-20">
                     <div className="flecha-goten mep-10 mtp-10"></div>
-                    <div className="f-ubuntu-L py-1 mtp--23 msp-20">
+                    <div className="f-Ubuntu-L py-1 mtp--23 msp-20">
                       Se comunica con el docente para solicitar ayuda.
                     </div>
                   </div>
                   <div className="text-left psp-10 pep-20">
                     <div className="flecha-goten mep-10 mtp-10"></div>
-                    <div className="f-ubuntu-L py-1 mtp--23 msp-20">
+                    <div className="f-Ubuntu-L py-1 mtp--23 msp-20">
                       Pide ayuda a otros equipos.
                     </div>
                   </div>
@@ -108,13 +108,13 @@ function Page016(props) {
                   </div>
                   <div className="text-left psp-10 pep-20">
                     <div className="flecha-balrog mep-10 mtp-10"></div>
-                    <div className="f-ubuntu-L py-1 mtp--23 msp-20">
+                    <div className="f-Ubuntu-L py-1 mtp--23 msp-20">
                       Gestiona los materiales que se necesitan.
                     </div>
                   </div>
                   <div className="text-left psp-10 pep-20">
                     <div className="flecha-balrog mep-10 mtp-10"></div>
-                    <div className="f-ubuntu-L py-1 mtp--23 msp-20">
+                    <div className="f-Ubuntu-L py-1 mtp--23 msp-20">
                       Comprueba que se mantiene un entorno limpio y ordenado.
                     </div>
                   </div>
@@ -131,7 +131,7 @@ function Page016(props) {
             <div className="block-bottom text-start mtp-30 f-pixilate-bold">
               ¿Cómo voy?
             </div>
-            <div className=" block-bottom p-2 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-p-10">
+            <div className=" block-bottom  pb-3 psp-15 ptp-10 pep-20 f-Ubuntu-L bgc-white fsp-13 rounded-p-10">
               <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
                 <div className="d-flex">
                   <div className="flecha-bulma pep-10 mtp-3"></div>
@@ -164,8 +164,8 @@ function Page016(props) {
               </div>
             </div>
 
-            <div className="block-bottom ">
-              <div className="d-flex ">
+            <div className="block-bottom">
+              <div className="d-flex pep-10">
                 <div className="block-bottom text-start mtp-30 f-pixilate-bold">
                   ¿Cómo me siento?
                 </div>
@@ -182,7 +182,7 @@ function Page016(props) {
                   </div>
                 </div>
               </div>
-              <div className="p-2 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-set-10 ">
+              <div className="psp-15 pep-20 ptp-10 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-set-10 ">
                 <div className="d-flex justify-content-between ">
                   <div className="d-flex mnwp-400-r">
                     <div className="flecha-bulma pep-10 mtp-8"></div>
@@ -191,7 +191,7 @@ function Page016(props) {
                     </span>
                   </div>
                   <div className="d-flex flex-row-reverse block-bottom ptp-5">
-                    <div className="psp-35">
+                    <div className="psp-30">
                       <div className="cuadrado borde-cuadrado">
                         <InputBox
                           id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -199,7 +199,7 @@ function Page016(props) {
                         />
                       </div>
                     </div>
-                    <div className="psp-35">
+                    <div className="psp-40">
                       <div className="cuadrado borde-cuadrado">
                         <InputBox
                           id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -225,11 +225,10 @@ function Page016(props) {
                     </div>
                   </div>
                 </div>
-                <div className="pt-0 flex-grow-1"></div>
               </div>
               <div className="ptp-2"></div>
-              <div className="p-2 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-seb-10 ">
-                <div className="d-flex justify-content-between ">
+              <div className="psp-15 pep-20 pbp-10 ptp-10 f-Ubuntu-L bgc-white fsp-13 rounded-seb-10 ">
+              <div className="d-flex justify-content-between ">
                   <div className="d-flex mnwp-400-r">
                     <div className="flecha-bulma pep-10 mtp-8"></div>
                     <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
@@ -237,7 +236,7 @@ function Page016(props) {
                     </span>
                   </div>
                   <div className="d-flex flex-row-reverse block-bottom ptp-5">
-                    <div className="psp-35">
+                    <div className="psp-30">
                       <div className="cuadrado borde-cuadrado">
                         <InputBox
                           id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -245,7 +244,7 @@ function Page016(props) {
                         />
                       </div>
                     </div>
-                    <div className="psp-35">
+                    <div className="psp-40">
                       <div className="cuadrado borde-cuadrado">
                         <InputBox
                           id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -271,7 +270,6 @@ function Page016(props) {
                     </div>
                   </div>
                 </div>
-                <div className="pt-0 flex-grow-1"></div>
               </div>
             </div>
           </div>

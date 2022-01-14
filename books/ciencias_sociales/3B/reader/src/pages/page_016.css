@@ -76,7 +76,7 @@
   border: 1px solid #55524f;
 }
 .mnwp-400-r {
-  min-width: 350px;
+  min-width: 400px;
 }
 .mnwp-70 {
   min-width: 70px;
@@ -96,6 +96,11 @@
   right: 90px;
   top: -30px;
   z-index: 1;
+}
+@media (max-width: 832px) and (min-width: 768px) {
+.mnwp-400-r {
+  min-width: 330px;
+}
 }
 
 @media (min-width: 768px) {

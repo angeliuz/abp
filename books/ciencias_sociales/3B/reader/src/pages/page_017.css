@@ -1,287 +1,30 @@
-.cuadrado-naranja{
-    -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 8% 100%);
-    clip-path: polygon(0 0%, 100% 0, 96% 100%, 8% 100%);
-    background-color: #F29205;
-    height: 87px;
-  }
-  
-.cabecera{
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
-    clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
-    background-color: var(--bulma);
-    height: 80px;
-  }
-
-
-
-
-.tf-outlinebuzz{
-    outline: solid 2px #fddbb6;
-    outline-offset: -3px;
+.cb-page17 {
+  background: url(images/page_017/fondo_001.svg) top center/ cover no-repeat !important;
+   -webkit-print-color-adjust: exact !important;
 }
-
-.tf-outlinesargento{
-  outline: solid 2px #ea5153;
-  outline-offset: -3px;
+.cb-dosier {
+  width: 50%;
 }
-
-.alinea {
-  margin: 0 auto;
-}
-
-.mtp--120{
-  margin-top: -120px;
-}
-
-.mtp--95{
-  margin-top: -95px;
-}
-
-.mtp--70{
-  margin-top: -70px;
-}
-
-.mtp--125{
-  margin-top: -125px;
-}
-
-.mtp--20{
-  margin-top: -20px;
-}
-
-.mtp--15{
-  margin-top: -15px;
-}
-
-.mtp--10{
-  margin-top: -10px;
-}
-
-.mtp-5{
-  margin-top: 5px;
-}
-
-.ptp--15{
-  padding-top: -15px;
-}
-
-.msp--40{
-  margin-left: -40px;
-}
-
-.msp--60{
-  margin-left: -60px;
-}
-
-.tf-caja{
-  min-height: 600px;
-}
-
-.tf-outlinesoldados{
-  outline: solid 2px #ee5b5e;
-  outline-offset: -3px;
-}
-
-.tf-outlinetiburon{
-  outline: solid 2px #f59331;
-  outline-offset: -3px;
-}
-
-.tf-outlinebarbie{
-  outline: solid 2px #acce8c;
-  outline-offset: -3px;
-}
-
-.tf-outlineken{
-  outline: solid 2px #00accb;
-  outline-offset: -3px;
-}
-
-.tf-letrero {
-  position: absolute;
-  z-index: 3;
-  right: 80px;
-  bottom: -310px;
+.border-caja {
+  border: 2px dashed;
+  border-color: var(--pidgey)
 
 }
-
-.tf-personaje-content {
-  position: relative;
-  z-index: 3;
-  right: 0px;
-  bottom: -200px;
+.mep--50 {
+  margin-left: -50px;
 }
-
-.tf-personaje{
-  position: absolute;
-    right: 0px;
-    bottom: -200px;
+.w-100 {
+  width: 100%;
 }
-
-.tf-mapa-content {
-  z-index: 3;
-  right: -19px;
-  top: -45px;
+.centrar {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important
 }
-
-.tf-mapa{
-  position: absolute;
-    right: -35px;
-    top: -10px;
+.mxwp-300 {
+  max-width: 300px;
 }
-
-.tf-margen--95{
-  margin-top: -95px;
-}
-
-.tf-hoja-content {
-  z-index: 3;
-  right: 330px;
-  top: 34px;
-}
-
-.tf-contraportada{
-  justify-content: start;
-  align-items: center;
-
-
-}
-
-
-
-@media (max-width: 820px){
-  .tf-mapa-content{
-    display: none;
-  }
-
-  .tf-hoja-content{
-    display: none;
-  }
-
-}
-
-@media (max-width: 818px){
-  .tf-margen--95{
-    margin-top: 0px;
-  }
-
-}
-
-@media (max-width: 790px){
-
-.tf-contraportada{
-  justify-content: center;
-  align-items: center;
-}
-
-.col-parrafo {
-    justify-content: center !important;
-    width: 100%;
-    text-align: center;
-}
-
-
-.margen-ajuste-dos{
-  margin-top: -15px;
-  margin-bottom: -6px;
-}
-
-.margen-centro{
-  align-items: center;
-  justify-items: center;
-  height: 45px;
-  margin-left: 15px;
-}
-}
-
-
-
-@media (max-width: 672px){
-  .tf-personaje{
-    display: none;
-  }
-
-  .tf-mapa-content{
-    display: none;
-  }
-
-  .tf-hoja-content{
-    display: none;
-  }
-  
-  .margen-centro{
-    align-items: center;
-    justify-items: center;
-    height: 40px;
-    margin-left: 33px;
-  }
-
-}
-
-
-@media (max-width: 608px) {
-  .cabecera {
-    height: 80px;
-  }
-  .centrar {
-    justify-content: center;
-  }
-  .cambio {
-    padding-top: 3px;
-  }
- 
-  .tf-personaje{
-    display:none;
-  }
-  .tf-mapa-content{
-    display: none;
-  }
-
-  .tf-hoja-content{
-    display: none;
-  }
-
-}
-
-@media (max-width: 591px) {
-  .cabecera {
-    height: 80px;
-  }
-  .espacio-titulo{
-    margin-bottom: 10px;
-  }
-
-  .margen-centro{
-    align-items: center;
-    justify-items: center;
-    height: 35px;
-    margin-left: 40px;
-  }
-
-}
-
-@media (max-width: 575px) {
-  .rotar {
-    transform: rotate(90deg);
-    margin: 10px;
-    width: 20px;
-  }
-  .cabecera {
-    height: 80px;
-  }
-
-}
-
-@media (max-width: 450px) {
-  .cabecera {
-    height: 80px;
-  }
-
-  .margen-centro{
-    align-items: center;
-    justify-items: center;
-    height: 35px;
-    margin-left: 30px;
-  }
-
+.msp-340 {
+  margin-left: 340px;
 }
