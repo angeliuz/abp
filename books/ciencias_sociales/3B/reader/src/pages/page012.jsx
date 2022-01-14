@@ -23,20 +23,20 @@ function Page012(props) {
                   />
                 </div>
               </div>
-              <div className="cb-contenedor-1">
-                <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
-                  <div className="d-flex bgc-piccolo psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline">
-                    <div className="d-flex">
+              <div class="cb-contenedor-1">
+                <div class="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
+                  <div class="d-flex bgc-piccolo psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline">
+                    <div class="d-flex">
                       {" "}
                       <img
                         src="images/page_012/img_004.svg"
-                        className="mbp-20 mep-5"
+                        class="mbp-20 mep-5"
                         alt=""
                       />
                     </div>
                     <div>
                       {" "}
-                      <span className="fsp-16 f-IntroRustG-Base">
+                      <span class="fsp-16 f-IntroRustG-Base">
                         IDENTIFICAR
                       </span>{" "}
                       lo
@@ -48,20 +48,20 @@ function Page012(props) {
                   </div>
                 </div>
               </div>
-              <div className="cb-contenedor-2">
-                <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
-                  <div className="d-flex bgc-piccolo psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline">
-                    <div className="d-flex">
+              <div class="cb-contenedor-2">
+                <div class="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
+                  <div class="d-flex bgc-piccolo psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline">
+                    <div class="d-flex">
                       {" "}
                       <img
                         src="images/page_012/img_004.svg"
-                        className="mbp-45 mep-5"
+                        class="mbp-45 mep-5"
                         alt=""
                       />
                     </div>
                     <div>
                       {" "}
-                      <span className="fsp-16 f-IntroRustG-Base">
+                      <span class="fsp-16 f-IntroRustG-Base">
                         RECONOCER{" "}
                       </span>{" "}
                       las
@@ -73,20 +73,20 @@ function Page012(props) {
                   </div>
                 </div>
               </div>
-              <div className="cb-contenedor-3">
-                <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
-                  <div className="d-flex bgc-piccolo psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline">
-                    <div className="d-flex">
+              <div class="cb-contenedor-3">
+                <div class="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
+                  <div class="d-flex bgc-piccolo psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline">
+                    <div class="d-flex">
                       {" "}
                       <img
                         src="images/page_012/img_004.svg"
-                        className="mbp-45 mep-5"
+                        class="mbp-45 mep-5"
                         alt=""
                       />
                     </div>
                     <div>
                       {" "}
-                      <span className="fsp-16 f-IntroRustG-Base">
+                      <span class="fsp-16 f-IntroRustG-Base">
                         PLANIFICAR
                       </span>{" "}
                       el

@@ -69,7 +69,7 @@
   .basura {
     width: 110%;
     visibility: hidden;
-    display: flex;
+    display: flex;s
     position: absolute;
   }
   .anillo-dos {
