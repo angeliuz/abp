@@ -41,9 +41,9 @@ function Page048(props) {
                     <div className="row  w-100 position-relative ">
                                       
                           <div className="cb-ep-paper-48 ">
-                              <div className="cb-ep-paper-content-48 f-Ubuntu-L text-start hp-400 ">
+                              <div className="cb-ep-paper-content-48 f-Ubuntu-L text-start hp-700 ">
                                   <div className="   mtp--25 ">
-                                     <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-4 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-530" />
+                                     <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-4 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-650" />
                                    
                                   </div>
                               </div>
