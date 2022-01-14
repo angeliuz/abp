@@ -278,6 +278,12 @@
 .wp-215 {
   width: 215px;
 }
+.wp-230 {
+  width: 230px;
+}
+.wp-360 {
+  width: 360px;
+}
 
 /* HEIGHT */
 .h-5 {
@@ -4338,6 +4344,20 @@
 }
 
 /* MAX WIDTH */
+.max-wp-360 {
+  max-width: 360px !important;
+}
+.max-wp-370 {
+  max-width: 370px !important;
+}
+.max-wp-380 {
+  max-width: 380px !important;
+}
+.max-wp-400 {
+  max-width: 400px !important;
+}
+
+
 
 
 /* Z-INDEX */

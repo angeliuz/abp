@@ -1,1 +1,8 @@
-<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 23.7"><defs><style>.cls-1{fill:#009dc5;}</style></defs><polygon class="cls-1" points="0 0 6.9 11.9 0 23.7 29 11.9 0 0"/></svg>
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" width="20" height="16">
+	<title>flecha-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #aec90b } 
+	</style>
+	<path id="Layer" class="shp0" d="M0 0L4.53 7.89L0 15.79L19.05 7.89L0 0Z" />
+</svg>
