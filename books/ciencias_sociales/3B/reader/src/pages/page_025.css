@@ -55,14 +55,14 @@
         visibility: visible;
       }
       .cajaafiche-2{
-        visibility: hidden;
+        display:none;
       }
       @media (max-width: 768px) {
         .cajaafiche-1{
-          visibility: hidden;
+          display:none;
         }
         .cajaafiche-2{
-          visibility: visible;
+          display:block;
         }
 
       }

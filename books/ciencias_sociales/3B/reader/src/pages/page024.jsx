@@ -35,6 +35,33 @@ function Page024(props) {
                   </div>
                 </div>
               </div>
+              <div className="position-absolute top-50 start-50 translate-middle mtp-250 cajaafiche-1 rounded-p-10 border-style-solid border-2 border-color-dark bgc-azuka text-start p-2" style={{width: "270px", marginLeft: "230px"}}>
+                    <div className="f-Ubuntu-R fsp-16 ptp-10 psp-10 pbp-10">Caracteristícas de un afiche:</div>
+                    <div className="f-Ubuntu-L fsp-15 ">
+                        <ul>
+                            <li className="color-android18">
+                                <span className="color-dark">Transmite un mensaje con claridad.</span>
+                            </li>
+                            <li className="color-android18">
+                                <span className="color-dark">Emplea una frase breve con lenguaje sencillo.</span>
+                            </li>
+                            <li className="color-android18">
+                                <span className="color-dark">Se puede leer con rapidez.</span>
+                            </li>
+                            <li className="color-android18">
+                                <span className="color-dark">Presenta una imagen que enfatiza el mensaje.</span>
+                            </li>
+                            <li className="color-android18">
+                                <span className="color-dark">Es visualmente atractivo.</span>
+                            </li>
+                            <li className="color-android18">
+                            <span className="color-dark">Sus elementos conforman un conjunto.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
             </div>
 
             <div className="col-md-8 position-relative">
