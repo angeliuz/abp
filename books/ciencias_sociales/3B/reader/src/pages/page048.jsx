@@ -30,19 +30,20 @@ function Page048(props) {
             <div className="d-flex">
                 {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/img_002.svg" alt=""  /> */}
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">4</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Escribo mi texto literario sobre la diversidad que presentar  en la feria.</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Escribo mi texto literario sobre la diversidad que presentaré en la feria.</div>
                  {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> */}
                 {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_043/img_001.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
 
-                <div className="d-flex   msp-60 mep-40 ">
+                <div className="d-flex  mtp-40 msp-90 mep-60 position-relative">
   
-                    <div className="row  w-100 position-relative ">
+                    <div className="row  w-100    ">
+                    
                                       
                           <div className="cb-ep-paper-48 ">
                               <div className="cb-ep-paper-content-48 f-Ubuntu-L text-start hp-700 ">
-                                  <div className="   mtp--25 ">
+                                  <div className="   mtp-5 ">
                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-4 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-650" />
                                    
                                   </div>
@@ -50,11 +51,40 @@ function Page048(props) {
                           </div>
                     </div>
           
-       
                 </div>
        
-     
 
+            <div className="d-flex w-90 position-relative mtp-20">
+
+                    <div className="position-absolute bottom-0 start-0 mtp--60 cuadroIndex-5 "> <img className="  hp-150 mtp--50 msp-30" src="images/page_048/img_004.png" alt="" /> </div>
+                    <div className="position-absolute bottom-0 start-50 translate-middle-x mtp--60 cuadroIndex-5 "> <img className="  hp-215 msp-300 " src="images/page_048/img_003.png" alt="" />
+
+
+                            <div className=" rota-info">
+
+                                 <div className="position-absolute top-50 start-50 translate-middle w-95 psp-115 pep-200 mep-10  msp-195 mtp--100">
+                                     <div className="d-flex align-items-center pbp-10">
+                                         <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 w-100 text-start">Muestro mi texto literario a mis compañeros y decidimos cómo difundirlos en la feria de la diversidad:.</div>
+                                     </div>
+                                     <div className="d-flex align-items-center  pbp-10">
+                                         <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white"></div>
+                                         <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 w-100 text-start">Haremos una copia en formato grande para que todos lo puedan ver..</div>
+                                     </div>
+                                     <div className="d-flex align-items-center pbp-10">
+                                         <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white"></div>
+                                         <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 w-100 text-start ">Haremos varias copias individuales para que podamos compartir con los asistentes a la feria..</div>
+                                     </div> 
+                                 </div>
+                              
+                            </div>
+
+                     </div>
+
+            </div>
+
+
+
+ 
 
 
        

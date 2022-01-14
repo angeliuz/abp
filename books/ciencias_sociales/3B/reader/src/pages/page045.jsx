@@ -57,7 +57,7 @@ function Page045(props) {
                   <div className="row d-flex justify-content-center bgc-bobafett sombra-contenedor-45 ">
 
                     <div className="col-lg-5 col-sm-12 m-0 p-0 hp-180 caja-sobre">
-                    <div className="position-absolute top-100 start-0 translate-middle"><img src="images/page_045/img_008.png" className="hp-80 mtp-100 " alt=""/></div>
+                      <div className="position-absolute top-100 start-0 translate-middle"><img src="images/page_045/img_008.png" className="hp-80 mtp-100 " alt=""/></div>
                     
                       <div className="border-style-solid border-1 border-color-saitama mtp-10   bgc-white  hp-300 ">
                         <div className="d-flex   ">
