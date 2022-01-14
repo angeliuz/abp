@@ -64,7 +64,7 @@ function Page023(props) {
                 alt=""
               />
             </div>
-            <div className="borde-23 p-3 hp-300 w-100 ">
+            <div className="borde-23 p-3 hp-250 w-100 ">
               <div>
                 <img
                   src="images/page_023/img_004.png"

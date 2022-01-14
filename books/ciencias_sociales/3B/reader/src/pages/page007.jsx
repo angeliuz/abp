@@ -32,7 +32,6 @@ function Page007(props) {
             </div>
 
             <div className="cb-contenedor-mail text-start position-relative">
-            <div className="position-absolute top-100 start-0 translate-middle wp-100 mtp--30 visible-695"><img src="images/page_007/img_003.png" className="wp-45" /></div>
               <div className="cb-datos-mail pep-15 psp-10 ptp-10 pbp-10">
               <div className="d-flex mbp-5"> 
                   <div className="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">De:</div>
@@ -49,7 +48,7 @@ function Page007(props) {
               </div>
               <div className="cb-texto-mail">
                   <div className="cb-carta-content f-Ubuntu-L">
-                      
+                  <img src="images/page_007/img_003.png" className="cb-computador-p07" />
                       <p>Estimados estudiantes:</p>
                       <p>Espero que todos se encuentren muy bien. Les escribo para solicitar
                           su ayuda y colaboración para un importante desafío. Como saben,
