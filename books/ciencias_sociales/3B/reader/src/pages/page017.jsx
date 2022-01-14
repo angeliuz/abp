@@ -129,6 +129,21 @@ function Page017(props) {
               </div>
             </div>
           </div>
+          {/* PIE DE PAGINA */}
+          <div
+            className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2"
+            style={{ bottom: 70, right: 0 }}
+          >
+            <div
+              className="f-Ubuntu-M fsp-10 position-absolute mbp-60"
+              style={{ transform: `rotate(270deg)`, color: "dark" }}
+            >
+              ABP &copy; SM
+            </div>
+            <div className="bgc-jawa wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">
+              {props.numeroPagina(pagina)}
+            </div>
+          </div>
         </div>
       </div>
     </div>
