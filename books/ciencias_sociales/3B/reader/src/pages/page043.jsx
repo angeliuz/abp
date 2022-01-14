@@ -40,14 +40,18 @@ function Page043(props) {
 
 
           <div className="d-flex msp-100 mep-60 position-relative mtp-30">
-            <div className="border border-3 p-3 hp-400 w-100 ">
-            <div><img src="images/page_043/img_004.png" className="position-absolute top-50 start-0 translate-middle wp-40" alt=""></img></div> 
-            <div className="f-Ubuntu-L text-start fsp-15 lh-sm msp-20 mbp-30">¿Qué elementos tiene la fiesta que se muestra en la revista?</div>
-            
-            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-4 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190" />
-            </div>
+                <div className="border border-3 p-3 hp-300 w-100 ">
+                  <div><img src="images/page_043/img_004.png" className="position-absolute top-50 start-0 translate-middle wp-40" alt=""></img></div> 
+                  <div className="f-Ubuntu-L text-start fsp-15 lh-sm msp-20 mbp-30">¿Qué elementos tiene la fiesta que se muestra en la revista?</div>
+                  
+                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-4 fsp-12 msp-15 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190" />
+                </div>
             
           </div>
+
+
+
+          
 
           <div className="ptp-30 psp-60 pep-60">
               <div className="f-Ubuntu-M fsp-20 color-saitama text-start">Tomamos decisiones</div>
@@ -71,33 +75,33 @@ function Page043(props) {
             </div>
             <div className="col-lg-8 col-md-12 m-0 p-0 bgc-white d-flex justify-content-end  ">
               <div className="w-100 d-flex justify-content-end mbp-70">
-                    <div className="mt-2 border border-2 border-color-goku bgc-jugador001 p-2 hp-400 wp-450 position-relative">
+                    <div className="mt-2 border-style-solid border-2 border-color-goku bgc-jugador001 p-2 hp-340 wp-450 position-relative">
                     <div className="d-flex align-items-center p-1 w-100  "> 
-                          <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white"><img src="images/page_043/img_003.svg" className="hp-20  " alt=""></img></div>
+                          <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white"><img src="images/page_043/img_003.svg" className="hp-20  " alt=""></img></div>
                           <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm  psp-10 lh-sm">Música diversa.</div>
                       </div>
                     <div className="d-flex align-items-center p-1 w-100  "> 
-                          <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white"><img src="images/page_043/img_003.svg" className="hp-20  " alt=""></img></div>
+                          <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white"><img src="images/page_043/img_003.svg" className="hp-20  " alt=""></img></div>
                           <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm  psp-10 lh-sm">Nuestros textos literarios sobre diversidad.</div>
                       </div>
                     <div className="d-flex align-items-center p-1 w-100  "> 
-                          <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white"><img src="images/page_043/img_003.svg" className="hp-20  " alt=""></img></div>
+                          <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white"><img src="images/page_043/img_003.svg" className="hp-20  " alt=""></img></div>
                           <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm  psp-10 lh-sm">Obras artísticas que crearemos sobre diversidad.</div>
                       </div>
                     <div className="d-flex align-items-center p-1 w-100  "> 
-                          <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white"><img src="images/page_043/img_003.svg" className="hp-20  " alt=""></img></div>
+                          <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white"><img src="images/page_043/img_003.svg" className="hp-20  " alt=""></img></div>
                           <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm  psp-10 lh-sm">Muestra de diversidad gastronómica.</div>
                       </div>
                     <div className="d-flex align-items-center p-1 w-100  "> 
-                          <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white"></div>
+                          <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white"></div>
                           <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm  psp-10 lh-sm">Muestra de vestimenta típica.</div>
                       </div>
                     <div className="d-flex align-items-center p-1 w-100  "> 
-                          <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white"></div>
+                          <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white"></div>
                           <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm  psp-10 lh-sm">Representación de diversas tradiciones.</div>
                       </div>
                     <div className="d-flex align-items-start  p-1 w-100 mbp-10 "> 
-                          <div className="d-inline wp-35 hp-30 border border-1 border-color-dark bgc-white"></div>
+                          <div className="d-inline wp-35 hp-30 border-style-solid border-1 border-color-dark bgc-white"></div>
                           <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm mt-1 psp-10 lh-sm "> Otra. 
                           </div>
                           <div className="w-100 m-0 p-0 ">

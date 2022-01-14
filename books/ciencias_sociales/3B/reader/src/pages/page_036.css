@@ -1,23 +1,22 @@
-.bgc-contenedor-36{
-  background-color:#f3e2cd;
+.rota {
+  transform: rotate(-5deg);
 }
 
-.padding-box-36-1{
-  padding-right: 30%;
-  padding-left: 0px;
-}
-.padding-box-36-2{
-  padding-right: 20px;
-  padding-left: 30%;
+.contenedor {
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  width: calc(100% - 30px);
 }
 
-@media (max-width: 768px) {
-  .padding-box-36-1{
-    padding-right: 0;
-    padding-left: 0;
-  }
-  .padding-box-36-2{
-    padding-right: 0;
-    padding-left: 0;
-  }
+.flecha {
+  padding-bottom: -2px;
+}
+
+.linea-separa {
+  border-top: 2px var(--pidgey) solid;
+}
+
+.linea-separa-int {
+  border-top: 1px var(--pantro) solid;
 }

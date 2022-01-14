@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
+import ModalBook from "../components/ModalBook";
 import "./page_045.css";
 
 function Page045(props) {
@@ -27,7 +28,8 @@ function Page045(props) {
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/g_i.svg" alt="" /> */}
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">1</div>
                 <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Leo la revista, comprendo y completo.</div>
-                <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/img_001.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
+                <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_045/img_001.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+                {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/img_001.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               </div>
             </div>
 
@@ -54,10 +56,10 @@ function Page045(props) {
                     
                   <div className="row d-flex justify-content-center bgc-bobafett sombra-contenedor-45 ">
 
-                    <div className="col-lg-5 col-sm-12 -m-0 p-0 hp-180 caja-sobre">
+                    <div className="col-lg-5 col-sm-12 m-0 p-0 hp-180 caja-sobre">
                     <div className="position-absolute top-100 start-0 translate-middle"><img src="images/page_045/img_008.png" className="hp-80 mtp-100 " alt=""/></div>
                     
-                      <div className="border border-1 mtp-10 border-color-saitama  bgc-white  hp-300 ">
+                      <div className="border-style-solid border-1 border-color-saitama mtp-10   bgc-white  hp-300 ">
                         <div className="d-flex   ">
                             <img className="hp-20 align-center mt-3 me-2 mb-2 msp--40" src="images/page_045/img_006.svg" alt="" />
                             <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">2</div>
@@ -69,7 +71,7 @@ function Page045(props) {
                     <div className="col-lg-7 col-sm-12  m-0 bgc-bobafett  ptp-20 h-100 position-relative">
 
                         <div className="position-absolute bottom-0 start-0 "><img src="images/page_045/img_009.png" className="hp-140 mtp--130 msp--210 img-monito-45" alt=""/></div>
-                      <div className="caja-debajo-45 mtp-10 position-relative">
+                      <div className="caja-debajo-45 mtp-10 position-relative border-style-solid border-1 border-color-saitama ">
 
                           <div className=" bgc-white w-220  hp-385">
                             <div className=" msp-100 pep-20 ptp-20 psp-0   text-start">

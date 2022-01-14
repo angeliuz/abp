@@ -4792,11 +4792,12 @@
 .min-hp-400 {
   min-height: 400px !important;
 }
-
 .min-hp-500 {
   min-height: 500px !important;
 }
-
+.min-hp-530 {
+  min-height: 530px !important;
+}
 .min-h-100 {
   min-height: 100% !important;
 }
