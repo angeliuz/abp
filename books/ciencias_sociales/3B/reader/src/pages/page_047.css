@@ -21,14 +21,14 @@
  
  
 }
-@media (max-width: 760px) {
+@media (max-width: 767px) {
  
   .espirales-creacion-47{
     transform: rotate(90deg);
     height: auto;
     width: 160px;
     margin-top: -52px;
-    margin-left: 31%;
+    margin-left: 29%;
     visibility: visible;
     
     }
