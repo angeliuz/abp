@@ -71,7 +71,7 @@ function Page043(props) {
             </div>
             <div className="col-lg-8 col-md-12 m-0 p-0 bgc-white d-flex justify-content-end  ">
               <div className="w-100 d-flex justify-content-end mbp-70">
-                    <div className="border border-3 border-color-dark  p-2 hp-400 wp-450 bgc-urien position-relative">
+                    <div className="mt-2 border border-2 border-color-goku bgc-jugador001 p-2 hp-400 wp-450 position-relative">
                     <div className="d-flex align-items-center p-1 w-100  "> 
                           <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white"><img src="images/page_043/img_003.svg" className="hp-20  " alt=""></img></div>
                           <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm  psp-10 lh-sm">Música diversa.</div>

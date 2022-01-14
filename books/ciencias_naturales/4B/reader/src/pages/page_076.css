@@ -1,157 +1,78 @@
-.cb-cabecera{
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
-    clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
-    background-color: var(--pikachu);
-    height: 80px;
-  }
-
-.cb-block {
-    border: 1px solid #ffffff;
-    border-radius: 10px;
-    margin-right: auto;
-    margin-left: auto;
+.cb-page76 {
+  background: url(images/page_076/fondo_001.svg) top left/ cover no-repeat !important;
+   -webkit-print-color-adjust: exact !important;
 }
-.cb-contenido-cajas {
-    position: relative;
+.cb-contenedor-ejercicio-1-p76{
+  max-width: 700px;
+  width: calc(100% - 30px);
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 239, 170);
+  border-radius: 5px 5px 5px 5px;
+}
+.cb-border-b-p76{
+  border-radius: 5px 5px 5px 5px;
+}
+.cb-border-a-p76{
+  border-radius: 5px 5px 0px 0px;
+}
+.cb-lado-a-p76 {
+width: calc(100% / 4);
+background-color: white;
+margin-right: 5px;
+border-radius: 10px 10px 10px 10px;
+text-align: center;
+align-items: center;
+justify-content: center;
+padding-top: 10px;
+}
+
+.cb-block-p76 {
+    max-width: 700px;
     margin-right: auto;
     margin-left: auto;
-    max-width: 550px;
     width: calc(100% - 30px);
-    flex-wrap: nowrap;
-  }
-  .cb-outline{
-    outline: solid 4px #f0e0c9;
-    outline-offset: -5px;
 }
 
-.line-dotted {
-    border: 1px dashed #dedede;
-}
-
-
-.rounded-caja {
-    border-radius: 20px 20px 0px 0px;
-}
-
-.linea {
-    border-bottom: 1px dashed #dedede;
-    padding-top: 5px;
-    border-color:var(--dark);
-}
-
-  .cb-iphone{
-    position: absolute;
-    left: -55px;
-    bottom: 80px;
-  }
-  .cb-interior-caja{
-    background-color: white;
-    margin: -8px -8px 20px -8px;
-    border-radius: 8px 8px 0px 0px;
-    padding: 5px 10px;
-  }
-
-.cb-alto{
-  height: 340px;
-}
-.cb-caja-principal{
+.cb-izq-p76{
+  top:-17px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 630px;
-  background-color: #f0e0c9;
-  padding-top: 40px;
-  padding-bottom: 30px;
-  border-radius: 18px 18px 18px 18px;
+  align-items: center;
+  justify-content: center;
 }
-.cb-cuatro{
-  max-width: 400px;
+.cb-box-p76{
+  background-color: var(--white);
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  display: flex;
+  border: 1px solid #7c7c7c;
 }
-.cb-personaje{
-  position: absolute;
-    right: -55px;
-    top: 323px;
-}
-.cb-simbolo{
-  position: absolute;
-    left: -32px;
-    top: 25px;
-}
-.cb-mapa{
-  position: absolute;
-    right: -55px;
-    top: -95px;
-}
-.cb-nota{
-  position: absolute;
-    left: -75px;
-    bottom: -25px;
-}
-.cb-flechaa{
-  position: absolute;
-    right: -20px;
-    bottom: -25px;
-}
-.cb-flechac{
-  position: absolute;
-    left: -20px;
-    bottom: -25px;
-}
-.cb-flechad{
-  position: absolute;
-    left: -10px;
-    bottom: -15px;
-}
-.cb-flechab{
-  position: absolute;
-    left: -17px;
-    top: -22px;
-}
-.cb-titulonumero{
-  max-width: 660px;
+
+.cb-ejercicio-final-p76{
+  max-width: 700px;
+  width: calc(100% - 30px);
   margin-left: auto;
   margin-right: auto;
 }
-
-
-
-
-@media all and (max-width: 800px) {
-
-    .titulo-linea .linea{
-        width: 100%;
-    }
-
-    .cb-personaje{
-        display: none;
-    }
-
-    .cb-contenido-cajas {
-        flex-wrap: wrap;
-    }
-    .cb-simbolo{
-        display: none;
-    }
-    .cb-mapa{
-      display: none;
-    }
-    .cb-nota{
-    display: none;
-    }
-    .cb-flechaa{
-      display: none;
-    }
-    .cb-flechab{
-      display: none;
-    }
-    .cb-flechac{
-      display: none;
-    }
-    .cb-flechad{
-      display: none;
-    }
-    .cb-titulonumero{
-      padding-left: 25px;
-    }
-
-      
+.cb-ejercicio-cajas-p76{
+  max-width: calc(100% / 2);
+  width: 100% ;
+  margin-left: auto;
+  margin-right: auto;
 }
+@media all and (max-width: 829px) {
+  .cb-page76{
+     background: url(images/page_076/fondo_000.svg) top left/ cover no-repeat !important;
+     }
+  }
+  @media all and (max-width:780px) {
+  
+  .cb-page76 {
+    background: url(images/page_076/fondo_005.svg) top left/ cover no-repeat !important;
+   }
+  }

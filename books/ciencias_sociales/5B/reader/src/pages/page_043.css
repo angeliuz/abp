@@ -1,7 +1,6 @@
 .cb-page43 {
-    background: url(images/page_043/fondo_001.svg) top center/cover no-repeat;
-    width: 100% !important;
-    height: 100% !important;
+    background: url(images/page_043/fondo_001.svg) top center/contain no-repeat;
+    background-size: cover, 100%;
     -webkit-print-color-adjust: exact !important;
   }
   
