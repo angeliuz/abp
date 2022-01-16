@@ -36,7 +36,7 @@ function Page043(props) {
                             Pensamos que lo que hemos aprendido nos va a servir en nuestra ruta para...
                         </div>
                         <div className="col-md-12 col-lg-12 position-relative">
-                           <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp--10 visible-768"><img src="images/page_043/img_003.png" className="wp-100 " alt="" /></div> 
+                           <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-10 visible-768"><img src="images/page_043/img_003.png" className="wp-80 " alt="" /></div> 
                            <div className="position-absolute top-0 start-0 translate-middle msp-0 mtp-70 visible-768"><img src="images/page_043/img_004.png" className="wp-30 " alt="" /></div> 
                         
                             <div className="d-flex flex-column mbp-20 mtp-10 p-2 w-100 border-style-solid border-2 rounded-p-10 border-color-dark bgc-white">

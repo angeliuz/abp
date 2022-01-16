@@ -1,15 +1,4 @@
-.cuadrado-naranja {
-  -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 8% 100%);
-  clip-path: polygon(0 0%, 100% 0, 96% 100%, 8% 100%);
-  background-color: #f29205;
-  height: 87px;
-}
-.cabecera {
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
-  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
-  background-color: var(--saitama);
-  height: 180px;
-}
+
 .rect-sesion {
   background-color: #ffcc00;
   border: 4px solid white;
@@ -17,12 +6,7 @@
   box-shadow: 2px 2px 1px 0px #9f9f9f;
 }
 
-.caja {
-  background-image: url(images/page_047/caja.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 10px 10px 10px 10px;
-}
+
 .bloque {
   min-width: 180px;
   max-width: 180px;

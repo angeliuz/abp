@@ -650,6 +650,18 @@
   margin-left: 200%;
 }
 
+.msp-1 {
+  margin-left: 1px;
+}
+.msp-2 {
+  margin-left: 2px;
+}
+.msp-3 {
+  margin-left: 3px;
+}
+.msp-4 {
+  margin-left: 4px;
+}
 .msp-5 {
   margin-left: 5px;
 }
@@ -1668,6 +1680,17 @@
 .mtp-250 {
   margin-top: 250px;
 }
+.mtp-260 {
+  margin-top: 260px;
+}
+.mtp-270 {
+  margin-top: 270px;
+}
+.mtp-280 {
+  margin-top: 280px;
+}
+
+
 
 .mtp--1 {
   margin-top: -1px;
@@ -4258,8 +4281,14 @@
 .min-hp-320 {
   min-height: 320px !important;
 }
+.min-hp-325 {
+  min-height: 325px !important;
+}
 .min-hp-330 {
   min-height: 330px !important;
+}
+.min-hp-335 {
+  min-height: 335px !important;
 }
 .min-hp-340 {
   min-height: 340px !important;

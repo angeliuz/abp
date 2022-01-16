@@ -52,42 +52,6 @@ function Page031(props) {
             </div>
           </div>
 
-          
-
-        {/* <div className="d-flex cajas-fluid-inverso msp-60 mep-60 mbp-60 bgc-red position-relative">
-          <div className="position-absolute top-50 start-50 translate-middle circuloEstado fsp-16 f-Ubuntu-R zindex-1 ">
-          <div className="f-colby-compres-medium fsp-30">
-          El Estado
-          </div>
-          </div>
-          
-          <div className="d-flex flex-wrap justify-content-center w-100 mep-5 min-hp-200">
-          <div className="bgc-genos w-100 p-2 f-Ubuntu-R fsp-15 mbp-20 min-hp-200 rounded-p-10 position-relative">
-          <div className="position-absolute top-50 start-100 translate-middle flecha-23-1 zindex-1"><img src="images/page_031/img_003.svg" className="wp-45 " alt="" /></div>
-          <div className="text-center">¿Para qué sirve?</div>
-          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
-          </div>
-          
-          <div className="bgc-trunks w-100 p-2 f-Ubuntu-R fsp-15 mbp-20 min-hp-200 rounded-p-10 position-relative">
-          <div className="position-absolute top-50 start-100 translate-middle flecha-23-1 zindex-1"><img src="images/page_031/img_004.svg" className="wp-45 " alt="" /></div>
-          <div className="text-center">¿Qué característica es más<br /> creativa y por qué?</div>
-          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
-          </div>
-          </div>
-          <div className="d-flex flex-wrap justify-content-center w-100 msp-5">
-          <div className="bgc-piccolo w-100 p-2 f-Ubuntu-R fsp-15 mbp-20 min-hp-200 rounded-p-10 position-relative">
-          <div className="position-absolute top-50 start-100 translate-middle flecha-23-1 zindex-1"><img src="images/page_031/img_003.svg" className="wp-45 " alt="" /></div>
-          <div className="text-center">¿Qué elementos tiene y para qué?</div>
-          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
-          </div>
-          <div className="bgc-windu w-100 p-2 f-Ubuntu-R fsp-15 mbp-20 min-hp-200 rounded-p-10 position-relative">
-          <div className="position-absolute top-50 start-100 translate-middle flecha-23-1 zindex-1"><img src="images/page_031/img_003.svg" className="wp-45 " alt="" /></div>
-          <div className="text-center">¿Quién o quiénes <br/>pueden utilizarlo?</div>
-          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
-          </div>
-          </div>
-        </div> */}
-
         <div className="cajaEstado  justify-content-center f-colby-compres-medium fsp-30">
          <div className="border border-3 rounded-p-10 w-100 mx-4 p-1">
            El Estado
