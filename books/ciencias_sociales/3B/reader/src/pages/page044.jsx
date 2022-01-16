@@ -26,7 +26,7 @@ function Page044(props) {
 
 
       
-            <div className=" container-titulo-global mbp-∫0">
+          <div className=" container-titulo-global mbp-∫0">
             <div className="d-flex">
                 {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/img_002.svg" alt=""  /> */}
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">3</div>
@@ -35,6 +35,8 @@ function Page044(props) {
                 {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_043/img_001.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
+
+
 
     <div className="d-flex msp-60 mep-40 ">
           <div className="row w-100 m-0 p-2 rounded-p-10 bgc-hotaru">

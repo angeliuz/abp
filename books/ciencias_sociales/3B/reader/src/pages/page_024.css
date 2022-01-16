@@ -1,105 +1,52 @@
+.pin-24 {
+  right: 57px;
+}
 
-.linea{
-  border-bottom: 2px dotted #dedede;
-  padding-top: 25px;
+.caja-afiche-24 {
+  left: 10px;
 }
-.linea2{
-  border-bottom: 2px dotted #dedede;
-  padding-top: 25px;
-}
-.container-row{
-  margin-left: 20px;
-  margin-right: 20px;
-  
-  } 
-  .linea1{
-    margin: 0 auto;
+
+@media (max-width: 768px) {
+
+  .margen-24 {
+    margin: auto;
   }
-
-.box-color-24-1{
-margin-left:20px; 
-margin-bottom: 20px;
-
-  
-}
-.box-color-24-2{
-  
-  margin-bottom: 20px;
-  margin-right: 20px;
 }
 
-
-.espirales{
-  height: auto;
-  width: 160px;
-  margin-top: 90px;
-  margin-left: -93px;
+.cajaafiche-24-1 {
   visibility: visible;
-  
+}
+
+.cajaafiche-24-2 {
+  display: none;
+}
+
+.flecha-android18 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7px 0 7px 10px;
+  border-color: transparent transparent transparent #afca0b;
+}
+
+.dibujo-24 {
+  display: flex;
+  position: absolute;
+  left: 90px;
+  top: -143px;
+  z-index: 1;
+}
+@media (max-width: 768px) {
+  .cajaafiche-24-1 {
+    display: none;
   }
-  .espiral-1{
 
-    visibility: visible;
-    
-    }
-    .espiral-2{
+  .cajaafiche-24-2 {
+    display: block;
+  }
 
-      visibility: visible;
-      
-      }
+}
 
+@media (max-width: 992px) {}
 
-  .rounded-set-10 {
-    border-radius: 10px 10px 0px 0px;
-    }
-    @media (max-width: 768px) {
-      .box-color-24-1{
-        margin-left:0;
-        margin-right: 0;  
-        margin-bottom: 20px;
-        }
-        .box-color-24-2{
-          margin-left:0;
-          margin-right: 0;  
-          margin-bottom: 20px;
-          }
-
-      .espirales{
-      height: auto;
-      width: 160px;
-      margin-top: 90px;
-      margin-left: -48px;
-      visibility: hidden;
-      
-      }
-      .espiral-1{
-
-        visibility: hidden;
-        
-        }
-        .espiral-2{
-
-          visibility: hidden;
-          
-          }
-
-      }
-
-      @media (max-width: 992px) {
-        .linea2{
-          border-bottom: 2px dotted #dedede;
-          width: 100%;
-          margin-top:10px;
-          margin-left:40px;
-          visibility: visible;
-        }
-      }
-      @media (max-width: 576px) {
-        .linea2{
-          border-bottom: 2px dotted #dedede;
-          width: 100%;
-          margin-top:10px;
-          margin-left:40px;
-          visibility: visible;
-        }
-      }
+@media (max-width: 576px) {}

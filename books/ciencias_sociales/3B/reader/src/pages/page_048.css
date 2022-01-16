@@ -1,15 +1,21 @@
-.cuadroRotado{
-    transform: rotate(2deg);
-    
-}
 
+.rota-info{
+  transform: rotate(-2deg);
+}
 .monito-44{
     display:none;
 
 }
 
+.cuadroIndex-5{
+  z-index: 5 !important;
+}
+.hojita{
+  z-index: -1 !important;
+}
 
 .cb-ep-paper-48 {
+
   position: relative;
   width: calc(100% - 100px);
   margin: 50px auto 46px;
