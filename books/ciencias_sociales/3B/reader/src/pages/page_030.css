@@ -15,4 +15,16 @@
   border-width: 8px;
 }
 
+.flecha-android18-30 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7px 0 7px 10px;
+  border-color: transparent transparent transparent #afca0b;
+}
 
+@media (min-width: 767px) {
+  .margen-30{
+    margin-top: 20px;
+  }
+}

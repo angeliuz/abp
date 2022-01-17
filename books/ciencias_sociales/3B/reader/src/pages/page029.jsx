@@ -29,7 +29,7 @@ function Page029(props) {
                     
                 </div>
 
-                <div className="d-flex msp-60 mep-60 mbp-100">
+                <div className="d-flex msp-60 mep-60 mbp-50">
 
                     <div className="row m-0 p-2 w-100 ">
                         <div className="col-md-12 col-lg-12 position-relative">
