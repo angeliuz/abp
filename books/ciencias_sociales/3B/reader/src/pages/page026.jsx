@@ -26,7 +26,17 @@ function Page026(props) {
                 son...
               </div>
             </div>
-            <div className="bgc-marronclaro p-2">
+            <div className="bgc-marronclaro p-2 position-relative">
+              <img
+                src="images/page_026/img_001.png"
+                className="position-absolute translate-middle top-0 start-100 msp--30"
+                alt=""
+              />
+              <img
+                src="images/page_026/img_005.png"
+                className="position-absolute translate-middle top-100 start-100 mtp--50 msp--10"
+                alt=""
+              />
               <div className="lines-a ajuste-lineas">
                 <div className="lines-b p-2">
                   <div className="bgc-white rounded-p-20 hp-200 p-2">
@@ -48,6 +58,11 @@ function Page026(props) {
             </div>
             <div className="row">
               <div className="col-md-6 col-12 position-relative">
+                <img
+                  src="images/page_026/img_003.png"
+                  className="position-absolute translate-middle top-0 start-0 msp-30 mtp-30"
+                  alt=""
+                />
                 <img
                   src="images/page_026/img_004.png"
                   className="position-absolute h-80 top-0 start-100 msp--15 mtp-60 hidden-res"
@@ -78,27 +93,31 @@ function Page026(props) {
                 <div className="f-pixilate-bold fsp-18 color-android18 text-left position-absolute mtp--20 hidden-res">
                   Para qué puedo utilizar
                 </div>
-                
+
                 <div className="col-md-12 col-4 espaciado">
                   <div className="px-3 border-style-solid border-2 color-verder-26 rounded-p-20">
-                    <div className="f-pixilate-bold fsp-16 ptp-15">En la casa</div>
+                    <div className="f-pixilate-bold fsp-16 ptp-15">
+                      En la casa
+                    </div>
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
                       className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120"
                     />
                   </div>
                 </div>
-                
+
                 <div className="col-md-12 col-4 espaciado">
                   <div className="px-3 border-style-solid border-2 color-verder-26 rounded-p-20">
-                    <div className="f-pixilate-bold fsp-16 ptp-15">Con los amigos</div>
+                    <div className="f-pixilate-bold fsp-16 ptp-15">
+                      Con los amigos
+                    </div>
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
                       className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120"
                     />
                   </div>
                 </div>
-               
+
                 <div className="col-md-12 col-4 espaciado">
                   <div className="px-3 border-style-solid border-2 color-verder-26 rounded-p-20">
                     <div className="f-pixilate-bold fsp-16 ptp-15">
