@@ -164,108 +164,108 @@ function Page016(props) {
               </div>
             </div>
 
-            <div className="block-bottom">
-              <div className="d-flex pep-10">
-                <div className="block-bottom text-start mtp-30 f-pixilate-bold">
-                  ¿Cómo me siento?
-                </div>
-                <div className="d-flex flex-row-reverse mtp-30">
-                  <div className="mnwp-50 f-pixilate-regular fsp-16">Núnca</div>
-                  <div className="mnwp-70 f-pixilate-regular fsp-16">
-                    A veces
+            <div className="">
+              <div className="cb-contenedor-tabla-p58">
+                <div className="d-flex pep-10 justify-content-between">
+                  <div className="block-bottom text-start mtp-30 f-pixilate-bold fsp-21">
+                    ¿Cómo me sentí?
                   </div>
-                  <div className="mnwp-70  f-pixilate-regular fsp-16">
-                    Generalmente
-                  </div>
-                  <div className="mnwp-70  f-pixilate-regular fsp-16">
-                    Siempre
+                  <div className="d-flex flex-row-reverse block-bottom mtp-30">
+                    <div className="nunca f-pixilate-regular">Núnca</div>
+                    <div className="siempre f-pixilate-regular">A veces</div>
+                    <div className="siempre f-pixilate-regular">
+                      Generalmente
+                    </div>
+                    <div className="siempre f-pixilate-regular">Siempre</div>
                   </div>
                 </div>
-              </div>
-              <div className="psp-15 pep-20 ptp-10 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-set-10 ">
-                <div className="d-flex justify-content-between ">
-                  <div className="d-flex mnwp-300-r">
-                    <div className="flecha-bulma pep-10 mtp-8"></div>
-                    <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
-                      El ambiente de trabajo en mi equipo es agradable.
-                    </span>
-                  </div>
-                  <div className="d-flex flex-row-reverse block-bottom ptp-5 msp--20">
-                    <div className="psp-30">
-                      <div className="cuadrado borde-cuadrado">
-                        <InputBox
-                          id={"p" + pagina + "_input" + (indexInput += 1)}
-                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                        />
-                      </div>
+                <div className="psp-15 pep-20 f-Ubuntu-L bgc-white fsp-13 rounded-set-10 ">
+                  <div className="d-flex justify-content-between ">
+                    <div className="d-flex mnwp-400-r cb-contenedor-tabla-texto">
+                      <div className="flecha-bulma pep-10 mtp-8"></div>
+                      <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
+                        Nos implicamos en la realización de la tarea y nos
+                        responsabilizamos del trabajo que tenemos que hacer.
+                      </span>
                     </div>
-                    <div className="psp-40">
-                      <div className="cuadrado borde-cuadrado">
-                        <InputBox
-                          id={"p" + pagina + "_input" + (indexInput += 1)}
-                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                        />
+                    <div className="d-flex flex-row-reverse block-bottom ptp-5 pbp-5 align-items-center">
+                      <div className="psp-30-r">
+                        <div className="cuadrado borde-cuadrado">
+                          <InputBox
+                            id={"p" + pagina + "_input" + (indexInput += 1)}
+                            className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div className="psp-40">
-                      <div className="cuadrado borde-cuadrado">
-                        <InputBox
-                          id={"p" + pagina + "_input" + (indexInput += 1)}
-                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                        />
+                      <div className="psp-40-r">
+                        <div className="cuadrado borde-cuadrado">
+                          <InputBox
+                            id={"p" + pagina + "_input" + (indexInput += 1)}
+                            className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div className="">
-                      <div className="cuadrado borde-cuadrado">
-                        <InputBox
-                          id={"p" + pagina + "_input" + (indexInput += 1)}
-                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                        />
+                      <div className="psp-40-r">
+                        <div className="cuadrado borde-cuadrado">
+                          <InputBox
+                            id={"p" + pagina + "_input" + (indexInput += 1)}
+                            className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                          />
+                        </div>
+                      </div>
+                      <div className="">
+                        <div className="cuadrado borde-cuadrado">
+                          <InputBox
+                            id={"p" + pagina + "_input" + (indexInput += 1)}
+                            className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                          />
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="ptp-2"></div>
-              <div className="psp-15 pep-20 pbp-10 ptp-10 f-Ubuntu-L bgc-white fsp-13 rounded-seb-10 ">
-              <div className="d-flex justify-content-between ">
-                  <div className="d-flex mnwp-400-r">
-                    <div className="flecha-bulma pep-10 mtp-8"></div>
-                    <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
-                    Estoy contento de trabajar en este proyecto
-                    </span>
-                  </div>
-                  <div className="d-flex flex-row-reverse block-bottom ptp-5">
-                    <div className="psp-30">
-                      <div className="cuadrado borde-cuadrado">
-                        <InputBox
-                          id={"p" + pagina + "_input" + (indexInput += 1)}
-                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                        />
-                      </div>
+                <div className="ptp-2"></div>
+                <div className="psp-15 pep-20 f-Ubuntu-L bgc-white fsp-13 rounded-seb-10">
+                  <div className="d-flex justify-content-between ">
+                    <div className="d-flex mnwp-400-r cb-contenedor-tabla-texto">
+                      <div className="flecha-bulma pep-10 mtp-8"></div>
+                      <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
+                        Ante una petición de apoyo de alguien del grupo,
+                        intentamos ayudar antes de preguntarle al profesor.
+                      </span>
                     </div>
-                    <div className="psp-40">
-                      <div className="cuadrado borde-cuadrado">
-                        <InputBox
-                          id={"p" + pagina + "_input" + (indexInput += 1)}
-                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                        />
+                    <div className="d-flex flex-row-reverse block-bottom ptp-5 pbp-5 align-items-center">
+                      <div className="psp-30-r">
+                        <div className="cuadrado borde-cuadrado">
+                          <InputBox
+                            id={"p" + pagina + "_input" + (indexInput += 1)}
+                            className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div className="psp-40">
-                      <div className="cuadrado borde-cuadrado">
-                        <InputBox
-                          id={"p" + pagina + "_input" + (indexInput += 1)}
-                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                        />
+                      <div className="psp-40-r">
+                        <div className="cuadrado borde-cuadrado">
+                          <InputBox
+                            id={"p" + pagina + "_input" + (indexInput += 1)}
+                            className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div className="">
-                      <div className="cuadrado borde-cuadrado">
-                        <InputBox
-                          id={"p" + pagina + "_input" + (indexInput += 1)}
-                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                        />
+                      <div className="psp-40-r">
+                        <div className="cuadrado borde-cuadrado">
+                          <InputBox
+                            id={"p" + pagina + "_input" + (indexInput += 1)}
+                            className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                          />
+                        </div>
+                      </div>
+                      <div className="">
+                        <div className="cuadrado borde-cuadrado">
+                          <InputBox
+                            id={"p" + pagina + "_input" + (indexInput += 1)}
+                            className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                          />
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -273,6 +273,7 @@ function Page016(props) {
               </div>
             </div>
           </div>
+
           {/* PIE DE PAGINA */}
           <div
             className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2"
