@@ -13,60 +13,58 @@ function Page010(props) {
       <div className="d-flex flex-column align-items-center pbp-20">
           <div className="page cb-page10 overflow-hidden position-relative" id={"page_"+pagina}>
 
-            <div className="mtp-75 ">
-                <div className="d-flex justify-content-center">
-                <div className="cb-titulo-aceptamos text-center fsp-25 f-IntroRustG-Base mbp-20">ACEPTAMOS EL DESAFÍO</div>
+          <div className="mtp-75 cb-margen">
+          <div className="d-flex justify-content-center">
+            <div className="cb-titulo-aceptamos text-center fsp-25 f-IntroRustG-Base mtp-10 mbp-20 color-goten">¡ACEPTAMOS EL DESAFÍO!</div>
+          </div>
+         <div className="text-star cb-m-auto psp-30 f-Ubuntu-R fsp-16 text-start">Respondemos el correo y nos comprometemos con el desafío.</div> 
+          <div className="cb-contenedor-mail text-start">
+            <div className="cb-datos-mail pep-15 psp-10 ptp-10 pbp-10">
+            <div className="d-flex mbp-5"> 
+                <div className="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">De:</div>
+                <div className="cb-datos-1 psp-10 f-Ubuntu-R fsp-16">estudiantestercerobasico@correo.cl</div>
             </div>
-            <div className="cb-block-inicial-2 p-2 pb-3 mbp-10">
-              <div className=" f-Ubuntu-L mbp-5 psp-20 fw-700 fsp-13 text-start">Este es el nombre de nuestra revista:</div>
-              <div className="px-3">
-                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150" />
-              </div>
-              <img src="images/page_010/img_001.png" className="cb-lapiz" alt="" />
-              <img src="images/page_010/img_002.png" className="cb-globo" width="130px" alt="" />
-              <img src="images/page_010/img_005.png" className="cb-binoculares-10 " alt="" />
-              <img src="images/page_010/img_003.png" className="cb-nota" alt="" />
+            <div className="d-flex mbp-5">
+                <div className="cb-datos-a psp-10 mep-10">Para:</div>
+                <div className="cb-datos-1 psp-10 f-Ubuntu-R fsp-16">alejandra@mail.com</div>
             </div>
+            <div className="d-flex">
+                <div className="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">Asunto:</div>
+                <div className="cb-datos-1 psp-10 f-Ubuntu-R fsp-16">Aceptamos el desafío</div>
+            </div>
+            </div>
+            <div className="cb-texto-mail">
+                <div className="cb-carta-content f-Ubuntu-L text-start">
+                    <img src="images/page_010/img_004.png" className="cb-lapiz-p10" alt=""/>
+                    <p>Estimada Alejandra:</p>
+                    <p>Estamos muy contentos con este gran desafío que nos propones, por
+                      eso queremos decir que nuestro equipo…</p>
+                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
 
-            <div className="w-100 cb-inicio d-flex text-center align-items-center justify-content-center">
-                <div className="cb-block-superior-2 p-2 pb-2 text-center ">
-                  <div className="cb-bloque-0 bgc-white p-2 pb-2 f-Ubuntu-B fw-700 fsp-15">Características de un buen nombre</div>
-                  <div className="cb-bloque-1 text-center bgc-white p-2 pb-2 f-Ubuntu-L fw-700 fsp-13"> Es atractivo. Será su firma y la primera impresión que dará.</div>
-                  <div className="cb-bloque-2 text-center bgc-white p-2 pb-2 f-Ubuntu-L fw-700 fsp-13"> Representa a todos los miembros del equipo.</div>
-                  <div className="cb-bloque-3 text-center bgc-white p-2 pb-2 f-Ubuntu-L fw-700 fsp-13"> Tiene un significado especial para ustedes.</div>
-                  <div className="cb-bloque-4 text-center bgc-white p-2 pb-2 f-Ubuntu-L fw-700 fsp-13"> Es original. ¡Que no se le pueda ocurrir a cualquiera!</div>
-                  <div className="cb-bloque-5 text-center bgc-white p-2 pb-2 f-Ubuntu-L fw-700 fsp-13"> Es sencillo de escribir y de pronunciar.</div>
-                  <div className="cb-bloque-6 text-center bgc-white p-2 pb-2 f-Ubuntu-L fw-700 fsp-13"> No es demasiado largo. Debe reproducirse en muchos lugares.</div>
-              </div>
-            </div>
-            <div className="pbp-90 position-relative">
-              <div className="block-bottom mtp-30 f-pixilate-bold text-start">¿Cómo vamos?</div>
-              <div className=" block-bottom p-2 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4"> 
-                <div className="d-flex flex-wrap w-100 align-items-end titulo-linea position-relative mtp-10">
-                  <img src="images/page_010/img_008.png" className="cb-estrella" alt="" />
-                  <div className="d-flex"> 
-                    <img src="images/page_010/arrow.svg" className="mep-5 cb-flecha" alt="" />
-                    <span className="w-24 f-Ubuntu-L">¿Cómo nos gustaría que fuera nuestro trabajo en equipo?</span> 
-                  </div>
-                </div>  
-                <div className="pt-0 flex-grow-1">
-                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
+                    <p className="text-center ">Atte</p>
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+
                 </div>
-
-                <div className="d-flex flex-wrap w-100 align-items-end titulo-linea position-relative mtp-10">
-                  <img src="images/page_010/img_010.png" className="cb-tv" alt="" />
-                  <img src="images/page_010/img_009.png" className="cb-personaje" alt="" />
-                  <div className="d-flex"> 
-                    <img src="images/page_010/arrow.svg" className="mep-5 cb-flecha" alt="" />
-                    <span className="w-24 f-Ubuntu-L">¿Qué podemos hacer para lograrlo?</span>
-                  </div>                              
-                </div>   
-                <div className="pt-0 flex-grow-1">
-                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
+            </div>
+        </div>
+          <div className="pbp-90">
+            <div className="cb-block-bottom-p10 mtp-30 f-pixilate-bold text-start">¿Cómo vamos?</div>
+            <div className="cb-block-bottom-p10 p-2 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4">
+              <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-10 position-relative">
+                <div className="d-flex"> <img src="images/page_010/arrow.svg" className="mep-5 cb-flecha" alt=""/>
+                  <span className="w-24 f-Ubuntu-L text-start">Una fortaleza de nuestro equipo podría ser...</span>
                 </div>
               </div>
-
+              <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+              <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-10 position-relative">
+                <img src="images/page_010/img_005.png" className="cb-personaje-p10" alt=""/>
+                <div className="d-flex"> <img src="images/page_010/arrow.svg" className="mep-5 cb-flecha" alt=""/>
+                  <span className="w-24 f-Ubuntu-L text-start">¿Qué desafíos enfrentamos como equipo en este proyecto?</span>
+                </div>
+              </div>
+              <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
             </div>
+          </div>
             {/* Begin pie de página */}
             <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
               <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "white" }}>
