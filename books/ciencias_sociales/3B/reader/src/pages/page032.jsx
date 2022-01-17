@@ -20,16 +20,16 @@ function Page032(props) {
                 </div>
                 <div className="row">
                     <div className="col-12 pp-5 m-0">
-                        <div className="cuadro text-center ptp-18 fsp-15 f-colby-extra-regular float-end centrar"><img src="images/page_032/flecha.svg" alt="" className="wp-20 pep-5 pbp-5" /><span className="mtp-5 f-IntroRustG-Base">ENCUESTAR</span> a compañeros sobre<br />sus características e intereses.</div>
+                        <div className="cuadro text-center ptp-18 fsp-15 f-colby-extra-regular float-end centrar-experimentacion"><img src="images/page_032/flecha.svg" alt="" className="wp-20 pep-5 pbp-5" /><span className="mtp-5 f-IntroRustG-Base">ENCUESTAR</span> a compañeros sobre<br />sus características e intereses.</div>
                     </div>
                     <div className="col-12 pp-5 m-0">
-                        <div className="cuadro1 text-center ptp-18 fsp-15 f-colby-extra-regular centrar"><img src="images/page_032/flecha.svg" alt="" className="wp-20 pep-5 pbp-5" /><span className="mtp-5 f-IntroRustG-Base">IDENTIFICAR</span> la diversidad que<br />existe en nuestra<br />comunidad escolar.</div>
+                        <div className="cuadro1 text-center ptp-18 fsp-15 f-colby-extra-regular float-start centrar-experimentacion"><img src="images/page_032/flecha.svg" alt="" className="wp-20 pep-5 pbp-5" /><span className="mtp-5 f-IntroRustG-Base">IDENTIFICAR</span> la diversidad que<br />existe en nuestra<br />comunidad escolar.</div>
                     </div>
                     <div className="col-12 pp-5 m-0">
-                        <div className="cuadro1 text-center ptp-18 fsp-15 f-colby-extra-regular float-end centrar"><img src="images/page_032/flecha.svg" alt="" className="wp-20 pep-5 pbp-5" /><span className="mtp-5 f-IntroRustG-Base">ELABORAR</span> un decálogo de<br />respeto y tolerancia a la<br />diversidad.</div>
+                        <div className="cuadro1 text-center ptp-18 fsp-15 f-colby-extra-regular float-end centrar-experimentacion"><img src="images/page_032/flecha.svg" alt="" className="wp-20 pep-5 pbp-5" /><span className="mtp-5 f-IntroRustG-Base">ELABORAR</span> un decálogo de<br />respeto y tolerancia a la<br />diversidad.</div>
                     </div>
                     <div className="col-12 pp-5 m-0">
-                        <div className="cuadro text-center ptp-18 fsp-15 f-colby-extra-regular centrar"><img src="images/page_032/flecha.svg" alt="" className="wp-20 pep-5 pbp-5" /><span className="mtp-5 f-IntroRustG-Base">REFLEXIONAR</span> sobre nuestro<br />trabajo en equipo.</div>
+                        <div className="cuadro text-center ptp-18 fsp-15 f-colby-extra-regular float-start centrar-experimentacion"><img src="images/page_032/flecha.svg" alt="" className="wp-20 pep-5 pbp-5" /><span className="mtp-5 f-IntroRustG-Base">REFLEXIONAR</span> sobre nuestro<br />trabajo en equipo.</div>
                     </div>
                 </div>
 
