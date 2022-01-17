@@ -75,8 +75,8 @@
 .borde-cuadrado {
   border: 1px solid #55524f;
 }
-.mnwp-400-r {
-  min-width: 400px;
+.mnwp-300-r {
+  min-width: 300px;
 }
 .mnwp-70 {
   min-width: 70px;
@@ -98,7 +98,7 @@
   z-index: 1;
 }
 @media (max-width: 832px) and (min-width: 768px) {
-.mnwp-400-r {
+.mnwp-300-r {
   min-width: 330px;
 }
 }

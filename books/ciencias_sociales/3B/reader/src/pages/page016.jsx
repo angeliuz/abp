@@ -122,7 +122,7 @@ function Page016(props) {
               </div>
             </div>
           </div>
-          <div className="bgc-buzz border-top border-color-dark border-2 pbp-120 psp-60 pep-60 position-relative">
+          <div className="bgc-buzz border-top border-color-bulma border-2 pbp-120">
             <img
               src="images/page_016/img_001.png"
               className="hp-60 tf-nube"
@@ -159,7 +159,7 @@ function Page016(props) {
               <div className="pt-0 flex-grow-1">
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80"
+                  className="p-0 px-1 text-start flex-grow-1 contenedor-linea min-hp-80"
                 />
               </div>
             </div>
@@ -169,7 +169,7 @@ function Page016(props) {
                 <div className="block-bottom text-start mtp-30 f-pixilate-bold">
                   ¿Cómo me siento?
                 </div>
-                <div className="d-flex flex-row-reverse block-bottom mtp-30">
+                <div className="d-flex flex-row-reverse mtp-30">
                   <div className="mnwp-50 f-pixilate-regular fsp-16">Núnca</div>
                   <div className="mnwp-70 f-pixilate-regular fsp-16">
                     A veces
@@ -184,13 +184,13 @@ function Page016(props) {
               </div>
               <div className="psp-15 pep-20 ptp-10 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-set-10 ">
                 <div className="d-flex justify-content-between ">
-                  <div className="d-flex mnwp-400-r">
+                  <div className="d-flex mnwp-300-r">
                     <div className="flecha-bulma pep-10 mtp-8"></div>
                     <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
                       El ambiente de trabajo en mi equipo es agradable.
                     </span>
                   </div>
-                  <div className="d-flex flex-row-reverse block-bottom ptp-5">
+                  <div className="d-flex flex-row-reverse block-bottom ptp-5 msp--20">
                     <div className="psp-30">
                       <div className="cuadrado borde-cuadrado">
                         <InputBox
