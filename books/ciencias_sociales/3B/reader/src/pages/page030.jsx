@@ -16,18 +16,7 @@ function Page030(props) {
             <div className="cb-page39 page bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
                
 
-                <div className="position-relative w-100 mbp-40">
-                    <div className=" psp-80 pep-70 ptp-30 pbp-0 ">
-                        <div className="fsp-16 f-Ubuntu-B text-start psp-80 pbp-10">Este dosier fue completado por:</div>
-                        <div className="psp-0 ptp-5 pbp-5 bgc-white rounded-p-10 border border-color-lightDark d-flex justify-content-center position-relative">
-                        <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-45 mtp--10"><img src="images/page_029/img_001.png" className="w-80" alt="" /></div>
-                        
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-start lhp-35 w-75" />
-                        </div>
-
-                    </div>
-                    
-                </div>
+                
 
                 <div className="d-flex msp-60 mep-60 mbp-100">
 
