@@ -63,6 +63,16 @@
   font-size: 16px;
   min-width: 70px;
 }
+.tf-mono {
+  display: flex;
+  position: absolute;
+  right: 30px;
+  bottom: 40px;
+  z-index: 1;
+}
+.mtp--30-r {
+  margin-top: -30px;
+}
 }
 @media (max-width: 768px) {
   .border-derecha {
@@ -95,5 +105,16 @@
   .siempre {
     font-size: 14px;
     min-width: 60px;
+  }
+  .tf-mono {
+    display: flex;
+    position: absolute;
+    visibility: hidden;
+    right: 30px;
+    bottom: 40px;
+    z-index: 1;
+  }
+  .mtp--30-r {
+    margin-top: -45px;
   }
 }

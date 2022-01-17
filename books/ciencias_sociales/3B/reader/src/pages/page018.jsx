@@ -158,15 +158,9 @@ function Page018(props) {
                 </div>
                 <div className="d-flex flex-row-reverse block-bottom mtp-30">
                   <div className="nunca f-pixilate-regular">Núnca</div>
-                  <div className="siempre f-pixilate-regular">
-                    A veces
-                  </div>
-                  <div className="siempre f-pixilate-regular">
-                    Generalmente
-                  </div>
-                  <div className="siempre f-pixilate-regular">
-                    Siempre
-                  </div>
+                  <div className="siempre f-pixilate-regular">A veces</div>
+                  <div className="siempre f-pixilate-regular">Generalmente</div>
+                  <div className="siempre f-pixilate-regular">Siempre</div>
                 </div>
               </div>
               <div className="psp-15 pep-20 f-Ubuntu-L bgc-white fsp-13 rounded-set-10 ">
@@ -174,7 +168,8 @@ function Page018(props) {
                   <div className="d-flex mnwp-400-r">
                     <div className="flecha-bulma pep-10 mtp-8"></div>
                     <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
-                    Nos implicamos en la realización de la tarea y nos responsabilizamos del trabajo que tenemos que hacer.
+                      Nos implicamos en la realización de la tarea y nos
+                      responsabilizamos del trabajo que tenemos que hacer.
                     </span>
                   </div>
                   <div className="d-flex flex-row-reverse block-bottom ptp-5">
@@ -219,7 +214,8 @@ function Page018(props) {
                   <div className="d-flex mnwp-400-r">
                     <div className="flecha-bulma pep-10 mtp-8"></div>
                     <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
-                    Ante una petición de apoyo de alguien del grupo, intentamos ayudar antes de preguntarle al profesor.
+                      Ante una petición de apoyo de alguien del grupo,
+                      intentamos ayudar antes de preguntarle al profesor.
                     </span>
                   </div>
                   <div className="d-flex flex-row-reverse block-bottom ptp-5">
@@ -264,7 +260,7 @@ function Page018(props) {
                   <div className="d-flex mnwp-400-r">
                     <div className="flecha-bulma pep-10 mtp-8"></div>
                     <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
-                    Respetamos el turno de la palabra.
+                      Respetamos el turno de la palabra.
                     </span>
                   </div>
                   <div className="d-flex flex-row-reverse block-bottom ptp-5">
@@ -309,7 +305,8 @@ function Page018(props) {
                   <div className="d-flex mnwp-400-r">
                     <div className="flecha-bulma pep-10 mtp-8"></div>
                     <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
-                    Llegamos a acuerdos y decisiones compartidas después de que cada uno da su opinión.
+                      Llegamos a acuerdos y decisiones compartidas después de
+                      que cada uno da su opinión.
                     </span>
                   </div>
                   <div className="d-flex flex-row-reverse block-bottom ptp-5">
@@ -348,9 +345,15 @@ function Page018(props) {
                   </div>
                 </div>
               </div>
-              </div>
-              </div>
-              <img src="images/page_018/marco-inferior.svg" className="marco-inferior mtp--30" alt="" />
+              <img src="images/page_018/img_004T.png" className="hp-200 tf-mono" alt="" />
+            </div>
+
+          </div>
+          <img
+            src="images/page_018/marco-inferior.svg"
+            className="marco-inferior mtp--30-r"
+            alt=""
+          />
 
           {/* PIE DE PAGINA */}
           <div
