@@ -26,35 +26,76 @@ function Page050(props) {
 
 
       
-            <div className=" container-titulo-global mbp-∫0">
-            <div className="d-flex">
-                {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/img_002.svg" alt=""  /> */}
+          <div className="ptp-10 psp-60 mbp-0 contenedor-pagina">
+              <div className="f-Ubuntu-B fsp-20 color-saitama text-start lhp-20">Imaginamos nuestro stand cultural</div>
+              <div className="d-flex">
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/g_i.svg" alt="" /> */}
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">4</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Escribo mi texto literario sobre la diversidad que presentaré en la feria.</div>
-                 {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> */}
-                {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_043/img_001.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Creo un boceto del stand cultural.</div>
+                {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_047/img_001.svg" clasesImagen="hp-40 msp-30 text-center mtp-10 " className="p-0 px-0" /> */}
+                {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/img_001.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              </div>
             </div>
-          </div>
 
-                <div className="d-flex  mtp-40 msp-90 mep-60 position-relative">
-  
-                    <div className="row  w-100    ">
-                    
-                                      
-                          <div className="cb-ep-paper-48 ">
-                              <div className="cb-ep-paper-content-48 f-Ubuntu-L text-start hp-700 ">
-                                  <div className="   mtp-5 ">
-                                     <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-4 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-650" />
-                                   
-                                  </div>
-                              </div>
-                          </div>
+
+
+
+
+
+            <div className="row container-row">
+
+                <div className="col-md-12 col-lg-12 position-relative">
+
+                {/* <div className="position-absolute top-50 start-100 translate-middle visible-768 zindex-1 msp--70 mtp-150"><img src="images/page_026/img_001.png" className="hp-60" alt=""/></div>
+                    <div className="position-absolute top-50 start-0 translate-middle visible-768 zindex-1 msp-70 mtp--5"><img src="images/page_026/img_003.png" className="w-100" alt=""/></div> */}
+                    <div className="position-absolute top-100 start-0 translate-middle visible-768 zindex-1 msp-100 mtp--30"><img src="images/page_050/img_002.png" className="w-100" alt=""/></div>
+
+                    <div className="mbp-20 mtp-10 msp-20 mep-20">
+                        <div className=" bgc-white caja-dibujo-global p-2 rounded-p-20 border-style-solid border-2 border-color-dark positon-relative">
+
+
+                        <div className="position-absolute top-0 end-0 mep-50 mtp--80"><img className="hp-300" src="images/page_050/img_001.png" alt="" />
+                   
+
+                        <div className="position-absolute top-50 start-0 translate-middle-y  wp-260 mtp-20 msp-15 mep-20">
+                            <div className="d-flex align-items-center  justify-content-between pbp-10 mt-3 w-100">
+                                <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Considero:</div>
+                                <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white"></div>
+                            </div>
+                            <div className="d-flex align-items-center pbp-10 w-100">
+                            <div className="d-inline hp-30 "><img src="images/page_050/img_003.svg" className="hp-20  " alt=""></img></div>
+                                <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Decoración.</div>
+                            </div>
+                            <div className="d-flex align-items-center pbp-10 w-100">
+                            <div className="d-inline hp-30 "><img src="images/page_050/img_003.svg" className="hp-20  " alt=""></img></div>
+                                <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Trabajos realizados a lo largo del proyecto.</div>
+                            </div>
+                            <div className="d-flex align-items-center pbp-10 w-100">
+                            <div className="d-inline hp-30 "><img src="images/page_050/img_003.svg" className="hp-20  " alt=""></img></div>
+                                <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Elementos que utilizaremos como soporte (mesas, sillas, toldo, etc.)</div>
+                            </div>
+                            <div className="d-flex align-items-center pbp-10 w-100">
+                                <div className="d-inline hp-30 "><img src="images/page_050/img_003.svg" className="hp-20  " alt=""></img></div>
+                                <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Otros: como sistema de audio, luces, telas, etc.</div>
+                            </div>
+    
+                        </div>
                     </div>
-          
+
+
+
+                        </div>
+                    </div>
+                    
                 </div>
+
+            </div>
+
+
+
        
 
-            <div className="d-flex w-90 position-relative mtp-20 mbp-50">
+            {/* <div className="d-flex w-90 position-relative mtp-20 mbp-50">
 
                     <div className="position-absolute bottom-0 start-0 mtp--60 cuadroIndex-5 "> <img className="  hp-150 mtp--50 msp-30" src="images/page_048/img_004.png" alt="" /> </div>
                     <div className="position-absolute bottom-0 start-50 translate-middle-x mtp--60 cuadroIndex-5 "> <img className="  hp-215 msp-300 " src="images/page_048/img_003.png" alt="" />
@@ -80,7 +121,7 @@ function Page050(props) {
 
                      </div>
 
-            </div>
+            </div> */}
 
 
 
