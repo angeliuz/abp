@@ -1,7 +1,11 @@
-.cb-page17 {
-  background: url(images/page_017/fondo_001.svg) top center/ cover no-repeat !important;
-   -webkit-print-color-adjust: exact !important;
+.ep-page51 {
+  background: url(images/page_050/fondo_001.svg) top center/cover no-repeat;
+  width: 100% !important;
+  height: 100% !important;
+  -webkit-print-color-adjust: exact !important;
 }
+
+.border-dosier
 .cb-dosier {
   width: 50%;
 }
