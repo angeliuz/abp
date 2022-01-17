@@ -88,9 +88,8 @@ function Page045(props) {
                                 <div className="d-flex bgc-white  w-100 ">
                                     {/* <img className="hp-20 align-center mt-3 me-2 mb-2  " src="images/page_045/img_007.svg" alt="" /> */}
                                     <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">4</div>
-                                    <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-left">Escribimos nuestra canción y la guardamos para nuestra fiesta.</div>
+                                    <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-left  ">Escribimos nuestra canción y la guardamos para nuestra fiesta.</div>
                                     {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_033/circ.png" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
-                                   
                                 </div>
                             </div>
                           </div>

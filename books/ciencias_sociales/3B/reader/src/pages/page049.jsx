@@ -16,8 +16,8 @@ function Page049(props) {
                 {/* BEGIN CABECERA VERSIÓN 2 */}
                 <div className="cabecera-v2 bgc-saitama d-flex flex-column">
                   <div className="d-flex contenedor-cabecera-v2 align-items-center ptp-40 psp-30 pep-30">
-                    <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-saitama fsp-24 f-IntroRustG-Base">SESIÓN 13</div>
-                    <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Somos escritores</div>
+                    <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-saitama fsp-24 f-IntroRustG-Base">SESIÓN 14</div>
+                    <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Somos artistas e imaginamos nuestro stand</div>
                   </div>
                 </div> 
                 {/* END CABECERA VERSIÓN 2 */}
@@ -33,28 +33,55 @@ function Page049(props) {
               </div>
             </div>
  
- 
 
 
-            <div className="d-flex msp-100 mep-60 position-relative ">
-                <div className="border border-3 p-3 hp-275 w-100 ">
-                  <div><img src="images/page_043/img_004.png" className="position-absolute top-50 start-0 translate-middle wp-40" alt=""></img></div> 
-                  <div className="msp-20 ">
-                      <div className=" linea1 min-hp-100  ">
-                            <div className="f-Ubuntu-L fsp-15 text-start">El texto que más me gustó fue…</div>
-                             <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-90" />
-                      </div>
-                       <div className=" linea1 min-hp-100   ">
-                            <div className="f-Ubuntu-L fsp-15 text-start">Porque…</div>
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-90" />
-                       </div>
+                <div className="d-flex justify-content-center msp-80 mtp-5 mep-80 ">
+                    <div className="d-flex justify-content-start w-95 hp-360 pbp-20  bgc-jarek rounded-p-20 position-relative">
+                            <div className="w-95 position-absolute top-0 start-50 translate-middle "><div className="espiral-calado-2-49  mtp-15 hp-50"></div></div>
+                       
+                            <div className="row p-3 w-100">
+                               <div className="col-6 p-1">
+                               <div className="msp-20 ">
+                                  <div className=" linea1 min-hp-100  ">
+                                        <div className="f-Ubuntu-L fsp-15 text-start">Lo que más me gustó de lo que observé fue..</div>
+                                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-130" />
+                                  </div>
+                                  <div className=" linea1 min-hp-100   ">
+                                        <div className="f-Ubuntu-L fsp-15 text-start">Creo que las artes plásticas permiten…</div>
+                                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-130" />
+                                  </div>
 
-                  </div>
+                              </div>
+                               </div>
+                               <div className="col-6 p-2">
+                                      <div className="bgc-white mtp-10 border-style-solid border-1 border-color-danger h-90 rounded-p-10">
+                                          <div className="f-Ubuntu-R fsp-14 lh-sm text-start ptp-15 psp-10">Algunos colores, formas o materiales que creemos que representan la diversidad son...</div>
+                                      </div>
+                               </div>
+                            </div> 
+              
+                    </div>
                 </div>
-            
-          </div>
+
+
+
 
  
+
+
+
+
+
+
+              {/* <div class="col-lg-4 col-sm-12 d-flex justify-content-center pb-3 ">
+                        <div class="cuaderno-hoja d-flex justify-content-center hp-340 w-100 border-color-raichu rounded-p-10">
+
+                            <div class="cuaderno-espiral w-75 h-30">&nbsp;</div>
+                            <div class="w-90">
+                                <div class="cuaderno-linea "></div>
+             v
+                        </div>
+                    </div> */}
 
 
 
@@ -65,29 +92,45 @@ function Page049(props) {
                               <div className="d-flex ">
                                     {/* <img className="hp-15 align-center mt-3 me-2 mb-2" src="images/page_014/img_001.svg" alt="" /> */}
                                     <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">2</div>
-                                    <div className="f-Ubuntu-R fsp-16 text-start ptp-18 psp-10">El texto narrativo que presentaré en nuestra feria de la diversidad será:…</div>
+                                    <div className="f-Ubuntu-R fsp-16 text-start ptp-18 psp-10">La expresión artística que utilizaremos para mostrar un concepto de diversidad en la fiesta es:</div>
                                     {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_045/img_001.svg" clasesImagen="hp-40 text-center msp-30 mtp-10 " className="p-0 px-0" /> */}
                               </div>  
                           </div>
 
-                          <div className="col-lg-7  col-sm-12 d-flex justify-content-center  ">
+                          <div className="col-lg-7  col-sm-12 d-flex justify-content-center position-relative ">
+                          <div className="position-absolute bottom-0 start-0 "><img src="images/page_049/img_003.png" className="hp-140 mtp--130 msp--210 img-monito-45" alt=""/></div>
                              
-                                <div className=" mtp-20 position-relative "><img className="hp-150" src="images/page_047/img_005.svg" alt="" />
-                                    <img className="hp-25 align-center  position-absolute top-0 start-100 translate-middle msp--6  mtp-20   " src="images/page_047/img_003.svg" alt="" />
+                                <div className="position-relative "><img className="hp-320" src="images/page_049/img_004.png" alt="" />
+                   
 
-                                    <div className="position-absolute top-0 start-50 translate-middle-x  msp--40 mep-20 mtp-20 msp-20">
-                                        <div className="d-flex align-items-center pbp-10">
-                                            <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white"></div>
-                                            <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5">Cuento.</div>
+                                    <div className="position-absolute top-50 start-0 translate-middle-y    mep-10 mtp-25 msp-35">
+                                        <div className="d-flex align-items-center pbp-10 w-100">
+                                            <div className="d-inline wp-25 hp-25 border-style-solid border-1 border-color-dark bgc-white"></div>
+                                            <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Pintura (témpera, acuarela, óleo).</div>
                                         </div>
-                                        <div className="d-flex align-items-center pbp-10">
-                                            <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white"></div>
-                                            <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5">Anécdota.</div>
+                                        <div className="d-flex align-items-center pbp-10 w-100">
+                                            <div className="d-inline wp-25 hp-25 border-style-solid border-1 border-color-dark bgc-white"></div>
+                                            <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Escultura (greda, plasticina, arcilla).</div>
                                         </div>
-                                        <div className="d-flex align-items-center pbp-10">
-                                            <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white"></div>
-                                            <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5">Narración.</div>
-                                        </div> 
+                                        <div className="d-flex align-items-center pbp-10 w-100">
+                                            <div className="d-inline wp-25 hp-25 border-style-solid border-1 border-color-dark bgc-white"></div>
+                                            <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Collage (papeles de colores, palabras, fotografías).</div>
+                                        </div>
+                                        <div className="d-flex align-items-center pbp-10 w-100">
+                                            <div className="d-inline wp-25 hp-25 border-style-solid border-1 border-color-dark bgc-white"></div>
+                                            <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Escultura (greda, plasticina, arcilla).</div>
+                                        </div>
+                                        <div className="d-flex align-items-center pbp-10 w-100">
+                                            <div className="d-inline wp-25 hp-25 border-style-solid border-1 border-color-dark bgc-white"></div>
+                                            <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Collage (papeles de colores, palabras, fotografías)..</div>
+                                        </div>
+                                        <div className="d-flex align-items-center pbp-10 w-100  "> 
+                                            <div className="d-inline wp-25 hp-25 border-style-solid border-1 border-color-dark bgc-white"></div>
+                                            <div className="d-inline f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Otra:</div>
+                                        </div>
+                                          <div className="psp-30 pep-5 msp-40 mtp--41 ">
+                                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-4 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                                          </div>
                                     </div>
                                 </div>
 
@@ -100,36 +143,17 @@ function Page049(props) {
 
 
   
-
-                <div className="d-flex   msp-80 msp-40">
-                    {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/g_i.svg" alt="" /> */}
-                      <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">3</div>
-                      <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">El texto que creará tendrá…</div>
-                      {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_047/img_001.svg" clasesImagen="hp-40 msp-30 text-center mtp-10 " className="p-0 px-0" /> */}
-                      {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/img_001.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
-                </div>
+                <div className="ptp-10 psp-60 mbp-0 contenedor-pagina">
+              
+              <div className="d-flex">
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/g_i.svg" alt="" /> */}
+                <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">3</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Realizo mi propuesta art stica y la guardo para nuestra fiesta.</div>
+                {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_047/img_001.svg" clasesImagen="hp-40 msp-30 text-center mtp-10 " className="p-0 px-0" /> */}
+                {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/img_001.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              </div>
+            </div>
  
-
-
-
-                <div className="row   container-row px-5 position-relative">
-                        <div className=" position-absolute top-0 start-100 translate-middle "><img className="hp-80 msp--250 mtp--50" src="images/page_047/img_007.png" alt="" /></div>
-                        <div className="col-sm-12 col-md-6   ">
-                            <div className="border-style-solid mtp-10 border-2 border-color-saitama rounded-p-10 hp-220 w-100 hp-190  ">
-                              <div className="f-pixilate-bold fsp-18  p-3 text-start color-saitama ">Personajes: </div>
-                            </div>
-                        </div>
-                        <div className="col-sm-12 col-md-6  position relative">
-                        <div className="espirales-creacion-47   position-absolute"><img src="images/page_047/img_006.png" className="w-45 " alt=""/></div>
-                            <div className="border-style-solid mtp-10 border-2 border-color-saitama rounded-p-10 hp-220 w-100 hp-190  ">
-                              <div className="f-pixilate-bold fsp-18  p-3 text-start color-saitama ">Ambiente/época: </div>
-                            </div>
-                        </div>
-
-                </div>
-
-
-
 
 
 

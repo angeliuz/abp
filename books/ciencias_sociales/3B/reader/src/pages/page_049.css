@@ -12,6 +12,22 @@
     margin: 0 auto;
   }
   
+
+  .espiral-calado-49{
+    background-image: url(images/page_049/espiral_espacio.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+  }
+  
+  .espiral-calado-2-49{
+    height:26px ;
+    background-image: url(images/page_049/espiral_espacio.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+
+
  
 @media (max-width: 760px) {
  

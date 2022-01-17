@@ -54,7 +54,7 @@ function Page048(props) {
                 </div>
        
 
-            <div className="d-flex w-90 position-relative mtp-20">
+            <div className="d-flex w-90 position-relative mtp-20 mbp-50">
 
                     <div className="position-absolute bottom-0 start-0 mtp--60 cuadroIndex-5 "> <img className="  hp-150 mtp--50 msp-30" src="images/page_048/img_004.png" alt="" /> </div>
                     <div className="position-absolute bottom-0 start-50 translate-middle-x mtp--60 cuadroIndex-5 "> <img className="  hp-215 msp-300 " src="images/page_048/img_003.png" alt="" />
@@ -96,7 +96,7 @@ function Page048(props) {
                   <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
                     ABP &copy; SM
                   </div>
-                  <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+                  <div className="bgc-goku wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
                 </div>
                 <div className="row position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{bottom:0}}>
 
