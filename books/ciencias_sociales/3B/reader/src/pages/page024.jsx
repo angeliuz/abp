@@ -163,7 +163,7 @@ function Page024(props) {
             </div>
 
             <div className="block-bottom">
-              <div className="d-flex pep-10">
+              <div className="d-flex justify-content-between pep-10">
                 <div className="block-bottom text-start mtp-30 f-pixilate-bold">
                   ¿Cómo me siento?
                 </div>
