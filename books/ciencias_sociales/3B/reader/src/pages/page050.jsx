@@ -31,7 +31,7 @@ function Page050(props) {
               <div className="d-flex">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/g_i.svg" alt="" /> */}
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">4</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Creo un boceto del stand cultural.</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Creo un boceto del <i>stand</i> cultural.</div>
                 {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_047/img_001.svg" clasesImagen="hp-40 msp-30 text-center mtp-10 " className="p-0 px-0" /> */}
                 {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/img_001.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               </div>
@@ -59,7 +59,7 @@ function Page050(props) {
 
                         <div className="position-absolute top-50 start-0 translate-middle-y  wp-260 mtp-20 msp-15 mep-20">
                             <div className="d-flex align-items-center  justify-content-between pbp-10 mt-3 w-100">
-                                <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Considero:</div>
+                                <div className="f-pixilate-bold msp-10 fsp-20 lh-sm pep-5 text-start">Considero:</div>
                                 <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white"></div>
                             </div>
                             <div className="d-flex align-items-center pbp-10 w-100">
