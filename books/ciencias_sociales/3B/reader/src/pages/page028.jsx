@@ -17,7 +17,7 @@ function Page028(props) {
         >
           <div className="cabecera-v1 hp-80 bgc-android18"></div>
 
-          <div className="row">
+          <div className="row ">
             <div className="col-6">
               <div className="ptp-10 container-titulo-global mbp-0">
                 <div className="d-flex">
@@ -38,15 +38,105 @@ function Page028(props) {
             </div>
 
             <div className="col-6 position-relative">
-            <img src="images/page_028/img_001.png" className=" wp-40 position-absolute top-0 start-50 translate-middle-x" alt="" />
-              <div className=" borde-28 mep-20 mtp-20 ">
-              
-              </div>
+              <img
+                src="images/page_028/img_001.png"
+                className=" wp-40 position-absolute top-0 start-50 translate-middle-x"
+                alt=""
+              />
+              <div className=" borde-28 mep-20 mtp-20 "></div>
             </div>
-            <div className="col-6"></div>
+
+            <div className="col-6 position-relative">
+              <img
+                src="images/page_028/img_001.png"
+                className=" wp-40 position-absolute top-0 start-50 translate-middle-x "
+                alt=""
+              />
+              <div className=" borde-28-1 mep-20 mtp-20 msp-20"></div>
+            </div>
+
+            <div className="col-6 position-relative">
+              <img
+                src="images/page_028/img_001.png"
+                className=" wp-40 position-absolute top-0 start-50 translate-middle-x"
+                alt=""
+              />
+              <div className=" borde-28-2 mep-20 mtp-30 "></div>
+            </div>
           </div>
 
-          <div className="row container-row m-0 psp-60 pep-60"></div>
+          <div className="row container-row m-0 psp-60 pep-60">
+            <div className="col-2"></div>
+
+            <div className="col-8 ptp-30">
+              <div className="borde-28-3 f-Ubuntu-R fsp-16 ptp-18 pbp-20 psp-10 pep-10 text-center">
+                Creamos afiches con nuestros eslóganes para mostrar en nuestra
+                Fiesta de la Diversidad.{" "}
+              </div>
+            </div>
+            <div className="col-2"></div>
+
+            <div className="ptp-10 container-titulo-global mbp-0">
+              <div className="d-flex">
+                <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">
+                  3
+                </div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                  Reflexiono sobre lo que aprendí acerca de la diversidad.
+                </div>
+              </div>
+            </div>
+
+            <div className="col-sm-12 col-md-4 mtp-20  position-relative">
+              <img
+                src="images/page_028/img_005.png"
+                className="top-0 start-50 translate-middle-x position-absolute w-80"
+                alt=""
+              />
+              <div className=" margen-21 mtp-30 mbp-80 w-100">
+                <div className=" w-100  borde-28-4 p-2  min-hp-400">
+                  <InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-390"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="col-sm-12 col-md-4 mtp-20  position-relative">
+              <img
+                src="images/page_028/img_006.png"
+                className="top-0 start-50 translate-middle-x position-absolute w-90"
+                alt=""
+              />
+              <div className=" margen-21 mtp-30 mbp-80 w-100">
+                <div className="w-100  borde-28-5 p-2 rounded-p-20 min-hp-400">
+                  <InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-390"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="col-sm-12 col-md-4 mtp-20  position-relative">
+              <img
+                src="images/page_028/img_007.png"
+                className="top-0 start-50 translate-middle-x position-absolute w-80"
+                alt=""
+              />
+              <div className=" mtp-30 mbp-80 w-100">
+                <div className="w-100  borde-28-6 p-2 rounded-p-20 min-hp-400">
+                  <InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-390"
+                  />
+                </div>
+              </div>
+            </div>
+
+
+          </div>
 
           {/* BEGIN PIE DE PAGINA */}
           <div
