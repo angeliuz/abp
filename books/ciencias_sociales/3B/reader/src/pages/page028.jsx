@@ -29,40 +29,7 @@ function Page028(props) {
             
             <div className="row container-row m-0 psp-60 pep-60">
 
-                <div className="col-md-12 col-lg-12 position-relative">
-                    <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp-25 visible-768"><img src="images/page_028/img_001.png" className="wp-50 " alt="" /></div>
-
-                    <div className="mbp-20 mtp-10 msp-20 mep-20">
-                        <div className="p-2 min-hp-100 border-style-solid border-2 rounded-p-10 border-color-lightDark">
-                            <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-start"> ¿Qué derecho o derechos son pasados a llevar en la situación planteada en la actividad anterior?</div>
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                        </div>
-                    </div>
-                </div>
-                <div className="col-12 justify-content-center mtp-10 mbp-70 psp-80 pep-80 pbp-50 position-relative">
-                    <div className="position-absolute top-50 start-0 translate-middle msp-40 mtp-25 visible-768"><img src="images/page_028/img_002.png" className="wp-40 " alt="" /></div>
-                    <div className="position-absolute top-50 start-100 translate-middle msp--40 mtp-220 visible-768"><img src="images/page_028/img_003.png" className="wp-70 " alt="" /></div>
-                    <div className="mx-4 p-2 rounded-p-10 bgc-betty">
-                        <div className="mx-3">
-                            <div className="color-dark f-Ubuntu-L ptp-10 pbp-10 psp-10 pep-10 text-start">¿Qué actitud debería adoptar cada personaje para que los derechos de todos sean respetados?</div>
-                            <div className="d-flex flex-column f-Ubuntu-L bgc-white psp-20 ptp-10 pbp-15 pep-20 rounded-p-10 text-start mbp-20"> 
-                                <span>El o la estudiante que ve que insultan a otro.</span>
-                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                            </div>
-                            <div className="d-flex flex-column f-Ubuntu-L bgc-white psp-20 ptp-10 pbp-15 pep-20 rounded-p-10 text-start mbp-20"> 
-                                <span>El o la estudiante que insulta.</span>
-                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                            </div>
-                            <div className="d-flex flex-column f-Ubuntu-L bgc-white psp-20 ptp-10 pbp-15 pep-20 rounded-p-10 text-start mbp-20"> 
-                                <span>El estudiante al que insultan.</span>
-                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                            </div>
-                        </div>
-                        
-                        
-                    </div>
-
-                </div>
+                
             </div>
 
                 {/* BEGIN PIE DE PAGINA */}
