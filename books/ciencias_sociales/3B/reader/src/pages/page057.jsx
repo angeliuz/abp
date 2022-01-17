@@ -1,11 +1,11 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
-import "./page_055.css";
+import "./page_057.css";
 
-function Page055(props) {
+function Page057(props) {
 
-  const pagina = "055";
+  const pagina = "057";
   var indexInput = 0;
 
   return (
@@ -20,78 +20,52 @@ function Page055(props) {
                   </div>
                 </div> 
                 {/* END CABECERA VERSIÓN 2 */}
-
-            <div className="ptp-10 psp-60 mbp-0 contenedor-pagina">
-              <div className="f-Ubuntu-B fsp-20 color-pikachu text-start lhp-20">Antes de partir…</div>
-              <div className="d-flex">
-                <div className="f-ccdigitaldelivery-bold fsp-35 color-pikachu">1</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Veo, leo y contesto.</div>
-                <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_002.jpg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
-                {/*<ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              </div>
-            </div>
-
-                  <div className="cb-contenedor-mail">
-                        <div className="cb-datos-mail pep-15 psp-10 ptp-10 pbp-10">
-                        <div className="d-flex mbp-5"> 
-                            <div className="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10 text-start">De:</div>
-                            <div className="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start">alejandra@mail.com </div>
+                <div className="ptp-10 psp-60 mbp-80 cb-padding">
+                    <div className="f-Ubuntu-R fsp-18 ptp-18 color-pikachu fw-700 text-start">Evalúo nuestra fiesta </div>  
+                        <div className="cb-contenedor-p57 mtp-20 mbp-20 justify-content-center pe-2 ps-2 pbp-15">
+                        <div className="bgc-white cb-block-2-p57 w-100 p-3 f-Ubuntu-L fsp-13 " >
+                            <img src="images/page_057/img_002.png" className="cb-sujetador-1" alt="" />   
+                            <p>Lo que mejor resultó de nuestra fiesta fue...</p>
+                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" /> 
                         </div>
-                        <div className="d-flex mbp-5">
-                            <div className="cb-datos-a psp-10 mep-10 text-start">Para:</div>
-                            <div className="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start">estudiantestercerobasico@correo.cl</div>
-                        </div>
-                        <div className="d-flex">
-                            <div className="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10 text-start">Asunto:</div>
-                            <div className="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start">Felicitaciones</div>
-                        </div>
-                        </div>
-                        <div className="cb-texto-mail">
-                            <div className="cb-carta-content f-Ubuntu-L text-start">
-                                <img src="images/page_055/img_002.png" className="cb-celular-p55" alt=""></img>
-                                <p>Estimados estudiantes, </p>
-                                <p>¡Felicitaciones! Con mucho orgullo quiero decirles que hemos llegado
-                                    al final de este proyecto. Ahora solo queda llevar a cabo la Fiesta de la
-                                    Diversidad Cultural. Han trabajado con mucho entusiasmo, el trabajo
-                                    en equipo que realizaron fue estupendo. Lograron enfrentar desafíos,
-                                    superar obstáculos y organizar una maravillosa Fiesta de la Diversidad.
-                                    Los invito a disfrutar de ella. ¡No olviden enviarme fotografías!</p>
-    
-                                <p>Saludos afectuosos</p>
-                                <p>Alejandra </p>                              
-                            </div>
-                        </div>
+                    <div className="bgc-white cb-block-p57 w-100 p-3 f-Ubuntu-L fsp-13  border-color-kitana border-4  position-relative" >
+                        <img src="images/page_057/img_002.png" className="cb-sujetador-2" alt="" />  
+                        <p>Creemos que nos faltó o pudimos mejorar… </p>
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" /> 
                     </div>
-                    <div className="ptp-10 psp-60 mbp-0 contenedor-pagina">
-              <div className="d-flex">
-                <div className="f-ccdigitaldelivery-bold fsp-35 color-pikachu">2</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Contesto el correo a Alejandra contándole mis expectativas sobre la feria.</div>
-              </div>
-            </div>
-            <div className="cb-contenedor-mail ">
-                        <div className="cb-datos-mail pep-15 psp-10 ptp-10 pbp-10">
-                        <div className="d-flex mbp-5"> 
-                            <div className="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10 text-start">De:</div>
-                            <div className="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start">estudiantestercerobasico@correo.cl</div>
-                        </div>
-                        <div className="d-flex mbp-5">
-                            <div className="cb-datos-a psp-10 mep-10 text-start">Para:</div>
-                            <div className="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start">alejandra@mail.com</div>
-                        </div>
-                        <div className="d-flex">
-                            <div className="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10 text-start">Asunto:</div>
-                            <div className="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start">RE: Felicitaciones</div>
+
+                </div>
+                <div className="d-flex">
+                    <div className="f-Ubuntu-R fsp-18 ptp-18 color-pikachu fw-700 text-start">Reflexiono sobre lo aprendido en este proyecto </div> 
+                </div> 
+                <div className="cb-contenedor-dos-p57 justify-content-center pe-2 ps-2 pbp-15">
+                    <div className="w-100 position-relative">
+                        <div className="bgc-kazuha cb-outline-p57 p-3 f-Ubuntu-L fsp-13 border-color-garou cb-caja1-p57" >
+                        <p>¿Qué aprendí?</p>
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />  
+                         </div>
+                         <div className="bgc-marcianos cb-outline-p57 p-3 f-Ubuntu-L fsp-13 border-color-garou cb-caja2-p57" >
+                         <p>¿Con quién aprendí?</p>
+                         <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" /> 
                         </div>
                         </div>
-                        <div className="cb-texto-mail mbp-90">
-                            <div className="cb-carta-content f-Ubuntu-L text-start">
-                                <img src="images/page_055/img_003.png" className="cb-mensajecelu-p55" alt=""></img>
-                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />               
-                            </div>
+                     <div className="w-100">
+                        <img src="images/page_057/img_003.png" className="cb-texto-nube" alt="" /> 
+                         <div className="bgc-sayu p-3 cb-outline-p57 f-Ubuntu-L fsp-13 border-color-garou cb-caja3-p57" >
+                         <p className="cb-psp">¿Cómo aprendí?</p>
+                         <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />  
+                         </div>
+                         <div className="bgc-windu  cb-outline-p57 p-3 f-Ubuntu-L fsp-13 border-color-garou cb-caja4-p57" >
+                             <p className="cb-psp2">¿Cómo me he sentido aprendiendo?</p>
+                             <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" /> 
                         </div>
-            </div>
+                    </div> 
+                 
+                 </div>
+                 </div>
+                  
                     
-                    
+                   {/* PIE DE PAGINA */} 
             <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
               <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
                 ABP &copy; SM
@@ -139,4 +113,4 @@ function Page055(props) {
   );
 }
 
-export default Page055;
+export default Page057;
