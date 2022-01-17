@@ -16,13 +16,100 @@ function Page026(props) {
           id={"page_" + pagina}
         >
           <div className="cabecera-v1 hp-80 bgc-android18"></div>
-          <div className="psp-60 ptp-20 pep-60">
+          <div className="psp-40 ptp-20 pep-40 pbp-80">
             <div className="d-flex">
               <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">
                 2
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-              Los derechos de la niñez que respetan y toleran la diversidad son...
+                Los derechos de la niñez que respetan y toleran la diversidad
+                son...
+              </div>
+            </div>
+            <div className="bgc-marronclaro p-2">
+              <div className="lines-a ajuste-lineas">
+                <div className="lines-b p-2">
+                  <div className="bgc-white rounded-p-20 hp-200 p-2">
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="d-flex ptp-20 pbp-20">
+              <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">
+                3
+              </div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                Completo.
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-6 col-12 position-relative">
+                <img
+                  src="images/page_026/img_004.png"
+                  className="position-absolute h-80 top-0 start-100 msp--15 mtp-60 hidden-res"
+                  alt=""
+                />
+                <img
+                  src="images/page_026/img_004_2.png"
+                  className="position-absolute h-20 top-100 start-50 mtp--5 msp--220 visible-res"
+                  alt=""
+                />
+                <div className="position-absolute top-100 start-50 mtp-10 msp--90 visible-res">
+                  <div className="bgc-white border-style-solid border-2 color-verder-26 rounded-p-10 p-1 f-pixilate-bold fsp-18 color-android18">
+                    Para qué puedo utilizar
+                  </div>
+                </div>
+                <div className="pbp-20 px-3 border-style-solid border-2 color-verder-26 rounded-p-20 ">
+                  <div className="f-pixilate-bold fsp-18 ptp-10">
+                    ¿Qué estoy aprendiendo?
+                  </div>
+                  <InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-420-r"
+                  />
+                </div>
+              </div>
+              <div className="col-md-1 col-12 espacio-esquema"></div>
+              <div className="col-md-5 col-12 display-responsive msp--8">
+                <div className="f-pixilate-bold fsp-18 color-android18 text-left position-absolute mtp--20 hidden-res">
+                  Para qué puedo utilizar
+                </div>
+                
+                <div className="col-md-12 col-4 espaciado">
+                  <div className="px-3 border-style-solid border-2 color-verder-26 rounded-p-20">
+                    <div className="f-pixilate-bold fsp-16 ptp-15">En la casa</div>
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120"
+                    />
+                  </div>
+                </div>
+                
+                <div className="col-md-12 col-4 espaciado">
+                  <div className="px-3 border-style-solid border-2 color-verder-26 rounded-p-20">
+                    <div className="f-pixilate-bold fsp-16 ptp-15">Con los amigos</div>
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120"
+                    />
+                  </div>
+                </div>
+               
+                <div className="col-md-12 col-4 espaciado">
+                  <div className="px-3 border-style-solid border-2 color-verder-26 rounded-p-20">
+                    <div className="f-pixilate-bold fsp-16 ptp-15">
+                      En la Fiesta de la Diversidad
+                    </div>
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
