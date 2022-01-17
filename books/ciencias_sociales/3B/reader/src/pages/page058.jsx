@@ -15,24 +15,24 @@ function Page058(props) {
                 {/* BEGIN CABECERA VERSIÓN 2 */}
                 <div className="cabecera-v1 hp-80 bgc-pikachu mbp-50"></div>
                 {/* END CABECERA VERSIÓN 2 */}
-                <div className="bgc-kokomi border-top border-color-pikachu border-1 pbp-90 position-relative ">
+                <div className="bgc-kokomi cb-border-pikachu  pbp-90 position-relative mtp-90">
                     <img src="images/page_058/img_001.png" className="cb-personaje-p58" alt="" />
                     <img src="images/page_058/img_002.png" className="cb-engranajes-p58" alt="" />
-                    <div className="cb-block-p58 mtp-30 f-pixilate-bold mbp-5 text-start">¿Cómo voy?</div>
+                    <div className="cb-block-p58 mtp-50 f-pixilate-bold mbp-5 text-start">¿Cómo voy?</div>
                     <div className=" cb-block-p58 p-2 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4 mbp-50"> 
 
                         <div className="flex-wrap w-100 text-start">
                             <img src="images/page_058/flecha.svg" className="hp-10 pep-5 mtp-5" />
                                 <span className="w-24 f-Ubuntu-L ">¿Qué tres cosas destaco de lo aprendido?</span> 
                                 <div className="pep-10 psp-10">
-                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
                                 </div>
                                         
                           </div>                                                                 
                     </div>
 {/* tabla */}
                     <div className="cb-contenedor-tabla-p58">
-              <div className="d-flex pep-10 ">
+              <div className="d-flex pep-10 justify-content-between">
                 <div className="block-bottom text-start mtp-30 f-pixilate-bold fsp-21">
                   ¿Cómo me sentí?
                 </div>

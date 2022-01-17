@@ -26,7 +26,7 @@ function Page059(props) {
                     </div>
                  {/* TABLA*/}
                     <div className="cb-contenedor-tabla-p58">
-              <div className="d-flex pep-10 ">
+              <div className="d-flex pep-10 justify-content-between">
                 <div className="block-bottom text-start mtp-30 f-pixilate-bold fsp-21">
                 ¿Cómo fue nuestro trabajo en equipo?
                 </div>
