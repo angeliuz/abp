@@ -1,6 +1,10 @@
-.borde-numero-30 {
-  border-radius: 10px 0px 20px 0px;
+.cb-page30 {
+  background: url(images/page_030/fondo_001.svg) top center/contain no-repeat;
+  background-size: cover, 100%;
+  -webkit-print-color-adjust: exact !important;
 }
-
-
+.caja-29{
+  background-color: #d1e6f7;
+  border-color: #009edc;
+}
 
