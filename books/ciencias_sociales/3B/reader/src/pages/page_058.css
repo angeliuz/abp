@@ -42,6 +42,9 @@
     top: -55px;
     width: 90px;
   }
+  .cb-border-pikachu{
+    border-top: 1px solid var(--pikachu);
+  }
 .cb-contenedor-tabla-texto{
   width: 100%;
   max-width: 400px;
