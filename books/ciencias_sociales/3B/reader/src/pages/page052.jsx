@@ -12,23 +12,48 @@ function Page052(props) {
     <div className="wrapper bgc-light">
         <div className="d-flex flex-column align-items-center pbp-20">
             <div className="ep-page52 page bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
-                <img src="images/page_052/img_001.png" className="" alt=""/>  
+                <div className="h-180 ptp-10">
+                <img src="images/page_052/img_001.png" className="hp-130 " alt=""/>  
+                </div>
 
-                <div className="position-relative w-100 mbp-40">
-                    <div className=" psp-80 pep-70 ptp-30 pbp-0 ">
-                        <div className="fsp-16 f-Ubuntu-B text-start psp-80 pbp-10">Esta página fue completada por:</div>
-                        <div className="psp-0 ptp-5 pbp-5 bgc-white rounded-p-10 border border-color-lightDark d-flex justify-content-center position-relative">
-                        <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-45 mtp--10"><img src="images/page_051/img_001.png" className="w-80" alt="" /></div>
-                        <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--50 mtp--10"><img src="images/page_051/img_002.png" className="wp-120" alt="" /></div>
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-start lhp-35 w-75" />
+                <div className="position-relative w-100 mbp-40 ">
+                    <div className=" psp-80 pep-70 pbp-0  ">
+                        <div className="row pbp-20">
+                            <div className="col-6 bgc-red">
+                            <div className="d-flex align-items-center position-relative justify-content-center pbp-10 mt-3 w-100">
+                            
+                       
+                            <div className="d-flex align-items-center hp-30 position-relative "><img src="images/page_052/img_010.svg" className="hp-120  " alt=""></img></div>
+                                <div className="position-absolute d-flex justify-content-center  top-50 start-50 translate-middle text-center f-Ubuntu-R fsp-15 "> ¡Solo nos queda preparar nuestra fiesta e invitar a la comunidad educativa!</div>                         
+                            </div>
+
+                               
+                     
+                            </div>
+                            <div className="col-6 bgc-aqua">
+                            <div className="d-flex align-items-center position-relative justify-content-center pbp-10 mt-3 w-100">
+                            
+                       
+                            <div className="d-flex align-items-center hp-30 position-relative "><img src="images/page_052/img_009.png" className="hp-200  " alt=""></img></div>
+                                <div className="position-absolute d-flex justify-content-center  top-50 start-50 translate-middle text-center f-Ubuntu-R fsp-15 ">     La fiesta será el día</div>                         
+                            </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
 
+<br/>
+<br/>
+<br/>
+<br/>
 
 
-                <div className="d-flex msp-60 mep-60 mbp-100">
+
+
+ 
+
+                <div className="d-flex msp-60 mep-60 mbp-20 mbp-100">
 
                     <div className="row m-0 p-2 w-100 ">
                         <div className="col-md-12 col-lg-12 position-relative">
