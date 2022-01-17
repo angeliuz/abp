@@ -1,6 +1,6 @@
 import React from "react";
 import InputBox from "../components/InputBox";
-import ModalVideo from "../components/ModalVideo";
+// import ModalVideo from "../components/ModalVideo";
 
 import "./page_039.css";
 
@@ -20,8 +20,8 @@ function Page039(props) {
                     <div className=" psp-80 pep-70 ptp-30 pbp-0 ">
                         <div className="fsp-16 f-Ubuntu-B text-start psp-0 pbp-10"> Esta página ha sido resuelta por</div>
                         <div className="psp-0 ptp-5 pbp-5 bgc-white rounded-p-10 border border-color-lightDark d-flex justify-content-center position-relative">
-                        <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 mtp-0"><img src="images/page_043/img_002.png" className="w-100" /></div>
-                        <div className="position-absolute top-50 start-100 translate-middle wp-100 msp-0 mtp-0"><img src="images/page_043/img_008.png" className="w-50" /></div>
+                        <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 mtp-0"><img src="images/page_043/img_002.png" className="w-100" alt="" /></div>
+                        <div className="position-absolute top-50 start-100 translate-middle wp-100 msp-0 mtp-0"><img src="images/page_043/img_008.png" className="w-50" alt="" /></div>
                             <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-start lhp-35 w-80" />
                         </div>
 
