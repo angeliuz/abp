@@ -54,6 +54,7 @@ import Page053 from "./pages/page053";
 import Page054 from "./pages/page054";
 import Page055 from "./pages/page055";
 import Page056 from "./pages/page056";
+import Page057 from "./pages/page057";
 
 
 
@@ -142,6 +143,7 @@ function App() {
       <Page054 numeroPagina={clearZeros} />
       <Page055 numeroPagina={clearZeros} />
       <Page056 numeroPagina={clearZeros} />
+      <Page057 numeroPagina={clearZeros} />
     </div>
   );
 }
