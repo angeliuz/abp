@@ -1,0 +1,129 @@
+.border-color-marron {
+  border-color: #ebd3ad;
+}
+.bgc-marronclaro {
+  background-color: #f4e5d3;
+}
+.lines-a {
+  background-image: repeating-linear-gradient(
+      60deg,
+      #ebd3ad,
+      #ebd3ad 3px,
+      transparent 3px,
+      transparent 7px,
+      #ebd3ad 7px
+    ),
+    repeating-linear-gradient(
+      150deg,
+      #ebd3ad,
+      #ebd3ad 3px,
+      transparent 3px,
+      transparent 7px,
+      #ebd3ad 7px
+    ),
+    repeating-linear-gradient(
+      240deg,
+      #ebd3ad,
+      #ebd3ad 3px,
+      transparent 3px,
+      transparent 7px,
+      #ebd3ad 7px
+    ),
+    repeating-linear-gradient(
+      330deg,
+      #ebd3ad,
+      #ebd3ad 3px,
+      transparent 3px,
+      transparent 7px,
+      #ebd3ad 7px
+    );
+  background-size: 3px 100%, 100% 3px, 3px 100%, 100% 3px;
+  background-position: 0 0, 0 0, 100% 0, 0 100%;
+  background-repeat: no-repeat;
+}
+.lines-b {
+  background-image: repeating-linear-gradient(
+      -60deg,
+      #ebd3ad,
+      #ebd3ad 3px,
+      transparent 3px,
+      transparent 7px,
+      #ebd3ad 7px
+    ),
+    repeating-linear-gradient(
+      30deg,
+      #ebd3ad,
+      #ebd3ad 3px,
+      transparent 3px,
+      transparent 7px,
+      #ebd3ad 7px
+    ),
+    repeating-linear-gradient(
+      120deg,
+      #ebd3ad,
+      #ebd3ad 3px,
+      transparent 3px,
+      transparent 7px,
+      #ebd3ad 7px
+    ),
+    repeating-linear-gradient(
+      210deg,
+      #ebd3ad,
+      #ebd3ad 3px,
+      transparent 3px,
+      transparent 7px,
+      #ebd3ad 7px
+    );
+  background-size: 3px 100%, 100% 3px, 3px 100%, 100% 3px;
+  background-position: 0 0, 0 0, 100% 0, 0 100%;
+  background-repeat: no-repeat;
+}
+.ajuste-lineas {
+  padding: 2px;
+}
+.min-hp-420-r {
+  min-height: 420px;
+}
+.color-verder-26 {
+  border-color: #95c11f;
+}
+.visible-res {
+  visibility: hidden;
+}
+.hidden-res {
+  visibility: visible;
+}
+.espacio-esquema {
+  height: 52px;
+}
+.display-responsive {
+  display: block;
+}
+@media (min-width: 768px) {
+  .espaciado {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .mtp-ajuste {
+      margin-top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .min-hp-420-r {
+    min-height: 200px;
+  }
+  .visible-res {
+    visibility: visible;
+  }
+  .hidden-res {
+    visibility: hidden;
+  }
+  .display-responsive {
+    display: flex;
+  }
+  .espaciado {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
