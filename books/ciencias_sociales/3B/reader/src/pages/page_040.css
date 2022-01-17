@@ -1,6 +1,153 @@
-.cb-page44 {
+.cb-page40 {
   background: url(images/page_040/fondo_001.svg) no-repeat;
   background-size: cover !important;
   background-position: center !important;
   -webkit-print-color-adjust: exact !important;
+}
+
+.linea-separa {
+  border-top: 2px var(--pidgey) solid;
+}
+
+.linea-separa-int {
+  border-top: 1px var(--pantro) solid;
+}
+
+.espirales-creacion-40{
+  height: auto;
+  width: 160px;
+  margin-top: 70px;
+  margin-left: -93px;
+  /* visibility: visible; */
+}
+
+@media (max-width: 767px) {
+  .espirales-creacion-40{
+    transform: rotate(90deg);
+    height: auto;
+    width: 160px;
+    margin-top: -50px;
+    margin-left: calc(50% - 90px);
+  }
+
+  .espacio{
+    margin-top: 20px;
+  }
+}
+
+.caja-uno {
+  max-width: 135px;
+  height: 35px;
+  transform: rotate(-10deg);
+}
+.centrar-hor {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+.color-papel {
+  color: #ece7d8;
+}
+.bgc-color-papel {
+  background-color: #ece7d8;
+}
+.border-color-papel {
+  border-color: #afa394;
+}
+.flecha-bulma {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7px 0 7px 10px;
+  border-color: transparent transparent transparent var(--ken);
+}
+.min-hp-135 {
+  min-height: 135px;
+}
+
+@media (min-width: 768px) {
+.border-derecha {
+  border-color: var(--goten);
+  border: 1px solid #ff0000;
+  border-style: dashed;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-left: none !important;
+}
+.pep-50-r {
+  padding-right: 50px;
+}
+.marco-inferior {
+  z-index: 1;
+}
+.visible-res {
+  visibility: hidden;
+}
+.psp-40-r {
+  padding-left: 40px;
+}
+.psp-30-r {
+  padding-left: 30px;
+}
+.nunca {
+  font-size: 16px;
+  min-width: 50px;
+}
+.siempre {
+  font-size: 16px;
+  min-width: 70px;
+}
+.tf-mono {
+  display: flex;
+  position: absolute;
+  right: 30px;
+  bottom: 40px;
+  z-index: 1;
+}
+.mtp--30-r {
+  margin-top: -30px;
+}
+}
+@media (max-width: 768px) {
+  .border-derecha {
+    border-color: var(--goten);
+    border: 1px solid #ff0000;
+    border-style: dashed;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+  }
+  .ajuste-anillos {
+    margin-top: 50px;
+  }
+  .visible-res {
+    visibility: visible;
+  }
+  .pep-50-r {
+    padding-right: 0px;
+  }
+  .psp-40-r {
+    padding-left: 20px;
+  }
+  .psp-30-r {
+    padding-left: 15px;
+  }
+  .nunca {
+    font-size: 14px;
+    min-width: 20px;
+  }
+  .siempre {
+    font-size: 14px;
+    min-width: 60px;
+  }
+  .tf-mono {
+    display: flex;
+    position: absolute;
+    visibility: hidden;
+    right: 30px;
+    bottom: 40px;
+    z-index: 1;
+  }
+  .mtp--30-r {
+    margin-top: -45px;
+  }
 }
