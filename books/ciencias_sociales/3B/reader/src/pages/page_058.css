@@ -1,118 +1,133 @@
-.cb-page58 {
-  background: url(images/page_058/Fondo_001.svg) top center/cover no-repeat;
-  width: 100% !important;
-  height: 100% !important;
-  -webkit-print-color-adjust: exact !important;
-}
-.cb-inicio {
-  margin-bottom: 60px;
-}
-.linea {
-  border-bottom: 1px dashed #dedede;
-  padding-top: 5px;
-  border-color: var(--dark);
-  min-width: 55px;
-}
-.style-text {
-  font-size: 16px;
-  font-family: Ubuntu-M, sans-serif;
-  text-align: center !important;
-}
-.style-caja {
-  font-size: 16px;
-  text-align: center !important;
-  color: #fff;
-}
-.style-caja-2 {
-  font-size: 16px;
-  text-align: center !important;
-  color: #fff;
-  min-width: 55px;
-}
-.lca {
-  border-top: 1px solid;
-  border-left: 1px solid;
-  border-right: 1px solid;
-  color: white !important;
-}
-.parrafo-caja {
-  font-size: 13px;
-  text-align: left !important;
-  color: #000 !important;
-  font-family: ubuntu-l, sans-serif;
-  background-color: #c7e8f0;
-  width: 335px;
-  padding-left: 8px;
-}
-.tf-tablet {
-  display: flex;
-  position: absolute;
-  right: 40px;
-  top: 5px;
-  z-index: 1;
-  height: 80px;
-}
-.tf-binoculares {
-  display: flex;
-  position: absolute;
-  left: 55px;
-  top: 255px;
-  z-index: 1;
-  height: 60px;
-}
-.tf-lapiz {
-  display: flex;
-  position: absolute;
-  right: 50px;
-  top: 420px;
-  z-index: 1;
-  height: 90px;
-}
-.tf-ojo {
-  display: flex;
-  position: absolute;
-  left: 60px;
-  top: 530px;
-  z-index: 1;
-  height: 60px;
-}
-.tf-persona {
-  display: flex;
-  position: absolute;
-  right: 40px;
-  bottom: 15px;
-  z-index: 1;
-  height: 180px;
+
+  .cb-pad{
+    padding-left: 6%;
+    padding-right: 6%
   }
-  .tf-metro {
-    display: flex;
-    position: absolute;
-    left: 35px;
-    bottom: 30px;
-    z-index: 1;
-    height: 80px;
-    }
 
-.ra-pe {
-  padding-right: 5%;
+.cb-block-p58 {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
 }
-.ra-ps {
-  padding-left: 5%;
-}
-.rf-pep {
-  padding-right: 10%;
-}
-.rf-psp {
-  padding-left: 10%;
+.cb-block2-p58 {
+  max-width: 200px;
+  width: calc(100% - 30px);
+  align-items: start;
+  justify-content: start;
+  display: flex;
+   position: absolute;
 }
 
-@media all and (max-width: 800px) {
-  .tf-persona {
-    display: flex;
+.rounded-caja {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color:var(--lightDark);
+}
+
+.cb-personaje-p58{
     position: absolute;
-    right: 30px;
-    bottom: 20px;
-    z-index: 1;
-    height: 140px;
-    }
+    right: 55px;
+    top: -106px;
+    transform: rotate(1grad);
+    width: 190px;
+  }
+  .cb-engranajes-p58{
+    position: absolute;
+    left: 55px;
+    top: -55px;
+    width: 90px;
+  }
+.cb-contenedor-tabla-texto{
+  width: 100%;
+  max-width: 400px;
+  padding-right: 10px;
+}
+
+.cb-contenedor-tabla-p58{
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  width: calc(100% - 60px);
+}
+.flecha-bulma {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7px 0 7px 10px;
+  border-color: transparent transparent transparent var(--pikachu);
+}
+.min-hp-135 {
+  min-height: 135px;
+}
+
+@media (min-width: 768px) {
+.border-derecha {
+  border-color: var(--goten);
+  border: 1px solid #ff0000;
+  border-style: dashed;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-left: none !important;
+}
+.pep-50-r {
+  padding-right: 50px;
+}
+.marco-inferior {
+  z-index: 1;
+}
+.visible-res {
+  visibility: hidden;
+}
+.psp-40-r {
+  padding-left: 40px;
+}
+.psp-30-r {
+  padding-left: 30px;
+}
+.nunca {
+  font-size: 16px;
+  min-width: 50px;
+}
+.siempre {
+  font-size: 16px;
+  min-width: 70px;
+}
+}
+@media (max-width: 768px) {
+  .border-derecha {
+    border-color: var(--goten);
+    border: 1px solid #ff0000;
+    border-style: dashed;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+  }
+  .ajuste-anillos {
+    margin-top: 50px;
+  }
+  .visible-res {
+    visibility: visible;
+  }
+  .pep-50-r {
+    padding-right: 0px;
+  }
+  .psp-40-r {
+    padding-left: 20px;
+  }
+  .psp-30-r {
+    padding-left: 15px;
+  }
+  .nunca {
+    font-size: 14px;
+    min-width: 20px;
+  }
+  .siempre {
+    font-size: 14px;
+    min-width: 60px;
+  }
 }
