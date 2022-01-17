@@ -152,9 +152,10 @@ function Page018(props) {
               </div>
             </div>
             <div className=" pep-50-r">
-              <div className="d-flex pep-10 ">
+            <div className="cb-contenedor-tabla-p16">
+              <div className="d-flex pep-10 justify-content-between">
                 <div className="block-bottom text-start mtp-30 f-pixilate-bold fsp-21">
-                  ¿Cómo vamos?
+                  ¿Cómo me sentí?
                 </div>
                 <div className="d-flex flex-row-reverse block-bottom mtp-30">
                   <div className="nunca f-pixilate-regular">Núnca</div>
@@ -165,14 +166,58 @@ function Page018(props) {
               </div>
               <div className="psp-15 pep-20 f-Ubuntu-L bgc-white fsp-13 rounded-set-10 ">
                 <div className="d-flex justify-content-between ">
-                  <div className="d-flex mnwp-400-r">
+                  <div className="d-flex mnwp-400-r cb-contenedor-tabla-texto">
                     <div className="flecha-bulma pep-10 mtp-8"></div>
                     <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
-                      Nos implicamos en la realización de la tarea y nos
-                      responsabilizamos del trabajo que tenemos que hacer.
+                    Nos implicamos en la realización de la tarea y nos responsabilizamos del trabajo que tenemos que hacer.
                     </span>
                   </div>
-                  <div className="d-flex flex-row-reverse block-bottom ptp-5">
+                  <div className="d-flex flex-row-reverse block-bottom ptp-5 pbp-5 align-items-center">
+                    <div className="psp-30-r">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                    <div className="psp-40-r">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                    <div className="psp-40-r">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                    <div className="">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="ptp-2"></div>
+              <div className="psp-15 pep-20 f-Ubuntu-L bgc-white fsp-13 ">
+                <div className="d-flex justify-content-between ">
+                  <div className="d-flex mnwp-400-r cb-contenedor-tabla-texto">
+                    <div className="flecha-bulma pep-10 mtp-8"></div>
+                    <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
+                    Ante una petición de apoyo de alguien del grupo, intentamos ayudar antes de preguntarle al profesor.
+                    </span>
+                  </div>
+                  <div className="d-flex flex-row-reverse block-bottom ptp-5 pbp-5 align-items-center">
                     <div className="psp-30-r">
                       <div className="cuadrado borde-cuadrado">
                         <InputBox
@@ -211,14 +256,13 @@ function Page018(props) {
               <div className="ptp-2"></div>
               <div className="psp-15 pep-20 f-Ubuntu-L bgc-white fsp-13">
                 <div className="d-flex justify-content-between ">
-                  <div className="d-flex mnwp-400-r">
+                  <div className="d-flex mnwp-400-r cb-contenedor-tabla-texto">
                     <div className="flecha-bulma pep-10 mtp-8"></div>
                     <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
-                      Ante una petición de apoyo de alguien del grupo,
-                      intentamos ayudar antes de preguntarle al profesor.
+                    Respetamos el turno de la palabra.
                     </span>
                   </div>
-                  <div className="d-flex flex-row-reverse block-bottom ptp-5">
+                  <div className="d-flex flex-row-reverse block-bottom ptp-5 pbp-5 align-items-center">
                     <div className="psp-30-r">
                       <div className="cuadrado borde-cuadrado">
                         <InputBox
@@ -255,61 +299,15 @@ function Page018(props) {
                 </div>
               </div>
               <div className="ptp-2"></div>
-              <div className="psp-15 pep-20 f-Ubuntu-L bgc-white fsp-13">
+              <div className="psp-15 pep-20 f-Ubuntu-L bgc-white fsp-13 pbp-30">
                 <div className="d-flex justify-content-between ">
-                  <div className="d-flex mnwp-400-r">
+                  <div className="d-flex mnwp-400-r cb-contenedor-tabla-texto">
                     <div className="flecha-bulma pep-10 mtp-8"></div>
                     <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
-                      Respetamos el turno de la palabra.
+                    Llegamos a acuerdos y decisiones compartidas después de que cada uno da su opinión.
                     </span>
                   </div>
-                  <div className="d-flex flex-row-reverse block-bottom ptp-5">
-                    <div className="psp-30-r">
-                      <div className="cuadrado borde-cuadrado">
-                        <InputBox
-                          id={"p" + pagina + "_input" + (indexInput += 1)}
-                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                        />
-                      </div>
-                    </div>
-                    <div className="psp-40-r">
-                      <div className="cuadrado borde-cuadrado">
-                        <InputBox
-                          id={"p" + pagina + "_input" + (indexInput += 1)}
-                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                        />
-                      </div>
-                    </div>
-                    <div className="psp-40-r">
-                      <div className="cuadrado borde-cuadrado">
-                        <InputBox
-                          id={"p" + pagina + "_input" + (indexInput += 1)}
-                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="cuadrado borde-cuadrado">
-                        <InputBox
-                          id={"p" + pagina + "_input" + (indexInput += 1)}
-                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="ptp-2"></div>
-              <div className="psp-15 pep-20 f-Ubuntu-L bgc-white fsp-13 rounded-seb-10 pbp-20">
-                <div className="d-flex justify-content-between ">
-                  <div className="d-flex mnwp-400-r">
-                    <div className="flecha-bulma pep-10 mtp-8"></div>
-                    <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
-                      Llegamos a acuerdos y decisiones compartidas después de
-                      que cada uno da su opinión.
-                    </span>
-                  </div>
-                  <div className="d-flex flex-row-reverse block-bottom ptp-5">
+                  <div className="d-flex flex-row-reverse block-bottom ptp-5 pbp-5 align-items-center">
                     <div className="psp-30-r">
                       <div className="cuadrado borde-cuadrado">
                         <InputBox
@@ -346,6 +344,7 @@ function Page018(props) {
                 </div>
               </div>
               <img src="images/page_018/img_004T.png" className="hp-200 tf-mono" alt="" />
+            </div>
             </div>
 
           </div>
