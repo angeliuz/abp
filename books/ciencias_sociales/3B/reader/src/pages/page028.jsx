@@ -16,20 +16,33 @@ function Page028(props) {
           id={"page_" + pagina}
         >
           <div className="cabecera-v1 hp-80 bgc-android18"></div>
-          <div className="ptp-10 container-titulo-global mbp-0">
-            <div className="d-flex">
-              <img
-                className="hp-20 align-center mt-3 me-2 mb-2"
-                src="images/page_028/img_001.svg"
-                alt=""
-              />
-              <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">
-                2
-              </div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Creamos tres eslóganes o lemas sobre el valor de la diversidad.
+
+          <div className="row">
+            <div className="col-6">
+              <div className="ptp-10 container-titulo-global mbp-0">
+                <div className="d-flex">
+                  <img
+                    className="hp-20 align-center mt-3 me-2 mb-2"
+                    src="images/page_028/img_001.svg"
+                    alt=""
+                  />
+                  <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">
+                    2
+                  </div>
+                  <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                    Creamos tres eslóganes o lemas sobre el valor de la
+                    diversidad.
+                  </div>
+                </div>
               </div>
             </div>
+
+            <div className="col-6">
+              <div className=" borde-28 border-style-solid"></div>
+            </div>
+
+
+
           </div>
 
           <div className="row container-row m-0 psp-60 pep-60"></div>

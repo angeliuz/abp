@@ -58,7 +58,7 @@ function Page035(props) {
                   <div className="w-100 rounded-p-10 bgc-jaga p-2 m-0 position-relative">
                     <div className="position-absolute top-0 start-0">
                       <img src="images/page_035/pincho.png" className="hp-55" alt=""/>
-                      <div className="mtp--37 msp-25 color-white f-hanoded-butterflyball fsp-18 rota">Pregunta 1</div>
+                      <div className="mtp--37 msp-25 color-white f-hanoded-butterflyball fsp-18 rota_p35">Pregunta 1</div>
                     </div>
                     <div className="w-100 rounded-p-10 bgc-white p-3 m-0">
                       <div className="f-Ubuntu-L fsp-15 text-start ptp-30">Resultados:</div>
@@ -76,7 +76,7 @@ function Page035(props) {
                   <div className="w-100 rounded-p-10 bgc-jaga p-2 m-0 position-relative">
                     <div className="position-absolute top-0 start-0">
                       <img src="images/page_035/pincho.png" className="hp-55" alt=""/>
-                      <div className="mtp--37 msp-25 color-white f-hanoded-butterflyball fsp-18 rota">Pregunta 2</div>
+                      <div className="mtp--37 msp-25 color-white f-hanoded-butterflyball fsp-18 rota_p35">Pregunta 2</div>
                     </div>
                     <div className="w-100 rounded-p-10 bgc-white p-3 m-0">
                       <div className="f-Ubuntu-L fsp-15 text-start ptp-30">Resultados:</div>
@@ -90,7 +90,7 @@ function Page035(props) {
                   <div className="w-100 rounded-p-10 bgc-jaga p-2 m-0 position-relative">
                     <div className="position-absolute top-0 start-0">
                       <img src="images/page_035/pincho.png" className="hp-55" alt=""/>
-                      <div className="mtp--37 msp-25 color-white f-hanoded-butterflyball fsp-18 rota">Pregunta 3</div>
+                      <div className="mtp--37 msp-25 color-white f-hanoded-butterflyball fsp-18 rota_p35">Pregunta 3</div>
                     </div>
                     <div className="w-100 rounded-p-10 bgc-white p-3 m-0">
                       <div className="f-Ubuntu-L fsp-15 text-start ptp-30">Resultados:</div>

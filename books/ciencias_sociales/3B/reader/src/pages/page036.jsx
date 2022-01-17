@@ -22,7 +22,7 @@ function Page036(props) {
                     <div className="w-100 rounded-p-10 bgc-jaga p-2 m-0 position-relative">
                       <div className="position-absolute top-0 start-0">
                         <img src="images/page_036/pincho.png" className="hp-55" alt=""/>
-                        <div className="mtp--37 msp-25 color-white f-hanoded-butterflyball fsp-18 rota">Pregunta 4</div>
+                        <div className="mtp--37 msp-25 color-white f-hanoded-butterflyball fsp-18 rota_p36">Pregunta 4</div>
                       </div>
                       <div className="w-100 rounded-p-10 bgc-white p-3 m-0">
                         <div className="f-Ubuntu-L fsp-15 text-start ptp-30">Resultados:</div>
@@ -36,7 +36,7 @@ function Page036(props) {
                     <div className="w-100 rounded-p-10 bgc-jaga p-2 m-0 position-relative">
                       <div className="position-absolute top-0 start-0">
                         <img src="images/page_036/pincho.png" className="hp-55" alt=""/>
-                        <div className="mtp--37 msp-25 color-white f-hanoded-butterflyball fsp-18 rota">Pregunta 5</div>
+                        <div className="mtp--37 msp-25 color-white f-hanoded-butterflyball fsp-18 rota_p36">Pregunta 5</div>
                       </div>
                       <div className="w-100 rounded-p-10 bgc-white p-3 m-0">
                         <div className="f-Ubuntu-L fsp-15 text-start ptp-30">Resultados:</div>
