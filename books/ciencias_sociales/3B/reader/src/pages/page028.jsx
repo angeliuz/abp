@@ -68,8 +68,13 @@ function Page028(props) {
           <div className="row container-row m-0 psp-60 pep-60">
             <div className="col-2"></div>
 
-            <div className="col-8 ptp-30">
-              <div className="borde-28-3 f-Ubuntu-R fsp-16 ptp-18 pbp-20 psp-10 pep-10 text-center">
+            <div className="col-8 ptp-30 position-relative">
+            <img
+                src="images/page_028/img_003.png"
+                className=" hoja-28 position-absolute top-50 start-0 translate-middle"
+                alt=""
+              />
+              <div className="borde-28-3 f-Ubuntu-R fsp-16 ptp-18 pbp-20 psp-20 pep-20 text-center">
                 Creamos afiches con nuestros eslóganes para mostrar en nuestra
                 Fiesta de la Diversidad.{" "}
               </div>
@@ -90,7 +95,7 @@ function Page028(props) {
             <div className="col-sm-12 col-md-4 mtp-20  position-relative">
               <img
                 src="images/page_028/img_005.png"
-                className="top-0 start-50 translate-middle-x position-absolute w-80"
+                className=" rotulo-28 top-0 start-50 translate-middle-x position-absolute w-80"
                 alt=""
               />
               <div className=" margen-21 mtp-30 mbp-80 w-100">
@@ -106,7 +111,7 @@ function Page028(props) {
             <div className="col-sm-12 col-md-4 mtp-20  position-relative">
               <img
                 src="images/page_028/img_006.png"
-                className="top-0 start-50 translate-middle-x position-absolute w-90"
+                className="rotulo-28 top-0 start-50 translate-middle-x position-absolute w-90"
                 alt=""
               />
               <div className=" margen-21 mtp-30 mbp-80 w-100">
@@ -122,7 +127,7 @@ function Page028(props) {
             <div className="col-sm-12 col-md-4 mtp-20  position-relative">
               <img
                 src="images/page_028/img_007.png"
-                className="top-0 start-50 translate-middle-x position-absolute w-80"
+                className="rotulo-28 top-0 start-50 translate-middle-x position-absolute w-80"
                 alt=""
               />
               <div className=" mtp-30 mbp-80 w-100">
