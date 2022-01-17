@@ -44,7 +44,7 @@ function Page030(props) {
                 </div>
               </div>
 
-              <div className="col-sm-12 col-md-6 col-lg-6 position-relative margen-30">
+              <div className="col-sm-12 col-md-6 col-lg-6 position-relative ">
                 <div className="caja-30-2  mbp-20 mtp-100 p-2 w-100 border-style-solid  bgc-white position-relative">
                   <div className="position-absolute top-0 end-0 mtp--30">
                     <img

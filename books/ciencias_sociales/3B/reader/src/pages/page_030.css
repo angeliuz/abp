@@ -23,8 +23,3 @@
   border-color: transparent transparent transparent #afca0b;
 }
 
-@media (min-width: 767px) {
-  .margen-30{
-    margin-top: 20px;
-  }
-}
