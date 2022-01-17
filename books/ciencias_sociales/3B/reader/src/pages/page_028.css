@@ -1,0 +1,9 @@
+.borde-28 {
+    border-color: gray;
+    border-width: 1px;
+    height: 200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: rotate(3deg);
+
+}
+
