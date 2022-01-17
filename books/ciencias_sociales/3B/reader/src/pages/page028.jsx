@@ -37,12 +37,13 @@ function Page028(props) {
               </div>
             </div>
 
-            <div className="col-6">
-              <div className=" borde-28 border-style-solid"></div>
+            <div className="col-6 position-relative">
+            <img src="images/page_028/img_001.png" className=" wp-40 position-absolute top-0 start-50 translate-middle-x" alt="" />
+              <div className=" borde-28 mep-20 mtp-20 ">
+              
+              </div>
             </div>
-
-
-
+            <div className="col-6"></div>
           </div>
 
           <div className="row container-row m-0 psp-60 pep-60"></div>
