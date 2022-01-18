@@ -45,8 +45,19 @@
 .wp-40-res {
   width: 40px;
 }
-.invisible-768 {
-  visibility: hidden;
+.mtp-8 {
+  margin-top: 8px;
+}
+.psp-30-r {
+  padding-left: 30px;
+}
+.psp-40-r {
+  padding-left: 40px;
+}
+.border-solo-top {
+  border-bottom: none !important;
+  border-left: none !important;
+  border-right: none !important;
 }
 .cuadrado {
   width: 30px;
@@ -55,9 +66,96 @@
 .borde-cuadrado {
   border: 1px solid #55524f;
 }
-
-@media all and (max-width: 767px) {
-  .invisible-768 {
-    visibility: visible;
+.nunca {
+  font-size: 16px;
+  min-width: 50px;
+}
+.siempre {
+  font-size: 16px;
+  min-width: 70px;
+}
+.mnwp-300-r {
+  min-width: 300px;
+}
+.mnwp-400-r {
+  min-width: 400px;
+}
+.ptp-2 {
+  padding-top: 2px;
+}
+@media (min-width: 767px) {
+  .border-pidgey {
+    border-style: solid;
+    border-top: none !important;
+    border-left: none !important;
+    border-color: var(--tshinhan);
+    border-width: 1px !important;
+  }
+  .border-pikachu {
+    border-style: solid;
+    border-top: none !important;
+    border-right: none !important;
+    border-color: var(--tshinhan);
+    border-width: 1px !important;
+  }
+  .border-goten {
+    border-style: solid;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-color: var(--tshinhan);
+    border-width: 1px !important;
+  }
+  .border-balrog {
+    border-bottom: none !important;
+    border-right: none !important;
+    border-style: solid;
+    border-color: var(--tshinhan);
+    border-width: 1px !important;
+  }
+}
+@media (max-width: 767px) {
+  .border-pidgey {
+    border-style: solid;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-color: var(--tshinhan);
+    border-width: 2px !important;
+  }
+  .border-pikachu {
+    border-style: solid;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-color: var(--tshinhan);
+    border-width: 2px !important;
+  }
+  .border-goten {
+    border-style: solid;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-right: none !important;
+    border-left: none !important;
+  }
+  .border-balrog {
+    border-style: solid;
+    border-bottom: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-color: var(--tshinhan);
+    border-width: 2px !important;
+  }
+}
+  @media (max-width: 800px) {
+  .mnwp-400-r {
+    min-width: 40%;
+  }
+  .nunca {
+    font-size: 16px;
+    min-width: 50px;
+  }
+  .siempre {
+    font-size: 16px;
+    min-width: 70px;
   }
 }
