@@ -1,0 +1,15 @@
+.bgc-planificacion {
+    background: url(../pages/images/generales/fondo_e2.svg) #F29205 top left/ cover no-repeat !important;
+     -webkit-print-color-adjust: exact !important;
+  
+  }
+  .t-shadow-planificacion{
+     text-shadow: -7px -8px #D55F2A;
+  }
+  
+  @media all and (max-width: 500px) {
+  
+     .ft-m {
+         font-size: 50px;
+      }
+  }

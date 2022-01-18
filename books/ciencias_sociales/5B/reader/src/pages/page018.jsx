@@ -102,14 +102,14 @@ function Page018(props) {
                                                 Siempre</td>
                                         </tr>
                                         <tr>
-                                            <td className="tf-parrafo-caja border-style-solid border-1 border-color-tabla-18">El ambiente de trabajo en mi equipo es agradable.</td>
+                                            <td className="bgc-piccolo text-start psp-5 pep-5 border-style-solid border-1 border-color-tabla-18">El ambiente de trabajo en mi equipo es agradable.</td>
                                             <td className="border-style-solid border-1 border-color-tabla-18"></td>
                                             <td className="border-style-solid border-1 border-color-tabla-18"></td>
                                             <td className="border-style-solid border-1 border-color-tabla-18"></td>
                                             <td className="border-style-solid border-1 border-color-tabla-18"></td>
                                         </tr>
                                         <tr>
-                                            <td className="tf-parrafo-caja border-style-solid border-1 border-color-tabla-18">Estoy muy contento de trabajar en este proyecto.</td>
+                                            <td className="bgc-piccolo text-start psp-5 pep-5  border-style-solid border-1 border-color-tabla-18">Estoy muy contento de trabajar en este proyecto.</td>
                                             <td className="border-style-solid border-1 border-color-tabla-18"></td>
                                             <td className="border-style-solid border-1 border-color-tabla-18"></td>
                                             <td className="border-style-solid border-1 border-color-tabla-18"></td>

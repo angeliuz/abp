@@ -1,0 +1,19 @@
+.padding-box-42-1{
+    padding-right: 20%;
+    padding-left: 0px;
+}
+.padding-box-42-2{
+    padding-right: 20px;
+    padding-left: 20%;
+}
+
+@media (max-width: 768px) {
+    .padding-box-42-1{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .padding-box-42-2{
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
