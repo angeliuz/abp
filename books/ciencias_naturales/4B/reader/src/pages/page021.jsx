@@ -1,8 +1,8 @@
 import React from "react";
-import "./page_021.css";
+import "./page_023.css";
 
-function Page021(props) {
-  const pagina = "021";
+function Page023(props) {
+  const pagina = "023";
   var indexInput = 0;
 
 
@@ -27,4 +27,4 @@ function Page021(props) {
   );
 }
 
-export default Page021;
+export default Page023;
