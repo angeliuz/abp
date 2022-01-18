@@ -25,7 +25,7 @@
   display: inline-block;
 }
 
-@media all and (min-width: 767px) {
+@media all and (min-width: 680px) {
   .diline-res {
     display: flex;
     flex-direction: row;
