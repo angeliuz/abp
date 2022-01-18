@@ -1,12 +1,4 @@
-.cb-page20 {
-  background: url(images/page_020/fondo_001.svg) top center/cover no-repeat;
-  width: 100% !important;
-  height: 100% !important;
-  -webkit-print-color-adjust: exact !important;
-}
-.cb-inicio {
-  margin-bottom: 60px;
-}
+
 
 /* Agregado Aldo */
 .tf-Ubuntu-L {
@@ -125,10 +117,7 @@
     z-index: 1;
 }
 @media all and (max-width: 765px) {
-    .cb-page20 {
-        background: url(images/page_020/fondo_001.svg) top center/cover no-repeat !important;
-        -webkit-print-color-adjust: exact !important;
-    }
+
   .ra-pe {
     padding-right: 15px;
   }
