@@ -2,11 +2,11 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 
-import "./page_059.css";
+import "./page_060.css";
 
-function Page059(props) {
+function Page060(props) {
 
-  const pagina = "059";
+  const pagina = "060";
   var indexInput = 0;
 
   return (
@@ -33,7 +33,7 @@ function Page059(props) {
             </div>
 
           <div className="d-flex msp-60 mep-60 mbp-100">
-            <div className="row m-0 p-1 bgc-honda rounded-p-20 w-100">
+            <div className="row m-0 p-1 bgc-motaro rounded-p-20 w-100">
 
                 <div className="col-12   p-2">
                         <div className="p-1   w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
@@ -146,4 +146,4 @@ function Page059(props) {
   );
 }
 
-export default Page059;
+export default Page060;

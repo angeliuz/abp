@@ -32,8 +32,8 @@ function Page059(props) {
               </div>
             </div>
 
-          <div className="d-flex msp-60 mep-60 mbp-100">
-            <div className="row m-0 p-1 bgc-honda rounded-p-20 w-100">
+          <div className="d-flex msp-60 mep-60">
+            <div className="row m-0 p-1 bgc-motaro rounded-p-20  w-100">
 
                 <div className="col-12   p-2">
                         <div className="p-1   w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
@@ -79,20 +79,26 @@ function Page059(props) {
                         </div>
                 </div>
             </div>
-          </div>        
+          </div>  
+                
+          <div className="row ptp--10">
+            <div className="col">
+                <div className="  psp-60 pep-60 mbp-55">
+                  
+                    <div className="d-flex">
+                    {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_045/g_i.svg" alt="" /> */}
+                      <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">2</div>
+                      <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Recorto y armo mi credencial de brigadista.</div>
+                        {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> */}
+                          <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_059/img_005.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />  
+                    </div>
+                  </div>
 
-
-
-          <div className="ptp--10 mtp--50 psp-60 pep-60 mbp-0">
-             
-              <div className="d-flex">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_045/g_i.svg" alt="" /> */}
-                <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">2</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Recorto y armo mi credencial de brigadista.</div>
-                  {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> */}
-                    <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_059/img_005.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />  
-              </div>
             </div>
+          </div>
+
+
+
 
 
 
