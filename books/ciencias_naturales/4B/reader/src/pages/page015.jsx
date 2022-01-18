@@ -27,7 +27,7 @@ function Page015(props) {
             </div>
           </div>
           {/* END CABECERA */}
-          <div className="psp-50 pep-50 ptp-20">
+          <div className="psp-50 pep-50 ptp-20 pbp-60">
             <div className="row">
               <div className="col-md-6 col-12">
                 <div className="d-flex text-start">
