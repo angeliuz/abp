@@ -56,7 +56,7 @@ function Page048(props) {
 
             <div className="d-flex w-90 position-relative mtp-20 mbp-50">
 
-                    <div className="position-absolute bottom-0 start-0 mtp--60 cuadroIndex-5 "> <img className="  hp-150 mtp--50 msp-30" src="images/page_048/img_004.png" alt="" /> </div>
+                    <div className="position-absolute bottom-0 start-0 mtp--60 cuadroIndex-5 "> <img className="  hp-150 mtp--50 msp-30 visible-768" src="images/page_048/img_004.png" alt="" /> </div>
                     <div className="position-absolute bottom-0 start-50 translate-middle-x mtp--60 cuadroIndex-5 "> <img className="  hp-215 msp-300 " src="images/page_048/img_003.png" alt="" />
 
 

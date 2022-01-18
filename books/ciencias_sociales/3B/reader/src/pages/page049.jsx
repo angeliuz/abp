@@ -98,7 +98,7 @@ function Page049(props) {
                           </div>
 
                           <div className="col-lg-7  col-sm-12 d-flex justify-content-center position-relative ">
-                          <div className="position-absolute bottom-0 start-0 "><img src="images/page_049/img_003.png" className="hp-140 mtp--130 msp--210 img-monito-45" alt=""/></div>
+                          <div className="position-absolute bottom-0 start-0 "><img src="images/page_049/img_003.png" className="hp-140 mtp--130 msp--210 img-monito-45 visible-768" alt=""/></div>
                              
                                 <div className="position-relative "><img className="hp-320" src="images/page_049/img_004.png" alt="" />
                    
