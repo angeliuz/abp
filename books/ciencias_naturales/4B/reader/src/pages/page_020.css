@@ -117,10 +117,7 @@
     z-index: 1;
 }
 @media all and (max-width: 765px) {
-    .cb-page20 {
-        background: url(images/page_020/fondo_001.svg) top center/cover no-repeat !important;
-        -webkit-print-color-adjust: exact !important;
-    }
+
   .ra-pe {
     padding-right: 15px;
   }
