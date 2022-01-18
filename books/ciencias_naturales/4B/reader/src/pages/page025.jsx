@@ -55,7 +55,12 @@ function Page025(props) {
             </div>
           </div>
 
-          <div className="row container"></div>
+          <div className="row w-100 row-25">
+
+
+
+
+          </div>
           {/* PIE DE PAGINA */}
           <div
             className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2"
