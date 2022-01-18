@@ -1,15 +1,229 @@
-.soc-page059 {
-    background: url(images/page_059/fondo_001.svg) #543d89 top left/ cover no-repeat !important;
+.cb-page59 {
+    background: url(images/page_059/fondo_001.svg) top left/ cover no-repeat !important;
      -webkit-print-color-adjust: exact !important;
- 
  }
- .t-shadow{
-     text-shadow: -7px -8px #543d89;
- }
- 
- @media all and (max-width: 500px) {
- 
-     .ft-m {
-         font-size: 50px;
-      }
- }
+
+.line-dotted {
+    border: 1px dashed #dedede;
+}
+
+.cb-block-arriba-p59 {
+    max-width: 590px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
+}
+
+.cb-block-inicial-p59 {
+    max-width: 650px;
+    background-color: white;
+    border: 1px solid var(--pikachu);
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    position: relative;
+    width: calc(100% - 30px);
+}
+
+.rounded-caja {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.linea {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color:var(--lightDark);
+}
+  .cb-outline-p59{
+    outline: solid 1px #ffffff;
+    outline-offset: 2px;
+  }
+
+  .cb-interior-caja-p59{
+    background-color: var(--birdie);
+    margin: -16px -16px 20px -16px;
+    border-radius: 6px 6px 0px 0px;
+    padding: 5px 10px;
+  }
+
+  .cb-radio-p59{
+    position: absolute;
+    left: -40px;
+    top: -4px;
+    width: 60px;
+  }
+
+  .cb-calendario-p59{
+    position: absolute;
+    right: -23px;
+    top: -7px;
+    width: 60px;
+  }
+  .cb-engranajes-p59{
+    position: absolute;
+    left: 0px;
+    top: -4px;
+    width: 70px;
+  }
+  .cb-rueda-p59{
+    position: absolute;
+    left: 7px;
+    top: 3px;
+    width: 50px;
+  }
+  
+  .cb-dosier {
+    width: 100%;
+  }
+
+  .cb-block2-p59 {
+    max-width: 200px;
+    width: calc(100% - 30px);
+    align-items: start;
+    justify-content: start;
+    display: flex;
+     position: absolute;
+  }
+  .cb-ejerciciofinal-p59{
+    max-width: 650px;
+    width: calc(100% - 30px);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .cb-ejerciciofinal-cajas{
+    width: calc(100% / 2);
+    background-color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .cb-block2-p59 {
+    max-width: 240px;
+    width: calc(100% - 30px);
+    align-items: start;
+    justify-content: start;
+    display: flex;
+     position: absolute;
+  }
+  .cb-contenedor-tabla-texto{
+    width: 100%;
+    max-width: 400px;
+    padding-right: 10px;
+  }
+  
+  .cb-contenedor-tabla-p58{
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 60px);
+  }
+  .flecha-pikachu {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 0 7px 10px;
+    border-color: transparent transparent transparent var(--pikachu);
+  }
+  .min-hp-135 {
+    min-height: 135px;
+  }
+  
+  @media (min-width: 768px) {
+  .border-derecha {
+    border-color: var(--goten);
+    border: 1px solid #ff0000;
+    border-style: dashed;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
+  }
+  .pep-50-r {
+    padding-right: 50px;
+  }
+  .marco-inferior {
+    z-index: 1;
+  }
+  .visible-res {
+    visibility: hidden;
+  }
+  .psp-40-r {
+    padding-left: 40px;
+  }
+  .psp-30-r {
+    padding-left: 30px;
+  }
+  .nunca {
+    font-size: 16px;
+    min-width: 50px;
+  }
+  .siempre {
+    font-size: 16px;
+    min-width: 70px;
+  }
+  }
+  @media (max-width: 768px) {
+    .border-derecha {
+      border-color: var(--goten);
+      border: 1px solid #ff0000;
+      border-style: dashed;
+      border-top: none !important;
+      border-right: none !important;
+      border-left: none !important;
+    }
+    .ajuste-anillos {
+      margin-top: 50px;
+    }
+    .visible-res {
+      visibility: visible;
+    }
+    .pep-50-r {
+      padding-right: 0px;
+    }
+    .psp-40-r {
+      padding-left: 20px;
+    }
+    .psp-30-r {
+      padding-left: 15px;
+    }
+    .nunca {
+      font-size: 14px;
+      min-width: 20px;
+    }
+    .siempre {
+      font-size: 14px;
+      min-width: 60px;
+    }
+  }
+  @media all and (max-width: 829px) {
+    .cb-page59{
+       background: url(images/page_059/fondo_000.svg) top left/ cover no-repeat !important;
+       }
+  }
+  @media all and (max-width:780px) {
+  
+    .cb-page59 {
+      background: url(images/page_059/fondo_005.svg) top left/ cover no-repeat !important;
+     }
+  
+    .cb-radio-p59{
+        display: none;
+    }
+    .cb-calendario-p59{
+        display: none;
+    }
+    .cb-engranajes-p59{
+        display: none;
+    }
+    .cb-rueda-p59{
+        display: none;
+    }
+  
+  
+  }

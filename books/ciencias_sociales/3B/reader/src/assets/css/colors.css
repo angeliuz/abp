@@ -135,6 +135,8 @@
   --jugador001:#FFFEF1;
   --beethoven:#C7EAFB;
   --lizt:#6CAFD7;
+  --kazuha:#fddfd7;
+  --sayu:#fee0c2;
 }
 
 /* COLORES */
@@ -805,6 +807,15 @@
 .color-lizt {
   color: var(--lizt);
 }
+.color-sayu {
+  color: var(--sayu);
+}
+.color-kazuha {
+  color: var(--kazuha);
+}
+
+
+
 
 
 /* BORDERS */
@@ -1245,6 +1256,13 @@
 .border-color-lizt {
   border-color: var(--lizt) !important;
 }
+.border-color-kazuha {
+  border-color: var(--kazuha) !important;
+}
+.border-color-sayu{
+  border-color: var(--sayu) !important;
+}
+
 
 /* B
 /* BACKGROUND COLORS */
@@ -1686,4 +1704,10 @@
 }
 .bgc-lizt {
   background-color: var(--lizt);
+}
+.bgc-kazuha {
+  background-color: var(--kazuha);
+}
+.bgc-sayu {
+  background-color: var(--sayu);
 }

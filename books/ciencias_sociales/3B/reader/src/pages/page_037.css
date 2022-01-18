@@ -5,7 +5,7 @@
   height: 87px;
 }
 
-.rota{
+.rota_p37{
   transform: rotate(-1deg);
 }
 
@@ -23,12 +23,12 @@
   width: 50%;
 }
 
-.cabecera-pag7{
+/* .cabecera-pag7{
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
   clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
   background-color: var(--pidgey);
   height: 128px;
-}
+} */
 .cb-caja-bg{
   position: absolute;
   margin-top: -50px;
@@ -54,13 +54,13 @@
   border: 1px solid #7c7c7c;
   text-align: center;
 }
-.cb-ejercicio-2-p07{
+/* .cb-ejercicio-2-p07{
   width: 100%;
   max-width: 350px;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--trunks);
-}
+} */
 .cb-cabecera-seccion{
   display: flex;
 }
@@ -153,7 +153,7 @@ max-width: 630PX;
   border-radius: 0px 0px 10px 10px;
 }
 
-.cb-personaje-p07{
+/* .cb-personaje-p07{
   position: absolute;
   right: -63px;
   bottom: -10px;
@@ -163,7 +163,7 @@ max-width: 630PX;
     right: -75px;
     top: 150px;
     transform: rotate(5deg);
-}
+} */
 .linea {
   border-bottom: 1px dashed #dedede;
   padding-top: 5px;
