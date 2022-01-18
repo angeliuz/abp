@@ -128,7 +128,7 @@ function Page020(props) {
               <div className="block-bottom text-start mtp-30 f-pixilate-bold">
                 ¿Cómo voy?
               </div>
-              <div className=" block-bottom  pb-3 psp-15 ptp-10 pep-20 f-Ubuntu-L bgc-white fsp-13 rounded-p-20">
+              <div className=" block-bottom  pb-3 psp-15 ptp-10 pep-20 f-Ubuntu-L bgc-white fsp-13 rounded-p-20 position-relative">
                 <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
                   <div className="d-flex">
                     <div className="flecha-bulma pep-10 mtp-3"></div>
@@ -159,6 +159,7 @@ function Page020(props) {
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea min-hp-80"
                   />
                 </div>
+                <img src="images/page_020/img_002.png" className="hp-160 position-absolute start-100 top-50 msp--40 mtp--50" alt="" />
               </div>
             </div>
             {/* TABLA*/}
