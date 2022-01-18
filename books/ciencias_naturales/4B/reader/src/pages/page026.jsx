@@ -38,7 +38,7 @@ function Page026(props) {
           </div>
 
           <div className="msp-80 mep-80">
-            <div className="row  row-container-26-1">
+            <div className="row  w-100 row-container-26-1">
               <div className="col-md-12 col-sm-12 position-relative">
                 <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-white border-1 w-100 p-2 f-Ubuntu-R fsp-15 mbp-20 mtp-20 ">
                   <div className="d-flex interior-caja-v1  text-start min-hp-0">
@@ -82,7 +82,7 @@ function Page026(props) {
               </div>
             </div>
 
-            <div className="row  row-container-26-2 ">
+            <div className="row w-100 row-container-26-2 ">
               <div className="col-md-12 col-sm-12 position-relative">
                 <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-white border-1 w-100 p-2 f-Ubuntu-R fsp-15 mbp-20 mtp-20 ">
                   <div className="d-flex interior-caja-v1  text-start min-hp-0">
@@ -127,7 +127,7 @@ function Page026(props) {
               </div>
             </div>
 
-            <div className="row  row-container-26-3">
+            <div className="row  w-100 row-container-26-3">
               <div className="col-md-12 col-sm-12 position-relative">
                 <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-white border-1 w-100 p-2 f-Ubuntu-R fsp-15 mbp-20 mtp-20 ">
                   <div className="d-flex interior-caja-v1  text-start min-hp-0">
@@ -141,7 +141,7 @@ function Page026(props) {
               </div>
 
               <div className="col-md-6 col-sm-6 position-relative">
-                <div className="position-absolute top-100 start-0 translate-middle wp-100 mtp--80 visible-695">
+                <div className="position-absolute top-100 start-0 translate-middle wp-100 mtp--80 msp--20 visible-695">
                   <img src="images/page_026/img_004.png" className="" />
                 </div>
                 <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-white border-1 w-100 p-2 f-Ubuntu-R fsp-15 mbp-20">

@@ -39,6 +39,7 @@ function Page028(props) {
                         </div>
                     </div>
                 </div>
+                
                 <div className="col-12 justify-content-center mtp-10 mbp-70 psp-80 pep-80 pbp-50 position-relative">
                     <div className="position-absolute top-50 start-0 translate-middle msp-40 mtp-25 visible-768"><img src="images/page_028/img_002.png" className="wp-40 " alt="" /></div>
                     <div className="position-absolute top-50 start-100 translate-middle msp--40 mtp-220 visible-768"><img src="images/page_028/img_003.png" className="wp-70 " alt="" /></div>
