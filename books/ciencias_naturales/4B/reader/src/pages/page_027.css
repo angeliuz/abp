@@ -1,284 +1,105 @@
 
-
-
-.cajita {
-  padding: 0;
-  
-  
+.linea{
+  border-bottom: 2px dotted #dedede;
+  padding-top: 25px;
 }
-
-.border-color-srtoro{
-  border-color: #dee2e6;
+.linea2{
+  border-bottom: 2px dotted #dedede;
+  padding-top: 25px;
 }
-
-.cajita1 {
-  padding: 0;
-  margin-left: 210px;
-  
-}
-.cajota-27{
-  height: 300px;
-}
-
-.textito{
-    margin-left: 250px;
-}
-
-.circulo {
-width: 250px;
-height: 250px;
-  margin-left: 260px;
-  margin-top: 280px;
-border-radius: 50%;
-background: white;
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-}
-
-.rounded-tb-20 {
-  border-radius: 20px 10px 20px 10px;
-}
-@media (max-width: 576px) {
-.cambio {
-  padding: 0;
-}
-.cabecera {
-  height: 320px;
-}
-.rotar {
-  transform: rotate(90deg);
-  margin: 10px;
-  width: 20px;
-}
-.centrar {
-  text-align: center;
-  padding: 10px 13px 0px 13px  !important;
-  justify-content: center;
-}
-}
-
-
-.flecha{
-  top: 570px;
-  left: 330px;
-  transform: translate(-50%, -50%);
-  height: 40px;
-  width: 150px;
-  text-align: center;
-
-}
-
-.flecha1{
-  top: 565px;
-  margin-left:70px;
-  transform: translate(-50%, -50%);
-  height: 40px;
-  width: 150px;
-  text-align: center;
-
-}
-
-.flecha2{
-  top: 750px;
-  left: 320px;
-  transform: translate(-50%, -50%);
-  height: 40px;
-  width: 150px;
-  text-align: center;
-
-}
-
-.megafono{
-  top: 630px;
-  left: 720px;
-  transform: translate(-50%, -50%);
-  text-align: center;
-
-}
-.linea {
-  border-bottom: 2px dotted black;
-  padding-top: 30px;
-  padding-bottom: 0px;
-  
-}
-.linea1{
-  margin: 0 auto;
-}
-
-
-
- 
-@media (max-width: 992px) {
-  .circulo {
-      width: 250px;
-      height: 250px;
-      margin-left: 260px;
-      margin-top: 250px;
-      border-radius: 50%;
-      background: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      visibility: hidden;
-      
-  }
-  .flecha{
-      top: 550px;
-      left: 315px;
-      transform: translate(-50%, -50%);
-      height: 40px;
-      width: 150px;
-      text-align: center;
-      visibility: hidden;
-    
-    }
-    
-    .flecha1{
-      top: 540px;
-      margin-left:80px;
-      transform: translate(-50%, -50%);
-      height: 40px;
-      width: 150px;
-      text-align: center;
-      visibility: hidden;
-    
-    }
-    
-    .flecha2{
-      top: 720px;
-      left: 320px;
-      transform: translate(-50%, -50%);
-      height: 40px;
-      width: 150px;
-      text-align: center;
-      visibility: hidden;
-    
-    }
-  
-    .megafono{
-      top: 630px;
-      left: 720px;
-      transform: translate(-50%, -50%);
-      text-align: center;
-      visibility: hidden;
-    
-    }
-}
-    
-
-      
-@media (max-width: 576px) {
-  .circulo {
-      width: 250px;
-      height: 250px;
-      margin-left: 260px;
-      margin-top: 250px;
-      border-radius: 50%;
-      background: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      visibility: hidden;
-      
-  }
-  .flecha{
-      top: 550px;
-      left: 315px;
-      transform: translate(-50%, -50%);
-      height: 40px;
-      width: 150px;
-      text-align: center;
-      visibility: hidden;
-    
-    }
-    
-    .flecha1{
-      top: 540px;
-      margin-left:80px;
-      transform: translate(-50%, -50%);
-      height: 40px;
-      width: 150px;
-      text-align: center;
-      visibility: hidden;
-    
-    }
-    
-    .flecha2{
-      top: 720px;
-      left: 320px;
-      transform: translate(-50%, -50%);
-      height: 40px;
-      width: 150px;
-      text-align: center;
-      visibility: hidden;
-    
-    }
-  
-    .megafono{
-      top: 630px;
-      left: 720px;
-      transform: translate(-50%, -50%);
-      text-align: center;
-      visibility: hidden;
-    
-    }
-}
-
-@media (max-width: 992px){
-
-  .cajota{
-      margin-left: 20px;
-      margin-right: 20px;
-
-  
-  
-  }
-  .cajita1{
-      margin-left: 600px;
-  }
-
-  .textito{
-      margin-left: 630px;
-  }
-
-    }
-
-@media (max-width: 576px){
-
-.cajota{
-  margin: 0;
-
-}
-.cajita1{
-  margin-left: 250px;
-}
-.textito{
-  margin-left: 280px;
-}
-
-}
-
 .container-row{
-margin-left: 20px;
-margin-right: 20px;
-
-} 
-
-@media (max-width: 576px) {
+  margin-left: 20px;
+  margin-right: 20px;
   
-
-  .rotar {
-  transform: rotate(90deg);
-  margin: 10px;
-  width: 20px;
+  } 
+  .linea1{
+    margin: 0 auto;
   }
+
+.box-color-24-1{
+margin-left:20px; 
+margin-bottom: 20px;
+
   
-          
+}
+.box-color-24-2{
   
-          
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+
+.espirales{
+  height: auto;
+  width: 160px;
+  margin-top: 90px;
+  margin-left: -93px;
+  visibility: visible;
   
   }
+  .espiral-1{
+
+    visibility: visible;
+    
+    }
+    .espiral-2{
+
+      visibility: visible;
+      
+      }
+
+
+  .rounded-set-10 {
+    border-radius: 10px 10px 0px 0px;
+    }
+    @media (max-width: 768px) {
+      .box-color-24-1{
+        margin-left:0;
+        margin-right: 0;  
+        margin-bottom: 20px;
+        }
+        .box-color-24-2{
+          margin-left:0;
+          margin-right: 0;  
+          margin-bottom: 20px;
+          }
+
+      .espirales{
+      height: auto;
+      width: 160px;
+      margin-top: 90px;
+      margin-left: -48px;
+      visibility: hidden;
+      
+      }
+      .espiral-1{
+
+        visibility: hidden;
+        
+        }
+        .espiral-2{
+
+          visibility: hidden;
+          
+          }
+
+      }
+
+      @media (max-width: 992px) {
+        .linea2{
+          border-bottom: 2px dotted #dedede;
+          width: 100%;
+          margin-top:10px;
+          margin-left:40px;
+          visibility: visible;
+        }
+      }
+      @media (max-width: 576px) {
+        .linea2{
+          border-bottom: 2px dotted #dedede;
+          width: 100%;
+          margin-top:10px;
+          margin-left:40px;
+          visibility: visible;
+        }
+      }

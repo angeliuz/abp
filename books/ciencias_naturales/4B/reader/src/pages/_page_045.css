@@ -1,9 +1,9 @@
 .fondo {
-    background: url(images/page_043/fondo.svg) var(--pidgey) top left / cover no-repeat !important;
+    background: url(images/page_045/fondo.svg) #129CC4 top left/ cover no-repeat !important;
     -webkit-print-color-adjust: exact !important;
 }
 
-.t-shadow-experimentacion{
+.t-shadow{
     text-shadow: -7px -8px #0067a9;
 }
 
