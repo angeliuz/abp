@@ -1,75 +1,15 @@
-.cb-pad{
-  padding-left: 6%; 
-  padding-right: 6%;
-}
-.cb-contenedor-mail-p71{
-  position: relative;
-  width: calc(100% - 100px);
-  max-width: 700px;
-  margin: 20px auto 30px;
-  border-radius: 10px;
-  box-shadow: -2px 3px 13px 4px rgb(0 0 0 / 20%);
 
-}
-.cb-celu-carta-p71{
-  position: absolute;
-  right: -31px;
-  top: -87px;
-}
 
-.cb-favorito-carta-p71{
-  position: absolute;
-  right: 18px;
-  top: -145px;
-  width: 90px;
+.row-container{
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: green;
 }
 
 
-.cb-datos-1{
-width: 100%;
-max-width: 450PX;
-}
-.cb-invitacion-p71 {
-  width: 100%;
-  background-color: white;
-  height: 40px;
-  align-items: center;
-  display: flex;
-  border-radius: 10px;
-}
-.cb-datos-a{
-  width: 100%;
-  max-width: 70px;
-}
-.cb-carta-content-p71 {
-  position: relative;
-  z-index: 3;
-  background: white;
-  padding: 30px 40px;
-  font-size: 16px;
-  border-radius: 0px 0px 10px 10px;
-}
-.cb-ficha-p71{
-  position: absolute;
-  right: -28px;
-  top: 18px;
-  width: 70px;
-}
 
-.cb-parte2-p71{
-  width: calc(100% - 30px);
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
-}
 @media all and (max-width: 800px) {
 
 
-  .cb-ficha-p71{
-      display: none;
-  }
-  .cb-celu-carta-p71{
-    display: none;
-}
+ 
 }
