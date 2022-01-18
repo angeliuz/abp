@@ -1,117 +1,75 @@
+.cb-pad{
+  padding-left: 6%; 
+  padding-right: 6%;
+}
+.cb-contenedor-mail-p71{
+  position: relative;
+  width: calc(100% - 100px);
+  max-width: 700px;
+  margin: 20px auto 30px;
+  border-radius: 10px;
+  box-shadow: -2px 3px 13px 4px rgb(0 0 0 / 20%);
 
-  
-    
-    .cajota{
-      height: 800px;
-      margin-left:40px;
-      margin-right:40px;
-     
-      
-    }
- 
+}
+.cb-celu-carta-p71{
+  position: absolute;
+  right: -31px;
+  top: -87px;
+}
+
+.cb-favorito-carta-p71{
+  position: absolute;
+  right: 18px;
+  top: -145px;
+  width: 90px;
+}
 
 
-    .paleta{
-      top: 260px;
-      left: 725px;
-      transform: translate(-50%, -50%);
-      height: auto;
-      width: 160px;
-      text-align: center;
-      visibility: visible;
-    }
+.cb-datos-1{
+width: 100%;
+max-width: 450PX;
+}
+.cb-invitacion-p71 {
+  width: 100%;
+  background-color: white;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+}
+.cb-datos-a{
+  width: 100%;
+  max-width: 70px;
+}
+.cb-carta-content-p71 {
+  position: relative;
+  z-index: 3;
+  background: white;
+  padding: 30px 40px;
+  font-size: 16px;
+  border-radius: 0px 0px 10px 10px;
+}
+.cb-ficha-p71{
+  position: absolute;
+  right: -28px;
+  top: 18px;
+  width: 70px;
+}
 
-    .pincel{
-        top: 550px;
-        left: 95px;
-        transform: translate(-50%, -50%);
-        height: auto;
-        width: 45px;
-        text-align: center;
-        visibility: visible;
-      }
+.cb-parte2-p71{
+  width: calc(100% - 30px);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+@media all and (max-width: 800px) {
 
-      .pintor{
-        top: 940px;
-        left: 100px;
-        transform: translate(-50%, -50%);
-        height: auto;
-        width: 600px;
-        text-align: center;
-        visibility: visible;
-      }
-    
-      .afiche{
-        top: 890px;
-        left: 600px;
-        transform: translate(-50%, -50%);
-        height: auto;
-        width: 400px;
-        text-align: center;
-        visibility: visible;
-      }
-     
-      .cajaafiche-1{
-        visibility: visible;
-      }
-      .cajaafiche-2{
-        visibility: hidden;
-      }
-      @media (max-width: 768px) {
-        .cajaafiche-1{
-          visibility: hidden;
-        }
-        .cajaafiche-2{
-          visibility: visible;
-        }
 
-      }
-        
-        @media (max-width: 992px) {
-          .paleta{
-            top: 260px;
-            left: 725px;
-            transform: translate(-50%, -50%);
-            height: auto;
-            width: 160px;
-            text-align: center;
-            visibility: hidden;
-          }
-      
-          .pincel{
-              top: 550px;
-              left: 95px;
-              transform: translate(-50%, -50%);
-              height: auto;
-              width: 45px;
-              text-align: center;
-              visibility: hidden;
-            }
-      
-            .pintor{
-              top: 940px;
-              left: 100px;
-              transform: translate(-50%, -50%);
-              height: auto;
-              width: 350px;
-              text-align: center;
-              visibility: hidden;
-            }
-            .afiche{
-                top: 890px;
-                left: 620px;
-                transform: translate(-50%, -50%);
-                height: auto;
-                width: 600px;
-                text-align: center;
-                visibility: hidden;
-              }
-        }
-        @media (max-width: 576px) {
-          .cajota{
-            margin: 0 auto; 
-            
-            }
-        }
-
-        
+  .cb-ficha-p71{
+      display: none;
+  }
+  .cb-celu-carta-p71{
+    display: none;
+}
+}
