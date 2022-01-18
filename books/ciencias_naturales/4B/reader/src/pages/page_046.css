@@ -5,6 +5,11 @@
   height: 87px;
 }
 
+.bloque-respuesta {
+  -webkit-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.20);
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.20);
+}
+
 /* .cabecera-pag7{
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
   clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 93%);
