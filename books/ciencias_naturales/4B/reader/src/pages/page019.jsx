@@ -5,123 +5,296 @@ import ModalVideo from "../components/ModalVideo";
 import "./page_019.css";
 
 function Page019(props) {
-
   const pagina = "019";
   var indexInput = 0;
 
   return (
-
     <div className="wrapper bgc-light">
-        <div className="d-flex flex-column align-items-center pbp-20">
-            <div className="cb-page19 page bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
-                <img src="images/page_019/cabecera.svg" className="cb-dossier" alt=""/>
-
-                <div className="position-relative w-100">
-                        <div className=" psp-80 pep-70 ptp-30 pbp-0 ">
-                            <div className="fsp-16 f-Ubuntu-B text-start psp-70 pbp-10"> Esta página ha sido resuelta por</div>
-                            <div className="psp-0 ptp-5 pbp-5 bgc-white rounded-p-10 border border-color-lightDark d-flex justify-content-center">
-                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-start lhp-35 w-80" />
-                            </div>
-                            <div className="d-flex flex-row w-90">
-                                <div className="pt-4 fsp-16 f-Ubuntu-M text-start pbp-20"> Vemos el video. Luego, leemos y numeramos las tareas del proyecto.</div>
-                                <div className="d-flex hp-70 align-items-center justify-content-center">
-                                    <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_019/img_003.png" clasesImagen="hp-40" className="d-flex justify-content-center" />
-                                </div>
-                            </div>
-                        </div>
-                        <div className=" psp-80 pep-70 ptp-20 pbp-90 ">
-                            <div className="bgc-white rounded-p-10">
-                                <div className="position-relative ptp-10 pbp-25 w-100">
-                                    <div className="row psp-20 pep-20">
-                                        
-                                        <div className="col-md-6 col-sm-6 ptp-20 btp-10 ra-ps">
-                                            <div className="block-bottom-19 bloque-19 h-100  p-2 bgc-vegeta rounded-p-10 ps-4 pe-4">
-                                                <div className="caja-respuesta-19 bgc-white border-style-solid border-1 rounded-2 border-color-lightDark f-Ubuntu-B">
-                                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-center lhp-35 w-100" />
-                                                </div>
-                                                <div className="ptp-20 pbp-30 style-puzzle">Publicamos nuestra revista.</div>
-                                            </div>
-                                        </div>
-
-                                        <div className="col-md-6 col-sm-6 ptp-20 btp-10 ra-pe">
-                                            <div className="block-bottom-19 bloque-19 h-100  p-2 bgc-freezer rounded-p-10 ps-4 pe-4">
-                                                <div className="caja-respuesta-19 bgc-white border-style-solid border-1 rounded-2 border-color-lightDark f-Ubuntu-B">
-                                                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-center lhp-35 w-100" />
-                                                </div>
-                                                <div className="ptp-15 pbp-10 style-puzzle">Recopilamos información para la revista.</div>
-                                            </div>
-                                        </div>
-
-                                        <div className="col-md-6 col-sm-6 ptp-20 tp-10 ra-ps">
-                                            <div className="block-bottom-19 bloque-19 h-100  p-2 bgc-milk rounded-p-10 ps-4 pe-4">
-                                                <div className="caja-respuesta-19 bgc-white border-style-solid border-1 rounded-2 border-color-lightDark f-Ubuntu-B">
-                                                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-center lhp-35 w-100" />
-                                                </div>
-                                                <div className="ptp-20 pbp-25 style-puzzle">Celebramos nuestro éxito.</div>
-                                            </div>
-                                        </div>
-
-                                        <div className="col-md-6 col-sm-6 ptp-20 btp-10 ra-pe">
-                                            <div className="block-bottom-19 bloque-19 h-100  ptp-5 bgc-tshinhan rounded-p-10 ps-4 pe-4">
-                                                <div className="caja-respuesta-19 bgc-white border-style-solid border-1 rounded-2 border-color-lightDark f-Ubuntu-B">
-                                                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-center lhp-35 w-100" />
-                                                </div>
-                                                <div className="ptp-10 pbp-25 style-puzzle">Creamos los textos y seleccionamos las imágenes para la revista.</div>
-                                            </div>
-                                        </div>
-
-                                        <div className="col-md-6 col-sm-6 ptp-20 btp-10 ra-ps">
-                                            <div className="block-bottom-19 bloque-19 h-100  p-2 bgc-ash rounded-p-10 ps-4 pe-4">
-                                                <div className="caja-respuesta-19 bgc-white border-style-solid border-1 rounded-2 border-color-lightDark f-Ubuntu-B">
-                                                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-center lhp-35 w-100" />
-                                                </div>
-                                                <div className="ptp-10 pbp-25 style-puzzle">Analizamos y seleccionamos la información recopilada.</div>
-                                            </div>
-                                        </div>
-
-                                        <div className="col-md-6 col-sm-6 ptp-20 btp-10 ra-pe">
-                                            <div className="block-bottom-19 bloque-19 h-100  p-2 bgc-zoe rounded-p-10 ps-4 pe-4">
-                                                <div className="caja-respuesta-19 bgc-white border-style-solid border-1 rounded-2 border-color-lightDark f-Ubuntu-B">
-                                                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-center lhp-35 w-100" />
-                                                </div>
-                                                <div className="ptp-10 pbp-25 style-puzzle">Organizamos el plan de trabajo.</div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div className="pt-4 style-text-b pbp-10">
-                                En una cartulina elaboramos un cronograma del proyecto.
-                                <img src="images/page_019/img_009.png" className="tf-presentacion hp-160" alt=""/>
-                            </div>
-                        </div>
-                        <img src="images/page_019/img_001.png" className=" tf-mapa hp-90" alt=""/>
-                        <img src="images/page_019/img_002.png" className=" tf-estrella hp-70" alt=""/>
-                        
-                        <img src="images/page_019/img_004.png" className=" tf-bloque-19  hp-60" alt=""/>
-                        <img src="images/page_019/img_005.png" className=" tf-carta-19 hp-70" alt=""/>
-                        <img src="images/page_019/img_006.png" className=" tf-celular-19 hp-70" alt=""/>
-                        <img src="images/page_019/img_007.png" className=" tf-claqueta-19 hp-80" alt=""/>
-                        <img src="images/page_019/img_008.png" className=" tf-camara-19 hp-140" alt=""/>
-                        <img src="images/page_019/img_010.png" className=" tf-metro-19 hp-70" alt=""/>
-                    </div>
-
-
-              {/* PIE DE PAGINA */}
-              <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
-                  <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
-                    ABP &copy; SM
-                  </div>
-                  <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+      <div className="d-flex flex-column align-items-center pbp-20">
+        <div
+          className="cb-page19 page bgc-white overflow-hidden position-relative"
+          id={"page_" + pagina}
+        >
+          {/* BEGIN CABECERA VERSIÓN 2 */}
+          <div className="cabecera-v2 bgc-bulma d-flex flex-column">
+            <div className="d-flex contenedor-cabecera-v2 align-items-center ptp-40 psp-30 pep-30">
+              <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-bulma fsp-24 f-IntroRustG-Base">
+                SESIÓN 3
               </div>
-
+              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">
+                ¡Este es nuestro plan!
+              </div>
             </div>
+          </div>
+          {/* END CABECERA */}
+          <div className="ptp-30 psp-60 pep-60 pbp-60">
+            <div className="f-Ubuntu-B color-bulma fsp-18 text-start">
+              ¿Qué veo en las fotografías?
+            </div>
+            <div className="d-flex pbp-20">
+              <img
+                src="images/page_019/img_002.svg"
+                className="msp--30"
+                alt=""
+              />
+              <div className="f-ccdigitaldelivery-bold fsp-35 color-bulma">
+                1
+              </div>
+              <div className="f-Ubuntu-R fsp-16 ptp-15 psp-10 text-start col-8 text-start">
+                Vemos el video y rotulamos las siguientes etapas del proyecto
+                según corresponda.
+              </div>
+              <img
+                src="images/page_019/img_003.svg"
+                className="psp-20"
+                alt=""
+              />
+            </div>
+            <div className="diline-res justify-content-between pbp-20">
+              <img
+                src="images/page_019/img_004.svg"
+                className="mxhp-40"
+                alt=""
+              />
+              <img
+                src="images/page_019/img_005.svg"
+                className="mxhp-20 giro90-res"
+                alt=""
+              />
+              <img
+                src="images/page_019/img_006.svg"
+                className="mxhp-40"
+                alt=""
+              />
+              <img
+                src="images/page_019/img_007.svg"
+                className="mxhp-20 giro90-res"
+                alt=""
+              />
+              <img
+                src="images/page_019/img_008.svg"
+                className="mxhp-40"
+                alt=""
+              />
+              <img
+                src="images/page_019/img_009.svg"
+                className="mxhp-20 giro90-res"
+                alt=""
+              />
+              <img
+                src="images/page_019/img_010.svg"
+                className="mxhp-40"
+                alt=""
+              />
+            </div>
+
+            <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
+              <div className="mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
+                <img
+                  src="/images/page_019/img_011.png"
+                  className="position-absolute top-0 start-0 translate-middle msp-5 mtp-5 hp-40 "
+                  alt=""
+                />
+                <InputBox
+                  id={"p" + pagina + "_input" + (indexInput += 1)}
+                  className="p-0 px-1 text-center flex-grow-1 lhp-80 min-hp-80"
+                />
+              </div>
+              <div className="centrar-ver">
+                <div className="text-start psp-10">
+                  <div className="dot mep-10 mtp-10"></div>
+                  <div className="f-ubuntu-L py-1 mtp--26 msp-20">
+                    Presentar la brigada a la comunidad educativa.
+                  </div>
+                </div>
+                <div className="text-start psp-10 pep-20">
+                  <div className="dot mep-10 mtp-10"></div>
+                  <div className="f-ubuntu-L py-1 mtp--26 msp-20">
+                    Reflexionar sobre nuestro trabajo en equipo.
+                  </div>
+                </div>
+                <div className="text-start psp-10 pep-20">
+                  <div className="dot mep-10 mtp-10"></div>
+                  <div className="f-ubuntu-L py-1 mtp--26 msp-20">
+                    Valorar lo aprendido y el trabajo realizado.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="ptp-15"></div>
+            <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
+              <div className="mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
+                <img
+                  src="/images/page_019/img_011.png"
+                  className="position-absolute top-0 start-0 translate-middle msp-5 mtp-5 hp-40 "
+                  alt=""
+                />
+                <InputBox
+                  id={"p" + pagina + "_input" + (indexInput += 1)}
+                  className="p-0 px-1 text-center flex-grow-1 lhp-80 min-hp-80"
+                />
+              </div>
+              <div className="centrar-ver">
+                <div className="text-start psp-10">
+                  <div className="dot mep-10 mtp-10"></div>
+                  <div className="f-ubuntu-L py-1 mtp--26 msp-20">
+                  Conocer las tareas de la brigada.
+                  </div>
+                </div>
+                <div className="text-start psp-10 pep-20">
+                  <div className="dot mep-10 mtp-10"></div>
+                  <div className="f-ubuntu-L py-1 mtp--26 msp-20">
+                  Simular una situación de emergencia.
+                  </div>
+                </div>
+                <div className="text-start psp-10 pep-20">
+                  <div className="dot mep-10 mtp-10"></div>
+                  <div className="f-ubuntu-L py-1 mtp--26 msp-20">
+                  Evaluar la misión de la brigada ante el simulacro de emergencia.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="ptp-15"></div>
+            <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
+              <div className="mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
+                <img
+                  src="/images/page_019/img_011.png"
+                  className="position-absolute top-0 start-0 translate-middle msp-5 mtp-5 hp-40 "
+                  alt=""
+                />
+                <InputBox
+                  id={"p" + pagina + "_input" + (indexInput += 1)}
+                  className="p-0 px-1 text-center flex-grow-1 lhp-80 min-hp-80"
+                />
+              </div>
+              <div className="centrar-ver">
+                <div className="text-start psp-10">
+                  <div className="dot mep-10 mtp-10"></div>
+                  <div className="f-ubuntu-L py-1 mtp--26 msp-20">
+                  Crear un folleto para divulgar la misión de las brigadas.
+                  </div>
+                </div>
+                <div className="text-start psp-10 pep-20">
+                  <div className="dot mep-10 mtp-10"></div>
+                  <div className="f-ubuntu-L py-1 mtp--26 msp-20">
+                  Preparar la presentación de la brigada a la comunidad educativa.
+                  </div>
+                </div>
+                <div className="text-start psp-10 pep-20">
+                  <div className="dot mep-10 mtp-10"></div>
+                  <div className="f-ubuntu-L py-1 mtp--26 msp-20">
+                  Elaborar encuestas para conocer la opinión de los asistentes sobre la misión de la brigada.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="ptp-15"></div>
+            <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
+              <div className="mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
+                <img
+                  src="/images/page_019/img_011.png"
+                  className="position-absolute top-0 start-0 translate-middle msp-5 mtp-5 hp-40 "
+                  alt=""
+                />
+                <InputBox
+                  id={"p" + pagina + "_input" + (indexInput += 1)}
+                  className="p-0 px-1 text-center flex-grow-1 lhp-80 min-hp-80"
+                />
+              </div>
+              <div className="centrar-ver">
+                <div className="text-start psp-10">
+                  <div className="dot mep-10 mtp-10"></div>
+                  <div className="f-ubuntu-L py-1 mtp--26 msp-20">
+                  Investigar los riesgos naturales y situaciones de emergencia a los que estamos expuestos.
+                  </div>
+                </div>
+                <div className="text-start psp-10 pep-20">
+                  <div className="dot mep-10 mtp-10"></div>
+                  <div className="f-ubuntu-L py-1 mtp--26 msp-20">
+                  Analizar el plan de seguridad del colegio y encuestar a la comunidad educativa para saber cuánto lo conoce.
+                  </div>
+                </div>
+                <div className="text-start psp-10 pep-20">
+                  <div className="dot mep-10 mtp-10"></div>
+                  <div className="f-ubuntu-L py-1 mtp--26 msp-20">
+                  Resumir lo investigado en fichas de seguridad.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="ptp-15"></div>
+          </div>
+          {/* PIE DE PAGINA */}
+          <div
+            className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2"
+            style={{ bottom: 70, right: 0 }}
+          >
+            <div
+              className="f-Ubuntu-M fsp-10 position-absolute mbp-60"
+              style={{ transform: `rotate(270deg)`, color: "dark" }}
+            >
+              ABP &copy; SM
+            </div>
+            <div className="bgc-jawa wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">
+              {props.numeroPagina(pagina)}
+            </div>
+          </div>
+          <div
+            className="row position-absolute caja-flotante2 p-0 m-0 align-items-end"
+            style={{ bottom: 0 }}
+          >
+            <div className="col-1 position-relative col-sm-2 p-0 m-0">
+              <img
+                src="images/rotulo_motivacion.svg"
+                className="oculto"
+                alt=""
+              />
+              <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
+              <div className="w-100 hp-25 bgc-goten"></div>
+            </div>
+            <div className="col-7 position-relative col-sm-2 p-0 m-0">
+              <img
+                src="images/rotulo_planificacion.svg"
+                className="visible rotulo-etapa position-absolute top-0 start-0"
+                alt=""
+              />
+              <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
+              <div className="w-100 hp-25 bgc-bulma"></div>
+            </div>
+            <div className="col-1 position-relative col-sm-2 p-0 m-0">
+              <img
+                src="images/rotulo_investigacion.svg"
+                className="oculto"
+                alt=""
+              />
+              <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
+              <div className="w-100 hp-25 bgc-android18"></div>
+            </div>
+            <div className="col-1 position-relative col-sm-2 p-0 m-0">
+              <img
+                src="images/rotulo_experimentacion.svg"
+                className="oculto"
+                alt=""
+              />
+              <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
+              <div className="w-100 hp-25 bgc-pidgey"></div>
+            </div>
+            <div className="col-1 position-relative col-sm-2 p-0 m-0">
+              <img src="images/rotulo_creacion.svg" className="oculto" alt="" />
+              <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
+              <div className="w-100 hp-25 bgc-saitama"></div>
+            </div>
+            <div className="col-1 position-relative col-sm-2 p-0 m-0">
+              <img src="images/rotulo_difusion.svg" className="oculto" alt="" />
+              <div className="w-100 hp-15 bgc-leono rounded-caja-end"></div>
+              <div className="w-100 hp-25 bgc-pikachu"></div>
+            </div>
+          </div>
+          {/* FIN PIE DE PAGINA */}
         </div>
+      </div>
     </div>
-
-
   );
 }
 
