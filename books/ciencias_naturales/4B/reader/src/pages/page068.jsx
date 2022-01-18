@@ -19,16 +19,16 @@ function Page068(props) {
      <img src="images/page_068/img_001.svg" className="position-absolute wp-10 cb-union-a-p68" alt="" />
      <img src="images/page_068/img_001.svg" className="position-absolute wp-10 cb-union-b-p68" alt="" />
      <img src="images/page_068/img_002.png" className="position-absolute wp-80 cb-camara-p68" alt="" />
-         <span className="f-Ubuntu-L fsp-13 fw-700">Las tres frases que identifican nuestra brigada son:</span>
+         <span className="f-Ubuntu-L fsp-15 fw-700">Las tres frases que identifican nuestra brigada son:</span>
          <div className="d-flex">
              <div className="justify-content-between h-100 ptp-20">
-             <div className="hp-20 wp-20 bgc-ken justify-content-center align-items-center d-flex color-white fw-700 fsp-13 mbp-50">
+             <div className="hp-20 wp-20 bgc-ken justify-content-center align-items-center d-flex color-white fw-700 fsp-15 mbp-50">
                  1  
              </div>
-             <div className="hp-20 wp-20 bgc-ken justify-content-center align-items-center d-flex color-white fw-700 fsp-13 mbp-50">
+             <div className="hp-20 wp-20 bgc-ken justify-content-center align-items-center d-flex color-white fw-700 fsp-15 mbp-50">
                  2 
              </div>
-             <div className="hp-20 wp-20 bgc-ken justify-content-center align-items-center d-flex color-white fw-700 fsp-13">
+             <div className="hp-20 wp-20 bgc-ken justify-content-center align-items-center d-flex color-white fw-700 fsp-15">
                  3  
              </div>
              </div>
@@ -43,7 +43,7 @@ function Page068(props) {
      <img src="images/page_068/img_001.svg" className="position-absolute wp-10 cb-union-b-p68" alt="" />
      <img src="images/page_068/img_004.png" className="position-absolute wp-70 cb-calendario-p68" alt="" />
      <img src="images/page_068/img_003.png" className="position-absolute wp-60 cb-celular-p68" alt="" />
-     <span className="f-Ubuntu-L fsp-13 psp-20 fw-700">Nuestras expectativas antes dar a conocer la brigada son:</span>
+     <span className="f-Ubuntu-L fsp-15 psp-20 fw-700">Nuestras expectativas antes dar a conocer la brigada son:</span>
      </div>
 
      <div className="mtp-55 f-pixilate-bold mbp-5 text-start">¿Cómo vamos?</div>
