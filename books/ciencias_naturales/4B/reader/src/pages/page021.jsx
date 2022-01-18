@@ -9,7 +9,7 @@ function Page023(props) {
   return (
       <div className="wrapper bgc-light">
         <div className="d-flex flex-column align-items-center pbp-10">
-          <div className="page position-relative soc-page21" id={"page_"+pagina}>
+          <div className="page position-relative bgc-investigacion" id={"page_"+pagina}>
 
                   <div className="mep-0 position-absolute top-0 end-0">
                         <div className="d-flex justify-content-start bgc-anakin color-rukia ptp-55 pb-2 px-3 text-center mep-55 rounded-seb-20 lh-1">
