@@ -48,6 +48,7 @@ import Page057 from "./pages/page057";
 import Page058 from "./pages/page058";
 import Page059 from "./pages/page059";
 import Page060 from "./pages/page060";
+import Page066 from "./pages/page066";
 import Page067 from "./pages/page067";
 import Page068 from "./pages/page068";
 import Page069 from "./pages/page069";
@@ -139,6 +140,7 @@ function App() {
       <Page058 numeroPagina={clearZeros} />
       <Page059 numeroPagina={clearZeros} />
       <Page060 numeroPagina={clearZeros} />
+      <Page066 numeroPagina={clearZeros} />
       <Page067 numeroPagina={clearZeros} />
       <Page068 numeroPagina={clearZeros} />
       <Page069 numeroPagina={clearZeros} />
