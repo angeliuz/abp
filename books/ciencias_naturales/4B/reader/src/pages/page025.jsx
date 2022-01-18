@@ -31,7 +31,7 @@ function Page025(props) {
 
           <div className="ptp-30 psp-60 pep-60">
             <div className="f-Ubuntu-M fsp-20 color-android18 text-start">
-            ¿Qué pasaría sí...?
+              ¿Qué pasaría sí...?
             </div>
           </div>
           <div className=" container-titulo-global mbp-∫0">
@@ -41,7 +41,7 @@ function Page025(props) {
                 1
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-              Leo la revista y me anticipo a una situación de emergencia.
+                Leo la revista y me anticipo a una situación de emergencia.
               </div>
               {
                 <ModalVideo
@@ -55,6 +55,7 @@ function Page025(props) {
             </div>
           </div>
 
+          <div className="row row-container"></div>
           {/* PIE DE PAGINA */}
           <div
             className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2"
@@ -116,11 +117,7 @@ function Page025(props) {
               <div className="w-100 hp-25 bgc-saitama"></div>
             </div>
             <div className="col-1 position-relative col-sm-2 p-0 m-0">
-              <img
-                src="images/rotulo_difusion.svg"
-                className="oculto"
-                alt=""
-              />
+              <img src="images/rotulo_difusion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-leono rounded-caja-end"></div>
               <div className="w-100 hp-25 bgc-pikachu"></div>
             </div>
