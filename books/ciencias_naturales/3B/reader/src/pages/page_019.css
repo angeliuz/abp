@@ -1,0 +1,15 @@
+.bgc-investigacion {
+  background: url(../pages/images/generales/fondo_e3.svg) #afca0b top left/ cover no-repeat !important;
+   -webkit-print-color-adjust: exact !important;
+
+}
+.t-shadow-investigacion{
+   text-shadow: -7px -8px #529f3a;
+}
+
+@media all and (max-width: 500px) {
+
+   .ft-m {
+       font-size: 50px;
+    }
+}
