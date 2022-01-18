@@ -16,8 +16,17 @@ function Page024(props) {
     <div className="wrapper bgc-light">
             <div className="d-flex flex-column align-items-center pbp-20">
               <div className="page bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
-            <div className="cabecera-v1 hp-80 bgc-android18">
+              <div className="cabecera-v2 bgc-android18 d-flex flex-column">
+            <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
+              <div className="caja wp-150 text-center fsp-24 f-IntroRustG-Base color-balrog">
+                SESIÓN 5
+              </div>
+              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">
+              ¡Seguridad escolar!
+              </div>
             </div>
+            <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90"></div>
+          </div>
             <div className="ptp-10 container-titulo-global mbp-0">
                 <div className="d-flex">
                     <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_024/img_002.svg" alt=""  />
