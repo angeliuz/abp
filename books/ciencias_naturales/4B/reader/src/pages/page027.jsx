@@ -136,10 +136,10 @@ function Page027(props) {
               </div>
               <div className="box-color-24-1">
                 <div className="f-Ubuntu-
-                L alinea rounded-caja bgc-saitama w-100 p-2 text-center ">
+                L alinea rounded-caja bgc-kai w-100 p-2 text-center ">
                 Lo que más me gustó de compartir mis recomendaciones fue...
                 </div>
-                <div className=" linea1 bgc-white min-hp-150 p-2  rounded-seb-20 border-style-solid border-color-saitama border-2">
+                <div className=" linea1 bgc-white min-hp-150 p-2  rounded-seb-20 border-style-solid border-color-kai border-2">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-130"
@@ -159,10 +159,10 @@ function Page027(props) {
               
               
               <div className="box-color-24-2">
-                <div className="f-Ubuntu-L alinea rounded-caja bgc-leia w-100 p-2 text-center ">
+                <div className="f-Ubuntu-L alinea rounded-caja bgc-tanya w-100 p-2 text-center ">
                 Lo que menos que gustó de compartir mis recomendaciones fue...
                 </div>
-                <div className="linea1 bgc-white min-hp-150 p-2  rounded-seb-20 border-style-solid border-color-leia border-2">
+                <div className="linea1 bgc-white min-hp-150 p-2  rounded-seb-20 border-style-solid border-color-tanya border-2">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-130"
