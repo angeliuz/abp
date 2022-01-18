@@ -8,82 +8,68 @@ function Page024(props) {
 
   const pagina = "024";
   var indexInput = 0;
-
+  const etapa = "3"
+  const background = "bgc-android18";
+  const color = "color-android18";
+  const borderColor = "border-color-android18"
+  const bgc_cajas = "bgc-goku";
 
 
   return (
 
     <div className="wrapper bgc-light">
-            <div className="d-flex flex-column align-items-center pbp-20">
-              <div className="page bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
-            <div className="cabecera-v1 hp-80 bgc-android18">
+    <div className="d-flex flex-column align-items-center pbp-20">
+        <div className="page bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
+            <div className={"cabecera-v1 hp-80 "+background}>
+
             </div>
-            <div className="ptp-10 container-titulo-global mbp-0">
+
+            <div className="ptp-30 container-titulo-global mbp-40">
+                {/* <div className={"f-Ubuntu-B fsp-20 psp-40 text-start lhp-20 "+color}>
+                Tiempo de degradación de los desechos
+                </div> */}
                 <div className="d-flex">
-                    <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_024/img_002.svg" alt=""  />
-                    <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">2</div>
-                    <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Me entrevisto en pareja. Luego, concluyo.</div>
-                </div>
-            </div>
-            <div className="d-flex">
-                <div className="d-flex w-90 align-items-top flex-wrap mbp-20">
-                    <span className="psp-70 f-Ubuntu-L text-star ptp-10">La persona que entrevisté es:</span>
-                    <div className="p-1 flex-grow-1">
-                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                    {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_002.svg"} alt=""  /> */}
+                    <div className={"f-ccdigitaldelivery-bold fsp-35 "+color}>5</div>
+                    <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                    Transcurridos 20 días, analizamos los resultados.
                     </div>
+                    {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+                    {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
+                    {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
+                    {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
                 </div>
             </div>
 
-            <div className="row container-row px-5">
+            <div className="row px-5">
                 <div className="col-sm-12 col-md-6 position-relative">
-                    <div className="position-absolute top-100 start-0 translate-middle visible-768 zindex-1 msp-60 mtp--5"><img src="images/page_024/img_006.png" className="hp-60" alt=""/></div>
-                    <div className="box-color-24-1">
-                        <div className="f-Ubuntu-B alinea rounded-set-10 bgc-saitama w-100 p-2 text-center color-white">¿Qué ejemplo o caso de<br /> discriminación conoces?</div>
-                        <div className=" linea1 bgc-white hp-250 p-2  rounded-seb-20 border-style-solid border-color-saitama border-2">
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
+                    <div className="d-flex flex-column bgc-sextario border-style-solid border-1 psp-10 pep-10 ptp-10 pbp-10">
+                        <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 text-start">
+                            <div className="color-android18 f-ccdigitaldelivery-bold bgc-red fsp-16 mep-5">a.</div>
+                            <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 bgc-green">¿En cuál de los desechos se observaron mayores cambios? Marca.</div>
+                        </div>
+                        <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-10 text-start">
+                            <div className="color-android18 f-ccdigitaldelivery-bold bgc-red fsp-16 mep-5">
+                                <div className="wp-25 hp-25 border-style-solid border-1 border-color-dark bgc-white"></div>
+                            </div>
+                            <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 bgc-green">Cáscara de plátano</div>
+                        </div>
+                        <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-10 text-start">
+                            <div className="color-android18 f-ccdigitaldelivery-bold bgc-red fsp-16 mep-5">
+                                <div className="wp-25 hp-25 border-style-solid border-1 border-color-dark bgc-white"></div>
+                            </div>
+                            <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 bgc-green">Bolsa de té</div>
+                        </div>
+                        <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-10 text-start">
+                            <div className="color-android18 f-ccdigitaldelivery-bold bgc-red fsp-16 mep-5">
+                                <div className="wp-25 hp-25 border-style-solid border-1 border-color-dark bgc-white"></div>
+                            </div>
+                            <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 bgc-green">Tapa plástica</div>
                         </div>
                     </div>
                 </div>
 
-                <div className="col-sm-12 col-md-6 position-relative">
-                    <div className="position-absolute top-0 start-100 translate-middle wp-100"><img src="images/page_024/img_002.png" className="w-30 mep-70 mtp-30" alt="" /></div>
-                    <div className="position-absolute top-100 start-100 translate-middle visible-768 zindex-1 msp--60 mtp--5"><img src="images/page_024/img_006.png" className="hp-60" alt=""/></div>
-                    <div className="espirales position-absolute"><img src="images/page_024/img_005.png" className="w-45 " alt=""/></div>
-                    <div className="box-color-24-2">
-                    <div className="f-Ubuntu-B alinea rounded-set-10 bgc-leia w-100 p-2 text-center color-white">¿Por qué condición o característica<br /> se discriminó en dicho caso?</div>
-                    <div className="linea1 bgc-white hp-250 p-2  rounded-seb-20 border-style-solid border-color-leia border-2">
-                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
-                    </div>
-                    </div>
-                </div>
-
-                <div className="col-md-12 col-lg-12 position-relative">
-                    
-                    <div className="mbp-20 mtp-10 msp-20 mep-20">
-                    <div className="f-Ubuntu-B alinea rounded-set-10 bgc-arlo w-100 p-2 text-center color-white">¿Qué medidas se podrían adoptar para<br /> resguardar los derechos en este caso?</div>
-                    <div className="linea1 bgc-white hp-250 p-2  rounded-seb-20 border-style-solid border-color-arlo border-2">
-                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
-                    </div>
-                    </div>
-                </div>
-                <div className="col-md-12 col-lg-12 ">
-                    <div className="psp-20 w-100 f-Ubuntu-R fsp-16 text-start">A partir de las entrevistas, comentamos.</div>
-                </div>
-                <div className="col-md-12 col-lg-12 mbp-70 position-relative">
-                    
-                    <div className="position-absolute top-50 start-0 translate-middle wp-100"><img src="images/page_024/img_004.png" className="w-45 " alt=""/></div>
-                    <div className="mbp-20 mtp-10 msp-20 mep-20">
-                    <div className="linea1 bgc-white min-hp-300 p-2  border-style-solid border-color-chitara border-5 rounded-p-20 border-color-sextario">
-
-                        <div className="f-Ubuntu-L fsp-16 p-1 text-start">¿Qué llamó nuestra atención de las respuestas?</div>
-                    
-                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
-
-
-                    </div>
-                    </div>
-                </div>
-                </div>
+            </div>
 
 
 
