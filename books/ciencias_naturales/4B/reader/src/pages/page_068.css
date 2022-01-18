@@ -1,141 +1,60 @@
-.cb-cabecera {
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
-  clip-path: polygon(0 0%, 100% 0, 100% 85%, 0% 100%);
-  background-color: var(--saitama);
-  height: 80px;
-}
-.linea {
-  border-bottom: 1px dashed #dedede;
-  padding-top: 25px;
-  border-color: var(--dark);
-  min-width: 55px;
-}
-.cuadrado {
-  width: 25px;
-  height: 25px;
-}
-.espacio {
-  height: 60px;
-}
-.maximo {
-  max-width: 80%;
-}
 
-.mtp--2 {
-  margin-top: -10px;
+.cb-page68 {
+  background: url(images/page_068/fondo_001.svg) top left/ cover no-repeat !important;
+   -webkit-print-color-adjust: exact !important;
 }
-.msp--15 {
-  margin-left: -15px;
+.cb-600{
+max-width: 600px;
 }
-
-.uno {
-  display: flex;
-  position: absolute;
-  left: 80px;
-  top: 250px;
-  z-index: 1;
-  height: 30px;
+.cb-6{
+  padding-left: 6%;
+  padding-right: 6%;
 }
-.dos {
-  display: flex;
-  position: absolute;
-  left: 80px;
-  top: 335px;
-  z-index: 1;
-  height: 30px;
+.cb-radius-10{
+  border-radius: 10px;
 }
-.tres {
-  display: flex;
-  position: absolute;
-  left: 80px;
-  top: 415px;
-  z-index: 1;
-  height: 30px;
-}
-.cuatro {
-  display: flex;
-  position: absolute;
-  left: 80px;
-  top: 500px;
-  z-index: 1;
-  height: 30px;
-}
-
-.block-bottom {
-  max-width: 700px;
-  margin-right: auto;
-  margin-left: auto;
+.cb-block2-p68 {
+  max-width: 500px;
   width: calc(100% - 30px);
 }
-
-.tf-flecha {
-  padding-bottom: -2px;
-  height: 20px;
+.cb-union-a-p68{
+  top: -40px;
+  left: 32px;
 }
-.tf-parrafo-caja {
-  font-size: 13px;
-  text-align: left !important;
-  color: #000 !important;
-  font-family: ubuntu-l, sans-serif;
-  background-color: #e4e0f0;
-  width: 335px;
-  padding-left: 8px;
+.cb-union-b-p68{
+  top: -40px;
+  right: 32px;
 }
-.tf-letra {
-  border-top: 1px solid;
-  border-left: 1px solid;
-  border-right: 1px solid;
-  color: white !important;
+.cb-camara-p68{
+  top: 40px;
+  right: -38px;
 }
-.tf-mono {
-  display: flex;
-  position: absolute;
-  right: 20px;
-  top: 405px;
-  z-index: 1;
-  height: 270px;
+.cb-celular-p68{
+  bottom: 40px;
+  left: -38px;
 }
-@media all and (max-width: 990px) {
-  .tf-mono {
-    display: flex;
-    position: absolute;
-    visibility: hidden;
-  }
-  .maximo {
-    max-width: 100%;
-  }
+.cb-calendario-p68{
+  bottom: -20px;
+  right: -38px;
 }
-@media all and (max-width: 660px) {
-  .uno {
-    display: flex;
-    position: absolute;
-    left: 70px;
-    top: 275px;
-    z-index: 1;
-    height: 30px;
-  }
-  .dos {
-    display: flex;
-    position: absolute;
-    left: 70px;
-    top: 355px;
-    z-index: 1;
-    height: 30px;
-  }
-  .tres {
-    display: flex;
-    position: absolute;
-    left: 70px;
-    top: 435px;
-    z-index: 1;
-    height: 30px;
-  }
-  .cuatro {
-    display: flex;
-    position: absolute;
-    left: 70px;
-    top: 520px;
-    z-index: 1;
-    height: 30px;
-  }
+.cb-personaje-p68{
+  bottom: 0;
+  right: -96px;
 }
+@media all and (max-width: 829px) {
+  .cb-page68{
+     background: url(images/page_068/fondo_000.svg) top left/ cover no-repeat !important;
+     }
+     .cb-camara-p68{
+     display: none;
+    }
+    .cb-calendario-p68{
+      display: none;
+     }
+     .cb-celular-p68{
+      display: none;
+     }
+     .cb-personaje-p68{
+      display: none;
+     }
+  }
