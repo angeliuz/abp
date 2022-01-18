@@ -48,7 +48,7 @@ function Page015(props) {
                   />
                 </div>
                 <div className="">
-                  <img src="images/page_015/im" alt="" /></img>
+                  <img src="images/page_015/im" alt="" />
                 </div>
               </div>
 
