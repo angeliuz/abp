@@ -100,7 +100,7 @@ function Page015(props) {
                   </div>
                   <img
                     src="images/page_015/img_007.png"
-                    className="position-absolute translate-middle top-0 start-100 tf-mono zi2"
+                    className="position-absolute translate-middle top-0 start-100 tf-mono-15 zi2"
                     alt=""
                   />
                 </div>
