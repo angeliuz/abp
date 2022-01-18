@@ -1,105 +1,23 @@
+.posicion-centro-centro{
+  top: 50%;
+  left: 0%;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.rotacion-centro-centro{
+  transform: rotate(0deg);
+}
 
-.linea{
-  border-bottom: 2px dotted #dedede;
-  padding-top: 25px;
-}
-.linea2{
-  border-bottom: 2px dotted #dedede;
-  padding-top: 25px;
-}
-.container-row{
-  margin-left: 20px;
-  margin-right: 20px;
-  
-  } 
-  .linea1{
-    margin: 0 auto;
+@media all and (max-width: 767px) {
+  .posicion-centro-centro{
+    top: 0%;
+    left: 50%;
+    margin-left: 0px;
+    margin-top: 0px;
   }
-
-.box-color-24-1{
-margin-left:20px; 
-margin-bottom: 20px;
-
-  
-}
-.box-color-24-2{
-  
-  margin-bottom: 20px;
-  margin-right: 20px;
-}
-
-
-.espirales{
-  height: auto;
-  width: 160px;
-  margin-top: 90px;
-  margin-left: -93px;
-  visibility: visible;
-  
+  .rotacion-centro-centro{
+    transform: rotate(90deg);
   }
-  .espiral-1{
-
-    visibility: visible;
-    
-    }
-    .espiral-2{
-
-      visibility: visible;
-      
-      }
-
-
-  .rounded-set-10 {
-    border-radius: 10px 10px 0px 0px;
-    }
-    @media (max-width: 768px) {
-      .box-color-24-1{
-        margin-left:0;
-        margin-right: 0;  
-        margin-bottom: 20px;
-        }
-        .box-color-24-2{
-          margin-left:0;
-          margin-right: 0;  
-          margin-bottom: 20px;
-          }
-
-      .espirales{
-      height: auto;
-      width: 160px;
-      margin-top: 90px;
-      margin-left: -48px;
-      visibility: hidden;
-      
-      }
-      .espiral-1{
-
-        visibility: hidden;
-        
-        }
-        .espiral-2{
-
-          visibility: hidden;
-          
-          }
-
-      }
-
-      @media (max-width: 992px) {
-        .linea2{
-          border-bottom: 2px dotted #dedede;
-          width: 100%;
-          margin-top:10px;
-          margin-left:40px;
-          visibility: visible;
-        }
-      }
-      @media (max-width: 576px) {
-        .linea2{
-          border-bottom: 2px dotted #dedede;
-          width: 100%;
-          margin-top:10px;
-          margin-left:40px;
-          visibility: visible;
-        }
-      }
+  
+  
+}
