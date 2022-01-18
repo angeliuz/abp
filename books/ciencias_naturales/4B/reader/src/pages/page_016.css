@@ -16,3 +16,17 @@ box-shadow: 0px 0px 37px -7px rgba(0,0,0,0.69);
 .mtp-200 {
   margin-top: 200px;
 }
+.ps-8-r {
+  padding-left: 8%;
+}
+.pe-8-r {
+  padding-right: 8%;
+}
+@media all and (max-width: 768px) {
+  .ps-8-r {
+    padding-left: 4%;
+  }
+  .pe-8-r {
+    padding-right: 4%;
+  }
+}

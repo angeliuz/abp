@@ -28,22 +28,42 @@ function Page016(props) {
                 Observo y respondo.
               </div>
             </div>
-            <div className="w-85 sombra p-2 centrar-hor mtp-30">
-              <img src="images/page_016/img_001.jpg" className="w-100" alt="" />
-              <div className="d-flex psp-30 mtp--15">
-                <div className="flecha-bulma-arriba"></div>
-                <div className="psp-20 mtp--5"> Casas destruidas por el terremoto del 27 de febrero de 2010.</div>
+            <div className="ps-8-r pe-8-r">
+              <div className="w-100 sombra p-2 centrar-hor mtp-30">
+                <img
+                  src="images/page_016/img_001.jpg"
+                  className="w-100"
+                  alt=""
+                />
+                <div className="d-flex psp-30 mtp--15">
+                  <div className="flecha-bulma-arriba"></div>
+                  <div className="psp-20 mtp--5">
+                    {" "}
+                    Casas destruidas por el terremoto del 27 de febrero de 2010.
+                  </div>
+                </div>
               </div>
-            </div>
-            <div className="w-85 sombra p-2 centrar-hor mtp-30">
-              <img src="images/page_016/img_002.jpg" className="w-100" alt="" />
-              <div className="d-flex psp-30 mtp--15">
-                <div className="flecha-bulma-arriba"></div>
-                <div className="psp-20 mtp--5">  Casas bajo ceniza volcánica en Chaitén, 2008.</div>
+              <div className="w-100 sombra p-2 centrar-hor mtp-30">
+                <img
+                  src="images/page_016/img_002.jpg"
+                  className="w-100"
+                  alt=""
+                />
+                <div className="d-flex psp-30 mtp--15">
+                  <div className="flecha-bulma-arriba"></div>
+                  <div className="psp-20 mtp--5">
+                    {" "}
+                    Casas bajo ceniza volcánica en Chaitén, 2008.
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <img src="images/page_016/img_003.png"className="position-absolute top-50 start-0 hp-160 msp-100 mtp-200" alt="" />
+          <img
+            src="images/page_016/img_003.png"
+            className="position-absolute top-50 start-0 hp-160 msp-40 mtp-180"
+            alt=""
+          />
           {/* PIE DE PAGINA */}
           <div
             className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2"
@@ -110,7 +130,7 @@ function Page016(props) {
               <div className="w-100 hp-25 bgc-pikachu"></div>
             </div>
           </div>
-          {/* FIN PIE DE PAGINA */}  
+          {/* FIN PIE DE PAGINA */}
         </div>
       </div>
     </div>
