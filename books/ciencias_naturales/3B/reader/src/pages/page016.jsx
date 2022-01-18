@@ -28,7 +28,7 @@ function Page016(props) {
               Cumplimos roles en nuestro equipo
               </div>
               <div className="d-flex">
-                  <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_016/img_001.svg" alt=""  />
+                  <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_001.svg"} alt=""  />
                   <div className={"f-ccdigitaldelivery-bold fsp-35 "+color}>2</div>
                   <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                   Comprendemos los roles y pinto el que asumo.

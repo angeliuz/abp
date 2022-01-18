@@ -8,7 +8,8 @@ function Page021(props) {
   var indexInput = 0;
   const etapa = "3"
   const background = "bgc-android18";
-  const color = "color-primary";
+  const color = "color-android18";
+  const colorSesion = "color-primary";
   const borderColor = "border-color-android18"
   const bgc_cajas = "bgc-goku";
 
@@ -19,7 +20,7 @@ function Page021(props) {
                 {/* BEGIN CABECERA VERSIÓN 2 */}
                 <div className={"cabecera-v2 d-flex flex-column "+background}>
                   <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-                    <div className={"caja wp-150 text-center fsp-24 f-IntroRustG-Base "+color}>SESIÓN 4</div>
+                    <div className={"caja wp-150 text-center fsp-24 f-IntroRustG-Base "+colorSesion}>SESIÓN 4</div>
                     <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Los desechos que eliminamos</div>
                   </div>
 
@@ -48,12 +49,10 @@ function Page021(props) {
 
                     <div className="col-md-12 col-lg-12 position-relative">
 
-                    <div className="position-absolute top-50 start-100 translate-middle visible-768 zindex-1 msp--70 mtp-150"><img src="images/page_026/img_001.png" className="hp-60" alt=""/></div>
-                        <div className="position-absolute top-50 start-0 translate-middle visible-768 zindex-1 msp-70 mtp--5"><img src="images/page_026/img_003.png" className="w-100" alt=""/></div>
-                        <div className="position-absolute top-100 start-0 translate-middle visible-768 zindex-1 msp-100 mtp--90"><img src="images/page_026/img_004.png" className="w-100" alt=""/></div>
+                        <div className="position-absolute top-100 start-0 translate-middle visible-768 zindex-1 msp-100 mtp--90"><img src={"images/page_"+pagina+"/personaje.png"} className="w-100" alt=""/></div>
 
                         <div className="mbp-20 mtp-10 msp-20 mep-20">
-                            <div className=" bgc-white caja-dibujo-global p-2 rounded-p-20 border-style-solid border-2 border-color-dark">
+                            <div className=" bgc-white caja-dibujo-global p-2 rounded-p-20 border-style-solid border-2 border-color-android18">
 
                             </div>
                         </div>
