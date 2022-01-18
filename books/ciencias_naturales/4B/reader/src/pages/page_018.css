@@ -1,6 +1,4 @@
-.wp-280 {
-  width: 280px;
-}
+
 .giro-2deg {
   transform: rotate(2deg);
 }
@@ -10,13 +8,4 @@
 .sombra {
   -webkit-box-shadow: 0px 0px 37px -7px rgba(0,0,0,0.40); 
 box-shadow: 0px 0px 37px -7px rgba(0,0,0,0.40);
-}
-.hp-250 {
-  height: 250px;
-}
-.msp--1 {
-  margin-left: -1px;
-}
-.msp-350 {
-  margin-left: 350px;
 }
