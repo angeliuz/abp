@@ -2,11 +2,11 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 
-import "./page_024.css";
+import "./page_027.css";
 
-function Page024(props) {
+function Page027(props) {
 
-  const pagina = "024";
+  const pagina = "027";
   var indexInput = 0;
 
 
@@ -16,15 +16,34 @@ function Page024(props) {
     <div className="wrapper bgc-light">
             <div className="d-flex flex-column align-items-center pbp-20">
               <div className="page bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
-            <div className="cabecera-v1 hp-80 bgc-android18">
+              <div className="cabecera-v2 bgc-android18 d-flex flex-column">
+            <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
+              <div className="caja wp-150 text-center fsp-24 f-IntroRustG-Base color-balrog">
+                SESIÓN 5
+              </div>
+              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">
+              ¡Seguridad escolar!
+              </div>
             </div>
-            <div className="ptp-10 container-titulo-global mbp-0">
+
+            
+            <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90"></div>
+          </div>
+
+          <div className="ptp-30 psp-60 pep-60">
+            <div className="f-Ubuntu-M fsp-20 color-android18 text-start">
+              ¿Qué pasaría sí...?
+            </div>
+          </div>
+          <div className="container-titulo-global mbp-20">
                 <div className="d-flex">
-                    <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_024/img_002.svg" alt=""  />
-                    <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">2</div>
-                    <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Me entrevisto en pareja. Luego, concluyo.</div>
+                    <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_027/img_002.svg" alt=""  />
+                    <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">3</div>
+                    <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Leo la revista y doy recomendaciones ante actitudes peligrosas.</div>
+                    {/* <img src="images/page_023/img_003.svg" className="cambio hp-50 text-end mtp-0 psp-10 pep-40"  alt=""  /> */}
+                    <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_027/img_001.svg" clasesImagen="hp-40 text-center mtp-15 msp--10" className="p-0 px-0" />
                 </div>
-            </div>
+            </div> 
             <div className="d-flex">
                 <div className="d-flex w-90 align-items-top flex-wrap mbp-20">
                     <span className="psp-70 f-Ubuntu-L text-star ptp-10">La persona que entrevisté es:</span>
@@ -135,4 +154,4 @@ function Page024(props) {
   );
 }
 
-export default Page024;
+export default Page027;
