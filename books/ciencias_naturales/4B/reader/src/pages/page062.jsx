@@ -22,120 +22,97 @@ function Page062(props) {
                 {/* END CABECERA VERSIÓN 2 */}
 
    
- 
-
-
-          <div className="d-flex justify-content-center  msp-60 mep-40 mtp-40 ">
-              <div className="w-90 h-100 position-relative ">
-                
-                    <div className="position-absolute bottom-0 end-0   msp-200 img-monito-61"> <img src="images/page_061/img_003.png" className="hp-240 " alt=""/></div>
-                    {/* <div className="position-absolute top-0 start-100 translate-middle img-parlante"><img src="images/page_060/img_005.png" className="hp-100 mtp-20 " alt=""/></div> */}
-                    
-                  <div className="row d-flex justify-content-center bgc-bobafett rounded-p-20  position-relative  ">
-
-                   <div className="col-5  p-1 m-0">
-                     <div className="h-100 mbp-20 border-style-solid border-1 border-color-saitama bgc-white">
-
-                            <div className="ptp-10 psp-10 pep-25 mbp-0">
-                        {/* <div className="f-Ubuntu-B fsp-20 color-saitama text-start lhp-20 ">Los preparativos</div> */}
-                                <div className="d-flex">
-                                {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_060/img_001.svg" alt="" /> */}
-                                  <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">4</div>
-                                  <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Comparto mi boceto con mi equipo y en conjunto nos decidimos por uno.</div>
-                                  {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/revista.svg" clasesImagen="cambio hp-35 mtp-20" className="p-0 px-1" /> */}
-                                  {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_060/img_002.svg" clasesImagen="hp-40 text-center mtp-10 pep-20" className="p-0 px-0" />   */}
-                                </div>
-                            </div>
-
-
-
-                            <div className="psp-45 pep-20 ptp-20 w-100">
-                                <div className="f-Ubuntu-L fsp-16   mep-10 text-start">Escogimos el boceto de:</div>
-                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
-                            </div>
-                            <div className="psp-45 pep-20 ptp-20 w-100">
-                                <div className="f-Ubuntu-L fsp-16   mep-10 text-start">Porque:</div>
-                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
-                            </div>
-                            <div className="psp-45 pep-20 ptp-20 w-100">
-                                <div className="f-Ubuntu-L fsp-16   mep-10 text-start">Además, le haremos estos ajustes:</div>
-                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-350" />
-                            </div>
-                     </div>
-                    </div> 
-
- 
-
-
-                    
-                    <div className="col-lg-7 col-sm-12 p-0  bgc-bobafett  h-100 position-relative">
-
-                           <div className="h-100 mtp-20 border-style-solid rounded-p-10 border-1 border-color-saitama bgc-white">
-
-                                <div className="ptp-10 psp-10 pep-25 mbp-0">
-                                {/* <div className="f-Ubuntu-B fsp-20 color-saitama text-start lhp-20 ">Los preparativos</div> */}
-                                    <div className="d-flex">
-                                    {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_060/img_001.svg" alt="" /> */}
-                                      <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">5</div>
-                                      <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Marco con un <span className="color-danger fsp-20">X</span>  lo que está listo y con una lo que falta por hacer.</div>
-                                      {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/revista.svg" clasesImagen="cambio hp-35 mtp-20" className="p-0 px-1" /> */}
-                                      {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_060/img_002.svg" clasesImagen="hp-40 text-center mtp-10 pep-20" className="p-0 px-0" />   */}
-                                    </div>
-                                </div>
-
-
-
-                                <div className="msp-40 mtp-30  ">
-
-                                    <div className="d-flex align-items-center pbp-10 w-100">
-                                            <div className="d-inline hp-30 wp-30 border-style-solid border-1 border-color-dark"></div>
-                                            <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start ">¿Tenemos claro qué es ser brigadista?</div>
-                                    </div>
-                                    <div className="d-flex align-items-center pbp-10 w-100">
-                                            <div className="d-inline hp-30 wp-30 border-style-solid border-1 border-color-dark"></div>
-                                            <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start ptp-10">¿Conocemos experiencias de otros <br ></br>y sabemos  cómo actuar ante una situación<br ></br> de peligro?</div>
-                                    </div>
-                                    <div className="d-flex align-items-center pbp-10 w-100">
-                                            <div className="d-inline hp-30 wp-30 border-style-solid border-1 border-color-dark"></div>
-                                            <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start ptp-10">¿Definimos la misión y las tareas de <br ></br>la brigada?</div>
-                                    </div>
-                                    <div className="d-flex align-items-center pbp-10 w-100">
-                                            <div className="d-inline hp-30 wp-30 border-style-solid border-1 border-color-dark"></div>
-                                            <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start ptp-10">¿Investigamos situaciones de riesgo y <br ></br>las consideramos para elaborar elsimulacro?</div>
-                                    </div>
-                                    <div className="d-flex align-items-center pbp-10 w-100">
-                                            <div className="d-inline hp-30 wp-30 border-style-solid border-1 border-color-dark"></div>
-                                            <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start ptp-10">¿Simulamos emergencias y definimos lo <br ></br>que haría la brigada antes, durante <br ></br>y después de que ocurran?</div>
-                                    </div>
-                                    <div className="d-flex align-items-center pbp-10 w-100">
-                                            <div className="d-inline hp-30 wp-30 border-style-solid border-1 border-color-dark"></div>
-                                            <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start ptp-10">¿Creamos fichas de seguridad para<br ></br> compartir con la comunidad educativa?</div>
-                                    </div>
-                                    <div className="d-flex align-items-center pbp-10 w-100">
-                                            <div className="d-inline hp-30 wp-30 border-style-solid border-1 border-color-dark"></div>
-                                            <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start ptp-10">¿Contamos con un inventario de<br ></br> los insumos para enfrentar un emergencia?</div>
-                                    </div>
-                                    <div className="d-flex align-items-center pbp-10 w-100">
-                                            <div className="d-inline hp-30 wp-30 border-style-solid border-1 border-color-dark"></div>
-                                            <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start ptp-10">¿Contamos con nuestra identificación<br ></br> como brigadista?</div>
-                                    </div>
-
-                                </div>
-
-                            </div>
- 
-                    </div>
-                  </div>
-
-
-
+            <div className="ptp-10 psp-60 pep-60 mbp-0 pep-220 msp--20">
+              <div className="f-Ubuntu-B fsp-20 color-saitama text-start lhp-20 ">Preparando el stand de presentaciones</div>
+              <div className="d-flex">
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_062/img_004.svg" alt="" /> */}
+                <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">1</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Definimos los objetivos de la jornada de presentación</div>
+                {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/revista.svg" clasesImagen="cambio hp-35 mtp-20" className="p-0 px-1" /> */}
+                <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_062/img_002.svg" clasesImagen="hp-40 text-center mtp-10 pep-20" className="p-0 px-0" />  
               </div>
-          </div>
+            </div>
 
+
+          
+            <div className="d-flex msp-100 mep-60 position-relative mtp-40">
+                <div className="border-style-solid border border-3 borde-color-dark p-3 hp-275 w-100 position-relative">
+                              <div className="position-absolute top-0 start-100 translate-middle  mtp--35 msp--50"><img src="images/page_062/img_002.png" className="hp-80  " alt=""></img></div>
+
+                      <div className="position-absolute top-0 start-0 d-flex align-items-center justify-content-center hp-30 mtp--20 msp--40">
+                              <img src="images/page_062/img_003.png" className="hp-70  position-relative " alt=""></img>
+                              <div className="position-absolute top-50 start-50 translate-middle  w-90  d-flex justify-content-center text-center f-pixilate-bold fsp-18 lh-sm color-dark "> Objetivos:</div>          
+                       </div>
+           
+{/* 
+                    <div><img className="position-absolute top-0 start-0 hp-70 mtp--40 msp--40 position-relative" src="images/page_062/img_003.png"  alt=""> </img>
+                        <div className="position-absolute top-50 start-50 translate-middle">1231</div>
+                  </div>  */}
+
+                              <div className="msp-20 mtp-20">
+                                    <div className="p-1 d-flex align-items-center   w-100">
+                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama"></div>
+                                          <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm text-start">Dar a conocer la misión y las tareas de las brigadas.</div>
+                                    </div>
+                                    <div className="p-1 d-flex align-items-center   w-100">
+                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama"></div>
+                                          <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm text-start">Dar a conocer la misión y las tareas de las brigadas.</div>
+                                    </div>
+                                    <div className="p-1 d-flex align-items-center   w-100">
+                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama mbp-20"></div>
+                                          <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm text-start">Educar a la comunidad educativa para actuar responsablementeante situaciones <br ></br> de emergencia.</div>
+                                    </div>
+                                    <div className="p-1 d-flex align-items-center   w-100">
+                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama mbp-20"></div>
+                                          <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm text-start">Solicitar la colaboración de la comunidad educativa para poner en marcha <br ></br>las brigadas.</div>
+                                    </div>
+ 
+                                    <div className="p-1 d-flex align-items-center mtp--10  w-100">
+                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama mbp-20"></div>
+                                          <div className="f-Ubuntu-L msp-10 w-100 fsp-16 lh-sm text-start"> <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" /></div>
+                                          
+                                    </div>
+                                        
+
+                              </div>
+                </div>
+            
+            </div>
 
  
+                <div className="ptp-10 psp-60 pep-60 mbp-0 pep-220 msp--20">
+                      {/* <div className="f-Ubuntu-B fsp-20 color-saitama text-start lhp-20 ">Preparando el stand de presentaciones</div> */}
+                      <div className="d-flex">
+                        <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_062/img_004.svg" alt="" />
+                        <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">2</div>
+                        <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Propongo a mi equipo una idea para organizar el stand de presentación de la brigada. Luego, justifico mi propuesta.</div>
+                        {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/revista.svg" clasesImagen="cambio hp-35 mtp-20" className="p-0 px-1" /> */}
+                        <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_062/img_002.svg" clasesImagen="hp-40 text-center mtp-10 pep-20" className="p-0 px-0" />  
+                      </div>
+                </div>
 
 
+
+                              
+
+                <div className="row   container-row px-5 position-relative">
+                        <div className=" position-absolute top-0 start-100 translate-middle "><img className="hp-80 msp--250 mtp--50" src="images/page_062/img_007.png" alt="" /></div>
+                        <div className="col-sm-12 col-md-6   ">
+                            <div className="border-style-solid mtp-25 border-2 border-color-akuma rounded-p-10 h-300 w-100 hp-190  ">
+
+                              <div className="d-flex align-items-center justify-content-center   rounded-set-10 bgc-akuma  hp-45 pixilate-bold fsp-18 fw-700 color-white  ">Mi propuesta de presentación: </div>
+                              <div className="mtp-10 msp-30 mep-30 w-85">    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div> 
+                            </div>
+                        </div>
+                        <div className="col-sm-12 col-md-6  position relative">
+                        <div className="espirales-creacion-62   position-absolute"><img src="images/page_062/img_007.png" className="w-45   " alt=""/></div>
+                            <div className="border-style-solid mtp-25 border-2 border-color-arlo rounded-p-10 h-300 w-100 hp-190  ">
+                            <div className="d-flex align-items-center justify-content-center  rounded-set-10 bgc-arlo hp-45 pixilate-bold fsp-18 fw-700 color-white ">Justificación: </div>
+                          <div className="mtp-10 msp-30 mep-30 w-85">    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
+                            </div>
+                        </div>
+
+                </div>
 
 
 
