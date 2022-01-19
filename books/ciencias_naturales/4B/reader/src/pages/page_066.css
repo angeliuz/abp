@@ -1,11 +1,3 @@
-.cb-circulo{
-    width: 150px;
-    height: 150px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    border: 1px solid var(--dark);
-}
 .cb-600{
     max-width: 600px;
     }

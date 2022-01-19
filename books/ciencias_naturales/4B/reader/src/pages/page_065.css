@@ -7,3 +7,17 @@
 .cb-600{
   max-width: 600px;
 }
+.cb-personaje-65{
+  right: 9px;
+  bottom: -160px;
+}
+.cb-lapiz-65{
+  left: -11px;
+  top: 19px;
+}
+@media all and (max-width:767px) {
+
+.cb-lapiz-p65{
+  display: none;
+}
+}
