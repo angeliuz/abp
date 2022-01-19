@@ -1,0 +1,125 @@
+.cb-page22 {
+    background:url(images/page_022/fondo_001.svg) top center/ cover no-repeat !important;
+     -webkit-print-color-adjust: exact !important;
+  }
+  .caja-uno {
+    max-width: 135px;
+    height: 35px;
+    transform: rotate(-6deg);
+  }
+  .centrar-hor {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+  .color-papel {
+    color: #ece7d8;
+  }
+  .bgc-color-papel {
+    background-color: #ece7d8;
+  }
+  .border-color-papel {
+    border-color: #afa394;
+  }
+  .flecha-bulma {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 0 7px 10px;
+    border-color: transparent transparent transparent #f39200;
+  }
+  .min-hp-135 {
+    min-height: 135px;
+  }
+  .cb-contenedor-tabla-p16{
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 60px);
+  }
+  @media (min-width: 768px) {
+    .border-derecha {
+      border-color: var(--goten);
+      border: 1px solid #ff0000;
+      border-style: dashed;
+      border-top: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+    }
+    .pep-50-r {
+      padding-right: 50px;
+    }
+    .marco-inferior {
+      z-index: 1;
+    }
+    .visible-res {
+      visibility: hidden;
+    }
+    .psp-40-r {
+      padding-left: 40px;
+    }
+    .psp-30-r {
+      padding-left: 30px;
+    }
+    .nunca {
+      font-size: 16px;
+      min-width: 50px;
+    }
+    .siempre {
+      font-size: 16px;
+      min-width: 70px;
+    }
+    .tf-mono {
+      display: flex;
+      position: absolute;
+      right: 30px;
+      bottom: 40px;
+      z-index: 1;
+    }
+    .mtp--30-r {
+      margin-top: -20px;
+    }
+    }
+    @media (max-width: 768px) {
+      .border-derecha {
+        border-color: var(--goten);
+        border: 1px solid #ff0000;
+        border-style: dashed;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+      }
+      .ajuste-anillos {
+        margin-top: 50px;
+      }
+      .visible-res {
+        visibility: visible;
+      }
+      .pep-50-r {
+        padding-right: 0px;
+      }
+      .psp-40-r {
+        padding-left: 20px;
+      }
+      .psp-30-r {
+        padding-left: 15px;
+      }
+      .nunca {
+        font-size: 14px;
+        min-width: 20px;
+      }
+      .siempre {
+        font-size: 14px;
+        min-width: 60px;
+      }
+      .tf-mono {
+        display: flex;
+        position: absolute;
+        visibility: hidden;
+        right: 30px;
+        bottom: 40px;
+        z-index: 1;
+      }
+      .mtp--30-r {
+        margin-top: -45px;
+      }
+    }

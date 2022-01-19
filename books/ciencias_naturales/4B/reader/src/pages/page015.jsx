@@ -19,7 +19,7 @@ function Page015(props) {
           <div className="cabecera-v2 bgc-bulma d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 align-items-center ptp-40 psp-30 pep-30">
               <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-bulma fsp-24 f-IntroRustG-Base">
-                SESIÓN 1
+                SESIÓN 2
               </div>
               <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">
                 ¿Qué sé y qué necesito saber del desafío?
@@ -27,7 +27,7 @@ function Page015(props) {
             </div>
           </div>
           {/* END CABECERA */}
-          <div className="psp-50 pep-50 ptp-20">
+          <div className="psp-50 pep-50 ptp-20 pbp-60">
             <div className="row">
               <div className="col-md-6 col-12">
                 <div className="d-flex text-start">

@@ -137,6 +137,9 @@ body {
 .visible-768{
   visibility: visible;
 }
+.invisible-768{
+  visibility: hidden;
+}
 
 .caja-dibujo-global{
   height: 800px;
@@ -172,6 +175,9 @@ body {
   }
   @media (max-width: 768px) {
     .visible-768{
+      visibility: hidden;
+    }
+    .invisible-768{
       visibility: hidden;
     }
     .rotacion-768-90{

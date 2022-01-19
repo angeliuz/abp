@@ -1,15 +1,29 @@
-.bgc-investigacion {
-    background: url(images/page_023/bgc_investigacion.svg) #afca0b top left/ cover no-repeat !important;
+.cb-page21 {
+    background:url(images/page_021/fondo_001.svg) top center/ cover no-repeat !important;
      -webkit-print-color-adjust: exact !important;
- 
- }
- .t-shadow-21{
-     text-shadow: -7px -8px #529f3a;
- }
- 
- @media all and (max-width: 500px) {
- 
-     .ft-m {
-         font-size: 50px;
-      }
- }
+  }
+  .mep--50 {
+      margin-right: -50px;
+  }
+  .centrar-ver {
+      margin-top: auto !important;
+      margin-bottom: auto !important;
+  }
+  .centrar-hor {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.mxwp-a {
+    max-width:120px;
+}
+.border-dashed-pidgey {
+    border-style: solid;
+    border: 2px dashed;
+    border-color: var(--pidgey);
+    }
+  .ptp-3 {
+      padding-top: 3px;
+  }
+  .mxwp-200 {
+      max-width: 200px;
+  }

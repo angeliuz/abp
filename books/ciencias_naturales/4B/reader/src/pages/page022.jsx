@@ -1,111 +1,166 @@
 import React from "react";
+import InputBox from "../components/InputBox";
 import "./page_022.css";
 
 function Page022(props) {
-
   const pagina = "022";
   var indexInput = 0;
 
   return (
-      
     <div className="wrapper bgc-light">
-            <div className="d-flex flex-column align-items-center pbp-20">
-
-                <div className="page bgc-android18 position-relative" id={"page_"+pagina}>
-                    <div className="w-100 mt-15 pe-5 ps-5 ">
-                        <div className="cb-lineas-12 pbp-60">
-                            <div className="cb-cabecera">
-                                <div className="cb-titulo-12 color-white fsp-20 lh-sm f-durotype-aspiranar-bold">
-                                Mis objetivos <br /> en esta etapa son: 
-                                </div>
-                                <div className="cb-cohete-12" ><img src="images/page_006/img_001.png" alt=""/>
-                                </div>
-                            </div>
-
-                <div className="cb-contenedor-12-1">
-                    <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
-                        <div className="d-flex bgc-azuka psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-22"> 
-                        <div className="d-flex"> <img src="images/page_022/flecha.svg" className="mbp-20 mep-5" alt=""/></div>  
-                                <div> 
-                                    <span className="fsp-16 text-start f-pixilate-regular">
-                                        <span className="fsp-16 f-IntroRustG-Base text-start"> 
-                                        IDENTIFICAR
-                                        </span> 
-                                        <br /> qué sé acerca del desafío. 
-                                    </span>
-                                </div>  
-                        </div>
-                    </div>
-                </div>
-                <div className="cb-contenedor-12-2">
-                    <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
-                        <div className="d-flex bgc-azuka psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-22"> 
-                            <div className="d-flex"> 
-                                <img src="images/page_022/flecha.svg" className="mbp-25 mep-5" alt=""/>
-                            </div> 
-                            <div className="d-flex"> 
-                                <span className="fsp-16 text-start f-pixilate-regular">
-                                    <span className="fsp-16 f-IntroRustG-Base text-start">
-                                        IDENTIFICAR</span>  que necesito <br />saber para afrontar el desafío.
-                                    </span>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-                <div className="cb-contenedor-12-3">
-                    <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
-                        <div className="d-flex bgc-azuka psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-22"> 
-                            <div className="d-flex"> 
-                                <img src="images/page_022/flecha.svg" className="mbp-25 mep-5" alt=""/>
-                            </div> 
-                            <div className="d-flex"> 
-                                    <span className="fsp-16 text-start f-pixilate-regular">
-                                        <span className="fsp-16 f-IntroRustG-Base text-start">
-                                        ASIGNAR</span> los roles <br /> para realizar el trabajo en equipo.
-                                        </span>
-                                </div> 
-                        </div>
-                    </div>
-                </div>
-                <div className="cb-contenedor-12-4">
-                    <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
-                        <div className="d-flex bgc-azuka psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 cb-outline-22"> 
-                            <div className="d-flex"> <img src="images/page_022/flecha.svg" className="mbp-20 mep-5" alt=""/></div> 
-
-                                <div className="d-flex"> 
-                                    <span className="fsp-16 text-start f-pixilate-regular">
-                                        <span className="fsp-16 f-IntroRustG-Base text-start">
-                                        ELABORAR</span> un plan para <br />superar el desafio.
-                                        </span>
-                                </div> 
-                        </div>
-                    </div>
-                </div>
+      <div className="d-flex flex-column align-items-center pbp-20">
+        <div
+          className="page cb-page22 bgc-white overflow-hidden position-relative"
+          id={"page_" + pagina}
+        >
+          <div className="psp-60 pep-60 ptp-40">
+            <div className="d-flex pbp-10 position-relative">
+              <div className="f-ccdigitaldelivery-bold fsp-35 color-bulma">
+                2
+              </div>
+              <div className="f-Ubuntu-R fsp-16 ptp-15 psp-10 text-start">
+                Nos distribuimos los roles de la siguiente manera:
+              </div>
             </div>
-            
-                    <div className="d-flex justify-content-center max-img mb-5">
-                        <div className="">
-                            <img src="images/page_022/img_003.jpg" className="img-fluid" alt="" />
-                        </div>
-                    </div>
-                  {/* Begin pie de página */}
-                  <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
-                    <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
-                      ABP &copy; SM
-                    </div>
-                    <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+            <div className="row">
+              <div className="col-md-6 col-12 pbp-20">
+                <div className="bgc-pantro border-style-solid border-color-pidgey border-1">
+                  <div className="mtp--20 msp--10 bgc-white ptp-5 border-style-solid border-1 border-color-pidgey caja-uno color-pidgey f-pixilate-bold fsp-18">
+                    Coordinación
                   </div>
-                  {/* End pie de página */}
-                    
-                    
-
+                  <div>
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 flex-grow-1 lhp-35 min-hp-100 mtp--10"
+                    />
+                  </div>
                 </div>
+              </div>
+              <div className="col-md-6 col-12 pbp-20">
+                <div className="bgc-klee border-style-solid border-color-saitama border-1">
+                  <div className="mtp--20 msp--10 bgc-white ptp-5 border-style-solid border-1 border-color-saitama caja-uno color-saitama f-pixilate-bold fsp-18">
+                    Supervisión
+                  </div>
+                  <div>
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 flex-grow-1 lhp-35 min-hp-100 mtp--10"
+                    />
+                  </div>
                 </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-6 col-12 pbp-20">
+                <div className="bgc-sargento border-style-solid border-color-yanfei border-1">
+                  <div className="mtp--20 msp--10 bgc-white ptp-5 border-style-solid border-1 border-color-yanfei caja-uno color-goten f-pixilate-bold fsp-18">
+                    Relaciones públicas
+                  </div>
+                  <div>
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 flex-grow-1 lhp-35 min-hp-100 mtp--10"
+                    />
+                  </div>
                 </div>
-
-            
+              </div>
+              <div className="col-md-6 col-12 pbp-20">
+                <div className="bgc-jarek border-style-solid border-color-blaze border-1">
+                  <div className="mtp--20 msp--10 bgc-white ptp-5 border-style-solid border-1 border-color-blaze caja-uno color-blaze f-pixilate-bold fsp-18">
+                    Intendencia
+                  </div>
+                  <div>
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 flex-grow-1 lhp-35 min-hp-100 mtp--10"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="d-flex pbp-10 position-relative">
+              <div className="f-ccdigitaldelivery-bold fsp-35 color-bulma">
+                3
+              </div>
+              <div className="f-Ubuntu-R fsp-16 ptp-15 psp-10 text-start">
+              Pensamos en lo que vamos a necesitar para realizar nuestro proyecto.
+              </div>
+            </div>
+            <div className="d-flex msp-20">
+              <div className="position-relative">
+                <img
+                  src="images/page_021/img_005.png"
+                  className="hp-220 position-absolute msp--28 mtp-10 start-0 top-0"
+                  alt=""
+                />
+                <img
+                  src="images/page_018/img_005.png"
+                  className="visible-res hp-220 position-absolute msp--28 mtp--40 start-0 top-50 "
+                  alt=""
+                />
+              </div>
+              <div className="row bgc-color-papel border-style-solid border-color-papel border-1 psp-30">
+                <div className="col-md-4 text-left ptp-15 border-derecha">
+                  <div className="d-flex">
+                    <div className="ptp-5 f-pixilate-bold color-goten fsp-18">
+                      Personas
+                    </div>
+                    <img
+                      src="images/page_018/img_001.png"
+                      className="hp-35 psp-10 pep-10"
+                      alt=""
+                    />
+                  </div>
+                  <div className="f-Ubuntu-L">
+                    Necesitaremos la colaboración de...
+                  </div>
+                  <InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 flex-grow-1 lhp-35 min-hp-135"
+                  />
+                </div>
+                <div className="col-md-4 text-left ptp-15 border-derecha">
+                  <div className="d-flex">
+                    <div className="ptp-5 f-pixilate-bold color-goten fsp-18">
+                      Lugares
+                    </div>
+                    <img
+                      src="images/page_018/img_002.png"
+                      className="hp-35 psp-10 pep-10"
+                      alt=""
+                    />
+                  </div>
+                  <div className="f-Ubuntu-L">Haremos nuestra fiesta en...</div>
+                  <InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 flex-grow-1 lhp-35 min-hp-135"
+                  />
+                </div>
+                <div className="col-md-4 text-left ptp-15">
+                  <div className="d-flex">
+                    <div className="ptp-5 f-pixilate-bold color-goten fsp-18">
+                      Materiales
+                    </div>
+                    <img
+                      src="images/page_018/img_003.png"
+                      className="hp-35 psp-10 pep-10"
+                      alt=""
+                    />
+                  </div>
+                  <div className="f-Ubuntu-L">
+                    Creemos que para nuestro proyecto vamos a necesitar...
+                  </div>
+                  <InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 flex-grow-1 lhp-35 min-hp-120"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
   );
 }
 

@@ -278,6 +278,9 @@
 .wp-215 {
   width: 215px;
 }
+.wp-280 {
+  width: 280px;
+}
 
 /* HEIGHT */
 .h-5 {
@@ -520,6 +523,9 @@
 }
 .hp-200 {
   height: 200px;
+}
+.hp-250 {
+  height: 250px;
 }
 
 /* MARGENES */
@@ -794,9 +800,15 @@
 .msp-300 {
   margin-left: 300px;
 }
+.msp-350 {
+  margin-left: 350px;
+}
 
 
 
+.msp--1 {
+  margin-left: -1px;
+}
 .msp--5 {
   margin-left: -5px;
 }
@@ -1992,6 +2004,9 @@
 }
 .mtp--110 {
   margin-top: -110px;
+}
+.mtp--135 {
+  margin-top: -135px;
 }
 
 
@@ -4152,6 +4167,9 @@
 }
 .min-hp-50 {
   min-height: 50px !important;
+}
+.min-hp-55 {
+  min-height: 55px !important;
 }
 .min-hp-60 {
   min-height: 60px !important;

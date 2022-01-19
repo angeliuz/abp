@@ -1,196 +1,46 @@
-
-  /* .style-title {
-    font-size: 16px;
-    font-family: Ubuntu-B, sans-serif;
-    text-align: left !important;
-  } */
-  /* .style-text {
-    font-size: 16px;
-    font-family: Ubuntu-r, sans-serif;
-    text-align: left !important;
-    max-width: 75%;
-  } */
-  .style-text-b {
-    font-size: 16px;
-    font-family: Ubuntu-r, sans-serif;
-    text-align: left !important;
-    max-width: 40%;
-  }
-  .style-puzzle {
-    font-size: 16px;
-    font-family: Ubuntu-m, sans-serif;
-    text-align: center !important;
-  }
-  .block-bottom-19{
-    max-width: 600px;
-    margin-right: auto;
-    margin-left: auto;
-    width: calc(100% - 30px);
-  }
-  .caja-respuesta-19 {
-    width: 35px;
-    height: 35px;
-    margin-right: auto;
-    margin-left: auto;
-    z-index: 1;
-  }
-  .bloque-19  {
-    min-width: 100px;
-    min-height: 150px;
-  }
-  .bgc-zoe {
-      background-color: #76ccc9
-  }
-  .tf-mapa {
-    display: flex;
-    position: absolute;
-    left: 20px;
-    top: 40px;
-    z-index: 1;
+.mxhp-40 {
+  max-height: 40px;
 }
-.tf-estrella {
-    display: flex;
-    position: absolute;
-    right: 30px;
-    top: 60px;
-    z-index: 1;
+.mxhp-20 {
+  max-height: 20px;
 }
-.tf-play {
-    display: flex;
-    position: absolute;
-    right: 190px;
-    top: 125px;
-    z-index: 1;
+.giro90-res {
+  transform: rotate(0deg);
 }
-.tf-bloque-19  {
-    display: flex;
-    position: absolute;
-    right: 30px;
-    top: 170px;
-    z-index: 1;
+.mnwp-160 {
+  min-width: 160px;
 }
-.tf-carta-19 {
-  display: flex;
-  position: absolute;
-  left: 50px;
-  top: 310px;
-  z-index: 1;
+.mnhp-a {
+  min-height: 130px;
 }
-.tf-celular-19 {
-  display: flex;
-  position: absolute;
-  right: 40px;
-  top: 290px;
-  z-index: 1;
+.centrar-ver {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
 }
-.tf-claqueta-19 {
-  display: flex;
-  position: absolute;
-  left: 60px;
-  bottom: 175px;
-  z-index: 1;
-}
-.tf-camara-19 {
-  display: flex;
-  position: absolute;
-  right: 45px;
-  bottom: 180px;
-  z-index: 1;
-}
-.tf-presentacion {
-  display: flex;
-  position: absolute;
-  right: 90px;
-  bottom: 0px;
-  z-index: 1;
-}
-.tf-metro-19 {
-  display: flex;
-  position: absolute;
-  left: 30px;
-  bottom: 25px;
-  z-index: 1;
+.dot {
+  height: 7px;
+  width: 7px;
+  background-color: var(--bulma);
+  border-radius: 50%;
+  display: inline-block;
 }
 
-
-@media all and (max-width: 765px) {
-    .ajuste-top {
-        padding-top: 100px;
-      }
-      .style-text {
-        font-size: 16px;
-        font-family: Ubuntu-r, sans-serif;
-        text-align: left !important;
-      }
-      .tf-mapa {
-        display: flex;
-        position: absolute;
-        left: 0px;
-        top: 40px;
-        z-index: 1;
-    }
-    .tf-estrella {
-        display: flex;
-        position: absolute;
-        right: 30px;
-        top: 60px;
-        z-index: 1;
-    }
-    .tf-play {
-        display: flex;
-        position: absolute;
-        top: 135px;
-        right: 150px;
-        z-index: 1;
-    }
-    .tf-bloque-19  {
-        display: flex;
-        position: absolute;
-        right: 30px;
-        top: 190px;
-        z-index: 1;
-    }
-    .tf-carta-19 {
-      display: flex;
-      position: absolute;
-      left: 50px;
-      top: 340px;
-      z-index: 1;
-    }
-    .tf-celular-19 {
-      display: flex;
-      position: absolute;
-      right: 40px;
-      top: 290px;
-      z-index: 1;
-    }
-    .tf-claqueta-19 {
-      display: flex;
-      position: absolute;
-      left: 60px;
-      bottom: 210px;
-      z-index: 1;
-    }
-    .tf-camara-19 {
-      display: flex;
-      position: absolute;
-      right: 45px;
-      bottom: 200px;
-      z-index: 1;
-    }
-    .tf-presentacion {
-      display: flex;
-      position: absolute;
-      right: 60px;
-      bottom: 20px;
-      z-index: 1;
-      transform: scale(0.9);
-    }
-    .tf-metro-19 {
-      display: flex;
-      position: absolute;
-      left: 30px;
-      bottom: 25px;
-      z-index: 1;
-    }
+@media all and (min-width: 680px) {
+  .diline-res {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
+}
+
+@media all and (max-width: 680px) {
+  .diline-res {
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+  }
+  .giro90-res {
+    transform: rotate(90deg);
+  }
+}
+
