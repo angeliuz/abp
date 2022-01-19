@@ -25,30 +25,31 @@ function Page049(props) {
 
             <div className="ptp-10 psp-130 pep-80 mbp-0">
               <div className="row mbp-10 position-relative">
-                {/* <div className="position-absolute top-100 start-0 translate-middle"><img src="images/page_048/libreta.png" className="wp-60 mep-20 mtp--80" alt=""/></div>
-                <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_048/casco.png" className="wp-60 mep-70 mtp--80" alt=""/></div> */}
+                <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_049/agenda.png" className="wp-60 mep-0 mtp--80" alt=""/></div>
+                <div className="position-absolute top-0 start-0 translate-middle"><img src="images/page_049/hojas.png" className="wp-60 mep-40 mtp-200" alt=""/></div>
+                <div className="position-absolute top-50 start-50 translate-middle visible-768"><img src="images/page_049/espiral.svg" className="w-100" alt=""/></div>
                 <div className="col-12 col-md-6 p-1 m-0">
-                  <div className="rounded-p-10 bgc-white border-style-solid border-color-akuma border-1">
+                  <div className="rounded-p-10 bgc-white border-style-solid border-color-akuma border-2">
                     <div className="f-Ubuntu-B fsp-14 p-1 bgc-akuma rounded-set-10 text-white lh-sm min-hp-45 d-flex align-items-center justify-content-center">Materiales y/o vestimenta</div>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150 mep-10 msp-10" />
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150 mep-10 msp-10" />
                   </div>
                 </div>
                 <div className="col-12 col-md-6 p-1 m-0">
-                  <div className="rounded-p-10 bgc-white border-style-solid border-color-ken border-1">
+                  <div className="rounded-p-10 bgc-white border-style-solid border-color-ken border-2">
                     <div className="f-Ubuntu-B fsp-14 p-1 bgc-ken rounded-set-10 text-white lh-sm min-hp-45 d-flex align-items-center justify-content-center">Recursos digitales<br />(audio, video o imagen)</div>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150 mep-10 msp-10" />
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150 mep-10 msp-10" />
                   </div>
                 </div>
                 <div className="col-12 col-md-6 p-1 m-0">
-                  <div className="rounded-p-10 bgc-white border-style-solid border-color-android18 border-1">
+                  <div className="rounded-p-10 bgc-white border-style-solid border-color-android18 border-2">
                     <div className="f-Ubuntu-B fsp-14 p-1 bgc-android18 rounded-set-10 text-white lh-sm min-hp-45 d-flex align-items-center justify-content-center">Yo me encargaré de:</div>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150 mep-10 msp-10" />
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150 mep-10 msp-10" />
                   </div>
                 </div>
                 <div className="col-12 col-md-6 p-1 m-0">
-                  <div className="rounded-p-10 bgc-white border-style-solid border-color-bulma border-1">
+                  <div className="rounded-p-10 bgc-white border-style-solid border-color-bulma border-2">
                     <div className="f-Ubuntu-B fsp-14 p-1 bgc-bulma rounded-set-10 text-white lh-sm min-hp-45 d-flex align-items-center justify-content-center">Mis compañeros de equipo<br />se encargarán de:</div>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150 mep-10 msp-10" />
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150 mep-10 msp-10" />
                   </div>
                 </div>
               </div>
@@ -61,52 +62,27 @@ function Page049(props) {
               </div>
             </div>
 
-            <div className="ptp-10 psp-130 pep-80 mbp-0">
-              <div className="row mbp-10 position-relative">
-                <div className="col-12 p-1 m-0">
-                  <div className="rounded-seb-10 bgc-white border-style-solid border-color-Dark border-1">
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-430 mep-10 msp-10" />
+            <div className="mtp-20 mbp-20">
+              <div className="bgc-pantro linea-separa pbp-20">
+                <div className="contenedor mtp-10 pbp-5 f-pixilate-bold text-start fsp-17">¿Cómo voy?</div>
+                <div className="contenedor p-2 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 mbp-85"> 
+                  <div className="d-flex flex-wrap w-100 titulo-linea">
+                    <div className="d-flex mtp-10 msp-10 align-items-center"><img src="images/page_049/flecha.png" className="mep-5 hp-15" alt="" /><span className="f-Ubuntu-L fsp-14 text-start">En este proyecto realicé varias actividades y la que más me sirvió para aprender fue:</span></div>
                   </div>
+                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="msp-30 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 pbp-5" />
+
+                  <div className="d-flex flex-wrap w-100 titulo-linea">
+                    <div className="d-flex mtp-10 msp-10 align-items-center"><img src="images/page_049/flecha.png" className="mep-5 hp-15" alt="" /><span className="f-Ubuntu-L fsp-14 text-start">¿Qué hago cuando algo no me resulta como quiero?</span></div>
+                  </div>
+                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="msp-30 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 pbp-5" />
+
+                  <div className="d-flex flex-wrap w-100 titulo-linea">
+                    <div className="d-flex mtp-10 msp-10 align-items-center"><img src="images/page_049/flecha.png" className="mep-5 hp-15" alt="" /><span className="f-Ubuntu-L fsp-14 text-start">Me he sentido creativo cuando:</span></div>
+                  </div>
+                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="msp-30 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 pbp-5" />
                 </div>
               </div>
             </div>
-
-            {/* <div className="ptp-10 psp-130 pep-80 mbp-0">
-              <div className="row mbp-10 position-relative bgc-ryu rounded-p-5 p-2 bloque-respuesta">
-                <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_046/bici.png" className="wp-80 mep-50 mtp--80" alt=""/></div>
-                <div class="col-6 p-1"><div class="bgc-white text-center f-Ubuntu-B fsp-15 p-1">Emergencia</div></div>
-                <div class="col-6 p-1"><div class="bgc-white text-center f-Ubuntu-B fsp-15 p-1">Brigada a cargo</div></div>
-
-                <div class="col-6 p-1"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Ocurre un sismo mientras estamos en la sala de clases.</div></div>
-                <div class="col-6 p-1"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-50 min-hp-50" /></div></div>
-
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Un estudiante se cae al correr por las escaleras durante el recreo.</div></div>
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-50 min-hp-50" /></div></div>
-
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Se rompe un material de vidrio durante un experimento científico.</div></div>
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-50 min-hp-50" /></div></div>
-
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Hay una amago de incendio en la sala de profesores.</div></div>
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-50 min-hp-50" /></div></div>
-
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Se siente olor a gas en el casino del colegio.</div></div>
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-50 min-hp-50" /></div></div>
-
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Un estudiante se siente enfermo durante la clase.</div></div>
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-50 min-hp-50" /></div></div>
-
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Se derrama agua caliente en una actividad extraprogramática.</div></div>
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-50 min-hp-50" /></div></div>
-              </div>
-            </div> */}
-
-            {/* <div className="ptp-10 psp-60 pep-60 mbp-0">
-              <div className="d-flex">
-              <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_045/g_i.svg" alt="" />
-                <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">5</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Como equipo, reflexionamos sobre l G I a emergencia y respondemos:</div>
-              </div>
-            </div> */}
 
             <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
               <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>ABP &copy; SM</div>
