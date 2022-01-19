@@ -22,7 +22,7 @@ function Page022(props) {
                 Nos distribuimos los roles de la siguiente manera:
               </div>
             </div>
-            <div className="row">
+            <div className="row w-100 position-relative">
               <div className="col-md-6 col-12 pbp-20 ptp-20">
                 <div className="bgc-pantro border-style-solid border-color-pidgey border-1">
                   <div className="mtp--20 msp--10 bgc-white ptp-5 border-style-solid border-1 border-color-pidgey caja-uno color-pidgey f-pixilate-bold fsp-18">
@@ -49,8 +49,15 @@ function Page022(props) {
                   </div>
                 </div>
               </div>
+              <div className="position-absolute translate-middle top-0 start-100">
+                <img
+                  src="images/page_022/img_005.png"
+                  className="hp-130"
+                  alt=""
+                />
+              </div>
             </div>
-            <div className="row">
+            <div className="row w-100 position-relative">
               <div className="col-md-6 col-12 pbp-20 ptp-20">
                 <div className="bgc-sargento border-style-solid border-color-yanfei border-1">
                   <div className="mtp--20 msp--10 bgc-white ptp-5 border-style-solid border-1 border-color-yanfei caja-uno color-goten f-pixilate-bold fsp-18">
@@ -77,6 +84,13 @@ function Page022(props) {
                   </div>
                 </div>
               </div>
+              <div className="position-absolute translate-middle top-100 start-0">
+                <img
+                  src="images/page_022/img_006.png"
+                  className="hp-130 mtp--70"
+                  alt=""
+                />
+              </div>
             </div>
             <div className="d-flex pbp-10 ptp-30 position-relative">
               <div className="f-ccdigitaldelivery-bold fsp-35 color-bulma">
@@ -94,11 +108,6 @@ function Page022(props) {
                   className="hp-220 position-absolute msp--28 mtp-10 start-0 top-0"
                   alt=""
                 />
-                <img
-                  src="images/page_018/img_005.png"
-                  className="visible-res hp-220 position-absolute msp--28 mtp--40 start-0 top-50 "
-                  alt=""
-                />
               </div>
               <div className="row bgc-color-papel border-style-solid border-color-papel border-1 psp-10 w-100 position-relative">
                 <div className="col-md-6 text-left ptp-15 border-derecha">
@@ -110,7 +119,7 @@ function Page022(props) {
                     className="p-0 px-1 flex-grow-1 lhp-35 min-hp-135"
                   />
                 </div>
-                <div className="col-6 text-left ptp-15">
+                <div className="col-md-6 text-left ptp-15">
                   <div className="f-Ubuntu-L text-start">
                     Tendremos que aprender sobre:
                   </div>
@@ -125,12 +134,17 @@ function Page022(props) {
                     className="hp-160 position-absolute start-0 top-50 translate-middle"
                     alt=""
                   />
+                  <img
+                    src="images/page_022/img_008.png"
+                    className="hp-60 position-absolute start-100 top-100 translate-middle"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
           </div>
           {/* TABLA*/}
-          <div className="psp-60 ptp-10 pep-130">
+          <div className="psp-60 ptp-10 pep-130-r position-relative">
             <div className="d-flex pep-10 justify-content-between">
               <div className="block-bottom text-start mtp-30 f-pixilate-bold fsp-21">
                 ¿Cómo me siento?
@@ -324,7 +338,13 @@ function Page022(props) {
                 </div>
               </div>
             </div>
+            <img
+              src="images/page_022/img_009.png"
+              className="hp-240 position-absolute start-100 top-100 translate-middle mtp--120 msp--70 visible-768"
+              alt=""
+            />
           </div>
+          <div className="pbp-60 invisible-768"></div>
         </div>
       </div>
     </div>
