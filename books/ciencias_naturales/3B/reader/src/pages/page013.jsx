@@ -45,7 +45,7 @@ function Page013(props) {
                     </div>
                 </div>
 
-                <div className="d-flex psp-60 pep-60">
+                <div className="d-flex psp-60 pep-60 mbp-70">
                   <div className="row w-100">
                     <div className="col-12 col-md-6">
                       <img src="images/page_013/imagen.png" className="w-100 mtp--30" alt="" /> 

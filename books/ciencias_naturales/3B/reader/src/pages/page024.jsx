@@ -43,34 +43,97 @@ function Page024(props) {
 
             <div className="row px-5">
                 <div className="col-sm-12 col-md-6 position-relative">
-                    <div className="d-flex flex-column bgc-sextario border-style-solid border-1 psp-10 pep-10 ptp-10 pbp-10">
+                    <div className="d-flex flex-column bgc-sextario border-style-solid border-1 psp-10 pep-10 ptp-20 pbp-30 mbp-30 min-hp-220">
                         <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 text-start">
-                            <div className="color-android18 f-ccdigitaldelivery-bold bgc-red fsp-16 mep-5">a.</div>
-                            <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 bgc-green">¿En cuál de los desechos se observaron mayores cambios? Marca.</div>
+                            <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">a.</div>
+                            <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">¿En cuál de los desechos se observaron mayores cambios? Marca.</div>
                         </div>
                         <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-10 text-start">
-                            <div className="color-android18 f-ccdigitaldelivery-bold bgc-red fsp-16 mep-5">
+                            <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
                                 <div className="wp-25 hp-25 border-style-solid border-1 border-color-dark bgc-white"></div>
                             </div>
-                            <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 bgc-green">Cáscara de plátano</div>
+                            <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">Cáscara de plátano</div>
                         </div>
                         <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-10 text-start">
-                            <div className="color-android18 f-ccdigitaldelivery-bold bgc-red fsp-16 mep-5">
+                            <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
                                 <div className="wp-25 hp-25 border-style-solid border-1 border-color-dark bgc-white"></div>
                             </div>
-                            <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 bgc-green">Bolsa de té</div>
+                            <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">Bolsa de té</div>
                         </div>
                         <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-10 text-start">
-                            <div className="color-android18 f-ccdigitaldelivery-bold bgc-red fsp-16 mep-5">
+                            <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
                                 <div className="wp-25 hp-25 border-style-solid border-1 border-color-dark bgc-white"></div>
                             </div>
-                            <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 bgc-green">Tapa plástica</div>
+                            <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">Tapa plástica</div>
                         </div>
                     </div>
                 </div>
 
+                <div className="col-sm-12 col-md-6 position-relative">
+                    <div className="d-flex flex-column bgc-sextario border-style-solid border-1 psp-10 pep-10 ptp-20 pbp-20 min-hp-220">
+                        <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 text-start">
+                            <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">b.</div>
+                            <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">¿En cuál de los desechos se observaron menos cambios? Marca.</div>
+                        </div>
+                        <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-10 text-start">
+                            <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
+                                <div className="wp-25 hp-25 border-style-solid border-1 border-color-dark bgc-white"></div>
+                            </div>
+                            <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">Cáscara de plátano</div>
+                        </div>
+                        <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-10 text-start">
+                            <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
+                                <div className="wp-25 hp-25 border-style-solid border-1 border-color-dark bgc-white"></div>
+                            </div>
+                            <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">Bolsa de té</div>
+                        </div>
+                        <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-10 text-start">
+                            <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
+                                <div className="wp-25 hp-25 border-style-solid border-1 border-color-dark bgc-white"></div>
+                            </div>
+                            <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">Tapa plástica</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-sm-12 col-md-12 position-relative">
+                    <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-20 text-start">
+                            <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">c.</div>
+                            <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">¿A qué se debe la diferencia en los resultados?</div>
+                            
+                    </div>
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-160" />
+                </div>
+
+                <div className="col-sm-12 col-md-12 position-relative">
+                    <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-20 text-start">
+                            <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">d.</div>
+                            <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">¿A qué se debe la diferencia en los resultados?</div>
+                            
+                    </div>
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-160" />
+                </div>
+
             </div>
 
+
+            <div className="ptp-30 container-titulo-global mbp-40">
+                {/* <div className={"f-Ubuntu-B fsp-20 psp-40 text-start lhp-20 "+color}>
+                Tiempo de degradación de los desechos
+                </div> */}
+                <div className="d-flex">
+                    {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_002.svg"} alt=""  /> */}
+                    <div className={"f-ccdigitaldelivery-bold fsp-35 "+color}>6</div>
+                    <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                    Presentamos los resultados de forma oral. Comparamos y discutimos con los otros grupos.
+                    </div>
+                    <img src={"images/page_"+pagina+"/img_001.png"} className="wp-250"  alt="" /> 
+                    {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+                    {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
+                    {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
+                    {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+                </div>
+            </div>
 
 
                 {/* BEGIN PIE DE PAGINA */}
