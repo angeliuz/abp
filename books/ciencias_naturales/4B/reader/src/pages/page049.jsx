@@ -29,25 +29,25 @@ function Page049(props) {
                 <div className="position-absolute top-0 start-0 translate-middle"><img src="images/page_049/hojas.png" className="wp-60 mep-40 mtp-200" alt=""/></div>
                 <div className="position-absolute top-50 start-50 translate-middle visible-768"><img src="images/page_049/espiral.svg" className="w-100" alt=""/></div>
                 <div className="col-12 col-md-6 p-1 m-0">
-                  <div className="rounded-p-10 bgc-white border-style-solid border-color-akuma border-1">
+                  <div className="rounded-p-10 bgc-white border-style-solid border-color-akuma border-2">
                     <div className="f-Ubuntu-B fsp-14 p-1 bgc-akuma rounded-set-10 text-white lh-sm min-hp-45 d-flex align-items-center justify-content-center">Materiales y/o vestimenta</div>
                     <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150 mep-10 msp-10" />
                   </div>
                 </div>
                 <div className="col-12 col-md-6 p-1 m-0">
-                  <div className="rounded-p-10 bgc-white border-style-solid border-color-ken border-1">
+                  <div className="rounded-p-10 bgc-white border-style-solid border-color-ken border-2">
                     <div className="f-Ubuntu-B fsp-14 p-1 bgc-ken rounded-set-10 text-white lh-sm min-hp-45 d-flex align-items-center justify-content-center">Recursos digitales<br />(audio, video o imagen)</div>
                     <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150 mep-10 msp-10" />
                   </div>
                 </div>
                 <div className="col-12 col-md-6 p-1 m-0">
-                  <div className="rounded-p-10 bgc-white border-style-solid border-color-android18 border-1">
+                  <div className="rounded-p-10 bgc-white border-style-solid border-color-android18 border-2">
                     <div className="f-Ubuntu-B fsp-14 p-1 bgc-android18 rounded-set-10 text-white lh-sm min-hp-45 d-flex align-items-center justify-content-center">Yo me encargaré de:</div>
                     <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150 mep-10 msp-10" />
                   </div>
                 </div>
                 <div className="col-12 col-md-6 p-1 m-0">
-                  <div className="rounded-p-10 bgc-white border-style-solid border-color-bulma border-1">
+                  <div className="rounded-p-10 bgc-white border-style-solid border-color-bulma border-2">
                     <div className="f-Ubuntu-B fsp-14 p-1 bgc-bulma rounded-set-10 text-white lh-sm min-hp-45 d-flex align-items-center justify-content-center">Mis compañeros de equipo<br />se encargarán de:</div>
                     <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150 mep-10 msp-10" />
                   </div>
