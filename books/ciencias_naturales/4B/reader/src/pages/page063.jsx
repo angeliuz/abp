@@ -1,11 +1,11 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
-import "./page_062.css";
+import "./page_063.css";
 
-function Page062(props) {
+function Page063(props) {
 
-  const pagina = "062";
+  const pagina = "063";
   var indexInput = 0;
 
   return (
@@ -15,70 +15,15 @@ function Page062(props) {
                 {/* BEGIN CABECERA VERSIÓN 2 */}
                 <div className="cabecera-v2 bgc-saitama d-flex flex-column">
                   <div className="d-flex contenedor-cabecera-v2 align-items-center ptp-40 psp-30 pep-30">
-                    <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-saitama fsp-24 f-IntroRustG-Base">SESIÓN 13</div>
-                    <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡Preparando Sesión 13 las presentaciones!</div>
+                    {/* <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-saitama fsp-24 f-IntroRustG-Base">SESIÓN 13</div>
+                    <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡Preparando Sesión 13 las presentaciones!</div> */}
                   </div>
                 </div> 
                 {/* END CABECERA VERSIÓN 2 */}
 
    
-            <div className="ptp-10 psp-60 pep-60 mbp-0 pep-220 msp--20">
-              <div className="f-Ubuntu-B fsp-20 color-saitama text-start lhp-20 ">Preparando el stand de presentaciones</div>
-              <div className="d-flex">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_062/img_004.svg" alt="" /> */}
-                <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">1</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Definimos los objetivos de la jornada de presentación</div>
-                {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/revista.svg" clasesImagen="cambio hp-35 mtp-20" className="p-0 px-1" /> */}
-                <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_062/img_002.svg" clasesImagen="hp-40 text-center mtp-10 pep-20" className="p-0 px-0" />  
-              </div>
-            </div>
-
-
-          
-            <div className="d-flex msp-100 mep-60 position-relative mtp-40">
-                <div className="border-style-solid border border-3 borde-color-dark p-3 hp-275 w-100 position-relative">
-                              <div className="position-absolute top-0 start-100 translate-middle  mtp--35 msp--50"><img src="images/page_062/img_002.png" className="hp-80  " alt=""></img></div>
-
-                      <div className="position-absolute top-0 start-0 d-flex align-items-center justify-content-center hp-30 mtp--20 msp--40">
-                              <img src="images/page_062/img_003.png" className="hp-70  position-relative " alt=""></img>
-                              <div className="position-absolute top-50 start-50 translate-middle  w-90  d-flex justify-content-center text-center f-pixilate-bold fsp-18 lh-sm color-dark "> Objetivos:</div>          
-                       </div>
-           
-{/* 
-                    <div><img className="position-absolute top-0 start-0 hp-70 mtp--40 msp--40 position-relative" src="images/page_062/img_003.png"  alt=""> </img>
-                        <div className="position-absolute top-50 start-50 translate-middle">1231</div>
-                  </div>  */}
-
-                              <div className="msp-20 mtp-20">
-                                    <div className="p-1 d-flex align-items-center   w-100">
-                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama"></div>
-                                          <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm text-start">Dar a conocer la misión y las tareas de las brigadas.</div>
-                                    </div>
-                                    <div className="p-1 d-flex align-items-center   w-100">
-                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama"></div>
-                                          <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm text-start">Dar a conocer la misión y las tareas de las brigadas.</div>
-                                    </div>
-                                    <div className="p-1 d-flex align-items-center   w-100">
-                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama mbp-20"></div>
-                                          <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm text-start">Educar a la comunidad educativa para actuar responsablementeante situaciones <br ></br> de emergencia.</div>
-                                    </div>
-                                    <div className="p-1 d-flex align-items-center   w-100">
-                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama mbp-20"></div>
-                                          <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm text-start">Solicitar la colaboración de la comunidad educativa para poner en marcha <br ></br>las brigadas.</div>
-                                    </div>
  
-                                    <div className="p-1 d-flex align-items-center mtp--10  w-100">
-                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama mbp-20"></div>
-                                          <div className="f-Ubuntu-L msp-10 w-100 fsp-16 lh-sm text-start"> <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" /></div>
-                                          
-                                    </div>
-                                        
-
-                              </div>
-                </div>
-            
-            </div>
-
+     
  
                 <div className="ptp-10 psp-60 pep-60 mbp-0 pep-220 msp--20">
                       {/* <div className="f-Ubuntu-B fsp-20 color-saitama text-start lhp-20 ">Preparando el stand de presentaciones</div> */}
@@ -96,9 +41,10 @@ function Page062(props) {
                               
 
                 <div className="row   container-row px-5 position-relative">
-                        <div className=" position-absolute top-100 start-50 translate-middle "><img className="hp-100  mtp-60" src="images/page_062/img_006.png" alt="" /></div>
+                        <div className="position-absolute top-0 start-100 translate-middle "><img className="hp-100 msp--180 " src="images/page_063/img_002.png" alt="" /></div>
                         <div className="col-sm-12 col-md-6   ">
-                            <div className="border-style-solid mtp-25 border-2 border-color-akuma rounded-p-10 hp-260 w-100 hp-190  ">
+                            <div className="border-style-solid mtp-25 border-2 border-color-akuma rounded-p-10 hp-260 w-100 hp-190 position-relative ">
+                        <div className="position-absolute top-50 start-0 translate-middle"><img className="hp-100 " src="images/page_063/img_003.png" alt="" /></div>
 
                               <div className="d-flex align-items-center justify-content-center   rounded-set-10 bgc-akuma  hp-45 pixilate-bold fsp-18 fw-700 color-white  ">Mi propuesta de presentación: </div>
                               <div className="mtp-10 msp-30 mep-30 w-85">    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div> 
@@ -107,7 +53,7 @@ function Page062(props) {
                         <div className="col-sm-12 col-md-6  position relative">
                         <div className="espirales-creacion-62   position-absolute"><img src="images/page_062/img_007.png" className="w-45   " alt=""/></div>
                             <div className="border-style-solid mtp-25 border-2 border-color-arlo rounded-p-10 hp-260 w-100 hp-190  ">
-                            <div className="d-flex align-items-center justify-content-center  rounded-set-10 bgc-arlo hp-45 pixilate-bold fsp-18 fw-700 color-white ">Justificación: </div>
+                            <div className="d-flex align-items-center justify-content-center  rounded-set-10 bgc-arlo hp-45 pixilate-bold fsp-18 fw-700 color-white ">Aspectos negativos </div>
                           <div className="mtp-10 msp-30 mep-30 w-85">    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
                             </div>
                         </div>
@@ -116,10 +62,26 @@ function Page062(props) {
 
 
 
+                <div className="ptp-10 psp-60 pep-60 mbp-0 pep-220 msp--20">
+                      {/* <div className="f-Ubuntu-B fsp-20 color-saitama text-start lhp-20 ">Preparando el stand de presentaciones</div> */}
+                      <div className="d-flex">
+                        {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_062/img_004.svg" alt="" /> */}
+                        <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">4</div>
+                        <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Con mi equipo, acordamos organizar el <i>stand</i> de la siguiente forma:</div>
+                        {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/revista.svg" clasesImagen="cambio hp-35 mtp-20" className="p-0 px-1" /> */}
+                        <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_062/img_002.svg" clasesImagen="hp-40 text-center mtp-10 pep-20" className="p-0 px-0" />  
+                      </div>
+                </div>
 
 
 
-
+                 <div className=" psp-60 psp-40 mtp-20  ">
+                      <div className="bgc-white hp-400 p-2 caja-dibujo-400    border-style-solid border-2 border-color-dark positon-relative">
+                      <div className=" position-absolute top-100 start-0 translate-middle   mtp--30 "><img className="hp-100" src="images/page_063/img_005.png" alt="" /></div>
+                      <div className=" position-absolute top-0 end-0  mtp--25 "><img className="hp-50" src="images/page_063/img_006.png" alt="" /></div>
+                      </div>   
+                   
+                  </div>   
 
 
 
@@ -166,4 +128,4 @@ function Page062(props) {
   );
 }
 
-export default Page062;
+export default Page063;

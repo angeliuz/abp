@@ -35,7 +35,9 @@ function Page065(props) {
             </div>
           </div>
           {/* CONTENIDO*/}
-          <div className="bgc-arena cb-calc cb-600 mx-auto ptp-5 pbp-20 rounded-p-10 mtp-10">
+          <div className="bgc-arena cb-calc cb-600 mx-auto ptp-5 pbp-20 rounded-p-10 mtp-10 position-relative">
+          <img src="images/page_065/img_004.png" class="wp-260 position-absolute cb-personaje-65" alt=""/>
+          <img src="images/page_065/img_002.png" class="wp-20 position-absolute cb-lapiz-65" alt=""/>
           <div className="mtp-20 cb-calc bgc-white mx-auto rounded-p-10 border-style-solid border-1 border-color-pikachu position-relative">
               <span className="d-flex text-start p-2 f-pixilate-bold fsp-15"> Nombre de la brigada:</span>
                 </div>
@@ -114,6 +116,8 @@ function Page065(props) {
                 {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_031/img_002.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
+
+          
 
                 {/* PIE DE PAGINA */}
                 <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
