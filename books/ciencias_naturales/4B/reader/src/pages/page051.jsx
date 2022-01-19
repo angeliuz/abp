@@ -16,25 +16,35 @@ function Page051(props) {
                 <div className="cabecera-v1 hp-80 bgc-pidgey"></div> 
                 {/* END CABECERA VERSIÓN 2 */}
 
-              <div className="ptp-10 psp-100 pep-60 mbp-0">
+              <div className="ptp-10 psp-100 pep-60 mbp-10">
                 <div className="d-flex">
                   <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">3</div>
                   <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start w-85">Como curso, realizamos una votación para acordar si los simulacros serán o no grabados por nuestro profesor.</div>
                 </div>
               </div>
 
-              <div className="ptp-10 psp-100 pep-60 mbp-0">
+              <div className="psp-140 pep-120">
+                <div className="row position-relative">
+                  <div className="position-absolute top-50 start-0 translate-middle"><img src="images/page_051/botones.png" className="wp-60 mep-50 mtp--80" alt=""/></div>
+                  <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_051/profe.png" className="wp-70 msp-50 mbp-180" alt=""/></div>
+                  <div className="col-6"><img src="images/page_051/caja_verde.svg" className="w-100" alt="" /></div>
+                  <div className="col-6"><img src="images/page_051/caja_naranja.svg" className="w-100" alt="" /></div>
+                </div>
+              </div>
+
+              <div className="ptp-10 psp-100 pep-60 mbp-10">
                 <div className="d-flex">
                   <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">4</div>
                   <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start w-85">¡A presentar! Tomo apuntes de lo que me parece interesante de cada emergencia simulada.</div>
                 </div>
               </div>
 
-            <div className="psp-140 pep-120 contenedor-pagina">
+            <div className="psp-140 pep-120">
               <div className="w-100 psp-40 ptp-20 pbp-20 pep-15 text-left bgc-white border-style-solid border-2 border-color-muted position-relative">
+                <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_051/agenda.png" className="wp-100 msp--60 mbp-0" alt=""/></div>
                 <div className="position-absolute top-50 start-0 translate-middle h-100 ptp-10 pbp-10"><div className="espiral wp-30 h-100"></div></div>
-                <div className="d-flex align-items-center pbp-10">
-
+                <div className="d-flex align-items-center">
+                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-320" />
                 </div>
               </div>
             </div>
