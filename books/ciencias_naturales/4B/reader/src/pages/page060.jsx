@@ -42,7 +42,7 @@ function Page060(props) {
 
                 {/* <div className="position-absolute top-50 start-100 translate-middle visible-768 zindex-1 msp--70 mtp-150"><img src="images/page_026/img_001.png" className="hp-60" alt=""/></div>
                     <div className="position-absolute top-50 start-0 translate-middle visible-768 zindex-1 msp-70 mtp--5"><img src="images/page_026/img_003.png" className="w-100" alt=""/></div> */}
-                    <div className="position-absolute top-100 start-0 translate-middle visible-768 zindex-1 msp-100 mtp--80"><img src="images/page_060/img_004.png" className="w-100" alt=""/></div>
+                    <div className="position-absolute top-100 start-0 translate-middle visible-768  msp-100 mtp--80"><img src="images/page_060/img_004.png" className="w-100" alt=""/></div>
 
                     <div className="mbp-20 mtp-10 msp-20 mep-20">
                         <div className=" bgc-white caja-dibujo-global p-2 rounded-p-20 border-style-solid border-2 border-color-dark positon-relative">
