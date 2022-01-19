@@ -1,0 +1,15 @@
+.soc-page45 {
+    background: url(images/page_045/bgc_experimentacion.svg) var(--pidgey) top left/ cover no-repeat !important;
+     -webkit-print-color-adjust: exact !important;
+ 
+ }
+ .t-shadow-45{
+     text-shadow: -7px -8px #0067a9;
+ }
+ 
+ @media all and (max-width: 695px) {
+ 
+    .ft-m-45 {
+        font-size: 60px;
+     }
+}

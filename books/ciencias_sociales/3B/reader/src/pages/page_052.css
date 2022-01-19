@@ -3,3 +3,15 @@
   background-size: cover, 100%;
   -webkit-print-color-adjust: exact !important;
 }
+
+
+.cinta-texto-52 {
+  max-width: 300px;
+  height: 35px;
+  transform: rotate(-5deg);
+}
+
+
+.gira5{
+  transform: rotate(5deg);
+}

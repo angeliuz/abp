@@ -1,0 +1,23 @@
+.posicion-centro-centro{
+  top: 50%;
+  left: 0%;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.rotacion-centro-centro{
+  transform: rotate(0deg);
+}
+
+@media all and (max-width: 767px) {
+  .posicion-centro-centro{
+    top: 0%;
+    left: 50%;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .rotacion-centro-centro{
+    transform: rotate(90deg);
+  }
+  
+  
+}

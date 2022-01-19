@@ -39,6 +39,18 @@ import Page035 from "./pages/page035";
 import Page036 from "./pages/page036";
 import Page037 from "./pages/page037";
 import Page038 from "./pages/page038";
+import Page043 from "./pages/page043";
+import Page044 from "./pages/page044";
+import Page045 from "./pages/page045";
+import Page046 from "./pages/page046";
+import Page047 from "./pages/page047";
+import Page057 from "./pages/page057";
+import Page058 from "./pages/page058";
+import Page059 from "./pages/page059";
+import Page060 from "./pages/page060";
+import Page066 from "./pages/page066";
+import Page067 from "./pages/page067";
+import Page068 from "./pages/page068";
 import Page069 from "./pages/page069";
 import Page070 from "./pages/page070";
 import Page071 from "./pages/page071";
@@ -119,6 +131,18 @@ function App() {
       <Page036 numeroPagina={clearZeros} />
       <Page037 numeroPagina={clearZeros} />
       <Page038 numeroPagina={clearZeros} />
+      <Page043 numeroPagina={clearZeros} />
+      <Page044 numeroPagina={clearZeros} />
+      <Page045 numeroPagina={clearZeros} />
+      <Page046 numeroPagina={clearZeros} />
+      <Page047 numeroPagina={clearZeros} />
+      <Page057 numeroPagina={clearZeros} />
+      <Page058 numeroPagina={clearZeros} />
+      <Page059 numeroPagina={clearZeros} />
+      <Page060 numeroPagina={clearZeros} />
+      <Page066 numeroPagina={clearZeros} />
+      <Page067 numeroPagina={clearZeros} />
+      <Page068 numeroPagina={clearZeros} />
       <Page069 numeroPagina={clearZeros} />
       <Page070 numeroPagina={clearZeros} />
       <Page071 numeroPagina={clearZeros} />
