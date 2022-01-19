@@ -48,11 +48,17 @@ function Page030(props) {
 
           <div className="row container-row px-5">
             <div className="row mx-4 position-relative">
-              <div className="col-sm-12 col-md-6 position-relative">
-                {/* <div className="flecha position-absolute"><img src="images/page_031/img_003.svg" className="w-45 " alt=""/></div> */}
+              <div className="col-sm-12 col-md-6 position-relative mbp-20">
+              <div className="position-absolute top-0 start-0 translate-middle  zindex-1 mtp-10 msp-120 ">
+                    <img
+                      src="images/page_030/img_003.png"
+                      className="wp-250"
+                      alt=""
+                    />
+                  </div>
                 
                 <div className="mbp-20 mtp-10 ">
-                  <div className=" position-relative  border-style-solid border-1 min-hp-300 p-2 rounded-tbe-20 ">
+                  <div className=" position-relative  border-style-solid border-color-saitama border-1 min-hp-300 p-2 rounded-tbe-20 ">
                     
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -62,11 +68,17 @@ function Page030(props) {
                 </div>
               </div>
 
-              <div className="col-sm-12 col-md-6 position-relative">
-                {/* <div className="flecha position-absolute"><img src="images/page_031/img_003.svg" className="w-45 " alt=""/></div> */}
+              <div className="col-sm-12 col-md-6 position-relative mbp-20">
+              <div className="position-absolute top-0 start-0 translate-middle  zindex-1 mtp-10 msp-120 ">
+                    <img
+                      src="images/page_030/img_004.png"
+                      className="wp-250"
+                      alt=""
+                    />
+                  </div>
                 
                 <div className="mbp-20 mtp-10 ">
-                  <div className=" position-relative  border-style-solid border-1 min-hp-300 p-2 rounded-tbe-20 ">
+                  <div className=" position-relative  border-style-solid border-color-bulma border-1 min-hp-300 p-2 rounded-tbe-20 ">
                     
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -76,11 +88,17 @@ function Page030(props) {
                 </div>
               </div>
 
-              <div className="col-sm-12 col-md-6 position-relative">
-                {/* <div className="flecha position-absolute"><img src="images/page_031/img_003.svg" className="w-45 " alt=""/></div> */}
+              <div className="col-sm-12 col-md-6 position-relative mbp-20">
+              <div className="position-absolute top-0 start-0 translate-middle  zindex-1 mtp-15 msp-120 ">
+                    <img
+                      src="images/page_030/img_006.png"
+                      className="wp-250"
+                      alt=""
+                    />
+                  </div>
                 
                 <div className="mbp-20 mtp-10 ">
-                  <div className=" position-relative  border-style-solid border-1 min-hp-300 p-2 rounded-tbe-20 ">
+                  <div className=" position-relative  border-style-solid border-color-pidgey border-1 min-hp-300 p-2 rounded-tbe-20 ">
                     
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -90,11 +108,17 @@ function Page030(props) {
                 </div>
               </div>
 
-              <div className="col-sm-12 col-md-6 position-relative">
-                {/* <div className="flecha position-absolute"><img src="images/page_031/img_003.svg" className="w-45 " alt=""/></div> */}
+              <div className="col-sm-12 col-md-6 position-relative mbp-20">
+              <div className="position-absolute top-0 start-0 translate-middle  zindex-1 mtp-10 msp-120 ">
+                    <img
+                      src="images/page_030/img_007.png"
+                      className="wp-250"
+                      alt=""
+                    />
+                  </div>
                 
                 <div className="mbp-20 mtp-10 ">
-                  <div className=" position-relative  border-style-solid border-1 min-hp-300 p-2 rounded-tbe-20  ">
+                  <div className=" position-relative  border-style-solid border-color-pikachu border-1 min-hp-300 p-2 rounded-tbe-20  ">
                     
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
