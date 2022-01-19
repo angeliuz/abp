@@ -69,7 +69,7 @@ function Page029(props) {
                   </div>
                 </div>
                 <div className="col-12 col-md-4 p-1 m-0">
-                  <div className=" bgc-kai border-style-solid border-color-bulma border-1">
+                  <div className=" bgc-tanya border-style-solid border-color-bulma border-1">
                     <div className="f-Ubuntu-L fsp-14 p-2 text-start bgc-white w-100 ">
                       Durante esta situación de riesgo la brigada podría…
                     </div>
@@ -80,7 +80,7 @@ function Page029(props) {
                   </div>
                 </div>
                 <div className="col-12 col-md-4 p-1 m-0">
-                  <div className=" bgc-shogun border-style-solid border-color-bulma border-1">
+                  <div className=" bgc-kokomi border-style-solid border-color-bulma border-1">
                     <div className="f-Ubuntu-L fsp-14 p-2 text-start bgc-white w-100 ">
                       Después de esta situación de riesgo, la brigada podría…
                     </div>
@@ -107,7 +107,7 @@ function Page029(props) {
           </div>
 
           <div className="d-flex msp-60 mep-60 mbp-50">
-            <div className="row m-0 p-1 bgc-sid rounded-p-20   w-100 ">
+            <div className="row m-0 p-1 bgc-smoke rounded-p-20   w-100 ">
             
               <div className="col-sm-12 col-md-12 p-2 position-relative">
               <div className="position-absolute top-100 start-100 translate-middle  zindex-1 msp--100 ">
