@@ -20,6 +20,12 @@
   .border-color-papel {
     border-color: #afa394;
   }
+  .wp-a  {
+    max-width: 10px;
+  }
+  .pep-130-r {
+    padding-right: 130px;
+  }
   .flecha-bulma {
     width: 0;
     height: 0;
@@ -35,6 +41,15 @@
     margin-right: auto;
     margin-left: auto;
     width: calc(100% - 60px);
+  }
+  .marco-inferior {
+    z-index: 1;
+  }
+  .zi2 {
+    z-index: 2;
+  }
+  .mtp--120 {
+    margin-top: -120px;
   }
   @media (min-width: 768px) {
     .border-derecha {
@@ -103,13 +118,8 @@
       .psp-30-r {
         padding-left: 15px;
       }
-      .nunca {
-        font-size: 14px;
-        min-width: 20px;
-      }
-      .siempre {
-        font-size: 14px;
-        min-width: 60px;
+      .pep-130-r {
+        padding-right: 30px;
       }
       .tf-mono {
         display: flex;
