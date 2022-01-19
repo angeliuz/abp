@@ -28,7 +28,7 @@ function Page061(props) {
           <div className="d-flex justify-content-center  msp-60 mep-40 mtp-40 ">
               <div className="w-90 h-100 position-relative ">
                 
-                    <div className="position-absolute bottom-0 end-0 mtp--150 msp-200 img-monito-61"> <img src="images/page_061/img_003.png" className="hp-210 " alt=""/></div>
+                    <div className="position-absolute bottom-0 end-0   msp-200 img-monito-61"> <img src="images/page_061/img_003.png" className="hp-240 " alt=""/></div>
                     {/* <div className="position-absolute top-0 start-100 translate-middle img-parlante"><img src="images/page_060/img_005.png" className="hp-100 mtp-20 " alt=""/></div> */}
                     
                   <div className="row d-flex justify-content-center bgc-bobafett rounded-p-20  position-relative  ">
