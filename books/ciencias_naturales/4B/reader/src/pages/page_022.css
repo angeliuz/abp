@@ -39,6 +39,12 @@
     margin-left: auto;
     width: calc(100% - 60px);
   }
+  .marco-inferior {
+    z-index: 1;
+  }
+  .zi2 {
+    z-index: 2;
+  }
   @media (min-width: 768px) {
     .border-derecha {
       border-color: var(--goten);
@@ -106,14 +112,7 @@
       .psp-30-r {
         padding-left: 15px;
       }
-      .nunca {
-        font-size: 14px;
-        min-width: 20px;
-      }
-      .siempre {
-        font-size: 14px;
-        min-width: 60px;
-      }
+
       .tf-mono {
         display: flex;
         position: absolute;
