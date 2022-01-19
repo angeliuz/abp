@@ -67,7 +67,7 @@ function Page063(props) {
                       <div className="d-flex">
                         {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_062/img_004.svg" alt="" /> */}
                         <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">4</div>
-                        <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Con mi equipo, acordamos organizar el stand de la siguiente forma:</div>
+                        <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Con mi equipo, acordamos organizar el <i>stand</i> de la siguiente forma:</div>
                         {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/revista.svg" clasesImagen="cambio hp-35 mtp-20" className="p-0 px-1" /> */}
                         <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_062/img_002.svg" clasesImagen="hp-40 text-center mtp-10 pep-20" className="p-0 px-0" />  
                       </div>
@@ -75,10 +75,11 @@ function Page063(props) {
 
 
 
-                 <div className="psp-60 psp-40 positon-relative">
-                      <div className="bgc-white hp-400 p-2 caja-dibujo-400  rounded-p-20 border-style-solid border-2 border-color-dark ">
+                 <div className=" psp-60 psp-40 mtp-20  ">
+                      <div className="bgc-white hp-400 p-2 caja-dibujo-400    border-style-solid border-2 border-color-dark positon-relative">
+                      <div className=" position-absolute top-100 start-0 translate-middle   mtp--30 "><img className="hp-100" src="images/page_063/img_005.png" alt="" /></div>
+                      <div className=" position-absolute top-0 end-0  mtp--25 "><img className="hp-50" src="images/page_063/img_006.png" alt="" /></div>
                       </div>   
-                      <div className="position-absolute bottom-0 start-0"><img className="hp-60 " src="images/page_063/img_004.png" alt="" /></div>
                    
                   </div>   
 
