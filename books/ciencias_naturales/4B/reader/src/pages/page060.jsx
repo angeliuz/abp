@@ -22,13 +22,14 @@ function Page060(props) {
 
           </div> 
           {/* END CABECERA VERSIÓN 2 */}
-          <div className="ptp-10 psp-60 pep-60 mbp-0">
+          <div className="ptp-10 psp-60 pep-60 mbp-0 pep-220 msp--20">
               {/* <div className="f-Ubuntu-B fsp-20 color-saitama text-start lhp-20 ">Los preparativos</div> */}
               <div className="d-flex">
               <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_060/img_001.svg" alt="" />
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">3</div>
                 <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Leo la revista y realizo el boceto de un folleto para divulgar la importancia de contar con brigadas en el colegio.</div>
                 {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/revista.svg" clasesImagen="cambio hp-35 mtp-20" className="p-0 px-1" /> */}
+                <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_060/img_002.svg" clasesImagen="hp-40 text-center mtp-10 pep-20" className="p-0 px-0" />  
               </div>
             </div>
 
@@ -41,15 +42,53 @@ function Page060(props) {
 
                 {/* <div className="position-absolute top-50 start-100 translate-middle visible-768 zindex-1 msp--70 mtp-150"><img src="images/page_026/img_001.png" className="hp-60" alt=""/></div>
                     <div className="position-absolute top-50 start-0 translate-middle visible-768 zindex-1 msp-70 mtp--5"><img src="images/page_026/img_003.png" className="w-100" alt=""/></div> */}
-                    <div className="position-absolute top-100 start-0 translate-middle visible-768 zindex-1 msp-100 mtp--30"><img src="images/page_060/img_004.png" className="w-100" alt=""/></div>
+                    <div className="position-absolute top-100 start-0 translate-middle visible-768 zindex-1 msp-100 mtp--80"><img src="images/page_060/img_004.png" className="w-100" alt=""/></div>
 
                     <div className="mbp-20 mtp-10 msp-20 mep-20">
                         <div className=" bgc-white caja-dibujo-global p-2 rounded-p-20 border-style-solid border-2 border-color-dark positon-relative">
 
-                            <div className="position-absolute top-0 start-50 translate-middle wp-300 position-relative"> <img className="hp-400" src="images/page_060/img_003.svg" alt="" />  
+                            <div className="position-absolute top-0 end-0 wp-300 position-relative   mtp--70 mep-40"> <img className="hp-400" src="images/page_060/img_003.svg" alt="" />  
         
-                                  <div className="position-absolute top-50 start-50 translate-middle    w-100">
-                                        <div className="f-pixilate-bold msp-10 fsp-20 lh-sm pep-5 text-start">Considero:</div>
+                                  <div className="position-absolute top-0 start-50 translate-middle-x   w-100 mtp-80 msp-20">
+                                    <div className="d-flex align-items-center  justify-content-between pbp-10 mt-3 w-100">
+                                        <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm pep-5 text-start   w-100 ">¿El boceto tiene o considera…?</div>
+                                        
+                                    </div>
+                                    <div className="msp-20">
+                                        <div className="d-flex align-items-center   w-100">
+                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama"></div>
+                                          <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm pep-5 text-start">Título.</div>
+                                        </div>
+                                        <div className="d-flex align-items-center   w-100">
+                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama "></div>
+                                          <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm pep-5 text-start">Recortes o imágenes.</div>
+                                        </div>
+                                        <div className="d-flex align-items-center   w-100">
+                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama"></div>
+                                          <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm pep-5 text-start">Misión de la brigada.</div>
+                                        </div>
+                                        <div className="d-flex align-items-center   w-100">
+                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama"></div>
+                                          <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm pep-5 text-start">Tareas de la brigada.</div>
+                                        </div>
+                                        <div className="d-flex align-items-center    w-100">
+                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama mbp-20"></div>
+                                          <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm pep-5 text-start">Forma de comunicarse con la brigada.</div>
+                                        </div>
+                                        <div className="d-flex align-items-center   w-100">
+                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama"></div>
+                                          <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm pep-5 text-start">Distintivo de brigadista.</div>
+                                        </div>
+                                        <div className="d-flex align-items-center   w-100">
+                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama"></div>
+                                          <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm pep-5 text-start">Otro. </div>
+                                          
+                                        </div>
+                                        <div className="mtp--20 psp-20 pep-100"><InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" /></div>
+
+                                    </div>
+
+
                                   </div>
                             
                             </div>
@@ -95,17 +134,7 @@ function Page060(props) {
 
 
 
-          <div className="ptp--10 mtp--50 psp-60 pep-60 mbp-0">
-             
-              <div className="d-flex">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_045/g_i.svg" alt="" /> */}
-                <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">2</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Recorto y armo mi credencial de brigadista.</div>
-                  {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> */}
-                    <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_059/img_005.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />  
-              </div>
-            </div>
-
+          
 
 
 
