@@ -101,7 +101,7 @@ function Page031(props) {
                   />
                 </div>
                 <div className="d-flex justify-content-center w-100 ">
-                  <div className="bgc-soldados w-50 rounded-caja ptp-5 pbp-5 color-white fsp-16 f-pixilate-extrabold ">
+                  <div className="bgc-soldados w-50 rounded-caja ptp-5 pbp-5 color-white fsp-16 f-Ubuntu-M  ">
                     Palabra
                   </div>
                 </div>
@@ -120,7 +120,7 @@ function Page031(props) {
                 <div className="position-absolute top-0 start-0 translate-middle msp-3 mtp-0 zindex-1"></div>
                 <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1"></div>
                 <div className="d-flex justify-content-center w-100 ">
-                  <div className="bgc-soldados w-30 rounded-caja ptp-5 pbp-5 color-white fsp-16 f-pixilate-extrabold ">
+                  <div className="bgc-soldados w-30 rounded-caja ptp-5 pbp-5 color-white fsp-16 f-Ubuntu-M  ">
                     Significado
                   </div>
                 </div>
@@ -145,7 +145,7 @@ function Page031(props) {
                   />
                 </div>
 
-                <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-dark">
+                <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-bulma">
                   <div className="p-2 w-100 d-flex">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -165,7 +165,7 @@ function Page031(props) {
                 </div>
                 <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1"></div>
 
-                <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-dark">
+                <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-bulma">
                   <div className="p-2 w-100 d-flex">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -185,7 +185,7 @@ function Page031(props) {
                   />
                 </div>
 
-                <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-dark">
+                <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-android18">
                   <div className="p-2 w-100 d-flex">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -205,7 +205,7 @@ function Page031(props) {
                 </div>
                 <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1"></div>
 
-                <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-dark">
+                <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-android18">
                   <div className="p-2 w-100 d-flex">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -225,7 +225,7 @@ function Page031(props) {
                   />
                 </div>
 
-                <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-dark">
+                <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-pidgey">
                   <div className="p-2 w-100 d-flex">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -245,7 +245,7 @@ function Page031(props) {
                 </div>
                 <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1"></div>
 
-                <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-dark">
+                <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-pidgey">
                   <div className="p-2 w-100 d-flex">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -265,7 +265,7 @@ function Page031(props) {
                   />
                 </div>
 
-                <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-dark">
+                <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
                   <div className="p-2 w-100 d-flex">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -285,7 +285,7 @@ function Page031(props) {
                 </div>
                 <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1"></div>
 
-                <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-dark">
+                <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
                   <div className="p-2 w-100 d-flex">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
