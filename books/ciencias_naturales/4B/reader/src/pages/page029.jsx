@@ -108,7 +108,7 @@ function Page029(props) {
 
           <div className="d-flex msp-60 mep-60">
             <div className="row m-0 p-1 bgc-motaro rounded-p-20  w-100 position-reletive">
-            <div className="position-absolute top-0 start-0 translate-middle visible-768 zindex-1 msp--30 mtp-50">
+            <div className="position-absolute  visible-768 zindex-1 msp--30 mtp-50">
                     <img
                       src="images/page_029/img_005.png"
                       className=""
