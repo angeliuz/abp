@@ -15,8 +15,8 @@ function Page062(props) {
                 {/* BEGIN CABECERA VERSIÓN 2 */}
                 <div className="cabecera-v2 bgc-saitama d-flex flex-column">
                   <div className="d-flex contenedor-cabecera-v2 align-items-center ptp-40 psp-30 pep-30">
-                    {/* <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-saitama fsp-24 f-IntroRustG-Base">SESIÓN 12</div>
-                    <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Comenzamos a crear</div> */}
+                    <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-saitama fsp-24 f-IntroRustG-Base">SESIÓN 13</div>
+                    <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡Preparando Sesión 13 las presentaciones!</div>
                   </div>
                 </div> 
                 {/* END CABECERA VERSIÓN 2 */}
