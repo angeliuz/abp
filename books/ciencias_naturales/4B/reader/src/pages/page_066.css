@@ -1,0 +1,68 @@
+.cb-circulo{
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid var(--dark);
+}
+.cb-600{
+    max-width: 600px;
+    }
+.cb-calc{
+    width: calc(100% - 30px);
+}
+.wp-310{
+    width: 310px;
+}
+.mx-300{
+    max-width: 300px;
+}
+.cb-cajas-top{
+    display: flex;
+  }
+  .cb-outline-66{
+    outline: solid 2px #f0e0c9;
+    outline-offset: -3px;
+}
+.bgc-arena{
+    background-color: #f0e0c9;
+}
+.mx-286 {
+    max-width: 286px;
+}
+.wp-250{
+    width: 250px;
+}
+.cb-personaje-p66{
+    bottom: 0px;
+    right: -40px;
+}
+.cb-micro-p66{
+    bottom: 0px;
+    left: -20px;
+}
+  @media all and (max-width:767px) {
+    .cb-cajas-top{
+     display: inline;
+     max-width: 600px;
+     justify-content: center;
+     align-items: center;
+   }
+   .mx-286{
+     margin-top: 10px;
+     max-width: 600px;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   .wp-250{
+    width: 100;
+}
+.cb-personaje-p66{
+    display: none;
+}
+
+.cb-micro-p66{
+    display: none;
+}
+ }
