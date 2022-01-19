@@ -413,6 +413,9 @@
   height: 200%;
 }
 
+.hp-2 {
+  height: 2px;
+}
 .hp-5 {
   height: 5px;
 }
