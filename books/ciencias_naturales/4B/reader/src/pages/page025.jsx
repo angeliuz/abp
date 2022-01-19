@@ -73,7 +73,7 @@ function Page025(props) {
                   />
                 </div>
                 <div className="d-flex justify-content-center w-100 ">
-                  <div className="bgc-bulma w-90 rounded-set-10 ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
+                  <div className="bgc-bulma w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
                     REALIDAD ACTUAL
                   </div>
                 </div>
@@ -97,7 +97,7 @@ function Page025(props) {
                 </div>
 
                 <div className="d-flex justify-content-center w-100 ">
-                  <div className="bgc-android18 w-90 rounded-set-10 ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
+                  <div className="bgc-android18 w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
                     ¿QUÉ PASARÍA SI...?
                   </div>
                 </div>
@@ -114,7 +114,7 @@ function Page025(props) {
               <div className="col-sm-4 position-relative ptp-10">
                 
                 <div className="d-flex justify-content-center w-100 ">
-                  <div className="bgc-pidgey w-90 rounded-set-10 ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
+                  <div className="bgc-pidgey w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
                     CONSECUENCIAS
                   </div>
                 </div>
