@@ -536,8 +536,38 @@
 .hp-200 {
   height: 200px;
 }
+.hp-205 {
+  height: 205px;
+}
+.hp-210 {
+  height: 210px;
+}
+.hp-215 {
+  height: 215px;
+}
+.hp-220 {
+  height: 220px;
+}
+.hp-225 {
+  height: 225px;
+}
+.hp-230 {
+  height: 230px;
+}
+.hp-235 {
+  height: 235px;
+}
+.hp-240 {
+  height: 240px;
+}
+.hp-245 {
+  height: 245px;
+}
 .hp-250 {
   height: 250px;
+}
+.hp-255 {
+  height: 255px;
 }
 
 /* MARGENES */
@@ -4130,6 +4160,9 @@
 /*arriba redondeado / abajo plano */
 .rounded-set-20 {
   border-radius: 20px 20px 0px 0px;
+}
+.rounded-set-10 {
+  border-radius: 10px 10px 0px 0px;
 }
 .rounded-set-6 {
   border-radius: 6px 6px 0px 0px;

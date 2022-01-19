@@ -1,11 +1,11 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
-import "./page_061.css";
+import "./page_062.css";
 
-function Page061(props) {
+function Page062(props) {
 
-  const pagina = "061";
+  const pagina = "062";
   var indexInput = 0;
 
   return (
@@ -15,8 +15,8 @@ function Page061(props) {
                 {/* BEGIN CABECERA VERSIÓN 2 */}
                 <div className="cabecera-v2 bgc-saitama d-flex flex-column">
                   <div className="d-flex contenedor-cabecera-v2 align-items-center ptp-40 psp-30 pep-30">
-                    {/* <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-saitama fsp-24 f-IntroRustG-Base">SESIÓN 12</div>
-                    <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Comenzamos a crear</div> */}
+                    <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-saitama fsp-24 f-IntroRustG-Base">SESIÓN 13</div>
+                    <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡Preparando Sesión 13 las presentaciones!</div>
                   </div>
                 </div> 
                 {/* END CABECERA VERSIÓN 2 */}
@@ -189,4 +189,4 @@ function Page061(props) {
   );
 }
 
-export default Page061;
+export default Page062;
