@@ -13,12 +13,7 @@ function Page050(props) {
         <div className="d-flex flex-column align-items-center pbp-20">
           <div className="page bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
                 {/* BEGIN CABECERA VERSIÓN 2 */}
-                <div className="cabecera-v2 bgc-pidgey d-flex flex-column">
-                  <div className="d-flex contenedor-cabecera-v2 align-items-center ptp-40 psp-30 pep-30">
-                    <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-pidgey fsp-24 f-IntroRustG-Base">SESIÓN 10</div>
-                    <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Simulando una emergencia</div>
-                  </div>
-                </div> 
+                <div className="cabecera-v1 hp-80 bgc-pidgey"></div> 
                 {/* END CABECERA VERSIÓN 2 */}
 
               <div className="ptp-10 psp-100 pep-60 mbp-0">
