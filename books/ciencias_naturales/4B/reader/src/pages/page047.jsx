@@ -1,6 +1,6 @@
 import React from "react";
 import InputBox from "../components/InputBox";
-import ModalVideo from "../components/ModalVideo";
+// import ModalVideo from "../components/ModalVideo";
 import "./page_047.css";
 
 function Page047(props) {
@@ -20,13 +20,13 @@ function Page047(props) {
               <div className="d-flex">
               <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_047/g_i.svg" alt="" />
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">6</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Como equipo, pensamos en la emergencia que debemos simular y describimos las acciones que debería realizar la brigada.</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start w-80">Como equipo, pensamos en la emergencia que debemos simular y describimos las acciones que debería realizar la brigada.</div>
               </div>
             </div>
 
             <div className="ptp-10 psp-130 pep-80 mbp-0">
               <div className="row mbp-10 position-relative">
-                <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_047/mono.png" className="wp-110 mep-0 mtp--10" alt=""/></div>
+                <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_047/mono.png" className="wp-110 mep-60 mtp--10" alt=""/></div>
                 <div className="position-absolute top-0 start-0 translate-middle"><img src="images/page_047/mochila.png" className="wp-65 msp--40 mtp-80" alt=""/></div>
                 <div className="d-flex border-style-solid border-color-goten border-3 p-0 m-0">
                   <div className="w-30 bgc-genos p-3 border-right-style-solid border-color-goten border-3 d-flex align-items-center f-Ubuntu-L fsp-15">Antes de una emergencia de este tipo debemos…</div>
