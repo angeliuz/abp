@@ -16,65 +16,53 @@ function Page048(props) {
                 <div className="cabecera-v1 hp-80 bgc-pidgey"></div> 
                 {/* END CABECERA VERSIÓN 2 */}
 
-            <div className="ptp-10 psp-100 pep-60 mbp-0">
-              <div className="f-Ubuntu-B fsp-20 color-pidgey text-start lhp-20">Preparamos un simulacro de emergencia</div>
-              <div className="d-flex">
-                <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">4</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Como curso, nos organizamos para que cada brigada realice un simulacro de emergencia.</div>
-              </div>
-            </div>
-
-            <div className="ptp-10 psp-130 pep-80 mbp-0">
-              <div className="row mbp-10 position-relative bgc-ryu rounded-p-5 p-2 bloque-respuesta">
-                <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_046/bici.png" className="wp-80 mep-50 mtp--80" alt=""/></div>
-                <div class="col-6 p-1"><div class="bgc-white text-center f-Ubuntu-B fsp-15 p-1">Emergencia</div></div>
-                <div class="col-6 p-1"><div class="bgc-white text-center f-Ubuntu-B fsp-15 p-1">Brigada a cargo</div></div>
-
-                <div class="col-6 p-1"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Ocurre un sismo mientras estamos en la sala de clases.</div></div>
-                <div class="col-6 p-1"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-50 min-hp-50" /></div></div>
-
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Un estudiante se cae al correr por las escaleras durante el recreo.</div></div>
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-50 min-hp-50" /></div></div>
-
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Se rompe un material de vidrio durante un experimento científico.</div></div>
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-50 min-hp-50" /></div></div>
-
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Hay una amago de incendio en la sala de profesores.</div></div>
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-50 min-hp-50" /></div></div>
-
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Se siente olor a gas en el casino del colegio.</div></div>
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-50 min-hp-50" /></div></div>
-
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Un estudiante se siente enfermo durante la clase.</div></div>
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-50 min-hp-50" /></div></div>
-
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Se derrama agua caliente en una actividad extraprogramática.</div></div>
-                <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-50 min-hp-50" /></div></div>
-              </div>
-            </div>
-
             <div className="ptp-10 psp-60 pep-60 mbp-0">
               <div className="d-flex">
-              <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_045/g_i.svg" alt="" />
-                <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">5</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Como equipo, reflexionamos sobre l G I a emergencia y respondemos:</div>
+              <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_048/i_g.svg" alt="" />
+                <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">7</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start w-85">Pienso en la tarea de la que soy responsable y explico su relación con la emergencia que se simulará.</div>
               </div>
             </div>
 
             <div className="ptp-10 psp-130 pep-80 mbp-0">
               <div className="row mbp-10 position-relative">
-              <div className="position-absolute top-100 start-0 translate-middle"><img src="images/page_046/mama.png" className="wp-80 mep-0 mtp--135" alt=""/></div>
-                <div className="col-12 col-md-6 p-1 m-0">
-                  <div className="rounded-p-5 bgc-ganyu border-style-solid border-color-trunks border-2">
-                    <div className="f-Ubuntu-L fsp-15 p-2 text-center bgc-white">¿Qué necesitamos para resolver la emergencia anterior?</div>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-210 mep-10 msp-10" />
+                <div className="position-absolute top-100 start-0 translate-middle"><img src="images/page_048/libreta.png" className="wp-60 mep-20 mtp--80" alt=""/></div>
+                <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_048/casco.png" className="wp-60 mep-70 mtp--80" alt=""/></div>
+                <div className="col-12 col-md-4 p-1 m-0">
+                  <div className="rounded-seb-10 bgc-white border-style-solid border-color-bulma border-1">
+                    <div className="f-Ubuntu-L fsp-14 p-2 text-center bgc-piccolo w-95 rounded-be-10">Antes de la emergencia</div>
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220 mep-10 msp-10" />
                   </div>
                 </div>
+                <div className="col-12 col-md-4 p-1 m-0">
+                  <div className="rounded-seb-10 bgc-white border-style-solid border-color-bulma border-1">
+                    <div className="f-Ubuntu-L fsp-14 p-2 text-center bgc-piccolo w-95 rounded-be-10">Durante la emergencia</div>
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220 mep-10 msp-10" />
+                  </div>
+                </div>
+                <div className="col-12 col-md-4 p-1 m-0">
+                  <div className="rounded-seb-10 bgc-white border-style-solid border-color-bulma border-1">
+                    <div className="f-Ubuntu-L fsp-14 p-2 text-center bgc-piccolo w-95 rounded-be-10">Después de la emergencia</div>
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220 mep-10 msp-10" />
+                  </div>
+                </div>
+              </div>
+            </div>
 
-                <div className="col-12 col-md-6 p-1 m-0">
-                  <div className="rounded-p-5 bgc-azuka border-style-solid border-color-milk border-2">
-                    <div className="f-Ubuntu-L fsp-15 p-2 text-center bgc-white">¿Cómo sabremos que la emergencia ha sido superada?</div>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-210 mep-10 msp-10" />
+            <div className="ptp-10 psp-100 pep-60 mbp-0">
+              <div className="d-flex">
+                <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">8</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start w-85">Comparto las respuestas anteriores con mi equipo. Luego, realizamos un guion para simular cómo reaccionará la brigada ante la emergencia.</div>
+              </div>
+            </div>
+
+            <div className="ptp-10 psp-130 pep-80 mbp-0">
+              <div className="row mbp-10 position-relative">
+                <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_048/mono.png" className="wp-110 mep-70 mtp--40" alt=""/></div>
+                <div className="position-absolute top-100 start-0 translate-middle"><img src="images/page_048/patin.png" className="wp-70 mep-0 mtp--80" alt=""/></div>
+                <div className="col-12 p-1 m-0">
+                  <div className="rounded-seb-10 bgc-white border-style-solid border-color-Dark border-1">
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-430 mep-10 msp-10" />
                   </div>
                 </div>
               </div>
