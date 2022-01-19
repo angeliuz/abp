@@ -99,62 +99,26 @@ function Page022(props) {
                   alt=""
                 />
               </div>
-              <div className="row bgc-color-papel border-style-solid border-color-papel border-1 psp-30">
-                <div className="col-md-4 text-left ptp-15 border-derecha">
-                  <div className="d-flex">
-                    <div className="ptp-5 f-pixilate-bold color-goten fsp-18">
-                      Personas
-                    </div>
-                    <img
-                      src="images/page_018/img_001.png"
-                      className="hp-35 psp-10 pep-10"
-                      alt=""
-                    />
-                  </div>
-                  <div className="f-Ubuntu-L">
-                    Necesitaremos la colaboración de...
+              <div className="row bgc-color-papel border-style-solid border-color-papel border-1 psp-30 w-100 position-relative">
+                <div className="col-md-6 text-left ptp-15 border-derecha">
+                  <div className="f-Ubuntu-L text-start">
+                  Pediremos la colaboración de:
                   </div>
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 flex-grow-1 lhp-35 min-hp-135"
                   />
                 </div>
-                <div className="col-md-4 text-left ptp-15 border-derecha">
-                  <div className="d-flex">
-                    <div className="ptp-5 f-pixilate-bold color-goten fsp-18">
-                      Lugares
-                    </div>
-                    <img
-                      src="images/page_018/img_002.png"
-                      className="hp-35 psp-10 pep-10"
-                      alt=""
-                    />
-                  </div>
-                  <div className="f-Ubuntu-L">Haremos nuestra fiesta en...</div>
+                <div className="col-6 text-left ptp-15">
+                  <div className="f-Ubuntu-L text-start">Tendremos que aprender sobre:</div>
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 flex-grow-1 lhp-35 min-hp-135"
                   />
                 </div>
-                <div className="col-md-4 text-left ptp-15">
-                  <div className="d-flex">
-                    <div className="ptp-5 f-pixilate-bold color-goten fsp-18">
-                      Materiales
-                    </div>
-                    <img
-                      src="images/page_018/img_003.png"
-                      className="hp-35 psp-10 pep-10"
-                      alt=""
-                    />
-                  </div>
-                  <div className="f-Ubuntu-L">
-                    Creemos que para nuestro proyecto vamos a necesitar...
-                  </div>
-                  <InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 lhp-35 min-hp-120"
-                  />
-                </div>
+                <div className="position-absolute hp-50">
+                <img src="images/page_022/img_011.png" className="" alt="" />
+              </div>
               </div>
             </div>
           </div>

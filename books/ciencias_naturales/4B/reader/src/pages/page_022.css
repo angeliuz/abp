@@ -20,6 +20,9 @@
   .border-color-papel {
     border-color: #afa394;
   }
+  .wp-a  {
+    max-width: 10px;
+  }
   .flecha-bulma {
     width: 0;
     height: 0;
