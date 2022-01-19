@@ -25,7 +25,7 @@ function Page034(props) {
                     <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Completo.</div>
 
                 </div>
-            </div>
+          n  </div>
 
             <div className="d-flex msp-60 mep-60 mbp-70">
 
