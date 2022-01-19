@@ -75,8 +75,10 @@ function Page063(props) {
 
 
 
-                 <div className="msp-60 msp-40">
-                      <div className="bgc-white caja-dibujo-global p-2 h-50 rounded-p-20 border-style-solid border-2 border-color-dark positon-relative"></div>   
+                 <div className="psp-60 psp-40 positon-relative">
+                      <div className="bgc-white hp-400 p-2 caja-dibujo-400  rounded-p-20 border-style-solid border-2 border-color-dark ">
+                      </div>   
+                      <div className="position-absolute bottom-0 start-0"><img className="hp-60 " src="images/page_063/img_004.png" alt="" /></div>
                    
                   </div>   
 
