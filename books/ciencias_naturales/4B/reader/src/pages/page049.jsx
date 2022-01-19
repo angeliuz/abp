@@ -16,50 +16,53 @@ function Page049(props) {
                 <div className="cabecera-v1 hp-80 bgc-pidgey"></div> 
                 {/* END CABECERA VERSIÓN 2 */}
 
-            <div className="ptp-10 psp-60 pep-60 mbp-0">
-              <div className="d-flex">
-              <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_048/i_g.svg" alt="" />
-                <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">7</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start w-85">Pienso en la tarea de la que soy responsable y explico su relación con la emergencia que se simulará.</div>
-              </div>
-            </div>
-
-            <div className="ptp-10 psp-130 pep-80 mbp-0">
-              <div className="row mbp-10 position-relative">
-                <div className="position-absolute top-100 start-0 translate-middle"><img src="images/page_048/libreta.png" className="wp-60 mep-20 mtp--80" alt=""/></div>
-                <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_048/casco.png" className="wp-60 mep-70 mtp--80" alt=""/></div>
-                <div className="col-12 col-md-4 p-1 m-0">
-                  <div className="rounded-seb-10 bgc-white border-style-solid border-color-bulma border-1">
-                    <div className="f-Ubuntu-L fsp-14 p-2 text-center bgc-piccolo w-95 rounded-be-10">Antes de la emergencia</div>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220 mep-10 msp-10" />
-                  </div>
-                </div>
-                <div className="col-12 col-md-4 p-1 m-0">
-                  <div className="rounded-seb-10 bgc-white border-style-solid border-color-bulma border-1">
-                    <div className="f-Ubuntu-L fsp-14 p-2 text-center bgc-piccolo w-95 rounded-be-10">Durante la emergencia</div>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220 mep-10 msp-10" />
-                  </div>
-                </div>
-                <div className="col-12 col-md-4 p-1 m-0">
-                  <div className="rounded-seb-10 bgc-white border-style-solid border-color-bulma border-1">
-                    <div className="f-Ubuntu-L fsp-14 p-2 text-center bgc-piccolo w-95 rounded-be-10">Después de la emergencia</div>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220 mep-10 msp-10" />
-                  </div>
-                </div>
-              </div>
-            </div>
-
             <div className="ptp-10 psp-100 pep-60 mbp-0">
               <div className="d-flex">
-                <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">8</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start w-85">Comparto las respuestas anteriores con mi equipo. Luego, realizamos un guion para simular cómo reaccionará la brigada ante la emergencia.</div>
+                <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">9</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Registramos lo que necesitaremos para presentar la emergencia simulada.</div>
               </div>
             </div>
 
             <div className="ptp-10 psp-130 pep-80 mbp-0">
               <div className="row mbp-10 position-relative">
-                <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_048/mono.png" className="wp-110 mep-70 mtp--40" alt=""/></div>
-                <div className="position-absolute top-100 start-0 translate-middle"><img src="images/page_048/patin.png" className="wp-70 mep-0 mtp--80" alt=""/></div>
+                {/* <div className="position-absolute top-100 start-0 translate-middle"><img src="images/page_048/libreta.png" className="wp-60 mep-20 mtp--80" alt=""/></div>
+                <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_048/casco.png" className="wp-60 mep-70 mtp--80" alt=""/></div> */}
+                <div className="col-12 col-md-6 p-1 m-0">
+                  <div className="rounded-p-10 bgc-white border-style-solid border-color-akuma border-1">
+                    <div className="f-Ubuntu-B fsp-14 p-1 bgc-akuma rounded-set-10 text-white lh-sm min-hp-45 d-flex align-items-center justify-content-center">Materiales y/o vestimenta</div>
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150 mep-10 msp-10" />
+                  </div>
+                </div>
+                <div className="col-12 col-md-6 p-1 m-0">
+                  <div className="rounded-p-10 bgc-white border-style-solid border-color-ken border-1">
+                    <div className="f-Ubuntu-B fsp-14 p-1 bgc-ken rounded-set-10 text-white lh-sm min-hp-45 d-flex align-items-center justify-content-center">Recursos digitales<br />(audio, video o imagen)</div>
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150 mep-10 msp-10" />
+                  </div>
+                </div>
+                <div className="col-12 col-md-6 p-1 m-0">
+                  <div className="rounded-p-10 bgc-white border-style-solid border-color-android18 border-1">
+                    <div className="f-Ubuntu-B fsp-14 p-1 bgc-android18 rounded-set-10 text-white lh-sm min-hp-45 d-flex align-items-center justify-content-center">Yo me encargaré de:</div>
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150 mep-10 msp-10" />
+                  </div>
+                </div>
+                <div className="col-12 col-md-6 p-1 m-0">
+                  <div className="rounded-p-10 bgc-white border-style-solid border-color-bulma border-1">
+                    <div className="f-Ubuntu-B fsp-14 p-1 bgc-bulma rounded-set-10 text-white lh-sm min-hp-45 d-flex align-items-center justify-content-center">Mis compañeros de equipo<br />se encargarán de:</div>
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150 mep-10 msp-10" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="ptp-10 psp-90 pep-60 mbp-0">
+              <div className="d-flex">
+                <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">10</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">¡Manos a la obra! Preparamos todo lo necesario para presentar el simulacro.</div>
+              </div>
+            </div>
+
+            <div className="ptp-10 psp-130 pep-80 mbp-0">
+              <div className="row mbp-10 position-relative">
                 <div className="col-12 p-1 m-0">
                   <div className="rounded-seb-10 bgc-white border-style-solid border-color-Dark border-1">
                     <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-430 mep-10 msp-10" />

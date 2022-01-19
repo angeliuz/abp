@@ -4113,6 +4113,9 @@
 .rounded-set-20 {
   border-radius: 20px 20px 0px 0px;
 }
+.rounded-set-10 {
+  border-radius: 10px 10px 0px 0px;
+}
 .rounded-set-6 {
   border-radius: 6px 6px 0px 0px;
 }
