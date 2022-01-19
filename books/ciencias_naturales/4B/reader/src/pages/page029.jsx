@@ -44,7 +44,7 @@ function Page029(props) {
                       alt=""
                     />
                   </div>
-                  <div className="bgc-white exterior-caja-v1 border-style-solid bgc-shogun border-color-android18 border-1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
+                  <div className="bgc-white exterior-caja-v1 border-style-solid bgc-azuka border-color-android18 border-1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
                     <div className="d-flex interior-caja-v1 bgc-white text-start min-hp-0">
                       <div className="w-100 text-start ">
                         Situación de riesgo:
@@ -69,8 +69,8 @@ function Page029(props) {
                   </div>
                 </div>
                 <div className="col-12 col-md-4 p-1 m-0">
-                  <div className=" bgc-shogun border-style-solid border-color-bulma border-1">
-                    <div className="f-Ubuntu-L fsp-14 p-2 text-start bgc-white w-100 rounded-be-10">
+                  <div className=" bgc-kai border-style-solid border-color-bulma border-1">
+                    <div className="f-Ubuntu-L fsp-14 p-2 text-start bgc-white w-100 ">
                       Durante esta situación de riesgo la brigada podría…
                     </div>
                     <InputBox
@@ -81,7 +81,7 @@ function Page029(props) {
                 </div>
                 <div className="col-12 col-md-4 p-1 m-0">
                   <div className=" bgc-shogun border-style-solid border-color-bulma border-1">
-                    <div className="f-Ubuntu-L fsp-14 p-2 text-start bgc-white w-100 rounded-be-10">
+                    <div className="f-Ubuntu-L fsp-14 p-2 text-start bgc-white w-100 ">
                       Después de esta situación de riesgo, la brigada podría…
                     </div>
                     <InputBox
@@ -106,16 +106,17 @@ function Page029(props) {
             </div>
           </div>
 
-          <div className="d-flex msp-60 mep-60">
-            <div className="row m-0 p-1 bgc-motaro rounded-p-20  w-100 position-reletive">
-            <div className="position-absolute  visible-768 zindex-1 msp--30 mtp-50">
+          <div className="d-flex msp-60 mep-60 mbp-50">
+            <div className="row m-0 p-1 bgc-sid rounded-p-20   w-100 ">
+            
+              <div className="col-sm-12 col-md-12 p-2 position-relative">
+              <div className="position-absolute top-100 start-100 translate-middle  zindex-1 msp--100 ">
                     <img
                       src="images/page_029/img_005.png"
-                      className=""
+                      className="wp-280"
                       alt=""
                     />
                   </div>
-              <div className="col-sm-12 col-md-12 p-2 ">
                 <div className="p-1   w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
                   <div className="f-Ubuntu-L fsp-16   mep-10 text-start">
                     Aspectos positivos
