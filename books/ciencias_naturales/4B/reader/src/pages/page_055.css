@@ -154,29 +154,12 @@
     } 
   }
   
-  @media all and (max-width: 829px) {
+  /* @media all and (max-width: 829px) {
   .cb-page55{
      background: url(images/page_055/fondo_001.svg) top left/ cover no-repeat !important;
      }
   }
-  @media all and (max-width:780px) {
-  
-  .cb-page55 {
-    background: url(images/page_055/fondo_001.svg) top left/ cover no-repeat !important;
-   }
-  
-  .cb-chaqueta-p75{
-      display: none;
-  }
-  .cb-calendario-p75{
-      display: none;
-  }
-  .cb-botiquin-p75{
-      display: none;
-  }
-  
-  
-  }
+   */
   
   
   

@@ -52,7 +52,7 @@ function Page055(props) {
                             <div className="bgc-white border-style-solid border-2 border-color-guile rounded-p-10 position-relative">
                             <div className="position-absolute top-50 start-100 translate-middle   msp-10   "><img src="images/page_055/img_003.png" className="hp-90" alt="" /></div>
                             <div className="position-absolute top-0 end-0  mtp--20 mep-10 "><img src="images/page_055/img_002.svg" className="hp-65" alt="" /></div>
-                                <div className="bgc-vegeta w-55 p-2 text-start mtp--10 msp--10 rounded-p-10 ">
+                                <div className="bgc-bach w-55 p-2 text-start mtp--10 msp--10 rounded-p-10 ">
                                     <div className="f-Ubuntu-R psp-5 pep-5 ">Queremos que nuestra brigada sea un aporte al colegio, porque:</div>
                                 </div>
                                 <div className="psp-20 pep-30 pbp-20">
@@ -132,7 +132,7 @@ function Page055(props) {
                   <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
                     ABP &copy; SM
                   </div>
-                  <div className="bgc-goku wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+                  <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
                 </div>
                  {/* FIN PIE DE PAGINA */}
               

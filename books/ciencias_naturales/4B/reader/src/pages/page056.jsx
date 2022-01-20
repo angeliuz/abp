@@ -26,7 +26,7 @@ function Page056(props) {
                             <div className="bgc-white border-style-solid border-2 border-color-pidgey rounded-p-10 position-relative">
                             <div className="position-absolute top-50 start-100 translate-middle    "><img src="images/page_056/img_001.png" className="hp-90" alt="" /></div>
                             <div className="position-absolute top-50 start-0 translate-middle   "><img src="images/page_056/img_002.png" className="hp-65" alt="" /></div>
-                                <div className="bgc-bach w-70 text-start mtp--10 msp--10 rounded-p-10">
+                                <div className="bgc-pantro w-70 text-start mtp--10 msp--10 rounded-p-10">
                                     <div className="f-Ubuntu-R psp-20 py-2">Si hubiéramos tenido más tiempo nos hubiese gustado añadir:</div>
                                 </div>
                                 <div className="psp-20 pep-20 pbp-20">
