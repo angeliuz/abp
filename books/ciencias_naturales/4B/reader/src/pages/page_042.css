@@ -1,0 +1,58 @@
+
+.cb-page68 {
+    background: url(images/page_068/fondo_001.svg) top left/ cover no-repeat !important;
+     -webkit-print-color-adjust: exact !important;
+  }
+  .cb-600{
+  max-width: 600px;
+  }
+  .cb-6{
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  
+  .cb-block2-p68 {
+    max-width: 500px;
+    width: calc(100% - 30px);
+  }
+  .cb-union-a-p68{
+    top: -40px;
+    left: 32px;
+  }
+  .cb-union-b-p68{
+    top: -40px;
+    right: 32px;
+  }
+  .cb-camara-p68{
+    top: 40px;
+    right: -38px;
+  }
+  .cb-celular-p68{
+    bottom: 40px;
+    left: -38px;
+  }
+  .cb-calendario-p68{
+    bottom: -20px;
+    right: -38px;
+  }
+  .cb-personaje-p68{
+    bottom: 0;
+    right: -96px;
+  }
+  @media all and (max-width: 829px) {
+    .cb-page68{
+       background: url(images/page_068/fondo_000.svg) top left/ cover no-repeat !important;
+       }
+       .cb-camara-p68{
+       display: none;
+      }
+      .cb-calendario-p68{
+        display: none;
+       }
+       .cb-celular-p68{
+        display: none;
+       }
+       .cb-personaje-p68{
+        display: none;
+       }
+    }
