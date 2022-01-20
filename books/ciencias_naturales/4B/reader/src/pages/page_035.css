@@ -1,23 +1,24 @@
-.bgc-contenedor-35{
-  background-color:#f3e2cd;
+.anillos-p35{
+  background-image: url(images/page_035/img_002.svg);
+  background-repeat: repeat;
+  background-size: contain;
+  /* background-color: #ffcc00; */
 }
-
-.padding-box-35-1{
-  padding-right: 30%;
-  padding-left: 0px;
+.anillos-b-p35{
+  background-image: url(images/page_035/img_004.svg);
+  background-repeat: repeat;
+  background-size: contain;
+  /* background-color: #ffcc00; */
 }
-.padding-box-35-2{
-  padding-right: 20px;
-  padding-left: 30%;
+.cuadrado-p35 {
+  min-width: 25px;
+  max-width: 25px;
+  min-height: 25px;
+  max-height: 25px;
 }
-
-@media (max-width: 768px) {
-  .padding-box-35-1{
-    padding-right: 0;
-    padding-left: 0;
-  }
-  .padding-box-35-2{
-    padding-right: 0;
-    padding-left: 0;
-  }
+.zi2 {
+  z-index: 2;
+}
+.mxhp-75 {
+  max-height: 75px;
 }

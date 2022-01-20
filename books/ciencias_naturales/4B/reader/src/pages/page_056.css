@@ -12,23 +12,34 @@
   padding-top: 5px;
   border-color: var(--dark);
 }
+.nunca {
+  font-size: 16px;
+  min-width: 50px;
+}
+.siempre {
+  font-size: 16px;
+  min-width: 70px;
+}
 
 
-.cb-700{
-  max-width: 700px;
+.cb-contenedor-tabla-texto-400{
+ 
+   width: 400px;
+  padding-right: 10px;
 }
-.cb-600{
-  max-width: 600px;
-}
-.cb-calc{
-  width: calc(100% - 30px);
-}
-.flecha-saitama {
+
+
+
+
+ 
+ 
+
+.flecha-pidgey {
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 7px 0 7px 10px;
-  border-color: transparent transparent transparent var(--saitama);
+  border-color: transparent transparent transparent var(--pidgey);
 }
 
 
