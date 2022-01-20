@@ -50,7 +50,7 @@ function Page008(props) {
             <div className=" block-bottom p-2 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4 nat-page08">
               <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
                 <div className="d-flex">
-                  <img src="images/page_006/arrow.svg" className="mep-5 cb-flecha" alt="" />
+                  <img src="images/page_008/arrow.svg" className="mep-5 cb-flecha" alt="" />
                   <span className="w-24 f-Ubuntu-L text-start">Las dos palabras más relevantes del desafío son</span>
                 </div>
               </div>
@@ -61,7 +61,7 @@ function Page008(props) {
 
               <div className="d-flex flex-wrap w-100 align-items-end titulo-linea">
                 <div className="d-flex">
-                  <img src="images/page_006/arrow.svg" className="mep-5 cb-flecha" alt="" />
+                  <img src="images/page_008/arrow.svg" className="mep-5 cb-flecha" alt="" />
                   <span className="w-24 f-Ubuntu-L">¿Qué aspectos del desafío no he entendido del todo?</span>
                 </div>
               </div>
@@ -73,7 +73,7 @@ function Page008(props) {
             <div className="block-bottom p-2 pb-2 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4">
               <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
                 <div className="d-flex">
-                  <img src="images/page_006/arrow.svg" className="mep-5 cb-flecha" alt="" />
+                  <img src="images/page_008/arrow.svg" className="mep-5 cb-flecha" alt="" />
                   <span className="w-24 f-Ubuntu-L">¿Cómo me siento ante el desafío?</span>
                 </div>
               </div>

@@ -26,7 +26,7 @@ function Page017(props) {
               <div className="position-relative w-100 mbp-0">
                   <div className=" psp-80 pep-70 ptp-30 pbp-0 ">
                       <div className="fsp-16 f-Ubuntu-M text-start psp-0 pbp-10">Esta página es completada por:</div>
-                      <div className="psp-0 ptp-5 pbp-5 bgc-white rounded-p-10 border-style-solid border-1 border-color-bulma d-flex justify-content-center position-relative">
+                      <div className={"psp-0 ptp-5 pbp-5 bgc-white rounded-p-10 border-style-solid border-1 "+borderColor+" d-flex justify-content-center position-relative"}>
                         {/* <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 mtp-0"><img src="images/page_019/img_001.png" className="wp-70" /></div> */}
                         <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--30 mtp--20"><img src={"images/page_"+pagina+"/img_001.png"} className="w-70" /></div>
                         <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-start lhp-35 w-100 msp-10 mep-50" />

@@ -263,13 +263,57 @@ body {
   align-items: center;
 }
 
+.dosier-e1 {
+  background: url(../../pages/images/generales/fondo_dosier_e1.svg) top center/cover no-repeat;
+  width: 100% !important;
+  height: 100% !important;
+  -webkit-print-color-adjust: exact !important;
+}
 .dosier-e2 {
   background: url(../../pages/images/generales/fondo_dosier_e2.svg) top center/cover no-repeat;
   width: 100% !important;
   height: 100% !important;
   -webkit-print-color-adjust: exact !important;
 }
+.dosier-e3 {
+  background: url(../../pages/images/generales/fondo_dosier_e3.svg) top center/cover no-repeat;
+  width: 100% !important;
+  height: 100% !important;
+  -webkit-print-color-adjust: exact !important;
+}
+.dosier-e4 {
+  background: url(../../pages/images/generales/fondo_dosier_e4.svg) top center/cover no-repeat;
+  width: 100% !important;
+  height: 100% !important;
+  -webkit-print-color-adjust: exact !important;
+}
+.dosier-e5 {
+  background: url(../../pages/images/generales/fondo_dosier_e5.svg) top center/cover no-repeat;
+  width: 100% !important;
+  height: 100% !important;
+  -webkit-print-color-adjust: exact !important;
+}
+.dosier-e6 {
+  background: url(../../pages/images/generales/fondo_dosier_e6.svg) top center/cover no-repeat;
+  width: 100% !important;
+  height: 100% !important;
+  -webkit-print-color-adjust: exact !important;
+}
 
+.posicion-centro-centro{
+  top: 50%;
+  left: 0%;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.rotacion-centro-centro{
+  transform: rotate(0deg);
+}
+
+.box-shadow-simple{
+  -webkit-box-shadow: 2px 2px 2px 3px rgba(0,0,0,0.15); 
+  box-shadow: 2px 2px 2px 3px rgba(0,0,0,0.15);
+}
 
 
   @media (max-width: 767px) {
@@ -349,6 +393,15 @@ body {
     .pc-lineas-v2 {
         background: url(../../pages/images/generales/lineas_objetivos_movile.svg) top left/ cover no-repeat !important;
     }    
+    .posicion-centro-centro{
+      top: 0%;
+      left: 50%;
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+    .rotacion-centro-centro{
+      transform: rotate(90deg);
+    }
     
   }
   @media (max-width: 694px) {
