@@ -133,6 +133,7 @@
   --kagome:#ffdcb4;
   --naraku:#b0dcec;
   --lizt:#FFF7E6;
+  --bach:#F4D0E7;
 }
 
 /* COLORES */
@@ -368,6 +369,7 @@
 .border-color-white {
   border-color: var(--white) !important;
 }
+
 
 /* AUXILIARES */
 /* COLORS */
@@ -796,6 +798,9 @@
 }
 .color-lizt {
   color: var(--lizt);
+}
+.color-bach {
+  color: var(--bach);
 }
   
   
@@ -1235,6 +1240,9 @@
 .border-color-lizt {
   border-color: var(--lizt) !important;
 }
+.border-color-bach {
+  border-color: var(--bach) !important;
+}
 /* B
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1669,4 +1677,7 @@
 }
 .bgc-lizt {
   background-color: var(--lizt);
+}
+.bgc-bach {
+  background-color: var(--bach);
 }
