@@ -40,103 +40,103 @@ function Page040(props) {
 
           <div className="d-flex msp-80 mep-60 mbp-10">
             <div className="row w-100">
-              <table border="1">
+              <table className=" mbp-20 border-style-solid border-2">
                 <tr>
-                  <th>Rol</th>
-                  <th>Función</th>
-                  <th>cara1</th>
-                  <th>cara2</th>
-                  <th>cara3</th>
-                  <th>cara4</th>
+                  <th className="bgc-azuka border-style-solid border-1">Rol</th>
+                  <th className="bgc-azuka border-style-solid border-1">Función</th>
+                  <th className="bgc-azuka border-style-solid border-1">cara1</th>
+                  <th className="bgc-azuka border-style-solid border-1">cara2</th>
+                  <th className="bgc-azuka border-style-solid border-1">cara3</th>
+                  <th className="bgc-azuka border-style-solid border-1">cara4</th>
                 </tr>
                 <tr>
-                  <td rowspan="2">Coordinación</td>
-                  <td>
+                  <td className="bgc-azuka border-style-solid border-1" rowspan="2">Coordinación</td>
+                  <td className=" border-style-solid border-1">
                     ¿Repartió el turno de
                     <br /> palabra?
                   </td>
-                  <td>1</td>
-                  <td>1</td>
-                  <td>1</td>
-                  <td>1</td>
+                  <td className=" border-style-solid border-1"></td>
+                  <td className=" border-style-solid border-1"></td>
+                  <td className=" border-style-solid border-1"></td>
+                  <td className=" border-style-solid border-1"></td>
                 </tr>
                 <tr>
-                  <td>
+                  <td className=" border-style-solid border-1">
                     ¿Se aseguró de que todos
                     <br /> los miembros del equipo
                     <br />
                     participaran en las tareas?
                   </td>
-                  <td>1</td>
-                  <td>1</td>
-                  <td>1</td>
-                  <td>1</td>
+                  <td className=" border-style-solid border-1"></td>
+                  <td className=" border-style-solid border-1"></td>
+                  <td className=" border-style-solid border-1"></td>
+                  <td className=" border-style-solid border-1"></td>
                 </tr>
               </table>
 
-              <table border="1">
+              <table className=" mbp-20" border="1">
                 <tr>
-                  <td rowspan="2">Supervisión</td>
-                  <td>
+                  <td className=" border-style-solid border-1" rowspan="2">Supervisión</td>
+                  <td className=" border-style-solid border-1">
                     ¿Gestionó el tiempo
                     <br /> dedicado a las tareas?
                   </td>{" "}
-                  <td>Item 6</td>
-                  <td>Item 7</td>
-                  <td>Item 6</td>
-                  <td>Item 7</td>
+                  <td className=" border-style-solid border-1"></td>
+                  <td className=" border-style-solid border-1"></td>
+                  <td className=" border-style-solid border-1"></td>
+                  <td className=" border-style-solid border-1"></td>
                 </tr>
                 <tr>
-                  <td>
+                  <td className=" border-style-solid border-1">
                     ¿Comprobó que cada
                     <br /> miembro del equipo haya
                     <br /> hecho su tarea dentro del
                     <br /> plazo establecido?
                   </td>{" "}
-                  <td>Item 6</td>
-                  <td>Item 7</td>
-                  <td>Item 6</td>
-                  <td>Item 7</td>
+                  <td className=" border-style-solid border-1">Item 6</td>
+                  <td className=" border-style-solid border-1">Item 7</td>
+                  <td className=" border-style-solid border-1">Item 6</td>
+                  <td className=" border-style-solid border-1">Item 7</td>
                 </tr>
               </table>
 
-              <table border="1">
+              <table className=" mbp-20" border="1">
                 <tr>
-                  <td rowspan="2">
+                  <td className=" border-style-solid border-1" rowspan="2">
                     Relaciones <br />
                     pùblicas
                   </td>
-                  <td>
+                  <td className=" border-style-solid border-1">
                     ¿Se comunicó con el profesor
                     <br /> para solicitar ayuda y<br />
                     resolver dudas?
                   </td>{" "}
-                  <td>Item 6</td>
-                  <td>Item 7</td>
-                  <td>Item 6</td>
-                  <td>Item 7</td>
+                  <td className=" border-style-solid border-1">Item 6</td>
+                  <td className=" border-style-solid border-1">Item 7</td>
+                  <td className=" border-style-solid border-1">Item 6</td>
+                  <td className=" border-style-solid border-1">Item 7</td>
                 </tr>
                 <tr>
-                  <td>¿Pidió ayuda a otros equipos?</td> <td>Item 6</td>
-                  <td>Item 7</td>
-                  <td>Item 6</td>
-                  <td>Item 7</td>
+                  <td className=" border-style-solid border-1">¿Pidió ayuda a otros equipos?</td> <td>Item 6</td>
+                  <td className=" border-style-solid border-1">Item 7</td>
+                  <td className=" border-style-solid border-1">Item 6</td>
+                  <td className=" border-style-solid border-1">Item 7</td>
                 </tr>
               </table>
 
               <table border="1">
                 <tr>
-                  <td rowspan="2">Intendencia</td>
-                  <td>
+                  <td className=" border-style-solid border-1" rowspan="2">Intendencia</td>
+                  <td className=" border-style-solid border-1">
                     ¿Gestionó los materiales que
                     <br /> el equipo necesitaba para
                     <br />
                     realizar las tareas?
                   </td>{" "}
-                  <td>Item 6</td>
-                  <td>Item 7</td>
-                  <td>Item 6</td>
-                  <td>Item 7</td>
+                  <td className=" border-style-solid border-1">Item 6</td>
+                  <td className=" border-style-solid border-1">Item 7</td>
+                  <td className=" border-style-solid border-1">Item 6</td>
+                  <td className=" border-style-solid border-1">Item 7</td>
                 </tr>
                 <tr>
                   <td>
@@ -146,10 +146,10 @@ function Page040(props) {
                     <br />
                     trabajo limpio y ordenado?
                   </td>{" "}
-                  <td>Item 6</td>
-                  <td>Item 7</td>
-                  <td>Item 6</td>
-                  <td>Item 7</td>
+                  <td className=" border-style-solid border-1">Item 6</td>
+                  <td className=" border-style-solid border-1">Item 7</td>
+                  <td className=" border-style-solid border-1">Item 6</td>
+                  <td className=" border-style-solid border-1">Item 7</td>
                 </tr>
               </table>
 
