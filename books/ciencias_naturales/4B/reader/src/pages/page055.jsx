@@ -13,7 +13,7 @@ function Page055(props) {
   return (
     <div className="wrapper bgc-light">
             <div className="d-flex flex-column align-items-center pbp-20">
-              <div className="page cb-page55 bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
+              <div className="page ep-page55 bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
                 {/* contenido DE PAGINA */}
 
            
