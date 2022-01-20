@@ -23,7 +23,9 @@ function Page056(props) {
 
                 <div className="position-relative w-100 ptp-100 psp-10 pep-10">
 
-                            <div className="bgc-white border-style-solid border-2 border-color-pidgey rounded-p-10">
+                            <div className="bgc-white border-style-solid border-2 border-color-pidgey rounded-p-10 position-relative">
+                            <div className="position-absolute top-50 start-100 translate-middle    "><img src="images/page_056/img_001.png" className="hp-90" alt="" /></div>
+                            <div className="position-absolute top-50 start-0 translate-middle   "><img src="images/page_056/img_002.png" className="hp-65" alt="" /></div>
                                 <div className="bgc-pantro w-70 text-start mtp--10 msp--10 rounded-p-10">
                                     <div className="f-Ubuntu-R psp-20 py-2">Si hubiéramos tenido más tiempo nos hubiese gustado añadir:</div>
                                 </div>
@@ -52,7 +54,8 @@ function Page056(props) {
                       <div className="msp-10 mep-10   pbp-60">
                       <div className="row ptp-20">
                               <div className="col-md-6 ">
-                                  <div className="bgc-white mpt-10 border-style-solid border-2 border-color-pidgey rounded-p-10">
+                                  <div className="bgc-white mpt-10 border-style-solid border-2 border-color-voldemort rounded-p-10  position-relative">
+                                  <div className="position-absolute top-100 start-0 translate-middle msp--20 mtp--30 "><img src="images/page_056/img_003.png" className="wp-50" alt="" /></div>
                                       <div className="bgc-tigro w-90 text-start mtp--10 msp--10 rounded-p-10">
                                           <div className="f-Ubuntu-R psp-20 py-2">Lo más difícil hasta ahora ha sido:</div>
                                       </div>
@@ -67,7 +70,8 @@ function Page056(props) {
                                   </div>
                               </div>
                               <div className="col-md-6 ">
-                                  <div className="bgc-white mpt-10 border-style-solid border-2 border-color-pidgey rounded-p-10">
+                                  <div className="bgc-white mpt-10 border-style-solid border-2 border-color-pidgey rounded-p-10  position-relative">
+                                  <div className="position-absolute top-100 start-100 translate-middle   msp-20 mtp--5 visible-768 "><img src="images/page_056/img_004.png" className="wp-60" alt="" /></div>
                                       <div className="bgc-bobafett w-90 text-start mtp--10 msp--10 rounded-p-10">
                                           <div className="f-Ubuntu-R psp-20 py-2">Lo más fácil hasta ahora ha sido:</div>
                                       </div>
@@ -98,7 +102,7 @@ function Page056(props) {
               <div className="wp-600">
 
 
-                                    <div className="block-bottom mtp-30 text-start f-pixilate-bold fsp-18">¿Cómo vamos?</div>
+                         <div className="block-bottom mtp-30 text-start f-pixilate-bold fsp-18">¿Cómo vamos?</div>
 
                       <div className="f-Ubuntu-L bgc-info fsp-13 rounded-p-10 mbp-50 ">
                         <div className="bgc-white rounded-p-10 pep-80 d-flex position-relative ">
