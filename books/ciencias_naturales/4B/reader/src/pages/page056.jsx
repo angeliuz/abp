@@ -21,10 +21,10 @@ function Page056(props) {
 
 
 
-                <div className="position-relative w-100 ptp-100 psp-80 pep-70">
+                <div className="position-relative w-100 ptp-100 psp-10 pep-10">
 
-                            <div className="bgc-white border border-color-dark rounded-p-10">
-                                <div className="bgc-guile mxwp-490 rounded-p-10">
+                            <div className="bgc-white border-style-solid border-2 border-color-pidgey rounded-p-10">
+                                <div className="bgc-pantro w-70 text-start mtp--10 msp--10 rounded-p-10">
                                     <div className="f-Ubuntu-R psp-20 py-2">Si hubiéramos tenido más tiempo nos hubiese gustado añadir:</div>
                                 </div>
                                 <div className="psp-20 pep-20 pbp-20">
@@ -46,137 +46,243 @@ function Page056(props) {
 
 
 
-              
-                <div className="position-relative w-100">
-                    <div className="psp-80 pep-70   pbp-60">
-                    <div className="row ptp-20">
-                            <div className="col-md-6">
-                                <div className="bgc-white border border-color-dark rounded-p-10">
-                                    <div className="bgc-chitara mxwp-160 rounded-p-10">
-                                        <div className="f-Ubuntu-R psp-20 py-2">Lo más difícil fue:</div>
-                                    </div>
-                                    <div className="psp-20 pep-20 pbp-20">
-                                        <div className="linea pbp-20"></div>
-                                        <div className="linea pbp-20"></div>
-                                        <div className="linea pbp-20"></div>
-                                        <div className="linea pbp-20"></div>
-                                        <div className="linea pbp-20"></div>
-                                        <div className="linea pbp-20"></div>
-                                    </div>
+              <div className="d-flex justify-content-center">
+
+                  <div className="  w-100">
+                      <div className="msp-10 mep-10   pbp-60">
+                      <div className="row ptp-20">
+                              <div className="col-md-6 ">
+                                  <div className="bgc-white mpt-10 border-style-solid border-2 border-color-pidgey rounded-p-10">
+                                      <div className="bgc-tigro w-90 text-start mtp--10 msp--10 rounded-p-10">
+                                          <div className="f-Ubuntu-R psp-20 py-2">Lo más difícil hasta ahora ha sido:</div>
+                                      </div>
+                                      <div className="psp-20 pep-20 pbp-20">
+                                          <div className="linea pbp-20"></div>
+                                          <div className="linea pbp-20"></div>
+                                          <div className="linea pbp-20"></div>
+                                          <div className="linea pbp-20"></div>
+                                          <div className="linea pbp-20"></div>
+                                          <div className="linea pbp-20"></div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div className="col-md-6 ">
+                                  <div className="bgc-white mpt-10 border-style-solid border-2 border-color-pidgey rounded-p-10">
+                                      <div className="bgc-bobafett w-90 text-start mtp--10 msp--10 rounded-p-10">
+                                          <div className="f-Ubuntu-R psp-20 py-2">Lo más fácil hasta ahora ha sido:</div>
+                                      </div>
+                                      <div className="psp-20 pep-20 pbp-20">
+                                          <div className="linea pbp-20"></div>
+                                          <div className="linea pbp-20"></div>
+                                          <div className="linea pbp-20"></div>
+                                          <div className="linea pbp-20"></div>
+                                          <div className="linea pbp-20"></div>
+                                          <div className="linea pbp-20"></div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+
+
+
+
+
+            
+
+
+      
+              <div className="wp-600">
+
+
+                                    <div className="block-bottom mtp-30 text-start f-pixilate-bold fsp-18">¿Cómo vamos?</div>
+
+                      <div className="f-Ubuntu-L bgc-info fsp-13 rounded-p-10 mbp-50 ">
+                        <div className="bgc-white rounded-p-10 pep-80 d-flex position-relative ">
+                          <div className="position-absolute top-50 start-100 translate-middle msp-50  visible-768"><img src="images/page_056/img_005.png" className="wp-100" alt="" /></div>
+
+
+                              <div className=" mbp-30">
+                                <div className="d-flex pep-10 justify-content-between  wp-600 ">
+                                  <div className="block-bottom text-start mtp-30 f-pixilate-bold fsp-18">
+                                    
+                                  </div>
+                                  <div className="d-flex flex-row-reverse block-bottom mtp-30">
+                                    <div className="nunca   f-pixilate-regular">Siempre</div>
+                                    <div className="siempre  f-pixilate-regular">Generalmente</div>
+                                    <div className="siempre  f-pixilate-regular">A veces</div>
+                                    <div className="siempre  f-pixilate-regular">Núnca</div>
+                                  </div>
                                 </div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="bgc-white border border-color-dark rounded-p-10">
-                                    <div className="bgc-tigro mxwp-160 rounded-p-10">
-                                        <div className="f-Ubuntu-R psp-20 py-2">Lo más fácil fue:</div>
+                                <div className="psp-15 pep-20 f-Ubuntu-L fsp-13 rounded-set-10 ">
+                                  <div className="d-flex justify-content-between ">
+                                    <div className="d-flex  cb-contenedor-tabla-texto ">
+                                      <div className="flecha-pidgey pep-10 mtp-8"></div>
+                                      <span className="text-start f-Ubuntu-L fsp-15 ptp-5 ">
+                                          Nos involucramos en la realización de la tarea y nos responsabilizamos del trabajo que debemos hacer.
+                                      </span>
                                     </div>
-                                    <div className="psp-20 pep-20 pbp-20">
-                                        <div className="linea pbp-20"></div>
-                                        <div className="linea pbp-20"></div>
-                                        <div className="linea pbp-20"></div>
-                                        <div className="linea pbp-20"></div>
-                                        <div className="linea pbp-20"></div>
-                                        <div className="linea pbp-20"></div>
+                                    <div className="d-flex flex-row-reverse block-bottom ptp-5 pbp-5 align-items-center">
+                                      <div className="psp-30-r">
+                                        <div className="cuadrado borde-cuadrado">
+                                          <InputBox
+                                            id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div className="psp-40-r">
+                                        <div className="cuadrado borde-cuadrado">
+                                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div className="psp-40-r">
+                                        <div className="cuadrado borde-cuadrado">
+                                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div className="">
+                                        <div className="cuadrado borde-cuadrado">
+                                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                                          />
+                                        </div>
+                                      </div>
                                     </div>
+                                  </div>
                                 </div>
-                            </div>
+
+                                <div className="ptp-2 "></div>
+                                <div className="psp-15 pep-20 f-Ubuntu-L   fsp-13 rounded-seb-10 wp-600">
+
+                                  <div className="d-flex justify-content-between ">
+                                    <div className="d-flex cb-contenedor-tabla-texto-400 ">
+                                      <div className="flecha-pidgey pep-10 mtp-8"></div> <span className="text-start f-Ubuntu-L fsp-15 ptp-5">
+                                      Ante una petición de apoyo de alguien del equipo, intentamos ayudar antes de preguntarle al profesor.
+                                      </span>
+                                    </div>
+                                    <div className="d-flex flex-row-reverse block-bottom ptp-5 pbp-5 align-items-center ">
+                                      <div className="psp-30-r">
+                                        <div className="cuadrado borde-cuadrado">
+                                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div className="psp-40-r">
+                                        <div className="cuadrado borde-cuadrado">
+                                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div className="psp-40-r">
+                                        <div className="cuadrado borde-cuadrado">
+                                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div className="">
+                                        <div className="cuadrado borde-cuadrado">
+                                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                                          />
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+
+                                  <div className="d-flex justify-content-between ">
+                                    <div className="d-flex  cb-contenedor-tabla-texto-400 ">
+                                      <div className="flecha-pidgey pep-10 mtp-8"></div> <span className="text-start f-Ubuntu-L fsp-15 ptp-5">
+                                            Respetamos el turno de la palabra.
+                                      </span>
+                                    </div>
+                                    <div className="d-flex flex-row-reverse block-bottom ptp-5 pbp-5 align-items-center">
+                                      <div className="psp-30-r">
+                                        <div className="cuadrado borde-cuadrado">
+                                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div className="psp-40-r">
+                                        <div className="cuadrado borde-cuadrado">
+                                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div className="psp-40-r">
+                                        <div className="cuadrado borde-cuadrado">
+                                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div className="">
+                                        <div className="cuadrado borde-cuadrado">
+                                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                                          />
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+
+
+
+
+                                  <div className="d-flex justify-content-between ">
+                                    <div className="d-flex  cb-contenedor-tabla-texto-400 ">
+                                      <div className="flecha-pidgey pep-10 mtp-8"></div> <span className="text-start f-Ubuntu-L fsp-15 ptp-5">
+                                          Llegamos a acuerdos y decisiones compartidas después de que cada uno ofrezca su opinión.
+                                      </span>
+                                    </div>
+                                    <div className="d-flex flex-row-reverse block-bottom ptp-5 pbp-5 align-items-center">
+                                      <div className="psp-30-r">
+                                        <div className="cuadrado borde-cuadrado">
+                                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div className="psp-40-r">
+                                        <div className="cuadrado borde-cuadrado">
+                                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div className="psp-40-r">
+                                        <div className="cuadrado borde-cuadrado">
+                                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div className="">
+                                        <div className="cuadrado borde-cuadrado">
+                                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                                          />
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+
+
+                                </div>
+                              </div>
+
+
+
+
+
+
+
                         </div>
-                    </div>
-                </div>
+
+                      </div>
 
 
 
-
-
-
-                <div className="block-bottom mtp-30 f-pixilate-bold fsp-18">¿Cómo vamos?</div>
-
-                <div className="f-Ubuntu-L bgc-white fsp-13 rounded-p-10 p-2">
-                    <div className="bgc-white rounded-p-10 pep-80 d-flex">
-
-                            <table>
-
-                                <tbody>
-                                    {/* <tr>
-                                          <td>&nbsp;</td>
-                                          <td className="style-caja bgc-pidgey tf-letra border-white f-colby-compres-bold ps-2 pe-2"> Nunca</td>
-                                          <td style="min-width: 55px;" className="style-caja bgc-pidgey tf-letra border-white f-colby-compres-bold ps-2 pe-2"> A veces</td>
-                                          <td className="style-caja bgc-pidgey tf-letra border-white f-colby-compres-bold ps-2 pe-2"> Generalmente</td>
-                                          <td className="style-caja bgc-pidgey tf-letra border-white f-colby-compres-bold ps-2 pe-2"> Siempre</td>
-                                    </tr> */}
-                                </tbody>
-
-                            </table>
-
-                    </div>
-
-                </div>
-
-
-
-                {/* <div className="f-Ubuntu-L bgc-white fsp-13 rounded-p-10 p-2">
-                                <div className="bgc-white rounded-p-10 pep-80 d-flex">
-                                    <table>
-                                        <tbody>
-                                            <tr>
-                                                <td>&nbsp;</td>
-                                                <td
-                                                    className="style-caja bgc-pidgey tf-letra border-white f-colby-compres-bold ps-2 pe-2">
-                                                    Nunca</td>
-                                                <td style="min-width: 55px;"
-                                                    className="style-caja bgc-pidgey tf-letra border-white f-colby-compres-bold ps-2 pe-2">
-                                                    A veces</td>
-                                                <td
-                                                    className="style-caja bgc-pidgey tf-letra border-white f-colby-compres-bold ps-2 pe-2">
-                                                    Generalmente</td>
-                                                <td
-                                                    className="style-caja bgc-pidgey tf-letra border-white f-colby-compres-bold ps-2 pe-2">
-                                                    Siempre</td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tf-parrafo-caja border border-color-pidgey">Nos involucramos
-                                                    en el proyecto y nos responsabilizamos por las tareas que tenemos
-                                                    que hacer.</td>
-                                                <td className="border border-color-pidgey"></td>
-                                                <td className="border border-color-pidgey"></td>
-                                                <td className="border border-color-pidgey"></td>
-                                                <td className="border border-color-pidgey"></td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tf-parrafo-caja border border-color-pidgey">Ante una
-                                                    petición de apoyo de alguien del grupo, intentamos ayudar antes de
-                                                    preguntarle al profesor.</td>
-                                                <td className="border border-color-pidgey"></td>
-                                                <td className="border border-color-pidgey"></td>
-                                                <td className="border border-color-pidgey"></td>
-                                                <td className="border border-color-pidgey"></td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tf-parrafo-caja border border-color-pidgey">Respetamos el
-                                                    turno de la palabra.</td>
-                                                <td className="border border-color-pidgey"></td>
-                                                <td className="border border-color-pidgey"></td>
-                                                <td className="border border-color-pidgey"></td>
-                                                <td className="border border-color-pidgey"></td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tf-parrafo-caja border border-color-pidgey">Llegamos a
-                                                    acuerdos y decisiones compartidas después de que cada uno da su
-                                                    opinión.</td>
-                                                <td className="border border-color-pidgey"></td>
-                                                <td className="border border-color-pidgey"></td>
-                                                <td className="border border-color-pidgey"></td>
-                                                <td className="border border-color-pidgey"></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <div className="hp-50">
-                                        <img src="images/page_054/img_004.png" className="hp-220 tf-mono" />
-                                    </div>
-                                </div>
-                            </div> */}
-
-
+              </div>
 
 
 
@@ -199,7 +305,7 @@ function Page056(props) {
                   <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
                     ABP &copy; SM
                   </div>
-                  <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+                  <div className="bgc-goku wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
                 </div>
                  {/* FIN PIE DE PAGINA */}
               
