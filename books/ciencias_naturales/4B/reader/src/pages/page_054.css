@@ -1,0 +1,18 @@
+.contenedor {
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 30px);
+}
+
+.flecha {
+    padding-bottom: -2px;
+}
+
+.linea-separa {
+    border-top: 2px var(--pidgey) solid;
+}
+
+.linea-separa-int {
+    border-top: 2px var(--pantro) solid;
+}
