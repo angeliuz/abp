@@ -28,11 +28,15 @@ function Page010(props) {
       <img src="images/page_010/img_001.png" class="cb-sol-p10"></img>  
         <div className="cb-ejercicio-nombre d-flex mbp-20">
           <div className="cb-nombre juttify-contente-center align-items-center d-flex bgc-marcianos psp-40 pep-40 ptp-40 pbp-40 f-Ubuntu-L fsp-15 ">Nombre</div>
-          <div className="cb-nombre-blanco"></div>
+          <div className="cb-nombre-blanco w-100">
+          <div className="text-start psp-10"contenteditable="true"></div>
+          </div>
         </div>
         <div className="cb-ejercicio-mision d-flex">
         <div className="cb-mision juttify-contente-center align-items-center d-flex bgc-shogun psp-45 pep-45 ptp-40 pbp-40 f-Ubuntu-L fsp-15">Misión</div>
-          <div className="cb-mision-blanco"></div>
+          <div className="cb-mision-blanco w-100">
+          <div className="text-start psp-10"contenteditable="true"></div>
+          </div>
         </div>
       </div>
 

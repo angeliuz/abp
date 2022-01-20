@@ -16,13 +16,13 @@ function Page012(props) {
             <div class="cb-titulo-aceptamos text-center fsp-25 f-IntroRustG-Base mtp-10 mtp-100 mbp-20 color-goten">¡ACEPTAMOS EL DESAFÍO!</div>
                </div>
                <p className="text-start cb-text-inicial f-Ubuntu-l fsp-15">  Respondemos la invitación y nos comprometemos.</p>
-                    <div className="cb-contendor-carta ptp-5 pbp-5 bgc-marcianos mtp-10">
+                    <div className="cb-contendor-carta-p12 ptp-5 pbp-5 bgc-marcianos mtp-10">
                 <div className="cb-contenedor-mail-p12">
               <div className="cb-invitacion-p12 psp-35 f-Ubuntu-R fsp-16">RE: Invitación a ser brigadista escolar</div>
               <div className="pep-15 psp-10 ptp-10 pbp-10">
                 <div className="d-flex justify-content-between mbp-5"> 
                   <div><img src="images/page_012/img_003.png" className="cb-computador-carta psp-30" alt=""></img></div> 
-                  <div className="cb-datos-1 msp-10 align-items-center d-flex">
+                  <div className="cb-datos-12 msp-10 align-items-center d-flex">
                     <div className="text-start psp-10 f-Ubuntu-l fsp-16"> Estudiantes 4° básico 4_basico@colegio.cl <br /> Para Macarena </div>
                   </div>
                 </div>
@@ -35,14 +35,14 @@ function Page012(props) {
                     <img src="images/page_012/img_004.png"  className="cb-celu-p12" alt=""></img>
                       <p className="f-Ubuntu-R fw-700"> Estimada Macarena:</p>
                       <span className="f-Ubuntu-L fsp-15">Gusto en saludarte. Nos sentimos</span>
-                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 mbp-10" />
+                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 mbp-5" />
 
                       <span className="f-Ubuntu-L fsp-15">de recibir tu invitación. Por ello, aceptamos el desafío y nos comprometemos a </span>
 
-                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 mbp-10" />
+                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 mbp-5" />
 
                       <span className="f-Ubuntu-L fsp-15">También queremos comentarte que nuestra brigada se llamará:</span>
-                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 mbp-10" />
+                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 mbp-5" />
                       <span className="f-Ubuntu-L fsp-15">lo que nos motiva aún más a comenzar.</span> <br />
                       <span className="f-Ubuntu-L fsp-15">Se despiden: </span>
                       <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
@@ -53,20 +53,20 @@ function Page012(props) {
               </div>
 
              
-                    <div className="cb-ejercicio-final-p10 mtp-20 f-pixilate-bold text-start">¿Cómo vomos?</div>
-                    <div className="cb-ejercicio-final-p10 p-2 pb-3 f-Ubuntu-L bgc-white fsp-15 rounded-p-10 ps-4 mbp-60"> 
+                    <div className="cb-ejercicio-final-p12 mtp-20 f-pixilate-bold text-start">¿Cómo vomos?</div>
+                    <div className="cb-ejercicio-final-p12 p-2 pb-3 f-Ubuntu-L bgc-white fsp-15 rounded-p-10 ps-4 mbp-60"> 
                     <img src="images/page_012/img_005.png"  className="cb-personaje-p12" alt=""></img>
                         <div className="d-flex w-100 align-items-center mbp-15"> 
                         <img src="images/page_010/arrow.svg" className="mep-5 cb-flecha"></img>             
                          <span className="triangulo text-start">¿Qué me resulta mejor cuando trabajo en equipo?</span>
                         </div> 
-                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" /> 
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" /> 
                         
                         <div className="d-flex w-100 align-items-center mbp-15">  
                         <img src="images/page_010/arrow.svg" className="mep-5 cb-flecha"></img>            
                          <span className="triangulo">¿Cuál es la mejor cualidad de cada integrante de mi equipo?</span>
                         </div> 
-                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-130" /> 
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" /> 
                     </div>
                     
               

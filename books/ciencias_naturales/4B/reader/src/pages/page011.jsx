@@ -18,6 +18,7 @@ function Page011(props) {
                 </div>
                     <div className="cb-block-inicial-etapa-p09 f-Ubuntu-L hp-90 fw-700 fsp-15 p-2 pb-3 mbp-30 text-center mtp-20 cb-outline_p11">
                     <p>Esta página ha sido completada por</p>
+                    <div className="text-start psp-50"contenteditable="true"></div>
                         <img src="images/page_011/img_001.png" className="cb-calendario-p11" alt=""></img>
                         <img src="images/page_011/img_002.png" className="cb-silvato-p11" alt=""></img>
                     </div>
@@ -31,6 +32,7 @@ function Page011(props) {
                 <div className="cb-block-superior-p09 p-3 pb-4 hp-120 f-Ubuntu-L fsp-15 mtp-30 mbp-30 text-center fw-700  cb-outline_p11">
                     <img src="images/page_011/img_005.png" className="cb-bomero-p11"  alt=""></img>
                     <p>Nuestra brigada se llama:</p>
+                    <div className="text-start psp-10"contenteditable="true"></div>
  
                 </div>
                 <div className="cb-block-superior-p09 p-3 f-Ubuntu-L fsp-15 mtp-30 mbp-30 text-center fw-700 cb-outline_p11">
