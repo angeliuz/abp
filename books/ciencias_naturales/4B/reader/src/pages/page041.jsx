@@ -17,11 +17,11 @@ function Page041(props) {
           <div className="position-relative w-100">
             <div className="row psp-80 pep-70 ptp-10 pbp-50 ">
               <div className="f-Ubuntu-R text-start fsp-18 pbp-10">
-                Esta página es completada por:
+              Esta página fue completada por:
               </div>
               <div className="d-flex position-relative">
                 <img
-                  src="images/page_021/img_001.png"
+                  src="images/page_041/img_001.png"
                   class="hp-80 position-absolute start-0 top-0 mtp--10"
                   alt=""
                 />
@@ -32,152 +32,84 @@ function Page041(props) {
                   />
                 </div>
                 <img
-                  src="images/page_021/img_002.png"
+                  src="images/page_041/img_002.png"
                   class="hp-80 position-absolute start-100 top-0 msp--70 mtp--30"
                   alt=""
                 />
               </div>
-              <div className="psp-80 pep-60 ptp-30">
-                <div className="d-flex pbp-10 position-relative">
-                  <div className="f-ccdigitaldelivery-bold fsp-35 color-bulma">
-                    1
-                  </div>
-                  <div className="f-Ubuntu-R fsp-16 ptp-15 psp-10 text-start text-start">
-                    Usamos los recortables para organizar las etapas y tareas
-                    que quedan del proyecto.
-                  </div>
-                  <img
-                    src="images/page_021/img_003.svg"
-                    className="psp-20 position-absolute top-0 start-100 msp--50 mtp-40"
-                    alt=""
-                  />
+              <div className="d-flex msp-60 mep-60 mbp-0 mtp-30">
+              <div className="row w-100">
+
+                <div className="col-sm-12 col-md-6 position-relative">
+                    
+                    <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--20 visible-768"><img src="images/page_056/img_003.png" className="wp-60 " alt="" /></div> 
+
+                    <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-freezer border-2 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
+                        <div className="d-flex interior-caja-v1 bgc-bison text-start min-hp-30">
+                            <div className="w-100 text-center f-Ubuntu-R">¿Cómo podría mejorar?</div>
+                        </div>
+                        <div className="d-flex flex-column position-relative w-100">
+                          <div className="position-absolute top-0 start-0 translate-middle msp--15 mtp-20">
+                            <div className="wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison f-Ubuntu-B">
+                            1
+                            </div>
+                          </div>
+                          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                        </div>
+                        <div className="d-flex flex-column position-relative w-100">
+                          <div className="position-absolute top-0 start-0 translate-middle msp--15 mtp-20">
+                            <div className="wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison f-Ubuntu-B">
+                            2
+                            </div>
+                          </div>
+                          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                        </div>
+                        <div className="d-flex flex-column position-relative w-100">
+                          <div className="position-absolute top-0 start-0 translate-middle msp--15 mtp-20">
+                            <div className="wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison f-Ubuntu-B">
+                            3
+                            </div>
+                          </div>
+                          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                        </div>
+                    </div>
                 </div>
-                <div className="row position-relative">
-                  <div className="col-md-6 col-12 pbp-20">
-                    <div className="mxwp-200 hp-30 bgc-android18 rounded-set-20 border-style-solid border-1 border-color-anakin centrar-hor">
-                      <div className="color-white ptp-3 fsp-18 f-pixilate-bold ">
-                        INVESTIGACIÓN
-                      </div>
+                <div className="col-sm-12 col-md-6 position-relative">
+                  <div className="position-absolute top-0 start-100 translate-middle msp--10 mtp-150 visible-768"><img src="images/page_056/img_002.png" className="wp-20 " alt="" /></div> 
+                    <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-freezer border-2 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
+                        <div className="d-flex interior-caja-v1 bgc-bison text-start min-hp-30">
+                            <div className="w-100 text-center f-Ubuntu-R">¿Qué solución le daremos?</div>
+                        </div>
+                        <div className="d-flex flex-column position-relative w-100">
+                          <div className="position-absolute top-0 start-0 translate-middle msp--15 mtp-20">
+                            <div className="wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison f-Ubuntu-B">
+                            1
+                            </div>
+                          </div>
+                          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                        </div>
+                        <div className="d-flex flex-column position-relative w-100">
+                          <div className="position-absolute top-0 start-0 translate-middle msp--15 mtp-20">
+                            <div className="wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison f-Ubuntu-B">
+                            2
+                            </div>
+                          </div>
+                          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                        </div>
+                        <div className="d-flex flex-column position-relative w-100">
+                          <div className="position-absolute top-0 start-0 translate-middle msp--15 mtp-20">
+                            <div className="wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison f-Ubuntu-B">
+                            3
+                            </div>
+                          </div>
+                          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                        </div>
                     </div>
-                    <div className="bgc-white w-100 border-dashed-pidgey">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-230"
-                      />
-                    </div>
-                    <div className="w-100 border-style-solid border-color-dark border-1 bgc-white p-1 mtp-10 d-flex justify-content-center">
-                      <div className="text-center f-Ubuntu-R pep-10 mtp-10">
-                        Fecha: del
-                      </div>
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
-                      />
-                      <div className="text-center f-Ubuntu-R psp-10 pep-10 mtp-10">
-                        al
-                      </div>
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
-                      />
-                    </div>
-                  </div>
-                  <div className="col-md-6 col-12 pbp-20">
-                    <div className="mxwp-200 hp-30 bgc-pidgey rounded-set-20 border-style-solid border-1 border-color-anakin centrar-hor">
-                      <div className="color-white ptp-3 fsp-18 f-pixilate-bold ">
-                        EXPERIMENTACIÓN
-                      </div>
-                    </div>
-                    <div className="bgc-white w-100 border-dashed-pidgey">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-230"
-                      />
-                    </div>
-                    <div className="w-100 border-style-solid border-color-dark border-1 bgc-white p-1 mtp-10 d-flex justify-content-center">
-                      <div className="text-center f-Ubuntu-R pep-10 mtp-10">
-                        Fecha: del
-                      </div>
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
-                      />
-                      <div className="text-center f-Ubuntu-R psp-10 pep-10 mtp-10">
-                        al
-                      </div>
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
-                      />
-                    </div>
-                    <img
-                      src="images/page_021/img_004.png"
-                      className="hp-60 position-absolute top-50 start-0 msp--30 mtp-30"
-                      alt=""
-                    />
-                  </div>
                 </div>
-                <div className="row">
-                  <div className="col-md-6 col-12 pbp-20">
-                    <div className="mxwp-200 hp-30 bgc-saitama rounded-set-20 border-style-solid border-1 border-color-anakin centrar-hor">
-                      <div className="color-white ptp-3 fsp-18 f-pixilate-bold ">
-                        CREACIÓN
-                      </div>
-                    </div>
-                    <div className="bgc-white w-100 border-dashed-pidgey">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-230"
-                      />
-                    </div>
-                    <div className="w-100 border-style-solid border-color-dark border-1 bgc-white p-1 mtp-10 d-flex justify-content-center">
-                      <div className="text-center f-Ubuntu-R pep-10 mtp-10">
-                        Fecha: del
-                      </div>
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
-                      />
-                      <div className="text-center f-Ubuntu-R psp-10 pep-10 mtp-10">
-                        al
-                      </div>
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
-                      />
-                    </div>
-                  </div>
-                  <div className="col-md-6 col-12 pbp-20">
-                    <div className="mxwp-200 hp-30 bgc-pikachu rounded-set-20 border-style-solid border-1 border-color-anakin centrar-hor">
-                      <div className="color-white ptp-3 fsp-18 f-pixilate-bold ">
-                        DIFUSIÓN
-                      </div>
-                    </div>
-                    <div className="bgc-white w-100 border-dashed-pidgey">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-230"
-                      />
-                    </div>
-                    <div className="w-100 border-style-solid border-color-dark border-1 bgc-white p-1 mtp-10 d-flex justify-content-center">
-                      <div className="text-center f-Ubuntu-R pep-10 mtp-10">
-                        Fecha: del
-                      </div>
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
-                      />
-                      <div className="text-center f-Ubuntu-R psp-10 pep-10 mtp-10">
-                        al
-                      </div>
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
-                      />
-                    </div>
-                  </div>
-                </div>
+
               </div>
+            
+            </div>
             </div>
           </div>
           {/* PIE DE PAGINA */}
