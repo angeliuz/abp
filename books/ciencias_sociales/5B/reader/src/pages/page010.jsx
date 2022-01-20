@@ -39,7 +39,7 @@ function Page010(props) {
                   <div className="cb-bloque-6 text-center bgc-white p-2 pb-2 f-Ubuntu-L fw-700 fsp-13"> No es demasiado largo. Debe reproducirse en muchos lugares.</div>
               </div>
             </div>
-            <div className="pbp-90 position-relative">
+            <div className="pbp-90 psp-90 pep-90 position-relative">
               <div className="block-bottom mtp-30 f-pixilate-bold text-start">¿Cómo vamos?</div>
               <div className=" block-bottom p-2 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4"> 
                 <div className="d-flex flex-wrap w-100 align-items-end titulo-linea position-relative mtp-10">
