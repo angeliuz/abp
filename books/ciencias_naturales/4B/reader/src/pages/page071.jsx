@@ -42,7 +42,7 @@ function Page071(props) {
               <div className="cb-datos-mail pep-15 psp-10 ptp-10 pbp-10">
                 <div className="d-flex justify-content-between mbp-5"> 
                   <div><img src="images/page_071/img_006.png" className="cb-computador-carta psp-30" alt=""></img></div> 
-                  <div className="cb-datos-1 msp-10 align-items-center d-flex">
+                  <div className="cb-datos-1-p71 msp-10 align-items-center d-flex">
                     <div className="psp-10 f-Ubuntu-l fsp-16"> <span className="fw-700"> Macarena </span> macarena@brigadistas.cl <br /> Para Estudiantes 4° básico </div>
                   </div>
                 </div>

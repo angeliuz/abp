@@ -40,9 +40,9 @@ function Page074(props) {
                           </div>                                                              
                     </div>
                      {/* tabla */}
-            <div className="cb-contenedor-tabla-p58">
+            <div className="cb-contenedor-tabla-p74 mbp-60">
               <div className="d-flex pep-10 justify-content-between">
-                <div className="block-bottom text-start mtp-30 f-pixilate-bold fsp-21">
+                <div className="block-bottom text-start mtp-30 f-pixilate-bold fsp-16">
                   ¿Cómo me sentí?
                 </div>
                 <div className="d-flex flex-row-reverse block-bottom mtp-30">
@@ -371,7 +371,7 @@ function Page074(props) {
                 <div className="d-flex justify-content-between ">
                   <div className="d-flex mnwp-400-r cb-contenedor-tabla-texto">
                     <div className="flecha-pikachu pep-10 mtp-8"></div>
-                    <span className="text-left f-Ubuntu-L fsp-15 ptp-5 pbp-20">
+                    <span className="text-left f-Ubuntu-L fsp-15 ptp-5 pbp-20 text-start">
                     Confié en mis compañeros y me ayudaron cuando lo necesité.
                     </span>
                   </div>

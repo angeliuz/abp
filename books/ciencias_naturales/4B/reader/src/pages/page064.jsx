@@ -62,6 +62,7 @@ function Page064(props) {
           </div>         
             <div className="bgc-bobafett cb-border-pikachu pbp-90 position-relative mtp-10" style={{bottom:0}}>
             <img src="images/page_064/img_002.png" className="position-absolute cb-engranajes-p64" alt=""/>
+            <img src="images/page_064/img_001.png" className="position-absolute cb-personaje-p64" alt=""/>
             <div className="cb-700 mx-auto mtp-50 f-pixilate-bold mbp-5 text-start ptp-30">
               ¿Cómo voy?
             </div>

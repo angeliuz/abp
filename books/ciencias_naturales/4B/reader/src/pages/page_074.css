@@ -12,15 +12,11 @@
   display: flex;
    position: absolute;
 }
-
-.rounded-caja {
-    border-radius: 20px 20px 0px 0px;
-}
-
-.linea {
-    border-bottom: 1px dashed #dedede;
-    padding-top: 5px;
-    border-color:var(--lightDark);
+.cb-contenedor-tabla-p74{
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  width: calc(100% - 60px);
 }
 
 .cb-personaje-p74{
@@ -36,57 +32,12 @@
     top: -55px;
     width: 90px;
   }
-
-.cb-contenedor-tabla{
-  max-width: 690px;
-  margin-right: auto;
-  margin-left: auto;
-  width: calc(100% - 60px);
-}
-.padding-hor {
-  padding-right: 2.5rem !important;
-  padding-left: 2.5rem !important;
-}
 .cb-radius{
   border-radius: 5px 5px 5px 5px;
-}
-.cuadrado {
-  width: 30px;
-  height: 30px;
-}
-.espacio-casilla {
-  width: 120px;
-  height: 0px;
-}
-.ajuste-centro {
-  margin-left: auto !important;
-  margin-right: auto !important;
 }
 
 @media all and (max-width: 760px) { 
   .cb-responsive{
     margin-bottom: 15px;
   }
-}
-@media all and (min-width: 768px) {
-  .hid-responsive {
-    visibility: visible;
-  }
-  .vis-responsive {
-    visibility: hidden;
-    position: relative;
-    display: none;
-  }
-
-}
-
-@media all and (max-width: 768px) {
-  .hid-responsive {
-    visibility: hidden;
-    position: relative;
-  }
-  .vis-responsive {
-    visibility: visible;
-  }
-
 }
