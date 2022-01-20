@@ -44,10 +44,10 @@ function Page040(props) {
                 <tr>
                   <th className="bgc-azuka border-style-solid border-1">Rol</th>
                   <th className="bgc-azuka border-style-solid border-1">Función</th>
-                  <th className="bgc-azuka border-style-solid border-1">cara1</th>
-                  <th className="bgc-azuka border-style-solid border-1">cara2</th>
-                  <th className="bgc-azuka border-style-solid border-1">cara3</th>
-                  <th className="bgc-azuka border-style-solid border-1">cara4</th>
+                  <th className="bgc-azuka border-style-solid border-1"><img src="images/page_040/img_002.png" className="" alt="" /></th>
+                  <th className="bgc-azuka border-style-solid border-1"><img src="images/page_040/img_003.png" className="" alt="" /></th>
+                  <th className="bgc-azuka border-style-solid border-1"><img src="images/page_040/img_004.png" className="" alt="" /></th>
+                  <th className="bgc-azuka border-style-solid border-1"><img src="images/page_040/img_005.png" className="" alt="" /></th>
                 </tr>
                 <tr>
                   <td className="bgc-azuka border-style-solid border-1" rowspan="2">Coordinación</td>
@@ -55,10 +55,22 @@ function Page040(props) {
                     ¿Repartió el turno de
                     <br /> palabra?
                   </td>
-                  <td className=" border-style-solid border-1"></td>
-                  <td className=" border-style-solid border-1"></td>
-                  <td className=" border-style-solid border-1"></td>
-                  <td className=" border-style-solid border-1"></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                 <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
                 </tr>
                 <tr>
                   <td className=" border-style-solid border-1">
@@ -67,10 +79,22 @@ function Page040(props) {
                     <br />
                     participaran en las tareas?
                   </td>
-                  <td className=" border-style-solid border-1"></td>
-                  <td className=" border-style-solid border-1"></td>
-                  <td className=" border-style-solid border-1"></td>
-                  <td className=" border-style-solid border-1"></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
                 </tr>
               </table>
 
@@ -81,10 +105,22 @@ function Page040(props) {
                     ¿Gestionó el tiempo
                     <br /> dedicado a las tareas?
                   </td>{" "}
-                  <td className=" border-style-solid border-1"></td>
-                  <td className=" border-style-solid border-1"></td>
-                  <td className=" border-style-solid border-1"></td>
-                  <td className=" border-style-solid border-1"></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
                 </tr>
                 <tr>
                   <td className=" border-style-solid border-1">
@@ -93,10 +129,22 @@ function Page040(props) {
                     <br /> hecho su tarea dentro del
                     <br /> plazo establecido?
                   </td>{" "}
-                  <td className=" border-style-solid border-1">Item 6</td>
-                  <td className=" border-style-solid border-1">Item 7</td>
-                  <td className=" border-style-solid border-1">Item 6</td>
-                  <td className=" border-style-solid border-1">Item 7</td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
                 </tr>
               </table>
 
@@ -111,16 +159,41 @@ function Page040(props) {
                     <br /> para solicitar ayuda y<br />
                     resolver dudas?
                   </td>{" "}
-                  <td className=" border-style-solid border-1">Item 6</td>
-                  <td className=" border-style-solid border-1">Item 7</td>
-                  <td className=" border-style-solid border-1">Item 6</td>
-                  <td className=" border-style-solid border-1">Item 7</td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
                 </tr>
                 <tr>
-                  <td className=" border-style-solid border-1">¿Pidió ayuda a otros equipos?</td> <td>Item 6</td>
-                  <td className=" border-style-solid border-1">Item 7</td>
-                  <td className=" border-style-solid border-1">Item 6</td>
-                  <td className=" border-style-solid border-1">Item 7</td>
+                  <td className=" border-style-solid border-1">¿Pidió ayuda a otros equipos?</td> 
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
                 </tr>
               </table>
 
@@ -133,10 +206,22 @@ function Page040(props) {
                     <br />
                     realizar las tareas?
                   </td>{" "}
-                  <td className=" border-style-solid border-1">Item 6</td>
-                  <td className=" border-style-solid border-1">Item 7</td>
-                  <td className=" border-style-solid border-1">Item 6</td>
-                  <td className=" border-style-solid border-1">Item 7</td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
                 </tr>
                 <tr>
                   <td>
@@ -146,10 +231,22 @@ function Page040(props) {
                     <br />
                     trabajo limpio y ordenado?
                   </td>{" "}
-                  <td className=" border-style-solid border-1">Item 6</td>
-                  <td className=" border-style-solid border-1">Item 7</td>
-                  <td className=" border-style-solid border-1">Item 6</td>
-                  <td className=" border-style-solid border-1">Item 7</td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
+                  <td className=" border-style-solid border-1"><InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
+                  /></td>
                 </tr>
               </table>
 
