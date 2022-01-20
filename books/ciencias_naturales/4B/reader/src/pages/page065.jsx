@@ -40,6 +40,7 @@ function Page065(props) {
           <img src="images/page_065/img_002.png" class="wp-20 position-absolute cb-lapiz-65" alt=""/>
           <div className="mtp-20 cb-calc bgc-white mx-auto rounded-p-10 border-style-solid border-1 border-color-pikachu position-relative">
               <span className="d-flex text-start p-2 f-pixilate-bold fsp-15"> Nombre de la brigada:</span>
+              <div className="text-start psp-10"contenteditable="true"></div>
                 </div>
                 <div className="d-flex cb-calc cb-600 align-items-center mtp-10 mx-auto">
                 <div className="wp-300">            
@@ -54,57 +55,57 @@ function Page065(props) {
             <div className="wp-300 bgc-white border-style-solid border-1 border-color-pikachu rounded-p-10 text-start fsp-13 p-2">
               ¿Consideras importante que el colegio cuente con brigadas de seguridad?
               </div>
-              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"></div>
-              <div className="hp-55 wp-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"></div>
-              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"></div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-55 wp-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
           </div>
           <div className="cb-600 cb-calc d-flex justify-content-between mx-auto mtp-10">
             <div className="wp-300 bgc-white border-style-solid border-1 border-color-pikachu rounded-p-10 text-start fsp-13 p-2">
             ¿Te parece adecuado y útil disponer de fichas de seguridad?
               </div>
-              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"></div>
-              <div className="hp-55 wp-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"></div>
-              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"></div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-55 wp-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
           </div>
           <div className="cb-600 cb-calc d-flex justify-content-between mx-auto mtp-10">
             <div className="wp-300 bgc-white border-style-solid border-1 border-color-pikachu rounded-p-10 text-start fsp-13 p-2">
             ¿Consideras valioso contar con folletos para enseñar a actuar responsablemente ante una emergencia?
               </div>
-              <div className="hp-70 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"></div>
-              <div className="hp-70 wp-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"></div>
-              <div className="hp-70 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"></div>
+              <div className="hp-70 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-70 wp-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-70 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
           </div>
           <div className="cb-600 cb-calc d-flex justify-content-between mx-auto mtp-10">
-            <div className="wp-300 bgc-white border-style-solid border-1 border-color-pikachu rounded-p-10 text-start fsp-13 p-2">
+            <div className="wp-300 bgc-white border-style-solid border-1 border-color-pikachu rounded-p-10 text-start fsp-13 p-2" contenteditable="true">
 
               </div>
-              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"></div>
-              <div className="hp-55 wp-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"></div>
-              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"></div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-55 wp-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
           </div>
           <div className="cb-600 cb-calc d-flex justify-content-between mx-auto mtp-10">
-            <div className="wp-300 bgc-white border-style-solid border-1 border-color-pikachu rounded-p-10 text-start fsp-13 p-2">
+            <div className="wp-300 bgc-white border-style-solid border-1 border-color-pikachu rounded-p-10 text-start fsp-13 p-2"contenteditable="true">
 
               </div>
-              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"></div>
-              <div className="hp-55 wp-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"></div>
-              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"></div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-55 wp-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
           </div>
           <div className="cb-600 cb-calc d-flex justify-content-between mx-auto mtp-10">
-            <div className="wp-300 bgc-white border-style-solid border-1 border-color-pikachu rounded-p-10 text-start fsp-13 p-2">
+            <div className="wp-300 bgc-white border-style-solid border-1 border-color-pikachu rounded-p-10 text-start fsp-13 p-2"contenteditable="true">
 
               </div>
-              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"></div>
-              <div className="hp-55 wp-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"></div>
-              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"></div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-55 wp-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
           </div>
           <div className="cb-600 cb-calc d-flex justify-content-between mx-auto mtp-10">
-            <div className="wp-300 bgc-white border-style-solid border-1 border-color-pikachu rounded-p-10 text-start fsp-13 p-2">
+            <div className="wp-300 bgc-white border-style-solid border-1 border-color-pikachu rounded-p-10 text-start fsp-13 p-2"contenteditable="true">
 
               </div>
-              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"></div>
-              <div className="hp-55 wp-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"></div>
-              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"></div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu" contenteditable="true"></div>
+              <div className="hp-55 wp-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
           </div>
           </div>
           <div className="container-titulo-global mbp-∫0 wp-410">
