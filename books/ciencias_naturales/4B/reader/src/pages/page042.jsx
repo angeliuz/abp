@@ -32,7 +32,7 @@ function Page042(props) {
               <div className="d-flex mbp-20 mtp-90 w-100 ">
                 <div className="p-2 min-hp-100 w-100">
                   <div className="d-flex flex-column bgc-white exterior-caja-v1 border-style-solid  border-color-dark border-2 w-100 p-2 f-Ubuntu-L fsp-18 mbp-20">
-                    <div className="d-flex interior-caja-v1 bgc-vold text-start min-hp-0">
+                    <div className="d-flex interior-caja-v1 bgc-rain text-start min-hp-0">
                       <div className="w-100 text-start">
                       Creemos que las fichas de seguridad serán útiles para la brigada, porque:
                       </div>
