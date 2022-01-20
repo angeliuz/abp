@@ -50,14 +50,14 @@ function Page068(props) {
             <div className="cb-block2-p68 align-items-start justify-content-start position-relative p-2 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4 mbp-50"> 
                  <img src="images/page_068/img_005.png" className="position-absolute wp-120 cb-personaje-p68" alt="" />
                 <div className="flex-wrap text-start">
-                    <img src="images/page_074/flecha.svg" className="hp-10 pep-5 mtp-5"></img>
+                    <img src="images/page_068/flecha.svg" className="hp-10 pep-5 mtp-5"></img>
                         <span className="w-24 f-Ubuntu-L">Las fortalezas de nuestro equipo son:</span> 
                         <div className="pep-10 psp-10">
                         <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-130" />
                         </div>                                      
                     </div>    
                     <div className="flex-wrap text-start mtp-10">
-                    <img src="images/page_074/flecha.svg" className="hp-10 pep-5 mtp-5"></img>
+                    <img src="images/page_068/flecha.svg" className="hp-10 pep-5 mtp-5"></img>
                         <span className="w-24 f-Ubuntu-L">Lo que deberíamos mejorar de nuestro trabajo en equipo es:</span> 
                         <div className="pep-10 psp-10">
                         <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-130" />
