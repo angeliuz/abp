@@ -40,7 +40,7 @@ function Page041(props) {
               <div className="d-flex msp-60 mep-60 mbp-0 mtp-30">
               <div className="row w-100">
 
-                <div className="col-sm-12 col-md-6 position-relative">
+                <div className="col-sm-12 col-md-12 position-relative">
                     
                     <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--20 visible-768"><img src="images/page_056/img_003.png" className="wp-60 " alt="" /></div> 
 
@@ -74,7 +74,7 @@ function Page041(props) {
                         </div>
                     </div>
                 </div>
-                <div className="col-sm-12 col-md-6 position-relative">
+                <div className="col-sm-12 col-md-12 position-relative">
                   <div className="position-absolute top-0 start-100 translate-middle msp--10 mtp-150 visible-768"><img src="images/page_056/img_002.png" className="wp-20 " alt="" /></div> 
                     <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-freezer border-2 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
                         <div className="d-flex interior-caja-v1 bgc-bison text-start min-hp-30">
