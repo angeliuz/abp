@@ -17,10 +17,9 @@ function Page053(props) {
                 {/* END CABECERA VERSIÓN 2 */}
 
             <div className="ptp-10 psp-100 pep-60 mbp-0">
-              <div className="f-Ubuntu-B fsp-20 color-pidgey text-start lhp-20">Preparamos un simulacro de emergencia</div>
               <div className="d-flex">
-                <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">4</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Como curso, nos organizamos para que cada brigada realice un simulacro de emergencia.</div>
+                <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">3</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start w-85">Comparto con mi equipo los apuntes que tomé de los simulacros y escribimos una conclusión general de cada emergencia.</div>
               </div>
             </div>
 
@@ -50,33 +49,6 @@ function Page053(props) {
 
                 <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Se derrama agua caliente en una actividad extraprogramática.</div></div>
                 <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-50 min-hp-50" /></div></div>
-              </div>
-            </div>
-
-            <div className="ptp-10 psp-60 pep-60 mbp-0">
-              <div className="d-flex">
-              <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_045/g_i.svg" alt="" />
-                <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">5</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Como equipo, reflexionamos sobre la emergencia y respondemos:</div>
-              </div>
-            </div>
-
-            <div className="ptp-10 psp-130 pep-80 mbp-0">
-              <div className="row mbp-10 position-relative">
-              <div className="position-absolute top-100 start-0 translate-middle"><img src="images/page_046/mama.png" className="wp-80 mep-0 mtp--135" alt=""/></div>
-                <div className="col-12 col-md-6 p-1 m-0">
-                  <div className="rounded-p-5 bgc-ganyu border-style-solid border-color-trunks border-2">
-                    <div className="f-Ubuntu-L fsp-15 p-2 text-center bgc-white">¿Qué necesitamos para resolver la emergencia anterior?</div>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-210 mep-10 msp-10" />
-                  </div>
-                </div>
-
-                <div className="col-12 col-md-6 p-1 m-0">
-                  <div className="rounded-p-5 bgc-azuka border-style-solid border-color-milk border-2">
-                    <div className="f-Ubuntu-L fsp-15 p-2 text-center bgc-white">¿Cómo sabremos que la emergencia ha sido superada?</div>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-210 mep-10 msp-10" />
-                  </div>
-                </div>
               </div>
             </div>
 
