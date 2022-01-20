@@ -1,6 +1,6 @@
 
-.cb-page68 {
-    background: url(images/page_068/fondo_001.svg) top left/ cover no-repeat !important;
+.cb-page42 {
+    background: url(images/page_042/fondo_001.svg) top left/ cover no-repeat !important;
      -webkit-print-color-adjust: exact !important;
   }
   .cb-600{
@@ -40,7 +40,7 @@
     right: -96px;
   }
   @media all and (max-width: 829px) {
-    .cb-page68{
+    .cb-page42{
        background: url(images/page_042/fondo_001.svg) top left/ cover no-repeat !important;
        }
        .cb-camara-p68{
