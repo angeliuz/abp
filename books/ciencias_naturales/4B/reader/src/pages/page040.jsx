@@ -267,7 +267,7 @@ function Page040(props) {
             <div className="row">
               <div className="col-md-6 col-sm-12 position-relative">
                   
-              <div className=" visible-768 zindex-2 position-absolute top-0 start-100 translate-middle msp--30 mtp-20">
+              <div className="  zindex-2 position-absolute top-0 start-100 translate-middle msp--30 mtp-20">
                   <img src="images/page_040/img_001.png" className="" alt="" />
                 </div>
                 <div className="bgc-white  border-style-solid  border-color-dark border-1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
@@ -281,7 +281,7 @@ function Page040(props) {
                 </div>
               </div>
               <div className="col-md-6 col-sm-12 position-relative">
-                <div className=" visible-768 zindex-2 position-absolute top-0 start-100 translate-middle msp--30 mtp-20">
+                <div className="  zindex-2 position-absolute top-0 start-100 translate-middle msp--30 mtp-20">
                   <img src="images/page_040/img_001.png" className="" alt="" />
                 </div>
                 <div className="bgc-white  border-style-solid  border-color-dark border-1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
