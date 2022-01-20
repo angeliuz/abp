@@ -70,12 +70,12 @@ function Page056(props) {
                                   </div>
                               </div>
                               <div className="col-md-6 ">
-                                  <div className="bgc-white mpt-10 border-style-solid border-2 border-color-pidgey rounded-p-10  position-relative">
+                                  <div className="bgc-white mpt-10 border-style-solid border-2 border-color-saitama rounded-p-10  position-relative">
                                   <div className="position-absolute top-100 start-100 translate-middle   msp-20 mtp--5 visible-768 "><img src="images/page_056/img_004.png" className="wp-60" alt="" /></div>
                                       <div className="bgc-bobafett w-90 text-start mtp--10 msp--10 rounded-p-10">
                                           <div className="f-Ubuntu-R psp-20 py-2">Lo más fácil hasta ahora ha sido:</div>
                                       </div>
-                                      <div className="psp-20 pep-20 pbp-20">
+                                      <div className="psp-20 pep-20 pbp-20 keko">
                                           <div className="linea pbp-20"></div>
                                           <div className="linea pbp-20"></div>
                                           <div className="linea pbp-20"></div>
