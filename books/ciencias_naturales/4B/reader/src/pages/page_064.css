@@ -23,3 +23,14 @@
   left: 40px;
   top: -43px;
 }
+.cb-personaje-p64{
+  right: 40px;
+  top: -173px;
+}
+@media all and (max-width:780px) {
+
+  .cb-personaje-p64{
+    display: none;
+  }
+  
+  }

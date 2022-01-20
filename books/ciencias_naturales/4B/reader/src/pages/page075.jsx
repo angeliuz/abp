@@ -33,188 +33,200 @@ function Page075(props) {
                     </div>
              
                     
-                <div className="cb-contenedor-tabla position-relative mbp-20 mtp-60">
-                    <div className="mbp-15 f-pixilate-bold text-start">¿Cómo fue nuestro trabajo en equipo?</div>
-                <div className="row hid-responsive">
-                    <div className="col-md-6"> </div>
-                    <div className="col-md-6">
-                        <table className="mtp--45">
-                            <tbody className="">
-                                <tr className="f-pixilate-regular fsp-16 text-center">
-                                    <td className="mnw-50">&nbsp;</td>
-                                    <td className="espacio-casilla">
-                                        Nunca</td>
-                                    <td className="espacio-casilla">
-                                        A veces</td>
-                                    <td className="espacio-casilla">
-                                        Generalmente</td>
-                                    <td className="espacio-casilla">
-                                        Siempre</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+           {/* tabla */}
+           <div className="cb-contenedor-tabla-p74 mbp-60">
+              <div className="d-flex pep-10 justify-content-between">
+                <div className="block-bottom text-start mtp-30 f-pixilate-bold fsp-16">
+                  ¿Cómo me sentí?
                 </div>
-                <div className="row bgc-white cb-radius">
-                    <div className="col-md-6 ptp-10 pbp-10">
-                        <div className="d-flex">
-                            <img src="images/page_075/flecha.svg" className="hp-10 pep-5 mtp-5"></img>
-                            <div className="f-Ubuntu-L fsp-13 text-start">Nos implicamos en la realización de la tarea y nos responsabilizamos del trabajo que tuvimos que hacer.
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-6 justify-content-center align-items-center d-flex cb-responsive">
-                        <table>
-                            <tbody>
-                                <tr className="f-pixilate-regular fsp-15 text-center vis-responsive">
-                                    <td className="espacio-casilla">
-                                        Nunca</td>
-                                    <td className="espacio-casilla">
-                                        A veces</td>
-                                    <td className="espacio-casilla">
-                                        Generalmente</td>
-                                    <td className="espacio-casilla">
-                                        Siempre</td>
-                                </tr>
-                                <tr>
-                                    <td className="espacio-casilla">
-                                        <div className="cuadrado ajuste-centro border border-color-lightDark"></div>
-                                    </td>
-                                    <td className="espacio-casilla">
-                                        <div className="cuadrado ajuste-centro border border-color-lightDark"></div>
-                                    </td>
-                                    <td className="espacio-casilla">
-                                        <div className="cuadrado ajuste-centro border border-color-lightDark"></div>
-                                    </td>
-                                    <td className="espacio-casilla">
-                                        <div className="cuadrado ajuste-centro border border-color-lightDark"></div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                <div className="d-flex flex-row-reverse block-bottom mtp-30">
+                  <div className="nunca f-pixilate-regular">Núnca</div>
+                  <div className="siempre f-pixilate-regular">A veces</div>
+                  <div className="siempre f-pixilate-regular">Generalmente</div>
+                  <div className="siempre f-pixilate-regular">Siempre</div>
                 </div>
-                <div className="ptp-5"></div>
-                <div className="row bgc-white cb-radius">
-                    <div className="col-md-6 ptp-15 pbp-10">
-                        <div className="d-flex">
-                            <img src="images/page_075/flecha.svg" className="hp-10 pep-5 mtp-5"></img>
-                            <div className="f-Ubuntu-L fsp-13 text-start">Ante una petición de ayuda, dejamos de hacer otras cosas e intentamos ayudar antes de preguntarle al profesor.
-                            </div>
-                        </div>
+              </div>
+              <div className="psp-15 pep-20 f-Ubuntu-L bgc-white fsp-13 rounded-set-10 ">
+                <div className="d-flex justify-content-between ">
+                  <div className="d-flex mnwp-400-r cb-contenedor-tabla-texto">
+                    <div className="flecha-pikachu pep-10 mtp-8"></div>
+                    <span className="text-start f-Ubuntu-L fsp-15 ptp-5">
+                    Nos involucramos en la realización de la tarea y nos responsabilizamos del trabajo que tuvimos que hacer.
+                    </span>
+                  </div>
+                  <div className="d-flex flex-row-reverse block-bottom ptp-5 pbp-5 align-items-center">
+                    <div className="psp-30-r">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
                     </div>
-                    <div className="col-md-6 justify-content-center align-items-center d-flex cb-responsive">
-                        <table>
-                            <tbody>
-                                <tr className="f-pixilate-regular fsp-15 1 text-center vis-responsive">
-                                    <td className="espacio-casilla">
-                                        Nunca</td>
-                                    <td className="espacio-casilla">
-                                        A veces</td>
-                                    <td className="espacio-casilla">
-                                        Generalmente</td>
-                                    <td className="espacio-casilla">
-                                        Siempre</td>
-                                </tr>
-                                <tr>
-                                    <td className="espacio-casilla">
-                                        <div className="cuadrado ajuste-centro border border-color-lightDark"></div>
-                                    </td>
-                                    <td className="espacio-casilla">
-                                        <div className="cuadrado ajuste-centro border border-color-lightDark"></div>
-                                    </td>
-                                    <td className="espacio-casilla">
-                                        <div className="cuadrado ajuste-centro border border-color-lightDark"></div>
-                                    </td>
-                                    <td className="espacio-casilla">
-                                        <div className="cuadrado ajuste-centro border border-color-lightDark"></div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div className="psp-40-r">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
                     </div>
+                    <div className="psp-40-r">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                    <div className="">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div className="ptp-5"></div>
-                <div className="row bgc-white cb-radius">
-                    <div className="col-md-6 ptp-15 pbp-10">
-                        <div className="d-flex">
-                            <img src="images/page_075/flecha.svg" className="hp-10 pep-5 mtp-5"></img>
-                            <div className="f-Ubuntu-L fsp-13 text-start">Respetamos el turno de la palabra.
-                            </div>
-                        </div>
+              </div>
+              <div className="ptp-2"></div>
+              <div className="psp-15 pep-20 f-Ubuntu-L bgc-white fsp-13 ">
+                <div className="d-flex justify-content-between ">
+                  <div className="d-flex mnwp-400-r cb-contenedor-tabla-texto">
+                    <div className="flecha-pikachu pep-10 mtp-8"></div>
+                    <span className="text-start f-Ubuntu-L fsp-15 ptp-5">
+                    Ante una petición de apoyo de alguien del equipo, intentamos ayudar antes de preguntarle al profesor.
+                    </span>
+                  </div>
+                  <div className="d-flex flex-row-reverse block-bottom ptp-5 pbp-5 align-items-center">
+                    <div className="psp-30-r">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
                     </div>
-                    <div className="col-md-6 justify-content-center align-items-center d-flex cb-responsive">
-                        <table>
-                            <tbody>
-                                <tr className="f-pixilate-regular fsp-15 1 text-center vis-responsive">
-                                    <td className="espacio-casilla">
-                                        Nunca</td>
-                                    <td className="espacio-casilla">
-                                        A veces</td>
-                                    <td className="espacio-casilla">
-                                        Generalmente</td>
-                                    <td className="espacio-casilla">
-                                        Siempre</td>
-                                </tr>
-                                <tr>
-                                    <td className="espacio-casilla">
-                                        <div className="cuadrado ajuste-centro border border-color-lightDark"></div>
-                                    </td>
-                                    <td className="espacio-casilla">
-                                        <div className="cuadrado ajuste-centro border border-color-lightDark"></div>
-                                    </td>
-                                    <td className="espacio-casilla">
-                                        <div className="cuadrado ajuste-centro border border-color-lightDark"></div>
-                                    </td>
-                                    <td className="espacio-casilla">
-                                        <div className="cuadrado ajuste-centro border border-color-lightDark"></div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div className="psp-40-r">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
                     </div>
+                    <div className="psp-40-r">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                    <div className="">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div className="ptp-5"></div>
-                <div className="row bgc-white cb-radius">
-                    <div className="col-md-6 ptp-15 pbp-10">
-                        <div className="d-flex">
-                            <img src="images/page_075/flecha.svg" className="hp-10 pep-5 mtp-5"></img>
-                            <div className="f-Ubuntu-L fsp-13 text-start">Llegamos a acuerdos y decisiones compartidas después de que cada uno dio su opinión.
-                            </div>
-                        </div>
+              </div>
+              <div className="ptp-2"></div>
+              <div className="psp-15 pep-20 f-Ubuntu-L bgc-white fsp-13">
+                <div className="d-flex justify-content-between ">
+                  <div className="d-flex mnwp-400-r cb-contenedor-tabla-texto">
+                    <div className="flecha-pikachu pep-10 mtp-8"></div>
+                    <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
+                    Respetamos el turno de la palabra.
+                    </span>
+                  </div>
+                  <div className="d-flex flex-row-reverse block-bottom ptp-5 pbp-5 align-items-center">
+                    <div className="psp-30-r">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
                     </div>
-                    <div className="col-md-6 justify-content-center align-items-center d-flex cb-responsive">
-                        <table>
-                            <tbody>
-                                <tr className="f-pixilate-regular fsp-15 1 text-center vis-responsive">
-                                    <td className="espacio-casilla">
-                                        Nunca</td>
-                                    <td className="espacio-casilla">
-                                        A veces</td>
-                                    <td className="espacio-casilla">
-                                        Generalmente</td>
-                                    <td className="espacio-casilla">
-                                        Siempre</td>
-                                </tr>
-                                <tr>
-                                    <td className="espacio-casilla">
-                                        <div className="cuadrado ajuste-centro border border-color-lightDark"></div>
-                                    </td>
-                                    <td className="espacio-casilla">
-                                        <div className="cuadrado ajuste-centro border border-color-lightDark"></div>
-                                    </td>
-                                    <td className="espacio-casilla">
-                                        <div className="cuadrado ajuste-centro border border-color-lightDark"></div>
-                                    </td>
-                                    <td className="espacio-casilla">
-                                        <div className="cuadrado ajuste-centro border border-color-lightDark"></div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div className="psp-40-r">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
                     </div>
-                </div>              
-             </div>
+                    <div className="psp-40-r">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                    <div className="">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="ptp-2"></div>
+              <div className="psp-15 pep-20 f-Ubuntu-L bgc-white fsp-13 rounded-seb-10">
+                <div className="d-flex justify-content-between ">
+                  <div className="d-flex mnwp-400-r cb-contenedor-tabla-texto">
+                    <div className="flecha-pikachu pep-10 mtp-8"></div>
+                    <span className="text-start f-Ubuntu-L fsp-15 ptp-5 pbp-20 text-start">
+                    Llegamos a acuerdos y decisiones compartidas después de que cada uno ofreciera su opinión.
+                    </span>
+                  </div>
+                  <div className="d-flex flex-row-reverse block-bottom ptp-5 pbp-5 align-items-center">
+                    <div className="psp-30-r">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                    <div className="psp-40-r">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                    <div className="psp-40-r">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                    <div className="">
+                      <div className="cuadrado borde-cuadrado">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
              
              <div className="cb-ejerciciofinal-p75 mtp-20">              
                 <div className="d-flex">

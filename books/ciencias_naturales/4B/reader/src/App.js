@@ -39,6 +39,8 @@ import Page035 from "./pages/page035";
 import Page036 from "./pages/page036";
 import Page037 from "./pages/page037";
 import Page038 from "./pages/page038";
+import Page039 from "./pages/page039";
+import Page040 from "./pages/page040";
 import Page041 from "./pages/page041";
 import Page042 from "./pages/page042";
 import Page043 from "./pages/page043";
@@ -53,6 +55,7 @@ import Page051 from "./pages/page051";
 import Page052 from "./pages/page052";
 import Page053 from "./pages/page053";
 import Page054 from "./pages/page054";
+import Page055 from "./pages/page055";
 import Page056 from "./pages/page056";
 import Page057 from "./pages/page057";
 import Page058 from "./pages/page058";
@@ -146,6 +149,8 @@ function App() {
       <Page036 numeroPagina={clearZeros} />
       <Page037 numeroPagina={clearZeros} />
       <Page038 numeroPagina={clearZeros} />
+      <Page039 numeroPagina={clearZeros} />
+      <Page040 numeroPagina={clearZeros} />
       <Page041 numeroPagina={clearZeros} />
       <Page042 numeroPagina={clearZeros} />
       <Page043 numeroPagina={clearZeros} />
@@ -160,6 +165,7 @@ function App() {
       <Page052 numeroPagina={clearZeros} />
       <Page053 numeroPagina={clearZeros} />
       <Page054 numeroPagina={clearZeros} />
+      <Page055 numeroPagina={clearZeros} />
       <Page056 numeroPagina={clearZeros} />
       <Page057 numeroPagina={clearZeros} />
       <Page058 numeroPagina={clearZeros} />
