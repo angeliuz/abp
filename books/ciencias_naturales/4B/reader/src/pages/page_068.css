@@ -11,6 +11,20 @@ max-width: 600px;
   padding-right: 6%;
 }
 
+
+
+.nunca {
+  font-size: 16px;
+  min-width: 50px;
+}
+.siempre {
+  font-size: 16px;
+  min-width: 70px;
+}
+
+
+
+
 .cb-block2-p68 {
   max-width: 500px;
   width: calc(100% - 30px);
