@@ -1,11 +1,11 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
-import "./page_053.css";
+import "./page_054.css";
 
-function Page053(props) {
+function Page054(props) {
 
-  const pagina = "053";
+  const pagina = "054";
   var indexInput = 0;
 
   return (
@@ -46,15 +46,6 @@ function Page053(props) {
                   <div className="position-absolute top-0 start-0"><img src="images/page_053/pincho.svg" className="wp-35 msp--15 mtp--10" alt=""/></div>
                   <div className="bgc-white rounded-p-5 p-2 border-style-solid border-color-saitama border-2">
                     <div className="f-Ubuntu-L fsp-15 p-1 text-start mtp-5">Se rompe un material de vidrio durante un experimento científico.</div>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                  </div>
-                </div>
-
-                <div className="col-12 p-1 m-0 position-relative">
-                  <div className="position-absolute top-0 start-0"><img src="images/page_053/pincho.svg" className="wp-35 msp--15 mtp--10" alt=""/></div>
-                  <div className="position-absolute top-50 start-0"><img src="images/page_053/pito.png" className="wp-80 msp--60 mtp-0" alt=""/></div>
-                  <div className="bgc-white rounded-p-5 p-2 border-style-solid border-color-pidgey border-2">
-                    <div className="f-Ubuntu-L fsp-15 p-1 text-start mtp-5">Hay una amago de incendio en la sala de profesores.</div>
                     <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                   </div>
                 </div>
@@ -104,4 +95,4 @@ function Page053(props) {
   );
 }
 
-export default Page053;
+export default Page054;
