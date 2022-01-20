@@ -32,21 +32,21 @@ function Page064(props) {
           <div className="bgc-padme cb-calc cb-600 mx-auto psp-10 pep-10 ptp-20 pbp-20 rounded-p-10">
           <div className="cb-600 w-100 mx-auto d-flex align-items-center justify-content-between">
             <div className="d-flex">
-           <div className="mep-5 f-Ubuntu-R"> Día:</div><div className="bgc-white ptp-15 pbp-15 psp-60 pep-30 rounded-p-10"> </div>
+           <div className="mep-5 f-Ubuntu-R"> Día:</div><div className="bgc-white ptp-15 pbp-15 psp-60 pep-30 rounded-p-10"contenteditable="true"> </div>
            </div>
            <div className="d-flex">
-           <div className="mep-5 f-Ubuntu-R"> Mes:</div><div className="bgc-white ptp-15 pbp-15 psp-60 pep-30 rounded-p-10"> </div>
+           <div className="mep-5 f-Ubuntu-R"> Mes:</div><div className="bgc-white ptp-15 pbp-15 psp-60 pep-30 rounded-p-10"contenteditable="true"> </div>
            </div>
            <div className="d-flex">
-           <div className="mep-5 f-Ubuntu-R"> Año:</div><div className="bgc-white ptp-15 pbp-15 psp-60 pep-30 rounded-p-10"> </div>
+           <div className="mep-5 f-Ubuntu-R"> Año:</div><div className="bgc-white ptp-15 pbp-15 psp-60 pep-30 rounded-p-10"contenteditable="true"> </div>
            </div>
           </div>
           <div className="cb-600 w-100 mx-auto d-flex align-items-center justify-content-center mtp-20">
             <div className="d-flex mep-60">
-           <div className="mep-5 f-Ubuntu-R">Hora:</div><div className="bgc-white ptp-15 pbp-15 psp-60 pep-30 rounded-p-10"> </div>
+           <div className="mep-5 f-Ubuntu-R">Hora:</div><div className="bgc-white ptp-15 pbp-15 psp-60 pep-30 rounded-p-10"contenteditable="true"> </div>
            </div>
            <div className="d-flex">
-           <div className="mep-5 f-Ubuntu-R">Lugar:</div><div className="bgc-white ptp-15 pbp-15 psp-60 pep-30 rounded-p-10"> </div>
+           <div className="mep-5 f-Ubuntu-R">Lugar:</div><div className="bgc-white ptp-15 pbp-15 psp-60 pep-30 rounded-p-10"contenteditable="true"> </div>
            </div>
           </div>
           </div>

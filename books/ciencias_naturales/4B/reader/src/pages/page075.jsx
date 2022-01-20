@@ -26,6 +26,7 @@ function Page075(props) {
             
                     <div className="cb-block-arriba-p75 mtp-20 f-Ubuntu-L mbp-5 psp-25 fw-700 fsp-13 text-start">Esta página ha sido completada por</div>
                     <div className="cb-block-inicial-p75 p-2 pbp-5 mbp-20">
+                    <div className="text-start psp-30"contenteditable="true"></div>
                         <img src="images/page_075/img_001.png" className="cb-chaqueta-p75" alt=""></img>
                         <img src="images/page_075/img_002.png" className="cb-calendario-p75" alt=""></img>
 

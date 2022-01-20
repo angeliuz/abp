@@ -44,6 +44,7 @@ function Page068(props) {
      <img src="images/page_068/img_004.png" className="position-absolute wp-70 cb-calendario-p68" alt="" />
      <img src="images/page_068/img_003.png" className="position-absolute wp-60 cb-celular-p68" alt="" />
      <span className="f-Ubuntu-L fsp-15 psp-20 fw-700">Nuestras expectativas antes dar a conocer la brigada son:</span>
+     <div className="text-start psp-10"contenteditable="true"></div>
      </div>
 
      <div className="mtp-55 f-pixilate-bold mbp-5 text-start">¿Cómo vamos?</div>
