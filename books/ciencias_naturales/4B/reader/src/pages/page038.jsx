@@ -19,52 +19,87 @@ function Page038(props) {
           <div className="ptp-10 container-titulo-global mbp-20">
             <div className="d-flex">
                 {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/img_002.svg" alt=""  /> */}
-                <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">1</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Completo y comparto con mi grupo.</div>
-                {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_031/img_002.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+                <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">2</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Leemos la revista y pensamos en las tres ideas que queremos comunicar en una ficha de seguridad.</div>
+                <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_038/img_001.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
 
-          <div className="d-flex msp-60 mep-60 mbp-100">
+         
+         <div className="msp-80 mep-60 position-relative">
+         {/* <div className="position-absolute top-50 start-100 translate-middle   "><img src="images/page_038/img_003.png" className="hp-90" alt="" /></div> */}
+              <div className="m-2 border-style-solid border-2 border-color-soldados  rounded-p-10  hp-50 w-80 p-1">
+                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+              </div>
+              <div className="m-2 border-style-solid border-2 border-color-ken  rounded-p-10  hp-50 w-80 p-1">
+                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+              </div>
+              <div className="m-2 border-style-solid border-2 border-color-android18  rounded-p-10  hp-50 w-80 p-1">
+                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+              </div>
 
-            <div className="row m-0 p-2 bgc-azuka rounded-p-20 w-100">
-                <div className="col-md-12 col-lg-12 position-relative">
-                    {/* <div className="position-absolute top-0 start-100 translate-middle msp--180 mtp-55 visible-768"><img src="images/page_029/img_001.png" className="wp-70 " alt="" /></div>*/}
-                    <div className="d-flex mbp-20 mtp-10 w-100">
-                        <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-start">El grupo que investigué es:</div>
-                        <div className="p-2 min-hp-30 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
-                        </div>
-                    </div>
-                </div>
+         </div>
 
 
-                <div className="col-md-12 col-lg-12 position-relative">
-                  <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-20 visible-768"><img src="images/page_038/img_002.png" className="wp-50 " alt="" /></div> 
-                   
 
-                    <div className="d-flex mbp-20 mtp-10 w-100">
-                        <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                            <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-center">Después de la investigación, ¿qué pienso sobre la situación de sus derechos en Chile?</div>
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
-                        </div>
-                    </div>
-                </div>
-                <div className="col-md-12 col-lg-12 position-relative">
-                    <div className="position-absolute top-100 start-100 translate-middle msp--10 mtp--40 visible-768"><img src="images/page_038/img_004.png" className="wp-75 " alt="" /></div>
-                    <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--40 visible-768"><img src="images/page_038/img_003.png" className="wp-80 " alt="" /></div>
-
-                    <div className="d-flex mbp-20 mtp-10 w-100">
-                        <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                            <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-center">Comparo mi respuesta con la de la página 34. ¿Qué cambió y por qué?</div>
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
-                        </div>
-                    </div>
-                </div>
-                
+         <div className="ptp-10 container-titulo-global mbp-20  msp--30">
+            <div className="d-flex">
+                <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_038/img_002.svg" alt=""  />
+                <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">3</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 msp-10 w-70 text-start ">Pensamos en la estructura de la ficha de seguridad y la diseñamos.</div>
+                {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_038/img_001.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
-          </div>        
-    
+          </div>
+
+
+          <div className="msp-80 mep-60 mtp--20 position-relative">
+              <div className="position-absolute top-0 start-100 translate-middle   msp--30 mtp--65 "><img src="images/page_038/img_003.png" className="wp-110" alt="" /></div>
+              <div className="m-2 border-style-solid border-2 border-color-android18  rounded-p-10 p-2 h-100 w-100 ">
+                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-280" />
+              </div>
+ 
+
+         </div>
+
+
+
+         <div className="ptp-10 container-titulo-global mbp-20  msp--30">
+            <div className="d-flex">
+                <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_038/img_002.svg" alt=""  />
+                <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">4</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Definimos los materiales para elaborar las fichas de seguridad.</div>
+                {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_038/img_001.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+            </div>
+          </div>
+
+        <div className="msp-80 mep-60 mtp--20 position-relative">
+              <div className="d-flex justify-content-around align-items-center  w-100 pep-20 psp-20  position-relative">
+              <div className="position-absolute top-0 start-100 translate-middle   msp--30 mtp-10  "><img src="images/page_038/img_004.png" className="wp-60" alt="" /></div>
+
+                <div className="d-flex align-items-center justify-content-center text-center bgc-genos   wp-240 hp-40 p-2 rounded-p-5  fsp-15  ">Hojas de bloc o cartulinas</div>
+                <div className="d-flex align-items-center justify-content-center text-center bgc-piccolo wp-240 hp-40 p-2 rounded-p-5  fsp-15  ">Lápices de colores</div>
+              </div>
+        </div>
+
+
+
+
+
+        <div className="msp-80 mep-60 mtp--20 position-relative">
+              <div className="d-flex justify-content-around align-items-center">
+                <div className="d-flex align-items-center justify-content-center    w-100   p-2  ">
+                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                </div>
+            
+              </div>
+        </div>
+
+      
+
+
+ 
+                
+           
             {/* PIE DE PAGINA */}
             <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
               <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
