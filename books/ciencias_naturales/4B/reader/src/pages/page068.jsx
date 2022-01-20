@@ -44,20 +44,21 @@ function Page068(props) {
      <img src="images/page_068/img_004.png" className="position-absolute wp-70 cb-calendario-p68" alt="" />
      <img src="images/page_068/img_003.png" className="position-absolute wp-60 cb-celular-p68" alt="" />
      <span className="f-Ubuntu-L fsp-15 psp-20 fw-700">Nuestras expectativas antes dar a conocer la brigada son:</span>
+     <div className="text-start psp-10"contenteditable="true"></div>
      </div>
 
      <div className="mtp-55 f-pixilate-bold mbp-5 text-start">¿Cómo vamos?</div>
             <div className="cb-block2-p68 align-items-start justify-content-start position-relative p-2 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4 mbp-50"> 
                  <img src="images/page_068/img_005.png" className="position-absolute wp-120 cb-personaje-p68" alt="" />
                 <div className="flex-wrap text-start">
-                    <img src="images/page_074/flecha.svg" className="hp-10 pep-5 mtp-5"></img>
+                    <img src="images/page_068/flecha.svg" className="hp-10 pep-5 mtp-5"></img>
                         <span className="w-24 f-Ubuntu-L">Las fortalezas de nuestro equipo son:</span> 
                         <div className="pep-10 psp-10">
                         <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-130" />
                         </div>                                      
                     </div>    
                     <div className="flex-wrap text-start mtp-10">
-                    <img src="images/page_074/flecha.svg" className="hp-10 pep-5 mtp-5"></img>
+                    <img src="images/page_068/flecha.svg" className="hp-10 pep-5 mtp-5"></img>
                         <span className="w-24 f-Ubuntu-L">Lo que deberíamos mejorar de nuestro trabajo en equipo es:</span> 
                         <div className="pep-10 psp-10">
                         <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-130" />

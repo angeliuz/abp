@@ -84,7 +84,6 @@ function Page031(props) {
 
           <div className="d-flex msp-60 mep-60 mbp-60 mtp-30 rounded-p-20  ">
             <div className="row w-100 p-0 m-0">
-
               <div className="col-sm-4 position-relative justify-content-center align-items-center ptp-10">
                 <div className="position-absolute top-0 start-0 translate-middle msp-3 mtp-0 zindex-1">
                   <img

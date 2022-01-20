@@ -29,7 +29,7 @@ function Page028(props) {
                 3
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-              Marco con un los riesgos que identifico en mi colegio.
+              Marco con un <img src="images/page_028/img_001.svg" className="" alt="" />los riesgos que identifico en mi colegio.
               </div>
             </div>
           </div>
