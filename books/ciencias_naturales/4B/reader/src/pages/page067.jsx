@@ -25,6 +25,7 @@ function Page067(props) {
                 <div className="cb-6 mbp-90">
                 <div className="text-start f-Ubuntu-L fsp-15 psp-85 mtp-10"> Esta página ha sido completada por:</div>
                 <div className="cb-600 bgc-white hp-40 mx-auto rounded-p-10 border-style-solid border-1 border-color-saitama position-relative">
+                <div className="text-start psp-30"contenteditable="true"></div>
                 <img src="images/page_067/img_001.png" class="wp-70 cb-mapa-p67 position-absolute" alt=""></img>
                 <img src="images/page_067/img_002.png" class="wp-70 cb-estrellas-p67 position-absolute" alt=""></img>
                 </div>
@@ -33,19 +34,23 @@ function Page067(props) {
                <div className="w-100 cb-cajas-top f-Ubuntu-L fsp-15 justify-content-between">
                  <div className="hp-190 mx-290 w-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-saitama zindex-10">
                   <div className="wp-200 text-start p-2 bgc-senhe cb-borde-desigual"> Antes creíamos que nuestra brigada sería:</div>
+                  <div className="text-start psp-10"contenteditable="true"></div>
                    </div>
                  <div className="hp-190 mx-290 w-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-saitama zindex-10 position-relative">
                  <img src="images/page_067/img_003.png" class="wp-80 cb-mega-p67 position-absolute" alt=""></img>
                  <div className="wp-200 text-start p-2 bgc-senhe  cb-borde-desigual">Ahora sabemos que nuestra brigada sería:</div>
+                 <div className="text-start psp-10"contenteditable="true"></div>
                  </div>
                </div>
                <div className="w-100  cb-cajas-top f-Ubuntu-L fsp-15 justify-content-between mtp-20">
                  <div className="hp-190 mx-290 w-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-saitama zindex-10 position-relative">
                  <img src="images/page_067/img_004.png" class="wp-80 cb-bino-p67 position-absolute" alt=""></img>
                  <div className="wp-200 text-start p-2 bgc-senhe  cb-borde-desigual">Lo que ha cambiado desde un inicio es:</div>
+                 <div className="text-start psp-10"contenteditable="true"></div>
                  </div>
                  <div className="hp-190 mx-290 w-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-saitama zindex-10">
                  <div className="wp-200 text-start p-2 bgc-senhe cb-borde-desigual">Los cambios se deben a:</div>
+                 <div className="text-start psp-10"contenteditable="true"></div>
                    </div>
                </div>
                </div>
