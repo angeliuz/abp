@@ -31,21 +31,21 @@ function Page042(props) {
 
               <div className="d-flex mbp-20 mtp-90 w-100 ">
                 <div className="p-2 min-hp-100 w-100">
-                  <div className="d-flex flex-column bgc-white exterior-caja-v1 border-style-solid  border-color-dark border-2 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
+                  <div className="d-flex flex-column bgc-white exterior-caja-v1 border-style-solid  border-color-dark border-2 w-100 p-2 f-Ubuntu-L fsp-18 mbp-20">
                     <div className="d-flex interior-caja-v1 bgc-vold text-start min-hp-0">
-                      <div className="w-100 text-center">
-                        ¿Cómo seleccionaremos la información?
+                      <div className="w-100 text-start">
+                      Creemos que las fichas de seguridad serán útiles para la brigada, porque:
                       </div>
                     </div>
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-400"
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200"
                     />
                   </div>
                 </div>
               </div>
             </div>
-            <div className="mtp-55 f-pixilate-bold mbp-5 text-start ">
+            <div className="mtp-55 f-pixilate-bold mbp-5 text-start fsp-18">
               ¿Cómo vamos?
             </div>
             <div className=" align-items-start justify-content-start position-relative p-2 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4 mbp-50">
@@ -60,7 +60,7 @@ function Page042(props) {
                   src="images/page_042/img_001.svg"
                   className="hp-10 pep-5 mtp-5"
                 ></img>
-                <span className="w-24 f-Ubuntu-L">
+                <span className="w-24 f-Ubuntu-L fsp-18">
                   Lo que más nos gustó de esta etapa fue:
                 </span>
                 <div className="pep-10 psp-10">
@@ -75,7 +75,7 @@ function Page042(props) {
                   src="images/page_042/img_001.svg"
                   className="hp-10 pep-5 mtp-5"
                 ></img>
-                <span className="w-24 f-Ubuntu-L">
+                <span className="w-24 f-Ubuntu-L fsp-18">
                   Lo que nos resultó más difícil del trabajo en equipo es:
                 </span>
                 <div className="pep-10 psp-10">
@@ -91,7 +91,7 @@ function Page042(props) {
                   src="images/page_042/img_001.svg"
                   className="hp-10 pep-5 mtp-5"
                 ></img>
-                <span className="w-24 f-Ubuntu-L">
+                <span className="w-24 f-Ubuntu-L fsp-18">
                   Lo que podemos mejorar es:
                 </span>
                 <div className="pep-10 psp-10">
