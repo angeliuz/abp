@@ -3,80 +3,123 @@ import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
 import ModalBook from "../components/ModalBook";
 
-import "./page_066.css";
+import "./page_065.css";
 
-function Page066(props) {
+function Page065(props) {
 
-  const pagina = "066";
+  const pagina = "065";
   var indexInput = 0;
 
   return (
     <div className="wrapper bgc-light">
             <div className="d-flex flex-column align-items-center pbp-20">
               <div className="page cb-page66 bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
-                {/* BEGIN CABECERA VERSIÓN 2 */}
-                <div className="cabecera-v1 hp-80 bgc-saitama">
-                </div>
-                 {/* END CABECERA VERSIÓN 2 */}
-
-                {/* contenido DE PAGINA */}
-            
-                <div className="ptp-30 psp-60 pep-60">
-              <div className="f-Ubuntu-M fsp-20 color-saitama text-start">Calentando motores</div>
+          {/* BEGIN CABECERA VERSIÓN 2 */}
+          <div className="cabecera-v2 bgc-saitama d-flex flex-column">
+            <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
+              <div className="caja wp-150 text-center fsp-24 color-saitama f-IntroRustG-Base">SESIÓN 14</div>
+              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡Últimos ajustes antes de presentar!</div>
+            </div>
+          </div> 
+          {/* END CABECERA VERSIÓN 2 */}
+          <div className="ptp-30 psp-60 pep-60">
+              <div className="f-Ubuntu-M fsp-20 color-saitama text-start">Conocer la opinión de los asistentes</div>
             </div>
                 <div className="container-titulo-global mbp-∫0">
             <div className="d-flex">
                 {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/img_002.svg" alt=""  /> */}
-                <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">3</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Preparo lo que presentaré en el <i> stand</i>.</div>
+                <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">1</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Como equipo, elaboramos la encuesta que los visitantes del stand responderán para evaluar la brigada.</div>
                  {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> */}
                 {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_031/img_002.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
-          <div className="mx-auto cb-600 cb-calc bgc-arena ptp-10 pep-10 psp-10 pbp-10 rounded-p-10">
-          <div className="cb-600 mx-auto bgc-white rounded-p-10 cb-outline-66 position-relative">
-          <img src="images/page_066/img_001.png" class="wp-70 cb-personaje-p66 position-absolute" alt=""></img>
-                 <div className="text-start w-70 p-2 bgc-raichu cb-borde-desigual f-Ubuntu-L fsp-15">Los temas de los que hablaré en conjunto con otros:</div>
-                 <div className="psp-20 pep-10">
-                 <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-130" />
-                 </div>
+          {/* CONTENIDO*/}
+          <div className="bgc-arena cb-calc cb-600 mx-auto ptp-5 pbp-20 rounded-p-10 mtp-10 position-relative">
+          <img src="images/page_065/img_004.png" class="wp-260 position-absolute cb-personaje-65" alt=""/>
+          <img src="images/page_065/img_002.png" class="wp-20 position-absolute cb-lapiz-65" alt=""/>
+          <div className="mtp-20 cb-calc bgc-white mx-auto rounded-p-10 border-style-solid border-1 border-color-pikachu position-relative">
+              <span className="d-flex text-start p-2 f-pixilate-bold fsp-15"> Nombre de la brigada:</span>
+              <div className="text-start psp-10"contenteditable="true"></div>
+                </div>
+                <div className="d-flex cb-calc cb-600 align-items-center mtp-10 mx-auto">
+                <div className="wp-300">            
+              </div>
+              <div className="wp-300 psp-35 d-flex justify-content-between">
+              <div className="p-1 wp-55 bgc-pikachu rounded-p-10 border-style-solid border-1 border-color-pikachu color-white fw-700 fsp-13">Sí</div>
+              <div className="p-1 msp-10 mep-10 wp-100 bgc-pikachu rounded-p-10 border-style-solid border-1 border-color-pikachu color-white fw-700 fsp-13">Más o menos</div>
+              <div className="p-1 wp-55 bgc-pikachu rounded-p-10 border-style-solid border-1 border-color-pikachu color-white fw-700 fsp-13">No</div>
+              </div>
+                </div>
+          <div className="cb-600 cb-calc d-flex justify-content-between mx-auto mtp-10">
+            <div className="wp-300 bgc-white border-style-solid border-1 border-color-pikachu rounded-p-10 text-start fsp-13 p-2">
+              ¿Consideras importante que el colegio cuente con brigadas de seguridad?
+              </div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-55 wp-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
           </div>
-          <div className="mtp-10  cb-600 mx-auto bgc-white rounded-p-10 cb-outline-66 position-relative">
-          <img src="images/page_066/img_002.png" class="wp-30 cb-micro-p66 position-absolute" alt=""></img>
-                 <div className="text-start w-45 p-2 bgc-draco cb-borde-desigual f-Ubuntu-L fsp-15"> Los temas de los que hablaré solo:</div>
-                 <div className="psp-20 pep-10">
-                 <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-130" />
-                 </div>
+          <div className="cb-600 cb-calc d-flex justify-content-between mx-auto mtp-10">
+            <div className="wp-300 bgc-white border-style-solid border-1 border-color-pikachu rounded-p-10 text-start fsp-13 p-2">
+            ¿Te parece adecuado y útil disponer de fichas de seguridad?
+              </div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-55 wp-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
           </div>
-          <div className="cb-cajas-top  f-Ubuntu-L fsp-15 justify-content-between mtp-20">
-                 <div className="mx-286 w-100 bgc-white rounded-p-10 cb-outline-66 zindex-10 position-relative">
-                 <div className="wp-250 text-start p-2 bgc-shogun cb-borde-desigual f-Ubuntu-L fsp-15">Ideas o aspectos que no puedo olvidar:</div>
-                 <div className="psp-20 pep-10">
-                 <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
-                 </div>
-                 </div>
-                 <div className="mx-286 w-100 bgc-white rounded-p-10 cb-outline-66 zindex-10">
-                 <div className="wp-250 text-start p-2 bgc-shogun cb-borde-desigual f-Ubuntu-L fsp-15">Ideas o aspectos complementarios que comentaré si hay tiempo:</div>
-                 <div className="psp-20 pep-10">
-                 <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
-                 </div>
-                   </div>
-               </div>
-               </div>
-          {/* EJERCICIO 2 */}
-          <div className=" container-titulo-global mbp-∫0">
+          <div className="cb-600 cb-calc d-flex justify-content-between mx-auto mtp-10">
+            <div className="wp-300 bgc-white border-style-solid border-1 border-color-pikachu rounded-p-10 text-start fsp-13 p-2">
+            ¿Consideras valioso contar con folletos para enseñar a actuar responsablemente ante una emergencia?
+              </div>
+              <div className="hp-70 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-70 wp-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-70 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+          </div>
+          <div className="cb-600 cb-calc d-flex justify-content-between mx-auto mtp-10">
+            <div className="wp-300 bgc-white border-style-solid border-1 border-color-pikachu rounded-p-10 text-start fsp-13 p-2" contenteditable="true">
+
+              </div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-55 wp-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+          </div>
+          <div className="cb-600 cb-calc d-flex justify-content-between mx-auto mtp-10">
+            <div className="wp-300 bgc-white border-style-solid border-1 border-color-pikachu rounded-p-10 text-start fsp-13 p-2"contenteditable="true">
+
+              </div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-55 wp-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+          </div>
+          <div className="cb-600 cb-calc d-flex justify-content-between mx-auto mtp-10">
+            <div className="wp-300 bgc-white border-style-solid border-1 border-color-pikachu rounded-p-10 text-start fsp-13 p-2"contenteditable="true">
+
+              </div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-55 wp-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+          </div>
+          <div className="cb-600 cb-calc d-flex justify-content-between mx-auto mtp-10">
+            <div className="wp-300 bgc-white border-style-solid border-1 border-color-pikachu rounded-p-10 text-start fsp-13 p-2"contenteditable="true">
+
+              </div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu" contenteditable="true"></div>
+              <div className="hp-55 wp-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+              <div className="hp-55 wp-55 bgc-white rounded-p-10 border-style-solid border-1 border-color-pikachu"contenteditable="true"></div>
+          </div>
+          </div>
+          <div className="container-titulo-global mbp-∫0 wp-410">
             <div className="d-flex">
-                <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">4</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Dibujo tres emojis que mejor expresan mis emociones antes de presentar.</div>
+                {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/img_002.svg" alt=""  /> */}
+                <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">2</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Creamos un buzón para que los visitantes del <i> stand</i> depositen la encuesta.</div>
+                 {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> */}
+                {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_031/img_002.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
-          <div className="cb-calc p-2 mx-auto cb-600 d-flex justify-content-between mbp-70">
-            <div className="cb-circulo"></div>
-            <div className="cb-circulo"></div>
-            <div className="cb-circulo"></div>
+
           
-          </div>
-    
+
                 {/* PIE DE PAGINA */}
                 <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
                   <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
@@ -130,4 +173,4 @@ function Page066(props) {
   );
 }
 
-export default Page066;
+export default Page065;

@@ -44,6 +44,7 @@ function Page008(props) {
                     <div className="cb-pienso-c text-start fsp-15"> <span>Pienso y le pregunto a Macarena.</span>  </div>
                 </div>
                 <div className="cb-ejercicio-left-abajo border-color position-relative">
+                <div className="text-start psp-10"contenteditable="true"></div>
                     <img src="images/page_008/img_004.svg" className="cb-pregunta-a" alt=""></img>
                     <img src="images/page_008/img_004.svg" className="cb-pregunta-b" alt=""></img>
                     <img src="images/page_008/img_005.png" className="cb-agenda-p07" alt=""></img>
@@ -52,10 +53,12 @@ function Page008(props) {
                 </div>
               <div className="cb-ejercicio-final-rig">
                 <div className="cb-ejercicio-final-arriba border-color position-relative">
+                <div className="text-start psp-10"contenteditable="true"></div>
                     <img src="images/page_008/img_006.svg" className="cb-pregunta-c" alt=""></img>
                     <img src="images/page_008/img_006.svg" className="cb-pregunta-d" alt=""></img>
                 </div>
                 <div className="cb-ejercicio-final-abajo position-relative">
+                <div className="text-start psp-10"contenteditable="true"></div>
                     <img src="images/page_008/img_005.svg" className="cb-pregunta-e" alt=""></img>
                     <img src="images/page_008/img_005.svg" className="cb-pregunta-f" alt=""></img>
                 </div>

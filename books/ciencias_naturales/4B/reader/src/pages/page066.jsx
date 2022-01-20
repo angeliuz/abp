@@ -71,9 +71,9 @@ function Page066(props) {
             </div>
           </div>
           <div className="cb-calc p-2 mx-auto cb-600 d-flex justify-content-between mbp-70">
-            <div className="cb-circulo"></div>
-            <div className="cb-circulo"></div>
-            <div className="cb-circulo"></div>
+            <div className="wp-150 hp-150 border-style-solid border-1 border-color-dark rounded-50"></div>
+            <div className="wp-150 hp-150 border-style-solid border-1 border-color-dark rounded-50"></div>
+            <div className="wp-150 hp-150 border-style-solid border-1 border-color-dark rounded-50"></div>
           
           </div>
     

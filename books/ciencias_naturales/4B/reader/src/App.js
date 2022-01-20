@@ -39,6 +39,10 @@ import Page035 from "./pages/page035";
 import Page036 from "./pages/page036";
 import Page037 from "./pages/page037";
 import Page038 from "./pages/page038";
+import Page039 from "./pages/page039";
+import Page040 from "./pages/page040";
+import Page041 from "./pages/page041";
+import Page042 from "./pages/page042";
 import Page043 from "./pages/page043";
 import Page044 from "./pages/page044";
 import Page045 from "./pages/page045";
@@ -47,12 +51,20 @@ import Page047 from "./pages/page047";
 import Page048 from "./pages/page048";
 import Page049 from "./pages/page049";
 import Page050 from "./pages/page050";
+import Page051 from "./pages/page051";
+import Page052 from "./pages/page052";
+import Page053 from "./pages/page053";
+import Page054 from "./pages/page054";
+import Page055 from "./pages/page055";
+import Page056 from "./pages/page056";
 import Page057 from "./pages/page057";
 import Page058 from "./pages/page058";
 import Page059 from "./pages/page059";
 import Page060 from "./pages/page060";
 import Page061 from "./pages/page061";
 import Page062 from "./pages/page062";
+import Page063 from "./pages/page063";
+import Page064 from "./pages/page064";
 import Page065 from "./pages/page065";
 import Page066 from "./pages/page066";
 import Page067 from "./pages/page067";
@@ -137,6 +149,10 @@ function App() {
       <Page036 numeroPagina={clearZeros} />
       <Page037 numeroPagina={clearZeros} />
       <Page038 numeroPagina={clearZeros} />
+      <Page039 numeroPagina={clearZeros} />
+      <Page040 numeroPagina={clearZeros} />
+      <Page041 numeroPagina={clearZeros} />
+      <Page042 numeroPagina={clearZeros} />
       <Page043 numeroPagina={clearZeros} />
       <Page044 numeroPagina={clearZeros} />
       <Page045 numeroPagina={clearZeros} />
@@ -145,12 +161,20 @@ function App() {
       <Page048 numeroPagina={clearZeros} />
       <Page049 numeroPagina={clearZeros} />
       <Page050 numeroPagina={clearZeros} />
+      <Page051 numeroPagina={clearZeros} />
+      <Page052 numeroPagina={clearZeros} />
+      <Page053 numeroPagina={clearZeros} />
+      <Page054 numeroPagina={clearZeros} />
+      <Page055 numeroPagina={clearZeros} />
+      <Page056 numeroPagina={clearZeros} />
       <Page057 numeroPagina={clearZeros} />
       <Page058 numeroPagina={clearZeros} />
       <Page059 numeroPagina={clearZeros} />
       <Page060 numeroPagina={clearZeros} />
       <Page061 numeroPagina={clearZeros} />
       <Page062 numeroPagina={clearZeros} />
+      <Page063 numeroPagina={clearZeros} />
+      <Page064 numeroPagina={clearZeros} />
       <Page065 numeroPagina={clearZeros} />
       <Page066 numeroPagina={clearZeros} />
       <Page067 numeroPagina={clearZeros} />

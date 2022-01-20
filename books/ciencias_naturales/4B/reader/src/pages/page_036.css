@@ -1,23 +1,17 @@
-.bgc-contenedor-36{
-  background-color:#f3e2cd;
+.mxwp-120 {
+  max-width: 120px;
 }
-
-.padding-box-36-1{
-  padding-right: 30%;
-  padding-left: 0px;
+.cuadrado-p35 {
+  min-width: 25px;
+  max-width: 25px;
+  min-height: 25px;
+  max-height: 25px;
 }
-.padding-box-36-2{
-  padding-right: 20px;
-  padding-left: 30%;
+.min-hp-455-r {
+  min-height: 455px;
 }
-
-@media (max-width: 768px) {
-  .padding-box-36-1{
-    padding-right: 0;
-    padding-left: 0;
-  }
-  .padding-box-36-2{
-    padding-right: 0;
-    padding-left: 0;
+@media (max-width: 767px) {
+  .min-hp-a-r {
+    min-height: 355px;
   }
 }

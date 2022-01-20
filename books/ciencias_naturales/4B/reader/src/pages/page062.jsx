@@ -36,8 +36,8 @@ function Page062(props) {
 
           
             <div className="d-flex msp-100 mep-60 position-relative mtp-40">
-                <div className="border-style-solid border border-3 borde-color-dark p-3 hp-275 w-100 position-relative">
-                              <div className="position-absolute top-0 start-100 translate-middle  mtp--35 msp--50"><img src="images/page_062/img_002.png" className="hp-80  " alt=""></img></div>
+                <div className="border-style-solid border border-3 borde-color-dark p-3 hp-275 w-100 bgc-lizt position-relative">
+                              <div className="position-absolute top-0 start-100 translate-middle   mtp--35 msp--50"><img src="images/page_062/img_002.png" className="hp-80  " alt=""></img></div>
 
                       <div className="position-absolute top-0 start-0 d-flex align-items-center justify-content-center hp-30 mtp--20 msp--40">
                               <img src="images/page_062/img_003.png" className="hp-70  position-relative " alt=""></img>
@@ -96,9 +96,9 @@ function Page062(props) {
                               
 
                 <div className="row   container-row px-5 position-relative">
-                        <div className=" position-absolute top-0 start-100 translate-middle "><img className="hp-80 msp--250 mtp--50" src="images/page_062/img_007.png" alt="" /></div>
+                        <div className=" position-absolute top-100 start-50 translate-middle "><img className="hp-100  mtp-60" src="images/page_062/img_006.png" alt="" /></div>
                         <div className="col-sm-12 col-md-6   ">
-                            <div className="border-style-solid mtp-25 border-2 border-color-akuma rounded-p-10 h-300 w-100 hp-190  ">
+                            <div className="border-style-solid mtp-25 border-2 border-color-akuma rounded-p-10 hp-260 w-100 hp-190  ">
 
                               <div className="d-flex align-items-center justify-content-center   rounded-set-10 bgc-akuma  hp-45 pixilate-bold fsp-18 fw-700 color-white  ">Mi propuesta de presentación: </div>
                               <div className="mtp-10 msp-30 mep-30 w-85">    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div> 
@@ -106,7 +106,7 @@ function Page062(props) {
                         </div>
                         <div className="col-sm-12 col-md-6  position relative">
                         <div className="espirales-creacion-62   position-absolute"><img src="images/page_062/img_007.png" className="w-45   " alt=""/></div>
-                            <div className="border-style-solid mtp-25 border-2 border-color-arlo rounded-p-10 h-300 w-100 hp-190  ">
+                            <div className="border-style-solid mtp-25 border-2 border-color-arlo rounded-p-10 hp-260 w-100 hp-190  ">
                             <div className="d-flex align-items-center justify-content-center  rounded-set-10 bgc-arlo hp-45 pixilate-bold fsp-18 fw-700 color-white ">Justificación: </div>
                           <div className="mtp-10 msp-30 mep-30 w-85">    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
                             </div>

@@ -18,7 +18,7 @@ function Page076(props) {
                 <div className="cb-contenedor-ejercicio-1-p76 pep-10 psp-10 ptp-5 pbp-30 mtp-80 position-relative">
                 <img src="images/page_076/img_002.png" className="cb-triangulo-p76" alt=""></img>
                 <div className="cb-border-b-p76 mtp-20 mbp-30">
-                    <p className="cb-texto-final-p76 f-Ubuntu-L fsp-15 mbp-10 text-start"> Ponernos de acuerdo ha sido:</p>
+                    <p className="cb-texto-final-p76 f-Ubuntu-L fsp-15 mbp-10 text-start fw-700"> Ponernos de acuerdo ha sido:</p>
                     <div className="d-flex">
                     <div className="cb-lado-a-p76">
                         <div className="cb-izq-p76 w-100 d-flex">
