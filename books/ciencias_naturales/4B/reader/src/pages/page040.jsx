@@ -27,40 +27,12 @@ function Page040(props) {
 
           <div className="d-flex msp-60 mep-60 mbp-100">
 
-            <div className="row m-0 p-2 bgc-azuka rounded-p-20 w-100">
-                <div className="col-md-12 col-lg-12 position-relative">
-                    {/* <div className="position-absolute top-0 start-100 translate-middle msp--180 mtp-55 visible-768"><img src="images/page_029/img_001.png" className="wp-70 " alt="" /></div>*/}
-                    <div className="d-flex mbp-20 mtp-10 w-100">
-                        <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-start">El grupo que investigué es:</div>
-                        <div className="p-2 min-hp-30 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
-                        </div>
-                    </div>
-                </div>
+            <div className="row w-100">
+                
 
 
-                <div className="col-md-12 col-lg-12 position-relative">
-                  <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-20 visible-768"><img src="images/page_038/img_002.png" className="wp-50 " alt="" /></div> 
-                   
-
-                    <div className="d-flex mbp-20 mtp-10 w-100">
-                        <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                            <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-center">Después de la investigación, ¿qué pienso sobre la situación de sus derechos en Chile?</div>
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
-                        </div>
-                    </div>
-                </div>
-                <div className="col-md-12 col-lg-12 position-relative">
-                    <div className="position-absolute top-100 start-100 translate-middle msp--10 mtp--40 visible-768"><img src="images/page_038/img_004.png" className="wp-75 " alt="" /></div>
-                    <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--40 visible-768"><img src="images/page_038/img_003.png" className="wp-80 " alt="" /></div>
-
-                    <div className="d-flex mbp-20 mtp-10 w-100">
-                        <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                            <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-center">Comparo mi respuesta con la de la página 34. ¿Qué cambió y por qué?</div>
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
-                        </div>
-                    </div>
-                </div>
+                
+                
                 
             </div>
           </div>        
