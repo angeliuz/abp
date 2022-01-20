@@ -16,84 +16,125 @@ function Page060(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className="cabecera-v2 bgc-saitama d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja wp-150 text-center fsp-24 f-IntroRustG-Base">SESIÓN 12</div>
-              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡Manos a la obra!</div>
+              {/* <div className="caja wp-150 text-center fsp-24 f-IntroRustG-Base">SESIÓN 12</div>
+              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡Manos a la obra!</div> */}
             </div>
 
           </div> 
           {/* END CABECERA VERSIÓN 2 */}
-          <div className="ptp-10 psp-60 pep-60 mbp-0">
-              <div className="f-Ubuntu-B fsp-20 color-saitama text-start lhp-20 ">Los preparativos</div>
+          <div className="ptp-10 psp-60 pep-60 mbp-0 pep-220 msp--20">
+              {/* <div className="f-Ubuntu-B fsp-20 color-saitama text-start lhp-20 ">Los preparativos</div> */}
               <div className="d-flex">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_045/g_i.svg" alt="" /> */}
-                <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">1</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Recuerdo cuál era la misión de la brigada y sus tareas.</div>
+              <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_060/img_001.svg" alt="" />
+                <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">3</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Leo la revista y realizo el boceto de un folleto para divulgar la importancia de contar con brigadas en el colegio.</div>
                 {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/revista.svg" clasesImagen="cambio hp-35 mtp-20" className="p-0 px-1" /> */}
+                <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_060/img_002.svg" clasesImagen="hp-40 text-center mtp-10 pep-20" className="p-0 px-0" />  
               </div>
             </div>
 
-          <div className="d-flex msp-60 mep-60 mbp-100">
-            <div className="row m-0 p-1 bgc-motaro rounded-p-20 w-100">
 
-                <div className="col-12   p-2">
-                        <div className="p-1   w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                            <div className="f-Ubuntu-L fsp-16   mep-10 text-start">Después de la investigación, ¿qué pienso sobre la situación de sus derechos en Chile?</div>
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-40" />
+
+
+            <div className="row container-row">
+
+                <div className="col-md-12 col-lg-12 position-relative">
+
+                {/* <div className="position-absolute top-50 start-100 translate-middle visible-768 zindex-1 msp--70 mtp-150"><img src="images/page_026/img_001.png" className="hp-60" alt=""/></div>
+                    <div className="position-absolute top-50 start-0 translate-middle visible-768 zindex-1 msp-70 mtp--5"><img src="images/page_026/img_003.png" className="w-100" alt=""/></div> */}
+                    <div className="position-absolute top-100 start-0 translate-middle visible-768 zindex-1 msp-100 mtp--80"><img src="images/page_060/img_004.png" className="w-100" alt=""/></div>
+
+                    <div className="mbp-20 mtp-10 msp-20 mep-20">
+                        <div className=" bgc-white caja-dibujo-global p-2 rounded-p-20 border-style-solid border-2 border-color-dark positon-relative">
+
+                            <div className="position-absolute top-0 end-0 wp-300 position-relative   mtp--70 mep-40"> <img className="hp-400" src="images/page_060/img_003.svg" alt="" />  
+        
+                                  <div className="position-absolute top-0 start-50 translate-middle-x   w-100 mtp-80 msp-20">
+                                    <div className="d-flex align-items-center  justify-content-between pbp-10 mt-3 w-100">
+                                        <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm pep-5 text-start   w-100 ">¿El boceto tiene o considera…?</div>
+                                        
+                                    </div>
+                                    <div className="msp-20">
+                                        <div className="d-flex align-items-center   w-100">
+                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama"></div>
+                                          <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm pep-5 text-start">Título.</div>
+                                        </div>
+                                        <div className="d-flex align-items-center   w-100">
+                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama "></div>
+                                          <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm pep-5 text-start">Recortes o imágenes.</div>
+                                        </div>
+                                        <div className="d-flex align-items-center   w-100">
+                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama"></div>
+                                          <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm pep-5 text-start">Misión de la brigada.</div>
+                                        </div>
+                                        <div className="d-flex align-items-center   w-100">
+                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama"></div>
+                                          <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm pep-5 text-start">Tareas de la brigada.</div>
+                                        </div>
+                                        <div className="d-flex align-items-center    w-100">
+                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama mbp-20"></div>
+                                          <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm pep-5 text-start">Forma de comunicarse con la brigada.</div>
+                                        </div>
+                                        <div className="d-flex align-items-center   w-100">
+                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama"></div>
+                                          <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm pep-5 text-start">Distintivo de brigadista.</div>
+                                        </div>
+                                        <div className="d-flex align-items-center   w-100">
+                                          <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama"></div>
+                                          <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm pep-5 text-start">Otro. </div>
+                                          
+                                        </div>
+                                        <div className="mtp--20 psp-20 pep-100"><InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" /></div>
+
+                                    </div>
+
+
+                                  </div>
+                            
+                            </div>
+                                  
+     
+
                         </div>
-                </div>
-                <div className="col-12  p-2 ">
-                        <div className="p-1   w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                            <div className="f-Ubuntu-L fsp-16   mep-10 text-start">La misión de nuestra brigada es:</div>
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
-                        </div>
-                </div>
-                <div className="col-12  p-2 ">
-                        <div className="p-1   w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                            <div className="f-Ubuntu-L fsp-16   mep-10 text-start">La brigada estará a cargo de:</div>
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
-                        </div>
-                </div>
-                <div className="col-6  p-2 ">
-                        <div className="p-1 h-100  w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                            <div className="f-Ubuntu-L fsp-16   mep-10 text-start">Yo tengo la responsabilidad de:</div>
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-195" />
-                        </div>
-                </div>
-                <div className="col-6  p-2 ">
-                        <div className="p-1 h-100  w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                            <div className="f-Ubuntu-L fsp-16   mep-10 text-start">Mis compañeros de equipo tienen la responsabilidad de:</div>
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
-                        </div>
+                    </div>
+                    
                 </div>
 
-                <div className="col-12  p-2 ">
-                        <div className="p-1   w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                            <div className="f-Ubuntu-L fsp-16   mep-10 text-start"> Lo que más me motiva de ser brigadista es:</div>
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
-                        </div>
-                </div>
-                <div className="col-12  p-2 ">
-                        <div className="p-1   w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                            <div className="f-Ubuntu-L fsp-16   mep-10 text-start">Lo que más me asusta de ser brigadista es: </div>
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
-                        </div>
-                </div>
             </div>
-          </div>        
+
+
+            <div className="position-absolute top-0 start-100 translate-middle   "><img className="hp-300" src="images/page_060/img_003.svg" alt="" />1
+                        
+                        {/* <div className="position-absolute top-50 start-0 translate-middle-y  wp-260 mtp-20 msp-15 mep-20">
+                            <div className="d-flex align-items-center  justify-content-between pbp-10 mt-3 w-100">
+                                <div className="f-pixilate-bold msp-10 fsp-20 lh-sm pep-5 text-start">Considero:</div>
+                                <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white"></div>
+                            </div>
+                            <div className="d-flex align-items-center pbp-10 w-100">
+                                <div className="d-inline hp-30 "><img src="images/page_050/img_003.svg" className="hp-20  " alt=""></img></div>
+                                <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Decoración.</div>
+                            </div>
+                            <div className="d-flex align-items-center pbp-10 w-100">
+                                <div className="d-inline hp-30 "><img src="images/page_050/img_003.svg" className="hp-20  " alt=""></img></div>
+                                <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Trabajos realizados a lo largo del proyecto.</div>
+                            </div>
+                            <div className="d-flex align-items-center pbp-10 w-100">
+                                <div className="d-inline hp-30 "><img src="images/page_050/img_003.svg" className="hp-20  " alt=""></img></div>
+                                <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Elementos que utilizaremos como soporte (mesas, sillas, toldo, etc.)</div>
+                            </div>
+                            <div className="d-flex align-items-center pbp-10 w-100">
+                                <div className="d-inline hp-30 "><img src="images/page_050/img_003.svg" className="hp-20  " alt=""></img></div>
+                                <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Otros: como sistema de audio, luces, telas, etc.</div>
+                            </div>
+    
+                        </div> */}
+                    </div>
 
 
 
-          <div className="ptp--10 mtp--50 psp-60 pep-60 mbp-0">
-             
-              <div className="d-flex">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_045/g_i.svg" alt="" /> */}
-                <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">2</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Recorto y armo mi credencial de brigadista.</div>
-                  {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> */}
-                    <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_059/img_005.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />  
-              </div>
-            </div>
 
+
+          
 
 
 

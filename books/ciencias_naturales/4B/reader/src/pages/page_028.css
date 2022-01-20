@@ -1,0 +1,57 @@
+.cuadro-selec {
+    background-color: #C3E3F5;
+    display: block;
+    width: 200px;
+    padding: .5rem;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right .45rem center;
+    background-size: 16px 12px;
+    border: 0px solid #ced4da;
+    border-radius: .3rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  .cb-paper {
+    position: relative;
+    width: calc(100% - 100px);
+    margin: 50px auto 46px;
+  }
+  
+  .cb-paper-content {
+    position: relative;
+    z-index: 3;
+    background: #fefcfb;
+    padding: 30px 40px;
+    font-size: 16px;
+  }
+  
+  .cb-paper-sign {
+      margin-top: 30px;
+      text-align: right;
+  }
+  
+  .cb-paper::before,
+  .cb-paper::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #f1eee0;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
+    left: 0;
+    top: 0;
+  }
+  
+  .cb-paper::before {
+    z-index: 2;
+    transform: rotate(-2deg);
+  }
+  
+  .cb-paper::after {
+    z-index: 1;
+    transform: rotate(2deg);
+  }

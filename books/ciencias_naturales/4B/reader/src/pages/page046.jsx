@@ -57,7 +57,7 @@ function Page046(props) {
               <div className="d-flex">
               <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_045/g_i.svg" alt="" />
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">5</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Como equipo, reflexionamos sobre l G I a emergencia y respondemos:</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Como equipo, reflexionamos sobre la emergencia y respondemos:</div>
               </div>
             </div>
 
