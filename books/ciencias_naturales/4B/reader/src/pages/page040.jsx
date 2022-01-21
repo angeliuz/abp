@@ -40,18 +40,18 @@ function Page040(props) {
 
           <div className="d-flex msp-80 mep-60 mbp-10">
             <div className="row w-100">
-              <table className=" mbp-20 border-style-solid border-2">
+              <table className=" mbp-20 border-style-solid border-1 border-color-sektor">
                 <tr>
-                  <th className="bgc-azuka border-style-solid border-1">Rol</th>
-                  <th className="bgc-azuka border-style-solid border-1">Función</th>
-                  <th className="bgc-azuka border-style-solid border-1"><img src="images/page_040/img_002.png" className="" alt="" /></th>
-                  <th className="bgc-azuka border-style-solid border-1"><img src="images/page_040/img_003.png" className="" alt="" /></th>
-                  <th className="bgc-azuka border-style-solid border-1"><img src="images/page_040/img_004.png" className="" alt="" /></th>
-                  <th className="bgc-azuka border-style-solid border-1"><img src="images/page_040/img_005.png" className="" alt="" /></th>
+                  <th className="bgc-rex border-style-solid border-1 f-pixilate-bold fsp-16">Rol</th>
+                  <th className="bgc-rex border-style-solid border-1 f-pixilate-bold fsp-16">Función</th>
+                  <th className="bgc-rex border-style-solid border-1"><img src="images/page_040/img_002.png" className="" alt="" /></th>
+                  <th className="bgc-rex border-style-solid border-1"><img src="images/page_040/img_003.png" className="" alt="" /></th>
+                  <th className="bgc-rex border-style-solid border-1"><img src="images/page_040/img_004.png" className="" alt="" /></th>
+                  <th className="bgc-rex border-style-solid border-1"><img src="images/page_040/img_005.png" className="" alt="" /></th>
                 </tr>
                 <tr>
-                  <td className="bgc-azuka border-style-solid border-1" rowspan="2">Coordinación</td>
-                  <td className=" border-style-solid border-1">
+                  <td className="bgc-naraku border-style-solid border-1 f-Ubuntu-L fsp-16" rowspan="2">Coordinación</td>
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16">
                     ¿Repartió el turno de
                     <br /> palabra?
                   </td>
@@ -73,7 +73,7 @@ function Page040(props) {
                   /></td>
                 </tr>
                 <tr>
-                  <td className=" border-style-solid border-1">
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16">
                     ¿Se aseguró de que todos
                     <br /> los miembros del equipo
                     <br />
@@ -100,8 +100,8 @@ function Page040(props) {
 
               <table className=" mbp-20" border="1">
                 <tr>
-                  <td className=" border-style-solid border-1" rowspan="2">Supervisión</td>
-                  <td className=" border-style-solid border-1">
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 bgc-bach" rowspan="2">Supervisión</td>
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16">
                     ¿Gestionó el tiempo
                     <br /> dedicado a las tareas?
                   </td>{" "}
@@ -123,7 +123,7 @@ function Page040(props) {
                   /></td>
                 </tr>
                 <tr>
-                  <td className=" border-style-solid border-1">
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16">
                     ¿Comprobó que cada
                     <br /> miembro del equipo haya
                     <br /> hecho su tarea dentro del
@@ -150,11 +150,11 @@ function Page040(props) {
 
               <table className=" mbp-20" border="1">
                 <tr>
-                  <td className=" border-style-solid border-1" rowspan="2">
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 bgc-genos" rowspan="2">
                     Relaciones <br />
                     pùblicas
                   </td>
-                  <td className=" border-style-solid border-1">
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16">
                     ¿Se comunicó con el profesor
                     <br /> para solicitar ayuda y<br />
                     resolver dudas?
@@ -177,7 +177,7 @@ function Page040(props) {
                   /></td>
                 </tr>
                 <tr>
-                  <td className=" border-style-solid border-1">¿Pidió ayuda a otros equipos?</td> 
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16">¿Pidió ayuda a otros equipos?</td> 
                   <td className=" border-style-solid border-1"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
@@ -199,8 +199,8 @@ function Page040(props) {
 
               <table border="1">
                 <tr>
-                  <td className=" border-style-solid border-1" rowspan="2">Intendencia</td>
-                  <td className=" border-style-solid border-1">
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 bgc-jarek" rowspan="2">Intendencia</td>
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16">
                     ¿Gestionó los materiales que
                     <br /> el equipo necesitaba para
                     <br />
@@ -224,13 +224,13 @@ function Page040(props) {
                   /></td>
                 </tr>
                 <tr>
-                  <td>
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16" >
                     ¿Comprobó que el equipo
                     <br />
                     mantuviera un espacio de
                     <br />
                     trabajo limpio y ordenado?
-                  </td>{" "}
+                  </td>
                   <td className=" border-style-solid border-1"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
