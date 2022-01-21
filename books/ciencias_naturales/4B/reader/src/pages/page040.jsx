@@ -42,8 +42,8 @@ function Page040(props) {
             <div className="row w-100">
               <table className=" mbp-20 border-style-solid border-1 border-color-sektor">
                 <tr>
-                  <th className="bgc-rex border-style-solid border-1 f-pixilate-bold fsp-16">Rol</th>
-                  <th className="bgc-rex border-style-solid border-1 f-pixilate-bold fsp-16">Función</th>
+                  <th className="bgc-rex border-style-solid border-1 f-pixilate-bold fsp-18">Rol</th>
+                  <th className="bgc-rex border-style-solid border-1 f-pixilate-bold fsp-18">Función</th>
                   <th className="bgc-rex border-style-solid border-1"><img src="images/page_040/img_002.png" className="" alt="" /></th>
                   <th className="bgc-rex border-style-solid border-1"><img src="images/page_040/img_003.png" className="" alt="" /></th>
                   <th className="bgc-rex border-style-solid border-1"><img src="images/page_040/img_004.png" className="" alt="" /></th>
