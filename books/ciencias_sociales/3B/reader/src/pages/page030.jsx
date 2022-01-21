@@ -74,7 +74,7 @@ function Page030(props) {
 
           <div className="row psp-20 pep-70 pbp-60">
             <div className="col-12 position-relative">
-            <div className="position-absolute top-0 end-0 mep--50 mtp-30 ">
+            <div className="position-absolute top-50 start-100 translate-middle msp--30 ">
                   <img
                     src="images/page_030/img_005.png"
                     className=" "
