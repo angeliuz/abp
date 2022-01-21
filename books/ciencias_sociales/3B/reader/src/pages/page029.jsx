@@ -45,10 +45,7 @@ function Page029(props) {
 
                         <div className="col-md-12 col-lg-12 position-relative">
                            
-                           
-                           
-                           
-
+                        <div className="position-absolute top-50 start-0 translate-middle msp-5 "><img src="images/page_029/img_005.png" className="wp-45" alt="" /></div>
                            <div className="position-absolute top-0 start-100 msp--70 mtp--15 visible-768"><img src="images/page_029/img_004.png" className=" " alt="" /></div> 
 
                             <div className="d-flex flex-column mbp-20 mtp-20 p-2 w-100 border-style-solid border-2 border-color-dark bgc-white">
