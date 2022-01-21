@@ -172,7 +172,7 @@ function Page023(props) {
           <div className="row container-row m-0 psp-60 pep-60">
           <div className="col-sm-12 col-md-4 position-relative">
               <div className="d-flex margen-21 mbp-60 mtp-10 w-100 ">
-                <div className="p-2  w-100 borde-23-1  rounded-tbe-20 ">
+                <div className="p-2  w-100 border-style-solid border-4 border-color-raiden rounded-tbe-20 ">
                   <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-start">
                     Durante la investigación queremos profundizar sobre…
                   </div>
