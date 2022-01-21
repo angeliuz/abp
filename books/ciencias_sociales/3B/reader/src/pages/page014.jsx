@@ -27,10 +27,12 @@ function Page014(props) {
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-left">
                 Leo la noticia de la revista y completo el crucigrama.
               </div>
-              <img
-                src="/images/page_014/img_001.png"
-                className="hp-40 mtp-10 msp-15"
-                alt=""
+
+              <ModalBook
+                id={"p" + pagina + "_book" + (indexInput += 1)}
+                image="images/page_014/img_001.png"
+                clasesImagen="hp-40 text-center mtp-15 msp-10"
+                className="p-0 px-0"
               />
             </div>
             <div className="d-flex pbp-20">
