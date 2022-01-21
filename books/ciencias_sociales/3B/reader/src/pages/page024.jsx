@@ -17,81 +17,77 @@ function Page024(props) {
         >
           <div className="cabecera-v1 hp-80 bgc-android18"></div>
 
-<div className="d-flex psp-60 pep-60">
-          <div className="row w-100 p-0 m-0">
-            <div className="col-md-4 col-12 p-0">
-              <div className="ptp-10 mbp-0">
-                <div className="d-flex w-100">
-                  <img
-                    className="hp-20 align-center mt-3 me-2 mb-2"
-                    src="images/page_024/img_001.svg"
-                    alt=""
-                  />
-                  <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">
-                    4
+          <div className="d-flex psp-60 pep-60">
+            <div className="row w-100 p-0 m-0">
+              <div className="col-md-4 col-12 p-0 position-relative">
+                <div className="ptp-10 mbp-0">
+                  <div className="d-flex w-100">
+                    <img
+                      className="hp-20 align-center mt-3 me-2 mb-2"
+                      src="images/page_024/img_001.svg"
+                      alt=""
+                    />
+                    <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">
+                      4
+                    </div>
+                    <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                      Construimos un afiche de la institución investigada
+                      considerando:
+                    </div>
                   </div>
-                  <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                    Construimos un afiche de la institución investigada
-                    considerando:
-                  </div>
-                </div>
-              
-                <div className="w-100 rounded-p-10 border-style-solid border-2 border-color-dark bgc-azuka text-start psp-10 pep-10 ptp-10 pbp-10 mtp-20 mbp-20" >
-                  <div className="f-Ubuntu-L fsp-15 ">
-                    <ul>
-                      <li className="color-android18">
-                        <span className="color-dark">
-                          Nombre de la institución.
-                        </span>
-                      </li>
-                      <li className="color-android18">
-                        <span className="color-dark">
-                          Logo de la institución (si corresponde).
-                        </span>
-                      </li>
-                      <li className="color-android18">
-                        <span className="color-dark">
-                          Misión u objetivos de la institución.
-                        </span>
-                      </li>
-                      <li className="color-android18">
-                        <span className="color-dark">
-                          Algunas labores que cumple.
-                        </span>
-                      </li>
-                      <li className="color-android18">
-                        <span className="color-dark">
-                          Otra información que consideren relevante.
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
 
-                
+                  <div className="w-100 rounded-p-10 border-style-solid border-2 border-color-dark bgc-azuka text-start psp-10 pep-10 ptp-10 pbp-10 mtp-20 mbp-20">
+                    <div className="f-Ubuntu-L fsp-15 ">
+                      <ul>
+                        <li className="color-android18">
+                          <span className="color-dark">
+                            Nombre de la institución.
+                          </span>
+                        </li>
+                        <li className="color-android18">
+                          <span className="color-dark">
+                            Logo de la institución (si corresponde).
+                          </span>
+                        </li>
+                        <li className="color-android18">
+                          <span className="color-dark">
+                            Misión u objetivos de la institución.
+                          </span>
+                        </li>
+                        <li className="color-android18">
+                          <span className="color-dark">
+                            Algunas labores que cumple.
+                          </span>
+                        </li>
+                        <li className="color-android18">
+                          <span className="color-dark">
+                            Otra información que consideren relevante.
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div className="col-md-8 position-relative">
-              
-              <div className="position-absolute pin-24">
-                <img src="images/page_024/img_001.png" className=" " alt="" />
-              </div>
-              <div class="  w-90  p-3 text-left  border-style-solid  border-1 mep-20 msp-20 mtp-10 bgc-white">
-              <div className="pt-0 flex-grow-1">
-                <InputBox
-                  id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-500"
-                />
-              </div>
+              <div className="col-md-8 position-relative">
+                <div className="position-absolute top-0 start-100 translate-middle msp--60 mtp-20">
+                  <img src="images/page_024/img_001.png" className=" " alt="" />
+                </div>
+                <div class="  w-90  p-3 text-left  border-style-solid  border-1 mep-20 msp-20 mtp-10 bgc-white">
+                  <div className="pt-0 flex-grow-1">
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-500"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-
-      </div>
           <div className="bgc-azuka border-top-style-solid border-color-android18 border-2 pbp-140 psp-60 pep-60 position-relative">
             <img
               src="images/page_024/img_004.png"
-              className="dibujo-24"
+              className="position-absolute top-0 start-0 translate-middle msp-200 mtp--60 visible-768"
               alt=""
             />
             <div className="block-bottom text-start mtp-30 f-pixilate-bold">
