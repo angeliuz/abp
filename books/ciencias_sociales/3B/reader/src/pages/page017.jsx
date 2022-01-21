@@ -41,91 +41,126 @@ function Page017(props) {
               </div>
               <div className="psp-80 pep-60 ptp-10">
                 <div className="f-Ubuntu-B color-bulma fsp-18 psp-80 text-left">
-                Plan de trabajo
+                  Plan de trabajo
                 </div>
-                  <div className="psp-20">
-                    <div className="d-flex">
-                      <img
-                        src="/images/page_017/img_003.png"
-                        className="pep-10 msp--40 hp-80 mtp--20"
-                        alt=""
-                      />
-                      <div className="f-Ubuntu-R fsp-16 ptp-18 text-left mtp--10">
+                <div className="psp-20">
+                  <div className="d-flex">
+                    <img
+                      src="/images/page_017/img_003.png"
+                      className="pep-10 msp--40 hp-80 mtp--20"
+                      alt=""
+                    />
+                    <div className="f-Ubuntu-R fsp-16 ptp-18 text-left mtp--10">
                       Organizamos los pasos de nuestro proyecto.
-                      </div>
-                      <div className="d-flex">
-                      <img
-                        src="/images/page_017/img_004.png"
-                        className="pep-10 psp-20 mtp--20 hp-60"
-                        alt=""
+                    </div>
+                    <div className="d-flex">
+                      <ModalBook
+                        id={"p" + pagina + "_book" + (indexInput += 1)}
+                        image="images/page_017/img_004.png"
+                        clasesImagen="hp-60 text-center mtp--20 msp-10"
+                        className="p-0 px-0"
                       />
                     </div>
                   </div>
                 </div>
                 <div className="row">
- 
                   <div className="col-md-6 col-12 pbp-20">
                     <div className="bgc-white mxwp-300 hp-200 centrar border-caja position-relative">
-                      <img src="images/page_017/img_007.png" className="position-absolute top-50 start-50 translate-middle" alt="" />
+                      <img
+                        src="images/page_017/img_007.png"
+                        className="position-absolute top-50 start-50 translate-middle"
+                        alt=""
+                      />
                       <InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 lhp-35 min-hp-180"
-                  />
+                        id={"p" + pagina + "_input" + (indexInput += 1)}
+                        className="p-0 px-1 flex-grow-1 lhp-35 min-hp-180"
+                      />
                     </div>
                   </div>
                   <div className="col-md-6 col-12 pbp-20">
                     <div className="bgc-white mxwp-300 hp-200 centrar border-caja position-relative">
-                      <img src="images/page_017/img_008.png" className="position-absolute top-50 start-50 translate-middle" alt="" />
+                      <img
+                        src="images/page_017/img_008.png"
+                        className="position-absolute top-50 start-50 translate-middle"
+                        alt=""
+                      />
                       <InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 lhp-35 min-hp-180"
-                  />
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-md-6 col-12 pbp-20">
-                    <div className="bgc-white mxwp-300 hp-200 centrar border-caja position-relative">
-                      <img src="images/page_017/img_009.png" className="position-absolute top-50 start-50 translate-middle" alt="" />
-                      <InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 lhp-35 min-hp-180"
-                  />
-                    </div>
-                  </div>
-                  <div className="col-md-6 col-12 pbp-20">
-                    <div className="bgc-white mxwp-300 hp-200 centrar border-caja position-relative">
-                      <img src="images/page_017/img_010.png" className="position-absolute top-50 start-50 translate-middle" alt="" />
-                      <InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 lhp-35 min-hp-180"
-                  />
+                        id={"p" + pagina + "_input" + (indexInput += 1)}
+                        className="p-0 px-1 flex-grow-1 lhp-35 min-hp-180"
+                      />
                     </div>
                   </div>
                 </div>
                 <div className="row">
                   <div className="col-md-6 col-12 pbp-20">
                     <div className="bgc-white mxwp-300 hp-200 centrar border-caja position-relative">
-                      <img src="images/page_017/img_011.png" className="position-absolute top-50 start-50 translate-middle" alt="" />
+                      <img
+                        src="images/page_017/img_009.png"
+                        className="position-absolute top-50 start-50 translate-middle"
+                        alt=""
+                      />
                       <InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 lhp-35 min-hp-180"
-                  />
+                        id={"p" + pagina + "_input" + (indexInput += 1)}
+                        className="p-0 px-1 flex-grow-1 lhp-35 min-hp-180"
+                      />
                     </div>
                   </div>
                   <div className="col-md-6 col-12 pbp-20">
                     <div className="bgc-white mxwp-300 hp-200 centrar border-caja position-relative">
-                      <img src="images/page_017/img_012.png" className="position-absolute top-50 start-50 translate-middle" alt="" />
+                      <img
+                        src="images/page_017/img_010.png"
+                        className="position-absolute top-50 start-50 translate-middle"
+                        alt=""
+                      />
                       <InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 lhp-35 min-hp-180"
-                  />
+                        id={"p" + pagina + "_input" + (indexInput += 1)}
+                        className="p-0 px-1 flex-grow-1 lhp-35 min-hp-180"
+                      />
                     </div>
                   </div>
                 </div>
-                <div className="f-Ubuntu-R text-left">Elaboramos nuestro <b>cronograma</b> del proyecto con el material que nos entregarán.</div>
-                <img src="images/page_017/img_005.png" class="hp-70 position-absolute top-50 start-50 msp-340 mtp--40" alt="" />
-              <img src="images/page_017/img_006.png" class="hp-65 position-absolute top-50 start-0 msp-20 mtp-180" alt="" />
+                <div className="row">
+                  <div className="col-md-6 col-12 pbp-20">
+                    <div className="bgc-white mxwp-300 hp-200 centrar border-caja position-relative">
+                      <img
+                        src="images/page_017/img_011.png"
+                        className="position-absolute top-50 start-50 translate-middle"
+                        alt=""
+                      />
+                      <InputBox
+                        id={"p" + pagina + "_input" + (indexInput += 1)}
+                        className="p-0 px-1 flex-grow-1 lhp-35 min-hp-180"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-md-6 col-12 pbp-20">
+                    <div className="bgc-white mxwp-300 hp-200 centrar border-caja position-relative">
+                      <img
+                        src="images/page_017/img_012.png"
+                        className="position-absolute top-50 start-50 translate-middle"
+                        alt=""
+                      />
+                      <InputBox
+                        id={"p" + pagina + "_input" + (indexInput += 1)}
+                        className="p-0 px-1 flex-grow-1 lhp-35 min-hp-180"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="f-Ubuntu-R text-left">
+                  Elaboramos nuestro <b>cronograma</b> del proyecto con el
+                  material que nos entregarán.
+                </div>
+                <img
+                  src="images/page_017/img_005.png"
+                  class="hp-70 position-absolute top-50 start-50 msp-340 mtp--40"
+                  alt=""
+                />
+                <img
+                  src="images/page_017/img_006.png"
+                  class="hp-65 position-absolute top-50 start-0 msp-20 mtp-180"
+                  alt=""
+                />
               </div>
             </div>
           </div>
