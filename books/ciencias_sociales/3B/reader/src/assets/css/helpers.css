@@ -4429,6 +4429,9 @@
 .rounded-be-10 {
   border-bottom-right-radius: 10px;
 }
+.rounded-be-20 {
+  border-bottom-right-radius: 20px;
+}
 /*redondeado right-top*/
 .rounded-ts-10 {
   border-top-left-radius: 10px;
