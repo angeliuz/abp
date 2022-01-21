@@ -20,16 +20,12 @@ function Page021(props) {
           className="page bgc-white overflow-hidden position-relative"
           id={"page_" + pagina}
         >
-          <div className="cabecera-21 bgc-android18 d-flex flex-column">
-            <div className="d-flex contenedor-cabecera-v2 align-items-center ptp-40 psp-30 pep-30">
-            <div className={"caja wp-150 text-center fsp-24 f-IntroRustG-Base "+colorSesion}>
-                SESIÓN 4
-              </div>
-              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">
-                ¡A investigar!
-              </div>
-            </div>
-          </div>
+          <div className="cabecera-v2 bgc-android18 d-flex flex-column">
+                  <div className="d-flex contenedor-cabecera-v2 align-items-center ptp-40 psp-30 pep-30">
+                    <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-balrog fsp-24 f-IntroRustG-Base">SESIÓN 4</div>
+                    <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡A investigar!</div>
+                  </div>
+                </div> 
           {/* END CABECERA VERSIÓN 2 */}
 
           <div className="justify-content-center max-img ">
@@ -73,7 +69,7 @@ function Page021(props) {
                 alt=""
               />
               <div className=" margen-21 mtp-30 mbp-80 w-100">
-                <div className=" w-100  borde-21-1 p-2 rounded-p-20 min-hp-400">
+                <div className=" w-100   border-style-solid border-4 border-color-gohan  p-2 rounded-p-20 min-hp-400">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-390"
@@ -89,7 +85,7 @@ function Page021(props) {
                 alt=""
               />
               <div className=" margen-21 mtp-30 mbp-80 w-100">
-                <div className="w-100  borde-21-2 p-2 rounded-p-20 min-hp-400">
+                <div className="w-100  border-style-solid border-4 border-color-akuma  p-2 rounded-p-20 min-hp-400">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-390"
@@ -105,7 +101,7 @@ function Page021(props) {
                 alt=""
               />
               <div className=" mtp-30 mbp-80 w-100">
-                <div className="w-100  borde-21-3 p-2 rounded-p-20 min-hp-400">
+                <div className="w-100  border-style-solid border-4 border-color-beethoven p-2 rounded-p-20 min-hp-400">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-390"

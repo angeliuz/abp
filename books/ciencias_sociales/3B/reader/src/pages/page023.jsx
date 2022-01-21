@@ -15,16 +15,12 @@ function Page023(props) {
           className="page bgc-white overflow-hidden position-relative"
           id={"page_" + pagina}
         >
-          <div className="cabecera-23 bgc-android18 d-flex flex-column">
-            <div className="d-flex contenedor-cabecera-v2 align-items-center ptp-40 psp-30 pep-30">
-              <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-balrog fsp-24 f-IntroRustG-Base">
-                SESIÓN 5
-              </div>
-              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">
-                Navegando por la web
-              </div>
-            </div>
-          </div>
+          <div className="cabecera-v2 bgc-android18 d-flex flex-column">
+                  <div className="d-flex contenedor-cabecera-v2 align-items-center ptp-40 psp-30 pep-30">
+                    <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-balrog fsp-24 f-IntroRustG-Base">SESIÓN 5</div>
+                    <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Navegando por la web</div>
+                  </div>
+                </div> 
           {/* END CABECERA VERSIÓN 2 */}
 
           <div className="ptp-30 psp-60 ">

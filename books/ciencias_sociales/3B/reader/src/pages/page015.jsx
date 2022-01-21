@@ -1,5 +1,6 @@
 import React from "react";
 import InputBox from "../components/InputBox";
+import ModalVideo from "../components/ModalVideo";
 
 import "./page_015.css";
 
@@ -48,26 +49,45 @@ function Page015(props) {
                 Vemos el video y rotulamos los siguientes momentos según
                 corresponda.
               </div>
-              <img
-                src="/images/page_015/img_003.png"
-                className="hp-45 mtp-10 msp-10"
-                alt=""
+              <ModalVideo
+                id={"p" + pagina + "_video" + (indexInput += 1)}
+                image="images/page_015/img_003.jpg"
+                clasesImagen="cambio hp-40 mtp-10"
+                className="p-0 px-1"
               />
             </div>
             <div className="d-flex flex-wrap justify-content-between ptp-15 pbp-20">
-              <div className="p-2 centrar-todo"><div className="py-2 px-3 bgc-woody rounded-p-10">Experimentación</div></div>
-              <div className="p-2 centrar-todo"><div className="py-2 px-3 bgc-guile rounded-p-10">Difusión</div></div>
-              <div className="p-2 centrar-todo"><div className="py-2 px-3 bgc-gohan rounded-p-10">Investigación</div></div>
-              <div className="p-2 centrar-todo"><div className="py-2 px-3 bgc-quigon rounded-p-10">Creación</div></div>
-              <div className="p-2 centrar-todo"><div className="py-2 px-3 bgc-goro rounded-p-10">Planificación</div></div>
+              <div className="p-2 centrar-todo">
+                <div className="py-2 px-3 bgc-woody rounded-p-10">
+                  Experimentación
+                </div>
+              </div>
+              <div className="p-2 centrar-todo">
+                <div className="py-2 px-3 bgc-guile rounded-p-10">Difusión</div>
+              </div>
+              <div className="p-2 centrar-todo">
+                <div className="py-2 px-3 bgc-gohan rounded-p-10">
+                  Investigación
+                </div>
+              </div>
+              <div className="p-2 centrar-todo">
+                <div className="py-2 px-3 bgc-quigon rounded-p-10">
+                  Creación
+                </div>
+              </div>
+              <div className="p-2 centrar-todo">
+                <div className="py-2 px-3 bgc-goro rounded-p-10">
+                  Planificación
+                </div>
+              </div>
             </div>
             <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
               <div className="hp-80 mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
-              <img
-                src="/images/page_015/img_004.png"
-                className="position-absolute top-0 start-100 translate-middle msp--15 mtp-5 hp-40 "
-                alt=""
-              />
+                <img
+                  src="/images/page_015/img_004.png"
+                  className="position-absolute top-0 start-100 translate-middle msp--15 mtp-5 hp-40 "
+                  alt=""
+                />
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
                   className="p-0 px-1 text-center flex-grow-1 lhp-80 min-hp-80"
@@ -99,11 +119,11 @@ function Page015(props) {
 
             <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
               <div className="hp-80 mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
-              <img
-                src="/images/page_015/img_004.png"
-                className="position-absolute top-0 start-0 translate-middle msp-10 mtp-5 hp-40 "
-                alt=""
-              />
+                <img
+                  src="/images/page_015/img_004.png"
+                  className="position-absolute top-0 start-0 translate-middle msp-10 mtp-5 hp-40 "
+                  alt=""
+                />
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
                   className="p-0 px-1 text-center flex-grow-1 lhp-80 min-hp-80"
@@ -113,13 +133,15 @@ function Page015(props) {
                 <div className="text-left psp-10 pep-20">
                   <div className="dot mep-10 mtp-10"></div>
                   <div className="f-ubuntu-L py-1 mtp--26 msp-20">
-                  Empezaremos estudiando los Derechos de los niños, niñas y adolescentes.
+                    Empezaremos estudiando los Derechos de los niños, niñas y
+                    adolescentes.
                   </div>
                 </div>
                 <div className="text-left psp-10 pep-20">
                   <div className="dot mep-10 mtp-10"></div>
                   <div className="f-ubuntu-L py-1 mtp--26 msp-20">
-                  Comprenderemos la importancia de respetar estos derechos y su relación con la diversidad.
+                    Comprenderemos la importancia de respetar estos derechos y
+                    su relación con la diversidad.
                   </div>
                 </div>
               </div>
@@ -129,11 +151,11 @@ function Page015(props) {
 
             <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
               <div className="hp-80 mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
-              <img
-                src="/images/page_015/img_004.png"
-                className="position-absolute top-0 start-100 translate-middle msp--15 mtp-5 hp-40 "
-                alt=""
-              />
+                <img
+                  src="/images/page_015/img_004.png"
+                  className="position-absolute top-0 start-100 translate-middle msp--15 mtp-5 hp-40 "
+                  alt=""
+                />
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
                   className="p-0 px-1 text-center flex-grow-1 lhp-80 min-hp-80"
@@ -143,13 +165,15 @@ function Page015(props) {
                 <div className="text-left psp-10 pep-20">
                   <div className="dot mep-10 mtp-10"></div>
                   <div className="f-ubuntu-L py-1 mtp--26 msp-20">
-                  Haremos algunas encuestas a nuestros compañeros y compañeras y elaboraremos un gráfico con los resultados.
+                    Haremos algunas encuestas a nuestros compañeros y compañeras
+                    y elaboraremos un gráfico con los resultados.
                   </div>
                 </div>
                 <div className="text-left psp-10 pep-20">
                   <div className="dot mep-10 mtp-10"></div>
                   <div className="f-ubuntu-L py-1 mtp--26 msp-20">
-                  A partir de los resultados, conoceremos la diversidad cultural que existe en nuestra comunidad escolar.
+                    A partir de los resultados, conoceremos la diversidad
+                    cultural que existe en nuestra comunidad escolar.
                   </div>
                 </div>
               </div>
@@ -159,11 +183,11 @@ function Page015(props) {
 
             <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
               <div className="hp-80 mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
-              <img
-                src="/images/page_015/img_004.png"
-                className="position-absolute top-0 start-0 translate-middle msp-10 mtp-5 hp-40 "
-                alt=""
-              />
+                <img
+                  src="/images/page_015/img_004.png"
+                  className="position-absolute top-0 start-0 translate-middle msp-10 mtp-5 hp-40 "
+                  alt=""
+                />
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
                   className="p-0 px-1 text-center flex-grow-1 lhp-80 min-hp-80"
@@ -173,13 +197,15 @@ function Page015(props) {
                 <div className="text-left psp-10 pep-20">
                   <div className="dot mep-10 mtp-10"></div>
                   <div className="f-ubuntu-L py-1 mtp--26 msp-20">
-                  Crearemos diversos productos culturales, artísticos y literarios que reflejen la diversidad de nuestra comunidad escolar.
+                    Crearemos diversos productos culturales, artísticos y
+                    literarios que reflejen la diversidad de nuestra comunidad
+                    escolar.
                   </div>
                 </div>
                 <div className="text-left psp-10 pep-20">
                   <div className="dot mep-10 mtp-10"></div>
                   <div className="f-ubuntu-L py-1 mtp--26 msp-20">
-                  Preparamos nuestra Fiesta de la Diversidad.
+                    Preparamos nuestra Fiesta de la Diversidad.
                   </div>
                 </div>
               </div>
@@ -189,11 +215,11 @@ function Page015(props) {
 
             <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
               <div className="hp-80 mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
-              <img
-                src="/images/page_015/img_004.png"
-                className="position-absolute top-0 start-100 translate-middle msp--15 mtp-5 hp-40 "
-                alt=""
-              />
+                <img
+                  src="/images/page_015/img_004.png"
+                  className="position-absolute top-0 start-100 translate-middle msp--15 mtp-5 hp-40 "
+                  alt=""
+                />
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
                   className="p-0 px-1 text-center flex-grow-1 lhp-80 min-hp-80"
@@ -203,12 +229,13 @@ function Page015(props) {
                 <div className="text-left psp-10 pep-20">
                   <div className="dot mep-10 mtp-10"></div>
                   <div className="f-ubuntu-L py-1 mtp--26 msp-20">
-                  Llevaremos a cabo nuestra Fiesta de la Diversidad y presentaremos todos nuestros productos culturales, artísticos y literarios a la comunidad escolar.
+                    Llevaremos a cabo nuestra Fiesta de la Diversidad y
+                    presentaremos todos nuestros productos culturales,
+                    artísticos y literarios a la comunidad escolar.
                   </div>
                 </div>
               </div>
             </div>
-            
           </div>
           <div className="ptp-20"></div>
           {/* PIE DE PAGINA */}

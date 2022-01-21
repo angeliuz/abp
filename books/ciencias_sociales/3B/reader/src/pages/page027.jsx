@@ -58,7 +58,7 @@ function Page027(props) {
                     <div className="position-absolute  zindex-1 msp-30"><img src="images/page_027/img_001.png" className="w-100 " alt=""/></div>
                     <div className="position-absolute top-50 start-100 translate-middle msp--100 mtp-250"><img src="images/page_027/img_004.png" className=" " alt=""/></div>
 
-                    <div className="mbp-20 mtp-30 msp-20 mep-20 mbp-80">
+                    <div className="mbp-20 mtp-60 msp-20 mep-20 mbp-80">
                         <div className=" bgc-azuka caja-dibujo-global p-2 rounded-p-20 border-style-solid border-2 border-color-android18">
                         <div className="pt-0 flex-grow-1">
                     <InputBox

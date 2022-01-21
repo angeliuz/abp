@@ -3,7 +3,7 @@
 }
 
 .cb-lineas {
-    background: url(images/page_012/fondo.svg)  top left/ cover no-repeat !important;
+    background: url(images/page_012/linea.svg)  top left/ cover no-repeat !important;
      -webkit-print-color-adjust: exact !important;
  }
 
@@ -63,7 +63,7 @@
 @media all and (max-width: 820px) {
 
     .cb-lineas {
-        background: url(images/page_012/fondo_movile.svg) top left/ cover no-repeat !important;
+        background: url(images/page_012/fondo_mobile.svg) top left/ cover no-repeat !important;
      }
 
      #page_012{
