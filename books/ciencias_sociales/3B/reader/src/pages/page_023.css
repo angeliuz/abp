@@ -1,15 +1,5 @@
-.cabecera-23 {
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%);
-  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
-  height: auto;
-  padding-bottom: 30px;
-}
 
-.container-row {
-  margin-left: 20px;
-  margin-right: 20px;
 
-}
 
 .bloque-respuesta-23 {
   box-shadow: 3px 3px 3px 0px rgb(0 0 0 / 20%);
@@ -50,54 +40,3 @@
   top:-117px;
 }
 
-@media (max-width: 767px) {
-  .margen-21 {
-      margin-bottom: 10px;
-  }
-}
-
-@media (max-width: 770px) {
-  .dibujo{
-    display: none;
-    
-  }
-  .clip{
-    display: none;
-  }
-  
-}
-
-@media (max-width: 608px) {
-  .cabecera-23 {
-    height: 150px;
-  }
-
-
-
-  .cambio-23 {
-    padding-top: 10px;
-  }
-}
-
-@media (max-width: 591px) {
-  .cabecera-23 {
-    height: 150px;
-  }
-}
-
-@media (max-width: 575px) {
-
-  .cabecera-23 {
-    height: 150px;
-  }
-
-
-
-
-}
-
-@media (max-width: 463px) {
-  .cabecera-21 {
-    height: 150px;
-  }
-}

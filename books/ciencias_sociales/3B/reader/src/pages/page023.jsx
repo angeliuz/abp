@@ -64,7 +64,7 @@ function Page023(props) {
                 alt=""
               />
             </div>
-            <div className="borde-23 p-3 hp-260 w-100 ">
+            <div className="border-style-solid border-2 p-3  w-100 bgc-beethoven">
               <div>
                 <img
                   src="images/page_023/img_004.png"
