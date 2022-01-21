@@ -4609,7 +4609,9 @@
 .min-hp-700 {
   min-height: 700px !important;
 }
-
+.min-hp-750 {
+  min-height: 750px !important;
+}
 .min-hp-800 {
   min-height: 800px !important;
 }

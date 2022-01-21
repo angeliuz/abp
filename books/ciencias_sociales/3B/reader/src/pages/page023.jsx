@@ -113,11 +113,12 @@ function Page023(props) {
                 <div className="bloque-respuesta-23 w-100 p-3 text-left bgc-draco rota">
                   <div className="d-flex align-items-center pbp-10">
                     <div className="pep-10">
-                      <img
-                        src="images/page_023/cuadro.svg"
-                        className="hp-30"
-                        alt=""
-                      />
+                    <div className="border-style-solid border-1 wp-30 hp-30 bgc-white">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
                     </div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">
                       Unesco es.unesco.org
@@ -125,11 +126,12 @@ function Page023(props) {
                   </div>
                   <div className="d-flex align-items-center pbp-10">
                     <div className="pep-10">
-                      <img
-                        src="images/page_023/cuadro.svg"
-                        className="hp-30"
-                        alt=""
-                      />
+                    <div className="border-style-solid border-1 wp-30 hp-30 bgc-white">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
                     </div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">
                       Unicef www.unicef.cl
@@ -137,11 +139,12 @@ function Page023(props) {
                   </div>
                   <div className="d-flex align-items-center pbp-10">
                     <div className="pep-10">
-                      <img
-                        src="images/page_023/cuadro.svg"
-                        className="hp-30"
-                        alt=""
-                      />
+                    <div className="border-style-solid border-1 wp-30 hp-30 bgc-white">
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
+                        />
+                      </div>
                     </div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">
                       Defensoría de la Niñez www.defensorianinez.cl
