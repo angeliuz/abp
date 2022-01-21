@@ -45,6 +45,11 @@ function Page060(props) {
                     <img src="images/page_060/img_005.svg" className="cb-personaje-p60" alt="" />
 
                 </div>
+                <div
+            className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }} >
+            <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
+              ABP &copy; SM </div> <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5"> {props.numeroPagina(pagina)}</div>
+          </div>
 
               </div>
           </div>
