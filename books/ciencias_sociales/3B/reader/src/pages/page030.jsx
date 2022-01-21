@@ -107,7 +107,7 @@ function Page030(props) {
                   <div className="d-flex flex-wrap w-100 align-items-end titulo-linea">
                     <div className="d-flex">
                       <div className="flecha-android18-30 pep-10 mtp-3"></div>
-                      <span className="w-24 f-Ubuntu-L">
+                      <span className="w-24 f-Ubuntu-L text-start">
                         Lo que mejor nos resultó del trabajo en equipo es…
                       </span>
                     </div>
