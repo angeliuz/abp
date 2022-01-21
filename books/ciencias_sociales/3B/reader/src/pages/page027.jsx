@@ -63,7 +63,7 @@ function Page027(props) {
                         <div className="pt-0 flex-grow-1">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-750"
+                      className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-770"
                     />
                   </div>
                         </div>
