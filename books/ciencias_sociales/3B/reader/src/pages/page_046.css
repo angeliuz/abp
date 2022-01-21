@@ -8,7 +8,18 @@
 .mtp--2 {
   margin-top: -10px;
 }
-
+.cb-border-multi{
+  border:2px transparent solid;
+  border-image:-webkit-linear-gradient(left,red,blue,yellow,orange) 1 10;
+  border-radius: 10px !important;
+}
+.flecha-saitama {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7px 0 7px 10px;
+  border-color: transparent transparent transparent var(--saitama);
+}
  
 .contenedor-creacion-46 {
   max-width: 700px;

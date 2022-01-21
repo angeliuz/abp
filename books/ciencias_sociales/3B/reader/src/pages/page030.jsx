@@ -18,7 +18,7 @@ function Page030(props) {
           <div className="d-flex msp-60 mep-60 ">
             <div className="row m-0 p-2 w-100 ">
               <div className="col-sm-12 col-md-6 col-lg-6 position-relative">
-                <div className="caja-30-1 mbp-20 mtp-100 p-2 w-100 border-style-solid border-4  bgc-white">
+                <div className="border-color-tanya mbp-20 mtp-100 p-2 w-100 border-style-solid border-4  bgc-white">
                   <div className="position-absolute top-0 start-50 translate-middle-x mtp-60">
                     <img
                       src="images/page_030/img_001.png"
@@ -45,7 +45,7 @@ function Page030(props) {
               </div>
 
               <div className="col-sm-12 col-md-6 col-lg-6 position-relative ">
-                <div className="caja-30-2  mbp-20 mtp-100 p-2 w-100 border-style-solid  bgc-white position-relative">
+                <div className="border-4 border-color-kagome  mbp-20 mtp-100 p-2 w-100 border-style-solid  bgc-white position-relative">
                   <div className="position-absolute top-0 end-0 mtp--30">
                     <img
                       src="images/page_030/img_001.png"
@@ -72,21 +72,22 @@ function Page030(props) {
             </div>
           </div>
 
-          <div className="row">
+          <div className="row psp-20 pep-70 pbp-60">
             <div className="col-12 position-relative">
-              <div className="  border-2 pbp-50 psp-60 pep-60 position-relative">
-                
-                <div className="block-bottom text-start mtp-30 f-pixilate-bold">
-                  ¿Cómo voy?
-                </div>
-                <div className=" block-bottom  pb-3 psp-15 ptp-10 pep-20 f-Ubuntu-L bgc-white fsp-13 rounded-p-10">
-                <div className="position-absolute top-0 end-0 mep-30 ">
+            <div className="position-absolute top-50 start-100 translate-middle msp--30 ">
                   <img
                     src="images/page_030/img_005.png"
                     className=" "
                     alt=""
                   />
                 </div>
+              <div className="  border-2 pbp-50 psp-60 pep-60 ">
+                
+                <div className="block-bottom text-start mtp-30 f-pixilate-bold">
+                  ¿Cómo voy?
+                </div>
+                <div className=" block-bottom  pb-3 psp-15 ptp-10 pep-20 f-Ubuntu-L bgc-white fsp-13 rounded-p-10">
+                
                   <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
                     <div className="d-flex">
                       <div className="flecha-android18-30 pep-10 mtp-3"></div>
@@ -106,7 +107,7 @@ function Page030(props) {
                   <div className="d-flex flex-wrap w-100 align-items-end titulo-linea">
                     <div className="d-flex">
                       <div className="flecha-android18-30 pep-10 mtp-3"></div>
-                      <span className="w-24 f-Ubuntu-L">
+                      <span className="w-24 f-Ubuntu-L text-start">
                         Lo que mejor nos resultó del trabajo en equipo es…
                       </span>
                     </div>

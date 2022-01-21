@@ -19,7 +19,6 @@ function Page052(props) {
 
                 <div className="w-100 hp-180  "><img src="images/page_052/img_001.png" className=" " alt=""/> </div>
 
-
                 <div className="d-flex psp-60 pep-60">
                     <div className="row w-100 p-0 m-0">
                         <div className="col-sm-12 col-md-6 d-flex center-center min-hp-15">
@@ -67,12 +66,12 @@ function Page052(props) {
                             </div> 
                             <div className="d-flex w-100 psp-20 pep-20 ptp-20 pbp-20">
                                     <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
-                                </div>
+                            </div>
                         </div>
 
-                        </div>
                     </div>
                 </div>
+            </div>
    
 
 
@@ -111,6 +110,7 @@ function Page052(props) {
             </div>
         </div>
     </div>
+
 
 
   );

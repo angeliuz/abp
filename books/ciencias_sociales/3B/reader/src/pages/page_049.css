@@ -27,7 +27,9 @@
 }
 
 
-
+.visible-991{
+  visibility: visible;
+}
  
 @media (max-width: 760px) {
  

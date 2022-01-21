@@ -85,14 +85,8 @@ function Page023(props) {
             </div>
           </div>
 
-          <div className="ptp-10 psp-60 pep-60 mbp-0 contenedor-pagina position-relative">
-            <div className="position-absolute top-0 end-0 zindex-2 clip">
-              <img
-                src="images/page_023/clip.png"
-                className="wp-30 mep-110 mtp-5"
-                alt=""
-              />
-            </div>
+          <div className="ptp-10 psp-60 pep-60 mbp-0 position-relative">
+            
             <div className="row">
               <div className="col-md-5 col-12 psp-20 pep-20 pbp-20">
                 <div className="d-flex">
@@ -105,7 +99,15 @@ function Page023(props) {
                 </div>
               </div>
 
-              <div className="col-md-7 position-relative pbp-20 ptp-15 rota-23">
+              <div className="col-md-7 position-relative pbp-20 ptp-15 ">
+
+              <div className="position-absolute top-0 end-0 zindex-2 mtp--10">
+              <img
+                src="images/page_023/clip.png"
+                className="wp-30 mep-110 mtp-5"
+                alt=""
+              />
+            </div>
                 <div className="box-shadow-simple w-100 p-3 text-left bgc-draco rota">
                   <div className="d-flex align-items-center pbp-10">
                     <div className="pep-10">
