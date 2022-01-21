@@ -109,7 +109,7 @@ function Page058(props) {
               <div className="psp-15 pep-20 f-Ubuntu-L bgc-white fsp-13 ">
                 <div className="d-flex justify-content-between ">
                   <div className="d-flex mnwp-400-r cb-contenedor-tabla-texto">
-                    <div className="flecha-saitama pep-10 mtp-8"></div>
+                    <div className="flecha-pikachu pep-10 mtp-8"></div>
                     <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
                       Estoy contento de haber trabajado en este proyecto.
                     </span>
@@ -154,7 +154,7 @@ function Page058(props) {
               <div className="psp-15 pep-20 f-Ubuntu-L bgc-white fsp-13">
                 <div className="d-flex justify-content-between ">
                   <div className="d-flex mnwp-400-r cb-contenedor-tabla-texto">
-                    <div className="flecha-saitama pep-10 mtp-8"></div>
+                    <div className="flecha-pikachu pep-10 mtp-8"></div>
                     <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
                       Confié en mi capacidad para aprender y me valoré.
                     </span>
