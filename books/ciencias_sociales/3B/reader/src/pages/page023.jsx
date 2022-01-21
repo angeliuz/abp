@@ -64,7 +64,7 @@ function Page023(props) {
                 alt=""
               />
             </div>
-            <div className="borde-23 p-3 hp-250 w-100 ">
+            <div className="borde-23 p-3 hp-260 w-100 ">
               <div>
                 <img
                   src="images/page_023/img_004.png"
@@ -78,7 +78,7 @@ function Page023(props) {
 
               <InputBox
                 id={"p" + pagina + "_input" + (indexInput += 1)}
-                className="p-4 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190"
+                className="p-4 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170"
               />
             </div>
           </div>
