@@ -6,12 +6,6 @@
   left: 10px;
 }
 
-@media (max-width: 768px) {
-
-  .margen-24 {
-    margin: auto;
-  }
-}
 
 .cajaafiche-24-1 {
   visibility: visible;

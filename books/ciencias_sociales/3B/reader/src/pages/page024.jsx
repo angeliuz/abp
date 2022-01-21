@@ -72,15 +72,23 @@ function Page024(props) {
               </div>
             </div>
             <div className="col-md-8 position-relative">
+              
               <div className="position-absolute pin-24">
                 <img src="images/page_024/img_001.png" className=" " alt="" />
               </div>
-              <div class=" margen-24 w-90 hp-500 p-3 text-left  border-style-solid  border-1 mep-20 msp-20 mtp-10 bgc-white"></div>
+              <div class="  w-90  p-3 text-left  border-style-solid  border-1 mep-20 msp-20 mtp-10 bgc-white">
+              <div className="pt-0 flex-grow-1">
+                <InputBox
+                  id={"p" + pagina + "_input" + (indexInput += 1)}
+                  className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-500"
+                />
+              </div>
+              </div>
             </div>
           </div>
 
       </div>
-          <div className="bgc-azuka border-top-style-solid border-color-android18 border-2 pbp-120 psp-60 pep-60 position-relative">
+          <div className="bgc-azuka border-top-style-solid border-color-android18 border-2 pbp-140 psp-60 pep-60 position-relative">
             <img
               src="images/page_024/img_004.png"
               className="dibujo-24"
@@ -150,7 +158,7 @@ function Page024(props) {
                   </div>
                   <div className="d-flex flex-row-reverse block-bottom ptp-5">
                     <div className="psp-30">
-                      <div className="cuadrado borde-cuadrado">
+                      <div className="border-style-solid border-1 wp-30 hp-30">
                         <InputBox
                           id={"p" + pagina + "_input" + (indexInput += 1)}
                           className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
@@ -158,7 +166,7 @@ function Page024(props) {
                       </div>
                     </div>
                     <div className="psp-40">
-                      <div className="cuadrado borde-cuadrado">
+                      <div className="border-style-solid border-1 wp-30 hp-30">
                         <InputBox
                           id={"p" + pagina + "_input" + (indexInput += 1)}
                           className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
@@ -166,7 +174,7 @@ function Page024(props) {
                       </div>
                     </div>
                     <div className="psp-40">
-                      <div className="cuadrado borde-cuadrado">
+                      <div className="border-style-solid border-1 wp-30 hp-30">
                         <InputBox
                           id={"p" + pagina + "_input" + (indexInput += 1)}
                           className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
@@ -174,7 +182,7 @@ function Page024(props) {
                       </div>
                     </div>
                     <div className="">
-                      <div className="cuadrado borde-cuadrado">
+                      <div className="border-style-solid border-1 wp-30 hp-30">
                         <InputBox
                           id={"p" + pagina + "_input" + (indexInput += 1)}
                           className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
@@ -195,7 +203,7 @@ function Page024(props) {
                   </div>
                   <div className="d-flex flex-row-reverse block-bottom ptp-5">
                     <div className="psp-30">
-                      <div className="cuadrado borde-cuadrado">
+                      <div className=" border-style-solid border-1 wp-30 hp-30">
                         <InputBox
                           id={"p" + pagina + "_input" + (indexInput += 1)}
                           className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
@@ -203,7 +211,7 @@ function Page024(props) {
                       </div>
                     </div>
                     <div className="psp-40">
-                      <div className="cuadrado borde-cuadrado">
+                      <div className="border-style-solid border-1 wp-30 hp-30">
                         <InputBox
                           id={"p" + pagina + "_input" + (indexInput += 1)}
                           className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
@@ -211,7 +219,7 @@ function Page024(props) {
                       </div>
                     </div>
                     <div className="psp-40">
-                      <div className="cuadrado borde-cuadrado">
+                      <div className="border-style-solid border-1 wp-30 hp-30">
                         <InputBox
                           id={"p" + pagina + "_input" + (indexInput += 1)}
                           className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
@@ -219,7 +227,7 @@ function Page024(props) {
                       </div>
                     </div>
                     <div className="">
-                      <div className="cuadrado borde-cuadrado">
+                      <div className="border-style-solid border-1 wp-30 hp-30">
                         <InputBox
                           id={"p" + pagina + "_input" + (indexInput += 1)}
                           className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
