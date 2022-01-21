@@ -47,22 +47,55 @@ function Page033(props) {
             </div>
           </div>
           <div className="psp-60 pep-60 ptp-30">
-            <div className=" hp-380 bgc-red">
-              <div className="f-Ubuntu-B fsp-51 ptp-100 color-white">¡Pendiente!</div>
+            <div className="position-relative">
+              <div className="py-1 bgc-android18 rounded-p-20 msp-30 mtp--10 mxwp-140 centrar-hor invisible-768">Plan de seguridad</div>
+              <div className="circulo border-style-solid border-color-android18 border-2 ajuste-circulo-1">
+                <div className="position-absolute">
+                  <div className="psp-30-r mtp-60 d-flex flex-column">
+                  <div className="py-1 bgc-android18 rounded-p-20 msp-30 mtp--10 mxwp-140 visible-768">Plan de seguridad</div>
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 flex-grow-1 lhp-25 min-hp-260-r mnxwp-180-r"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="position-absolute top-0 start-50 zi1">
+                <div className="msp--80-r mtp-80-r">
+                  <InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 flex-grow-1 lhp-25 min-hp-220-r mnxwp-160-r"
+                  />
+                </div>
+              </div>
+              <div className="circulo border-style-solid border-color-android18 border-2 ajuste-circulo-2">
+                <div className="position-absolute">
+                  <div className="psp-170-r mtp-60-r">
+                  <div className="py-1 bgc-android18 rounded-p-20 mtp--10 mxwp-140 visible-768">Revista</div>
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 flex-grow-1 lhp-25 min-hp-260-r mnxwp-180-r"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="py-1 bgc-android18 rounded-p-20 msp-30 mtp--10 mxwp-140 centrar-hor invisible-768">Revista</div>
             </div>
             <div className="ptp-30"></div>
             <div className="bgc-sid px-2 ptp-10 pbp-50 rounded-set-20">
               <div className="bgc-white border-style-solid border-1 border-color-rex p-3 rounded-p-20">
-                <div className="text-start">Concluimos que la brigada podría:</div>
-              <InputBox
-                id={"p" + pagina + "_input" + (indexInput += 1)}
-                className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-240"
-              />
+                <div className="text-start">
+                  Concluimos que la brigada podría:
+                </div>
+                <InputBox
+                  id={"p" + pagina + "_input" + (indexInput += 1)}
+                  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-240"
+                />
               </div>
             </div>
           </div>
-                    {/* PIE DE PAGINA */}
-                    <div
+          {/* PIE DE PAGINA */}
+          <div
             className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2"
             style={{ bottom: 70, right: 0 }}
           >
@@ -126,7 +159,6 @@ function Page033(props) {
               <div className="w-100 hp-15 bgc-leono rounded-caja-end"></div>
               <div className="w-100 hp-25 bgc-pikachu"></div>
             </div>
-
           </div>
           {/*FIN PIE DE PAGINA */}
         </div>

@@ -178,7 +178,7 @@ body {
       visibility: hidden;
     }
     .invisible-768{
-      visibility: hidden;
+      visibility: visible;
     }
     .rotacion-768-90{
       transform: rotate(90deg);

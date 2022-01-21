@@ -35,63 +35,73 @@ function Page019(props) {
                                 <div className="position-relative ptp-10 pbp-25 w-100">
                                     <div className="row psp-20 pep-20">
                                         
-                                        <div className="col-md-6 col-sm-6 ptp-20 btp-10 ra-ps position-relative">
+                                        <div className="col-md-6 col-sm-6 ptp-20 btp-10 ra-ps position-relative pbp-20">
                                             
                                             <div className="position-absolute top-100 start-0 translate-middle mtp--20 msp-0 zindex-1"><img src="images/page_019/img_005.png" className="wp-80" alt="" /></div>
-                                            <div className="block-bottom-19 bloque-19 h-100  p-2 bgc-vegeta rounded-p-10 ps-4 pe-4">
-                                                <div className="caja-respuesta-19 bgc-white border-style-solid border-1 rounded-2 border-color-lightDark f-Ubuntu-B">
+                                            
+                                            <div className="position-absolute top-0 start-50 translate-middle mtp-20 msp--10 zindex-1 bgc-white wp-35 hp-35 border-style-solid border-1 border-color-dark">
                                                 <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-center lhp-35 w-100" />
-                                                </div>
-                                                <div className="ptp-20 pbp-30 style-puzzle">Publicamos nuestra revista.</div>
+                                            </div>
+                                            <div className="d-flex center-center h-100 w-90 p-2 bgc-vegeta rounded-p-10 position-relative">
+                                                <div className="position-absolute top-50 start-100 translate-middle mtp-0 msp--10 bgc-white wp-50 hp-35 zindex-1 rounded-tbs-20 "></div>
+                                                <div className="min-hp-100 d-flex center-center w-70 f-Ubuntu-R fsp-14 ptp-10 pbp-10">Publicamos nuestra revista.</div>
                                             </div>
                                         </div>
 
-                                        <div className="col-md-6 col-sm-6 ptp-20 btp-10 ra-pe position-relative">
+                                        <div className="col-md-6 col-sm-6 ptp-20 btp-10 ra-pe position-relative d-flex justify-content-end pbp-20">
                                             <div className="position-absolute top-100 start-100 translate-middle mtp--20 msp-0 zindex-1"><img src="images/page_019/img_006.png" className="wp-60" alt="" /></div>
                                             <div className="position-absolute top-0 start-100 translate-middle mtp--10 msp--30 zindex-1"><img src="images/page_019/img_004.png" className="wp-150" alt="" /></div>
-                                            <div className="block-bottom-19 bloque-19 h-100  p-2 bgc-freezer rounded-p-10 ps-4 pe-4">
-                                                <div className="caja-respuesta-19 bgc-white border-style-solid border-1 rounded-2 border-color-lightDark f-Ubuntu-B">
-                                                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-center lhp-35 w-100" />
-                                                </div>
-                                                <div className="ptp-15 pbp-10 style-puzzle">Recopilamos información para la revista.</div>
+                                            
+                                            <div className="position-absolute top-0 start-50 translate-middle mtp-20 msp-10 zindex-1 bgc-white wp-35 hp-35 border-style-solid border-1 border-color-dark">
+                                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-center lhp-35 w-100" />
+                                            </div>
+                                            <div className="d-flex center-center h-100 w-90 p-2 bgc-freezer rounded-p-10 position-relative">
+                                                <div className="position-absolute top-50 start-0 translate-middle mtp-0 msp--10 bgc-freezer wp-40 hp-35 zindex-1 rounded-tbs-20 "></div>
+                                                <div className="min-hp-100 d-flex center-center f-Ubuntu-R  fsp-14 ptp-10 pbp-10">Recopilamos información para la revista.</div>
                                             </div>
                                         </div>
 
-                                        <div className="col-md-6 col-sm-6 ptp-20 tp-10 ra-ps">
-                                            <div className="block-bottom-19 bloque-19 h-100  p-2 bgc-milk rounded-p-10 ps-4 pe-4">
-                                                <div className="caja-respuesta-19 bgc-white border-style-solid border-1 rounded-2 border-color-lightDark f-Ubuntu-B">
-                                                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-center lhp-35 w-100" />
-                                                </div>
-                                                <div className="ptp-20 pbp-25 style-puzzle">Celebramos nuestro éxito.</div>
+                                        <div className="col-md-6 col-sm-6 ptp-20 tp-10 ra-ps position-relative pbp-20">
+                                            
+                                            <div className="position-absolute top-0 start-50 translate-middle mtp-20 msp--10 zindex-1 bgc-white wp-35 hp-35 border-style-solid border-1 border-color-dark">
+                                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-center lhp-35 w-100" />
+                                            </div>
+                                            <div className="d-flex center-center h-100 w-90 p-2 bgc-milk rounded-p-10 position-relative">
+                                                <div className="position-absolute top-50 start-100 translate-middle mtp-0 msp--10 bgc-white wp-50 hp-35 zindex-1 rounded-tbs-20 "></div>
+                                                <div className="min-hp-100 d-flex center-center w-50 f-Ubuntu-R  fsp-14 ptp-10 pbp-10">Celebramos nuestro éxito.</div>
                                             </div>
                                         </div>
 
-                                        <div className="col-md-6 col-sm-6 ptp-20 btp-10 ra-pe">
-                                            <div className="block-bottom-19 bloque-19 h-100  ptp-5 bgc-tshinhan rounded-p-10 ps-4 pe-4">
-                                                <div className="caja-respuesta-19 bgc-white border-style-solid border-1 rounded-2 border-color-lightDark f-Ubuntu-B">
-                                                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-center lhp-35 w-100" />
-                                                </div>
-                                                <div className="ptp-10 pbp-25 style-puzzle">Creamos los textos y seleccionamos las imágenes para la revista.</div>
+                                        <div className="col-md-6 col-sm-6 ptp-20 btp-10 ra-pe position-relative d-flex justify-content-end pbp-20">
+                                            <div className="position-absolute top-0 start-50 translate-middle mtp-20 msp-10 zindex-1 bgc-white wp-35 hp-35 border-style-solid border-1 border-color-dark">
+                                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-center lhp-35 w-100" />
+                                            </div>
+                                            <div className="d-flex center-center min-hp-100 w-90 p-2 bgc-tshinhan rounded-p-10 position-relative">
+                                                <div className="position-absolute top-50 start-0 translate-middle mtp-0 msp--10 bgc-tshinhan wp-40 hp-35 zindex-1 rounded-tbs-20 "></div>
+                                                <div className="min-hp-100 w-80 d-flex center-center f-Ubuntu-R fsp-14 ptp-10 pbp-10">Creamos los textos y seleccionamos las imágenes para la revista.</div>
                                             </div>
                                         </div>
 
-                                        <div className="col-md-6 col-sm-6 ptp-20 btp-10 ra-ps position-relative">
+                                        <div className="col-md-6 col-sm-6 ptp-20 btp-10 ra-ps position-relative pbp-20">
+                                            
+                                            <div className="position-absolute top-0 start-50 translate-middle mtp-20 msp--10 zindex-1 bgc-white wp-35 hp-35 border-style-solid border-1 border-color-dark">
+                                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-center lhp-35 w-100" />
+                                            </div>
                                             <div className="position-absolute top-100 start-0 translate-middle mtp--20 msp-0 zindex-1"><img src="images/page_019/img_007.png" className="wp-80" alt="" /></div>
-                                            <div className="block-bottom-19 bloque-19 h-100  p-2 bgc-ash rounded-p-10 ps-4 pe-4">
-                                                <div className="caja-respuesta-19 bgc-white border-style-solid border-1 rounded-2 border-color-lightDark f-Ubuntu-B">
-                                                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-center lhp-35 w-100" />
-                                                </div>
-                                                <div className="ptp-10 pbp-25 style-puzzle">Analizamos y seleccionamos la información recopilada.</div>
+                                            <div className="d-flex center-center min-hp-100 w-90 p-2 bgc-ash rounded-p-10 position-relative">
+                                                <div className="position-absolute top-50 start-100 translate-middle mtp-0 msp--10 bgc-white wp-50 hp-35 zindex-1 rounded-tbs-20 "></div>
+                                                <div className="min-hp-100 d-flex center-center w-70 f-Ubuntu-R  fsp-14 ptp-10 pbp-10">Analizamos y seleccionamos la información recopilada.</div>
                                             </div>
                                         </div>
 
-                                        <div className="col-md-6 col-sm-6 ptp-20 btp-10 ra-pe position-relative">
+                                        <div className="col-md-6 col-sm-6 ptp-20 btp-10 ra-pe position-relative d-flex justify-content-end pbp-20">
+                                            <div className="position-absolute top-0 start-50 translate-middle mtp-20 msp-10 zindex-1 bgc-white wp-35 hp-35 border-style-solid border-1 border-color-dark">
+                                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-center lhp-35 w-100" />
+                                            </div>
                                             <div className="position-absolute top-100 start-100 translate-middle mtp--20 msp-0 zindex-1"><img src="images/page_019/img_008.png" className="wp-80" alt="" /></div>
-                                            <div className="block-bottom-19 bloque-19 h-100  p-2 bgc-zoe rounded-p-10 ps-4 pe-4">
-                                                <div className="caja-respuesta-19 bgc-white border-style-solid border-1 rounded-2 border-color-lightDark f-Ubuntu-B">
-                                                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-center lhp-35 w-100" />
-                                                </div>
-                                                <div className="ptp-10 pbp-25 style-puzzle">Organizamos el plan de trabajo.</div>
+                                            <div className="d-flex center-center min-hp-100 w-90 p-2 bgc-cyrax rounded-p-10 position-relative">
+                                                <div className="position-absolute top-50 start-0 translate-middle mtp-0 msp--10 bgc-cyrax wp-40 hp-35 zindex-1 rounded-tbs-20 "></div>
+                                                <div className="min-hp-100 d-flex center-center f-Ubuntu-R  fsp-14 ptp-10 pbp-10">Organizamos el plan de trabajo.</div>
                                             </div>
                                         </div>
                                     </div>

@@ -25,7 +25,7 @@ function Page027(props) {
         <div className={"cabecera-v2 d-flex flex-column "+background}>
           <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
             <div className={"caja wp-150 text-center fsp-24 f-IntroRustG-Base "+colorSesion}>SESIÓN 6</div>
-            <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Leo la sección Correo de la revista y completo las fichas.</div>
+            <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Reciclamos y reutilizamos sin parar</div>
           </div>
 
         </div> 
@@ -38,76 +38,66 @@ function Page027(props) {
                 {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_001.svg"} alt=""  /> */}
                 <div className={"f-ccdigitaldelivery-bold fsp-35 "+color}>1</div>
                 <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Veo el video y completo con mis ideas.
-                </div>
-                <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
-                {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-                {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-                <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
-            </div>
-        </div>
-
-        <div className="d-flex psp-60 pep-60 pbp-0">
-
-          <div className="row w-100 p-0 m-0">
-
-                <div className="col-sm-12 col-md-12 position-relative">
-                    <div className="position-absolute top-50 start-0 translate-middle visible-768 zindex-1 msp--20 mtp-0"><img src={"images/page_"+pagina+"/img_004.png"} className="wp-60" alt=""/></div>
-                    <div className="position-absolute top-0 start-100 translate-middle visible-768 zindex-1 msp--50 mtp--10"><img src={"images/page_"+pagina+"/img_002.png"} className="wp-150" alt=""/></div>
-                    <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-20 text-start">
-                            <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">a.</div>
-                            <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">¿Qué diferencia hay entre reciclar y reutilizar?</div>
-                            
-                    </div>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-160" />
-                </div>
-
-                <div className="col-sm-12 col-md-12 position-relative">
-                    <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-20 text-start">
-                            <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">b.</div>
-                            <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">¿Qué significa que tenemos que reducir?</div>
-                            
-                    </div>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-160" />
-                </div>
-
-                <div className="col-sm-12 col-md-12 position-relative">
-                    <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-20 text-start">
-                            <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">c.</div>
-                            <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">¿Cómo enseñaremos esta regla a la comunidad en la feria?</div>
-                            
-                    </div>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-160" />
-                </div>
-
-            </div>                  
-        
-        </div>   
-
-
-        <div className="ptp-30 container-titulo-global mbp-0">
-          {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>La regla de las 3R</div> */}
-            <div className="d-flex">
-                <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_001.svg"} alt=""  />
-                <div className={"f-ccdigitaldelivery-bold fsp-35 "+color}>2</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Leo la revista. Comparto mis ideas con el equipo y complementamos las respuestas anteriores.
+                Leo la sección Correo de la revista y completo las fichas.
                 </div>
                 {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                 {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
                 {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-                <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_006.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+                <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_002.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
         </div>
 
-        <div className="d-flex psp-60 pep-60 pbp-100">
+        <div className="d-flex psp-60 pep-60 pbp-30">
 
-            <div className="row w-100 p-0 m-0">
-            <div className="col-12">
-                <img className="wp-200 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_007.png"} alt=""  />
+          <div className="d-flex w-100 bgc-tshinhan psp-10 pep-10 ptp-10 pbp-10 rounded-p-10">
+              <div className="row w-100 p-0 m-0 border-style-dashed border-1 border-color-bulma rounded-p-5 bgc-white">
+
+                    <div className="col-auto position-relative">
+                    <img src={"images/page_"+pagina+"/img_003.jpg"} className="h-100" alt=""  />
+                    </div>
+
+                    <div className="col position-relative">
+                        <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-0 pep-10 mtp-20">
+                            <div className="f-colby-compres-medium fsp-20 color-dark text-start color-bulma ">Nombre:</div>
+                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                        </div>
+                        <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-0 pep-10 mtp-20">
+                            <div className="f-colby-compres-medium fsp-20 color-dark text-start color-bulma ">¿Qué puedo reciclar?</div>
+                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                        </div>
+                    </div>
+
+              
+                </div>                  
             </div>
+            
+        </div>   
+        <div className="d-flex psp-60 pep-60 pbp-0">
+
+          <div className="d-flex w-100 bgc-tshinhan psp-10 pep-10 ptp-10 pbp-10 rounded-p-10">
+              <div className="row w-100 p-0 m-0 border-style-dashed border-1 border-color-bulma rounded-p-5 bgc-white">
+
+                    <div className="col-auto position-relative">
+                    <img src={"images/page_"+pagina+"/img_004.jpg"} className="h-100" alt=""  />
+                    </div>
+
+                    <div className="col position-relative">
+                        <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-0 pep-10 mtp-20">
+                            <div className="f-colby-compres-medium fsp-20 color-dark text-start color-bulma ">Nombre:</div>
+                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                        </div>
+                        <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-0 pep-10 mtp-20">
+                            <div className="f-colby-compres-medium fsp-20 color-dark text-start color-bulma ">¿Qué puedo reciclar?</div>
+                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                        </div>
+                    </div>
+
+              
+                </div>                  
             </div>
-        </div>
+
+        </div>   
+
         
         {/* BEGIN PIE DE PAGINA */}
         <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>

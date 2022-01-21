@@ -1,43 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 28.836 14.902" style="enable-background:new 0 0 28.836 14.902;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{clip-path:url(#SVGID_2_);fill:none;stroke:#AEC90B;stroke-width:0.955;stroke-linecap:round;}
-	.st2{clip-path:url(#SVGID_4_);fill:none;stroke:#AEC90B;stroke-width:0.955;stroke-linecap:round;}
-	.st3{clip-path:url(#SVGID_4_);fill:#AEC90B;}
-	.st4{fill:#AEC90B;}
-</style>
-<rect x="14.412" y="0.477" class="st0" width="13.947" height="13.947"/>
-<g>
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 35" width="53" height="35">
+	<title>img_002</title>
 	<defs>
-		<rect id="SVGID_1_" width="28.836" height="14.902"/>
+		<image  width="53" height="35" id="img1" href="data:image/png;base64,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"/>
 	</defs>
-	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-	</clipPath>
-	<rect x="14.411" y="0.477" class="st1" width="13.947" height="13.947"/>
-</g>
-<polygon class="st0" points="0.478,0.477 0.478,14.424 14.425,14.424 16.23,8.041 14.425,0.477 "/>
-<g>
-	<defs>
-		<rect id="SVGID_3_" width="28.836" height="14.902"/>
-	</defs>
-	<clipPath id="SVGID_4_">
-		<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
-	</clipPath>
-	<polygon class="st2" points="0.477,0.477 0.477,14.424 14.424,14.424 16.229,8.041 14.424,0.477 	"/>
-	<path class="st3" d="M24.276,10.383c-0.102,0.032-0.27,0.065-0.502,0.1c-0.232,0.036-0.513,0.053-0.844,0.053
-		c-0.464,0-0.868-0.078-1.21-0.236c-0.342-0.157-0.63-0.379-0.862-0.667c-0.232-0.287-0.405-0.631-0.519-1.033
-		c-0.114-0.401-0.171-0.846-0.171-1.334c0-0.503,0.066-0.958,0.2-1.363c0.134-0.405,0.321-0.75,0.561-1.033
-		c0.24-0.284,0.531-0.5,0.874-0.65c0.342-0.149,0.722-0.224,1.139-0.224c0.393,0,0.779,0.049,1.157,0.148
-		c0.378,0.098,0.681,0.222,0.909,0.372l0.366-0.957c-0.047-0.031-0.136-0.078-0.266-0.141c-0.13-0.063-0.297-0.126-0.501-0.189
-		c-0.205-0.063-0.451-0.118-0.738-0.165c-0.288-0.048-0.616-0.071-0.986-0.071c-0.543,0-1.053,0.094-1.529,0.283
-		s-0.891,0.464-1.245,0.826c-0.355,0.362-0.636,0.809-0.845,1.34c-0.208,0.532-0.312,1.14-0.312,1.824
-		c0,0.685,0.092,1.291,0.277,1.818c0.185,0.528,0.447,0.973,0.785,1.334c0.338,0.363,0.744,0.638,1.216,0.827
-		s0.996,0.283,1.57,0.283c0.284,0,0.563-0.014,0.838-0.041c0.276-0.028,0.53-0.061,0.762-0.101c0.232-0.039,0.437-0.078,0.614-0.118
-		c0.177-0.039,0.313-0.074,0.407-0.106V7.337h-1.145V10.383z"/>
-</g>
-<rect x="7.4" y="3.182" class="st4" width="1.145" height="8.181"/>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
 </svg>

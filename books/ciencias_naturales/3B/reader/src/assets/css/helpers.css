@@ -3812,6 +3812,42 @@
 }
 
 /* LINEHEIGHT */
+.lhp-8{
+  line-height: 8px;
+}
+.lhp-9{
+  line-height: 9px;
+}
+.lhp-10{
+  line-height: 10px;
+}
+.lhp-11{
+  line-height: 11px;
+}
+.lhp-12{
+  line-height: 12px;
+}
+.lhp-13{
+  line-height: 13px;
+}
+.lhp-14{
+  line-height: 14px;
+}
+.lhp-15{
+  line-height: 15px;
+}
+.lhp-16{
+  line-height: 16px;
+}
+.lhp-17{
+  line-height: 17px;
+}
+.lhp-18{
+  line-height: 18px;
+}
+.lhp-19{
+  line-height: 19px;
+}
 
 .lhp-20{
   line-height: 20px;
@@ -3868,10 +3904,44 @@
 .border-style-double{
   border-style: double;
 }
-
+.border-style-dotted{
+  border-style: dotted;
+}
+.border-style-dashed{
+  border-style: dashed;
+}
 .border-style-solid{
   border-style: solid;
 }
+.border-style-groove{
+  border-style: groove;
+}
+.border-style-ridge{
+  border-style: ridge;
+}
+.border-style-inset{
+  border-style: inset;
+}
+.border-style-outset{
+  border-style: outset;
+}
+.border-style-none{
+  border-style: none;
+}
+
+.border-top-hidden{
+  border-top-style: hidden;
+}
+.border-bottom-hidden{
+  border-bottom-style: hidden;
+}
+.border-left-hidden{
+  border-left-style: hidden;
+}
+.border-right-hidden{
+  border-right-style: hidden;
+}
+
 .border-top-style-solid{
   border-top-style: solid;
 }
@@ -4126,6 +4196,9 @@
   border-radius: 200%;
 }
 /*arriba redondeado / abajo plano */
+.rounded-set-10 {
+  border-radius: 10px 10px 0px 0px;
+}
 .rounded-set-20 {
   border-radius: 20px 20px 0px 0px;
 }
