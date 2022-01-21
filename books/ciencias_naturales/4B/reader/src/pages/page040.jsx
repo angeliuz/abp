@@ -100,48 +100,48 @@ function Page040(props) {
 
               <table className=" mbp-20" border="1">
                 <tr>
-                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 bgc-bach" rowspan="2">Supervisión</td>
-                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16">
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 bgc-bach border-color-pikachu" rowspan="2">Supervisión</td>
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 border-color-pikachu">
                     ¿Gestionó el tiempo
                     <br /> dedicado a las tareas?
                   </td>{" "}
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-pikachu"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-pikachu"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-pikachu"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-pikachu"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
                 </tr>
                 <tr>
-                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16">
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 border-color-pikachu">
                     ¿Comprobó que cada
                     <br /> miembro del equipo haya
                     <br /> hecho su tarea dentro del
                     <br /> plazo establecido?
                   </td>{" "}
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-pikachu"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-pikachu"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-pikachu"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-pikachu"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
@@ -150,47 +150,47 @@ function Page040(props) {
 
               <table className=" mbp-20" border="1">
                 <tr>
-                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 bgc-genos" rowspan="2">
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 bgc-genos border-color-soldados" rowspan="2">
                     Relaciones <br />
                     pùblicas
                   </td>
-                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16">
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 border-color-soldados">
                     ¿Se comunicó con el profesor
                     <br /> para solicitar ayuda y<br />
                     resolver dudas?
                   </td>{" "}
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-soldados"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-soldados"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-soldados"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-soldados"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
                 </tr>
                 <tr>
-                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16">¿Pidió ayuda a otros equipos?</td> 
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 border-color-soldados">¿Pidió ayuda a otros equipos?</td> 
+                  <td className=" border-style-solid border-1 border-color-soldados"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-soldados"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-soldados"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-soldados"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
@@ -199,51 +199,51 @@ function Page040(props) {
 
               <table border="1">
                 <tr>
-                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 bgc-jarek" rowspan="2">Intendencia</td>
-                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16">
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 bgc-jarek border-color-bulma" rowspan="2">Intendencia</td>
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 border-color-bulma">
                     ¿Gestionó los materiales que
                     <br /> el equipo necesitaba para
                     <br />
                     realizar las tareas?
                   </td>{" "}
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-bulma"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-bulma"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-bulma"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-bulma"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
                 </tr>
                 <tr>
-                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16" >
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 border-color-bulma" >
                     ¿Comprobó que el equipo
                     <br />
                     mantuviera un espacio de
                     <br />
                     trabajo limpio y ordenado?
                   </td>
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-bulma"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-bulma"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-bulma"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
-                  <td className=" border-style-solid border-1"><InputBox
+                  <td className=" border-style-solid border-1 border-color-bulma"><InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
                   /></td>
