@@ -37,7 +37,7 @@ function Page047(props) {
 
 
             <div className="d-flex msp-100 mep-60 position-relative ">
-                <div className="border border-3 p-3 hp-275 w-100 ">
+                <div className="border border-3 p-3   w-100 ">
                   <div><img src="images/page_043/img_004.png" className="position-absolute top-50 start-0 translate-middle wp-40" alt=""></img></div> 
                   <div className="msp-20 ">
                       <div className=" linea1 min-hp-100  ">
@@ -70,22 +70,29 @@ function Page047(props) {
                               </div>  
                           </div>
 
-                          <div className="col-lg-7  col-sm-12 d-flex justify-content-center  ">
+                          <div className="col-lg-7  col-sm-12 d-flex justify-content-center   ">
                              
                                 <div className=" mtp-20 position-relative "><img className="hp-150" src="images/page_047/img_005.svg" alt="" />
                                     <img className="hp-25 align-center  position-absolute top-0 start-100 translate-middle msp--6  mtp-20   " src="images/page_047/img_003.svg" alt="" />
 
                                     <div className="position-absolute top-0 start-50 translate-middle-x  msp--40 mep-20 mtp-20 msp-20">
                                         <div className="d-flex align-items-center pbp-10">
-                                            <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white"></div>
+                                            <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white"> 
+                                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" />
+                                    
+                                            </div>
                                             <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5">Cuento.</div>
                                         </div>
                                         <div className="d-flex align-items-center pbp-10">
-                                            <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white"></div>
+                                            <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white">
+                                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" />
+                                            </div>
                                             <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5">Anécdota.</div>
                                         </div>
                                         <div className="d-flex align-items-center pbp-10">
-                                            <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white"></div>
+                                            <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white">
+                                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" />
+                                            </div>
                                             <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5">Narración.</div>
                                         </div> 
                                     </div>
@@ -112,22 +119,25 @@ function Page047(props) {
 
 
 
-                <div className="row   container-row px-5 position-relative">
+                <div className="row mbp-75  container-row px-5 position-relative">
                         <div className=" position-absolute top-0 start-100 translate-middle "><img className="hp-80 msp--250 mtp--50" src="images/page_047/img_007.png" alt="" /></div>
                         <div className="col-sm-12 col-md-6   ">
-                            <div className="border-style-solid mtp-10 border-2 border-color-saitama rounded-p-10 hp-220 w-100 hp-190  ">
-                              <div className="f-pixilate-bold fsp-18  p-3 text-start color-saitama ">Personajes: </div>
+                            <div className="border-style-solid mtp-10 border-2 border-color-saitama rounded-p-10  w-100  ptp-10 psp-10 pep-30 ">
+                              <div className="f-pixilate-bold fsp-18 text-start color-saitama ">Personajes: </div>
+                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190" />
                             </div>
                         </div>
-                        <div className="col-sm-12 col-md-6  position relative">
+                        <div className="col-sm-12 col-md-6  position-relative">
                         <div className="espirales-creacion-47   position-absolute"><img src="images/page_047/img_006.png" className="w-45 " alt=""/></div>
-                            <div className="border-style-solid mtp-10 border-2 border-color-saitama rounded-p-10 hp-220 w-100 hp-190  ">
-                              <div className="f-pixilate-bold fsp-18  p-3 text-start color-saitama ">Ambiente/época: </div>
+                            <div className="border-style-solid mtp-10 border-2 border-color-saitama rounded-p-10  w-100  ptp-10 psp-30 pep-10  ">
+                              <div className="f-pixilate-bold fsp-18 text-start color-saitama ">Ambiente/época: </div>
+                              <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190" />
                             </div>
                         </div>
 
                 </div>
 
+                            
 
 
 
