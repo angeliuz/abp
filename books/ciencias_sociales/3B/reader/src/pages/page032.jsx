@@ -4,55 +4,112 @@ import "./page_032.css";
 function Page032(props) {
   const pagina = "032";
   var indexInput = 0;
+  const etapa = "4"
+  const background = "bgc-pidgey";
+  const bgc_cajas = "bgc-sid";
 
   return (
-      <div className="wrapper bgc-light">
-        <div className="d-flex flex-column align-items-center pbp-20">
-          <div className="page bgc-pidgey position-relative" id={"page_"+pagina}>
-            <div className="w-100 mt-15 pe-5 ps-5 ">
-              {/* Begin background lineas */}
-              <div className="cb-lineas">
 
-                <div className="cb-cabecera">
-                    <div className="cb-titulo color-white fsp-20 lh-sm f-durotype-aspiranar-bold">Mis objetivos<br />en esta etapa son:</div>
-                    <div className="cb-cohete"><img src="images/page_032/nave.png" alt=""/>
+    <div className="wrapper bgc-light">
+    <div className="d-flex flex-column align-items-center pbp-20">
+        <div className={"page "+background+" position-relative pagina-cohete"} id={"page_"+pagina}>
+                   
+                    <div className="w-100 mt-15 pe-5 ps-5 ">
+                        <div className="pc-lineas-v2 pbp-80">
+                            <div className="pc-cabecera">
+                                <div className="pc-titulo-12 color-white fsp-20 lh-sm f-durotype-aspiranar-bold">
+                                Mis objetivos <br /> en esta etapa son: 
+                                </div>
+                                <div className="pc-cohete" ><img src="images/generales/cohete.png" alt=""/>
+                                </div>
+                            </div>
+
+                    <div className="pc-caja-objetivos-1">
+                        <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
+                            <div className={"d-flex "+bgc_cajas+" psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e"+etapa}> 
+                            <div className="d-flex wp-23"> 
+                                <img src={"images/generales/flecha_e"+etapa+".svg"} className="mbp-20 mep-5 wp-20" alt=""/>
+                            </div>  
+                            <div> 
+                                <span className="fsp-16 text-start f-pixilate-regular">
+                                    <span className="fsp-16 f-IntroRustG-Base text-start"> 
+                                    ENCUESTAR
+                                    </span> 
+                                    <br /> a compañeros sobre<br />sus características e intereses.
+                                </span>
+                            </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div className="pc-caja-objetivos-2">
+                        <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
+                            <div className={"d-flex "+bgc_cajas+" psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e"+etapa}> 
+                                <div className="d-flex wp-23"> 
+                                    <img src={"images/generales/flecha_e"+etapa+".svg"} className="mbp-25 mep-5 wp-20" alt=""/>
+                                </div> 
+                                <div className="d-flex"> 
+                                    <span className="fsp-16 text-start f-pixilate-regular">
+                                        <span className="fsp-16 f-IntroRustG-Base text-start">
+                                        IDENTIFICAR</span> la diversidad que<br />existe en nuestra<br />comunidad escolar.
+                                    </span>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div className="pc-caja-objetivos-3">
+                        <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
+                            <div className={"d-flex "+bgc_cajas+" psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e"+etapa}> 
+                                <div className="d-flex"> 
+                                    <img src={"images/generales/flecha_e"+etapa+".svg"} className="mbp-25 mep-5 wp-20" alt=""/>
+                                </div> 
+                                <div className="d-flex"> 
+                                    <span className="fsp-16 text-start f-pixilate-regular">
+                                        <span className="fsp-16 f-IntroRustG-Base text-start">
+                                        ELABORAR</span> un decálogo de<br />respeto y tolerancia a la<br />diversidad.
+                                    </span>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div className="pc-caja-objetivos-4 mtp--10">
+                        <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
+                            <div className={"d-flex "+bgc_cajas+" psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e"+etapa}> 
+                                <div className="d-flex"> 
+                                    <img src={"images/generales/flecha_e"+etapa+".svg"} className="mbp-20 mep-5 wp-20" alt=""/>
+                                </div> 
+                                <div className="d-flex"> 
+                                    <span className="fsp-16 text-start f-pixilate-regular">
+                                        <span className="fsp-16 f-IntroRustG-Base text-start">
+                                        REFLEXIONAR</span> sobre nuestro<br />trabajo en equipo.
+                                    </span>
+                                </div> 
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-12 pp-5 m-0">
-                        <div className="cuadro text-center ptp-18 fsp-15 f-colby-extra-regular float-end centrar-experimentacion"><img src="images/page_032/flecha.svg" alt="" className="wp-20 pep-5 pbp-5" /><span className="mtp-5 f-IntroRustG-Base">ENCUESTAR</span> a compañeros sobre<br />sus características e intereses.</div>
-                    </div>
-                    <div className="col-12 pp-5 m-0">
-                        <div className="cuadro1 text-center ptp-18 fsp-15 f-colby-extra-regular float-start centrar-experimentacion"><img src="images/page_032/flecha.svg" alt="" className="wp-20 pep-5 pbp-5" /><span className="mtp-5 f-IntroRustG-Base">IDENTIFICAR</span> la diversidad que<br />existe en nuestra<br />comunidad escolar.</div>
-                    </div>
-                    <div className="col-12 pp-5 m-0">
-                        <div className="cuadro1 text-center ptp-18 fsp-15 f-colby-extra-regular float-end centrar-experimentacion"><img src="images/page_032/flecha.svg" alt="" className="wp-20 pep-5 pbp-5" /><span className="mtp-5 f-IntroRustG-Base">ELABORAR</span> un decálogo de<br />respeto y tolerancia a la<br />diversidad.</div>
-                    </div>
-                    <div className="col-12 pp-5 m-0">
-                        <div className="cuadro text-center ptp-18 fsp-15 f-colby-extra-regular float-start centrar-experimentacion"><img src="images/page_032/flecha.svg" alt="" className="wp-20 pep-5 pbp-5" /><span className="mtp-5 f-IntroRustG-Base">REFLEXIONAR</span> sobre nuestro<br />trabajo en equipo.</div>
-                    </div>
-                </div>
-
-              </div>
-              {/* End background lineas */}
-
-              <div className="d-flex justify-content-center max-img mb-5 ptp-20">
-                <div>
-                  <img src="images/page_032/imagen.jpg" className="img-fluid" alt="" />
-                </div>
-              </div>
             
-              {/* Begin pie de página */}
-              <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
-                <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>ABP &copy; SM</div>
-                <div className="bgc-goku wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
-              </div>
-              {/* End pie de página */}
-            
+                <div className="d-flex justify-content-center mtp--10 mbp-50 ">
+                    <div className="">
+                        <img src={"images/page_"+pagina+"/imagen.jpg"} className="w-100" alt="" />
+                    </div>
+                </div>
+                {/* Begin pie de página */}
+                <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
+                    <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
+                        ABP &copy; SM
+                    </div>
+                    <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+                </div>
+                {/* End pie de página */}
+                
+                
             </div>
-          </div>
         </div>
-      </div>
+    </div>
+
+</div>
+
+
 
   );
 }

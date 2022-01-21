@@ -7,20 +7,26 @@ function Page009(props) {
 
   const pagina = "009";
   var indexInput = 0;
+  const etapa = "1"
+  const background = "bgc-goten";
+  const color = "color-goten";
+  const borderColor = "border-color-android18"
+  const bgc_cajas = "bgc-goku";
 
   return (
     <div className="wrapper bgc-light">
-      <div className="d-flex flex-column align-items-center pbp-20">
-        <div className="page cb-page9 overflow-hidden position-relative" id={"page_"+pagina}>
+        <div className="d-flex flex-column align-items-center pbp-20">
+            <div className={"dosier-e"+etapa+" page bgc-white overflow-hidden position-relative"} id={"page_"+pagina}>
+                {/* <img src="images/page_009/cabecera.svg" className="cb-dossier" alt=""/> */}
 
-        <div className="mtp-60 ">
-                <div className="d-flex justify-content-center">                    
-                    <img src="images/page_009/fondo_002.svg" className="cb-dosier" alt="" />
-                </div>
+        <div className="mtp-190 ">
+
                 <div className="cb-block-arriba-p09 mtp-40 f-Ubuntu-L mbp-5 psp-25 fw-700 fsp-13">Esta página ha sido completada por</div>
                     <div className="cb-block-inicial-etapa-p09 f-Ubuntu-L  fw-700 fsp-15 p-2 pb-3 mbp-30 text-center mtp-20 cb-outline_pg9">
                         <img src="images/page_009/img_005.png" className="cb-computador-p09" alt="" />
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                     </div>
+                    
 
                 <div className="cb-block-superior-p09 p-3 pb-4 f-Ubuntu-L fsp-15 text-center fw-700 cb-outline_pg9 ">
                     <img src="images/page_009/img_001.png" className="cb-celu-p09" alt=""/>

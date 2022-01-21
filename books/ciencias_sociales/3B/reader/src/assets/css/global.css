@@ -27,12 +27,6 @@ body {
   width: 100%;
 }
 
-.caja-seccion{
-  background-image: url(../../pages/images/generales/caja_seccion.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 .cuadrado-naranja{
   -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 8% 100%);
   clip-path: polygon(0 0%, 100% 0, 96% 100%, 8% 100%);
@@ -65,7 +59,6 @@ body {
   background-position: top;
 
 }
-
 
 .rotulo-etapa{
   width: 120px;
@@ -130,6 +123,13 @@ body {
   visibility: visible;
 }
 
+.invisible-695{
+  visibility: hidden;
+}
+.invisible-768{
+  visibility: hidden;
+}
+
 .caja-dibujo-global{
   height: 800px;
   margin-left:40px;
@@ -154,17 +154,189 @@ body {
   padding: 5px 10px;
 }
 
-  @media (max-width: 805px) {
-    .rotulo-etapa{
-    width: 100px;
-    margin-top: -12px;
-    margin-left: 5px;
-    }
+.caja {
+  background-image: url(../../pages/images/generales/caja_sesion.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 8px;
+}
+.caja-seccion{
+  background-image: url(../../pages/images/generales/caja_sesion.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 14px;
+}
 
-  }
-  @media (max-width: 768px) {
+
+.rotar-elemento-90-768 {
+  transform: rotate(0deg);
+}
+.rotar-elemento-90-695 {
+  transform: rotate(0deg);
+}
+
+
+/* SEGUNDA PÁGINA DE ETAPA (COHETE) */
+.pagina-cohete{
+  min-height: 1060px;
+}
+
+.pc-cabecera{
+  display: flex;
+}
+
+.pc-titulo{
+  margin-left: 40px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.pc-cohete{
+  margin-top: -8px;
+  transform: rotate(-5deg);
+}
+
+.pc-caja-objetivos-1{
+  display: flex;
+  justify-content: end;
+  margin-right: 1px;
+  margin-bottom: 20px;
+  margin-top: -15px;
+}
+.pc-caja-objetivos-2{
+  margin-left: 45px;
+  margin-bottom: 70px;
+  display: flex;
+  margin-top: 20px;
+}
+.pc-caja-objetivos-3{
+  display: flex;
+  justify-content: end;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: -30px;
+}
+.pc-caja-objetivos-4{
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 70px;
+  margin-top: 40px;
+}
+
+.pc-lineas-v2 {
+  background: url(../../pages/images/generales/lineas_objetivos.svg)  top left/ cover no-repeat !important;
+  margin-left: 50px;
+  margin-right: 50px;
+   -webkit-print-color-adjust: exact !important;
+}
+
+.pc-caja-outline-e1{
+  outline: solid 2px var(--goten);
+  outline-offset: -3px;
+}
+.pc-caja-outline-e2{
+  outline: solid 2px var(--bulma);
+  outline-offset: -3px;
+}
+.pc-caja-outline-e3{
+  outline: solid 2px var(--android18);
+  outline-offset: -3px;
+}
+.pc-caja-outline-e4{
+  outline: solid 2px var(--pidgey);
+  outline-offset: -3px;
+}
+.pc-caja-outline-e5{
+  outline: solid 2px var(--saitama);
+  outline-offset: -3px;
+}
+.pc-caja-outline-e6{
+  outline: solid 2px var(--pikachu);
+  outline-offset: -3px;
+}
+.caja-outline-piccolo{
+  outline: solid 3px var(--piccolo);
+  outline-offset: -4px;
+}
+.caja-outline-white{
+  outline: solid 3px var(--white);
+  outline-offset: -4px;
+}
+
+.center-center{
+  justify-content: center;
+  align-items: center;
+}
+
+.dosier-e1 {
+  background: url(../../pages/images/generales/fondo_dosier_e1.svg) top center/cover no-repeat;
+  width: 100% !important;
+  height: 100% !important;
+  -webkit-print-color-adjust: exact !important;
+}
+.dosier-e2 {
+  background: url(../../pages/images/generales/fondo_dosier_e2.svg) top center/cover no-repeat;
+  width: 100% !important;
+  height: 100% !important;
+  -webkit-print-color-adjust: exact !important;
+}
+.dosier-e3 {
+  background: url(../../pages/images/generales/fondo_dosier_e3.svg) top center/cover no-repeat;
+  width: 100% !important;
+  height: 100% !important;
+  -webkit-print-color-adjust: exact !important;
+}
+.dosier-e4 {
+  background: url(../../pages/images/generales/fondo_dosier_e4.svg) top center/cover no-repeat;
+  width: 100% !important;
+  height: 100% !important;
+  -webkit-print-color-adjust: exact !important;
+}
+.dosier-e5 {
+  background: url(../../pages/images/generales/fondo_dosier_e5.svg) top center/cover no-repeat;
+  width: 100% !important;
+  height: 100% !important;
+  -webkit-print-color-adjust: exact !important;
+}
+.dosier-e6 {
+  background: url(../../pages/images/generales/fondo_dosier_e6.svg) top center/cover no-repeat;
+  width: 100% !important;
+  height: 100% !important;
+  -webkit-print-color-adjust: exact !important;
+}
+
+.posicion-centro-centro{
+  top: 50%;
+  left: 0%;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.rotacion-centro-centro{
+  transform: rotate(0deg);
+}
+
+.box-shadow-simple{
+  -webkit-box-shadow: 2px 2px 2px 3px rgba(0,0,0,0.15); 
+  box-shadow: 2px 2px 2px 3px rgba(0,0,0,0.15);
+}
+
+
+  @media (max-width: 767px) {
+    .rotulo-etapa{
+      width: 100px;
+      margin-top: -12px;
+      margin-left: 5px;
+    }
+    .rotar-elemento-90-768 {
+      transform: rotate(90deg);
+    }
     .visible-768{
       visibility: hidden;
+    }
+    .invisible-768{
+      visibility: visible;
     }
     .rotacion-768-90{
       transform: rotate(90deg);
@@ -172,9 +344,77 @@ body {
     .rotacion-768--90{
       transform: rotate(-90deg);
     }
+
+    .pagina-cohete{
+      min-height: 100% !important;
+    }    
+
+    .pc-cabecera{
+      display: inline;
+    }
+    .pc-titulo{
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+    .pc-cohete{
+        display: flex;
+        justify-content: center;
+        transform: rotate(90deg);
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    .pc-caja-objetivos-1{
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+    .pc-caja-objetivos-2{
+          justify-content: center;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 10px;
+          margin-top: 10px;
+      }
+    .pc-caja-objetivos-3{
+          justify-content: center;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 10px;
+          margin-top: 10px;
+      }
+    .pc-caja-objetivos-4{
+          justify-content: center;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 10px;
+          margin-top: 10px;
+      }    
+
+    .pc-lineas-v2 {
+        background: url(../../pages/images/generales/lineas_objetivos_movile.svg) top left/ cover no-repeat !important;
+    }    
+    .posicion-centro-centro{
+      top: 0%;
+      left: 50%;
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+    .rotacion-centro-centro{
+      transform: rotate(90deg);
+    }
     
   }
-  @media (max-width: 695px) {
+  @media (max-width: 694px) {
+    .rotar-elemento-90-695 {
+      transform: rotate(90deg);
+    }
     .rotulo-etapa{
       width: 90px;
       margin-top: -10px;
@@ -196,14 +436,11 @@ body {
     .visible-695{
       visibility: hidden;
     }
-  }
-  @media (max-width: 575px) {
-    .rotulo-etapa{
-      width: 120px;
-      margin-top: -14px;
-      margin-left: 5px;
+    .invisible-695{
+      visibility: visible;
     }
   }
+
 
 
 /* FIN CSS PIE DE PAGINA COLORES */

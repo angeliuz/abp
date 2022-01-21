@@ -122,7 +122,7 @@ function Page016(props) {
               </div>
             </div>
           </div>
-          <div className="bgc-buzz border-top border-color-bulma border-2 pbp-120">
+          <div className="bgc-buzz border-top-style-solid border-color-bulma border-2 pbp-120 psp-60 pep-60">
             <img
               src="images/page_016/img_001.png"
               className="hp-60 tf-nube"

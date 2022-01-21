@@ -1,15 +1,15 @@
-.soc-page41 {
-   background: url(images/page_041/fondo_001.svg) var(--saitama) top left/ cover no-repeat !important;
-    -webkit-print-color-adjust: exact !important;
-
-}
-.t-shadow{
-    text-shadow: -7px -8px #543d89;
-}
-
-@media all and (max-width: 500px) {
-
-    .ft-m {
-        font-size: 50px;
-     }
-}
+.bgc-creacion{
+    background: url(images/page_041/fondo_001.svg) var(--saitama) top left/ cover no-repeat !important;
+     -webkit-print-color-adjust: exact !important;
+ 
+ }
+ .t-shadow-creacion{
+     text-shadow: -7px -8px #543d89;
+ }
+ 
+ @media all and (max-width: 500px) {
+ 
+     .ft-m {
+         font-size: 50px;
+      }
+ }

@@ -17,52 +17,66 @@ function Page028(props) {
         >
           <div className="cabecera-v1 hp-80 bgc-android18"></div>
 
-          <div className="row ">
-            <div className="col-6">
-              <div className="ptp-10 container-titulo-global mbp-0">
-                <div className="d-flex">
-                  <img
-                    className="hp-20 align-center mt-3 me-2 mb-2"
-                    src="images/page_028/img_001.svg"
-                    alt=""
-                  />
-                  <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">
-                    2
-                  </div>
-                  <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                    Creamos tres eslóganes o lemas sobre el valor de la
-                    diversidad.
+
+        <div className="d-flex psp-60 pep-60">
+
+
+
+            <div className="row p-0 m-0">
+              <div className="col-6">
+                <div className="ptp-10 mbp-0">
+                  <div className="d-flex">
+                    <img
+                      className="hp-20 align-center mt-3 me-2 mb-2"
+                      src="images/page_028/img_001.svg"
+                      alt=""
+                    />
+                    <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">
+                      2
+                    </div>
+                    <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                      Creamos tres eslóganes o lemas sobre el valor de la
+                      diversidad.
+                    </div>
                   </div>
                 </div>
               </div>
+
+              <div className="col-6 position-relative">
+                <div className="d-flex position-relative bgc-white box-shadow-simple mtp-20 psp-20 pep-20 ptp-20">
+
+                  <div className="position-absolute top-0 start-50 translate-middle mtp--20 msp-0">
+                    <img src="images/page_028/img_001.png" className=" wp-40 position-absolute top-0 start-50 translate-middle-x" alt="" />
+                  </div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190" />
+                </div>
+                
+              </div>
+
+              <div className="col-6 position-relative">
+                <div className="d-flex position-relative bgc-white box-shadow-simple mtp-20 psp-20 pep-20 ptp-20">
+
+                  <div className="position-absolute top-0 start-50 translate-middle mtp--20 msp-0">
+                    <img src="images/page_028/img_001.png" className=" wp-40 position-absolute top-0 start-50 translate-middle-x" alt="" />
+                  </div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190" />
+                  
+                </div>
+              </div>
+
+              <div className="col-6 position-relative">
+                <div className="d-flex position-relative bgc-white box-shadow-simple mtp-20 psp-20 pep-20 ptp-20">
+
+                  <div className="position-absolute top-0 start-50 translate-middle mtp--20 msp-0">
+                    <img src="images/page_028/img_001.png" className=" wp-40 position-absolute top-0 start-50 translate-middle-x" alt="" />
+                  </div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190" />
+                  
+                </div>
+              </div>
+
             </div>
 
-            <div className="col-6 position-relative">
-              <img
-                src="images/page_028/img_001.png"
-                className=" wp-40 position-absolute top-0 start-50 translate-middle-x"
-                alt=""
-              />
-              <div className=" borde-28 mep-20 mtp-20 "></div>
-            </div>
-
-            <div className="col-6 position-relative">
-              <img
-                src="images/page_028/img_001.png"
-                className=" wp-40 position-absolute top-0 start-50 translate-middle-x "
-                alt=""
-              />
-              <div className=" borde-28-1 mep-20 mtp-20 msp-20"></div>
-            </div>
-
-            <div className="col-6 position-relative">
-              <img
-                src="images/page_028/img_001.png"
-                className=" wp-40 position-absolute top-0 start-50 translate-middle-x"
-                alt=""
-              />
-              <div className=" borde-28-2 mep-20 mtp-30 "></div>
-            </div>
           </div>
 
           <div className="row container-row m-0 psp-60 pep-60">
@@ -100,10 +114,7 @@ function Page028(props) {
               />
               <div className=" margen-21 mtp-30 mbp-80 w-100">
                 <div className=" w-100  borde-28-4 p-2  min-hp-400">
-                  <InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-390"
-                  />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-390" />
                 </div>
               </div>
             </div>
@@ -142,6 +153,8 @@ function Page028(props) {
 
 
           </div>
+
+
 
           {/* BEGIN PIE DE PAGINA */}
           <div

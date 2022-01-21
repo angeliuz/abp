@@ -53,13 +53,7 @@
 .border-color-papel {
   border-color: #afa394;
 }
-.flecha-bulma {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 7px 0 7px 10px;
-  border-color: transparent transparent transparent var(--ken);
-}
+
 .min-hp-135 {
   min-height: 135px;
 }

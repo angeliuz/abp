@@ -119,7 +119,7 @@ function Page044(props) {
 
 
           <div className="d-flex msp-100 mep-60 position-relative "> 
-            <div className="cb-ep-paper   p-1 hp-255 w-90">
+            <div className="cb-ep-paper p-1 hp-250 w-90">
                 <div className="cb-ep-paper-content hp-250"></div>
             </div> 
              

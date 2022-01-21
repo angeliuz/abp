@@ -54,7 +54,7 @@ function Page025(props) {
               <div className="f-pixilate-regular fsp-18">Situación</div>
               <InputBox
                 id={"p" + pagina + "_input" + (indexInput += 1)}
-                className="p-0 px-1 flex-grow-1 contenedor-linea lhp-25 min-hp-80"
+                className="p-0 px-1 flex-grow-1 contenedor-linea text-start lhp-25 min-hp-80"
               />
             </div>
             <div className="row ptp-15">
@@ -66,12 +66,12 @@ function Page025(props) {
                     </div>
                     <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 contenedor-linea lhp-25 min-hp-40"
+                    className="p-0 px-1 flex-grow-1 contenedor-linea text-start  lhp-25 min-hp-40"
                   />
                   </div>
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 contenedor-linea lhp-25 min-hp-140 mtp-10"
+                    className="p-0 px-1 flex-grow-1 contenedor-linea text-start lhp-25 min-hp-140 mtp-10"
                   />
                 </div>
               </div>
@@ -83,12 +83,12 @@ function Page025(props) {
                     </div>
                     <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 contenedor-linea lhp-25 min-hp-40"
+                    className="p-0 px-1 flex-grow-1 contenedor-linea text-start lhp-25 min-hp-40"
                   />
                   </div>
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 contenedor-linea lhp-25 min-hp-140 mtp-10"
+                    className="p-0 px-1 flex-grow-1 contenedor-linea text-start lhp-25 min-hp-140 mtp-10"
                   />
                 </div>
               </div>
@@ -102,12 +102,12 @@ function Page025(props) {
                     </div>
                     <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 contenedor-linea lhp-25 min-hp-40"
+                    className="p-0 px-1 flex-grow-1 contenedor-linea text-start lhp-25 min-hp-40"
                   />
                   </div>
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 contenedor-linea lhp-25 min-hp-140 mtp-10"
+                    className="p-0 px-1 flex-grow-1 contenedor-linea text-start lhp-25 min-hp-140 mtp-10"
                   />
                 </div>
               </div>
@@ -119,12 +119,12 @@ function Page025(props) {
                     </div>
                     <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 contenedor-linea lhp-25 min-hp-40"
+                    className="p-0 px-1 flex-grow-1 contenedor-linea text-start lhp-25 min-hp-40"
                   />
                   </div>
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 contenedor-linea lhp-25 min-hp-140 mtp-10"
+                    className="p-0 px-1 flex-grow-1 contenedor-linea text-start lhp-25 min-hp-140 mtp-10"
                   />
                 </div>
               </div>
@@ -133,7 +133,7 @@ function Page025(props) {
                 <div className="f-Ubuntu-L"> Nosotros opinamos que en este caso...</div>
                 <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 contenedor-linea lhp-25 min-hp-180"
+                    className="p-0 px-1 flex-grow-1 contenedor-linea text-start lhp-25 min-hp-180"
                   />
                   <img src="images/page_025/img_004.png" className="position-absolute start-0 top-0 translate-middle mtp-35 msp--5" alt="" />
             </div>

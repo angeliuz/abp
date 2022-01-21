@@ -6,6 +6,12 @@ import "./page_021.css";
 function Page021(props) {
   const pagina = "021";
   var indexInput = 0;
+  const etapa = "3"
+  const background = "bgc-android18";
+  const color = "color-android18";
+  const colorSesion = "color-primary";
+  const borderColor = "border-color-android18"
+  const bgc_cajas = "bgc-goku";
 
   return (
     <div className="wrapper bgc-light">
@@ -16,7 +22,7 @@ function Page021(props) {
         >
           <div className="cabecera-21 bgc-android18 d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 align-items-center ptp-40 psp-30 pep-30">
-              <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-balrog fsp-24 f-IntroRustG-Base">
+            <div className={"caja wp-150 text-center fsp-24 f-IntroRustG-Base "+colorSesion}>
                 SESIÓN 4
               </div>
               <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">

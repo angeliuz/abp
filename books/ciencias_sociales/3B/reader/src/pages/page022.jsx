@@ -7,6 +7,12 @@ import "./page_022.css";
 function Page022(props) {
   const pagina = "022";
   var indexInput = 0;
+  const etapa = "3"
+  const background = "bgc-android18";
+  const color = "color-android18";
+  const colorSesion = "color-primary";
+  const borderColor = "border-color-android18"
+  const bgc_cajas = "bgc-goku";
 
   return (
     <div className="wrapper bgc-light">
@@ -17,30 +23,23 @@ function Page022(props) {
         >
           <div className="cabecera-v1 hp-80 bgc-android18"></div>
 
-          <div className="ptp-30 psp-60 ">
-            <div className="f-Ubuntu-M fsp-20 color-android18 text-start">
-              ¡Tenemos derechos!
-            </div>
+          <div className="ptp-30 container-titulo-global mbp-20">
+                  <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>¡Tenemos derechos!</div>
+                    <div className="d-flex">
+                        {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_001.svg"} alt=""  /> */}
+                        <div className={"f-ccdigitaldelivery-bold fsp-35 "+color}>2</div>
+                        <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                        Leo la revista y contesto.
+                        </div>
+                        {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+                        {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
+                        {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
+                        <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+                    </div>
           </div>
 
-          <div className="ptp-10 container-titulo-global mbp-0">
-            <div className="d-flex">
-              <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">
-                2
-              </div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Leo la revista y contesto.
-              </div>
-              <ModalBook
-                id={"p" + pagina + "_book" + (indexInput += 1)}
-                image="images/page_022/img_001.svg"
-                clasesImagen="hp-40 text-center mtp-15 msp--10"
-                className="p-0 px-0"
-              />
-            </div>
-          </div>
 
-          <div className="row">
+          <div className="row psp-60 pep-60">
             <div className="col-3"></div>
             <div className="col-6">
               <div className="w-100 borde-22 border-style-solid border-2 f-Ubuntu-R fsp-18 ptp-10 pbp-10 psp-10 pep-10 text-center mtp-10 rounded-p-10">
@@ -51,13 +50,12 @@ function Page022(props) {
 
             <div className="col-5">
               <div className="bgc-white rounded-p-10 borde-22-1 border-style-solid border-2 mtp-30 msp-30">
-                <div className="d-flex ptp-20 ">
+                <div className="d-flex ptp-0 ">
                   <div className="px-3 flex-shrink-1 style-num color-pidgey">
-                    1
+                    1.
                   </div>
                   <div className="px-3 w-100">
-                    <div className="linea position-relative mtp-15 mbp-25"></div>
-                    <div className="linea position-relative mtp-15 mbp-20"></div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-90"/>
                   </div>
                 </div>
               </div>
@@ -67,13 +65,12 @@ function Page022(props) {
 
             <div className="col-5">
               <div className="bgc-white rounded-p-10 borde-22-1 border-style-solid border-2 mtp-30 mep-30">
-                <div className="d-flex ptp-20 ">
+                <div className="d-flex ptp-0 ">
                   <div className="px-3 flex-shrink-1 style-num color-pidgey">
-                    2
+                    2.
                   </div>
                   <div className="px-3 w-100">
-                    <div className="linea position-relative mtp-15 mbp-25"></div>
-                    <div className="linea position-relative mtp-15 mbp-20"></div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-90"/>
                   </div>
                 </div>
               </div>
@@ -116,17 +113,14 @@ function Page022(props) {
                 Opinamos que esta noticia…
               </div>
 
-              <InputBox
-                id={"p" + pagina + "_input" + (indexInput += 1)}
-                className="p-4 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190"
-              />
+              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190"/>
             </div>
           </div>
 
           <div className="ptp-10 container-titulo-global mbp-0">
             <div className="d-flex">
               <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">
-                3
+                4
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                 Buscamos un libro que hable sobre los derechos de la niñez para
@@ -141,8 +135,8 @@ function Page022(props) {
           </div>
 
           <div className="row">
-            <div className="col-sm-12 col-md-6">
-            <div className="position-absolute libro1">
+            <div className="col-sm-12 col-md-6 position-relative">
+            <div className="position-absolute top-0 start-0 translate-middle mtp-80 msp--30">
               <img
                 src="images/page_022/img_006.png"
                 className="  msp-180 mbp-90"
@@ -164,7 +158,7 @@ function Page022(props) {
 
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-4 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
+                  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
                 />
               </div>
             </div>
@@ -185,7 +179,7 @@ function Page022(props) {
 
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-4 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
+                  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
                 />
               </div>
             </div>

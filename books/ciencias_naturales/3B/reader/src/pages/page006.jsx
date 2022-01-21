@@ -35,7 +35,7 @@ function Page006(props) {
                                       <span className="fsp-16 f-IntroRustG-Base text-start"> 
                                       COMPRENDER
                                         <span className="fsp-16 text-start f-pixilate-regular">
-                                          <br /> con el desafío.
+                                          <br /> y aceptar el desafío.
                                         </span> 
                                       </span>
                                     </div>   
@@ -53,7 +53,7 @@ function Page006(props) {
                                         <span className="fsp-16 f-IntroRustG-Base text-start"> 
                                         COMFORMAR
                                         </span> 
-                                        <br />el trabajo y comprometernos a trabajar.
+                                        <br /> el equipo y comprometernos a trabajar.
                                       </span>
                                     </div> 
                                 </div>

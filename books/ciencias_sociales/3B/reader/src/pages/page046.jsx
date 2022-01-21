@@ -42,7 +42,7 @@ function Page046(props) {
                             
                                     <div className="d-flex justify-content-center w-100 padding-box-18-1">
 
-                                            <div className=""> <img className="w-130 position-relative" src="images/page_046/img_002.png" alt="" /> 
+                                            <div className=""> <img className="w-100 position-relative" src="images/page_046/img_002.png" alt="" /> 
                                                 <div className="position-absolute top-50 start-50 translate-middle w-100">
                                                     <div className="msp-30 mep-20">
                                                         <div className=" linea1 min-hp-150 p-2  ">
@@ -72,7 +72,8 @@ function Page046(props) {
                                     </div>
                                     <div className="col-7 d-flex justify-content-center hp-250  ">
                                         <div className="position-relative "><img className="hp-220 align-center  " src="images/page_046/img_004.png" alt="" />
-                                            <img className="hp-50 align-center   position-absolute top-0 end-0 mtp--5 mep-10 " src="images/page_046/img_003.svg" alt="" />
+                                            <img className="hp-50 align-center position-absolute top-0 end-0 mtp--5 mep-10 " src="images/page_046/img_003.svg" alt="" />
+                                            
                                         </div>
                                     </div>
 

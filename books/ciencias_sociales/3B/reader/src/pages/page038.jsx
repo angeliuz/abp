@@ -28,9 +28,9 @@ function Page038(props) {
             <div className="ptp-10 psp-100 pep-80 mbp-0 contenedor-pagina">
               <div className="col-md-12 col-lg-12 mbp-10 position-relative">
                 <div className="mbp-20 mtp-10 msp-20 mep-20">
-                  <div className="bloque-respuesta linea1 bgc-jugador001 min-hp-530 p-2">
+                  <div className="bloque-respuesta linea1 bgc-jugador001 hp-540 p-2">
                     <div className="f-Ubuntu-L fsp-15 p-1 text-center">Escribimos diez acciones de respeto y tolerancia a la diversidad.</div>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-530" />
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-500" />
                   </div>
                 </div>
               </div>

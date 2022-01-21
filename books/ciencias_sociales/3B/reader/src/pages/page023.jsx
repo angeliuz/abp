@@ -89,7 +89,7 @@ function Page023(props) {
             </div>
           </div>
 
-          <div className="ptp-10 psp-100 pep-100 mbp-0 contenedor-pagina position-relative">
+          <div className="ptp-10 psp-60 pep-60 mbp-0 contenedor-pagina position-relative">
             <div className="position-absolute top-0 end-0 zindex-2 clip">
               <img
                 src="images/page_023/clip.png"

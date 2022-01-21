@@ -16,7 +16,7 @@ function Page043(props) {
                {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className="cabecera-v2 bgc-saitama d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja wp-150 text-center fsp-24 f-IntroRustG-Base">SESIÓN 11</div>
+              <div className="caja wp-150 text-center fsp-24 f-IntroRustG-Base color-saitama">SESIÓN 11</div>
               <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Tomamos decisiones</div>
             </div>
 
