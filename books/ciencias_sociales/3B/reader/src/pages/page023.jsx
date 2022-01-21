@@ -110,7 +110,7 @@ function Page023(props) {
               </div>
 
               <div className="col-md-7 position-relative pbp-20 ptp-15 rota-23">
-                <div className="bloque-respuesta-23 w-100 p-3 text-left bgc-draco rota">
+                <div className="box-shadow-simple w-100 p-3 text-left bgc-draco rota">
                   <div className="d-flex align-items-center pbp-10">
                     <div className="pep-10">
                     <div className="border-style-solid border-1 wp-30 hp-30 bgc-white">
