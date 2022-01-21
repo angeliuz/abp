@@ -20,7 +20,7 @@ function Page029(props) {
                     <div className=" psp-80 pep-70 ptp-30 pbp-0 ">
                         <div className="fsp-16 f-Ubuntu-B text-start psp-80 pbp-10">Este dosier fue completado por:</div>
                         <div className="psp-0 ptp-5 pbp-5 bgc-white rounded-p-10 border border-color-lightDark d-flex justify-content-center position-relative">
-                        <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-45 mtp--10"><img src="images/page_029/img_001.png" className="w-80" alt="" /></div>
+                        <div className="position-absolute top-50 start-0 translate-middle wp-100 mtp--10"><img src="images/page_029/img_001.png" className="w-80" alt="" /></div>
                         
                             <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-start lhp-35 w-75" />
                         </div>
@@ -33,12 +33,12 @@ function Page029(props) {
 
                     <div className="row m-0 p-2 w-100 ">
                         <div className="col-md-12 col-lg-12 position-relative">
-                        <div className="position-absolute top-0 end-0 wp-100 msp-45 mtp--80 "><img src="images/page_029/img_002.png" className="" alt="" /></div>
+                        <div className="position-absolute top-0 end-0 wp-100 msp-45 mtp--80 visible-768"><img src="images/page_029/img_002.png" className="" alt="" /></div>
                           
                            <div className="position-absolute top-50 start-0 msp-0 mtp-60 visible-768 "><img src="images/page_029/img_003.png" className=" " alt="" /></div> 
 
                             <div className="caja-29 d-flex flex-column mbp-20 mtp-10 p-2 w-100 border-style-solid border-2  ">
-                            <div className="col-md-12 col-lg-12 position-relative text-center f-Ubuntu-R fsp-15">Comprendimos que los derechos de la niñez son importantes porque…</div>
+                            <div className="col-md-12 col-lg-12 position-relative text-start f-Ubuntu-R fsp-15">Comprendimos que los derechos de la niñez son importantes porque…</div>
                                 <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-280" />
                             </div>
                         </div>

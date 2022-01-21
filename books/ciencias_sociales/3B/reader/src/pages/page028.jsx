@@ -88,7 +88,7 @@ function Page028(props) {
                 className=" hoja-28 position-absolute top-50 start-0 translate-middle"
                 alt=""
               />
-              <div className="borde-28-3 f-Ubuntu-R fsp-16 ptp-18 pbp-20 psp-20 pep-20 text-center">
+              <div className=" border-style-solid border-1 bgc-milena border-color-kitana rounded-p-10 f-Ubuntu-R fsp-16 ptp-18 pbp-20 psp-20 pep-20 text-center">
                 Creamos afiches con nuestros eslóganes para mostrar en nuestra
                 Fiesta de la Diversidad.{" "}
               </div>
@@ -113,7 +113,7 @@ function Page028(props) {
                 alt=""
               />
               <div className=" margen-21 mtp-30 mbp-80 w-100">
-                <div className=" w-100  borde-28-4 p-2  min-hp-400">
+                <div className=" w-100  border-style-solid border-4 border-color-urien rounded-set-20 p-2  min-hp-400">
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-390" />
                 </div>
               </div>
@@ -126,7 +126,7 @@ function Page028(props) {
                 alt=""
               />
               <div className=" margen-21 mtp-30 mbp-80 w-100">
-                <div className="w-100  borde-28-5 p-2 rounded-p-20 min-hp-400">
+                <div className="w-100  border-style-solid border-4 border-color-saitama rounded-set-20 p-2 min-hp-400">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-390"
@@ -142,7 +142,7 @@ function Page028(props) {
                 alt=""
               />
               <div className=" mtp-30 mbp-80 w-100">
-                <div className="w-100  borde-28-6 p-2 rounded-p-20 min-hp-400">
+                <div className="w-100  border-style-solid border-4 border-color-urien p-2 rounded-set-20 min-hp-400">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-390"
