@@ -109,7 +109,7 @@ function Page058(props) {
               <div className="psp-15 pep-20 f-Ubuntu-L bgc-white fsp-13 ">
                 <div className="d-flex justify-content-between ">
                   <div className="d-flex mnwp-400-r cb-contenedor-tabla-texto">
-                    <div className="flecha-pikachu pep-10 mtp-8"></div>
+                    <div className="flecha-saitama pep-10 mtp-8"></div>
                     <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
                       Estoy contento de haber trabajado en este proyecto.
                     </span>
@@ -154,7 +154,7 @@ function Page058(props) {
               <div className="psp-15 pep-20 f-Ubuntu-L bgc-white fsp-13">
                 <div className="d-flex justify-content-between ">
                   <div className="d-flex mnwp-400-r cb-contenedor-tabla-texto">
-                    <div className="flecha-pikachu pep-10 mtp-8"></div>
+                    <div className="flecha-saitama pep-10 mtp-8"></div>
                     <span className="text-left f-Ubuntu-L fsp-15 ptp-5">
                       Confié en mi capacidad para aprender y me valoré.
                     </span>
@@ -425,23 +425,11 @@ function Page058(props) {
 
           {/* PIE DE PAGINA */}
           <div
-            className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2"
-            style={{ bottom: 70, right: 0 }}
-          >
-            <div
-              className="f-Ubuntu-M fsp-10 position-absolute mbp-60"
-              style={{ transform: `rotate(270deg)`, color: "dark" }}
-            >
-              ABP &copy; SM
-            </div>
-            <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">
-              {props.numeroPagina(pagina)}
-            </div>
+            className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }} >
+            <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
+              ABP &copy; SM </div> <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5"> {props.numeroPagina(pagina)}</div>
           </div>
-          <div
-            className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end"
-            style={{ bottom: 0 }}
-          >
+          <div className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
             <div className="col-1 col-sm-2 p-0 m-0 position-relative">
               <img
                 src="images/rotulo_motivacion.svg"
