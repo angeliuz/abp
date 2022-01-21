@@ -7,6 +7,11 @@ function Page008(props) {
 
   const pagina = "008";
   var indexInput = 0;
+  const etapa = "1"
+  const background = "bgc-goten";
+  const color = "color-bulma";
+  const borderColor = "border-color-goten"
+  const bgc_cajas = "bgc-genos";
 
   return (
     <div className="wrapper bgc-light">
@@ -15,12 +20,26 @@ function Page008(props) {
           <div className="cabecera-v1 hp-80 bgc-goten"></div>
           {/* Cabecera*/}
 
-          <div className="ptp-10 psp-0 mbp-20 cb-padding">
-                    <div className="d-flex">
-                        <div className="f-ccdigitaldelivery-bold fsp-35 color-goten">3</div>
-                        <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">¿En qué consiste el desafío?</div>
-                    </div>
+            <div className="ptp-30 container-titulo-global mbp-40">
+                <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>
+                Tiempo de degradación de los desechos
                 </div>
+                <div className="d-flex">
+                    {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_002.svg"} alt=""  /> */}
+                    <div className={"f-ccdigitaldelivery-bold fsp-35 "+color}>
+                      3
+                    </div>
+                    <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                    ¿En qué consiste el desafío?
+                    </div>
+                    {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+                    {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
+                    {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
+                    {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+                </div>
+            </div>
+
+
                 <div className="cb-ejercicio-1-p08 ptp-20 psp-25 pbp-15  position-relative mbp-90 f-Ubuntu-R fsp-15">
                 <div className="d-flex mbp-10">
                     <div className="cb-box-a"></div>
@@ -40,43 +59,54 @@ function Page008(props) {
                     </div>
                     </div>
 
-                <div className="bgc-genos border-top-color cb-border-goten border-2 pbp-90 position-relative">
-                    <img src="images/page_008/img_002.png" className="cb-personajeacostado-p08" alt="" />
-                    <img src="images/page_008/img_003.png" className="cb-notas-p08" alt="" />
-                    <div className="cb-block-bottom-p08 mtp-30 f-pixilate-bold text-start">¿Cómo voy?</div>
-                    <div className=" cb-block-bottom-p08 p-2 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4 nat-page08"> 
+                    <div className={"d-flex w-100 mtp-50 psp-60 pep-60 ptp-20 mbp-0 border-top-style-solid "+borderColor+" border-2 pbp-80 "+bgc_cajas}>
+                          <div className="row w-100 p-0 m-0">
+                            <div className="col-12 position-relative">
 
-                        <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-10">
-                            <div className="d-flex"> <img src="images/page_006/arrow.svg" className="mep-5 cb-flecha" alt="" />
-                                <span className="w-24 f-Ubuntu-L">¿Qué sé del tema del desafío?</span> 
+
+                              
+                              <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0 visible-768"><img src={"images/page_"+pagina+"/img_001.png"} className="wp-60" alt="" /></div> 
+                              <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
+                              <div className="d-flex flex-column mbp-20 mtp-10 w-100">
+                                    <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
+                                      <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
+                                        <img src={"images/generales/flecha_e"+etapa+".svg"} className="mep-5 wp-15" alt="" /> 
+                                        <span>¿Qué sé del tema del desafío?</span>
+                                      </div>
+                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-20" />
+                                      <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 mtp-20 text-start">
+                                        <img src={"images/generales/flecha_e"+etapa+".svg"} className="mep-5 wp-15" alt="" /> 
+                                        <span>¿Qué necesito saber para realizar el desafío?</span>
+                                      </div>
+                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                                      
+                                    </div>
+
+                                </div>
                             </div>
-                       
-                            <div className="pt-2  flex-grow-1 linea " contenteditable="true">&nbsp;</div>
-                          </div>                      
-                          <div className="linea mtp-30 mbp-30"></div>
-                          <div className="linea mtp-30 mbp-30"></div>
-                          
-                        <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-10">
-                            <div className="d-flex"> <img src="images/page_006/arrow.svg" className="mep-5 cb-flecha" alt="" />
-                                <span className="w-24 f-Ubuntu-L">¿Qué necesito saber para realizar el desafío?</span>   
-                            </div>                  
-                          <div className="pt-2 flex-grow-1 linea " contenteditable="true">&nbsp;</div>
-                        </div>                      
-                        <div className="linea mtp-30"></div>
-                    </div>
-                    <div className="cb-block-bottom-p08 mtp-60 f-pixilate-bold text-start">¿Cómo me siento?</div>
-                    <div className="cb-block-bottom-p08 p-2 pb-2 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4">               
-                        <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-10">
-                            <div className="d-flex"> <img src="images/page_006/arrow.svg" className="mep-5 cb-flecha" alt="" />
-                                <span className="w-24 f-Ubuntu-L">¿Cómo me siento ante el desafío?</span> 
-                            </div>                      
-                            <div className="pt-2  flex-grow-1 linea " contenteditable="true">&nbsp;</div>
-                          </div>                      
-                          <div className="linea mtp-30"></div>
-                          <div className="linea mtp-30 mbp-30"></div>
-                    </div>
 
-                </div>
+                            <div className="col-12 position-relative">
+                              
+                              <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo me siento?</div>
+                              <div className="d-flex flex-column mbp-20 mtp-10 w-100">
+                                    <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
+                                      <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
+                                        <img src={"images/generales/flecha_e"+etapa+".svg"} className="mep-5 wp-15" alt="" /> 
+                                        <span>¿Cómo me siento ante el desafío?</span>
+                                      </div>
+                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-20" />
+                                      
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                          </div>
+              </div>
+
+
+             
             {/* PIE DE PAGINA */}
             <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
               <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>

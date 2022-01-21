@@ -52,7 +52,7 @@ function Page029(props) {
                            <div className="position-absolute top-0 start-100 msp--70 mtp--15 visible-768"><img src="images/page_029/img_004.png" className=" " alt="" /></div> 
 
                             <div className="d-flex flex-column mbp-20 mtp-20 p-2 w-100 border-style-solid border-2 border-color-dark bgc-white">
-                                <div className="col-md-12 col-lg-12 position-relative text-start f-Ubuntu-R fsp-15 psp-10">Lo que de esta investigaci n nos sirve para nuestro proyecto es…</div>
+                                <div className="col-md-12 col-lg-12 position-relative text-start f-Ubuntu-R fsp-15 psp-10">Lo que de esta investigación nos sirve para nuestro proyecto es…</div>
                                 <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
                             </div>
                         </div>
