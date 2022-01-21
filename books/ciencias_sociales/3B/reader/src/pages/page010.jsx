@@ -7,7 +7,11 @@ function Page010(props) {
 
   const pagina = "010";
   var indexInput = 0;
-
+  const etapa = "1"
+  const background = "bgc-goten";
+  const color = "color-bulma";
+  const borderColor = "border-color-goten"
+  const bgc_cajas = "bgc-genos"
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
@@ -49,21 +53,22 @@ function Page010(props) {
         </div>
           <div className="pbp-90">
             <div className="cb-block-bottom-p10 mtp-30 f-pixilate-bold text-start">¿Cómo vamos?</div>
-            <div className="cb-block-bottom-p10 p-2 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4">
-              <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-10 position-relative">
-                <div className="d-flex"> <img src="images/page_010/arrow.svg" className="mep-5 cb-flecha" alt=""/>
-                  <span className="w-24 f-Ubuntu-L text-start">Una fortaleza de nuestro equipo podría ser...</span>
+              <div className=" cb-block-bottom-p10 d-flex flex-column mbp-20 mtp-10 w-100">
+                    <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
+                      <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
+                        <img src={"images/generales/flecha_e"+etapa+".svg"} className="mep-5 wp-15" alt="" /> 
+                        <span>¿Qué sé del tema del desafío?</span>
+                      </div>
+                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
+                      <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 mtp-20 text-start">
+                        <img src={"images/generales/flecha_e"+etapa+".svg"} className="mep-5 wp-15" alt="" /> 
+                        <span>¿Qué necesito saber para realizar el desafío?</span>
+                      </div>
+                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
+                      
+                    </div>
+
                 </div>
-              </div>
-              <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
-              <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-10 position-relative">
-                <img src="images/page_010/img_005.png" className="cb-personaje-p10" alt=""/>
-                <div className="d-flex"> <img src="images/page_010/arrow.svg" className="mep-5 cb-flecha" alt=""/>
-                  <span className="w-24 f-Ubuntu-L text-start">¿Qué desafíos enfrentamos como equipo en este proyecto?</span>
-                </div>
-              </div>
-              <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
-            </div>
           </div>
             {/* Begin pie de página */}
             <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>

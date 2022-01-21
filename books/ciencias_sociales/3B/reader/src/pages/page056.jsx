@@ -27,31 +27,31 @@ function Page056(props) {
                         <div className="cb-ejercicio-1-p56 ptp-20 psp-25 pbp-15 pep-10 position-relative mbp-10">
                             <div>
                             <div className="d-flex mbp-10">
-                                <div className="cb-box-a"></div>
+                                <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
                                 <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12"> Tenemos nuestro  stand cultural con:</div>
                             </div>
                                 <div className="cb-interior-lista d-flex justify-content-between">
                                     <div className="cb-opcion-a">
                                     <div className="d-flex mbp-10">
-                                        <div className="cb-box-a"></div>
+                                        <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
                                         <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Música.</div>
                                     </div>
                                     <div className="d-flex mbp-10">
-                                        <div className="cb-box-a"></div>
+                                        <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
                                         <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Gastronomía.</div>
                                     </div>
                                     <div className="d-flex mbp-10">
-                                        <div className="cb-box-a"></div>
+                                        <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
                                         <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Obras literarias.</div>
                                     </div>
                                 </div>
                                 <div className="cb-opcion-b">
                                     <div className="d-flex mbp-10">
-                                        <div className="cb-box-a"></div>
+                                        <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
                                         <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Obras artísticas.</div>
                                     </div>
                                     <div className="d-flex mbp-10">
-                                        <div className="cb-box-a"></div>
+                                        <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
                                         <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Otros.</div>
                                     </div>
 
@@ -59,19 +59,19 @@ function Page056(props) {
                                 </div>
                                 </div>
                                 <div className="d-flex mbp-10">
-                                    <div className="cb-box-a"></div>
-                                    <div className="msp-10 justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Tenemos nuestros eslóganes <br /> sobre diversidad.</div>
+                                    <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
+                                    <div className="msp-10 justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12 text-start">Tenemos nuestros eslóganes <br /> sobre diversidad.</div>
                                     </div>
                                 <div className="d-flex mbp-10">
-                                    <div className="cb-box-a"></div>
+                                    <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
                                     <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Tenemos nuestros gráficos <br /> de las encuestas de diversidad.</div>
                                 </div>
                                 <div className="d-flex mbp-10">
-                                    <div className="cb-box-a"></div>
+                                    <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
                                     <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Tenemos nuestro decálogo de principios <br /> de respeto y tolerancia a la diversidad.</div>
                                 </div>
                                 <div className="d-flex mbp-10">
-                                    <div className="cb-box-a"></div>
+                                    <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
                                     <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Enviamos las invitaciones.</div>
                                 </div>
                                 </div>
@@ -85,7 +85,7 @@ function Page056(props) {
                         <div className="pep-10 psp-10">
                             <img src="images/page_056/img_001.png" className="cb-objeto-p56" alt="" />
                             <div className="text-start ptp-10 pbp-10 f-pixilate-regular fsp-15">Lo que nos falta...</div>
-
+                            <div className="text-start" contenteditable="true"></div>
                         </div>
                         </div>
                         <div className="cb-ejercicioinicial-cajas cb-rotate-02 position-relative">
@@ -93,7 +93,7 @@ function Page056(props) {
                             <img src="images/page_056/img_001.png" className="cb-objeto-p56" alt="" />
                             <img src="images/page_056/img_003.png" className="cb-mujer-p56" alt=""/>
                             <div className="text-start ptp-10 pbp-10 f-pixilate-regular fsp-15">Necesitamos ayuda de...</div>
-
+                            <div className="text-start" contenteditable="true"></div>
                         </div>
                     </div>
                         </div>

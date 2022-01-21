@@ -1,92 +1,14 @@
-.cajota {
-  height: 800px;
-  margin-left: 40px;
-  margin-right: 40px;
 
 
-}
 
-.borde-22 {
 
-  border-color: red;
-  background-color: #c7e9f3;
-  border-color: #00accd;
-}
 
-.borde-22-1 {
 
-  border-color: #00accd;
-}
 
-.borde-22-2 {
-  border: 2px solid;
-  border-color: #55524f;
-  background-color: #f7f9d6;
-}
 
-.borde-22-3 {
-  border: 6px solid;
-  border-color: #bde7fa;
-  
-}
-.borde-22-4 {
-  border: 6px solid;
-  border-color: #bde7fa;
-  
-}
-.linea {
-  border-bottom: 1px dashed #dedede;
-  padding-top: 5px;
-  border-color: var(--dark);
-}
 
-.style-num {
-  font-size: 30px;
-  font-family: Ubuntu-M, sans-serif;
-  text-align: left !important;
-}
 
-.libro {
-  right: -23px;
-  top: -34px;
-}
 
-.libro1 {
-  left: -142px;
-  top: 836px;
-}
 
-.espiral1{
-  left: 93px;
-}
 
-.espiral2{
-  left: 139px;
-}
 
-@media (max-width: 767px) {
-  .borde-22-3 {
-  margin-left:60px;
-  margin-right:60px;
-  margin-bottom:20px;
-    
-  }
-
-  .borde-22-4{
-    margin-left:60px;
-    margin-bottom: 60px;
-  }
-
-  .espiral1{
-    display: none;
-  }
-
-  .espiral2{
-    display: none;
-  }
-
-}
-
-@media (max-width: 992px) {}
-
-@media (max-width: 576px) {}

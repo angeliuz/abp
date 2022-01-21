@@ -57,14 +57,14 @@ function Page023(props) {
           </div>
 
           <div className="d-flex msp-60 mep-60 position-relative mtp-30">
-            <div className="position-absolute dibujo">
+            <div className="position-absolute top-0 start-100 translate-middle msp--150 visible-768">
               <img
                 src="images/page_023/img_001.png"
                 className="  msp-180 mbp-90"
                 alt=""
               />
             </div>
-            <div className="borde-23 p-3 hp-250 w-100 ">
+            <div className="border-style-solid border-2 p-3  w-100 bgc-beethoven">
               <div>
                 <img
                   src="images/page_023/img_004.png"
@@ -78,7 +78,7 @@ function Page023(props) {
 
               <InputBox
                 id={"p" + pagina + "_input" + (indexInput += 1)}
-                className="p-4 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190"
+                className="p-0 px-1  fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170"
               />
             </div>
           </div>
@@ -170,11 +170,11 @@ function Page023(props) {
           </div>
 
           <div className="row container-row m-0 psp-60 pep-60">
-          <div className="col-sm-12 col-md-4 position-relative">
+            <div className="col-sm-12 col-md-4 position-relative">
               <div className="d-flex margen-21 mbp-60 mtp-10 w-100 ">
-                <div className="p-2  w-100 borde-23-1  rounded-tbe-20 ">
+                <div className="p-2  w-100 border-style-solid border-4 border-color-raiden rounded-tbe-20 ">
                   <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-start">
-                    Durante la investigación queremos profundizar sobre…
+                    Lo que más nos interesaría saber de esta institución <br/>es…
                   </div>
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -183,9 +183,10 @@ function Page023(props) {
                 </div>
               </div>
             </div>
+
             <div className="col-sm-12 col-md-4 position-relative">
               <div className="d-flex margen-21 mbp-60 mtp-10 w-100 ">
-                <div className="p-2  w-100 borde-23-2  rounded-tbe-20 ">
+                <div className="p-2  w-100 border-style-solid border-4 border-color-vegeta rounded-tbe-20 ">
                   <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-start">
                     Durante la investigación queremos profundizar sobre…
                   </div>
@@ -198,7 +199,7 @@ function Page023(props) {
             </div>
             <div className="col-sm-12 col-md-4 position-relative">
               <div className="d-flex  mbp-60 mtp-10 w-100 ">
-                <div className="p-2 min-hp-100 w-100  borde-23-3  rounded-tbe-20 ">
+                <div className="p-2 min-hp-100 w-100  border-style-solid border-4 border-color-leia  rounded-tbe-20 ">
                   <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-start">
                     Al terminar, lo que quisiéramos saber sobre esta
                     institución…

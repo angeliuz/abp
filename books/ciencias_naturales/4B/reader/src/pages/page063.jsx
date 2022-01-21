@@ -77,7 +77,7 @@ function Page063(props) {
 
                  <div className=" psp-60 psp-40 mtp-20  ">
                       <div className="bgc-white hp-400 p-2 caja-dibujo-400    border-style-solid border-2 border-color-dark positon-relative">
-                      <div className=" position-absolute top-100 start-0 translate-middle   mtp--30 "><img className="hp-100" src="images/page_063/img_005.png" alt="" /></div>
+                      <div className=" position-absolute top-100 start-0 translate-middle  visible-768  mtp--30 "><img className="hp-100" src="images/page_063/img_005.png" alt="" /></div>
                       <div className=" position-absolute top-0 end-0  mtp--25 "><img className="hp-50" src="images/page_063/img_006.png" alt="" /></div>
                       </div>   
                    

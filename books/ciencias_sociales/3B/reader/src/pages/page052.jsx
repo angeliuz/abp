@@ -22,15 +22,15 @@ function Page052(props) {
                 
                 <div className="w-95 d-flex justify-content-around ptp-50">
                     <div className="row  ">
-                        <div className="col-6  ">
-                            <div className="d-flex-align-items-center position-relative">
+
+                        <div className="col-lg-6 col-md-12 bgc-red hp-180">
+                            <div className="d-flex align-items-center  justify-content-center position-relative">
                             <div className="d-flex align-items-center justify-content-center hp-30 "><img src="images/page_052/img_010.svg" className="hp-120  " alt=""></img></div>
                                 <div className="position-absolute d-flex justify-content-center  top-50 start-50 translate-middle text-center f-Ubuntu-R fsp-15 "> ¡Solo nos queda preparar nuestra fiesta e invitar a la comunidad educativa!</div>                         
-                            </div>
-                           
-                              
+                            </div>                             
                         </div>
-                        <div className="col-6  ">
+
+                        <div className="col-lg-6 col-md-12 bgc-yellow  ">
                             <div className="d-flex-align-items-end position-relative">
                                 <div className="d-flex align-items-center justify-content-center hp-30 "><img src="images/page_052/img_009.png" className="hp-220  " alt=""></img></div>
                                     <div className="position-absolute d-flex justify-content-center  top-50 start-50 translate-middle  f-Ubuntu-R fsp-15 ">  
@@ -42,10 +42,8 @@ function Page052(props) {
                                     </div>
                                     </div>                         
                                 </div>
-                        </div>
+                        </div> 
 
-
- 
                     </div>
                 </div>
                 

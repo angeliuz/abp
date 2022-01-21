@@ -42,19 +42,19 @@ function Page008(props) {
 
                 <div className="cb-ejercicio-1-p08 ptp-20 psp-25 pbp-15  position-relative mbp-90 f-Ubuntu-R fsp-15">
                 <div className="d-flex mbp-10">
-                    <div className="cb-box-a"></div>
+                    <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
                     <div className="msp-10 justify-content-center align-items-center d-flex"> Crear una campaña.</div>
                     </div>
                     <div className="d-flex mbp-10">
-                        <div className="cb-box-a"></div>
+                        <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
                         <div className="msp-10 justify-content-center align-items-center d-flex">Elaborar una revista..</div>
                         </div>
                     <div className="d-flex mbp-10">
-                        <div className="cb-box-a"></div>
+                        <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
                         <div className="msp-10 justify-content-center align-items-center d-flex">Organizar una fiesta.</div>
                     </div>
                     <div className="d-flex mbp-10">
-                        <div className="cb-box-a"></div>
+                        <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
                         <div className="msp-10 justify-content-center align-items-center d-flex">Organizar una fiesta.</div>
                     </div>
                     </div>
@@ -73,12 +73,12 @@ function Page008(props) {
                                         <img src={"images/generales/flecha_e"+etapa+".svg"} className="mep-5 wp-15" alt="" /> 
                                         <span>¿Qué sé del tema del desafío?</span>
                                       </div>
-                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-20" />
+                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
                                       <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 mtp-20 text-start">
                                         <img src={"images/generales/flecha_e"+etapa+".svg"} className="mep-5 wp-15" alt="" /> 
                                         <span>¿Qué necesito saber para realizar el desafío?</span>
                                       </div>
-                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
                                       
                                     </div>
 
@@ -94,7 +94,7 @@ function Page008(props) {
                                         <img src={"images/generales/flecha_e"+etapa+".svg"} className="mep-5 wp-15" alt="" /> 
                                         <span>¿Cómo me siento ante el desafío?</span>
                                       </div>
-                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-20" />
+                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
                                       
                                     </div>
 

@@ -83,23 +83,23 @@ function Page007(props) {
           <div className="cb-ejercicio-2-p07 ptp-15 psp-15 pbp-15 border-color-leia border position-relative mbp-70">
             <img src="images/page_007/img_004.png" className="cb-personaje-p07" alt="" />
                 <div className="d-flex mbp-10">
-                  <div className="cb-box-a"></div>
+                  <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
                   <div className="msp-10 justify-content-center align-items-center d-flex"> Todos somos únicos.</div>
                 </div>
                 <div className="d-flex mbp-10">
-                    <div className="cb-box-a"></div>
+                    <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
                     <div className="msp-10 justify-content-center align-items-center d-flex">Todos somos diferentes.</div>
                 </div>
                 <div className="d-flex mbp-10">
-                    <div className="cb-box-a"></div>
+                    <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
                     <div className="msp-10 justify-content-center align-items-center d-flex">Hay que ignorar la diversidad.</div>
                 </div>
                 <div className="d-flex mbp-10">
-                    <div className="cb-box-a"></div>
+                    <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
                     <div className="msp-10 justify-content-center align-items-center d-flex">Tenemos que tolerar la diversidad.</div>
                 </div>
                 <div className="d-flex mbp-10">
-                    <div className="cb-box-a"></div>
+                    <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
                     <div className="msp-10 justify-content-center align-items-center d-flex">Es importante respetar la diversidad.</div>
                 </div>
             </div>

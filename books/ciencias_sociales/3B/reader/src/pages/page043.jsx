@@ -64,7 +64,7 @@ function Page043(props) {
 
 
 
-          <div className="row w-100  psp-60 pep-60"> 
+          <div className="row w-100  psp-60 pep-60 mbp-70"> 
            
             <div className="col-lg-4 col-md-12  ">
               <div className="d-flex">
@@ -109,7 +109,7 @@ function Page043(props) {
                           </div>
                       </div>
 
-                      <div><img src="images/page_043/img_006.png" className="position-absolute bottom-0 start-0 wp-100 ms--30 " alt=""></img></div> 
+                      <div><img src="images/page_043/img_006.png" className="position-absolute bottom-0 start-0 wp-100 ms--30 visible-768" alt=""></img></div> 
                     </div>
                   </div>
             </div>

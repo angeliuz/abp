@@ -33,7 +33,7 @@ function Page061(props) {
                     
                   <div className="row d-flex justify-content-center bgc-bobafett rounded-p-20  position-relative  ">
 
-                   <div className="col-5  p-1 m-0">
+                   <div className="col-5 col-sm-12 p-1 m-0">
                      <div className="h-100 mbp-20 border-style-solid border-1 border-color-saitama bgc-white">
 
                             <div className="ptp-10 psp-10 pep-25 mbp-0">
