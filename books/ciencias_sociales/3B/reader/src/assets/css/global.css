@@ -122,11 +122,18 @@ body {
 .visible-768{
   visibility: visible;
 }
+.visible-991{
+  visibility: visible;
+}
+ 
 
 .invisible-695{
   visibility: hidden;
 }
 .invisible-768{
+  visibility: hidden;
+}
+.invisible-991{
   visibility: hidden;
 }
 
