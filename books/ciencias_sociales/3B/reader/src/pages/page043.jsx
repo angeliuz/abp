@@ -93,7 +93,7 @@ function Page043(props) {
           <div className="row w-100  psp-60 pep-60 mbp-70"> 
            
             <div className="col-lg-12 col-md-12 m-0 p-0 bgc-white d-flex justify-content-end position-relative ">
-            <div className="position-absolute top-50 start-0 translate-middle mtp-60 msp-80 zindex-1 visible-695"><img src={"images/page_"+pagina+"/img_006.png"} className="wp-100" alt="" /></div>
+            <div className="position-absolute top-50 start-0 translate-middle mtp-60 msp-105 zindex-1 visible-695"><img src={"images/page_"+pagina+"/img_006.png"} className="wp-100" alt="" /></div>
 
               <div className="w-100 d-flex justify-content-end mbp-70">
                     <div className="mt-2 border-style-solid border-2 border-color-goku bgc-jugador001 p-2 min-hp-340 wp-450 position-relative">

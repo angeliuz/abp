@@ -17,8 +17,8 @@ function Page051(props) {
                 <div className="position-relative w-100 mbp-40">
                     <div className=" psp-80 pep-70 ptp-30 pbp-0 ">
                         <div className="fsp-16 f-Ubuntu-B text-start  pbp-10">Esta página fue completada por:</div>
-                        <div className=" ptp-5 pbp-5 bgc-white rounded-p-10 border border-color-lightDark d-flex justify-content-start psp-15 position-relative">
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start lhp-35 w-75" />
+                        <div className=" ptp-5 pbp-5 bgc-white w-100 rounded-p-10 border border-color-lightDark d-flex justify-content-start psp-15 position-relative">
+                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start lhp-35 w-80" />
                         <div className="position-absolute top-50 start-0 translate-middle wp-100 msp--20 mtp--5"><img src="images/page_051/img_001.png" className="w-60" alt="" /></div>
                         <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--50 mtp--10"><img src="images/page_051/img_002.png" className="wp-120" alt="" /></div>
                         </div>
@@ -47,7 +47,7 @@ function Page051(props) {
 
                             <div className="position-absolute top-0 start-0 mep-50 mtp--10"><img className="hp-140" src="images/page_051/img_004.png" alt="" />
 
-                            <div className="position-absolute top-50 start-0 translate-middle-y  wp-260   msp-15 mep-20">
+                            <div className="position-absolute top-50 start-0 translate-middle-y  wp-200   msp-15 mep-20">
     
                                 <div className="d-flex align-items-center  w-100">
                         
@@ -71,10 +71,7 @@ function Page051(props) {
                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
                            </div>
                            </div>
-                            {/* <div className="d-flex flex-column mbp-20 mtp-20 p-2 w-100 hp-400 rounded-p-10 border-style-solid border-2 border-color-dark bgc-white">1
-                                   <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
-                 
-                            </div> */}
+                   
 
                         </div>
 

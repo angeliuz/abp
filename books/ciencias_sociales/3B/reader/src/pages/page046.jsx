@@ -45,7 +45,7 @@ function Page046(props) {
                                 </div>
 
                             <div className="d-flex">
-                                <div className="row w-100 d-flex justify-content-center">
+                                <div className="row w-100 d-flex justify-content-center position-relative">
                                     <div className="col-5 d-flex h-100  ">
                                         <div className="d-flex">
                                             {/* <img className="hp-15 align-center mt-3 me-2 mb-2" src="images/page_014/img_001.svg" alt="" /> */}
@@ -54,10 +54,13 @@ function Page046(props) {
                                             {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_045/img_001.svg" clasesImagen="hp-40 text-center msp-30 mtp-10 " className="p-0 px-0" /> */}
                         
                                         </div>  
+
+                                        <div className="position-absolute bottom-0 start-0    msp-90 mtp-5 zindex-1   visible-768"><img src={"images/page_"+pagina+"/img_005.png"} className="hp-120" /></div>
+            
                                         
                                     </div>
                                     <div className="col-7 d-flex justify-content-center hp-250  ">
-                                        <div className="position-relative">
+                                        <div className="position-relative  ">
                                         <div className="text-start position-absolute mtp-10 msp-10 w-100 pep-30" contenteditable="true"></div>
                                             <img className="hp-220 align-center w-100 " src="images/page_046/img_004.png" alt="" />
                                             <img className="hp-50 align-center position-absolute top-0 end-0 mtp--5 mep-10 " src="images/page_046/img_003.svg" alt="" />                                           

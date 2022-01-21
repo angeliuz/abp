@@ -61,21 +61,19 @@
 
   z-index: 1;
   width: 100%;
-  border: 1;
-  border-color:#7c6eb0;
   margin-left: 10px !important; 
-  margin-top: 120px;
+ 
   
 
  }
 
- .img-monito-45{
+ /* .img-monito-45{
   position: absolute;
   z-index: 4 !important;
   margin-left: -46px !important;
   
 }
- 
+  */
  
 }
  
