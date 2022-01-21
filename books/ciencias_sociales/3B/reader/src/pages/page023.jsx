@@ -78,7 +78,7 @@ function Page023(props) {
 
               <InputBox
                 id={"p" + pagina + "_input" + (indexInput += 1)}
-                className="p-4 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170"
+                className="p-0 px-1  fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170"
               />
             </div>
           </div>
