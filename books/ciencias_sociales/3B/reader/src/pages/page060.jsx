@@ -7,11 +7,20 @@ function Page060(props) {
 
   const pagina = "060";
   var indexInput = 0;
+  const etapa = "6"
+  const background = "bgc-pikachu";
+  const color = "color-pikachu";
+  const colorSesion = "color-pikachu";
+  const borderColor = "border-color-pikachu"
+  const borderColorTabla = "border-color-kokomi"
+  const bgc_cajas = "bgc-kokomi";
 
+  
   return (
-      <div className="wrapper bgc-light">
+    <div className="wrapper bgc-light">
         <div className="d-flex flex-column align-items-center pbp-20">
-          <div className="page cb-page59 bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
+            <div className={"dosier-e"+etapa+" page bgc-white overflow-hidden position-relative"} id={"page_"+pagina}>
+
           <div className="cb-ejercicioinicial-p60 mtp-90 mbp-30 psp-15 pep-15 pbp-10 ptp-50 mtp-20 position-relative">
                     <div className="cb-caja-inicial position-absolute p-2 d-flex align-items-center justify-content-center f-pixilate-regular">Ponernos de acuerdo fue...</div>
                     <div className="cb-bloque-1-p60 cb-caja-inicial-a position-absolute p-2 d-flex align-items-center justify-content-center f-pixilate-regular">Fácil</div>

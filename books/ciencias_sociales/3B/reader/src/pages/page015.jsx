@@ -9,7 +9,7 @@ function Page015(props) {
   var indexInput = 0;
 
   return (
-    <div className="wrapper bgc-light">
+    <div className="wrapper bgc-light f-Ubuntu-R">
       <div className="d-flex flex-column align-items-center pbp-20">
         <div
           className="page bgc-white overflow-hidden position-relative pbp-50"
@@ -38,7 +38,7 @@ function Page015(props) {
             </div>
             <div className="d-flex">
               <img
-                src="/images/page_015/img_002.svg"
+                src="images/page_015/img_002.svg"
                 className="pep-10 msp--40"
                 alt=""
               />
@@ -84,7 +84,7 @@ function Page015(props) {
             <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
               <div className="hp-80 mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
                 <img
-                  src="/images/page_015/img_004.png"
+                  src="images/page_015/img_004.png"
                   className="position-absolute top-0 start-100 translate-middle msp--15 mtp-5 hp-40 "
                   alt=""
                 />
@@ -120,7 +120,7 @@ function Page015(props) {
             <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
               <div className="hp-80 mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
                 <img
-                  src="/images/page_015/img_004.png"
+                  src="images/page_015/img_004.png"
                   className="position-absolute top-0 start-0 translate-middle msp-10 mtp-5 hp-40 "
                   alt=""
                 />
@@ -152,7 +152,7 @@ function Page015(props) {
             <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
               <div className="hp-80 mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
                 <img
-                  src="/images/page_015/img_004.png"
+                  src="images/page_015/img_004.png"
                   className="position-absolute top-0 start-100 translate-middle msp--15 mtp-5 hp-40 "
                   alt=""
                 />
@@ -184,7 +184,7 @@ function Page015(props) {
             <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
               <div className="hp-80 mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
                 <img
-                  src="/images/page_015/img_004.png"
+                  src="images/page_015/img_004.png"
                   className="position-absolute top-0 start-0 translate-middle msp-10 mtp-5 hp-40 "
                   alt=""
                 />
@@ -216,7 +216,7 @@ function Page015(props) {
             <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
               <div className="hp-80 mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
                 <img
-                  src="/images/page_015/img_004.png"
+                  src="images/page_015/img_004.png"
                   className="position-absolute top-0 start-100 translate-middle msp--15 mtp-5 hp-40 "
                   alt=""
                 />

@@ -8,25 +8,30 @@ function Page039(props) {
 
   const pagina = "039";
   var indexInput = 0;
+  const etapa = "4"
+  const background = "bgc-pidgey";
+  const color = "color-pidgey";
+  const colorSesion = "color-primary";
+  const borderColor = "border-color-pidgey"
+  const borderColorTabla = "border-color-pantro"
+  const bgc_cajas = "bgc-pantro";
 
   return (
 
     <div className="wrapper bgc-light">
-        <div className="d-flex flex-column align-items-center pbp-20">
-            <div className="cb-page39 page bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
-                <img src="images/page_039/cabecera.svg" className="cb-dossier" alt=""/>
+      <div className="d-flex flex-column align-items-center pbp-20">
+          <div className={"dosier-e"+etapa+" page bgc-white overflow-hidden position-relative"} id={"page_"+pagina}>
+              <img src={"images/cabecera/dosier_e"+etapa+".svg"} className="w-100" alt=""/>
 
                 <div className="position-relative w-100 mbp-40">
-                    <div className=" psp-80 pep-70 ptp-30 pbp-0 ">
-                        <div className="fsp-16 f-Ubuntu-B text-start psp-80 pbp-10">Esta página fue completada por:</div>
-                        <div className="psp-0 ptp-5 pbp-5 bgc-white rounded-p-10 border border-color-lightDark d-flex justify-content-center position-relative">
-                        <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-45 mtp--10"><img src="images/page_039/circulo.png" className="w-80" alt="" /></div>
-                        <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--50 mtp--10"><img src="images/page_039/escuela.png" className="w-100" alt="" /></div>
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-start lhp-35 w-75" />
+                    <div className="psp-80 pep-70 ptp-30 pbp-0 position-relative">
+                        <div className="fsp-16 f-Ubuntu-R text-start psp-50 pbp-10">Esta página fue completada por:</div>
+                        <div className="psp-50 pep-50 ptp-5 pbp-5 bgc-white rounded-p-10 border-style-solid border-1 border-color-pidgey d-flex justify-content-center position-relative">
+                            <div className="position-absolute top-50 start-100 translate-middle wp-100 msp-0 mtp--10"><img src="images/page_039/escuela.png" className="w-100" alt="" /></div>
+                            <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp--10"><img src="images/page_039/circulo.png" className="wp-80" alt="" /></div>
+                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                         </div>
-
                     </div>
-                    
                 </div>
 
                 <div className="d-flex msp-60 mep-60 mbp-100">

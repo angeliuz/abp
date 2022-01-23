@@ -61,38 +61,78 @@ function Page034(props) {
               </div>
             </div>
 
-            <div className="psp-140 pep-120 contenedor-pagina">
-              <div className="w-100 psp-40 ptp-20 pbp-20 pep-15 text-left bgc-white border-style-solid border-2 border-color-muted position-relative">
-              <div className="position-absolute top-50 start-0 translate-middle h-100 ptp-10 pbp-10"><div className="espiral wp-30 h-100"></div></div>
-                <div className="d-flex align-items-center pbp-10">
-                  <div className="pep-10"><img src="images/page_034/medialuna.svg" className="hp-15 mbp-5" alt="" /></div>
-                  <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Cantidad de personas que cada uno va a encuestar:</div>
-                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
-                </div>
-                <div className="d-flex align-items-center pbp-10">
-                <div className="pep-10"><img src="images/page_034/medialuna.svg" className="hp-15 mbp-5" alt="" /></div>
-                  <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Haremos las encuestas:</div>
-                  <div className="d-flex align-items-center psp-10">
-                    <div className="pep-5"><img src="images/page_034/cuadro.svg" className="hp-30" alt="" /></div>
-                    <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">de manera individual.</div>
+
+            <div className="d-flex psp-60 pep-60">
+              <div className="row w-100 p-0 m-0">
+                <div className="col-12">
+                  
+                  <div className="w-100 psp-40 ptp-20 pbp-20 pep-15 text-left bgc-white border-style-solid border-2 border-color-muted position-relative">
+                    <div className="position-absolute top-50 start-0 translate-middle h-100 ptp-10 pbp-10"><div className="espiral wp-30 h-100"></div></div>
+
+                    <div className="d-flex  pbp-20">
+                      <div className="pep-10 ptp-3"><img src="images/page_034/medialuna.svg" className="hp-15 mbp-5" alt="" /></div>
+                        <div className="d-flex w-100">
+                          <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 ptp-5">Cantidad de personas que cada uno va a encuestar:</div>
+                          <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                          </div>
+                        </div>
+                    </div>
+
+                    <div className="d-flex  pbp-10">
+                      <div className="pep-10 ptp-3"><img src="images/page_034/medialuna.svg" className="hp-15 mbp-5" alt="" /></div>
+                        <div className="d-flex w-100">
+                            <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 ptp-5">Haremos las encuestas:</div>
+                        </div>
+                    </div>
+                    <div className="d-flex  pbp-10">
+                      
+                        <div className="d-flex w-100">
+                            
+                            <div className="d-flex align-items-center psp-10">
+                              <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                              </div>
+                              <div className="f-Ubuntu-L fsp-15 lh-sm psp-5 pep-5">de manera individual.</div>
+                            </div>
+                            <div className="d-flex align-items-center psp-10">
+                              <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                              </div>
+                              <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 psp-5">en parejas.</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div className="d-flex  pbp-10">
+                      <div className="pep-10 ptp-3"><img src="images/page_034/medialuna.svg" className="hp-15 mbp-5" alt="" /></div>
+                        <div className="d-flex w-100">
+                            <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 ptp-5">El día que encuestaremos será:</div>
+                            <div className="d-inline wp-120 hp-30 border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                              </div>
+                        </div>
+                    </div>
+
+                    <div className="d-flex  pbp-10">
+                      <div className="pep-10 ptp-3"><img src="images/page_034/medialuna.svg" className="hp-15 mbp-5" alt="" /></div>
+                        <div className="d-flex w-100">
+                            <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 ptp-5">El tiempo que destinaremos para encuestar será:</div>
+                            <div className="d-inline wp-120 hp-30 border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                              </div>
+                        </div>
+                    </div>
+                  
+                  
+                  
                   </div>
-                  <div className="d-flex align-items-center psp-10">
-                    <div className="pep-5"><img src="images/page_034/cuadro.svg" className="hp-30" alt="" /></div>
-                    <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">en parejas.</div>
-                  </div>
-                </div>
-                <div className="d-flex align-items-center pbp-10">
-                <div className="pep-10"><img src="images/page_034/medialuna.svg" className="hp-15 mbp-5" alt="" /></div>
-                  <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">El día que encuestaremos será:</div>
-                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
-                </div>
-                <div className="d-flex align-items-center pbp-10">
-                <div className="pep-10"><img src="images/page_034/medialuna.svg" className="hp-15 mbp-5" alt="" /></div>
-                  <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">El tiempo que destinaremos para encuestar será:</div>
-                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+
                 </div>
               </div>
             </div>
+
+
 
             <div className="ptp-10 psp-85 pep-40">
               <div className="d-flex">
@@ -108,7 +148,7 @@ function Page034(props) {
               </div>
             </div>
 
-            <div className="psp-120 pep-55 pbp-60 position-relative">
+            <div className="psp-120 pep-55 pbp-100 position-relative">
             <div className="position-absolute top-0 start-0 h-100 ptp-15 pbp-15 msp-115"><div className="espiral-calado wp-25 h-100"></div></div>
             <div className="position-absolute bottom-0 end-0 visible-768"><img src="images/page_034/mono.png" className="wp-90 mep-80 mtp-65" alt=""/></div>
               <div className="w-100 psp-40 ptp-20 pbp-20 text-left bgc-jarek rounded-p-20">

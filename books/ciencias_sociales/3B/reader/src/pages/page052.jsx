@@ -7,6 +7,13 @@ import "./page_052.css";
 function Page052(props) {
   const pagina = "052";
   var indexInput = 0;
+  const etapa = "5"
+  const background = "bgc-saitama";
+  const color = "color-saitama";
+  const colorSesion = "color-saitama";
+  const borderColor = "border-color-saitama"
+  const borderColorTabla = "border-color-bobafett"
+  const bgc_cajas = "bgc-bobafett";
 
   return (
     <div className="wrapper bgc-light">
@@ -79,7 +86,7 @@ function Page052(props) {
                                 <div className="row w-100">
                                     <div className="col">
                                     <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
-                                            <div className="rounded-p-20  bgc-white hp-250 w-100 position-relative ">
+                                            <div className="rounded-p-10  bgc-white hp-250 w-100 position-relative ">
                                                 <div className="position-absolute bottom-0 end-0"><img src="images/page_052/img_008.png" className="hp-190 " alt=""/></div>
                                             <div className="d-flex flex-wrap w-80 titulo-linea  mep-40 ">
                                                 <div className="d-flex mtp-10 msp-10 align-items-center   "><img src="images/page_052/img_007.svg" className="mep-10 hp-15" alt="" /><span className="f-Ubuntu-L fsp-14 text-start">Lo que más nos costó trabajar en esta etapa fue...</span></div>

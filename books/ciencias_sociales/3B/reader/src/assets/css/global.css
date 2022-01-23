@@ -183,6 +183,11 @@ body {
   transform: rotate(0deg);
 }
 
+.global-margin{
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
 
 /* SEGUNDA PÁGINA DE ETAPA (COHETE) */
 .pagina-cohete{
@@ -272,6 +277,61 @@ body {
   outline-offset: -4px;
 }
 
+/* OUTLINE CONSTRUCTOR */
+
+.outline-color-goten{
+  outline-color: var(--goten);
+}
+.outline-color-bulma{
+  outline-color: var(--bulma);
+}
+.outline-color-android18{
+  outline-color: var(--android18);
+}
+.outline-color-pidgey{
+  outline-color: var(--pidgey);
+}
+.outline-color-saitama{
+  outline-color: var(--saitama);
+}
+.outline-color-piccolo{
+  outline-color: var(--piccolo);
+}
+
+.outline-solid{
+  outline-style: solid;
+}
+
+.outline-border-1{
+  outline-width: 1px;
+}
+.outline-border-2{
+  outline-width: 2px;
+}
+.outline-border-3{
+  outline-width: 3px;
+}
+
+.outline-offset-1{
+  outline-offset: 1px;
+}
+.outline-offset-2{
+  outline-offset: 2px;
+}
+.outline-offset-3{
+  outline-offset: 3px;
+}
+.outline-offset--1{
+  outline-offset: -1px;
+}
+.outline-offset--2{
+  outline-offset: -2px;
+}
+.outline-offset--3{
+  outline-offset: -3px;
+}
+
+
 .center-center{
   justify-content: center;
   align-items: center;
@@ -279,6 +339,12 @@ body {
 
 .dosier-e1 {
   background: url(../../pages/images/generales/fondo_dosier_e1.svg) top center/cover no-repeat;
+  width: 100% !important;
+  height: 100% !important;
+  -webkit-print-color-adjust: exact !important;
+}
+.dosier-e1_2 {
+  background: url(../../pages/images/generales/fondo_dosier_e1_2.svg) top center/cover no-repeat;
   width: 100% !important;
   height: 100% !important;
   -webkit-print-color-adjust: exact !important;
@@ -415,6 +481,11 @@ body {
     }
     .rotacion-centro-centro{
       transform: rotate(90deg);
+    }
+
+    .global-margin{
+      margin-left: 30px;
+      margin-right: 30px;
     }
     
   }

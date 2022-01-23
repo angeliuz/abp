@@ -7,14 +7,19 @@ import "./page_030.css";
 function Page030(props) {
   const pagina = "030";
   var indexInput = 0;
+  const etapa = "3";
+  const background = "bgc-android18";
+  const color = "color-android18";
+  const colorSesion = "color-primary";
+  const borderColor = "border-color-android18";
+  const borderColorTabla = "border-color-azuka";
+  const bgc_cajas = "bgc-azuka";
 
   return (
     <div className="wrapper bgc-light">
-      <div className="d-flex flex-column align-items-center pbp-20">
-        <div
-          className="cb-page30 page bgc-white overflow-hidden position-relative"
-          id={"page_" + pagina}
-        >
+        <div className="d-flex flex-column align-items-center pbp-20">
+            <div className={"dosier-e"+etapa+" page bgc-white overflow-hidden position-relative"} id={"page_"+pagina}>
+              
           <div className="d-flex msp-60 mep-60 ">
             <div className="row m-0 p-2 w-100 ">
               <div className="col-sm-12 col-md-6 col-lg-6 position-relative">

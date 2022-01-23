@@ -31,7 +31,7 @@ function Page037(props) {
               </div>
             </div>
 
-            <div className="ptp-10 psp-135 pep-80 pbp-10">
+            <div className="ptp-10 psp-135 pep-80 pbp-100">
               <div className="row rounded-p-10 bgc-jaga">
 
                 <div className="col-12 col-md-6 p-0">
@@ -109,17 +109,21 @@ function Page037(props) {
                   </div>
                 </div>
 
-                <div className="col-6 p-0">
-                  <div className="w-100 p-2 m-0 position-relative">
+                <div className="col-12 col-md-6 p-0">
+                  <div className="w-100 psp-20 pep-20 ptp-10 pbp-10 m-0 position-relative">
                     {/* <div className="position-absolute top-0 start-0 mtp--20">
                         <img src="images/page_037/hoja.svg" className="w-100" alt=""/>
                     </div> */}
-                    <div className="position-absolute top-0 start-0 w-100 hoja gira p-4 mtp--20 msp--10 mep--20 mbp--20">
                       <div className="f-hanoded-butterflyball fsp-15 text-start">Como conclusión general</div>
                       <div className="min-hp-175">
                         <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                       </div>
-                    </div>
+                    {/* <div className="position-absolute top-0 start-0 w-100 hoja gira p-4 mtp--20 msp--10 mep--20 mbp--20">
+                      <div className="f-hanoded-butterflyball fsp-15 text-start">Como conclusión general</div>
+                      <div className="min-hp-175">
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                      </div>
+                    </div> */}
                   </div>
                 </div>
 
