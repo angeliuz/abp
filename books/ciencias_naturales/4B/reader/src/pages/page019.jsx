@@ -7,6 +7,12 @@ import "./page_019.css";
 function Page019(props) {
   const pagina = "019";
   var indexInput = 0;
+  const etapa = "2";
+  const background = "bgc-bulma";
+  const color = "color-bulma";
+  const borderColor = "border-color-bulma";
+  const borderColorTabla = "border-color-buzz";
+  const bgc_cajas = "bgc-piccolo";
 
   return (
     <div className="wrapper bgc-light">
@@ -27,30 +33,31 @@ function Page019(props) {
             </div>
           </div>
           {/* END CABECERA */}
-          <div className="ptp-30 psp-60 pep-60 pbp-60">
-            <div className="f-Ubuntu-B color-bulma fsp-18 text-start">
-              ¿Qué veo en las fotografías?
+
+          <div className="ptp-30 container-titulo-global mbp-40">
+            <div className={"f-Ubuntu-B fsp-20 psp-40 text-start lhp-20 " + color}>
+              Las tareas de cada etapa
             </div>
-            <div className="d-flex pbp-20">
-              <img
-                src="images/page_019/img_002.svg"
-                className="msp--30"
-                alt=""
-              />
-              <div className="f-ccdigitaldelivery-bold fsp-35 color-bulma">
+            <div className="d-flex">
+              <img src={"images/page_" + pagina + "/img_002.svg"} className="hp-20 align-center mt-3 me-0 mb-2" alt="" />
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 1
               </div>
-              <div className="f-Ubuntu-R fsp-16 ptp-15 psp-10 text-start col-8 text-start">
-                Vemos el video y rotulamos las siguientes etapas del proyecto
-                según corresponda.
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                Vemos el video y rotulamos las siguientes etapas del proyecto según corresponda.
               </div>
-              <img
-                src="images/page_019/img_003.svg"
-                className="psp-20"
-                alt=""
-              />
+              {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="w-50" alt="" /> */}
+              <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_"+pagina+"/img_001.png" className="p-0 px-1" /> */}
+              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_007/revista65.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
-            <div className="diline-res justify-content-between pbp-20">
+          </div>
+
+
+
+          <div className="ptp-0 psp-60 pep-60 pbp-60 f-Ubuntu-R">
+
+            <div className="diline-res-p19 justify-content-between pbp-20">
               <img
                 src="images/page_019/img_004.svg"
                 className="mxhp-40"
@@ -88,7 +95,7 @@ function Page019(props) {
               />
             </div>
 
-            <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
+            <div className="bgc-urien p-2 d-flex rounded-p-10 box-shadow-simple">
               <div className="mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
                 <img
                   src="/images/page_019/img_011.png"
@@ -122,7 +129,7 @@ function Page019(props) {
               </div>
             </div>
             <div className="ptp-15"></div>
-            <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
+            <div className="bgc-urien p-2 d-flex rounded-p-10 box-shadow-simple">
               <div className="mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
                 <img
                   src="/images/page_019/img_011.png"
@@ -138,25 +145,25 @@ function Page019(props) {
                 <div className="text-start psp-10">
                   <div className="dot mep-10 mtp-10"></div>
                   <div className="f-ubuntu-L py-1 mtp--26 msp-20">
-                  Conocer las tareas de la brigada.
+                    Conocer las tareas de la brigada.
                   </div>
                 </div>
                 <div className="text-start psp-10 pep-20">
                   <div className="dot mep-10 mtp-10"></div>
                   <div className="f-ubuntu-L py-1 mtp--26 msp-20">
-                  Simular una situación de emergencia.
+                    Simular una situación de emergencia.
                   </div>
                 </div>
                 <div className="text-start psp-10 pep-20">
                   <div className="dot mep-10 mtp-10"></div>
                   <div className="f-ubuntu-L py-1 mtp--26 msp-20">
-                  Evaluar la misión de la brigada ante el simulacro de emergencia.
+                    Evaluar la misión de la brigada ante el simulacro de emergencia.
                   </div>
                 </div>
               </div>
             </div>
             <div className="ptp-15"></div>
-            <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
+            <div className="bgc-urien p-2 d-flex rounded-p-10 box-shadow-simple">
               <div className="mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
                 <img
                   src="/images/page_019/img_011.png"
@@ -172,25 +179,25 @@ function Page019(props) {
                 <div className="text-start psp-10">
                   <div className="dot mep-10 mtp-10"></div>
                   <div className="f-ubuntu-L py-1 mtp--26 msp-20">
-                  Crear un folleto para divulgar la misión de las brigadas.
+                    Crear un folleto para divulgar la misión de las brigadas.
                   </div>
                 </div>
                 <div className="text-start psp-10 pep-20">
                   <div className="dot mep-10 mtp-10"></div>
                   <div className="f-ubuntu-L py-1 mtp--26 msp-20">
-                  Preparar la presentación de la brigada a la comunidad educativa.
+                    Preparar la presentación de la brigada a la comunidad educativa.
                   </div>
                 </div>
                 <div className="text-start psp-10 pep-20">
                   <div className="dot mep-10 mtp-10"></div>
                   <div className="f-ubuntu-L py-1 mtp--26 msp-20">
-                  Elaborar encuestas para conocer la opinión de los asistentes sobre la misión de la brigada.
+                    Elaborar encuestas para conocer la opinión de los asistentes sobre la misión de la brigada.
                   </div>
                 </div>
               </div>
             </div>
             <div className="ptp-15"></div>
-            <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
+            <div className="bgc-urien p-2 d-flex rounded-p-10 box-shadow-simple">
               <div className="mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
                 <img
                   src="/images/page_019/img_011.png"
@@ -206,19 +213,19 @@ function Page019(props) {
                 <div className="text-start psp-10">
                   <div className="dot mep-10 mtp-10"></div>
                   <div className="f-ubuntu-L py-1 mtp--26 msp-20">
-                  Investigar los riesgos naturales y situaciones de emergencia a los que estamos expuestos.
+                    Investigar los riesgos naturales y situaciones de emergencia a los que estamos expuestos.
                   </div>
                 </div>
                 <div className="text-start psp-10 pep-20">
                   <div className="dot mep-10 mtp-10"></div>
                   <div className="f-ubuntu-L py-1 mtp--26 msp-20">
-                  Analizar el plan de seguridad del colegio y encuestar a la comunidad educativa para saber cuánto lo conoce.
+                    Analizar el plan de seguridad del colegio y encuestar a la comunidad educativa para saber cuánto lo conoce.
                   </div>
                 </div>
                 <div className="text-start psp-10 pep-20">
                   <div className="dot mep-10 mtp-10"></div>
                   <div className="f-ubuntu-L py-1 mtp--26 msp-20">
-                  Resumir lo investigado en fichas de seguridad.
+                    Resumir lo investigado en fichas de seguridad.
                   </div>
                 </div>
               </div>

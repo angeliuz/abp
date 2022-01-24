@@ -4,13 +4,13 @@ box-shadow: 0px 0px 37px -7px rgba(0,0,0,0.69);
 }
 .centrar-hor {
   margin-left: auto !important;
-  maginin-right: auto !important;
+  margin-right: auto !important;
 }
 .flecha-bulma-arriba {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0 9px 14px 9px;
+  border-width: 0 5px 10px 5px;
   border-color: transparent transparent #f39200 transparent;
 }
 .mtp-200 {

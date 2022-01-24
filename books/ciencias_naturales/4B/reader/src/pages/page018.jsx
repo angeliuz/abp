@@ -54,7 +54,7 @@ function Page018(props) {
                 <div className="position-absolute top-0 start-50 mtp-20 msp--140 giro-2deg">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-90 wp-280"
+                    className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-90 wp-240 msp-30"
                   />
                 </div>
               </div>
@@ -63,7 +63,7 @@ function Page018(props) {
                 <div className="position-absolute top-0 start-50 mtp-10 msp--140 giro--2deg">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-90 wp-280"
+                    className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-90 wp-240 msp-30"
                   />
                 </div>
                 <div className="position-absolute start-50 top-0 mtp-20 msp-140">
@@ -81,7 +81,7 @@ function Page018(props) {
                 <div className="position-absolute top-0 start-50 mtp-20 msp--140 giro-2deg">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-90 wp-280"
+                    className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-90 wp-240 msp-30"
                   />
                 </div>
               </div>
@@ -90,7 +90,7 @@ function Page018(props) {
                 <div className="position-absolute top-0 start-50 mtp-10 msp--140 giro--2deg">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-90 wp-280"
+                    className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-90 wp-240 msp-30"
                   />
                 </div>
               </div>
@@ -121,7 +121,7 @@ function Page018(props) {
                 className="position-absolute hp-200 translate-middle top-0 start-100 mtp--95 msp--30"
                 alt=""
               />
-                            <img
+              <img
                 src="images/page_018/img_013.png"
                 className="hp-60 position-absolute translate-middle top-50 start-100 mtp--20"
                 alt=""

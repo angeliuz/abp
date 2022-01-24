@@ -37,9 +37,7 @@ function Page031(props) {
 
           <div className="row mx-4 position-relative">
             <div className="col-sm-12 col-md-6 position-relative mbp-10">
-              <div className="position-absolute top-50 start-100 translate-middle zindex-1 visible-768">
-                <img src="images/page_031/img_005.png" className=" " alt="" />
-              </div>
+
               <div className="box-color-24-1">
                 <div className="f-Ubuntu-M alinea fsp-18 rounded-caja bgc-vegeta w-100 p-2 text-center color-white">
                   Ideas principales
@@ -54,11 +52,12 @@ function Page031(props) {
             </div>
 
             <div className="col-sm-12 col-md-6 position-relative mbp-40">
+              <div className="position-absolute posicion-centro-centro translate-middle zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="rotacion-centro-centro" alt="" /></div>
               <div className="position-absolute top-0 start-100 translate-middle visible-768 zindex-2 msp--50 mtp--50">
                 <img src="images/page_031/img_001.png" className="" alt="" />
               </div>
 
-              <div className="box-color-24-2">
+              <div className="box-color-24-2 ptp-14">
                 <div className="f-Ubuntu-M alinea fsp-18 rounded-caja bgc-saitama w-100 p-2 text-center color-white">
                   Palabras que no entiendo
                 </div>
@@ -82,7 +81,7 @@ function Page031(props) {
             </div>
           </div>
 
-          <div className="d-flex msp-60 mep-60 mbp-60 mtp-30 rounded-p-20  ">
+          <div className="d-flex msp-60 mep-60 mbp-100 mtp-30 rounded-p-20  ">
             <div className="row w-100 p-0 m-0">
               <div className="col-sm-4 position-relative justify-content-center align-items-center ptp-10">
                 <div className="position-absolute top-0 start-0 translate-middle msp-3 mtp-0 zindex-1">

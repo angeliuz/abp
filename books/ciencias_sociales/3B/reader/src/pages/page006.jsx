@@ -6,6 +6,9 @@ function Page006(props) {
   var indexInput = 0;
   const etapa = "1"
   const background = "bgc-goten";
+  const color = "color-goten";
+  const borderColor = "border-color-goten"
+  const borderColorTable = "border-color-genos"
   const bgc_cajas = "bgc-genos";
 
 

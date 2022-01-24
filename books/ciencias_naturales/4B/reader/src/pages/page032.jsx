@@ -34,7 +34,7 @@ function Page032(props) {
               </div>
             </div>
           </div>
-          <div className="ptp-30 psp-80 pep-60">
+          <div className="ptp-30 psp-80 pep-60 pbp-100">
             <div className="bgc-white border-style-solid border-2 border-color-ash rounded-tbe-20 position-relative text-start ptp-20 psp-20 pep-20">
               <div className="mtp--35 msp--40 position-absolute">
                 <img
@@ -76,7 +76,7 @@ function Page032(props) {
                   className=" hp-60"
                   alt=""
                 />
-                <div className="f-Ubuntu-M psp-20 mtp--57 color-white mxwp-a">
+                <div className="f-Ubuntu-M psp-20 mtp--57 color-white wp-240">
                   ¿Qué información tengo del texto después de leerlo?
                 </div>
               </div>
@@ -110,7 +110,7 @@ function Page032(props) {
                   className=" hp-40"
                   alt=""
                 />
-                <div className="f-Ubuntu-M psp-20 mtp--33 color-white mxwp-a">
+                <div className="f-Ubuntu-M psp-20 mtp--33 color-white wp-240">
                   ¿Qué más me gustaría saber?
                 </div>
               </div>

@@ -5,15 +5,20 @@ import "./page_022.css";
 function Page022(props) {
   const pagina = "022";
   var indexInput = 0;
+  const etapa = "2";
+  const background = "bgc-bulma";
+  const color = "color-bulma";
+  const borderColor = "border-color-bulma";
+  const borderColorTabla = "border-color-buzz";
+  const bgc_cajas = "bgc-piccolo";
 
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
-        <div
-          className="page cb-page22 bgc-white overflow-hidden position-relative"
-          id={"page_" + pagina}
-        >
-          <div className="psp-60 pep-60 ptp-40">
+        <div className={"dosier-e" + etapa + " page bgc-white overflow-hidden position-relative"} id={"page_" + pagina}>
+
+
+          <div className="psp-60 pep-60 ptp-70">
             <div className="d-flex pbp-10 position-relative">
               <div className="f-ccdigitaldelivery-bold fsp-35 color-bulma">
                 2
@@ -142,212 +147,223 @@ function Page022(props) {
                 </div>
               </div>
             </div>
+
+            {/* BEGIN TABLE */}
+            <div className="global-margin mbp-50 psp-0 pep-0 ptp-10 pbp-10  f-Ubuntu-L fsp-13 rounded-p-10 ">
+
+              <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-0">
+                {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/generales/ticket.svg" className="hp-17 mtp--3 msp-5 mep-5" alt=""/>el recuadro que mejor me represente.</span> */}
+                <div className="w-100 p-0 pb-3 position-relative">
+                  <div className="position-absolute top-0 start-0 msp-10 mtp--5 f-pixilate-bold fsp-18 lh-sm text-start">¿Cómo vamos?</div>
+
+                  <table className="w-100">
+                    <tbody>
+                      <tr>
+                        <td> </td>
+                        <td className={"color-dark f-colby-compres-bold p-0 m-0 "}>
+                          <div className="d-flex w-100 center-center psp-10 pep-10 ptp-0 pbp-0 text-center ">Nunca</div>
+                        </td>
+                        <td className={"color-dark f-colby-compres-bold p-0 m-0 min-wp-55 "}>
+                          <div className="d-flex w-100 center-center psp-5 pep-5 ptp-0 pbp-0 text-center ">A veces</div>
+                        </td>
+                        <td className={"color-dark f-colby-compres-bold p-0 m-0 "}>
+                          <div className="d-flex center-center psp-10 pep-10 ptp-0 pbp-0 text-center ">Generalmente</div>
+                        </td>
+                        <td className={"color-dark f-colby-compres-bold p-0 m-0 "}>
+                          <div className="d-flex center-center psp-5 pep-5 ptp-0 pbp-0 text-center ">Siempre</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className={"bgc-white rounded-ts-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                          <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 ">
+                            <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
+                            Nos involucramos en el proyecto y nos responsabilizamos por las tareas que debemos hacer.
+                          </div>
+                        </td>
+                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                          <div className="d-flex center-center">
+                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            </div>
+                          </div>
+                        </td>
+                        <td className={"bgc-white min-hp-100 p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                          <div className="d-flex center-center">
+                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            </div>
+                          </div>
+                        </td>
+                        <td className={"bgc-white min-hp-100 p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                          <div className="d-flex center-center">
+                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            </div>
+                          </div>
+                        </td>
+                        <td className={"bgc-white rounded-te-10  min-hp-100 p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                          <div className="d-flex center-center">
+                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            </div>
+                          </div>
+                        </td>
+
+
+                      </tr>
+                      <tr>
+                        <td className={"f-Ubuntu-L fsp-14 text-start p-0 m-0 "}>
+                          <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 bgc-white ">
+                            <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
+                            Ante una petición de apoyo de alguien del equipo, intentamos ayudar antes de preguntarle al profesor.
+                          </div>
+                        </td>
+                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                          <div className="d-flex center-center">
+                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            </div>
+                          </div>
+                        </td>
+                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                          <div className="d-flex center-center">
+                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            </div>
+                          </div>
+                        </td>
+                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                          <div className="d-flex center-center">
+                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            </div>
+                          </div>
+                        </td>
+                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                          <div className="d-flex center-center">
+                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                          <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 bgc-white ">
+                            <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
+                            Respetamos el turno de la palabra.
+                          </div>
+                        </td>
+                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                          <div className="d-flex center-center">
+                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            </div>
+                          </div>
+                        </td>
+                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                          <div className="d-flex center-center">
+                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            </div>
+                          </div>
+                        </td>
+                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                          <div className="d-flex center-center">
+                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            </div>
+                          </div>
+                        </td>
+                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                          <div className="d-flex center-center">
+                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-bottom-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                          <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10">
+                            <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
+                            Llegamos a acuerdos y decisiones compartidas después de que cada uno expresa su opinión.
+                          </div>
+                        </td>
+                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-bottom-hidden border-2 " + borderColorTabla}>
+                          <div className="d-flex center-center">
+                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            </div>
+                          </div>
+                        </td>
+                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-bottom-hidden border-2 " + borderColorTabla}>
+                          <div className="d-flex center-center">
+                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            </div>
+                          </div>
+                        </td>
+                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-bottom-hidden border-2 " + borderColorTabla}>
+                          <div className="d-flex center-center">
+                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            </div>
+                          </div>
+                        </td>
+                        <td className={"bgc-white rounded-be-10   f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-bottom-hidden border-right-hidden border-2 " + borderColorTabla}>
+                          <div className="d-flex center-center">
+                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+
+                </div>
+              </div>
+
+            </div>
+            {/* END TABLE */}
+
+
           </div>
-          {/* TABLA*/}
-          <div className="psp-60 ptp-10 pep-130-r position-relative">
-            <div className="d-flex pep-10 justify-content-between">
-              <div className="block-bottom text-start mtp-30 f-pixilate-bold fsp-21">
-                ¿Cómo me siento?
-              </div>
-              <div className="d-flex flex-row-reverse block-bottom mtp-30">
-                <div className="nunca f-pixilate-regular">Núnca</div>
-                <div className="siempre f-pixilate-regular">A veces</div>
-                <div className="siempre f-pixilate-regular">Generalmente</div>
-                <div className="siempre f-pixilate-regular">Siempre</div>
-              </div>
+
+
+
+
+
+
+
+
+
+
+          {/* PIE DE PAGINA */}
+          <div
+            className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2"
+            style={{ bottom: 70, right: 0 }}
+          >
+            <div
+              className="f-Ubuntu-M fsp-10 position-absolute mbp-60"
+              style={{ transform: `rotate(270deg)`, color: "dark" }}
+            >
+              ABP &copy; SM
             </div>
-            <div className="psp-15 pep-20 f-Ubuntu-L bgc-white fsp-13 rounded-set-20 ">
-              <div className="d-flex justify-content-between ">
-                <div className="d-flex mnwp-400-r">
-                  <div className="flecha-bulma pep-10 mtp-8"></div>
-                  <span className="text-start f-Ubuntu-L fsp-15 ptp-5 w-70">
-                    Nos involucramos en el proyecto y nos responsabilizamos por
-                    las tareas que debemos hacer.
-                  </span>
-                </div>
-                <div className="d-flex flex-row-reverse block-bottom ptp-5 pbp-5 align-items-center msp--80">
-                  <div className="psp-30">
-                    <div className="cuadrado borde-cuadrado">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                      />
-                    </div>
-                  </div>
-                  <div className="psp-40">
-                    <div className="cuadrado borde-cuadrado">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                      />
-                    </div>
-                  </div>
-                  <div className="psp-40">
-                    <div className="cuadrado borde-cuadrado">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                      />
-                    </div>
-                  </div>
-                  <div className="">
-                    <div className="cuadrado borde-cuadrado">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div className="bgc-jawa wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">
+              {props.numeroPagina(pagina)}
             </div>
-            <div className="ptp-2"></div>
-            <div className="psp-15 pep-20 f-Ubuntu-L bgc-white fsp-13 ">
-              <div className="d-flex justify-content-between ">
-                <div className="d-flex mnwp-400-r">
-                  <div className="flecha-bulma pep-10 mtp-8"></div>
-                  <span className="text-start f-Ubuntu-L fsp-15 ptp-5 w-70">
-                    Ante una petición de apoyo de alguien del equipo, intentamos
-                    ayudar antes de preguntarle al profesor.
-                  </span>
-                </div>
-                <div className="d-flex flex-row-reverse block-bottom ptp-5 pbp-5 align-items-center msp--80">
-                  <div className="psp-30">
-                    <div className="cuadrado borde-cuadrado">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                      />
-                    </div>
-                  </div>
-                  <div className="psp-40">
-                    <div className="cuadrado borde-cuadrado">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                      />
-                    </div>
-                  </div>
-                  <div className="psp-40">
-                    <div className="cuadrado borde-cuadrado">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                      />
-                    </div>
-                  </div>
-                  <div className="">
-                    <div className="cuadrado borde-cuadrado">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="ptp-2"></div>
-            <div className="psp-15 pep-20 f-Ubuntu-L bgc-white fsp-13">
-              <div className="d-flex justify-content-between ">
-                <div className="d-flex mnwp-400-r">
-                  <div className="flecha-bulma pep-10 mtp-8"></div>
-                  <span className="text-start f-Ubuntu-L fsp-15 ptp-5 w-70">
-                    Respetamos el turno de la palabra.
-                  </span>
-                </div>
-                <div className="d-flex flex-row-reverse block-bottom ptp-5 pbp-5 align-items-center msp--80">
-                  <div className="psp-30">
-                    <div className="cuadrado borde-cuadrado">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                      />
-                    </div>
-                  </div>
-                  <div className="psp-40">
-                    <div className="cuadrado borde-cuadrado">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                      />
-                    </div>
-                  </div>
-                  <div className="psp-40">
-                    <div className="cuadrado borde-cuadrado">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                      />
-                    </div>
-                  </div>
-                  <div className="">
-                    <div className="cuadrado borde-cuadrado">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="ptp-2"></div>
-            <div className="psp-15 pep-20 f-Ubuntu-L bgc-white fsp-13 rounded-seb-20">
-              <div className="d-flex justify-content-between ">
-                <div className="d-flex mnwp-400-r">
-                  <div className="flecha-bulma pep-10 mtp-8"></div>
-                  <span className="text-start f-Ubuntu-L fsp-15 ptp-5 w-70">
-                    Llegamos a acuerdos y decisiones compartidas después de que
-                    cada uno expresa su opinión.
-                  </span>
-                </div>
-                <div className="d-flex flex-row-reverse block-bottom ptp-5 pbp-5 align-items-center msp--80">
-                  <div className="psp-30">
-                    <div className="cuadrado borde-cuadrado">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                      />
-                    </div>
-                  </div>
-                  <div className="psp-40">
-                    <div className="cuadrado borde-cuadrado">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                      />
-                    </div>
-                  </div>
-                  <div className="psp-40">
-                    <div className="cuadrado borde-cuadrado">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                      />
-                    </div>
-                  </div>
-                  <div className="">
-                    <div className="cuadrado borde-cuadrado">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <img
-              src="images/page_022/img_009.png"
-              className="hp-240 position-absolute start-100 top-100 translate-middle mtp--120 msp--70 visible-768"
-              alt=""
-            />
           </div>
-          <div className="pbp-60 invisible-768"></div>
-        </div>
-      </div>
-    </div>
+          {/* FIN PIE DE PAGINA */}
+
+
+
+        </div >
+      </div >
+    </div >
   );
 }
 
