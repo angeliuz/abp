@@ -1,28 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 12.107 12.107" style="enable-background:new 0 0 12.107 12.107;" xml:space="preserve">
+	 viewBox="0 0 524.64 516.802" style="enable-background:new 0 0 524.64 516.802;" xml:space="preserve">
 <style type="text/css">
-	.st0{clip-path:url(#SVGID_2_);fill:none;stroke:#AEC90B;stroke-width:0.776;stroke-linecap:round;}
-	.st1{clip-path:url(#SVGID_2_);fill:#AEC90B;}
+	.st0{clip-path:url(#SVGID_2_);fill:none;stroke:#E9EEC6;stroke-width:2.547;stroke-linecap:round;stroke-dasharray:7.769,5.222;}
+	.st1{clip-path:url(#SVGID_2_);fill:none;stroke:#E9EEC6;stroke-width:2.547;stroke-linecap:round;stroke-dasharray:7.685,5.138;}
+	.st2{clip-path:url(#SVGID_2_);fill:none;stroke:#E9EEC6;stroke-width:2.547;stroke-linecap:round;stroke-dasharray:7.578,5.031;}
+	.st3{clip-path:url(#SVGID_2_);fill:none;stroke:#E9EEC6;stroke-width:2.547;stroke-linecap:round;stroke-dasharray:7.586,5.039;}
+	.st4{clip-path:url(#SVGID_2_);fill:none;stroke:#E9EEC6;stroke-width:2.547;stroke-linecap:round;stroke-dasharray:7.736,5.189;}
+	.st5{clip-path:url(#SVGID_2_);fill:none;stroke:#E9EEC6;stroke-width:2.547;stroke-linecap:round;}
+	.st6{clip-path:url(#SVGID_2_);fill:none;stroke:#F0F4D9;stroke-width:2.547;stroke-linecap:round;}
+	.st7{fill:none;stroke:#F0F4D9;stroke-width:2.547;stroke-linecap:round;}
 </style>
 <g>
 	<defs>
-		<rect id="SVGID_1_" width="12.107" height="12.107"/>
+		<rect id="SVGID_1_" width="524.64" height="516.802"/>
 	</defs>
 	<clipPath id="SVGID_2_">
 		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="0.388" y="0.388" class="st0" width="11.331" height="11.331"/>
-	<path class="st1" d="M7.744,8.436C7.661,8.462,7.525,8.489,7.336,8.518C7.148,8.546,6.919,8.561,6.651,8.561
-		c-0.378,0-0.705-0.064-0.983-0.192C5.389,8.241,5.156,8.06,4.967,7.827C4.779,7.594,4.638,7.314,4.545,6.988
-		C4.453,6.662,4.406,6.301,4.406,5.904c0-0.409,0.055-0.778,0.163-1.108C4.678,4.467,4.83,4.187,5.025,3.957
-		c0.195-0.23,0.432-0.406,0.71-0.528C6.013,3.308,6.321,3.247,6.66,3.247c0.32,0,0.633,0.04,0.94,0.12
-		c0.307,0.08,0.553,0.181,0.739,0.302l0.297-0.777C8.598,2.867,8.526,2.829,8.42,2.777C8.315,2.726,8.179,2.675,8.013,2.624
-		c-0.167-0.051-0.367-0.096-0.6-0.134c-0.233-0.039-0.5-0.058-0.801-0.058c-0.441,0-0.855,0.077-1.242,0.23
-		C4.983,2.816,4.646,3.04,4.358,3.334C4.071,3.628,3.842,3.991,3.673,4.422c-0.17,0.432-0.255,0.926-0.255,1.482
-		s0.076,1.049,0.226,1.477c0.15,0.428,0.363,0.79,0.638,1.084C4.556,8.759,4.886,8.983,5.27,9.136
-		c0.383,0.154,0.808,0.23,1.275,0.23c0.23,0,0.457-0.011,0.681-0.033c0.224-0.023,0.43-0.05,0.619-0.082
-		C8.033,9.219,8.2,9.187,8.343,9.155c0.144-0.032,0.255-0.06,0.331-0.086V5.962h-0.93V8.436z"/>
+	<path class="st0" d="M16.225,507.24c-10.267-23.021-32.129-80.141,9.623-118.01"/>
+	<path class="st1" d="M38.498,380.429c87.029-40.527,446.396,105.545,455.514-82.131"/>
+	<path class="st2" d="M493.392,283.12C470.958,171.872-19.317,441.722,17.659,200.802"/>
+	<path class="st3" d="M22.13,186.521c45.746-64.268,490.855,60.32,501.058-117.445"/>
+	<path class="st4" d="M522.751,53.737c-13.335-93.826-239.189-31.27-280.344-14.479"/>
+	<path class="st5" d="M240.019,40.273c-1.624,0.725-2.781,1.328-3.425,1.785 M523.303,66.56c0.042-1.25,0.063-2.515,0.063-3.795
+		c0-1.312-0.036-2.601-0.107-3.863 M18.057,198.318c0.204-1.23,0.422-2.474,0.653-3.73c0.234-1.27,0.577-2.485,1.028-3.647
+		 M494.114,295.732c0.039-1.267,0.063-2.547,0.071-3.842c0.008-1.304-0.033-2.564-0.122-3.787 M27.808,387.505
+		c0.972-0.83,1.975-1.647,3.011-2.455c0.991-0.772,2.043-1.502,3.155-2.19 M19.989,515.531c-0.38-0.887-0.929-2.076-1.602-3.539"/>
+	<polyline class="st6" points="361.763,16.95 367.863,8.214 359.877,1.272 	"/>
 </g>
+<polyline class="st7" points="349.082,160.849 342.982,169.585 351.223,177.095 "/>
+<polyline class="st7" points="190.178,305.443 197.016,297.269 189.714,289.539 "/>
+<polyline class="st7" points="471.98,346.406 472.737,357.036 483.883,356.686 "/>
 </svg>
