@@ -4,3 +4,7 @@
     height: 100% !important;
     -webkit-print-color-adjust: exact !important;
   }
+  .cb-outline-p10{
+    outline: solid 2px #fdeeeb;
+    outline-offset: -3px;
+  }
