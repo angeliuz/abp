@@ -44,10 +44,11 @@ function Page007(props) {
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
-          <div className="d-flex msp-60 mep-60 mtp-0 mbp-10">
+          <div className="d-flex msp-60 mep-60 mtp-20 mbp-10">
             <div className="row p-0 m-0">
               <div className="col-sm-12 col-md-3 position-relative"></div>
-              <div class="cb-paper">
+              <div class="cb-paper position-relative">
+                <div className="position-absolute top-100 start-100 translate-middle msp--70 mtp-0 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-80" alt="" /></div>
                 <div class="cb-paper-content f-Ubuntu-L fsp-13 text-start">
                   <img src="images/page_007/img_002.png" class="cb-carta" alt="" />
                   <img src="images/page_007/img_001.png" class="cb-lapiz" alt="" />
@@ -70,7 +71,6 @@ function Page007(props) {
                 </div>
               </div>
 
-
               <div className="d-flex psp-20">
                 {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
                 <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
@@ -80,19 +80,25 @@ function Page007(props) {
                   Completo.
                 </div>
               </div>
-              <div className="max-wp-600 mx-auto d-flex f-Ubuntu-R fsp-15 mbp-70">
+              {/* BEGIN EJERCICIO 2 */}
+              <div className="max-wp-600 mx-auto d-flex f-Ubuntu-R fsp-15 mbp-70 position-relative">
+                <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-60" alt="" /></div>
                 <div className="text-center w-100 border-1 border-style-solid border-color-palpatine mep-10 rounded-p-10">
                   <div className="rounded-set-6  hp-50 pep-20 psp-20 ptp-10 pbp-10 bgc-palpatine color-white fw-700 d-flex justify-content-center align-items-center">
                     La convivencia escolar es:
                   </div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                  <div className="psp-15 pep-15">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                  </div>
                 </div>
 
-                <div className="text-center w-100 border-1 border-style-solid border-color-ken msp-10">
+                <div className="text-center w-100 border-1 border-style-solid border-color-ken msp-10 rounded-p-10">
                   <div className="rounded-set-6 hp-50 pep-20 psp-20 ptp-10 pbp-10 bgc-ken color-white fw-700 d-flex justify-content-center align-items-center">
-                    Una buena convivencia escolar nos ayuda a:
+                    Una buena convivencia <br /> escolar nos ayuda a:
                   </div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                  <div className="psp-15 pep-15">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                  </div>
                 </div>
 
               </div>
