@@ -28,12 +28,12 @@ function Page042(props) {
                                 <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
                                     <div className={"d-flex " + bgc_cajas + " psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e" + etapa}>
                                         <div className="d-flex wp-23">
-                                            <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-40 mep-5 wp-20" alt="" />
+                                            <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-20 mep-5 wp-20" alt="" />
                                         </div>
                                         <div>
                                             <span className="fsp-16 text-start f-pixilate-regular">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
-                                                    ENCUESTAR</span> a<br />compañeros sobre sus<br />características e intereses.
+                                                    APLICAR</span> la<br />información investigada.
                                             </span>
                                         </div>
                                     </div>
@@ -43,12 +43,12 @@ function Page042(props) {
                                 <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
                                     <div className={"d-flex " + bgc_cajas + " psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e" + etapa}>
                                         <div className="d-flex wp-23">
-                                            <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-40 mep-5 wp-20" alt="" />
+                                            <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-20 mep-5 wp-20" alt="" />
                                         </div>
                                         <div className="d-flex">
                                             <span className="fsp-16 text-start f-pixilate-regular">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
-                                                    IDENTIFICAR</span> la<br />diversidad que existe en<br />nuestra comunidad escolar.
+                                                    VALORAR</span> la importancia<br />de la buena convivencia escolar.
                                             </span>
                                         </div>
                                     </div>
@@ -63,13 +63,13 @@ function Page042(props) {
                                         <div className="d-flex">
                                             <span className="fsp-16 text-start f-pixilate-regular">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
-                                                    ELABORAR</span> un<br />decálogo de respeto y<br />tolerancia a la diversidad.
+                                                    DIALOGAR</span> y llegar<br />a acuerdos sobre temas de<br />convivencia escolar.
                                             </span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="pc-caja-objetivos-4">
+                            {/* <div className="pc-caja-objetivos-4">
                                 <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
                                     <div className={"d-flex " + bgc_cajas + " psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e" + etapa}>
                                         <div className="d-flex">
@@ -83,10 +83,10 @@ function Page042(props) {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
 
-                        <div className="d-flex justify-content-center mtp--10 mbp-50 ">
+                        <div className="d-flex justify-content-center mtp--20 mbp-50">
                             <div className="">
                                 <img src={"images/page_" + pagina + "/imagen.jpg"} className="w-100" alt="" />
                             </div>
