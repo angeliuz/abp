@@ -99,7 +99,7 @@ function Page025(props) {
           </div>
 
 
-          <div className="ptp-30 container-titulo-global mbp-0">
+          <div className=" container-titulo-global mbp-0">
             {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>La regla de las 3R</div> */}
             <div className="d-flex">
               {/* <img
