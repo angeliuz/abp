@@ -25,6 +25,7 @@ function Page024(props) {
                             Los derechos y la buena convivencia
                         </div>
                     </div>
+                    
                     <div className=" container-titulo-global mbp-∫0">
                         <div className="d-flex">
                             <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_024/img_002.svg" alt="" />
