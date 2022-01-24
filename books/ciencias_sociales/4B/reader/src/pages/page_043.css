@@ -1,6 +1,13 @@
-.cb-page43 {
-    background: url(images/page_043/fondo_001.svg) top center/contain no-repeat;
-    background-size: cover, 100%;
+.bgc-experimentacion {
+    background: url(../pages/images/generales/fondo_e4.svg) var(--pidgey) top left/ cover no-repeat !important;
     -webkit-print-color-adjust: exact !important;
-  }
-  
+}
+.t-shadow-experimentacion{
+    text-shadow: -7px -8px #0067a9;
+}
+
+@media all and (max-width: 500px) {
+    .ft-m {
+        font-size: 60px;
+    }
+}
