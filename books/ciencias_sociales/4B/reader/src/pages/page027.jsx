@@ -63,7 +63,7 @@ function Page027(props) {
               </div>
 
               <div className="col-sm-12 col-md-6 position-relative">
-
+                <div className="position-absolute top-0 start-100 translate-middle mtp--10 msp-20 "><img src="images/page_027/img_002.png" className="" alt="" /></div>
                 <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 visible-768"><img src="images/page_050/espiral.svg" className="wp-50 " alt="" /></div>
                 <div className="">
                   <div className="f-Ubuntu-B alinea rounded-set-10 bgc-bulma w-100 p-2 text-center color-white">Siento que con mis
@@ -100,6 +100,64 @@ function Page027(props) {
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_031/img_002.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
+
+
+          <div className="d-flex msp-60 mep-60 mbp-0 mtp-0">
+            <div className="row m-0  ptp-10 pbp-0 w-100">
+
+              <div className="col-6">
+                <div className="" ><img src="images/page_027/img_007.jpg" className="w-100 position-relative" alt="" />
+                  <div className="border-style-solid border-2 border-color-lightDark bgc-white position-absolute mtp--50 msp-10 rounded-50">
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-0 text-center wp-40 hp-40 lhp-35 min-hp-35"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-6 position-relative">
+                <div className="  "><img src="images/page_027/img_008.jpg" className=" w-100 position-relative" alt="" />
+                  <div className="border-style-solid border-2 border-color-lightDark bgc-white position-absolute mtp--50 msp-10 rounded-50">
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-0 text-center wp-40 hp-40 lhp-35 min-hp-35"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div className="d-flex msp-60 mep-60 mbp-100 mtp-0">
+            <div className="row m-0  ptp-10 pbp-0 w-100">
+
+              <div className="col-6 position-relative">
+                <div className="" ><img src="images/page_027/img_009.jpg" className="w-100 position-relative " alt="" />
+                  <div className="border-style-solid border-2 border-color-lightDark bgc-white position-absolute mtp--50 msp-10 rounded-50">
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-0 text-center wp-40 hp-40 lhp-35 min-hp-35"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-6 position-relative">
+                <div className="  "><img src="images/page_027/img_010.jpg" className=" w-100 position-relative" alt="" />
+                  <div className="border-style-solid border-2 border-color-lightDark bgc-white position-absolute mtp--50 msp-10 rounded-50">
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-0 text-center wp-40 hp-40 lhp-35 min-hp-35"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
 
           {/* BEGIN PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
