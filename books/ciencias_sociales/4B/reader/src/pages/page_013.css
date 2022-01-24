@@ -1,0 +1,68 @@
+.zi1 {
+    z-index: 1;
+}
+
+.zi2 {
+    z-index: 2;
+}
+
+.mtp-2 {
+    margin-top: 2;
+}
+
+.mtp--7 {
+    margin-top: -7px;
+}
+
+.mtp-355 {
+    margin-top: 355px;
+}
+
+.mtp-590 {
+    margin-top: 590px;
+}
+
+.centrar-hor {
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+}
+
+.msp--5-r-p13 {
+    margin-left: -5px;
+}
+
+.min-hp-240-r13 {
+    min-height: 240px;
+}
+
+.hp-950-r13 {
+    height: 997px;
+}
+
+.giro--3deg {
+    transform: rotate(-3deg);
+}
+
+.cuadrado {
+    min-width: 30px;
+    min-height: 30px;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+@media (max-width: 767px) {
+
+    .msp--5-r-p13 {
+        margin-left: -12px;
+    }
+
+    .min-hp-240-r13 {
+        min-height: 180px;
+    }
+}
+
+@media (max-width: 750px) {
+    .hp-950-r13 {
+        height: 950px;
+    }
+}
