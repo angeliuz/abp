@@ -46,7 +46,7 @@ function Page024(props) {
                         </div>
                     </div>
 
-                    <div className="d-flex msp-60 mep-60 mbp-100 mtp-30 bgc-azuka rounded-p-20 border-style-solid border-1 border-color-azuka">
+                    <div className="d-flex msp-60 mep-60 mbp-100 mtp-30 bgc-motaro rounded-p-20 border-style-solid border-1 border-color-azuka">
                         <div className="row w-100 p-0 m-0">
                             <div className="col-sm-4 position-relative justify-content-center align-items-center ptp-10">
 
