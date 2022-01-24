@@ -44,7 +44,7 @@ function Page009(props) {
                 </div>
 
               </div>
-              <div className="max-wp-300 mx-auto f-IntroRustG-Base w-100 fsp-18 border-1 border-top border-bottom border-top-solid border-color-goten mbp-10">
+              <div className="max-wp-400 mx-auto f-IntroRustG-Base w-100 fsp-25 color-nana border-color-nana mbp-10">
                 ¡Aceptamos el desafío!
               </div>
               <div className="col-sm-12 col-md-12 position-relative">

@@ -59,15 +59,17 @@ function Page026(props) {
 
 
 
-          <div className="d-flex psp-60 pep-60 mbp-100">
+          <div className="d-flex psp-60 pep-60 mbp-100 mtp-80">
             <div className="row w-100 p-0 m-0">
               <div className="col-12 p-0 m-0 position-relative">
-                
-                <div className="position-absolute top-0 start-0 visible-768  zindex-1 msp--30 mtp-50"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
-                <div className="position-absolute top-50 start-100 translate-middle  zindex-1 mep-25 mtp-0"><img src={"images/page_" + pagina + "/img_003.png"} className="hp-80" alt="" /></div>
+              <div className="position-absolute top-0 start-50 translate-middle  zindex-1  "><img src={"images/page_" + pagina + "/img_001.png"} className="" alt="" /></div>
+                <div className="position-absolute top-0 start-0 visible-768  zindex-1 msp--60 mtp-50"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
+                <div className="position-absolute top-50 start-100 translate-middle  zindex-1 msp-10 mtp-0"><img src={"images/page_" + pagina + "/img_003.png"} className="" alt="" /></div>
                 <div className="position-absolute top-100 start-0 translate-middle visible-768  zindex-1 msp-20 mtp--40"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-130" alt="" /></div>
-                <div className="d-flex border-style-solid border-2 border-color-dark rounded-p-10 min-hp-700">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-35 min-hp-800" />
+
+                <div className="d-flex flex-column border-style-solid border-2 border-color-dark rounded-p-10 ">
+
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="ptp-70 px-1 fsp-15 text-start flex-grow-1 lhp-35 min-hp-800" />
                 </div>
               </div>
 
