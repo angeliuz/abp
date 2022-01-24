@@ -137,6 +137,7 @@
   --chopin:#A2C700;
   --schubert:#FF9800;
   --debussy:#C3318F;
+  --haendel:#FFB7AE;
 }
 
 /* COLORES */
@@ -814,8 +815,9 @@
 .color-debussy {
   color: var(--debussy);
 }
-  
-  
+.color-haendel {
+  color: var(--haendel);
+}
 
 
 
@@ -1263,7 +1265,9 @@
 .border-color-debussy {
   border-color: var(--debussy) !important;
 }
-
+.border-color-haendel {
+  border-color: var(--haendel) !important;
+}
 /* B
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1710,4 +1714,7 @@
 }
 .bgc-debussy {
   background-color: var(--debussy);
+}
+.bgc-haendel {
+  background-color: var(--haendel);
 }

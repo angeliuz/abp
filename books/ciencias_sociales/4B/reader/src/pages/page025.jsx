@@ -83,7 +83,7 @@ function Page025(props) {
             <div className="row m-0 psp-60 pep-60 ptp-10 pbp-0 w-100">
 
               <div className="col-sm-12 col-md-12 position-relative pbp-20">
-              <div className="position-absolute top-0 start-100 translate-middle msp--30 mtp-0 visible-768"><img src={"images/page_" + pagina + "/img_002.png"} className=" " alt="" />
+              <div className="position-absolute top-0 start-100 translate-middle  mtp-0 visible-768"><img src={"images/page_" + pagina + "/img_002.png"} className=" " alt="" />
                 </div>
 
                 <div className="d-flex flex-column psp-20 pep-20 ptp-0 pbp-10  border-style-solid border-3 border-color-goku w-100 rounded-p-20">
@@ -99,7 +99,7 @@ function Page025(props) {
           </div>
 
 
-          <div className="ptp-30 container-titulo-global mbp-0">
+          <div className=" container-titulo-global mbp-0">
             {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>La regla de las 3R</div> */}
             <div className="d-flex">
               {/* <img
