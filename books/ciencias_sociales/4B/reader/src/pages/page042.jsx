@@ -1,8 +1,8 @@
 import React from "react";
-import "./page_044.css";
+import "./page_042.css";
 
-function Page044(props) {
-    const pagina = "044";
+function Page042(props) {
+    const pagina = "042";
     var indexInput = 0;
     const etapa = "4"
     const background = "bgc-pidgey";
@@ -112,4 +112,4 @@ function Page044(props) {
     );
 }
 
-export default Page044;
+export default Page042;
