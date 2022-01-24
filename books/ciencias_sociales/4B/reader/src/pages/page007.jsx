@@ -29,70 +29,75 @@ function Page007(props) {
           {/* END CABECERA VERSIÓN 2 */}
           <div className="ptp-50 container-titulo-global mbp-0">
             <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
-              Plan de trabajo
+              Conociendo el desafío
             </div>
             <div className="d-flex psp-20">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                3
+                1
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Pensamos en lo que vamos a necesitar para realizar nuestro proyecto.
+                Veo el video, leo y comprendo.
               </div>
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
+          <div className="d-flex msp-60 mep-60 mtp-0 mbp-10">
+            <div className="row p-0 m-0">
+              <div className="col-sm-12 col-md-3 position-relative"></div>
+              <div class="cb-paper">
+                <div class="cb-paper-content f-Ubuntu-L fsp-13 text-start">
+                  <img src="images/page_007/img_002.png" class="cb-carta" alt="" />
+                  <img src="images/page_007/img_001.png" class="cb-lapiz" alt="" />
+                  <p>Queridos estudiantes,</p>
+                  <p>En una escuela nos reunimos muchas personas: estudiantes, profesores, auxiliares,
+                    apoderados... Por lo mismo, ¡qué importante es cuidar la convivencia entre todos! Para trabajar
+                    en torno a la buena convivencia, les tengo un desafío muy importante:
+                    ¡Crear un álbum que promueva la buena convivencia!</p>
 
-          <div className="ptp-10 container-titulo-global mbp-20">
-            <div className={"f-Ubuntu-B fsp-20 psp-40 text-start lhp-20 " + color}>¡Tantos desechos!</div>
-            <div className="d-flex">
-              <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_007/ig.svg" alt="" />
-              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>1</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Leo la noticia de la revista y respondo. Comparto con mi equipo algunas ideas.
-              </div>
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_002.jpg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_007/revista65.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
-            </div>
-          </div>
+                  <p>Este álbum nos ayudará a reconocer los valores y actitudes necesarios
+                    para lograr una buena convivencia escolar, identificar conflictos al
+                    interior de su curso y proponer soluciones, además de algo muy importante:
+                    conocerse entre todos, para así valorar cómo cada uno aporta al curso
+                    desde sus aspectos positivos, sus diferencias, sus intereses y sus gustos.</p>
 
-          <div className="d-flex msp-110 mep-60 mbp-20 mtp-30">
-            <div className="row w-100">
-              <div className="col-12 text-start pbp-20">
-                <span className={"f-Ubuntu-B " + color}>a. </span><span className="f-Ubuntu-R">¿Cuál es el problema que se presenta en la noticia?</span>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
-              </div>
-              <div className="col-12 text-start">
-                <span className={"f-Ubuntu-B " + color}>b. </span><span className="f-Ubuntu-R">¿Por qué se ha producido este problema?</span>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
-              </div>
-            </div>
-          </div>
+                  <p>¿Te animas a participar de este desafío? ¡Lo pasaremos muy bien
+                    haciendo un conjunto de trabajos y conociendo mejor a otras personas!</p>
 
-          <div className="ptp-10 container-titulo-global mbp-20">
-            <div className={"f-Ubuntu-B fsp-20 psp-40 text-start lhp-20 " + color}>¡Atención, nos necesitan!</div>
-            <div className="d-flex psp-40">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_007/ig.svg" alt=""  /> */}
-              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Veo, leo y completo.
+                  <p>Estaremos esperando tu respuesta. ¡Nos vemos!</p>
+                </div>
               </div>
-              <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_007/revista65.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
-            </div>
-          </div>
 
-          <div className="d-flex msp-110 mep-60 mbp-20 mtp-30">
-            <div className="row w-100">
-              <div className="col-12 text-start pbp-20">
-                <img src="images/page_007/imagen.jpg" className="w-100 align-center mt-3 me-2 mb-2" alt="" />
+
+              <div className="d-flex psp-20">
+                {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
+                <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                  2
+                </div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                  Completo.
+                </div>
               </div>
+              <div className="max-wp-600 mx-auto d-flex f-Ubuntu-R fsp-15 mbp-70">
+                <div className="text-center w-100 border-1 border-style-solid border-color-palpatine mep-10 rounded-p-10">
+                  <div className="rounded-set-6  hp-50 pep-20 psp-20 ptp-10 pbp-10 bgc-palpatine color-white fw-700 d-flex justify-content-center align-items-center">
+                    La convivencia escolar es:
+                  </div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                </div>
+
+                <div className="text-center w-100 border-1 border-style-solid border-color-ken msp-10">
+                  <div className="rounded-set-6 hp-50 pep-20 psp-20 ptp-10 pbp-10 bgc-ken color-white fw-700 d-flex justify-content-center align-items-center">
+                    Una buena convivencia escolar nos ayuda a:
+                  </div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                </div>
+
+              </div>
+
+
             </div>
           </div>
 
