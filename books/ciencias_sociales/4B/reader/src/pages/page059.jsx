@@ -40,10 +40,16 @@ function Page059(props) {
           <div className="msp-60 mep-60 mb-20">
             <div className="row">
               <div className="col-12 bgc-ryu p-2 rounded-p-20 position-relative">
-                <div className="position-absolute top-0 end-0 mtp--150 "><img class="hp-150 " src="images/page_057/img_003.png" alt="" /></div>
-                <div className="position-absolute bottom-0 start-0 msp--20 mbp--20 "><img class="hp-40 " src="images/page_057/img_004.png" alt="" /></div>
+                <div className="position-absolute top-0 start-100 translate-middle  zindex-2  mtp--150 "><img class="hp-60 " src="images/page_059/img_001.png" alt="" /></div>
 
-                <div className="d-flex justify-content-center p-1">
+
+                <div className="d-flex justify-content-center p-1 position-relative mbp-30">
+
+                  <div className="position-absolute top-0 start-0 translate-middle  msp-50  mtp-5 zindex-1 gira-5">
+                    <img class="wp-140 position-relative   " src="images/page_059/img_002.png" alt="" />
+                    <div className="ptp-15  msp-20 mtp--50  gira-5 color-white  f-pixilate-bold fsp-18"> Ilustraciones </div>
+                  </div>
+
                   <div className="row bgc-white w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-10 border-style-solid border-2 border-color-yamcha">
                     <div className="col ptp-20">
                       <div className="d-flex w-100 p-2 rounded-p-20 ">
@@ -55,12 +61,86 @@ function Page059(props) {
                         <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">Debe retratar a los entrevistados y dibujar la portada.</div>
                       </div>
                       <div className="d-flex align-items-center w-100 p-2 ">
-                        <div className="d-flex justify-content-start align-items-center wp-360 hp-60   psp-10 bgc-yanfei   rounded-tbs-10 mtp-10 text-start f-Ubuntu-R  color-dark lh-sm "> La persona encargada de las ilustraciones será:</div>
+                        <div className="d-flex justify-content-start align-items-center wp-360 hp-60 psp-10 p-2 bgc-haendel rounded-tbs-10 text-start f-Ubuntu-R color-dark lh-sm "> La persona encargada de las ilustraciones será:</div>
                         <div className="d-flex w-100 hp-90 psp-5 text-start  rounded-p-10 border-style-solid border-2 border-color-yamcha "></div>
                       </div>
                     </div>
+                  </div>
+                </div>
 
 
+                <div className="d-flex justify-content-center p-1 position-relative mbp-30">
+
+                  <div className="position-absolute top-0 start-0 translate-middle  msp-30  mtp-5 zindex-1 gira-5">
+                    <img class="wp-110 position-relative mtp--20  " src="images/page_059/img_003.png" alt="" />
+                    <div className=" msp-20 mtp--35  gira-5 color-white zindex-2 f-pixilate-bold fsp-18"> Textos </div>
+                  </div>
+
+                  <div className="row bgc-white w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-10 border-style-solid border-2 border-color-goro">
+                    <div className="col ptp-20">
+                      <div className="d-flex w-100 p-2 rounded-p-20 ">
+                        <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
+                        <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">La persona encargada de los textos debe escribir bien y saber transmitir información en pocas palabras.</div>
+                      </div>
+                      <div className="d-flex w-100 p-2 ">
+                        <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
+                        <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">Debe escribir la introducción que explica el álbum y sus partes.</div>
+                      </div>
+                      <div className="d-flex align-items-center w-100 p-2 ">
+                        <div className="d-flex justify-content-start align-items-center wp-360 hp-60 psp-10 p-2 bgc-goro rounded-tbs-10 text-start f-Ubuntu-R color-dark lh-sm "> La persona encargada
+                          de los textos será:</div>
+                        <div className="d-flex w-100 hp-90 psp-5 text-start  rounded-p-10 border-style-solid border-2 border-color-goro "></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="d-flex justify-content-center p-1 position-relative mbp-30">
+
+                  <div className="position-absolute top-0 start-0 translate-middle  msp-30  mtp-5 zindex-1 gira-5">
+                    <img class="wp-110 position-relative mtp--20  " src="images/page_059/img_004.png" alt="" />
+                    <div className=" msp-20 mtp--35  gira-5 color-white zindex-2 f-pixilate-bold fsp-18"> Diseño </div>
+                  </div>
+
+                  <div className="row bgc-white w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-10 border-style-solid border-2 border-color-yoda">
+                    <div className="col ptp-20">
+                      <div className="d-flex w-100 p-2 rounded-p-20 ">
+                        <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
+                        <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">La persona encargada del diseño debe distribuir los espacios, colores y formas del álbum.</div>
+                      </div>
+                      <div className="d-flex w-100 p-2 ">
+                        <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
+                        <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">Debe crear el soporte material del álbum.</div>
+                      </div>
+                      <div className="d-flex align-items-center w-100 p-2 ">
+                        <div className="d-flex justify-content-start align-items-center wp-360 hp-60 psp-10 p-2 bgc-yoda rounded-tbs-10 text-start f-Ubuntu-R color-dark lh-sm "> La persona encargada
+                          de los textos será:</div>
+                        <div className="d-flex w-100 hp-90 psp-5 text-start  rounded-p-10 border-style-solid border-2 border-color-yoda "></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="d-flex justify-content-center p-1 position-relative mbp-10">
+
+                  <div className="position-absolute top-0 start-0 translate-middle  msp-30  mtp-5 zindex-1 gira-5">
+                    <img class="wp-110 position-relative mtp--20  " src="images/page_059/img_005.png" alt="" />
+                    <div className=" msp-20 mtp--35  gira-5 color-white zindex-2 f-pixilate-bold fsp-18"> Edición </div>
+                  </div>
+
+                  <div className="row bgc-white w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-10 border-style-solid border-2 border-color-cammy">
+                    <div className="col ptp-20">
+                      <div className="d-flex w-100 p-2 rounded-p-20 ">
+                        <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
+                        <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">La persona encargada de la edición debe revisar y procurar un justo equilibrio entre las partes del álbum.</div>
+                      </div>
+                      <div className="d-flex w-100 p-2 ">
+                        <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
+                        <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">Debe ser capaz de presentar y explicar el álbum a otros.</div>
+                      </div>
+                      <div className="d-flex align-items-center w-100 p-2 ">
+                        <div className="d-flex justify-content-start align-items-center wp-360 hp-60 psp-10 p-2 bgc-cammy rounded-tbs-10 text-start f-Ubuntu-R color-dark lh-sm "> La persona encargada de la edición será:</div>
+                        <div className="d-flex w-100 hp-90 psp-5 text-start  rounded-p-10 border-style-solid border-2 border-color-cammy "></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
