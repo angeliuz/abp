@@ -37,10 +37,12 @@ function Page017(props) {
                   alt=""
                 />
               </div>
-              <InputBox
-                id={"p" + pagina + "_input" + (indexInput += 1)}
-                className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190 "
-              />
+              <div className="mtp-20">
+                <InputBox
+                  id={"p" + pagina + "_input" + (indexInput += 1)}
+                  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190 "
+                />
+              </div>
             </div>
             <div className="ptp-40"></div>
             <div className="border-style-solid border-2 border-color-akuma rounded-p-20 position-relative p-3">
@@ -63,13 +65,15 @@ function Page017(props) {
                   alt=""
                 />
               </div>
-              <InputBox
-                id={"p" + pagina + "_input" + (indexInput += 1)}
-                className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190 "
-              />
+              <div className="mtp-20">
+                <InputBox
+                  id={"p" + pagina + "_input" + (indexInput += 1)}
+                  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190 "
+                />
+              </div>
             </div>
             <div className="ptp-40"></div>
-            <div className="border-style-solid border-2 border-color-rex rounded-p-20 position-relative p-3">
+            <div className="border-style-solid border-2 border-color-rex rounded-p-20 position-relative p-3 mbp-100">
               <div className="d-flex">
                 <div className="text-left">
                   <img
@@ -96,10 +100,12 @@ function Page017(props) {
                   alt=""
                 />
               </div>
-              <InputBox
-                id={"p" + pagina + "_input" + (indexInput += 1)}
-                className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-280"
-              />
+              <div className="mtp-20">
+                <InputBox
+                  id={"p" + pagina + "_input" + (indexInput += 1)}
+                  className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-280"
+                />
+              </div>
             </div>
           </div>
           {/* PIE DE PAGINA */}

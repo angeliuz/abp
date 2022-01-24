@@ -12,10 +12,11 @@ function Page010(props) {
   const color = "color-bulma";
   const borderColor = "border-color-goten"
   const bgc_cajas = "bgc-genos"
+
   return (
     <div className="wrapper bgc-light">
-      <div className="d-flex flex-column align-items-center pbp-20">
-          <div className="page cb-page10 overflow-hidden position-relative" id={"page_"+pagina}>
+        <div className="d-flex flex-column align-items-center pbp-20">
+            <div className={"dosier-e"+etapa+"_2 page bgc-white overflow-hidden position-relative"} id={"page_"+pagina}>
 
           <div className="mtp-75 cb-margen">
           <div className="d-flex justify-content-center">

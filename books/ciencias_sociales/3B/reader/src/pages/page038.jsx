@@ -7,6 +7,13 @@ function Page038(props) {
 
   const pagina = "038";
   var indexInput = 0;
+  const etapa = "4"
+  const background = "bgc-pidgey";
+  const color = "color-pidgey";
+  const colorSesion = "color-primary";
+  const borderColor = "border-color-pidgey"
+  const borderColorTabla = "border-color-pantro"
+  const bgc_cajas = "bgc-pantro";
 
   return (
       <div className="wrapper bgc-light">
@@ -16,33 +23,59 @@ function Page038(props) {
                 <div className="cabecera-v1 hp-80 bgc-pidgey"></div> 
                 {/* END CABECERA VERSIÓN 2 */}
 
-            <div className="ptp-10 psp-60 mbp-0 contenedor-pagina">
-              <div className="f-Ubuntu-B psp-50 fsp-20 color-pidgey text-start lhp-20">Valoramos la diversidad de nuestra comunidad</div>
-              <div className="d-flex">
-              <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_038/i_g.svg" alt="" />
-                <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">2</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Una forma de respetar y tolerar la diversidad que existe en nuestra escuela es…</div>
+            <div className="ptp-30 container-titulo-global mbp-40">
+              <div className={"f-Ubuntu-B fsp-20 psp-40 text-start lhp-20 "+color}>
+              Valoramos la diversidad de nuestra comunidad
               </div>
-            </div>
-
-            <div className="ptp-10 psp-100 pep-80 mbp-0 contenedor-pagina">
-              <div className="col-md-12 col-lg-12 mbp-10 position-relative">
-                <div className="mbp-20 mtp-10 msp-20 mep-20">
-                  <div className="bloque-respuesta linea1 bgc-jugador001 hp-540 p-2">
-                    <div className="f-Ubuntu-L fsp-15 p-1 text-center">Escribimos diez acciones de respeto y tolerancia a la diversidad.</div>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-500" />
+              <div className="d-flex">
+                  <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/i_g.svg"} alt=""  />
+                  <div className={"f-ccdigitaldelivery-bold fsp-35 "+color}>
+                    2
                   </div>
-                </div>
+                  <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                  Una forma de respetar y tolerar la diversidad que existe en nuestra escuela es…
+                  </div>
+                  {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+                  {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
+                  {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_007/revista65.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
               </div>
             </div>
 
-            <div className="ptp-10 psp-110 mbp-0 contenedor-pagina position-relative">
-            <div className="position-absolute bottom-0 end-0"><img src="images/page_038/mono.png" className="hp-140 pep-80" alt=""/></div>
+
+          <div className="d-flex mtp-40 msp-90 mep-60 position-relative">
+            <div className="row w-100">
+                              
+                  <div className="cb-ep-paper-48 ">
+                      <div className="cb-ep-paper-content-48 f-Ubuntu-L text-start hp-700 ">
+                          <div className="mtp-5 ">
+                          <div className="f-Ubuntu-L fsp-15 p-1 text-center">Escribimos diez acciones de respeto y tolerancia a la diversidad.</div>
+                              <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-500" />
+                            
+                          </div>
+                      </div>
+                  </div>
+            </div>
+          </div>
+
+          <div className="container-titulo-global ptp-0 mbp-70">
+              {/* <div className={"f-Ubuntu-B fsp-20 psp-40 text-start lhp-20 "+color}>
+              Valoramos la diversidad de nuestra comunidad
+              </div> */}
               <div className="d-flex">
-                <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">3</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start w-60">Elaboramos un decálogo de principios de respeto y tolerancia a la diversidad que presentaremos en nuestra Fiesta de la Diversidad.</div>
+                  {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/i_g.svg"} alt=""  /> */}
+                  <div className={"f-ccdigitaldelivery-bold fsp-35 "+color}>
+                    3
+                  </div>
+                  <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                  Elaboramos un decálogo de principios de respeto y tolerancia a la diversidad que presentaremos en nuestra Fiesta de la Diversidad.
+                  </div>
+                  <img src={"images/page_"+pagina+"/mono.png"} className="hp-140  mt-0 me-10 mb-2" alt=""  /> 
+                  {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+                  {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
+                  {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_007/revista65.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
               </div>
             </div>
+
 
             <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
               <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>ABP &copy; SM</div>

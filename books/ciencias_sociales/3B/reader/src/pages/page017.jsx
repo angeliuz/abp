@@ -7,38 +7,47 @@ import "./page_017.css";
 function Page017(props) {
   const pagina = "017";
   var indexInput = 0;
-
+  const etapa = "2"
+  const background = "bgc-bulma";
+  const color = "color-bulma";
+  const colorSesion = "color-bulma";
+  const borderColor = "border-color-bulma"
+  const borderColorTabla = "border-color-draco"
+  const bgc_cajas = "bgc-draco";
+  
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
-        <div
-          className="page cb-page17 bgc-white overflow-hidden position-relative"
-          id={"page_" + pagina}
-        >
-          <img src="images/page_017/cabecera.svg" alt="" />
+          <div className={"dosier-e"+etapa+" page bgc-white overflow-hidden position-relative"} id={"page_"+pagina}>
+              <img src={"images/cabecera/dosier_e"+etapa+".svg"} className="w-100" alt=""/>
+
+              {/* BEGIN CAJA PRINCIPAL DOSIER */}
+              <div className="d-flex global-margin">
+                  <div className="row p-0 m-0 w-100">
+                    <div className="col-12">
+
+                        <div className="psp-30 pep-30 ptp-30 pbp-0 position-relative">
+                            <div className="fsp-16 f-Ubuntu-R text-start psp-50 pbp-10">
+                            Esta página fue completada por:
+                            </div>
+                            <div className={"psp-50 pep-50 ptp-5 pbp-5 bgc-white rounded-p-10 border-style-solid border-1 "+borderColor+" d-flex justify-content-center position-relative"}>
+                                <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp--10"><img src={"images/page_"+pagina+"/img_001.png"} className="wp-70" alt="" /></div>
+                                <div className="position-absolute top-50 start-100 translate-middle wp-100 msp-0 mtp--10"><img src={"images/page_"+pagina+"/img_002.png"} className="wp-70" alt="" /></div>
+                                <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              {/* END CAJA PRINCIPAL DOSIER */}
+
+
           <div className="position-relative w-100">
             <div className="row psp-80 pep-70 ptp-10 pbp-50 ">
-              <div className="f-Ubuntu-R text-left fsp-18 pbp-10">
-                Esta página es completada por:
-              </div>
-              <div className="d-flex position-relative">
-                <img
-                  src="images/page_017/img_001.png"
-                  class="hp-60 position-absolute start-0 top-0 mtp--10"
-                  alt=""
-                />
-                <div className="bgc-white rounded-p-10 border-style-solid border-1 border-color-bulma w-100 py-1 psp-50 pep-20">
-                  <InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35"
-                  />
-                </div>
-                <img
-                  src="images/page_017/img_002.png"
-                  class="hp-80 position-absolute start-100 top-0 mep--50 mtp--10 "
-                  alt=""
-                />
-              </div>
+
               <div className="psp-80 pep-60 ptp-10">
                 <div className="f-Ubuntu-B color-bulma fsp-18 psp-80 text-left">
                   Plan de trabajo
@@ -46,7 +55,7 @@ function Page017(props) {
                 <div className="psp-20">
                   <div className="d-flex">
                     <img
-                      src="/images/page_017/img_003.png"
+                      src="images/page_017/img_003.png"
                       className="pep-10 msp--40 hp-80 mtp--20"
                       alt=""
                     />

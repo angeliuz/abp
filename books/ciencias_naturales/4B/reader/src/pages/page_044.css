@@ -29,11 +29,7 @@
 .cabecera-p44 {
     display: flex;
 }
-.caja-flotante {
-    /* background-color: aqua; */
-    max-width: 820px;
-    width: calc(100% - 20px);
-}
+
 
 @media all and (max-width: 820px) {
     .lineas-p44 {

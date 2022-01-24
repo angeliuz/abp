@@ -6,40 +6,58 @@ function Page011(props) {
 
   const pagina = "011";
   var indexInput = 0;
-  
+  const etapa = "1"
+  const background = "bgc-goten";
+  const color = "color-goten";
+  const borderColor = "border-color-goten"
+  const borderColorTable = "border-color-genos"
+  const bgc_cajas = "bgc-genos";
+
   return (
     <div className="wrapper bgc-light">
-      <div className="d-flex flex-column align-items-center pbp-20">
-          <div className="page cb-page11 position-relative" id={"page_"+pagina}>
-             
-          <div className="mtp-60 ">
-                <div className="d-flex justify-content-center">                    
-                    <img src="images/page_011/fondo_002.svg" className="cb-dosier-p11" alt=""></img>
-                </div>
-                    <div className="cb-block-inicial-etapa-p09 f-Ubuntu-L hp-90 fw-700 fsp-15 p-2 pb-3 mbp-30 text-center mtp-20 cb-outline_p11">
-                    <p>Esta página ha sido completada por</p>
-                    <div className="text-start psp-50"contenteditable="true"></div>
-                        <img src="images/page_011/img_001.png" className="cb-calendario-p11" alt=""></img>
-                        <img src="images/page_011/img_002.png" className="cb-silvato-p11" alt=""></img>
+        <div className="d-flex flex-column align-items-center pbp-20">
+            <div className={"dosier-e"+etapa+" page bgc-white overflow-hidden position-relative"} id={"page_"+pagina}>
+                {/* <img src="images/page_009/cabecera.svg" className="cb-dossier" alt=""/> */}
+
+          <div className="mtp-190 ">
+              {/* BEGIN CAJA PRINCIPAL DOSIER */}
+              <div className="d-flex mbp-20">
+                  <div className="row p-0 m-0 w-100">
+                    <div className="col-12 d-flex justify-content-center">
+                        <div className="ptp-30 pbp-0 position-relative max-wp-550 w-100">
+                              <div className={"psp-30 pep-30 ptp-5 pbp-5 bgc-white rounded-p-10 border-1 d-flex justify-content-center flex-column position-relative outline-color-goten outline-solid outline-border-1 outline-offset-2"}>
+                                  <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp--10 visible-768 "><img src={"images/page_"+pagina+"/img_002.png"} className="wp-70" alt="" /></div>
+                                  <div className="position-absolute top-100 start-100 translate-middle wp-100 visible-768 msp-20 mtp-45 zindex-1"><img src={"images/page_"+pagina+"/img_001.png"} className="wp-90" alt="" /></div>
+                                  <div className="fsp-16 f-Ubuntu-R text-center psp-0 pbp-10">
+                                      Esta página fue completada por:
+                                  </div>
+                                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                              </div>
+                            </div>
                     </div>
+                  </div>
+                </div>
+              {/* END CAJA PRINCIPAL DOSIER */}
+
+
 
                 <div className="cb-block-superior-p09 p-3  f-Ubuntu-L fsp-15 text-center fw-700 cb-outline_p11">
                     <img src="images/page_011/img_003.png" className="cb-crallones-p11" alt=""></img>
                     <p>Nuestro equipo está conformado por:</p>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" /> 
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" /> 
 
                 </div>
-                <div className="cb-block-superior-p09 p-3 pb-4 hp-120 f-Ubuntu-L fsp-15 mtp-30 mbp-30 text-center fw-700  cb-outline_p11">
-                    <img src="images/page_011/img_005.png" className="cb-bomero-p11"  alt=""></img>
+                <div className="cb-block-superior-p09 p-3 pb-4 f-Ubuntu-L fsp-15 mtp-30 mbp-30 text-center fw-700  cb-outline_p11 position-relative">
+                  <div className="position-absolute top-100 start-0 translate-middle msp--20 mtp--50 visible-768"><img src={"images/page_"+pagina+"/img_005.png"} className="wp-40" alt="" /></div> 
                     <p>Nuestra brigada se llama:</p>
-                    <div className="text-start psp-10"contenteditable="true"></div>
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
  
                 </div>
                 <div className="cb-block-superior-p09 p-3 f-Ubuntu-L fsp-15 mtp-30 mbp-30 text-center fw-700 cb-outline_p11">
                 <img src="images/page_011/img_006.png" className="cb-bloques-p11"  alt=""></img>
-                    <img src="images/page_011/img_008.png" class="cb-bota-p11" alt=""></img>
+                <div className="position-absolute top-100 start-0 translate-middle msp--20 mtp--20 visible-768"><img src={"images/page_"+pagina+"/img_008.png"} className="wp-70" alt="" /></div> 
                     <p>Nuestra brigada tendrá la misión de:</p>
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" /> 
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" /> 
 
 
                 </div>

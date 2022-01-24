@@ -34,7 +34,7 @@ function Page013(props) {
               <div className="col-md-6 psp-20">
                 <div className="d-flex">
                   <img
-                    src="/images/page_013/img_002.svg"
+                    src="images/page_013/img_002.svg"
                     className="pep-10 msp--40"
                     alt=""
                   />
@@ -55,7 +55,7 @@ function Page013(props) {
               <div className="col-md-6 psp-20 position-relative">
                 <div className="bgc-ash rounded-p-20 p-2">
                   <div className="bgc-white rounded-p-20 p-2">
-                    <div className="f-ubuntu-R text-left">
+                    <div className="f-Ubuntu-R text-left">
                       Conversamos y nuestro concepto de diversidad es...
                     </div>
                     <InputBox
@@ -63,7 +63,7 @@ function Page013(props) {
                       className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-240"
                     />
                     <img
-                      src="/images/page_013/img_003.png"
+                      src="images/page_013/img_003.png"
                       className="position-absolute top-0 start-100 translate-middle mtp-20 msp--50 hp-50"
                       alt=""
                     />
@@ -82,7 +82,7 @@ function Page013(props) {
                 Completo la tabla.
               </div>
             </div>
-            <div className="row pbp-50">
+            <div className="row pbp-50 f-Ubuntu-R">
               <div className="col-md-4 pbp-20">
                 <div className="bgc-tshinhan esquina-ts px-2 border-end alto-res ptp-res">
                   <div className="">¿Qué sé sobre la diversidad?</div>
@@ -124,12 +124,12 @@ function Page013(props) {
             </div>
           </div>
           <img
-            src="/images/page_013/img_004.png"
+            src="images/page_013/img_004.png"
             className="tf-postit hp-60"
             alt=""
           />
           <img
-            src="/images/page_013/img_005.png"
+            src="images/page_013/img_005.png"
             className="tf-lupa hp-60"
             alt=""
           />

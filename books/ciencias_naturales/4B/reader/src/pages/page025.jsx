@@ -55,9 +55,10 @@ function Page025(props) {
             </div>
           </div>
 
-          <div className="d-flex msp-60 mep-60 mbp-20 mtp-30 bgc-azuka rounded-p-20 border-style-solid border-1 border-color-azuka">
+          <div className="d-flex msp-60 mep-60 mbp-100 mtp-30 bgc-azuka rounded-p-20 border-style-solid border-1 border-color-azuka">
             <div className="row w-100 p-0 m-0">
               <div className="col-sm-4 position-relative justify-content-center align-items-center ptp-10">
+
                 <div className="position-absolute top-0 start-0 translate-middle msp-3 mtp-0 zindex-1">
                   <img
                     src="images/page_070/img_002.png"
@@ -112,7 +113,13 @@ function Page025(props) {
                 </div>
               </div>
               <div className="col-sm-4 position-relative ptp-10">
-                
+                <div className="position-absolute top-0 start-100 translate-middle msp-3 mtp-20 msp--50 zindex-1 visible-768">
+                  <img
+                    src="images/page_025/img_004.png"
+                    className=" "
+                    alt=""
+                  />
+                </div>
                 <div className="d-flex justify-content-center w-100 ">
                   <div className="bgc-pidgey w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
                     CONSECUENCIAS
@@ -173,13 +180,7 @@ function Page025(props) {
                 </div>
               </div>
               <div className="col-sm-4 position-relative">
-              <div className="position-absolute bottom-0 start-0 msp-3 mtp-20 msp--50 zindex-1 visible-768">
-                  <img
-                    src="images/page_025/img_004.png"
-                    className=" "
-                    alt=""
-                  />
-                </div>
+
                 <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
                   <img
                     src="images/page_025/img_003.svg"

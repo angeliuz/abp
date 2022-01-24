@@ -1,23 +1,29 @@
 import React from "react";
 import InputBox from "../components/InputBox";
+import ModalBook from "../components/ModalBook";
 import "./page_021.css";
 
 function Page021(props) {
   const pagina = "021";
   var indexInput = 0;
+  const etapa = "2";
+  const background = "bgc-bulma";
+  const color = "color-bulma";
+  const borderColor = "border-color-bulma";
+  const borderColorTabla = "border-color-buzz";
+  const bgc_cajas = "bgc-piccolo";
 
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
-        <div
-          className="page cb-page21 bgc-white overflow-hidden position-relative"
-          id={"page_" + pagina}
-        >
-          <img src="images/page_021/cabecera.svg" alt="" />
+        <div className={"dosier-e" + etapa + " page bgc-white overflow-hidden position-relative"} id={"page_" + pagina}>
+          <img src={"images/cabecera/dosier_e" + etapa + ".svg"} className="w-100" alt="" />
+
+
           <div className="position-relative w-100">
             <div className="row psp-80 pep-70 ptp-10 pbp-50 ">
               <div className="f-Ubuntu-R text-start fsp-18 pbp-10">
-                Esta página es completada por:
+                Esta página fue completada por:
               </div>
               <div className="d-flex position-relative">
                 <img
@@ -37,21 +43,30 @@ function Page021(props) {
                   alt=""
                 />
               </div>
-              <div className="psp-80 pep-60 ptp-30">
-                <div className="d-flex pbp-10 position-relative">
-                  <div className="f-ccdigitaldelivery-bold fsp-35 color-bulma">
+
+              <div className="ptp-30 container-titulo-global mbp-40">
+                {/* <div className={"f-Ubuntu-B fsp-20 psp-40 text-start lhp-20 " + color}>
+                  Las tareas de cada etapa
+                </div> */}
+                <div className="d-flex">
+                  {/* <img src={"images/page_" + pagina + "/img_002.svg"} className="hp-20 align-center mt-3 me-0 mb-2" alt="" /> */}
+                  <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                     1
                   </div>
-                  <div className="f-Ubuntu-R fsp-16 ptp-15 psp-10 text-start text-start">
-                    Usamos los recortables para organizar las etapas y tareas
-                    que quedan del proyecto.
+                  <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                    Usamos los recortables para organizar las etapas y tareas que quedan del proyecto.
                   </div>
-                  <img
-                    src="images/page_021/img_003.svg"
-                    className="psp-20 position-absolute top-0 start-100 msp--50 mtp-40"
-                    alt=""
-                  />
+                  {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="w-50" alt="" /> */}
+                  {/* <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+                  {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_"+pagina+"/img_001.png" className="p-0 px-1" /> */}
+                  <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-50 text-center mtp-10 " className="p-0 px-0" />
                 </div>
+              </div>
+
+
+
+              <div className="psp-80 pep-60 ptp-0">
+
                 <div className="row position-relative">
                   <div className="col-md-6 col-12 pbp-20">
                     <div className="mxwp-200 hp-30 bgc-android18 rounded-set-20 border-style-solid border-1 border-color-anakin centrar-hor">

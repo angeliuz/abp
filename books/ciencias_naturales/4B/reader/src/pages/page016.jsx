@@ -11,16 +11,15 @@ function Page016(props) {
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
-        <div
-          className="page bgc-white overflow-hidden position-relative"
-          id={"page_" + pagina}
-        >
+        <div className="page bgc-white overflow-hidden position-relative" id={"page_" + pagina}>
           <div className="cabecera-v1 hp-80 bgc-bulma "></div>
-          <div className="psp-60 pep-60 ptp-30 pbp-80 text-start">
+
+
+          <div className="global-margin ptp-30 pbp-0 text-start">
             <div className="f-Ubuntu-B color-bulma fsp-18 text-left">
               ¿Qué necesito saber acerca del desafío?
             </div>
-            <div className="d-flex">
+            <div className="d-flex mbp-20">
               <div className="f-ccdigitaldelivery-bold fsp-35 color-bulma">
                 2
               </div>
@@ -28,7 +27,50 @@ function Page016(props) {
                 Observo y respondo.
               </div>
             </div>
-            <div className="ps-8-r pe-8-r">
+          </div>
+
+
+          <div className="d-flex global-margin mbp-100">
+            <div className="row w-100 p-0 m-0 ">
+              <div className="col-12">
+                <div className="d-flex flex-column bgc-white box-shadow-simple psp-20 pep-20 ptp-20 mbp-30">
+                  <div className="d-flex align-items-center">
+                    <img src={"images/page_" + pagina + "/img_001_e.jpg"} className="w-100" alt="" />
+                  </div>
+                  <div className="d-flex f-Ubuntu-L fsp-14 mtp-5 mbp-5">
+                    <div className="d-flex center-center psp-2 pep-2">
+                      <div className="flecha-bulma-arriba"></div>
+                    </div>
+                    <div className="w-100 text-start psp-5">
+                      Casas destruidas por el terremoto del 27 de febrero de 2010.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 position-relative">
+                <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--80 visible-768"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
+
+                <div className="d-flex flex-column bgc-white box-shadow-simple psp-20 pep-20 ptp-20 mbp-30">
+                  <div className="d-flex align-items-center">
+                    <img src={"images/page_" + pagina + "/img_002_e.jpg"} className="w-100" alt="" />
+                  </div>
+                  <div className="d-flex f-Ubuntu-L fsp-14 mtp-5 mbp-5">
+                    <div className="d-flex center-center psp-2 pep-2">
+                      <div className="flecha-bulma-arriba"></div>
+                    </div>
+                    <div className="w-100 text-start psp-5">
+                      Casas bajo ceniza volcánica en Chaitén, 2008.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+
+          {/* <div className="ps-8-r pe-8-r">
               <div className="w-100 sombra p-2 centrar-hor mtp-30">
                 <img
                   src="images/page_016/img_001.jpg"
@@ -37,7 +79,7 @@ function Page016(props) {
                 />
                 <div className="d-flex psp-30 mtp--15">
                   <div className="flecha-bulma-arriba"></div>
-                  <div className="psp-20 mtp--5">
+                  <div className="psp-20 mtp--5 f-Ubuntu-L fsp-14">
                     {" "}
                     Casas destruidas por el terremoto del 27 de febrero de 2010.
                   </div>
@@ -58,12 +100,12 @@ function Page016(props) {
                 </div>
               </div>
             </div>
-          </div>
-          <img
+          </div> */}
+          {/* <img
             src="images/page_016/img_003.png"
             className="position-absolute top-50 start-0 hp-160 msp-40 mtp-180"
             alt=""
-          />
+          /> */}
           {/* PIE DE PAGINA */}
           <div
             className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2"

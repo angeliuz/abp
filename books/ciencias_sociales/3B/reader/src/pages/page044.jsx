@@ -40,7 +40,7 @@ function Page044(props) {
 
     <div className="d-flex msp-60 mep-40 ">
           <div className="row w-100 m-0 p-2 rounded-p-10 bgc-hotaru">
-            <div className="col-lg-8   ">
+            <div className="col-lg-8  col-md-8 ">
 
               <div className="d-block p-2 ">
                 <div className="f-Ubuntu-L text-start fsp-15 lh-sm">Las personas que nos ayudarán son</div>
@@ -83,7 +83,7 @@ function Page044(props) {
             </div>
           
 
-            <div className="col-lg-4 col-sm-12 wp-220  position-relative">
+            <div className="col-lg-4 col-md-4 wp-220  position-relative">
               <div className="d-block bgc-beethoven border border-2 border-color-sektor cuadroRotado rounded-be-20  p-2  ">
               <div className="position-absolute bottom-0 end-0  p-0 m-0"> 
                <img src="images/page_044/img_005.svg" className="hp-20  " alt=""></img>
@@ -133,19 +133,19 @@ function Page044(props) {
             </div>
           </div>
 
-
-          <div className="d-flex msp-60 mep-60 mtp-0 mbp-10">
-              <div className="row p-0 m-0">
-                   <div className="col-sm-12 col-md-3 position-relative">
-
-                        <div className="border-style-solid border-1 border-color dark "></div>
-
-                   </div>
-              </div>
-          </div>
+ 
    
  
        
+          <div className="d-flex msp-60 mep-60 mtp-0 mbp-80">
+              <div className="row w-100 p-0 m-0">
+                   <div className="col-sm-12   position-relative">
+                      <div className="d-flex justify-content-center ptp-20 w-100">
+                        <div className="border-style-solid border-1  wp-500 min-hp-250 sombra rounded-p-10 "></div>
+                      </div>
+                   </div>
+              </div>
+          </div>
        
      
 

@@ -7,6 +7,12 @@ import "./page_033.css";
 function Page033(props) {
   const pagina = "033";
   var indexInput = 0;
+  const etapa = "3"
+  const background = "bgc-android18";
+  const color = "color-android18";
+  const borderColor = "border-color-android18"
+  const borderColorTable = "border-color-azuka"
+  const bgc_cajas = "bgc-goku";
 
   return (
     <div className="wrapper bgc-light">
@@ -19,19 +25,13 @@ function Page033(props) {
           <div className="cabecera-v1 hp-80 bgc-android18"></div>
           {/* END CABECERA VERSIÓN 2 */}
 
-          <div className="ptp-30 psp-60 pep-60">
-            <div className="f-Ubuntu-M fsp-20 color-android18 text-start">
+          <div className="ptp-50 container-titulo-global mbp-0">
+            <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
               La importancia de un plan de seguridad
             </div>
-          </div>
-          <div className="ptp-10 container-titulo-global mbp-20">
-            <div className="d-flex">
-              <img
-                src="images/page_033/img_001.svg"
-                className="hp-20 mtp-15 msp--10 pep-10"
-                alt=""
-              />
-              <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">
+            <div className="d-flex psp-20">
+              <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_001.svg"} alt="" />
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 5
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
@@ -39,48 +39,53 @@ function Page033(props) {
                 revista. Luego, lo relacionamos con lo que esperamos de la
                 brigada y su misión.
               </div>
-              <img
-                src="images/page_033/img_002.svg"
-                className="hp-40 mtp-20"
-                alt=""
-              />
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_002.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
-          <div className="psp-60 pep-60 ptp-30">
-            <div className="position-relative">
-              <div className="py-1 bgc-android18 rounded-p-20 msp-30 mtp--10 mxwp-140 centrar-hor invisible-768">Plan de seguridad</div>
-              <div className="circulo border-style-solid border-color-android18 border-2 ajuste-circulo-1">
-                <div className="position-absolute">
-                  <div className="psp-30-r mtp-60 d-flex flex-column">
-                  <div className="py-1 bgc-android18 rounded-p-20 msp-30 mtp--10 mxwp-140 visible-768">Plan de seguridad</div>
-                    <InputBox
-                      id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 flex-grow-1 lhp-25 min-hp-260-r mnxwp-180-r"
-                    />
+
+          <div className="d-flex global-margin mtp-30 mbp-0 ptp-0 pbp-0">
+            <div className="d-flex center-center w-100">
+
+              <div className="row p-0 m-0 wp-580">
+                <div className="col-6 d-flex justify-content-end">
+                  <div className="bgc-android18 wp-150 f-Ubuntu-R fsp-15 mep-30 ptp-2 pbp-2 rounded-p-20 align-self-end">Plan de seguridad</div>
+                </div>
+
+                <div className="col-6 d-flex justify-content-start">
+                  <div className="bgc-android18 wp-150 f-Ubuntu-R fsp-15 msp-30 ptp-2 pbp-2 rounded-p-20 align-self-end">Revista</div>
+                </div>
+
+                <div className="col-12 p-0 m-0">
+                  <div className="d-flex center-center position-relative wp-580 hp-400">
+                    <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/circulos.svg"} className="wp-580 hp-369" alt="" /></div>
+                    <div className="row w-100 zindex-2 p-0 m-0">
+                      <div className="col-4 p-0 m-0 d-flex align-items-center">
+                        <div className="d-flex w-100 psp-40 pep-10 ptp-0 pbp-0">
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-185" />
+                        </div>
+                      </div>
+                      <div className="col-4 p-0 m-0">
+                        <div className="d-flex w-100 psp-50 pep-50 ptp-0 pbp-0">
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-185" />
+                        </div>
+                      </div>
+                      <div className="col-4 p-0 m-0">
+                        <div className="d-flex w-100 psp-10 pep-40 ptp-0 pbp-0">
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-185" />
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="position-absolute top-0 start-50 zi1">
-                <div className="msp--80-r mtp-80-r">
-                  <InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 lhp-25 min-hp-220-r mnxwp-160-r"
-                  />
-                </div>
-              </div>
-              <div className="circulo border-style-solid border-color-android18 border-2 ajuste-circulo-2">
-                <div className="position-absolute">
-                  <div className="psp-170-r mtp-60-r">
-                  <div className="py-1 bgc-android18 rounded-p-20 mtp--10 mxwp-140 visible-768">Revista</div>
-                    <InputBox
-                      id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 flex-grow-1 lhp-25 min-hp-260-r mnxwp-180-r"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="py-1 bgc-android18 rounded-p-20 msp-30 mtp--10 mxwp-140 centrar-hor invisible-768">Revista</div>
             </div>
+          </div>
+
+
+          <div className="psp-60 pep-60 ptp-30">
+
             <div className="ptp-30"></div>
             <div className="bgc-sid px-2 ptp-10 pbp-50 rounded-set-20">
               <div className="bgc-white border-style-solid border-1 border-color-rex p-3 rounded-p-20">

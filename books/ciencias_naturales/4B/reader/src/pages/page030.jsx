@@ -46,7 +46,7 @@ function Page030(props) {
             </div>
           </div>
 
-          <div className="row container-row px-5">
+          <div className="global-margin mtp-30 mbp-100">
             <div className="row mx-4 position-relative">
               <div className="col-sm-12 col-md-6 position-relative mbp-20">
                 <div className="position-absolute top-0 start-0 translate-middle  zindex-1 mtp-10 msp-120 ">
@@ -58,11 +58,8 @@ function Page030(props) {
                 </div>
 
                 <div className="mbp-20 mtp-10 ">
-                  <div className=" position-relative  border-style-solid border-color-saitama border-1 min-hp-300 p-2 rounded-tbe-20 ">
-                    <InputBox
-                      id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-270"
-                    />
+                  <div className=" position-relative  border-style-solid border-color-saitama border-1 min-hp-300 psp-10 pep-10 ptp-20 pbp-10 rounded-tbe-20">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-270" />
                   </div>
                 </div>
               </div>
@@ -77,7 +74,7 @@ function Page030(props) {
                 </div>
 
                 <div className="mbp-20 mtp-10 ">
-                  <div className=" position-relative  border-style-solid border-color-bulma border-1 min-hp-300 p-2 rounded-tbe-20 ">
+                  <div className=" position-relative  border-style-solid border-color-bulma border-1 min-hp-300 psp-10 pep-10 ptp-20 pbp-10 rounded-tbe-20 ">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
                       className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-270"
@@ -96,7 +93,7 @@ function Page030(props) {
                 </div>
 
                 <div className="mbp-20 mtp-10 ">
-                  <div className=" position-relative  border-style-solid border-color-pidgey border-1 min-hp-300 p-2 rounded-tbe-20 ">
+                  <div className=" position-relative  border-style-solid border-color-pidgey border-1 min-hp-300 psp-10 pep-10 ptp-30 pbp-10 rounded-tbe-20 ">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
                       className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-270"
@@ -115,7 +112,7 @@ function Page030(props) {
                 </div>
 
                 <div className="mbp-20 mtp-10 ">
-                  <div className=" position-relative  border-style-solid border-color-pikachu border-1 min-hp-300 p-2 rounded-tbe-20  ">
+                  <div className=" position-relative  border-style-solid border-color-pikachu border-1 min-hp-300 psp-10 pep-10 ptp-30 pbp-10 rounded-tbe-20  ">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
                       className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-270"

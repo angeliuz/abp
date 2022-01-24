@@ -41,20 +41,29 @@ function Page008(props) {
 
 
                 <div className="cb-ejercicio-1-p08 ptp-20 psp-25 pbp-15  position-relative mbp-90 f-Ubuntu-R fsp-15">
+                <div className="position-absolute top-0 start-100 translate-middle msp--20 mtp-0 visible-768"><img src={"images/generales/clip.png"} className="wp-30" alt="" /></div> 
                 <div className="d-flex mbp-10">
-                    <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
+                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                  </div>
                     <div className="msp-10 justify-content-center align-items-center d-flex"> Crear una campaña.</div>
                     </div>
                     <div className="d-flex mbp-10">
-                        <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
+                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                      </div>
                         <div className="msp-10 justify-content-center align-items-center d-flex">Elaborar una revista..</div>
                         </div>
                     <div className="d-flex mbp-10">
-                        <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
+                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                      </div>
                         <div className="msp-10 justify-content-center align-items-center d-flex">Organizar una fiesta.</div>
                     </div>
                     <div className="d-flex mbp-10">
-                        <div className="bgc-white ptp-5 pbp-5 psp-15 pep-20 border-1 border-style-solid border-color-dark" contenteditable="true"></div>
+                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                      </div>
                         <div className="msp-10 justify-content-center align-items-center d-flex">Organizar una fiesta.</div>
                     </div>
                     </div>
@@ -62,10 +71,9 @@ function Page008(props) {
                     <div className={"d-flex w-100 mtp-50 psp-60 pep-60 ptp-20 mbp-0 border-top-style-solid "+borderColor+" border-2 pbp-80 "+bgc_cajas}>
                           <div className="row w-100 p-0 m-0">
                             <div className="col-12 position-relative">
-
-
+                              <div className="position-absolute top-0 start-100 translate-middle msp--50 mtp--65 visible-768"><img src={"images/page_"+pagina+"/img_002.png"} className="wp-120" alt="" /></div> 
+                              <div className="position-absolute top-0 start-0 translate-middle msp-40 mtp--45 visible-768"><img src={"images/page_"+pagina+"/img_003.png"} className="wp-50" alt="" /></div> 
                               
-                              <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0 visible-768"><img src={"images/page_"+pagina+"/img_001.png"} className="wp-60" alt="" /></div> 
                               <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
                               <div className="d-flex flex-column mbp-20 mtp-10 w-100">
                                     <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">

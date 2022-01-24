@@ -7,6 +7,12 @@ import "./page_035.css";
 function Page035(props) {
   const pagina = "035";
   var indexInput = 0;
+  const etapa = "3"
+  const background = "bgc-android18";
+  const color = "color-android18";
+  const borderColor = "border-color-android18"
+  const borderColorTable = "border-color-azuka"
+  const bgc_cajas = "bgc-goku";
 
   return (
     <div className="wrapper bgc-light">
@@ -18,29 +24,32 @@ function Page035(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className="cabecera-v1 hp-80 bgc-android18"></div>
           {/* END CABECERA VERSIÓN 2 */}
-          <div className="ptp-30 psp-60 pep-60">
-            <div className="f-Ubuntu-M fsp-20 color-android18 text-start">
+
+          <div className="ptp-50 container-titulo-global mbp-20">
+            <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
               Preparamos una encuesta
             </div>
-          </div>
-          <div className="ptp-10 container-titulo-global mbp-20">
-            <div className="d-flex">
-              <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">
+            <div className="d-flex psp-20">
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 2
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                 Leo la revista y completo.
               </div>
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
 
+
           <div className="row mx-4 position-relative">
             <div className="col-sm-12 col-md-6 position-relative mbp-10">
-              <div className="position-absolute top-50 start-100 translate-middle zindex-1 visible-768">
-                <img src="images/page_035/img_035.png" className=" " alt="" />
-              </div>
-              <div className="box-color-24-1">
-                <div className="f-Ubuntu-M alinea fsp-18 rounded-caja bgc-vegeta w-100 pbp-20 ptp-20 px-2 text-center color-white">
+
+
+              <div className="box-color-24-1 mtp-12">
+                <div className="f-Ubuntu-M alinea fsp-18 rounded-caja bgc-vegeta w-100 pbp-20 ptp-20 px-2 text-center color-white min-hp-70">
                   El propósito de una encuesta es:
                 </div>
                 <div className=" linea1 bgc-white min-hp-200 p-2  rounded-seb-20 border-style-solid border-color-vegeta border-2">
@@ -52,19 +61,18 @@ function Page035(props) {
               </div>
             </div>
 
-            <div className="col-sm-12 col-md-6 mbp-40">
-              <div className="box-color-24-2">
-                <div className="f-Ubuntu-M alinea fsp-18 rounded-caja bgc-saitama w-100 h-100 p-2 text-center color-white">
+            <div className="col-sm-12 col-md-6 mbp-40 position-relative">
+              <div className="position-absolute posicion-centro-centro translate-middle zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="rotacion-centro-centro" alt="" /></div>
+              <div className="box-color-24-2 mtp-12">
+                <div className="f-Ubuntu-M alinea fsp-18 rounded-caja bgc-saitama w-100 h-100 p-2 text-center color-white min-hp-70 d-flex center-center">
                   Para el proyecto, sería útil realizar una encuesta sobre:
                 </div>
-                <div className="linea1 bgc-white min-hp-200 p-2  rounded-seb-20 border-style-solid border-color-saitama border-2 position-relative">
+                <div className="linea1 bgc-white min-hp-200 p-2 rounded-seb-20 border-style-solid border-color-saitama border-2 position-relative">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175"
                   />
-                  <div className="position-absolute top-50 start-0 translate-middle h-100 ptp-10 pbp-10 msp--15 visible-768">
-                    <div className="anillos-p35 wp-50 h-100"></div>
-                  </div>
+
                 </div>
               </div>
             </div>
@@ -80,7 +88,7 @@ function Page035(props) {
               </div>
             </div>
           </div>
-          <div className="psp-60 pep-60">
+          <div className="psp-60 pep-60 f-Ubuntu-R">
             <div className="row">
               <div className="col-md-6 col-12">
                 <div className="ptp-10 pbp-10 psp-20">
@@ -210,16 +218,16 @@ function Page035(props) {
               </div>
             </div>
           </div>
-          <div className="psp-50 pep-50">
+          <div className="psp-50 pep-50 f-Ubuntu-R">
             <div className="bgc-white border-style-solid border-1 border-color-lightDark sombra w-100 psp-40 pep-15 ptp-10 pbp-130 position-relative">
-                <div className="ptp-10 text-start">Personas a quienes se encuestará:</div>
-                <div className="flex-grow-1 mtp--5">
-                  {" "}
-                  <InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75 w-100"
-                  />
-                </div>
+              <div className="ptp-10 text-start">Personas a quienes se encuestará:</div>
+              <div className="flex-grow-1 mtp--5">
+                {" "}
+                <InputBox
+                  id={"p" + pagina + "_input" + (indexInput += 1)}
+                  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75 w-100"
+                />
+              </div>
               <div className="row">
                 <div className="col-md-6 d-flex">
                   <div className="ptp-10">Cantidad de personas:</div>
@@ -234,47 +242,47 @@ function Page035(props) {
                 <div className="col-md-6 d-flex">
                   <div className="ptp-10">Fecha de la encuesta</div>
                   <div className="flex-fill">
-                  {" "}
-                  <InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 w-100"
-                  />
-                </div>
-                <span className="ptp-10">/</span>
-                <div className="flex-fill">
-                  {" "}
-                  <InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 w-100"
-                  />
-                </div>
-                <span className="ptp-10">/</span>
-                <div className="flex-fill">
-                  {" "}
-                  <InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 w-100"
-                  />
-                </div>
+                    {" "}
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 w-100"
+                    />
+                  </div>
+                  <span className="ptp-10">/</span>
+                  <div className="flex-fill">
+                    {" "}
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 w-100"
+                    />
+                  </div>
+                  <span className="ptp-10">/</span>
+                  <div className="flex-fill">
+                    {" "}
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 w-100"
+                    />
+                  </div>
                 </div>
               </div>
               <div className="d-flex">
                 <div className="ptp-10">Tiempo destinado para encuestar:</div>
                 <InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35"
-                  />
+                  id={"p" + pagina + "_input" + (indexInput += 1)}
+                  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35"
+                />
               </div>
               <div className="d-flex">
                 <div className="ptp-10">Lugar de realización de la encuesta:</div>
                 <InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35"
-                  />
+                  id={"p" + pagina + "_input" + (indexInput += 1)}
+                  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35"
+                />
               </div>
               <div className="position-absolute top-50 start-0 translate-middle h-100 ptp-10 pbp-10 visible-768">
-                    <div className="anillos-b-p35 wp-30 h-100"></div>
-                  </div>
+                <div className="anillos-b-p35 wp-30 h-100"></div>
+              </div>
             </div>
           </div>
           {/* BEGIN PIE DE PAGINA */}
