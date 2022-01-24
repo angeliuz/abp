@@ -4614,6 +4614,9 @@
 .rounded-tbs-20 {
   border-radius: 20px 0px 0px 20px;
 }
+.rounded-tbs-10 {
+  border-radius: 10px 0px 0px 10px;
+}
 /*redondeado left-bottom*/
 .rounded-bs-10 {
   border-bottom-left-radius: 10px;
