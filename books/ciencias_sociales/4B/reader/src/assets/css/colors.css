@@ -138,6 +138,7 @@
   --schubert:#FF9800;
   --debussy:#C3318F;
   --haendel:#FFB7AE;
+  --brahms:#7FD5E9;
 }
 
 /* COLORES */
@@ -818,6 +819,9 @@
 .color-haendel {
   color: var(--haendel);
 }
+.color-brahms {
+  color: var(--brahms);
+}
 
 
 
@@ -1268,6 +1272,9 @@
 .border-color-haendel {
   border-color: var(--haendel) !important;
 }
+.border-color-brahms {
+  border-color: var(--brahms) !important;
+}
 /* B
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1717,4 +1724,7 @@
 }
 .bgc-haendel {
   background-color: var(--haendel);
+}
+.bgc-brahms {
+  background-color: var(--brahms);
 }
