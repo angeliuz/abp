@@ -49,22 +49,82 @@ function Page031(props) {
                     <div className="d-flex msp-60 mep-60 psp-20 pep-20">
 
                         <div className="row ptp-0 ps-12 pe-8 m-0 w-100">
-                            <div className="col-12  position-relative mbp-70">
-                                {/* <div className="position-absolute top-0 start-100 translate-middle msp-30 mtp-120 visible-768"><img src="images/page_048/camarografo.png" className="wp-70 " alt="" /></div> */}
-                                {/* <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-60 visible-768"><img src="images/page_048/periodista.png" className="wp-60 " alt="" /></div> */}
+                            <div className="col-12  position-relative ">
+                                <div className="position-absolute top-100 start-100 translate-middle msp-20 mtp--100 "><img src="images/page_031/img_004.png" className="wp-70 " alt="" /></div>
+                                <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-60 "><img src="images/page_031/img_003.png" className=" " alt="" /></div>
 
-                                <div className="d-flex flex-column mbp-20 mtp-10 p-2 w-100 border-style-solid border-2 rounded-p-10 border-color-dark bgc-white">
-                                <div className="f-Ubuntu-R fsp-16 text-center w-100">Hay un problema</div>
+                                <div className="d-flex flex-column mbp-20 mtp-10 p-2 w-100 border-style-solid border-2  border-color-dark bgc-azuka">
+                                    <div className="f-Ubuntu-R fsp-16 text-start w-100">Una entrevista es</div>
                                     <div className="p-2 w-100 d-flex flex-column">
                                         {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Podemos mejorar en...</div> */}
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-210" />
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                                    </div>
+                                    <div className="f-Ubuntu-R fsp-16 text-start w-100">Si me entrevistaran, me gustaría que sea acerca de</div>
+                                    <div className="p-2 w-100 d-flex flex-column">
+                                        {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Podemos mejorar en...</div> */}
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                                    </div>
+                                    <div className="f-Ubuntu-R fsp-16 text-start w-100">Una entrevista me puede ayudar a realizar el desafío final porque</div>
+                                    <div className="p-2 w-100 d-flex flex-column">
+                                        {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Podemos mejorar en...</div> */}
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                     </div>
+                    <div className="ptp-30 container-titulo-global mbp-20">
+                        <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 " + color}>Conocemos una entrevista</div>
+                        <div className="d-flex">
+                            {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_002.svg"} alt="" /> */}
+                            <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
+                            <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                                Leo la entrevista y completo.
+                            </div>
+                            {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+                            {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
+                            {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
+                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_005.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+                        </div>
+                    </div>
 
+                    <div className="ptp-10 psp-80 pep-80 pbp-100">
+                        <div className="row rounded-p-10  position-relative">
+
+                            <div className="col-12 col-md-4 p-0">
+                                <div className="w-100 p-2 m-0 position-relative">
+                                    <div className="rounded-tbe-20 p-3  border-style-solid border-4 border-color-android18">
+                                        <div className="f-Ubuntu-R fsp-16 text-start w-100 ">Elementos y personas
+                                            necesarias para
+                                            la entrevista:</div>
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-4 p-0 position-relative">
+                                {/* <div className="position-absolute top-0 start-100 translate-middle "><img src="images/page_029/img_002.png" className=" mtp--40 msp-30 z-index-1" alt="" /></div> */}
+                                <div className="w-100 p-2 m-0 position-relative">
+                                    <div className="rounded-tbe-20 p-3 border-style-solid border-4 border-color-jade">
+                                        <div className="f-Ubuntu-R fsp-16 text-start w-100">Tipos de preguntas
+                                            realizadas en la entrevista:</div>
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-4 p-0 position-relative">
+                                {/* <div className="position-absolute top-0 start-100 translate-middle "><img src="images/page_029/img_002.png" className=" mtp--40 msp-30 z-index-1" alt="" /></div> */}
+                                <div className="w-100 p-2 m-0 position-relative">
+                                    <div className="rounded-tbe-20 p-3 border-style-solid border-4 border-color-rex">
+                                        <div className="f-Ubuntu-R fsp-16 text-start w-100 pbp-20">Información obtenida de
+                                            la entrevista:</div>
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
 
                     {/* BEGIN PIE DE PAGINA */}
                     <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
