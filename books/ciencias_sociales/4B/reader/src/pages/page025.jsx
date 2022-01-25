@@ -23,7 +23,7 @@ function Page025(props) {
           id={"page_" + pagina}
         >
           {/* BEGIN CABECERA VERSIÓN 2 */}
-          <div className={"cabecera-v2 d-flex flex-column " + background}>
+          {/* <div className={"cabecera-v2 d-flex flex-column " + background}>
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
               <div
                 className={
@@ -37,153 +37,95 @@ function Page025(props) {
                 El destino de los desechos
               </div>
             </div>
-          </div>
+          </div> */}
           {/* END CABECERA VERSIÓN 2 */}
 
-          <div className="ptp-50 container-titulo-global mbp-0">
-            <div
-              className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}
-            >
-              Plan de trabajo
-            </div>
-            <div className="d-flex psp-20">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
-              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                3
-              </div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Pensamos en lo que vamos a necesitar para realizar nuestro
-                proyecto.
-              </div>
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
-            </div>
+          {/* BEGIN CABECERA VERSIÓN 1 */}
+          <div className="cabecera-v1 hp-80 bgc-android18">
           </div>
+          {/* END CABECERA VERSIÓN 1 */}
+
 
 
           <div className="ptp-30 container-titulo-global mbp-20">
             <div
               className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 " + color}
             >
-              La regla de las 3R
+              Los derechos y la buena convivencia
             </div>
             <div className="d-flex">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_001.svg"} alt=""  /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                1
+                5
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Veo el video y completo con mis ideas.
+                Leo mis derechos y creo un esquema con los tipos derechos.
               </div>
-              <ModalVideo
+              {/* <ModalVideo
                 id={"p" + pagina + "_video" + (indexInput += 1)}
                 image="images/generales/play.svg"
                 clasesImagen="cambio hp-40 mtp-10"
                 className="p-0 px-1"
-              />
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
+              /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_025/img_001.svg" className="p-0 px-1" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_025/img_001.svg" className="p-0 px-1" /> */}
               <ModalBook
                 id={"p" + pagina + "_book" + (indexInput += 1)}
-                image={"images/page_" + pagina + "/revista.svg"}
+                image={"images/page_" + pagina + "/img_001.svg"}
                 clasesImagen="hp-40 text-center mtp-10 "
                 className="p-0 px-0"
               />
             </div>
           </div>
 
-          <div className="d-flex psp-60 pep-60 pbp-0">
-            <div className="row w-100 p-0 m-0">
-              <div className="col-sm-12 col-md-12 position-relative">
-                <div className="position-absolute top-50 start-0 translate-middle visible-768 zindex-1 msp--20 mtp-0">
-                  <img
-                    src={"images/page_" + pagina + "/img_004.png"}
-                    className="wp-60"
-                    alt=""
-                  />
+          <div className="d-flex msp-60 mep-60 mbp-0 mtp-0">
+
+            <div className="row m-0 psp-60 pep-60 ptp-10 pbp-0 w-100">
+
+              <div className="col-sm-12 col-md-12 position-relative pbp-20">
+              <div className="position-absolute top-0 start-100 translate-middle  mtp-0 visible-768"><img src={"images/page_" + pagina + "/img_002.png"} className=" " alt="" />
                 </div>
-                <div className="position-absolute top-0 start-100 translate-middle visible-768 zindex-1 msp--50 mtp--10">
-                  <img
-                    src={"images/page_" + pagina + "/img_002.png"}
-                    className="wp-150"
-                    alt=""
-                  />
+
+                <div className="d-flex flex-column psp-20 pep-20 ptp-0 pbp-10  border-style-solid border-3 border-color-goku w-100 rounded-p-20">
+
+
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-500" />
+
                 </div>
-                <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-20 text-start">
-                  <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
-                    a.
-                  </div>
-                  <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">
-                    ¿Qué diferencia hay entre reciclar y reutilizar?
-                  </div>
-                </div>
-                <InputBox
-                  id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-160"
-                />
+
               </div>
 
-              <div className="col-sm-12 col-md-12 position-relative">
-                <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-20 text-start">
-                  <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
-                    b.
-                  </div>
-                  <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">
-                    ¿Qué significa que tenemos que reducir?
-                  </div>
-                </div>
-                <InputBox
-                  id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-160"
-                />
-              </div>
-
-              <div className="col-sm-12 col-md-12 position-relative">
-                <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-20 text-start">
-                  <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
-                    c.
-                  </div>
-                  <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">
-                    ¿Cómo enseñaremos esta regla a la comunidad en la feria?
-                  </div>
-                </div>
-                <InputBox
-                  id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-160"
-                />
-              </div>
             </div>
           </div>
 
-          <div className="ptp-30 container-titulo-global mbp-0">
+
+          <div className=" container-titulo-global mbp-0">
             {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>La regla de las 3R</div> */}
             <div className="d-flex">
-              <img
+              {/* <img
                 className="hp-20 align-center mt-3 me-2 mb-2"
                 src={"images/page_" + pagina + "/img_001.svg"}
                 alt=""
-              />
+              /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                2
+                6
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Leo la revista. Comparto mis ideas con el equipo y
-                complementamos las respuestas anteriores.
+                Reflexiono: ¿Cómo se relacionan los derechos con la buena convivencia?
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              <ModalBook
+              {/* <ModalBook
                 id={"p" + pagina + "_book" + (indexInput += 1)}
                 image={"images/page_" + pagina + "/img_006.svg"}
                 clasesImagen="hp-40 text-center mtp-10 "
                 className="p-0 px-0"
-              />
+              /> */}
             </div>
           </div>
 
-          <div className="d-flex psp-60 pep-60 pbp-100">
+          {/* <div className="d-flex psp-60 pep-60 pbp-100">
             <div className="row w-100 p-0 m-0">
               <div className="col-12">
                 <img
@@ -192,6 +134,31 @@ function Page025(props) {
                   alt=""
                 />
               </div>
+            </div>
+          </div> */}
+
+
+
+          <div className="d-flex msp-120 mep-120 mbp-100 mtp-0">
+
+            <div className="row m-0 psp-10 pep-10  pbp-0 bgc-makoto border-style-solid border-1 border-color-dark w-100  ">
+
+              <div className="col-md-12 col-lg-12 position-relative ">
+              <div className="position-absolute top-0 start-100 translate-middle msp--30 mtp--120 visible-768"><img src={"images/page_" + pagina + "/img_003.png"} className=" " alt="" />
+                </div>
+                <div className="d-flex flex-column mbp-0 mtp-0 w-100">
+                  <div className="p-2 min-hp-80 w-100 ">
+                    <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
+
+                     
+                    </div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
+                  </div>
+
+                </div>
+
+              </div>
+
             </div>
           </div>
 

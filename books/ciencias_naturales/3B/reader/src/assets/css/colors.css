@@ -30,7 +30,7 @@
   --tshinhan: #f9c980;
   --android18: #afca0b;
   --milk: #d7e585;
-  --pidgey: #00abcc;
+  --pidgey: #009dc5;
   --freezer: #80cee2;
   --saitama: #7c6eb0;
   --ash: #beb7d8;
@@ -51,7 +51,7 @@
   --garou: #231F20;
   --obiwan: #f39200;
   --misty: #d7dd3b;
-  --boros: #FFD000;  /* USADO SOLO PARA EL NÚMERO DE PÁGINA */
+  --boros: #FFD000;
   --harry: #66c4dc;
   --hermione: #e6f5f9;
   --voldemort: #f7b34d;
@@ -132,6 +132,8 @@
   --blaze:#5cac3c;
   --kagome:#ffdcb4;
   --naraku:#b0dcec;
+  --lizt:#FFF7E6;
+  --bach:#F4D0E7;
 }
 
 /* COLORES */
@@ -367,6 +369,7 @@
 .border-color-white {
   border-color: var(--white) !important;
 }
+
 
 /* AUXILIARES */
 /* COLORS */
@@ -792,6 +795,12 @@
 }
 .color-naraku {
   color: var(--naraku);
+}
+.color-lizt {
+  color: var(--lizt);
+}
+.color-bach {
+  color: var(--bach);
 }
   
   
@@ -1228,6 +1237,12 @@
 .border-color-naraku {
   border-color: var(--naraku) !important;
 }
+.border-color-lizt {
+  border-color: var(--lizt) !important;
+}
+.border-color-bach {
+  border-color: var(--bach) !important;
+}
 /* B
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1659,4 +1674,10 @@
 }
 .bgc-naraku {
   background-color: var(--naraku);
+}
+.bgc-lizt {
+  background-color: var(--lizt);
+}
+.bgc-bach {
+  background-color: var(--bach);
 }

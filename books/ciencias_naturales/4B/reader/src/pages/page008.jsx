@@ -10,7 +10,7 @@ function Page008(props) {
 
     return (
         <div className="wrapper bgc-light">
-            <div className="d-flex flex-column align-items-center pbp-50">
+            <div className="d-flex flex-column align-items-center pbp-20">
                 <div className="page bgc-white position-relative" id={"page_" + pagina}>
                     <div className="cabecera-v1 hp-80 bgc-goten">
 
@@ -38,47 +38,48 @@ function Page008(props) {
                             </div>
                         </div>
 
+
                         <div className="cb-ejercicio-final-bloques d-flex mbp-20">
                             <div className="cb-ejercicio-final-lef position-relative" >
 
-                                <div className="cb-ejercicio-left-arriba position-relative">
+                                <div className="cb-ejercicio-left-arriba position-relative f-Ubuntu-R">
                                     <div className="cb-pienso-c text-start fsp-15"> <span>Pienso y le pregunto a Macarena.</span>  </div>
                                 </div>
-                                <div className="border-style-solid border-2 border-color-android18 rounded-p-10">
-                                    <div className="d-flex flex-column bgc-jaga rounded-p-10">
+
+                                <div className="border-style-solid border-2 border-color-rukia mtp-20 box-shadow-simple position-relative rotate-2">
+                                    <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp--60  zindex-1"><img src={"images/page_" + pagina + "/img_004.svg"} className="wp-30" alt="" /></div>
+                                    <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--60  zindex-1"><img src={"images/page_" + pagina + "/img_004.svg"} className="wp-30 rotate-180" alt="" /></div>
+                                    <div className="d-flex flex-column bgc-shogun">
                                         <div className="psp-10 pep-10">
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-50" />
+                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-250" />
                                         </div>
                                     </div>
                                 </div>
 
 
-
-                                <div className="cb-ejercicio-left-abajo border-color position-relative">
-
-                                    <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
-                                    </div>
-                                    <img src="images/page_008/img_004.svg" className="cb-pregunta-a" alt=""></img>
-                                    <img src="images/page_008/img_004.svg" className="cb-pregunta-b" alt=""></img>
-                                    <img src="images/page_008/img_005.png" className="cb-agenda-p07" alt=""></img>
-                                </div>
-
                             </div>
-                            <div className="cb-ejercicio-final-rig">
+                            <div className="cb-ejercicio-final-rig mbp-70">
 
-
-
-                                <div className="cb-ejercicio-final-arriba border-color position-relative">
-                                    <div className="text-start psp-10" contenteditable="true"></div>
-                                    <img src="images/page_008/img_006.svg" className="cb-pregunta-c" alt=""></img>
-                                    <img src="images/page_008/img_006.svg" className="cb-pregunta-d" alt=""></img>
+                                <div className="border-style-solid border-2 border-color-goku mtp-20 box-shadow-simple position-relative rotate-2">
+                                    <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp--60  zindex-1"><img src={"images/page_" + pagina + "/img_006.svg"} className="wp-30" alt="" /></div>
+                                    <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--60 zindex-1"><img src={"images/page_" + pagina + "/img_006.svg"} className="wp-30 rotate-180" alt="" /></div>
+                                    <div className="d-flex flex-column bgc-piccolo">
+                                        <div className="psp-10 pep-10">
+                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-250" />
+                                        </div>
+                                    </div>
                                 </div>
-                                <div className="cb-ejercicio-final-abajo position-relative">
-                                    <div className="text-start psp-10" contenteditable="true"></div>
-                                    <img src="images/page_008/img_005.svg" className="cb-pregunta-e" alt=""></img>
-                                    <img src="images/page_008/img_005.svg" className="cb-pregunta-f" alt=""></img>
+
+                                <div className="border-style-solid border-2 border-color-freezer mtp-20 box-shadow-simple position-relative rotate--2">
+                                    <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp--60  zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-30" alt="" /></div>
+                                    <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--60  zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-30 rotate-180" alt="" /></div>
+                                    <div className="d-flex flex-column bgc-bison">
+                                        <div className="psp-10 pep-10">
+                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-250" />
+                                        </div>
+                                    </div>
                                 </div>
+
                             </div>
                         </div>
 
