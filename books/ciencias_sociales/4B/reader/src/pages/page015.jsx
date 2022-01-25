@@ -92,10 +92,9 @@ function Page015(props) {
               <div className="wp-190-p15 linea-p15  border-solo-bot align-self-end text-end mbp-40"><div className="mb-0 f-pixilate-regular fsp-21 pep-40">PLANIFICACIÓN</div></div>
               <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_009.png"} className="wp-25" alt="" /></div>
               <div className="position-absolute top-100 start-100 msp--53 mtp--20 zindex-1"><img src={"images/page_" + pagina + "/img_008.svg"} className="wp-100" alt="" /></div>
-              <div className="position-absolute top-100 start-0 translate-middle msp-50 mtp-80 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-150" alt="" /></div>
             </div>
           </div>
-          <div className="position-relative ptp-600"></div>
+          <div className="position-relative ptp-600"><div className="position-absolute top-100 start-0 translate-middle msp-100 mtp-320 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-150" alt="" /></div></div>
 
 
           <div className="pbp-400"></div>
