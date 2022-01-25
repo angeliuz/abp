@@ -16,172 +16,211 @@ function Page061(props) {
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
-        <div className="page bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
-          {/* BEGIN CABECERA VERSIÓN 2 */}
-          <div className={"cabecera-v2 "+background+" d-flex flex-column"}>
-            <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja wp-160 text-center fsp-24 f-IntroRustG-Base">SESIÓN 15</div>
-              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">El editorial de la revista</div>
+        <div className="page bgc-white overflow-hidden position-relative" id={"page_" + pagina}>
+          <div className={"cabecera-v1 hp-80 " + background}>
+          </div>
+
+          <div className="ptp-10 container-titulo-global mbp-20">
+            <div className="d-flex">
+              <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_068/i_g.svg" alt="" />
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                Elaboro una lista de las cosas que debería hacer para cumplir mi tarea de forma adecuada. Marco un ticket cuando haya realizado cada una.
+              </div>
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_068/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
-            <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Mis objetivos <br />en  esta sesión son:
-              </div>
-              <div className="p-0 align-self-center">
-                <img src={"images/generales/flecha_sesion_e"+etapa+"_1.svg"} className="wp-40 arrow-global" alt="" />
-              </div>
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-              Identificar conceptos e ideas <br/>clave de la revista.
-              </div>
-              <div className="p-0 align-self-center">
-                <img src={"images/generales/flecha_sesion_e"+etapa+"_2.svg"} className="wp-40 arrow-global rotate-90" alt="" />
-              </div>
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-              Establecer la principal<br/> conclusión de la revista.
-              </div>
-              <div className="p-0 align-self-center">
-                <img src={"images/generales/flecha_sesion_e"+etapa+"_1.svg"} className="wp-40 arrow-global" alt="" />
-              </div>
-               <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
-               Elaborar el editorial <br/>de la revista.
+          </div>
+
+          <div className="bgc-tatooine rounded-p-20 mtp-0 msp-60 mep-60 mbp-0 ptp-10 psp-10 f-Ubuntu-R">
+
+            <div className="d-flex mbp-0 psp-20 pep-20">
+
+              <div className="row w-100 ">
+
+                <div className="col-sm-9 col-md-10">
+                  Tareas específicas
+                </div>
+                <div className="col-sm-3 col-md-2">
+                  ¿Realizada?
+                </div>
+
+                <div className="col-sm-9 col-md-10 d-flex justify-content-center pbp-10 ptp-10">
+                  <div className="d-flex flex-column w-100 ptp-0 pbp-10 psp-20 pep-20 bgc-white rounded-p-20 position-relative">
+                    <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0">
+                      <div className="wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-saitama border-style-solid border-color-saitama bgc-bobafett f-Ubuntu-B">
+                        1
+                      </div>
+                    </div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
+                  </div>
+                </div>
+
+                <div className="col-sm-3 col-md-2 d-flex center-center position-relative pbp-10">
+                  <div className="wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 border-style-solid border-color-dark bgc-white f-Ubuntu-B"></div>
+                </div>
+                <div className="col-sm-9 col-md-10 d-flex justify-content-center pbp-10 ptp-10">
+                  <div className="d-flex flex-column w-100 ptp-0 pbp-10 psp-20 pep-20 bgc-white rounded-p-20 position-relative">
+                    <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0">
+                      <div className="wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-saitama border-style-solid border-color-saitama bgc-bobafett f-Ubuntu-B">
+                        2
+                      </div>
+                    </div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
+                  </div>
+                </div>
+
+                <div className="col-sm-3 col-md-2 d-flex center-center position-relative pbp-10">
+                  <div className="wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 border-style-solid border-color-dark bgc-white f-Ubuntu-B"></div>
+                </div>
+                <div className="col-sm-9 col-md-10 d-flex justify-content-center pbp-10 ptp-10">
+                  <div className="d-flex flex-column w-100 ptp-0 pbp-10 psp-20 pep-20 bgc-white rounded-p-20 position-relative">
+                    <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0">
+                      <div className="wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-saitama border-style-solid border-color-saitama bgc-bobafett f-Ubuntu-B">
+                        3
+                      </div>
+                    </div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
+                  </div>
+                </div>
+
+                <div className="col-sm-3 col-md-2 d-flex center-center position-relative pbp-10">
+                  <div className="wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 border-style-solid border-color-dark bgc-white f-Ubuntu-B"></div>
+                </div>
+                <div className="col-sm-9 col-md-10 d-flex justify-content-center pbp-10 ptp-10">
+                  <div className="d-flex flex-column w-100 ptp-0 pbp-10 psp-20 pep-20 bgc-white rounded-p-20 position-relative">
+                    <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0">
+                      <div className="wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-saitama border-style-solid border-color-saitama bgc-bobafett f-Ubuntu-B">
+                        4
+                      </div>
+                    </div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
+                  </div>
+                </div>
+
+                <div className="col-sm-3 col-md-2 d-flex center-center position-relative pbp-10">
+                  <div className="wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 border-style-solid border-color-dark bgc-white f-Ubuntu-B"></div>
+                </div>
+
+
               </div>
 
             </div>
-          </div> 
-          {/* END CABECERA VERSIÓN 2 */}
-            <div className="ptp-10 container-titulo-global mbp-20">
-              <div className="d-flex">
-                  <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_061/i_g.svg" alt=""  />
-                  <div className={"f-ccdigitaldelivery-bold fsp-35 "+color}>1</div>
-                  <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Reviso el mapa mental que creamos en la etapa de investigación y las entrevistas que realizamos con mi grupo. Luego, completo el esquema.</div>
-                  <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_061/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+          </div>
+
+
+          <div className="ptp-10 container-titulo-global mbp-20">
+            <div className="d-flex">
+              <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_068/i_g.svg" alt="" />
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>3</div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                A partir de los esquemas realizados y la información recopilada, elaboramos la revista. Creamos una versión impresa y una digital para la siguiente sesión.
               </div>
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_068/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
+          </div>
 
-            <div className="bgc-bobafett rounded-p-20 mtp-0 msp-60 mep-60 mbp-7 ptp-30 psp-10 f-Ubuntu-R">
-
-                <div className="d-flex mbp-70">
-
-                    <div className="row w-100 ">
-
-                      <div className="col-sm-12 col-md-4 d-flex justify-content-center pbp-30">
-                          <div className="d-flex flex-column w-100 ptp-40 pbp-30 psp-20 pep-20 bgc-white rounded-p-20 position-relative">
-                              <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-10 zindex-1 min-wp-180">
-                                <div className="d-flex justify-content-center align-items-center text-center w-100 bgc-padme border-style-solid border-1 border-color-white rounded-p-20 p-2 fsp-13">
-                                  Una palabra que llamó mi atención.
-                                </div>
-                              </div>
-                              <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                          </div>
-                      </div>
-                      <div className="col-sm-12 col-md-4 d-flex justify-content-center pbp-30">
-                          <div className="d-flex flex-column w-100 ptp-40 pbp-30 psp-20 pep-20 bgc-white rounded-p-20 position-relative">
-                              <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-10 zindex-1 min-wp-180">
-                                <div className="d-flex justify-content-center align-items-center text-center w-100 bgc-padme border-style-solid border-1 border-color-white rounded-p-20 p-2 fsp-13">
-                                Una idea que me parece importante.
-                                </div>
-                              </div>
-                              <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                          </div>
-                      </div>
-                      <div className="col-sm-12 col-md-4 d-flex justify-content-center pbp-30 position-relative">
-                        <div className="position-absolute top-100 start-100 translate-middle msp--20 mtp--30 visible-768 zindex-1"><img src="images/page_061/img_003.png" className="wp-60 " alt="" /></div> 
-                          <div className="d-flex flex-column w-100 ptp-40 pbp-30 psp-20 pep-20 bgc-white rounded-p-20 position-relative">
-                              <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-10 zindex-1 min-wp-180">
-                                <div className="d-flex justify-content-center align-items-center text-center w-100 bgc-padme border-style-solid border-1 border-color-white rounded-p-20 p-2 fsp-13">
-                                Una frase que sintetice la información de la revista.
-                                </div>
-                              </div>
-                              <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                          </div>
-                      </div>
-
-                      <div className="col-sm-12 col-md-12 pbp-40 d-flex justify-content-start">
-                        <span className="text-start fsp-15">
-                          ¿Qué registraron mis compañeros o compañeras?
-                        </span>
-                      </div>
-
-
-                      <div className="col-sm-12 col-md-4 d-flex justify-content-center pbp-30 position-relative">
-                        <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-15 visible-768 zindex-1"><img src="images/page_061/img_004.png" className="wp-20 " alt="" /></div> 
-                          <div className="d-flex flex-column w-100 ptp-40 pbp-0 psp-20 pep-20 bgc-white rounded-p-20 position-relative">
-                              <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-10 zindex-1 min-wp-180">
-                                <div className="d-flex justify-content-center align-items-center text-center w-100 bgc-padme border-style-solid border-1 border-color-white rounded-p-20 p-2 fsp-13">
-                                Las palabras que llamaron su atención.
-                                </div>
-                              </div>
-                              <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-240" />
-                          </div>
-                      </div>
-                      <div className="col-sm-12 col-md-4 d-flex justify-content-center pbp-30">
-                          <div className="d-flex flex-column w-100 ptp-40 pbp-0 psp-20 pep-20 bgc-white rounded-p-20 position-relative">
-                              <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-10 zindex-1 min-wp-180">
-                                <div className="d-flex justify-content-center align-items-center text-center w-100 bgc-padme border-style-solid border-1 border-color-white rounded-p-20 p-2 fsp-13">
-                                Las ideas que les parecieron importantes.
-                                </div>
-                              </div>
-                              <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                          </div>
-                      </div>
-                      <div className="col-sm-12 col-md-4 d-flex justify-content-center pbp-30">
-                          <div className="d-flex flex-column w-100 ptp-40 pbp-0 psp-20 pep-20 bgc-white rounded-p-20 position-relative">
-                              <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-10 zindex-1 min-wp-180">
-                                <div className="d-flex justify-content-center align-items-center text-center w-100 bgc-padme border-style-solid border-1 border-color-white rounded-p-20 p-2 fsp-13">
-                                Las frases que emplearon para sintetizar la información.
-                                </div>
-                              </div>
-                              <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                          </div>
-                      </div>
-                      
+          <div className="d-flex w-100 mtp-50 psp-60 pep-60 ptp-20 mbp-0 bgc-windu border-top-style-solid border-color-dark border-2 pbp-80">
+            <div className="row w-100 p-0 m-0">
+              <div className="col-12 position-relative">
+                <div className="position-absolute top-0 start-100 translate-middle msp--10 mtp--104 visible-768"><img src="images/page_068/img_003.png" className="wp-80 " alt="" /></div>
+                <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
+                <div className="d-flex flex-column mbp-20 mtp-10 w-100">
+                  <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
+                    <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
+                      <img src="images/generales/flecha_e5.svg" className="mep-5 wp-15" alt="" />
+                      <span>Las tareas en las que más me comprometo son</span>
+                    </div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-20" />
+                    <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 mtp-20 text-start">
+                      <img src="images/generales/flecha_e5.svg" className="mep-5 wp-15" alt="" />
+                      <span>La estrategia que más me ha ayudado es</span>
+                    </div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-20" />
                   </div>
 
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo me siento?</div>
+                <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-30">
+                  <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/page_018/img_005.svg" className="hp-17 mtp--2" alt="" /> el recuadro que mejor me represente.</span>
+                  <div className="w-100 p-2 pb-3 bgc-white rounded-p-10">
+                    <table className="w-100">
+                      <tbody>
+                        <tr>
+                          <td>&nbsp;</td>
+                          <td className="style-caja bgc-saitama tf-letra border-style-solid border-1 border-color-saitama f-colby-compres-bold ps-2 pe-2">
+                            Nunca</td>
+                          <td style={{ minWidth: "55px" }} className="style-caja bgc-saitama tf-letra  border-style-solid border-1 border-color-saitama f-colby-compres-bold ps-2 pe-2">
+                            A veces</td>
+                          <td className="style-caja bgc-saitama tf-letra border-style-solid border-1 border-color-saitama f-colby-compres-bold ps-2 pe-2">
+                            Generalmente</td>
+                          <td className="style-caja bgc-saitama tf-letra  border-style-solid border-1 border-color-saitama f-colby-compres-bold ps-2 pe-2">
+                            Siempre</td>
+                        </tr>
+                        <tr>
+                          <td className="bgc-windu f-Ubuntu-L fsp-12 text-start psp-5 border-style-solid border-1 border-color-saitama">Me siento tenso y nervioso cuando trabajo con mi equipo.</td>
+                          <td className="border-style-solid border-1 border-color-saitama"></td>
+                          <td className="border-style-solid border-1 border-color-saitama"></td>
+                          <td className="border-style-solid border-1 border-color-saitama"></td>
+                          <td className="border-style-solid border-1 border-color-saitama"></td>
+                        </tr>
+                        <tr>
+                          <td className="bgc-windu f-Ubuntu-L fsp-12 text-start psp-5 border-style-solid border-1 border-color-saitama">Me asusta no hacer bien el trabajo y recibir críticas.</td>
+                          <td className="border-style-solid border-1 border-color-saitama"></td>
+                          <td className="border-style-solid border-1 border-color-saitama"></td>
+                          <td className="border-style-solid border-1 border-color-saitama"></td>
+                          <td className="border-style-solid border-1 border-color-saitama"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
               </div>
             </div>
+          </div>
 
 
-                    
-    
-            {/* PIE DE PAGINA */}
-            <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
-              <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
-                ABP &copy; SM
-              </div>
-              <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+
+          {/* PIE DE PAGINA */}
+          <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
+            <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
+              ABP &copy; SM
             </div>
-            <div className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
-              <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-                <img src="images/rotulo_motivacion.svg" className="oculto" alt="" />
-                <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
-                <div className="w-100 hp-25 bgc-goten"></div>
-              </div>
-              <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-                <img src="images/rotulo_planificacion.svg" className="oculto" alt="" />
-                <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
-                <div className="w-100 hp-25 bgc-bulma"></div>
-              </div>
-              <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-                <img src="images/rotulo_investigacion.svg" className="oculto" alt="" />
-                <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
-                <div className="w-100 hp-25 bgc-android18"></div>
-              </div>
-              <div className="col-7 col-sm-2 p-0 m-0 position-relative">
-                <img src="images/rotulo_experimentacion.svg" className="oculto" alt="" />
-                <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
-                <div className="w-100 hp-25 bgc-pidgey"></div>
-              </div>
-              <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-                <img src="images/rotulo_creacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
-                <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
-                <div className="w-100 hp-25 bgc-saitama"></div>
-              </div>
-              <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-                <img src="images/rotulo_difusion.svg" className="oculto" alt="" />
-                <div className="w-100 hp-15 bgc-leono rounded-caja-end"></div>
-                <div className="w-100 hp-25 bgc-pikachu"></div>
-              </div>
+            <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+          </div>
+          <div className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
+            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+              <img src="images/rotulo_motivacion.svg" className="oculto" alt="" />
+              <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
+              <div className="w-100 hp-25 bgc-goten"></div>
             </div>
+            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+              <img src="images/rotulo_planificacion.svg" className="oculto" alt="" />
+              <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
+              <div className="w-100 hp-25 bgc-bulma"></div>
+            </div>
+            <div className="col-7 col-sm-2 p-0 m-0 position-relative">
+              <img src="images/rotulo_investigacion.svg" className="oculto" alt="" />
+              <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
+              <div className="w-100 hp-25 bgc-android18"></div>
+            </div>
+            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+              <img src="images/rotulo_experimentacion.svg" className="oculto" alt="" />
+              <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
+              <div className="w-100 hp-25 bgc-pidgey"></div>
+            </div>
+            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+              <img src="images/rotulo_creacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
+              <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
+              <div className="w-100 hp-25 bgc-saitama"></div>
+            </div>
+            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+              <img src="images/rotulo_difusion.svg" className="oculto" alt="" />
+              <div className="w-100 hp-15 bgc-leono rounded-caja-end"></div>
+              <div className="w-100 hp-25 bgc-pikachu"></div>
+            </div>
+          </div>
 
         </div>
       </div>

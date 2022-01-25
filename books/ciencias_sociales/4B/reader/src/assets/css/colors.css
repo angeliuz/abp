@@ -134,6 +134,11 @@
   --naraku:#b0dcec;
   --lizt:#FFF7E6;
   --bach:#F4D0E7;
+  --chopin:#A2C700;
+  --schubert:#FF9800;
+  --debussy:#C3318F;
+  --haendel:#FFB7AE;
+  --brahms:#94d3e6;
 }
 
 /* COLORES */
@@ -802,9 +807,21 @@
 .color-bach {
   color: var(--bach);
 }
-  
-  
-  
+.color-chopin {
+  color: var(--chopin);
+}
+.color-schubert {
+  color: var(--schubert);
+}
+.color-debussy {
+  color: var(--debussy);
+}
+.color-haendel {
+  color: var(--haendel);
+}
+.color-brahms {
+  color: var(--brahms);
+}
 
 
 
@@ -1243,6 +1260,21 @@
 .border-color-bach {
   border-color: var(--bach) !important;
 }
+.border-color-chopin {
+  border-color: var(--chopin) !important;
+}
+.border-color-schubert {
+  border-color: var(--schubert) !important;
+}
+.border-color-debussy {
+  border-color: var(--debussy) !important;
+}
+.border-color-haendel {
+  border-color: var(--haendel) !important;
+}
+.border-color-brahms {
+  border-color: var(--brahms) !important;
+}
 /* B
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1680,4 +1712,19 @@
 }
 .bgc-bach {
   background-color: var(--bach);
+}
+.bgc-chopin {
+  background-color: var(--chopin);
+}
+.bgc-schubert {
+  background-color: var(--schubert);
+}
+.bgc-debussy {
+  background-color: var(--debussy);
+}
+.bgc-haendel {
+  background-color: var(--haendel);
+}
+.bgc-brahms {
+  background-color: var(--brahms);
 }

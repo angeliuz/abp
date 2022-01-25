@@ -1,6 +1,11 @@
-.cb-page43 {
-    background: url(images/page_043/fondo_001.svg) top center/contain no-repeat;
-    background-size: cover, 100%;
-    -webkit-print-color-adjust: exact !important;
-  }
-  
+.rota-1{
+  transform: rotate(3deg);
+}
+
+.rota-2{
+  transform: rotate(-2deg);
+}
+
+.rota-3{
+  transform: rotate(-3deg);
+}
