@@ -29,7 +29,7 @@ function Page047(props) {
                     <div className="ptp-10 psp-70 pep-60 mbp-0 position-relative">
                         <div className="row">
                             <div className="col-11 p-2 m-0 position-relative">
-                                <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_047/bici.jpg" className="hp-150 mep-15 mtp-70" alt="" /></div>
+                                <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_047/bici.png" className="hp-120 mep-15 mtp--105" alt="" /></div>
                                 <div className="rounded-p-10 bgc-white border-style-solid border-color-ken border-1">
                                     <div className="f-Ubuntu-R fsp-14 p-2 bgc-kai rounded-ts-be-10 lh-sm min-hp-45 d-flex align-items-center justify-content-start text-start wp-320">¿Qué desafíos de convivencia escolar presentan cada uno de los integrantes?</div>
                                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-340 mep-10 msp-10" />
