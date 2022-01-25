@@ -73,10 +73,7 @@ import Page069 from "./pages/page069";
 import Page070 from "./pages/page070";
 import Page071 from "./pages/page071";
 import Page072 from "./pages/page072";
-import Page073 from "./pages/page073";
-import Page074 from "./pages/page074";
-import Page075 from "./pages/page075";
-import Page076 from "./pages/page076";
+
 
 
 function App() {
@@ -84,34 +81,34 @@ function App() {
   console.log(dokenArray[2]);
 
   function pad(num, size) {
-    var s = num+"";
+    var s = num + "";
     while (s.length < size) s = "0" + s;
     return s;
   }
   // clear zeros before
   function clearZeros(num) {
-      num = num.toString();
-      num = num.replace(/^0+/, '');
-      return num;
+    num = num.toString();
+    num = num.replace(/^0+/, '');
+    return num;
   }
 
 
-  
+
   function getUrlParameter(name) {
     name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
     var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
     var results = regex.exec(window.location.search);
     return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
   };
-  
-  function goToPage(){    
-    document.getElementById('page_'+pad(dokenArray[2], 3)).scrollIntoView();
+
+  function goToPage() {
+    document.getElementById('page_' + pad(dokenArray[2], 3)).scrollIntoView();
   }
-  
+
   useEffect(() => {
     goToPage();
   });
-  
+
 
   return (
     <div className="App">
@@ -183,10 +180,7 @@ function App() {
       <Page070 numeroPagina={clearZeros} />
       <Page071 numeroPagina={clearZeros} />
       <Page072 numeroPagina={clearZeros} />
-      <Page073 numeroPagina={clearZeros} />
-      <Page074 numeroPagina={clearZeros} />
-      <Page075 numeroPagina={clearZeros} />
-      <Page076 numeroPagina={clearZeros} />
+
     </div>
   );
 }
