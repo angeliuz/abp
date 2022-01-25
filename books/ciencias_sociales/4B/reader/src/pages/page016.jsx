@@ -57,7 +57,7 @@ function Page016(props) {
                 </div>
               </div>
             </div>
-            <div className="hp-300"></div>
+            <div className="hp-400"></div>
             <div className="d-flex justify-content-between pep-10">
               <div className="justify-content-center zindex-1">
                 <div className="rounded-set-20 bgc-pikachu centrar-hor d-flex py-2">
@@ -86,8 +86,9 @@ function Page016(props) {
                 </div>
               </div>
             </div>
-            <div className="position-absolute top-50 start-50 translate-middle ms--30 "><img src={"images/page_" + pagina + "/fondo_001.png"} className="w-120 " alt="" /></div>
+            <div className="position-absolute top-50 start-50 translate-middle "><img src={"images/page_" + pagina + "/fondo_001.png"} className="wp-580 " alt="" /></div>
           </div>
+          <div className="hp-100"></div>
 
           {/* PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>

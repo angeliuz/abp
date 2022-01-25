@@ -28,3 +28,7 @@
     margin-top: auto !important;
     margin-bottom: auto !important;
 }
+
+.ms-a {
+    margin-left: -50px;
+}
