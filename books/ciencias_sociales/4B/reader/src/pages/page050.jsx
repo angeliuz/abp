@@ -19,30 +19,80 @@ function Page050(props) {
           <div className="ptp-20 psp-20 pep-40">
             {/* <div className="f-Ubuntu-B fsp-17 color-pidgey text-start lhp-20 psp-45">Hacemos un diagnóstico de nuestra convivencia escolar</div> */}
             <div className="d-flex">
-              <img className="hp-15 mtp-20 pep-10" src="images/page_047/i_g.svg" alt="" />
+              <img className="hp-15 mtp-20 pep-10" src="images/page_050/i_g.svg" alt="" />
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey pep-10">3</div>
               <div className="f-Ubuntu-R fsp-14 text-start pep-10 mtp-15">Elaboramos por turnos una lista de acciones en favor de la buena convivencia en nuestro curso. Luego, llegamos a acuerdos y los anotamos.</div>
               {/* <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/page_033/revista.png" clasesImagen="hp-35 mtp-10" /> */}
             </div>
           </div>
 
-          <div className="ptp-10 psp-65 pep-40">
+          <div className="ptp-10 psp-100 pep-60 mbp-0 position-relative">
+            <div className="row justify-content-center">
+              <div className="col-12 p-0 m-0 position-relative">
+                <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_050/clip.png" className="hp-25 mep-0 mtp-45" alt="" /></div>
+                <div className="position-absolute top-50 start-0 translate-middle"><img src="images/page_050/lapiz.png" className="hp-85 mep-5 mtp-45" alt="" /></div>
+                <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_050/mono.png" className="hp-110 msp--50 mtp--110" alt="" /></div>
+                <div className="bgc-jugador001 border-style-solid border-color-goku border-1 box-shadow-simple">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-260 mep-70 msp-10" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="ptp-20 psp-65 pep-40">
             <div className="f-Ubuntu-B fsp-17 color-pidgey text-start lhp-20 psp-0">Preparamos la jornada de diálogo</div>
             <div className="d-flex">
               {/* <img className="hp-15 mtp-20 pep-10" src="images/page_047/i_g.svg" alt="" /> */}
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey pep-10">4</div>
               <div className="f-Ubuntu-R fsp-14 text-start pep-10 mtp-15">Leo un ejemplo de cómo será una jornada de diálogo.</div>
-              <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/page_033/revista.png" clasesImagen="hp-35 mtp-10" />
+              <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/page_050/revista.svg" clasesImagen="hp-30 mtp-10" />
             </div>
           </div>
 
-          <div className="ptp-10 psp-65 pep-40">
+          <div className="ptp-0 psp-65 pep-40">
             {/* <div className="f-Ubuntu-B fsp-17 color-pidgey text-start lhp-20 psp-0">Preparamos la jornada de diálogo</div> */}
             <div className="d-flex">
               {/* <img className="hp-15 mtp-20 pep-10" src="images/page_047/i_g.svg" alt="" /> */}
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey pep-10">5</div>
               <div className="f-Ubuntu-R fsp-14 text-start pep-10 mtp-15">Explico con mis palabras los momentos de la jornada y registro el rol que tendrá mi equipo en ella.</div>
               {/* <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/page_033/revista.png" clasesImagen="hp-35 mtp-10" /> */}
+            </div>
+          </div>
+
+          <div className="ptp-10 psp-100 pep-60 mbp-0 position-relative">
+            <div className="row justify-content-center">
+              <div className="col-6 p-0 m-0 position-relative">
+                <div className="row justify-content-center p-1 m-0">
+                  <div className="col-12 p-0 mbp-5 position-relative">
+                    <div className="bgc-white border-style-solid border-color-goten border-2 rounded-tbe-10">
+                      <div className="f-Ubuntu-R fsp-14 p-1 lh-sm d-flex align-items-center justify-content-start">Introducción</div>
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-80 mep-10 msp-10" />
+                    </div>
+                  </div>
+                  <div className="col-12 p-0 mbp-5 position-relative">
+                    <div className="bgc-white border-style-solid border-color-bulma border-2 rounded-tbe-10">
+                      <div className="f-Ubuntu-R fsp-14 p-1 lh-sm d-flex align-items-center justify-content-start">Desarrollo</div>
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-80 mep-10 msp-10" />
+                    </div>
+                  </div>
+                  <div className="col-12 p-0 m-0 position-relative">
+                    <div className="bgc-white border-style-solid border-color-android18 border-2 rounded-tbe-10">
+                      <div className="f-Ubuntu-R fsp-14 p-1 lh-sm d-flex align-items-center justify-content-start">Conclusión</div>
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-80 mep-10 msp-10" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-6 p-0 m-0 position-relative">
+                <div className="row justify-content-center p-1 m-0 h-100">
+                  <div className="col-12 p-0 m-0 position-relative">
+                    <div className="bgc-white border-style-solid border-color-ken border-2 rounded-tbe-10 h-100">
+                      <div className="f-Ubuntu-R fsp-14 p-1 lh-sm d-flex align-items-center justify-content-start">El rol de mi equipo será:</div>
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-h-90 mep-10 msp-10" />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
