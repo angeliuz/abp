@@ -12,7 +12,9 @@ function Page068(props) {
   const etapa = "6"
   const background = "bgc-pikachu";
   const color = "color-pikachu";
-  const bgc_cajas = "bgc-bobafett";
+  const borderColor = "border-color-pikachu"
+  const borderColorTabla = "border-color-kokomi"
+  const bgc_cajas = "bgc-kokomi";
 
   return (
     <div className="wrapper bgc-light">
