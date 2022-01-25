@@ -43,8 +43,8 @@ function Page029(props) {
                     </div>
 
                     <div className="ptp-10 psp-80 pep-80 pbp-10">
-                        <div className="row rounded-p-10 bgc-sid position-relative">
-                            {/* <div className="position-absolute top-50 start-50"><img src="images/page_043/lapiz.png" className="hp-80 mtp--60" alt="" /></div> */}
+                        <div className="row rounded-p-10 bgc-bach position-relative">
+                            
                             <div className="col-12 col-md-6 p-0">
                                 <div className="w-100 p-2 m-0 position-relative">
                                     <div className="rounded-p-10 p-3 bgc-white">
@@ -53,7 +53,8 @@ function Page029(props) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-12 col-md-6 p-0">
+                            <div className="col-12 col-md-6 p-0 position-relative">
+                                <div className="position-absolute top-0 start-100 translate-middle "><img src="images/page_029/img_002.png" className=" mtp--40 msp-30 z-index-1" alt="" /></div>
                                 <div className="w-100 p-2 m-0 position-relative">
                                     <div className="rounded-p-10 p-3 bgc-white">
                                         <div className="f-Ubuntu-R fsp-16 text-center w-100">¿A quién afecta?</div>
@@ -69,7 +70,7 @@ function Page029(props) {
 
                     <div className="d-flex msp-80 mep-60 mbp-20">
 
-                        <div className="row bgc-ryu w-100 f-Ubuntu-R fsp-15 rounded-p-20">
+                        <div className="row bgc-vegeta w-100 f-Ubuntu-R fsp-15 rounded-p-20">
                             {/* <div className="col-6 ptp-10">Preguntas</div>
                             <div className="col-6 ptp-10">Importancia</div> */}
                             <div className="col-6 position-relative">
@@ -141,15 +142,15 @@ function Page029(props) {
 
                     </div>
 
-                    <div className="d-flex msp-60 mep-60 mbp-0 mtp-10 mbp-100">
+                    <div className="d-flex msp-60 mep-60 mbp-0 mtp-10 mbp-80">
 
                         <div className="row m-0 psp-10 pep-10 ptp-0 pbp-10 rounded-p-20 w-100">
 
                             
                             
                             <div className="col-md-12 col-lg-12 position-relative">
-                                <div className="position-absolute top-0 start-0 translate-middle msp-0 mtp--20 visible-768"><img src="images/page_054/img_002.png" className="wp-50 " alt="" /></div>
-                                <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 visible-768"><img src="images/page_054/img_003.png" className="wp-20 " alt="" /></div>
+                                <div className="position-absolute top-0 start-0 translate-middle msp-0 mtp--20 "><img src="images/page_029/img_003.png" className=" " alt="" /></div>
+                                
                                 <div className="d-flex mbp-20 mtp-10 w-100">
                                     <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-dark bgc-white">
                                         <div className="f-Ubuntu-M fsp-16 msp-10 mep-10 text-center">Conclusión</div>
