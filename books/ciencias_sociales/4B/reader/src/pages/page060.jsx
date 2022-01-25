@@ -42,14 +42,27 @@ function Page060(props) {
                                                 <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_068/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
                                             </div>
                                         </div>
-                                        <div className="w-100 hp-180 m-2 p-1 lh-sm gira-2 border-style-solid border-1 border-color-lightDark rounded-p-10">Nos faltan los  <br /> siguientes materiales:</div>
+                                        <div className="mtp-20">
+                                            <div className="w-100 hp-180 p-1 m-2 border-style-solid border-1 border-color-lightDark rounded-p-10  lh-sm  gira-2 position-relative">Nos faltan los  <br /> siguientes materiales:
+                                                <div className="position-absolute top-0 start-0  zindex-1 mtp--15"><img class=" hp-45" src="images/page_060/img_001.png" alt="" /></div>
+                                                <div className="position-absolute top-100 start-0 translate-middle  zindex-1 mtp-10"><img class=" hp-60" src="images/page_060/img_003.png" alt="" /></div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div className="col-6">
                                         <div className="d-flex mtp-20">
-                                            <div className="w-100 hp-180 p-1 lh-sm m-2 mbp-10 gira-2 border-style-solid border-1 border-color-lightDark rounded-p-10">Para conseguirlos, debemos:</div>
+                                            <div className="w-100 hp-180 p-1 m-2 border-style-solid border-1 border-color-lightDark rounded-p-10  lh-sm  gira-2 position-relative">Para conseguirlos, debemos:
+                                                <div className="position-absolute top-0 end-0    zindex-1 mep-10 mtp--15"><img class=" hp-45" src="images/page_060/img_001.png" alt="" /></div>
+                                                <div className="position-absolute top-100 start-100 translate-middle  zindex-1 msp-10 mtp--1"><img class=" hp-70" src="images/page_060/img_002.png" alt="" /></div>
+                                            </div>
 
                                         </div>
-                                        <div className="w-100 hp-180 m-2 p-1 lh-sm  gira--2 border-style-solid border-1 border-color-lightDark rounded-p-10">Las tareas que nos<br />  faltan por realizar son:</div>
+                                        <div className="mtp-20">
+                                            <div className="w-100 hp-180 p-1 m-2 border-style-solid border-1 border-color-lightDark rounded-p-10  lh-sm  gira--2 position-relative">Las tareas que nos<br /> faltan por realizar son:
+                                                <div className="position-absolute top-0 start-0  zindex-1 mtp--15"><img class=" hp-45" src="images/page_060/img_001.png" alt="" />
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -64,10 +77,10 @@ function Page060(props) {
 
 
 
-                    <div className="d-flex w-100 mtp-50 psp-60 pep-60 ptp-20 mbp-0 bgc-windu border-top-style-solid border-color-dark border-2 pbp-80">
+                    <div className="d-flex w-100 mtp-50 psp-60 pep-60 ptp-20 mbp-0 bgc-windu border-top-style-solid border-color-dark border-2 pbp-80    position-relative">
+                        <div className="position-absolute top-0 start-50 translate-middle   visible-768 mtp--39 msp--80"><img src="images/page_060/img_004.png" className="wp-80 " alt="" /></div>
                         <div className="row w-100 p-0 m-0">
                             <div className="col-12 position-relative">
-                                <div className="position-absolute top-0 start-100 translate-middle msp--10 mtp--104 visible-768"><img src="images/page_068/img_003.png" className="wp-80 " alt="" /></div>
                                 <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
                                 <div className="d-flex flex-column mbp-20 mtp-10 w-100">
                                     <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
@@ -93,8 +106,8 @@ function Page060(props) {
                                     <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-0">
                                         {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/generales/ticket.svg" className="hp-17 mtp--3 msp-5 mep-5" alt=""/>el recuadro que mejor me represente.</span> */}
                                         <div className="w-100 p-0 pb-3 position-relative">
-                                            <div className="position-absolute mtp--40 top-0 start-0 msp-10 mtp--5 f-pixilate-bold fsp-18 lh-sm text-start">¿Cómo me siento?</div>
-                                            <div className="position-absolute top-0 start-0 msp-10 mtp--5 f-Ubuntu-R fsp-16  lh-sm text-start">¿Marco la alternativa que más me representa.</div>
+                                            <div className="position-absolute mtp--40 top-0 start-0 msp-10 mtp--10 mbp-10 f-pixilate-bold fsp-18 lh-sm text-start">¿Cómo me siento?</div>
+                                            <div className="d-flex position-absolute align-items-start w-50  mbp-30 top-0 start-0 msp-10 mtp--20 f-Ubuntu-R fsp-15  lh-sm text-start">¿Marco la alternativa que más me representa.</div>
                                             <table className="w-100">
                                                 <tbody>
                                                     <tr>
