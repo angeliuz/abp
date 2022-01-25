@@ -49,7 +49,7 @@ function Page030(props) {
                                 <div className="position-absolute top-50 start-100 translate-middle wp-100  mtp-0 zindex-1"><img src="images/page_030/img_002.svg" className="wp-40" alt="" /></div>
                                 {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
                                 <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
-                                    <div className="p-2 min-hp-100 w-100 border-style-dashed border-2 rounded-p-10 border-color-dark ">
+                                    <div className="p-2 min-hp-100 w-100 border-style-dashed border-2 rounded-p-10 border-color-rex ">
 
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                                     </div>
@@ -58,7 +58,7 @@ function Page030(props) {
                             <div className="col-6 position-relative">
 
                                 <div className="d-flex mbp-20 mtp-10 w-100 psp-10">
-                                    <div className="p-2 min-hp-130 w-100 border-style-solid border-2 rounded-p-10 border-color-dark ">
+                                    <div className="p-2 min-hp-130 w-100 border-style-solid border-2 rounded-p-10 border-color-android18 bgc-caradepapa ">
                                         <div className="f-Ubuntu-R fsp-16 text-start w-100 ptp-10">Capacidad para ponerse en el lugar de
                                             otros, entendiendo sus emociones y
                                             solidarizando con sus necesidades.</div>
@@ -69,7 +69,7 @@ function Page030(props) {
                                 <div className="position-absolute top-50 start-100 translate-middle wp-100  mtp-0 zindex-1"><img src="images/page_030/img_002.svg" className="wp-40" alt="" /></div>
                                 {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
                                 <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
-                                    <div className="p-2 min-hp-100 w-100 border-style-dashed border-2 rounded-p-10 border-color-dark ">
+                                    <div className="p-2 min-hp-100 w-100 border-style-dashed border-2 rounded-p-10 border-color-rex ">
 
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                                     </div>
@@ -78,7 +78,7 @@ function Page030(props) {
                             <div className="col-6 position-relative">
 
                                 <div className="d-flex mbp-20 mtp-10 w-100 psp-10">
-                                    <div className="p-2 min-hp-130 w-100 border-style-solid border-2 rounded-p-10 border-color-dark ">
+                                    <div className="p-2 min-hp-130 w-100 border-style-solid border-2 rounded-p-10 border-color-android18 bgc-caradepapa">
                                         <div className="f-Ubuntu-R fsp-16 text-start w-100 ptp-10">Apoyo que se ofrece a las personas cuando
                                             pasan por situaciones difíciles. Es también
                                             una muestra de cariño con otras personas.</div>
@@ -89,7 +89,7 @@ function Page030(props) {
                                 <div className="position-absolute top-50 start-100 translate-middle wp-100  mtp-0 zindex-1"><img src="images/page_030/img_002.svg" className="wp-40" alt="" /></div>
                                 {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
                                 <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
-                                    <div className="p-2 min-hp-100 w-100 border-style-dashed border-2 rounded-p-10 border-color-dark ">
+                                    <div className="p-2 min-hp-100 w-100 border-style-dashed border-2 rounded-p-10 border-color-rex ">
 
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                                     </div>
@@ -98,7 +98,7 @@ function Page030(props) {
                             <div className="col-6 position-relative">
 
                                 <div className="d-flex mbp-20 mtp-10 w-100 psp-10">
-                                    <div className="p-2 min-hp-130 w-100 border-style-solid border-2 rounded-p-10 border-color-dark ">
+                                    <div className="p-2 min-hp-130 w-100 border-style-solid border-2 rounded-p-10 border-color-android18 bgc-caradepapa">
                                         <div className="f-Ubuntu-R fsp-16 text-start w-100 ptp-10">Trato de consideración que todas
                                             las personas merecen. Es un valor
                                             fundamental para relacionarnos unos
@@ -110,7 +110,7 @@ function Page030(props) {
                                 <div className="position-absolute top-50 start-100 translate-middle wp-100  mtp-0 zindex-1"><img src="images/page_030/img_002.svg" className="wp-40" alt="" /></div>
                                 {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
                                 <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
-                                    <div className="p-2 min-hp-100 w-100 border-style-dashed border-2 rounded-p-10 border-color-dark ">
+                                    <div className="p-2 min-hp-100 w-100 border-style-dashed border-2 rounded-p-10 border-color-rex ">
 
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                                     </div>
@@ -119,7 +119,7 @@ function Page030(props) {
                             <div className="col-6 position-relative">
 
                                 <div className="d-flex mbp-20 mtp-10 w-100 psp-10">
-                                    <div className="p-2 min-hp-130 w-100 border-style-solid border-2 rounded-p-10 border-color-dark ">
+                                    <div className="p-2 min-hp-130 w-100 border-style-solid border-2 rounded-p-10 border-color-android18 bgc-caradepapa">
                                         <div className="f-Ubuntu-R fsp-16 text-start w-100 ptp-10">Actitud que se expresa cuando nos
                                             hacemos cargo de nuestras acciones y
                                             decisiones, especialmente en el trato
@@ -133,47 +133,76 @@ function Page030(props) {
 
                     </div>
 
+                    <div className="ptp-30 container-titulo-global mbp-10">
+                        {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>Ahora podremos comprobar qué ocurre en nuestro entorno</div> */}
+                        <div className="d-flex">
+                            <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_004.svg"} alt="" />
+                            <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>7</div>
+                            <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                                Conversamos: ¿Cuál de estos valores
+                                necesitamos para disfrutar de una
+                                buena convivencia? Explicamos.
+                            </div>
+                            {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+                            {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
+                            {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
+                            {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_002.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+                        </div>
+                    </div>
 
-                    <div className="row">
-                        <div className=" ptp-30  mbp-10">
-                            {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>Ahora podremos comprobar qué ocurre en nuestro entorno</div> */}
-                            <div className="col-6 d-flex">
-                                <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_004.svg"} alt="" />
-                                <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>7</div>
-                                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                                    Conseguimos una balanza y masamos nuestros desechos.
+                    <div className="d-flex msp-60 mep-60 psp-20 pep-20">
+
+                        <div className="row ptp-0 ps-12 pe-8 m-0 w-100">
+                            <div className="col-12  position-relative ">
+                                {/* <div className="position-absolute top-0 start-100 translate-middle msp-30 mtp-120 visible-768"><img src="images/page_048/camarografo.png" className="wp-70 " alt="" /></div> */}
+                                {/* <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-60 visible-768"><img src="images/page_048/periodista.png" className="wp-60 " alt="" /></div> */}
+
+                                <div className="d-flex flex-column mbp-20 mtp-10 p-2 w-100 border-style-solid border-4 rounded-p-10 border-color-jade bgc-white">
+                                    <div className="p-2 w-100 d-flex flex-column">
+                                        {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Podemos mejorar en...</div> */}
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
+                                    </div>
                                 </div>
-                                {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
-                                {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-                                {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-                                {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_002.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
                             </div>
                         </div>
-
-
-
-
-                        <div className="ptp-30  mbp-10">
-                            {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>Ahora podremos comprobar qué ocurre en nuestro entorno</div> */}
-                            <div className="col-6 d-flex">
-                                {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_004.svg"} alt="" /> */}
-                                <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>8</div>
-                                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                                    ¿Qué podemos hacer para generar menos desechos en nuestro colegio?
-                                </div>
-                                {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
-                                {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-                                {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-                                {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_002.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
-                            </div>
-                        </div>
-
 
                     </div>
 
 
+                    <div className="ptp-30 container-titulo-global mbp-10">
+                        {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>Ahora podremos comprobar qué ocurre en nuestro entorno</div> */}
+                        <div className="d-flex">
+                            {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_004.svg"} alt="" /> */}
+                            <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>8</div>
+                            <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                                ¿Qué otros valores y actitudes
+                                creemos necesarios para lograr una
+                                buena convivencia?
+                            </div>
+                            {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+                            {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
+                            {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
+                            {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_002.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+                        </div>
+                    </div>
 
+                    <div className="d-flex msp-60 mep-60 psp-20 pep-20 mbp-100">
 
+                        <div className="row ptp-0 ps-12 pe-8 m-0 w-100">
+                            <div className="col-12  position-relative ">
+                                {/* <div className="position-absolute top-0 start-100 translate-middle msp-30 mtp-120 visible-768"><img src="images/page_048/camarografo.png" className="wp-70 " alt="" /></div> */}
+                                {/* <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-60 visible-768"><img src="images/page_048/periodista.png" className="wp-60 " alt="" /></div> */}
+
+                                <div className="d-flex flex-column mbp-20 mtp-10 p-2 w-100 border-style-solid border-4 rounded-p-10 border-color-kagome bgc-white">
+                                    <div className="p-2 w-100 d-flex flex-column">
+                                        {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Podemos mejorar en...</div> */}
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
 
                     {/* BEGIN PIE DE PAGINA */}
                     <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
