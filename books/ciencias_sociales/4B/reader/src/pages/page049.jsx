@@ -22,7 +22,7 @@ function Page049(props) {
                     {/* END CABECERA VERSIÓN 2 */}
 
                     <div className="ptp-10 psp-65 pep-40">
-                        <div className="f-Ubuntu-B fsp-18 color-pidgey text-start lhp-20 psp-0">Una nueva invitación</div>
+                        <div className="f-Ubuntu-B fsp-17 color-pidgey text-start lhp-20 psp-0">Una nueva invitación</div>
                         <div className="d-flex">
                             {/* <img className="hp-15 mtp-20 pep-10" src="images/page_047/i_g.svg" alt="" /> */}
                             <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey pep-10">1</div>
@@ -49,7 +49,7 @@ function Page049(props) {
                     </div>
 
                     <div className="ptp-20 psp-20 pep-40">
-                        <div className="f-Ubuntu-B fsp-18 color-pidgey text-start lhp-20 psp-45">Hacemos un diagnóstico de nuestra convivencia escolar</div>
+                        <div className="f-Ubuntu-B fsp-17 color-pidgey text-start lhp-20 psp-45">Hacemos un diagnóstico de nuestra convivencia escolar</div>
                         <div className="d-flex">
                             <img className="hp-15 mtp-20 pep-10" src="images/page_047/i_g.svg" alt="" />
                             <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey pep-10">2</div>
@@ -69,24 +69,6 @@ function Page049(props) {
                             </div>
                         </div>
                     </div>
-
-                    {/* <div className="ptp-10 psp-70 pep-60 mbp-0 position-relative">
-                        <div className="row">
-                            <div className="col-11 p-2 m-0 position-relative">
-                                <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_047/bici.png" className="hp-120 mep-15 mtp--105" alt="" /></div>
-                                <div className="rounded-p-10 bgc-white border-style-solid border-color-ken border-1">
-                                    <div className="f-Ubuntu-R fsp-14 p-2 bgc-kai rounded-ts-be-10 lh-sm min-hp-45 d-flex align-items-center justify-content-start text-start wp-320">¿Qué desafíos de convivencia escolar presentan cada uno de los integrantes?</div>
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-340 mep-10 msp-10" />
-                                </div>
-                            </div>
-                            <div className="col-11 p-2 m-0 ms-auto">
-                                <div className="rounded-p-10 bgc-white border-style-solid border-color-android18 border-1">
-                                    <div className="f-Ubuntu-R fsp-14 p-2 bgc-azuka rounded-te-bs-10 lh-sm min-hp-45 d-flex align-items-center justify-content-start text-start wp-320 ms-auto">¿La buena convivencia requiere de esfuerzo y aprendizaje? ¿Por qué?</div>
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-340 mep-10 msp-10" />
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
 
                     <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
                         <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>ABP &copy; SM</div>
