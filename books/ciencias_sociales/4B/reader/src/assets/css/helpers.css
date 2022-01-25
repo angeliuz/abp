@@ -4610,6 +4610,9 @@
   border-radius: 0px 0px 20px 20px;
 }
 /*redondeado derecha, plano izquerda*/
+.rounded-tbe-10 {
+  border-radius: 0px 10px 10px 0px;
+}
 .rounded-tbe-20 {
   border-radius: 0px 20px 20px 0px;
 }
@@ -4849,6 +4852,9 @@
   min-height: 800px !important;
 }
 
+.min-h-90 {
+  min-height: 90% !important;
+}
 .min-h-100 {
   min-height: 100% !important;
 }

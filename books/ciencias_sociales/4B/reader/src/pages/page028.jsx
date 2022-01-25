@@ -76,12 +76,18 @@ function Page028(props) {
             </div>
           </div>
 
+          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 m-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative">
 
+              </div>
+            </div>
+          </div>
 
 
           <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-pixilate-semibold fsp-16">
             <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-580" alt="" /></div>
-            <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1">
+            <div className="position-absolute top-50 start-50 translate-middle msp--5 mtp-0 zindex-1">
               <div className="d-flex flex-column wp-150 psp-10 pep-10 ptp-0 pbp-0">
                 Situación analizada
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
@@ -115,18 +121,24 @@ function Page028(props) {
 
 
 
-          <div className="d-flex msp-60 mep-60 mbp-0 mtp-10 mbp-80">
+          <div className="d-flex msp-100 mep-100 mbp-0 mtp-10 mbp-80">
 
             <div className="row m-0 psp-10 pep-10 ptp-0 pbp-10 rounded-p-20 w-100">
 
 
 
               <div className="col-md-12 col-lg-12 position-relative">
-                <div className="position-absolute top-0 start-0 translate-middle msp-0 mtp--20 "><img src="images/page_029/img_003.png" className=" " alt="" /></div>
-
+                <div className="position-absolute top-50 start-100 translate-middle msp-20 mtp--20 "><img src="images/page_028/img_005.png" className=" " alt="" /></div>
+                <div className="position-absolute top-0 start-50 translate-middle msp-20 mtp--50 zindex-1"><img src="images/page_028/img_004.png" className=" wp-90" alt="" /></div>
                 <div className="d-flex mbp-20 mtp-10 w-100">
-                  <div className="p-2 min-hp-100 w-100 border-style-solid border-2 border-color-dark bgc-white">
-                    <div className="f-pixilate-semibold fsp-18 msp-10 mep-10 text-center">Como grupo, opinamos que</div>
+                  <div className="p-2 min-hp-100 w-100 border-style-solid border-1 border-color-android18 bgc-azuka rounded-p-10">
+                    <div className="d-flex interior-caja-v1 bgc-white text-start min-hp-0 bgc-white">
+                      <div className="w-100 text-center ">
+                        <span className="f-pixilate-semibold ">Como grupo, opinamos que</span>
+                        <br />
+                        
+                      </div>
+                    </div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                   </div>
                 </div>

@@ -12,7 +12,9 @@ function Page067(props) {
   const etapa = "6"
   const background = "bgc-pikachu";
   const color = "color-pikachu";
-  const bgc_cajas = "bgc-bobafett";
+  const borderColor = "border-color-pikachu"
+  const borderColorTabla = "border-color-kokomi"
+  const bgc_cajas = "bgc-kokomi";
 
   return (
     <div className="wrapper bgc-light">
@@ -97,8 +99,11 @@ function Page067(props) {
                 </div>
               </div>
               {/* BEGIN EJERCICIO 2 */}
-              <div className="row d-flex mx-auto f-Ubuntu-R fsp-15 mbp-70 position-relative justify-content-between">
-                <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-25 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-60" alt="" /></div>
+              <div className="row mx-auto d-flex f-Ubuntu-R fsp-15 mbp-70 ">
+                <div className="position-relative">
+                  <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-140 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-60" alt="" /></div>
+                </div>
+
                 <div className="col-sm-12 col-md-6">
                   <div className="text-center w-100 border-1 border-style-solid border-color-vegeta rounded-p-10">
                     <div className="rounded-set-6  hp-60 pep-20 psp-20 ptp-10 pbp-10 bgc-vegeta d-flex justify-content-center align-items-center">
