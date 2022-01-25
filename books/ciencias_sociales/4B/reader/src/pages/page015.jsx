@@ -48,7 +48,6 @@ function Page015(props) {
           {/* BEGIN CONTENIDO */}
           <div className="position-relative">
             <div className="position-absolute top-100 start-100 msp--970 mtp--20"><img src={"images/page_" + pagina + "/fondo_001.png"} className="wp-1000" alt="" /></div>
-            <div className="position-absolute top-0 start-100 msp--180-p15 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_004.svg"} className="wp-120" alt="" /></div>
           </div>
 
           <div className="psp-60 pep-60 ptp-120 position-absolute ">
@@ -58,9 +57,11 @@ function Page015(props) {
               </div>
               <div className="wp-290-p15 linea-p15  border-solo-bot align-self-end text-end mbp-40"><div className="mb-0 f-pixilate-regular fsp-21 pep-40">DIFUSIÓN</div></div>
               <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_009.png"} className="wp-25" alt="" /></div>
+              <div className="position-absolute top-0 start-100 msp--63 mtp--100 zindex-1"><img src={"images/page_" + pagina + "/img_004.svg"} className="wp-120" alt="" /></div>
+              <div className="position-absolute top-0 start-100 hp-700 mtp-55 msp--5 recorrido-p15 border-solo-end"></div>
             </div>
 
-            <div className="d-flex position-relative ptp-20 msp-50">
+            <div className="d-flex position-relative ptp-20 msp-50-rp15">
               <div className="caja-p15 bgc-white p-2">
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
               </div>
@@ -76,7 +77,7 @@ function Page015(props) {
               <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_009.png"} className="wp-25" alt="" /></div>
             </div>
 
-            <div className="d-flex position-relative ptp-20 msp-50">
+            <div className="d-flex position-relative ptp-20 msp-50-rp15">
               <div className="caja-p15 bgc-white p-2">
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
               </div>
@@ -84,17 +85,18 @@ function Page015(props) {
               <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_009.png"} className="wp-25" alt="" /></div>
             </div>
 
-            <div className="d-flex position-relative ptp-20">
+            <div className="d-flex position-relative ptp-20 msp-100rp15">
               <div className="caja-p15 bgc-white p-2">
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
               </div>
-              <div className="wp-290-p15 linea-p15  border-solo-bot align-self-end text-end mbp-40"><div className="mb-0 f-pixilate-regular fsp-21 pep-40">PLANIFICACIÓN</div></div>
+              <div className="wp-190-p15 linea-p15  border-solo-bot align-self-end text-end mbp-40"><div className="mb-0 f-pixilate-regular fsp-21 pep-40">PLANIFICACIÓN</div></div>
               <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_009.png"} className="wp-25" alt="" /></div>
+              <div className="position-absolute top-100 start-100 msp--53 mtp--20 zindex-1"><img src={"images/page_" + pagina + "/img_008.svg"} className="wp-100" alt="" /></div>
+              <div className="position-absolute top-100 start-0 translate-middle msp-50 mtp-80 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-150" alt="" /></div>
             </div>
           </div>
-          <div className="position-relative pbp-20">
-            <div className="position-absolute top-100 start-100 msp--200 mtp-200 zindex-1"><img src={"images/page_" + pagina + "/img_008.svg"} className="wp-120" alt="" /></div>
-          </div>
+          <div className="position-relative ptp-600"></div>
+
 
           <div className="pbp-400"></div>
           {/* END CONTENIDO */}
@@ -102,7 +104,7 @@ function Page015(props) {
 
           {/* BEGIN PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
-            <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
+            <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "white" }}>
               ABP &copy; SM
             </div>
             <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
