@@ -82,8 +82,10 @@ function Page007(props) {
               </div>
 
               {/* BEGIN EJERCICIO 2 */}
-              <div className="row d-flex mx-auto f-Ubuntu-R fsp-15 mbp-70 position-relative justify-content-between">
-                <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-25 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-60" alt="" /></div>
+              <div className="row d-flex mx-auto f-Ubuntu-R fsp-15 mbp-70 justify-content-between">
+                <div className="position-relative">
+                  <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-140 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-60" alt="" /></div>
+                </div>
                 <div className="col-sm-12 col-md-6">
                   <div className="text-center w-100 border-1 border-style-solid border-color-palpatine rounded-p-10">
                     <div className="rounded-set-6  hp-60 pep-20 psp-20 ptp-10 pbp-10 bgc-palpatine color-white fw-700 d-flex justify-content-center align-items-center">
