@@ -42,7 +42,7 @@ function Page029(props) {
                         </div>
                     </div>
 
-                    <div className="ptp-10 psp-80 pep-80 pbp-10">
+                    <div className="ptp-10 psp-80 pep-80 ">
                         <div className="row rounded-p-10 bgc-bach position-relative">
                             
                             <div className="col-12 col-md-6 p-0">
