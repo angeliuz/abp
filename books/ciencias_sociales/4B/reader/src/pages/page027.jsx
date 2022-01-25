@@ -66,9 +66,9 @@ function Page027(props) {
                 <div className="position-absolute top-0 start-100 translate-middle mtp--10 msp-20 "><img src="images/page_027/img_002.png" className="" alt="" /></div>
                 <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 visible-768"><img src="images/page_050/espiral.svg" className="wp-50 " alt="" /></div>
                 <div className="">
-                  <div className="f-Ubuntu-B alinea rounded-set-10 bgc-bulma w-100 p-2 text-center color-white">Siento que con mis
+                  <div className="f-Ubuntu-B alinea rounded-set-10 bgc-pikachu w-100 p-2 text-center color-white">Siento que con mis
                     compañeros de curso soy:</div>
-                  <div className="linea1 bgc-white p-2  rounded-seb-20 border-style-solid border-color-bulma border-2">
+                  <div className="linea1 bgc-white p-2  rounded-seb-20 border-style-solid border-color-pikachu border-2">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                   </div>
                 </div>
