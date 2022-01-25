@@ -13,15 +13,62 @@ function Page051(props) {
       <div className="d-flex flex-column align-items-center pbp-20">
         <div className="page bgc-white overflow-hidden position-relative" id={"page_" + pagina}>
           {/* BEGIN CABECERA VERSIÓN 2 */}
-          <div className="cabecera-v1 hp-80 bgc-pidgey"></div>
+          <div className="cabecera-v2 bgc-pidgey d-flex flex-column">
+            <div className="d-flex contenedor-cabecera-v2 align-items-center ptp-40 psp-30 pep-30">
+              <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-pidgey fsp-24 f-IntroRustG-Base">SESIÓN 12</div>
+              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Una conversación necesaria</div>
+            </div>
+          </div>
           {/* END CABECERA VERSIÓN 2 */}
 
-          <div className="ptp-20 psp-20 pep-40">
-            {/* <div className="f-Ubuntu-B fsp-17 color-pidgey text-start lhp-20 psp-45">Hacemos un diagnóstico de nuestra convivencia escolar</div> */}
+          <div className="ptp-0 psp-65 pep-40">
+            {/* <div className="f-Ubuntu-B fsp-17 color-pidgey text-start lhp-20 psp-0">Preparamos la jornada de diálogo</div> */}
             <div className="d-flex">
-              <img className="hp-15 mtp-20 pep-10" src="images/page_050/i_g.svg" alt="" />
+              {/* <img className="hp-15 mtp-20 pep-10" src="images/page_047/i_g.svg" alt="" /> */}
+              <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey pep-10">1</div>
+              <div className="f-Ubuntu-R fsp-14 text-start pep-10 mtp-15 w-85">Leo el acuerdo de mi equipo en la página 48. ¿Cuál era el diagnóstico que elaboramos sobre la convivencia en el curso?</div>
+              {/* <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/page_033/revista.png" clasesImagen="hp-35 mtp-10" /> */}
+            </div>
+          </div>
+
+          <div className="psp-90 pep-50 mbp-0">
+            <div className="row">
+              <div className="col-12 position-relative ptp-15">
+                <div className="position-absolute top-0 start-50"><img src="images/page_051/pincho.svg" className="hp-45 mtp--10" alt="" /></div>
+                <div className="position-absolute top-0 start-100"><img src="images/page_051/fotos.png" className="hp-70 msp--70 mtp--40" alt="" /></div>
+                <div class="p-3 box-shadow-simple border-1 bgc-white">
+                  <div className="pt-0 flex-grow-1"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-140" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="ptp-20 psp-65 pep-40">
+            {/* <div className="f-Ubuntu-B fsp-17 color-pidgey text-start lhp-20 psp-0">Preparamos la jornada de diálogo</div> */}
+            <div className="d-flex">
+              {/* <img className="hp-15 mtp-20 pep-10" src="images/page_047/i_g.svg" alt="" /> */}
+              <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey pep-10">2</div>
+              <div className="f-Ubuntu-R fsp-14 text-start pep-10 mtp-15">Leo en la revista cómo tomar notas.</div>
+              <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/page_051/revista.svg" clasesImagen="hp-30 mtp-10" />
+            </div>
+          </div>
+
+          <div className="ptp-20 psp-65 pep-40">
+            <div className="f-Ubuntu-B fsp-17 color-pidgey text-start lhp-20 psp-0">Participamos como equipo en la jornada de diálogo</div>
+            <div className="d-flex">
+              {/* <img className="hp-15 mtp-20 pep-10" src="images/page_047/i_g.svg" alt="" /> */}
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey pep-10">3</div>
-              <div className="f-Ubuntu-R fsp-14 text-start pep-10 mtp-15">Elaboramos por turnos una lista de acciones en favor de la buena convivencia en nuestro curso. Luego, llegamos a acuerdos y los anotamos.</div>
+              <div className="f-Ubuntu-R fsp-14 text-start pep-10 mtp-15">Realizamos la jornada en torno a la pregunta: ¿Qué desafíos como curso tenemos en torno a la buena convivencia y cómo podemos solucionarlos?</div>
+              {/* <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/page_050/revista.svg" clasesImagen="hp-30 mtp-10" /> */}
+            </div>
+          </div>
+
+          <div className="ptp-10 psp-65 pep-40">
+            {/* <div className="f-Ubuntu-B fsp-17 color-pidgey text-start lhp-20 psp-0">Preparamos la jornada de diálogo</div> */}
+            <div className="d-flex">
+              {/* <img className="hp-15 mtp-20 pep-10" src="images/page_047/i_g.svg" alt="" /> */}
+              <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey pep-10">4</div>
+              <div className="f-Ubuntu-R fsp-14 text-start pep-10 mtp-15 w-80">Durante la jornada, tomo nota de las intervenciones de mis compañeros.</div>
               {/* <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/page_033/revista.png" clasesImagen="hp-35 mtp-10" /> */}
             </div>
           </div>
@@ -29,101 +76,14 @@ function Page051(props) {
           <div className="ptp-10 psp-100 pep-60 mbp-0 position-relative">
             <div className="row justify-content-center">
               <div className="col-12 p-0 m-0 position-relative">
-                <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_050/clip.png" className="hp-25 mep-0 mtp-45" alt="" /></div>
-                <div className="position-absolute top-50 start-0 translate-middle"><img src="images/page_050/lapiz.png" className="hp-85 mep-5 mtp-45" alt="" /></div>
-                <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_050/mono.png" className="hp-110 msp--50 mtp--110" alt="" /></div>
-                <div className="bgc-jugador001 border-style-solid border-color-goku border-1 box-shadow-simple">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-260 mep-70 msp-10" />
+                <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_051/camara.png" className="hp-80 mep-40 mtp--40" alt="" /></div>
+                <div className="position-absolute top-50 start-0 translate-middle"><img src="images/page_051/acuarela.png" className="hp-60 msp--50 mtp-160" alt="" /></div>
+                <div className="bgc-jugador001 border-style-solid border-color-dark border-1 box-shadow-simple">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-330 contenedor-linea mep-10 msp-10" />
                 </div>
               </div>
             </div>
           </div>
-
-          <div className="ptp-20 psp-65 pep-40">
-            <div className="f-Ubuntu-B fsp-17 color-pidgey text-start lhp-20 psp-0">Preparamos la jornada de diálogo</div>
-            <div className="d-flex">
-              {/* <img className="hp-15 mtp-20 pep-10" src="images/page_047/i_g.svg" alt="" /> */}
-              <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey pep-10">4</div>
-              <div className="f-Ubuntu-R fsp-14 text-start pep-10 mtp-15">Leo un ejemplo de cómo será una jornada de diálogo.</div>
-              <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/page_050/revista.svg" clasesImagen="hp-30 mtp-10" />
-            </div>
-          </div>
-
-          <div className="ptp-0 psp-65 pep-40">
-            {/* <div className="f-Ubuntu-B fsp-17 color-pidgey text-start lhp-20 psp-0">Preparamos la jornada de diálogo</div> */}
-            <div className="d-flex">
-              {/* <img className="hp-15 mtp-20 pep-10" src="images/page_047/i_g.svg" alt="" /> */}
-              <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey pep-10">5</div>
-              <div className="f-Ubuntu-R fsp-14 text-start pep-10 mtp-15">Explico con mis palabras los momentos de la jornada y registro el rol que tendrá mi equipo en ella.</div>
-              {/* <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/page_033/revista.png" clasesImagen="hp-35 mtp-10" /> */}
-            </div>
-          </div>
-
-          <div className="ptp-10 psp-100 pep-60 mbp-0 position-relative">
-            <div className="row justify-content-center">
-              <div className="col-6 p-0 m-0 position-relative">
-                <div className="row justify-content-center p-1 m-0">
-                  <div className="col-12 p-0 mbp-5 position-relative">
-                    <div className="bgc-white border-style-solid border-color-goten border-2 rounded-tbe-10">
-                      <div className="f-Ubuntu-R fsp-14 p-1 lh-sm d-flex align-items-center justify-content-start">Introducción</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-80 mep-10 msp-10" />
-                    </div>
-                  </div>
-                  <div className="col-12 p-0 mbp-5 position-relative">
-                    <div className="bgc-white border-style-solid border-color-bulma border-2 rounded-tbe-10">
-                      <div className="f-Ubuntu-R fsp-14 p-1 lh-sm d-flex align-items-center justify-content-start">Desarrollo</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-80 mep-10 msp-10" />
-                    </div>
-                  </div>
-                  <div className="col-12 p-0 m-0 position-relative">
-                    <div className="bgc-white border-style-solid border-color-android18 border-2 rounded-tbe-10">
-                      <div className="f-Ubuntu-R fsp-14 p-1 lh-sm d-flex align-items-center justify-content-start">Conclusión</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-80 mep-10 msp-10" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-6 p-0 m-0 position-relative">
-                <div className="row justify-content-center p-1 m-0 h-100">
-                  <div className="col-12 p-0 m-0 position-relative">
-                    <div className="bgc-white border-style-solid border-color-ken border-2 rounded-tbe-10 h-100">
-                      <div className="f-Ubuntu-R fsp-14 p-1 lh-sm d-flex align-items-center justify-content-start">El rol de mi equipo será:</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-h-90 mep-10 msp-10" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* <div className="d-flex psp-80 pep-100">
-            <div className="row w-100 p-0 m-0">
-              <div className="col-12">
-                <div className="w-100 psp-40 ptp-20 pbp-20 pep-15 text-left bgc-white border-style-solid border-5 border-color-sid position-relative rounded-p-20">
-                  <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_049/lupa.png" className="hp-60 mep--15 mtp-40" alt="" /></div>
-                  <div className="position-absolute top-50 start-0 translate-middle h-100 ptp-10 pbp-10"><div className="espiral wp-30 h-100"></div></div>
-                  <div className="f-Ubuntu-L fsp-14 text-start">
-                    <span className="text-start">Querido cuarto básico:<br /></span>
-                    <span className="text-start mtp-5">La convivencia no solo es una tarea de cada uno, también es un compromiso colectivo. Para llevarlo a cabo, debemos conversar entre todos acerca de la convivencia escolar y sus desafíos.<br /></span>
-                    <span className="text-start mtp-5">Los invitamos a prepararse junto a sus equipos de trabajar para realizar una jornada de diálogo. Se llamará “Conversamos sobre nuestra convivencia”. Es importante que todos participen. Así conoceremos las reflexiones de cada uno sobre este tema.<br /></span>
-                    <span className="text-center mtp-5">¡Prepara junto a tu equipo esta jornada de diálogo!</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
-
-          {/* <div className="d-flex ptp-20 psp-70 pep-50 pbp-60">
-            <div className="row w-100 p-0 m-0">
-              <div className="col-12">
-                <div className="w-100 text-left bgc-urien border-style-solid border-3 border-color-goku position-relative rounded-p-10 ptp-20 pbp-5">
-                  <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_049/mono.png" className="hp-80 msp--80 mtp--75" alt="" /></div>
-                  <div className="position-absolute top-0 start-0 translate-middle"><img src="images/page_049/cartel.svg" className="hp-50 msp-90 mtp-5" alt="" /></div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-320 mep-10 msp-10" />
-                </div>
-              </div>
-            </div>
-          </div> */}
 
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>ABP &copy; SM</div>

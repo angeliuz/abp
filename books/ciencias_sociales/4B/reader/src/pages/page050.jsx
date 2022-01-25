@@ -96,35 +96,6 @@ function Page050(props) {
             </div>
           </div>
 
-          {/* <div className="d-flex psp-80 pep-100">
-            <div className="row w-100 p-0 m-0">
-              <div className="col-12">
-                <div className="w-100 psp-40 ptp-20 pbp-20 pep-15 text-left bgc-white border-style-solid border-5 border-color-sid position-relative rounded-p-20">
-                  <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_049/lupa.png" className="hp-60 mep--15 mtp-40" alt="" /></div>
-                  <div className="position-absolute top-50 start-0 translate-middle h-100 ptp-10 pbp-10"><div className="espiral wp-30 h-100"></div></div>
-                  <div className="f-Ubuntu-L fsp-14 text-start">
-                    <span className="text-start">Querido cuarto básico:<br /></span>
-                    <span className="text-start mtp-5">La convivencia no solo es una tarea de cada uno, también es un compromiso colectivo. Para llevarlo a cabo, debemos conversar entre todos acerca de la convivencia escolar y sus desafíos.<br /></span>
-                    <span className="text-start mtp-5">Los invitamos a prepararse junto a sus equipos de trabajar para realizar una jornada de diálogo. Se llamará “Conversamos sobre nuestra convivencia”. Es importante que todos participen. Así conoceremos las reflexiones de cada uno sobre este tema.<br /></span>
-                    <span className="text-center mtp-5">¡Prepara junto a tu equipo esta jornada de diálogo!</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
-
-          {/* <div className="d-flex ptp-20 psp-70 pep-50 pbp-60">
-            <div className="row w-100 p-0 m-0">
-              <div className="col-12">
-                <div className="w-100 text-left bgc-urien border-style-solid border-3 border-color-goku position-relative rounded-p-10 ptp-20 pbp-5">
-                  <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_049/mono.png" className="hp-80 msp--80 mtp--75" alt="" /></div>
-                  <div className="position-absolute top-0 start-0 translate-middle"><img src="images/page_049/cartel.svg" className="hp-50 msp-90 mtp-5" alt="" /></div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-320 mep-10 msp-10" />
-                </div>
-              </div>
-            </div>
-          </div> */}
-
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>ABP &copy; SM</div>
             <div className="bgc-goku wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
