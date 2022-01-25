@@ -61,7 +61,7 @@ function Page032(props) {
                     <div className="d-flex mtp-0 mbp-0 psp-60 pep-60 ptp-0 pbp-20">
                         <div className="row p-0 m-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative">
-
+                            <div className="position-absolute top-0 start-0 translate-middle visible-768"><img src="images/page_032/img_003.png" className="wp-60 msp-60 mep-40 mtp--20" alt="" /></div>
                                 <div className="d-flex border-style-solid border-color-schubert border-3 p-0 m-0">
                                     <div className=" w-30 bgc-hotaru p-3 border-right-style-solid border-color-schubert border-3 d-flex align-items-center f-Ubuntu-L fsp-14 text-start">Lo que queremos
                                         saber de nuestros
@@ -79,6 +79,7 @@ function Page032(props) {
                     <div className="d-flex  mtp-0 mbp-0 psp-60 pep-60 ptp-0 pbp-20">
                         <div className="row p-0 m-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative">
+                            <div className="position-absolute top-100 start-100 translate-middle visible-768"><img src="images/page_032/img_004.png" className="wp-30 msp-60 mep-40 mtp--20" alt="" /></div>
                                 <div className="d-flex border-style-solid border-color-android18 border-3 p-0 m-0">
                                     <div className="w-30 bgc-azuka p-3 border-right-style-solid border-color-android18 border-3 d-flex align-items-center f-Ubuntu-L fsp-14 text-start">Siguiendo el
                                         ejemplo de la
