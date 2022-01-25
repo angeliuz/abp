@@ -137,6 +137,7 @@
   --chopin:#A2C700;
   --schubert:#FF9800;
   --debussy:#C3318F;
+  --jugador001:#FFFEF1;
 }
 
 /* COLORES */
@@ -814,8 +815,10 @@
 .color-debussy {
   color: var(--debussy);
 }
-  
-  
+.color-jugador001 {
+  color: var(--jugador001);
+}
+
 
 
 
@@ -1262,6 +1265,9 @@
 }
 .border-color-debussy {
   border-color: var(--debussy) !important;
+}
+.border-color-jugador001 {
+  border-color: var(--jugador001) !important;
 }
 
 /* B
@@ -1710,4 +1716,7 @@
 }
 .bgc-debussy {
   background-color: var(--debussy);
+}
+.bgc-jugador001 {
+  background-color: var(--jugador001);
 }
