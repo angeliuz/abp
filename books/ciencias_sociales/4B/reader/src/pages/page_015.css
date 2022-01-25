@@ -51,6 +51,10 @@
     padding-bottom: 480px;
 }
 
+.mtp-320 {
+    margin-top: 320px;
+}
+
 @media (min-width: 801px) {
     .wp-290-p15 {
         width: 290px;
