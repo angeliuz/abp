@@ -5,144 +5,92 @@ import ModalBook from "../components/ModalBook";
 import "./page_040.css";
 
 function Page040(props) {
-
-  const pagina = "40";
+  const pagina = "040";
   var indexInput = 0;
-
+  const etapa = "3"
+  const background = "bgc-android18";
+  const color = "color-android18";
+  const borderColor = "border-color-android18"
+  const borderColorTabla = "border-color-azuka"
+  const bgc_cajas = "bgc-azuka";
   return (
+
+
+
     <div className="wrapper bgc-light">
-          <div className="d-flex flex-column align-items-center pbp-20">
-              <div className="page bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
-            <div className="cabecera-v1 hp-80 bgc-android18">
-            </div>
+      <div className="d-flex flex-column align-items-center pbp-20">
+        <div className={"dosier-e" + etapa + " page bgc-white overflow-hidden position-relative"} id={"page_" + pagina}>
 
-          <div className="d-flex msp-60 mep-60 mbp-0 mtp--30">
+          <div className="d-flex msp-60 mep-60 mtp-80 mbp-10">
+            <div className="row p-0 m-0">
+              <div className="col-12 col-md-3 position-relative"> </div>
+              {/* BEGIN EJERCICIO 1 */}
 
-            <div className="row m-0 psp-10 pep-10 ptp-40 pbp-10 bgc-ryu rounded-p-20 w-100">
-
-                <div className="col-md-12 col-lg-12 position-relative">
-                  <div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-0 visible-768 zindex-1"><img src="images/page_040/img_003.png" className="wp-40 " alt="" /></div> 
-                  <div className="d-flex mbp-20 mtp-10 w-100">
-                      <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                      <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-start">Las imágenes que usaremos como apoyo en el reportaje son...</div>
-                          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
-                      </div>
+              <div className="row d-flex mbp-70 w-100 mx-auto position-relative">
+                <div className="col-sm-12 col-md-6 mbp-10 position-relative">
+                  <div className="text-start w-100 bgc-white rounded-p-10 t-shadow ">
+                    <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp--5 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-30" alt="" /></div>
+                    <div className="position-absolute top-0 start-100 translate-middle msp--20 mtp-15 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-30" alt="" /></div>
+                    <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--5 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-60" alt="" /></div>
+                    <div className="hp-50 pep-20 psp-20 max-wp-260 ptp-30 pbp-10 d-flex justify-content-start align-items-center">
+                      Lo que más nos gustó de esta etapa fue:
+                    </div>
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-400" />
+                    </div>
                   </div>
                 </div>
-                <div className="col-md-12 col-lg-12 position-relative">
-                  <div className="position-absolute top-0 start-0 translate-middle msp--10 mtp--20 visible-768"><img src="images/page_040/img_001.png" className="wp-40 " alt="" /></div> 
-                  <div className="d-flex mbp-20 mtp-10 w-100">
-                      <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                      <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-start">Y las obtuvimos de las siguientes fuentes:</div>
-                          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
-                      </div>
+                <div className="col-sm-12 col-md-6 position-relative">
+                  <div className="text-start w-100 bgc-white rounded-p-10 border-3 border-style-solid border-color-wagner">
+                    <div className="position-absolute top-0 start-0 translate-middle msp-50 mtp--15 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_004.svg"} className="wp-10" alt="" /></div>
+                    <div className="position-absolute top-0 start-100 translate-middle msp--50 mtp--15 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_004.svg"} className="wp-10" alt="" /></div>
+                    <div className="position-absolute top-0 start-50 translate-middle msp-30 mtp-20 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-30" alt="" /></div>
+                    <div className="hp-50 pep-20 psp-20 max-wp-200 ptp-30 pbp-10 d-flex justify-content-start align-items-center">
+                      Nos interesa seguir aprendiendo sobre:
+                    </div>
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-400" />
+                    </div>
                   </div>
                 </div>
-                
-            </div>
-          </div>        
-    
-          <div className="d-flex w-100 mtp-50 psp-60 pep-60 ptp-20 mbp-0 bgc-ermac border-top border-color-dark border-2 pbp-80">
-            <div className="row w-100 p-0 m-0">
-              <div className="col-12 position-relative">
-              <div className="position-absolute top-0 start-100 translate-middle msp--10 mtp--52 visible-768"><img src="images/page_040/img_002.png" className="wp-80 " alt="" /></div> 
-                <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
-                <div className="d-flex flex-column mbp-20 mtp-10 w-100">
-                      <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                        <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
-                          <img src="images/page_040/img_001.svg" className="mep-5" alt="" /> 
-                          <span>Tengo orgullo por haber podido</span>
-                        </div>
-                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-20" />
-                        <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 mtp-20 text-start">
-                          <img src="images/page_040/img_001.svg" className="mep-5" alt="" /> 
-                          <span>¿Cuándo resuelvo mejor las tareas?</span>
-                        </div>
-                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-20" />
-                      </div>
-
-                  </div>
               </div>
-              <div className="col-12">
-                <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo me siento?</div>
-                  <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-30">
-                            <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/page_018/img_005.svg" className="hp-17 mtp--2" alt=""/> el recuadro que mejor me represente.</span>
-                            <div className="w-100 p-2 pb-3 bgc-white rounded-p-10">
-                                <table className="w-100">
-                                    <tbody>
-                                        <tr>
-                                            <td>&nbsp;</td>
-                                            <td className="style-caja bgc-android18 tf-letra border-style-solid border-1 border-color-milk f-colby-compres-bold ps-2 pe-2">
-                                                Nunca</td>
-                                            <td style={{minWidth: "55px"}} className="style-caja bgc-android18 tf-letra  border-style-solid border-1 border-color-milk f-colby-compres-bold ps-2 pe-2">
-                                                A veces</td>
-                                            <td className="style-caja bgc-android18 tf-letra border-style-solid border-1 border-color-milk f-colby-compres-bold ps-2 pe-2">
-                                                Generalmente</td>
-                                            <td className="style-caja bgc-android18 tf-letra  border-style-solid border-1 border-color-milk f-colby-compres-bold ps-2 pe-2">
-                                                Siempre</td>
-                                        </tr>
-                                        <tr>
-                                            <td className="bgc-ermac f-Ubuntu-L fsp-12 text-start psp-5 border-style-solid border-1 border-color-milk">El ambiente de trabajo en mi equipo es agradable.</td>
-                                            <td className="border-style-solid border-1 border-color-milk"></td>
-                                            <td className="border-style-solid border-1 border-color-milk"></td>
-                                            <td className="border-style-solid border-1 border-color-milk"></td>
-                                            <td className="border-style-solid border-1 border-color-milk"></td>
-                                        </tr>
-                                        <tr>
-                                            <td className="bgc-ermac f-Ubuntu-L fsp-12 text-start psp-5 border-style-solid border-1 border-color-milk">Estoy muy contento de trabajar en este proyecto.</td>
-                                            <td className="border-style-solid border-1 border-color-milk"></td>
-                                            <td className="border-style-solid border-1 border-color-milk"></td>
-                                            <td className="border-style-solid border-1 border-color-milk"></td>
-                                            <td className="border-style-solid border-1 border-color-milk"></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
+
+
+              {/* BEGIN EJERCICIO 2 */}
+              <div className="f-pixilate-bold mtp-50 fsp-18 lh-sm text-start mbp-5 mtp-50">¿Cómo vamos?</div>
+              <div className="position-relative">
+                <div className="position-absolute top-0 start-100 translate-middle msp--60 mtp--40 visible-768"><img src="images/page_040/img_005.png" className="wp-80 " alt="" /></div>
+              </div>
+              <div className="d-flex flex-column mbp-20 mtp-10 w-100">
+                <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
+                  <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
+                    <img src="images/generales/flecha_e3.svg" className="mep-5 wp-15" alt="" />
+                    <span>Lo que podemos mejorar como equipo es:</span>
+                  </div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                  <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 mtp-20 text-start position-relative">
+                    <div className="position-absolute top-100 start-100 translate-middle msp--45 mtp-40 visible-768"><img src="images/page_040/img_007.png" className="wp-120 " alt="" /></div>
+                    <div className="position-absolute top-100 start-0 translate-middle msp-5 mtp-100 visible-768"><img src="images/page_040/img_009.png" className="wp-50 " alt="" /></div>
+                    <img src="images/generales/flecha_e3.svg" className="mep-5 wp-15" alt="" />
+                    <span>Lo que mejor nos ha resultado en el trabajo en equipo es:</span>
+                  </div>
+                  <div className="pep-70">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                  </div>
                 </div>
               </div>
-            </div>
 
+            </div>
+          </div>
 
-            {/* PIE DE PAGINA */}
-            <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
-              <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
-                ABP &copy; SM
-              </div>
-              <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+          {/* PIE DE PAGINA */}
+          <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
+            <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
+              ABP &copy; SM
             </div>
-            <div className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
-              <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-                <img src="images/rotulo_motivacion.svg" className="oculto" alt="" />
-                <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
-                <div className="w-100 hp-25 bgc-goten"></div>
-              </div>
-              <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-                <img src="images/rotulo_planificacion.svg" className="oculto" alt="" />
-                <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
-                <div className="w-100 hp-25 bgc-bulma"></div>
-              </div>
-              <div className="col-7 col-sm-2 p-0 m-0 position-relative">
-                <img src="images/rotulo_investigacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
-                <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
-                <div className="w-100 hp-25 bgc-android18"></div>
-              </div>
-              <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-                <img src="images/rotulo_experimentacion.svg" className="oculto" alt="" />
-                <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
-                <div className="w-100 hp-25 bgc-pidgey"></div>
-              </div>
-              <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-                <img src="images/rotulo_creacion.svg" className="oculto" alt="" />
-                <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
-                <div className="w-100 hp-25 bgc-saitama"></div>
-              </div>
-              <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-                <img src="images/rotulo_difusion.svg" className="oculto" alt="" />
-                <div className="w-100 hp-15 bgc-leono rounded-caja-end"></div>
-                <div className="w-100 hp-25 bgc-pikachu"></div>
-              </div>
-            </div>
+            <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+          </div>
+
 
         </div>
       </div>
