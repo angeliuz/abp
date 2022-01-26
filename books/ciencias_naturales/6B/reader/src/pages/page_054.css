@@ -1,0 +1,158 @@
+.cabecera {
+    -webkit-clip-path: polygon(100% 100%, 0% 0%, 0% 0%, 8% 0%);
+    clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
+    background-color: var(--pidgey);
+    height: 130px;
+}
+
+
+
+
+
+.cajota {
+    height: 160px;
+
+
+}
+
+.cajota2 {
+    height: 200px;
+    overflow: hidden;
+
+
+
+}
+.tf-flecha {
+    padding-bottom: -2px;
+}
+
+.tf-interior-caja {
+    background-color: white;
+    margin: 0px 1px 4px 0px;
+    border-radius: 8px 8px 0px 0px;
+    padding: 5px 10px;
+}
+
+.tf-letra {
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    color: white !important;
+    font-size: 16px;
+}
+
+.tf-parrafo-caja {
+    font-size: 14px;
+    text-align: left !important;
+    color: #000 !important;
+    font-family: ubuntu-l, sans-serif;
+    background-color: #d6eef5;
+    padding-left: 8px;
+}
+.block-bottom {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100% - 10px);
+}
+
+.rounded-caja {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.linea1 {
+    border-bottom: 1px dashed #dedede;
+    padding-top: 5px;
+    border-color: var(--dark);
+}
+
+
+
+.calendario {
+    top: 380px;
+    left: 40px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.niño {
+    position: absolute;
+    right: 40px;
+    top: -91px;
+    transform: rotate(1grad);
+
+}
+
+.lapiz {
+    top: 480px;
+    left: 790px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.linea {
+    border-bottom: 2px dotted gray;
+    padding-top: 30px;
+    padding-bottom: 0px;
+
+}
+
+
+
+
+
+@media (max-width: 992px) {
+
+    .calendario {
+        display: none;
+    }
+
+    
+
+    .lapiz {
+        display: none;
+    }
+
+}
+
+
+
+
+
+@media all and (max-width: 992px) {
+
+    .cajota {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .cajota2 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+
+}
+
+@media all and (max-width: 680px) {
+
+    .cajota {
+        margin: 0;
+
+    }
+
+    .cajota2 {
+        margin: 0;
+    }
+
+
+}
+
+.container-row {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
