@@ -24,11 +24,17 @@ function Page063(props) {
           <img src={"images/cabecera/dosier_e" + etapa + ".svg"} className="w-100" alt="" />
           <div className="position-relative w-100 mbp-10">
             <div className="psp-80 pep-70 ptp-30 pbp-0 position-relative">
+              <div className="position-absolute top-50 start-100 translate-middle    zindex-2  msp--140 mtp-25 position-relative"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-220" alt="" />
+                <div className="position-absolute top-0 start-50 translate-middle-x  "><div className="ptp-20 f-pixilate-bold fsp-16 text-center wp-200 pep-20 gira--4">Dibuja aquí la insignia de tu equipo.</div>
+                  <div className="p-2 mtp--5"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start  flex-grow-1 contenedor-linea lhp-35 min-hp-120  gira--4" /></div>
+                </div>
+
+              </div>
               <div className="fsp-16 f-Ubuntu-R text-start psp-50 pbp-10">Esta página fue completada por:</div>
-              <div className={"psp-50 pep-50 ptp-5 pbp-5 bgc-white rounded-p-10 border-style-solid border-1 " + borderColor + " d-flex justify-content-center position-relative"}>
+              <div className={"psp-50 pep-180 ptp-5 pbp-5 bgc-white rounded-p-10 border-style-solid border-1 " + borderColor + " d-flex justify-content-center position-relative"}>
                 <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 mtp--10"><img src={"images/page_" + pagina + "/img_001.png"} className="w-80" alt="" /></div>
                 {/* <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp--10"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-60" alt="" /></div> */}
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start  flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
               </div>
             </div>
           </div>
@@ -44,6 +50,7 @@ function Page063(props) {
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 mnp-20 position-relative">
                 <div className="position-absolute top-0 start-50 translate-middle  visible-768   zindex-2 wp-100 msp-20 mtp--15"><img src="images/page_063/img_003.png" className="hp-80" alt="" /></div>
+
                 <div className="row ">
                   <div className="col-6 m-0 p-0">
                     <div className="bgc-wagner w-100 hp-70 rounded-ts-10 ptp-15 ">

@@ -108,7 +108,7 @@ function Page033(props) {
                                                     />
                                                 </div>
                                             </div>
-                                            <div className="psp-10 ptp-0 f-Ubuntu-L fsp-16 text-start">Entregamos nuestras propuestas para realizar las entrevist as.</div>
+                                            <div className="psp-10 ptp-0 f-Ubuntu-L fsp-16 text-start">Entregamos nuestras propuestas para realizar las entrevistas.</div>
                                         </div>
                                         <div className="d-flex">
                                             <div className="ptp-10">
