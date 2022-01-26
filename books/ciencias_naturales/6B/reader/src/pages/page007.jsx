@@ -28,16 +28,16 @@ function Page007(props) {
           </div>
           {/* END CABECERA VERSIÓN 2 */}
           <div className="ptp-50 container-titulo-global mbp-0">
-            <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+            {/*  <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
               Conociendo el desafío
-            </div>
+            </div> */}
             <div className="d-flex psp-20">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 1
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Veo el video, leo y comprendo.
+                Veo el video, leo la invitación y comprendo el desafío.
               </div>
               <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
@@ -47,28 +47,18 @@ function Page007(props) {
           <div className="d-flex msp-60 mep-60 mtp-20 mbp-10">
             <div className="row p-0 m-0">
               <div className="col-sm-12 col-md-3 position-relative"></div>
-              <div class="cb-paper position-relative">
-                <div className="position-absolute top-100 start-100 translate-middle msp--70 mtp-0 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-80" alt="" /></div>
-                <div class="cb-paper-content f-Ubuntu-L fsp-13 text-start">
-                  <img src="images/page_007/img_002.png" class="cb-carta" alt="" />
-                  <img src="images/page_007/img_001.png" class="cb-lapiz" alt="" />
-                  <p>Queridos estudiantes,</p>
-                  <p>En una escuela nos reunimos muchas personas: estudiantes, profesores, auxiliares,
-                    apoderados... Por lo mismo, ¡qué importante es cuidar la convivencia entre todos! Para trabajar
-                    en torno a la buena convivencia, les tengo un desafío muy importante:
-                    ¡Crear un álbum que promueva la buena convivencia!</p>
 
-                  <p>Este álbum nos ayudará a reconocer los valores y actitudes necesarios
-                    para lograr una buena convivencia escolar, identificar conflictos al
-                    interior de su curso y proponer soluciones, además de algo muy importante:
-                    conocerse entre todos, para así valorar cómo cada uno aporta al curso
-                    desde sus aspectos positivos, sus diferencias, sus intereses y sus gustos.</p>
+              <div className="max-wp-700 mx-auto position-relative">
+                <div className="max-wp-260 caja-cartel ptp-10 psp-10 pep-10 position-absolute top-50 start-50 translate-middle msp-15 mtp--25 zindex-10 f-Ubuntu-L fsp-13">
+                  <span className="color-goten fsp-20 f-Ubuntu-R pbp-5 fw-700 ">
+                    Participa por un <br /> colegio sostenible</span>
 
-                  <p>¿Te animas a participar de este desafío? ¡Lo pasaremos muy bien
-                    haciendo un conjunto de trabajos y conociendo mejor a otras personas!</p>
+                  <p className="ptp-20"> La energía renovable la construimos todos.</p>
 
-                  <p>Estaremos esperando tu respuesta. ¡Nos vemos!</p>
+                  <p>A los estudiantes de 6° básico del país les pedimos participar del siguiente desafío: </p>
+                  <p>Construir un aparato o sistema tecnológico que permita aprovechar las energías renovables dentro del colegio.</p>
                 </div>
+                <div className=""><img src={"images/page_" + pagina + "/img_004.png"} className="w-100" alt="" /></div>
               </div>
 
               <div className="d-flex psp-20">
