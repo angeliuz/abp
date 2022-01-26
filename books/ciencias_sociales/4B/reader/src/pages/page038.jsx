@@ -26,28 +26,29 @@ function Page038(props) {
           </div>
 
 
-          <div className="ptp-10 psp-100 pep-60 mbp-0 position-relative">
+          <div className="ptp-10 psp-80 pep-80 mbp-0 position-relative">
             <div className="row justify-content-center">
               <div className="col-12 p-0 m-0 position-relative">
-                <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_051/camara.png" className="hp-80 mep-40 mtp--40" alt="" /></div>
-                <div className="position-absolute top-50 start-0 translate-middle"><img src="images/page_051/acuarela.png" className="hp-60 msp--50 mtp-160" alt="" /></div>
-                <div className="bgc-jugador001 border-style-solid border-color-dark border-1 box-shadow-simple">
+                <div className="position-absolute top-50 start-100 translate-middle  mtp--30 visible-768"><img src="images/page_038/img_003.png" className=" " alt="" /></div>
+                <div className="position-absolute top-0 start-100 translate-middle msp--60 mtp-90 visible-768"><img src="images/page_038/img_002.png" className=" wp-200" alt="" /></div>
+                <div className="position-absolute top-0 start-0 translate-middle msp-50"><img src="images/page_038/img_001.svg" className="wp-180 " alt="" /></div>
+                <div className="bgc-jugador001 border-style-solid border-color-dark border-1 box-shadow-simple ptp-30">
                   <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                    <p>Nombre del entrevistado o entrevistada:</p>
+                    <p className="color-saitama">Nombre del entrevistado o entrevistada:</p>
                     <p>Sergio Alfredo López Mamani.</p>
-                    <p>Edad: 10 años.</p>
-                    <p>Fecha de nacimiento: 28 de diciembre de 2012.</p>
-                    <p>Curso: 4ºB</p>
-                    <p>Escuela: Colegio Nueva Esperanza..</p>
-                    <p>En sus tiempos libres le gusta: escuchar música, jugar fútbol,
-                    visitar a su abuela Gladys.</p>
-                    <p>Su asignatura favorita es: Ciencias Naturales y Educación Física.</p>
-                    <p>Su comida favorita es: arroz con huevos revueltos.</p>
-                    <p>Para mejorar la convivencia escolar, cree que: es importante respetarnos mutuamente y entender a los demás.</p>
-                    <p>¿Por qué es importante tener una buena convivencia escolar?: porque
-                    así podemos relacionarnos mejor, solucionar de mejor manera nuestras
-                    diferencias y llevarnos bien.</p>
-                    </div>
+                    <p><span className="color-saitama">Edad:</span> 10 años.</p>
+                    <p><span className="color-saitama">Fecha de nacimiento:</span> 28 de diciembre de 2012.</p>
+                    <p><span className="color-saitama">Curso:</span> 4ºB</p>
+                    <p><span className="color-saitama">Escuela:</span> Colegio Nueva Esperanza..</p>
+                    <p><span className="color-saitama">En sus tiempos libres le gusta:</span> escuchar música, jugar fútbol,
+                      visitar a su abuela Gladys.</p>
+                    <p><span className="color-saitama">Su asignatura favorita es:</span> Ciencias Naturales y Educación Física.</p>
+                    <p><span className="color-saitama">Su comida favorita es:</span> arroz con huevos revueltos.</p>
+                    <p><span className="color-saitama">Para mejorar la convivencia escolar, cree que:</span> es importante respetarnos mutuamente y entender a los demás.</p>
+                    <p><span className="color-saitama">¿Por qué es importante tener una buena convivencia escolar?:</span> porque
+                      así podemos relacionarnos mejor, solucionar de mejor manera nuestras
+                      diferencias y llevarnos bien.</p>
+                  </div>
                   {/* <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-330 contenedor-linea mep-10 msp-10" /> */}
                 </div>
               </div>
@@ -63,14 +64,68 @@ function Page038(props) {
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
-              <div className="row p-0 m-0 w-100">
-                  <div className="col-12 p-0 m-0 position-relative">
-                      
+          <div className="d-flex  mtp-0 mbp-0 psp-80 pep-80 ptp-0 pbp-100">
+            <div className="row  m-0 w-100 bgc-itto rounded-p-10">
+              <div className="col-12 p-0 m-0 position-relative">
+                <div className="row">
+                  <div className="col-12 f-pixilate-bold fsp-18 ptp-10">¿Qué estoy aprendiendo?</div>
+                  <div className="col-md-6 col-12 position-relative">
+                    <div className="position-absolute top-50 start-0 translate-middle msp--10 mtp-0 visible-768"><img src="images/page_038/img_004.png" className=" " alt="" /></div>
+                    <div className="position-absolute top-50 start-100 translate-middle msp-20 mtp-0 visible-768"><img src="images/page_038/img_005.svg" className="hp-300 " alt="" /></div>
+
+                    <div className="d-flex mbp-20 mtp-10 w-100">
+                      <div className="p-2 
+                       w-100 border-style-solid border-2 rounded-p-10 border-color-android18 bgc-white">
+
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
+                      </div>
+                    </div>
                   </div>
+                  <div className="col-md-1 col-12 "></div>
+                  <div className="col-md-5 col-12 ">
+
+
+                    <div className="col-md-12 col-12 mbp-10">
+                      <div className="px-3 border-style-solid border-2 border-color-android18 bgc-white rounded-p-20">
+
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70"
+                        />
+                        <div className="f-pixilate-bold fsp-16 ptp-15">
+                          Lo puedo aplicar en casa
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-md-12 col-12 mbp-10 ">
+                      <div className="px-3 border-style-solid border-2 bgc-white border-color-android18 rounded-p-20">
+
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                        <div className="f-pixilate-bold fsp-16 ptp-15">
+                          Lo puedo aplicar con amigos
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-md-12 col-12 mbp-10 ">
+                      <div className="px-3 border-style-solid border-2 border-color-android18 bgc-white rounded-p-20">
+
+                        <InputBox
+                          id={"p" + pagina + "_input" + (indexInput += 1)}
+                          className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70"
+                        />
+                        <div className="f-pixilate-bold fsp-16 ptp-15">
+                          Lo puedo aplicar en clases
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
+            </div>
           </div>
-          
+
           {/* PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>

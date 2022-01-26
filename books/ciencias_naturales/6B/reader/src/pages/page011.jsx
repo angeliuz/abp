@@ -8,8 +8,8 @@ function Page011(props) {
   const etapa = "2"
   const background = "bgc-bulma";
   const color = "color-krillin";
-  const borderColor = "border-color-android18"
-  const bgc_cajas = "bgc-goku";
+  const borderColor = "border-color-bulma"
+  const bgc_cajas = "bgc-jawa";
 
   return (
     <div className="wrapper bgc-light">

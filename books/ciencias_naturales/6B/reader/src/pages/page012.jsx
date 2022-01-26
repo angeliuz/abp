@@ -29,14 +29,14 @@ function Page012(props) {
                                 <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
                                     <div className={"d-flex " + bgc_cajas + " psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e" + etapa}>
                                         <div className="d-flex wp-23">
-                                            <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-20 mep-5 wp-20" alt="" />
+                                            <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-20 mep-5 wp-20 mtp--20" alt="" />
                                         </div>
                                         <div className="d-flex">
                                             <span className="fsp-16 text-start f-pixilate-regular">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
-                                                    IDENTIFICAR &nbsp;
+                                                    REFLEXIONAR &nbsp;
                                                 </span>
-                                                lo <br />que sé del tema y lo que<br /> necesito saber..
+                                                sobre<br />lo que sé de las<br />energías renovables.
                                             </span>
                                         </div>
                                     </div>
@@ -46,32 +46,32 @@ function Page012(props) {
                                 <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
                                     <div className={"d-flex " + bgc_cajas + " psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e" + etapa}>
                                         <div className="d-flex wp-23">
-                                            <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-25 mep-5 wp-20" alt="" />
+                                            <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-25 mep-5 wp-20 mtp--20" alt="" />
                                         </div>
                                         <div className="d-flex">
                                             <span className="fsp-16 text-start f-pixilate-regular">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
-                                                    RECONOCER</span> <br /> las tareas para llevar a<br />cabo el proyecto.
+                                                    DESCUBRIR</span> lo que<br /> necesito saber para<br />conseguir el desafío.
                                             </span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            {/* <div className="pc-caja-objetivos-3">
+                            <div className="pc-caja-objetivos-3">
                                 <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
                                     <div className={"d-flex " + bgc_cajas + " psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e" + etapa}>
                                         <div className="d-flex">
-                                            <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-25 mep-5 wp-20" alt="" />
+                                            <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-25 mep-5 wp-20 mtp--35" alt="" />
                                         </div>
                                         <div className="d-flex">
                                             <span className="fsp-16 text-start f-pixilate-regular">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
-                                                    ORGANIZAR</span> <br /> el plan de trabajo.
+                                                    ELABORAR</span> un plan de<br />trabajo para crear<br />un aparato o sistema<br />tecnológico.
                                             </span>
                                         </div>
                                     </div>
                                 </div>
-                            </div> */}
+                            </div>
                             {/* <div className="pc-caja-objetivos-4">
                             <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
                                 <div className={"d-flex "+bgc_cajas+" psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e"+etapa}> 
@@ -91,7 +91,7 @@ function Page012(props) {
 
                         <div className="d-flex justify-content-center max-img mbp-50 ">
                             <div className="">
-                                <img src="images/page_012/imagen.jpg" className="img-fluid" alt="" />
+                                <img src="images/page_012/imagen.png" className="img-fluid mtp--100" alt="" />
                             </div>
                         </div>
                         {/* Begin pie de página */}
