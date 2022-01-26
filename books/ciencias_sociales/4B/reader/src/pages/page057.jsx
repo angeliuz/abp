@@ -127,85 +127,89 @@ function Page057(props) {
 
                     <div className="msp-60 mep-60 mb-20">
                         <div className="row">
-                            <div className="col-12 bgc-ryu p-2 rounded-p-20 position-relative">
-                                <div className="position-absolute top-0 end-0 mtp--150 "><img class="hp-150 " src="images/page_057/img_003.png" alt="" /></div>
-                                <div className="position-absolute bottom-0 start-0 msp--20 mbp--20 "><img class="hp-40 " src="images/page_057/img_004.png" alt="" /></div>
+                            <div className="col-12 bgc-ryu p-2 rounded-p-20 ">
+                                <div className="position-relative bgc-red">1
 
-                                <div className="d-flex justify-content-center p-1">
-                                    <div className="row bgc-chopin w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-20">
-                                        <div className="col-5 ptp-10 text-start">Color</div>
-                                        <div className="col-7 ptp-10 text-start">Justificación</div>
-                                        <div className="col-5 position-relative">
-                                            <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--10 mtp-0 zindex-1"><img src="images/page_057/flechablanca.svg" className="wp-50" alt="" /></div>
-                                            {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
-                                            <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
-                                                <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+
+                                    <div className="position-absolute top-0 start-50 translate-middle    "><img class="hp-150  " src="images/page_057/img_003.png" alt="" /></div>
+                                    <div className="position-absolute bottom-0 start-0 msp--20 mbp--20 "><img class="hp-40 " src="images/page_057/img_004.png" alt="" /></div>
+
+                                    <div className="d-flex justify-content-center p-1">
+                                        <div className="row bgc-chopin w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-20">
+                                            <div className="col-5 ptp-10 text-start">Color</div>
+                                            <div className="col-7 ptp-10 text-start">Justificación</div>
+                                            <div className="col-5 position-relative">
+                                                <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--10 mtp-0 zindex-1"><img src="images/page_057/flechablanca.svg" className="wp-50" alt="" /></div>
+                                                {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
+                                                <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
+                                                    <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
+                                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div className="col-7 position-relative">
+                                            <div className="col-7 position-relative">
 
-                                            <div className="d-flex mbp-20 mtp-10 w-100 psp-10">
-                                                <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                                                <div className="d-flex mbp-20 mtp-10 w-100 psp-10">
+                                                    <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
+                                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
 
+                                        </div>
                                     </div>
-                                </div>
-                                <div className="d-flex justify-content-center p-1">
-                                    <div className="row bgc-schubert w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-20">
-                                        <div className="col-5 ptp-10 text-start">Símbolo</div>
-                                        <div className="col-7 ptp-10 text-start">Justificación</div>
-                                        <div className="col-5 position-relative">
-                                            <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--10 mtp-0 zindex-1"><img src="images/page_057/flechablanca.svg" className="wp-50" alt="" /></div>
-                                            {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
-                                            <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
-                                                <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                                    <div className="d-flex justify-content-center p-1">
+                                        <div className="row bgc-schubert w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-20">
+                                            <div className="col-5 ptp-10 text-start">Símbolo</div>
+                                            <div className="col-7 ptp-10 text-start">Justificación</div>
+                                            <div className="col-5 position-relative">
+                                                <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--10 mtp-0 zindex-1"><img src="images/page_057/flechablanca.svg" className="wp-50" alt="" /></div>
+                                                {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
+                                                <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
+                                                    <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
+                                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div className="col-7 position-relative">
+                                            <div className="col-7 position-relative">
 
-                                            <div className="d-flex mbp-20 mtp-10 w-100 psp-10">
-                                                <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                                                <div className="d-flex mbp-20 mtp-10 w-100 psp-10">
+                                                    <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
+                                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
 
+                                        </div>
                                     </div>
-                                </div>
-                                <div className="d-flex justify-content-center p-1">
-                                    <div className="row bgc-debussy w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-20">
-                                        <div className="col-5 ptp-10 text-start">Imagen</div>
-                                        <div className="col-7 ptp-10 text-start ">Justificación</div>
-                                        <div className="col-5 position-relative">
-                                            <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--10 mtp-0 zindex-1"><img src="images/page_057/flechablanca.svg" className="wp-50" alt="" /></div>
-                                            {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
-                                            <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
-                                                <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
+                                    <div className="d-flex justify-content-center p-1">
+                                        <div className="row bgc-debussy w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-20">
+                                            <div className="col-5 ptp-10 text-start">Imagen</div>
+                                            <div className="col-7 ptp-10 text-start ">Justificación</div>
+                                            <div className="col-5 position-relative">
+                                                <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--10 mtp-0 zindex-1"><img src="images/page_057/flechablanca.svg" className="wp-50" alt="" /></div>
+                                                {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
+                                                <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
+                                                    <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
+                                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div className="col-7 position-relative">
+                                            <div className="col-7 position-relative">
 
-                                            <div className="d-flex mbp-20 mtp-10 w-100 psp-10">
-                                                <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
+                                                <div className="d-flex mbp-20 mtp-10 w-100 psp-10">
+                                                    <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
+                                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
 
+                                        </div>
                                     </div>
+
+
+
                                 </div>
-
-
-
                             </div>
                         </div>
                     </div>
