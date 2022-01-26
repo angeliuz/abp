@@ -17,146 +17,146 @@ function Page059(props) {
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
         <div className="page bgc-white overflow-hidden position-relative" id={"page_" + pagina}>
-          <div className={"cabecera-v1 hp-80 " + background}>
+          {/* BEGIN CABECERA VERSIÓN 2 */}
+          <div className={"cabecera-v2 " + background + " d-flex flex-column"}>
+            <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
+              <div className="caja wp-160 text-center color-saitama fsp-24 f-IntroRustG-Base">SESIÓN 15</div>
+              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Construimos nuestra propuesta</div>
+            </div>
+            <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+                Mis objetivos <br />en  esta sesión son:
+              </div>
+              <div className="p-0 align-self-center">
+                <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
+              </div>
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+                Completar la <br />lista de cotejo
+              </div>
+              <div className="p-0 align-self-center">
+                <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global rotate-90" alt="" />
+              </div>
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+                Hacer una lista de<br /> tareas y distribuirlas
+              </div>
+              <div className="p-0 align-self-center">
+                <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
+              </div>
+              <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
+                Construir el  <br />aparato o sistema
+              </div>
+              <div className="p-0 align-self-center">
+                <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global rotate-90" alt="" />
+              </div>
+              <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
+                Elaborar un álbum  <br />fotográfico
+              </div>
+
+            </div>
           </div>
+          {/* END CABECERA VERSIÓN 2 */}
 
           <div className="ptp-10 container-titulo-global mbp-20">
-            <div className="d-flex">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_062/g_i.svg" alt="" /> */}
-              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>5</div>
+            {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+              Plan de trabajo
+            </div> */}
+            <div className="d-flex psp-20">
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_004.svg"} alt="" /> */}
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                2
+              </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Asignamos entre los integrantes del equipo las siguientes tareas:
+                Seleccionamos las consideraciones que tendremos presentes para la construcción de nuestro aparato o sistema tecnológico.
               </div>
-              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_031/img_002.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
+              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
 
 
 
 
+          <div className="w-100 h-100 position-relative">
+            <div className="position-absolute top-0 start-100 translate-middle   visible-768 msp--80 mtp-60  imagen59-sobre-papel "> <img src={"images/page_" + pagina + "/img_003.png"} className="wp-80" alt="" />  </div>
 
+            <div className="msp-80 mep-60 position-relative  ">
+              {/* <div className="position-absolute top-100 start-0 translate-middle   zindex-4 visible-768 msp--30 mtp--20 "><img src="images/page_061/img_007.png" className="wp-50 " alt="" /></div> */}
+              <div className="row w-100 mb-10   ">
+                <div className="cb-ep-paper-59 ">
+                  <div className="cb-ep-paper-content-59 f-Ubuntu-L text-start">
+                    <div className="mtp-5 ">
 
-
-          <div className="msp-60 mep-60 mb-20">
-            <div className="row">
-              <div className="col-12 bgc-ryu p-2 rounded-p-20 position-relative">
-                <div className="position-absolute top-0 start-100 translate-middle  zindex-2  mtp--150 "><img class="hp-60 " src="images/page_059/img_001.png" alt="" /></div>
-
-
-                <div className="d-flex justify-content-center p-1 position-relative mbp-30">
-
-                  <div className="position-absolute top-0 start-0 translate-middle  msp-50  mtp-5 zindex-1 gira-5">
-                    <img class="wp-140 position-relative   " src="images/page_059/img_002.png" alt="" />
-                    <div className="ptp-15  msp-20 mtp--50  gira-5 color-white  f-pixilate-bold fsp-18"> Ilustraciones </div>
-                  </div>
-
-                  <div className="row bgc-white w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-10 border-style-solid border-2 border-color-yamcha">
-                    <div className="col ptp-20">
-                      <div className="d-flex w-100 p-2 rounded-p-20 ">
-                        <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
-                        <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">La persona que realice las ilustraciones debe ser alguien a quien le guste dibujar y pintar.</div>
-                      </div>
-                      <div className="d-flex w-100 p-2 ">
-                        <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
-                        <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">Debe retratar a los entrevistados y dibujar la portada.</div>
-                      </div>
-                      <div className="d-flex align-items-center w-100 p-2 ">
-                        <div className="d-flex justify-content-start align-items-center wp-360 hp-60 psp-10 p-2 bgc-haendel rounded-tbs-10 text-start f-Ubuntu-R color-dark lh-sm "> La persona encargada de las ilustraciones será:</div>
-                        <div className="d-flex w-100 hp-90 psp-5 text-start color-dark rounded-p-10 border-style-solid border-2 border-color-yamcha ">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                      <div className="d-flex w-100 p-2">
+                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
                         </div>
+                        <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Portada e introducción del álbum.</div>
+                      </div>
+
+                      <div className="d-flex w-100 p-2">
+                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                        </div>
+                        <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Las herramientas que utilizaremos.</div>
+                      </div>
+
+                      <div className="d-flex w-100 p-2">
+                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                        </div>
+                        <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Las mejoras del prototipo.</div>
+                      </div>
+
+                      <div className="d-flex w-100 p-2">
+                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                        </div>
+                        <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Elementos de seguridad.</div>
+                      </div>
+
+                      <div className="d-flex justify-content-start align-items-start text-start f-Ubuntu-R fsp-15  ptp-10 psp-10">Otro:
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                       </div>
                     </div>
                   </div>
                 </div>
-
-
-                <div className="d-flex justify-content-center p-1 position-relative mbp-30">
-
-                  <div className="position-absolute top-0 start-0 translate-middle  msp-30  mtp-5 zindex-1 gira-5">
-                    <img class="wp-110 position-relative mtp--20  " src="images/page_059/img_003.png" alt="" />
-                    <div className=" msp-20 mtp--35  gira-5 color-white zindex-2 f-pixilate-bold fsp-18"> Textos </div>
-                  </div>
-
-                  <div className="row bgc-white w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-10 border-style-solid border-2 border-color-goro">
-                    <div className="col ptp-20">
-                      <div className="d-flex w-100 p-2 rounded-p-20 ">
-                        <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
-                        <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">La persona encargada de los textos debe escribir bien y saber transmitir información en pocas palabras.</div>
-                      </div>
-                      <div className="d-flex w-100 p-2 ">
-                        <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
-                        <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">Debe escribir la introducción que explica el álbum y sus partes.</div>
-                      </div>
-                      <div className="d-flex align-items-center w-100 p-2 ">
-                        <div className="d-flex justify-content-start align-items-center wp-360 hp-60 psp-10 p-2 bgc-goro rounded-tbs-10 text-start f-Ubuntu-R color-dark lh-sm "> La persona encargada
-                          de los textos será:</div>
-                        <div className="d-flex w-100 hp-90 psp-5 text-start color-dark rounded-p-10 border-style-solid border-2 border-color-goro ">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="d-flex justify-content-center p-1 position-relative mbp-30">
-
-                  <div className="position-absolute top-0 start-0 translate-middle  msp-30  mtp-5 zindex-1 gira-5">
-                    <img class="wp-110 position-relative mtp--20  " src="images/page_059/img_004.png" alt="" />
-                    <div className=" msp-20 mtp--35  gira-5 color-white zindex-2 f-pixilate-bold fsp-18"> Diseño </div>
-                  </div>
-
-                  <div className="row bgc-white w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-10 border-style-solid border-2 border-color-yoda">
-                    <div className="col ptp-20">
-                      <div className="d-flex w-100 p-2 rounded-p-20 ">
-                        <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
-                        <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">La persona encargada del diseño debe distribuir los espacios, colores y formas del álbum.</div>
-                      </div>
-                      <div className="d-flex w-100 p-2 ">
-                        <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
-                        <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">Debe crear el soporte material del álbum.</div>
-                      </div>
-                      <div className="d-flex align-items-center w-100 p-2 ">
-                        <div className="d-flex justify-content-start align-items-center wp-360 hp-60 psp-10 p-2 bgc-yoda rounded-tbs-10 text-start f-Ubuntu-R color-dark lh-sm "> La persona encargada del diseño será:</div>
-                        <div className="d-flex w-100 hp-90 psp-5 text-start color-dark rounded-p-10 border-style-solid border-2 border-color-yoda ">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="d-flex justify-content-center p-1 position-relative mbp-10">
-
-                  <div className="position-absolute top-0 start-0 translate-middle  msp-30  mtp-5 zindex-1 gira-5">
-                    <img class="wp-110 position-relative mtp--20  " src="images/page_059/img_005.png" alt="" />
-                    <div className=" msp-20 mtp--35  gira-5 color-white zindex-2 f-pixilate-bold fsp-18"> Edición </div>
-                  </div>
-
-                  <div className="row bgc-white w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-10 border-style-solid border-2 border-color-brahms">
-                    <div className="col ptp-20">
-                      <div className="d-flex w-100 p-2 rounded-p-20 ">
-                        <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
-                        <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">La persona encargada de la edición debe revisar y procurar un justo equilibrio entre las partes del álbum.</div>
-                      </div>
-                      <div className="d-flex w-100 p-2 ">
-                        <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
-                        <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">Debe ser capaz de presentar y explicar el álbum a otros.</div>
-                      </div>
-                      <div className="d-flex align-items-center w-100 p-2 ">
-                        <div className="d-flex justify-content-start align-items-center wp-360 hp-60 psp-10 p-2 bgc-brahms rounded-tbs-10 text-start f-Ubuntu-R color-dark lh-sm "> La persona encargada de la edición será:</div>
-                        <div className="d-flex w-100 hp-90 psp-5 text-start color-dark rounded-p-10 border-style-solid border-2 border-color-brahms ">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
               </div>
+
+            </div>
+
+          </div>
+
+
+          <div className="ptp-50 container-titulo-global mbp-0">
+            {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+              Plan de trabajo
+            </div> */}
+            <div className="d-flex psp-20">
+              <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_004.svg"} alt="" />
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                2
+              </div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                Pensamos en lo que vamos a necesitar para realizar nuestro proyecto.
+              </div>
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
+              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
 
 
+
+
+          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 m-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative">
+                <div className="d-flex d-inline justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">a.</div>
+                <div className="d-flex d-inline justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Las herramientas que utilizaremos.</div>
+              </div>
+            </div>
+          </div>
 
 
 
@@ -178,12 +178,12 @@ function Page059(props) {
               <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
               <div className="w-100 hp-25 bgc-bulma"></div>
             </div>
-            <div className="col-7 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
               <img src="images/rotulo_investigacion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
               <div className="w-100 hp-25 bgc-android18"></div>
             </div>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-7 col-sm-2 p-0 m-0 position-relative">
               <img src="images/rotulo_experimentacion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
               <div className="w-100 hp-25 bgc-pidgey"></div>
