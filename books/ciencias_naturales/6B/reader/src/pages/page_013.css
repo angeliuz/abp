@@ -1,68 +1,32 @@
-.zi1 {
-    z-index: 1;
+.flequillo-p13 {
+    background-image: url(images/page_013/flequillo.svg);
+    background-repeat: repeat-x;
+    background-size: contain;
 }
 
-.zi2 {
-    z-index: 2;
+*/ .sombra-1 {
+    -webkit-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.48);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.28);
 }
 
-.mtp-2 {
-    margin-top: 2;
+.w-70-768 {
+    width: 70%;
 }
 
-.mtp--7 {
-    margin-top: -7px;
-}
-
-.mtp-355 {
-    margin-top: 355px;
-}
-
-.mtp-590 {
-    margin-top: 590px;
-}
-
-.centrar-hor {
-    margin-left: 0% !important;
-    margin-right: 0% !important;
-}
-
-.msp--5-r-p13 {
-    margin-left: -5px;
-}
-
-.min-hp-240-r13 {
-    min-height: 240px;
-}
-
-.hp-950-r13 {
-    height: 997px;
-}
-
-.giro--3deg {
-    transform: rotate(-3deg);
-}
-
-.cuadrado {
+.cuadrado-p13 {
     min-width: 30px;
     min-height: 30px;
-    max-width: 30px;
-    max-height: 30px;
 }
+
+.border-solo-bot {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
 
 @media (max-width: 767px) {
-
-    .msp--5-r-p13 {
-        margin-left: -12px;
-    }
-
-    .min-hp-240-r13 {
-        min-height: 180px;
-    }
-}
-
-@media (max-width: 750px) {
-    .hp-950-r13 {
-        height: 950px;
+    .w-70-768 {
+        width: 100%;
     }
 }
