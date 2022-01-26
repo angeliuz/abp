@@ -38,7 +38,7 @@ function Page016(props) {
 
           <div className="position-relative psp-60 pep-60 ptp-20 ">
             <div className="d-flex justify-content-between">
-              <div className="justify-content-center zindex-1">
+              <div className="justify-content-center zindex-1 pep-10">
                 <div className="rounded-set-20 bgc-soldados centrar-hor d-flex py-2">
                   <div className="f-Ubuntu-B color-white centrar ">Portada</div>
                 </div>
@@ -48,7 +48,7 @@ function Page016(props) {
                 </div>
               </div>
 
-              <div className="justify-content-center zindex-1">
+              <div className="justify-content-center zindex-1 psp-10">
                 <div className="rounded-set-20 bgc-bulma centrar-hor d-flex py-2">
                   <div className="f-Ubuntu-B color-white centrar ">Introducción</div>
                 </div>
@@ -58,8 +58,8 @@ function Page016(props) {
               </div>
             </div>
             <div className="hp-400"></div>
-            <div className="d-flex justify-content-between pep-10">
-              <div className="justify-content-center zindex-1">
+            <div className="d-flex justify-content-between ">
+              <div className="justify-content-center zindex-1 pep-10">
                 <div className="rounded-set-20 bgc-pikachu centrar-hor d-flex py-2">
                   <div className="f-Ubuntu-B color-white centrar ">Afiche</div>
                 </div>
