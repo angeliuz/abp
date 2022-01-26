@@ -131,7 +131,7 @@ function Page057(props) {
                                 <div className="position-relative bgc-red">1
 
 
-                                    <div className="position-absolute top-0 start-50 translate-middle    "><img class="hp-150  " src="images/page_057/img_003.png" alt="" /></div>
+                                    <div className="position-absolute top-0 start-50 translate-middle   mtp--150 "><img class="hp-150  " src="images/page_057/img_003.png" alt="" /></div>
                                     <div className="position-absolute bottom-0 start-0 msp--20 mbp--20 "><img class="hp-40 " src="images/page_057/img_004.png" alt="" /></div>
 
                                     <div className="d-flex justify-content-center p-1">
