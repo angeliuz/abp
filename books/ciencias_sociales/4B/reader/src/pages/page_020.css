@@ -1,0 +1,65 @@
+.titulos-p20 {
+    max-width: 135px;
+    height: 35px;
+    transform: rotate(-6deg);
+}
+
+.bgc-color-papel {
+    background-color: #ece7d8;
+}
+
+.border-color-papel {
+    border-color: #afa394;
+}
+
+.flecha-bulma {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 0 7px 10px;
+    border-color: transparent transparent transparent #f39200;
+}
+
+.min-hp-135 {
+    min-height: 135px;
+}
+
+.red-border-dotted-768 {
+    border-style: solid;
+    border: 2px dotted;
+    border-color: var(--soldados);
+    border-top: none !important;
+    border-left: none !important;
+    border-bottom: none !important;
+}
+
+.anillado-p20 {
+    background-image: url(images/page_020/anillo.svg);
+    background-repeat: repeat;
+    background-size: contain;
+    /* background-color: #ffcc00; */
+}
+
+.mtp--180 {
+    margin-top: -180px;
+}
+
+
+.pep-100-768 {
+    padding-right: 100px;
+}
+
+@media (max-width: 767px) {
+    .pep-100-768 {
+        padding-right: 0px;
+    }
+
+    .red-border-dotted-768 {
+        border-style: none !important;
+        border: none !important;
+        border-color: none !important;
+        border-top: none !important;
+        border-left: none !important;
+        border-bottom: none !important;
+    }
+}
