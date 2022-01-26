@@ -49,16 +49,8 @@ function Page007(props) {
               <div className="col-sm-12 col-md-3 position-relative"></div>
 
               <div className="max-wp-700 mx-auto position-relative">
-                <div className="max-wp-260 caja-cartel ptp-10 psp-10 pep-10 position-absolute top-50 start-50 translate-middle msp-15 mtp--25 zindex-10 f-Ubuntu-L fsp-13">
-                  <span className="color-goten fsp-20 f-Ubuntu-R pbp-5 fw-700 ">
-                    Participa por un <br /> colegio sostenible</span>
 
-                  <p className="ptp-20"> La energía renovable la construimos todos.</p>
-
-                  <p>A los estudiantes de 6° básico del país les pedimos participar del siguiente desafío: </p>
-                  <p>Construir un aparato o sistema tecnológico que permita aprovechar las energías renovables dentro del colegio.</p>
-                </div>
-                <div className=""><img src={"images/page_" + pagina + "/img_004.png"} className="w-100" alt="" /></div>
+                <div className=""><img src={"images/page_" + pagina + "/img_004.svg"} className="w-100" alt="" /></div>
               </div>
 
               <div className="d-flex psp-20">
