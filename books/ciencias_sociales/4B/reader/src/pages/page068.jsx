@@ -75,15 +75,15 @@ function Page068(props) {
               <div className="max-wp-700 mx-auto cb-border-multicolor ptp-20 pbp-20 psp-60 bgc-lizt position-relative">
                 <div className="position-absolute top-50 start-100 translate-middle msp--90 mtp-10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-110" alt="" /></div>
                 <span className="text-start f-Ubuntu-L fsp-15 d-flex ">Nuestra jornada “Por la buena convivencia escolar”</span>
-                <div className="d-flex w-100">
+                <div className="d-flex w-100 mtp-10">
                   <span className="text-start f-Ubuntu-L fsp-15 d-flex justify-content-center align-items-center mep-10">se llevará a cabo el día</span>
-                  <div className=" rounded-p-10 bgc-white border-1 border-style-solid border-color-ken max-wp-300 w-100 ptp-10 pbp-10 psp-20 pep-20">
+                  <div className=" rounded-p-10 bgc-white border-1 border-style-solid border-color-ken max-wp-300 w-100 ptp-10 pbp-10 psp-20 pep-20 msp-10">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-25" />
                   </div>
                 </div>
                 <div className="d-flex mtp-10">
                   <span className="text-start f-Ubuntu-L fsp-15 d-flex justify-content-center align-items-center mep-10 ">a las</span>
-                  <div className="rounded-p-10 bgc-white border-1 border-style-solid border-color-blaze max-wp-300 w-100 ptp-10 pbp-10 psp-20 pep-20">
+                  <div className="rounded-p-10 bgc-white border-1 border-style-solid border-color-blaze max-wp-300 w-100 ptp-10 pbp-10 psp-20 pep-20 msp-10">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-25" />
                   </div>
                 </div>
