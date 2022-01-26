@@ -1,0 +1,18 @@
+.rota{
+  transform: rotate(1deg);
+}
+
+.rota-2{
+  transform: rotate(-2deg);
+}
+
+.rota-3{
+  transform: rotate(-3deg);
+}
+
+.cuadro-clic {
+  background: url(images/page_044/cuadro.svg) top center/contain no-repeat;
+  background-size: cover, 100%;
+  -webkit-print-color-adjust: exact !important;
+  width: 30px;
+}

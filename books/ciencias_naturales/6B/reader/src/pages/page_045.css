@@ -1,0 +1,8 @@
+/* .imagen-fondo {
+  background: url(images/page_045/imagen_fondo.jpg) var(--pidgey) top center/ cover no-repeat !important;
+  -webkit-print-color-adjust: exact !important;
+} */
+
+.imagen-fondo {
+  background-image: url(images/page_045/imagen_fondo.jpg) !important;
+}

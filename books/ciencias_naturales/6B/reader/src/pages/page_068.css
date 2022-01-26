@@ -1,0 +1,8 @@
+.t-shadow{
+    box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
+}
+.cb-border-multicolor{
+    border:3px transparent solid;
+    border-image:-webkit-linear-gradient(top,yellow,rgb(65, 204, 65),rgb(121, 235, 229),rgb(121, 98, 224),rgb(218, 56, 182) ) 1 10;
+    border-radius: 10px !important;
+}
