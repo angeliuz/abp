@@ -1,27 +1,27 @@
-.bgc-67{
-  background: url(images/page_055/fondo.jpg) top center / cover no-repeat !important;
-  -webkit-print-color-adjust: exact !important;
+.cb-contenedor-mail{
+  position: relative;
+  width: calc(100% - 100px);
+  max-width: 700px;
+  margin: 20px auto 30px;
+  background-color: var(--ganyu);
+  border-radius: 10px;
+  box-shadow: -2px 3px 13px 4px rgb(0 0 0 / 20%);
+  border-top: 15px solid var(--qiqi)
 }
-.box-shadow-67-1{
-  -webkit-box-shadow: 5px 5px 1px -1px var(--saitama); 
-  box-shadow: 5px 5px 1px -1px var(--saitama);
-}
-.box-shadow-67-2{
-  -webkit-box-shadow: 5px 5px 1px -1px var(--freezer); 
-  box-shadow: 5px 5px 1px -1px var(--freezer);
-}
-.box-shadow-67-3{
-  -webkit-box-shadow: 5px 5px 1px -1px var(--goku); 
-  box-shadow: 5px 5px 1px -1px var(--goku);
-}
-.box-shadow-67-4{
-  -webkit-box-shadow: 5px 5px 1px -1px var(--android18); 
-  box-shadow: 5px 5px 1px -1px var(--android18);
-}
-
-@media all and (max-width: 767px) {
-  .bgc-67{
-      background: url(images/page_055/fondo.jpg) top center / cover no-repeat !important;
-      -webkit-print-color-adjust: exact !important;
-  } 
-}
+.cb-datos-1{
+  width: 100%;
+  background-color: white;
+  max-width: 630PX;
+  }
+  .cb-datos-a{
+    width: 100%;
+    max-width: 70px;
+  }
+  .cb-carta-content {
+    position: relative;
+    z-index: 3;
+    background: white;
+    padding: 30px 40px;
+    font-size: 16px;
+    border-radius: 0px 0px 10px 10px;
+  }

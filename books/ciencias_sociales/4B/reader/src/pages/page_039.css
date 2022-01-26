@@ -1,0 +1,23 @@
+@media (min-width: 767px) {
+    .espaciado-p39 {
+        padding-top: 20px;
+    }
+
+    .hoja-p39 {
+        margin-top: 0px;
+        margin-left: -320px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .espaciado-p39 {
+        padding-top: 180px;
+    }
+
+    .hoja-p39 {
+        margin-top: 100px;
+        margin-left: -80%;
+    }
+
+}

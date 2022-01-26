@@ -137,8 +137,8 @@
   --chopin:#A2C700;
   --schubert:#FF9800;
   --debussy:#C3318F;
-  --haendel:#FFB7AE;
-  --brahms:#94d3e6;
+  --jugador001:#FFFEF1;
+  --wagner:#fcccc4;
 }
 
 /* COLORES */
@@ -816,12 +816,13 @@
 .color-debussy {
   color: var(--debussy);
 }
-.color-haendel {
-  color: var(--haendel);
+.color-jugador001 {
+  color: var(--jugador001);
 }
-.color-brahms {
-  color: var(--brahms);
+.color-wagner {
+  color: var(--wagner);
 }
+
 
 
 
@@ -1269,11 +1270,11 @@
 .border-color-debussy {
   border-color: var(--debussy) !important;
 }
-.border-color-haendel {
-  border-color: var(--haendel) !important;
+.border-color-jugador001 {
+  border-color: var(--jugador001) !important;
 }
-.border-color-brahms {
-  border-color: var(--brahms) !important;
+.border-color-wagner {
+  border-color: var(--wagner) !important;
 }
 /* B
 /* BACKGROUND COLORS */
@@ -1548,59 +1549,45 @@
 .bgc-honda {
   background-color: var(--honda);
 }
-
 .bgc-akuma {
   background-color: var(--akuma);
 }
-
 .bgc-bison {
   background-color: var(--bison);
 }
-
 .bgc-sagat {
   background-color: var(--sagat);
 }
-
 .bgc-cammy {
   background-color: var(--cammy);
 }
-
 .bgc-guile {
   background-color: var(--guile);
 }
-
 .bgc-zangief {
   background-color: var(--zangief);
 }
-
 .bgc-blanka {
   background-color: var(--blanka);
 }
-
 .bgc-dhalsim {
   background-color: var(--dhalsim);
 }
-
 .bgc-ibuki {
   background-color: var(--ibuki);
 }
-
 .bgc-balrog {
   background-color: var(--balrog);
 }
-
 .bgc-birdie {
   background-color: var(--birdie);
 }
-
 .bgc-jurihan {
   background-color: var(--jurihan);
 }
-
 .bgc-urien {
   background-color: var(--urien);
 }
-
 .bgc-yanfei {
   background-color: var(--yanfei);
 }
@@ -1669,19 +1656,15 @@
 }
 .bgc-shaokhan {
   background-color: var(--shaokhan);
-
 }
 .bgc-sektor {
   background-color: var(--sektor);
-
 }
 .bgc-kintaro {
   background-color: var(--kintaro);
-
 }
 .bgc-jade {
   background-color: var(--jade);
-
 }
 .bgc-tanya {
   background-color: var(--tanya);
@@ -1689,15 +1672,12 @@
 .bgc-hotaru {
   background-color: var(--hotaru);
 }
-  
 .bgc-jarek {
   background-color: var(--jarek);
 }
-  
 .bgc-kai {
   background-color: var(--kai);
 }
-
 .bgc-blaze {
   background-color: var(--blaze);
 }
@@ -1722,9 +1702,9 @@
 .bgc-debussy {
   background-color: var(--debussy);
 }
-.bgc-haendel {
-  background-color: var(--haendel);
+.bgc-jugador001 {
+  background-color: var(--jugador001);
 }
-.bgc-brahms {
-  background-color: var(--brahms);
+.bgc-wagner {
+  background-color: var(--wagner);
 }
