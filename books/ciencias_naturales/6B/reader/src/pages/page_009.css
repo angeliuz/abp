@@ -1,0 +1,13 @@
+.cb-page09 {
+    background: url(images/page_009/fondo_001.svg) top center/cover no-repeat;
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-print-color-adjust: exact !important;
+  }
+  .border-color-nana{
+   border-top:1px solid #9d251e !important; 
+   border-bottom: 1px solid #9d251e !important; 
+  }
+  .color-nana{
+    color: #9d251e;
+  }
