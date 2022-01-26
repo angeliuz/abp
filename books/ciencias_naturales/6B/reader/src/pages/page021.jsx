@@ -1,6 +1,6 @@
 import React from "react";
 import InputBox from "../components/InputBox";
-import ModalVideo from "../components/ModalVideo";
+import ModalBook from "../components/ModalBook";
 
 import "./page_021.css";
 
@@ -8,32 +8,109 @@ function Page021(props) {
 
   const pagina = "021";
   var indexInput = 0;
-  const etapa = "3"
-  const background = "bgc-android18";
-  const color = "color-primary";
-  const borderColor = "border-color-android18"
-  const bgc_cajas = "bgc-goku";
 
   return (
-
     <div className="wrapper bgc-light">
-        <div className="d-flex flex-column align-items-center pbp-10">
-        <div className="page position-relative bgc-investigacion" id={"page_"+pagina}>
+      <div className="d-flex flex-column align-items-center pbp-20">
+        <div className="page bgc-white overflow-hidden position-relative" id={"page_"+pagina}>
+          {/* BEGIN CABECERA VERSIÓN 2 */}
+          <div className="cabecera-v2 bgc-android18 d-flex flex-column">
+            <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
+              <div className="caja wp-160 text-center fsp-24 f-IntroRustG-Base">SESIÓN 4</div>
+              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Renovables y no renovables</div>
+            </div>
+            <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+                Mis objetivos <br />en  esta sesión son:
+              </div>
+              <div className="p-0 align-self-center">
+                <img src="images/page_021/flecha.svg" className="wp-40 arrow-global" alt="" />
+              </div>
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+              Identificar las características<br/>de las energías renovables<br/> y no renovables
+              </div>
+              <div className="p-0 align-self-center">
+                <img src="images/page_021/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
+              </div>
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+              Completar un diagrama<br/> con las consecuencias del<br/>uso de las energías
+              </div>
+              <div className="p-0 align-self-center">
+                <img src="images/page_021/flecha.svg" className="wp-40 arrow-global" alt="" />
+              </div>
+               <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
+               Completar un<br/> crucigrama
+              </div>
+              <div className="p-0 align-self-center">
+                <img src="images/page_021/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
+              </div>
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+              Construir un<br/> organizador gráfico
+              </div>
+            </div>
+          </div> 
+          {/* END CABECERA VERSIÓN 2 */}
+            <div className="ptp-10 container-titulo-global ">
+              <div className="d-flex">
+                  <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_053/g.svg" alt=""  />
+                  <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">1</div>
+                  <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Leo los reportajes de la revista. Luego, realizo las actividades..</div>
+                  {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_053/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+              </div>
+            </div>
+            <div className="ptp-10 container-titulo-global mbp-20">
+              <div className="d-flex">
+                  {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_053/g.svg" alt=""  /> */}
+                  <div className="f-ccdigitaldelivery-bold fsp-16 color-android18">a.</div>
+                  <div className="f-Ubuntu-L fsp-16 psp-10 pep-10 text-start">Identifico las características de las fuentes de energías renovables y no renovables.</div>
+                  <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_021/img_003.svg" clasesImagen="hp-40 text-center " className="p-0 px-0" />
+              </div>
+            </div>
+            
+    
+            {/* PIE DE PAGINA */}
+            <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
+              <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
+                ABP &copy; SM
+              </div>
+              <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+            </div>
+            <div className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
+              <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+                <img src="images/rotulo_motivacion.svg" className="oculto" alt="" />
+                <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
+                <div className="w-100 hp-25 bgc-goten"></div>
+              </div>
+              <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+                <img src="images/rotulo_planificacion.svg" className="oculto" alt="" />
+                <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
+                <div className="w-100 hp-25 bgc-bulma"></div>
+              </div>
+              <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+                <img src="images/rotulo_investigacion.svg" className="oculto" alt="" />
+                <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
+                <div className="w-100 hp-25 bgc-android18"></div>
+              </div>
+              <div className="col-7 col-sm-2 p-0 m-0 position-relative">
+                <img src="images/rotulo_experimentacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
+                <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
+                <div className="w-100 hp-25 bgc-pidgey"></div>
+              </div>
+              <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+                <img src="images/rotulo_creacion.svg" className="oculto" alt="" />
+                <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
+                <div className="w-100 hp-25 bgc-saitama"></div>
+              </div>
+              <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+                <img src="images/rotulo_difusion.svg" className="oculto" alt="" />
+                <div className="w-100 hp-15 bgc-leono rounded-caja-end"></div>
+                <div className="w-100 hp-25 bgc-pikachu"></div>
+              </div>
+            </div>
 
-                <div className="mep-0 position-absolute top-0 end-0">
-                        <div className={"d-flex justify-content-start "+bgc_cajas+" "+color+" ptp-55 pb-2 px-3 text-center mep-55 rounded-seb-20 lh-1"}>
-                        <div className="f-pixilate-regular fsp-25"> APRENDO CON <br/>  <span className="f-Ubuntu-B fsp-22">PROYECTOS</span> </div>
-                        </div>
-                </div>
-                <div className="position-absolute top-50 start-50 translate-middle">
-                    <div className="fw-700 fsp-80 text-center color-white ft-m-45">
-                        <span className="f-hanoded-butterflyball t-shadow-investigacion">INVESTIGACIÓN</span>
-                    </div>
-                </div>
         </div>
-        </div>
+      </div>
     </div>
-
   );
 }
 
