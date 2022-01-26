@@ -26,52 +26,107 @@ function Page014(props) {
           </div>
           {/* END CABECERA VERSIÓN 2 */}
           {/* BEGIN TITULO */}
-          <div className="ptp-50 container-titulo-global mbp-0">
+          <div className="ptp-20 container-titulo-global mbp-0">
             <div className="d-flex psp-20">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
+              <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_001.svg"} alt="" />
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 4
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Respondemos: ¿Qué importancia tienen los valores que definimos para la convivencia escolar?
+                Leo la noticia de la revista. Luego, discutimos en equipo posibles soluciones al problema.
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_002.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
           {/* END TITULO */}
           {/* BEGIN CONTENIDO */}
           <div className="pep-60 psp-60 ptp-20 pbp-20">
-            <div className="bgc-draco w-100 psp-40 ptp-10 pbp-20 pep-10 position-relative">
-              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-36 min-hp-360" />
-              <div className="position-absolute top-50 start-0 translate-middle h-100 msp-10 pbp-20"><div className="flequillo-p14 wp-30 h-100"></div></div>
+            <div className="border-style-solid border-2 border-color-septenario psp-20 pep-5 pbp-10 rounded-p-20 position-relative">
+              <div className="bgc-gohan w-100 psp-40 ptp-30 pbp-20 pep-10 position-relative rounded-p-20">
+
+                <div className="position-relative bgc-white border-style-solid border-2 border-color-saitama rounded-p-50 px-2 ptp-20 pbp-20">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                  <div className="position-absolute top-0 start-0 mtp--25 msp-20 bgc-saitama py-2 rounded-p-20 psp-20 pep-20">
+                    <div className="f-Ubuntu-B color-white">Tenemos un problema:</div>
+                  </div>
+                  <div className="position-absolute top-50 start-100 translate-middle msp-20 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-60" alt="" /></div>
+                  <div className="position-absolute top-100 start-0 translate-middle msp--30 mtp-30 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-140" alt="" /></div>
+                </div>
+
+                <div className="ptp-40"></div>
+
+                <div className="position-relative bgc-white border-style-solid border-2 border-color-saitama rounded-p-50 px-2 ptp-20 pbp-20">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                  <div className="position-absolute top-0 start-0 mtp--25 msp-20 bgc-saitama py-2 rounded-p-20 psp-20 pep-20">
+                    <div className="f-Ubuntu-B color-white">¿A quién afecta?</div>
+                  </div>
+                </div>
+
+                <div className="ptp-20"></div>
+
+                <div className="d-flex justify-content-evenly">
+                  <div className="position-absolute zindex-2 bgc-saitama py-2 rounded-p-20 psp-20 pep-20">
+                    <div className="f-Ubuntu-B color-white"> ¿Qué podemos hacer?</div>
+                  </div>
+                </div>
+
+                <div className="ptp-50 row w-100 position-relative">
+
+                  <div className="col-md-6 col-12 pbp-20">
+                    <div className="bgc-white border-style-solid border-2 border-color-saitama rounded-p-20 px-2 ptp-5 pbp-20">
+                      <div className="text-start f-Ubuntu-M ">Alternativa 1</div>
+                      <div className="">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-100" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-md-6 col-12 pbp-20">
+                    <div className="bgc-white border-style-solid border-2 border-color-saitama rounded-p-20 px-2 ptp-5 pbp-20">
+                      <div className="text-start f-Ubuntu-M ">Alternativa 2</div>
+                      <div className="">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-100" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="d-flex justify-content-evenly position-relative">
+                    <div className="col-md-6 col-12 pbp-20">
+                      <div className="bgc-white border-style-solid border-2 border-color-saitama rounded-p-20 px-2 ptp-5 pbp-20">
+                        <div className="text-start f-Ubuntu-M ">Alternativa 3</div>
+                        <div className="">
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-100" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="position-absolute top-0 start-100 translate-middle msp--110 mtp-25 visible-768 zindex-1"><img src={"images/page_" + pagina + "/espiral_2.svg"} className="wp-100 giro--20deg" alt="" /></div>
+                  </div>
+
+                  <div className="ptp-20"></div>
+
+                  <div className="position-relative bgc-white border-style-solid border-2 border-color-saitama rounded-p-50 px-2 ptp-20 pbp-20">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                    <div className="position-absolute top-0 start-0 mtp--25 msp-20 bgc-saitama py-2 rounded-p-20 psp-20 pep-20">
+                      <div className="f-Ubuntu-B color-white">Conclusiones:</div>
+                    </div>
+                    <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_009.png"} className="wp-100" alt="" /></div>
+                  </div>
+
+                  <div className="position-absolute top-0 start-50 translate-middle msp--120 zindex-1"><img src={"images/page_" + pagina + "/espiral_1.svg"} className="wp-100 mtp-40" alt="" /></div>
+                  <div className="position-absolute top-0 start-0 translate-middle msp--10 zindex-1"><img src={"images/page_" + pagina + "/img_008.png"} className="wp-40 mtp-240" alt="" /></div>
+                </div>
+              </div>
+              <div className="position-absolute top-0 start-100 translate-middle msp-5 mtp--5 zindex-1"><img src={"images/page_" + pagina + "/img_004.svg"} className="wp-30" alt="" /></div>
+              <div className="position-absolute top-100 start-0 translate-middle msp--5 mtp-5 zindex-1"><img src={"images/page_" + pagina + "/img_004.svg"} className="wp-30 giro-180deg" alt="" /></div>
             </div>
           </div>
 
-          <div className="ptp-10 container-titulo-global mbp-0">
-            <div className="d-flex psp-20">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
-              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                5
-              </div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start col-8">
-                Compartimos nuestras respuestas y concluimos. ¿Qué valores consideramos que hay que practicar día a día para lograr una buena convivencia escolar?
-              </div>
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
-            </div>
-          </div>
+          <div className="ptp-100"></div>
 
-          <div className="psp-60 pep-60 ptp-15 pbp-100">
-            <div className="border-style-solid border-color-boros border-1 bgc-hutao psp-20 pep-20 ptp-20 pbp-10 position-relative sombra-1">
-              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
-              <div className="position-absolute top-0 start-100 translate-middle msp-3 mtp-30 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-60" alt="" /></div>
-              <div className="position-absolute top-50 start-0 translate-middle msp--10 mtp-80 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
-              <div className="position-absolute top-0 start-100 translate-middle msp--100 mtp--50 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-160" alt="" /></div>
-            </div>
-          </div>
+
+
           {/* END CONTENIDO */}
 
 
