@@ -51,7 +51,7 @@ function Page023(props) {
                 1
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-              Leo la noticia de la revista y completo el crucigrama.
+                Leo la noticia de la revista y completo el crucigrama.
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
@@ -65,12 +65,18 @@ function Page023(props) {
             </div>
           </div>
 
-          
 
-          
+          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 m-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative">
 
-          
-         
+              </div>
+            </div>
+          </div>
+
+
+
+
 
           {/* PIE DE PAGINA */}
           <div
