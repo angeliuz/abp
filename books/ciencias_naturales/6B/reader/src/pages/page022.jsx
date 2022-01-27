@@ -124,7 +124,7 @@ function Page022(props) {
                 {/* <div className="position-absolute top-100 start-0 translate-middle wp-100 msp-40 mtp--70"><img src="images/page_050/carta.png" className="wp-50 mep-70 mtp-30" alt="" /></div> */}
 
                 <div className="">
-                  <div className="f-Ubuntu-B alinea rounded-set-10 bgc-saitama w-100 p-2 text-center color-white">¿Qué me ha sorprendido de lo que he
+                  <div className="f-Ubuntu-B alinea rounded-set-10 bgc-saitama w-100 p-1 text-center color-white">¿Qué me ha sorprendido de lo que he
                     aprendido sobre la energía?</div>
                   <div className=" linea1 bgc-white  p-2 rounded-seb-20 border-style-solid border-color-saitama border-2">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
@@ -136,7 +136,7 @@ function Page022(props) {
                 <div className="position-absolute top-0 start-100 translate-middle mtp--10 msp-0 "><img src="images/page_022/img_006.png" className="" alt="" /></div>
                 <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 visible-768"><img src="images/page_022/espiral.svg" className="wp-50 " alt="" /></div>
                 <div className="">
-                  <div className="f-Ubuntu-B alinea rounded-set-10 bgc-birdie w-100 p-2 text-center color-white">¿Para qué me ha servido la
+                  <div className="f-Ubuntu-B alinea rounded-set-10 bgc-birdie w-100 p-1 text-center color-white">¿Para qué me ha servido la
                     investigación?</div>
                   <div className="linea1 bgc-white p-2  rounded-seb-20 border-style-solid border-color-birdie border-2">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />

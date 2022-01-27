@@ -66,10 +66,11 @@ function Page023(props) {
           </div>
 
 
-          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
-            <div className="row p-0 m-0 w-100">
-              <div className="col-12 p-0 m-0 position-relative">
-
+          <div className="msp-60 mep-60 mtp-20 mbp-10">
+            <div className="row p-0 m-0">
+              <div className="col-sm-12 col-md-3 position-relative"></div>
+              <div className="max-wp-700 mx-auto position-relative mbp-20">
+                <div className=""><img src={"images/page_" + pagina + "/img_005.png"} className="w-100" alt="" /></div>
               </div>
             </div>
           </div>
