@@ -139,6 +139,8 @@
   --debussy:#C3318F;
   --jugador001:#FFFEF1;
   --wagner:#fcccc4;
+  --haydn:#15b7b8;
+  --orff:#dccbca;
 }
 
 /* COLORES */
@@ -822,6 +824,12 @@
 .color-wagner {
   color: var(--wagner);
 }
+.color-haydn {
+  color: var(--haydn);
+}
+.color-orff {
+  color: var(--orff);
+}
 
 
 
@@ -1276,6 +1284,13 @@
 .border-color-wagner {
   border-color: var(--wagner) !important;
 }
+.border-color-haydn {
+  border-color: var(--haydn) !important;
+}
+.border-color-orff {
+  border-color: var(--orff) !important;
+}
+
 /* B
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1707,4 +1722,10 @@
 }
 .bgc-wagner {
   background-color: var(--wagner);
+}
+.bgc-haydn {
+  background-color: var(--haydn);
+}
+.bgc-orff {
+  background-color: var(--orff);
 }
