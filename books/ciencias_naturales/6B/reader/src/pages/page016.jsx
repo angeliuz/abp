@@ -38,7 +38,7 @@ function Page016(props) {
           </div>
 
           <div className=" psp-60 pep-60 ptp-20">
-            <div className="bgc-pantro p-2">
+            <div className="bgc-pantro p-2 position-relative">
 
               <div className="d-flex justify-content-center align-items-center position-relative">
                 <div className="bloque-p16 bgc-bulma text-center py-2 f-Ubuntu-M color-white rounded-p-5 pep-10">Planificación</div>
@@ -54,7 +54,7 @@ function Page016(props) {
               <div className="d-flex justify-content-center align-items-center position-relative">
                 <div className="bloque-p16 bgc-android18 text-center py-2 f-Ubuntu-M color-white rounded-p-5 pep-10">Investigación</div>
                 <div className="wp-35"></div>
-                <div className="caja-p16 bgc-white border-style-solid border-1 border-color-android-18 psp-20">
+                <div className="caja-p16 bgc-white border-style-solid border-1 border-color-android18 psp-20">
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-80" />
                 </div>
                 <div className="position-absolute top-50 start-0 translate-middle msp-190 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_006.svg"} className="wp-60" alt="" /></div>
@@ -94,10 +94,12 @@ function Page016(props) {
               </div>
 
               <div className="pbp-40"></div>
+              <div className="position-absolute top-0 start-100 translate-middle msp-20 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
+              <div className="position-absolute top-100 start-0 translate-middle msp--20 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-40" alt="" /></div>
             </div>
           </div>
 
-          <div className="bgc-buzz border-style-solid border-color-bulma border-solo-top pbp-20">
+          <div className="bgc-buzz border-style-solid border-color-bulma border-solo-top pbp-20 position-relative">
 
             <div className="d-flex flex-column global-margin mtp-0 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
               <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-10 ptp-30">¿Cómo voy?</div>
@@ -173,7 +175,7 @@ function Page016(props) {
               </div>
             </div>
 
-
+            <div className="position-absolute top-0 start-0 translate-middle msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_.png"} className="wp-60" alt="" /></div>
           </div>
 
           {/* PIE DE PAGINA */}
