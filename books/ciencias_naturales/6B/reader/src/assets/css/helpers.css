@@ -378,6 +378,12 @@
 .wp-500 {
   width: 500px;
 }
+.wp-540{
+  width: 540px;
+}
+.wp-560{
+  width: 560px;
+}
 .wp-580{
   width: 580px;
 }
@@ -1403,6 +1409,9 @@
 }
 .msp--100 {
   margin-left: -100px;
+}
+.msp--105 {
+  margin-left: -105px;
 }
 .msp--110 {
   margin-left: -110px;
@@ -5389,6 +5398,12 @@
 .rotate-90{
   transform: rotate(90deg);
 }
+.rotate-180{
+  transform: rotate(180deg);
+}
+.rotate-270{
+  transform: rotate(270deg);
+}
 
 .rotate--1{
   transform: rotate(-1deg);
@@ -5467,4 +5482,10 @@
 }
 .rotate--90{
   transform: rotate(-90deg);
+}
+.rotate--180{
+  transform: rotate(-180deg);
+}
+.rotate--270{
+  transform: rotate(-270deg);
 }
