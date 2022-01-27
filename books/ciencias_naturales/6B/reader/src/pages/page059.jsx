@@ -128,7 +128,7 @@ function Page059(props) {
           </div>
 
 
-          <div className="ptp-50 container-titulo-global mbp-0">
+          <div className="ptp-50 container-titulo-global mbp-0 msp--40">
             {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
               Plan de trabajo
             </div> */}
@@ -138,7 +138,7 @@ function Page059(props) {
                 2
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Pensamos en lo que vamos a necesitar para realizar nuestro proyecto.
+                Nos organizamos para construir nuestro aparato o sistema tecnológico.
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
@@ -149,14 +149,51 @@ function Page059(props) {
 
 
 
-          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+
+
+          <div className="d-flex global-margin  mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
-                <div className="d-flex d-inline justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">a.</div>
-                <div className="d-flex d-inline justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Las herramientas que utilizaremos.</div>
+
+                <div className="d-flex w-100 p-2">
+                  <div className="d-flex d-inline justify-content-start align-items-center text-start f-Ubuntu-R color-saitama fsp-17 fw-700 pbp-5">a.</div>
+                  <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Portada e introducción del álbum.</div>
+                </div>
+
               </div>
             </div>
           </div>
+
+
+
+
+          <div className="ptp-10 psp-65 pep-40 mbp-70">
+            <div className="row d-flex mx-auto f-Ubuntu-B fsp-15 mbp-0 position-relative justify-content-between">
+              <div className="col-sm-12 col-md-6 pbp-10 ">
+                {/* <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp-25 zindex-1"><img src={"images/page_" + pagina + "/posit.png"} className="wp-60 mtp--60 msp-0" alt="" /></div> */}
+                {/* <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-25 visible-768 zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-60 mtp-60" alt="" /></div> */}
+                <div className="text-center w-100 border-2 border-style-solid border-color-akuma rounded-p-10">
+                  <div className="rounded-set-6 hp-60 pep-20 psp-20 ptp-10 pbp-10 bgc-akuma d-flex justify-content-center align-items-center text-white p-2">Lo que hay que hacer</div>
+                  <div className="psp-15 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" /></div>
+                </div>
+              </div>
+              <div className="col-sm-12 col-md-6 pbp-10">
+                <div className="text-center w-100 border-1 border-style-solid border-color-haydn rounded-p-10  position-relative">
+                  <div className="position-absolute posicion-centro-centro translate-middle zindex-1   "><img src={"images/page_" + pagina + "/espiral.svg"} className="rotacion-centro-centro msp--30 mtp--20 wp-40" alt="" /></div>
+                  <div className="rounded-set-6 hp-60 ptp-10 pbp-10 bgc-haydn d-flex justify-content-center align-items-center text-white p-2">Estudiante a cargo</div>
+                  <div className="psp-15 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
 
 
 
