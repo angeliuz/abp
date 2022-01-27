@@ -1,0 +1,10 @@
+.sombra-1 {
+    -webkit-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.48);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.28);
+}
+
+.anillado-p32 {
+    background-image: url(images/page_032/anillo.svg);
+    background-repeat: repeat;
+    background-size: contain;
+}

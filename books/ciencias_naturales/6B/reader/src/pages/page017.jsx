@@ -45,7 +45,7 @@ function Page017(props) {
                   </div>
                   <div className="position-absolute top-50 start-50 msp-0 mtp--10 translate-middle">
                     <div className="ovalo-p17 border-style-solid border-1 border-color-bulma position-relative">
-                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado bgc-white border-style-solid border-color-lightDark border-1">
+                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado-p17 bgc-white border-style-solid border-color-lightDark border-1">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
                       </div>
                     </div>
@@ -61,7 +61,7 @@ function Page017(props) {
                   </div>
                   <div className="position-absolute top-50 start-50 msp-0 mtp--10 translate-middle">
                     <div className="ovalo-p17 border-style-solid border-1 border-color-pikachu position-relative">
-                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado bgc-white border-style-solid border-color-lightDark border-1">
+                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado-p17 bgc-white border-style-solid border-color-lightDark border-1">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
                       </div>
                     </div>
@@ -76,7 +76,7 @@ function Page017(props) {
                   </div>
                   <div className="position-absolute top-50 start-50 msp-0 mtp--10 translate-middle">
                     <div className="ovalo-p17 border-style-solid border-1 border-color-soldados position-relative">
-                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado bgc-white border-style-solid border-color-lightDark border-1">
+                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado-p17 bgc-white border-style-solid border-color-lightDark border-1">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
                       </div>
                     </div>
@@ -91,7 +91,7 @@ function Page017(props) {
                   </div>
                   <div className="position-absolute top-50 start-50 msp-0 mtp--10 translate-middle">
                     <div className="ovalo-p17 border-style-solid border-1 border-color-saitama position-relative">
-                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado bgc-white border-style-solid border-color-lightDark border-1">
+                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado-p17 bgc-white border-style-solid border-color-lightDark border-1">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
                       </div>
                     </div>
@@ -107,7 +107,7 @@ function Page017(props) {
                   </div>
                   <div className="position-absolute top-50 start-50 msp-0 mtp--10 translate-middle">
                     <div className="ovalo-p17 border-style-solid border-1 border-color-android18 position-relative">
-                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado bgc-white border-style-solid border-color-lightDark border-1">
+                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado-p17 bgc-white border-style-solid border-color-lightDark border-1">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
                       </div>
                     </div>
@@ -123,7 +123,7 @@ function Page017(props) {
                   </div>
                   <div className="position-absolute top-50 start-50 msp-0 mtp--15 translate-middle">
                     <div className="ovalo-p17 border-style-solid border-1 border-color-pidgey position-relative">
-                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado bgc-white border-style-solid border-color-lightDark border-1">
+                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado-p17 bgc-white border-style-solid border-color-lightDark border-1">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
                       </div>
                     </div>
