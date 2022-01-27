@@ -23,43 +23,64 @@ function Page025(props) {
           id={"page_" + pagina}
         >
           {/* BEGIN CABECERA VERSIÓN 2 */}
-          {/* <div className={"cabecera-v2 d-flex flex-column " + background}>
+          <div className="cabecera-v2 bgc-android18 d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div
-                className={
-                  "caja wp-150 text-center fsp-24 f-IntroRustG-Base " +
-                  colorSesion
-                }
-              >
-                SESIÓN 5
+              <div className="caja wp-160 text-center fsp-24 f-IntroRustG-Base">SESIÓN 5</div>
+              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Camino hacia la sostenibilidad</div>
+            </div>
+            <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+                Mis objetivos <br />en  esta sesión son:
               </div>
-              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">
-                El destino de los desechos
+              <div className="p-0 align-self-center">
+                <img src="images/page_025/flecha.svg" className="wp-40 arrow-global" alt="" />
+              </div>
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+              Comprender el<br />concepto de<br /> sostenibilidad
+              </div>
+              <div className="p-0 align-self-center">
+                <img src="images/page_025/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
+              </div>
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+              Conocer los objetivos<br /> de desarrollo<br />sostenible
+              </div>
+              <div className="p-0 align-self-center">
+                <img src="images/page_025/flecha.svg" className="wp-40 arrow-global" alt="" />
+              </div>
+              <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
+              Comprender cómo es<br /> una casa sostenible
+              </div>
+              <div className="p-0 align-self-center">
+                <img src="images/page_025/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
+              </div>
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+              Imaginar cómo<br /> hacer sostenible el<br/>colegio
               </div>
             </div>
-          </div> */}
+          </div>
           {/* END CABECERA VERSIÓN 2 */}
 
           {/* BEGIN CABECERA VERSIÓN 1 */}
-          <div className="cabecera-v1 hp-80 bgc-android18">
-          </div>
+          {/* <div className="cabecera-v1 hp-80 bgc-android18">
+          </div> */}
           {/* END CABECERA VERSIÓN 1 */}
 
 
 
-          <div className="ptp-30 container-titulo-global mbp-20">
-            <div
+          <div className="ptp-30 container-titulo-global">
+            {/* <div
               className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 " + color}
             >
               Los derechos y la buena convivencia
-            </div>
+            </div> */}
             <div className="d-flex">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_001.svg"} alt=""  /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                5
+                1
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Leo mis derechos y creo un esquema con los tipos derechos.
+                Veo el video sobre la sostenibilidad y realizo
+                las actividades.
               </div>
               {/* <ModalVideo
                 id={"p" + pagina + "_video" + (indexInput += 1)}
@@ -67,14 +88,33 @@ function Page025(props) {
                 clasesImagen="cambio hp-40 mtp-10"
                 className="p-0 px-1"
               /> */}
+              <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_025/img_001.svg" className="p-0 px-1" /> */}
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_025/img_001.svg" className="p-0 px-1" /> */}
-              <ModalBook
+              {/* <ModalBook
                 id={"p" + pagina + "_book" + (indexInput += 1)}
                 image={"images/page_" + pagina + "/img_001.svg"}
                 clasesImagen="hp-40 text-center mtp-10 "
                 className="p-0 px-0"
-              />
+              /> */}
+            </div>
+          </div>
+
+          <div className="d-flex global-margin h-100  mtp-0 mbp-0 psp-60 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 msp-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative">
+
+                <div className="d-flex w-100 p-2">
+                  <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-android18 fsp-17 fw-700 ptp-10">a.</div>
+                  <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Leo el reportaje de la revista y resumo la información señalando…</div>
+                  <ModalBook
+                    id={"p" + pagina + "_book" + (indexInput += 1)}
+                    image={"images/page_" + pagina + "/img_004.svg"}
+                    clasesImagen="hp-40 text-center mtp-10 "
+                    className="p-0 px-1"
+                  />
+                </div>
+
+              </div>
             </div>
           </div>
 
@@ -83,8 +123,8 @@ function Page025(props) {
             <div className="row m-0 psp-60 pep-60 ptp-10 pbp-0 w-100">
 
               <div className="col-sm-12 col-md-12 position-relative pbp-20">
-              <div className="position-absolute top-0 start-100 translate-middle  mtp-0 visible-768"><img src={"images/page_" + pagina + "/img_002.png"} className=" " alt="" />
-                </div>
+                {/* <div className="position-absolute top-0 start-100 translate-middle  mtp-0 visible-768"><img src={"images/page_" + pagina + "/img_002.png"} className=" " alt="" />
+                </div> */}
 
                 <div className="d-flex flex-column psp-20 pep-20 ptp-0 pbp-10  border-style-solid border-3 border-color-goku w-100 rounded-p-20">
 
@@ -144,13 +184,13 @@ function Page025(props) {
             <div className="row m-0 psp-10 pep-10  pbp-0 bgc-makoto border-style-solid border-1 border-color-dark w-100  ">
 
               <div className="col-md-12 col-lg-12 position-relative ">
-              <div className="position-absolute top-0 start-100 translate-middle msp--30 mtp--120 visible-768"><img src={"images/page_" + pagina + "/img_003.png"} className=" " alt="" />
-                </div>
+                {/* <div className="position-absolute top-0 start-100 translate-middle msp--30 mtp--120 visible-768"><img src={"images/page_" + pagina + "/img_003.png"} className=" " alt="" />
+                </div> */}
                 <div className="d-flex flex-column mbp-0 mtp-0 w-100">
                   <div className="p-2 min-hp-80 w-100 ">
                     <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
 
-                     
+
                     </div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
                   </div>
