@@ -22,54 +22,55 @@ function Page009(props) {
 
               <div className="col-sm-12 col-md-12 position-relative">
 
-                <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 visible-768"><img src="images/page_009/img_001.png" className="wp-70 " alt="" /></div>
-
+                <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 visible-768"><img src="images/page_009/img_001.png" className="wp-70 " alt="" /></div>
+                <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 visible-768"><img src="images/page_009/img_002.png" className="wp-30 " alt="" /></div>
+                <div className="fsp-16 f-Ubuntu-R text-start psp-0 pbp-10 text-start">Esta página fue completada por:</div>
                 <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-goten border-2 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
-                  <div className="d-flex flex-column position-relative w-100">
-                    <div className="fsp-16 f-Ubuntu-R text-start psp-0 pbp-10 text-center">Este dosier fue completado por:</div>
+                  <div className="d-flex flex-column position-relative w-100 psp-20 psp-20">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                   </div>
                 </div>
 
               </div>
               <div className="col-sm-12 col-md-12 position-relative">
-
-                <div className="position-absolute top-0 start-0 translate-middle msp--30 mtp-20 visible-768"><img src="images/page_009/img_003.png" className="wp-90 " alt="" /></div>
-                <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--50 visible-768 zindex-2"><img src="images/page_009/img_002.png" className="wp-70 " alt="" /></div>
-                <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-goten border-2 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
+                <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 visible-768 zindex-1"><img src="images/page_009/img_003.png" className="wp-60 " alt="" /></div>
+                <div className="bgc-white exterior-caja-v1  w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
                   <div className="d-flex flex-column position-relative w-100">
-                    <div className="fsp-16 f-Ubuntu-R text-start psp-0 pbp-10 text-center">Nuestro equipo está conformado por:</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-130" />
+                    <div className="fsp-16 f-Ubuntu-R text-start psp-0 pbp-10 text-center">Nuestro equipo se llama:</div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
                   </div>
                 </div>
-
-              </div>
-              <div className="max-wp-400 mx-auto f-IntroRustG-Base w-100 fsp-25 color-nana border-color-nana mbp-10">
-                ¡Aceptamos el desafío!
               </div>
               <div className="col-sm-12 col-md-12 position-relative">
-                <div className="position-absolute top-100 start-0 translate-middle msp-20 mtp--60 visible-768"><img src="images/page_009/img_005.png" className="wp-60 " alt="" /></div>
-                <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp--50 visible-768 zindex-2"><img src="images/page_009/img_004.png" className="wp-90 " alt="" /></div>
-
-                <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-goten border-2 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
+                <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 visible-768 zindex-1"><img src="images/page_009/img_004.png" className="wp-60 " alt="" /></div>
+                <div className="bgc-white exterior-caja-v1  w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
                   <div className="d-flex flex-column position-relative w-100">
-                    <div className="fsp-16 f-Ubuntu-R text-start psp-0 pbp-10 text-center">Respondemos la carta:</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-                  </div>
-
-                  <div className="mtp-20 fsp-16 f-Ubuntu-R text-start psp-0 pbp-10 text-center">Nos comprometemos con el desafío:</div>
-                  <div className="d-flex justify-content-between mbp-30">
-                    <div className="w-100 max-wp-250 mep-10">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-                    </div>
-                    <div className="w-100 max-wp-250 msp-10">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-                    </div>
+                    <div className="fsp-16 f-Ubuntu-R text-start psp-0 pbp-10 text-center">Lo formamos:</div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
                   </div>
                 </div>
-
-
               </div>
+
+
+              <div className="col-sm-12 col-md-12 position-relative">
+                <div className="position-absolute top-100 start-0 translate-middle msp-20 mtp--20 visible-768 zindex-1"><img src="images/page_009/img_005.png" className="wp-60 " alt="" /></div>
+                <div className="bgc-white exterior-caja-v1  w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
+                  <div className="d-flex flex-column position-relative w-100">
+                    <div className="fsp-16 f-Ubuntu-R text-start psp-0 pbp-10 text-center">En el proyecto <i> Limpia tu huella</i>, nos comprometemos a:</div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-12 col-md-12 position-relative">
+                <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--20 visible-768 zindex-2"><img src="images/page_009/img_006.png" className="wp-90 " alt="" /></div>
+                <div className="bgc-white exterior-caja-v1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
+                  <div className="d-flex flex-column position-relative w-100">
+                    <div className="fsp-16 f-Ubuntu-R text-start psp-0 pbp-10 text-center">Aquí reflejamos el compromiso con nuestras firmas:</div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                  </div>
+                </div>
+              </div>
+
 
 
 
