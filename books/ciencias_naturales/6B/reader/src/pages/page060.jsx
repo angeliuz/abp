@@ -27,7 +27,7 @@ function Page060(props) {
 
 
 
-                    <div className="d-flex global-margin  mtp-30 mbp-0 psp-60 pep-0 ptp-0 pbp-0">
+                    <div className="d-flex global-margin  mtp-10 mbp-0 psp-60 pep-0 ptp-0 pbp-0">
                         <div className="row p-0 msp-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative">
 
@@ -40,7 +40,7 @@ function Page060(props) {
                             </div>
                         </div>
                     </div>
-                    <div className="d-flex global-margin  mtp-0 mbp-0 psp-60 pep-0 ptp-0 pbp-0">
+                    <div className="d-flex global-margin h-100  mtp-0 mbp-0 psp-60 pep-0 ptp-0 pbp-0">
                         <div className="row p-0 msp-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative">
 
@@ -58,45 +58,83 @@ function Page060(props) {
 
 
 
-                    <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
-                        <div className="row p-0 m-0 w-100">
-                            <div className="col-12">
-                                <div className="row">
-                                    <div className="col-6 ">
-                                        <div className="d-flex justify-content-start text-start"></div>
 
-                                        <div className="mtp-20">
-                                            <div className="w-100  p-1 m-2 border-style-solid border-5 border-color-kagome    lh-sm  gira-2 position-relative">Nos faltan los  <br /> siguientes materiales:
-                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                                                <div className="position-absolute top-0 start-0  zindex-1 mtp--15"><img class=" hp-45" src="images/page_060/img_001.png" alt="" /></div>
-                                                <div className="position-absolute top-100 start-0 translate-middle  zindex-1 mtp-10"><img class=" hp-60" src="images/page_060/img_003.png" alt="" /></div>
+                    <div className="d-flex global-margin  mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+                        <div className="row p-0 m-0 w-100  ">
+                            <div className="col-12 p-0 m-0 position-relative">
+                                <div className="row ">
+                                    <div className="col-lg-6  h-100  mbp-20">
+                                        <div className=" d-flex justify-content-center ">
+                                            <div className="d-flex align-items-center ptp-20 flex-column    ">
+                                                {/* <div className="zindex-2 psp-20 pep-20 ptp-10 fsp-15 f-Ubuntu-R">La fiesta será el día</div> */}
+                                                <div className="wp-260 zindex-2 border-style-solid border-5 border-color-orff bgc-white p-2   position-relative gira--2">
+                                                    <div className="position-absolute top-0 start-0 translate-middle        msp-0 mtp-0   zindex-1"><img src={"images/page_" + pagina + "/img_007.svg"} className="wp-30 msp-5  mtp-5" alt="" /></div>
+                                                    <div className="position-absolute top-0 start-100 translate-middle      msp-0 mtp-0   zindex-1"><img src={"images/page_" + pagina + "/img_007.svg"} className="wp-30 msp--5 mtp-5    rotate-90" alt="" /></div>
+                                                    <div className="position-absolute top-100 start-100 translate-middle    msp-0 mtp-0   zindex-1"><img src={"images/page_" + pagina + "/img_007.svg"} className="wp-30 msp--5  mbp--10  rotate-180" alt="" /></div>
+                                                    <div className="position-absolute top-100 start-0 translate-middle      msp-0 mtp-0   zindex-1"><img src={"images/page_" + pagina + "/img_007.svg"} className="wp-30 msp-5  mbp--10  rotate--90" alt="" /></div>
+                                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
+                                                </div>
+                                                {/* <div className="position-absolute top-0 start-50 translate-middle-x msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_001.svg"} className="wp-300" alt="" /></div> */}
+
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-6">
-                                        <div className="d-flex mtp-20">
-                                            <div className="w-100   p-1 m-2 border-style-solid border-5 border-color-kagome    lh-sm  gira-2 position-relative">Para conseguirlos, debemos:
-                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                                                <div className="position-absolute top-0 end-0    zindex-1 mep-10 mtp--15"><img class=" hp-45" src="images/page_060/img_001.png" alt="" /></div>
-                                                <div className="position-absolute top-100 start-100 translate-middle  zindex-1 msp-10 mtp--1"><img class=" hp-70" src="images/page_060/img_002.png" alt="" /></div>
-                                            </div>
-
-                                        </div>
-                                        <div className="mtp-20">
-                                            <div className="w-100  p-1 m-2 border-style-solid border-5 border-color-kagome    lh-sm  gira--2 position-relative">Las tareas que nos<br /> faltan por realizar son:
-                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                                                <div className="position-absolute top-0 start-0  zindex-1 mtp--15"><img class=" hp-45" src="images/page_060/img_001.png" alt="" />
+                                    <div className="col-lg-6 col-md-12 h-100  mbp-20">
+                                        <div className=" d-flex justify-content-center ">
+                                            <div className="d-flex align-items-center ptp-20 flex-column    ">
+                                                {/* <div className="zindex-2 psp-20 pep-20 ptp-10 fsp-15 f-Ubuntu-R">La fiesta será el día</div> */}
+                                                <div className="wp-260 zindex-2 border-style-solid border-5 border-color-orff bgc-white p-2   position-relative gira-2">
+                                                    <div className="position-absolute top-0 start-0 translate-middle        msp-0 mtp-0   zindex-1"><img src={"images/page_" + pagina + "/img_007.svg"} className="wp-30 msp-5  mtp-5" alt="" /></div>
+                                                    <div className="position-absolute top-0 start-100 translate-middle      msp-0 mtp-0   zindex-1"><img src={"images/page_" + pagina + "/img_007.svg"} className="wp-30 msp--5 mtp-5    rotate-90" alt="" /></div>
+                                                    <div className="position-absolute top-100 start-100 translate-middle    msp-0 mtp-0   zindex-1"><img src={"images/page_" + pagina + "/img_007.svg"} className="wp-30 msp--5  mbp--10  rotate-180" alt="" /></div>
+                                                    <div className="position-absolute top-100 start-0 translate-middle      msp-0 mtp-0   zindex-1"><img src={"images/page_" + pagina + "/img_007.svg"} className="wp-30 msp-5  mbp--10  rotate--90" alt="" /></div>
+                                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
                                                 </div>
+                                                {/* <div className="position-absolute top-0 start-50 translate-middle-x msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_001.svg"} className="wp-300" alt="" /></div> */}
+
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
 
+                                <div className="row h-100 mbp-70">
 
+                                    {/* <div className="col mtp-20  h-100">
+                                       
+                                    </div> */}
+
+                                    <div className="col-12 h-100 ">
+                                        <div className=" d-flex justify-content-center ">
+                                            <div className="d-flex justify-content-center  align-items-center ptp-20 flex-column  ms-15  ">
+                                                {/* <div className="zindex-2 psp-20 pep-20 ptp-10 fsp-15 f-Ubuntu-R">La fiesta será el día</div> */}
+                                                <div className="wp-260 zindex-2 border-style-solid border-5 border-color-orff bgc-white p-2   position-relative gira--2">
+                                                    <div className="position-absolute top-0 start-0 translate-middle        msp-0 mtp-0   zindex-1"><img src={"images/page_" + pagina + "/img_007.svg"} className="wp-30 msp-5  mtp-5" alt="" /></div>
+                                                    <div className="position-absolute top-0 start-100 translate-middle      msp-0 mtp-0   zindex-1"><img src={"images/page_" + pagina + "/img_007.svg"} className="wp-30 msp--5 mtp-5    rotate-90" alt="" /></div>
+                                                    <div className="position-absolute top-100 start-100 translate-middle    msp-0 mtp-0   zindex-1"><img src={"images/page_" + pagina + "/img_007.svg"} className="wp-30 msp--5  mbp--10  rotate-180" alt="" /></div>
+                                                    <div className="position-absolute top-100 start-0 translate-middle      msp-0 mtp-0   zindex-1"><img src={"images/page_" + pagina + "/img_007.svg"} className="wp-30 msp-5  mbp--10  rotate--90" alt="" /></div>
+
+                                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
+                                                </div>
+                                                <div className=" d-flex h-50  center-center position-relative m-3 ">
+                                                    <div className="position-absolute top-100 start-0 translate-middle  msp--250 mtp--120 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-180" alt="" /></div>
+                                                </div>
+                                                {/* <div className="position-absolute top-0 start-50 translate-middle-x msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_001.svg"} className="wp-300" alt="" /></div> */}
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
                             </div>
                         </div>
                     </div>
+
+
+
+
+
 
 
 
