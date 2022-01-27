@@ -77,6 +77,13 @@ function Page021(props) {
             <div className="row w-100 p-0 m-0">
 
               <div className="col-sm-3 position-relative ptp-60 msp-20">
+                <div className="position-absolute top-50 start-0 translate-middle msp-3 mtp-0 msp--30 zindex-1 visible-768">
+                  <img
+                    src="images/page_021/img_004.png"
+                    className=" "
+                    alt=""
+                  />
+                </div>
 
                 <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
                   <img
@@ -121,13 +128,7 @@ function Page021(props) {
                 </div>
               </div>
               <div className="col-sm-4 position-relative ptp-10 ">
-                {/* <div className="position-absolute top-0 start-100 translate-middle msp-3 mtp--40 msp--70 zindex-1 visible-768">
-                  <img
-                    src="images/page_024/img_001.png"
-                    className=" "
-                    alt=""
-                  />
-                </div> */}
+                
                 <div className="d-flex justify-content-center w-100 ptp-25">
                   <div className="bgc-freezer w-90 rounded-caja ptp-5 pbp-5 color-black fsp-15 f-Ubuntu-M  ">
                     No renovable
@@ -180,6 +181,13 @@ function Page021(props) {
                 </div>
               </div>
               <div className="col-sm-4 position-relative mbp-10">
+              <div className="position-absolute top-100 start-100 translate-middle msp-3 mtp-0 msp-20 zindex-1 visible-768">
+                  <img
+                    src="images/page_021/img_006.png"
+                    className=" "
+                    alt=""
+                  />
+                </div>
                 <div className="d-flex flex-column min-hp-170 mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
                   <div className="p-2 w-100 d-flex">
                     <InputBox
