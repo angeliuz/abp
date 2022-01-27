@@ -26,46 +26,46 @@ function Page022(props) {
           {/* END CABECERA VERSIÓN 2 */}
 
           <div className="ptp-50 container-titulo-global mbp-0">
-            <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+            {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
               La importancia de un plan de seguridad
-            </div>
+            </div> */}
             <div className="d-flex psp-20">
-              <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_001.svg"} alt="" />
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_001.svg"} alt="" /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                5
+                2
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Comparamos el plan de seguridad del colegio con lo leído en la
-                revista. Luego, lo relacionamos con lo que esperamos de la
-                brigada y su misión.
+              Leo la noticia. Luego, completo el diagrama.
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_002.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-Ubuntu-L  fsp-16">
-
+          <div className="d-flex global-margin mtp-0 mbp-50 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-Ubuntu-L  fsp-16">
+          <div className="position-absolute top-0 start-100 translate-middle mtp-90 msp--100 zindex-2 visible-768"><img src="images/page_022/img_002.png" className="" alt="" /></div>
+          <div className="position-absolute top-100 start-100 translate-middle msp--90 zindex-2 visible-768"><img src="images/page_022/img_004.png" className="" alt="" /></div>
+          <div className="position-absolute top-50 start-0 translate-middle  zindex-2 msp-80 visible-768"><img src="images/page_022/img_003.png" className="" alt="" /></div>
             <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-60 zindex-1"><img src={"images/page_" + pagina + "/circulo.svg"} className="wp-580" alt="" /></div>
 
             <div className="position-absolute top-50 start-50 translate-middle msp--60 mtp--120 zindex-1">
               <div className="d-flex ">
-                <div className="bgc-android18 wp-120 f-Ubuntu-R fsp-15 mep-30 ptp-2 pbp-2 rounded-p-10 align-self-end">Energía limpia</div>
+                <div className="bgc-pidgey wp-120 f-Ubuntu-R fsp-15 mep-30 ptp-2 pbp-2 rounded-p-10 align-self-end color-white">Energía limpia</div>
               </div>
 
             </div>
 
             <div className="position-absolute top-50 start-50 translate-middle msp-90 mtp--120 zindex-1">
               <div className="d-flex ">
-                <div className="bgc-android18 wp-120 f-Ubuntu-R fsp-15 mep-30 ptp-2 pbp-2 rounded-p-10 align-self-end">Energía sucia</div>
+                <div className="bgc-pidgey wp-120 f-Ubuntu-R fsp-15 mep-30 ptp-2 pbp-2 rounded-p-10 align-self-end color-white">Energía sucia</div>
               </div>
 
             </div>
 
             <div className="position-absolute top-100 start-50 translate-middle zindex-1 msp--100 mtp--75">
               <div className="d-flex ">
-                <div className="bgc-android18 wp-120 f-Ubuntu-R fsp-15 mep-30 ptp-2 pbp-2 rounded-p-10 align-self-end">Conclusión</div>
+                <div className="bgc-pidgey wp-120 f-Ubuntu-R fsp-15 mep-30 ptp-2 pbp-2 rounded-p-10 align-self-end color-white">Conclusión</div>
               </div>
 
             </div>
@@ -102,21 +102,51 @@ function Page022(props) {
             </div>
           </div>
 
-
-          <div className="psp-60 pep-60 ptp-70">
-
-            <div className="ptp-30"></div>
-            <div className="bgc-sid px-2 ptp-10 pbp-50 rounded-set-20">
-              <div className="bgc-white border-style-solid border-1 border-color-rex p-3 rounded-p-20">
-                <div className="text-start">
-                  Concluimos que la brigada podría:
-                </div>
-                <InputBox
-                  id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-240"
-                />
+          <div className="ptp-30 container-titulo-global mbp-20">
+            {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 " + color}>Contextualizamos</div> */}
+            <div className="d-flex">
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_001.svg"} alt=""  /> */}
+              {/* <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>1</div> */}
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                Respondo:
               </div>
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
+              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_002.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
+          </div>
+
+          <div className=" psp-50 pep-50 mbp-100 mtp-10">
+
+            <div className="row container-row px-5">
+              <div className="col-sm-12 col-md-6 position-relative mbp-20">
+                {/* <div className="position-absolute top-100 start-0 translate-middle wp-100 msp-40 mtp--70"><img src="images/page_050/carta.png" className="wp-50 mep-70 mtp-30" alt="" /></div> */}
+
+                <div className="">
+                  <div className="f-Ubuntu-B alinea rounded-set-10 bgc-saitama w-100 p-1 text-center color-white">¿Qué me ha sorprendido de lo que he
+                    aprendido sobre la energía?</div>
+                  <div className=" linea1 bgc-white  p-2 rounded-seb-20 border-style-solid border-color-saitama border-2">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-sm-12 col-md-6 position-relative">
+                <div className="position-absolute top-0 start-100 translate-middle mtp--10 msp-0 "><img src="images/page_022/img_006.png" className="" alt="" /></div>
+                <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 visible-768"><img src="images/page_022/espiral.svg" className="wp-50 " alt="" /></div>
+                <div className="">
+                  <div className="f-Ubuntu-B alinea rounded-set-10 bgc-birdie w-100 p-1 text-center color-white">¿Para qué me ha servido la
+                    investigación?</div>
+                  <div className="linea1 bgc-white p-2  rounded-seb-20 border-style-solid border-color-birdie border-2">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
           </div>
           {/* PIE DE PAGINA */}
           <div
