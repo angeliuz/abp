@@ -48,7 +48,7 @@ function Page023(props) {
             <div className="d-flex">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_001.svg"} alt=""  /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                1
+                3
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                 Leo la noticia de la revista y completo el crucigrama.
@@ -68,13 +68,70 @@ function Page023(props) {
 
           <div className="msp-60 mep-60 mtp-20 mbp-10">
             <div className="row p-0 m-0">
-              <div className="col-sm-12 col-md-3 position-relative"></div>
-              <div className="max-wp-700 mx-auto position-relative mbp-20">
-                <div className=""><img src={"images/page_" + pagina + "/img_005.png"} className="w-100" alt="" /></div>
+              <div className="col-sm-12 col-md-3 position-relative">
+              
+              </div>
+              <div className="w-100 mx-auto position-relative mbp-20">
+                <div className=""><img src={"images/page_" + pagina + "/img_005.png"} className="wp-400" alt="" /></div>
+                <div className="position-absolute top-50 start-0 translate-middle mtp--90 msp-70 visible-768 "><img src="images/page_023/img_001.png" className="wp-100" alt="" /></div>
+                <div className="position-absolute top-50 start-100 translate-middle mtp--130 msp--50 visible-768 "><img src="images/page_023/img_002.png" className="wp-100" alt="" /></div>
               </div>
             </div>
           </div>
 
+          <div className="d-flex msp-60 mep-60 mbp-60 mtp-30">
+
+            <div className="row m-0 psp-10 pep-10 ptp-0 pbp-10 rounded-p-20 w-100">
+
+              <div className="col-sm-12 col-md-6 position-relative mbp-40">
+                <div className="d-flex justify-content-end  w-100 ">
+                  <div className="position-absolute top-0 start-0 translate-middle mtp-120 msp-100 bgc-voldemort min-wp-200 hp-300 rounded-p-10 ptp-5 pbp-5 color-white fsp-15 f-Ubuntu-M ">
+                  Horizontales
+                  </div>
+                </div>
+                <div className="d-flex mbp-20  w-100 ">
+                  <div className="p-2 min-hp-250 w-100 border-style-solid border-2 rounded-p-10 border-color-voldemort bgc-white zindex-2">
+                    <ol className="text-start f-Ubuntu-L">
+                      <li>Es un sistema que transforma este tipo
+                        de energía en energía eléctrica.</li>
+                      <li>Cerro Pabellón utiliza esta característica
+                        de la Tierra para obtener energía.</li>
+
+
+                    </ol>
+                    {/* <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /> */}
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-sm-12 col-md-6 position-relative mbp-40">
+              <div className="position-absolute top-0 start-100 translate-middle mtp--85 msp--90 visible-768 "><img src="images/page_023/img_004.png" className="" alt="" /></div>
+                <div className="d-flex justify-content-end  w-100 ">
+                  <div className="position-absolute top-0 start-100 translate-middle msp--100 mtp-120 bgc-ken min-wp-200 hp-300 rounded-p-10 ptp-5 pbp-5 color-white fsp-15 f-Ubuntu-M ">
+                    Verticales
+                  </div>
+                </div>
+                <div className="d-flex mbp-20  w-100 ">
+                  <div className="p-2 min-hp-250 w-100 border-style-solid border-2 rounded-p-10 border-color-ken bgc-white zindex-2">
+                    <ol className="text-start f-Ubuntu-L" start="3">
+                      <li>En Chile, se encuentra la primera planta
+                        de energía de este tipo en Sudamérica.</li>
+                      <li>En esta región, se instaló el primer
+                        convertidor a escala real de energía
+                        de las olas.</li>
+                      <li>Uno de los objetivos de esta innovación
+                        es liderar la investigación en este tipo
+                        de energía.</li>
+
+                    </ol>
+                    {/* <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /> */}
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
 
 
 
