@@ -36,25 +36,25 @@ function Page025(props) {
                 <img src="images/page_025/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-              Comprender el<br />concepto de<br /> sostenibilidad
+                Comprender el<br />concepto de<br /> sostenibilidad
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_025/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-              Conocer los objetivos<br /> de desarrollo<br />sostenible
+                Conocer los objetivos<br /> de desarrollo<br />sostenible
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_025/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
-              Comprender cómo es<br /> una casa sostenible
+                Comprender cómo es<br /> una casa sostenible
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_025/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-              Imaginar cómo<br /> hacer sostenible el<br/>colegio
+                Imaginar cómo<br /> hacer sostenible el<br />colegio
               </div>
             </div>
           </div>
@@ -118,22 +118,54 @@ function Page025(props) {
             </div>
           </div>
 
-          <div className="d-flex msp-60 mep-60 mbp-0 mtp-0">
+          <div className="d-flex msp-120 mep-120 mtp-0">
 
-            <div className="row m-0 psp-60 pep-60 ptp-10 pbp-0 w-100">
+            <div className="row m-0 psp-10 pep-10  pbp-0 bgc-lizt border-style-solid border-1 border-color-dark w-100  ">
 
-              <div className="col-sm-12 col-md-12 position-relative pbp-20">
-                {/* <div className="position-absolute top-0 start-100 translate-middle  mtp-0 visible-768"><img src={"images/page_" + pagina + "/img_002.png"} className=" " alt="" />
-                </div> */}
+              <div className="col-md-12 col-lg-12 position-relative ">
+                <div className="position-absolute top-100 start-0 translate-middle msp-20 zindex-1 visible-768"><img src="images/page_025/img_006.svg" className="wp-10" alt="" /></div>
+                <div className="position-absolute top-100 start-100 translate-middle msp--20 zindex-1 visible-768"><img src="images/page_025/img_006.svg" className="wp-10" alt="" /></div>
+                <div className="d-flex flex-column mbp-0 mtp-0 w-100">
+                  <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-center">una palabra que me haya llamado la atención</div>
+                  <div className="p-2 min-hp-80 w-100 ">
+                    <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
 
-                <div className="d-flex flex-column psp-20 pep-20 ptp-0 pbp-10  border-style-solid border-3 border-color-goku w-100 rounded-p-20">
 
-
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-500" />
+                    </div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                  </div>
 
                 </div>
 
               </div>
+
+            </div>
+          </div>
+
+          <div className="d-flex msp-60 mep-60 mbp-0 mtp-10">
+
+            <div className="row m-0 psp-10 pep-10 ptp-0 pbp-10 rounded-p-20 w-100">
+
+              <div className="col-sm-12 col-md-6 position-relative">
+
+                <div className="d-flex mbp-20 mtp-10 w-100">
+                  <div className="p-2 min-hp-210 w-100 border-style-solid border-4 rounded-p-10 border-color-rain bgc-white">
+                    <div className="f-Ubuntu-L fsp-16 msp-10 ptp-10 mep-10 text-start">una idea que me pareció interesante</div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-12 col-md-6 position-relative">
+
+                <div className="d-flex mbp-20 mtp-10 w-100">
+                  <div className="p-2 min-hp-230 w-100 border-style-solid border-4 rounded-p-10 border-color-guile bgc-white">
+                    <div className="f-Ubuntu-L fsp-16 msp-10 ptp-10 mep-10 text-center">una frase que me haya ayudado a entender
+                      mejor la sostenibilidad</div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                  </div>
+                </div>
+              </div>
+
 
             </div>
           </div>
@@ -179,28 +211,7 @@ function Page025(props) {
 
 
 
-          <div className="d-flex msp-120 mep-120 mbp-100 mtp-0">
 
-            <div className="row m-0 psp-10 pep-10  pbp-0 bgc-makoto border-style-solid border-1 border-color-dark w-100  ">
-
-              <div className="col-md-12 col-lg-12 position-relative ">
-                {/* <div className="position-absolute top-0 start-100 translate-middle msp--30 mtp--120 visible-768"><img src={"images/page_" + pagina + "/img_003.png"} className=" " alt="" />
-                </div> */}
-                <div className="d-flex flex-column mbp-0 mtp-0 w-100">
-                  <div className="p-2 min-hp-80 w-100 ">
-                    <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
-
-
-                    </div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-          </div>
 
           {/* BEGIN PIE DE PAGINA */}
           <div
