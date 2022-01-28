@@ -90,63 +90,6 @@ function Page043(props) {
             </div>
           </div>
 
-          {/* <div className="d-flex global-margin mtp-20 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
-            <div className="row p-0 m-0 w-100">
-              <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
-                <div className="position-absolute top-100 start-100 translate-middle zindex-2 visible-768">
-                  <img src="images/page_043/circulo.svg" className="hp-120 mtp--140" alt="" />
-                  <div className="mtp--110 f-Ubuntu-R fsp-15 text-white lh-sm">Sistema de <br /> riego por <br />goteo solar</div>
-                </div>
-                <div className="position-absolute top-0 start-100 translate-middle zindex-2 visible-768">
-                  <img src="images/page_043/flechita_der.svg" className="hp-30 mtp-80" alt="" />
-                </div>
-                <div className="position-absolute top-0 start-0 msp-5 mtp--20">
-                  <img src="images/page_043/caja-02.svg" className="hp-50" alt="" />
-                  <div className="mtp--28 f-Ubuntu-L fsp-15">¿Para qué sirve?</div>
-                </div>
-                <div className="bgc-hermione ptp-30 psp-20 pep-20 pbp-10 f-Ubuntu-L fsp-15 border-style-solid border-color-naraku border-2 rounded-p-10">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-140" />
-                </div>
-              </div>
-              <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
-                <div className="position-absolute top-100 start-50 translate-middle zindex-2 visible-768">
-                  <img src="images/page_043/flechita_aba.svg" className="hp-30 msp-100" alt="" />
-                </div>
-                <div className="position-absolute top-0 start-0 msp-5 mtp--20">
-                  <img src="images/page_043/caja-01.svg" className="hp-50" alt="" />
-                  <div className="mtp--28 f-Ubuntu-L fsp-15">¿Qué partes tiene y para qué sirven?</div>
-                </div>
-                <div className="bgc-sextario ptp-30 psp-20 pep-20 pbp-10 f-Ubuntu-L fsp-15 border-style-solid border-color-azuka border-2 rounded-p-10">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-140" />
-                </div>
-              </div>
-              <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
-                <div className="position-absolute top-0 start-0 msp-5 mtp--20">
-                  <img src="images/page_043/caja-03.svg" className="hp-50" alt="" />
-                  <div className="mtp--28 f-Ubuntu-L fsp-15">¿Qué parte es más creativa y por qué?</div>
-                </div>
-                <div className="bgc-tanya ptp-30 psp-20 pep-20 pbp-10 f-Ubuntu-L fsp-15 border-style-solid border-color-windu border-2 rounded-p-10">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-140" />
-                </div>
-              </div>
-              <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
-                <div className="position-absolute top-50 start-0 translate-middle zindex-2 visible-768">
-                  <img src="images/page_043/flechita_izq.svg" className="hp-30" alt="" />
-                </div>
-                <div className="position-absolute top-100 start-100 translate-middle zindex-2 visible-768">
-                  <img src="images/page_043/mono.png" className="hp-150 mbp-160" alt="" />
-                </div>
-                <div className="position-absolute top-0 start-0 msp-5 mtp--20">
-                  <img src="images/page_043/caja-04.svg" className="hp-50" alt="" />
-                  <div className="mtp--28 f-Ubuntu-L fsp-15">¿Quién puede utilizarlo?</div>
-                </div>
-                <div className="bgc-lizt ptp-30 psp-20 pep-20 pbp-10 f-Ubuntu-L fsp-15 border-style-solid border-color-scorpion border-2 rounded-p-10">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-140" />
-                </div>
-              </div>
-            </div>
-          </div> */}
-
           <div className="d-flex global-margin mtp-30 mbp-30 psp-0 pep-15 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-5 p-0 m-0">
