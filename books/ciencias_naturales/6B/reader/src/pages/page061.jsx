@@ -71,8 +71,8 @@ function Page061(props) {
                                 {/* <div className="position-absolute top-50 end-0 translate-middle-y   visible-768 msp-80 mtp--0 "><img src="images/page_061/img_005.png" className="wp-30 " alt="" /></div> */}
                                 <div className="row h-100 w-100 m-0 p-0 ">
                                     <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
-                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-white ">FUNCIONAMIENTO</div>
-                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white  ">Presenta un sistema sencillo y c modo de manejar.</div>
+                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso1 color-white">FUNCIONAMIENTO</div>
+                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white psp-5 ">Presenta un sistema sencillo y c modo de manejar.</div>
                                     </div>
 
                                     <div className="col-sm-1 col-md-1 d-flex align-items-center justify-content-center position-relative pt-1 wp-50 p-0 m-0 ">
@@ -86,8 +86,8 @@ function Page061(props) {
                                 {/* <div className="position-absolute top-50 end-0 translate-middle-y   visible-768 msp-80 mtp--0 "><img src="images/page_061/img_005.png" className="wp-30 " alt="" /></div> */}
                                 <div className="row h-100 w-100 m-0 p-0 ">
                                     <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
-                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-white ">OPERATIVIDAD</div>
-                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white  ">Aprovecha eficientemente la energía renovable.</div>
+                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso2 color-white">OPERATIVIDAD</div>
+                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white psp-5 ">Aprovecha eficientemente la energía renovable.</div>
                                     </div>
 
                                     <div className="col-sm-1 col-md-1 d-flex align-items-center justify-content-center position-relative pt-1 wp-50 p-0 m-0 ">
@@ -101,8 +101,8 @@ function Page061(props) {
                                 {/* <div className="position-absolute top-50 end-0 translate-middle-y   visible-768 msp-80 mtp--0 "><img src="images/page_061/img_005.png" className="wp-30 " alt="" /></div> */}
                                 <div className="row h-100 w-100 m-0 p-0 ">
                                     <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
-                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-white ">PROPÓSITO</div>
-                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white  ">No presenta riesgos ni peligrosidad para los usuarios.</div>
+                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso3 color-white">SEGURIDAD</div>
+                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white psp-5 ">No presenta riesgos ni peligrosidad para los usuarios.</div>
                                     </div>
 
                                     <div className="col-sm-1 col-md-1 d-flex align-items-center justify-content-center position-relative pt-1 wp-50 p-0 m-0 ">
@@ -116,8 +116,23 @@ function Page061(props) {
                                 {/* <div className="position-absolute top-50 end-0 translate-middle-y   visible-768 msp-80 mtp--0 "><img src="images/page_061/img_005.png" className="wp-30 " alt="" /></div> */}
                                 <div className="row h-100 w-100 m-0 p-0 ">
                                     <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
-                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-white ">SOSTENIBILIDAD</div>
-                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white  ">Cumple su objetivo y mejora la vida de las personas.</div>
+                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso3 color-white">PROPÓSITO</div>
+                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white psp-5 ">Cumple su objetivo y mejora la vida de las personas.</div>
+                                    </div>
+
+                                    <div className="col-sm-1 col-md-1 d-flex align-items-center justify-content-center position-relative pt-1 wp-50 p-0 m-0 ">
+                                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="d-flex mbp-0 psp-0 pep-0 position-relative p-1">
+                                {/* <div className="position-absolute top-50 end-0 translate-middle-y   visible-768 msp-80 mtp--0 "><img src="images/page_061/img_005.png" className="wp-30 " alt="" /></div> */}
+                                <div className="row h-100 w-100 m-0 p-0 ">
+                                    <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
+                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso4 color-white">SOSTENIBILIDAD</div>
+                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white psp-5 ">Es respetuoso con el medioambiente.</div>
                                     </div>
 
                                     <div className="col-sm-1 col-md-1 d-flex align-items-center justify-content-center position-relative pt-1 wp-50 p-0 m-0 ">
@@ -131,8 +146,8 @@ function Page061(props) {
                                 {/* <div className="position-absolute top-50 end-0 translate-middle-y   visible-768 msp-80 mtp--0 "><img src="images/page_061/img_005.png" className="wp-30 " alt="" /></div> */}
                                 <div className="row h-100 w-100 m-0 p-0 ">
                                     <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
-                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-white ">CREATIVIDAD</div>
-                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white  ">Es una propuesta innovadora.</div>
+                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso5 color-white">CREATIVIDAD</div>
+                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white psp-5 ">Es una propuesta innovadora.</div>
                                     </div>
 
                                     <div className="col-sm-1 col-md-1 d-flex align-items-center justify-content-center position-relative pt-1 wp-50 p-0 m-0 ">
