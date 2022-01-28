@@ -210,7 +210,7 @@ function Page025(props) {
                 </div>
               </div>
               <div className="col-sm-12 col-md-6 position-relative">
-              <div className="position-absolute top-0 start-100 translate-middle zindex-1 "><img src="images/page_025/img_009.svg" className="wp-10" alt="" /></div>
+              <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp-20 zindex-1 "><img src="images/page_025/img_009.png" className="" alt="" /></div>
                 <div className="d-flex mbp-20 mtp-10 w-100">
                   <div className="p-2 min-hp-210 w-100 border-style-solid border-2  border-color-dark bgc-white">
                     <div className="f-Ubuntu-L fsp-16 msp-10  mep-10 text-center">¿Qué objetivos promueven la
