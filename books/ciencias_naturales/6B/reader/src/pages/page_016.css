@@ -1,34 +1,14 @@
 .caja-p16 {
-    max-width: 210px;
-    min-height: 160px;
+    width: 100%;
 }
 
-.border-dashed {
-    border-style: dashed;
+.bloque-p16 {
+    height: 40px;
+    min-width: 180px;
 }
 
-.ovalo-p16 {
-    width: 160px;
-    height: 80px;
-    border-radius: 100px / 50px;
-}
-
-.wp-1 {
-    width: 1px;
-}
-
-.centrar-hor {
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
-
-.centrar {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    margin-top: auto !important;
-    margin-bottom: auto !important;
-}
-
-.ms-a {
-    margin-left: -50px;
+.border-solo-top {
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
 }

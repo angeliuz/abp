@@ -123,7 +123,7 @@ function Page015(props) {
                     </div>
                   </div>
                   <div className="position-absolute top-100 start-50 translate-middle">
-                    <div className="cuadrado bgc-white border-style-solid border-1 border-color-lightDark">
+                    <div className="cuadrado-p15 bgc-white border-style-solid border-1 border-color-lightDark">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
                     </div>
                   </div>
@@ -145,7 +145,7 @@ function Page015(props) {
                     </div>
                   </div>
                   <div className="position-absolute top-100 start-50 translate-middle">
-                    <div className="cuadrado bgc-white border-style-solid border-1 border-color-lightDark">
+                    <div className="cuadrado-p15 bgc-white border-style-solid border-1 border-color-lightDark">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
                     </div>
                   </div>
@@ -166,7 +166,7 @@ function Page015(props) {
                     </div>
                   </div>
                   <div className="position-absolute top-100 start-50 translate-middle">
-                    <div className="cuadrado bgc-white border-style-solid border-1 border-color-lightDark">
+                    <div className="cuadrado-p15 bgc-white border-style-solid border-1 border-color-lightDark">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
                     </div>
                   </div>
@@ -188,7 +188,7 @@ function Page015(props) {
                     </div>
                   </div>
                   <div className="position-absolute top-100 start-50 translate-middle">
-                    <div className="cuadrado bgc-white border-style-solid border-1 border-color-lightDark">
+                    <div className="cuadrado-p15 bgc-white border-style-solid border-1 border-color-lightDark">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
                     </div>
                   </div>
