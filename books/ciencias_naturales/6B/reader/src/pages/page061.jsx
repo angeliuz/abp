@@ -138,7 +138,7 @@ function Page061(props) {
                                 {/* <div className="position-absolute top-50 end-0 translate-middle-y   visible-768 msp-80 mtp--0 "><img src="images/page_061/img_005.png" className="wp-30 " alt="" /></div> */}
                                 <div className="row h-100 w-100 m-0 p-0 ">
                                     <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
-                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso3 color-white">PROPÓSITO</div>
+                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso4 color-white">PROPÓSITO</div>
                                         <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white psp-5 ">Cumple su objetivo y mejora la vida de las personas.</div>
                                     </div>
 
@@ -153,7 +153,7 @@ function Page061(props) {
                                 {/* <div className="position-absolute top-50 end-0 translate-middle-y   visible-768 msp-80 mtp--0 "><img src="images/page_061/img_005.png" className="wp-30 " alt="" /></div> */}
                                 <div className="row h-100 w-100 m-0 p-0 ">
                                     <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
-                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso4 color-white">SOSTENIBILIDAD</div>
+                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso5 color-white">SOSTENIBILIDAD</div>
                                         <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white psp-5 ">Es respetuoso con el medioambiente.</div>
                                     </div>
 
@@ -168,7 +168,7 @@ function Page061(props) {
                                 {/* <div className="position-absolute top-50 end-0 translate-middle-y   visible-768 msp-80 mtp--0 "><img src="images/page_061/img_005.png" className="wp-30 " alt="" /></div> */}
                                 <div className="row h-100 w-100 m-0 p-0 ">
                                     <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
-                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso5 color-white">CREATIVIDAD</div>
+                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso6 color-white">CREATIVIDAD</div>
                                         <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-60 f-Ubuntu-R fsp-16 p-1 text-start bgc-white psp-5 ">Es una propuesta innovadora.</div>
                                     </div>
 
