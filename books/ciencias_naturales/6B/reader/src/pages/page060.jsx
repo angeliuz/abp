@@ -88,6 +88,9 @@ function Page060(props) {
                                                     <div className="position-absolute top-0 start-100 translate-middle      msp-0 mtp-0   zindex-1"><img src={"images/page_" + pagina + "/img_007.svg"} className="wp-30 msp--5 mtp-5    rotate-90" alt="" /></div>
                                                     <div className="position-absolute top-100 start-100 translate-middle    msp-0 mtp-0   zindex-1"><img src={"images/page_" + pagina + "/img_007.svg"} className="wp-30 msp--5  mbp--10  rotate-180" alt="" /></div>
                                                     <div className="position-absolute top-100 start-0 translate-middle      msp-0 mtp-0   zindex-1"><img src={"images/page_" + pagina + "/img_007.svg"} className="wp-30 msp-5  mbp--10  rotate--90" alt="" /></div>
+
+                                                    <div className="position-absolute top-50 start-100 translate-middle     msp-0 mtp-0   zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-50 msp-50  mbp--10  " alt="" /></div>
+
                                                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
                                                 </div>
                                                 {/* <div className="position-absolute top-0 start-50 translate-middle-x msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_001.svg"} className="wp-300" alt="" /></div> */}

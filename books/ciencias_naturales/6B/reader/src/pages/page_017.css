@@ -6,6 +6,11 @@
   border-radius: 50%;
 }
 
+.cuadrado-p17 {
+  min-width: 30px;
+  min-height: 30px;
+}
+
 .mxwp-a {
   width: 200;
 }

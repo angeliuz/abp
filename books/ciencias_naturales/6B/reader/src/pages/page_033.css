@@ -1,0 +1,30 @@
+.mnwp-150 {
+    min-width: 150px;
+}
+
+.caja1-p33 {
+    min-width: 25%;
+    max-width: 25%;
+}
+
+.caja2-p33 {
+    min-width: 75%;
+    max-width: 75%;
+
+}
+
+.bgc-lavanda1 {
+    background-color: #694997;
+}
+
+.bgc-lavanda2 {
+    background-color: #7c6eb0;
+}
+
+.bgc-lavanda3 {
+    background-color: #9389c1;
+}
+
+.bgc-lavanda4 {
+    background-color: #b6aed4;
+}

@@ -87,6 +87,9 @@ function Page018(props) {
                             </div>
 
                         </div>
+                    </div>
+
+                    <div className="psp-60 pep-60">
                         <div className="row w-80-p18 ms-20-p18">
 
                             <div className="col-md-6 col-12 pbp-20">
@@ -104,8 +107,8 @@ function Page018(props) {
                                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                                 </div>
                             </div>
-
                         </div>
+
                     </div>
 
 
