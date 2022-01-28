@@ -34,7 +34,7 @@ function Page037(props) {
           </div>
 
           <div className="d-flex msp-60 mep-60 mbp-100">
-            <div className="bgc-white rounded-p-5 psp-10 ptp-5 pep-2 pbp-10 w-100 border-style-solid border-1">
+            <div className="bgc-white rounded-p-5 psp-10 ptp-10 pep-10 pbp-10 w-100 border-style-solid border-1">
               <div className="position-relative">
                 <div className="d-flex w-100">
                   <div className="min-hp-100 w-100 rounded-p-10">
