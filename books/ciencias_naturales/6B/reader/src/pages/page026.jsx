@@ -45,10 +45,10 @@ function Page026(props) {
           <div className="ptp-30 container-titulo-global mbp-10">
             {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>¿Qué podemos reciclar?</div> */}
             <div className="d-flex">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_001.svg"} alt=""  /> */}
-              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>7</div>
+              <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_001.svg"} alt="" />
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Considerando lo anterior, creo un afiche a partir del siguiente título:
+                Aprendo cómo es una casa sostenible.
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
@@ -57,24 +57,40 @@ function Page026(props) {
             </div>
           </div>
 
-
-
-          <div className="d-flex psp-60 pep-60 mbp-100 mtp-80">
-            <div className="row w-100 p-0 m-0">
-              <div className="col-12 p-0 m-0 position-relative">
-              <div className="position-absolute top-0 start-50 translate-middle  zindex-1  "><img src={"images/page_" + pagina + "/img_001.png"} className="" alt="" /></div>
-                <div className="position-absolute top-0 start-0 visible-768  zindex-1 msp--60 mtp-50"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
-                <div className="position-absolute top-50 start-100 translate-middle  zindex-1 msp-10 mtp-0"><img src={"images/page_" + pagina + "/img_003.png"} className="" alt="" /></div>
-                <div className="position-absolute top-100 start-0 translate-middle visible-768  zindex-1 msp-20 mtp--40"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-130" alt="" /></div>
-
-                <div className="d-flex flex-column border-style-solid border-2 border-color-dark rounded-p-10 ">
-
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="ptp-70 px-1 fsp-15 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-800" />
-                </div>
+          <div className="msp-60 mep-60 mtp-20 mbp-10">
+            <div className="row p-0 m-0">
+              <div className="col-sm-12 col-md-3 position-relative"></div>
+              <div className="max-wp-700 mx-auto position-relative mbp-20">
+                <div className=""><img src={"images/page_" + pagina + "/img_007.png"} className="w-100" alt="" /></div>
+              </div>
               </div>
 
-            </div>
 
+          </div>
+
+          <div className="d-flex global-margin h-100  mtp-0 mbp-0 psp-60 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 msp-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative">
+
+                <div className="d-flex w-100 p-2">
+                  <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-android18 fsp-17 fw-700 ptp-10">a.</div>
+                  <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Identifico los objetivos de desarrollo sostenible que se promueven.</div>
+                  {/* <ModalVideo
+                    id={"p" + pagina + "_video" + (indexInput += 1)}
+                    image="images/generales/play.svg"
+                    clasesImagen="cambio hp-40 mtp-10"
+                    className="p-0 px-1"
+                  /> */}
+                  {/* <ModalBook
+                    id={"p" + pagina + "_book" + (indexInput += 1)}
+                    image={"images/page_" + pagina + "/img_008.svg"}
+                    clasesImagen="hp-40 text-center mtp-10 "
+                    className="p-0 px-1"
+                  /> */}
+                </div>
+
+              </div>
+            </div>
           </div>
 
 
@@ -83,7 +99,8 @@ function Page026(props) {
 
 
 
-          {/* BEGIN PIE DE PAGINA */}
+
+          
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
               ABP &copy; SM

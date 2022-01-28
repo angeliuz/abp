@@ -36,7 +36,7 @@ function Page044(props) {
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-0 mbp-60 psp-50 pep-0 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-0 mbp-10 psp-50 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-sm-3 col-md-12 p-0 m-0 position-relative d-flex center-center">
                 <div className="row f-Ubuntu-R justify-content-center f-Ubuntu-R fsp-14 lh-sm p-0 m-0 w-100">
