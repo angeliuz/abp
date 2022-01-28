@@ -1,18 +1,26 @@
-.rota{
-  transform: rotate(1deg);
+.cambio{
+  left: 100% !important;
+  top: 50% !important;
+}
+.cambio1{
+  left: 0% !important;
+  top: 50% !important;
 }
 
-.rota-2{
-  transform: rotate(-2deg);
-}
+/* @include media-breakpoint-up(sm) {
+  .cambio{
+    left: 100% !important;
+    top: 50% !important;
+  }
+} */
 
-.rota-3{
-  transform: rotate(-3deg);
-}
-
-.cuadro-clic {
-  background: url(images/page_044/cuadro.svg) top center/contain no-repeat;
-  background-size: cover, 100%;
-  -webkit-print-color-adjust: exact !important;
-  width: 30px;
+@media (min-width: 768px) {
+  .cambio{
+    left: 50% !important;
+    top: 100% !important;
+  }
+  .cambio1{
+    left: 50% !important;
+    top: 0% !important;
+  }
 }

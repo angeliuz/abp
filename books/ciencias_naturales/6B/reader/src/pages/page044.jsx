@@ -38,33 +38,59 @@ function Page044(props) {
 
           <div className="d-flex global-margin mtp-0 mbp-60 psp-50 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
-              <div className="col-sm-6 col-md-12 p-1 m-0 position-relative bgc-red">
-                <div className="row f-Ubuntu-R fsp-15">
+              <div className="col-sm-3 col-md-12 p-0 m-0 position-relative d-flex center-center">
+                <div className="row f-Ubuntu-R justify-content-center f-Ubuntu-R fsp-14 lh-sm p-0 m-0 w-100">
 
-                  <div className="col bgc-aqua p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative">
-                    <p className="p-0 m-0">Seguro</p>
-                    <div className="position-absolute top-100 start-50 translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1"></div>
+                  <div className="col-md-2 col-sm-12 bgc-kokomi p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative m-2">
+                    <p className="p-0 m-0 color-pikachu">Seguro</p>
+                    <div className="cambio position-absolute translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
                   </div>
-                  <div className="col bgc-aqua p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative">
-                    <p className="p-0 m-0">Seguro</p>
-                    <div className="position-absolute top-100 start-50 translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1"></div>
+                  <div className="col-md-2 col-sm-12 bgc-azuka p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative m-2">
+                    <p className="p-0 m-0 color-android18">Funcional</p>
+                    <div className="cambio position-absolute translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
                   </div>
-                  <div className="col bgc-aqua p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative">
-                    <p className="p-0 m-0">Seguro</p>
-                    <div className="position-absolute top-100 start-50 translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1"></div>
+                  <div className="col-md-2 col-sm-12 bgc-sid p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative m-2">
+                    <p className="p-0 m-0 color-pidgey">Creativo</p>
+                    <div className="cambio position-absolute translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
                   </div>
-                  <div className="col bgc-aqua p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative">
-                    <p className="p-0 m-0">Seguro</p>
-                    <div className="position-absolute top-100 start-50 translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1"></div>
+                  <div className="col-md-2 col-sm-12 bgc-genos p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative m-2">
+                    <p className="p-0 m-0 color-goten">Realista</p>
+                    <div className="cambio position-absolute translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
                   </div>
-                  <div className="col bgc-aqua p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative">
-                    <p className="p-0 m-0">Seguro</p>
-                    <div className="position-absolute top-100 start-50 translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1"></div>
+                  <div className="col-md-2 col-sm-12 bgc-piccolo p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative m-2">
+                    <p className="p-0 m-0 color-bulma">Sostenible</p>
+                    <div className="cambio position-absolute translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
                   </div>
 
                 </div>
               </div>
-              <div className="col-sm-6 col-md-12 p-1 m-0 position-relative bgc-green">chao</div>
+              <div className="col-sm-5 col-md-12 p-0 m-0 position-relative hp-100"></div>
+              <div className="col-sm-4 col-md-12 p-0 m-0 position-relative">
+                <div className="row f-Ubuntu-R justify-content-center align-items-top f-Ubuntu-R fsp-13 lh-sm h-100">
+
+                  <div className="col-md-2 col-sm-12 bgc-pantro p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative m-1 d-flex align-items-center">
+                    <p className="p-0 m-0">Tiene que adecuarse a nuestras necesidades.</p>
+                    <div className="cambio1 position-absolute translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                  </div>
+                  <div className="col-md-2 col-sm-12 bgc-pantro p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative m-1 d-flex align-items-center">
+                    <p className="p-0 m-0">Debe ser respetuoso con el medioambiente.</p>
+                    <div className="cambio1 position-absolute translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                  </div>
+                  <div className="col-md-2 col-sm-12 bgc-pantro p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative m-1 d-flex align-items-center">
+                    <p className="p-0 m-0">Tiene que ayudarnos a aprovechar la energía y ser fácil de usar.</p>
+                    <div className="cambio1 position-absolute translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                  </div>
+                  <div className="col-md-2 col-sm-12 bgc-pantro p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative m-1 d-flex align-items-center">
+                    <p className="p-0 m-0">Su uso no debe presentar ningún peligro para los usuarios.</p>
+                    <div className="cambio1 position-absolute translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                  </div>
+                  <div className="col-md-2 col-sm-12 bgc-pantro p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative m-1 d-flex align-items-center">
+                    <p className="p-0 m-0">Se debe poder construir con los recursos que tenemos.</p>
+                    <div className="cambio1 position-absolute translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                  </div>
+
+                </div>
+              </div>
             </div>
           </div>
 

@@ -20,7 +20,7 @@ function Page061(props) {
                     {/* BEGIN CABECERA VERSIÓN 2 */}
                     <div className={"cabecera-v2 " + background + " d-flex flex-column"}>
                         <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-                            <div className="caja wp-160 text-center color-saitama fsp-24 f-IntroRustG-Base">SESIÓN 13</div>
+                            <div className="caja wp-160 text-center  fsp-24 f-IntroRustG-Base">SESIÓN 13</div>
                             <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">El diseño del álbum</div>
                         </div>
                         <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
@@ -64,6 +64,122 @@ function Page061(props) {
 
 
                     <div className="positon-relative ">
+                        <div className="bgc-tatooine rounded-p-10 mtp-0 msp-60 mep-60 mbp-10 ptp-5 pbp-10 psp-0   f-Ubuntu-R fw-700  position-relative">
+
+
+                            <div className="d-flex mbp-0 psp-0 pep-0 position-relative p-1">
+                                {/* <div className="position-absolute top-50 end-0 translate-middle-y   visible-768 msp-80 mtp--0 "><img src="images/page_061/img_005.png" className="wp-30 " alt="" /></div> */}
+                                <div className="row h-100 w-100 m-0 p-0 ">
+                                    <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
+                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso1 color-white">FUNCIONAMIENTO</div>
+                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white psp-5 ">Presenta un sistema sencillo y c modo de manejar.</div>
+                                    </div>
+
+                                    <div className="col-sm-1 col-md-1 d-flex align-items-center justify-content-center position-relative pt-1 wp-50 p-0 m-0 ">
+                                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="d-flex mbp-0 psp-0 pep-0 position-relative p-1">
+                                {/* <div className="position-absolute top-50 end-0 translate-middle-y   visible-768 msp-80 mtp--0 "><img src="images/page_061/img_005.png" className="wp-30 " alt="" /></div> */}
+                                <div className="row h-100 w-100 m-0 p-0 ">
+                                    <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
+                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso2 color-white">OPERATIVIDAD</div>
+                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white psp-5 ">Aprovecha eficientemente la energía renovable.</div>
+                                    </div>
+
+                                    <div className="col-sm-1 col-md-1 d-flex align-items-center justify-content-center position-relative pt-1 wp-50 p-0 m-0 ">
+                                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="d-flex mbp-0 psp-0 pep-0 position-relative p-1">
+                                {/* <div className="position-absolute top-50 end-0 translate-middle-y   visible-768 msp-80 mtp--0 "><img src="images/page_061/img_005.png" className="wp-30 " alt="" /></div> */}
+                                <div className="row h-100 w-100 m-0 p-0 ">
+                                    <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
+                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso3 color-white">SEGURIDAD</div>
+                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white psp-5 ">No presenta riesgos ni peligrosidad para los usuarios.</div>
+                                    </div>
+
+                                    <div className="col-sm-1 col-md-1 d-flex align-items-center justify-content-center position-relative pt-1 wp-50 p-0 m-0 ">
+                                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="d-flex mbp-0 psp-0 pep-0 position-relative p-1">
+                                {/* <div className="position-absolute top-50 end-0 translate-middle-y   visible-768 msp-80 mtp--0 "><img src="images/page_061/img_005.png" className="wp-30 " alt="" /></div> */}
+                                <div className="row h-100 w-100 m-0 p-0 ">
+                                    <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
+                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso3 color-white">PROPÓSITO</div>
+                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white psp-5 ">Cumple su objetivo y mejora la vida de las personas.</div>
+                                    </div>
+
+                                    <div className="col-sm-1 col-md-1 d-flex align-items-center justify-content-center position-relative pt-1 wp-50 p-0 m-0 ">
+                                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="d-flex mbp-0 psp-0 pep-0 position-relative p-1">
+                                {/* <div className="position-absolute top-50 end-0 translate-middle-y   visible-768 msp-80 mtp--0 "><img src="images/page_061/img_005.png" className="wp-30 " alt="" /></div> */}
+                                <div className="row h-100 w-100 m-0 p-0 ">
+                                    <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
+                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso4 color-white">SOSTENIBILIDAD</div>
+                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white psp-5 ">Es respetuoso con el medioambiente.</div>
+                                    </div>
+
+                                    <div className="col-sm-1 col-md-1 d-flex align-items-center justify-content-center position-relative pt-1 wp-50 p-0 m-0 ">
+                                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="d-flex mbp-0 psp-0 pep-0 position-relative p-1 ptp-10">
+                                {/* <div className="position-absolute top-50 end-0 translate-middle-y   visible-768 msp-80 mtp--0 "><img src="images/page_061/img_005.png" className="wp-30 " alt="" /></div> */}
+                                <div className="row h-100 w-100 m-0 p-0 ">
+                                    <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
+                                        <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso5 color-white">CREATIVIDAD</div>
+                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white psp-5 ">Es una propuesta innovadora.</div>
+                                    </div>
+
+                                    <div className="col-sm-1 col-md-1 d-flex align-items-center justify-content-center position-relative pt-1 wp-50 p-0 m-0 ">
+                                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                            <div className="col-12  d-flex justify-content-center pbp-10 ptp-30">
+                                <div className="d-flex flex-column msp-10 mep-10 w-100 ptp-0 pbp-10 psp-20 pep-20 bgc-white rounded-p-10 position-relative">
+
+                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                    <div className="positon-relative mtp-20 ">
                         <div className="bgc-tatooine rounded-p-20 mtp-0 msp-60 mep-60 mbp-0 ptp-10 psp-10 f-Ubuntu-R fw-700  position-relative">
 
                             <div className="d-flex mbp-0 psp-20 pep-20 position-relative">
@@ -154,7 +270,7 @@ function Page061(props) {
 
 
 
-                    <div className="ptp-10 container-titulo-global mbp-30">
+                    <div className="ptp-10 container-titulo-global mbp-30 mtp-30">
                         <div className="d-flex">
                             <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_061/img_004.svg" alt="" />
                             <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
