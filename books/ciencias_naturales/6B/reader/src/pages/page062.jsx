@@ -25,6 +25,91 @@ function Page062(props) {
 
 
 
+          <div className="d-flex global-margin h-100  mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 msp-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative">
+
+                <div className="d-flex w-100 p-2">
+                  <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-saitama fsp-17  fw-700 pbp-5">b.</div>
+                  <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Consideramos que la propuesta de nuestros compa eros es…</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 m-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative">
+
+                <div className="d-flex flex-row  justify-content-center ">
+
+                  <div className="d-flex m-3">
+                    <div className="d-flex wp-150 hp-45 bgc-yellow f-Ubuntu-R fsp-15 center-center position-relative  rounded-p-10 bgc-milk">Útil
+                      <div className="position-absolute top-50 start-0 translate-middle  wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="d-flex m-3">
+                    <div className="d-flex wp-150 hp-45 bgc-yellow f-Ubuntu-R fsp-15 center-center position-relative  rounded-p-10 bgc-milk">Creativa
+                      <div className="position-absolute top-50 start-0 translate-middle  wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="d-flex m-3">
+                    <div className="d-flex wp-150 hp-45 bgc-yellow f-Ubuntu-R fsp-15 center-center position-relative  rounded-p-10 bgc-milk">Original
+                      <div className="position-absolute top-50 start-0 translate-middle  wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="ptp-0 psp-100 pep-60 mbp-0 position-relative">
+            <div className="row justify-content-center">
+              <div className="col-12 p-0 m-0 position-relative">
+                {/* <div className="position-absolute top-100 start-100 translate-middle visible-768"><img src="images/page_052/mono.png" className="hp-140 mep-40 mtp--130" alt="" /></div> */}
+
+                <div className="bgc-jugador001 border-style-solid border-color-dark border-1 box-shadow-simple p-2">
+                  <div className="d-flex justify-content-start align-items-start text-start f-Ubuntu-R fsp-15  ptp-5 psp-0">Decimos esto porque…
+                  </div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="ptp-30 container-titulo-global mbp-0">
+            {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+              Plan de trabajo
+            </div> */}
+            <div className="d-flex psp-20">
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                2
+              </div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                Comunicamos nuestras apreciaciones con nuestros compañeros y escuchamos las suyas.
+              </div>
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
+              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+            </div>
+          </div>
+
+
+
+
+
 
           <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
@@ -32,41 +117,31 @@ function Page062(props) {
                 <div className="row">
                   <div className="col-6 ">
                     <div className="d-flex justify-content-start text-start"></div>
-                    <div className="ptp-10 mbp-20">
-                      <div className="d-flex ">
-                        {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_068/i_g.svg" alt="" /> */}
-                        <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>6</div>
-                        <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                          Evaluamos los materiales que nos faltan y los pasos que nos faltan.
-                        </div>
-                        <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_068/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
-                      </div>
-                    </div>
-                    <div className="mtp-20">
-                      <div className="w-100  p-1 m-2 border-style-solid border-1 border-color-lightDark rounded-p-10  lh-sm  gira-2 position-relative">Nos faltan los  <br /> siguientes materiales:
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                        <div className="position-absolute top-0 start-0  zindex-1 mtp--15"><img class=" hp-45" src="images/page_060/img_001.png" alt="" /></div>
-                        <div className="position-absolute top-100 start-0 translate-middle  zindex-1 mtp-10"><img class=" hp-60" src="images/page_060/img_003.png" alt="" /></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-6">
-                    <div className="d-flex mtp-20">
-                      <div className="w-100   p-1 m-2 border-style-solid border-1 border-color-lightDark rounded-p-10  lh-sm  gira-2 position-relative">Para conseguirlos, debemos:
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                        <div className="position-absolute top-0 end-0    zindex-1 mep-10 mtp--15"><img class=" hp-45" src="images/page_060/img_001.png" alt="" /></div>
-                        <div className="position-absolute top-100 start-100 translate-middle  zindex-1 msp-10 mtp--1"><img class=" hp-70" src="images/page_060/img_002.png" alt="" /></div>
-                      </div>
 
-                    </div>
                     <div className="mtp-20">
-                      <div className="w-100  p-1 m-2 border-style-solid border-1 border-color-lightDark rounded-p-10  lh-sm  gira--2 position-relative">Las tareas que nos<br /> faltan por realizar son:
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                        <div className="position-absolute top-0 start-0  zindex-1 mtp--15"><img class=" hp-45" src="images/page_060/img_001.png" alt="" />
-                        </div>
+                      <div className="w-100  p-1 m-2 border-style-solid border-1 border-color-lightDark rounded-p-10  lh-sm text-start p-2 position-relative">Nuestros compañeros consideraron que nuestra propuesta es…
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
+                        <div className="position-absolute top-100 start-100 translate-middle   msp-20 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-70" alt="" /></div>
+                        {/* <div className="position-absolute top-0 start-0  zindex-1 mtp--15"><img class=" hp-45" src="images/page_060/img_001.png" alt="" /></div> */}
+                        {/* <div className="position-absolute top-100 start-0 translate-middle  zindex-1 mtp-10"><img class=" hp-60" src="images/page_060/img_003.png" alt="" /></div> */}
                       </div>
                     </div>
                   </div>
+                  <div className="col-6 ">
+                    <div className="d-flex justify-content-start text-start"></div>
+
+                    <div className="mtp-20">
+                      <div className="w-100  p-1 m-2 border-style-solid border-1 border-color-lightDark rounded-p-10  lh-sm text-start p-2 position-relative">Nos comentaron que…
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
+                        {/* <div className="position-absolute top-0 start-0  zindex-1 mtp--15"><img class=" hp-45" src="images/page_060/img_001.png" alt="" /></div> */}
+                        {/* <div className="position-absolute top-100 start-0 translate-middle  zindex-1 mtp-10"><img class=" hp-60" src="images/page_060/img_003.png" alt="" /></div> */}
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
                 </div>
 
 
@@ -89,14 +164,14 @@ function Page062(props) {
                   <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
                     <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
                       <img src="images/generales/flecha_e5.svg" className="mep-5 wp-15" alt="" />
-                      <span>Mi creatividad me ha ayudado a:</span>
+                      <span>Me favorece trabajar de forma</span>
                     </div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                     <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 mtp-20 text-start">
                       <img src="images/generales/flecha_e5.svg" className="mep-5 wp-15" alt="" />
-                      <span>¿Cómo mi equipo ha ayudado a sacar lo mejor de mí?</span>
+                      <span>¿Qué no debería cambiar porque me sale bien?</span>
                     </div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                   </div>
 
                 </div>
