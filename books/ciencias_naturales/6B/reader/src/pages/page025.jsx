@@ -171,43 +171,58 @@ function Page025(props) {
           </div>
 
 
-          <div className=" container-titulo-global mbp-0">
-            {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>La regla de las 3R</div> */}
-            <div className="d-flex">
-              {/* <img
-                className="hp-20 align-center mt-3 me-2 mb-2"
-                src={"images/page_" + pagina + "/img_001.svg"}
-                alt=""
-              /> */}
-              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                6
+          <div className="d-flex global-margin h-100  mtp-0 mbp-0 psp-60 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 msp-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative">
+
+                <div className="d-flex w-100 p-2">
+                  <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-android18 fsp-17 fw-700 ptp-10">b.</div>
+                  <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Veo el video, leo la revista y respondo.</div>
+                  <ModalVideo
+                    id={"p" + pagina + "_video" + (indexInput += 1)}
+                    image="images/generales/play.svg"
+                    clasesImagen="cambio hp-40 mtp-10"
+                    className="p-0 px-1"
+                  />
+                  <ModalBook
+                    id={"p" + pagina + "_book" + (indexInput += 1)}
+                    image={"images/page_" + pagina + "/img_008.svg"}
+                    clasesImagen="hp-40 text-center mtp-10 "
+                    className="p-0 px-1"
+                  />
+                </div>
+
               </div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Reflexiono: ¿Cómo se relacionan los derechos con la buena convivencia?
-              </div>
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              {/* <ModalBook
-                id={"p" + pagina + "_book" + (indexInput += 1)}
-                image={"images/page_" + pagina + "/img_006.svg"}
-                clasesImagen="hp-40 text-center mtp-10 "
-                className="p-0 px-0"
-              /> */}
             </div>
           </div>
 
-          {/* <div className="d-flex psp-60 pep-60 pbp-100">
-            <div className="row w-100 p-0 m-0">
-              <div className="col-12">
-                <img
-                  className="wp-200 align-center mt-3 me-2 mb-2"
-                  src={"images/page_" + pagina + "/img_007.png"}
-                  alt=""
-                />
+          <div className="d-flex msp-60 mep-60 mbp-100 mtp-10">
+
+            <div className="row m-0 psp-10 pep-10 ptp-0 pbp-10 rounded-p-20 w-100">
+
+              <div className="col-sm-12 col-md-6 position-relative">
+
+                <div className="d-flex mbp-20 mtp-10 w-100">
+                  <div className="p-2 min-hp-210 w-100 border-style-solid border-2  border-color-dark bgc-lizt">
+                    <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-start">¿Qué son los objetivos de desarrollo sostenible?</div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-280" />
+                  </div>
+                </div>
               </div>
+              <div className="col-sm-12 col-md-6 position-relative">
+              <div className="position-absolute top-0 start-100 translate-middle zindex-1 "><img src="images/page_025/img_009.svg" className="wp-10" alt="" /></div>
+                <div className="d-flex mbp-20 mtp-10 w-100">
+                  <div className="p-2 min-hp-210 w-100 border-style-solid border-2  border-color-dark bgc-white">
+                    <div className="f-Ubuntu-L fsp-16 msp-10  mep-10 text-center">¿Qué objetivos promueven la
+                      sostenibilidad medioambiental?</div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-280" />
+                  </div>
+                </div>
+              </div>
+
+
             </div>
-          </div> */}
+          </div>
 
 
 
