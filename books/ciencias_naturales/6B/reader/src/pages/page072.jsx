@@ -41,7 +41,9 @@ function Page072(props) {
                             </div>
                             <div className="bgc-rei mbp-90 pbp-30 ptp-40 border-bruja">
                                 <div className="cb-contenedor-papeles justify-content-between max-wp-700 mx-auto">
-                                    <div class="cb-paper-p72">
+                                    <div class="cb-paper-p72 position-relative">
+                                        <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp--60 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-40" alt="" /></div>
+                                        <div className="top-50 start-50 translate-middle msp-0 mtp--60 wp-70 hp-30 bgc-trans-cel zindex-10 position-absolute"></div>
                                         <div class="cb-paper-content-p72 f-Ubuntu-L pbp-25 ptp-25 psp-15 pep-10 fsp-12 text-start">
                                             <img src="images/page_007/img_002.png" class="cb-carta" alt="" />
                                             <img src="images/page_007/img_001.png" class="cb-lapiz" alt="" />
@@ -49,7 +51,9 @@ function Page072(props) {
                                                 puede mejorar la vida de las personas.</p>
                                         </div>
                                     </div>
-                                    <div class="cb-paper-p72">
+                                    <div class="cb-paper-p72 position-relative">
+                                        <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp--60 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
+                                        <div className="top-50 start-50 translate-middle msp-0 mtp--60 wp-70 hp-30 bgc-trans-cel zindex-10 position-absolute"></div>
                                         <div class="cb-paper-content-p72 f-Ubuntu-L pbp-15 ptp-15 psp-15 pep-10 text-start">
                                             <img src="images/page_007/img_002.png" class="cb-carta" alt="" />
                                             <img src="images/page_007/img_001.png" class="cb-lapiz" alt="" />
@@ -59,14 +63,18 @@ function Page072(props) {
                                     </div>
                                 </div>
                                 <div className="cb-contenedor-papeles justify-content-between max-wp-700 mx-auto">
-                                    <div class="cb-paper-p72">
+                                    <div class="cb-paper-p72 position-relative">
+                                        <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp-0 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-40" alt="" /></div>
+                                        <div className="top-50 start-50 translate-middle msp-0 mtp--50 wp-70 hp-30 bgc-trans-ver zindex-10 position-absolute"></div>
                                         <div class="cb-paper-content-p72 f-Ubuntu-L pbp-15 ptp-15 psp-15 pep-10  text-start">
                                             <img src="images/page_007/img_002.png" class="cb-carta" alt="" />
                                             <img src="images/page_007/img_001.png" class="cb-lapiz" alt="" />
                                             <p>Explicar el funcionamiento y las normas de uso del aparato o sistema.</p>
                                         </div>
                                     </div>
-                                    <div class="cb-paper-p72">
+                                    <div class="cb-paper-p72 position-relative">
+                                        <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
+                                        <div className="top-50 start-50 translate-middle msp-0 mtp--50 wp-70 hp-30 bgc-trans-ros zindex-10 position-absolute"></div>
                                         <div class="cb-paper-content-p72 f-Ubuntu-L pbp-15 ptp-15 psp-15 pep-10 fsp-12  text-start">
                                             <img src="images/page_007/img_002.png" class="cb-carta" alt="" />
                                             <img src="images/page_007/img_001.png" class="cb-lapiz" alt="" />
@@ -76,7 +84,8 @@ function Page072(props) {
                                     </div>
                                 </div>
                                 <div className="cb-contenedor-papeles justify-content-between max-wp-700 mx-auto">
-                                    <div class="cb-paper-p72">
+                                    <div class="cb-paper-p72 position-relative">
+                                        <div className="top-50 start-50 translate-middle msp-0 mtp--60 wp-70 hp-30 bgc-trans-yel zindex-10 position-absolute"></div>
                                         <div class="cb-paper-content-p72 f-Ubuntu-L pbp-15 ptp-15 psp-10 pep-10 fsp-12  text-start">
                                             <img src="images/page_007/img_002.png" class="cb-carta" alt="" />
                                             <img src="images/page_007/img_001.png" class="cb-lapiz" alt="" />
@@ -85,7 +94,8 @@ function Page072(props) {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="cb-paper-p72">
+                                    <div class="cb-paper-p72 position-relative">
+                                        <div className="top-50 start-50 translate-middle msp-0 mtp--60 wp-70 hp-30 bgc-trans-cel zindex-10 position-absolute"></div>
                                         <div class="cb-paper-content-p72 f-Ubuntu-L pbp-15 ptp-15 psp-10 pep-10 fsp-12 text-start">
                                             <img src="images/page_007/img_002.png" class="cb-carta" alt="" />
                                             <img src="images/page_007/img_001.png" class="cb-lapiz" alt="" />
@@ -96,7 +106,8 @@ function Page072(props) {
                                     </div>
                                 </div>
                                 <div className="cb-contenedor-papeles justify-content-between max-wp-700 mx-auto">
-                                    <div class="cb-paper-p72">
+                                    <div class="cb-paper-p72 position-relative">
+                                        <div className="top-50 start-50 translate-middle msp-0 mtp--60 wp-70 hp-30 bgc-trans-caf zindex-10 position-absolute"></div>
                                         <div class="cb-paper-content-p72 f-Ubuntu-L pbp-15 ptp-15 psp-10 pep-10 fsp-12 text-start">
                                             <img src="images/page_007/img_002.png" class="cb-carta" alt="" />
                                             <img src="images/page_007/img_001.png" class="cb-lapiz" alt="" />
@@ -105,7 +116,9 @@ function Page072(props) {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="cb-paper-p72">
+                                    <div class="cb-paper-p72 position-relative">
+                                        <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--70 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-130" alt="" /></div>
+                                        <div className="top-50 start-50 translate-middle msp-0 mtp--60 wp-70 hp-30 bgc-trans-ros zindex-10 position-absolute"></div>
                                         <div class="cb-paper-content-p72 f-Ubuntu-L pbp-15 ptp-15 psp-10 pep-10 fsp-12 text-start">
                                             <img src="images/page_007/img_002.png" class="cb-carta" alt="" />
                                             <img src="images/page_007/img_001.png" class="cb-lapiz" alt="" />
