@@ -54,6 +54,14 @@
 .bgc-trans-caf{
   background-color: #8331188a;
 }
+.cb-scotch{
+  right: calc(50% - 35px);
+  top: -15px;
+}
+.cb-scotch-2{
+  right: calc(50% - 35px);
+  top: -15px;
+}
 
 @media all and (max-width: 820px) {
 

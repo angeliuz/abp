@@ -77,7 +77,7 @@ function Page072(props) {
                                 </div>
                                 <div className="cb-contenedor-papeles justify-content-between max-wp-700 mx-auto">
                                     <div class="cb-paper-p72 position-relative">
-                                        <div className="top-50 start-50 translate-middle msp-0 mtp--55 wp-70 hp-30 bgc-trans-yel zindex-10 position-absolute"></div>
+                                        <div className="cb-scotch-2 msp-0  wp-70 hp-30 bgc-trans-yel zindex-10 position-absolute"></div>
                                         <div class="cb-paper-content-p72 f-Ubuntu-L pbp-15 ptp-15 psp-10 pep-10 fsp-12 text-start">
                                             <div className="text-start">
                                                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
@@ -85,7 +85,7 @@ function Page072(props) {
                                         </div>
                                     </div>
                                     <div class="cb-paper-p72 position-relative">
-                                        <div className="top-50 start-50 translate-middle msp-0 mtp--55 wp-70 hp-30 bgc-trans-cel zindex-10 position-absolute"></div>
+                                        <div className="cb-scotch msp-0  wp-70 hp-30 bgc-trans-cel zindex-10 position-absolute"></div>
                                         <div class="cb-paper-content-p72 f-Ubuntu-L pbp-15 ptp-15 psp-10 pep-10 fsp-12 text-start">
                                             <div className="text-start">
                                                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
@@ -95,7 +95,7 @@ function Page072(props) {
                                 </div>
                                 <div className="cb-contenedor-papeles justify-content-between max-wp-700 mx-auto">
                                     <div class="cb-paper-p72 position-relative">
-                                        <div className="top-50 start-50 translate-middle msp-0 mtp--55 wp-70 hp-30 bgc-trans-caf zindex-10 position-absolute"></div>
+                                        <div className="cb-scotch-2 msp-05 wp-70 hp-30 bgc-trans-caf zindex-10 position-absolute"></div>
                                         <div class="cb-paper-content-p72 f-Ubuntu-L pbp-15 ptp-15 psp-10 pep-10 fsp-12 text-start">
                                             <div className="text-start">
                                                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
@@ -104,7 +104,7 @@ function Page072(props) {
                                     </div>
                                     <div class="cb-paper-p72 position-relative">
                                         <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--70 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-130" alt="" /></div>
-                                        <div className="top-50 start-50 translate-middle msp-0 mtp--55 wp-70 hp-30 bgc-trans-ros zindex-10 position-absolute"></div>
+                                        <div className="cb-scotch msp-0 wp-70 hp-30 bgc-trans-ros zindex-10 position-absolute"></div>
                                         <div class="cb-paper-content-p72 f-Ubuntu-L pbp-15 ptp-15 psp-10 pep-10 fsp-12 text-start">
                                             <div className="text-start">
                                                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
