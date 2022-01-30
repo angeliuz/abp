@@ -1,8 +1,15 @@
-/* .imagen-fondo {
-  background: url(images/page_045/imagen_fondo.jpg) var(--pidgey) top center/ cover no-repeat !important;
-  -webkit-print-color-adjust: exact !important;
-} */
+.espiral{
+  background-image: url(images/page_045/espiral.png);
+  background-repeat: repeat;
+  background-size: contain;
+  /* background-color: #ffcc00; */
+}
+.espiral-calado{
+  background-image: url(images/page_045/espiral_1.png);
+  background-repeat: repeat;
+  background-size: contain;
+}
 
-.imagen-fondo {
-  background-image: url(images/page_045/imagen_fondo.jpg) !important;
+.rota{
+  transform: rotate(1deg);
 }

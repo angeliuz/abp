@@ -1,23 +1,137 @@
-.bgc-contenedor-34{
-  background-color:#f3e2cd;
+.h-100 {
+  height: 100%;
 }
 
-.padding-box-34-1{
-  padding-right: 30%;
-  padding-left: 0px;
-}
-.padding-box-34-2{
-  padding-right: 20px;
-  padding-left: 30%;
+.cuadrado-p34 {
+  min-width: 30px;
+  max-width: 30px;
+  min-height: 30px;
+  max-height: 30px;
+  background: #ffffff;
+  border-color: var(--lightDark);
+  border: 1px solid;
 }
 
-@media (max-width: 768px) {
-  .padding-box-34-1{
-    padding-right: 0;
-    padding-left: 0;
+.foto1-p34 {
+  background-image: url(images/page_034/img_001.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.foto2-p34 {
+  background-image: url(images/page_034/img_002.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.foto3-p34 {
+  background-image: url(images/page_034/img_003.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.foto4-p34 {
+  background-image: url(images/page_034/img_004.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.foto5-p34 {
+  background-image: url(images/page_034/img_005.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.foto6-p34 {
+  background-image: url(images/page_034/img_006.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.foto7-p34 {
+  background-image: url(images/page_034/img_007.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.foto8-p34 {
+  background-image: url(images/page_034/img_008.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media all and (min-width: 767px) {
+  .disposicion-imagenes {
+    display: flex;
   }
-  .padding-box-34-2{
-    padding-right: 0;
-    padding-left: 0;
+
+  .posicion-check-1 {
+    margin-left: 70px;
+    margin-top: -10px;
+  }
+
+  .posicion-check-2 {
+    margin-left: 70px;
+    margin-top: -166px;
+  }
+
+  .disposicion-palabra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .msp--20-p34 {
+    margin-left: -20px;
+  }
+
+  .msp-20-p34 {
+    margin-left: 20px;
+  }
+
+  .cajafoto-p34 {
+    width: 167px;
+    height: 155px;
   }
 }
+
+@media all and (max-width: 766px) {
+  .disposicion-imagenes {
+    display: column;
+  }
+
+  .posicion-check-1 {
+    margin-left: 85%;
+    margin-top: -95px;
+  }
+
+  .posicion-check-2 {
+    margin-left: -15px;
+    margin-top: -95px;
+  }
+
+  .disposicion-palabra {
+    flex-direction: column;
+  }
+
+  .espaciado-p34 {
+    padding-top: 100%;
+  }
+
+  .msp--20-p34 {
+    margin-left: 20px;
+  }
+
+  .msp-20-p34 {
+    margin-left: 20px;
+  }
+
+  .cajafoto-p34 {
+    min-width: 83px;
+    min-height: 140px;
+    ;
+  }
+}
+
+@media all and (max-width: 767px) {}

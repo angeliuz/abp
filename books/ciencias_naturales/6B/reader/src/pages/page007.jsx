@@ -24,10 +24,10 @@ function Page007(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className={"cabecera-v2 d-flex flex-column " + background}>
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN XX</div>
-              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">XXZ</div>
+              <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN 1</div>
+              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡Tenemos un desafío!</div>
             </div>
-            <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-95">
+            <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-0 pep-0 align-self-center justify-content-between w-95">
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
                 Mis objetivos en <br /> esta sesión son:
               </div>
@@ -54,29 +54,60 @@ function Page007(props) {
                   Comprometerse  <br /> con la realización <br /> del desafío
                 </div>
               </div>
+              <div className="p-0 align-self-center">
+                <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
+              </div>
+              <div className="psp-5 pep-5 ptp-10 pbp-10 position-relative align-self-center f-colby-compres-bold fsp-17 lh-sm text-center color-dark">
+                <div className="position-absolute top-0 start-0 w-100 h-100">
+                  <img src="images/cabecera/caja_blanca.png" width="100%" height="100%" alt="" />
+                </div>
+                <div className="position-relative">
+                  Crear un logo  <br /> relacionado con <br />el desafío
+                </div>
+              </div>
             </div>
           </div>
           {/* END CABECERA VERSIÓN 2 */}
 
-          <div className="ptp-30 container-titulo-global mbp-0">
-            <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
-              xxx
-            </div>
+          <div className="ptp-50 container-titulo-global mbp-0">
+            {/*  <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+              Conociendo el desafío
+            </div> */}
             <div className="d-flex psp-20">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                X
+                1
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                xxx
+                Veo el video, leo la invitación y comprendo el desafío.
               </div>
               {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
+          <div className="msp-60 mep-60 mtp-20 mbp-10">
+            <div className="row p-0 m-0">
+              <div className="col-sm-12 col-md-3 position-relative"></div>
+              <div className="max-wp-700 mx-auto position-relative mbp-20">
+                <div className=""><img src={"images/page_" + pagina + "/img_004.svg"} className="w-100" alt="" /></div>
+              </div>
 
+
+              {/* BEGIN EJERCICIO 2 */}
+
+              <div className="max-p-700 mx-auto bgc-kokomi mtp-40 mbp-70 position-relative">
+                <div className="position-absolute top-0 start-100 translate-middle msp--50 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-30" alt="" /></div>
+                <div className="text-start ptp-10 f-Ubuntu-R fsp-15"> Nos necesitan para...</div>
+                <div className="psp-10 psp-10">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                </div>
+              </div>
+            </div>
+
+
+          </div>
 
 
           {/* BEGIN PIE DE PAGINA */}
@@ -124,6 +155,7 @@ function Page007(props) {
         </div>
       </div>
     </div>
+
   );
 }
 

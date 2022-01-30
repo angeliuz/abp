@@ -378,6 +378,12 @@
 .wp-500 {
   width: 500px;
 }
+.wp-540{
+  width: 540px;
+}
+.wp-560{
+  width: 560px;
+}
 .wp-580{
   width: 580px;
 }
@@ -1403,6 +1409,9 @@
 }
 .msp--100 {
   margin-left: -100px;
+}
+.msp--105 {
+  margin-left: -105px;
 }
 .msp--110 {
   margin-left: -110px;
@@ -2512,6 +2521,18 @@
 
 .mbp-5 {
   margin-bottom: 5px;
+}
+.mbp-6 {
+  margin-bottom: 6px;
+}
+.mbp-7 {
+  margin-bottom: 7px;
+}
+.mbp-8 {
+  margin-bottom: 8px;
+}
+.mbp-9 {
+  margin-bottom: 9px;
 }
 .mbp-10 {
   margin-bottom: 10px;
@@ -4756,6 +4777,9 @@
 .min-hp-100 {
   min-height: 100px !important;
 }
+.min-hp-105 {
+  min-height: 105px !important;
+}
 .min-hp-110 {
   min-height: 110px !important;
 }
@@ -4867,6 +4891,18 @@
 }
 .min-hp-600 {
   min-height: 600px !important;
+}
+.min-hp-650 {
+  min-height: 650px !important;
+}
+.min-hp-660 {
+  min-height: 660px !important;
+}
+.min-hp-670 {
+  min-height: 670px !important;
+}
+.min-hp-680 {
+  min-height: 680px !important;
 }
 .min-hp-700 {
   min-height: 700px !important;
@@ -5389,6 +5425,12 @@
 .rotate-90{
   transform: rotate(90deg);
 }
+.rotate-180{
+  transform: rotate(180deg);
+}
+.rotate-270{
+  transform: rotate(270deg);
+}
 
 .rotate--1{
   transform: rotate(-1deg);
@@ -5467,4 +5509,10 @@
 }
 .rotate--90{
   transform: rotate(-90deg);
+}
+.rotate--180{
+  transform: rotate(-180deg);
+}
+.rotate--270{
+  transform: rotate(-270deg);
 }

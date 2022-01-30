@@ -116,6 +116,11 @@ body {
   padding-right: 60px;
 }
 
+.container-titulo-global-1{
+  padding-left: 40px;
+  padding-right: 60px;
+}
+
 .visible-695{
   visibility: visible;
 }
@@ -572,6 +577,10 @@ body {
     }
     .container-titulo-global{
       padding-left: 20px;
+      padding-right: 20px;
+    }
+    .container-titulo-global-1{
+      padding-left: 0px;
       padding-right: 20px;
     }
     .visible-695{

@@ -28,12 +28,12 @@ function Page042(props) {
                                 <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
                                     <div className={"d-flex " + bgc_cajas + " psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e" + etapa}>
                                         <div className="d-flex wp-23">
-                                            <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-20 mep-5 wp-20" alt="" />
+                                            <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-40 mep-5 wp-20" alt="" />
                                         </div>
                                         <div>
                                             <span className="fsp-16 text-start f-pixilate-regular">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
-                                                    APLICAR</span> la<br />información investigada.
+                                                    CREAR</span> un prototipo de<br />aparato o sistema que<br />aproveche la energía.
                                             </span>
                                         </div>
                                     </div>
@@ -48,7 +48,7 @@ function Page042(props) {
                                         <div className="d-flex">
                                             <span className="fsp-16 text-start f-pixilate-regular">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
-                                                    VALORAR</span> la importancia<br />de la buena convivencia escolar.
+                                                    EVALUAR</span> las implicancias<br />del prototipo propuesto.
                                             </span>
                                         </div>
                                     </div>
@@ -63,7 +63,7 @@ function Page042(props) {
                                         <div className="d-flex">
                                             <span className="fsp-16 text-start f-pixilate-regular">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
-                                                    DIALOGAR</span> y llegar<br />a acuerdos sobre temas de<br />convivencia escolar.
+                                                    CREAR</span> un video explicativo<br />del prototipo para<br />aprovechar la energía.
                                             </span>
                                         </div>
                                     </div>

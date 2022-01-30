@@ -2519,6 +2519,12 @@
 .mbp-15 {
   margin-bottom: 15px;
 }
+.mbp-16 {
+  margin-bottom: 16px;
+}
+.mbp-17 {
+  margin-bottom: 17px;
+}
 .mbp-20 {
   margin-bottom: 20px;
 }
@@ -4824,6 +4830,9 @@
 }
 .min-hp-250 {
   min-height: 250px !important;
+}
+.min-hp-255 {
+  min-height: 255px !important;
 }
 .min-hp-260 {
   min-height: 260px !important;

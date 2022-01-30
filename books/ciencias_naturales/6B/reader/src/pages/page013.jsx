@@ -21,8 +21,127 @@ function Page013(props) {
       <div className="d-flex flex-column align-items-center pbp-20">
         <div className="page bgc-white overflow-hidden position-relative" id={"page_" + pagina}>
 
+          {/* BEGIN CABECERA VERSIÓN 2 */}
+          <div className={"cabecera-v2 " + background + " d-flex flex-column"}>
+            <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
+              <div className="caja wp-150 text-center fsp-24 f-IntroRustG-Base">SESIÓN 2</div>
+              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¿Qué sé sobre las energías renovables?</div>
+            </div>
+            <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+                Mis objetivos en <br /> esta sesión son:
+              </div>
+              <div className="p-0 align-self-center">
+                <img src="images/generales/flecha_sesion_e2_1.svg" className="wp-40 arrow-global" alt="" />
+              </div>
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+                Poner en común lo que <br />sabemos sobre sostenibilidad<br />y energías renovables.
+              </div>
+              <div className="p-0 align-self-center">
+                <img src="images/generales/flecha_sesion_e2_2.svg" className="wp-40 arrow-global" alt="" />
+              </div>
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+                Realizar los pasatiempos <br />de la revista.
+              </div>
+              <div className="p-0 align-self-center">
+                <img src="images/generales/flecha_sesion_e2_1.svg" className="wp-40 arrow-global" alt="" />
+              </div>
+              <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
+                Discutir posibles<br />soluciones a un problema<br /> planteado.
+              </div>
+            </div>
+          </div>
+          {/* END CABECERA VERSIÓN 2 */}
+
+          <div className="ptp-50 container-titulo-global mbp-0">
+            <div className="d-flex psp-20">
+              <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_004.svg"} alt="" />
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                1
+              </div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                Conversamos sobre lo que creemos que es la sostenibilidad y las energías renovables. Luego, redacto una definición.
+              </div>
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
+              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+            </div>
+          </div>
+
+          <div className="psp-60 pep-60 ptp-20">
+            <div className="row w-100 ">
+
+              <div className="col-md-6 col-12 pbp-20 position-relative">
+                <div className="position-relative bgc-draco sombra-1 px-2 ptp-30 pbp-20">
+                  <div className="f-Ubuntu-R">He entendido que las energías renovables...</div>
+                  <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-400" />
+                  </div>
+                  <div className="position-absolute top-0 start-50 translate-middle w-100 mtp-10"><div className="flequillo-p13 w-100 hp-30"></div></div>
+                </div>
+                <div className="position-absolute top-100 start-0 translate-middle msp-10 mtp--60 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-60" alt="" /></div>
+              </div>
+
+              <div className="col-md-6 col-12 pbp-20 position-relative">
+                <div className="position-relative bgc-bobafett sombra-1 px-2 ptp-55 pbp-20">
+                  <div className="f-Ubuntu-R"> He descubierto que la sostenibilidad...</div>
+                  <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-400" />
+                  </div>
+                </div>
+                <div className="position-absolute top-0 start-100 translate-middle msp--20 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-80" alt="" /></div>
+              </div>
 
 
+            </div>
+          </div>
+
+          <div className="ptp-50 container-titulo-global mbp-0">
+            <div className="d-flex psp-20">
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                3
+              </div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                ¡Ya hice los pasatiempos de la revista!<br />En el tema de la energía considero que...
+              </div>
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_007.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+            </div>
+          </div>
+          <div className="psp-60 pep-60 ptp-80 position-relative">
+            <div className="d-flex w-70-768 justify-content-between">
+              <div className="cuadrado-p13 bgc-white border-style-solid border-2 border-color-bulma position-relative">
+                <div className="position-absolute top-0 start-50 translate-middle mtp--40">
+                  <div className="border-style-solid border-2 border-color-bulma rounded-p-40 hp-30 wp-120">No sé nada</div>
+                </div>
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-30" />
+              </div>
+
+              <div className="border-style-solid border-2 border-color-bulma border-solo-bot hp-30 w-100 mtp--15 "></div>
+
+              <div className="cuadrado-p13 bgc-white border-style-solid border-2 border-color-bulma position-relative">
+                <div className="position-absolute top-0 start-50 translate-middle mtp--40">
+                  <div className="border-style-solid border-2 border-color-bulma rounded-p-40 hp-30 wp-120">Sé poco</div>
+                </div>
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-30" />
+              </div>
+
+              <div className="border-style-solid border-2 border-color-bulma border-solo-bot hp-30 w-100 mtp--15 "></div>
+
+              <div className="cuadrado-p13 bgc-white border-style-solid border-2 border-color-bulma position-relative">
+                <div className="position-absolute top-0 start-50 translate-middle mtp--40">
+                  <div className="border-style-solid border-2 border-color-bulma rounded-p-40 hp-30 wp-120">Sé mucho</div>
+                </div>
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-30" />
+              </div>
+            </div>
+            <div className="position-absolute top-50 start-100 translate-middle msp--150 mtp--40 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_009.png"} className="wp-140" alt="" /></div>
+          </div>
+
+
+          <div className="pbp-100"></div>
           {/* END CONTENIDO */}
 
           {/* BEGIN PIE DE PAGINA */}
@@ -69,7 +188,7 @@ function Page013(props) {
 
         </div>
       </div>
-    </div>
+    </div >
 
   );
 }
