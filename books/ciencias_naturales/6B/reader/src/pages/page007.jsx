@@ -46,8 +46,13 @@ function Page007(props) {
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
-              <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Aceptar el desafío y  <br /> completar una ficha de <br />inscripción
+              <div className="psp-5 pep-5 ptp-10 pbp-10 position-relative align-self-center f-colby-compres-bold fsp-17 lh-sm text-center color-dark">
+                <div className="position-absolute top-0 start-0 w-100 h-100">
+                  <img src="images/cabecera/caja_blanca.png" width="100%" height="100%" alt="" />
+                </div>
+                <div className="position-relative">
+                  Comprometerse  <br /> con la realización <br /> del desafío
+                </div>
               </div>
             </div>
           </div>
