@@ -951,6 +951,9 @@
   margin-left: 200%;
 }
 
+.msp-0 {
+  margin-left: 0px !important;
+}
 .msp-1 {
   margin-left: 1px;
 }
@@ -1595,6 +1598,10 @@
   margin-right: 200%;
 }
 
+
+.mep-0 {
+  margin-right: 0px !important;
+}
 .mep-5 {
   margin-right: 5px;
 }
@@ -1841,6 +1848,9 @@
   margin-top: 200%;
 }
 
+.mtp-0 {
+  margin-top: 0px !important;
+}
 .mtp-1 {
   margin-top: 1px;
 }
@@ -2466,6 +2476,9 @@
   margin-bottom: 200%;
 }
 
+.mbp-0 {
+  margin-bottom: 0px !important;
+}
 .mbp-5 {
   margin-bottom: 5px;
 }
