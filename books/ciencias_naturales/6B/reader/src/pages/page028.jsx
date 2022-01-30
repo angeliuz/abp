@@ -26,48 +26,106 @@ function Page028(props) {
           </div>
 
           <div className="ptp-30 container-titulo-global mbp-10">
-            <div className={"f-Ubuntu-B fsp-20 psp-50 text-start lhp-20 " + color}>Nos ponemos en el lugar de otros</div>
+            {/* <div className={"f-Ubuntu-B fsp-20 psp-50 text-start lhp-20 " + color}>Nos ponemos en el lugar de otros</div> */}
             <div className="d-flex">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_005.svg"} alt=""  /> */}
-              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>3</div>
+              <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_001.svg"} alt="" />
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Leemos los casos y respondemos:
+                Buscamos usos inadecuados de la energía en el colegio.
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
 
+          <div className="d-flex msp-40 mep-40  mtp-10">
 
-          <div className="d-flex msp-60 mep-60 mbp-0 mtp-10 ">
+            <div className="row m-0 psp-10 pep-10 ptp-0 pbp-10 rounded-p-20 w-100">
+
+              <div className="col-sm-12 col-md-8 position-relative">
+
+                <div className="d-flex mbp-20 mtp-10 w-100">
+                  <div className="p-2 min-hp-210 w-100 border-style-solid border-2  border-color-calypso7 ">
+                    {/* <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-start">¿Qué son los objetivos de desarrollo sostenible?</div> */}
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-12 col-md-4 position-relative">
+                <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp-30 zindex-1 "><img src="images/page_028/img_002.png" className="wp-30" alt="" /></div>
+                <div className="d-flex mbp-20 mtp-10 w-100">
+                  <div className="p-2 min-hp-210 w-100 border-style-solid border-2  border-color-dark bgc-white">
+                    <div className=" f-Ubuntu-R fsp-16 text-start ">Ejemplos:</div>
+                    <ul className=" f-Ubuntu-L fsp-16 text-start ">
+
+                      <li>Luces encendidas todo el día.</li>
+
+                      <li>Mal sistema de calefacción.</li>
+                      <li>Aparatos enchufados sin usar.</li>
+                      <li>Cañerías con filtraciones.</li>
+                      <li>Uso de ampolletas de alto
+                        consumo.</li>
+
+                    </ul>
+                    {/* <div className="f-Ubuntu-L fsp-16 msp-10  mep-10 text-center">¿Qué objetivos promueven la
+                      sostenibilidad medioambiental?</div> */}
+                    {/* <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-280" /> */}
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+          <div className="ptp-30 container-titulo-global mbp-10">
+            {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>¿Qué podemos reciclar?</div> */}
+            <div className="d-flex">
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_002.svg"} alt="" /> */}
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>3</div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                Escribo los cambios que se pueden hacer en el colegio para utilizar de manera
+                más responsable la energía y disminuir nuestra huella ecológica.
+              </div>
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_004.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+            </div>
+          </div>
+          <div className="d-flex msp-100 mep-100 mbp-0 mtp-10 ">
 
             <div className="row m-0 psp-10 pep-10 ptp-0 pbp-10 rounded-p-20 w-100">
 
 
 
               <div className="col-md-12 col-lg-12 position-relative">
-                {/* <div className="position-absolute top-0 start-0 translate-middle msp-0 mtp--20 "><img src="images/page_029/img_003.png" className=" " alt="" /></div> */}
-
+                {/* <div className="position-absolute top-50 start-100 translate-middle msp-20 mtp--20 "><img src="images/page_028/img_005.png" className=" " alt="" /></div> */}
+                {/* <div className="position-absolute top-0 start-50 translate-middle msp-20 mtp--50 zindex-1"><img src="images/page_028/img_004.png" className=" wp-90" alt="" /></div> */}
                 <div className="d-flex mbp-20 mtp-10 w-100">
-                  <div className="p-2 min-hp-100 w-100 ">
-                    <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-start pbp-10">¿Qué tienen en común las situaciones que leímos?</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                  <div className="p-2 min-hp-100 w-100 border-style-solid border-1 border-color-calypso7 bgc-azuka ">
+                    <div className="d-flex  bgc-white text-start min-hp-0 bgc-white">
+                      {/* <div className="w-100 text-center ">
+            <span className="f-pixilate-semibold ">Como grupo, opinamos que</span>
+            <br />
+            
+          </div> */}
+                    </div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
                   </div>
                 </div>
               </div>
 
             </div>
           </div>
-
           <div className="ptp-30 container-titulo-global mbp-10">
             {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>¿Qué podemos reciclar?</div> */}
             <div className="d-flex">
-              <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_002.svg"} alt="" />
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_002.svg"} alt="" /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>4</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Elegimos uno de los casos y lo analizamos.
+                ¿Qué pienso sobre la idea de disminuir la huella ecológica?
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
@@ -76,16 +134,10 @@ function Page028(props) {
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
-            <div className="row p-0 m-0 w-100">
-              <div className="col-12 p-0 m-0 position-relative">
-
-              </div>
-            </div>
-          </div>
 
 
-          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-pixilate-semibold fsp-16">
+
+          {/* <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-pixilate-semibold fsp-16">
             <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-580" alt="" /></div>
             <div className="position-absolute top-50 start-50 translate-middle msp--5 mtp-0 zindex-1">
               <div className="d-flex flex-column wp-150 psp-10 pep-10 ptp-0 pbp-0">
@@ -117,7 +169,7 @@ function Page028(props) {
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
               </div>
             </div>
-          </div>
+          </div> */}
 
 
 
@@ -128,18 +180,18 @@ function Page028(props) {
 
 
               <div className="col-md-12 col-lg-12 position-relative">
-                <div className="position-absolute top-50 start-100 translate-middle msp-20 mtp--20 "><img src="images/page_028/img_005.png" className=" " alt="" /></div>
-                <div className="position-absolute top-0 start-50 translate-middle msp-20 mtp--50 zindex-1"><img src="images/page_028/img_004.png" className=" wp-90" alt="" /></div>
+                {/* <div className="position-absolute top-50 start-100 translate-middle msp-20 mtp--20 "><img src="images/page_028/img_005.png" className=" " alt="" /></div> */}
+                {/* <div className="position-absolute top-0 start-50 translate-middle msp-20 mtp--50 zindex-1"><img src="images/page_028/img_004.png" className=" wp-90" alt="" /></div> */}
                 <div className="d-flex mbp-20 mtp-10 w-100">
-                  <div className="p-2 min-hp-100 w-100 border-style-solid border-1 border-color-android18 bgc-azuka rounded-p-10">
-                    <div className="d-flex interior-caja-v1 bgc-white text-start min-hp-0 bgc-white">
-                      <div className="w-100 text-center ">
+                  <div className="p-2 min-hp-100 w-100 border-style-solid border-1 border-color-dark bgc-azuka ">
+                    <div className="d-flex  bgc-white text-start min-hp-0 bgc-white">
+                      {/* <div className="w-100 text-center ">
                         <span className="f-pixilate-semibold ">Como grupo, opinamos que</span>
                         <br />
                         
-                      </div>
+                      </div> */}
                     </div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-210" />
                   </div>
                 </div>
               </div>
