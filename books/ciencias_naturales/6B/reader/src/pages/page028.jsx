@@ -42,21 +42,22 @@ function Page028(props) {
 
           <div className="d-flex msp-40 mep-40  mtp-10">
 
-            <div className="row m-0 psp-10 pep-10 ptp-0 pbp-10 rounded-p-20 w-100">
+            <div className="row m-0 psp-10 pep-10 ptp-0 pbp-10  w-100">
 
               <div className="col-sm-12 col-md-8 position-relative">
 
-                <div className="d-flex mbp-20 mtp-10 w-100">
-                  <div className="p-2 min-hp-210 w-100 border-style-solid border-2  border-color-calypso7 ">
+                <div className="d-flex mbp-20 mtp-10 w-100  ">
+                  <div className="p-2  w-100 border-style-solid border-2  border-color-bach bgc-white  rounded-p-10  ">
                     {/* <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-start">¿Qué son los objetivos de desarrollo sostenible?</div> */}
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-280" />
                   </div>
                 </div>
               </div>
               <div className="col-sm-12 col-md-4 position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp-30 zindex-1 "><img src="images/page_028/img_002.png" className="wp-30" alt="" /></div>
+                <div className="position-absolute top-100 start-100 translate-middle msp--20 "><img src="images/page_028/img_003.png" className=" wp-80" alt="" /></div>
                 <div className="d-flex mbp-20 mtp-10 w-100">
-                  <div className="p-2 min-hp-210 w-100 border-style-solid border-2  border-color-dark bgc-white">
+                  <div className="p-2 min-hp-210 w-100 border-style-solid border-2  border-color-lightDark bgc-white rounded-p-10">
                     <div className=" f-Ubuntu-R fsp-16 text-start ">Ejemplos:</div>
                     <ul className=" f-Ubuntu-L fsp-16 text-start ">
 
@@ -101,10 +102,10 @@ function Page028(props) {
 
 
               <div className="col-md-12 col-lg-12 position-relative">
-                {/* <div className="position-absolute top-50 start-100 translate-middle msp-20 mtp--20 "><img src="images/page_028/img_005.png" className=" " alt="" /></div> */}
-                {/* <div className="position-absolute top-0 start-50 translate-middle msp-20 mtp--50 zindex-1"><img src="images/page_028/img_004.png" className=" wp-90" alt="" /></div> */}
+                
+                <div className="position-absolute top-100 start-0 translate-middle zindex-1"><img src="images/page_028/img_004.png" className=" wp-90" alt="" /></div>
                 <div className="d-flex mbp-20 mtp-10 w-100">
-                  <div className="p-2 min-hp-100 w-100 border-style-solid border-1 border-color-calypso7 bgc-azuka ">
+                  <div className="p-2 min-hp-100 w-100 border-style-solid border-1 border-color-kai bgc-kai ">
                     <div className="d-flex  bgc-white text-start min-hp-0 bgc-white">
                       {/* <div className="w-100 text-center ">
             <span className="f-pixilate-semibold ">Como grupo, opinamos que</span>
@@ -180,8 +181,7 @@ function Page028(props) {
 
 
               <div className="col-md-12 col-lg-12 position-relative">
-                {/* <div className="position-absolute top-50 start-100 translate-middle msp-20 mtp--20 "><img src="images/page_028/img_005.png" className=" " alt="" /></div> */}
-                {/* <div className="position-absolute top-0 start-50 translate-middle msp-20 mtp--50 zindex-1"><img src="images/page_028/img_004.png" className=" wp-90" alt="" /></div> */}
+                <div className="position-absolute top-50 start-100 translate-middle msp-20 mtp--20 "><img src="images/page_028/img_005.png" className=" " alt="" /></div>
                 <div className="d-flex mbp-20 mtp-10 w-100">
                   <div className="p-2 min-hp-100 w-100 border-style-solid border-1 border-color-dark bgc-azuka ">
                     <div className="d-flex  bgc-white text-start min-hp-0 bgc-white">
