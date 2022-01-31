@@ -151,7 +151,7 @@
   --grieg:#eef4d8;
   --brahms:#f9f7d4;
   --olsen:#b8703a;
-
+  --greyson:#edeeee;
 
 
 }
@@ -874,6 +874,13 @@
      .color-olsen {
     color: var(--olsen);
     }
+    .color-greyson {
+      color: var(--greyson);
+    }
+
+
+
+
 
 /* BORDERS */
 .border-color-goku {
@@ -1361,6 +1368,11 @@
 .border-color-olsen {
  border-color: var(--olsen) !important;
 }
+.border-color-greyson {
+  border-color: var(--greyson) !important;
+ }
+
+
 
 
 /* B
@@ -1830,4 +1842,7 @@
 }
 .bgc-olsen {
   background-color: var(--olsen);
+}
+.bgc-greyson {
+  background-color: var(--greyson);
 }
