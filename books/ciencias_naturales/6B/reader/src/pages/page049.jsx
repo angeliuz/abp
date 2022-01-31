@@ -44,43 +44,43 @@ function Page049(props) {
                         <div className="row p-0 m-0 w-100">
                             <div className="col-4 p-1 m-0">
                                 <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/caja.png"} alt="" className="w-90 justify-content-center align-items-center" /></div>
-                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-20 hp-20 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
+                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-25 hp-25 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
                             </div>
                             <div className="col-4 p-1 m-0">
                                 <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/diarios.png"} alt="" className="w-90 justify-content-center align-items-center" /></div>
-                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-20 hp-20 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
+                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-25 hp-25 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
                             </div>
                             <div className="col-4 p-1 m-0">
                                 <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/botiquin.png"} alt="" className="w-90 justify-content-center align-items-center" /></div>
-                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-20 hp-20 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
+                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-25 hp-25 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
                             </div>
                             <div className="col-4 p-1 m-0">
                                 <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/corchos.png"} alt="" className="w-90 justify-content-center align-items-center" /></div>
-                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-20 hp-20 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
+                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-25 hp-25 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
                             </div>
                             <div className="col-4 p-1 m-0">
                                 <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/contenedor.png"} alt="" className="w-90 justify-content-center align-items-center" /></div>
-                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-20 hp-20 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
+                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-25 hp-25 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
                             </div>
                             <div className="col-4 p-1 m-0">
                                 <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/pistola.png"} alt="" className="w-90 justify-content-center align-items-center" /></div>
-                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-20 hp-20 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
+                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-25 hp-25 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
                             </div>
                             <div className="col-4 p-1 m-0">
                                 <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/perros.png"} alt="" className="w-90 justify-content-center align-items-center" /></div>
-                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-20 hp-20 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
+                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-25 hp-25 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
                             </div>
                             <div className="col-4 p-1 m-0">
                                 <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/alusa.png"} alt="" className="w-90 justify-content-center align-items-center" /></div>
-                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-20 hp-20 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
+                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-25 hp-25 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
                             </div>
                             <div className="col-4 p-1 m-0">
                                 <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/cartulinas.png"} alt="" className="w-90 justify-content-center align-items-center" /></div>
-                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-20 hp-20 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
+                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-25 hp-25 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
                             </div>
                             <div className="col-4 p-1 m-0">
                                 <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/canamo.png"} alt="" className="w-90 justify-content-center align-items-center" /></div>
-                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-20 hp-20 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
+                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-25 hp-25 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
                             </div>
                             <div className="col-md-8 p-0 m-0">
                                 <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/mono.png"} alt="" className="w-100 justify-content-center" /></div>
