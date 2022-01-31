@@ -14,46 +14,69 @@ function Page065(props) {
   const bgc_cajas = "bgc-bobafett";
 
   return (
+
+
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
         <div className="page bgc-white overflow-hidden position-relative" id={"page_" + pagina}>
+
           {/* BEGIN CABECERA VERSIÓN 2 */}
-          <div className={"cabecera-v2 " + background + " d-flex flex-column"}>
+          <div className={"cabecera-v2 d-flex flex-column " + background}>
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja wp-160 text-center  fsp-24 f-IntroRustG-Base">SESIÓN 17</div>
-              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Evaluamos las propuestas</div>
+              <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN 18</div>
+              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡Los invitamos a todos!</div>
             </div>
-            <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Mis objetivos <br />en  esta sesión son:
+            <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-95">
+              <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+                Mis objetivos en esta sesión son:<br />
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Definir un lugar<br /> para la instalación<br />del proyecto<br />
+                Establecer el día de la presentación<br />del proyecto<br /> para la instalación
               </div>
-              <div className="p-0 align-self-center">
-                <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global rotate-90" alt="" />
+              <div className="psp-5 pep-5 align-self-center">
+                <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Señalar los beneficios<br />del proyecto para<br />el colegio
+                Proponer formatos<br />para elaborar invitaciones
               </div>
-              <div className="p-0 align-self-center">
+
+              <div className="psp-5 pep-5 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
-              <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
-                Escribir un carta<br />a la dirección para<br />solicitar la instalación<br />
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+                Crear las invitaciones<br />  para la presentación<br /> del proyecto
               </div>
               <div className="p-0 align-self-center">
-                <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global rotate-90" alt="" />
+                <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
               </div>
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Instalar el aparato o<br />sistema que aprovecha<br />la energía<br />
+              <div className="psp-5 pep-5 ptp-10 pbp-10 position-relative align-self-center f-colby-compres-bold fsp-17 lh-sm text-center color-dark">
+                <div className="position-absolute top-0 start-0 w-100 h-100">
+                  <img src="images/cabecera/caja_blanca.png" width="100%" height="100%" alt="" />
+                </div>
+                <div className="position-relative">
+                  Valorar el trabajo
+                  en equipo
+                </div>
               </div>
             </div>
           </div>
           {/* END CABECERA VERSIÓN 2 */}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
           <div className="ptp-10 container-titulo-global mbp-0">
             {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
@@ -80,24 +103,24 @@ function Page065(props) {
 
 
 
-          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-20 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
+                <div className="position-absolute top-50 start-0 translate-middle    msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="hp-80 mtp--160" alt="" /></div>
 
-
-                <div className="w-100 h-100 bgc-info">
-                  <div className="row m-0 p-0">
+                <div className="w-100 h-100 bgc-greyson">
+                  <div className="row m-0 p-2  ">
                     <div className="col-8 m-0 p-0">
-                      <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                      <div className="f-Ubuntu-R fsp-16 ptp-18 psp-20 pep-0 pbp-0 text-start">
                         El objetivo de la invitación es...
                       </div>
                       <div className="psp-20 pep-20 ptp-0 pbp-5 m-0  w-100 ">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
                       </div>
                     </div>
-                    <div className="col-4  m-0 p-0 bgc-yellow">
+                    <div className="col-4  m-0 p-0 ">
                       <div className="f-Ubuntu-R fsp-14 ptp-18 psp-10 pep-10 text-center">
-                        El objetivo de la invitación es...
+                        La presentación se <br />realizará el día
                       </div>
                       <div className="position-relative ">
                         <div className="position-absolute top-50 start-50 translate-middle   psp-40 pep-40 ptp-10 pbp-15 m-0  w-100">
@@ -144,13 +167,14 @@ function Page065(props) {
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 2
               </div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+              <div className="f-Ubuntu-R fsp-16  ptp-18 psp-10 pep-10 text-start   position-relative">
                 Propongo algunos formatos para la realización de las invitaciones.
-              </div>
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+                <div className="position-absolute top-50 start-100 translate-middle  msp-50 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-80" alt="" /></div>       </div>
             </div>
+            {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+            {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_006.png"} className="p-0 px-1" /> */}
+            {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+
           </div>
 
 
@@ -163,108 +187,107 @@ function Page065(props) {
 
 
 
-          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-0 mbp-70 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
 
                 <div className="d-flex flex-row  justify-content-center ">
 
                   <div className="d-flex m-3">
-                    <div className="d-flex wp-150 hp-45 bgc-yellow f-Ubuntu-R fsp-15 center-center position-relative  rounded-p-10 bgc-milk">Útil
+                    <div className="d-flex wp-110 hp-45 bgc-yellow f-Ubuntu-R fsp-15 center-center position-relative  rounded-p-10 bgc-milena">Afiches
                       <div className="position-absolute top-50 start-0 translate-middle  wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
                       </div>
                     </div>
                   </div>
                   <div className="d-flex m-3">
-                    <div className="d-flex wp-150 hp-45 bgc-yellow f-Ubuntu-R fsp-15 center-center position-relative  rounded-p-10 bgc-milk">Creativa
+                    <div className="d-flex wp-110 hp-45 bgc-yellow f-Ubuntu-R fsp-15 center-center position-relative  rounded-p-10 bgc-milena">Folletos
                       <div className="position-absolute top-50 start-0 translate-middle  wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
                       </div>
                     </div>
                   </div>
                   <div className="d-flex m-3">
-                    <div className="d-flex wp-150 hp-45 bgc-yellow f-Ubuntu-R fsp-15 center-center position-relative  rounded-p-10 bgc-milk">Original
+                    <div className="d-flex wp-110 hp-45 bgc-yellow f-Ubuntu-R fsp-15 center-center position-relative  rounded-p-10 bgc-milena">Cartas
                       <div className="position-absolute top-50 start-0 translate-middle  wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
                       </div>
                     </div>
                   </div>
 
+
+                </div>
+                <div className="d-flex justify-content-center m-3">
+                  <div className="d-flex align-items-center justify-content-start psp-25 pep-20 wp-300    f-Ubuntu-R fsp-15   position-relative  rounded-p-10 bgc-milena">
+                    Otros: <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-50" />
+                    <div className="position-absolute top-50 start-0 translate-middle  wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
 
-          {/* <div className="ptp-10 container-titulo-global mbp-30 mtp-30">
-                        <div className="d-flex">
-                        <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_061/img_004.svg" alt="" />
-                        <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
-                            <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                                Llevamos a cabo la elaboración del álbum. Tomo notas del proceso y registro los avances del equipo.
-                            </div>
-                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_061/img_001.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
-                        </div>
-                    </div>
-
-                    <div className="msp-80 mep-60 position-relative  ">
-                        <div className="position-absolute top-0 start-100 translate-middle   zindex-4 visible-768 msp--10 mtp--60 "><img src="images/page_061/img_006.png" className="wp-80 " alt="" /></div>
-                        <div className="position-absolute top-100 start-0 translate-middle   zindex-4 visible-768 msp--30 mtp--20 "><img src="images/page_061/img_007.png" className="wp-50 " alt="" /></div>
-                        <div className="row w-100 mb-10   ">
-                            <div className="cb-ep-paper-61 ">
-                                <div className="cb-ep-paper-content-61 f-Ubuntu-L text-start">
-                                    <div className="mtp-5 ">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div> */}
 
 
 
-          {/* PIE DE PAGINA */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          {/* BEGIN PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
               ABP &copy; SM
             </div>
             <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
           </div>
-          <div className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-              <img src="images/rotulo_motivacion.svg" className="oculto" alt="" />
+          <div className="row position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
+
+            <div className={etapa == 1 ? "col-7 position-relative col-sm-2 p-0 m-0" : "col-1 position-relative col-sm-2 p-0 m-0"}>
+              <img src="images/rotulo_motivacion.svg" className={etapa == 1 ? "visible rotulo-etapa position-absolute top-0 start-0" : "oculto"} alt="" />
               <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
               <div className="w-100 hp-25 bgc-goten"></div>
             </div>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-              <img src="images/rotulo_planificacion.svg" className="oculto" alt="" />
+            <div className={etapa == 2 ? "col-7 position-relative col-sm-2 p-0 m-0" : "col-1 position-relative col-sm-2 p-0 m-0"}>
+              <img src="images/rotulo_planificacion.svg" className={etapa == 2 ? "visible rotulo-etapa position-absolute top-0 start-0" : "oculto"} alt="" />
               <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
               <div className="w-100 hp-25 bgc-bulma"></div>
             </div>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-              <img src="images/rotulo_investigacion.svg" className="oculto" alt="" />
+            <div className={etapa == 3 ? "col-7 position-relative col-sm-2 p-0 m-0" : "col-1 position-relative col-sm-2 p-0 m-0"}>
+              <img src="images/rotulo_investigacion.svg" className={etapa == 3 ? "visible rotulo-etapa position-absolute top-0 start-0" : "oculto"} alt="" />
               <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
               <div className="w-100 hp-25 bgc-android18"></div>
             </div>
-            <div className="col-7 col-sm-2 p-0 m-0 position-relative">
-              <img src="images/rotulo_experimentacion.svg" className="oculto" alt="" />
+            <div className={etapa == 4 ? "col-7 position-relative col-sm-2 p-0 m-0" : "col-1 position-relative col-sm-2 p-0 m-0"}>
+              <img src="images/rotulo_experimentacion.svg" className={etapa == 4 ? "visible rotulo-etapa position-absolute top-0 start-0" : "oculto"} alt="" />
               <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
               <div className="w-100 hp-25 bgc-pidgey"></div>
             </div>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-              <img src="images/rotulo_creacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
+            <div className={etapa == 5 ? "col-7 position-relative col-sm-2 p-0 m-0" : "col-1 position-relative col-sm-2 p-0 m-0"}>
+              <img src="images/rotulo_creacion.svg" className={etapa == 5 ? "visible rotulo-etapa position-absolute top-0 start-0" : "oculto"} alt="" />
               <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
               <div className="w-100 hp-25 bgc-saitama"></div>
             </div>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-              <img src="images/rotulo_difusion.svg" className="oculto" alt="" />
+            <div className={etapa == 6 ? "col-7 position-relative col-sm-2 p-0 m-0" : "col-1 position-relative col-sm-2 p-0 m-0"}>
+              <img src="images/rotulo_difusion.svg" className={etapa == 6 ? "visible rotulo-etapa position-absolute top-0 start-0" : "oculto"} alt="" />
               <div className="w-100 hp-15 bgc-leono rounded-caja-end"></div>
               <div className="w-100 hp-25 bgc-pikachu"></div>
             </div>
           </div>
+          {/* END PIE DE PAGINA */}
 
         </div>
       </div>
