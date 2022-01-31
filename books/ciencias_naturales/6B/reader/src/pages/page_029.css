@@ -1,4 +1,4 @@
-.cb-ep-paper-59 {
+.cb-ep-paper-29 {
 
     position: relative;
     width: calc(100% - 100px);
@@ -7,11 +7,31 @@
   }
   
   
-  .cb-ep-paper-content-59 {
+  .cb-ep-paper-content-29 {
     position: relative;
     z-index: 3;
     background: #fefcfb;
     padding: 20px 40px;
     font-size: 16px;
   }
+  .cb-ep-paper-29::before,
+  .cb-ep-paper-29::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #f1eee0;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
+    left: 0;
+    top: 0;
+  }
   
+  .cb-ep-paper-29::before {
+  z-index: 2;
+  transform: rotate(-2deg);
+  }
+  
+  .cb-ep-paper-29::after {
+  z-index: 1;
+  transform: rotate(2deg);
+  }

@@ -158,8 +158,8 @@ function Page029(props) {
                         <div className="msp-80 mep-60 position-relative ">
                             <div className="position-absolute top-50 start-0 translate-middle zindex-2 msp--45 "> <img src={"images/page_" + pagina + "/img_005.png"} className="" alt="" />  </div>
                             <div className="row w-100 ">
-                                <div className="cb-ep-paper-59 ">
-                                    <div className="cb-ep-paper-content-59 f-Ubuntu-L text-start">
+                                <div className="cb-ep-paper-29 ">
+                                    <div className="cb-ep-paper-content-29 f-Ubuntu-L text-start">
                                         <div className="mtp-5 ">
 
                                             {/* <div className="d-flex w-100 p-2">
