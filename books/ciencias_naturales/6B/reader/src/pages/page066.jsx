@@ -119,7 +119,7 @@ function Page066(props) {
                         <div className="d-flex justify-content-start mep-5">
                           <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-saitama fsp-17  fw-700 pbp-5">b.</div>
                           <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R wp-300 fsp-15 lh-sm ptp-3 psp-5 pbp-35 ">
-                            Entre todos revisamos los textos y elaboramos las invitaciones. Luego, las publicamos para que toda la comunidad asista a nuestra presentación
+                            Entre todos revisamos los textos y elaboramos las invitaciones. Luego, las publicamos para que toda la comunidad asista a nuestra presentación.
                           </div>
                         </div>
                       </div>
