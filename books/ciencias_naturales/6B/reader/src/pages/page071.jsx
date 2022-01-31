@@ -29,31 +29,31 @@ function Page071(props) {
                         </div>
                         <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-95">
                             <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                                Mis objetivos en <br /> esta sesión son:
+                                Mis objetivos en  esta sesión son:
                             </div>
                             <div className="p-0 align-self-center">
                                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
                             </div>
                             <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                                Leer el correo de <br /> la organización
+                                Leer el correo de la organización
                             </div>
                             <div className="psp-5 pep-5 align-self-center">
                                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
                             </div>
                             <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                                Elaborar un discurso para  <br /> presentar el proyecto a la <br />comunidad educativa
+                                Elaborar un discurso para presentar el proyecto a la comunidad educativa
                             </div>
                             <div className="p-0 align-self-center">
                                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
                             </div>
                             <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                                APracticar la  <br /> presentación delante <br />de los compañeros
+                                APracticar la  presentación delante de los compañeros
                             </div>
                             <div className="p-0 align-self-center">
                                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
                             </div>
                             <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                                Valorar lo  <br /> aprendido sobre <br />las presentaciones
+                                Valorar lo aprendido sobre las presentaciones
                             </div>
 
                         </div>

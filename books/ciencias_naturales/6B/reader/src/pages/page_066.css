@@ -1,0 +1,8 @@
+.sombra-paralela-left{
+    -webkit-box-shadow: -8px 10px 0px 1px #E8E8E8; 
+    box-shadow: -8px 10px 0px 1px #E8E8E8;
+}
+.sombra-paralela-right{
+    -webkit-box-shadow: 10px 10px 0px 1px #E8E8E8; 
+    box-shadow: 10px 10px 0px 1px #E8E8E8;
+}
