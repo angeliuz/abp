@@ -1,15 +1,9 @@
-.bgc-difusion{
-    background: url(images/page_073/Fondo_001.svg) #b80e80 top left/ cover no-repeat !important;
-     -webkit-print-color-adjust: exact !important;
- 
- }
- .t-shadow-difusion{
-     text-shadow: -7px -8px #8b288f;
- }
- 
- @media all and (max-width: 500px) {
- 
-     .ft-m {
-         font-size: 50px;
-      }
- }
+.bgc-jinx{
+    background-color: #3e81b2;
+}
+.bgc-powder{
+    background-color: #5f92bd;
+}
+.bgc-riuko{
+    background-color: #edf4eb;
+}
