@@ -35,16 +35,17 @@ function Page073(props) {
                   </div>
                   {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                   {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-                  {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+                  <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
                 </div>
               </div>
-              <div className="bgc-riuko ptp-10 pbp-10 rounded-p-10">
-                <div className="text-center align-items-center justify-content-center bgc-jinx wp-250 mx-auto mtp--10 mbp-40">
+              <div className="bgc-riuko ptp-10 pbp-40 rounded-p-10 mbp-70">
+                <div className="text-center align-items-center justify-content-center bgc-jinx wp-250 mx-auto mtp--10 mbp-40 rounded-seb-10 color-white fw-700 ptp-5 pbp-5">
                   NUESTRA PRESENTACIÓN
                 </div>
                 {/* BEGIN EJERCICIO 1 */}
                 <div className="row mx-auto d-flex f-Ubuntu-R fsp-15 mbp-70 ">
                   <div className="col-sm-12 col-md-6 position-relative">
+                    <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp-0 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-70" alt="" /></div>
                     <div className="position-absolute color-white fw-700 top-0 start-50 translate-middle msp-0 mtp-0 zindex-1 bgc-powder fsp-15 rounded-p-10 p-2">
                       PASO 1
                     </div>
@@ -71,6 +72,7 @@ function Page073(props) {
                     </div>
                   </div>
                   <div className="col-sm-12 col-md-6 position-relative">
+                    <div className="position-absolute top-100 start-100 translate-middle msp--60 mtp-20 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-80" alt="" /></div>
                     <div className="position-absolute color-white fw-700 top-0 start-50 translate-middle msp-0 mtp-0 zindex-1 bgc-powder fsp-15 rounded-p-10 p-2 ">
                       PASO 2
                     </div>
@@ -99,6 +101,7 @@ function Page073(props) {
                 </div>
                 {/* BEGIN EJERCICIO 2 */}
                 <div className="max-wp-600 mx-auto position-relative">
+                  <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--70 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-130" alt="" /></div>
                   <div className="position-absolute color-white fw-700 top-0 start-50 translate-middle msp-0 mtp-0 zindex-1 bgc-powder fsp-15 rounded-p-10 p-2">
                     PASO 3
                   </div>
@@ -106,33 +109,36 @@ function Page073(props) {
                     <div className="f-Ubuntu-L fsp-15 rounded-p-10 max-wp-300 mx-auto mtp-10 hp-60 pep-20 psp-20 ptp-10 pbp-10 bgc-qiqi d-flex justify-content-center align-items-center">
                       Ensayamos en voz alta
                     </div>
-                    <div className="d-flex justify-content-start mbp-5 psp-15 ">
-                      <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                    <div className="mx-auto max-wp-400 mtp-15">
+                      <div className="d-flex justify-content-start mbp-5 psp-15 ">
+                        <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                        </div>
+                        <div className="text-start msp-5 mtp-10 pep-5  bgc-white  rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
+                          Volumen: Utilizamos un tono de voz adecuado para <br /> que nos escuchen.
+                        </div>
                       </div>
-                      <div className="text-start msp-5 mtp-10 pep-5  bgc-white  rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
-                        Volumen: Utilizamos un tono de voz adecuado para <br /> que nos escuchen.
+                      <div className="d-flex justify-content-start mbp-5 psp-15">
+                        <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                        </div>
+                        <div className="text-start msp-5 mtp-10 pep-5  bgc-white  rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
+                          Postura: Miramos a la cara a nuestro público.
+                        </div>
                       </div>
-                    </div>
-                    <div className="d-flex justify-content-start mbp-5 psp-15">
-                      <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
-                      </div>
-                      <div className="text-start msp-5 mtp-10 pep-5  bgc-white  rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
-                        Postura: Miramos a la cara a nuestro público.
-                      </div>
-                    </div>
-                    <div className="d-flex justify-content-start mbp-5 psp-15 ">
-                      <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
-                      </div>
-                      <div className="text-start msp-5 mtp-10 pep-5  bgc-white  rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
-                        Lenguaje no verbal: Utilizamos las manos para darle <br /> sentido a nuestro mensaje.
+                      <div className="d-flex justify-content-start mbp-5 psp-15 ">
+                        <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                        </div>
+                        <div className="text-start msp-5 mtp-10 pep-5  bgc-white  rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
+                          Lenguaje no verbal: Utilizamos las manos para darle <br /> sentido a nuestro mensaje.
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
 
