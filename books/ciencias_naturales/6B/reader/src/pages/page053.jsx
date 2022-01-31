@@ -168,7 +168,7 @@ function Page053(props) {
               <div className="col-md-12 col-lg-12 position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle "><img src="images/page_053/img_005.png" className="wp-90 " alt="" /></div>
                 <div className="d-flex mbp-20 mtp-10 w-100">
-                  <div className="p-2 min-hp-100 w-100 border-style-solid border-1 border-color-dark bgc-azuka ">
+                  <div className="p-2 min-hp-100 w-100 border-style-solid border-1 border-color-dark bgc-azuka box-shadow-simple">
                     <div className="d-flex  bgc-white text-start min-hp-0 bgc-white">
                       {/* <div className="w-100 text-center ">
             <span className="f-pixilate-semibold ">Como grupo, opinamos que</span>
