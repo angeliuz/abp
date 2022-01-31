@@ -118,7 +118,7 @@ function Page073(props) {
                           Volumen: Utilizamos un tono de voz adecuado para <br /> que nos escuchen.
                         </div>
                       </div>
-                      <div className="d-flex justify-content-start mbp-5 psp-15">
+                      <div className="d-flex justify-content-start align-items-center mbp-5 psp-15">
                         <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
                           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
                         </div>
