@@ -72,14 +72,14 @@
   --leono: #db86bf;
   --akuma: #f29eb7;
   --vegeta: #F4B4CF;
-  --guile: #e0bad7;
   --bach:#F4D0E7;
+  --guile: #e0bad7;
   --klee: #ebd0e4;
   --kokomi: #f4e6f1;
   --itto: #feede9;
   --blanka: #f4e6f0;
-
-
+  
+  
   --saitama: #7c6eb0;
   --quigon: #A7A1CD;
   --jade:#b0acd4;
@@ -825,6 +825,9 @@
 
 
 /* BORDERS */
+.border-color-transparent {
+  border-color: var(--transparent) !important;
+}
 .border-color-goku {
   border-color: var(--goku) !important;
 }

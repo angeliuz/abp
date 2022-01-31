@@ -7,6 +7,12 @@ function Page052(props) {
 
   const pagina = "052";
   var indexInput = 0;
+  const etapa = "4"
+  const background = "bgc-pidgey";
+  const color = "color-pidgey";
+  const borderColor = "border-color-pidgey"
+  const borderColorTabla = "border-color-pantro"
+  const bgc_cajas = "bgc-pantro";
 
   return (
     <div className="wrapper bgc-light">
@@ -16,55 +22,114 @@ function Page052(props) {
           <div className="cabecera-v1 hp-80 bgc-pidgey"></div>
           {/* END CABECERA VERSIÓN 2 */}
 
-          <div className="ptp-0 psp-100 pep-60 mbp-0 position-relative">
-            <div className="row justify-content-center">
-              <div className="col-12 p-0 m-0 position-relative">
-                <div className="position-absolute top-100 start-100 translate-middle visible-768"><img src="images/page_052/mono.png" className="hp-140 mep-40 mtp--130" alt="" /></div>
-                <div className="position-absolute top-50 start-0 translate-middle"><img src="images/page_052/lapiz.png" className="hp-80 msp-0 mtp--90" alt="" /></div>
-                <div className="bgc-jugador001 border-style-solid border-color-dark border-1 box-shadow-simple">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-330 contenedor-linea mep-10 msp-10" />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="ptp-10 psp-65 pep-40">
+          <div className="ptp-20 psp-65 pep-40 pbp-20">
             {/* <div className="f-Ubuntu-B fsp-17 color-pidgey text-start lhp-20 psp-0">Preparamos la jornada de diálogo</div> */}
             <div className="d-flex">
               {/* <img className="hp-15 mtp-20 pep-10" src="images/page_047/i_g.svg" alt="" /> */}
-              <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey pep-10">5</div>
-              <div className="f-Ubuntu-R fsp-14 text-start pep-10 mtp-15">Respondo:</div>
-              {/* <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/page_033/revista.png" clasesImagen="hp-35 mtp-10" /> */}
+              <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey pep-10">4</div>
+              <div className="f-Ubuntu-R fsp-14 text-start pep-10 mtp-15">En equipo, compartimos y comparamos nuestras apreciaciones y los puntajes con
+                que evaluamos el prototipo. Luego, analizamos y completamos.</div>
+              {/* <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/page_051/revista.svg" clasesImagen="hp-30 mtp-10" /> */}
+            </div>
+          </div>
+          <div className="d-flex global-margin mtp-10 mbp-10 psp-50 pep-15 ptp-0 pbp-0">
+            <div className="row p-0 m-0 w-100">
+
+              <div className="col-12 p-0 m-0 position-relative">
+                <div className="w-100 psp-40 ptp-20 pbp-20 pep-15 text-left bgc-draco p-2 box-shadow-simple position-relative">
+                  <div className="row w-100 p-0 m-0">
+                    <div className="col-12 f-Ubuntu-M fsp-14 lh-sm text-center ptp-20 ">Análisis de la evaluación</div>
+                    <div className="col-12 f-Ubuntu-L fsp-14 lh-sm text-start ptp-20 msp-20">Al probar el prototipo el resultado…</div>
+
+                    <div className="col-4 d-flex p-2">
+                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                      </div>
+                      <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">fue el esperado.</div>
+                    </div>
+
+                    <div className="col-6 d-flex  p-2">
+                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                      </div>
+                      <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">no fue el esperado.</div>
+                    </div>
+
+                  </div>
+
+                  <div className="position-absolute top-0 start-50 translate-middle h-100 ptp-10 pbp-10 "><div className="espiral-calado wp-30 h-100 rotate-90"></div></div>
+
+                  <div className="col-12 m-0 p-0  ">
+                  <div className="position-absolute top-0 start-100 translate-middle zindex-1 mtp-90 "><img src="images/page_052/img_001.png" className="wp-80 " alt="" /></div>
+                    <div className=" w-100  f-Ubuntu-L fsp-16 ptp-5  psp-10 pep-10 text-start mbp-10">
+                      <div className="m-0 p-0  "> Porque…</div>
+
+                      <div className="bgc-white rounded-p-10  p-3 mbp-10">
+
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-105" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-12 m-0 p-0  ">
+                    <div className=" w-100  f-Ubuntu-L fsp-16 ptp-5  psp-10 pep-10 text-start mbp-10">
+                      <div className="m-0 p-0  "> Lo que más nos gusta de nuestro prototipo es...</div>
+
+                      <div className="bgc-white rounded-p-10  p-3 mbp-10">
+
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-105" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-12 m-0 p-0  ">
+                    <div className=" w-100  f-Ubuntu-L fsp-16 ptp-5  psp-10 pep-10 text-start mbp-10">
+                      <div className="m-0 p-0  "> Lo que nos gustaría mejorar de nuestro prototipo es...</div>
+
+                      <div className="bgc-white rounded-p-10  p-3 mbp-10">
+
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-105" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-12 m-0 p-0  ">
+                    <div className=" w-100  f-Ubuntu-L fsp-16 ptp-5  psp-10 pep-10 text-start mbp-10">
+                      <div className="m-0 p-0  "> Si queremos mejorar nuestro prototipo debemos…</div>
+
+                      <div className="bgc-white rounded-p-10  p-3 mbp-10">
+
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-105" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div className="ptp-10 psp-65 pep-40">
-            <div className="row d-flex mx-auto f-Ubuntu-B fsp-15 mbp-0 position-relative justify-content-between">
-              <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-25 visible-768 zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-60 mtp-60" alt="" /></div>
-              <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp-25 zindex-1"><img src={"images/page_" + pagina + "/posit.png"} className="wp-60 mtp--60 msp-0" alt="" /></div>
-              <div className="col-sm-12 col-md-6 pbp-10">
-                <div className="text-center w-100 border-1 border-style-solid border-color-saitama rounded-p-10">
-                  <div className="rounded-set-6 hp-60 pep-20 psp-20 ptp-10 pbp-10 bgc-saitama d-flex justify-content-center align-items-center text-white p-2">¿A qué acuerdo llegamos<br />como curso?</div>
-                  <div className="psp-15 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-330" /></div>
+          <div className="d-flex global-margin mtp-30  psp-0 pep-15 ptp-0 pbp-0">
+            <div className="row p-0 m-0 w-100">
+              <div className="col-5 p-0 m-0">
+                <div className="d-flex">
+                  <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>5</div>
+                  <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Reflexiono en torno a mi
+                    participación en la creación
+                    del prototipo.</div>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-6 pbp-10">
-                <div className="text-center w-100 border-1 border-style-solid border-color-bulma rounded-p-10">
-                  <div className="rounded-set-6 hp-60 ptp-10 pbp-10 bgc-bulma d-flex justify-content-center align-items-center text-white p-2">¿Estoy de acuerdo con<br />ese acuerdo? ¿Por qué?</div>
-                  <div className="psp-15 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-330" /></div>
+              <div className="col-7 position-relative">
+              <div className="position-absolute top-0 start-100 translate-middle zindex-1 msp--40 mtp-20"><img src="images/page_052/pincho.svg" className="wp-30 " alt="" /></div>
+                <div className="d-flex mbp-20 mtp-10 w-100">
+                  <div className="p-2 min-hp-210 w-100 border-style-solid border-2  border-color-dark ">
+                    <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-center">Lo que más me costó realizar fue…</div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="ptp-10 psp-20 pep-140 pbp-60">
-            <div className="d-flex">
-              <img className="hp-15 mtp-20 pep-10" src="images/page_052/g.svg" alt="" />
-              <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey pep-10">6</div>
-              <div className="f-Ubuntu-R fsp-14 text-start pep-10 mtp-15">Creamos un documento en el que exponemos los desafíos de nuestro curso en torno a la convivencia y nuestras propuestas. Utilizamos el material que nos entregarán..</div>
-              <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/page_052/revista.svg" clasesImagen="hp-35 mtp-10" />
-            </div>
-          </div>
+
+
+
 
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>ABP &copy; SM</div>

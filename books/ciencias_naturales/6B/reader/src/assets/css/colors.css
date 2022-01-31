@@ -152,6 +152,7 @@
   --brahms:#f9f7d4;
   --olsen:#b8703a;
   --greyson:#edeeee;
+  --mozart:#54676f;
 
 
 }
@@ -877,6 +878,10 @@
     .color-greyson {
       color: var(--greyson);
     }
+    .color-mozart {
+      color: var(--mozart);
+    }
+
 
 
 
@@ -1371,6 +1376,9 @@
 .border-color-greyson {
   border-color: var(--greyson) !important;
  }
+ .border-color-mozart {
+  border-color: var(--mozart) !important;
+ }
 
 
 
@@ -1845,4 +1853,7 @@
 }
 .bgc-greyson {
   background-color: var(--greyson);
+}
+.bgc-mozart {
+  background-color: var(--mozart);
 }
