@@ -60,7 +60,7 @@ function Page046(props) {
                         </div>
                     </div>
 
-                    <div className="d-flex mtp-0 mbp-0 psp-110 pep-0 ptp-10 pbp-0">
+                    <div className="d-flex mtp-0 mbp-0 psp-100 pep-0 ptp-10 pbp-0">
                         <div className="row p-0 m-0 w-100 bgc-azuka rounded-tbs-10">
                             <div className="col-5 p-3 m-0 position-relative">
                                 <div className="f-Ubuntu-R fsp-14 ptp-18 psp-0 pep-10 text-start">¿Por qué elegimos este boceto?</div>
