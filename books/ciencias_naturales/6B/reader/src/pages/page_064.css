@@ -1,117 +1,47 @@
-
-  
-    
-    .cajota{
-      height: 800px;
-      margin-left:40px;
-      margin-right:40px;
-     
-      
-    }
+.imagen-64-sobre-papel{
+  z-index: 4;
+}
  
+.cb-ep-paper-64 {
+
+  position: relative;
+  width: calc(100% - 100px);
+  margin: 50px auto 46px;
+  /*max-width: 600px;*/
+}
 
 
-    .paleta{
-      top: 260px;
-      left: 725px;
-      transform: translate(-50%, -50%);
-      height: auto;
-      width: 160px;
-      text-align: center;
-      visibility: visible;
-    }
+.cb-ep-paper-content-64 {
+  position: relative;
+  z-index: 3;
+  background: #fefcfb;
+  padding: 20px 40px;
+  font-size: 16px;
+}
 
-    .pincel{
-        top: 550px;
-        left: 95px;
-        transform: translate(-50%, -50%);
-        height: auto;
-        width: 45px;
-        text-align: center;
-        visibility: visible;
-      }
+/* .cb-ep-paper-sign {
+  margin-top: 30px;
+  text-align: right;
+} */
 
-      .pintor{
-        top: 940px;
-        left: 100px;
-        transform: translate(-50%, -50%);
-        height: auto;
-        width: 600px;
-        text-align: center;
-        visibility: visible;
-      }
-    
-      .afiche{
-        top: 890px;
-        left: 600px;
-        transform: translate(-50%, -50%);
-        height: auto;
-        width: 400px;
-        text-align: center;
-        visibility: visible;
-      }
-     
-      .cajaafiche-1{
-        visibility: visible;
-      }
-      .cajaafiche-2{
-        visibility: hidden;
-      }
-      @media (max-width: 768px) {
-        .cajaafiche-1{
-          visibility: hidden;
-        }
-        .cajaafiche-2{
-          visibility: visible;
-        }
+.cb-ep-paper-64::before,
+.cb-ep-paper-64::after {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: #f1eee0;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
+  left: 0;
+  top: 0;
+}
 
-      }
-        
-        @media (max-width: 992px) {
-          .paleta{
-            top: 260px;
-            left: 725px;
-            transform: translate(-50%, -50%);
-            height: auto;
-            width: 160px;
-            text-align: center;
-            visibility: hidden;
-          }
-      
-          .pincel{
-              top: 550px;
-              left: 95px;
-              transform: translate(-50%, -50%);
-              height: auto;
-              width: 45px;
-              text-align: center;
-              visibility: hidden;
-            }
-      
-            .pintor{
-              top: 940px;
-              left: 100px;
-              transform: translate(-50%, -50%);
-              height: auto;
-              width: 350px;
-              text-align: center;
-              visibility: hidden;
-            }
-            .afiche{
-                top: 890px;
-                left: 620px;
-                transform: translate(-50%, -50%);
-                height: auto;
-                width: 600px;
-                text-align: center;
-                visibility: hidden;
-              }
-        }
-        @media (max-width: 576px) {
-          .cajota{
-            margin: 0 auto; 
-            
-            }
-        }
+.cb-ep-paper-64::before {
+z-index: 2;
+transform: rotate(-2deg);
+}
 
-        
+.cb-ep-paper-64::after {
+z-index: 1;
+transform: rotate(2deg);
+}

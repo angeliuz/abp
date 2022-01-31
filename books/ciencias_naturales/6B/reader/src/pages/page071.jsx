@@ -75,7 +75,8 @@ function Page071(props) {
                             {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
                         </div>
                     </div>
-                    <div class="cb-contenedor-mail">
+                    <div class="cb-contenedor-mail position-relative">
+                        <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp--20 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-50" alt="" /></div>
                         <div class="cb-datos-mail pep-15 psp-10 ptp-10 pbp-10">
                             <div class="d-flex mbp-5">
                                 <div class="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">De:</div>

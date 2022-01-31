@@ -1,0 +1,9 @@
+.mtp-especial-17{
+    margin-top: 120px;
+}
+
+@media (max-width: 767px) {
+    .mtp-especial-17{
+        margin-top: 0px;
+    }   
+}

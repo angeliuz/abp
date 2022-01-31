@@ -1,0 +1,9 @@
+.semaforo-wp-16{
+    height:300px;
+}
+
+@media (max-width: 767px) {
+    .semaforo-wp-16{
+        height:350px;
+    }   
+}
