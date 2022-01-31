@@ -20,8 +20,8 @@ function Page061(props) {
                     {/* BEGIN CABECERA VERSIÓN 2 */}
                     <div className={"cabecera-v2 " + background + " d-flex flex-column"}>
                         <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-                            <div className="caja wp-160 text-center  fsp-24 f-IntroRustG-Base">SESIÓN 13</div>
-                            <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">El diseño del álbum</div>
+                            <div className="caja wp-160 text-center  fsp-24 f-IntroRustG-Base">SESIÓN 16</div>
+                            <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Evaluamos las propuestas</div>
                         </div>
                         <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
                             <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
@@ -31,19 +31,19 @@ function Page061(props) {
                                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
                             </div>
                             <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                                Identificar conceptos e ideas <br />clave de la revista.
+                                Probar un aparato<br /> o sistema
                             </div>
                             <div className="p-0 align-self-center">
                                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global rotate-90" alt="" />
                             </div>
                             <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                                Establecer la principal<br /> conclusión de la revista.
+                                Valorar el funcionamiento<br /> del aparato o sistema
                             </div>
                             <div className="p-0 align-self-center">
                                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
                             </div>
                             <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
-                                Elaborar el editorial <br />de la revista.
+                                Intercambiar <br />apreciaciones
                             </div>
 
                         </div>
@@ -198,21 +198,6 @@ function Page061(props) {
                     </div>
 
 
-
-
-
-                    008db9
-
-
-                    009bc1
-
-                    00a7c9
-
-                    38b1d0
-
-                    5ebcd6
-
-                    7cc6de
 
 
 

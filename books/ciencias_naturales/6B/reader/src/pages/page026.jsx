@@ -63,7 +63,7 @@ function Page026(props) {
               <div className="max-wp-700 mx-auto position-relative mbp-20">
                 <div className=""><img src={"images/page_" + pagina + "/img_007.png"} className="w-100" alt="" /></div>
               </div>
-              </div>
+            </div>
 
 
           </div>
@@ -125,7 +125,7 @@ function Page026(props) {
                 <div className="d-flex w-100 p-2">
                   <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-android18 fsp-17 fw-700 ">b.</div>
                   <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Imaginamos cuáles de estas características, u otras, podrían contribuir a un
-colegio sostenible y lo relacionamos con el proyecto..</div>
+                    colegio sostenible y lo relacionamos con el proyecto..</div>
                   {/* <ModalVideo
                     id={"p" + pagina + "_video" + (indexInput += 1)}
                     image="images/generales/play.svg"
@@ -144,20 +144,20 @@ colegio sostenible y lo relacionamos con el proyecto..</div>
             </div>
           </div>
           <div className="d-flex  mtp-0 mbp-120 psp-90 pep-90 ptp-10 pbp-0">
-                        <div className="row p-0 m-0 w-100">
-                            <div className="col-12 p-0 m-0 position-relative">
-                                {/* <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_046/mono.png" className="hp-210 mep-50 mbp-200" alt="" /></div> */}
-                                <div className="rounded-p-10 border-style-solid border-color-goro border-3 p-2">
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-320 contenedor-linea" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div className="row p-0 m-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative">
+                {/* <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_046/mono.png" className="hp-210 mep-50 mbp-200" alt="" /></div> */}
+                <div className="rounded-p-10 border-style-solid border-color-goro border-3 p-2">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-320 contenedor-linea" />
+                </div>
+              </div>
+            </div>
+          </div>
 
 
 
 
-          
+
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
               ABP &copy; SM

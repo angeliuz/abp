@@ -1121,7 +1121,9 @@
 }
 
 
-
+.msp--4 {
+  margin-left: -4px;
+}
 .msp--5 {
   margin-left: -5px;
 }
@@ -2024,6 +2026,10 @@
 .mtp-300 {
   margin-top: 300px;
 }
+.mtp-400 {
+  margin-top: 400px;
+}
+
 
 
 
@@ -4655,6 +4661,9 @@
 
 
 /*arriba redondeado / abajo plano */
+.rounded-set-5 {
+  border-radius: 5px 5px 0px 0px;
+}
 .rounded-set-10 {
   border-radius: 10px 10px 0px 0px;
 }
@@ -4665,10 +4674,16 @@
   border-radius: 6px 6px 0px 0px;
 }
 /*abajo redondeado / arriba plano */
+.rounded-seb-10 {
+  border-radius: 0px 0px 10px 10px;
+}
 .rounded-seb-20 {
   border-radius: 0px 0px 20px 20px;
 }
 /*redondeado derecha, plano izquerda*/
+.rounded-tbe-5 {
+  border-radius: 0px 5px 5px 0px;
+}
 .rounded-tbe-10 {
   border-radius: 0px 10px 10px 0px;
 }
@@ -4676,11 +4691,14 @@
   border-radius: 0px 20px 20px 0px;
 }
 /*redondeado izquierda, plano derecha*/
-.rounded-tbs-20 {
-  border-radius: 20px 0px 0px 20px;
+.rounded-tbs-5 {
+  border-radius: 5px 0px 0px 5px;
 }
 .rounded-tbs-10 {
   border-radius: 10px 0px 0px 10px;
+}
+.rounded-tbs-20 {
+  border-radius: 20px 0px 0px 20px;
 }
 /*redondeado left-bottom*/
 .rounded-bs-10 {

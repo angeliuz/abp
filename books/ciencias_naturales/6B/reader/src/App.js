@@ -73,6 +73,12 @@ import Page069 from "./pages/page069";
 import Page070 from "./pages/page070";
 import Page071 from "./pages/page071";
 import Page072 from "./pages/page072";
+import Page073 from "./pages/page073";
+import Page074 from "./pages/page074";
+import Page075 from "./pages/page075";
+import Page076 from "./pages/page076";
+import Page077 from "./pages/page077";
+import Page078 from "./pages/page078";
 
 
 
@@ -180,6 +186,12 @@ function App() {
       <Page070 numeroPagina={clearZeros} />
       <Page071 numeroPagina={clearZeros} />
       <Page072 numeroPagina={clearZeros} />
+      <Page073 numeroPagina={clearZeros} />
+      <Page074 numeroPagina={clearZeros} />
+      <Page075 numeroPagina={clearZeros} />
+      <Page076 numeroPagina={clearZeros} />
+      <Page077 numeroPagina={clearZeros} />
+      <Page078 numeroPagina={clearZeros} />
 
     </div>
   );
