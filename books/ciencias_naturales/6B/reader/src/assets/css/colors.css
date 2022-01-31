@@ -858,7 +858,10 @@
     .color-calypso5 {
   color: var(--calypso5);
   }
-    .color-calypso6 {
+    .color-calypso7 {
+  color: var(--calypso7);
+  }
+   .color-calypso6 {
   color: var(--calypso6);
   }
   .color-grieg {
@@ -1346,6 +1349,9 @@
 .border-color-calypso6 {
   border-color: var(--calypso6) !important;
 }
+.border-color-calypso7 {
+  border-color: var(--calypso7) !important;
+}
 .border-color-grieg {
   border-color: var(--grieg) !important;
 }
@@ -1812,6 +1818,9 @@
 }
 .bgc-calypso6 {
   background-color: var(--calypso6);
+}
+.bgc-calypso7 {
+  background-color: var(--calypso7);
 }
 .bgc-grieg {
   background-color: var(--grieg);

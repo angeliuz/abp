@@ -109,7 +109,7 @@ function Page029(props) {
                         <div className="row m-0 psp-10 pep-10  pbp-0  w-100  ">
 
                             <div className="col-md-12 col-lg-12 position-relative ">
-                            <div className="position-absolute top-50 start-100 translate-middle zindex-2 msp-25 "> <img src={"images/page_" + pagina + "/img_004.png"} className="" alt="" />  </div>
+                                <div className="position-absolute top-50 start-100 translate-middle zindex-2 msp-25 "> <img src={"images/page_" + pagina + "/img_004.png"} className="" alt="" />  </div>
                                 <div className="d-flex flex-column mbp-0 mtp-0 w-100">
                                     {/* <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-center">una palabra que me haya llamado la atención</div> */}
                                     <div className="p-2 min-hp-80 w-100 ">
@@ -156,7 +156,7 @@ function Page029(props) {
                         {/* <div className="position-absolute top-0 start-100 translate-middle   visible-768 msp--80 mtp-60  imagen59-sobre-papel "> <img src={"images/page_" + pagina + "/img_003.png"} className="wp-80" alt="" />  </div> */}
 
                         <div className="msp-80 mep-60 position-relative ">
-                        <div className="position-absolute top-50 start-0 translate-middle zindex-2 msp--45 "> <img src={"images/page_" + pagina + "/img_005.png"} className="" alt="" />  </div>
+                            <div className="position-absolute top-50 start-0 translate-middle zindex-2 msp--45 "> <img src={"images/page_" + pagina + "/img_005.png"} className="" alt="" />  </div>
                             <div className="row w-100 ">
                                 <div className="cb-ep-paper-59 ">
                                     <div className="cb-ep-paper-content-59 f-Ubuntu-L text-start">
@@ -215,9 +215,9 @@ function Page029(props) {
 
 
                             <div className="col-sm-12 col-md-6 pbp-10 position-relative">
-                            <div className="position-absolute top-0 start-0 translate-middle msp-20 mtp-20 "> <img src={"images/page_" + pagina + "/img_006.png"} className="" alt="" />  </div>
+                                <div className="position-absolute top-0 start-0 translate-middle msp-20 mtp-20 "> <img src={"images/page_" + pagina + "/img_006.png"} className="" alt="" />  </div>
                                 <div className="text-center w-100 border-2 border-style-solid border-color-kagome bgc-kagome rounded-p-10">
-                                    <div className="f-Ubuntu-L fsp-16 rounded-set-6 hp-60 pep-20 psp-20 ptp-10 pbp-10 bgc-white d-flex justify-content-center align-items-center color-dark p-2">¿Por qué es una solución<br/>
+                                    <div className="f-Ubuntu-L fsp-16 rounded-set-6 hp-60 pep-20 psp-20 ptp-10 pbp-10 bgc-white d-flex justify-content-center align-items-center color-dark p-2">¿Por qué es una solución<br />
                                         al problema energético?</div>
                                     <div className="psp-15 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" /></div>
                                 </div>
@@ -225,7 +225,7 @@ function Page029(props) {
                             <div className="col-sm-12 col-md-6 pbp-10 position-relative">
                                 <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp-20 "> <img src={"images/page_" + pagina + "/img_006.png"} className="" alt="" />  </div>
                                 <div className="text-center w-100 border-2 border-style-solid border-color-naraku bgc-naraku rounded-p-10">
-                                    <div className="f-Ubuntu-L fsp-16 rounded-set-6 hp-60 ptp-10 pbp-10 bgc-white d-flex justify-content-center align-items-center color-dark p-2">¿En qué otros lugares se podría<br/> replicar esta solución?</div>
+                                    <div className="f-Ubuntu-L fsp-16 rounded-set-6 hp-60 ptp-10 pbp-10 bgc-white d-flex justify-content-center align-items-center color-dark p-2">¿En qué otros lugares se podría<br /> replicar esta solución?</div>
                                     <div className="psp-15 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" /></div>
                                 </div>
                             </div>
