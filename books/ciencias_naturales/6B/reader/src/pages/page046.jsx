@@ -47,64 +47,6 @@ function Page046(props) {
                         </div>
                     </div>
 
-                    {/* <div className="d-flex global-margin mtp-0 mbp-10 psp-50 pep-0 ptp-0 pbp-0">
-                        <div className="row p-0 m-0 w-100">
-                            <div className="col-sm-3 col-md-12 p-0 m-0 position-relative d-flex center-center">
-                                <div className="row f-Ubuntu-R justify-content-center f-Ubuntu-R fsp-14 lh-sm p-0 m-0 w-100">
-
-                                    <div className="col-md-2 col-sm-12 bgc-kokomi p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative m-2">
-                                        <p className="p-0 m-0 color-pikachu">Seguro</p>
-                                        <div className="cambio position-absolute translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
-                                    </div>
-                                    <div className="col-md-2 col-sm-12 bgc-azuka p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative m-2">
-                                        <p className="p-0 m-0 color-android18">Funcional</p>
-                                        <div className="cambio position-absolute translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
-                                    </div>
-                                    <div className="col-md-2 col-sm-12 bgc-sid p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative m-2">
-                                        <p className="p-0 m-0 color-pidgey">Creativo</p>
-                                        <div className="cambio position-absolute translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
-                                    </div>
-                                    <div className="col-md-2 col-sm-12 bgc-genos p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative m-2">
-                                        <p className="p-0 m-0 color-goten">Realista</p>
-                                        <div className="cambio position-absolute translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
-                                    </div>
-                                    <div className="col-md-2 col-sm-12 bgc-piccolo p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative m-2">
-                                        <p className="p-0 m-0 color-bulma">Sostenible</p>
-                                        <div className="cambio position-absolute translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div className="col-sm-5 col-md-12 p-0 m-0 position-relative hp-100"></div>
-                            <div className="col-sm-4 col-md-12 p-0 m-0 position-relative">
-                                <div className="row f-Ubuntu-R justify-content-center align-items-top f-Ubuntu-R fsp-13 lh-sm h-100">
-
-                                    <div className="col-md-2 col-sm-12 bgc-pantro p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative m-1 d-flex align-items-center">
-                                        <p className="p-0 m-0">Tiene que adecuarse a nuestras necesidades.</p>
-                                        <div className="cambio1 position-absolute translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
-                                    </div>
-                                    <div className="col-md-2 col-sm-12 bgc-pantro p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative m-1 d-flex align-items-center">
-                                        <p className="p-0 m-0">Debe ser respetuoso con el medioambiente.</p>
-                                        <div className="cambio1 position-absolute translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
-                                    </div>
-                                    <div className="col-md-2 col-sm-12 bgc-pantro p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative m-1 d-flex align-items-center">
-                                        <p className="p-0 m-0">Tiene que ayudarnos a aprovechar la energía y ser fácil de usar.</p>
-                                        <div className="cambio1 position-absolute translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
-                                    </div>
-                                    <div className="col-md-2 col-sm-12 bgc-pantro p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative m-1 d-flex align-items-center">
-                                        <p className="p-0 m-0">Su uso no debe presentar ningún peligro para los usuarios.</p>
-                                        <div className="cambio1 position-absolute translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
-                                    </div>
-                                    <div className="col-md-2 col-sm-12 bgc-pantro p-2 rounded-p-10 border-style-solid border-color-dark border-1 position-relative m-1 d-flex align-items-center">
-                                        <p className="p-0 m-0">Se debe poder construir con los recursos que tenemos.</p>
-                                        <div className="cambio1 position-absolute translate-middle wp-15 hp-15 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
-
                     <div className="ptp-10 container-titulo-global-1 mbp-0">
                         {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>xxx</div> */}
                         <div className="d-flex psp-0">
@@ -118,55 +60,24 @@ function Page046(props) {
                         </div>
                     </div>
 
-                    {/* <div className="d-flex global-margin mtp-0 mbp-60 psp-50 pep-0 ptp-0 pbp-0">
-                        <div className="row p-0 m-0 w-100">
-                            <div className="col-sm-12 col-md-6 p-1 m-0 position-relative">
-                                <div className="bgc-android18 rounded-p-10 p-2">
-                                    <p className="text-white f-Ubuntu-M fsp-16 lh-sm min-hp-50 m-0 pb-2 d-flex justify-content-center align-items-center">La propuesta de cada integrante es…</p>
-                                    <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 text-start flex-grow-1 lhp-35 min-hp-175 contenedor-linea" /></div>
-                                </div>
+                    <div className="d-flex mtp-0 mbp-0 psp-110 pep-0 ptp-10 pbp-0">
+                        <div className="row p-0 m-0 w-100 bgc-azuka rounded-tbs-10">
+                            <div className="col-5 p-3 m-0 position-relative">
+                                <div className="f-Ubuntu-R fsp-14 ptp-18 psp-0 pep-10 text-start">¿Por qué elegimos este boceto?</div>
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-140 contenedor-linea" />
+                                <div className="f-Ubuntu-R fsp-14 ptp-18 psp-0 pep-10 text-start">¿Necesitamos modificarlo?</div>
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-140 contenedor-linea" />
                             </div>
-                            <div className="col-sm-12 col-md-6 p-1 m-0 position-relative">
-                                <div className="bgc-bulma rounded-p-10 p-2">
-                                    <p className="text-white f-Ubuntu-M fsp-16 lh-sm min-hp-50 m-0 pb-2 d-flex justify-content-center align-items-center">Las características que cumple cada propuesta son…</p>
-                                    <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 text-start flex-grow-1 lhp-35 min-hp-175 contenedor-linea" /></div>
-                                </div>
-                            </div>
-                            <div className="col-sm-12 col-md-6 p-1 m-0 position-relative">
-                                <div className="bgc-saitama rounded-p-10 p-2">
-                                    <p className="text-white f-Ubuntu-M fsp-16 lh-sm min-hp-50 m-0 pb-2 d-flex justify-content-center align-items-center">La propuesta que hemos escogido es...</p>
-                                    <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 text-start flex-grow-1 lhp-35 min-hp-175 contenedor-linea" /></div>
-                                </div>
-                            </div>
-                            <div className="col-sm-12 col-md-6 p-1 m-0 position-relative">
-                                <div className="bgc-vegeta rounded-p-10 p-2">
-                                    <div className="bgc-white rounded-p-10 w-100 h-100 p-2">
-                                        <p className="f-Ubuntu-L fsp-16 lh-sm mbp-10">El nivel de dificultad que tiene la construcción de la propuesta es...</p>
-                                        <div className="d-flex align-items-center psp-40 pbp-10">
-                                            <div className="border-style-solid border-1 border-color-lightDark bgc-white"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0 text-center wp-25 hp-25" /></div>
-                                            <div className="psp-10 ptp-0 f-Ubuntu-L fsp-16 text-start">Muy alto</div>
-                                        </div>
-                                        <div className="d-flex align-items-center psp-40 pbp-10">
-                                            <div className="border-style-solid border-1 border-color-lightDark bgc-white"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0 text-center wp-25 hp-25" /></div>
-                                            <div className="psp-10 ptp-0 f-Ubuntu-L fsp-16 text-start">Alto</div>
-                                        </div>
-                                        <div className="d-flex align-items-center psp-40 pbp-10">
-                                            <div className="border-style-solid border-1 border-color-lightDark bgc-white"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0 text-center wp-25 hp-25" /></div>
-                                            <div className="psp-10 ptp-0 f-Ubuntu-L fsp-16 text-start">Medio</div>
-                                        </div>
-                                        <div className="d-flex align-items-center psp-40 pbp-10">
-                                            <div className="border-style-solid border-1 border-color-lightDark bgc-white"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0 text-center wp-25 hp-25" /></div>
-                                            <div className="psp-10 ptp-0 f-Ubuntu-L fsp-16 text-start">Bajo</div>
-                                        </div>
-                                        <div className="d-flex align-items-center psp-40">
-                                            <div className="border-style-solid border-1 border-color-lightDark bgc-white"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0 text-center wp-25 hp-25" /></div>
-                                            <div className="psp-10 ptp-0 f-Ubuntu-L fsp-16 text-start">Muy bajo</div>
-                                        </div>
-                                    </div>
+                            <div className="col-7 m-0 position-relative p-0">
+                                <div className="position-absolute top-50 start-0 translate-middle"><img src="images/page_046/pincel.png" className="hp-80 mep-0 mbp-0" alt="" /></div>
+                                <div className="position-absolute top-100 start-0 translate-middle"><img src="images/page_046/compas.png" className="hp-50 mep-0 mbp-130" alt="" /></div>
+                                <div className="rounded-tbs-10 border-style-solid border-color-android18 border-1 bgc-white p-2 mtp-10 h-100">
+                                    <div className="f-Ubuntu-R fsp-14 ptp-14 psp-0 pep-10 text-start">Dibujamos el boceto final.</div>
+                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mep-45 text-start flex-grow-1 lhp-35 min-hp-320" />
                                 </div>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
 
                     {/* BEGIN PIE DE PAGINA */}
                     <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
