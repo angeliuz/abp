@@ -105,7 +105,7 @@ function Page040(props) {
                   </div>
                 </div>
               </div>
-              <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--110 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-100" alt="" /></div>
+              <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--110 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-110" alt="" /></div>
 
             </div>
           </div>
