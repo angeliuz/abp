@@ -219,7 +219,7 @@ function Page063(props) {
                 <div className="d-flex w-100 p-2">
                   <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-saitama fsp-17  fw-700 pbp-5">c.</div>
                   <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Señalamos los beneficios que tendría la instalación de nuestro aparato o
-                    sistema tecnológico para el colegio.</div>
+                    sistema tecnológico para el colegio .</div>
                 </div>
 
               </div>
