@@ -30,25 +30,25 @@ function Page053(props) {
                 Mis objetivos <br />en  esta sesión son:
               </div>
               <div className="p-0 align-self-center">
-                <img src="images/page_053/flecha.svg" className="wp-40 arrow-global" alt="" />
+                <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
                 Seleccionar los temas <br />que vamos a incluir en<br /> el video
               </div>
-              <div className="p-0 align-self-center">
-                <img src="images/page_053/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
+              <div className="psp-5 pep-5 align-self-center">
+                <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
                 Escribir una secuencia<br /> de ideas para incluir<br />en el video
               </div>
               <div className="p-0 align-self-center">
-                <img src="images/page_053/flecha.svg" className="wp-40 arrow-global" alt="" />
+                <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
                 Distribuir las<br /> tareas
               </div>
-              <div className="p-0 align-self-center">
-                <img src="images/page_053/flecha.svg" className="wp-40 arrow-global" alt="" />
+              <div className="psp-5 pep-5 align-self-center">
+                <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
                 Grabar el video
@@ -99,7 +99,7 @@ function Page053(props) {
                           <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
                             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
                           </div>
-                          <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">Ventajas del prototipo.</div>
+                          <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5 pbp-10">Ventajas del prototipo.</div>
                         </div>
                         <div className="col-6 d-flex p-2">
                           <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
@@ -112,7 +112,7 @@ function Page053(props) {
                           <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
                             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
                           </div>
-                          <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">Mejoras del prototipo.</div>
+                          <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5 pbp-10">Mejoras del prototipo.</div>
                         </div>
 
                         <div className="col-6 d-flex  p-2">
