@@ -20,37 +20,26 @@ function Page063(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className={"cabecera-v2 " + background + " d-flex flex-column"}>
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja wp-160 text-center  fsp-24 f-IntroRustG-Base">SESIÓN 17</div>
-              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Evaluamos las propuestas</div>
+              <div className="caja wp-160 text-center  fsp-24 f-IntroRustG-Base">SESIÓN 16</div>
+              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Finalizamos nuestra obra de arte</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Mis objetivos <br />en  esta sesión son:
+                Mis objetivos en  esta sesión son:<br />
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Definir un lugar<br /> para la instalación<br />del proyecto<br />
+                Finalizar la elaboración de la obra de arte.<br />
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global rotate-90" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Señalar los beneficios<br />del proyecto para<br />el colegio
+                Evaluar la obra y nuestro trabajo.
               </div>
-              <div className="p-0 align-self-center">
-                <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
-              </div>
-              <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
-                Escribir un carta<br />a la dirección para<br />solicitar la instalación<br />
-              </div>
-              <div className="p-0 align-self-center">
-                <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global rotate-90" alt="" />
-              </div>
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Instalar el aparato o<br />sistema que aprovecha<br />la energía<br />
-              </div>
+
             </div>
           </div>
           {/* END CABECERA VERSIÓN 2 */}
@@ -65,13 +54,69 @@ function Page063(props) {
                 1
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Nos organizamos para instalar nuestro aparato o sistema tecnológico en el colegio.
+                Recordamos los roles y las estrategias definidas para elaborar la obra. Luego, la terminamos.
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
+
+
+
+          <div className="ptp-10 container-titulo-global mbp-0">
+            {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+                            Plan de trabajo
+                        </div> */}
+            <div className="d-flex psp-45">
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_003.svg"} alt="" /> */}
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                2
+              </div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                Analizamos la obra de otro grupo y la comentamos a partir de las preguntas sugeridas.
+              </div>
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
+              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+            </div>
+          </div>
+
+
+
+          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 m-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative">
+                <div className="row">
+                  <div className="col-12">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="d-flex mtp-30 msp-90 mep-60 position-relative">
+
+            <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-40 visible-768 imagen-64-sobre-papel zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60 mtp--20 msp--50" alt="" /></div>
+            <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--70 visible-768 imagen-64-sobre-papel zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-70" alt="" /></div>
+            {/* <div className="position-absolute top-0 start-0 translate-middle msp-0 mtp--40 visible-768 imagen1-64-sobre-papel zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div> */}
+            <div className="row w-100">
+
+              <div className="cb-ep-paper-63 ">
+                <div className="cb-ep-paper-content-63 f-Ubuntu-L text-start hp-700 ">
+                  <div className="mtp-0 ">
+                    <div className="d-flex justify-content-center align-items-center text-start f-Ubuntu-R fsp-15 ptp-0 psp-5">Mis comentarios de la obra que revisé son los siguientes...</div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
 
 
 
@@ -188,7 +233,7 @@ function Page063(props) {
 
 
 
-          <div className="msp-70 mep-60 mbp-20">
+          <div className="msp-70 mep-60 mbp-70 ">
             <div className="row   ">
               <div className="col-6 m-0 p-0  border-style-solid border-2 border-color-misty rounded-tbs-10 border-end-0 bgc-grieg   ">
                 <div className=" w-100  f-Ubuntu-R fsp-16 ptp-5  psp-10 pep-10 text-start mbp-10">
@@ -211,43 +256,6 @@ function Page063(props) {
           </div>
 
 
-
-          <div className="d-flex global-margin h-100  mtp-0 mbp-10 psp-30 pep-0 ptp-0 pbp-0">
-            <div className="row p-0 msp-0 w-100">
-              <div className="col-12 p-0 m-0 position-relative">
-
-                <div className="d-flex w-100 p-2">
-                  <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-saitama fsp-17  fw-700 pbp-5">c.</div>
-                  <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Señalamos los beneficios que tendría la instalación de nuestro aparato o
-                    sistema tecnológico para el colegio .</div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-
-
-          <div className="  msp-60 mep-40 mbp-60">
-
-            <div className="row">
-              <div className="col-12 position-relative">
-
-                <div className="position-absolute top-50 start-0 translate-middle psp-60  msp--4 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-60" alt="" /></div>
-
-                <div className="d-flex align-items-center bgc-olsen w-100 psp-5 ptp-5 pep-5 pbp-5 psp-20 ">
-
-                  <div className="psp-35 pep-20 ptp-0 pbp-5 m-0  w-100 bgc-brahms ">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
-                  </div>
-
-                </div>
-
-              </div>
-            </div>
-
-
-          </div>
 
 
 

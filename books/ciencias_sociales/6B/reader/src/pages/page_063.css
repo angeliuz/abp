@@ -1,50 +1,43 @@
-.gira--4{
-    transform:rotate(-4deg);
-}
+.cb-ep-paper-63 {
 
-:root{
-    
-
---brahms:#f9f7d4;
---olsen:#b8703a;
-
+  position: relative;
+  width: calc(100% - 100px);
+  margin: 50px auto 46px;
+  /*max-width: 600px;*/
 }
 
 
-.color-grieg {
-    color: var(--grieg);
-    }
-  
-     .color-brahms {
-    color: var(--brahms);
-    }
-     .color-olsen {
-    color: var(--olsen);
-    }
+.cb-ep-paper-content-63 {
+  position: relative;
+  z-index: 3;
+  background: #fefcfb;
+  padding: 20px 40px;
+  font-size: 16px;
+}
 
-    .border-color-grieg {
-        border-color: var(--grieg) !important;
-      }
-      .border-color-brahms {
-        border-color: var(--brahms) !important;
-      }
-      .border-color-olsen {
-       border-color: var(--olsen) !important;
-      }
-      
+/* .cb-ep-paper-sign {
+  margin-top: 30px;
+  text-align: right;
+} */
 
+.cb-ep-paper-63::before,
+.cb-ep-paper-63::after {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: #f1eee0;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
+  left: 0;
+  top: 0;
+}
 
-      .bgc-grieg {
-        background-color: var(--grieg);
-      }
-      .bgc-brahms {
-        background-color: var(--brahms);
-      }
-      .bgc-olsen {
-        background-color: var(--olsen);
-      }
-      
+.cb-ep-paper-63::before {
+z-index: 2;
+transform: rotate(-2deg);
+}
 
-      .msp--4 {
-        margin-left: -4px;
-      }
+.cb-ep-paper-63::after {
+z-index: 1;
+transform: rotate(2deg);
+}
