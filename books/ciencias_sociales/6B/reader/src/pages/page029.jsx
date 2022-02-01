@@ -193,10 +193,10 @@ function Page029(props) {
                                             <div className="d-flex flex-column mbp-0 mtp-0 w-100">
                                                 {/* <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-center">una palabra que me haya llamado la atención</div> */}
                                                 <div className="p-2 min-hp-80 w-100 ">
-                                                    <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
+                                                    
                                                         <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-center">¿Para qué se utilizan los desechos de los animales?</div>
 
-                                                    </div>
+                                                    
                                                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                                                 </div>
 
