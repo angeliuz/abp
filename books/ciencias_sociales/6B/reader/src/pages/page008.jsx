@@ -30,109 +30,84 @@ function Page008(props) {
                     2
                   </div>
                   <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                    Completo la ficha de inscripción para aceptar el desafío.
+                    Completo.
                   </div>
                   {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                   {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
                   {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
                 </div>
               </div>
-
-              <div className="d-flex max-wp-500 mx-auto">
-                <div className="color-luke fw-700 rounded-set-10  bgc-akuma p-2 wp-120 f-Ubuntu-R fsp-15 hp-40">
-                  INICIO
-                </div>
-                <div className="color-obiwan fw-700 rounded-set-10  bgc-milena p-2 wp-120 f-Ubuntu-R fsp-15 hp-40">
-                  NOTICIAS
-                </div>
-                <div className="color-ken fw-700 rounded-set-10  bgc-trunks p-2 wp-120 f-Ubuntu-R fsp-15 hp-40">
-                  INSCRIPCIÓN
-                </div>
-                <div className="color-balrog fw-700 rounded-set-10  bgc-rain p-2 wp-120 f-Ubuntu-R fsp-15 hp-40">
-                  CONTACTO
+              {/* BEGIN EJERCICIO 1 */}
+              <div className="row mx-auto d-flex f-Ubuntu-R fsp-15 mbp-20 ">
+                <div className="position-relative">
+                  <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp-10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-30" alt="" /></div>
+                  <div className="position-absolute top-0 start-50 translate-middle msp--170 mtp-10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-30" alt="" /></div>
                 </div>
 
-              </div>
-              {/* EJERCICIO UNO */}
-              <div className="max-wp-600 mx-auto bgc-trunks rounded-p-10 justify-content-center align-items-center ptp-10 pep-10 psp-10 pbp-10 position-relative">
-                <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-80" alt="" /></div>
-                <div className="w-100 d-flex justify-content-center align-items-center">
-                  <div className="text-start w-100 max-wp-80 mep-5 f-Ubuntu-R fsp-15">Nombre</div>
-                  <div className="text-start bgc-white w-100 border-1 border-style-solid border-color-ken rounded-1 ">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-30" />
+                <div className="col-sm-12 col-md-6 position-relative">
+                  <div className="color-white wp-20 hp-20 fw-700 position-absolute top-0 start-0 translate-middle msp-10 mtp-35 zindex-1 bgc-goten">
+                    a
                   </div>
-                </div>
-                <div className="w-100 d-flex mtp-5 justify-content-center align-items-center">
-                  <div className="text-start w-100 max-wp-80 mep-5 f-Ubuntu-R fsp-15">Apellidos</div>
-                  <div className="text-start bgc-white w-100 border-1 border-style-solid border-color-ken rounded-1 ">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-30" />
-                  </div>
-                </div>
-                <div className="w-100 d-flex mtp-5 justify-content-center align-items-center">
-                  <div className="text-start w-100 max-wp-80 mep-5 f-Ubuntu-R fsp-15">Colegio</div>
-                  <div className="text-start bgc-white w-100 border-1 border-style-solid border-color-ken rounded-1 ">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-30" />
-                  </div>
-                </div>
-                <div className="w-100 d-flex mtp-5 justify-content-center align-items-center">
-                  <div className="text-start w-100 max-wp-80 mep-5 pep-5 f-Ubuntu-R fsp-15">Edad</div>
-                  <div className="text-start bgc-white w-100  border-1 border-style-solid border-color-ken rounded-1">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-30" />
-                  </div>
-                  <div className="text-end w-100 max-wp-80 mep-5 pep-5 f-Ubuntu-R fsp-15">Curso</div>
-                  <div className="text-start bgc-white w-100 border-1 border-style-solid border-color-ken rounded-1 ">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-30" />
-                  </div>
-                  <div className="text-end w-100 max-wp-80 mep-5 pep-5 f-Ubuntu-R fsp-15">Fecha</div>
-                  <div className="text-start bgc-white w-100 border-1 border-style-solid border-color-ken rounded-1 ">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-30" />
-                  </div>
-                </div>
-                <div className="mtp-10 bgc-white border-1 border-style-solid border-color-dark ptp-15">
-                  <span className="text-center fsp-16 color-saitama f-Ubuntu-R fw-700 "> NORMAS DE PARTICIPACIÓN</span>
-                  <div className="psp-10 pep-10 pbp-10 ptp-5">
-                    <div className="d-flex align-items-center w-100 ">
-                      <div className="wp-5 hp-5 bgc-saitama rounded-circle"></div>
-                      <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">
-                        Formar un equipo y trabajar juntos para superar el desafío.
-                      </div>
+                  <div className="text-start w-100 box-shadow-simple rounded-p-10  mtp-10">
+                    <div className="rounded-set-6  pep-20 psp-20 ptp-15  d-flex justify-content-start align-items-center">
+                      Nos envió un mensaje una persona llamada
                     </div>
-                    <div className="d-flex align-items-center w-100 ">
-                      <div className="wp-5 hp-5 bgc-saitama rounded-circle"></div>
-                      <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">
-                        Buscar información sobre la sostenibilidad y las energías renovables.
-                      </div>
-                    </div>
-                    <div className="d-flex align-items-center w-100 ">
-                      <div className="wp-5 hp-5 bgc-saitama rounded-circle"></div>
-                      <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">
-                        Diseñar un prototipo innovador para aprovechar las energías renovables.
-                      </div>
-                    </div>
-                    <div className="d-flex align-items-center w-100 ">
-                      <div className="wp-5 hp-5 bgc-saitama rounded-circle"></div>
-                      <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">
-                        Crear un aparato o sistema que aproveche las energías renovables.
-                      </div>
-                    </div>
-                    <div className="d-flex align-items-center w-100 ">
-                      <div className="wp-5 hp-5 bgc-saitama rounded-circle"></div>
-                      <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">
-                        Presentar el sistema o aparato a la comunidad educativa.
-                      </div>
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
                     </div>
                   </div>
                 </div>
-                <div className="d-flex justify-content-center mbp-5 ">
-                  <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-ken rounded-1">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                <div className="col-sm-12 col-md-6 position-relative">
+                  <div className="color-white wp-20 hp-20 fw-700 position-absolute top-0 start-0 translate-middle msp-10 mtp-35 zindex-1 bgc-goten">
+                    b
                   </div>
-                  <div className="msp-5  mtp-10 pep-5 psp-5 bgc-white border-1 border-style-solid border-color-ken rounded-1 f-Ubuntu-L fsp-15 d-flex align-items-center">
-                    He leído, acepto las normas y quiero participar.
+                  <div className="text-start w-100 box-shadow-simple rounded-p-10 mtp-10">
+                    <div className="rounded-set-6  pep-20 psp-20 ptp-15  d-flex justify-content-start align-items-center">
+                      Ella se dedica a
+                    </div>
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
+                    </div>
                   </div>
                 </div>
 
               </div>
+              {/* BEGIN EJERCICIO 1 */}
+              <div className="row mx-auto d-flex f-Ubuntu-R fsp-15 mbp-20 ">
+                <div className="position-relative">
+                  <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp-10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-30" alt="" /></div>
+                  <div className="position-absolute top-0 start-50 translate-middle msp--40 mtp-10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-30" alt="" /></div>
+                </div>
+
+                <div className="col-sm-12 col-md-6 position-relative">
+                  <div className="color-white wp-20 hp-20 fw-700 position-absolute top-0 start-0 translate-middle msp-10 mtp-35 zindex-1 bgc-goten">
+                    c
+                  </div>
+                  <div className="text-start w-100 box-shadow-simple rounded-p-10  mtp-10">
+                    <div className=" rounded-set-6 pep-20 psp-20 ptp-15  d-flex justify-content-start align-items-center">
+                      El desafío que nos propone consiste en
+                    </div>
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-12 col-md-6 position-relative">
+                  <div className="color-white wp-20 hp-20 fw-700 position-absolute top-0 start-0 translate-middle msp-10 mtp-35 zindex-1 bgc-goten">
+                    d
+                  </div>
+                  <div className="text-start w-100 box-shadow-simple rounded-p-10 mtp-10">
+                    <div className="rounded-set-6  pep-20 psp-20 ptp-15  d-flex justify-content-start align-items-center">
+                      Este desafío es importante porque
+                    </div>
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
 
 
             </div>
@@ -142,18 +117,18 @@ function Page008(props) {
           <div className={"d-flex w-100 mtp-50 psp-60 pep-60 ptp-20 mbp-0 border-top-style-solid " + borderColor + " border-2 pbp-80 " + bgc_cajas}>
             <div className="row w-100 p-0 m-0">
               <div className="col-12 position-relative">
-                <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp--60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-120" alt="" /></div>
+                <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp--60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-120" alt="" /></div>
                 <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
                 <div className="d-flex flex-column mbp-20 mtp-10 w-100">
                   <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
                     <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
                       <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 wp-15" alt="" />
-                      <span>¿De qué se trata el desafío?</span>
+                      <span>¿Qué aspectos del desafío no entendí del todo?</span>
                     </div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
                     <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 mtp-20 text-start">
                       <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 wp-15" alt="" />
-                      <span>¿Qué creo que no he entendido del todo?</span>
+                      <span>¿Qué debería preguntar para entenderlo mejor?</span>
                     </div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
                   </div>
@@ -167,7 +142,7 @@ function Page008(props) {
                   <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
                     <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
                       <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 wp-15" alt="" />
-                      <span>El desafío me hace sentir</span>
+                      <span>Frente al desafío, me siento</span>
                     </div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
                   </div>

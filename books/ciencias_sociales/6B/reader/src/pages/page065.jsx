@@ -23,44 +23,37 @@ function Page065(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className={"cabecera-v2 d-flex flex-column " + background}>
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN 18</div>
-              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡Los invitamos a todos!</div>
+              <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN 17</div>
+              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Pensamos en los visitantes de la exposición</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-95">
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Mis objetivos en esta sesión son:<br />
+                Mis objetivos en <br />esta sesión son:
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Establecer el día de la presentación<br />del proyecto<br /> para la instalación
+                Crear la ficha que presenta<br />la obra de arte al público.
+
               </div>
               <div className="psp-5 pep-5 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Proponer formatos<br />para elaborar invitaciones
+                Definir el título de<br />la exposición.
+
               </div>
 
               <div className="psp-5 pep-5 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Crear las invitaciones<br />  para la presentación<br /> del proyecto
+                Crear y enviar las<br /> invitaciones a la exposición.
+
               </div>
-              <div className="p-0 align-self-center">
-                <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
-              </div>
-              <div className="psp-5 pep-5 ptp-10 pbp-10 position-relative align-self-center f-colby-compres-bold fsp-17 lh-sm text-center color-dark">
-                <div className="position-absolute top-0 start-0 w-100 h-100">
-                  <img src="images/cabecera/caja_blanca.png" width="100%" height="100%" alt="" />
-                </div>
-                <div className="position-relative">
-                  Valorar el trabajo
-                  en equipo
-                </div>
-              </div>
+
+
             </div>
           </div>
           {/* END CABECERA VERSIÓN 2 */}
@@ -87,8 +80,8 @@ function Page065(props) {
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 1
               </div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Preparamos las invitaciones para que toda la comunidad educativa asista a la presentación de nuestro proyecto.
+              <div className="f-Ubuntu-R fsp-16 ptp-15 psp-10 mbp-10 pep-10 text-start">
+                Con mi grupo elaboro la ficha con que presentaremos nuestra obra en la exposición. Luego, la presentamos al curso.
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
@@ -106,40 +99,51 @@ function Page065(props) {
           <div className="d-flex global-margin mtp-20 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
-                <div className="position-absolute top-50 start-0 translate-middle    msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="hp-80 mtp--160" alt="" /></div>
+                <div className="position-absolute top-100 start-100 translate-middle    msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-50 mtp-0" alt="" /></div>
 
-                <div className="w-100 h-100 bgc-greyson">
-                  <div className="row m-0 p-2  ">
-                    <div className="col-8 m-0 p-0">
-                      <div className="f-Ubuntu-R fsp-16 ptp-18 psp-20 pep-0 pbp-0 text-start">
-                        El objetivo de la invitación es...
-                      </div>
-                      <div className="psp-20 pep-20 ptp-0 pbp-5 m-0  w-100 ">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
-                      </div>
+                <div className="w-100 h-100 bgc-hannah rounded-p-10 pbp-15">
+                  <div className="row m-0 p-0  ">
+
+
+                    <div className="col-2 d-flex align-items-center ">
+                      <div className=" f-Ubuntu-R fsp-16 ptp-18 psp-0 pep-0 pbp-0 text-start">Autores/as:</div>
                     </div>
-                    <div className="col-4  m-0 p-0 ">
-                      <div className="f-Ubuntu-R fsp-14 ptp-18 psp-10 pep-10 text-center">
-                        La presentación se <br />realizará el día
-                      </div>
-                      <div className="position-relative ">
-                        <div className="position-absolute top-50 start-50 translate-middle   psp-40 pep-40 ptp-10 pbp-15 m-0  w-100">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
-                        </div>
-                        <img src={"images/page_" + pagina + "/img_007.png"} className="wp-210  mtp-25 " alt="" />
+                    <div className="col-10">
+                      <div className="bgc-white w-100 rounded-p-10 ps-2 pe-2 ">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                       </div>
                     </div>
 
+                    <div className="col-3 d-flex align-items-center ">
+                      <div className=" f-Ubuntu-R fsp-16 ptp-18 psp-0 pep-0 pbp-0 text-start">Título de la obra:</div>
+                    </div>
+                    <div className="col-9">
+                      <div className="bgc-white w-100 rounded-p-10 ps-2 pe-2 ">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                      </div>
+                    </div>
 
-                    <div className="col-12">
+                    <div className="col-4 d-flex align-items-center ">
+                      <div className=" f-Ubuntu-R fsp-16 ptp-18 psp-0 pep-0 pbp-0 text-start">Lugar y año de creación:</div>
+                    </div>
+                    <div className="col-8">
+                      <div className="bgc-white w-100 rounded-p-10 ps-2 pe-2 ">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                      </div>
+                    </div>
 
-                      <div className="bgc-white w-100 rounded-p-10 m-2">
 
-                        <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                          Las ideas que queremos transmitir en las invitaciones son...
+
+
+
+
+                    <div className="col-12 ptp-20">
+                      <div className="bgc-white w-100  rounded-p-10 p-0 m-0 mbp-10">
+                        <div className="f-Ubuntu-R fsp-16 ptp-18 psp-0 pep-10 text-center">
+                          Explicación de la obra y el mensaje que transmite
                         </div>
-                        <div className="psp-20 pep-20 ptp-0 pbp-5 m-0  w-100 ">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
+                        <div className="psp-20 pep-20 ptp-0 pbp-15 m-0  w-100 ">
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
                         </div>
 
                       </div>
@@ -163,13 +167,14 @@ function Page065(props) {
                             Plan de trabajo
                         </div> */}
             <div className="d-flex psp-0">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_003.svg"} alt="" /> */}
+              <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_005.svg"} alt="" />
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 2
               </div>
               <div className="f-Ubuntu-R fsp-16  ptp-18 psp-10 pep-10 text-start   position-relative">
-                Propongo algunos formatos para la realización de las invitaciones.
-                <div className="position-absolute top-50 start-100 translate-middle  msp-50 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-80" alt="" /></div>       </div>
+                Proponemos un título para la exposición.
+                {/* <div className="position-absolute top-50 start-100 translate-middle  msp-50 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-80" alt="" /></div>     */}
+              </div>
             </div>
             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_006.png"} className="p-0 px-1" /> */}
@@ -183,9 +188,33 @@ function Page065(props) {
 
 
 
+          <div className="d-flex global-margin mtp-0 mbp-100  psp-60 pep-40 psp-0 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 m-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative">
+
+                <div className="row  bgc-shogun box-shadow-simple w-100 ">
+                  <div className="col-6 psp-10 pep-10 mtp-0 pbp-20 m-0">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                  </div>
+                  <div className="col-6">
+                    <div className="wp-350 bgc-white gira--2 psp-10 pep-10  border-style-solid border-1 border-color-lightDark  rounded-p-10 position-relative">
+                      <div className="position-absolute top-0 start-50 translate-middle-x    msp-0 mtp--20 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-30" alt="" /></div>
+
+                      <div className=" f-Ubuntu-R hp-10 fsp-16 ptp-20 pbp-0 psp-0 pep-0  text-center">Como curso, seleccionamos por votación<br />
+                        el título de la exposición.</div>
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-45 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
 
 
 
+
+          {/* 
 
           <div className="d-flex global-margin mtp-0 mbp-70 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
@@ -227,7 +256,7 @@ function Page065(props) {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
 
 
@@ -252,7 +281,7 @@ function Page065(props) {
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
               ABP &copy; SM
             </div>
-            <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+            <div className="bgc-misty wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
           </div>
           <div className="row position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
 
