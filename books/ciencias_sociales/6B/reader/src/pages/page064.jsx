@@ -25,57 +25,98 @@ function Page064(props) {
 
 
 
-          <div className="d-flex global-margin h-100  mtp-10 mbp-10 psp-30 pep-0 ptp-0 pbp-0">
-            <div className="row p-0 msp-0 w-100">
-              <div className="col-12 p-0 m-0 position-relative">
 
-                <div className="d-flex w-100 p-2">
-                  <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-saitama fsp-17  fw-700 pbp-5">d.</div>
-                  <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 ptp-3 psp-5">Escribimos, a la dirección del colegio, una carta en que solicitamos su
-                    aprobación para la instalación de nuestro aparato o sistema tecnológico.  </div>
-                </div>
-
+          <div className="ptp-10 container-titulo-global mbp-0">
+            {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+                            Plan de trabajo
+                        </div> */}
+            <div className="d-flex psp-45">
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_003.svg"} alt="" /> */}
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                3
               </div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                Registro los comentarios que otro grupo realizé sobre nuestra obra.
+              </div>
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
+              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
 
 
 
 
+          <div className="d-flex global-margin mtp-10 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 m-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative">
 
-          <div className="d-flex mtp-40 msp-90 mep-60 position-relative">
+                <div className="row">
+                  <div className="col-12 m-0 p-2">
 
-            <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-40 visible-768 imagen-64-sobre-papel zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
-            <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--70 visible-768 imagen-64-sobre-papel zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-90" alt="" /></div>
-            {/* <div className="position-absolute top-0 start-0 translate-middle msp-0 mtp--40 visible-768 imagen1-64-sobre-papel zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div> */}
-            <div className="row w-100">
+                    <div className="d-flex justify-content-center  w-100  p-3">
+                      <div className="bgc-draco msp-30 mep-30 w-100 p-2 box-shadow-simple  position-relative">1
+                        <div className="position-absolute top-0 start-100 translate-middle   msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/clipGris.png"} className="wp-100" alt="" /></div>
 
-              <div className="cb-ep-paper-64 ">
-                <div className="cb-ep-paper-content-64 f-Ubuntu-L text-start hp-700 ">
-                  <div className="mtp-5 ">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-700" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 mtp-10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-360" />
+                      </div>
+                    </div>
 
                   </div>
                 </div>
+
+
               </div>
             </div>
-
           </div>
 
 
-          <div className="d-flex global-margin h-100  mtp-10 mbp-70 psp-30 pep-0 ptp-0 pbp-0">
-            <div className="row p-0 msp-0 w-100">
-              <div className="col-12 p-0 m-0 position-relative">
 
-                <div className="d-flex w-100 p-2">
-                  <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-saitama fsp-17  fw-700 pbp-5">e.</div>
-                  <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 ptp-3 psp-5">Luego de la aprobación, coordinamos con las autoridades del colegio la
-                    instalación de nuestro proyecto.</div>
+
+
+
+
+          <div className="ptp-10 container-titulo-global mbp-0">
+            {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+                            Plan de trabajo
+                        </div> */}
+            <div className="d-flex psp-0">
+              <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_003.svg"} alt="" />
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                4
+              </div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                Considerando los recursos y el tiempo con que contamos, establecemos qué detalles de la obra corregiremos.
+              </div>
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
+              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+            </div>
+          </div>
+
+
+
+
+
+
+
+          <div className="d-flex justify-content-center msp-90 mtp-20 mbp-80 mep-80 ">
+            <div className="d-flex justify-content-start w-95 h-100   bgc-ermac rounded-p-10 position-relative">
+              <div className="w-95 position-absolute top-0 start-50 translate-middle "><div className="espiral-calado-2-64  mtp-15 "></div></div>
+              <div className="row p-3 w-100">
+                <div className="col-12 msp-10 pep-0 p-0">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-390" />
                 </div>
-
               </div>
             </div>
           </div>
+
+
+
+
+
+
+
 
 
 
@@ -85,7 +126,7 @@ function Page064(props) {
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
               ABP &copy; SM
             </div>
-            <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+            <div className="bgc-misty wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
           </div>
           <div className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
             <div className="col-1 col-sm-2 p-0 m-0 position-relative">
