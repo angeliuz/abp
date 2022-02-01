@@ -25,9 +25,9 @@ function Page007(props) {
           <div className={"cabecera-v2 d-flex flex-column " + background}>
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
               <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN 1</div>
-              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡Tenemos un desafío!</div>
+              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Tenemos un desafío</div>
             </div>
-            <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-0 pep-0 align-self-center justify-content-between w-95">
+            <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-95">
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
                 Mis objetivos en <br /> esta sesión son:
               </div>
@@ -41,7 +41,7 @@ function Page007(props) {
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Aceptar el desafío y  <br /> completar una ficha de <br />inscripción
+                Comprender la  <br />importancia del desafío.
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
@@ -51,35 +51,21 @@ function Page007(props) {
                   <img src="images/cabecera/caja_blanca.png" width="100%" height="100%" alt="" />
                 </div>
                 <div className="position-relative">
-                  Comprometerse  <br /> con la realización <br /> del desafío
-                </div>
-              </div>
-              <div className="p-0 align-self-center">
-                <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
-              </div>
-              <div className="psp-5 pep-5 ptp-10 pbp-10 position-relative align-self-center f-colby-compres-bold fsp-17 lh-sm text-center color-dark">
-                <div className="position-absolute top-0 start-0 w-100 h-100">
-                  <img src="images/cabecera/caja_blanca.png" width="100%" height="100%" alt="" />
-                </div>
-                <div className="position-relative">
-                  Crear un logo  <br /> relacionado con <br />el desafío
+                  Comprometerme  <br /> con el desafío.
                 </div>
               </div>
             </div>
           </div>
           {/* END CABECERA VERSIÓN 2 */}
 
-          <div className="ptp-50 container-titulo-global mbp-0">
-            {/*  <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
-              Conociendo el desafío
-            </div> */}
+          <div className="ptp-30 container-titulo-global mbp-0">
             <div className="d-flex psp-20">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 1
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Veo el video, leo la invitación y comprendo el desafío.
+                Veo el video, leo el correo y destaco las ideas principales.
               </div>
               {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
               <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
@@ -87,26 +73,46 @@ function Page007(props) {
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
-          <div className="msp-60 mep-60 mtp-20 mbp-10">
-            <div className="row p-0 m-0">
-              <div className="col-sm-12 col-md-3 position-relative"></div>
-              <div className="max-wp-700 mx-auto position-relative mbp-20">
-                <div className=""><img src={"images/page_" + pagina + "/img_004.svg"} className="w-100" alt="" /></div>
+          <div class="cb-contenedor-mail position-relative">
+            <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp--20 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-50" alt="" /></div>
+            <div class="cb-datos-mail pep-15 psp-10 ptp-10 pbp-10">
+              <div class="d-flex mbp-5">
+                <div class="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">De:</div>
+                <div class="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start">Josefa.arratia@grupo-sm.com</div>
               </div>
+              <div class="d-flex">
+                <div class="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">Asunto:</div>
+                <div class="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start"> Exposición</div>
+              </div>
+            </div>
+            <div class="cb-texto-mail position-relative">
+              <div class="cb-carta-content f-Ubuntu-L text-start">
+                <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-50" alt="" /></div>
+                <div className="position-absolute top-100 start-0 translate-middle msp-60 mtp--10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-120" alt="" /></div>
+                <p>Estimados estudiantes:</p>
+                <p>Participo en una organización que interviene espacios ciudadanos
+                  con obras de arte visual creadas por integrantes de la comunidad.</p>
 
+                <p>Entre estas obras hay fotografías, pinturas, murales, <i> collages</i>, esculturas
+                  y arpilleras. Ellas dan vida a los espacios, renuevan los lazos comunitarios
+                  y provocan reflexiones que de otro modo no habrían surgido.</p>
 
-              {/* BEGIN EJERCICIO 2 */}
+                <p>En esta ocasión, les proponemos realizar una exposición artística
+                  centrada en los derechos humanos. Para ello, tendrán que dividir al
+                  curso en grupos, cada uno de los cuales deberá crear una obra de
+                  arte visual para presentar en la exposición.</p>
 
-              <div className="max-p-700 mx-auto bgc-kokomi mtp-40 mbp-70 position-relative">
-                <div className="position-absolute top-0 start-100 translate-middle msp--50 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-30" alt="" /></div>
-                <div className="text-start ptp-10 f-Ubuntu-R fsp-15"> Nos necesitan para...</div>
-                <div className="psp-10 psp-10">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                <p>Esperamos que a través de ella transmitan lo que piensan y sienten
+                  de la situación de los derechos en el mundo, promuevan una sociedad
+                  más justa y muestren diversas formas de mirar y comunicar.</p>
+
+                <div className="justify-content-end">
+                  <div className="text-end"> Se despide con cariño,</div>
+                  <div className="text-end"> Josefa Arratia </div>
+                  <div className="text-end"> Gestora cultural.</div>
                 </div>
               </div>
             </div>
-
-
           </div>
 
 
