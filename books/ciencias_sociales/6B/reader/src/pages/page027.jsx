@@ -80,61 +80,72 @@ function Page027(props) {
 
 
 
-          <div className="d-flex global-margin mtp-0 mbp-50 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-Ubuntu-L  fsp-16">
+          <div className="d-flex global-margin mtp-0 mbp-100 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-Ubuntu-L  fsp-16">
             <div className="position-absolute top-0 start-100 translate-middle mtp-90 msp--100 zindex-2 visible-768"><img src="images/page_022/img_002.png" className="" alt="" /></div>
             <div className="position-absolute top-100 start-100 translate-middle msp--90 zindex-2 visible-768"><img src="images/page_022/img_004.png" className="" alt="" /></div>
             <div className="position-absolute top-50 start-0 translate-middle  zindex-2 msp-80 visible-768"><img src="images/page_022/img_003.png" className="" alt="" /></div>
             <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-60 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-580" alt="" /></div>
 
-            <div className="position-absolute top-50 start-0 translate-middle msp-150 mtp--170 zindex-1">
+            <div className="  position-absolute top-50 start-50 translate-middle msp--180 mtp--95 zindex-1">
               <div className="d-flex ">
-                <div className="bgc-pidgey wp-120 f-Ubuntu-R fsp-15 mep-30 ptp-2 pbp-2 rounded-p-10 align-self-end color-white">Energía limpia</div>
+                <div className="wp-120 f-Ubuntu-M fsp-16 mep-30 ptp-2 pbp-2 rounded-p-10 align-self-end color-white">Protagonista 1
+                  de la noticia</div>
               </div>
-
-            </div>
-
-            <div className="position-absolute top-50 start-50 translate-middle msp-90 mtp--120 zindex-1">
-              <div className="d-flex ">
-                <div className="bgc-pidgey wp-120 f-Ubuntu-R fsp-15 mep-30 ptp-2 pbp-2 rounded-p-10 align-self-end color-white">Energía sucia</div>
+              <div className="bgc-white msp--20 rounded-p-10  p-2">
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
               </div>
-
-            </div>
-
-            <div className="position-absolute top-100 start-50 translate-middle zindex-1 msp--100 mtp--75">
-              <div className="d-flex ">
-                <div className="bgc-pidgey wp-120 f-Ubuntu-R fsp-15 mep-30 ptp-2 pbp-2 rounded-p-10 align-self-end color-white">Conclusión</div>
-              </div>
-
-            </div>
-
-            <div className="position-absolute top-50 start-50 translate-middle msp--5 mtp-0 zindex-1">
-              <div className="d-flex flex-column wp-120 psp-20 pep-10 ptp-0 pbp-0">
-
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
-              </div>
-            </div>
-            <div className="position-absolute top-50 start-50 translate-middle msp--120 mtp-0 zindex-1">
-              <div className="d-flex flex-column wp-120 psp-10 pep-10 ptp-0 pbp-0 ">
-
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-              </div>
-            </div>
-            {/* <div className="position-absolute top-50 start-50 msp--275 mtp-20 zindex-1">
-              <div className="d-flex flex-column wp-150 psp-10 pep-10 ptp-0 pbp-0 ">
-                Si pienso como...
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
-              </div>
-            </div> */}
-            <div className="position-absolute top-50 start-50 translate-middle msp-120 mtp-0 zindex-1">
-              <div className="d-flex flex-column wp-120 psp-10 pep-10 ptp-0 pbp-0 ">
-
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-              </div>
-            </div>
-            <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp--20 zindex-1">
-              <div className="d-flex flex-column wp-280 psp-10 pep-10 ptp-0 pbp-0 ">
-
+              <div className="bgc-white msp--20 rounded-p-10 mtp-10 p-2">
+                <div className=" w-100 f-Ubuntu-L fsp-16 ptp-2 pbp-2 rounded-p-10 color-dark text-center">¿Cuál es su situación?</div>
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+              </div>
+            </div>
+
+
+            <div className="position-absolute top-50 start-50 translate-middle msp-200 mtp--95 zindex-1">
+              <div className="d-flex ">
+                <div className=" wp-120 f-Ubuntu-M fsp-16 mep-30 ptp-2 pbp-2 rounded-p-10  color-white">Protagonista 2
+                  de la noticia</div>
+              </div>
+              <div className="bgc-white msp--20 rounded-p-10 p-2">
+
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+              </div>
+              <div className="bgc-white msp--20 rounded-p-10 mtp-10 p-10 p-2">
+                <div className=" w-100 f-Ubuntu-L fsp-16 ptp-2 pbp-2 rounded-p-10 color-dark text-center">¿Cuál es su situación?</div>
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+              </div>
+            </div>
+
+
+
+            <div className="position-absolute top-50 start-50 translate-middle msp--5 mtp-40 zindex-1">
+              <div className="d-flex flex-column wp-160 psp-10 pep-10 ptp-0 pbp-0 ">
+                <div className=" wp-160 f-Ubuntu-M fsp-16 ptp-2 pbp-2 rounded-p-10 color-dark text-center">Conflicto o problema</div>
+                <div className="bgc-white  rounded-p-10 wp-160 p-2">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                </div>
+              </div>
+            </div>
+
+            <div className="  position-absolute top-50 start-50 translate-middle mtp-270 msp--110 zindex-1">
+              <div className="d-flex ">
+                <div className="wp-120 f-Ubuntu-M fsp-16 mep-30 ptp-2 pbp-2 rounded-p-10 align-self-end color-white">Protagonista 3
+                  de la noticia</div>
+              </div>
+              <div className="bgc-white msp--20 rounded-p-10  p-2">
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+              </div>
+
+            </div>
+
+            <div className="position-absolute top-50 start-50 translate-middle mtp-240 msp-120 zindex-1">
+              <div className="d-flex ">
+                
+              </div>
+              
+              <div className="bgc-white msp--20 rounded-p-10 mtp-10 p-10 p-2">
+                <div className=" w-100 f-Ubuntu-L fsp-16 ptp-2 pbp-2 rounded-p-10 color-dark text-center">¿Cuál es su situación?</div>
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
               </div>
             </div>
           </div>
