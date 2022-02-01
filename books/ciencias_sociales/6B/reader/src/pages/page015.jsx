@@ -26,7 +26,7 @@ function Page015(props) {
           <div className={"cabecera-v2 d-flex flex-column " + background}>
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
               <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN 3</div>
-              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡Tenemos un plan!</div>
+              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡Este es nuestro plan!</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-95">
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
@@ -36,13 +36,13 @@ function Page015(props) {
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Pensar cómo superar<br />el desafío
+                Descubrir las tareas del<br />proyecto y reflexionar.
               </div>
               <div className="psp-5 pep-5 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Identificar las tareas de <br />cada etapa del proyecto
+                Asignar roles para el<br />trabajo en grupo.
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
@@ -52,23 +52,23 @@ function Page015(props) {
                   <img src="images/cabecera/caja_blanca.png" width="105%" height="105%" alt="" />
                 </div>
                 <div className="position-relative">
-                  Organizar los pasos del<br />proyecto y elaborar un <br />cronograma de trabajo
+                  Elaborar nuestro<br />plan de trabajo
                 </div>
               </div>
             </div>
           </div>
           {/* END CABECERA VERSIÓN 2 */}
 
-          <div className="ptp-30 container-titulo-global mbp-0">
+          <div className="ptp-50 container-titulo-global mbp-0">
+
             <div className="d-flex psp-20">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 1
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Pensamos en cómo superar el desafío y llegamos a consenso.
+                Comprendo las tareas que llevaremos a cabo y opino.
               </div>
-              {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
@@ -76,130 +76,69 @@ function Page015(props) {
           </div>
 
           <div className="psp-60 pep-60 ptp-20">
-            <div className="bgc-gohan w-100 sombra-1 p-3 rounded-p-20 position-relative">
-              <div className="bgc-white w-100 rounded-p-20 p-2">
-                <div className="text-center f-Ubuntu-R">Yo opino que, para crear un aparato o sistema, tenemos que realizar los siguientes pasos...</div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+            <div className="bgc-pantro position-relative psp-20 ptp-20 pbp-40">
+
+              <div className="d-flex justify-content-center align-items-center position-relative pep-60">
+                <div className="bloque-p15 bgc-bulma text-center py-2 f-Ubuntu-M color-white rounded-p-5 pep-10">Tarea A</div>
+                <div className="wp-35"></div>
+                <div className="w-100 bgc-white psp-40 pep-10 py-2 f-Ubuntu-L text-start">
+                  Organizaremos lo que sabemos sobre derechos fundamentales y obras de arte visual y descubriremos qué más necesitamos saber.
+                  <br />Completaremos un plan de proyecto.
+                </div>
+                <div className="position-absolute top-50 start-0 translate-middle msp-135 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-60" alt="" /></div>
               </div>
+
               <div className="ptp-20"></div>
-              <div className="bgc-white w-100 rounded-p-20 p-2">
-                <div className="text-center f-Ubuntu-R">Como equipo consideramos que...</div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
-              </div>
-              <div className="position-absolute top-0 start-100 translate-middle msp--30 mtp-10 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-40" alt="" /></div>
-              <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-90" alt="" /></div>
-            </div>
-          </div>
-          <div className="ptp-30 container-titulo-global mbp-0">
-            <div className="d-flex psp-20">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
-              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                2
-              </div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Selecciono el rol que me gustaría asumir en el equipo.
-              </div>
-              {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
-            </div>
-          </div>
 
-          <div className="psp-60 pep-60 ptp-20 w-100">
-            <div className="row w-100 position-relative">
-
-              <div className="col-md-6 col-12 pbp-20">
-                <div className="bgc-genos border-style-solid border-1 border-color-goten rounded-p-20 p-2 position-relative">
-                  <div className="text-center f-colby-regular color-goten fsp-18">Coordinación</div>
-                  <div className="ptp-10 text-start mnhp-120-p15">
-                    <div className="d-flex">
-                      <div className="psp-5 pep-5 mtp--3"><img src={"images/page_" + pagina + "/check_1.svg"} className="wp-15" alt="" /></div>
-                      <div className="f-Ubuntu-L">Reparte el turno de palabra.</div>
-                    </div>
-                    <div className="d-flex">
-                      <div className="psp-5 pep-5 mtp--3"><img src={"images/page_" + pagina + "/check_1.svg"} className="wp-15" alt="" /></div>
-                      <div className="f-Ubuntu-L">Se asegura de que todos participen.</div>
-                    </div>
-                  </div>
-                  <div className="position-absolute top-100 start-50 translate-middle">
-                    <div className="cuadrado-p15 bgc-white border-style-solid border-1 border-color-lightDark">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
-                    </div>
-                  </div>
+              <div className="d-flex justify-content-center align-items-center position-relative pep-60">
+                <div className="bloque-p15 bgc-android18 text-center py-2 f-Ubuntu-M color-white rounded-p-5 pep-10">Tarea B</div>
+                <div className="wp-35"></div>
+                <div className="w-100 bgc-white psp-40 pep-10 py-2 f-Ubuntu-L text-start">
+                  Investigaremos acerca de los derechos fundamentales y definiremos lo que deseamos expresar en nuestra obra artística.
                 </div>
+                <div className="position-absolute top-50 start-0 translate-middle msp-135 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-60" alt="" /></div>
               </div>
 
+              <div className="ptp-20"></div>
 
-              <div className="col-md-6 col-12 pbp-20">
-                <div className="bgc-draco border-style-solid border-1 border-color-bulma rounded-p-20 p-2 position-relative">
-                  <div className="text-center f-colby-regular color-bulma fsp-18">Supervición</div>
-                  <div className="ptp-10 text-start mnhp-120-p15">
-                    <div className="d-flex">
-                      <div className="psp-5 pep-5 mtp--3"><img src={"images/page_" + pagina + "/check_2.svg"} className="wp-15" alt="" /></div>
-                      <div className="f-Ubuntu-L">Gestiona el tiempo de las tareas.</div>
-                    </div>
-                    <div className="d-flex">
-                      <div className="psp-5 pep-5 mtp--3"><img src={"images/page_" + pagina + "/check_2.svg"} className="wp-15" alt="" /></div>
-                      <div className="f-Ubuntu-L">Se asegura de que todos cumplan las tareas en el plazo asignado.</div>
-                    </div>
-                  </div>
-                  <div className="position-absolute top-100 start-50 translate-middle">
-                    <div className="cuadrado-p15 bgc-white border-style-solid border-1 border-color-lightDark">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
-                    </div>
-                  </div>
+              <div className="d-flex justify-content-center align-items-center position-relative pep-60">
+                <div className="bloque-p15 bgc-pidgey text-center py-2 f-Ubuntu-M color-white rounded-p-5 pep-10">Tarea C</div>
+                <div className="wp-35"></div>
+                <div className="w-100 bgc-white psp-40 pep-10 py-2 f-Ubuntu-L text-start">
+                  Diseñaremos y explicaremos la obra de arte que vamos a presentar en la exposición.
                 </div>
+                <div className="position-absolute top-50 start-0 translate-middle msp-135 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-60" alt="" /></div>
               </div>
 
-              <div className="col-md-6 col-12 pbp-20">
-                <div className="bgc-azuka border-style-solid border-1 border-color-android18 rounded-p-20 p-2 position-relative">
-                  <div className="text-center f-colby-regular color-dhalsim fsp-18">Relaciones públicas</div>
-                  <div className="ptp-10 text-start mnhp-120-p15">
-                    <div className="d-flex">
-                      <div className="psp-5 pep-5 mtp--3"><img src={"images/page_" + pagina + "/check_3.svg"} className="wp-15" alt="" /></div>
-                      <div className="f-Ubuntu-L">Se comunica con el profesor para solicitar ayuda.</div>
-                    </div>
-                    <div className="d-flex">
-                      <div className="psp-5 pep-5 mtp--3"><img src={"images/page_" + pagina + "/check_3.svg"} className="wp-15" alt="" /></div>
-                      <div className="f-Ubuntu-L">Pide ayuda a otros equipos.</div>
-                    </div>
-                  </div>
-                  <div className="position-absolute top-100 start-50 translate-middle">
-                    <div className="cuadrado-p15 bgc-white border-style-solid border-1 border-color-lightDark">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
-                    </div>
-                  </div>
+              <div className="ptp-20"></div>
+
+              <div className="d-flex justify-content-center align-items-center position-relative pep-60">
+                <div className="bloque-p15 bgc-saitama text-center py-2 f-Ubuntu-M color-white rounded-p-5 pep-10">Tarea D</div>
+                <div className="wp-35"></div>
+                <div className="w-100 bgc-white psp-40 pep-10 py-2 f-Ubuntu-L text-start">
+                  Elaboraremos la obra de arte. Estableceremos las características de la exposición y definiremos las responsabilidades y tareas para llevarla a cabo.
                 </div>
+                <div className="position-absolute top-50 start-0 translate-middle msp-135 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-60" alt="" /></div>
               </div>
 
+              <div className="ptp-20"></div>
 
-              <div className="col-md-6 col-12 pbp-20">
-                <div className="bgc-marcianos border-style-solid border-1 border-color-pidgey rounded-p-20 p-2 position-relative">
-                  <div className="text-center f-colby-regular color-pidgey fsp-18">Intendencia</div>
-                  <div className="ptp-10 text-start mnhp-120-p15">
-                    <div className="d-flex">
-                      <div className="psp-5 pep-5 mtp--3"><img src={"images/page_" + pagina + "/check_4.svg"} className="wp-15" alt="" /></div>
-                      <div className="f-Ubuntu-L"> Gestiona los materiales que se necesitan.</div>
-                    </div>
-                    <div className="d-flex">
-                      <div className="psp-5 pep-5 mtp--3"><img src={"images/page_" + pagina + "/check_4.svg"} className="wp-15" alt="" /></div>
-                      <div className="f-Ubuntu-L">Comprueba que se mantiene un entorno limpio y ordenado.</div>
-                    </div>
-                  </div>
-                  <div className="position-absolute top-100 start-50 translate-middle">
-                    <div className="cuadrado-p15 bgc-white border-style-solid border-1 border-color-lightDark">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
-                    </div>
-                  </div>
+              <div className="d-flex justify-content-center align-items-center position-relative pep-60">
+                <div className="bloque-p15 bgc-pikachu text-center py-2 f-Ubuntu-M color-white rounded-p-5 pep-10">Tarea E</div>
+                <div className="wp-35"></div>
+                <div className="w-100 bgc-white psp-40 pep-10 py-2 f-Ubuntu-L text-start">
+                  Montaremos la exposición con las obras de arte que hicieron los diferentes grupos.
                 </div>
+                <div className="position-absolute top-50 start-0 translate-middle msp-135 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-60" alt="" /></div>
               </div>
 
-              <div className="position-absolute top-50 start-100 translate-middle msp-20 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-60" alt="" /></div>
+              <div className="pbp-40"></div>
+              <div className="position-absolute top-0 start-100 translate-middle msp-20 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
+              <div className="position-absolute top-100 start-0 translate-middle msp--20 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-40" alt="" /></div>
             </div>
           </div>
 
-          <div className="pbp-100"></div>
+          <div className=""></div>
 
 
           {/* BEGIN PIE DE PAGINA */}

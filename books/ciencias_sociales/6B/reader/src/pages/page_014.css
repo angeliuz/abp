@@ -1,16 +1,18 @@
-.sombra-1 {
-    -webkit-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.48);
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.28);
+.mnwp-400 {
+    min-width: 400px;
 }
 
-.mtp-20 {
-    margin-top: 20px;
+.mtp-27 {
+    margin-top: 27px;
 }
 
-.giro--20deg {
-    transform: rotate(-20deg);
+.mtp--1 {
+    margin-top: -1px;
 }
 
-.giro-180deg {
-    transform: rotate(180deg);
+.cuadrado-p14 {
+    min-width: 35px;
+    min-height: 35px;
+    max-width: 35px;
+    max-height: 35px;
 }

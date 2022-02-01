@@ -1,14 +1,4 @@
-.mnhp-120-p15 {
-    min-height: 120px;
-}
-
-.cuadrado-p15 {
-    min-width: 30px;
-    min-height: 30px;
-}
-
-@media (max-width: 767px) {
-    .mnhp-120-p15 {
-        min-height: 90px;
-    }
+.bloque-p15 {
+    height: 40px;
+    min-width: 120px;
 }

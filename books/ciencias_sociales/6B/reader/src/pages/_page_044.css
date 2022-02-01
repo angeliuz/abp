@@ -1,0 +1,26 @@
+.cambio{
+  left: 100% !important;
+  top: 50% !important;
+}
+.cambio1{
+  left: 0% !important;
+  top: 50% !important;
+}
+
+/* @include media-breakpoint-up(sm) {
+  .cambio{
+    left: 100% !important;
+    top: 50% !important;
+  }
+} */
+
+@media (min-width: 768px) {
+  .cambio{
+    left: 50% !important;
+    top: 100% !important;
+  }
+  .cambio1{
+    left: 50% !important;
+    top: 0% !important;
+  }
+}

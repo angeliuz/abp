@@ -28,102 +28,212 @@ function Page014(props) {
           {/* BEGIN TITULO */}
           <div className="ptp-20 container-titulo-global mbp-0">
             <div className="d-flex psp-20">
-              <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_001.svg"} alt="" />
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_001.svg"} alt="" /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                4
+                2
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Leo la noticia de la revista. Luego, discutimos en equipo posibles soluciones al problema.
+                Resuelvo los pasatiempos y completo.
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_002.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
           {/* END TITULO */}
           {/* BEGIN CONTENIDO */}
-          <div className="pep-60 psp-60 ptp-20 pbp-20">
-            <div className="border-style-solid border-2 border-color-septenario psp-20 pep-5 pbp-10 rounded-p-20 position-relative">
-              <div className="bgc-gohan w-100 psp-40 ptp-30 pbp-20 pep-10 position-relative rounded-p-20">
+          <div className="psp-60 pep-60 ptp-40">
+            <div className="bgc-draco rounded-p-30 position-relative ptp-40 psp-40 pep-40 pbp-20">
 
-                <div className="position-relative bgc-white border-style-solid border-2 border-color-saitama rounded-p-50 px-2 ptp-20 pbp-20">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-                  <div className="position-absolute top-0 start-0 mtp--25 msp-20 bgc-saitama py-2 rounded-p-20 psp-20 pep-20">
-                    <div className="f-Ubuntu-B color-white">Tenemos un problema:</div>
-                  </div>
-                  <div className="position-absolute top-50 start-100 translate-middle msp-20 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-60" alt="" /></div>
-                  <div className="position-absolute top-100 start-0 translate-middle msp--30 mtp-30 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-140" alt="" /></div>
-                </div>
-
-                <div className="ptp-40"></div>
-
-                <div className="position-relative bgc-white border-style-solid border-2 border-color-saitama rounded-p-50 px-2 ptp-20 pbp-20">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-                  <div className="position-absolute top-0 start-0 mtp--25 msp-20 bgc-saitama py-2 rounded-p-20 psp-20 pep-20">
-                    <div className="f-Ubuntu-B color-white">¿A quién afecta?</div>
-                  </div>
-                </div>
-
-                <div className="ptp-20"></div>
-
-                <div className="d-flex justify-content-evenly">
-                  <div className="position-absolute zindex-2 bgc-saitama py-2 rounded-p-20 psp-20 pep-20">
-                    <div className="f-Ubuntu-B color-white"> ¿Qué podemos hacer?</div>
-                  </div>
-                </div>
-
-                <div className="ptp-50 row w-100 position-relative">
-
-                  <div className="col-md-6 col-12 pbp-20">
-                    <div className="bgc-white border-style-solid border-2 border-color-saitama rounded-p-20 px-2 ptp-5 pbp-20">
-                      <div className="text-start f-Ubuntu-M ">Alternativa 1</div>
-                      <div className="">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-100" />
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col-md-6 col-12 pbp-20">
-                    <div className="bgc-white border-style-solid border-2 border-color-saitama rounded-p-20 px-2 ptp-5 pbp-20">
-                      <div className="text-start f-Ubuntu-M ">Alternativa 2</div>
-                      <div className="">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-100" />
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="d-flex justify-content-evenly position-relative">
-                    <div className="col-md-6 col-12 pbp-20">
-                      <div className="bgc-white border-style-solid border-2 border-color-saitama rounded-p-20 px-2 ptp-5 pbp-20">
-                        <div className="text-start f-Ubuntu-M ">Alternativa 3</div>
-                        <div className="">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-100" />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="position-absolute top-0 start-100 translate-middle msp--110 mtp-25 visible-768 zindex-1"><img src={"images/page_" + pagina + "/espiral_2.svg"} className="wp-100 giro--20deg" alt="" /></div>
-                  </div>
-
-                  <div className="ptp-20"></div>
-
-                  <div className="position-relative bgc-white border-style-solid border-2 border-color-saitama rounded-p-50 px-2 ptp-20 pbp-20">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-                    <div className="position-absolute top-0 start-0 mtp--25 msp-20 bgc-saitama py-2 rounded-p-20 psp-20 pep-20">
-                      <div className="f-Ubuntu-B color-white">Conclusiones:</div>
-                    </div>
-                    <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_009.png"} className="wp-100" alt="" /></div>
-                  </div>
-
-                  <div className="position-absolute top-0 start-50 translate-middle msp--120 zindex-1"><img src={"images/page_" + pagina + "/espiral_1.svg"} className="wp-100 mtp-40" alt="" /></div>
-                  <div className="position-absolute top-0 start-0 translate-middle msp--10 zindex-1"><img src={"images/page_" + pagina + "/img_008.png"} className="wp-40 mtp-240" alt="" /></div>
-                </div>
+              <div className="position-absolute top-0 start-50 translate-middle mtp-0 msp-0 bgc-bulma psp-20 pep-20 rounded-p-20 mnwp-400">
+                <div className="f-Ubuntu-R color-white py-3">En <b>derechos fundamentales</b> me considero...</div>
               </div>
-              <div className="position-absolute top-0 start-100 translate-middle msp-5 mtp--5 zindex-1"><img src={"images/page_" + pagina + "/img_004.svg"} className="wp-30" alt="" /></div>
-              <div className="position-absolute top-100 start-0 translate-middle msp--5 mtp-5 zindex-1"><img src={"images/page_" + pagina + "/img_004.svg"} className="wp-30 giro-180deg" alt="" /></div>
+
+              <div className="d-flex justify-content-between psp-20 pep-20">
+                <div className="f-colby-compres-bold fsp-22 color-bulma">Inexperto</div>
+                <div className="f-colby-compres-bold fsp-22 color-bulma">Experto</div>
+              </div>
+              <div className="border-style-solid border-1 border-color-bulma w-100 position-relative">
+                <div className="position-absolute top-50 start-0 translate-middle msp-4 mtp--1 zindex-1"><img src={"images/page_" + pagina + "/izq_bulma.svg"} className="wp-15" alt="" /></div>
+                <div className="position-absolute top-50 start-100 translate-middle msp--4  zindex-1"><img src={"images/page_" + pagina + "/der_bulma.svg"} className="wp-15 mtp-2" alt="" /></div>
+              </div>
+              <div className="d-flex justify-content-center">
+
+                <div className="w-100 mtp-27 d-flex justify-content-center">
+                  <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-bulma position-relative">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-bulma hp-30"></div>
+                  </div>
+                </div>
+
+                <div className="w-100 mtp-27 d-flex justify-content-center">
+                  <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-bulma position-relative">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-bulma hp-30"></div>
+                  </div>
+                </div>
+
+                <div className="w-100 mtp-27 d-flex justify-content-center">
+                  <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-bulma position-relative">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-bulma hp-30"></div>
+                  </div>
+                </div>
+
+                <div className="w-100 mtp-27 d-flex justify-content-center">
+                  <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-bulma position-relative">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-bulma hp-30"></div>
+                  </div>
+                </div>
+
+                <div className="w-100 mtp-27 d-flex justify-content-center">
+                  <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-bulma position-relative">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-bulma hp-30"></div>
+                  </div>
+                </div>
+
+                <div className="w-100 mtp-27 d-flex justify-content-center">
+                  <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-bulma position-relative">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-bulma hp-30"></div>
+                  </div>
+                </div>
+
+                <div className="w-100 mtp-27 d-flex justify-content-center">
+                  <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-bulma position-relative">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-bulma hp-30"></div>
+                  </div>
+                </div>
+
+                <div className="w-100 mtp-27 d-flex justify-content-center">
+                  <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-bulma position-relative">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-bulma hp-30"></div>
+                  </div>
+                </div>
+
+                <div className="w-100 mtp-27 d-flex justify-content-center">
+                  <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-bulma position-relative">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-bulma hp-30"></div>
+                  </div>
+                </div>
+
+              </div>
             </div>
           </div>
 
-          <div className="ptp-100"></div>
+          <div className="psp-60 pep-60 ptp-50">
+            <div className="bgc-windu rounded-p-30 position-relative ptp-40 psp-40 pep-40 pbp-20">
+
+              <div className="position-absolute top-0 start-50 translate-middle mtp-0 msp-0 bgc-saitama psp-20 pep-20 rounded-p-20 mnwp-400">
+                <div className="f-Ubuntu-R color-white py-3">En <b>obras de arte visual </b> me considero...</div>
+              </div>
+
+              <div className="d-flex justify-content-between psp-20 pep-20">
+                <div className="f-colby-compres-bold fsp-22 color-saitama">Inexperto</div>
+                <div className="f-colby-compres-bold fsp-22 color-saitama">Experto</div>
+              </div>
+              <div className="border-style-solid border-1 border-color-saitama w-100 position-relative">
+                <div className="position-absolute top-50 start-0 translate-middle msp-4 mtp--1 zindex-1"><img src={"images/page_" + pagina + "/izq_saitama.svg"} className="wp-15" alt="" /></div>
+                <div className="position-absolute top-50 start-100 translate-middle msp--4  zindex-1"><img src={"images/page_" + pagina + "/der_saitama.svg"} className="wp-15 mtp-2" alt="" /></div>
+              </div>
+              <div className="d-flex justify-content-center">
+
+                <div className="w-100 mtp-27 d-flex justify-content-center">
+                  <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-saitama position-relative">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-saitama hp-30"></div>
+                  </div>
+                </div>
+
+                <div className="w-100 mtp-27 d-flex justify-content-center">
+                  <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-saitama position-relative">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-saitama hp-30"></div>
+                  </div>
+                </div>
+
+                <div className="w-100 mtp-27 d-flex justify-content-center">
+                  <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-saitama position-relative">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-saitama hp-30"></div>
+                  </div>
+                </div>
+
+                <div className="w-100 mtp-27 d-flex justify-content-center">
+                  <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-saitama position-relative">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-saitama hp-30"></div>
+                  </div>
+                </div>
+
+                <div className="w-100 mtp-27 d-flex justify-content-center">
+                  <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-saitama position-relative">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-saitama hp-30"></div>
+                  </div>
+                </div>
+
+                <div className="w-100 mtp-27 d-flex justify-content-center">
+                  <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-saitama position-relative">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-saitama hp-30"></div>
+                  </div>
+                </div>
+
+                <div className="w-100 mtp-27 d-flex justify-content-center">
+                  <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-saitama position-relative">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-saitama hp-30"></div>
+                  </div>
+                </div>
+
+                <div className="w-100 mtp-27 d-flex justify-content-center">
+                  <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-saitama position-relative">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-saitama hp-30"></div>
+                  </div>
+                </div>
+
+                <div className="w-100 mtp-27 d-flex justify-content-center">
+                  <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-saitama position-relative">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-saitama hp-30"></div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div className="ptp-50 container-titulo-global mbp-0">
+            <div className="d-flex psp-20">
+              <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_004.svg"} alt="" />
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                3
+              </div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                Ahora que tengo más información, pienso en qué más necesito saber para crear nuestra obra.
+              </div>
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
+              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+            </div>
+          </div>
+
+          <div className="psp-60 pep-80 ptp-20 pbp-70">
+            <div className="border-style-solid border-1 rounded-p-20 psp-20 pep-10 ptp-10 pbp-5 position-relative">
+              <div className="bgc-sindel p-3 rounded-p-20">
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-360" />
+              </div>
+              <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--80 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-70" alt="" /></div>
+              <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--50 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-60" alt="" /></div>
+            </div>
+          </div>
 
 
 
