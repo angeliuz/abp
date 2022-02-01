@@ -1,14 +1,15 @@
+.mtp--38 {
+    margin-top: -38px;
+}
+
 .caja-p16 {
-    width: 100%;
+    width: 160px;
 }
 
-.bloque-p16 {
-    height: 40px;
-    min-width: 180px;
+.mbp--20 {
+    margin-bottom: -20px;
 }
 
-.border-solo-top {
-    border-left: none !important;
-    border-right: none !important;
-    border-bottom: none !important;
+.mbp--30 {
+    margin-bottom: -30px;
 }

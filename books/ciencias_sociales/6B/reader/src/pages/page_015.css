@@ -2,3 +2,8 @@
     height: 40px;
     min-width: 120px;
 }
+
+.sombra-1 {
+    -webkit-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.48);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.28);
+}
