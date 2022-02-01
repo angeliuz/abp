@@ -35,19 +35,19 @@ function Page027(props) {
                 <img src="images/page_027/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-              Leer el reportaje de la<br />revista sobre la huella<br /> ecológica
+                Leer el reportaje de la<br />revista sobre la huella<br /> ecológica
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_027/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-              Reconocer usos<br /> inadecuados de la energía<br />en el colegio
+                Reconocer usos<br /> inadecuados de la energía<br />en el colegio
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_027/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
-              Señalar cambios para<br /> utilizar responsablemente<br/>la energ a en el colegio
+                Señalar cambios para<br /> utilizar responsablemente<br />la energ a en el colegio
               </div>
               {/* <div className="p-0 align-self-center">
                 <img src="images/page_025/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
@@ -66,7 +66,8 @@ function Page027(props) {
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_001.svg"} alt=""  /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>1</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Leo el reportaje de la revista y completo.
+                Distribuyo las noticias con mi grupo. Luego,
+                completo a partir de la que me correspondió.
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_027/img_003.svg" className="p-0 px-1" /> */}
@@ -80,12 +81,12 @@ function Page027(props) {
 
 
           <div className="d-flex global-margin mtp-0 mbp-50 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-Ubuntu-L  fsp-16">
-          <div className="position-absolute top-0 start-100 translate-middle mtp-90 msp--100 zindex-2 visible-768"><img src="images/page_022/img_002.png" className="" alt="" /></div>
-          <div className="position-absolute top-100 start-100 translate-middle msp--90 zindex-2 visible-768"><img src="images/page_022/img_004.png" className="" alt="" /></div>
-          <div className="position-absolute top-50 start-0 translate-middle  zindex-2 msp-80 visible-768"><img src="images/page_022/img_003.png" className="" alt="" /></div>
-            <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-60 zindex-1"><img src={"images/page_" + pagina + "/circulo.svg"} className="wp-580" alt="" /></div>
+            <div className="position-absolute top-0 start-100 translate-middle mtp-90 msp--100 zindex-2 visible-768"><img src="images/page_022/img_002.png" className="" alt="" /></div>
+            <div className="position-absolute top-100 start-100 translate-middle msp--90 zindex-2 visible-768"><img src="images/page_022/img_004.png" className="" alt="" /></div>
+            <div className="position-absolute top-50 start-0 translate-middle  zindex-2 msp-80 visible-768"><img src="images/page_022/img_003.png" className="" alt="" /></div>
+            <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-60 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-580" alt="" /></div>
 
-            <div className="position-absolute top-50 start-50 translate-middle msp--60 mtp--120 zindex-1">
+            <div className="position-absolute top-50 start-0 translate-middle msp-150 mtp--170 zindex-1">
               <div className="d-flex ">
                 <div className="bgc-pidgey wp-120 f-Ubuntu-R fsp-15 mep-30 ptp-2 pbp-2 rounded-p-10 align-self-end color-white">Energía limpia</div>
               </div>

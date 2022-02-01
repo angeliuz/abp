@@ -206,7 +206,7 @@ function Page026(props) {
                 
                 <div className="position-absolute top-0 start-100 translate-middle msp--20 zindex-2"><img src="images/page_026/img_005.png" className="" alt="" /></div>
                 
-                <div className="bgc-draco rounded-p-10 p-2">
+                <div className="bgc-draco rounded-p-10 p-2 box-shadow-simple">
                   {/* <div className="d-flex align-items-center">
                     <div className="f-Ubuntu-R fsp-14 lh-sm text-start pep-10">Obra letra</div>
                     <div className="p-1 wp-70 d-flex bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" /></div>
