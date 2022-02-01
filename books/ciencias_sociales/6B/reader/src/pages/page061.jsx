@@ -153,6 +153,8 @@ function Page061(props) {
                                             <div className="w-100  p-1 m-2 border-style-solid border-1 border-color-haydn rounded-p-10  lh-sm text-start p-2 position-relative">
 
                                                 <div className="position-absolute posicion-centro-centro translate-middle zindex-1"><img src={"images/page_061/espiral.svg"} className="wp-55 msp--25  mtp-0 rotacion-centro-centro" alt="" /></div>
+                                                <div className="position-absolute top-0 start-100 translate-middle zindex-1"><img src={"images/page_061/img_004.png"} className="wp-60 msp-10  mtp--25 rotacion-centro-centro" alt="" /></div>
+
                                                 <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
 
                                                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
@@ -185,6 +187,8 @@ function Page061(props) {
                                         <div className="mtp-20  position-relative">
                                             <div className="position-absolute top-0 start-50 translate-middle bgc-haydn mtp--10  w-50 hp-20 f-Ubuntu-B text-center color-white fsp-15   psp-10 pep-10 ptp-5 pbp-5">   </div>
                                             <div className="w-100  p-1 m-2 border-style-solid border-1 border-color-haydn rounded-p-10  lh-sm text-start p-2 position-relative">
+
+                                                <div className="position-absolute top-100 start-0 translate-middle   zindex-1"><img src={"images/page_061/img_006.png"} className="wp-70 msp--25  mtp-50 rotacion-centro-centro" alt="" /></div>
                                                 <div className="position-absolute posicion-centro-centro translate-middle zindex-1"><img src={"images/page_061/espiral.svg"} className="wp-55 msp--25  mtp-0 rotacion-centro-centro" alt="" /></div>
 
                                                 <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
