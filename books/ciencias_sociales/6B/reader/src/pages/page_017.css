@@ -1,0 +1,16 @@
+.ovalo-p17 {
+  width: 250px;
+  height: 140px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.cuadrado-p17 {
+  min-width: 30px;
+  min-height: 30px;
+}
+
+.mxwp-a {
+  width: 200;
+}

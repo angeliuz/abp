@@ -1,0 +1,50 @@
+.gira--4{
+    transform:rotate(-4deg);
+}
+
+:root{
+    
+
+--brahms:#f9f7d4;
+--olsen:#b8703a;
+
+}
+
+
+.color-grieg {
+    color: var(--grieg);
+    }
+  
+     .color-brahms {
+    color: var(--brahms);
+    }
+     .color-olsen {
+    color: var(--olsen);
+    }
+
+    .border-color-grieg {
+        border-color: var(--grieg) !important;
+      }
+      .border-color-brahms {
+        border-color: var(--brahms) !important;
+      }
+      .border-color-olsen {
+       border-color: var(--olsen) !important;
+      }
+      
+
+
+      .bgc-grieg {
+        background-color: var(--grieg);
+      }
+      .bgc-brahms {
+        background-color: var(--brahms);
+      }
+      .bgc-olsen {
+        background-color: var(--olsen);
+      }
+      
+
+      .msp--4 {
+        margin-left: -4px;
+      }

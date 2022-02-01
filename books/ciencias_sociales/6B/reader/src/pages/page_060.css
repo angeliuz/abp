@@ -1,0 +1,14 @@
+.gira--2{
+    transform:rotate(-2deg);
+}
+.gira-2{
+    transform:rotate(2deg);
+}
+
+.rota-horizontal{
+    transform: scaleX(-1);
+}
+
+.rota-vertical{
+    transform: scaleY(-1);
+}

@@ -1,0 +1,40 @@
+.posicion-espiral{
+  top: 50%;
+  left: 100%;
+  margin-left: -35px;
+  margin-top: 5px;
+}
+.posicion-espiral2{
+  top: 50%;
+  left: 100%;
+  margin-left: -10px;
+}
+
+.caja-contenedora-respuesta{
+  width: 90%;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+@media all and (max-width: 767px) {
+  .posicion-espiral{
+    top: 100%;
+    left: 100%;
+    margin-left: -80px;
+    margin-top: -5px;
+  }
+  .posicion-espiral2{
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -35px;
+  }
+  .caja-contenedora-respuesta{
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+  
+}

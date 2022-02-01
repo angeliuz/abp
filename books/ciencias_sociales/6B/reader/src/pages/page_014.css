@@ -1,0 +1,16 @@
+.sombra-1 {
+    -webkit-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.48);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.28);
+}
+
+.mtp-20 {
+    margin-top: 20px;
+}
+
+.giro--20deg {
+    transform: rotate(-20deg);
+}
+
+.giro-180deg {
+    transform: rotate(180deg);
+}

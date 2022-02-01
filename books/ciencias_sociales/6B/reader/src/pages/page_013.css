@@ -1,0 +1,32 @@
+.flequillo-p13 {
+    background-image: url(images/page_013/flequillo.svg);
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+.sombra-1 {
+    -webkit-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.48);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.28);
+}
+
+.w-70-768 {
+    width: 70%;
+}
+
+.cuadrado-p13 {
+    min-width: 30px;
+    min-height: 30px;
+}
+
+.border-solo-bot {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+
+@media (max-width: 767px) {
+    .w-70-768 {
+        width: 100%;
+    }
+}
