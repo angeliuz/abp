@@ -34,7 +34,7 @@ function Page060(props) {
                                         <div>
                                             <span className="fsp-16 text-start f-pixilate-regular">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
-                                                    Elaborar
+                                                    ELABORAR
                                                 </span>
                                                 <br /> nuestra  obra de arte.
                                             </span>

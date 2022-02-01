@@ -45,3 +45,18 @@ transform: rotate(-2deg);
 z-index: 1;
 transform: rotate(2deg);
 }
+
+
+
+.espiral-calado-64{
+  background-image: url(images/page_064/espiral_espacio.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+.espiral-calado-2-64{
+  height:26px ;
+  background-image: url(images/page_064/espiral_espacio.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+}
