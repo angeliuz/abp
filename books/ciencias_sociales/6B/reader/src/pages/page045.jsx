@@ -23,41 +23,41 @@ function Page045(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className={"cabecera-v2 d-flex flex-column " + background}>
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN 11</div>
-              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">De la idea al boceto</div>
+              <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN 10</div>
+              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Apreciamos obras de arte visual</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-95">
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Mis objetivos en <br /> esta sesión son:
+                Mis objetivos en esta sesión son:
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Saber qué es un <br /> boceto y para qué <br /> se utiliza
+                Apreciar obras de arte visual.
               </div>
               <div className="psp-5 pep-5 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Identificar la información <br /> que se requiere para elaborar <br /> un boceto
+                Reconocer distintos tipos de <br /> obras de arte visual.
               </div>
-              <div className="p-0 align-self-center">
+              {/* <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
                 Elaborar un boceto <br /> de la propuesta
-              </div>
+              </div> */}
             </div>
           </div>
           {/* END CABECERA VERSIÓN 2 */}
 
-          <div className="ptp-10 container-titulo-global mbp-0">
+          <div className="ptp-10 container-titulo-global-1 mbp-0 mep-150">
             {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>xxx</div> */}
-            <div className="d-flex psp-20">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
+            <div className="d-flex psp-0">
+              <img className="hp-15 align-center mtp-20 me-2 mb-2" src={"images/page_" + pagina + "/i_g.svg"} alt="" />
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>1</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Leo los consejos de la revista y completo.</div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Distribuyo las obras con mi grupo. Luego, respondo acerca de la que me correspondió.</div>
               {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
@@ -65,47 +65,41 @@ function Page045(props) {
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-10 mbp-10 psp-50 pep-15 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-10 mbp-50 psp-40 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
-              <div className="col-12 p-0 m-0 position-relative">
-                <div className="w-100 psp-40 ptp-20 pbp-20 pep-15 text-left bgc-draco p-2 box-shadow-simple position-relative">
-                  <div className="position-absolute top-50 start-0 translate-middle h-100 ptp-10 pbp-10"><div className="espiral-calado wp-30 h-100"></div></div>
-                  <div className="bgc-white rounded-p-10 msp-20 p-3 mbp-10">
-                    <div className="f-Ubuntu-R fsp-14 lh-sm text-start">Antes de inventar un objeto, Da Vinci hacía</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-105" />
+              <div className="col-12 m-0 p-0 position-relative">
+                <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_045/posit.png" className="hp-60 mtp-150" alt="" /></div>
+                <div className="position-absolute top-50 start-0 translate-middle zindex-2"><img src="images/page_045/ojo.png" className="hp-50 mtp--150" alt="" /></div>
+                <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_045/pintora.png" className="hp-120 mep-100" alt="" /></div>
+                <div className="bgc-draco rounded-p-10 p-2">
+                  <div className="d-flex align-items-center">
+                    <div className="f-Ubuntu-R fsp-14 lh-sm text-start pep-10">Obra letra</div>
+                    <div className="p-1 wp-70 d-flex bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" /></div>
                   </div>
-                  <div className="bgc-white rounded-p-10 msp-20 p-3 mbp-10">
-                    <div className="f-Ubuntu-R fsp-14 lh-sm text-start">Este paso previo sirve para</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-105" />
+                  <div className="d-flex p-2 m-0 h-100 align-items-center">
+                    <div className="col-3 bgc-yoda rounded-p-10 p-2 hp-150 f-Ubuntu-R fsp-14 lh-sm position-relative d-flex justify-content-center align-items-center">¿Qué veo?
+                      <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_045/flecha.svg" className="msp-20" alt="" /></div>
+                    </div>
+                    <div className="col-9 psp-15">
+                      <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
+                    </div>
                   </div>
-                  <div className="bgc-white rounded-p-10 msp-20 p-3">
-                    <div className="f-Ubuntu-R fsp-14 lh-sm text-start">Creo que es útil para el proyecto porque</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-105" />
+                  <div className="d-flex p-2 m-0 h-100 align-items-center">
+                    <div className="col-3 bgc-windu rounded-p-10 p-2 hp-150 f-Ubuntu-R fsp-14 lh-sm position-relative d-flex justify-content-center align-items-center">¿Qué pienso?
+                      <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_045/flecha.svg" className="msp-20" alt="" /></div>
+                    </div>
+                    <div className="col-9 psp-15">
+                      <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
+                    </div>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="ptp-10 container-titulo-global mbp-0">
-            {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>xxx</div> */}
-            <div className="d-flex psp-20">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
-              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">¿Qué información necesito para elaborar mi propio boceto del aparato o sistema que elegimos construir?</div>
-              {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-35 text-center mtp-10 " className="p-0 px-0" /> */}
-            </div>
-          </div>
-
-          <div className="d-flex global-margin mtp-10 mbp-40 psp-50 pep-15 ptp-0 pbp-0">
-            <div className="row p-0 m-0 w-100">
-              <div className="col-12 p-0 m-0 position-relative">
-                <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_045/clip.png" className="hp-45 mep-40 mtp-0" alt="" /></div>
-                <div className="bgc-pantro p-2 box-shadow-simple">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-250 contenedor-linea" />
+                  <div className="d-flex p-2 m-0 h-100 align-items-center">
+                    <div className="col-3 bgc-bobafett rounded-p-10 p-2 hp-150 f-Ubuntu-R fsp-14 lh-sm position-relative d-flex justify-content-center align-items-center">¿Qué me pregunto?
+                      <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_045/flecha.svg" className="msp-20" alt="" /></div>
+                    </div>
+                    <div className="col-9 psp-15">
+                      <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
