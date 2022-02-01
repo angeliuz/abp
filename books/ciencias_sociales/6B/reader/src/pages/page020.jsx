@@ -151,7 +151,7 @@ function Page020(props) {
               </div>
             </div>
 
-            <div className="d-flex justify-content-center mtp--80 mbp-50 ">
+            <div className="d-flex justify-content-center mtp--80 mbp-30 ">
               <div className="">
                 <img
                   src={"images/page_" + pagina + "/imagen.png"}

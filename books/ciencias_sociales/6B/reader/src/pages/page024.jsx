@@ -48,49 +48,36 @@ function Page024(props) {
                         </div>
                     </div>
 
-                    <div className="d-flex global-margin mtp-0 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-Ubuntu-L  fsp-16">
-                        {/* <div className="position-absolute top-0 start-100 translate-middle mtp-90 msp--100 zindex-2 visible-768"><img src="images/page_022/img_002.png" className="" alt="" /></div> */}
-                        {/* <div className="position-absolute top-100 start-100 translate-middle msp--90 zindex-2 visible-768"><img src="images/page_022/img_004.png" className="" alt="" /></div> */}
-                        {/* <div className="position-absolute top-50 start-0 translate-middle  zindex-2 msp-80 visible-768"><img src="images/page_022/img_003.png" className="" alt="" /></div> */}
-                        <div className="position-absolute top-50 start-50 translate-middle msp-0  zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-540" alt="" /></div>
+                    <div className=" psp-50 pep-50 mbp-100 mtp-10">
 
-                        <div className="position-absolute top-0 start-50 translate-middle msp-10 mtp-100 zindex-1">
-                            <div className="d-flex flex-column wp-105 psp-20 pep-10 ptp-0 pbp-0">
+                        <div className="row container-row px-5">
+                            <div className="col-sm-12 col-md-6 position-relative mbp-20">
+                                {/* <div className="position-absolute top-100 start-0 translate-middle wp-100 msp-40 mtp--70"><img src="images/page_050/carta.png" className="wp-50 mep-70 mtp-30" alt="" /></div> */}
 
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-25 min-hp-35" />
+                                <div className="">
+                                    <div className="f-Ubuntu-B alinea rounded-set-10 bgc-saitama w-100 p-1 text-center color-white">¿Qué me ha sorprendido de lo que he
+                                        aprendido sobre la energía?</div>
+                                    <div className=" linea1 bgc-white  p-2 rounded-seb-20 border-style-solid border-color-saitama border-2">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div className="position-absolute top-0 start-50 translate-middle  mtp-100 msp--70 zindex-1">
-                            <div className="d-flex flex-column wp-90 psp-10 pep-10 ptp-0 pbp-0  ">
 
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-25 min-hp-35" />
+                            <div className="col-sm-12 col-md-6 position-relative">
+                                <div className="position-absolute top-0 start-100 translate-middle mtp--10 msp-0 "><img src="images/page_022/img_006.png" className="" alt="" /></div>
+                                <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 visible-768"><img src="images/page_022/espiral.svg" className="wp-50 " alt="" /></div>
+                                <div className="">
+                                    <div className="f-Ubuntu-B alinea rounded-set-10 bgc-birdie w-100 p-1 text-center color-white">¿Para qué me ha servido la
+                                        investigación?</div>
+                                    <div className="linea1 bgc-white p-2  rounded-seb-20 border-style-solid border-color-birdie border-2">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                                    </div>
+                                </div>
                             </div>
+
                         </div>
 
-                        <div className="position-absolute top-50 start-50 translate-middle msp-100 mtp--100  mtp-0 zindex-1">
-                            <div className="d-flex flex-column wp-90 psp-10 pep-10 ptp-0 pbp-0 ">
 
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-25 min-hp-35" />
-                            </div>
-                        </div>
-                        <div className="position-absolute top-50 start-50 translate-middle msp-200 mtp-5  zindex-1">
-                            <div className="d-flex flex-column wp-100 psp-10 pep-10 ptp-0 pbp-0 ">
-
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-30 min-hp-35" />
-                            </div>
-                        </div>
-                        <div className="position-absolute top-100 start-50 translate-middle  mtp--90 msp-50 zindex-1">
-                            <div className="d-flex flex-column wp-90 psp-10 pep-10 ptp-0 pbp-0 ">
-
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-25 min-hp-35" />
-                            </div>
-                        </div>
-                        <div className="position-absolute top-100 start-50 translate-middle msp--35 mtp--90 zindex-1">
-                            <div className="d-flex flex-column wp-90 psp-10 pep-10 ptp-0 pbp-0 ">
-
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-25 min-hp-35" />
-                            </div>
-                        </div>
                     </div>
 
                     <div className="ptp-10 container-titulo-global">
