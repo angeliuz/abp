@@ -2,11 +2,11 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
 import ModalBook from "../components/ModalBook";
-import "./page_045.css";
+import "./page_043.css";
 
-function Page045(props) {
+function Page043(props) {
 
-  const pagina = "045";
+  const pagina = "043";
   var indexInput = 0;
   const etapa = "4"
   const background = "bgc-pidgey";
@@ -24,40 +24,40 @@ function Page045(props) {
           <div className={"cabecera-v2 d-flex flex-column " + background}>
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
               <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN 10</div>
-              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Apreciamos obras de arte visual</div>
+              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Una idea brillante</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-95">
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Mis objetivos en esta sesión son:
+                Mis objetivos en <br /> esta sesión son:
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Apreciar obras de arte visual.
+                Leer la revista e <br /> identificar la función <br /> del sistema de goteo
               </div>
               <div className="psp-5 pep-5 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Reconocer distintos tipos de <br /> obras de arte visual.
+                Proponer un <br /> aparato o sistema <br /> para el desafío
               </div>
-              {/* <div className="p-0 align-self-center">
+              <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Elaborar un boceto <br /> de la propuesta
-              </div> */}
+                Identificar las <br /> características que debe <br /> tener el aparato o sistema
+              </div>
             </div>
           </div>
           {/* END CABECERA VERSIÓN 2 */}
 
-          <div className="ptp-10 container-titulo-global-1 mbp-0 mep-150">
+          <div className="ptp-10 container-titulo-global mbp-0">
             {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>xxx</div> */}
-            <div className="d-flex psp-0">
-              <img className="hp-15 align-center mtp-20 me-2 mb-2" src={"images/page_" + pagina + "/i_g.svg"} alt="" />
+            <div className="d-flex psp-20">
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>1</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Distribuyo las obras con mi grupo. Luego, respondo acerca de la que me correspondió.</div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Leo la revista e identifico la función del sistema de riego por goteo solar.</div>
               {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
@@ -65,41 +65,43 @@ function Page045(props) {
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-10 mbp-50 psp-40 pep-0 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-pixilate-semibold fsp-16">
+            <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/fondo_001.svg"} className="wp-560" alt="" /></div>
+            <div className="position-absolute top-100 start-100 translate-middle msp--70 mtp--95 zindex-1 visible-768"><img src={"images/page_" + pagina + "/mono.png"} className="hp-150" alt="" /></div>
+            <div className="position-absolute top-0 start-50 msp--260 mtp-55 zindex-1">
+              <div className="d-flex flex-column wp-230 psp-10 pep-10 ptp-0 pbp-0 ">
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-120" />
+              </div>
+            </div>
+            <div className="position-absolute top-50 start-50 msp--275 mtp-35 zindex-1">
+              <div className="d-flex flex-column wp-250 psp-10 pep-10 ptp-0 pbp-0 ">
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-120" />
+              </div>
+            </div>
+            <div className="position-absolute top-0 start-50 msp-55 mtp-60 zindex-1">
+              <div className="d-flex flex-column wp-230 psp-10 pep-10 ptp-0 pbp-0 ">
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-120" />
+              </div>
+            </div>
+            <div className="position-absolute top-50 start-50 msp-10 mtp-50 zindex-1">
+              <div className="d-flex flex-column wp-250 psp-10 pep-10 ptp-0 pbp-0 ">
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-120" />
+              </div>
+            </div>
+          </div>
+
+          <div className="d-flex global-margin mtp-30 mbp-30 psp-0 pep-15 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
-              <div className="col-12 m-0 p-0 position-relative">
-                <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_045/posit.png" className="hp-60 mtp-150" alt="" /></div>
-                <div className="position-absolute top-50 start-0 translate-middle zindex-2"><img src="images/page_045/ojo.png" className="hp-50 mtp--150" alt="" /></div>
-                <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_045/pintora.png" className="hp-120 mep-100" alt="" /></div>
-                <div className="bgc-draco rounded-p-10 p-2">
-                  <div className="d-flex align-items-center">
-                    <div className="f-Ubuntu-R fsp-14 lh-sm text-start pep-10">Obra letra</div>
-                    <div className="p-1 wp-70 d-flex bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" /></div>
-                  </div>
-                  <div className="d-flex p-2 m-0 h-100 align-items-center">
-                    <div className="col-3 bgc-yoda rounded-p-10 p-2 hp-150 f-Ubuntu-R fsp-14 lh-sm position-relative d-flex justify-content-center align-items-center">¿Qué veo?
-                      <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_045/flecha.svg" className="msp-20" alt="" /></div>
-                    </div>
-                    <div className="col-9 psp-15">
-                      <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
-                    </div>
-                  </div>
-                  <div className="d-flex p-2 m-0 h-100 align-items-center">
-                    <div className="col-3 bgc-windu rounded-p-10 p-2 hp-150 f-Ubuntu-R fsp-14 lh-sm position-relative d-flex justify-content-center align-items-center">¿Qué pienso?
-                      <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_045/flecha.svg" className="msp-20" alt="" /></div>
-                    </div>
-                    <div className="col-9 psp-15">
-                      <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
-                    </div>
-                  </div>
-                  <div className="d-flex p-2 m-0 h-100 align-items-center">
-                    <div className="col-3 bgc-bobafett rounded-p-10 p-2 hp-150 f-Ubuntu-R fsp-14 lh-sm position-relative d-flex justify-content-center align-items-center">¿Qué me pregunto?
-                      <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_045/flecha.svg" className="msp-20" alt="" /></div>
-                    </div>
-                    <div className="col-9 psp-15">
-                      <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
-                    </div>
-                  </div>
+              <div className="col-5 p-0 m-0">
+                <div className="d-flex">
+                  <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
+                  <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Propongo un aparato o sistema que aproveche la energía renovable dentro del colegio y justifico mi propuesta.</div>
+                </div>
+              </div>
+              <div className="col-7 p-0 m-0 position-relative">
+                <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_043/pincho.svg" className="hp-45 mep-40 mtp-0" alt="" /></div>
+                <div className="bgc-draco p-2">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-250 contenedor-linea" />
                 </div>
               </div>
             </div>
@@ -153,4 +155,4 @@ function Page045(props) {
   );
 }
 
-export default Page045;
+export default Page043;
