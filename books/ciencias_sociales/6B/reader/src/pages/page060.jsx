@@ -92,7 +92,7 @@ function Page060(props) {
 
                         <div className="d-flex justify-content-center max-img mbp-50 ">
                             <div className="">
-                                <img src="images/page_058/img_003.png" className="img-fluid" alt="" />
+                                <img src="images/page_060/img_003.png" className="img-fluid" alt="" />
                             </div>
                         </div>
                         {/* Begin pie de página */}
