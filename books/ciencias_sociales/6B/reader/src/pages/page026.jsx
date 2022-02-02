@@ -83,7 +83,7 @@ function Page026(props) {
 
                   </div>
                   <div className="col-7 position-relative pbp-10">
-                  <div className="position-absolute top-0 start-100 translate-middle mtp-15 msp--20 zindex-1"><img src="images/page_026/img_002.png" className="" alt="" /></div>
+                    <div className="position-absolute top-0 start-100 translate-middle mtp-15 msp--20 zindex-1"><img src="images/page_026/img_002.png" className="" alt="" /></div>
                     <div className="w-100 mtp-20">
                       <div className="d-flex align-items-center justify-content-center f-Ubuntu-R fsp-15 p-3 color-bulma  ">¿Por qué?
                       </div>
@@ -167,12 +167,9 @@ function Page026(props) {
 
                         <div className="position-absolute top-50 start-0 translate-middle zindex-1 "><img src={"images/page_026/img_003.svg"} className=" msp--25  mtp-0 " alt="" /></div>
 
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
 
-                        <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
 
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-
-                        </div>
 
 
                       </div>
@@ -203,31 +200,32 @@ function Page026(props) {
           <div className="d-flex global-margin mtp-10 mbp-100 psp-40 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 m-0 p-0 position-relative">
-                
+
                 <div className="position-absolute top-0 start-100 translate-middle msp--20 zindex-2"><img src="images/page_026/img_005.png" className="" alt="" /></div>
-                
+
                 <div className="bgc-draco rounded-p-10 p-2 box-shadow-simple">
                   {/* <div className="d-flex align-items-center">
                     <div className="f-Ubuntu-R fsp-14 lh-sm text-start pep-10">Obra letra</div>
                     <div className="p-1 wp-70 d-flex bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" /></div>
                   </div> */}
                   <div className="d-flex p-2 m-0 h-100 align-items-center">
-                    
+
                     <div className="col-12 psp-15">
                       <div className="bgc-white rounded-p-10 p-2">
-                      <div className="f-Ubuntu-R fsp-16 msp-10 mep-10 text-center">¿En qué derecho se centrará nuestra obra?</div>
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
+                        <div className="f-Ubuntu-R fsp-16 msp-10 mep-10 text-center">¿En qué derecho se centrará nuestra obra?</div>
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                      </div>
                     </div>
                   </div>
                   <div className="d-flex p-2 m-0 h-100 align-items-center">
                     <div className="col-2  rounded-p-10 p-2 hp-150 f-Ubuntu-R fsp-14 lh-sm position-relative d-flex justify-content-center align-items-center">¿Por qué?
-                      
+
                     </div>
                     <div className="col-10 psp-15">
                       <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
                     </div>
                   </div>
-                  
+
                 </div>
               </div>
             </div>
