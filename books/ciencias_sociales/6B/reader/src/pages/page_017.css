@@ -1,16 +1,45 @@
-.ovalo-p17 {
-  width: 250px;
-  height: 140px;
+.msp-a {
+  margin-left: auto;
+}
+
+.mep-a {
+  margin-right: auto;
+}
+
+.mxwp-300 {
+  max-width: 300px;
+}
+
+.punto-p17 {
+  width: 15px;
+  height: 15px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
 
-.cuadrado-p17 {
-  min-width: 30px;
-  min-height: 30px;
+.sombra-3 {
+  -webkit-box-shadow: 5px 6px 0px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 6px 0px 1px rgba(0, 0, 0, 0.2);
 }
 
-.mxwp-a {
-  width: 200;
+
+@media (min-width: 820px) {
+  .ptp-20-p17 {
+    padding-top: 160px;
+  }
+
+  .visible-p17 {
+    visibility: visible
+  }
+}
+
+@media (max-width: 819px) {
+  .ptp-20-p17 {
+    padding-top: 20px;
+  }
+
+  .visible-p17 {
+    visibility: hidden
+  }
 }
