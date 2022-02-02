@@ -53,19 +53,19 @@ function Page050(props) {
               <div className="col-12 p-1 m-0 position-relative">
                 <div className="d-flex pbp-10 align-items-center">
                   <div className="f-Ubuntu-R fsp-14 lh-sm text-start pep-10">Formato 1:</div>
-                  <div className="flex-grow-1 bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-35" /></div>
+                  <div className="flex-grow-1 bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" /></div>
                 </div>
               </div>
               <div className="col-6 p-2 m-0 position-relative">
                 <div className="bgc-white rounded-p-10 p-2">
                   <div className="f-Ubuntu-R fsp-14 lh-sm text-center">Ventajas</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-245" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-245" />
                 </div>
               </div>
               <div className="col-6 p-2 m-0 position-relative">
                 <div className="bgc-white rounded-p-10 p-2">
                   <div className="f-Ubuntu-R fsp-14 lh-sm text-center">Desventajas</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-245" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-245" />
                 </div>
               </div>
             </div>
@@ -78,19 +78,19 @@ function Page050(props) {
               <div className="col-12 p-1 m-0 position-relative">
                 <div className="d-flex pbp-10 align-items-center">
                   <div className="f-Ubuntu-R fsp-14 lh-sm text-start pep-10">Formato 2:</div>
-                  <div className="flex-grow-1 bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-35" /></div>
+                  <div className="flex-grow-1 bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" /></div>
                 </div>
               </div>
               <div className="col-6 p-2 m-0 position-relative">
                 <div className="bgc-white rounded-p-10 p-2">
                   <div className="f-Ubuntu-R fsp-14 lh-sm text-center">Ventajas</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-245" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-245" />
                 </div>
               </div>
               <div className="col-6 p-2 m-0 position-relative">
                 <div className="bgc-white rounded-p-10 p-2">
                   <div className="f-Ubuntu-R fsp-14 lh-sm text-center">Desventajas</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-245" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-245" />
                 </div>
               </div>
             </div>

@@ -73,68 +73,28 @@ function Page049(props) {
                                     <div className="position-absolute top-50 start-0 translate-middle h-100 ptp-10 pbp-10"><div className="espiral-calado wp-30 h-100"></div></div>
                                     <div className="d-flex msp-20 pbp-10 align-items-center">
                                         <div className="f-Ubuntu-R fsp-14 lh-sm text-start pep-10">Autor/a.</div>
-                                        <div className="flex-grow-1 bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-35" /></div>
+                                        <div className="flex-grow-1 bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" /></div>
                                     </div>
                                     <div className="d-flex msp-20 pbp-10 align-items-center">
                                         <div className="f-Ubuntu-R fsp-14 lh-sm text-start pep-10">Título de la obra.</div>
-                                        <div className="flex-grow-1 bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-35" /></div>
+                                        <div className="flex-grow-1 bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" /></div>
                                     </div>
                                     <div className="d-flex msp-20 pbp-10 align-items-center">
                                         <div className="f-Ubuntu-R fsp-14 lh-sm text-start pep-10">Lugar y año de creación.</div>
-                                        <div className="flex-grow-1 bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-35" /></div>
+                                        <div className="flex-grow-1 bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" /></div>
                                     </div>
                                     <div className="bgc-white rounded-p-10 msp-20 p-3 mbp-10">
                                         <div className="f-Ubuntu-R fsp-14 lh-sm text-start">Descripción detallada.</div>
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-210" />
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-210" />
                                     </div>
                                     <div className="bgc-white rounded-p-10 msp-20 p-3 mbp-10">
                                         <div className="f-Ubuntu-R fsp-14 lh-sm text-start">Explicación de la obra y el mensaje que transmite.</div>
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-210 mep-70" />
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-210 mep-70" />
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    {/* <div className="d-flex global-margin mtp-10 mbp-50 psp-40 pep-0 ptp-0 pbp-0">
-                        <div className="row p-0 m-0 w-100">
-                            <div className="col-12 m-0 p-0 position-relative">
-                                <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_045/posit.png" className="hp-60 mtp-150" alt="" /></div>
-                                <div className="position-absolute top-50 start-0 translate-middle zindex-2"><img src="images/page_045/ojo.png" className="hp-50 mtp--150" alt="" /></div>
-                                <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_045/pintora.png" className="hp-120 mep-100" alt="" /></div>
-                                <div className="bgc-draco rounded-p-10 p-2">
-                                    <div className="d-flex align-items-center">
-                                        <div className="f-Ubuntu-R fsp-14 lh-sm text-start pep-10">Obra letra</div>
-                                        <div className="p-1 wp-70 d-flex bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" /></div>
-                                    </div>
-                                    <div className="d-flex p-2 m-0 h-100 align-items-center">
-                                        <div className="col-3 bgc-yoda rounded-p-10 p-2 hp-150 f-Ubuntu-R fsp-14 lh-sm position-relative d-flex justify-content-center align-items-center">¿Qué veo?
-                                            <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_045/flecha.svg" className="msp-20" alt="" /></div>
-                                        </div>
-                                        <div className="col-9 psp-15">
-                                            <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
-                                        </div>
-                                    </div>
-                                    <div className="d-flex p-2 m-0 h-100 align-items-center">
-                                        <div className="col-3 bgc-windu rounded-p-10 p-2 hp-150 f-Ubuntu-R fsp-14 lh-sm position-relative d-flex justify-content-center align-items-center">¿Qué pienso?
-                                            <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_045/flecha.svg" className="msp-20" alt="" /></div>
-                                        </div>
-                                        <div className="col-9 psp-15">
-                                            <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
-                                        </div>
-                                    </div>
-                                    <div className="d-flex p-2 m-0 h-100 align-items-center">
-                                        <div className="col-3 bgc-bobafett rounded-p-10 p-2 hp-150 f-Ubuntu-R fsp-14 lh-sm position-relative d-flex justify-content-center align-items-center">¿Qué me pregunto?
-                                            <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_045/flecha.svg" className="msp-20" alt="" /></div>
-                                        </div>
-                                        <div className="col-9 psp-15">
-                                            <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
 
                     {/* BEGIN PIE DE PAGINA */}
                     <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
