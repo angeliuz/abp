@@ -31,7 +31,7 @@ function Page028(props) {
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_001.svg"} alt="" /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-              Respondo a partir de la noticia analizada en la actividad anterior.
+                Respondo a partir de la noticia analizada en la actividad anterior.
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
@@ -40,129 +40,170 @@ function Page028(props) {
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-30 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
-            <div className="row  ">
-              <div className="col-12">
-                <div className="row p-0 m-0 w-100">
-
-                  <div className="col-5  d-flex position-relative pbp-10 ">
-
-                    <div className=" w-100 ">
-                      <div className="d-flex w-100  f-Ubuntu-R fsp-15 p-1 color-bulma mbp-20 text-center">¿En que derecho me gustaría
-                        centrar nuestra obra?
-                      </div>
-                      <div className=" p-1 border-style-solid border-2 border-color-lizt rounded-p-10  lh-sm text-start p-2 position-relative bgc-lizt">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-110" />
-                        <div className=" d-flex position-absolute top-0 start-0 translate-middle mtp-30 wp-30 hp-30 bgc-bulma border-style-solid border-1 border-color-dark bgc-white rounded-1 fsp-16 align-items-center justify-content-center f-Ubuntu-M color-white">1
-
-                        </div>
-
-                      </div>
-                    </div>
+          <div className="d-flex global-margin mtp-30 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
 
 
+            <div className="row p-0 m-0 w-100 bgc-baki rounded-p-10">
 
-                  </div>
-                  <div className="col-7 position-relative pbp-10">
-                  <div className="position-absolute top-0 start-100 translate-middle mtp-15 msp--20 zindex-1"><img src="images/page_026/img_002.png" className="" alt="" /></div>
-                    <div className="w-100 mtp-20">
-                      <div className="d-flex align-items-center justify-content-center f-Ubuntu-R fsp-15 p-3 color-bulma  ">¿Por qué?
-                      </div>
-                      <div className="w-100  p-1  border-style-solid border-2 border-color-kagome rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
+              <div className="col-6 d-flex position-relative pbp-10 ptp-10 ">
 
-                        <div className="position-absolute top-50 start-0 translate-middle zindex-1 "><img src={"images/page_026/img_003.svg"} className=" msp--25  mtp-0 " alt="" /></div>
+                <div className=" w-100 ">
+
+                  <div className=" p-1 border-style-solid border-2 border-color-naraku rounded-p-10  lh-sm text-start p-2 position-relative bgc-kai">
+                    <div className="w-100  p-1 ">
 
 
-                        <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
-
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-
-                        </div>
-
-
+                      <div className="d-flex text-start f-Ubuntu-L fsp-16 p-3   ">¿Qué derecho o derechos están en
+                        riesgo en la situación descrita en
+                        la noticia?
                       </div>
                     </div>
+                    <div className=" d-flex position-absolute top-50 start-0 translate-middle wp-30 hp-30 bgc-alf border-style-solid border-1 border-color-alf bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M color-white">a.
 
-                  </div>
-
-                  <div className="col-5  d-flex position-relative pbp-10 ">
-
-                    <div className=" w-100 mtp-20">
-
-                      <div className="  p-1 border-style-solid border-2 border-color-lizt rounded-p-10  lh-sm text-start p-2 position-relative bgc-lizt">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-110" />
-                        <div className=" d-flex position-absolute top-0 start-0 translate-middle mtp-30 wp-30 hp-30 bgc-bulma border-style-solid border-1 border-color-dark bgc-white rounded-1 fsp-16 align-items-center justify-content-center f-Ubuntu-M color-white">2
-
-                        </div>
-
-                      </div>
-                    </div>
-
-
-
-                  </div>
-
-                  <div className="col-7  position-relative pbp-10">
-
-                    <div className="w-100 mtp-20">
-
-                      <div className="w-100  p-1  border-style-solid border-2 border-color-kagome rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
-
-                        <div className="position-absolute top-50 start-0 translate-middle zindex-1 "><img src={"images/page_026/img_003.svg"} className=" msp--25  mtp-0 " alt="" /></div>
-
-
-                        <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
-
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-
-                        </div>
-
-
-                      </div>
-                    </div>
-
-                  </div>
-
-                  <div className="col-5  d-flex position-relative pbp-10 ">
-
-                    <div className=" w-100 mtp-20">
-
-                      <div className="  p-1 border-style-solid border-2 border-color-lizt rounded-p-10  lh-sm text-start p-2 position-relative bgc-lizt">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-110" />
-                        <div className=" d-flex position-absolute top-0 start-0 translate-middle mtp-30 wp-30 hp-30 bgc-bulma border-style-solid border-1 border-color-dark rounded-1 fsp-16 align-items-center justify-content-center f-Ubuntu-M color-white">3
-
-                        </div>
-
-                      </div>
-                    </div>
-
-
-
-                  </div>
-
-                  <div className="col-7  position-relative pbp-10">
-
-                    <div className="w-100 mtp-20">
-
-                      <div className="w-100  p-1  border-style-solid border-2 border-color-kagome rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
-
-                        <div className="position-absolute top-50 start-0 translate-middle zindex-1 "><img src={"images/page_026/img_003.svg"} className=" msp--25  mtp-0 " alt="" /></div>
-
-
-                        <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
-
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-
-                        </div>
-
-
-                      </div>
                     </div>
 
                   </div>
                 </div>
               </div>
+              <div className="col-6 d-flex position-relative pbp-10 ptp-10">
+
+                <div className=" w-100 ">
+
+                  <div className=" p-1 border-style-solid border-2 border-color-naraku rounded-p-10  lh-sm text-start p-2 position-relative bgc-kai">
+                    <div className="w-100  p-1 ">
+
+
+                      <div className="d-flex text-start f-Ubuntu-L fsp-16 p-2 psp-5  ">Según la noticia, ¿qué organizaciones
+                        o personas contribuyen al respeto
+                        de los derechos? ¿Mediante qué
+                        acciones lo hacen?
+                      </div>
+                    </div>
+                    <div className=" d-flex position-absolute top-50 start-0 translate-middle wp-30 hp-30 bgc-alf border-style-solid border-1 border-color-alf bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M color-white">b.
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-6 position-relative pbp-10">
+                {/* <div className="position-absolute top-0 start-100 translate-middle mtp-15 msp--20 zindex-1"><img src="images/page_026/img_002.png" className="" alt="" /></div> */}
+                <div className="w-100 ">
+
+                  <div className="w-100  p-1   rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
+
+                    <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
+
+                    </div>
+
+
+                  </div>
+                </div>
+
+              </div>
+
+              <div className="col-6 position-relative pbp-10">
+                {/* <div className="position-absolute top-0 start-100 translate-middle mtp-15 msp--20 zindex-1"><img src="images/page_026/img_002.png" className="" alt="" /></div> */}
+                <div className="w-100 ">
+
+                  <div className="w-100  p-1   rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
+
+                    <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
+
+                    </div>
+
+
+                  </div>
+                </div>
+
+              </div>
+
+              <div className="col-6 d-flex position-relative pbp-10 ">
+
+                <div className=" w-100 ">
+
+                  <div className=" p-1 border-style-solid border-2 border-color-naraku rounded-p-10  lh-sm text-start p-2 position-relative bgc-kai">
+                    <div className="w-100  p-1 ">
+
+
+                      <div className="d-flex text-start f-Ubuntu-L fsp-16 p-3   ">De acuerdo con la noticia, ¿qué
+                        organizaciones o personas ponen en
+                        riesgo los derechos?
+                      </div>
+                    </div>
+                    <div className=" d-flex position-absolute top-50 start-0 translate-middle wp-30 hp-30 bgc-alf border-style-solid border-1 border-color-alf bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M color-white">c.
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-6 d-flex position-relative pbp-10 ">
+
+                <div className=" w-100 ">
+
+                  <div className=" p-1 border-style-solid border-2 border-color-naraku rounded-p-10  lh-sm text-start p-2 position-relative bgc-kai">
+                    <div className="w-100  p-1 ">
+
+
+                      <div className="d-flex text-start f-Ubuntu-L fsp-16 p-2 psp-5  ">Según tu opinión, ¿qué
+                        responsabilidades o deberes tendrían
+                        que asumir esas organizaciones o
+                        personas para remediar la situación?
+                      </div>
+                    </div>
+                    <div className=" d-flex position-absolute top-50 start-0 translate-middle wp-30 hp-30 bgc-alf border-style-solid border-1 border-color-alf bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M color-white">d.
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-6 position-relative pbp-10">
+                {/* <div className="position-absolute top-0 start-100 translate-middle mtp-15 msp--20 zindex-1"><img src="images/page_026/img_002.png" className="" alt="" /></div> */}
+                <div className="w-100 ">
+
+                  <div className="w-100  p-1   rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
+
+                    <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
+
+                    </div>
+
+
+                  </div>
+                </div>
+
+              </div>
+
+              <div className="col-6 position-relative pbp-10">
+                {/* <div className="position-absolute top-0 start-100 translate-middle mtp-15 msp--20 zindex-1"><img src="images/page_026/img_002.png" className="" alt="" /></div> */}
+                <div className="w-100 ">
+
+                  <div className="w-100  p-1   rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
+
+                    <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
+
+                    </div>
+
+
+                  </div>
+                </div>
+
+              </div>
             </div>
+
+
           </div>
 
 

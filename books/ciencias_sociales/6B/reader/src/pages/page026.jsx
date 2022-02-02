@@ -72,7 +72,7 @@ function Page026(props) {
                       </div>
                       <div className=" p-1 border-style-solid border-2 border-color-lizt rounded-p-10  lh-sm text-start p-2 position-relative bgc-lizt">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-110" />
-                        <div className=" d-flex position-absolute top-0 start-0 translate-middle mtp-30 wp-30 hp-30 bgc-bulma border-style-solid border-1 border-color-dark bgc-white rounded-1 fsp-16 align-items-center justify-content-center f-Ubuntu-M color-white">1
+                        <div className=" d-flex position-absolute top-0 start-0 translate-middle mtp-30 wp-30 hp-30 bgc-bulma border-style-solid border-1 border-color-bulma bgc-white rounded-1 fsp-16 align-items-center justify-content-center f-Ubuntu-M color-white">1
 
                         </div>
 
@@ -110,7 +110,7 @@ function Page026(props) {
 
                       <div className="  p-1 border-style-solid border-2 border-color-lizt rounded-p-10  lh-sm text-start p-2 position-relative bgc-lizt">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-110" />
-                        <div className=" d-flex position-absolute top-0 start-0 translate-middle mtp-30 wp-30 hp-30 bgc-bulma border-style-solid border-1 border-color-dark bgc-white rounded-1 fsp-16 align-items-center justify-content-center f-Ubuntu-M color-white">2
+                        <div className=" d-flex position-absolute top-0 start-0 translate-middle mtp-30 wp-30 hp-30 bgc-bulma border-style-solid border-1 border-color-bulma bgc-white rounded-1 fsp-16 align-items-center justify-content-center f-Ubuntu-M color-white">2
 
                         </div>
 
@@ -148,7 +148,7 @@ function Page026(props) {
 
                       <div className="  p-1 border-style-solid border-2 border-color-lizt rounded-p-10  lh-sm text-start p-2 position-relative bgc-lizt">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-110" />
-                        <div className=" d-flex position-absolute top-0 start-0 translate-middle mtp-30 wp-30 hp-30 bgc-bulma border-style-solid border-1 border-color-dark rounded-1 fsp-16 align-items-center justify-content-center f-Ubuntu-M color-white">3
+                        <div className=" d-flex position-absolute top-0 start-0 translate-middle mtp-30 wp-30 hp-30 bgc-bulma border-style-solid border-1 border-color-bulma rounded-1 fsp-16 align-items-center justify-content-center f-Ubuntu-M color-white">3
 
                         </div>
 
