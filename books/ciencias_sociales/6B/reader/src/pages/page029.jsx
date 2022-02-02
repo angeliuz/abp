@@ -119,7 +119,7 @@ function Page029(props) {
                                     <div className=" p-1  rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
                                         <div className="w-100  p-1 ">
 
-                                            <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+                                            <div className="align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
 
                                                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
 
@@ -140,7 +140,7 @@ function Page029(props) {
                                     <div className=" p-1  rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
                                         <div className="w-100  p-1 ">
 
-                                            <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+                                            <div className="align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
 
                                                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
 
@@ -162,7 +162,7 @@ function Page029(props) {
                                     <div className=" p-1  rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
                                         <div className="w-100  p-1 ">
 
-                                            <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+                                            <div className="align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
 
                                                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
 
