@@ -106,7 +106,7 @@ function Page028(props) {
               </div>
 
               <div className="col-6 position-relative pbp-10">
-                {/* <div className="position-absolute top-0 start-100 translate-middle mtp-15 msp--20 zindex-1"><img src="images/page_026/img_002.png" className="" alt="" /></div> */}
+                <div className="position-absolute top-0 start-100 translate-middle zindex-1 visible-768 msp-10"><img src="images/page_028/img_001.png" className="" alt="" /></div>
                 <div className="w-100 ">
 
                   <div className="w-100  p-1   rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
@@ -167,7 +167,7 @@ function Page028(props) {
               </div>
 
               <div className="col-6 position-relative pbp-10">
-                {/* <div className="position-absolute top-0 start-100 translate-middle mtp-15 msp--20 zindex-1"><img src="images/page_026/img_002.png" className="" alt="" /></div> */}
+                <div className="position-absolute top-100 start-0 translate-middle zindex-1 mtp-10 visible-768"><img src="images/page_028/img_002.png" className="" alt="" /></div>
                 <div className="w-100 ">
 
                   <div className="w-100  p-1   rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
