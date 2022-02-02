@@ -153,7 +153,8 @@
   --olsen:#b8703a;
   --greyson:#edeeee;
   --mozart:#54676f;
-
+  --alf:#9ea7ad;
+  --pachelbel:#fff4d4;
 
 }
 
@@ -881,7 +882,13 @@
     .color-mozart {
       color: var(--mozart);
     }
+    .color-alf {
+      color: var(--alf);
+    }
+     .color-pachelbel {
+      color: var(--pachelbel);
 
+    }
 
 
 
@@ -1379,7 +1386,14 @@
  .border-color-mozart {
   border-color: var(--mozart) !important;
  }
+  
+ .border-color-alf {
+  border-color: var(--alf) !important;
+ }
 
+.border-color-pachelbel {
+  border-color: var(--pachelbel) !important;
+}
 
 
 
@@ -1856,4 +1870,12 @@
 }
 .bgc-mozart {
   background-color: var(--mozart);
+}
+
+.bgc-alf {
+  background-color: var(--alf);
+}
+.bgc-pachelbel {
+  background-color: var(--pachelbel);
+
 }

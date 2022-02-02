@@ -255,20 +255,8 @@ function Page025(props) {
             </div>
           </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-          {/* BEGIN PIE DE PAGINA */}
-          <div
+{/* BEGIN PIE DE PAGINA */}
+<div
             className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2"
             style={{ bottom: 70, right: 0 }}
           >

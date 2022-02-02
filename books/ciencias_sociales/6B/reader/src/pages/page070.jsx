@@ -1,101 +1,103 @@
 import React from "react";
+import ModalVideo from "../components/ModalVideo";
+import InputBox from "../components/InputBox";
+import ModalBook from "../components/ModalBook";
+
 import "./page_070.css";
 
 function Page070(props) {
+
   const pagina = "070";
   var indexInput = 0;
-  const etapa = "6"
-  const background = "bgc-pikachu";
-  const color = "color-pikachu";
-  const borderColor = "border-color-pikachu"
-  const borderColorTabla = "border-color-kokomi"
-  const bgc_cajas = "bgc-kokomi";
+  const etapa = "5"
+  const background = "bgc-saitama";
+  const color = "color-saitama";
+  const bgc_cajas = "bgc-bobafett";
 
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
-        <div className={"page " + background + " position-relative pagina-cohete"} id={"page_" + pagina}>
+        <div className={"dosier-e" + etapa + " page bgc-white overflow-hidden position-relative"} id={"page_" + pagina}>
 
-          <div className="w-100 mt-15 pe-5 ps-5 ">
-            <div className="pc-lineas-v2 pbp-80">
-              <div className="pc-cabecera">
-                <div className="pc-titulo-12 color-white fsp-20 lh-sm f-durotype-aspiranar-bold">
-                  Mis objetivos <br /> en esta etapa son:
-                </div>
-                <div className="pc-cohete" ><img src="images/generales/cohete.png" alt="" />
-                </div>
-              </div>
+          <div className="psp-50 pep-70 ptp-50">
 
-              {/* BEGIN OBJETIVOS */}
-              <div className="pc-caja-objetivos-1">
-                <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
-                  <div className={"d-flex " + bgc_cajas + " psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e" + etapa}>
-                    <div className="d-flex align-items-start wp-23 ptp-1 pep-2">
-                      <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-20 mep-5 wp-20" alt="" />
-                    </div>
-                    <div>
-                      <span className="fsp-16 text-start f-pixilate-regular">
-                        <span className="fsp-16 f-IntroRustG-Base text-start">Presentar </span>
-                        nuestra <br /> creación a la comunidad<br /> educativa.
-                      </span>
-                    </div>
-                  </div>
+
+
+
+            <div className="d-flex justify-content-start text-start  msp-30 f-Ubuntu-L fsp-16  mtp-20 mbp-0 psp-0 pep-0 ptp-0 pbp-0">Con nuestra obra de arte, los asistentes a la exposición podrán experimentar… </div>
+
+            <div className="max-wp-640 mx-auto position-relative mtp-20">
+              <div className="position-absolute top-0 start-0 translate-middle  mtp-50 visible-768 zindex-10 msp--10"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-50" alt="" /></div>
+              {/* <div className="position-absolute top-100 start-100 translate-middle   msp-0 mtp--0 visible-768 zindex-10 msp-20 mtp--20"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-90" alt="" /></div> */}
+              <div className="text-center w-100 border-1 border-style-solid border-color-dark rounded-p-10 pbp-15 ptp-15 bgc-white">
+                <div className="psp-10 pep-10">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-290" />
                 </div>
               </div>
-              <div className="pc-caja-objetivos-2">
-                <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
-                  <div className={"d-flex " + bgc_cajas + " psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e" + etapa}>
-                    <div className="d-flex align-items-start wp-23 ptp-1 pep-2">
-                      <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-25 mep-5 wp-20" alt="" />
-                    </div>
-                    <div className="d-flex">
-                      <span className="fsp-16 text-start f-pixilate-regular">
-                        <span className="fsp-16 f-IntroRustG-Base text-start">EVALUAR </span>
-                        el trabajo<br /> realizado a lo largo<br /> del proyecto.
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="pc-caja-objetivos-3">
-                <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
-                  <div className={"d-flex " + bgc_cajas + " psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e" + etapa}>
-                    <div className="d-flex align-items-start wp-23 ptp-1 pep-2">
-                      <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-25 mep-5 wp-20" alt="" />
-                    </div>
-                    <div className="d-flex">
-                      <span className="fsp-16 text-start f-pixilate-regular">
-                        <span className="fsp-16 f-IntroRustG-Base text-start">Reflexionar </span>
-                        sobre <br /> nuestro trabajo en  equipo.
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* END OBJETIVOS */}
             </div>
 
-            <div className="d-flex justify-content-center mtp--10 mbp-50 ">
-              <div className="">
-                <img src={"images/page_" + pagina + "/imagen.jpg"} className="w-100" alt="" />
+
+
+            <div className="d-flex justify-content-start text-start  msp-30 f-Ubuntu-L fsp-16  mtp-20 mbp-0 psp-0 pep-0 ptp-0 pbp-0">Las tres frases con las que daríamos a conocer nuestra obra de arte son…</div>
+
+            <div className="max-wp-640 mx-auto position-relative mtp-20">
+              <div className="position-absolute top-0 start-100 translate-middle   msp-5 mtp--10 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-90" alt="" /></div>
+              <div className="position-absolute top-100 start-0 translate-middle   msp-5 mtp-0 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-120" alt="" /></div>
+              <div className="text-center w-100 border-1 border-style-solid border-color-dark rounded-p-10 pbp-15 ptp-15 bgc-white">
+
+                <div className="psp-10 pep-10">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-290" />
+                </div>
               </div>
             </div>
-            {/* Begin pie de página */}
-            <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
-              <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
-                ABP &copy; SM
-              </div>
-              <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
-            </div>
-            {/* End pie de página */}
 
 
           </div>
+
+          <div className="d-flex flex-column global-margin mtp-20 mbp-20 psp-20 pep-70 ptp-0 pbp-60 position-relative">
+            <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-10">¿Cómo vamos?</div>
+            <div className="d-flex flex-column bgc-white rounded-p-10 psp-10 pep-10 ptp-10 pbp-10 mtp-0 mbp-0">
+              <div className="row p-0 m-0 w-100">
+                <div className="col-12 p-0 m-0">
+                  <div className="d-flex flex-column">
+                    <div className="d-flex align-items-start">
+                      <div className="mtp-0 pep-5">
+                        <img src={"images/generales/flecha_e" + etapa + ".svg"} className="wp-15" />
+                      </div>
+                      <div className="f-Ubuntu-L fsp-15 ptp-2 text-start">Las fortalezas de nuestro equipo son</div>
+                    </div>
+                    <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 p-0 m-0">
+                  <div className="d-flex flex-column">
+                    <div className="d-flex align-items-start">
+                      <div className="mtp-0 pep-5">
+                        <img src={"images/generales/flecha_e" + etapa + ".svg"} className="wp-15" />
+                      </div>
+                      <div className="f-Ubuntu-L fsp-15 ptp-2 text-start">Lo que deberíamos mejorar en nuestro trabajo como equipo es</div>
+                    </div>
+                    <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="position-absolute top-50 start-100 translate-middle msp--40 mtp--10 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-80" alt="" /></div>
+          </div>
+
+          {/* BEIGN PIE DE PAGINA */}
+          <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
+            <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>ABP &copy; SM</div>
+            <div className="bgc-misty wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+          </div>
+          {/* END PIE DE PAGINA */}
         </div>
       </div>
-
     </div>
-
   );
 }
 

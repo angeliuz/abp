@@ -59,7 +59,7 @@ function Page015(props) {
           </div>
           {/* END CABECERA VERSIÓN 2 */}
 
-          <div className="ptp-50 container-titulo-global mbp-0">
+          <div className="ptp-20 container-titulo-global mbp-0">
 
             <div className="d-flex psp-20">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
@@ -138,7 +138,29 @@ function Page015(props) {
             </div>
           </div>
 
-          <div className=""></div>
+          <div className="psp-100 pep-60 ptp-20 pbp-120">
+            <div className="border-style-solid border-1 bgc-ryu p-2 position-relative sombra-1 ">
+              <div className="d-flex ptp-20 psp-20 pep-10">
+                <div className="f-Ubuntu-L fep-20 mtp-5">La tarea que me parece más interesante es</div>
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-25" />
+              </div>
+              <div className="d-flex psp-20 pep-10">
+                <div className="f-Ubuntu-L fep-20 mtp-5">porque</div>
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-25" />
+              </div>
+              <div className="d-flex psp-20 pep-10">
+                <div className="f-Ubuntu-L fep-20 mtp-5">Creo que la tarea más difícil será</div>
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-25" />
+              </div>
+              <div className="d-flex psp-20 pep-10 pbp-20">
+                <div className="f-Ubuntu-L fep-20 mtp-5">porque</div>
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-25" />
+              </div>
+              <div className="position-absolute top-0 start-100 translate-middle msp--30 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/clip.svg"} className="wp-40" alt="" /></div>
+              <div className="position-absolute top-0 start-100 translate-middle msp--80 mtp--50 zindex-1"><img src={"images/page_" + pagina + "/img_011.png"} className="wp-90" alt="" /></div>
+              <div className="position-absolute top-100 start-0 translate-middle msp--30 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_012.png"} className="wp-90" alt="" /></div>
+            </div>
+          </div>
 
 
           {/* BEGIN PIE DE PAGINA */}

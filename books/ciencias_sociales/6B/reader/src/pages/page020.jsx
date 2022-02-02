@@ -7,9 +7,12 @@ import "./page_020.css";
 function Page020(props) {
   const pagina = "020";
   var indexInput = 0;
-  const etapa = "3";
-  const background = "bgc-android18";
-  const bgc_cajas = "bgc-azuka";
+  const etapa = "2"
+  const background = "bgc-bulma";
+  const color = "color-bulma";
+  const borderColor = "border-color-bulma"
+  const bgc_cajas = "bgc-draco";
+  const borderColorTabla = "border-color-buzz";
 
   return (
     <div className="wrapper bgc-light">
@@ -49,7 +52,7 @@ function Page020(props) {
                     <div>
                       <span className="fsp-16 text-start f-pixilate-regular">
                         <span className="fsp-16 f-IntroRustG-Base text-start">
-                        RECOPILAR
+                          RECOPILAR
                         </span>{" "}
                         información
                         <br />
@@ -80,10 +83,10 @@ function Page020(props) {
                     <div className="d-flex">
                       <span className="fsp-16 text-start f-pixilate-regular">
                         <span className="fsp-16 f-IntroRustG-Base text-start">
-                        IDENTIFICAR
+                          IDENTIFICAR
                         </span>{" "}
                         soluciones <br />
-                        para aprovechar las<br/>
+                        para aprovechar las<br />
                         energías renovables.
                       </span>
                     </div>
@@ -110,9 +113,9 @@ function Page020(props) {
                     <div className="d-flex">
                       <span className="fsp-16 text-start f-pixilate-regular">
                         <span className="fsp-16 f-IntroRustG-Base text-start">
-                        CONSTRUIR
+                          CONSTRUIR
                         </span>{" "}
-                        una <br /> infografía sobre la<br/>
+                        una <br /> infografía sobre la<br />
                         investigación.
                       </span>
                     </div>
@@ -139,10 +142,10 @@ function Page020(props) {
                     <div className="d-flex">
                       <span className="fsp-16 text-start f-pixilate-regular">
                         <span className="fsp-16 f-IntroRustG-Base text-start">
-                        VALORAR
+                          VALORAR
                         </span>{" "}
                         cómo se <br />
-                        trabaja en equipo y<br/>
+                        trabaja en equipo y<br />
                         qué se puede mejorar.
                       </span>
                     </div>
