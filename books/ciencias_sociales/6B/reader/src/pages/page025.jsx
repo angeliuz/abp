@@ -151,7 +151,7 @@ function Page025(props) {
                         <div className="position-absolute top-50 start-0 translate-middle zindex-1 visible-768"><img src={"images/page_025/espiral.svg"} className="wp-55 msp--25  mtp-0 " alt="" /></div>
                         
 
-                        <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+                        <div className="align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
 
                           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-210" />
 
@@ -197,7 +197,7 @@ function Page025(props) {
                         <div className="position-absolute  top-50 start-0 translate-middle zindex-1 visible-768"><img src={"images/page_025/espiral.svg"} className="wp-55 msp--25  mtp-0 " alt="" /></div>
                        
 
-                        <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+                        <div className="align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
 
                           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-210" />
 
@@ -239,7 +239,7 @@ function Page025(props) {
                         <div className="position-absolute top-50 start-0 translate-middle zindex-1 visible-768"><img src={"images/page_025/espiral.svg"} className="wp-55 msp--25  mtp-0 " alt="" /></div>
                         
 
-                        <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+                        <div className=" align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
 
                           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-210" />
 

@@ -82,7 +82,7 @@ function Page027(props) {
               <div className="col-12 p-0 m-0 position-relative">
               <div className="d-flex pbp-20 ">
                             <div className="d-flex f-Ubuntu-M bgc-alf rounded-tbs-10 zindex-1 px-3  align-self-stretch color-white justify-content-center align-items-center">Noticia:</div>
-                            <div className=" w-100  border-2 border-style-solid border-color-alf rounded-tbe-20 msp--20 py-2 psp-25 pep-10">
+                            <div className=" wp-500  border-2 border-style-solid border-color-alf rounded-tbe-20 msp--20 py-2 psp-25 pep-10">
                                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
                             </div>
                         </div>
@@ -100,27 +100,27 @@ function Page027(props) {
                 <div className="wp-120 f-Ubuntu-M fsp-16 mep-30 ptp-2 pbp-2 rounded-p-10 align-self-end color-white">Protagonista 1
                   de la noticia</div>
               </div>
-              <div className="bgc-white msp--20 rounded-p-10  p-2">
+              <div className="bgc-white msp--20 wp-180 rounded-p-10  p-2">
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
               </div>
-              <div className="bgc-white msp--20 rounded-p-10 mtp-10 p-2">
-                <div className=" w-100 f-Ubuntu-L fsp-16 ptp-2 pbp-2 rounded-p-10 color-dark text-center">¿Cuál es su situación?</div>
+              <div className="bgc-white msp--20 rounded-p-10 mtp-10 p-2 wp-180">
+                <div className=" f-Ubuntu-L fsp-16 ptp-2 pbp-2 rounded-p-10 color-dark text-center">¿Cuál es su situación?</div>
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
               </div>
             </div>
 
 
             <div className="position-absolute top-50 start-50 translate-middle msp-200 mtp--95 zindex-1">
-              <div className="d-flex ">
+              <div className="d-flex flex-column wp-160">
                 <div className=" wp-120 f-Ubuntu-M fsp-16 mep-30 ptp-2 pbp-2 rounded-p-10  color-white">Protagonista 2
                   de la noticia</div>
               </div>
-              <div className="bgc-white msp--20 rounded-p-10 p-2">
+              <div className="bgc-white msp--20 wp-180 rounded-p-10 p-2">
 
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
               </div>
-              <div className="bgc-white msp--20 rounded-p-10 mtp-10  p-2">
-                <div className=" w-100 f-Ubuntu-L fsp-16 ptp-2 pbp-2 rounded-p-10 color-dark text-center">¿Cuál es su situación?</div>
+              <div className="bgc-white msp--20 wp-180 rounded-p-10 mtp-10  p-2">
+                <div className=" f-Ubuntu-L fsp-16 ptp-2 pbp-2 rounded-p-10 color-dark text-center">¿Cuál es su situación?</div>
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
               </div>
             </div>
@@ -130,7 +130,7 @@ function Page027(props) {
             <div className="position-absolute top-50 start-50 translate-middle msp--5 mtp-40 zindex-1">
               <div className="d-flex flex-column wp-160 psp-10 pep-10 ptp-0 pbp-0 ">
                 <div className=" wp-160 f-Ubuntu-M fsp-16 ptp-2 pbp-2 rounded-p-10 color-dark text-center">Conflicto o problema</div>
-                <div className="bgc-white  rounded-p-10 wp-160 p-2">
+                <div className="bgc-white rounded-p-10 wp-160 p-2">
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                 </div>
               </div>
@@ -141,7 +141,7 @@ function Page027(props) {
                 <div className="wp-120 f-Ubuntu-M fsp-16 mep-30 ptp-2 pbp-2 rounded-p-10 align-self-end color-white">Protagonista 3
                   de la noticia</div>
               </div>
-              <div className="bgc-white msp--20 rounded-p-10  p-2">
+              <div className="bgc-white msp--20 wp-180 rounded-p-10  p-2">
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
               </div>
 
@@ -149,8 +149,8 @@ function Page027(props) {
 
             <div className="position-absolute top-50 start-50 translate-middle mtp-260 msp-120 zindex-1">
               <div className="d-flex ">
-              <div className="bgc-white msp--20 rounded-p-10 mtp-10  p-2">
-                <div className=" w-100 f-Ubuntu-L fsp-16 ptp-2 pbp-2 rounded-p-10 color-dark text-center">¿Cuál es su situación?</div>
+              <div className="bgc-white msp--20 rounded-p-10 wp-180 mtp-10  p-2">
+                <div className=" f-Ubuntu-L fsp-16 ptp-2 pbp-2 rounded-p-10 color-dark text-center">¿Cuál es su situación?</div>
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
               </div>
               </div>
