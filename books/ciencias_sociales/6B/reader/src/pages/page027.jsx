@@ -47,7 +47,7 @@ function Page027(props) {
                 <img src="images/page_027/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
-                Señalar cambios para<br /> utilizar responsablemente<br />la energ a en el colegio
+                Señalar cambios para<br /> utilizar responsablemente<br />la energía en el colegio
               </div>
               {/* <div className="p-0 align-self-center">
                 <img src="images/page_025/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
