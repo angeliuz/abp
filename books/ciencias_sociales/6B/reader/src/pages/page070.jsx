@@ -19,39 +19,37 @@ function Page070(props) {
       <div className="d-flex flex-column align-items-center pbp-20">
         <div className={"dosier-e" + etapa + " page bgc-white overflow-hidden position-relative"} id={"page_" + pagina}>
 
-          <div className="psp-80 pep-80 ptp-50">
+          <div className="psp-50 pep-70 ptp-50">
 
-            <div className="bgc-leono rounded-set-20">
-              <div className="f-Ubuntu-B fsp-16 color-white text-center py-2 ">Lo más difícil ha sido...</div>
-            </div>
-            <div className="bgc-white border-style-solid border-2 border-color-leono psp-20 pep-20 ptp-10 pbp-40 rounded-seb-20 position-relative">
-              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
-              <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--70 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-60" alt="" /></div>
-            </div>
 
-            <div className="row ">
 
-              <div className="col-md-6 ptp-20 pbp-20 position-relative">
-                <div className="bgc-arlo rounded-set-20">
-                  <div className="f-Ubuntu-B fsp-16 color-white text-center py-2 ">Lo que más nos ha gustado ha sido...</div>
+
+            <div className="d-flex justify-content-start text-start  msp-30 f-Ubuntu-L fsp-16  mtp-20 mbp-0 psp-0 pep-0 ptp-0 pbp-0">Con nuestra obra de arte, los asistentes a la exposición podrán experimentar… </div>
+
+            <div className="max-wp-640 mx-auto position-relative mtp-20">
+              <div className="position-absolute top-50 start-0 translate-middle   msp-0 mtp--0 visible-768 zindex-10 msp--20"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-70" alt="" /></div>
+              <div className="position-absolute top-100 start-100 translate-middle   msp-0 mtp--0 visible-768 zindex-10 msp-20 mtp--20"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-90" alt="" /></div>
+              <div className="text-center w-100 border-1 border-style-solid border-color-dark rounded-p-10 pbp-15 ptp-15 bgc-white">
+                <div className="psp-10 pep-10">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-290" />
                 </div>
-                <div className="bgc-white border-style-solid border-2 border-color-arlo psp-20 pep-20 ptp-10 pbp-40 rounded-seb-20">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
-                </div>
-                <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--90 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-70" alt="" /></div>
               </div>
-
-              <div className="col-md-6 ptp-20 pbp-20 position-relative">
-                <div className="bgc-rukia rounded-set-20">
-                  <div className="f-Ubuntu-B fsp-16 color-white text-center py-2 ">Podemos mejorar en...</div>
-                </div>
-                <div className="bgc-white border-style-solid border-2 border-color-rukia psp-20 pep-20 ptp-10 pbp-40 rounded-seb-20">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
-                </div>
-                <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--60 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
-              </div>
-
             </div>
+
+
+
+            <div className="d-flex justify-content-start text-start  msp-30 f-Ubuntu-L fsp-16  mtp-20 mbp-0 psp-0 pep-0 ptp-0 pbp-0">Las tres frases con las que daríamos a conocer nuestra obra de arte son…</div>
+
+            <div className="max-wp-640 mx-auto position-relative mtp-20">
+              <div className="position-absolute top-100 start-0 translate-middle   msp--25 mtp--50 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-90" alt="" /></div>
+              <div className="text-center w-100 border-1 border-style-solid border-color-dark rounded-p-10 pbp-15 ptp-15 bgc-white">
+
+                <div className="psp-10 pep-10">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-290" />
+                </div>
+              </div>
+            </div>
+
 
           </div>
 
