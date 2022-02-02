@@ -77,13 +77,22 @@ function Page027(props) {
           </div>
 
 
+          <div className="d-flex global-margin mtp-0 mbp-20 psp-60 pep-60 ptp-0 pbp-0">
+            <div className="row p-0 m-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative">
+              <div className="d-flex pbp-20 ">
+                            <div className="d-flex f-Ubuntu-M bgc-alf rounded-tbs-10 zindex-1 px-3  align-self-stretch color-white justify-content-center align-items-center">Noticia:</div>
+                            <div className=" w-100  border-2 border-style-solid border-color-alf rounded-tbe-20 msp--20 py-2 psp-25 pep-10">
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                            </div>
+                        </div>
+              </div>
+            </div>
+          </div>
 
-
-
-          <div className="d-flex global-margin mtp-0 mbp-100 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-Ubuntu-L  fsp-16">
-            <div className="position-absolute top-0 start-100 translate-middle mtp-90 msp--100 zindex-2 visible-768"><img src="images/page_022/img_002.png" className="" alt="" /></div>
-            <div className="position-absolute top-100 start-100 translate-middle msp--90 zindex-2 visible-768"><img src="images/page_022/img_004.png" className="" alt="" /></div>
-            <div className="position-absolute top-50 start-0 translate-middle  zindex-2 msp-80 visible-768"><img src="images/page_022/img_003.png" className="" alt="" /></div>
+          <div className="d-flex global-margin mtp-0 mbp-250 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-Ubuntu-L  fsp-16">
+            <div className="position-absolute top-0 start-100 translate-middle mtp-90 msp--100 zindex-2 visible-768"><img src="images/page_027/img_004.png" className="" alt="" /></div>
+            
             <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-60 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-580" alt="" /></div>
 
             <div className="  position-absolute top-50 start-50 translate-middle msp--180 mtp--95 zindex-1">
@@ -110,7 +119,7 @@ function Page027(props) {
 
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
               </div>
-              <div className="bgc-white msp--20 rounded-p-10 mtp-10 p-10 p-2">
+              <div className="bgc-white msp--20 rounded-p-10 mtp-10  p-2">
                 <div className=" w-100 f-Ubuntu-L fsp-16 ptp-2 pbp-2 rounded-p-10 color-dark text-center">¿Cuál es su situación?</div>
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
               </div>
@@ -138,15 +147,15 @@ function Page027(props) {
 
             </div>
 
-            <div className="position-absolute top-50 start-50 translate-middle mtp-240 msp-120 zindex-1">
+            <div className="position-absolute top-50 start-50 translate-middle mtp-260 msp-120 zindex-1">
               <div className="d-flex ">
-                
+              <div className="bgc-white msp--20 rounded-p-10 mtp-10  p-2">
+                <div className=" w-100 f-Ubuntu-L fsp-16 ptp-2 pbp-2 rounded-p-10 color-dark text-center">¿Cuál es su situación?</div>
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+              </div>
               </div>
               
-              <div className="bgc-white msp--20 rounded-p-10 mtp-10 p-10 p-2">
-                <div className=" w-100 f-Ubuntu-L fsp-16 ptp-2 pbp-2 rounded-p-10 color-dark text-center">¿Cuál es su situación?</div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-              </div>
+              
             </div>
           </div>
 

@@ -153,6 +153,7 @@
   --olsen:#b8703a;
   --greyson:#edeeee;
   --mozart:#54676f;
+  --alf:#9ea7ad;
 
 
 }
@@ -881,7 +882,9 @@
     .color-mozart {
       color: var(--mozart);
     }
-
+    .color-alf {
+      color: var(--alf);
+    }
 
 
 
@@ -1379,6 +1382,9 @@
  .border-color-mozart {
   border-color: var(--mozart) !important;
  }
+ .border-color-alf {
+  border-color: var(--alf) !important;
+ }
 
 
 
@@ -1856,4 +1862,7 @@
 }
 .bgc-mozart {
   background-color: var(--mozart);
+}
+.bgc-alf {
+  background-color: var(--alf);
 }
