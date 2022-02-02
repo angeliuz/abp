@@ -153,7 +153,7 @@
   --olsen:#b8703a;
   --greyson:#edeeee;
   --mozart:#54676f;
-
+  --pachelbel:#fff4d4;
 
 }
 
@@ -881,7 +881,9 @@
     .color-mozart {
       color: var(--mozart);
     }
-
+    .color-pachelbel {
+      color: var(--pachelbel);
+    }
 
 
 
@@ -1379,7 +1381,9 @@
  .border-color-mozart {
   border-color: var(--mozart) !important;
  }
-
+ .border-color-pachelbel {
+  border-color: var(--pachelbel) !important;
+}
 
 
 
@@ -1856,4 +1860,7 @@
 }
 .bgc-mozart {
   background-color: var(--mozart);
+}
+.bgc-pachelbel {
+  background-color: var(--pachelbel);
 }
