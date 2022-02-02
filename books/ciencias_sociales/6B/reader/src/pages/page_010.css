@@ -31,7 +31,7 @@
     border-radius: 10px;
     position: absolute;
     left: 3px;
-    top: -94px;
+    top: -14px;
     width: 100%;
 }
 
@@ -40,41 +40,41 @@
     border-radius: 10px;
     position: absolute;
     left: -210px;
-    bottom: -104px;
+    top: -54px;
 }
 .cb-bloque-4::after{
   content: "";
   position: absolute;
-  width: 62px;
+  width: 64px;
   height: 1px;
-  bottom: 140px;
-  transform: rotate(-30deg);
+  bottom: 4px;
+  transform: rotate(20deg);
   background-color: var(--dark);
-  right: -56px;
+  right: -62px;
 }
 .cb-bloque-5 {
     max-width: 172px;
     border-radius: 10px;
     position: absolute;
-    right: 11px;
-    bottom: -144px;
+    left: -209px;
+    bottom: -104px;
     width: 100%;
 }
 .cb-bloque-5::after{
   content: "";
   position: absolute;
-  width: 80px;
+  width: 71px;
   height: 1px;
-  bottom: 187px;
-  transform: rotate(90deg);
+  bottom: 67px;
+  transform: rotate(160deg);
   background-color: var(--dark);
-  right: 20px;
+  right: -70px;
 }
 .cb-bloque-6 {
     max-width: 190px;
     border-radius: 10px;
     position: absolute;
-    right: -210px;
+    right: -120px;
     bottom: -104px;
 }
 .cb-bloque-6::after{
@@ -82,10 +82,27 @@
   position: absolute;
   width: 84px;
   height: 1px;
-  bottom: 130px;
+  bottom: 57px;
   transform: rotate(30deg);
   background-color: var(--dark);
-  right: 165px;
+  right: 45px;
+}
+.cb-bloque-3 {
+  max-width: 190px;
+  border-radius: 10px;
+  position: absolute;
+  right: -210px;
+  top: -54px;
+}
+.cb-bloque-3::after{
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 1px;
+  bottom: 36px;
+  transform: rotate(-40deg);
+  background-color: var(--dark);
+  right: 185px;
 }
 @media all and (max-width: 680px) {
 
@@ -108,7 +125,16 @@
       width: 100%;
       max-width: 400px;
   }
-
+  .cb-bloque-3 {
+    position: relative;
+    left: unset;
+    top: unset;
+    right:unset;
+    bottom: unset;
+    margin: 0 auto 15px auto;
+    width: 100%;
+    max-width: 400px;
+}
   .cb-bloque-4 {
       position: relative;
       left: unset;
@@ -148,7 +174,12 @@
       bottom: -10px;
       width: 16px;
   }
-
+  .cb-bloque-3::after{
+    right: calc(50% - 6px);
+    transform: rotate(90deg);
+    top: -10px;
+    width: 16px;
+}
   .cb-bloque-4::after{
       right: calc(50% - 6px);
       transform: rotate(90deg);

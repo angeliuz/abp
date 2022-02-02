@@ -2414,7 +2414,10 @@
 .mtp--200 {
   margin-top: -200px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a0e42b7f04edc88f8083a6a5b0fc1fcf20689d20
 
 .mb-5 {
   margin-bottom: 5%;
@@ -2668,6 +2671,24 @@
 }
 .mbp-200 {
   margin-bottom: 200px;
+}
+.mbp-210 {
+  margin-bottom: 210px;
+}
+.mbp-220 {
+  margin-bottom: 220px;
+}
+.mbp-230 {
+  margin-bottom: 230px;
+}
+.mbp-240 {
+  margin-bottom: 240px;
+}
+.mbp-250 {
+  margin-bottom: 250px;
+}
+.mbp-300 {
+  margin-bottom: 300px;
 }
 
 /* PADDING ALL */
