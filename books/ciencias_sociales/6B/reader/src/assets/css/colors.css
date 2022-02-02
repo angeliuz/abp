@@ -153,12 +153,8 @@
   --olsen:#b8703a;
   --greyson:#edeeee;
   --mozart:#54676f;
-<<<<<<< HEAD
   --alf:#9ea7ad;
-
-=======
   --pachelbel:#fff4d4;
->>>>>>> 3b2a03173175136e55e2649ff656206bbe7c00c3
 
 }
 
@@ -886,13 +882,12 @@
     .color-mozart {
       color: var(--mozart);
     }
-<<<<<<< HEAD
     .color-alf {
       color: var(--alf);
-=======
-    .color-pachelbel {
+    }
+     .color-pachelbel {
       color: var(--pachelbel);
->>>>>>> 3b2a03173175136e55e2649ff656206bbe7c00c3
+
     }
 
 
@@ -1391,16 +1386,14 @@
  .border-color-mozart {
   border-color: var(--mozart) !important;
  }
-<<<<<<< HEAD
+  
  .border-color-alf {
   border-color: var(--alf) !important;
  }
 
-=======
- .border-color-pachelbel {
+.border-color-pachelbel {
   border-color: var(--pachelbel) !important;
 }
->>>>>>> 3b2a03173175136e55e2649ff656206bbe7c00c3
 
 
 
@@ -1878,11 +1871,11 @@
 .bgc-mozart {
   background-color: var(--mozart);
 }
-<<<<<<< HEAD
+
 .bgc-alf {
   background-color: var(--alf);
-=======
+}
 .bgc-pachelbel {
   background-color: var(--pachelbel);
->>>>>>> 3b2a03173175136e55e2649ff656206bbe7c00c3
+
 }
