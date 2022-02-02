@@ -91,7 +91,7 @@ function Page027(props) {
           </div>
 
           <div className="d-flex global-margin mtp-0 mbp-250 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-Ubuntu-L  fsp-16">
-            <div className="position-absolute top-0 start-100 translate-middle mtp-90 msp--100 zindex-2 visible-768"><img src="images/page_027/img_004.png" className="" alt="" /></div>
+            <div className="position-absolute top-100 start-0 translate-middle msp-150 mtp--70 zindex-2 visible-768"><img src="images/page_027/img_004.png" className="wp-200" alt="" /></div>
             
             <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-60 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-580" alt="" /></div>
 
