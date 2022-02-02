@@ -32,7 +32,6 @@ function Page078(props) {
                 </div>
 
                 <div className="col-sm-12 col-md-6 position-relative">
-                  <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-5 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-60" alt="" /></div>
                   <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-5 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-50" alt="" /></div>
                   <div className="text-center bgc-white w-100 border-1 border-style-solid border-color-chopin rounded-p-10">
                     <div className="color-white fw-700 rounded-set-6 hp-40 pep-20 psp-20 ptp-5 pbp-5 bgc-chopin d-flex justify-content-center align-items-center">
