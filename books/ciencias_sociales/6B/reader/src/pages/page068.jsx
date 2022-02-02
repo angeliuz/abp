@@ -35,7 +35,7 @@ function Page068(props) {
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 3
               </div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-50 text-start">
                 Como curso, establecemos qué tareas son necesarias para realizar la
                 exposición. Señalamos qué grupo será responsable de cada tarea.
               </div>
@@ -50,76 +50,91 @@ function Page068(props) {
 
 
 
-          <div className="d-flex global-margin mtp-30 mbp-0 psp-30 pep-0 ptp-0 pbp-0">
-            <div className="row p-0 m-0 w-100">
+          <div className="d-flex global-margin mtp-60 mbp-80 psp-30 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 m-0 w-100 position-relative">
+
               <div className="col-sm-6 col-md-6 p-0 m-0 position-relative">
-                <div className="position-relative w-95  border-style-solid border-1 border-color-lightDark rounded-p-10 bgc-white">
-                  <div className="psp-10 pep-10 ptp-20 pbp-5 m-0  w-100 ">
+                <div className="position-absolute top-100 start-0 translate-middle   msp-30 mtp-35 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-100" alt="" /></div>
+                <div className="position-relative w-95  border-style-solid border-3 border-color-birdie rounded-p-10 bgc-white">
+
+                  <div className="gira--2">
+
+                    <div className="position-absolute top-0 start-50 translate-middle-x msp-0 mep-0 mtp--40 zindex-1 ">
+                      <div className="position-absolute top-50 start-50 translate-middle  ptp-15  w-100  f-Ubuntu-R fsp-16 ptp-5  ">Tareas</div>
+                      <img src={"images/page_" + pagina + "/img_006.png"} className="wp-120" alt="" />
+                    </div>
+
+                  </div>
+
+                  <div className="psp-10 pep-10 ptp-15 pbp-5 m-0  w-100 ">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-600" />
                   </div>
+
                 </div>
               </div>
               <div className="col-sm-6 col-md-6 p-0 m-0 position-relative">
-                <div className="position-relative w-95  border-style-solid border-1 border-color-lightDark rounded-p-10 bgc-white">
-                  <div className="psp-10 pep-10 ptp-20 pbp-5 m-0  w-100 ">
+                <div className="position-absolute top-0 start-100 translate-middle   msp--30 mtp--55 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-130" alt="" /></div>
+                <div className="position-relative w-95  border-style-solid border-3 border-color-vegeta rounded-p-10 mtp-20 bgc-white ">
+
+                  <div className="gira--2">
+
+                    <div className="position-absolute top-0 start-50 translate-middle-x msp-0 mep-0 mtp--40 zindex-1 ">
+                      <div className="position-absolute top-50 start-50 translate-middle  ptp-10 w-100  f-Ubuntu-R fsp-16 ptp-5  ">Grupo o grupos responsables</div>
+                      <img src={"images/page_" + pagina + "/img_007.png"} className="wp-230" alt="" />
+                    </div>
+
+                  </div>
+
+                  <div className="psp-10 pep-10 ptp-15 pbp-5 m-0  w-100 ">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-600" />
                   </div>
+
                 </div>
               </div>
+
             </div>
           </div>
 
 
 
+          {/* <div className="position-absolute top-0 start-0 msp-10 mtp--50 zindex-1 gira--5">
+                  <div className="position-absolute top-50 start-50 translate-middle  w-100  f-colby-compres-bold fsp-19 ptp-5">Dibujo acá nuestro diseño</div>
+                  <img src={"images/page_" + pagina + "/img_009.png"} className="wp-190" alt="" /></div>
+              </div> */}
 
 
 
-          <div className="d-flex global-margin mtp-0 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
-            <div className="row p-0 m-0 w-100">
-              <div className="col-12 p-0 m-0 position-relative">
+          {/* <div className="wp-350 bgc-white gira--2 psp-10 pep-10  border-style-solid border-1 border-color-lightDark  rounded-p-10 position-relative">
+            <div className="position-absolute top-0 start-50 translate-middle-x    msp-0 mtp--20 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-30" alt="" /></div>
 
-                <div className="row mtp-20">
-                  <div className="col-6 position-relative">
-                    <div className="position-absolute top-0 start-0   msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-30 msp-10 mtp--5" alt="" /></div>
-                    <div className="bgc-white w-100 border-style-solid border-2 border-color-hotaru rounded-p-10 m-1">
+            <div className=" f-Ubuntu-R hp-10 fsp-16 ptp-20 pbp-0 psp-0 pep-0  text-center">Como curso, seleccionamos por votación<br />
+              el título de la exposición.</div>
+            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-45 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+          </div> */}
 
-                      <div className="f-Ubuntu-R fsp-16 ptp-5 pbp-0 psp-10 pep-10 hp-40 text-center align-self-center">
-                        ¿Qué aspectos de nuestro trabajo deberíamos mejorar?
-                      </div>
-                      <div className="psp-20 pep-20 ptp-0 pbp-5 m-0  w-100 bgc-hotaru">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-380" />
-                      </div>
 
-                    </div>
-                  </div>
-                  <div className="col-6 position-relative">
-                    <div className="position-absolute top-0 end-0   msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-30 mep-15 mtp--5" alt="" /></div>
-                    <div className="position-absolute top-100 start-0 translate-middle  msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-90 mep-5 mtp-0" alt="" /></div>
-                    <div className="position-absolute top-50 start-100 translate-middle   msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-50 mep--5 mtp-0" alt="" /></div>
-                    <div className="bgc-white w-100 border-style-solid border-2 border-color-bobafett rounded-p-10 m-1">
 
-                      <div className="f-Ubuntu-R fsp-16 ptp-5 pbp-0 psp-10 pep-10 hp-40 text-center align-self-center">
-                        ¿Qué estrategias aplicaremos para implementar esas mejoras?
-                      </div>
-                      <div className="psp-20 pep-20 ptp-0 pbp-5 m-0  w-100 bgc-bobafett">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-380" />
-                      </div>
 
-                    </div>
-                  </div>
-                </div>
 
+
+          <div className="container-titulo-global mtp-30 mbp-90">
+            {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+              xxx
+            </div> */}
+            <div className="d-flex psp-20">
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_001.svg"} alt="" /> */}
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                4
               </div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-50 text-start">
+                Realizamos los preparativos para la exposición.
+              </div>
+              {/* <img src={"images/page_"+pagina+"/img_00.svg"} className="wp-100" alt=""/> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
+              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
-
-
-
-
-
-
-
-
 
 
 
