@@ -42,14 +42,14 @@ function Page077(props) {
                           <table className="w-100">
                             <tbody>
                               <tr>
-                                <td><div className="w-24 f-Ubuntu-L text-start justify-content-start">¿Cómo hemos aprendido en equipo?</div></td>
-                                <td className={"style-caja bgc-obiwan tf-letra border-style-solid border-1 border-color-obiwan f-colby-compres-bold ps-2 pe-2"}>
+                                <td><div className="w-24 f-Ubuntu-L text-start justify-content-start">¿Cómo aprendimos en equipo?</div></td>
+                                <td className={"color-white style-caja bgc-obiwan tf-letra border-style-solid border-1 border-color-obiwan f-colby-compres-bold ps-2 pe-2"}>
                                   Nunca</td>
-                                <td style={{ minWidth: "55px" }} className={"style-caja bgc-obiwan tf-letra  border-style-solid border-1 border-color-obiwan f-colby-compres-bold ps-2 pe-2"}>
+                                <td style={{ minWidth: "55px" }} className={"color-white style-caja bgc-obiwan tf-letra  border-style-solid border-1 border-color-obiwan f-colby-compres-bold ps-2 pe-2"}>
                                   A veces</td>
-                                <td className={"style-caja bgc-obiwan tf-letra border-style-solid border-1 border-color-obiwan f-colby-compres-bold ps-2 pe-2"}>
+                                <td className={"color-white style-caja bgc-obiwan tf-letra border-style-solid border-1 border-color-obiwan f-colby-compres-bold ps-2 pe-2"}>
                                   Generalmente</td>
-                                <td className={"style-caja bgc-obiwan tf-letra  border-style-solid border-1 border-color-obiwan f-colby-compres-bold ps-2 pe-2"}>
+                                <td className={"color-white style-caja bgc-obiwan tf-letra  border-style-solid border-1 border-color-obiwan f-colby-compres-bold ps-2 pe-2"}>
                                   Siempre</td>
                               </tr>
                               <tr className="bgc-white">
@@ -94,57 +94,26 @@ function Page077(props) {
                 </div>
                 <div className="row mx-auto d-flex f-Ubuntu-R fsp-15 mbp-20 justify-content-center">
                   <div className="col-sm-12 col-md-5 position-relative">
-                    <div className="position-absolute top-100 start-0 translate-middle msp-10 mtp-0 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-60" alt="" /></div>
+                    <div className="position-absolute top-0 start-100 translate-middle msp--10 mtp-25 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-70" alt="" /></div>
+                    <div className="position-absolute top-100 start-0 translate-middle msp-10 mtp-0 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-80" alt="" /></div>
                     <div className="text-center w-100 border-1 border-style-solid border-color-dark rounded-p-10 pbp-30 bgc-white mtp-10">
                       <div className="f-Ubuntu-L fsp-15 rounded-p-10 max-wp-200 mx-auto hp-40 pep-20 psp-20 ptp-10 mtp--5 pbp-10 bgc-trans-tomoe d-flex justify-content-center align-items-center">
                         Lo más difícil fue
                       </div>
                       <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
                       </div>
                     </div>
                   </div>
                   <div className="col-sm-12 col-md-5 position-relative">
+                    <div className="position-absolute top-100 start-100 translate-middle msp--30 mtp-0 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-80" alt="" /></div>
                     <div className="text-center w-100 border-1 border-style-solid border-color-dark rounded-p-10 pbp-30 bgc-white mtp-10">
                       <div className="f-Ubuntu-L fsp-15 rounded-p-10 max-wp-200 mx-auto  hp-40 pep-20 psp-20 ptp-10 pbp-10 mtp--5 bgc-trans-madoka d-flex justify-content-center align-items-center">
                         Lo más divertido fue
                       </div>
                       <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
                       </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="max-wp-640 mx-auto position-relative">
-                  <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--50 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-100" alt="" /></div>
-                  <div className="text-center w-100 border-1 border-style-solid border-color-dark rounded-p-10 pbp-15 bgc-white">
-                    <div className="f-Ubuntu-L fsp-15 rounded-p-10 max-wp-300 mx-auto hp-40 pep-20 psp-20 ptp-10 pbp-10 mtp--5 bgc-trans-homura d-flex justify-content-center align-items-center">
-                      Ponernos de acuerdo ha sido:
-                    </div>
-                    <div className="d-flex mx-auto max-wp-400 justify-content-center ">
-                      <div className="d-flex justify-content-start align-items-center mbp-5 psp-15 ">
-                        <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
-                        </div>
-                        <div className="text-start msp-5 mtp-10 pep-5  bgc-white  rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
-                          fácil
-                        </div>
-                      </div>
-                      <div className="d-flex justify-content-start align-items-center mbp-5 psp-15">
-                        <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
-                        </div>
-                        <div className="text-start msp-5 mtp-10 pep-5  bgc-white  rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
-                          difícil
-                        </div>
-                      </div>
-                    </div>
-                    <div className="psp-10 f-Ubuntu-L fsp-15 text-start">
-                      porque:
-                    </div>
-                    <div className="psp-10 pep-10">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
                     </div>
                   </div>
                 </div>

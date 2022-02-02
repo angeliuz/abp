@@ -7,3 +7,31 @@
 .bgc-riuko{
     background-color: #edf4eb;
 }
+.cb-contenedor-mail{
+    position: relative;
+    width: calc(100% - 100px);
+    max-width: 700px;
+    margin: 20px auto 30px;
+    background-color: var(--ganyu);
+    border-radius: 10px;
+    box-shadow: -2px 3px 13px 4px rgb(0 0 0 / 20%);
+    border-top: 35px solid #92b3db;
+  }
+  
+  .cb-datos-1{
+  width: 100%;
+  background-color: white;
+  max-width: 630PX;
+  }
+  .cb-datos-a{
+    width: 100%;
+    max-width: 70px;
+  }
+  .cb-carta-content {
+    position: relative;
+    z-index: 3;
+    background: white;
+    padding: 30px 40px;
+    font-size: 16px;
+    border-radius: 0px 0px 10px 10px;
+  }
