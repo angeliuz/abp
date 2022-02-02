@@ -28,10 +28,10 @@ function Page028(props) {
           <div className="ptp-30 container-titulo-global mbp-10">
             {/* <div className={"f-Ubuntu-B fsp-20 psp-50 text-start lhp-20 " + color}>Nos ponemos en el lugar de otros</div> */}
             <div className="d-flex">
-              <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_001.svg"} alt="" />
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_001.svg"} alt="" /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Buscamos usos inadecuados de la energía en el colegio.
+                Respondo a partir de la noticia analizada en la actividad anterior.
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
@@ -40,163 +40,170 @@ function Page028(props) {
             </div>
           </div>
 
-          <div className="d-flex msp-40 mep-40  mtp-10">
-
-            <div className="row m-0 psp-10 pep-10 ptp-0 pbp-10  w-100">
-
-              <div className="col-sm-12 col-md-8 position-relative">
-
-                <div className="d-flex mbp-20 mtp-10 w-100  ">
-                  <div className="p-2  w-100 border-style-solid border-2  border-color-bach bgc-white  rounded-p-10  ">
-                    {/* <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-start">¿Qué son los objetivos de desarrollo sostenible?</div> */}
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-280" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-12 col-md-4 position-relative">
-                <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp-30 zindex-1 "><img src="images/page_028/img_002.png" className="wp-30" alt="" /></div>
-                <div className="position-absolute top-100 start-100 translate-middle msp--20 "><img src="images/page_028/img_003.png" className=" wp-80" alt="" /></div>
-                <div className="d-flex mbp-20 mtp-10 w-100">
-                  <div className="p-2 min-hp-210 w-100 border-style-solid border-2  border-color-lightDark bgc-white rounded-p-10">
-                    <div className=" f-Ubuntu-R fsp-16 text-start ">Ejemplos:</div>
-                    <ul className=" f-Ubuntu-L fsp-16 text-start ">
-
-                      <li>Luces encendidas todo el día.</li>
-
-                      <li>Mal sistema de calefacción.</li>
-                      <li>Aparatos enchufados sin usar.</li>
-                      <li>Cañerías con filtraciones.</li>
-                      <li>Uso de ampolletas de alto
-                        consumo.</li>
-
-                    </ul>
-                    {/* <div className="f-Ubuntu-L fsp-16 msp-10  mep-10 text-center">¿Qué objetivos promueven la
-                      sostenibilidad medioambiental?</div> */}
-                    {/* <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-280" /> */}
-                  </div>
-                </div>
-              </div>
+          <div className="d-flex global-margin mtp-30 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
 
 
-            </div>
-          </div>
-          <div className="ptp-30 container-titulo-global mbp-10">
-            {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>¿Qué podemos reciclar?</div> */}
-            <div className="d-flex">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_002.svg"} alt="" /> */}
-              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>3</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Escribo los cambios que se pueden hacer en el colegio para utilizar de manera
-                más responsable la energía y disminuir nuestra huella ecológica.
-              </div>
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_004.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
-            </div>
-          </div>
-          <div className="d-flex msp-100 mep-100 mbp-0 mtp-10 ">
+            <div className="row p-0 m-0 w-100 bgc-baki rounded-p-10">
 
-            <div className="row m-0 psp-10 pep-10 ptp-0 pbp-10 rounded-p-20 w-100">
+              <div className="col-6 d-flex position-relative pbp-10 ptp-10 ">
+
+                <div className=" w-100 ">
+
+                  <div className=" p-1 border-style-solid border-2 border-color-naraku rounded-p-10  lh-sm text-start p-2 position-relative bgc-kai">
+                    <div className="w-100  p-1 ">
 
 
-
-              <div className="col-md-12 col-lg-12 position-relative">
-                
-                <div className="position-absolute top-100 start-0 translate-middle zindex-1"><img src="images/page_028/img_004.png" className=" wp-90" alt="" /></div>
-                <div className="d-flex mbp-20 mtp-10 w-100">
-                  <div className="p-2 min-hp-100 w-100 border-style-solid border-1 border-color-kai bgc-kai ">
-                    <div className="d-flex  bgc-white text-start min-hp-0 bgc-white">
-                      {/* <div className="w-100 text-center ">
-            <span className="f-pixilate-semibold ">Como grupo, opinamos que</span>
-            <br />
-            
-          </div> */}
+                      <div className="d-flex text-start f-Ubuntu-L fsp-16 p-3   ">¿Qué derecho o derechos están en
+                        riesgo en la situación descrita en
+                        la noticia?
+                      </div>
                     </div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
-                  </div>
-                </div>
-              </div>
+                    <div className=" d-flex position-absolute top-50 start-0 translate-middle wp-30 hp-30 bgc-alf border-style-solid border-1 border-color-alf bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M color-white">a.
 
-            </div>
-          </div>
-          <div className="ptp-30 container-titulo-global mbp-10">
-            {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>¿Qué podemos reciclar?</div> */}
-            <div className="d-flex">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_002.svg"} alt="" /> */}
-              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>4</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                ¿Qué pienso sobre la idea de disminuir la huella ecológica?
-              </div>
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_004.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
-            </div>
-          </div>
-
-
-
-
-          {/* <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-pixilate-semibold fsp-16">
-            <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-580" alt="" /></div>
-            <div className="position-absolute top-50 start-50 translate-middle msp--5 mtp-0 zindex-1">
-              <div className="d-flex flex-column wp-150 psp-10 pep-10 ptp-0 pbp-0">
-                Situación analizada
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
-              </div>
-            </div>
-            <div className="position-absolute top-0 start-50 msp--275 mtp-30 zindex-1">
-              <div className="d-flex flex-column wp-150 psp-10 pep-10 ptp-0 pbp-0 ">
-                Si pienso como...
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
-              </div>
-            </div>
-            <div className="position-absolute top-50 start-50 msp--275 mtp-20 zindex-1">
-              <div className="d-flex flex-column wp-150 psp-10 pep-10 ptp-0 pbp-0 ">
-                Si pienso como...
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
-              </div>
-            </div>
-            <div className="position-absolute top-0 start-50 msp-120 mtp-30 zindex-1">
-              <div className="d-flex flex-column wp-150 psp-10 pep-10 ptp-0 pbp-0 ">
-                Si pienso como...
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
-              </div>
-            </div>
-            <div className="position-absolute top-50 start-50 msp-120 mtp-20 zindex-1">
-              <div className="d-flex flex-column wp-150 psp-10 pep-10 ptp-0 pbp-0 ">
-                Si pienso como...
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
-              </div>
-            </div>
-          </div> */}
-
-
-
-          <div className="d-flex msp-100 mep-100 mbp-0 mtp-10 mbp-80">
-
-            <div className="row m-0 psp-10 pep-10 ptp-0 pbp-10 rounded-p-20 w-100">
-
-
-
-              <div className="col-md-12 col-lg-12 position-relative">
-                <div className="position-absolute top-50 start-100 translate-middle msp-20 mtp--20 "><img src="images/page_028/img_005.png" className=" " alt="" /></div>
-                <div className="d-flex mbp-20 mtp-10 w-100">
-                  <div className="p-2 min-hp-100 w-100 border-style-solid border-1 border-color-dark bgc-azuka ">
-                    <div className="d-flex  bgc-white text-start min-hp-0 bgc-white">
-                      {/* <div className="w-100 text-center ">
-                        <span className="f-pixilate-semibold ">Como grupo, opinamos que</span>
-                        <br />
-                        
-                      </div> */}
                     </div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-210" />
+
+                  </div>
+                </div>
+              </div>
+              <div className="col-6 d-flex position-relative pbp-10 ptp-10">
+
+                <div className=" w-100 ">
+
+                  <div className=" p-1 border-style-solid border-2 border-color-naraku rounded-p-10  lh-sm text-start p-2 position-relative bgc-kai">
+                    <div className="w-100  p-1 ">
+
+
+                      <div className="d-flex text-start f-Ubuntu-L fsp-16 p-2 psp-5  ">Según la noticia, ¿qué organizaciones
+                        o personas contribuyen al respeto
+                        de los derechos? ¿Mediante qué
+                        acciones lo hacen?
+                      </div>
+                    </div>
+                    <div className=" d-flex position-absolute top-50 start-0 translate-middle wp-30 hp-30 bgc-alf border-style-solid border-1 border-color-alf bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M color-white">b.
+
+                    </div>
+
                   </div>
                 </div>
               </div>
 
+              <div className="col-6 position-relative pbp-10">
+                {/* <div className="position-absolute top-0 start-100 translate-middle mtp-15 msp--20 zindex-1"><img src="images/page_026/img_002.png" className="" alt="" /></div> */}
+                <div className="w-100 ">
+
+                  <div className="w-100  p-1   rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
+
+                    <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
+
+                    </div>
+
+
+                  </div>
+                </div>
+
+              </div>
+
+              <div className="col-6 position-relative pbp-10">
+                <div className="position-absolute top-0 start-100 translate-middle zindex-1 visible-768 msp-10"><img src="images/page_028/img_001.png" className="" alt="" /></div>
+                <div className="w-100 ">
+
+                  <div className="w-100  p-1   rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
+
+                    <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
+
+                    </div>
+
+
+                  </div>
+                </div>
+
+              </div>
+
+              <div className="col-6 d-flex position-relative pbp-10 ">
+
+                <div className=" w-100 ">
+
+                  <div className=" p-1 border-style-solid border-2 border-color-naraku rounded-p-10  lh-sm text-start p-2 position-relative bgc-kai">
+                    <div className="w-100  p-1 ">
+
+
+                      <div className="d-flex text-start f-Ubuntu-L fsp-16 p-3   ">De acuerdo con la noticia, ¿qué
+                        organizaciones o personas ponen en
+                        riesgo los derechos?
+                      </div>
+                    </div>
+                    <div className=" d-flex position-absolute top-50 start-0 translate-middle wp-30 hp-30 bgc-alf border-style-solid border-1 border-color-alf bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M color-white">c.
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-6 d-flex position-relative pbp-10 ">
+
+                <div className=" w-100 ">
+
+                  <div className=" p-1 border-style-solid border-2 border-color-naraku rounded-p-10  lh-sm text-start p-2 position-relative bgc-kai">
+                    <div className="w-100  p-1 ">
+
+
+                      <div className="d-flex text-start f-Ubuntu-L fsp-16 p-2 psp-5  ">Según tu opinión, ¿qué
+                        responsabilidades o deberes tendrían
+                        que asumir esas organizaciones o
+                        personas para remediar la situación?
+                      </div>
+                    </div>
+                    <div className=" d-flex position-absolute top-50 start-0 translate-middle wp-30 hp-30 bgc-alf border-style-solid border-1 border-color-alf bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M color-white">d.
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-6 position-relative pbp-10">
+                <div className="position-absolute top-100 start-0 translate-middle zindex-1 mtp-10 visible-768"><img src="images/page_028/img_002.png" className="" alt="" /></div>
+                <div className="w-100 ">
+
+                  <div className="w-100  p-1   rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
+
+                    <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
+
+                    </div>
+
+
+                  </div>
+                </div>
+
+              </div>
+
+              <div className="col-6 position-relative pbp-10">
+                {/* <div className="position-absolute top-0 start-100 translate-middle mtp-15 msp--20 zindex-1"><img src="images/page_026/img_002.png" className="" alt="" /></div> */}
+                <div className="w-100 ">
+
+                  <div className="w-100  p-1   rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
+
+                    <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
+
+                    </div>
+
+
+                  </div>
+                </div>
+
+              </div>
             </div>
+
+
           </div>
 
 
