@@ -31,13 +31,13 @@ function Page075(props) {
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Valorar el trabajo <br /> en la difusión
+                Evaluar el resultado <br /> del proyecto
               </div>
               <div className="psp-5 pep-5 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Valorar lo que  <br /> se ha aprendido
+                Valorar lo que  <br />  he aprendido
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
@@ -47,58 +47,56 @@ function Page075(props) {
                   <img src="images/cabecera/caja_blanca.png" width="100%" height="100%" alt="" />
                 </div>
                 <div className="position-relative">
-                  valuar el trabajo  <br /> en equipo
+                  Evaluar nuestro trabajo  <br /> en equipo y celebrar.
+
                 </div>
               </div>
-              <div className="p-0 align-self-center">
-                <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
-              </div>
-              <div className="psp-5 pep-5 ptp-10 pbp-10 position-relative align-self-center f-colby-compres-bold fsp-17 lh-sm text-center color-dark">
-                <div className="position-absolute top-0 start-0 w-100 h-100">
-                  <img src="images/cabecera/caja_blanca.png" width="100%" height="100%" alt="" />
-                </div>
-                <div className="position-relative">
-                  Celebrar  <br /> nuestro logro
-                </div>
-              </div>
+
             </div>
           </div>
           {/* END CABECERA VERSIÓN 2 */}
 
           <div className="d-flex msp-60 mep-60 mbp-20 mtp-30">
             <div className="row w-100 p-0 m-0">
-              <div className="col-sm-6 position-relative">
-                <div className="d-flex flex-column justify-content-start align-items-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-white p-2">
-                  <div className="mbp-0">
-                    <div className="d-flex ">
-                      {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
-                      <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                        1
-                      </div>
-                      <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                        La presentación de nuestro proyecto salió...
-                      </div>
-                    </div>
+              <div className="container-titulo-global mbp-0 mbp-20">
+                <div className="d-flex psp-20">
+                  {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
+                  <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                    1
                   </div>
-                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                  <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                    Evalúo la exposición artística.
                   </div>
-                </div>
-                <div className="d-flex flex-column justify-content-center align-items-start mbp-5 mtp-10 w-100 bgc-white border-1 border-style-solid border-color-lightDark p-2 position-relative">
-                  <div className="position-absolute top-0 start-0 translate-middle msp-3 mtp-10 zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-30 " alt="" /></div>
-                  <span className="f-Ubuntu-R fsp-15 px-2 ptp-10 text-start">Nunca olvidaré...</span>
-                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-                  </div>
+                  {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+                  {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
+                  {/*<ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />*/}
                 </div>
               </div>
+              {/* BEGIN EJERCICIO 1 */}
+              <div className="row mx-auto d-flex f-Ubuntu-R fsp-15 mbp-20 ">
+                <div className="position-relative">
+                  <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-80" alt="" /></div>
+                  <div className="position-absolute top-50 start-50 translate-middle msp--0 mtp-160 visible-768 zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-60" alt="" /></div>
+                </div>
 
-              <div className="col-sm-6 position-relative">
-                <div className="position-absolute top-0 start-50 translate-middle msp-3 mtp-10 zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-30 " alt="" /></div>
-                <div className="d-flex flex-column center-center mbp-5 mtp-10 w-100 bgc-white border-1 border-style-solid border-color-lightDark p-2">
-                  <span className="f-Ubuntu-R fsp-15 px-2 ptp-10 text-start">Los comentarios de los asistentes a la presentación fueron...</span>
-                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
+                <div className="col-sm-12 col-md-6">
+                  <div className="text-center w-100 border-1 border-style-solid border-color-chopin rounded-p-10  mtp-10">
+                    <div className="color-white fw-700 rounded-set-6 hp-40 pep-20 psp-20 ptp-5 pbp-5 bgc-chopin d-flex justify-content-center align-items-center">
+                      La exposición resultó
+                    </div>
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-12 col-md-6">
+                  <div className="text-center w-100 border-1 border-style-solid border-color-ken rounded-p-10 mtp-10">
+                    <div className="lhp-15 color-white fw-700 rounded-set-6 hp-40 ptp-5 pbp-5 bgc-ken d-flex justify-content-center align-items-center">
+                      Los comentarios de quienes <br /> vieron nuestra obra fueron
+                    </div>
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
+                    </div>
                   </div>
                 </div>
 
@@ -122,14 +120,14 @@ function Page075(props) {
           <div class="max-wp-700 mx-auto cb-contenedor justify-content-center pe-2 ps-2 pbp-15 mbp-40">
             <div class="cb-caja mx-auto">
               <div class="bgc-itto p-3 f-Ubuntu-L fsp-13 border-color-garou" >
-                <p>Qué he aprendido?</p>
+                <p>¿Qué aprendí?</p>
                 <div className="psp-15 pep-15">
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
                 </div>
               </div>
               <div class="bgc-pantro p-3 f-Ubuntu-L fsp-13 border-color-garou position-relative" >
                 <div className="position-absolute top-0 start-0 translate-middle msp-3 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60 " alt="" /></div>
-                <p>¿Con quién he aprendido?</p>
+                <p>¿Con quién aprendí?</p>
                 <div className="psp-15 pep-15">
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
                 </div>
@@ -137,13 +135,13 @@ function Page075(props) {
             </div>
             <div class="cb-caja mx-auto mbp-40">
               <div class="bgc-draco p-3 c f-Ubuntu-L fsp-13 border-color-garou" >
-                <p class="cb-psp">¿Cómo he aprendido?</p>
+                <p class="cb-psp">¿Cómo aprendí?</p>
                 <div className="psp-15 pep-15">
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
                 </div>
               </div>
               <div class="bgc-kokomi p-3 f-Ubuntu-L fsp-13 border-color-garou" >
-                <p class="cb-psp2">¿Cómo me he sentido aprendiendo?</p>
+                <p class="cb-psp2">¿Cómo me sentí aprendiendo?</p>
                 <div className="psp-15 pep-15">
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
                 </div>
