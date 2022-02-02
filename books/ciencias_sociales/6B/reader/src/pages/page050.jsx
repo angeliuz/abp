@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
+import ModalBook from "../components/ModalBook";
 import "./page_050.css";
 
 function Page050(props) {
@@ -23,86 +24,92 @@ function Page050(props) {
           <div className="cabecera-v1 hp-80 bgc-pidgey"></div>
           {/* END CABECERA VERSIÓN 2 */}
 
-          <div className="ptp-10 container-titulo-global-1 mbp-0 mep-40">
-            <div className="d-flex ptp-5 psp-70 align-items-top justify-content-start">
-              <div className="text-start f-Ubuntu-B color-pidgey fsp-15">c.</div>
-              <div className="text-start f-Ubuntu-L fsp-15 psp-5">Determinamos otras herramientas y materiales que necesitaremos.</div>
+          <div className="ptp-10 container-titulo-global-1 mbp-0">
+            {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>xxx</div> */}
+            <div className="d-flex psp-0">
+              <img className="hp-15 align-center mtp-20 me-2 mb-2" src={"images/page_" + pagina + "/g_i.svg"} alt="" />
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">A partir de los análisis realizados en la actividad anterior, acuerdo con mi grupo dos formatos que nos gustaría considerar como opciones para nuestra obra (pintura, escultura, mural, arpillera, instalación u otro). En cada caso, señalamos posibles ventajas y desventajas.</div>
+              {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
+              {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-35 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-10 mbp-10 psp-70 pep-30 ptp-0 pbp-0">
-            <div className="row p-0 m-0 w-100 position-relative">
-              <div className="position-absolute top-0 start-0 translate-middle"><img src="images/page_050/brocha.png" className="hp-100 msp-0 mtp-140" alt="" /></div>
-              <div className="col-12 p-0 m-0 rounded-p-20 bgc-white border-style-solid border-color-dark border-1 p-2">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-320" />
+          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 m-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative">
+
               </div>
             </div>
           </div>
 
-          <div className={"mtp-20 border-top-style-solid " + borderColor + " border-2 pbp-20 position-relative " + bgc_cajas}>
-            <div className="global-margin mtp-15 mbp-5 f-pixilate-bold fsp-18 lh-sm text-start psp-10">¿Cómo voy?</div>
-            <div className="global-margin mbp-20 psp-20 pep-20 ptp-5 pbp-5 f-Ubuntu-L bgc-white fsp-15 rounded-p-10 ">
-              <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
-                <div className="d-flex">
-                  <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 wp-15" alt="" />
-                  <span className="w-24 f-Ubuntu-L fsp-14 text-start">Me gustaría aprender más sobre</span>
+          <div className="d-flex global-margin mtp-10 mbp-20 psp-50 pep-15 ptp-0 pbp-0">
+            <div className="row m-0 w-100 bgc-hansolo p-2 position-relative rounded-p-10">
+              <div className="position-absolute top-0 start-100 translate-middle zindex-1"><img src={"images/page_" + pagina + "/megafono.png"} className="hp-50 mtp-50 mep-40" alt="" /></div>
+              <div className="position-absolute top-100 start-100 translate-middle zindex-1"><img src={"images/page_" + pagina + "/mono.png"} className="hp-140 mtp-20 mep-40" alt="" /></div>
+              <div className="position-absolute top-50 start-50 translate-middle zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-45 mtp-55 mep-0" alt="" /></div>
+              <div className="col-12 p-1 m-0 position-relative">
+                <div className="d-flex pbp-10 align-items-center">
+                  <div className="f-Ubuntu-R fsp-14 lh-sm text-start pep-10">Formato 1:</div>
+                  <div className="flex-grow-1 bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-35" /></div>
                 </div>
               </div>
-              <div className="pt-0 flex-grow-1 mbp-20">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
-              </div>
-              <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
-                <div className="d-flex">
-                  <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 wp-15" alt="" />
-                  <span className="w-24 f-Ubuntu-L fsp-14 text-start">Lo que mejor aprendo es lo relacionado con</span>
+              <div className="col-6 p-2 m-0 position-relative">
+                <div className="bgc-white rounded-p-10 p-2">
+                  <div className="f-Ubuntu-R fsp-14 lh-sm text-center">Ventajas</div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-245" />
                 </div>
               </div>
-              <div className="pt-0 flex-grow-1 mbp-20">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
-              </div>
-            </div>
-
-            <div className="d-flex flex-column global-margin mtp-0 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
-              <div className="col-12">
-                <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo me siento?</div>
-                <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-30">
-                  <div className="w-100 p-2 pb-3 bgc-white rounded-p-10">
-                    <table className="w-100 text-start">
-                      <span className="w-24 f-Ubuntu-L fsp-14 mtp-5 mbp-10 text-start">Marco con un <img src={"images/page_" + pagina + "/ticket.svg"} className="hp-17 mtp--2" alt="" /> el recuadro que mejor me represente.</span>
-
-                      <tbody>
-                        <tr>
-                          <td>&nbsp;</td>
-                          <td className={"style-caja " + background + " tf-letra border-style-solid border-1 " + borderColor + " f-colby-compres-bold ps-2 pe-2 text-white text-center"}>
-                            Nunca</td>
-                          <td style={{ minWidth: "55px" }} className={"style-caja " + background + " tf-letra  border-style-solid border-1 " + borderColor + " f-colby-compres-bold ps-2 pe-2 text-white text-center"}>
-                            A veces</td>
-                          <td className={"style-caja " + background + " tf-letra border-style-solid border-1 " + borderColor + " f-colby-compres-bold ps-2 pe-2 text-white text-center"}>
-                            Generalmente</td>
-                          <td className={"style-caja " + background + " tf-letra  border-style-solid border-1 " + borderColor + " f-colby-compres-bold ps-2 pe-2 text-white text-center"}>
-                            Siempre</td>
-                        </tr>
-                        <tr>
-                          <td className={"" + bgc_cajas + " f-Ubuntu-L fsp-14 text-start psp-5 border-style-solid border-1 " + borderColor + ""}>Me siento tenso y nervioso cuando trabajo con mi equipo.</td>
-                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                        </tr>
-                        <tr>
-                          <td className={"" + bgc_cajas + " f-Ubuntu-L fsp-14 text-start psp-5 border-style-solid border-1 " + borderColor + ""}>Me asusta no hacer bien el trabajo y recibir críticas.</td>
-                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+              <div className="col-6 p-2 m-0 position-relative">
+                <div className="bgc-white rounded-p-10 p-2">
+                  <div className="f-Ubuntu-R fsp-14 lh-sm text-center">Desventajas</div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-245" />
                 </div>
               </div>
             </div>
           </div>
+
+          <div className="d-flex global-margin mtp-10 mbp-60 psp-50 pep-15 ptp-0 pbp-0">
+            <div className="row m-0 w-100 bgc-bobafett p-2 position-relative rounded-p-10">
+              <div className="position-absolute top-50 start-0 translate-middle zindex-1"><img src={"images/page_" + pagina + "/lapiz.png"} className="hp-80 mtp-50 mep-0" alt="" /></div>
+              <div className="position-absolute top-50 start-50 translate-middle zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-45 mtp-55 mep-0" alt="" /></div>
+              <div className="col-12 p-1 m-0 position-relative">
+                <div className="d-flex pbp-10 align-items-center">
+                  <div className="f-Ubuntu-R fsp-14 lh-sm text-start pep-10">Formato 2:</div>
+                  <div className="flex-grow-1 bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-35" /></div>
+                </div>
+              </div>
+              <div className="col-6 p-2 m-0 position-relative">
+                <div className="bgc-white rounded-p-10 p-2">
+                  <div className="f-Ubuntu-R fsp-14 lh-sm text-center">Ventajas</div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-245" />
+                </div>
+              </div>
+              <div className="col-6 p-2 m-0 position-relative">
+                <div className="bgc-white rounded-p-10 p-2">
+                  <div className="f-Ubuntu-R fsp-14 lh-sm text-center">Desventajas</div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-245" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          {/* <div className="w-100 text-left bgc-draco p-2 box-shadow-simple position-relative">
+                <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_049/mono.png" className="hp-200 mtp--200 mep-60" alt="" /></div>
+
+
+                <div className="bgc-white rounded-p-10 p-3 mbp-10">
+                  <div className="f-Ubuntu-R fsp-14 lh-sm text-center">Desventajas</div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-210" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> */}
 
           {/* BEGIN PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
@@ -148,7 +155,7 @@ function Page050(props) {
 
         </div>
       </div>
-    </div>
+    </div >
   );
 }
 

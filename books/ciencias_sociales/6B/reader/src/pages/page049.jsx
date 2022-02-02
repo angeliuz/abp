@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
+import ModalBook from "../components/ModalBook";
 import "./page_049.css";
 
 function Page049(props) {
@@ -20,80 +21,120 @@ function Page049(props) {
                 <div className="page bgc-white overflow-hidden position-relative" id={"page_" + pagina}>
 
                     {/* BEGIN CABECERA VERSIÓN 2 */}
-                    <div className="cabecera-v1 hp-80 bgc-pidgey"></div>
+                    <div className={"cabecera-v2 d-flex flex-column " + background}>
+                        <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
+                            <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN 11</div>
+                            <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Analizamos obras de arte visual</div>
+                        </div>
+                        <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-95">
+                            <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+                                Mis objetivos en esta sesión son:
+                            </div>
+                            <div className="p-0 align-self-center">
+                                <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
+                            </div>
+                            <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+                                Analizar una obra de arte.
+                            </div>
+                            <div className="psp-5 pep-5 align-self-center">
+                                <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
+                            </div>
+                            <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+                                Comparar diferentes opciones técnicas <br /> para elaborar nuestra obra de arte.
+                            </div>
+                            {/* <div className="p-0 align-self-center">
+                <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
+              </div>
+              <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+                Elaborar un boceto <br /> de la propuesta
+              </div> */}
+                        </div>
+                    </div>
                     {/* END CABECERA VERSIÓN 2 */}
 
                     <div className="ptp-10 container-titulo-global-1 mbp-0">
                         {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>xxx</div> */}
                         <div className="d-flex psp-0">
                             <img className="hp-15 align-center mtp-20 me-2 mb-2" src={"images/page_" + pagina + "/i_g.svg"} alt="" />
-                            <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>3</div>
-                            <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Observamos el boceto y pensamos en los materiales y herramientas que necesitaremos para construir nuestro prototipo.</div>
+                            <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>1</div>
+                            <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Distribuyo las obras con mi grupo. Leo las fichas y completo el siguiente recuadro a partir de la que me correspondió analizar. Luego, lo comparto con mi grupo.</div>
                             {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-                            {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-35 text-center mtp-10 " className="p-0 px-0" /> */}
-                        </div>
-                        <div className="d-flex ptp-5 psp-70 align-items-top justify-content-start">
-                            <div className="text-start f-Ubuntu-B color-pidgey fsp-15">a.</div>
-                            <div className="text-start f-Ubuntu-L fsp-15 psp-5">Marco con un <img src={"images/page_" + pagina + "/ticket.svg"} className="hp-17 mtp--2" alt="" /> lo que considero necesario para su construcción.</div>
+                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-35 text-center mtp-10 " className="p-0 px-0" />
                         </div>
                     </div>
 
-                    <div className="d-flex global-margin mtp-10 mbp-10 psp-50 pep-20 ptp-0 pbp-0">
+                    <div className="d-flex global-margin mtp-10 mbp-60 psp-50 pep-15 ptp-0 pbp-0">
                         <div className="row p-0 m-0 w-100">
-                            <div className="col-4 p-1 m-0">
-                                <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/caja.png"} alt="" className="w-90 justify-content-center align-items-center" /></div>
-                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-25 hp-25 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
-                            </div>
-                            <div className="col-4 p-1 m-0">
-                                <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/diarios.png"} alt="" className="w-90 justify-content-center align-items-center" /></div>
-                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-25 hp-25 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
-                            </div>
-                            <div className="col-4 p-1 m-0">
-                                <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/botiquin.png"} alt="" className="w-90 justify-content-center align-items-center" /></div>
-                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-25 hp-25 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
-                            </div>
-                            <div className="col-4 p-1 m-0">
-                                <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/corchos.png"} alt="" className="w-90 justify-content-center align-items-center" /></div>
-                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-25 hp-25 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
-                            </div>
-                            <div className="col-4 p-1 m-0">
-                                <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/contenedor.png"} alt="" className="w-90 justify-content-center align-items-center" /></div>
-                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-25 hp-25 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
-                            </div>
-                            <div className="col-4 p-1 m-0">
-                                <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/pistola.png"} alt="" className="w-90 justify-content-center align-items-center" /></div>
-                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-25 hp-25 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
-                            </div>
-                            <div className="col-4 p-1 m-0">
-                                <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/perros.png"} alt="" className="w-90 justify-content-center align-items-center" /></div>
-                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-25 hp-25 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
-                            </div>
-                            <div className="col-4 p-1 m-0">
-                                <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/alusa.png"} alt="" className="w-90 justify-content-center align-items-center" /></div>
-                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-25 hp-25 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
-                            </div>
-                            <div className="col-4 p-1 m-0">
-                                <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/cartulinas.png"} alt="" className="w-90 justify-content-center align-items-center" /></div>
-                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-25 hp-25 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
-                            </div>
-                            <div className="col-4 p-1 m-0">
-                                <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/canamo.png"} alt="" className="w-90 justify-content-center align-items-center" /></div>
-                                <div className="border-style-solid border-1 border-color-lightDark bgc-white wp-25 hp-25 mx-auto"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0" /></div>
-                            </div>
-                            <div className="col-md-8 p-0 m-0">
-                                <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/mono.png"} alt="" className="w-100 justify-content-center" /></div>
+                            <div className="col-12 p-0 m-0 position-relative">
+                                <div className="w-100 psp-40 ptp-20 pbp-20 pep-15 text-left bgc-draco p-2 box-shadow-simple position-relative">
+                                    <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_049/mono.png" className="hp-200 mtp--200 mep-60" alt="" /></div>
+                                    <div className="position-absolute top-50 start-0 translate-middle h-100 ptp-10 pbp-10"><div className="espiral-calado wp-30 h-100"></div></div>
+                                    <div className="d-flex msp-20 pbp-10 align-items-center">
+                                        <div className="f-Ubuntu-R fsp-14 lh-sm text-start pep-10">Autor/a.</div>
+                                        <div className="flex-grow-1 bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-35" /></div>
+                                    </div>
+                                    <div className="d-flex msp-20 pbp-10 align-items-center">
+                                        <div className="f-Ubuntu-R fsp-14 lh-sm text-start pep-10">Título de la obra.</div>
+                                        <div className="flex-grow-1 bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-35" /></div>
+                                    </div>
+                                    <div className="d-flex msp-20 pbp-10 align-items-center">
+                                        <div className="f-Ubuntu-R fsp-14 lh-sm text-start pep-10">Lugar y año de creación.</div>
+                                        <div className="flex-grow-1 bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-35" /></div>
+                                    </div>
+                                    <div className="bgc-white rounded-p-10 msp-20 p-3 mbp-10">
+                                        <div className="f-Ubuntu-R fsp-14 lh-sm text-start">Descripción detallada.</div>
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-210" />
+                                    </div>
+                                    <div className="bgc-white rounded-p-10 msp-20 p-3 mbp-10">
+                                        <div className="f-Ubuntu-R fsp-14 lh-sm text-start">Explicación de la obra y el mensaje que transmite.</div>
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-210 mep-70" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div className="ptp-10 container-titulo-global-1 mbp-0 mep-40">
-                        <div className="d-flex ptp-5 psp-70 align-items-top justify-content-start">
-                            <div className="text-start f-Ubuntu-B color-pidgey fsp-15">b.</div>
-                            <div className="text-start f-Ubuntu-L fsp-15 psp-5">Compartimos la selección con el equipo, analizamos y llegamos a acuerdo.</div>
+                    {/* <div className="d-flex global-margin mtp-10 mbp-50 psp-40 pep-0 ptp-0 pbp-0">
+                        <div className="row p-0 m-0 w-100">
+                            <div className="col-12 m-0 p-0 position-relative">
+                                <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_045/posit.png" className="hp-60 mtp-150" alt="" /></div>
+                                <div className="position-absolute top-50 start-0 translate-middle zindex-2"><img src="images/page_045/ojo.png" className="hp-50 mtp--150" alt="" /></div>
+                                <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_045/pintora.png" className="hp-120 mep-100" alt="" /></div>
+                                <div className="bgc-draco rounded-p-10 p-2">
+                                    <div className="d-flex align-items-center">
+                                        <div className="f-Ubuntu-R fsp-14 lh-sm text-start pep-10">Obra letra</div>
+                                        <div className="p-1 wp-70 d-flex bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" /></div>
+                                    </div>
+                                    <div className="d-flex p-2 m-0 h-100 align-items-center">
+                                        <div className="col-3 bgc-yoda rounded-p-10 p-2 hp-150 f-Ubuntu-R fsp-14 lh-sm position-relative d-flex justify-content-center align-items-center">¿Qué veo?
+                                            <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_045/flecha.svg" className="msp-20" alt="" /></div>
+                                        </div>
+                                        <div className="col-9 psp-15">
+                                            <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
+                                        </div>
+                                    </div>
+                                    <div className="d-flex p-2 m-0 h-100 align-items-center">
+                                        <div className="col-3 bgc-windu rounded-p-10 p-2 hp-150 f-Ubuntu-R fsp-14 lh-sm position-relative d-flex justify-content-center align-items-center">¿Qué pienso?
+                                            <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_045/flecha.svg" className="msp-20" alt="" /></div>
+                                        </div>
+                                        <div className="col-9 psp-15">
+                                            <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
+                                        </div>
+                                    </div>
+                                    <div className="d-flex p-2 m-0 h-100 align-items-center">
+                                        <div className="col-3 bgc-bobafett rounded-p-10 p-2 hp-150 f-Ubuntu-R fsp-14 lh-sm position-relative d-flex justify-content-center align-items-center">¿Qué me pregunto?
+                                            <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_045/flecha.svg" className="msp-20" alt="" /></div>
+                                        </div>
+                                        <div className="col-9 psp-15">
+                                            <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* BEGIN PIE DE PAGINA */}
                     <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
