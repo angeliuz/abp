@@ -36,12 +36,27 @@ function Page054(props) {
             </div>
           </div>
 
+          <div className="d-flex global-margin mtp-0 mbp-0 psp-40 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 m-0 w-100">
+              <div className="col-12 p-2 m-0 position-relative">
+                <div className="d-flex justify-content-center w-100">
+                  <div className="bgc-draco w-100 p-2 box-shadow-simple position-relative">
+                    <div className="position-absolute top-0 start-100 translate-middle msp--20 mtp-10 zindex-1"><img src={"images/page_" + pagina + "/pincho.svg"} className="wp-30" alt="" /></div>
+                    <div className="position-absolute top-50 start-100 translate-middle msp-15 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/circulo.png"} className="wp-50" alt="" /></div>
+                    <div className="position-absolute top-50 start-0 translate-middle msp--5 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/lapiz.png"} className="hp-85" alt="" /></div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-350" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="ptp-10 container-titulo-global-1 mbp-0">
             {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>xxx</div> */}
             <div className="d-flex psp-0">
               <img className="hp-15 align-center mtp-20 me-2 mb-2" src={"images/page_" + pagina + "/g_i.svg"} alt="" />
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>3</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start mep-50">Con mi grupo preparamos una presentación para explicar nuestra obra al curso en la siguiente sesión.</div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start mep-80">Con mi grupo preparamos una presentación para explicar nuestra obra al curso en la siguiente sesión.</div>
               {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
@@ -49,16 +64,8 @@ function Page054(props) {
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-10 mbp-10 psp-70 pep-30 ptp-0 pbp-0">
-            <div className="row p-0 m-0 w-100 position-relative">
-              <div className="position-absolute top-0 start-100 translate-middle"><img src={"images/page_" + pagina + "/mono.png"} className="hp-100 msp-0 mtp-140" alt="" /></div>
-              <div className="col-12 p-0 m-0 rounded-p-20 bgc-white border-style-solid border-color-dark border-1 p-2">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-320" />
-              </div>
-            </div>
-          </div>
-
           <div className={"mtp-20 border-top-style-solid " + borderColor + " border-2 pbp-20 position-relative " + bgc_cajas}>
+            <div className="position-absolute top-0 start-100 translate-middle"><img src={"images/page_" + pagina + "/mono.png"} className="hp-70 msp--200 mtp--60" alt="" /></div>
             <div className="global-margin mtp-15 mbp-5 f-pixilate-bold fsp-18 lh-sm text-start psp-10">¿Cómo voy?</div>
             <div className="global-margin mbp-20 psp-20 pep-20 ptp-5 pbp-5 f-Ubuntu-L bgc-white fsp-15 rounded-p-10 ">
               <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
