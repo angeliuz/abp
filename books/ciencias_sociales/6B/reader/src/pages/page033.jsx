@@ -71,7 +71,7 @@ function Page033(props) {
                         </div>
                     </div>
 
-                    <div className="d-flex global-margin mtp-50 mbp-0 psp-30 pep-80 ptp-0 pbp-10">
+                    <div className="d-flex global-margin mtp-50 mbp-0 psp-30 pep-50 ptp-0 pbp-10">
                         <div className="row p-0 m-0 w-100">
 
                             <div className="col-12 m-0 position-relative">
