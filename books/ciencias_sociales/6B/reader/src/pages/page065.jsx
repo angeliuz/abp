@@ -188,7 +188,7 @@ function Page065(props) {
 
 
 
-          <div className="d-flex global-margin mtp-0 mbp-100  psp-60 pep-40 psp-0 pep-0 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-0 mbp-100  psp-60 pep-70 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
 
@@ -197,10 +197,11 @@ function Page065(props) {
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                   </div>
                   <div className="col-6">
-                    <div className="wp-350 bgc-white gira--2 psp-10 pep-10  border-style-solid border-1 border-color-lightDark  rounded-p-10 position-relative">
+                    <div className="wp-250 bgc-white gira--2 psp-10 pep-10  border-style-solid border-1 border-color-lightDark  rounded-p-10 position-relative">
                       <div className="position-absolute top-0 start-50 translate-middle-x    msp-0 mtp--20 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-30" alt="" /></div>
 
-                      <div className=" f-Ubuntu-R hp-10 fsp-16 ptp-20 pbp-0 psp-0 pep-0  text-center">Como curso, seleccionamos por votación<br />
+                      <div className=" f-Ubuntu-R hp-10 fsp-16 ptp-20 pbp-0 psp-0 pep-0  text-center">
+                        Como curso, seleccionamos por<br /> votación
                         el título de la exposición.</div>
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-45 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                     </div>
