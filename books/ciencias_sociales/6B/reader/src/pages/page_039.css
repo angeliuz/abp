@@ -1,7 +1,39 @@
-.mnwp-400 {
-    min-width: 400px;
+.caja1-p39 {
+    max-width: 220px;
+    height: 70px;
 }
 
-.mnwp-300 {
-    min-width: 300px;
+.caja2-p39 {
+    min-width: 50px;
+    width: 220px;
+    height: 30px;
+}
+
+
+.border-ste {
+    border-style: solid;
+    border-bottom: none !important;
+}
+
+.border-te {
+    border-style: solid;
+    border-bottom: none !important;
+    border-left: none !important;
+}
+
+.border-st {
+    border-style: solid;
+    border-bottom: none !important;
+    border-right: none !important;
+}
+
+.border-end {
+    border-style: solid !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-bottom: none !important;
+}
+
+.ptp-27 {
+    padding-top: 27px;
 }
