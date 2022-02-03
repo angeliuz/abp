@@ -31,7 +31,7 @@ function Page031(props) {
                     {/* BEGIN CABECERA VERSIÓN 2 */}
                     <div className={"cabecera-v2 d-flex flex-column " + background}>
                         <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-                            <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN 5</div>
+                            <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN 6</div>
                             <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white"> ¡Cuidado con la malnutrición!</div>
                         </div>
                         <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-95">
@@ -80,8 +80,8 @@ function Page031(props) {
                     <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
                         <div className="row p-0 m-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative">
-                                <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-40" alt="" /></div>
-                                <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-45" alt="" /></div>
+                                <div className="position-absolute top-0 start-100 translate-middle mtp-50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="" alt="" /></div>
+                                
 
                                 <div className="d-flex msp-10 mep-10 mtp-20 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
                                     <div className="row p-0 m-0 w-100">
@@ -110,7 +110,7 @@ function Page031(props) {
                     <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
                         <div className="row p-0 m-0 w-100">
 
-                            <div className="col-6 p-0 m-0 position-relative">
+                            <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
 
                                 <div className="d-flex msp-10 mep-10 mtp-10 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
                                     <div className="row p-0 m-0 w-100">
@@ -130,7 +130,7 @@ function Page031(props) {
 
                             </div>
 
-                            <div className="col-6 p-0 m-0 position-relative">
+                            <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
 
                                 <div className="d-flex msp-10 mep-10 mtp-10 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
                                     <div className="row p-0 m-0 w-100">
@@ -169,30 +169,38 @@ function Page031(props) {
                         </div>
                     </div>
 
-                    <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
-                        <div className="row p-0 m-0 w-100">
-                            <div className="col-12 p-0 m-0 position-relative">
-                                <div className="col-sm-12 col-md-6 position-relative">
-                                    <div className="position-absolute top-100 start-0 translate-middle visible-768 zindex-1 msp-60 mtp--5"><img src="images/page_024/img_006.png" className="hp-60" alt="" /></div>
-                                    <div className="box-color-24-1">
-                                        <div className="f-Ubuntu-B alinea rounded-set-10 bgc-saitama w-100 p-2 text-center color-white">¿Qué ejemplo o caso de<br /> discriminación conoces?</div>
-                                        <div className=" linea1 bgc-white hp-250 p-2  rounded-seb-20 border-style-solid border-color-saitama border-2">
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
+                    <div className="d-flex msp-60 mep-60 mbp-100 mtp-0">
+                        <div className="row w-100 p-0 m-0">
+                            <div className="row mx-auto d-flex f-Ubuntu-R fsp-15 mbp-20 ">
+                                <div className="position-relative">
+                                    <div className="position-absolute top-50 start-50 translate-middle msp--0 mtp-170 visible-768 zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-60" alt="" /></div>
+                                </div>
+
+                                <div className="col-sm-12 col-md-6">
+                                    <div className="text-center w-100 border-1 border-style-solid border-color-akuma rounded-p-10  mtp-10">
+                                        <div className="lhp-20 color-white fw-700 rounded-set-6 hp-50  p-2 bgc-akuma d-flex justify-content-center align-items-center">
+                                            en su mayoría, la comida que se vendiera
+                                            en el colegio fuera poco saludable
+                                        </div>
+                                        <div className="psp-15 pep-15">
+                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-sm-12 col-md-6">
+                                    <div className="text-center w-100 border-1 border-style-solid border-color-akuma rounded-p-10 mtp-10">
+                                        <div className="lhp-15 color-white fw-700 rounded-set-6 hp-50 p-2 bgc-akuma d-flex justify-content-center align-items-center">
+                                            en su mayoría, la comida que se
+                                            vendiera en el colegio fuera saludable
+                                        </div>
+                                        <div className="psp-15 pep-15">
+                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
                                         </div>
                                     </div>
                                 </div>
 
-                                <div className="col-sm-12 col-md-6 position-relative">
-                                    <div className="position-absolute top-0 start-100 translate-middle wp-100"><img src="images/page_024/img_002.png" className="w-30 mep-70 mtp-30" alt="" /></div>
-                                    <div className="position-absolute top-100 start-100 translate-middle visible-768 zindex-1 msp--60 mtp--5"><img src="images/page_024/img_006.png" className="hp-60" alt="" /></div>
-                                    <div className="espirales position-absolute"><img src="images/page_024/img_005.png" className="w-45 " alt="" /></div>
-                                    <div className="box-color-24-2">
-                                        <div className="f-Ubuntu-B alinea rounded-set-10 bgc-leia w-100 p-2 text-center color-white">¿Por qué condición o característica<br /> se discriminó en dicho caso?</div>
-                                        <div className="linea1 bgc-white hp-250 p-2  rounded-seb-20 border-style-solid border-color-leia border-2">
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
-                                        </div>
-                                    </div>
-                                </div>
+
+
                             </div>
                         </div>
                     </div>
