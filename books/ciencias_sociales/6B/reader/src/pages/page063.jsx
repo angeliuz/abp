@@ -84,13 +84,74 @@ function Page063(props) {
 
 
 
-          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-20 mbp-0 psp-40 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
-                <div className="row">
-                  <div className="col-12">
+                <div className="row  f-Ubuntu-R fsp-15 mbp-20 h-100 ">
+
+                  <div className="col-4 m-0 p-0 bgc-red d-flex align-items-start     flex-column">
+
+                    <div className="d-flex  justify-content-start align-items-center position-relative">
+                      <div className="w-80  m-0 pp-5 border-style-solid border-1 border-color-saitama bgc-info rounded-p-10  f-Ubuntu-R fsp-15 lh-sm">
+                        ¿Las líneas usadas ayudan a transmitirlo?
+                      </div>
+                      <div className="position-absolute top-50 start-100 translate-middle    msp--2 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/flecha63_01.svg"} className="wp-60" alt="" /></div>
+                    </div>
+
+                    <div className="d-flex  justify-content-start align-items-center position-relative  mt-auto">
+                      <div className="w-80  m-0 pp-5 border-style-solid border-1 border-color-saitama bgc-info rounded-p-10  f-Ubuntu-R fsp-15 lh-sm">
+                        ¿Las líneas usadas ayudan a transmitirlo?
+                      </div>
+                      <div className="position-absolute top-50 start-100 translate-middle    msp--2 mtp--10  zindex-1"><img src={"images/page_" + pagina + "/flecha63_02.svg"} className="wp-60 rotate-180" alt="" /></div>
+                    </div>
 
                   </div>
+
+                  <div className="col-3 m-0 p-0   sobre ">
+
+                    <div className="d-flex justify-content-center  align-self-center ">
+
+                      <div className="d-flex hp-130 wp-130  rounded-circle border-style-solid border-1 border-color-saitama bgc-red rounded-p-50">
+                        <div className="d-flex justify-content-center  alinea  align-items-center f-Ubuntu-R fsp-15 color-white lh-sm">
+                          ¿Qué busca <br />transmitir el <br />grupo en <br />la obra?
+                        </div>
+
+                      </div>
+
+                    </div>
+
+
+
+                  </div>
+
+                  <div className="col-5 m-0 p-0 bgc-red    d-flex align-items-end     flex-column">
+
+                    <div className="d-flex  justify-content-end align-items-center position-relative">
+                      <div className="w-80  m-0 pp-5 border-style-solid border-1 border-color-saitama bgc-info rounded-p-10  f-Ubuntu-R fsp-15 lh-sm">
+                        ¿Los materiales y las texturas  de la obra ayudan a transmitirlo?
+                      </div>
+                      <div className="position-absolute top-50 start-0 translate-middle   msp-2  mtp--5  zindex-1"><img src={"images/page_" + pagina + "/flecha63_01.svg"} className="wp-60 rota-horizontal " alt="" /></div>
+                    </div>
+
+                    <div className="d-flex  justify-content-end align-items-center mt-auto position-relative">
+                      <div className="w-80   m-0 pp-5 border-style-solid border-1 border-color-saitama bgc-info rounded-p-10  f-Ubuntu-R fsp-15 lh-sm">
+                        ¿Las formas seleccionadas ayudan a transmitirlo?
+                      </div>
+                      <div className="position-absolute top-50 start-0 translate-middle   msp--5 mtp--10  zindex-1"><img src={"images/page_" + pagina + "/flecha63_02.svg"} className="wp-60 rota-vertical " alt="" /></div>
+                    </div>
+                  </div>
+
+
+                  {/* <div className="col-3 w-100 m-0 p-0 bgc-red">
+                    <div className="wp-100 m-0 p-0 border-style-solid border-1 border-color-saitama bgc-info rounded-p-10 ">1</div>
+                  </div>
+                  <div className="col-5 w-100 m-0 p-0 bgc-yellow">
+                    <div className="wp-100 m-0 p-0 border-style-solid border-1 border-color-saitama bgc-info rounded-p-50 ">1</div>
+                  </div>
+                  <div className="col-2 w-100 m-0 p-0 bgc-info">
+                    <div className="wp-100 m-0 p-0 border-style-solid border-1 border-color-saitama bgc-info rounded-p-10 ">1</div>
+                  </div> */}
+
                 </div>
               </div>
             </div>
