@@ -66,20 +66,24 @@ function Page039(props) {
             </div>
           </div>
 
-          <div className="psp-60 pep-60 ptp-20">
+          <div className="psp-60 pep-60 ptp-20 pbp-80">
 
             <div className="d-flex justify-content-center align-items-center pbp-20">
               <div className="caja1-p39 bgc-mozart rounded-p-10 color-white f-Ubuntu-M ptp-10 position-relative">
                 <span>Elementos que inspiran nuestra obra</span>
 
                 <div className="position-absolute top-50 start-100 translate-middle msp-50 mtp-30">
-                  <div className="wp-100 hp-60 border-te border-3 border-color-mozart position-relative">
-                    <div className="position-absolute flecha1"></div>
+                  <div className="wp-100 hp-60 border-te border-3 border-color-mozart position-relative pbp-10">
+                    <div className="position-absolute top-100 start-100 translate-middle mtp--15 msp-1">
+                      <img src={"images/page_" + pagina + "/flecha_001.png"} className="hp-15" alt="" />
+                    </div>
                   </div>
                 </div>
                 <div className="position-absolute top-50 start-0 translate-middle msp--50 mtp-30">
                   <div className="wp-100 hp-60 border-st border-3 border-color-mozart position-relative">
-                    <div className="position-absolute flecha1"></div>
+                    <div className="position-absolute top-100 start-0 translate-middle mtp--15 msp--1">
+                      <img src={"images/page_" + pagina + "/flecha_001.png"} className="hp-15" alt="" />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -88,12 +92,12 @@ function Page039(props) {
             <div className="row">
 
               <div className="col-6">
-                <div className="d-flex justify-content-center align-items-center pbp-20">
-                  <div className="caja1-p39 bgc-azuka rounded-p-10 color-balrog f-Ubuntu-B ptp-10 psp-20 pep-20 position-relative">
+                <div className="d-flex justify-content-center align-items-center pbp-60 position-relative">
+                  <div className="caja1-p39 bgc-azuka rounded-p-10 color-balrog f-Ubuntu-B ptp-10 psp-20 pep-20 ">
                     <span>Nuestro compromiso con la justicia social</span>
                   </div>
-                  <div className="position-absolute">
-                    <div className="flecha"></div>
+                  <div className="position-absolute top-100 start-50 translate-middle mtp--30 msp--20">
+                    <img src={"images/page_" + pagina + "/flecha_002.png"} className="wp-20" alt="" />
                   </div>
                 </div>
                 <div className="border-style-solid border-color-milk border-2 rounded-p-10 p-3">
@@ -102,12 +106,12 @@ function Page039(props) {
               </div>
 
               <div className="col-6">
-                <div className="d-flex justify-content-center align-items-center pbp-20">
-                  <div className="caja1-p39 bgc-qiqi rounded-p-10 color-sektor f-Ubuntu-B ptp-10 psp-20 pep-20 position-relative">
+                <div className="d-flex justify-content-center align-items-center position-relative pbp-60">
+                  <div className="caja1-p39 bgc-qiqi rounded-p-10 color-sektor f-Ubuntu-B ptp-10 psp-20 pep-20">
                     <span>Derecho en que nos centraremos</span>
                   </div>
-                  <div className="position-absolute">
-                    <div className="flecha"></div>
+                  <div className="position-absolute top-100 start-50 translate-middle mtp--30 msp-20">
+                    <img src={"images/page_" + pagina + "/flecha_003.png"} className="wp-20" alt="" />
                   </div>
                 </div>
                 <div className="border-style-solid border-color-sonic border-2 rounded-p-10 p-3 position-relative">
@@ -121,19 +125,25 @@ function Page039(props) {
 
             <div className="d-flex justify-content-center ptp-27">
               <div className="wp-100"></div>
-              <div className="caja2-p39 border-st border-color-sonic border-2"></div>
-              <div className="caja2-p39 border-ste border-color-sonic border-2"></div>
+              <div className="caja2-p39 border-st border-color-sonic border-2 position-relative">
+                <div className="position-absolute top-100 start-0 translate-middle msp--1 mtp--10 zindex-1"><img src={"images/page_" + pagina + "/flecha_004.png"} className="wp-30" alt="" /></div>
+                <div className="position-absolute top-100 start-100 translate-middle msp-1 mtp--10 zindex-1"><img src={"images/page_" + pagina + "/flecha_004.png"} className="wp-30" alt="" /></div>
+              </div>
+              <div className="caja2-p39 border-ste border-color-sonic border-2 position-relative">
+                <div className="position-absolute top-100 start-100 translate-middle msp-1 mtp--10 zindex-1"><img src={"images/page_" + pagina + "/flecha_004.png"} className="wp-30" alt="" /></div>
+
+              </div>
               <div className="wp-100"></div>
             </div>
 
             <div className="row">
               <div className="col-4">
-                <div className="d-flex justify-content-center align-items-center pbp-20">
-                  <div className="caja1-p39 bgc-draco rounded-p-10 color-bulma f-Ubuntu-B ptp-10 psp-20 pep-20 position-relative">
+                <div className="d-flex justify-content-center align-items-center pbp-60 position-relative">
+                  <div className="caja1-p39 bgc-draco rounded-p-10 color-bulma f-Ubuntu-B ptp-10 psp-20 pep-20 ">
                     <span> Deberes que se desprenden</span>
                   </div>
-                  <div className="position-absolute">
-                    <div className="flecha"></div>
+                  <div className="position-absolute top-100 start-50 translate-middle mtp--30 msp-0">
+                    <img src={"images/page_" + pagina + "/flecha_006.png"} className="wp-20" alt="" />
                   </div>
                 </div>
                 <div className="border-style-solid border-color-draco border-2 rounded-p-10 p-3 position-relative">
@@ -141,12 +151,12 @@ function Page039(props) {
                 </div>
               </div>
               <div className="col-4">
-                <div className="d-flex justify-content-center align-items-center pbp-20">
-                  <div className="caja1-p39 bgc-kai rounded-p-10 color-pidgey f-Ubuntu-B ptp-10 psp-20 pep-20 position-relative">
+                <div className="d-flex justify-content-center align-items-center pbp-60 position-relative">
+                  <div className="caja1-p39 bgc-kai rounded-p-10 color-pidgey f-Ubuntu-B ptp-10 psp-20 pep-20 ">
                     <span> Principales desafíos que enfrenta</span>
                   </div>
-                  <div className="position-absolute">
-                    <div className="flecha"></div>
+                  <div className="position-absolute top-100 start-50 translate-middle mtp--30 msp-0">
+                    <img src={"images/page_" + pagina + "/flecha_007.png"} className="wp-20" alt="" />
                   </div>
                 </div>
                 <div className="border-style-solid border-color-kai border-2 rounded-p-10 p-3 position-relative">
@@ -154,12 +164,12 @@ function Page039(props) {
                 </div>
               </div>
               <div className="col-4">
-                <div className="d-flex justify-content-center align-items-center pbp-20">
-                  <div className="caja1-p39 bgc-blanka rounded-p-10 color-pikachu f-Ubuntu-B ptp-10 psp-20 pep-20 position-relative">
+                <div className="d-flex justify-content-center align-items-center pbp-60 position-relative">
+                  <div className="caja1-p39 bgc-blanka rounded-p-10 color-pikachu f-Ubuntu-B ptp-10 psp-20 pep-20">
                     <span> Medida de defensa</span>
                   </div>
-                  <div className="position-absolute">
-                    <div className="flecha"></div>
+                  <div className="position-absolute top-100 start-50 translate-middle mtp--30 msp-0">
+                    <img src={"images/page_" + pagina + "/flecha_008.png"} className="wp-20" alt="" />
                   </div>
                 </div>
                 <div className="border-style-solid border-color-blanka border-2 rounded-p-10 p-3 position-relative">
