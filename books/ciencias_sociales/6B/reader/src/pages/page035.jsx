@@ -81,7 +81,7 @@ function Page035(props) {
                                 <div className="position-absolute top-0 start-0 translate-middle      msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-30 mtp-280" alt="" /></div>
                                 <div className="position-absolute top-100 start-0 translate-middle    msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-80 mtp-0" alt="" /></div>
 
-                                <div className="w-100 h-100 bgc-hannah rounded-p-10 pbp-15">
+                                <div className="w-100 h-100 bgc-tatooine rounded-p-10 pbp-15">
                                     <div className="row m-0 p-2 ">
 
 
