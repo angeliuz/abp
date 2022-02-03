@@ -71,20 +71,29 @@ function Page033(props) {
                         </div>
                     </div>
 
-                    <div className="d-flex global-margin mtp-50 mbp-0 psp-0 pep-120 ptp-0 pbp-50">
+                    <div className="d-flex global-margin mtp-50 mbp-0 psp-30 pep-80 ptp-0 pbp-10">
                         <div className="row p-0 m-0 w-100">
 
                             <div className="col-12 m-0 position-relative">
+                            <div className="position-absolute top-100 start-50 translate-middle msp--130 mtp--10 zindex-1"><img src="images/page_033/img_006.svg" className=" wp-10" alt="" /></div>
+                            <div className="position-absolute top-100 start-50 translate-middle msp-130 mtp--10 zindex-1"><img src="images/page_033/img_006.svg" className=" wp-10" alt="" /></div>
+                                <div className="position-absolute top-0 start-100 translate-middle msp--80 mtp-30 visible-768"><img src="images/page_033/img_002.png" className=" " alt="" /></div>
 
-                                {/* <div className="position-absolute top-100 start-0 translate-middle msp-50 mtp--100 visible-768"><img src="images/page_029/img_002.png" className="wp-50 " alt="" /></div> */}
+                                <div className="d-flex mbp-20 mtp-10 w-90 ">
+                                    <div className="ptp-70 psp-10 pep-10 pbp-10 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-lightDark box-shadow-simple">
 
-                                <div className="d-flex mbp-20 mtp-10 w-100 padding-box-29-1">
-                                    <div className="ptp-30 psp-10 pep-10 pbp-10 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-lightDark">
-
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0  px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
-                                        <div className="position-absolute top-0 start-50 msp-0 mtp-0 translate-middle">
-                                            <div className="bgc-bulma mnwp-400 color-white f-Ubuntu-B text-center px-3 py-2 rounded-p-20">
-                                                Lo que nos sirve de esta investigación para nuestro proyecto es...
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0  px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-380" />
+                                        <div className="position-absolute top-0 start-50 msp--25 mtp-40 translate-middle">
+                                            <div className="bgc-azuka min-wp-410 color-white f-Ubuntu-B text-center px-3 py-2 rounded-p-20">
+                                                <div className="d-flex p-2">
+                                                    <div className={"f-Ubuntu-B fsp-21 mtp--6 " + color}>
+                                                        a.
+                                                    </div>
+                                                    <div className="f-Ubuntu-R fsp-16 psp-10 pep-10 text-start color-dark">
+                                                        ¿Cómo aseguraremos que nuestras fuentes
+                                                        de información sean confiables?
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -95,24 +104,24 @@ function Page033(props) {
                         </div>
                     </div>
 
-                    <div className="d-flex global-margin mtp-0 mbp-0 psp-120 pep-0 ptp-0 pbp-100">
+                    <div className="d-flex global-margin mtp-0 mbp-0 psp-80 pep-0 ptp-0 pbp-100">
                         <div className="row p-0 m-0 w-100">
                             <div className="col-12 m-0 position-relative">
+                            <div className="position-absolute top-100 start-0 translate-middle mtp--150 msp--40 "><img src="images/page_033/img_005.png" className=" " alt="" /></div>
+                                <div className="position-absolute top-0 start-100 translate-middle msp--50 mtp--110 visible-768"><img src="images/page_033/img_004.png" className=" " alt="" /></div>
 
-                                {/* <div className="position-absolute top-100 start-0 translate-middle msp-50 mtp--100 visible-768"><img src="images/page_029/img_002.png" className="wp-50 " alt="" /></div> */}
+                                <div className="d-flex mbp-20 mtp-10 w-90 ">
+                                    <div className="ptp-70 psp-10 pep-10 pbp-10  min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-lightDark box-shadow-simple">
 
-                                <div className="d-flex mbp-20 mtp-10 w-100 padding-box-29-1">
-                                    <div className="ptp-30 psp-10 pep-10 pbp-10  min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-lightDark">
-
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
-                                        <div className="position-absolute top-0 start-50 msp-0 mtp-0 translate-middle">
-                                            <div className="bgc-bulma min-wp-500 color-white f-Ubuntu-B text-center px-3 py-2 rounded-p-20">
-                                                <div className="d-flex psp-20 pbp-20">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-380" />
+                                        <div className="position-absolute top-0 start-50 msp--25 mtp-40 translate-middle">
+                                            <div className="bgc-kai min-wp-410 color-white f-Ubuntu-B text-center px-3 py-2 rounded-p-20">
+                                                <div className="d-flex p-2">
                                                     <div className={"f-Ubuntu-B fsp-21 mtp--6 " + color}>
                                                         b.
                                                     </div>
-                                                    <div className="f-Ubuntu-R fsp-16 psp-10 pep-10 text-start">
-                                                        ¿Qué  haremos para incluir diversos puntos de
+                                                    <div className="f-Ubuntu-R fsp-16 psp-10 pep-10 text-start color-dark">
+                                                        ¿Qué haremos para incluir diversos puntos de
                                                         vista respecto del tema investigado?
                                                     </div>
                                                 </div>
