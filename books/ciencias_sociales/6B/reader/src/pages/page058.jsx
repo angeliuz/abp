@@ -24,8 +24,8 @@ function Page058(props) {
                         <div className="row w-100 p-0 m-0">
                             <div className="row mx-auto d-flex f-Ubuntu-R fsp-15 mbp-20 justify-content-cente ">
                                 <div className="col-sm-12 col-md-6 position-relative ptp-10">
-                                    <div className="position-absolute top-0 start-100 translate-middle msp--10 mtp-25 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-70" alt="" /></div>
-                                    <div className="position-absolute top-100 start-0 translate-middle msp-10 mtp-0 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-80" alt="" /></div>
+                                    <div className="position-absolute top-0 start-0 translate-middle msp--10 mtp-25 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-70" alt="" /></div>
+                                    <div className="position-absolute top-100 start-100 translate-middle msp--30 mtp-0 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-90" alt="" /></div>
                                     <div className="text-center w-100 border-1 border-style-solid border-color-dark rounded-p-10 pbp-30 bgc-white mtp-10">
                                         <div className="f-Ubuntu-R fsp-15 rounded-p-10 max-wp-200 mx-auto hp-40 pep-20 psp-20 ptp-10 mtp--5 pbp-10 bgc-obiwan lhp-15 color-white fw-700 d-flex justify-content-center align-items-center">
                                             Lo que más nos costó de diseñar la obra fue...
@@ -36,7 +36,8 @@ function Page058(props) {
                                     </div>
                                 </div>
                                 <div className="col-sm-12 col-md-6 position-relative ptp-40">
-                                    <div className="position-absolute top-100 start-100 translate-middle msp--30 mtp-0 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-80" alt="" /></div>
+                                    <div className="position-absolute top-0 start-100 translate-middle msp--10 mtp-80 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-70" alt="" /></div>
+                                    <div className="position-absolute top-100 start-100 translate-middle msp--30 mtp-0 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-80" alt="" /></div>
                                     <div className="text-center w-100 border-1 border-style-solid border-color-dark rounded-p-10 pbp-30 bgc-white mtp-10">
                                         <div className="color-white fw-700 f-Ubuntu-R fsp-15 rounded-p-10 max-wp-200 mx-auto  hp-40 pep-20 psp-20 ptp-10 pbp-10 mtp--5 bgc-palpatine d-flex justify-content-center align-items-center">
                                             Lo más sencillo fue...
@@ -49,7 +50,8 @@ function Page058(props) {
                             </div>
                         </div>
                     </div>
-                    <div className="d-flex flex-column global-margin mtp-0 mbp-20 psp-0 pep-0 ptp-20 pbp-20">
+                    <div className="d-flex flex-column global-margin mtp-0 mbp-20 psp-0 pep-0 ptp-20 pbp-20 position-relative">
+                        <div className="position-absolute top-100 start-100 translate-middle wp-100 msp--120 mtp--70"><img src={"images/page_" + pagina + "/img_005.png"} className="w-200" alt="" /></div>
                         <div className="col-10">
                             <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo vamos?</div>
                             <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-30">
