@@ -84,7 +84,7 @@ function Page063(props) {
 
 
 
-          <div className="d-flex global-margin mtp-30 mbp-60 psp-40 pep-0 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-30 mbp-60 psp-40 pep-10 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
                 <div className="row  f-Ubuntu-R fsp-15 mbp-20 h-100 ">
@@ -95,7 +95,7 @@ function Page063(props) {
                       <div className="w-80 bgc-gohan m-0 pp-5 border-style-solid border-1 border-color-saitama  rounded-p-10  f-Ubuntu-R fsp-15 lh-sm">
                         ¿Las líneas usadas ayudan a transmitirlo?
                       </div>
-                      <div className="position-absolute top-50 start-100 translate-middle    msp--2 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/flecha63_01.svg"} className="wp-60" alt="" /></div>
+                      <div className="position-absolute top-50 start-100 translate-middle    msp--3 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/flecha63_01.svg"} className="wp-60" alt="" /></div>
                     </div>
 
                     <div className="d-flex  justify-content-start align-items-center position-relative  mt-auto">
@@ -107,12 +107,12 @@ function Page063(props) {
 
                   </div>
 
-                  <div className="col-3 m-0 p-0   sobre ">
+                  <div className="col-3 m-0 p-0   wp-135 sobre ">
 
                     <div className="d-flex justify-content-center  align-self-center ">
 
-                      <div className="d-flex hp-130 wp-130 bgc-saitama  rounded-circle border-style-solid border-2 border-color-dark rounded-p-50">
-                        <div className="d-flex justify-content-center  alinea  align-items-center f-Ubuntu-R fsp-15 color-white lh-sm">
+                      <div className="d-flex hp-130 wp-130 bgc-saitama mtp-10 rounded-circle border-style-solid border-2 border-color-dark rounded-p-50">
+                        <div className="d-flex justify-content-center  alinea  align-items-center f-Ubuntu-R fsp-15 fw-700 color-white lh-sm">
                           ¿Qué busca <br />transmitir el <br />grupo en <br />la obra?
                         </div>
 
@@ -129,7 +129,7 @@ function Page063(props) {
                       <div className="w-80 bgc-yamcha   m-0 pp-5 border-style-solid border-1 border-color-saitama rounded-p-10  f-Ubuntu-R fsp-15 lh-sm">
                         ¿Los materiales y las texturas  de la obra ayudan a transmitirlo?
                       </div>
-                      <div className="position-absolute top-50 start-0 translate-middle   msp-2  mtp--3  zindex-1"><img src={"images/page_" + pagina + "/flecha63_01.svg"} className="wp-60 rota-horizontal " alt="" /></div>
+                      <div className="position-absolute top-50 start-0 translate-middle   msp-1  mtp--3  zindex-1"><img src={"images/page_" + pagina + "/flecha63_01.svg"} className="wp-60 rota-horizontal " alt="" /></div>
                     </div>
 
                     <div className="d-flex  justify-content-end align-items-center mt-auto position-relative">
@@ -190,7 +190,7 @@ function Page063(props) {
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
               ABP &copy; SM
             </div>
-            <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+            <div className="bgc-misty wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
           </div>
           <div className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
             <div className="col-1 col-sm-2 p-0 m-0 position-relative">

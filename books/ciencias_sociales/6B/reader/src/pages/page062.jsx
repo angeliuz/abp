@@ -82,7 +82,7 @@ function Page062(props) {
                     <div className="position-absolute top-0 start-0   msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-30 msp-10 mtp--5" alt="" /></div>
                     <div className="bgc-white w-100 border-style-solid border-2 border-color-hotaru rounded-p-10 m-1">
 
-                      <div className="f-Ubuntu-R fsp-16 ptp-5 pbp-0 psp-10 pep-10 hp-40 text-center align-self-center">
+                      <div className="f-Ubuntu-R fsp-16 lh-sm ptp-15 pbp-0 psp-15 pep-15 hp-60  text-center d-flex align-items-center">
                         ¿Qué aspectos de nuestro trabajo deberíamos mejorar?
                       </div>
                       <div className="psp-20 pep-20 ptp-0 pbp-5 m-0  w-100 bgc-hotaru">
@@ -97,7 +97,7 @@ function Page062(props) {
                     <div className="position-absolute top-50 start-100 translate-middle   msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-50 mep--5 mtp-0" alt="" /></div>
                     <div className="bgc-white w-100 border-style-solid border-2 border-color-bobafett rounded-p-10 m-1">
 
-                      <div className="f-Ubuntu-R fsp-16 ptp-5 pbp-0 psp-10 pep-10 hp-40 text-center align-self-center">
+                      <div className="f-Ubuntu-R fsp-16 lh-sm ptp-15 pbp-0 psp-15 pep-15 hp-60  text-center d-flex align-items-center">
                         ¿Qué estrategias aplicaremos para implementar esas mejoras?
                       </div>
                       <div className="psp-20 pep-20 ptp-0 pbp-5 m-0  w-100 bgc-bobafett">
