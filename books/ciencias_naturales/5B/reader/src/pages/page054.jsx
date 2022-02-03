@@ -60,7 +60,7 @@ function Page054(props) {
           </div>
 
 
-          <div className="d-flex flex-column global-margin mtp-0 mbp-100 psp-0 pep-60 ptp-0 pbp-0 position-relative">
+          <div className="d-flex flex-column global-margin mtp-0 mbp-60 psp-0 pep-60 ptp-0 pbp-0 position-relative">
             <div className="col-12">
               <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo vamos?</div>
               <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-30 fsp-15 ">
@@ -112,7 +112,7 @@ function Page054(props) {
                 </div>
               </div>
             </div>
-            <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--150 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-130" alt="" /></div>
+            <div className="position-absolute top-100 start-100 translate-middle msp--10 mtp--130 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-110" alt="" /></div>
           </div>
 
 
