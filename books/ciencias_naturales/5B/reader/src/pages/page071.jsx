@@ -23,23 +23,29 @@ function Page071(props) {
           <div className={"cabecera-v2 d-flex flex-column " + background}>
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
               <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN 19</div>
-              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">La exposición</div>
+              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Difundimos nuestra campaña</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-95">
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Mis objetivos en <br /> esta sesión son:
+                Mis objetivos en  esta sesión son:
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Identificar qué necesitamos para organizar la <br /> exposición artística.o
+                Leer y responder el  mail de la ONG de la salud
               </div>
               <div className="psp-5 pep-5 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Realizar la presentación artística.
+                Chequear una lista de control  y distribuir las tareas para llevar a cabo la campaña.
+              </div>
+              <div className="psp-5 pep-5 align-self-center">
+                <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
+              </div>
+              <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+                Realizar la campaña para dar a  conocer la propuesta en el Día de la Alimentación Saludable.
               </div>
             </div>
           </div>
@@ -52,7 +58,7 @@ function Page071(props) {
                 1
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Veo el video, leo el correo y destaco las ideas principales.
+                Veo el video, leo el mail y luego respondo
               </div>
               {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
               <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
@@ -60,46 +66,74 @@ function Page071(props) {
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
-          <div class="cb-contenedor-mail position-relative">
-            <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp--20 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-50" alt="" /></div>
-            <div class="cb-datos-mail pep-15 psp-10 ptp-10 pbp-10">
-              <div class="d-flex mbp-5">
-                <div class="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">De:</div>
-                <div class="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start">Josefa.arratia@grupo-sm.com</div>
-              </div>
-              <div class="d-flex">
-                <div class="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">Asunto:</div>
-                <div class="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start">Felicitaciones</div>
-              </div>
-            </div>
-            <div class="cb-texto-mail position-relative">
-              <div class="cb-carta-content f-Ubuntu-L text-start">
-                <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-50" alt="" /></div>
-                <div className="position-absolute top-100 start-0 translate-middle msp-60 mtp--10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-120" alt="" /></div>
-                <p>Estimados estudiantes:</p>
-                <p>Nos encontramos en la parte final del camino. Falta un simple pero
-                  significativo paso: que expongan sus obras ante la comunidad.</p>
+          <div className="d-flex  mbp-30 ">
+            <div className="row w-100 p-0 m-0">
+              <div class="cb-contenedor-mail position-relative">
+                <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp--20 zindex-10"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-50" alt="" /></div>
+                <div class="cb-datos-mail psp-10 ptp-10 pbp-10">
+                  <div class="d-flex mbp-5 text-start">
+                    <div class="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">De:</div>
+                    <div class="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start">salud@correo.cl</div>
+                  </div>
+                  <div class="d-flex mbp-5 text-start">
+                    <div class="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">Para:</div>
+                    <div class="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start">estudiantes_5b@correo.cl</div>
+                  </div>
+                  <div class="d-flex text-start">
+                    <div class="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">Asunto:</div>
+                    <div class="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start"> ¡Llegó el día!</div>
+                  </div>
+                </div>
+                <div class="cb-texto-mail position-relative">
+                  <div class="cb-carta-content f-Ubuntu-L text-start">
+                    <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-50" alt="" /></div>
+                    <div className="position-absolute top-100 start-0 translate-middle msp-60 mtp--10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-120" alt="" /></div>
+                    <p>Estimados estudiantes:</p>
+                    <p>Han llegado al final de este proyecto. Ahora solo les queda presentar,
+                      a toda la comunidad educativa, la campaña para dar a conocer su propuesta
+                      de alimentación saludable para el colegio y celebrar el primer Día de la
+                      Alimentación Saludable.</p>
 
-                <p>Para ello, es necesario que resuelvan los últimos detalles: ubicar las obras
-                  y las descripciones de acuerdo con lo planificado, ordenar y limpiar el espacio
-                  de la exposición, practicar posibles respuestas acerca de sus obras para
-                  las personas invitadas, entre otros.</p>
+                    <p>Sé que el trabajo ha sido exigente, y que han debido enfrentar
+                      diversos desafíos y obstáculos: no obstante, han logrado superarlos con éxito.</p>
 
-                <p>Con su exposición, contribuirán a crear una sociedad más justa, respetuosa
-                  de los derechos de las personas y abierta a diversas formas de ver el mundo.</p>
+                    <p>No olviden disfrutar de esta etapa final!</p>
 
-                <p>elicidades y muchas gracias.</p>
-
-                <div className="justify-content-end">
-                  <div className="text-end"> Se despide con cariño,</div>
-                  <div className="text-end"> Josefa Arratia </div>
-                  <div className="text-end"> Gestora cultural.</div>
+                    <p>Saludos afectuosos. ONG de la salud.
+                    </p>
+                  </div>
                 </div>
               </div>
+              <div class="cb-contenedor-mail position-relative mbp-190">
+                <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp--20 zindex-10"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-50" alt="" /></div>
+                <div class="cb-datos-mail psp-10 ptp-10 pbp-10">
+                  <div class="d-flex mbp-5 text-start">
+                    <div class="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">De:</div>
+                    <div class="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start">estudiantes_5b@correo.cl</div>
+                  </div>
+                  <div class="d-flex mbp-5 text-start">
+                    <div class="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">Para:</div>
+                    <div class="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start">salud@correo.cl</div>
+                  </div>
+                  <div class="d-flex text-start">
+                    <div class="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">Asunto:</div>
+                    <div class="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start"> RE: ¡Llegó el día!</div>
+                  </div>
+                </div>
+                <div class="cb-texto-mail position-relative">
+                  <div class="cb-carta-content f-Ubuntu-L text-start">
+                    <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-50" alt="" /></div>
+                    <div className="position-absolute top-100 start-0 translate-middle msp-60 mtp--10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-120" alt="" /></div>
+
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
-
-
           {/* BEGIN PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
