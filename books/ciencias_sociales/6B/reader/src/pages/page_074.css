@@ -1,6 +1,8 @@
-.border-color-yunjin{
-border: 15px solid #6ebeb9;
+.cb-outline-p74 {
+    outline: solid 3px #f1e1cc;
+    outline-offset: -5px;
 }
-.border-color-xinyan{
-    border: 8px solid #afd9d3;
-    }
+
+.bgc-dan{
+    background-color: #f1e1cc;
+}
