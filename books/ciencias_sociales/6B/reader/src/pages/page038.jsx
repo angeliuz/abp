@@ -11,9 +11,9 @@ function Page038(props) {
   const etapa = "3"
   const background = "bgc-android18";
   const color = "color-android18";
-  const colorSesion = "color-primary";
   const borderColor = "border-color-android18"
-  const bgc_cajas = "bgc-goku";
+  const borderColorTabla = "border-color-azuka"
+  const bgc_cajas = "bgc-azuka";
 
   return (
     <div className="wrapper bgc-light">
@@ -21,42 +21,135 @@ function Page038(props) {
         <div className="page bgc-white overflow-hidden position-relative" id={"page_" + pagina}>
           <div className="cabecera-v1 hp-80 bgc-android18">
           </div>
-
-          <div className="psp-60 pep-60 ptp-30">
-            <div className="d-flex psp-20 pbp-20">
-              <div className={"f-Ubuntu-B fsp-21 mtp--6 " + color}>
-                f.
+          <div className="container-titulo-global mbp-0 mbp-20">
+            <div className="d-flex psp-20">
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                4
               </div>
-              <div className="f-Ubuntu-R fsp-16 psp-10 pep-10 text-start">
-                Hacemos el boceto de la infografía.
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                Acuerdo con mi grupo un desafío y una medida de defensa de derechos que podamos considerar en nuestra obra de arte y explicamos su importancia.
               </div>
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
+              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
+          <div className="d-flex msp-60 mep-60 mbp-20 mtp-30">
+            <div className="row w-100 p-0 m-0">
+              <div className="row mx-auto d-flex f-Ubuntu-R fsp-15 mbp-20 ">
+                <div className="position-relative">
+                  <div className="position-absolute top-50 start-50 translate-middle msp--0 mtp-40 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-60" alt="" /></div>
+                </div>
 
-          <div className="d-flex msp-60 mep-60 ">
-            <div className="bgc-white rounded-p-5 psp-10 ptp-10 pep-10 pbp-10 w-100 border-style-solid border-1">
-              <div className="position-relative">
-                <div className="d-flex w-100">
-                  <div className="min-hp-100 w-100 rounded-p-10">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-800" />
+                <div className="col-sm-12 col-md-6">
+                  <div className="text-center w-100 border-1 border-style-solid border-color-danger rounded-p-10  mtp-10">
+                    <div className="lhp-20 color-white fw-700 rounded-set-6 hp-50 pep-20 psp-20 ptp-10 pbp-10 bgc-danger d-flex justify-content-center align-items-center">
+                      Un desafío que puede plantear <br /> nuestra obra es:
+                    </div>
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
+                    </div>
                   </div>
                 </div>
-                <div className="position-absolute top-100 start-0 translate-middle msp-20 mtp--65 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-160" alt="" /></div>
-              </div>
+                <div className="col-sm-12 col-md-6">
+                  <div className="text-center w-100 border-1 border-style-solid border-color-obiwan rounded-p-10 mtp-10">
+                    <div className="lhp-15 color-white fw-700 rounded-set-6 hp-50 ptp-5 pbp-5 bgc-obiwan d-flex justify-content-center align-items-center">
+                      ¿Por qué lo seleccionamos?
+                    </div>
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-12 col-md-6 position-relative">
+                  <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-90 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-60" alt="" /></div>
+                  <div className="position-absolute top-0 start-0 translate-middle msp-40 mtp--0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-10" alt="" /></div>
+                  <div className="text-center w-100 border-1 border-style-solid border-color-palpatine rounded-p-10 mtp-10">
+                    <div className="lhp-15 color-white fw-700 rounded-set-6 hp-50 ptp-5 pbp-5 bgc-palpatine d-flex justify-content-center align-items-center">
+                      Una medida de defensa que <br /> puede inspirar nuestra obra es:
+                    </div>
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-12 col-md-6 position-relative">
+                  <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp--0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-10" alt="" /></div>
+                  <div className="text-center w-100 border-1 border-style-solid border-color-info rounded-p-10 mtp-10">
+                    <div className="lhp-15 color-white fw-700 rounded-set-6 hp-50 ptp-5 pbp-5 bgc-info d-flex justify-content-center align-items-center">
+                      ¿Por qué la seleccionamos?
+                    </div>
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
+                    </div>
+                  </div>
+                </div>
 
+              </div>
+            </div>
+          </div>
+          {/* SECCION COMO VOY */}
+          <div className={"d-flex w-100 mtp-50 psp-60 pep-60 ptp-20 mbp-0 border-top-style-solid " + borderColor + " border-2 pbp-80 " + bgc_cajas}>
+            <div className="row w-100 p-0 m-0">
+              <div className="col-12 position-relative">
+                <div className="position-absolute top-0 start-100 translate-middle msp--30 mtp--55 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-90" alt="" /></div>
+                <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
+                <div className="d-flex flex-column mbp-20 mtp-10 w-100">
+                  <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
+                    <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
+                      <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 wp-15" alt="" />
+                      <span>La tarea que más me gustó en esta etapa fue</span>
+                    </div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                    <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 mtp-20 text-start">
+                      <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 wp-15" alt="" />
+                      <span>¿Qué podría mejorar para la próxima etapa?</span>
+                    </div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                  </div>
+                </div>
+              </div>
+              {/* BEGIN EJERCICIO 2 */}
+              <div className="col-12">
+                <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo me siento?</div>
+                <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-30">
+                  <div className="w-100 p-2 pb-3 bgc-white rounded-p-10">
+                    <table className="w-100">
+                      <tbody>
+                        <tr>
+                          <td><span className="w-24 f-Ubuntu-L mtp-5 mbp-10 text-start">Marco con un <img src={"images/page_" + pagina + "/img_005.svg"} className="hp-17 mtp--2" alt="" /> el recuadro que mejor me represente.</span></td>
+                          <td className={"color-white style-caja " + background + " tf-letra border-style-solid border-1 " + borderColor + " f-colby-compres-bold ps-2 pe-2"}>
+                            Nunca</td>
+                          <td style={{ minWidth: "55px" }} className={"color-white style-caja " + background + " tf-letra  border-style-solid border-1 " + borderColor + " f-colby-compres-bold ps-2 pe-2"}>
+                            A veces</td>
+                          <td className={"color-white style-caja " + background + " tf-letra border-style-solid border-1 " + borderColor + " f-colby-compres-bold ps-2 pe-2"}>
+                            Generalmente</td>
+                          <td className={"color-white style-caja " + background + " tf-letra  border-style-solid border-1 " + borderColor + " f-colby-compres-bold ps-2 pe-2"}>
+                            Siempre</td>
+                        </tr>
+                        <tr>
+                          <td className={"" + bgc_cajas + " f-Ubuntu-L fsp-16 text-start psp-5 border-style-solid border-1 " + borderColor + ""}>Me gusta investigar sobre el tema del proyecto.</td>
+                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
+                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
+                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
+                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
+                        </tr>
+                        <tr>
+                          <td className={"" + bgc_cajas + " f-Ubuntu-L fsp-16 text-start psp-5 border-style-solid border-1 " + borderColor + ""}>Tengo ganas de encontrar soluciones al desafío planteado..</td>
+                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
+                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
+                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
+                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div className="psp-60 pep-60 ptp-30 mbp-100">
-            <div className="d-flex psp-20 pbp-20">
-              <div className={"f-Ubuntu-B fsp-21 mtp--6 " + color}>
-                g.
-              </div>
-              <div className="f-Ubuntu-R fsp-16 psp-10 pep-10 text-start">
-                Construimos la infografía en una cartulina o un programa computacional.
-              </div>
-            </div>
-          </div>
 
           {/* PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
