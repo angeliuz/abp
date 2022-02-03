@@ -39,8 +39,8 @@ function Page070(props) {
                                         </div>
                                         <div>
                                             <span className="fsp-16 text-start f-pixilate-regular">
-                                                <span className="fsp-16 f-IntroRustG-Base text-start"> Realizar </span>
-                                                la <br /> exposición artística.
+                                                <span className="fsp-16 f-IntroRustG-Base text-start">Difundir </span>
+                                                a campaña en <br /> el Día de la Alimentación<br /> Saludable.
                                             </span>
                                         </div>
                                     </div>
@@ -55,7 +55,7 @@ function Page070(props) {
                                         <div className="d-flex">
                                             <span className="fsp-16 text-start f-pixilate-regular">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">EVALUAR </span>
-                                                el <br /> trabajo realizado.
+                                                el trabajo realizado <br /> a lo largo del proyecto.
                                             </span>
                                         </div>
                                     </div>
@@ -69,8 +69,8 @@ function Page070(props) {
                                         </div>
                                         <div className="d-flex">
                                             <span className="fsp-16 text-start f-pixilate-regular">
-                                                <span className="fsp-16 f-IntroRustG-Base text-start"> Celebrar </span>
-                                                el <br /> trabajo realizado.
+                                                <span className="fsp-16 f-IntroRustG-Base text-start"> Reflexionar </span>
+                                                sobre nuestro <br /> trabajo en equipo.
                                             </span>
                                         </div>
                                     </div>
@@ -81,7 +81,7 @@ function Page070(props) {
 
                         <div className="d-flex justify-content-center mtp--10 mbp-50 ">
                             <div className="">
-                                <img src={"images/page_" + pagina + "/img_004.jpg"} className="w-100" alt="" />
+                                <img src={"images/page_" + pagina + "/img_003.png"} className="w-100" alt="" />
                             </div>
                         </div>
                         {/* Begin pie de página */}
