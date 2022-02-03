@@ -5033,7 +5033,27 @@
 .min-wp-300 {
   min-width: 300px !important;
 }
-
+.min-wp-400 {
+  min-width: 400px !important;
+}
+.min-wp-410 {
+  min-width: 410px !important;
+}
+.min-wp-420 {
+  min-width: 420px !important;
+}
+.min-wp-430 {
+  min-width: 430px !important;
+}
+.min-wp-440 {
+  min-width: 440px !important;
+}
+.min-wp-450 {
+  min-width: 450px !important;
+}
+.min-wp-500 {
+  min-width: 500px !important;
+}
 /* MAX WIDTH */
 .max-wp-100 {
   max-width: 100px !important;

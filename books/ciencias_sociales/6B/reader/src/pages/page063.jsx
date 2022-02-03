@@ -84,20 +84,80 @@ function Page063(props) {
 
 
 
-          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-30 mbp-60 psp-40 pep-10 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
-                <div className="row">
-                  <div className="col-12">
+                <div className="row  f-Ubuntu-R fsp-15 mbp-20 h-100 ">
+
+                  <div className="col-4 m-0 p-0  d-flex align-items-start     flex-column">
+
+                    <div className="d-flex  justify-content-start align-items-center position-relative">
+                      <div className="w-80 bgc-gohan m-0 pp-5 border-style-solid border-1 border-color-saitama  rounded-p-10  f-Ubuntu-R fsp-15 lh-sm">
+                        ¿Las líneas usadas ayudan a transmitirlo?
+                      </div>
+                      <div className="position-absolute top-50 start-100 translate-middle    msp--3 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/flecha63_01.svg"} className="wp-60" alt="" /></div>
+                    </div>
+
+                    <div className="d-flex  justify-content-start align-items-center position-relative  mt-auto">
+                      <div className="w-80 bgc-naraku m-0 pp-5 border-style-solid border-1 border-color-saitama  rounded-p-10  f-Ubuntu-R fsp-15 lh-sm">
+                        ¿Las líneas usadas ayudan a transmitirlo?
+                      </div>
+                      <div className="position-absolute top-50 start-100 translate-middle    msp--2 mtp--10  zindex-1"><img src={"images/page_" + pagina + "/flecha63_02.svg"} className="wp-60 rotate-180" alt="" /></div>
+                    </div>
 
                   </div>
+
+                  <div className="col-3 m-0 p-0   wp-135 sobre ">
+
+                    <div className="d-flex justify-content-center  align-self-center ">
+
+                      <div className="d-flex hp-130 wp-130 bgc-saitama mtp-10 rounded-circle border-style-solid border-2 border-color-dark rounded-p-50">
+                        <div className="d-flex justify-content-center  alinea  align-items-center f-Ubuntu-R fsp-15 fw-700 color-white lh-sm">
+                          ¿Qué busca <br />transmitir el <br />grupo en <br />la obra?
+                        </div>
+
+                      </div>
+
+                    </div>
+
+
+                  </div>
+
+                  <div className="col-5 m-0 p-0     d-flex align-items-end     flex-column">
+
+                    <div className="d-flex  justify-content-end align-items-center position-relative">
+                      <div className="w-80 bgc-yamcha   m-0 pp-5 border-style-solid border-1 border-color-saitama rounded-p-10  f-Ubuntu-R fsp-15 lh-sm">
+                        ¿Los materiales y las texturas  de la obra ayudan a transmitirlo?
+                      </div>
+                      <div className="position-absolute top-50 start-0 translate-middle   msp-1  mtp--3  zindex-1"><img src={"images/page_" + pagina + "/flecha63_01.svg"} className="wp-60 rota-horizontal " alt="" /></div>
+                    </div>
+
+                    <div className="d-flex  justify-content-end align-items-center mt-auto position-relative">
+                      <div className="w-80 bgc-goro  m-0 pp-5 border-style-solid border-1 border-color-saitama  rounded-p-10  f-Ubuntu-R fsp-15 lh-sm">
+                        ¿Las formas seleccionadas ayudan a transmitirlo?
+                      </div>
+                      <div className="position-absolute top-50 start-0 translate-middle   msp--5 mtp--10  zindex-1"><img src={"images/page_" + pagina + "/flecha63_02.svg"} className="wp-60 rota-vertical " alt="" /></div>
+                    </div>
+                  </div>
+
+
+                  {/* <div className="col-3 w-100 m-0 p-0 bgc-red">
+                    <div className="wp-100 m-0 p-0 border-style-solid border-1 border-color-saitama bgc-info rounded-p-10 ">1</div>
+                  </div>
+                  <div className="col-5 w-100 m-0 p-0 bgc-yellow">
+                    <div className="wp-100 m-0 p-0 border-style-solid border-1 border-color-saitama bgc-info rounded-p-50 ">1</div>
+                  </div>
+                  <div className="col-2 w-100 m-0 p-0 bgc-info">
+                    <div className="wp-100 m-0 p-0 border-style-solid border-1 border-color-saitama bgc-info rounded-p-10 ">1</div>
+                  </div> */}
+
                 </div>
               </div>
             </div>
           </div>
 
 
-          <div className="d-flex mtp-30 msp-90 mep-60 position-relative">
+          <div className="d-flex mtp-30 mbp-50 msp-90 mep-60 position-relative">
 
             <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-40 visible-768 imagen-64-sobre-papel zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60 mtp--20 msp--50" alt="" /></div>
             <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--70 visible-768 imagen-64-sobre-papel zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-70" alt="" /></div>
@@ -122,169 +182,6 @@ function Page063(props) {
 
 
 
-          <div className="d-flex global-margin h-100  mtp-10 mbp-0 psp-30 pep-0 ptp-0 pbp-0">
-            <div className="row p-0 msp-0 w-100">
-              <div className="col-12 p-0 m-0 position-relative">
-
-                <div className="d-flex w-100 p-2">
-                  <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-saitama fsp-17  fw-700 pbp-5">a.</div>
-                  <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Establecemos el lugar físico en el cual deberíamos ubicar nuestro aparato o
-                    sistema para aprovechar la energía.</div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-
-
-
-
-
-          {/* version1 */}
-
-          <div className="msp-70 mep-60 mbp-30">
-            <div className="row   ">
-              <div className="col-6 m-0 p-0 border-style-solid border-2 border-color-voldemort rounded-tbs-10 border-end-0 bgc-buzz">
-                <div className=" w-100  f-Ubuntu-R fsp-16 ptp-5  psp-10 pep-10 text-start mbp-10">
-                  <div className="m-0 p-0  "> El lugar es…</div>
-
-                  <div className="bgc-white ptp-0 m-0 w-100   rounded-p-10">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-6 m-0 p-0  border-style-solid border-2 border-color-voldemort rounded-tbe-10   bgc-white">
-                <div className=" border-start-0 w-100   f-Ubuntu-R fsp-16 ptp-5 pbp-10 psp-10 pep-10 text-start ">
-                  <div className="m-0 p-0 "> Porque…</div>
-                  <div className="bgc-white ptp-0 m-0 w-100  ">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* version2 */}
-
-          {/* <div className="msp-70 mep-60 mbp-30">
-            <div className="row border-style-solid border-2 border-color-voldemort rounded-p-5 bgc-buzz ">
-              <div className="col-6 m-0 p-0 ">
-                <div className=" w-100  f-Ubuntu-R fsp-16 ptp-5  psp-10 pep-10 text-start">
-                  <div className="m-0 p-0 bgc-aqua"> El lugar es…</div>
-
-                  <div className="bgc-white ptp-0 m-0 w-100   rounded-p-10">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-6 m-0 p-0 bgc-white">
-                <div className=" border-start-0 w-100   f-Ubuntu-R fsp-16 ptp-5 pbp-10 psp-10 pep-10 text-start">
-                  <div className="m-0 p-0 "> Porque…</div>
-                  <div className="bgc-white ptp-0 m-0 w-100  ">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
-
-
-
-          <div className="d-flex global-margin h-100  mtp-0 mbp-10 psp-30 pep-0 ptp-0 pbp-0">
-            <div className="row p-0 msp-0 w-100">
-              <div className="col-12 p-0 m-0 position-relative">
-
-                <div className="d-flex w-100 p-2">
-                  <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-saitama fsp-17  fw-700 pbp-5">b.</div>
-                  <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Proponemos un día para llevar a cabo la instalación</div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-          {/* 
-
-<div className="msp-70 mep-60 mbp-200">
-<div className="row h-100 border-style-solid border-2 border-color-voldemort rounded-p-10 w-100  bgc-buzz f-Ubuntu-R fsp-16 ptp-0 pbp-0 psp-0 pep-0 text-start">
-
-<div className="col-6   pbp-10  ">
-
-<div className="m-0 p-0 bgc-aqua">La instalación la deberíamos <br />hacer el día…</div>
-<div className="bgc-white ptp-0 m-0 w-100  ">
-<InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-</div>
-
-</div>
-
-<div className="col-6  pbp-10 border-start  ">
-
-<div className=" p-0 bgc-aqua ">Porque… <br /> </div>
-<div className="bgc-white ptp-0 m-0 mtp-10 w-100  ">
-<InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 mtp-10 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-</div>
-
-</div>
-</div>
-</div>
-*/}
-
-
-
-
-
-          <div className="msp-70 mep-60 mbp-70 ">
-            <div className="row   ">
-              <div className="col-6 m-0 p-0  border-style-solid border-2 border-color-misty rounded-tbs-10 border-end-0 bgc-grieg   ">
-                <div className=" w-100  f-Ubuntu-R fsp-16 ptp-5  psp-10 pep-10 text-start mbp-10">
-                  <div className="m-0 p-0  "> La instalación la deberíamos hacer el día…</div>
-
-                  <div className="bgc-white ptp-0 m-0 w-100 mbp-20 rounded-p-10 ">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-6 m-0 p-0 bgc-white   border-style-solid border-2 border-color-misty rounded-tbe-10 ptp-10  ">
-                <div className=" border-start-0 w-100 mbp-10  f-Ubuntu-R fsp-16 ptp-5 pbp-10 psp-10 pep-10 text-start">
-                  <div className="m-0 p-0 "> Porque…</div>
-                  <div className=" ptp-0 m-0 w-100  ">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-
-
-          {/* <div className="ptp-10 container-titulo-global mbp-30 mtp-30">
-                        <div className="d-flex">
-                        <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_061/img_004.svg" alt="" />
-                        <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
-                            <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                                Llevamos a cabo la elaboración del álbum. Tomo notas del proceso y registro los avances del equipo.
-                            </div>
-                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_061/img_001.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
-                        </div>
-                    </div>
-
-                    <div className="msp-80 mep-60 position-relative  ">
-                        <div className="position-absolute top-0 start-100 translate-middle   zindex-4 visible-768 msp--10 mtp--60 "><img src="images/page_061/img_006.png" className="wp-80 " alt="" /></div>
-                        <div className="position-absolute top-100 start-0 translate-middle   zindex-4 visible-768 msp--30 mtp--20 "><img src="images/page_061/img_007.png" className="wp-50 " alt="" /></div>
-                        <div className="row w-100 mb-10   ">
-                            <div className="cb-ep-paper-61 ">
-                                <div className="cb-ep-paper-content-61 f-Ubuntu-L text-start">
-                                    <div className="mtp-5 ">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div> */}
 
 
 
@@ -293,7 +190,7 @@ function Page063(props) {
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
               ABP &copy; SM
             </div>
-            <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+            <div className="bgc-misty wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
           </div>
           <div className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
             <div className="col-1 col-sm-2 p-0 m-0 position-relative">
@@ -311,12 +208,12 @@ function Page063(props) {
               <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
               <div className="w-100 hp-25 bgc-android18"></div>
             </div>
-            <div className="col-7 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
               <img src="images/rotulo_experimentacion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
               <div className="w-100 hp-25 bgc-pidgey"></div>
             </div>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-7 col-sm-2 p-0 m-0 position-relative">
               <img src="images/rotulo_creacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
               <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
               <div className="w-100 hp-25 bgc-saitama"></div>

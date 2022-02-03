@@ -23,8 +23,8 @@ function Page035(props) {
                     {/* BEGIN CABECERA VERSIÓN 2 */}
                     <div className={"cabecera-v2 d-flex flex-column " + background}>
                         <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-                            <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN 9</div>
-                            <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Hacemos una infografía</div>
+                            <div className={"caja-seccion wp-160 hp-70 text-center fsp-24  f-IntroRustG-Base color-dark"}>SESIÓN 8</div>
+                            <div className="d-flex align-items-start justify-content-start   fsp-24 fw-700 f-Ubuntu-M color-white">Proponemos formas en que la sociedad puede defender sus derechos</div>
                         </div>
                         <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-0 pep-0 align-self-center justify-content-between w-95">
                             <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
@@ -34,43 +34,17 @@ function Page035(props) {
                                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
                             </div>
                             <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                                Seleccionar<br />el tema de la<br />infografía
+                                Analizar la situación <br />edel derecho que investigamos.
+
                             </div>
                             <div className="psp-5 pep-5 align-self-center">
                                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
                             </div>
                             <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                                Organizar las<br />ideas y hacer<br />un boceto
-                            </div>
-                            <div className="p-0 align-self-center">
-                                <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
-                            </div>
-                            <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                                Elaborar la<br />infografía
-                            </div>
-                            <div className="p-0 align-self-center">
-                                <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
-                            </div>
-                            <div className="psp-5 pep-5 ptp-10 pbp-10 position-relative align-self-center f-colby-compres-bold fsp-17 lh-sm text-center color-dark">
-                                <div className="position-absolute top-0 start-0 w-100 h-100">
-                                    <img src="images/cabecera/caja_blanca.png" width="100%" height="100%" alt="" />
-                                </div>
-                                <div className="position-relative">
-                                    Valorar cómo se<br />trabaja en equipo<br />y cómo se puede<br />mejorar
-                                </div>
-                            </div>
-                            <div className="p-0 align-self-center">
-                                <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
+                                Proponer formas en que las personas pueden<br /> defender el derecho que investigamos.
+
                             </div>
 
-                            <div className="psp-5 pep-5 ptp-10 pbp-10 position-relative align-self-center f-colby-compres-bold fsp-17 lh-sm text-center color-dark">
-                                <div className="position-absolute top-0 start-0 w-100 h-100">
-                                    <img src="images/cabecera/caja_blanca.png" width="100%" height="100%" alt="" />
-                                </div>
-                                <div className="position-relative">
-                                    Registrar qué de lo<br />investigado se usará<br />para continuar con<br />el desafío
-                                </div>
-                            </div>
                         </div>
                     </div>
                     {/* END CABECERA VERSIÓN 2 */}
@@ -82,7 +56,7 @@ function Page035(props) {
                                 1
                             </div>
                             <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                                Elaboramos una infografía para comunicar al menos uno de los temas trabajados durante la etapa de investigación.
+                                Completo y comparto con mi grupo.
                             </div>
                             {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
@@ -91,210 +65,77 @@ function Page035(props) {
                         </div>
                     </div>
 
-                    <div className="psp-100 pep-60 ptp-20">
-                        <div className="row w-100">
-                            <div className="col-md-6 position-relative pbp-30 ">
 
-                                <div className="d-flex pbp-20">
-                                    <div className={"f-Ubuntu-B fsp-21 mtp--6 " + color}>
-                                        a.
-                                    </div>
-                                    <div className="f-Ubuntu-R fsp-16 psp-10 pep-10 text-start">
-                                        Seleccionamos el o los temas.
-                                    </div>
-                                </div>
 
-                                <div className="giro--2deg">
-                                    <div className="p-1 bgc-ryu sombra-2 giro-2deg">
-                                        <div className="p-1 bgc-ryu sombra-2 giro--3deg">
-                                            <div className="bgc-white sombra-2 p-3 giro-3deg ">
-                                                <div className="row pbp-20">
 
-                                                    <div className="ptp-10 pbp-10 psp-20">
-                                                        <div className="d-flex">
-                                                            <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                                                                <InputBox
-                                                                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                                    className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                                                                />
-                                                            </div>
-                                                            <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
-                                                                Energía renovable.
-                                                            </div>
-                                                        </div>
+
+
+
+
+
+
+                    <div className="d-flex global-margin mtp-20 mbp-80 psp-0 pep-0 ptp-0 pbp-0">
+                        <div className="row p-0 m-0 w-100">
+                            <div className="col-12 p-0 m-0 position-relative">
+                                <div className="position-absolute top-0 start-100 translate-middle    msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-50 mtp-0" alt="" /></div>
+                                <div className="position-absolute top-0 start-0 translate-middle      msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-30 mtp-280" alt="" /></div>
+                                <div className="position-absolute top-100 start-0 translate-middle    msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-80 mtp-0" alt="" /></div>
+
+                                <div className="w-100 h-100 bgc-hannah rounded-p-10 pbp-15">
+                                    <div className="row m-0 p-2 ">
+
+
+                                        <div className="col-4 d-flex align-items-center ">
+                                            <div className=" f-Ubuntu-R fsp-16 ptp-18 psp-0 pep-0 pbp-0 text-start">El tema que investigué es:</div>
+                                        </div>
+                                        <div className="col-8">
+                                            <div className="bgc-white w-100 rounded-p-10 ps-2 pe-2 ">
+                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                                            </div>
+                                        </div>
+
+
+                                        <div className="col-12 ptp-20">
+                                            <div className="bgc-white w-90  rounded-p-10 p-0 m-0 mbp-10">
+                                                <div className="f-Ubuntu-R fsp-16 ptp-18 pep-10 psp-20 text-start">
+                                                    Después de la investigación, ¿qué pienso sobre la situación en el mundo del derecho que seleccionamos?
+                                                </div>
+                                                <div className="psp-20 pep-20 ptp-0 pbp-15 m-0  w-100 ">
+                                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className="col-12 ptp-40 position-relative">
+                                            <div className="position-absolute top-0 start-100 translate-middle   msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-120 msp--70 mtp-30" alt="" /></div>
+                                            <div className="d-flex justify-content-end">
+
+                                                <div className="bgc-white w-90  rounded-p-10 p-0 m-0 mbp-10  ">
+                                                    <div className="f-Ubuntu-R fsp-16 ptp-18 pep-10 psp-20 text-start">
+                                                        Con mi grupo concluimos lo siguiente:
                                                     </div>
-                                                    <div className="ptp-10 pbp-10 psp-20">
-                                                        <div className="d-flex">
-                                                            <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                                                                <InputBox
-                                                                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                                    className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                                                                />
-                                                            </div>
-                                                            <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
-                                                                Energía no renovable.
-                                                            </div>
-                                                        </div>
+                                                    <div className="psp-20 pep-20 ptp-0 pbp-15 m-0  w-100 ">
+                                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
                                                     </div>
-                                                    <div className="ptp-10 pbp-10 psp-20">
-                                                        <div className="d-flex">
-                                                            <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                                                                <InputBox
-                                                                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                                    className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                                                                />
-                                                            </div>
-                                                            <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
-                                                                Sostenibilidad.
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="ptp-10 pbp-10 psp-20">
-                                                        <div className="d-flex">
-                                                            <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                                                                <InputBox
-                                                                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                                    className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                                                                />
-                                                            </div>
-                                                            <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
-                                                                Huella ecológica.
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="ptp-10 pbp-10 psp-20">
-                                                        <div className="d-flex">
-                                                            <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                                                                <InputBox
-                                                                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                                    className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                                                                />
-                                                            </div>
-                                                            <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
-                                                                Soluciones energéticas.
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="ptp-10 pbp-10 psp-20">
-                                                        <div className="d-flex">
-                                                            <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                                                                <InputBox
-                                                                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                                    className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                                                                />
-                                                            </div>
-                                                            <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
-                                                                Aparatos tecnológicos.
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="ptp-10 pbp-10 psp-20">
-                                                        <div className="d-flex">
-                                                            <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                                                                <InputBox
-                                                                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                                    className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                                                                />
-                                                            </div>
-                                                            <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
-                                                                Sistemas tecnológicos.
-                                                            </div>
-                                                        </div>
-                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="position-absolute top-50 start-0 translate-middle msp--20 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-80" alt="" /></div>
-                            </div>
-                            <div className="col-md-6 position-relative pbp-20">
-                                <div className="d-flex psp-20 pbp-20">
-                                    <div className={"f-Ubuntu-B fsp-21 mtp--6 " + color}>
-                                        b.
-                                    </div>
-                                    <div className="f-Ubuntu-R fsp-16 psp-10 pep-10 text-start">
-                                        Identificamos el objetivo de la infografía.
-                                    </div>
-                                </div>
-                                <div className="d-flex psp-30 pbp-20">
-                                    <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                                        <InputBox
-                                            id={"p" + pagina + "_input" + (indexInput += 1)}
-                                            className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                                        />
-                                    </div>
-                                    <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
-                                        Pegarla en la sala.
-                                    </div>
-                                </div>
-                                <div className="d-flex psp-30 pbp-20">
-                                    <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                                        <InputBox
-                                            id={"p" + pagina + "_input" + (indexInput += 1)}
-                                            className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                                        />
-                                    </div>
-                                    <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
-                                        Utilizarla en la difusión.
-                                    </div>
-                                </div>
 
-                                <div className="d-flex psp-30 pbp-10">
-                                    <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark position-relative">
-                                        <InputBox
-                                            id={"p" + pagina + "_input" + (indexInput += 1)}
-                                            className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                                        />
-
-                                    </div>
-                                    <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
-                                        Otro:
-                                    </div>
-                                </div>
-                                <div className="w-100 psp-30 pep-30">
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-                                </div>
-                                <div className="bottom-0 start-50 translate-middle msp-150 mtp-80 visible-768 absolute-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-100" alt="" /></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="psp-60 pep-60">
-                        <div className="d-flex psp-20 pbp-20">
-                            <div className={"f-Ubuntu-B fsp-21 mtp--6 " + color}>
-                                c.
-                            </div>
-                            <div className="f-Ubuntu-R fsp-16 psp-10 pep-10 text-start">
-                                Nos organizamos para elaborar la infografía.
                             </div>
                         </div>
                     </div>
 
-                    <div className="psp-60 pep-60 ">
-                        <div className="w-100 bgc-tshinhan rounded-p-20 position-relative">
-                            <div className="w-100 row psp-30 pep-20 pbp-20">
-                                <div className="col-md-6 col-12 position-relative ptp-60">
-                                    <div className="bgc-white rounded-p-5 pep-10">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
-                                        <div className="position-absolute top-0 start-50 msp--50 mtp-28 bgc-bulma psp-20 pep-20 ptp-5 pbp-2 rounded-set-10">
-                                            <div className="f-Ubuntu-B color-white">Tareas</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-md-6 col-12 position-relative ptp-60">
-                                    <div className="bgc-white rounded-p-5 psp-10">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
-                                        <div className="position-absolute top-0 start-50 msp--90 mtp-28 bgc-bulma psp-20 pep-20 ptp-5 pbp-2 rounded-set-10">
-                                            <div className="f-Ubuntu-B color-white">¿Quién se encarga?</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-100" alt="" /></div>
-                        </div>
-                    </div>
 
-                    <div className="pbp-100"></div>
+
+
+
+
+
+
+
 
 
 
