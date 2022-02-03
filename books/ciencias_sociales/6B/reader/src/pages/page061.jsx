@@ -152,8 +152,25 @@ function Page061(props) {
                                             <div className="position-absolute top-0 start-50 translate-middle bgc-haydn mtp-5  w-50 f-Ubuntu-B text-center color-white fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5"> Responsable </div>
                                             <div className="w-100  p-1 m-2 border-style-solid border-1 border-color-haydn rounded-p-10  lh-sm text-start p-2 position-relative">
 
-                                                <div className="position-absolute posicion-centro-centro translate-middle zindex-1"><img src={"images/page_061/espiral.svg"} className="wp-55 msp--25  mtp-0 rotacion-centro-centro" alt="" /></div>
-                                                <div className="position-absolute top-0 start-100 translate-middle zindex-1"><img src={"images/page_061/img_004.png"} className="wp-60 msp-10  mtp--25 rotacion-centro-centro" alt="" /></div>
+                                                <div className="position-absolute top-50 start-0 translate-middle  msp--12 mtp-0   zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-50" alt="" /></div>
+
+                                                <div className="position-absolute top-0 start-100 translate-middle  msp-10 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-60" alt="" /></div>
+                                                <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+
+                                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+
+                                                </div>
+
+                                                {/* <div className="position-absolute top-100 start-100 translate-middle   msp-20 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-70" alt="" /></div> */}
+                                                {/* <div className="position-absolute top-0 start-0  zindex-1 mtp--15"><img class=" hp-45" src="images/page_060/img_001.png" alt="" /></div> */}
+                                                {/* <div className="position-absolute top-100 start-0 translate-middle  zindex-1 mtp-10"><img class=" hp-60" src="images/page_060/img_003.png" alt="" /></div> */}
+                                            </div>
+                                        </div>
+
+                                        <div className="mtp-20  position-relative">
+                                            <div className="position-absolute top-0 start-50 translate-middle bgc-haydn mtp--10  w-50 hp-20 f-Ubuntu-B text-center color-white fsp-15   psp-10 pep-10 ptp-5 pbp-5">   </div>
+                                            <div className="w-100  p-1 m-2 border-style-solid border-1 border-color-haydn rounded-p-10  lh-sm text-start p-2 position-relative">
+                                                <div className="position-absolute top-50 start-0 translate-middle  msp--12 mtp-0   zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-50" alt="" /></div>
 
                                                 <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
 
@@ -170,7 +187,9 @@ function Page061(props) {
                                         <div className="mtp-20  position-relative">
                                             <div className="position-absolute top-0 start-50 translate-middle bgc-haydn mtp--10  w-50 hp-20 f-Ubuntu-B text-center color-white fsp-15   psp-10 pep-10 ptp-5 pbp-5">   </div>
                                             <div className="w-100  p-1 m-2 border-style-solid border-1 border-color-haydn rounded-p-10  lh-sm text-start p-2 position-relative">
-                                                <div className="position-absolute posicion-centro-centro translate-middle zindex-1"><img src={"images/page_061/espiral.svg"} className="wp-55 msp--25  mtp-0 rotacion-centro-centro" alt="" /></div>
+
+                                                <div className="position-absolute top-100 start-0 translate-middle   zindex-1"><img src={"images/page_061/img_006.png"} className="wp-70 msp--25  mtp-50  " alt="" /></div>
+                                                <div className="position-absolute top-50 start-0 translate-middle  msp--12 mtp-0   zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-50" alt="" /></div>
 
                                                 <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
 
@@ -187,26 +206,7 @@ function Page061(props) {
                                         <div className="mtp-20  position-relative">
                                             <div className="position-absolute top-0 start-50 translate-middle bgc-haydn mtp--10  w-50 hp-20 f-Ubuntu-B text-center color-white fsp-15   psp-10 pep-10 ptp-5 pbp-5">   </div>
                                             <div className="w-100  p-1 m-2 border-style-solid border-1 border-color-haydn rounded-p-10  lh-sm text-start p-2 position-relative">
-
-                                                <div className="position-absolute top-100 start-0 translate-middle   zindex-1"><img src={"images/page_061/img_006.png"} className="wp-70 msp--25  mtp-50 rotacion-centro-centro" alt="" /></div>
-                                                <div className="position-absolute posicion-centro-centro translate-middle zindex-1"><img src={"images/page_061/espiral.svg"} className="wp-55 msp--25  mtp-0 rotacion-centro-centro" alt="" /></div>
-
-                                                <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
-
-                                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-
-                                                </div>
-
-                                                {/* <div className="position-absolute top-100 start-100 translate-middle   msp-20 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-70" alt="" /></div> */}
-                                                {/* <div className="position-absolute top-0 start-0  zindex-1 mtp--15"><img class=" hp-45" src="images/page_060/img_001.png" alt="" /></div> */}
-                                                {/* <div className="position-absolute top-100 start-0 translate-middle  zindex-1 mtp-10"><img class=" hp-60" src="images/page_060/img_003.png" alt="" /></div> */}
-                                            </div>
-                                        </div>
-
-                                        <div className="mtp-20  position-relative">
-                                            <div className="position-absolute top-0 start-50 translate-middle bgc-haydn mtp--10  w-50 hp-20 f-Ubuntu-B text-center color-white fsp-15   psp-10 pep-10 ptp-5 pbp-5">   </div>
-                                            <div className="w-100  p-1 m-2 border-style-solid border-1 border-color-haydn rounded-p-10  lh-sm text-start p-2 position-relative">
-                                                <div className="position-absolute posicion-centro-centro translate-middle zindex-1"><img src={"images/page_061/espiral.svg"} className="wp-55 msp--25  mtp-0 rotacion-centro-centro" alt="" /></div>
+                                                <div className="position-absolute top-50 start-0 translate-middle  msp--12 mtp-0   zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-50" alt="" /></div>
 
                                                 <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
 
@@ -278,12 +278,12 @@ function Page061(props) {
                             <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-android18"></div>
                         </div>
-                        <div className="col-7 col-sm-2 p-0 m-0 position-relative">
+                        <div className="col-1 col-sm-2 p-0 m-0 position-relative">
                             <img src="images/rotulo_experimentacion.svg" className="oculto" alt="" />
                             <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-pidgey"></div>
                         </div>
-                        <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+                        <div className="col-7 col-sm-2 p-0 m-0 position-relative">
                             <img src="images/rotulo_creacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
                             <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-saitama"></div>
