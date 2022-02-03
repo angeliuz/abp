@@ -1,3 +1,32 @@
-.mxwp-a {
-    width: 300px;
+.mxwp-550 {
+    width: 550px;
+}
+
+.mnwp-20 {
+    min-width: 20px;
+}
+
+.caja1-p40 {
+    min-width: 160px;
+    min-height: 80px;
+}
+
+.caja2-p40 {
+    width: 530px;
+}
+
+.bgc-verde1 {
+    background-color: #afca0b;
+}
+
+.bgc-verde2 {
+    background-color: #bcce4a;
+}
+
+.bgc-verde3 {
+    background-color: #c3d458;
+}
+
+.bgc-verde4 {
+    background-color: #cbd969;
 }
