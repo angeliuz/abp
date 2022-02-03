@@ -1,0 +1,64 @@
+.cb-ep-paper-63 {
+
+  position: relative;
+  width: calc(100% - 100px);
+  margin: 50px auto 46px;
+  /*max-width: 600px;*/
+}
+
+
+.cb-ep-paper-content-63 {
+  position: relative;
+  z-index: 3;
+  background: #fefcfb;
+  padding: 20px 40px;
+  font-size: 16px;
+}
+
+/* .cb-ep-paper-sign {
+  margin-top: 30px;
+  text-align: right;
+} */
+
+.cb-ep-paper-63::before,
+.cb-ep-paper-63::after {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: #f1eee0;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
+  left: 0;
+  top: 0;
+}
+
+.cb-ep-paper-63::before {
+z-index: 2;
+transform: rotate(-2deg);
+}
+
+.cb-ep-paper-63::after {
+z-index: 1;
+transform: rotate(2deg);
+}
+
+
+
+.alinea {
+  margin: 0 auto;
+  }
+  
+
+  .sobre{
+z-index: 2!important;
+  }
+
+  .rota-vertical {
+    transform: scaleY(-1);
+    -moz-transform: scaleY(-1); /* Firefox */
+    -webkit-transform: scaleY(-1); /* Chrome - Safari */
+    -o-transform: scaleY(-1); /* Opera */
+  }
+  .rota-horizontal{
+    transform: scaleX(-1);
+}

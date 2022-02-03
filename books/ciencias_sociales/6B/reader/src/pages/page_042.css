@@ -1,0 +1,34 @@
+.mep--10 {
+    margin-right: -10px;
+}
+
+.mxwp-b {
+    max-width: 250px;
+}
+
+.min-hp-1p42 {
+    min-height: 800px;
+}
+
+.min-hp-2p42 {
+    min-height: 720px;
+}
+
+.posicion-cuadro2-p42 {
+    margin-left: -10px;
+}
+
+@media all and (max-width: 767px) {
+    .min-hp-1p42 {
+        min-height: 400px;
+    }
+
+    .min-hp-2p42 {
+        min-height: 400px;
+    }
+
+    .posicion-cuadro2-p42 {
+        margin-left: 0px;
+        padding-top: 30px;
+    }
+}

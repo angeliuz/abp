@@ -1,0 +1,203 @@
+.cb-page10 {
+    background: url(images/page_010/fondo_001.svg) top center/cover no-repeat;
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-print-color-adjust: exact !important;
+  }
+  .cb-titulo-aceptamos {
+    max-width: 500px;
+    border-top: 1px solid var(--dark);
+    border-bottom: 1px solid var(--dark);
+}
+  .cb-outline-p10{
+    outline: solid 3px #fdeeeb;
+    outline-offset: -4px;
+  }
+  .cb-inicio{
+    height: 250px; 
+    margin-bottom: 60px;
+ }
+ .cb-block-superior {
+  max-width: 160px;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  width: calc(100% - 30px);
+
+}
+  .cb-bloque-0 {
+    max-width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    left: 3px;
+    top: -14px;
+    width: 100%;
+}
+
+.cb-bloque-4 {
+    max-width: 180px;
+    border-radius: 10px;
+    position: absolute;
+    left: -210px;
+    top: -54px;
+}
+.cb-bloque-4::after{
+  content: "";
+  position: absolute;
+  width: 64px;
+  height: 1px;
+  bottom: 4px;
+  transform: rotate(20deg);
+  background-color: var(--dark);
+  right: -62px;
+}
+.cb-bloque-5 {
+    max-width: 172px;
+    border-radius: 10px;
+    position: absolute;
+    left: -209px;
+    bottom: -104px;
+    width: 100%;
+}
+.cb-bloque-5::after{
+  content: "";
+  position: absolute;
+  width: 71px;
+  height: 1px;
+  bottom: 67px;
+  transform: rotate(160deg);
+  background-color: var(--dark);
+  right: -70px;
+}
+.cb-bloque-6 {
+    max-width: 190px;
+    border-radius: 10px;
+    position: absolute;
+    right: -120px;
+    bottom: -104px;
+}
+.cb-bloque-6::after{
+  content: "";
+  position: absolute;
+  width: 84px;
+  height: 1px;
+  bottom: 57px;
+  transform: rotate(30deg);
+  background-color: var(--dark);
+  right: 45px;
+}
+.cb-bloque-3 {
+  max-width: 190px;
+  border-radius: 10px;
+  position: absolute;
+  right: -210px;
+  top: -54px;
+}
+.cb-bloque-3::after{
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 1px;
+  bottom: 36px;
+  transform: rotate(-40deg);
+  background-color: var(--dark);
+  right: 185px;
+}
+@media all and (max-width: 680px) {
+
+  .cb-inicio{
+      height: auto;
+      position: unset;
+      left: unset;
+      top: unset;
+      right:unset;
+      bottom: unset;
+      margin-bottom: 10px;
+   }
+   .cb-bloque-0 {
+      position: relative;
+      left: unset;
+      top: unset;
+      right:unset;
+      bottom: unset;
+      margin: 0 auto 15px auto;
+      width: 100%;
+      max-width: 400px;
+  }
+  .cb-bloque-3 {
+    position: relative;
+    left: unset;
+    top: unset;
+    right:unset;
+    bottom: unset;
+    margin: 0 auto 15px auto;
+    width: 100%;
+    max-width: 400px;
+}
+  .cb-bloque-4 {
+      position: relative;
+      left: unset;
+      top: unset;
+      right:unset;
+      bottom: unset;
+      margin: 0 auto 15px auto;
+      width: 100%;
+      max-width: 400px;
+  }
+  .cb-bloque-5 {
+      position: relative;
+      left: unset;
+      top: unset;
+      right:unset;
+      bottom: unset;
+      margin: 0 auto 15px auto;
+      width: 100%;
+      max-width: 400px;
+  }
+  .cb-bloque-6 {
+      position: relative;
+      left: unset;
+      top: unset;
+      right:unset;
+      bottom: unset;
+      margin: 0 auto 15px auto;
+      width: 100%;
+      max-width: 400px;
+  }
+  .cb-block-superior {
+      max-width: 100%;
+  }
+  .cb-bloque-0::after{
+      right: calc(50% - 6px);
+      transform: rotate(90deg);
+      bottom: -10px;
+      width: 16px;
+  }
+  .cb-bloque-3::after{
+    right: calc(50% - 6px);
+    transform: rotate(90deg);
+    top: -10px;
+    width: 16px;
+}
+  .cb-bloque-4::after{
+      right: calc(50% - 6px);
+      transform: rotate(90deg);
+      top: -10px;
+      width: 16px;
+  }
+  .cb-bloque-5::after{
+      right: calc(50% - 6px);
+      transform: rotate(90deg);
+      top: -10px;
+      width: 16px;
+  }
+  .cb-bloque-6::after{
+      right: calc(50% - 6px);
+      transform: rotate(90deg);
+      top: -10px;
+      width: 16px;
+  }
+
+
+}

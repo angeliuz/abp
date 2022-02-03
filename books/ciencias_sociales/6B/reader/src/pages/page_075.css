@@ -1,0 +1,17 @@
+.cb-contenedor{
+ display: flex;
+  width: calc(100% - 30px);
+}
+.cb-caja{
+  width: calc(100% - 120px);
+}
+
+
+@media (max-width: 660px) {
+
+  .cb-contenedor{
+    display: inline;
+  }
+   
+
+}

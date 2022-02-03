@@ -1,0 +1,24 @@
+.ovalo-p19 {
+    width: 280px;
+    height: 140px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.cuadrado-p19 {
+    min-width: 30px;
+    min-height: 30px;
+}
+
+.giro-4deg {
+    transform: rotate(4deg);
+}
+
+.giro-2deg {
+    transform: rotate(2deg);
+}
+
+.giro--2deg {
+    transform: rotate(-2deg);
+}

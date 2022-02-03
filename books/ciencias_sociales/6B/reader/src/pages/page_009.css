@@ -1,0 +1,10 @@
+.cb-page09 {
+    background: url(images/page_009/fondo_001.svg) top center/cover no-repeat;
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-print-color-adjust: exact !important;
+  }
+  .cb-outline-p9{
+    outline: solid 3px #eae480;
+    outline-offset: -4px;
+  }

@@ -1,0 +1,18 @@
+.mnwp-400 {
+    min-width: 400px;
+}
+
+.mtp-27 {
+    margin-top: 27px;
+}
+
+.mtp--1 {
+    margin-top: -1px;
+}
+
+.cuadrado-p14 {
+    min-width: 35px;
+    min-height: 35px;
+    max-width: 35px;
+    max-height: 35px;
+}
