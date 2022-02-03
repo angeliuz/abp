@@ -39,8 +39,9 @@ function Page032(props) {
                             {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
                         </div>
                     </div>
-                    <div className="psp-60 pep-60 ptp-20 pbp-20">
+                    <div className="psp-60 pep-60 ptp-20 pbp-90">
                         <div className="border-style-solid border-3 border-color-lightDark p-2 position-relative box-shadow-simple rounded-p-10 ">
+                        <div className="position-absolute top-0 start-100 translate-middle zindex-1 msp--40"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-50" alt="" /></div>
                             <div className=" ptp-10 psp-10 pep-10">
                                 <div className="f-Ubuntu-L fep-20 mtp-5 text-start">¿Cuál es la situación de</div>
                                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-25" />
@@ -60,20 +61,19 @@ function Page032(props) {
                             </div>
 
 
-                            <div className="position-absolute top-0 start-100 translate-middle zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-" alt="" /></div>
+                            
                         </div>
                     </div>
 
                     <div className="d-flex global-margin mtp-30 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
 
 
-                        <div className="row p-0 m-0 w-100 bgc-baki rounded-p-10">
+                        <div className="row p-0 m-0 w-100 bgc-baki rounded-p-10 position-relative">
                             <div className="container-titulo-global mbp-0 mbp-20">
                                 <div className="d-flex psp-20">
-                                    {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
-                                    {/* <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                                        6
-                                    </div> */}
+                                <div className="position-absolute top-0 start-100 translate-middle zindex-1 msp--50 mtp--45"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-90" alt="" /></div>
+                                <div className="position-absolute top-0 start-0 translate-middle zindex-1 msp-10 mtp--10"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-" alt="" /></div>
+                                <div className="position-absolute top-50 start-100 translate-middle zindex-1 msp--20 mtp-30"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-" alt="" /></div>
                                     <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                                         Marcamos con un <img src={"images/page_" + pagina + "/img_006.svg"} className="wp-15 pbp-5" alt="" /> tres temas específicos para orientar nuestra investigación.
                                         Además, en la lista se encuentra indicado un tema obligatorio.
@@ -128,7 +128,7 @@ function Page032(props) {
 
                                 <div className=" w-100 ">
 
-                                    <div className=" p-1 border-style-solid border-2 border-color-jugador001 rounded-p-10  lh-sm text-start p-2 position-relative bgc-jugador001">
+                                    <div className=" min-hp-120 p-1 border-style-solid border-2 border-color-jugador001 rounded-p-10  lh-sm text-start p-2 position-relative bgc-jugador001">
                                         <div className="w-100  p-1 ">
 
 
@@ -169,7 +169,7 @@ function Page032(props) {
 
                                 <div className=" w-100 ">
 
-                                    <div className=" p-1 border-style-solid border-2 border-color-jugador001 rounded-p-10  lh-sm text-start p-2 position-relative bgc-jugador001">
+                                    <div className="min-hp-120 p-1 border-style-solid border-2 border-color-jugador001 rounded-p-10  lh-sm text-start p-2 position-relative bgc-jugador001">
                                         <div className="w-100  p-1 ">
 
 
@@ -211,7 +211,7 @@ function Page032(props) {
 
                                 <div className=" w-100 ">
 
-                                    <div className=" p-1 border-style-solid border-2 border-color-jugador001 rounded-p-10  lh-sm text-start p-2 position-relative bgc-jugador001">
+                                    <div className=" min-hp-140 p-1 border-style-solid border-2 border-color-jugador001 rounded-p-10  lh-sm text-start p-2 position-relative bgc-jugador001">
                                         <div className="w-100  p-1 ">
 
 
