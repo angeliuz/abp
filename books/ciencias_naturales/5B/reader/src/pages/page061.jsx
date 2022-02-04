@@ -107,7 +107,7 @@ function Page061(props) {
                     </div>
                   </div>
                   <div className="col-6 p-3">
-                    <div className="text-start">El objetivo de la campaña es...</div>
+                    <div className="text-start">Las ideas que queremos transmitir son....</div>
                     <div className="w-100 p-2 mtp-3 bgc-white border-style-solid border-1 rounded-p-10 border-color-obiwan sombra">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                     </div>

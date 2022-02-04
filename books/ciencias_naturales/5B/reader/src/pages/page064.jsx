@@ -1,11 +1,11 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
-import "./page_063.css";
+import "./page_064.css";
 
-function Page063(props) {
+function Page064(props) {
 
-    const pagina = "063";
+    const pagina = "064";
     var indexInput = 0;
     const etapa = "5"
     const background = "bgc-saitama";
@@ -34,10 +34,10 @@ xxx
                         <div className="d-flex psp-20">
                             {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
                             <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                                3
+                                4
                             </div>
                             <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                                Veo los consejos de la revista y escribo mis ideas con textos creativos para la campaña que dará a conocer nuestra propuesta de alimentación saludable.
+                                Juntamos las creaciones de todo el equipo.
                             </div>
                             {/* <img src={"images/page_"+pagina+"/img_00.svg"} className="wp-100" alt=""/> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
@@ -49,25 +49,39 @@ xxx
 
 
 
+                    <div className="ptp-10 psp-100 pep-80 mbp-30 position-relative">
+                        <div className="row justify-content-center  mbp-80">
+
+                            <div className="col-12 pe-1 ps-1 pb-1 pt-0 m-0 position-relative">
+                                <div className="position-absolute top-100 start-0 translate-middle    msp-100 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="hp-40" alt="" /></div>
+                                <div className="position-absolute top-100 start-100 translate-middle  msp--100 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="hp-40" alt="" /></div>
+                                <div className="position-absolute top-0 start-100 translate-middle    msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="hp-60" alt="" /></div>
 
 
-                    <div className="d-flex psp-60 pep-60 mtp-20 mbp-0">
-                        <div className="row w-100 p-0 m-0">
-                            <div className="col-12 p-0 m-0 position-relative">
-                                {/* <div className="position-absolute top-0 start-100 translate-middle  zindex-1 mep-0 msp--0  mtp-70"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-60" alt="" /></div> */}
-                                <div className="position-absolute top-100 start-100 translate-middle  zindex-1 msp--50 mtp--60"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-190" alt="" /></div>
-                                {/* <div className="position-absolute top-50 start-100 translate-middle  zindex-1 mep-25 mtp-0"><img src={"images/page_" + pagina + "/img_003.png"} className="hp-80" alt="" /></div> */}
-                                {/* <div className="position-absolute top-100 start-0 translate-middle   zindex-1 msp-20 mtp--40"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-130" alt="" /></div> */}
-                                <div className="d-flex border-style-solid border-2 border-color-dark rounded-p-10 min-hp-700">
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-35 min-hp-600" />
+                                <div className="rounded-p-10 bgc-white border-style-solid border-color-arlo border-2">
+                                    <div className="f-Ubuntu-B fsp-14 p-1 bgc-arlo rounded-set-10 text-white lh-sm min-hp-45 d-flex align-items-center justify-content-center">Me gusta mucho como quedó...</div>
+                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-230 mep-10 msp-10" />
                                 </div>
                             </div>
+                            <div className="col-12 pe-1 ps-1 pb-1 pt-0 m-0 position-relative">
+                                <div className="position-absolute top-100 start-0 translate-middle    msp-100 mtp-0  s zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="hp-40" alt="" /></div>
+                                <div className="position-absolute top-100 start-100 translate-middle  msp--100 mtp-0  s zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="hp-40" alt="" /></div>
+                                <div className="position-absolute top-50 start-0 translate-middle     msp--20 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="hp-40" alt="" /></div>
+                                <div className="rounded-p-10 bgc-white border-style-solid border-color-saitama border-2">
+                                    <div className="f-Ubuntu-B fsp-14 p-1 bgc-saitama rounded-set-10 text-white lh-sm min-hp-45 d-flex align-items-center justify-content-center">Entre todos vamos a mejorar...</div>
+                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230 mep-10 msp-10" />
+                                </div>
+                            </div>
+                            <div className="col-12 p-1 m-0 position-relative">
 
+                                <div className="position-absolute top-100 start-100 translate-middle     msp-10 mtp--50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="hp-50" alt="" /></div>
+                                <div className="rounded-p-10 bgc-white border-style-solid border-color-akuma border-2">
+                                    <div className="f-Ubuntu-B fsp-14 p-1 bgc-akuma rounded-set-10 text-white lh-sm min-hp-45 d-flex align-items-center justify-content-center">Creo que nuestra campaña va a gustar porque...</div>
+                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230 mep-10 msp-10" />
+                                </div>
+                            </div>
                         </div>
-
                     </div>
-
-
 
 
 
@@ -124,4 +138,4 @@ xxx
     );
 }
 
-export default Page063;
+export default Page064;
