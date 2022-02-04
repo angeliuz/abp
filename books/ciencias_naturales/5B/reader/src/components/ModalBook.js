@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import Modal from 'react-bootstrap/Modal'
 import CloseButton from 'react-bootstrap/CloseButton'
@@ -7,7 +7,7 @@ import { doc, getDoc, setDoc } from "firebase/firestore";
 import db from "../firebase/firebaseConfig";
 
 function ModalVideo(props) {
-  
+
   const dokenArray = getUrlParameter("doken").split([',']);
   //console.log(dokenArray[1]);
 
@@ -48,20 +48,19 @@ function ModalVideo(props) {
         <img src={image} className={clasesImagen} alt="" onClick={handleShow} />
       </div>
 
-      <Modal 
-        show={show} 
-        onHide={handleClose} 
+      <Modal
+        show={show}
+        onHide={handleClose}
         size="lg"
         fullscreen={fullscreen}
         aria-labelledby="contained-modal-title-vcenter"
-        >
+      >
         <Modal.Header className="color-white boton-close-white video-bgc">
           <Modal.Title id="contained-modal-title-vcenter" className="f-Ubuntu-M fsp-20 color-white">Pagina</Modal.Title>
           <CloseButton variant="white" onClick={handleClose} />
         </Modal.Header>
         <Modal.Body className="d-flex justify-content-center align-items-center video-bgc">
-          Book
-          {/* <iframe title={id} src={linkVideo} width="100%" height="100%" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe> */}
+          <iframe title={id} src={"https://www.smconecta.cl/plataforma/viewers/1896?pagina=80"} width="100%" height="100%" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
         </Modal.Body>
       </Modal>
     </>
