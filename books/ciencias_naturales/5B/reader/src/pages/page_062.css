@@ -1,0 +1,33 @@
+.elipse { 
+    height: 120px !important; 
+    width: 200px !important; 
+    border-radius: 50%; 
+  } 
+
+
+  .alinea {
+    margin: 0 auto;
+    }
+
+
+    .rota-vertical {
+        transform: scaleY(-1);
+        -moz-transform: scaleY(-1); /* Firefox */
+        -webkit-transform: scaleY(-1); /* Chrome - Safari */
+        -o-transform: scaleY(-1); /* Opera */
+      }
+      .rota-horizontal{
+        transform: scaleX(-1);
+    }
+       
+    .rotar {
+        transform: rotate(90deg);
+        margin: 10px;
+        width: 20px;
+      }
+
+      .elipse { 
+        height: 120px !important; 
+        width: 200px !important; 
+        border-radius: 50%; 
+      } 
