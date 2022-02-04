@@ -25,70 +25,49 @@ function Page073(props) {
                     <div className="msp-60 mep-60 mtp-20 mbp-10">
                         <div className="row p-0 m-0">
                             <div className="col-sm-12 col-md-3 position-relative"></div>
-                            <div className="container-titulo-global mbp-0 mbp-20">
+                            <div className="container-titulo-global mbp-20">
                                 <div className="d-flex psp-20">
                                     {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
                                     <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                                         3
                                     </div>
                                     <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                                        Acuerdo con mi grupo aspectos finales para la exposición.
+                                        Llevamos a cabo la campaña para dar a conocer nuestra propuesta de alimentación saludable. Tomamos fotografías y registramos la que más nos gustó
                                     </div>
                                     {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                                     {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
                                     {/*<ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />*/}
                                 </div>
                             </div>
-                            <div className="bgc-dan rounded-p-10 ptp-20">
-                                {/* BEGIN EJERCICIO 1 */}
-                                <div className="max-wp-700 mx-auto bgc-white mbp-20 rounded-p-10 cb-outline-p74 position-relative">
-                                    <div className="position-absolute top-100 start-0 translate-middle msp-20 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-80" alt="" /></div>
-                                    <div className="position-absolute top-0 start-100 translate-middle msp-20 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-80" alt="" /></div>
-                                    <div className="rounded-set-6 hp-40 pep-20 psp-20 ptp-5 pbp-5 d-flex justify-content-center align-items-center f-Ubuntu-R fsp-14 ptp-15">
-                                        ¿Qué tenemos listo para la exposición?
-                                    </div>
-                                    <div className="psp-15 pep-15">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
-                                    </div>
-                                </div>
-                                {/* BEGIN EJERCICIO 2 */}
-                                <div className="row mx-auto d-flex f-Ubuntu-R fsp-15 mbp-20">
-                                    <div className="col-sm-12 col-md-6 rounded-p-10 position-relative">
-                                        <div className="position-absolute top-100 start-0 translate-middle msp--0 mtp--30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-50" alt="" /></div>
-                                        <div className="text-start w-100 rounded-p-10  mtp-10 bgc-white cb-outline-p74">
-                                            <div className="rounded-set-6 hp-40 pep-20 psp-20 ptp-5 pbp-5 ptp-15 f-Ubuntu-R fsp-14">
-                                                ¿Qué nos falta preparar?
-                                            </div>
-                                            <div className="psp-15 pep-15">
-                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-sm-12 col-md-6 rounded-p-10 position-relative">
-                                        <div className="position-absolute top-100 start-100 translate-middle msp--0 mtp--70 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-120" alt="" /></div>
-                                        <div className="text-start w-100 rounded-p-10 mtp-10 bgc-white cb-outline-p74">
-                                            <div className="rounded-set-6 hp-40 ptp-15 pbp-5 psp-10 f-Ubuntu-R fsp-14 ">
-                                                ¿De qué otra manera podemos cooperar con el curso para que la exposición tenga éxito?
-                                            </div>
-                                            <div className="psp-15 pep-15">
-                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div className="col-12 border-1 border-style-solid border-color-lightDark mbp-30 position-relative ">
+                                <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-20 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-50" alt="" /></div>
+                                <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-70" alt="" /></div>
+                                <div className="position-absolute top-0 start-0 translate-middle msp-0 mtp-150 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-25" alt="" /></div>
+                                <div className="psp-15 pep-15">
+                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-310" />
                                 </div>
                             </div>
-                            <div className="position-relative mtp-30">
-                                <div className="psp-30 pep-10 ptp-10 pbp-20 max-wp-400 top-100 start-50 translate-middle msp-0 mtp-50 d-flex bgc-marcianos position-absolute border-1 border-style-solid border-color-dark">
+                            <div className="container-titulo-global mbp-10">
+                                <div className="d-flex psp-20">
+                                    {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
                                     <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                                         4
                                     </div>
                                     <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                                        Con mi grupo preparamos los últimos detalles y realizamos <br /> la exposición.
+                                        Explico cómo me sentí en la difusión de la campaña de alimentación saludable.
                                     </div>
+                                    {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+                                    {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
+                                    {/*<ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />*/}
                                 </div>
                             </div>
-
-
+                            <div className="col-12 border-1 border-style-solid border-color-lightDark mtp-20 rounded-p-10 position-relative">
+                                <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-70" alt="" /></div>
+                                <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-50" alt="" /></div>
+                                <div className="psp-15 pep-15">
+                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-310" />
+                                </div>
+                            </div>
                         </div>
                     </div>
 
