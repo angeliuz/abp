@@ -8,12 +8,12 @@ function Page048(props) {
 
   const pagina = "048";
   var indexInput = 0;
-  const etapa = "5"
-  const background = "bgc-saitama";
-  const color = "color-saitama";
-  const borderColor = "border-color-saitama"
-  const borderColorTabla = "border-color-bobafett"
-  const bgc_cajas = "bgc-bobafett";
+  const etapa = "4"
+  const background = "bgc-pidgey";
+  const color = "color-pidgey";
+  const borderColor = "border-color-pidgey"
+  const borderColorTabla = "border-color-pantro"
+  const bgc_cajas = "bgc-pantro";
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
@@ -22,105 +22,73 @@ function Page048(props) {
           {/* BEGIN CABECERA VERSIÓN 1 */}
           <div className={"cabecera-v1 hp-80 " + background}></div>
           {/* END CABECERA VERSIÓN 1 */}
-
-
-          <div className="ptp-50 container-titulo-global mbp-0">
-            <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
-              ¿Qué necesitamos para la feria?
-            </div>
-            <div className="d-flex psp-20">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
-              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                3
-              </div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Realizamos un listado de los materiales que necesitaremos para...
-              </div>
-              <img src={"images/page_" + pagina + "/img_001.png"} className="wp-100 mtp--30" alt="" />
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+          <div className="ptp-5 ps-6 pe-6">
+            <div className="d-flex">
+              <div className="pep-10 ptp-15"><img src="images/page_048/i_g.svg" className="hp-15" alt="" /></div>
+              <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">3</div>
+              <div className="f-Ubuntu-R fsp-15 ptp-18 psp-10 lh-sm">Seleccionamos la información que debe incluir la propuesta que redactaremos.</div>
             </div>
           </div>
 
-
-
-          <div className="d-flex global-margin mtp-20 mbp-0 psp-0 pep-0 ptp-0 pbp-0 bgc-ryu rounded-p-10">
-            <div className="row p-0 m-0 w-100 f-Ubuntu-R fsp-15">
-
-              <div className="col-sm-12 col-md-4 p-0 m-0 position-relative">
-                <div className="d-flex mtp-20 psp-20 pep-20 ptp-0 pbp-10 position-relative">
-                  <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp--10 zindex-1">
-                    <div className="wp-25 hp-25 d-flex center-center color-white f-Ubuntu-B fsp-14 psp-5 pep-5 ptp-2 pbp-2  wp-150 min-hp-45 rounded-p-5 bgc-saitama">El modelo</div>
-                  </div>
-                  <div className="d-flex w-100 psp-10 pep-10 ptp-30 pbp-0 bgc-white rounded-p-10">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
-                  </div>
-                </div>
+          <div className="ptp-5 ps-17 pe-17">
+            <div className="rounded-p-10 bgc-motaro p-3">
+              <div className="text-center f-colby-bold fsp-18 pbp-10">Una propuesta de alimentación saludable</div>
+              <div className="f-Ubuntu-M fsp-15 lh-sm pep-5 pbp-10">El contenido debe incluir:</div>
+              <div className="d-flex align-items-center pbp-10">
+                <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">propuestas de snack saludables.</div>
               </div>
-              <div className="col-sm-12 col-md-4 p-0 m-0 position-relative">
-                <div className="d-flex mtp-20 psp-20 pep-20 ptp-0 pbp-10 position-relative">
-                  <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp--10 zindex-1">
-                    <div className="d-flex center-center color-white f-Ubuntu-B  fsp-14 psp-5 pep-5 ptp-2 pbp-2  rounded-p-5 bgc-saitama min-hp-45  wp-150">La infografía que explique el modelo</div>
-                  </div>
-                  <div className="d-flex w-100 psp-10 pep-10 ptp-30 pbp-0 bgc-white rounded-p-10">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
-                  </div>
-                </div>
+              <div className="d-flex align-items-center pbp-10">
+                <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">propuestas de desayuno y almuerzo.</div>
               </div>
-              <div className="col-sm-12 col-md-4 p-0 m-0 position-relative">
-                <div className="d-flex mtp-20 psp-20 pep-20 ptp-0 pbp-10 position-relative">
-                  <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp--10 zindex-1">
-                    <div className="d-flex center-center color-white f-Ubuntu-B fsp-14 psp-5 pep-5 ptp-2 pbp-2 rounded-p-5 bgc-saitama min-hp-45 wp-150">Las decoraciones para el stand</div>
-                  </div>
-                  <div className="d-flex w-100 psp-10 pep-10 ptp-30 pbp-0 bgc-white rounded-p-10">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
-                  </div>
-                </div>
+              <div className="d-flex align-items-center pbp-10">
+                <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">una sección explicativa que detalle la variedad de nutrientes presentes en las alternativas que preparamos.</div>
+              </div>
+              <div className="d-flex align-items-center pbp-10">
+                <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">una sección que justifique por qué la propuesta se considera un ejemplo alimentación saludable.</div>
+              </div>
+              <div className="d-flex align-items-center pbp-10">
+                <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">fotografías con las preparaciones de las alternativas de alimentación.</div>
+              </div>
+              <div className="d-flex align-items-center pbp-10">
+                <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">una sección con recomendaciones de alimentación saludable.</div>
+              </div>
+              <div className="d-flex align-items-center pbp-10">
+                <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">consejos relacionados con los beneficios de mantener una alimentación saludable.</div>
+              </div>
+              <div className="d-flex align-items-center pbp-10">
+                <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Otros:</div>
+                <div className="linea flex-fill"></div>
+              </div>
+              <div className="f-Ubuntu-M fsp-15 lh-sm pep-5 pbp-10">La información debe resultar:</div>
+              <div className="d-flex align-items-center pbp-10">
+                <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">clara, estructurada y ordenada.</div>
+              </div>
+              <div className="d-flex align-items-center pbp-10">
+                <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">original, atractiva y llamativa.</div>
               </div>
             </div>
           </div>
 
-          <div className="ptp-50 container-titulo-global mbp-0">
-            {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
-              xxx
-            </div> */}
-            <div className="d-flex psp-20">
-              <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_003.svg"} alt="" />
-              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                4
-              </div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Planeamos cómo será nuestro stand y luego lo dibujo.
-              </div>
-              <img src={"images/page_" + pagina + "/img_002.png"} className="hp-100" alt="" />
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+          <div className="ptp-5 ps-6 pe-6">
+            <div className="d-flex psp-35">
+              <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">4</div>
+              <div className="f-Ubuntu-R fsp-15 ptp-18 psp-10 lh-sm">Creamos un documento con nuestra propuesta de alimentación saludable para el colegio.</div>
             </div>
           </div>
 
-
-          <div className="d-flex global-margin mtp-0 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
-            <div className="row p-0 m-0 w-100">
-              <div className="col-12 p-0 m-0 position-relative">
-                <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
-                  <div className="row p-0 m-0 w-100">
-                    <div className="col-12 p-0 m-0 position-relative">
-                      <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-60" alt="" /></div>
-                      <div className="border-style-solid border-2 border-color-dark rounded-p-10">
-                        <div className="d-flex flex-column bgc-white rounded-p-10">
-                          <div className="psp-10 pep-10">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-300" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <div className="ptp-5 ps-15 pe-15">
+            <div className="border border-1 border-color-hardDark p-0 rounded-p-10">
+              <div className="bgc-white p-3 f-Ubuntu-L fsp-15 lh-sm hp-70" style="border-radius: 10px 10px 0px 0px;">La propuesta se la vamos a presentar a nuestros compañeros, por medio de una consulta pública, con el objetivo de...</div>
+              <div className="bgc-pantro p-2" style="border-radius: 0px 0px 10px 10px;">
+                <div className="linea mtp-15 mbp-31"></div>
+                <div className="linea mtp-10 mbp-10"></div>
+                <div className="linea mtp-10 mbp-10"></div>
+                <div className="linea mtp-10 mbp-10"></div>
+                <div className="linea mtp-10 mbp-5"></div>
               </div>
             </div>
           </div>
+
 
 
           {/* BEGIN PIE DE PAGINA */}
@@ -166,8 +134,8 @@ function Page048(props) {
           {/* END PIE DE PAGINA */}
 
         </div>
-      </div>
-    </div>
+      </div >
+    </div >
   );
 }
 
