@@ -20,70 +20,63 @@ function Page033(props) {
             <div className="d-flex flex-column align-items-center pbp-20">
                 <div className="page bgc-white overflow-hidden position-relative" id={"page_" + pagina}>
                     {/* BEGIN CABECERA VERSIÓN 2 */}
-                    <div className={"cabecera-v2 d-flex flex-column " + background}>
+                    {/* <div className={"cabecera-v2 d-flex flex-column " + background}>
                         <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
                             <div className={"caja wp-150 text-center fsp-24 f-IntroRustG-Base " + colorSesion}>SESIÓN 9</div>
                             <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Confeccionamos una infografía</div>
                         </div>
 
+                    </div> */}
+                    {/* END CABECERA VERSIÓN 2 */}
+                    {/* BEGIN CABECERA VERSIÓN 2 */}
+                    <div className={"cabecera-v2 d-flex flex-column " + background}>
+                        <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
+                            <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN 7</div>
+                            <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white"> Información nutricional</div>
+                        </div>
+                        <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-95">
+                            <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+                                Mis objetivos en <br /> esta sesión son:
+                            </div>
+                            <div className="p-0 align-self-center">
+                                <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
+                            </div>
+                            <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+                                Entender la información que  <br /> entregan las etiquetas nutricionales
+                            </div>
+                            <div className="psp-5 pep-5 align-self-center">
+                                <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
+                            </div>
+                            <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+                                Reflexionar sobre los  <br /> aprendizajes de la sesión y su <br />importancia para el desafío
+                            </div>
+                            <div className="p-0 align-self-center">
+                                <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
+                            </div>
+                            <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+                                Calcular el aporte <br /> energético de un alimento
+                            </div>
+                        </div>
                     </div>
                     {/* END CABECERA VERSIÓN 2 */}
 
-
                     <div className="ptp-30 container-titulo-global mbp-20">
-                        <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 " + color}>Creo e informo</div>
+                        {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 " + color}>Creo e informo</div> */}
                         <div className="d-flex">
                             {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_001.svg"} alt=""  /> */}
                             <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>1</div>
                             <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                                Elegimos el tema de la infografía.
+                                Leo la historieta de la revista y completo la información de la
+                                etiqueta nutricional de la leche que se muestra a continuación.
                             </div>
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-                            {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_002.jpg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_002.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
                         </div>
                     </div>
 
-                    <div className="d-flex psp-60 pep-60 pbp-0">
 
-                        <div className="row w-100 p-0 m-0">
-
-                            <div className="col-sm-12 col-md-12 position-relative d-flex justify-content-center">
-
-                                <div className="position-absolute top-0 start-50 translate-middle msp-80 mtp-0"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-30 " alt="" /></div>
-                                <div className="d-flex">
-
-                                    <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-L fsp-18 box-shadow-simple bgc-draco">
-
-                                        <div className="d-flex">
-                                            <div className="ptp-0">
-                                                <div className="border-style-solid border-2 border-color-lightDark wp-30 hp-30 bgc-white"></div>
-                                            </div>
-                                            <div className="psp-10 ptp-0 text-start">Tipos de desechos.</div>
-                                        </div>
-                                        <div className="d-flex">
-                                            <div className="ptp-10">
-                                                <div className="border-style-solid border-2 border-color-lightDark wp-30 hp-30 bgc-white"></div>
-                                            </div>
-                                            <div className="psp-10 ptp-10 text-start">Las 3R.</div>
-                                        </div>
-                                        <div className="d-flex">
-                                            <div className="ptp-10">
-                                                <div className="border-style-solid border-2 border-color-lightDark wp-30 hp-30 bgc-white"></div>
-                                            </div>
-                                            <div className="psp-10 ptp-10 text-start">Acciones que aportan al reciclaje y a reutilizar.</div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-
-                            </div>
-
-                        </div>
-
-                    </div>
 
 
                     <div className="ptp-30 container-titulo-global mbp-20">
@@ -92,7 +85,7 @@ function Page033(props) {
                             {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_001.svg"} alt=""  /> */}
                             <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
                             <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                                Realizo un borrador de la infografía.
+                                Reflexiono para responder las preguntas.
                             </div>
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
@@ -100,20 +93,38 @@ function Page033(props) {
                             {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_002.jpg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
                         </div>
                     </div>
-
-                    <div className="d-flex psp-60 pep-60 pbp-0">
-
-                        <div className="row w-100 p-0 m-0">
-
-                            <div className="col-sm-12 col-md-12 position-relative d-flex justify-content-center">
-                                <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-0"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-30 " alt="" /></div>
-                                <div className="d-flex w-100 border-style-solid border-2 border-color-freezer rounded-p-10 min-hp-400 bgc-white">
-
-                                </div>
+                    <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+                        <div className="row p-0 m-0 w-100">
+                            <div className="col-6 p-0 m-0 position-relative">
+                                <table border="2px">
+                                <tr>
+                                        <td colspan="3">INFORMACIÓN NUTRICIONAL</td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">Porción: 1 vaso (200 mL)</td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">Porciones por envase: 1</td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Campo 2</td>
+                                        <td>Campo 3</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Campo 7</td>
+                                        <td>Campo 8</td>
+                                        <td>Campo 9</td>
+                                    </tr>
+                                </table>
                             </div>
-
                         </div>
                     </div>
+
 
 
                     {/* BEGIN PIE DE PAGINA */}
