@@ -8,12 +8,15 @@ function Page056(props) {
 
   const pagina = "056";
   var indexInput = 0;
-  const etapa = "6"
-  const background = "bgc-pikachu";
-  const color = "color-pikachu";
-  const borderColor = "border-color-pikachu"
-  const borderColorTabla = "border-color-kokomi"
-  const bgc_cajas = "bgc-kokomi";
+  const etapa = "5"
+  const background = "bgc-saitama";
+  const color = "color-saitama";
+  const borderColor = "border-color-saitama"
+  const borderColorTabla = "border-color-bobafett"
+  const bgc_cajas = "bgc-bobafett";
+
+
+
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
@@ -38,8 +41,8 @@ function Page056(props) {
                     </div>
                     <div>
                       <span className="fsp-16 text-start f-pixilate-regular">
-                        <span className="fsp-16 f-IntroRustG-Base text-start">PREPARAR </span>
-                        la<br /> presentación para la feria.
+                        <span className="fsp-16 f-IntroRustG-Base text-start"> Proponer </span>
+                        <br /> una fecha para celebrar el Día de la<br /> Alimentación Saludable en el colegio.
                       </span>
                     </div>
                   </div>
@@ -53,8 +56,8 @@ function Page056(props) {
                     </div>
                     <div className="d-flex">
                       <span className="fsp-16 text-start f-pixilate-regular">
-                        <span className="fsp-16 f-IntroRustG-Base text-start">VALORAR </span>
-                        lo<br /> aprendido en el proyecto.
+                        <span className="fsp-16 f-IntroRustG-Base text-start">CREAR </span>
+                        un afiche para <br /> promocionar el Día de la <br /> Alimentación Saludable.
                       </span>
                     </div>
                   </div>
@@ -68,14 +71,28 @@ function Page056(props) {
                     </div>
                     <div className="d-flex">
                       <span className="fsp-16 text-start f-pixilate-regular">
-                        <span className="fsp-16 f-IntroRustG-Base text-start">REFLEXIONAR </span>
-                        sobre<br /> el trabajo en equipo.
+                        <span className="fsp-16 f-IntroRustG-Base text-start">ELABORAR </span>
+                        una campaña <br />para dar a conocer la <br />propuesta de alimentación saludable.
                       </span>
                     </div>
                   </div>
                 </div>
               </div>
-
+              <div className="pc-caja-objetivos-4">
+                <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
+                  <div className={"d-flex " + bgc_cajas + " psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e" + etapa}>
+                    <div className="d-flex align-items-start wp-23 ptp-1 pep-2">
+                      <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-25 mep-5 wp-20" alt="" />
+                    </div>
+                    <div className="d-flex">
+                      <span className="fsp-16 text-start f-pixilate-regular">
+                        <span className="fsp-16 f-IntroRustG-Base text-start">EVALUAR </span>
+                        el trabajo<br /> en equipo.
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
               {/* END OBJETIVOS */}
             </div>
 
@@ -99,6 +116,7 @@ function Page056(props) {
       </div>
 
     </div>
+
   );
 }
 
