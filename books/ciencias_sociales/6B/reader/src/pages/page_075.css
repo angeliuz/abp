@@ -6,7 +6,10 @@
   width: calc(100% - 120px);
 }
 
-
+.cb-outline-p75 {
+  outline: solid 2px white;
+  outline-offset: -4px;
+} 
 @media (max-width: 660px) {
 
   .cb-contenedor{

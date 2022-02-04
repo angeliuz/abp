@@ -4245,11 +4245,26 @@
 .psp-20 {
   padding-left: 20px;
 }
+.psp-23 {
+  padding-left: 23px;
+}
 .psp-25 {
   padding-left: 25px;
 }
 .psp-30 {
   padding-left: 30px;
+}
+.psp-31 {
+  padding-left: 31px;
+}
+.psp-32 {
+  padding-left: 32px;
+}
+.psp-33 {
+  padding-left: 33px;
+}
+.psp-34 {
+  padding-left: 34px;
 }
 .psp-35 {
   padding-left: 35px;
@@ -5312,6 +5327,12 @@
 }
 
 /* MIN-WIDTH */
+.min-wp-40 {
+  min-width: 40px !important;
+}
+.min-wp-45 {
+  min-width: 45px !important;
+}
 .min-wp-50 {
   min-width: 50px !important;
 }
