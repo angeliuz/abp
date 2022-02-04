@@ -1,10 +1,28 @@
-<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" width="45" height="45">
-	<title>img_001</title>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 14.104 13.904" style="enable-background:new 0 0 14.104 13.904;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);fill:#FFFFFF;}
+	.st1{clip-path:url(#SVGID_2_);fill:none;stroke:#AEC90B;stroke-width:0.776;stroke-linecap:round;}
+	.st2{clip-path:url(#SVGID_2_);}
+	.st3{fill:#AEC90B;}
+	.st4{font-family:'Ubuntu-Bold';}
+	.st5{font-size:10.3457px;}
+</style>
+<g>
 	<defs>
-		<image  width="43" height="44" id="img1" href="data:image/png;base64,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"/>
+		<rect id="SVGID_1_" width="14.104" height="13.904"/>
 	</defs>
-	<style>
-		tspan { white-space:pre }
-	</style>
-	<use id="Background" href="#img1" x="0" y="0" />
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<path class="st0" d="M3.321,0.388c0,0-2.933,0-2.933,2.933v7.263c0,0,0,2.932,2.933,2.932l7.676-0.002l2.688-6.562L10.967,0.39
+		L3.321,0.388z"/>
+	<path class="st1" d="M3.321,0.388c0,0-2.933,0-2.933,2.933v7.263c0,0,0,2.932,2.933,2.932l7.676-0.002l2.688-6.562L10.967,0.39
+		L3.321,0.388z"/>
+	<g class="st2">
+		<text transform="matrix(1 0 0 1 2.9365 10.5368)" class="st3 st4 st5">G</text>
+	</g>
+</g>
 </svg>
