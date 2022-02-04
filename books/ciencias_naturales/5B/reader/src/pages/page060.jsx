@@ -69,7 +69,7 @@ xxx
 
 
 
-                    <div className="container-titulo-global mtp-60 mbp-50">
+                    <div className="container-titulo-global mtp-60 mbp-30">
                         {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 "+color}>
 xxx
 </div> */}
