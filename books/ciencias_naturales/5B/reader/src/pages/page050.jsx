@@ -89,7 +89,7 @@ function Page050(props) {
               </div>
 
             </div>
-            <div className="row ">
+            <div className="row">
 
               <div className="col-md-6 ptp-10 pbp-10">
                 <div className="bgc-sid rounded-p-10 py-2 d-flex align-items-center p-2 position-relative">
@@ -107,7 +107,7 @@ function Page050(props) {
                 </div>
               </div>
               <div className="col-md-6 ptp-10 pbp-10">
-                <div className="bgc-raichu rounded-p-10 py-2 d-flex align-items-center p-2 position-relative">
+                <div className="bgc-sargento rounded-p-10 py-2 d-flex align-items-center p-2 position-relative">
                   <div className="w-100">
                     <div className="f-Ubuntu-R text-start psp-30">Otro...</div>
                     <div className="psp-20 pep-20 pbp-10">
@@ -121,10 +121,29 @@ function Page050(props) {
                   </div>
                 </div>
               </div>
-
-
             </div>
           </div>
+          <div className="psp-60 pep-60 ptp-20 pbp-80">
+            <div className="row pbp-20">
+              <div className="col-md-9 col-12 d-flex justify-content-center">
+                <div className="text-start w-100 border-style-solid border-2 psp-20 pep-20 ptp-10 pbp-10 rounded-p-20">
+                  <div className="">La propuesta debe cambiar...</div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
+                </div>
+              </div>
+            </div>
+            <div className="row pbp-20">
+              <div className="col-md-3 col-0"></div>
+              <div className="col-md-9 col-12 d-flex justify-content-center position-relative">
+                <div className="text-start w-100 border-style-solid border-2 psp-20 pep-20 ptp-10 pbp-10 rounded-p-20">
+                  <div className="">La propuesta debe cambiar...</div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
+                </div>
+                <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/estrella.png"} className="wp-60" alt="" /></div>
+              </div>
+            </div>
+          </div>
+
 
           {/* BEGIN PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
@@ -170,7 +189,7 @@ function Page050(props) {
 
         </div>
       </div>
-    </div>
+    </div >
   );
 }
 
