@@ -2,11 +2,11 @@ import React from "react";
 import ModalVideo from "../components/ModalVideo";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
-import "./page_076.css";
+import "./page_078.css";
 
-function Page076(props) {
+function Page078(props) {
 
-    const pagina = "076";
+    const pagina = "078";
     var indexInput = 0;
     const etapa = "6"
     const background = "bgc-pikachu";
@@ -178,4 +178,4 @@ function Page076(props) {
 }
 
 
-export default Page076;
+export default Page078;
