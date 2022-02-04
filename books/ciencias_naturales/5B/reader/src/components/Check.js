@@ -84,9 +84,8 @@ const Check = (props) => {
 
     return <div>
 
-        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1 disable-select" onClick={handleClick}>
+        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1 disable-select d-flex center-center" onClick={handleClick}>
             <img src={image} className={(visible === false ? "oculto" : "visible") + " disable-select"} alt="" />
-
         </div>
 
     </div>;
