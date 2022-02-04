@@ -1,3 +1,20 @@
-.bgc-miko{
-    background-color: #c4dad1;
-}
+.cb-contenedor{
+    display: flex;
+     width: calc(100% - 30px);
+   }
+   .cb-caja{
+     width: calc(100% - 120px);
+   }
+   
+   .cb-outline-p75 {
+    outline: solid 2px white;
+    outline-offset: -4px;
+}  
+   @media (max-width: 660px) {
+   
+     .cb-contenedor{
+       display: inline;
+     }
+      
+   
+   }
