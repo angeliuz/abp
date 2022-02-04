@@ -36,19 +36,44 @@ function Page034(props) {
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-                            <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+                        </div>
+                    </div>
+                    <div className="d-flex global-margin mtp-30 mbp-0 psp-20 pep-20 ptp-20 pbp-20 bgc-kai rounded-p-20 position-relative">
+                        <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-80" alt="" /></div>
+                        <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--100 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-120" alt="" /></div>
+                        <div className="position-absolute top-0 start-0 translate-middle visible-768 mtp-180 msp-100 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-300" alt="" /></div>
+                        <div className="row p-0 m-0 w-100  text-start f-Ubuntu-R fsp-15">
+
+                            <div className="col-12 p-0 m-0 position-relative">
+                                <div className="d-flex mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+                                    <div className="row p-0 m-0 w-100">
+                                        <div className="col-12 p-0 m-0 position-relative">
+                                            <div className="">
+                                                <div className="d-flex flex-column bgc-white p-2 rounded-p-10">
+                                                    <div className="psp-10 pep-10">
+                                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-500" />
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
 
-                  
 
-                    <div className="ptp-30 container-titulo-global mbp-40">
+
+                    <div className="ptp-30 container-titulo-global mbp-20">
                         {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>Ahora podremos comprobar qué ocurre en nuestro entorno</div> */}
                         <div className="d-flex">
                             {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_005.svg"} alt=""  /> */}
                             {/* <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>4</div> */}
                             <div className="f-Ubuntu-L fsp-16 ptp-18 psp-10 pep-10 text-start">
-                            Completo la tabla:
+                                Completo la tabla:
                             </div>
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
@@ -56,10 +81,39 @@ function Page034(props) {
                             {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_002.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
                         </div>
                     </div>
+                    <div className="d-flex global-margin mtp-0 mbp-100 psp-20 pep-20 ptp-0 pbp-0">
+                        <div className="row p-0 m-0 w-100">
+                            <div className="col-12 p-0 m-0 position-relative">
+                                <table className=" f-Ubuntu-L fsp-16 border-2 border-style-solid border-color-android18 text-start mbp-20 ">
+                                    <tr>
+                                        <td className=" f-Ubuntu-B border-2 border-style-solid border-color-android18 text-center p-1 wp-200 bgc-android18 color-white">Tipo de nutriente</td>
+                                        <td className=" f-Ubuntu-B border-2 border-style-solid border-color-android18 text-center p-1 wp-500 bgc-android18 color-white" colspan="2">Energía (kcal) por porción</td>
+                                    </tr>
+                                    <tr>
+                                        <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-start p-1 bgc-kagome">Carbohidratos</td>
+                                        <td className=" f-Ubuntu-B border-2 border-style-solid border-color-android18 text-center p-1" colspan="2">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-start p-1 bgc-kagome">Proteínas</td>
+                                        <td className=" f-Ubuntu-B border-2 border-style-solid border-color-android18 text-center p-1" colspan="2">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-start p-1 bgc-kagome">Lípidos</td>
+                                        <td className=" f-Ubuntu-B border-2 border-style-solid border-color-android18 text-center p-1" colspan="2">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
 
-                    
 
-                    
+
 
                     {/* BEGIN PIE DE PAGINA */}
                     <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
