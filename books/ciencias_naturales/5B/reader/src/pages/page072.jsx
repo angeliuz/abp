@@ -23,11 +23,18 @@ function Page072(props) {
                 <div className="page bgc-white overflow-hidden position-relative" id={"page_" + pagina}>
                     <div className={"cabecera-v1 hp-80 " + background}>
                     </div>
-                    <div className="ptp-10 cb-titulonumero-p72">
-                        <div className="d-flex">
-                            <div className="f-ccdigitaldelivery-bold fsp-35 color-pikachu">2</div>
-                            <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10">Nos organizamos para llevar a cabo la campaña en el Día de la
-                                Alimentación Saludable.</div>
+                    <div className="container-titulo-global mbp-20">
+                        <div className="d-flex psp-20">
+                            {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
+                            <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                                2
+                            </div>
+                            <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                                Nos organizamos para llevar a cabo la campaña en el Día de la Alimentación Saludable.
+                            </div>
+                            {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+                            {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
+                            {/*<ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />*/}
                         </div>
                     </div>
                     <div className="cb-bajada-p72">
