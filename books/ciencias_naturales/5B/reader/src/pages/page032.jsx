@@ -41,9 +41,10 @@ function Page032(props) {
                     </div>
 
                     <div className="d-flex global-margin mtp-0 mbp-50 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-Ubuntu-L  fsp-16">
-                        
-                        {/* <div className="position-absolute top-100 start-100 translate-middle msp--90 zindex-2 visible-768"><img src="images/page_022/img_004.png" className="" alt="" /></div> */}
-                        {/* <div className="position-absolute top-50 start-0 translate-middle  zindex-2 msp-80 visible-768"><img src="images/page_022/img_003.png" className="" alt="" /></div> */}
+
+                        <div className="position-absolute top-100 start-100 translate-middle msp--60 mtp-40 zindex-2 "><img src="images/page_032/img_005.png" className="" alt="" /></div>
+                        <div className="position-absolute top-50 start-100 translate-middle  zindex-2 msp--40 visible-768"><img src="images/page_032/img_002.png" className="" alt="" /></div>
+                        <div className="position-absolute top-50 start-100 translate-middle  zindex-2 msp--30 mtp-110 visible-768"><img src="images/page_032/img_004.png" className="" alt="" /></div>
                         <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-580" alt="" /></div>
 
                         <div className="position-absolute top-50 start-50 translate-middle msp--200 mtp-120 zindex-1 ">
@@ -58,7 +59,7 @@ function Page032(props) {
                                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                             </div>
                         </div>
-                        
+
                         <div className="position-absolute top-50 start-50 translate-middle msp-190 mtp--110 zindex-1 ">
                             <div className="d-flex flex-column wp-120 psp-10 pep-10 ptp-0 pbp-0 ">
 
