@@ -1,5 +1,6 @@
 import React from "react";
 import InputBox from "../components/InputBox";
+import Check from "../components/Check";
 import "./page_059.css";
 
 function Page059(props) {
@@ -142,23 +143,16 @@ function Page059(props) {
                     <div className="d-flex justify-content-start  flex-column">
                       <div className="mbp-10 fw-700 text-start">La información es...</div>
                       <div className="d-flex   align-items-center pbp-10 ">
-                        <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" />
-
-                        </div>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5">clara y organizada.</div>
                       </div>
                       <div className="d-flex align-items-center pbp-10">
-                        <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" />
-                        </div>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5  text-start">concreta, directa <br />y precisa.</div>
                       </div>
 
                       <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
-                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
-                        </div>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         <div className="f-Ubuntu-L msp-10 ptp-10 fsp-15 lh-sm pep-5 text-start     ">otro: </div>
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
 
@@ -174,23 +168,16 @@ function Page059(props) {
                     <div className="d-flex justify-content-start  flex-column">
                       <div className="mbp-10 fw-700 text-start">El contenido incluye...</div>
                       <div className="d-flex   align-items-center pbp-10 ">
-                        <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" />
-
-                        </div>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5">fotografías <br />y/o dibujos. </div>
                       </div>
                       <div className="d-flex align-items-center pbp-10">
-                        <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" />
-                        </div>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5  text-start">tablas y/o gráficos</div>
                       </div>
 
                       <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
-                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
-                        </div>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         <div className="f-Ubuntu-L msp-10 ptp-10 fsp-15 lh-sm pep-5 text-start     ">otro: </div>
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
 
@@ -207,23 +194,16 @@ function Page059(props) {
                     <div className="d-flex justify-content-start  flex-column">
                       <div className="mbp-10 fw-700 text-start">La información es...</div>
                       <div className="d-flex   align-items-center pbp-10 ">
-                        <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white ">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" />
-
-                        </div>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5"> El diseño es...</div>
                       </div>
                       <div className="d-flex align-items-center pbp-10">
-                        <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" />
-                        </div>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5  text-start"> atractivo, original  <br />e interesante. </div>
                       </div>
 
                       <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
-                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
-                        </div>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         <div className="f-Ubuntu-L msp-10 ptp-10 fsp-15 lh-sm pep-5 text-start     ">otro: </div>
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
 

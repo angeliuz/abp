@@ -24,20 +24,20 @@ function Page052(props) {
           {/* END CABECERA VERSIÓN 1 */}
 
 
-          <div class="ptp-10 psp-80 pep-80">
-            <div class="d-flex">
-              <div class="psp-10 f-ccdigitaldelivery-bold fsp-35 color-pidgey">3</div>
-              <div class="f-Ubuntu-R fsp-15 ptp-18 psp-10 lh-sm text-start">Redactamos el documento con la propuesta, la revisamos y evaluamos.</div>
+          <div className="ptp-10 psp-80 pep-80">
+            <div className="d-flex">
+              <div className="psp-10 f-ccdigitaldelivery-bold fsp-35 color-pidgey">3</div>
+              <div className="f-Ubuntu-R fsp-15 ptp-18 psp-10 lh-sm text-start">Redactamos el documento con la propuesta, la revisamos y evaluamos.</div>
             </div>
           </div>
 
-          <div class="ptp-10 psp-80 pep-80">
-            <div class="row rounded-p-10 bgc-pantro p-3">
+          <div className="ptp-10 psp-80 pep-80">
+            <div className="row rounded-p-10 bgc-pantro p-3">
 
-              <div class="row p-0 m-0 align-items-center position-relative">
-                <div class="col p-2">
-                  <div class="bgc-white w-100 rounded-p-5 p-2">
-                    <div class="f-Ubuntu-L fsp-15 lh-sm pbp-10 text-start">Mis ideas para escribir la propuesta fueron</div>
+              <div className="row p-0 m-0 align-items-center position-relative">
+                <div className="col p-2">
+                  <div className="bgc-white w-100 rounded-p-5 p-2">
+                    <div className="f-Ubuntu-L fsp-15 lh-sm pbp-10 text-start">Mis ideas para escribir la propuesta fueron</div>
                     <div className="mtp--10">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                     </div>
@@ -46,10 +46,10 @@ function Page052(props) {
                 <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/nota.png"} className="wp-60" alt="" /></div>
               </div>
 
-              <div class="row p-0 m-0 align-items-center">
-                <div class="col-12 col-md-6 p-2 position-relative">
-                  <div class="bgc-white w-100 rounded-p-5 p-2">
-                    <div class="f-Ubuntu-L fsp-15 lh-sm pbp-10 text-start">Lo que más me gusta de la propuesta es</div>
+              <div className="row p-0 m-0 align-items-center">
+                <div className="col-12 col-md-6 p-2 position-relative">
+                  <div className="bgc-white w-100 rounded-p-5 p-2">
+                    <div className="f-Ubuntu-L fsp-15 lh-sm pbp-10 text-start">Lo que más me gusta de la propuesta es</div>
                     <div className="">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
                     </div>
@@ -58,9 +58,9 @@ function Page052(props) {
                   <div className="position-absolute flecha-p52 translate-middle zindex-1"><img src={"images/page_" + pagina + "/flecha.svg"} className="wp-20 giro-768" alt="" /></div>
                 </div>
 
-                <div class="col p-2">
-                  <div class="bgc-white w-100 rounded-p-5 p-2">
-                    <div class="f-Ubuntu-L fsp-15 lh-sm pbp-10 text-start">Porque</div>
+                <div className="col p-2">
+                  <div className="bgc-white w-100 rounded-p-5 p-2">
+                    <div className="f-Ubuntu-L fsp-15 lh-sm pbp-10 text-start">Porque</div>
                     <div className="">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
                     </div>
@@ -68,10 +68,10 @@ function Page052(props) {
                 </div>
               </div>
 
-              <div class="row p-0 m-0 align-items-center position-relative">
-                <div class="col-12 col-md-6 p-2 position-relative">
-                  <div class="bgc-white w-100 rounded-p-5 p-2">
-                    <div class="f-Ubuntu-L fsp-15 lh-sm pbp-10 text-start">Lo que menos me gusta de la propuesta es</div>
+              <div className="row p-0 m-0 align-items-center position-relative">
+                <div className="col-12 col-md-6 p-2 position-relative">
+                  <div className="bgc-white w-100 rounded-p-5 p-2">
+                    <div className="f-Ubuntu-L fsp-15 lh-sm pbp-10 text-start">Lo que menos me gusta de la propuesta es</div>
                     <div className="">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
                     </div>
@@ -80,9 +80,9 @@ function Page052(props) {
 
                 </div>
 
-                <div class="col p-2">
-                  <div class="bgc-white w-100 rounded-p-5 p-2">
-                    <div class="f-Ubuntu-L fsp-15 lh-sm pbp-10 text-start">Porque</div>
+                <div className="col p-2">
+                  <div className="bgc-white w-100 rounded-p-5 p-2">
+                    <div className="f-Ubuntu-L fsp-15 lh-sm pbp-10 text-start">Porque</div>
                     <div className="">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
                     </div>
@@ -94,10 +94,10 @@ function Page052(props) {
             </div>
           </div>
 
-          <div class="ptp-10 psp-80 pep-80">
-            <div class="d-flex">
-              <div class="psp-30 f-ccdigitaldelivery-bold fsp-35 color-pidgey">4</div>
-              <div class="f-Ubuntu-R fsp-15 ptp-18 psp-10 lh-sm text-start">Presentamos la propuesta de alimentación saludable a los encargados del colegio y esperamos su aprobación.</div>
+          <div className="ptp-10 psp-80 pep-80">
+            <div className="d-flex">
+              <div className="psp-30 f-ccdigitaldelivery-bold fsp-35 color-pidgey">4</div>
+              <div className="f-Ubuntu-R fsp-15 ptp-18 psp-10 lh-sm text-start">Presentamos la propuesta de alimentación saludable a los encargados del colegio y esperamos su aprobación.</div>
             </div>
           </div>
 
