@@ -3165,6 +3165,9 @@
 .pp-5 {
   padding: 5px;
 }
+.pp-9_4 {
+  padding: 9.4px;
+}
 .pp-10 {
   padding: 10px;
 }
@@ -3461,6 +3464,18 @@
 }
 .ptp-20 {
   padding-top: 20px;
+}
+.ptp-21 {
+  padding-top: 21px;
+}
+.ptp-22 {
+  padding-top: 22px;
+}
+.ptp-23 {
+  padding-top: 23px;
+}
+.ptp-24 {
+  padding-top: 24px;
 }
 .ptp-25 {
   padding-top: 25px;

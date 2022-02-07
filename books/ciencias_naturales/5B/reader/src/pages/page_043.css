@@ -1,0 +1,22 @@
+  .fondo-1{
+    width: 100%;
+    max-width: 150px;
+    height: 60px;
+    background: url( images/page_043/img_005.svg) top left/ contain no-repeat !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fondo-2{
+    width: 100%;
+    max-width: 150px;
+    height: 60px;
+    background: url( images/page_043/img_004.svg) top left/ contain no-repeat !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .triangulo {
+    margin: 0 7px 0 7px;
+    border-left: 15px solid #FFE3AB;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
