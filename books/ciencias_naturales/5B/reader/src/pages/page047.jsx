@@ -8,12 +8,12 @@ function Page047(props) {
 
   const pagina = "047";
   var indexInput = 0;
-  const etapa = "5"
-  const background = "bgc-saitama";
-  const color = "color-saitama";
-  const borderColor = "border-color-saitama"
-  const borderColorTabla = "border-color-bobafett"
-  const bgc_cajas = "bgc-bobafett";
+  const etapa = "4"
+  const background = "bgc-pidgey";
+  const color = "color-pidgey";
+  const borderColor = "border-color-pidgey"
+  const borderColorTabla = "border-color-pantro"
+  const bgc_cajas = "bgc-pantro";
 
   return (
     <div className="wrapper bgc-light">
@@ -23,23 +23,43 @@ function Page047(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className={"cabecera-v2 d-flex flex-column " + background}>
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base " + color}>SESIÓN 12</div>
-              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Nos organizamos </div>
+              <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN 12</div>
+              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Un menú a medida</div>
+            </div>
+            <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-95">
+              <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+                Mis objetivos en <br /> esta sesión son:
+              </div>
+              <div className="p-0 align-self-center">
+                <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
+              </div>
+              <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+                Grabar un video con la<br />preparación de las alternativas<br />de alimentación saludable
+              </div>
+              <div className="psp-5 pep-5 align-self-center">
+                <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
+              </div>
+              <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+                Identificar la<br />información que debe<br />contener la propuesta
+              </div>
+              <div className="p-0 align-self-center">
+                <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
+              </div>
+              <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+                Crear un documento con la<br />propuesta de alimentación<br />saludable para el colegio
+              </div>
             </div>
           </div>
           {/* END CABECERA VERSIÓN 2 */}
 
           <div className="ptp-30 container-titulo-global mbp-0">
-            <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
-              ¿Qué presentaremos en la feria?
-            </div>
             <div className="d-flex psp-20">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
+              <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/g.svg"} alt="" />
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 1
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Leo la carta y subrayo las ideas más importantes.
+                Cocinamos las alternativas de alimentación saludable que queremos incluir en nuestra propuesta y grabamos un video del proceso. Para ello:
               </div>
               {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
@@ -48,89 +68,63 @@ function Page047(props) {
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
-            <div className="row p-0 m-0 w-100">
-              <div className="col-12 p-0 m-0 position-relative d-flex center-center hp-380">
-                <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-580" alt="" /></div>
+          <div className="psp-60 pep-60 ptp-20">
+            <div className="bgc-buzz rounded-p-20 p-2 position-relative">
+              <div className="f-Ubuntu-l text-start psp-10">Ocuparemos los siguientes insumos</div>
 
-                <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1">
-                  <div className="d-flex flex-column wp-580 position-relative mtp-0 psp-45 pep-45 ptp-0 f-Ubuntu-L fsp-14">
-                    <div className="zindex-2 text-start">Estimados estudiantes:</div>
-                    <div className="zindex-2 text-start mtp-10">
-                      Al inicio de este proyecto, junto con sus equipos propusieron ideas de acciones para enseñar a su comunidad en la feria Héroes del medioambiente. Ha llegado el momento de que se organicen, reflexionen sobre estas ideas y propongan otras nuevas si es necesario. Luego, deberán elegir como equipo cuál de ellas van a desarrollar. <br />
-                    </div>
-                    <div className="zindex-2 text-start mtp-10">
-                      Reúnanse con sus respectivos equipos y organicen lo necesario para crear un modelo que represente la acción de reciclaje o reutilización, una infografíaque explique en qué consiste y decoraciones para el stand. Luego, piensen en todos los materiales que necesitan para desarrollar esas ideas.<br />
-                    </div>
-                    <div className="zindex-2 text-start mtp-10">
-                      Ya están muy cerca de lograr el desafío. ¡Ánimo!<br />
-                    </div>
-                    <div className="zindex-2 text-end mtp-10">Atentamente, Javiera.</div>
+              <div className="row">
+                <div className="col-md-6 pbp-20">
+                  <div className="border-style-solid border-2 border-color-kitana rounded-p-5 bgc-white psp-20 pep-20 ptp-20 pbp-20 position-relative">
+                    <div className="f-Ubuntu-L text-start">Para la grabación</div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
+
                   </div>
-
+                </div>
+                <div className="col-md-6 pbp-20">
+                  <div className="border-style-solid border-2 border-color-kitana rounded-p-5 bgc-white psp-20 pep-20 ptp-20 pbp-20 position-relative">
+                    <div className="f-Ubuntu-L text-start">Para la preparación</div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
+                    <div className="position-absolute posicion-centro-centro translate-middle zindex-1"><img src={"images/generales/espiral2.svg"} className="wp-50 mtp-20-p47 msp--30 rotacion-centro-centro" alt="" /></div>
+                  </div>
                 </div>
               </div>
+              <div className="ptp-20 pbp-10 f-Ubuntu-L text-start psp-10">Nos distribuimos las tareas</div>
+              <div className="row">
+                <div className="col-md-6 pbp-20">
+                  <div className="border-style-solid border-2 border-color-kitana rounded-p-5 bgc-white psp-20 pep-20 ptp-20 pbp-20 position-relative">
+                    <div className="f-Ubuntu-L text-start">Para la grabación</div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
+
+                  </div>
+                </div>
+                <div className="col-md-6 pbp-20">
+                  <div className="border-style-solid border-2 border-color-kitana rounded-p-5 bgc-white psp-20 pep-20 ptp-20 pbp-20 position-relative">
+                    <div className="f-Ubuntu-L text-start">Para la preparación</div>
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
+                    <div className="position-absolute posicion-centro-centro translate-middle zindex-1"><img src={"images/generales/espiral2.svg"} className="wp-50 mtp-20-p47 msp--30 rotacion-centro-centro" alt="" /></div>
+                  </div>
+                </div>
+              </div>
+              <div className="position-absolute top-0 start-100 translate-middle msp--30 mtp-30 zindex-1"><img src={"images/page_" + pagina + "/tablet.png"} className="wp-80" alt="" /></div>
+              <div className="position-absolute top-0 start-0 translate-middle msp-0 mtp-200 zindex-1"><img src={"images/page_" + pagina + "/celular.png"} className="wp-60" alt="" /></div>
             </div>
           </div>
 
-          <div className="ptp-50 container-titulo-global mbp-0">
-            {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
-              xxx
-            </div> */}
+          <div className="container-titulo-global mtp-20 mbp-80 position-relative">
             <div className="d-flex psp-20">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 2
               </div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Recordamos cuáles eran nuestras ideas para la feria. Luego, completamos con nuestra elección.
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start col-md-9 col-11">
+                Documentamos nuestros platos con fotografías que incluiremos en nuestra propuesta de alimentación saludable.
               </div>
-              <img src={"images/page_" + pagina + "/img_004.png"} className="wp-60" alt="" />
+              {/* <img src={"images/page_"+pagina+"/img_00.svg"} className="wp-100" alt=""/> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
-          </div>
-
-          <div className="d-flex global-margin mtp-20 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
-            <div className="row p-0 m-0 w-100">
-              <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
-
-                <div className="d-flex psp-10 pep-10 mtp-0 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
-                  <div className="row p-0 m-0 w-100">
-                    <div className="col-12 p-0 m-0 position-relative">
-                      <div className="border-style-solid border-5 border-color-milk rounded-p-10">
-                        <div className="d-flex flex-column bgc-white rounded-p-10 ">
-                          <div className="f-Ubuntu-R fsp-15 text-start psp-10 ptp-10 pep-10 pbp-0 min-hp-60">Ideas</div>
-                          <div className="psp-10 pep-10">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-220" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-              <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
-
-                <div className="d-flex psp-10 pep-10 mtp-0 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
-                  <div className="row p-0 m-0 w-100">
-                    <div className="col-12 p-0 m-0 position-relative">
-                      <div className="border-style-solid border-5 border-color-tshinhan rounded-p-10">
-                        <div className="d-flex flex-column bgc-white rounded-p-10 ">
-                          <div className="f-Ubuntu-R fsp-15 text-start psp-10 ptp-10 pep-10 pbp-0 min-hp-60">Hemos elegido realizar para nuestro stand un modelo de...</div>
-                          <div className="psp-10 pep-10">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-220" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
+            <div className="position-absolute top-100 start-100 translate-middle msp--130 mtp--40 visible-768 zindex-1"><img src={"images/page_" + pagina + "/mono.png"} className="wp-120" alt="" /></div>
           </div>
 
 
