@@ -47,85 +47,135 @@ xxx
 
 
 
+
+
           <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
-            <div className="row p-0 m-0 w-100 bgc-windu p-2">
+            <div className="row p-0 m-0 w-100 bgc-windu rounded-p-10  border-style-solid border-1 border-color-dark">
+              <div className="col-sm-6 col-md-6 p-0 m-0 position-relative ">
+                <div className="position-absolute bottom-0 start-0    msp--30 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-40" alt="" /></div>
 
-              <div className="col-sm-6 p-0 m-0 position-relative">
-                <div className="d-block justify-content-center pt-3 ps-2  h-100 w-100 border border-1 border-color-dark rounded-p-10 bgc-white">
-                  <div className="bgc-yellow w-100  hp-130" >
 
-                    <div className="block elipse alinea border border-2 rounded-p-10 border-color-dark w-100 bgc-bulma hp30 mtp-20  ">
-                      <div className="d-flex justify-content-center text-center align-items-center hp-120 f-Ubuntu-R fsp-15 color-white lh-sm">Voy a necesitar ayuda</div>
+                <div className="justify-content-center p-2 h-100 w-100 ">
+                  <div className="h-100 border-style-solid border-1 border-color-dark rounded-p-10  bgc-white  ">
+
+                    <div className="w-100 psp-50 pep-50 ptp-10 pbp-10  mbp-10  position-relative">
+                      <div className="position-absolute top-50 start-0 translate-middle-y    msp-30 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-40" alt="" /></div>
+
+
+                      <div className="elipse wp-320 alinea border-style-solid border-2 rounded-p-10 border-color-dark w-100 bgc-bulma hp-120 mtp-20  ">
+                        <div className="d-flex justify-content-center text-center align-items-center hp-120 f-Ubuntu-R fsp-15 fw-700 color-white lh-sm">Tengo todos los<br /> materiales que necesito</div>
+                      </div>
+                      <div className=" w-100 ">
+
+                        <div className="d-flex justify-content-around  mt-1 ">
+                          <div className="">
+                            <img src={"images/page_" + pagina + "/img_005.svg"} className="wp-25 msp-20" alt="" />
+                            <div className="d-flex align-items-center justify-content-center mtp-10 rounded-p-50 border-color-dark hp-50 wp-50 bgc-bulma">
+                              <div className="f-Ubuntu-R fsp-15 fw-300 color-white">SI</div>
+                            </div>
+                          </div>
+                          <div className="">
+                            <img src={"images/page_" + pagina + "/img_005.svg"} className="wp-25 mep-20 rota-horizontal" alt="" />
+                            <div className="d-flex align-items-center justify-content-center mtp-10 rounded-p-50 border-color-dark hp-50 wp-50 bgc-bulma">
+                              <div className="f-Ubuntu-R fsp-15 fw-300 color-white">NO</div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+
                     </div>
-                  </div>
 
-                  <div className="w-100">
-                    <div className="d-flex justify-content-around  mt-3 ">
+                    <div className="w-100 psp-10 pep-10 ptp-10 pbp-10  mbp-10 ">
+                      <div className="d-flex  p-0 m-0  ">
+                        <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5"> Me falta</div>
+                      </div>
                       <div className="">
-                        <img src={"images/page_" + pagina + "/img_005.svg"} className="wp-50" alt="" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-540" />
                       </div>
                     </div>
-                    <div className="d-flex justify-content-around  mt-3 ">
-                      <div className="">
-                        <img src={"images/page_" + pagina + "/img_005.svg"} className="wp-50" alt="" />
-                      </div>
-                    </div>
-                    123
-                  </div>
-                </div>
-                <div className="d-flex justify-content-around  mt-3 ">
 
 
 
-                  {/* <div className="">
-                    <img src={"images/page_" + pagina + "/img_005.svg"} className="wp-100" alt="" />
-                    <div className="d-flex align-items-center justify-content-center mtp-10 rounded-p-50 border-color-dark hp-50 wp-50 bgc-bulma">
-                      <div className="f-Ubuntu-R fsp-15 fw-300 color-white">SI</div>
-                    </div>
-                  </div> */}
-                </div>
-              </div>
-              <div className="col-sm-6 p-0 m-0 position-relative">
-                <div className="d-flex w-100 justify-content-center pt-3 ps-2 alinea h-100 w-100 border border-1 border-color-dark rounded-p-10 bgc-white ">
-                  <div className="block elipse alinea border border-2 rounded-p-10 border-color-dark w-100 bgc-bulma hp30 mtp-20">
-                    <div className="d-flex justify-content-center text-center align-items-center hp-120 f-Ubuntu-R fsp-15 color-white lh-sm">Voy a necesitar ayuda</div>
                   </div>
-
-                  {/* <div className="d-flex justify-content-around  mt-3 ">
-                  <div className="">
-                  <img src={"images/page_" + pagina + "/img_005.svg"} className="wp-50" alt="" />
-                  </div>
-                  </div>
-                  <div className="d-flex justify-content-around  mt-3 ">
-                  <div className="">
-                  <img src={"images/page_" + pagina + "/img_005.svg"} className="wp-50" alt="" />
-                  </div>
-                </div> */}
-
                 </div>
               </div>
 
 
-              {/* <div class="d-flex justify-content-around  mt-3  ">
-                <div class=" ">
-                  <img src={"images/page_" + pagina + "/img_005.svg"} className="wp-50" alt="" />
-                  <div class="d-flex align-items-center justify-content-center mtp-10 rounded-p-50 border-color-dark hp-50 wp-50 bgc-bulma">
-                    <div class="f-Ubuntu-R fsp-15 fw-300 color-white">SI</div>
-                  </div>
-                </div>
-                <div class=" ">
-                  <img src={"images/page_" + pagina + "/img_005.svg"} className="wp-50" alt="" />
-                  <div class="d-flex align-items-center justify-content-center mtp-10 rounded-p-50 border-color-dark hp-50 wp-50 bgc-bulma">
-                    <div class="f-Ubuntu-R fsp-15 fw-300 color-white">NO</div>
+              <div className="col-sm-6 col-md-6 p-0 m-0 position-relative ">
+                <div className="position-absolute top-0 end-0  msp-30 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-40" alt="" /></div>
+                <div className="justify-content-center p-2 h-100 w-100 ">
+                  <div className="h-100 border-style-solid border-1 border-color-dark rounded-p-10 bgc-white ">
+
+                    <div className="w-100 psp-50 pep-50 ptp-10 pbp-10  mbp-10  position-relative">
+                      <div className="position-absolute top-50 end-0 translate-middle-y  mep-10 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-50" alt="" /></div>
+
+
+                      <div className="elipse wp-320 alinea border-style-solid border-2 rounded-p-10 border-color-dark w-100 bgc-bulma hp-120 mtp-20  ">
+                        <div className="d-flex justify-content-center text-center align-items-center hp-120 f-Ubuntu-R fsp-15 fw-700 color-white lh-sm">Voy a <br />necesitar ayuda</div>
+                      </div>
+                      <div className=" w-100 ">
+
+                        <div className="d-flex justify-content-around  mt-1 ">
+                          <div className="">
+                            <img src={"images/page_" + pagina + "/img_005.svg"} className="wp-25 msp-20" alt="" />
+                            <div className="d-flex align-items-center justify-content-center mtp-10 rounded-p-50 border-color-dark hp-50 wp-50 bgc-bulma">
+                              <div className="f-Ubuntu-R fsp-15 fw-300 color-white">SI</div>
+                            </div>
+                          </div>
+                          <div className="">
+                            <img src={"images/page_" + pagina + "/img_005.svg"} className="wp-25 mep-20 rota-horizontal" alt="" />
+                            <div className="d-flex align-items-center justify-content-center mtp-10 rounded-p-50 border-color-dark hp-50 wp-50 bgc-bulma">
+                              <div className="f-Ubuntu-R fsp-15 fw-300 color-white">NO</div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+
+                    </div>
+
+                    <div className="w-100 psp-10 pep-10 ptp-10 pbp-10  mbp-10 ">
+                      <div className="d-flex  p-0 m-0  ">
+                        <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5"> Necesito</div>
+                      </div>
+                      <div className="">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-540" />
+                      </div>
+                    </div>
+
+
+
                   </div>
                 </div>
 
-              </div> */}
+
+
+              </div>
 
 
 
             </div>
           </div>
+
+
+
+
+
+          {/* <div className="">
+                    <div className="d-flex  p-0 m-0  ">
+                      <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5"> Emotiva, para</div>
+                    </div>
+                    <div className="">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
+                    </div>
+
+                  </div> */}
+
+
+
 
 
 
