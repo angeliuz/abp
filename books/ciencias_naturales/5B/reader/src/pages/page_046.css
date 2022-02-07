@@ -1,0 +1,12 @@
+.rounded-te-be-bs{
+    border-radius: 0px 10px 10px 10px;
+-moz-border-radius: 0px 10px 10px 10px;
+-webkit-border-radius: 0px 10px 10px 10px;
+}
+
+/* 
+.rounded-te-be-bs{
+    border-radius: 0px 0px 10px 10px;
+-moz-border-radius: 0px 0px 10px 10px;
+-webkit-border-radius: 0px 0px 10px 10px;
+} */
