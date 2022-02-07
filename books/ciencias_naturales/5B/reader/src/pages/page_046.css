@@ -1,7 +1,12 @@
-.rounded-te-be-bs{
+.rounded-te-be-bs-10{
     border-radius: 0px 10px 10px 10px;
 -moz-border-radius: 0px 10px 10px 10px;
 -webkit-border-radius: 0px 10px 10px 10px;
+}
+.rounded-te-be-bs-20{
+    border-radius: 0px 20px 20px 20px;
+-moz-border-radius: 0px 20px 20px 20px;
+-webkit-border-radius: 0px 20px 20px 20px;
 }
 
 /* 
@@ -10,3 +15,7 @@
 -moz-border-radius: 0px 0px 10px 10px;
 -webkit-border-radius: 0px 0px 10px 10px;
 } */
+
+.rounded-seb-set-20 {
+    border-radius: 20px 20px 20px 20px;
+  }

@@ -59,18 +59,18 @@ xxx
                             <div className="col-sm-12 col-md-6 p-0 m-0 position-relative ">
                                 <div className="mtp-20">
 
-                                    <div className="m-1 mtp-10 border-style-solid border-1 border-color-dark rounded-te-be-bs">
+                                    <div className="m-1 mtp-10 border-style-solid border-1 border-color-dark rounded-te-be-bs-20">
                                         <div className="f-Ubuntu-R fsp-16  lh-sm text-start p-2">¿De dónde obtienen los encuestados,  principalmente, los alimentos que consumen: del kiosco, casino, casa u otros?</div>
-                                        <div className="psp-10  pep-10  bgc-chitara rounded-seb-10">
+                                        <div className="psp-10  pep-10  bgc-chitara rounded-seb-set-20">
                                             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                                         </div>
                                     </div>
                                 </div>
                                 <div className="mtp-20">
 
-                                    <div className="m-1 mtp-10 border-style-solid border-1 border-color-dark rounded-te-be-bs">
+                                    <div className="m-1 mtp-10 border-style-solid border-1 border-color-dark rounded-te-be-bs-20">
                                         <div className="f-Ubuntu-R fsp-16  lh-sm text-start p-2">¿De dónde obtienen los encuestados,  principalmente, los alimentos que consumen: del kiosco, casino, casa u otros?</div>
-                                        <div className="psp-10  pep-10  bgc-chitara rounded-seb-10">
+                                        <div className="psp-10  pep-10  bgc-chitara rounded-seb-set-20">
                                             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                                         </div>
                                     </div>
@@ -78,17 +78,17 @@ xxx
                             </div>
                             <div className="col-sm-12 col-md-6 p-0 m-0 position-relative ">
                                 <div className="mtp-20">
-                                    <div className="m-1 border-style-solid border-1 border-color-dark rounded-te-be-bs">
+                                    <div className="m-1 border-style-solid border-1 border-color-dark rounded-te-be-bs-20">
                                         <div className="f-Ubuntu-R fsp-16  lh-sm text-start p-2">¿Qué les gusta comer a la mayoría de los encuestados?</div>
-                                        <div className="psp-10  pep-10  bgc-chitara rounded-seb-10">
+                                        <div className="psp-10  pep-10  bgc-chitara rounded-seb-set-20 ">
                                             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-130" />
                                         </div>
                                     </div>
                                 </div>
                                 <div className="mtp-20">
-                                    <div className="m-1 border-style-solid border-1 border-color-dark rounded-te-be-bs">
+                                    <div className="m-1 border-style-solid border-1 border-color-dark rounded-te-be-bs-20">
                                         <div className="f-Ubuntu-R fsp-16  lh-sm text-start p-2">¿Qué información es importante para crear la propuesta de alimentación saludable?</div>
-                                        <div className="psp-10  pep-10  bgc-chitara rounded-seb-10">
+                                        <div className="psp-10  pep-10  bgc-chitara rounded-seb-set-20">
                                             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-130" />
                                         </div>
                                     </div>
