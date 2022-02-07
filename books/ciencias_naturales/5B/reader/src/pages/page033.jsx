@@ -79,30 +79,30 @@ function Page033(props) {
 
 
 
-                    
+
                     <div className="d-flex global-margin mtp-0 mbp-20 psp-30 pep-30 ptp-0 pbp-0">
                         <div className="row p-0 m-0 w-100">
                             <div className="col-sm-12 col-md-6 position-relative">
                                 <table className=" f-Ubuntu-L fsp-16 border-2 border-style-solid border-color-dark text-start mbp-20 ">
-                                <tr>
+                                    <tr>
                                         <td className=" f-Ubuntu-B border-2 border-style-solid border-color-dark text-center p-1" colspan="3">INFORMACIÓN NUTRICIONAL
                                         </td>
-                                        
+
                                     </tr>
                                     <tr>
                                         <td className=" border-2 border-style-solid border-color-dark text-center p-1" colspan="3">Porción: 1 vaso (200 mL)</td>
-                                        
+
                                     </tr>
                                     <tr>
                                         <td className=" border-2 border-style-solid border-color-dark p-1" colspan="3">Porciones por envase: 1</td>
-                                        
+
                                     </tr>
                                     <tr>
                                         <td className=" border-2 border-style-solid border-color-dark p-1 bgc-kagome"></td>
                                         <td className=" border-2 border-style-solid border-color-dark text-center p-1 bgc-kagome">100 mL</td>
                                         <td className=" border-2 border-style-solid border-color-dark text-center p-1 bgc-kagome">1 porción</td>
                                     </tr>
-                                    
+
                                     <tr>
                                         <td className=" border-2 border-style-solid border-color-dark bgc-azuka p-1">Energía (kcal)</td>
                                         <td className=" border-2 border-style-solid border-color-dark text-center p-1">29</td>
@@ -151,13 +151,13 @@ function Page033(props) {
                                     <tr>
                                         <td className=" border-2 border-style-solid border-color-dark p-1" colspan="3">(*) Porcentaje en relación con la dosis diaria
                                             recomendada.</td>
-                                        
+
                                     </tr>
                                 </table>
                             </div>
                             <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
                                 <div className="position-absolute top-100 start-100 translate-middle  zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="" alt="" /></div>
-                                
+
 
                                 <div className="d-flex msp-10 mep-10 mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
                                     <div className="row p-0 m-0 w-100">
@@ -183,7 +183,7 @@ function Page033(props) {
                                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />
                                                         <div className="text-start f-Ubuntu-L fsp-14 ">miligramos de sodio.</div>
                                                         <div className="text-start f-Ubuntu-L fsp-14 ptp-20 ">El porcentaje en relaci n a la dosis diaria
-                                                        recomendada de la vitamina C es</div>
+                                                            recomendada de la vitamina C es</div>
                                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />
                                                         <div className="text-start f-Ubuntu-L fsp-14 ptp-20 ">y de la vitamina B6</div>
                                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />

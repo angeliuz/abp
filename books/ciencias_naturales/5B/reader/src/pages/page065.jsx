@@ -16,7 +16,6 @@ function Page065(props) {
 
   return (
 
-
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
         <div className="page bgc-white overflow-hidden position-relative" id={"page_" + pagina}>
@@ -24,8 +23,8 @@ function Page065(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className={"cabecera-v2 d-flex flex-column " + background}>
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN 17</div>
-              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡Somos creativos en la campaña!</div>
+              <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN 18</div>
+              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Elaboramos nuestra campaña</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-95">
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
@@ -35,30 +34,33 @@ function Page065(props) {
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Establecer los recursos<br /> que hay que crear
+                Comprender el <br /> concepto de campaña
 
               </div>
               <div className="psp-5 pep-5 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Repartir tareas <br />y pensar en lo que se<br /> va a necesitar
+                Conocer los soportes <br />de una campaña
+
+              </div>
+              <div className="psp-5 pep-5 align-self-center">
+                <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
+              </div>
+              <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+                Elaborar una campaña <br />  de alimentación saludable
 
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
-              <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Escribir textos <br />llamativos para<br /> la campaña
-
-              </div>
-              <div className="psp-5 pep-5 align-self-center">
-                <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
-              </div>
-              <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Evaluar todas <br />las creaciones
-
-
+              <div className="psp-5 pep-5 ptp-10 pbp-10 position-relative align-self-center f-colby-compres-bold fsp-17 lh-sm text-center color-dark">
+                <div className="position-absolute top-0 start-0 w-100 h-100">
+                  <img src="images/cabecera/caja_blanca.png" width="100%" height="100%" alt="" />
+                </div>
+                <div className="position-relative">
+                  Evaluar cómo se trabaja<br />  en equipo y qué se puede mejorar
+                </div>
               </div>
             </div>
           </div>
@@ -66,15 +68,15 @@ function Page065(props) {
 
           <div className="ptp-30 container-titulo-global mbp-0">
             {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
-                            xxx
-                        </div> */}
+              xxx
+            </div> */}
             <div className="d-flex psp-20">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 1
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Al crear la campaña, con la que daremos a conocer nuestra propuesta de alimentación saludable, debemos tener presente que:
+                Leo la revista e identifico la función que quiero que tenga nuestra campaña.
               </div>
               {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
@@ -87,6 +89,133 @@ function Page065(props) {
 
 
 
+
+
+          <div className="d-flex global-margin mtp-0 mbp-0 psp-40 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 m-0 w-100">
+              <div className="col-6 p-0 col-sm-6 p-1 w-90">
+                <div className="w-100 border-style-solid  border-1 border-color-dark rounded-p-10  psp-10 pep-10 ptp-10">
+                  <div className="d-flex  p-0 m-0  ">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                    <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5"> Informativa, para</div>
+                  </div>
+                  <div className="">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
+                  </div>
+                </div>
+
+              </div>
+
+
+              <div className="col-6 p-0 col-sm-6 p-1 w-90">
+                <div className="w-100 border-style-solid  border-1 border-color-dark rounded-p-10  psp-10 pep-10 ptp-10">
+                  <div className="d-flex  p-0 m-0  ">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                    <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5"> Emotiva, para</div>
+                  </div>
+                  <div className="">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div className="ptp-30 container-titulo-global mbp-0">
+            {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+              xxx
+            </div> */}
+            <div className="d-flex psp-20">
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                2
+              </div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                Marco los soportes en los que suelo ver o escuchar más campañas.
+              </div>
+              {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
+              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+            </div>
+          </div>
+
+
+
+
+
+          <div className="d-flex global-margin mtp-0 mbp-80 psp-30 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 m-0 w-100">
+
+              <div className="col-lg-4 col-sm-6 d-inline m-0 ptp-10 pbp-10">
+                <div className="d-flex justify-content-center">
+                  <div className=" position-relative   ">
+                    <div className="position-absolute top-0 start-0 translate-middle   mtp-30 ">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                    </div>
+                    <img src={"images/page_" + pagina + "/img_004.jpg"} className="wp-170" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-sm-6 d-inline m-0 ptp-10 pbp-10">
+                <div className="d-flex justify-content-center">
+                  <div className=" position-relative   ">
+                    <div className="position-absolute top-0 start-0 translate-middle   mtp-30 ">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                    </div>
+                    <img src={"images/page_" + pagina + "/img_005.jpg"} className="wp-170" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-sm-6 d-inline m-0 ptp-10 pbp-10">
+                <div className="d-flex justify-content-center">
+
+                  <div className=" position-relative   ">
+                    <div className="position-absolute top-0 start-0 translate-middle   mtp-30 ">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                    </div>
+                    <img src={"images/page_" + pagina + "/img_006.jpg"} className="wp-170" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-sm-6 d-inline m-0 ptp-10 pbp-10">
+                <div className="d-flex justify-content-center">
+
+                  <div className=" position-relative   ">
+                    <div className="position-absolute top-0 start-0 translate-middle   mtp-30 ">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                    </div>
+                    <img src={"images/page_" + pagina + "/img_007.jpg"} className="wp-170" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-sm-6 d-inline m-0 ptp-10 pbp-10">
+                <div className="d-flex justify-content-center">
+
+                  <div className=" position-relative   ">
+                    <div className="position-absolute top-0 start-0 translate-middle   mtp-30 ">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                    </div>
+                    <img src={"images/page_" + pagina + "/img_008.jpg"} className="wp-170" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-sm-6 d-inline m-0 ptp-10 pbp-10">
+                <div className="d-flex justify-content-center">
+
+                  <div className=" position-relative   ">
+                    <div className="position-absolute top-0 start-0 translate-middle   mtp-30 ">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                    </div>
+                    <img src={"images/page_" + pagina + "/img_009.jpg"} className="wp-170" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
 
 

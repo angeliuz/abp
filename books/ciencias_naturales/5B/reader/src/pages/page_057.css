@@ -1,0 +1,9 @@
+@media (max-width: 767px) {
+ 
+ 
+    .rotar-flecha {
+      transform: rotate(90deg);
+      /* padding-top: 20px; */
+    }
+  }
+  
