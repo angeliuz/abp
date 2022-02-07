@@ -35,7 +35,7 @@ function Page066(props) {
                             xxx
                         </div> */}
             <div className="d-flex psp-20">
-              <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_.svg"} alt="" />
+              <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_001.svg"} alt="" />
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 3
               </div>
@@ -58,7 +58,7 @@ function Page066(props) {
 
 
 
-          <div className="d-flex global-margin mtp-15 mbp-0 psp-30 pep-0 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-15 mbp-0 psp-50 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
                 <div className="position-absolute top-0 start-0 translate-middle   msp--20 mtp-120 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-40 " alt="" /></div>
@@ -127,11 +127,7 @@ function Page066(props) {
 
                           </div>
                         </div>
-
-
                       </div>
-
-
                     </div>
                   </div>
 
@@ -197,18 +193,10 @@ function Page066(props) {
                           </div>
                         </div>
 
-
                       </div>
-
-
-
                     </div>
 
-
-
                   </div>
-
-
                 </div>
 
               </div>

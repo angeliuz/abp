@@ -168,11 +168,11 @@ function Page057(props) {
 
 
 
-                    <div className="d-flex global-margin mtp-10 mbp-0 psp-60 pep-0 ptp-0 pbp-0">
+                    <div className="d-flex global-margin mtp-10 mbp-90 psp-60 pep-0 ptp-0 pbp-0">
                         <div className="row p-0 m-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative    bgc-white   border-style-solid  border-1 shadow border-color-lightDark  ">
                                 <div className="position-absolute top-50 start-0 translate-middle    msp-0 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/img_006.svg"} className="wp-20" alt="" /></div>
-                                <div className="psp-25 ptp-10 ">
+                                <div className="psp-25 ptp-10 pep-20">
                                     <div className="f-Ubuntu-L fsp-15 lh-sm text-start  ">
                                         El objetivo de la jornada es difundir la camapaña con nuestra propuesta de
                                         alimentación saludable, para...
@@ -182,68 +182,6 @@ function Page057(props) {
                             </div>
                         </div>
                     </div>
-
-
-
-
-                    {/* 
-
-
-
-                    <div class="d-flex msp-100 mep-60 position-relative ">
-                        <div class="border border-3 p-3 hp-400 w-100 ">
-                            <div class="f-Ubuntu-L fsp-15 lh-sm msp-20">El objetivo de la jornada es difundir la camapaña con nuestra propuesta de
-                                alimentación saludable, para...</div>
-                            <img class="espiral" src="images/page_057/img_006.svg"  >
-                                <img class="wp-70 position-absolute img-bolsa" src="images/page_057/img_007.png" alt="">
-                                </div>
-                        </div>
-
-
- */}
-
-
-
-
-
-                    {/* <div className="d-flex global-margin mtp-50 mbp-0 psp-60 pep-40 ptp-0 pbp-0">
-                        <div className="row p-0 m-0 w-100    bgc-info border border-1 border-color-dark  ptp-10 pbp-10 rounded-seb-10">
-
-                            <div className="col-sm-12 col-md-4 bgc-red p-0 m-0 position-relative   ">
-                                <div className="d-flex justify-content-center">
-
-                                    <div className="rounded-p-10 border-style-solid border-1 border-color-dark m-1 p-2 wp-170   bgc-white">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-sm-12 col-md-1 bgc-goku p-0 m-0 position-relative h-80 wp-50  d-flex justify-content-center align-items-center bgc-yellow ">
-                                <div className="d-flex align-items-center "></div>
-                                <img src={"images/page_" + pagina + "/img_004.svg"} className="wp-30  flecha-rotar" alt="" />
-                            </div>
-
-                            <div className="col-sm-12 col-md-7 p-0 m-0 h-100   bgc-yellow   ">
-
-                                <div className="d-flex justify-content-end ">
-                                    <div className="rounded-p-10 border-style-solid border-1 border-color-dark m-1 p-2 wp-600   bgc-white">
-
-                                        <div className="mtp-0 ">
-                                            <div className="d-flex justify-content-start align-items-center  f-Ubuntu-R fsp-15 ptp-0 psp-5">Porque</div>
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
- */}
-
-
 
 
 
