@@ -1,0 +1,9 @@
+.mtp-20-p47 {
+    margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+    .mtp-20-p47 {
+        margin-top: -25px;
+    }
+}
