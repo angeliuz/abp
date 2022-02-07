@@ -86,7 +86,7 @@ function Page045(props) {
             <div className="row p-0 m-0 w-100 p-2 bgc-chitara  sombra   position-relative">
               <div className="position-absolute top-0 start-100 translate-middle       msp-0  visible-768 zindex-1"><img src={"images/page_" + pagina + "/tabla.png"} className="wp-80 mtp-30" alt="" /></div>
               <div className="position-absolute top-0 start-0 translate-middle         msp--10  visible-768 zindex-1"><img src={"images/page_" + pagina + "/lupa.png"} className="wp-40 mtp-100" alt="" /></div>
-              <div className="position-absolute top-100 start-100 translate-middle     msp--30  visible-768 zindex-1"><img src={"images/page_" + pagina + "/mono.png"} className="wp-120 mtp-100" alt="" /></div>
+              <div className="position-absolute top-100 start-100 translate-middle     msp--30  visible-768   zindex-1"><img src={"images/page_" + pagina + "/mono.png"} className="wp-120 mtp-100" alt="" /></div>
               <div className="col-6 p-0 m-0 ">
                 <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                   Compran en el kiosco:
@@ -138,7 +138,6 @@ xxx
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
-
 
 
 

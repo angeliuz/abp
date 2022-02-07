@@ -119,7 +119,7 @@ function Page044(props) {
 
                     <div className="d-flex global-margin mtp-20 mbp-110  psp-0 pep-0 ptp-0 pbp-0">
                         <div className="row p-0 m-0  w-100">
-                            <div className="col-12 p-0 msp--40 position-relative">
+                            <div className="col-12 p-0 msp--10 position-relative">
                                 <div className="d-flex justify-content-center">
                                     <div className=" wp-500  psp-20 pbp-20  ptp-10 pep-10 border-style-solid border-1 border-color-dark bgc-pantro  position-relative ">
                                         <div className="position-absolute top-0 start-0 translate-middle     msp-20  mtp-20   hp-15 wp-15   border-style-solid  border-color-dark border-1 bgc-saitama rounded-circle "></div>
