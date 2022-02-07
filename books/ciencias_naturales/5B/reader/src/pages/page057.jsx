@@ -93,14 +93,14 @@ function Page057(props) {
 
 
 
-                    <div className="d-flex global-margin mtp-50 mbp-0 psp-60 pep-40 ptp-0 pbp-0">
+                    <div className="d-flex global-margin mtp-20 mbp-0 psp-60 pep-40 ptp-0 pbp-0">
                         <div className="row p-0 m-0 w-100">
-                            <div className="col-12 p-0 m-0 position-relative   bgc-shaokhan border border-1 border-color-dark  ptp-15 pbp-15 rounded-seb-10">
+                            <div className="col-12 p-0 m-0 position-relative     ptp-15 pbp-15 rounded-seb-10">
 
 
-                                <div className="row   bgc-info border border-1 border-color-dark  ptp-10 pbp-10 rounded-seb-10">
+                                <div className="row    ptp-10 pbp-10 rounded-seb-10">
 
-                                    <div className="col-sm-12 col-md-4 bgc-red p-0 m-0 position-relative   ">
+                                    <div className="col-sm-12 col-md-4   p-0 m-0 position-relative   ">
                                         <div className="d-flex center-center h-100">
 
                                             {/* <div className="d-flex justify-content-center align-items-center"></div> */}
@@ -110,12 +110,12 @@ function Page057(props) {
                                         </div>
                                     </div>
 
-                                    <div className="col-sm-12 col-md-1 bgc-goku p-0 m-0 position-relative  wp-50  d-flex justify-content-center align-items-center bgc-yellow ">
+                                    <div className="col-sm-12 col-md-1   p-0 m-0 position-relative  wp-50  d-flex justify-content-center align-items-center  ">
                                         <div className="d-flex align-items-center "></div>
                                         <img src={"images/page_" + pagina + "/img_004.svg"} className="wp-30 rotar-flecha" alt="" />
                                     </div>
 
-                                    <div className="col-sm-12 col-md-7 p-0 m-0 h-100   bgc-yellow   ">
+                                    <div className="col-sm-12 col-md-7 p-0 m-0 h-100     ">
 
                                         <div className="d-flex justify-content-end ">
                                             <div className="rounded-p-10 border-style-solid border-1 border-color-dark m-1 p-2 wp-600   bgc-white">
@@ -139,7 +139,7 @@ function Page057(props) {
 
 
 
-                    <div className="container-titulo-global mtp-20 mbp-0">
+                    <div className="container-titulo-global mtp-10 mbp-0">
                         {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
                             xxx
                         </div> */}
@@ -168,7 +168,7 @@ function Page057(props) {
 
 
 
-                    <div className="d-flex global-margin mtp-20 mbp-0 psp-60 pep-0 ptp-0 pbp-0">
+                    <div className="d-flex global-margin mtp-10 mbp-0 psp-60 pep-0 ptp-0 pbp-0">
                         <div className="row p-0 m-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative    bgc-white   border-style-solid  border-1 shadow border-color-lightDark  ">
                                 <div className="position-absolute top-50 start-0 translate-middle    msp-0 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/img_006.svg"} className="wp-20" alt="" /></div>
