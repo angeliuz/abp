@@ -1,0 +1,38 @@
+.caja-flotante {
+    /* background-color: aqua; */
+    max-width: 820px;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+  .rotar {
+    transform: rotate(90deg);
+    margin-left: calc(100% - 40px);
+    margin-top: 10px;
+    margin-bottom: -20px;
+    width: 60px;
+  }
+  .separa {
+    padding-bottom: 15px;
+  }
+  .espacio {
+    margin-bottom: 15px;
+  }
+}
+
+.linea {
+  border-bottom: 2px dotted gray;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+
+/* .tarjeta {
+  background-image: url(images/page_044/tarjeta.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 230px;
+  height: 38px;
+  margin-left: calc(50% - 115px);
+  margin-bottom: -2px;
+} */
