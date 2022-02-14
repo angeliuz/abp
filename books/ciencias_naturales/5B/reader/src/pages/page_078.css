@@ -1,3 +1,11 @@
-.bgc-miko{
-    background-color: #c4dad1;
+.abajo{
+    position:absolute;
+    z-index: -1;
 }
+.sobre{
+    position:absolute;
+    z-index: 2;
+}
+
+
+

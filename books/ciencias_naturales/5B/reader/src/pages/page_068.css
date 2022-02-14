@@ -7,3 +7,10 @@
 .bgc-trans-gdosier1{
     background-color: #c768b775;
   }
+
+.gira--2{
+    transform:rotate(-2deg);
+}
+.gira-2{
+    transform:rotate(2deg);
+}
