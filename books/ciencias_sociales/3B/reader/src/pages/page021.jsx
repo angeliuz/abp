@@ -31,7 +31,7 @@ function Page021(props) {
           <div className="justify-content-center max-img ">
             <div className="">
               <img
-                src="images/page_021/img_001.jpg"
+                src="images/page_021/img_004.png"
                 className="img-fluid"
                 alt=""
               />
