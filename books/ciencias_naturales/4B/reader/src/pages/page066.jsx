@@ -72,13 +72,13 @@ function Page066(props) {
           </div>
           <div className="cb-calc p-2 mx-auto cb-600 d-flex justify-content-between mbp-70">
             <div className="wp-150 hp-150 border-style-solid border-1 border-color-dark rounded-50 d-flex center-center">
-              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+              {/*  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />*/}
             </div>
             <div className="wp-150 hp-150 border-style-solid border-1 border-color-dark rounded-50 d-flex center-center">
-              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+              {/* <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />*/}
             </div>
             <div className="wp-150 hp-150 border-style-solid border-1 border-color-dark rounded-50 d-flex center-center">
-              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+              {/* <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />*/}
             </div>
 
           </div>
