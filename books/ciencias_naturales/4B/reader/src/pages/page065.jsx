@@ -49,7 +49,7 @@ function Page065(props) {
               <div className="text-start psp-10" ></div>
             </div>
             {/* BEGIN TABLE */}
-            <div className="msp-20 mep-20 psp-0 pep-0 ptp-10 pbp-10  f-Ubuntu-L fsp-13 rounded-p-10 ">
+            <div className="msp-5 mep-5 psp-0 pep-0 ptp-10 pbp-10  f-Ubuntu-L fsp-13 rounded-p-10 ">
               <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-0">
                 {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/generales/ticket.svg" className="hp-17 mtp--3 msp-5 mep-5" alt=""/>el recuadro que mejor me represente.</span> */}
                 <div className="w-100 p-0 pb-3 position-relative">
@@ -70,7 +70,7 @@ function Page065(props) {
                       <tr>
                         <td className={" rounded-ts-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 " + borderColorTabla}>
                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 ">
-                            <div className="psp-10 ptp-5 pbp-5  border-1 border-color-pikachu border-style-solid w-100 rounded-p-10 bgc-white">
+                            <div className="p-2 pbp-5  border-1 border-color-pikachu border-style-solid w-100 rounded-p-10 bgc-white">
                               ¿Consideras importante que el colegio cuente con brigadas de seguridad?
                             </div>
                           </div>
