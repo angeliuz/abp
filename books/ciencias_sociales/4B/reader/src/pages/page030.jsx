@@ -46,7 +46,7 @@ function Page030(props) {
                             {/* <div className="col-6 ptp-10">Preguntas</div>
     <div className="col-6 ptp-10">Importancia</div> */}
                             <div className="col-6 position-relative">
-                                <div className="position-absolute top-50 start-100 translate-middle wp-100  mtp-0 zindex-1"><img src="images/page_030/img_002.svg" className="wp-40" alt="" /></div>
+                                <div className="position-absolute top-0 start-100 translate-middle wp-100  mtp-75 zindex-1"><img src="images/page_030/img_002.svg" className="wp-40" alt="" /></div>
                                 {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
                                 <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
                                     <div className="p-2 min-hp-100 w-100 border-style-dashed border-2 rounded-p-10 border-color-rex ">
@@ -66,7 +66,7 @@ function Page030(props) {
                                 </div>
                             </div>
                             <div className="col-6 position-relative">
-                                <div className="position-absolute top-50 start-100 translate-middle wp-100  mtp-0 zindex-1"><img src="images/page_030/img_002.svg" className="wp-40" alt="" /></div>
+                                <div className="position-absolute top-0 start-100 translate-middle wp-100  mtp-75 zindex-1"><img src="images/page_030/img_002.svg" className="wp-40" alt="" /></div>
                                 {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
                                 <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
                                     <div className="p-2 min-hp-100 w-100 border-style-dashed border-2 rounded-p-10 border-color-rex ">
@@ -86,7 +86,7 @@ function Page030(props) {
                                 </div>
                             </div>
                             <div className="col-6 position-relative">
-                                <div className="position-absolute top-50 start-100 translate-middle wp-100  mtp-0 zindex-1"><img src="images/page_030/img_002.svg" className="wp-40" alt="" /></div>
+                                <div className="position-absolute top-0 start-100 translate-middle wp-100  mtp-75 zindex-1"><img src="images/page_030/img_002.svg" className="wp-40" alt="" /></div>
                                 {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
                                 <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
                                     <div className="p-2 min-hp-100 w-100 border-style-dashed border-2 rounded-p-10 border-color-rex ">
@@ -107,7 +107,7 @@ function Page030(props) {
                                 </div>
                             </div>
                             <div className="col-6 position-relative">
-                                <div className="position-absolute top-50 start-100 translate-middle wp-100  mtp-0 zindex-1"><img src="images/page_030/img_002.svg" className="wp-40" alt="" /></div>
+                                <div className="position-absolute top-0 start-100 translate-middle wp-100  mtp-75 zindex-1"><img src="images/page_030/img_002.svg" className="wp-40" alt="" /></div>
                                 {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
                                 <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
                                     <div className="p-2 min-hp-100 w-100 border-style-dashed border-2 rounded-p-10 border-color-rex ">

@@ -70,7 +70,7 @@ function Page029(props) {
 
                     <div className="d-flex msp-80 mep-60 mbp-20">
 
-                        <div className="row bgc-vegeta w-100 f-Ubuntu-R fsp-15 rounded-p-20">
+                        <div className="row bgc-kratos w-100 f-Ubuntu-R fsp-15 rounded-p-20">
                             {/* <div className="col-6 ptp-10">Preguntas</div>
                             <div className="col-6 ptp-10">Importancia</div> */}
                             <div className="col-6 position-relative">

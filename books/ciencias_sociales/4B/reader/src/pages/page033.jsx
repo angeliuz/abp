@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 
 import "./page_033.css";
 
@@ -59,7 +60,7 @@ function Page033(props) {
                                 </div>
                                 <div className="position-absolute top-100 start-0 translate-middle  mtp--90 msp--40 "><img src={"images/page_" + pagina + "/img_005.png"} className=" " alt="" />
                                 </div>
-                                <div className="d-flex flex-column psp-20 pep-20 ptp-0 pbp-10  border-style-solid border-3 border-color-goku bgc-azuka w-100 rounded-p-20">
+                                <div className="d-flex flex-column psp-20 pep-20 ptp-0 pbp-10  border-style-solid border-3 border-color-boros bgc-freya w-100 rounded-p-20">
 
 
                                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-500" />
@@ -101,33 +102,24 @@ function Page033(props) {
 
                                         <div className="d-flex">
                                             <div className="ptp-0">
-                                                <div className="border-style-solid border-2 border-color-lightDark  bgc-white">
-                                                    <InputBox
-                                                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                        className="p-0 px-0 text-center wp-30 hp-30 lhp-30 min-hp-30"
-                                                    />
+                                                <div>
+                                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                 </div>
                                             </div>
                                             <div className="psp-10 ptp-0 f-Ubuntu-L fsp-16 text-start">Entregamos nuestras propuestas para realizar las entrevistas.</div>
                                         </div>
                                         <div className="d-flex">
                                             <div className="ptp-10">
-                                                <div className="border-style-solid border-2 border-color-lightDark  bgc-white">
-                                                    <InputBox
-                                                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                        className="p-0 px-0 text-center wp-30 hp-30 lhp-30 min-hp-30"
-                                                    />
+                                                <div>
+                                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                 </div>
                                             </div>
                                             <div className="psp-10 ptp-10 f-Ubuntu-L fsp-16 text-start">Preparamos las entrevistas creando preguntas.</div>
                                         </div>
                                         <div className="d-flex">
                                             <div className="ptp-10">
-                                                <div className="border-style-solid border-2 border-color-lightDark  bgc-white">
-                                                    <InputBox
-                                                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                        className="p-0 px-0 text-center wp-30 hp-30 lhp-30 min-hp-30"
-                                                    />
+                                                <div>
+                                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                 </div>
                                             </div>
                                             <div className="psp-10 ptp-10 f-Ubuntu-L fsp-16 text-start">Elaboramos el guion de las entrevistas que realizaremos.</div>

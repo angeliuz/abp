@@ -139,6 +139,8 @@
   --debussy:#C3318F;
   --jugador001:#FFFEF1;
   --wagner:#fcccc4;
+  --kratos:#95d3e0;
+  --freya:#fff5d8;
 }
 
 /* COLORES */
@@ -822,6 +824,12 @@
 .color-wagner {
   color: var(--wagner);
 }
+.color-kratos {
+  color: var(--kratos);
+}
+.color-freya {
+  color: var(--freya);
+}
 
 
 
@@ -1276,6 +1284,12 @@
 .border-color-wagner {
   border-color: var(--wagner) !important;
 }
+.border-color-kratos {
+  border-color: var(--kratos) !important;
+}
+.border-color-freya {
+  border-color: var(--freya) !important;
+}
 /* B
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1707,4 +1721,10 @@
 }
 .bgc-wagner {
   background-color: var(--wagner);
+}
+.bgc-kratos {
+  background-color: var(--kratos);
+}
+.bgc-freya {
+  background-color: var(--freya);
 }

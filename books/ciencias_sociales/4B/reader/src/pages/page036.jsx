@@ -39,7 +39,7 @@ function Page036(props) {
 
           <div className="d-flex msp-60 mep-60 mbp-100">
 
-            <div className="row m-0 p-2 bgc-azuka rounded-p-20 w-100">
+            <div className="row m-0 p-2 bgc-freya rounded-p-20 w-100">
 
                 <div className="col-md-12 col-lg-12 position-relative">
                   <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-20 visible-768"><img src="images/page_036/img_001.png" className="wp-80 " alt="" /></div> 
