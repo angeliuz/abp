@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import ModalVideo from "../components/ModalVideo";
+import Check from "../components/Check";
 
 import "./page_027.css";
 
@@ -66,9 +67,9 @@ function Page027(props) {
                 <div className="position-absolute top-0 start-100 translate-middle mtp--10 msp-20 "><img src="images/page_027/img_002.png" className="" alt="" /></div>
                 <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 visible-768"><img src="images/page_050/espiral.svg" className="wp-50 " alt="" /></div>
                 <div className="">
-                  <div className="f-Ubuntu-B alinea rounded-set-10 bgc-pikachu w-100 p-2 text-center color-white">Siento que con mis
+                  <div className="f-Ubuntu-B alinea rounded-set-10 bgc-saitama w-100 p-2 text-center color-white">Siento que con mis
                     compañeros de curso soy:</div>
-                  <div className="linea1 bgc-white p-2  rounded-seb-20 border-style-solid border-color-pikachu border-2">
+                  <div className="linea1 bgc-white p-2  rounded-seb-20 border-style-solid border-color-saitama border-2">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                   </div>
                 </div>
@@ -105,7 +106,7 @@ function Page027(props) {
           <div className="d-flex msp-60 mep-60 mbp-0 mtp-0">
             <div className="row m-0  ptp-10 pbp-0 w-100">
 
-              <div className="col-6">
+              <div className="col-6 position-relative">
                 <div className="" ><img src="images/page_027/img_007.jpg" className="w-100 position-relative" alt="" />
                   <div className="border-style-solid border-2 border-color-lightDark bgc-white position-absolute mtp--50 msp-10 rounded-50">
                     <InputBox

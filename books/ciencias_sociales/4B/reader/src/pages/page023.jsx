@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import ModalVideo from "../components/ModalVideo";
+import Check from "../components/Check";
 
 import "./page_023.css";
 
@@ -78,11 +79,8 @@ function Page023(props) {
                   <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-L fsp-18 box-shadow-simple bgc-azuka">
                     <div className="d-flex">
                       <div className="ptp-0">
-                        <div className="border-style-solid border-2 border-color-lightDark bgc-white ">
-                          <InputBox
-                            id={"p" + pagina + "_input" + (indexInput += 1)}
-                            className="p-0 px-0 text-center wp-30 hp-30 lhp-30 min-hp-30"
-                          />
+                        <div>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         </div>
                       </div>
                       <div className="psp-10 ptp-0 text-start">
@@ -91,11 +89,8 @@ function Page023(props) {
                     </div>
                     <div className="d-flex">
                       <div className="ptp-10">
-                        <div className="border-style-solid border-2 border-color-lightDark  bgc-white">
-                          <InputBox
-                            id={"p" + pagina + "_input" + (indexInput += 1)}
-                            className="p-0 px-0 text-center wp-30 hp-30 lhp-30 min-hp-30"
-                          />
+                        <div>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         </div>
                       </div>
                       <div className="psp-10 ptp-10 text-start">
@@ -104,11 +99,8 @@ function Page023(props) {
                     </div>
                     <div className="d-flex">
                       <div className="ptp-10">
-                        <div className="border-style-solid border-2 border-color-lightDark  bgc-white">
-                          <InputBox
-                            id={"p" + pagina + "_input" + (indexInput += 1)}
-                            className="p-0 px-0 text-center wp-30 hp-30 lhp-30 min-hp-30"
-                          />
+                        <div>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         </div>
                       </div>
                       <div className="psp-10 ptp-10 text-start">
@@ -123,18 +115,18 @@ function Page023(props) {
 
           <div className="ptp-30 container-titulo-global ">
             <div
-              className={"f-Ubuntu-B fsp-20 psp-40 text-start lhp-20 " + color}
+              className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 " + color}
             >
               Conocemos otras experiencias y reflexionamos
             </div>
-            <div className="d-flex">
+            <div className="d-flex ">
               <img
                 className="hp-20 align-center mt-3 me-2 mb-2"
                 src={"images/page_" + pagina + "/img_004.svg"}
                 alt=""
               />
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                4
+                2
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                 En parejas, leemos el reportaje y conversamos.
@@ -151,7 +143,7 @@ function Page023(props) {
             </div>
           </div>
 
-          <div className=" container-titulo-global mbp-20">
+          <div className=" container-titulo-global mbp-20 msp-0">
             {/* <div className={"f-Ubuntu-B fsp-20 psp-40 text-start lhp-20 "+color}>
             Conocemos otras experiencias y reflexionamos
                 </div> */}
