@@ -137,6 +137,7 @@
   --lizt:#6CAFD7;
   --kazuha:#fddfd7;
   --sayu:#fee0c2;
+  --atreus:#ffcb0a;
 }
 
 /* COLORES */
@@ -813,7 +814,9 @@
 .color-kazuha {
   color: var(--kazuha);
 }
-
+.color-atreus {
+  color: var(--atreus);
+}
 
 
 
@@ -1261,6 +1264,9 @@
 }
 .border-color-sayu{
   border-color: var(--sayu) !important;
+}
+.border-color-atreus{
+  border-color: var(--atreus) !important;
 }
 
 
@@ -1710,4 +1716,7 @@
 }
 .bgc-sayu {
   background-color: var(--sayu);
+}
+.bgc-atreus {
+  background-color: var(--atreus);
 }
