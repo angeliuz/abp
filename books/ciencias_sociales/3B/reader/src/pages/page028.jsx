@@ -43,7 +43,7 @@ function Page028(props) {
               </div>
 
               <div className="col-6 position-relative">
-                <div className="d-flex position-relative bgc-white box-shadow-simple mtp-20 psp-20 pep-20 ptp-20">
+                <div className=" position-relative bgc-white box-shadow-simple mtp-20 psp-20 pep-20 ptp-20">
 
                   <div className="position-absolute top-0 start-50 translate-middle mtp--20 msp-0">
                     <img src="images/page_028/img_001.png" className=" wp-40 position-absolute top-0 start-50 translate-middle-x" alt="" />
@@ -54,7 +54,7 @@ function Page028(props) {
               </div>
 
               <div className="col-6 position-relative">
-                <div className="d-flex position-relative bgc-white box-shadow-simple mtp-20 psp-20 pep-20 ptp-20">
+                <div className="position-relative bgc-white box-shadow-simple mtp-20 psp-20 pep-20 ptp-20">
 
                   <div className="position-absolute top-0 start-50 translate-middle mtp--20 msp-0">
                     <img src="images/page_028/img_001.png" className=" wp-40 position-absolute top-0 start-50 translate-middle-x" alt="" />
@@ -65,7 +65,7 @@ function Page028(props) {
               </div>
 
               <div className="col-6 position-relative">
-                <div className="d-flex position-relative bgc-white box-shadow-simple mtp-20 psp-20 pep-20 ptp-20">
+                <div className="position-relative bgc-white box-shadow-simple mtp-20 psp-20 pep-20 ptp-20">
 
                   <div className="position-absolute top-0 start-50 translate-middle mtp--20 msp-0">
                     <img src="images/page_028/img_001.png" className=" wp-40 position-absolute top-0 start-50 translate-middle-x" alt="" />
