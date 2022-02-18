@@ -51,21 +51,25 @@ function Page024(props) {
                         </div>
                         <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-10 text-start">
                             <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
-                                <div className="wp-25 hp-25 border-style-solid border-1 border-color-dark bgc-white">
-                                {/* <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check> */}
+                                <div>
+                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                 </div>
                             </div>
                             <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">Cáscara de plátano</div>
                         </div>
                         <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-10 text-start">
                             <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
-                                <div className="wp-25 hp-25 border-style-solid border-1 border-color-dark bgc-white"></div>
+                                <div>
+                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                </div>
                             </div>
                             <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">Bolsa de té</div>
                         </div>
                         <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-10 text-start">
                             <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
-                                <div className="wp-25 hp-25 border-style-solid border-1 border-color-dark bgc-white"></div>
+                                <div >
+                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                </div>
                             </div>
                             <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">Tapa plástica</div>
                         </div>
@@ -81,19 +85,25 @@ function Page024(props) {
                         </div>
                         <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-10 text-start">
                             <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
-                                <div className="wp-25 hp-25 border-style-solid border-1 border-color-dark bgc-white"></div>
+                                <div>
+                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                </div>
                             </div>
                             <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">Cáscara de plátano</div>
                         </div>
                         <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-10 text-start">
                             <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
-                                <div className="wp-25 hp-25 border-style-solid border-1 border-color-dark bgc-white"></div>
+                                <div>
+                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                </div>
                             </div>
                             <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">Bolsa de té</div>
                         </div>
                         <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-10 text-start">
                             <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
-                                <div className="wp-25 hp-25 border-style-solid border-1 border-color-dark bgc-white"></div>
+                                <div>
+                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                </div>
                             </div>
                             <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">Tapa plástica</div>
                         </div>
