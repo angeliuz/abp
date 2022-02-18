@@ -141,6 +141,7 @@
   --wagner:#fcccc4;
   --kratos:#95d3e0;
   --freya:#fff5d8;
+  --loki:#f4f1e8;
 }
 
 /* COLORES */
@@ -830,6 +831,10 @@
 .color-freya {
   color: var(--freya);
 }
+.color-loki {
+  color: var(--loki);
+}
+
 
 
 
@@ -1290,6 +1295,9 @@
 .border-color-freya {
   border-color: var(--freya) !important;
 }
+.border-color-loki {
+  border-color: var(--loki) !important;
+}
 /* B
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1727,4 +1735,7 @@
 }
 .bgc-freya {
   background-color: var(--freya);
+}
+.bgc-loki {
+  background-color: var(--loki);
 }
