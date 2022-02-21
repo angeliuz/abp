@@ -31,7 +31,7 @@ function Page073(props) {
                     4
                   </div>
                   <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                    Leemos los consejos de la revista y, antes de presentarnos a toda comunidad 96 educativa, ensayamos lo que diremos frente a nuestro curso.
+                    Leemos los consejos de la revista y, antes de presentarnos a toda comunidad educativa, ensayamos lo que diremos frente a nuestro curso.
                   </div>
                   {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                   {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
@@ -50,7 +50,7 @@ function Page073(props) {
                       PASO 1
                     </div>
                     <div className="text-center w-100 border-2 border-style-solid border-color-marcianos rounded-p-10 pbp-30 bgc-white">
-                      <div className="f-Ubuntu-L fsp-15 rounded-p-10 max-wp-200 mx-auto mtp-10 hp-60 pep-20 psp-20 ptp-10 pbp-10 bgc-qiqi d-flex justify-content-center align-items-center">
+                      <div className="f-Ubuntu-R fw-700 fsp-15 rounded-p-10 max-wp-200 mx-auto mtp-10 hp-60 pep-20 psp-20 ptp-10 pbp-10 bgc-qiqi d-flex justify-content-center align-items-center">
                         Tenemos los mensajes
                       </div>
                       <div className="d-flex justify-content-start mbp-5 psp-15 ">
@@ -77,7 +77,7 @@ function Page073(props) {
                       PASO 2
                     </div>
                     <div className="text-center w-100 border-2 border-style-solid border-color-marcianos rounded-p-10 pbp-50 bgc-white">
-                      <div className="f-Ubuntu-L fsp-15 rounded-p-10 max-wp-200 mx-auto mtp-10 hp-60 pep-20 psp-20 ptp-10 pbp-10 bgc-qiqi d-flex justify-content-center align-items-center">
+                      <div className="f-Ubuntu-R fw-700 fsp-15 rounded-p-10 max-wp-200 mx-auto mtp-10 hp-60 pep-20 psp-20 ptp-10 pbp-10 bgc-qiqi d-flex justify-content-center align-items-center">
                         Preparamos una pauta
                       </div>
                       <div className="d-flex justify-content-start mbp-5 psp-15 ">
@@ -106,7 +106,7 @@ function Page073(props) {
                     PASO 3
                   </div>
                   <div className="text-center w-100 border-2 border-style-solid border-color-marcianos rounded-p-10 pbp-50 bgc-white">
-                    <div className="f-Ubuntu-L fsp-15 rounded-p-10 max-wp-300 mx-auto mtp-10 hp-60 pep-20 psp-20 ptp-10 pbp-10 bgc-qiqi d-flex justify-content-center align-items-center">
+                    <div className="f-Ubuntu-R fw-700 fsp-15 rounded-p-10 max-wp-300 mx-auto mtp-10 hp-60 pep-20 psp-20 ptp-10 pbp-10 bgc-qiqi d-flex justify-content-center align-items-center">
                       Ensayamos en voz alta
                     </div>
                     <div className="mx-auto max-wp-400 mtp-15">

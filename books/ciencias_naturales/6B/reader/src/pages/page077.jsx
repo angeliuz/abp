@@ -43,13 +43,13 @@ function Page077(props) {
                             <tbody>
                               <tr>
                                 <td><div className="w-24 f-Ubuntu-L text-start justify-content-start">¿Cómo hemos aprendido en equipo?</div></td>
-                                <td className={"style-caja bgc-obiwan tf-letra border-style-solid border-1 border-color-obiwan f-colby-compres-bold ps-2 pe-2"}>
+                                <td className={"style-caja bgc-obiwan tf-letra border-style-solid border-1 border-color-obiwan f-colby-compres-bold ps-2 pe-2 color-white"}>
                                   Nunca</td>
-                                <td style={{ minWidth: "55px" }} className={"style-caja bgc-obiwan tf-letra  border-style-solid border-1 border-color-obiwan f-colby-compres-bold ps-2 pe-2"}>
+                                <td style={{ minWidth: "55px" }} className={"style-caja bgc-obiwan tf-letra  border-style-solid border-1 border-color-obiwan f-colby-compres-bold ps-2 pe-2 color-white"}>
                                   A veces</td>
-                                <td className={"style-caja bgc-obiwan tf-letra border-style-solid border-1 border-color-obiwan f-colby-compres-bold ps-2 pe-2"}>
+                                <td className={"style-caja bgc-obiwan tf-letra border-style-solid border-1 border-color-obiwan f-colby-compres-bold ps-2 pe-2 color-white"}>
                                   Generalmente</td>
-                                <td className={"style-caja bgc-obiwan tf-letra  border-style-solid border-1 border-color-obiwan f-colby-compres-bold ps-2 pe-2"}>
+                                <td className={"style-caja bgc-obiwan tf-letra  border-style-solid border-1 border-color-obiwan f-colby-compres-bold ps-2 pe-2 color-white"}>
                                   Siempre</td>
                               </tr>
                               <tr className="bgc-white">
