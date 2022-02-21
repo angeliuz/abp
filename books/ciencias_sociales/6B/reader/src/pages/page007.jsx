@@ -35,7 +35,7 @@ function Page007(props) {
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Averiguar y comprender en <br /> qué consiste el desafío
+                Averiguar en qué <br /> consiste el desafío
               </div>
               <div className="psp-5 pep-5 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
@@ -73,7 +73,7 @@ function Page007(props) {
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
-          <div class="cb-contenedor-mail position-relative">
+          <div class="cb-contenedor-mail position-relative ">
             <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp--20 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-50" alt="" /></div>
             <div class="cb-datos-mail pep-15 psp-10 ptp-10 pbp-10">
               <div class="d-flex mbp-5">
@@ -85,7 +85,7 @@ function Page007(props) {
                 <div class="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start"> Exposición</div>
               </div>
             </div>
-            <div class="cb-texto-mail position-relative">
+            <div class="cb-texto-mail position-relative mbp-90">
               <div class="cb-carta-content f-Ubuntu-L text-start">
                 <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-50" alt="" /></div>
                 <div className="position-absolute top-100 start-0 translate-middle msp-60 mtp--10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-120" alt="" /></div>

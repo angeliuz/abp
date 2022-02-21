@@ -53,11 +53,11 @@ function Page010(props) {
 
               {/* SECCION COMO VOY */}
 
-              <div className="row w-100 p-0 m-0">
+              <div className="row w-100 p-0 m-0 ">
                 <div className="col-12 position-relative max-wp-600 mx-auto">
                   <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-130" alt="" /></div>
-                  <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
-                  <div className="d-flex flex-column mbp-20 mtp-10 w-100">
+                  <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo vamos?</div>
+                  <div className="d-flex flex-column mbp-20 mtp-10 w-100 mbp-80">
                     <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
                       <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
                         <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 wp-15" alt="" />
