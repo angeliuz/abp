@@ -33,13 +33,13 @@ function Page007(props) {
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Averiguar y comprender en  <br /> individual para aceptar <br />el desafío
+                Averiguar y comprender en  <br /> qué consiste el desafío
               </div>
               <div className="psp-5 pep-5 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Escribir un acuerdo <br /> completar una ficha de <br />inscripción
+                Escribir un acuerdo <br /> individual para aceptar <br />el desafío
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
@@ -88,7 +88,7 @@ function Page007(props) {
 
 
           <div className="cb-contenedor-mail text-start position-relative">
-            <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 visible-768 zindex-2"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-80" alt="" /></div>
+            <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-80" alt="" /></div>
             <div className="cb-datos-mail pep-15 psp-10 ptp-10 pbp-10">
               <div className="d-flex mbp-5">
                 <div className="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">De:</div>

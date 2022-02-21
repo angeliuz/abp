@@ -79,7 +79,8 @@ function Page008(props) {
 
           <div className={"w-100 mtp-50 mbp-0 psp-0 pep-0 ptp-0 pbp-100 " + bgc_cajas + " border-top-style-solid " + borderColor + " border-2"}>
 
-            <div className="d-flex flex-column global-margin mtp-20 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+            <div className="d-flex flex-column global-margin mtp-20 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-relative">
+              <div className="position-absolute top-0 start-100 translate-middle msp--20 mtp--15 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-100" alt="" /></div>
               <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-10">¿Cómo voy?</div>
               <div className="d-flex flex-column bgc-white rounded-p-10 psp-10 pep-10 ptp-10 pbp-10 mtp-0 mbp-0">
                 <div className="row p-0 m-0 w-100">
