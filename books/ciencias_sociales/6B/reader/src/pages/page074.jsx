@@ -77,7 +77,7 @@ function Page074(props) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="position-relative mtp-30">
+                            <div className="position-relative mtp-30 mbp-190">
                                 <div className="psp-30 pep-10 ptp-10 pbp-20 max-wp-400 top-100 start-50 translate-middle msp-0 mtp-50 d-flex bgc-marcianos position-absolute border-1 border-style-solid border-color-dark">
                                     <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                                         4

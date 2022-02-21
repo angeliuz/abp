@@ -89,7 +89,7 @@ function Page077(props) {
                   </div>
                 </div>
                 {/* BEGIN EJERCICIO 2 */}
-                <div className="max-wp-640 f-Ubuntu-L fsp-15 text-start mx-auto mbp-10">
+                <div className="max-wp-640 f-Ubuntu-L fsp-15 text-start mx-auto mbp-10 psp-10">
                   Después de todo el trabajo, valoramos así lo que hemos hecho:
                 </div>
                 <div className="row mx-auto d-flex f-Ubuntu-R fsp-15 mbp-20 justify-content-center">
@@ -105,7 +105,7 @@ function Page077(props) {
                       </div>
                     </div>
                   </div>
-                  <div className="col-sm-12 col-md-5 position-relative">
+                  <div className="col-sm-12 col-md-5 position-relative mbp-70">
                     <div className="position-absolute top-100 start-100 translate-middle msp--30 mtp-0 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-80" alt="" /></div>
                     <div className="text-center w-100 border-1 border-style-solid border-color-dark rounded-p-10 pbp-30 bgc-white mtp-10">
                       <div className="f-Ubuntu-L fsp-15 rounded-p-10 max-wp-200 mx-auto  hp-40 pep-20 psp-20 ptp-10 pbp-10 mtp--5 bgc-trans-madoka d-flex justify-content-center align-items-center">
