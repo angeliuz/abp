@@ -68,12 +68,12 @@ function Page036(props) {
 
                     </div>
 
-                    <div className="d-flex flex-column  mbp-100 mtp-0">
+                    <div className="d-flex flex-column  mbp-100 mtp-0 ptp-30">
 
 
 
                         <div className="d-flex flex-column global-margin mtp-0 mbp-20 psp-0 pep-0 ptp-0 pbp-0 position-relative">
-                            <div className="position-absolute top-0 start-100 translate-middle msp--100 mtp-5 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-180" alt="" /></div>
+                            <div className="position-absolute top-0 start-100 translate-middle msp--120 mtp--3 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-220" alt="" /></div>
                             <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-10">¿Cómo voy?</div>
                             <div className="d-flex flex-column bgc-white rounded-p-10 psp-10 pep-10 ptp-10 pbp-10 mtp-0 mbp-0">
                                 <div className="row p-0 m-0 w-100">
@@ -86,7 +86,7 @@ function Page036(props) {
                                                 <div className="f-Ubuntu-L fsp-15 ptp-2 text-start">  Lo que más nos ha costado del trabajo en equipo es...</div>
                                             </div>
                                             <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
-                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-80" />
                                             </div>
                                         </div>
                                     </div>
@@ -99,7 +99,7 @@ function Page036(props) {
                                                 <div className="f-Ubuntu-L fsp-15 ptp-2 text-start">  Lo podemos mejorar...</div>
                                             </div>
                                             <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
-                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-80" />
                                             </div>
                                         </div>
                                     </div>
