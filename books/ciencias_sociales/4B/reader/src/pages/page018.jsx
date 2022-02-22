@@ -59,8 +59,7 @@ function Page018(props) {
                                     <div className="text-start psp-10 pep-20">
                                         <div className="flecha-pidgey mep-10 mtp-10"></div>
                                         <div className="f-Ubuntu-L py-1 mtp--23 msp-20">
-                                            Asegura que todos los miembros del equipo participan en la
-                                            tarea.
+                                            Se asegura que todos participen.
                                         </div>
                                     </div>
                                 </div>
@@ -71,14 +70,13 @@ function Page018(props) {
                                     <div className="text-start psp-10 pep-20">
                                         <div className="flecha-pikachu mep-10 mtp-10"></div>
                                         <div className="f-Ubuntu-L py-1 mtp--23 msp-20">
-                                            Gestiona el tiempo dedicado a las tareas.
+                                            Gestiona el tiempo de las tareas.
                                         </div>
                                     </div>
                                     <div className="text-start psp-10 pep-20">
                                         <div className="flecha-pikachu mep-10 mtp-10"></div>
                                         <div className="f-Ubuntu-L py-1 mtp--23 msp-20">
-                                            Se asegura de que las tareas se realicen en los plazos
-                                            establecidos.
+                                            Se asegura que todos cumplan las tareas en el plazo asignado.
                                         </div>
                                     </div>
                                 </div>
@@ -91,7 +89,7 @@ function Page018(props) {
                                     <div className="text-start psp-10 pep-20">
                                         <div className="flecha-goten mep-10 mtp-10"></div>
                                         <div className="f-Ubuntu-L py-1 mtp--23 msp-20">
-                                            Solicita ayuda o aclara dudas con el profesor.
+                                            Se comunica con el docente para solicitar ayuda.
                                         </div>
                                     </div>
                                     <div className="text-start psp-10 pep-20">

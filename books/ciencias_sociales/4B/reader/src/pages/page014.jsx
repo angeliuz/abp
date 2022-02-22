@@ -55,7 +55,7 @@ function Page014(props) {
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 5
               </div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start col-8">
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start col-6 col-md-8">
                 Compartimos nuestras respuestas y concluimos. ¿Qué valores consideramos que hay que practicar día a día para lograr una buena convivencia escolar?
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}

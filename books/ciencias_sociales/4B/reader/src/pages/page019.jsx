@@ -119,7 +119,7 @@ function Page019(props) {
                 <div className="position-absolute top-0 start-0 msp-10 mtp-10">
                   <span className="f-pixilate-regular fsp-21">DIFUSIÓN</span>
                 </div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 mtp-35 lhp-25 min-hp-50" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 mtp-35 lhp-25 w-85 min-hp-50" />
               </div>
             </div>
 
