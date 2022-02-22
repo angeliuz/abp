@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 
 import "./page_033.css";
 
@@ -58,19 +59,19 @@ function Page033(props) {
 
                                         <div className="d-flex">
                                             <div className="ptp-0">
-                                                <div className="border-style-solid border-2 border-color-lightDark wp-30 hp-30 bgc-white"></div>
+                                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                             </div>
                                             <div className="psp-10 ptp-0 text-start">Tipos de desechos.</div>
                                         </div>
                                         <div className="d-flex">
                                             <div className="ptp-10">
-                                                <div className="border-style-solid border-2 border-color-lightDark wp-30 hp-30 bgc-white"></div>
+                                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                             </div>
                                             <div className="psp-10 ptp-10 text-start">Las 3R.</div>
                                         </div>
                                         <div className="d-flex">
                                             <div className="ptp-10">
-                                                <div className="border-style-solid border-2 border-color-lightDark wp-30 hp-30 bgc-white"></div>
+                                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                             </div>
                                             <div className="psp-10 ptp-10 text-start">Acciones que aportan al reciclaje y a reutilizar.</div>
                                         </div>
@@ -107,8 +108,8 @@ function Page033(props) {
 
                             <div className="col-sm-12 col-md-12 position-relative d-flex justify-content-center">
                                 <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-0"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-30 " alt="" /></div>
-                                <div className="d-flex w-100 border-style-solid border-2 border-color-freezer rounded-p-10 min-hp-400 bgc-white">
-
+                                <div className="d-flex w-100 border-style-solid border-2 border-color-freezer rounded-p-10 bgc-white">
+                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-400" />
                                 </div>
                             </div>
 
