@@ -16,7 +16,7 @@ function Page014(props) {
           id={"page_" + pagina}
         >
           <div className="cabecera-v1 hp-80 bgc-bulma"></div>
-          <div className="psp-60 pep-60 ptp-30">
+          <div className="psp-90 pep-60 ptp-30">
             <div className="f-Ubuntu-B color-bulma fsp-18 text-left">
               Valores y diversidad
             </div>
@@ -91,6 +91,7 @@ function Page014(props) {
             <div className="row ptp-15">
               <div className="col-md-6 col-12 psp-20 pep-20 pbp-20">
                 <div className="d-flex">
+                  <img src={"images/page_" + pagina + "/img_004.svg"} className="wp-100 msp--50 pep-10" alt="" />
                   <div className="f-ccdigitaldelivery-bold fsp-35 color-bulma">
                     5
                   </div>

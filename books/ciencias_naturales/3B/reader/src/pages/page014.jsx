@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 
 import "./page_014.css";
 
@@ -42,46 +43,58 @@ function Page014(props) {
 
           <div className="d-flex w-100 psp-60 pep-60">
             <div className="row w-100">
+              <div className="col-md-4">
+                <div className="d-flex flex-column pbp-30">
+                  <div className="psp-20 pep-20 ptp-10 pbp-20 f-Ubuntu-R fsp-14 w-100 position-relative bgc-draco rounded-p-10 min-hp-100 d-flex center-center">
+                    Toda la basura se tira en el mismo contenedor.
+                    <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-0 wp-25 hp-25">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                    </div>
+                  </div>
+                </div>
+                <div className="d-flex flex-column pbp-30">
+                  <div className="psp-20 pep-20 ptp-10 pbp-20 f-Ubuntu-R fsp-14 w-100 position-relative bgc-draco rounded-p-10 min-hp-100 d-flex center-center">
+                    Sé qué es una ecobotella.
+                    <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-0 wp-25 hp-25">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                    </div>
+                  </div>
+                </div>
+                <div className="d-flex flex-column pbp-30">
+                  <div className="psp-20 pep-20 ptp-10 pbp-20 f-Ubuntu-R fsp-14 w-100 position-relative bgc-draco rounded-p-10 min-hp-100 d-flex center-center">
+                    Sé cómo darle una nueva utilidad a un objeto sin desecharlo.
+                    <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-0 wp-25 hp-25">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className="col-md-4 d-flex center-center">
                 <img src="images/page_014/img_003.jpg" className="w-100" alt="" />
               </div>
               <div className="col-md-4">
                 <div className="d-flex flex-column pbp-30">
                   <div className="psp-20 pep-20 ptp-10 pbp-20 f-Ubuntu-R fsp-14 w-100 position-relative bgc-draco rounded-p-10 min-hp-100 d-flex center-center">
-                    Toda la basura se tira en el mismo contenedor.
-                    <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark"></div>
-                  </div>
-                </div>
-                <div className="d-flex flex-column pbp-30">
-                  <div className="psp-20 pep-20 ptp-10 pbp-20 f-Ubuntu-R fsp-14 w-100 position-relative bgc-draco rounded-p-10 min-hp-100 d-flex center-center">
-                    Sé qué es una ecobotella.
-                    <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark"></div>
-                  </div>
-                </div>
-                <div className="d-flex flex-column pbp-30">
-                  <div className="psp-20 pep-20 ptp-10 pbp-20 f-Ubuntu-R fsp-14 w-100 position-relative bgc-draco rounded-p-10 min-hp-100 d-flex center-center">
-                    Sé cómo darle una nueva utilidad a un objeto sin desecharlo.
-                    <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark"></div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="d-flex flex-column pbp-30">
-                  <div className="psp-20 pep-20 ptp-10 pbp-20 f-Ubuntu-R fsp-14 w-100 position-relative bgc-draco rounded-p-10 min-hp-100 d-flex center-center">
                     Identifico cuáles son los materiales que se pueden reciclar.
-                    <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark"></div>
+                    <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-0 wp-25 hp-25">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                    </div>
                   </div>
                 </div>
                 <div className="d-flex flex-column pbp-30">
                   <div className="psp-20 pep-20 ptp-10 pbp-20 f-Ubuntu-R fsp-14 w-100 position-relative bgc-draco rounded-p-10 min-hp-100 d-flex center-center">
                     Sé qué es y para qué sirve una compostera.
-                    <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark"></div>
+                    <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-0 wp-25 hp-25">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                    </div>
                   </div>
                 </div>
                 <div className="d-flex flex-column pbp-30">
                   <div className="psp-20 pep-20 ptp-10 pbp-20 f-Ubuntu-R fsp-14 w-100 position-relative bgc-draco rounded-p-10 min-hp-100 d-flex center-center">
                     Sé qué es un punto limpio.
-                    <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark"></div>
+                    <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-0 wp-25 hp-25">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                    </div>
                   </div>
                 </div>
               </div>
