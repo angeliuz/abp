@@ -91,7 +91,7 @@ function Page039(props) {
             <div className="border-style-solid border-1 border-color-dark bgc-white mtp--45 rounded-p-20 pbp-20 px-3">
               <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea mtp-35 lhp-35 min-hp-180" />
             </div>
-            <div className="position-absolute top-100 start-100 translate-middle msp--100 mtp--30 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-100" alt="" /></div>
+            <div className="position-absolute top-100 start-100 translate-middle msp--80 mtp--10 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-100" alt="" /></div>
           </div>
 
           <div className="pbp-50"></div>

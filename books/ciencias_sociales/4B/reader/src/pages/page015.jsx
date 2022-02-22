@@ -52,7 +52,7 @@ function Page015(props) {
 
           <div className="psp-60 pep-60 ptp-120 position-absolute ">
             <div className="d-flex position-relative">
-              <div className="caja-p15 bgc-white p-2">
+              <div className="caja-p15 bgc-white p-2 zindex-2">
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
               </div>
               <div className="wp-290-p15 linea-p15  border-solo-bot align-self-end text-end mbp-40"><div className="mb-0 f-pixilate-regular fsp-21 pep-40">DIFUSIÓN</div></div>
@@ -62,7 +62,7 @@ function Page015(props) {
             </div>
 
             <div className="d-flex position-relative ptp-20 msp-50-rp15">
-              <div className="caja-p15 bgc-white p-2">
+              <div className="caja-p15 bgc-white p-2 zindex-2">
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
               </div>
               <div className="wp-240-p15 linea-p15  border-solo-bot align-self-end text-end mbp-40"><div className="mb-0 f-pixilate-regular fsp-21 pep-40">CREACIÓN</div></div>
@@ -70,15 +70,15 @@ function Page015(props) {
             </div>
 
             <div className="d-flex position-relative ptp-20">
-              <div className="caja-p15 bgc-white p-2">
+              <div className="caja-p15 bgc-white p-2 zindex-2">
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
               </div>
-              <div className="wp-290-p15 linea-p15  border-solo-bot align-self-end text-end mbp-40"><div className="mb-0 f-pixilate-regular fsp-21 pep-40">EXPERIMENTACIÓN</div></div>
+              <div className="wp-290-p15 linea-p15  border-solo-bot align-self-end text-end mbp-40"><div className="mb-0 f-pixilate-regular fsp-21 pep-30">EXPERIMENTACIÓN</div></div>
               <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_009.png"} className="wp-25" alt="" /></div>
             </div>
 
             <div className="d-flex position-relative ptp-20 msp-50-rp15">
-              <div className="caja-p15 bgc-white p-2">
+              <div className="caja-p15 bgc-white p-2 zindex-2">
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
               </div>
               <div className="wp-240-p15 linea-p15  border-solo-bot align-self-end text-end mbp-40"><div className="mb-0 f-pixilate-regular fsp-21 pep-40">INVESTIGACIÓN</div></div>

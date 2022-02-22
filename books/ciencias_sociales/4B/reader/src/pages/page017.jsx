@@ -40,6 +40,7 @@ function Page017(props) {
 
           <div className="psp-60 pep-60 ptp-20  position-relative">
             <div className="bgc-draco sombra-1 p-3 w-100 giro-2deg position-relative msp--2p mep-20">
+              <div className="color-bulma giro--2deg f-Ubuntu-B fsp-18">EL ORDEN DE NUESTRO ÁLBUM</div>
               <div className="diline-res-p17 justify-content-between flex-wrap giro--2deg mtp--30 psp-30 pep-30">
 
                 <div className="position-relative">
@@ -126,7 +127,7 @@ function Page017(props) {
             <div className="row w-100">
 
               <div className="col-md-4 pbp-20">
-                <div className="border-style-solid border-doted border-color-milk caja-finalp17 rounded-tbe-20 border-dotted pbp-20 d-flex d-column align-items-center">
+                <div className="border-style-solid border-doted border-color-milk caja-finalp17 rounded-tbe-20 border-3 pbp-20 d-flex d-column align-items-center">
                   <div className=" ptp-10 test-center pbp-10">
                     Fotografías de los integrantes de nuestro cursos.
                   </div>
@@ -137,7 +138,7 @@ function Page017(props) {
               </div>
 
               <div className="col-md-4 pbp-20">
-                <div className="border-style-solid border-doted border-color-vegeta caja-finalp17 rounded-tbe-20 border-dotted pbp-20 d-flex d-column align-items-center">
+                <div className="border-style-solid border-doted border-color-vegeta caja-finalp17 rounded-tbe-20 border-3 pbp-20 d-flex d-column align-items-center">
                   <div className=" ptp-10 test-center pbp-10">
                     Fotografías o dibujos de nuestro colegio.
                   </div>
@@ -148,7 +149,7 @@ function Page017(props) {
               </div>
 
               <div className="col-md-4 pbp-20">
-                <div className="border-style-solid border-doted border-color-pidgey caja-finalp17 rounded-tbe-20 border-dotted pbp-20 d-flex d-column align-items-center">
+                <div className="border-style-solid border-doted border-color-pidgey caja-finalp17 rounded-tbe-20 border-3 pbp-20 d-flex d-column align-items-center">
                   <div className=" ptp-10 test-center pbp-10">
                     Fotografías o dibujos de recuerdos de nuestro curso.
                   </div>
