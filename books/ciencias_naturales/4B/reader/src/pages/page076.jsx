@@ -85,15 +85,15 @@ function Page076(props) {
                     {/* FIN EJERCICIO 1*/}
                     <div className="cb-ejercicio-final-p76 d-flex mtp-20">
                         <div className="cb-ejercicio-cajas-p76 cb-zindex-76">
-                            <div className="bgc-birdie pep-10 psp-10 ptp-10 cb-border-a-p76 mbp-10">
+                            <div className="bgc-birdie pep-10 psp-10 ptp-10 rounded-p-10 mbp-10">
                                 <div className="color-white f-Ubuntu-L fsp-15 fw-700 text-start"> Si volviésemos a empezar, volveríamos a...</div>
-                                <div className="bgc-white cb-border-5p-p76 psp-20 pep-15 pbp-10 ">
+                                <div className="bgc-white cb-border-5p-p76 psp-20 pep-15 pbp-10 cb-border-a-p76">
                                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
                                 </div>
                             </div>
-                            <div className="bgc-ken pep-10 psp-10 ptp-10 cb-border-a-p76">
+                            <div className="bgc-ken pep-10 psp-10 ptp-10 rounded-p-10 mbp-50">
                                 <div className="color-white f-Ubuntu-L fsp-15 fw-700 text-start"> Si volviésemos a empezar, mejoraríamos en....</div>
-                                <div className="bgc-white cb-border-5p-p76 psp-20 pep-15 pbp-10 ">
+                                <div className="bgc-white cb-border-5p-p76 psp-20 pep-15 pbp-10 cb-border-a-p76">
                                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
                                 </div>
                             </div>

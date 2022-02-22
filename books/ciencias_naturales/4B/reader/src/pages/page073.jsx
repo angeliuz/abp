@@ -94,14 +94,14 @@ function Page073(props) {
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-star">Los asistentes a la presentación opinan que la brigada...</div>
             </div>
           </div>
-          <div className="cb-seccion2-p73 text-start mbp-30">
+          <div className="cb-seccion2-p73 text-start mbp-90">
             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
             <div className="mtp-15"> Esto nos hace sentir:</div>
             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
           </div>
           {/* END ETAPA 4 */}
           {/* PIE DE PAGINA */}
-          <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
+          <div className="d-flex hp-90  p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
               ABP &copy; SM
             </div>
