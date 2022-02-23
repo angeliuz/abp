@@ -63,17 +63,17 @@ function Page033(props) {
                     <div className="row w-100 zindex-2 p-0 m-0">
                       <div className="col-4 p-0 m-0 d-flex align-items-center">
                         <div className="d-flex w-100 psp-40 pep-10 ptp-0 pbp-0">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-185" />
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-185" />
                         </div>
                       </div>
                       <div className="col-4 p-0 m-0">
                         <div className="d-flex w-100 psp-50 pep-50 ptp-0 pbp-0">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-185" />
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-185" />
                         </div>
                       </div>
                       <div className="col-4 p-0 m-0">
                         <div className="d-flex w-100 psp-10 pep-40 ptp-0 pbp-0">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-185" />
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-185" />
                         </div>
                       </div>
                     </div>
@@ -84,7 +84,7 @@ function Page033(props) {
           </div>
 
 
-          <div className="psp-60 pep-60 ptp-30">
+          <div className="psp-60 pep-60 ptp-30 position-relative">
 
             <div className="ptp-30"></div>
             <div className="bgc-sid px-2 ptp-10 pbp-50 rounded-set-20">
@@ -98,6 +98,7 @@ function Page033(props) {
                 />
               </div>
             </div>
+            <div className="position-absolute top-0 start-100 translate-middle msp--90 mtp-20 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-80" alt="" /></div>
           </div>
           {/* PIE DE PAGINA */}
           <div

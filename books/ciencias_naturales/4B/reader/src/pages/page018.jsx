@@ -7,6 +7,11 @@ import "./page_018.css";
 function Page018(props) {
   const pagina = "018";
   var indexInput = 0;
+  const background = "bgc-bulma";
+  const color = "color-bulma";
+  const borderColor = "border-color-bulma";
+  const borderColorTabla = "border-color-buzz";
+  const bgc_cajas = "bgc-goku";
 
   return (
     <div className="wrapper bgc-light">
@@ -16,24 +21,29 @@ function Page018(props) {
           id={"page_" + pagina}
         >
           <div className="cabecera-v1 hp-80 bgc-bulma"></div>
-          <div className="ptp-30 psp-60 pep-60 pbp-140">
-            <div className="f-Ubuntu-B color-bulma fsp-18 text-start">
+
+          <div className="container-titulo-global mtp-20 mbp-0">
+            <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
               ¿Qué veo en las fotografías?
             </div>
-            <div className="d-flex pbp-20">
-              <div className="f-ccdigitaldelivery-bold fsp-35 color-bulma">
+            <div className="d-flex psp-20">
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 3
               </div>
-              <div className="f-Ubuntu-R fsp-16 ptp-15 psp-10 text-left col-8 text-start">
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 col-10 text-start">
                 Leo la revista y formulo nuevas preguntas para hacerles a mis
                 profesores y familiares.
               </div>
-              <img
-                src="images/page_018/img_001.svg"
-                className="psp-20"
-                alt=""
-              />
+              {/* <img src={"images/page_"+pagina+"/img_00.svg"} className="wp-100" alt=""/> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
+          </div>
+
+
+          <div className="ptp-30 psp-60 pep-60 pbp-140">
             <div className="d-flex flex-wrap msp--20 justify-content-center">
               <img
                 src="images/page_018/img_002.svg"

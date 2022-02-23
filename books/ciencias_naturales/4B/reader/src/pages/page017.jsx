@@ -94,13 +94,15 @@ function Page017(props) {
                   className="position-absolute tf-lupa-17 start-0 top-0 mtp--35 msp-220 hp-60"
                   alt=""
                 />
-                <img
-                  src="images/page_017/img_007.png"
-                  className=" hp-200 position-absolute translate-middle top-100 start-100 mtp--80 msp--60 hidden-res"
-                  alt=""
-                />
+                <div className="position-absolute translate-middle top-100 start-100 mtp--80 msp--30 visible-768">
+                  <img
+                    src="images/page_017/img_007.png"
+                    className=" hp-200 "
+                    alt=""
+                  />
+                </div>
               </div>
-              <div className="mtp-20">
+              <div className="mtp-20 pep-80">
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
                   className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-280"

@@ -125,15 +125,11 @@ function Page021(props) {
                         className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
                       />
                     </div>
-                    <img
-                      src="images/page_021/img_004.png"
-                      className="hp-60 position-absolute top-50 start-0 msp--30 mtp-30"
-                      alt=""
-                    />
+
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col-md-6 col-12 pbp-20">
+                  <div className="col-md-6 col-12 pbp-20  position-relative">
                     <div className="mxwp-200 hp-30 bgc-saitama rounded-set-20 border-style-solid border-1 border-color-anakin centrar-hor">
                       <div className="color-white ptp-3 fsp-18 f-pixilate-bold ">
                         CREACIÓN
@@ -188,6 +184,11 @@ function Page021(props) {
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
                         className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
+                      />
+                      <img
+                        src="images/page_021/img_004.png"
+                        className="hp-60 position-absolute top-100 start-0 msp-25 mtp--120"
+                        alt=""
                       />
                     </div>
                   </div>

@@ -33,10 +33,10 @@ function Page022(props) {
                   <div className="mtp--20 msp--10 bgc-white ptp-5 border-style-solid border-1 border-color-pidgey caja-uno color-pidgey f-pixilate-bold fsp-18">
                     Coordinación
                   </div>
-                  <div>
+                  <div className="psp-20 ptp-10">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 flex-grow-1 lhp-35 min-hp-100 mtp--10"
+                      className="p-0 px-1 flex-grow-1 lhp-35 min-hp-100 mtp--10 text-start"
                     />
                   </div>
                 </div>
@@ -46,10 +46,10 @@ function Page022(props) {
                   <div className="mtp--20 msp--10 bgc-white ptp-5 border-style-solid border-1 border-color-saitama caja-uno color-saitama f-pixilate-bold fsp-18">
                     Supervisión
                   </div>
-                  <div>
+                  <div className="psp-20 ptp-10">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 flex-grow-1 lhp-35 min-hp-100 mtp--10"
+                      className="p-0 px-1 flex-grow-1 lhp-35 min-hp-100 mtp--10 text-start"
                     />
                   </div>
                 </div>
@@ -68,10 +68,10 @@ function Page022(props) {
                   <div className="mtp--20 msp--10 bgc-white ptp-5 border-style-solid border-1 border-color-yanfei caja-uno color-goten f-pixilate-bold fsp-18">
                     Relaciones públicas
                   </div>
-                  <div>
+                  <div className="psp-20 ptp-10">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 flex-grow-1 lhp-35 min-hp-100 mtp--10"
+                      className="p-0 px-1 flex-grow-1 lhp-35 min-hp-100 mtp--10 text-start"
                     />
                   </div>
                 </div>
@@ -81,10 +81,10 @@ function Page022(props) {
                   <div className="mtp--20 msp--10 bgc-white ptp-5 border-style-solid border-1 border-color-blaze caja-uno color-blaze f-pixilate-bold fsp-18">
                     Intendencia
                   </div>
-                  <div>
+                  <div className="psp-20 ptp-10">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 flex-grow-1 lhp-35 min-hp-100 mtp--10"
+                      className="p-0 px-1 flex-grow-1 lhp-35 min-hp-100 mtp--10 text-start"
                     />
                   </div>
                 </div>
@@ -121,7 +121,7 @@ function Page022(props) {
                   </div>
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 lhp-35 min-hp-135"
+                    className="p-0 px-1 flex-grow-1 lhp-35 min-hp-135 text-start"
                   />
                 </div>
                 <div className="col-md-6 text-left ptp-15">
@@ -130,7 +130,7 @@ function Page022(props) {
                   </div>
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 lhp-35 min-hp-135"
+                    className="p-0 px-1 flex-grow-1 lhp-35 min-hp-135 text-start"
                   />
                 </div>
                 <div className="">
