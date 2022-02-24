@@ -58,11 +58,11 @@ function Page052(props) {
                   <div className="position-absolute flecha-p52 translate-middle zindex-1"><img src={"images/page_" + pagina + "/flecha.svg"} className="wp-20 giro-768" alt="" /></div>
                 </div>
 
-                <div className="col p-2">
-                  <div className="bgc-white w-100 rounded-p-5 p-2">
+                <div className="col-md-6 col-12 p-2">
+                  <div className="bgc-white rounded-p-5 p-2">
                     <div className="f-Ubuntu-L fsp-15 lh-sm pbp-10 text-start">Porque</div>
                     <div className="">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180 w-100" />
                     </div>
                   </div>
                 </div>
@@ -80,7 +80,7 @@ function Page052(props) {
 
                 </div>
 
-                <div className="col p-2">
+                <div className="col-md-6 col-12 p-2">
                   <div className="bgc-white w-100 rounded-p-5 p-2">
                     <div className="f-Ubuntu-L fsp-15 lh-sm pbp-10 text-start">Porque</div>
                     <div className="">

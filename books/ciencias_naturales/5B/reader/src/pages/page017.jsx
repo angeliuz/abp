@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check2";
 
 
 import "./page_017.css";
@@ -155,8 +156,8 @@ function Page017(props) {
 
                 <div className="position-absolute top-0 start-50 translate-middle msp--150 mtp-10 zindex-1">
 
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-35 hp-35 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
 
                 </div>
@@ -192,8 +193,8 @@ function Page017(props) {
 
                 <div className="position-absolute top-0 start-50 translate-middle msp--150 mtp-10 zindex-1">
 
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-35 hp-35 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
 
                 </div>
@@ -228,8 +229,8 @@ function Page017(props) {
 
                 <div className="position-absolute top-0 start-50 translate-middle msp--150 mtp-10 zindex-1">
 
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-35 hp-35 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
 
                 </div>
@@ -265,8 +266,8 @@ function Page017(props) {
 
                 <div className="position-absolute top-0 start-50 translate-middle msp--150 mtp-10 zindex-1">
 
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-35 hp-35 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
 
                 </div>

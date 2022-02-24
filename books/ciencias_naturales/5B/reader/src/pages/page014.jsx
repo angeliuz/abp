@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check2";
 
 import "./page_014.css";
 
@@ -248,7 +249,7 @@ function Page014(props) {
             </div>
           </div>
 
-          <div className="d-flex msp-0 mep-0 mtp-20 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
+          <div className="d-flex msp-0 mep-0 mtp-20 mbp-160 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
 
               <div className="col-12 p-0 m-0 position-relative">
@@ -266,54 +267,54 @@ function Page014(props) {
                 </div>
 
                 <div className="position-absolute top-50 start-50 translate-middle msp--55 mtp-35 zindex-2">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-bulma bgc-white rounded-1 zindex-2">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-35 hp-35 bgc-white border-style-solid border-1 border-color-bulma bgc-white rounded-1 zindex-2">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                 </div>
 
                 <div className="position-absolute top-50 start-50 translate-middle msp--110 mtp-35 zindex-2">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-bulma bgc-white rounded-1 zindex-2">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-35 hp-35 bgc-white border-style-solid border-1 border-color-bulma bgc-white rounded-1 zindex-2">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                 </div>
 
                 <div className="position-absolute top-50 start-50 translate-middle msp--165 mtp-35 zindex-2">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-bulma bgc-white rounded-1 zindex-2">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-35 hp-35 bgc-white border-style-solid border-1 border-color-bulma bgc-white rounded-1 zindex-2">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                 </div>
 
                 <div className="position-absolute top-50 start-50 translate-middle msp--220 mtp-35 zindex-2">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-bulma bgc-white rounded-1 zindex-2">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-35 hp-35 bgc-white border-style-solid border-1 border-color-bulma bgc-white rounded-1 zindex-2">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                 </div>
 
                 <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-35 zindex-2">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-bulma bgc-white rounded-1 zindex-2">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-35 hp-35 bgc-white border-style-solid border-1 border-color-bulma bgc-white rounded-1 zindex-2">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                 </div>
 
 
                 <div className="position-absolute top-50 start-50 translate-middle msp-55 mtp-35 zindex-2">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-bulma bgc-white rounded-1 zindex-2">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-35 hp-35 bgc-white border-style-solid border-1 border-color-bulma bgc-white rounded-1 zindex-2">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                 </div>
                 <div className="position-absolute top-50 start-50 translate-middle msp-110 mtp-35 zindex-2">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-bulma bgc-white rounded-1 zindex-2">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-35 hp-35 bgc-white border-style-solid border-1 border-color-bulma bgc-white rounded-1 zindex-2">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                 </div>
                 <div className="position-absolute top-50 start-50 translate-middle msp-165 mtp-35 zindex-2">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-bulma bgc-white rounded-1 zindex-2">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-35 hp-35 bgc-white border-style-solid border-1 border-color-bulma bgc-white rounded-1 zindex-2">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                 </div>
                 <div className="position-absolute top-50 start-50 translate-middle msp-220 mtp-35 zindex-2">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-bulma bgc-white rounded-1 zindex-2">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-35 hp-35 bgc-white border-style-solid border-1 border-color-bulma bgc-white rounded-1 zindex-2">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                 </div>
 

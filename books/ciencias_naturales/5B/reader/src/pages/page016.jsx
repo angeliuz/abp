@@ -107,7 +107,7 @@ function Page016(props) {
           </div>
 
 
-          <div className="d-flex global-margin mtp-50 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-50 mbp-130 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 psp-20 m-0 position-relative">
                 <div className="position-absolute top-0 start-0 msp--50 mtp--10 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="semaforo-wp-16" alt="" /></div>

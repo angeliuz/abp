@@ -3,6 +3,7 @@ import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import ModalVideo from "../components/ModalVideo";
 import ItemLista from "../components/ItemLista";
+import Check from "../components/Check2";
 
 import "./page_018.css";
 
@@ -54,8 +55,8 @@ function Page018(props) {
                             <div className="col-6 col-md-6">
                                 <div className="d-flex flex-column pbp-30">
                                     <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-R fsp-14 w-90 position-relative bgc-draco rounded-p-10 min-hp-100 d-flex flex-column center-center text-start">
-                                        <ItemLista colorBullet="bgc-dark" fontSize="fsp-15" fuente="f-Ubuntu-R" color="color-dark">Portada e introducción del álbum.</ItemLista>
-                                        <ItemLista colorBullet="bgc-dark" fontSize="fsp-15" fuente="f-Ubuntu-R" color="color-dark">Distribuimos tareas y roles. </ItemLista>
+                                        <ItemLista colorBullet="bgc-dark" fontSize="fsp-15" fuente="f-Ubuntu-R" color="color-dark">Organizamos el plan de trabajo.</ItemLista>
+                                        <ItemLista colorBullet="bgc-dark" fontSize="fsp-15" fuente="f-Ubuntu-R" color="color-dark">Distribuimos tareas y roles.</ItemLista>
 
                                         <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
                                     </div>
@@ -163,7 +164,7 @@ function Page018(props) {
                                                 <div className="f-Ubuntu-L fsp-15 ptp-2 text-start">Hoy descubrí que </div>
                                             </div>
                                             <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
-                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-80" />
                                             </div>
                                         </div>
                                     </div>
@@ -176,7 +177,7 @@ function Page018(props) {
                                                 <div className="f-Ubuntu-L fsp-15 ptp-2 text-start">Quisiera profundizar sobre </div>
                                             </div>
                                             <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
-                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-80" />
                                             </div>
                                         </div>
                                     </div>
@@ -205,17 +206,17 @@ function Page018(props) {
                                                 </tr>
                                                 <tr>
                                                     <td className={"" + bgc_cajas + " f-Ubuntu-L fsp-14 text-start psp-5 border-style-solid border-1 " + borderColor + ""}>El ambiente de trabajo en mi equipo es agradable.</td>
-                                                    <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                                                    <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                                                    <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                                                    <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
+                                                    <td className={"border-style-solid border-1 " + borderColor + ""}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                                                    <td className={"border-style-solid border-1 " + borderColor + ""}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                                                    <td className={"border-style-solid border-1 " + borderColor + ""}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                                                    <td className={"border-style-solid border-1 " + borderColor + ""}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                                                 </tr>
                                                 <tr>
                                                     <td className={"" + bgc_cajas + " f-Ubuntu-L fsp-14 text-start psp-5 border-style-solid border-1 " + borderColor + ""}>Estoy contento de trabajar en este proyecto.</td>
-                                                    <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                                                    <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                                                    <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                                                    <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
+                                                    <td className={"border-style-solid border-1 " + borderColor + ""}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                                                    <td className={"border-style-solid border-1 " + borderColor + ""}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                                                    <td className={"border-style-solid border-1 " + borderColor + ""}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                                                    <td className={"border-style-solid border-1 " + borderColor + ""}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                                                 </tr>
                                             </tbody>
                                         </table>

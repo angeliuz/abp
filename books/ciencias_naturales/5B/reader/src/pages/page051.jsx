@@ -23,8 +23,8 @@ function Page051(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className={"cabecera-v2 d-flex flex-column " + background}>
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN XX</div>
-              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">XXZ</div>
+              <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN 14</div>
+              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Elaboramos y presentamos la propuesta</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-0 pep-0 align-self-center justify-content-between w-95">
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
@@ -34,20 +34,20 @@ function Page051(props) {
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Averiguar y comprender en <br /> qué consiste el desafío
+                Pensar qué tenemos<br />que incluir en el documento<br />con la propuesta
               </div>
               <div className="psp-5 pep-5 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Aceptar el desafío y  <br /> completar una ficha de <br />inscripción
+                Establecer una<br />modalidad de trabajo
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 ptp-10 pbp-10 position-relative align-self-center f-colby-compres-bold fsp-17 lh-sm text-center color-white">
                 <div className="position-relative">
-                  Comprometerse  <br /> con la realización <br /> del desafío
+                  Escribir la propuesta<br />y presentarla a<br />los encargados del<br />colegio
                 </div>
               </div>
               <div className="p-0 align-self-center">
@@ -57,8 +57,8 @@ function Page051(props) {
                 <div className="position-absolute top-0 start-0 w-100 h-100">
                   <img src="images/cabecera/caja_blanca.png" width="100%" height="100%" alt="" />
                 </div>
-                <div className="position-relative">
-                  Crear un logo  <br /> relacionado con <br />el desafío
+                <div className="position-relative mnwp-120">
+                  Evaluar cómo<br />trabajamos en equipo<br />y cómo podemos<br />mejorar
                 </div>
               </div>
             </div>
@@ -86,7 +86,7 @@ function Page051(props) {
               <div className="p-1 bgc-ryu sombra-2 giro-2deg">
                 <div className="p-1 bgc-ryu sombra-2 giro--3deg">
                   <div className="bgc-white sombra-2 p-3 giro-3deg ">
-                    <div className="row pbp-20 psp-40">
+                    <div className="row pbp-20 psp-40 position-relative">
 
                       <div className="ptp-10 pbp-10 psp-20">
                         <div className="d-flex">
@@ -232,6 +232,8 @@ function Page051(props) {
                           </div>
                         </div>
                       </div>
+                      <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-80" alt="" /></div>
+                      <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-80" alt="" /></div>
                     </div>
                   </div>
                 </div>
