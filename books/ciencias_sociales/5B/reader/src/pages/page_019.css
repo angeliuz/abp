@@ -4,3 +4,7 @@
   height: 100% !important;
   -webkit-print-color-adjust: exact !important;
 }
+
+.mxwp-20 {
+  max-width: 20px;
+}
