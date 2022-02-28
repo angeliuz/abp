@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import ModalVideo from "../components/ModalVideo";
+import Check2 from "../components/Check2";
 
 import "./page_016.css";
 
@@ -41,12 +42,14 @@ function Page016(props) {
             <div className="bgc-pantro p-2 position-relative">
 
               <div className="d-flex justify-content-center align-items-center position-relative">
-                <div className="bloque-p16 bgc-bulma text-center py-2 f-Ubuntu-M color-white rounded-p-5 pep-10">Planificación</div>
-                <div className="wp-35"></div>
-                <div className="caja-p16 bgc-white border-style-solid border-1 border-color-bulma psp-20">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-80" />
+                <div className="bloque-p16 bgc-bulma text-center py-2 f-Ubuntu-M color-white rounded-p-5 pep-10">
+                  <span>lanificación</span>
                 </div>
-                <div className="position-absolute top-50 start-0 translate-middle msp-190 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_006.svg"} className="wp-60" alt="" /></div>
+                <div className="wp-35"></div>
+                <div className="caja-p16 bgc-white border-style-solid border-1 border-color-bulma psp-20 position-relative">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 w-100 min-hp-80" />
+                  <div className="position-absolute top-50 start-0 translate-middle msp--20 mtp-0 zindex-1 visible-768"><img src={"images/page_" + pagina + "/img_006.svg"} className="wp-60" alt="" /></div>
+                </div>
               </div>
 
               <div className="ptp-20"></div>
@@ -54,10 +57,10 @@ function Page016(props) {
               <div className="d-flex justify-content-center align-items-center position-relative">
                 <div className="bloque-p16 bgc-android18 text-center py-2 f-Ubuntu-M color-white rounded-p-5 pep-10">Investigación</div>
                 <div className="wp-35"></div>
-                <div className="caja-p16 bgc-white border-style-solid border-1 border-color-android18 psp-20">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-80" />
+                <div className="caja-p16 bgc-white border-style-solid border-1 border-color-android18 psp-20 position-relative">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 w-100 min-hp-80" />
+                  <div className="position-absolute top-50 start-0 translate-middle msp--20 mtp-0 zindex-1 visible-768"><img src={"images/page_" + pagina + "/img_006.svg"} className="wp-60" alt="" /></div>
                 </div>
-                <div className="position-absolute top-50 start-0 translate-middle msp-190 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_006.svg"} className="wp-60" alt="" /></div>
               </div>
 
               <div className="ptp-20"></div>
@@ -65,10 +68,10 @@ function Page016(props) {
               <div className="d-flex justify-content-center align-items-center position-relative">
                 <div className="bloque-p16 bgc-pidgey text-center py-2 f-Ubuntu-M color-white rounded-p-5 pep-10">Experimentación</div>
                 <div className="wp-35"></div>
-                <div className="caja-p16 bgc-white border-style-solid border-1 border-color-pidgey psp-20">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-80" />
+                <div className="caja-p16 bgc-white border-style-solid border-1 border-color-pidgey psp-20 position-relative">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 w-100 min-hp-80" />
+                  <div className="position-absolute top-50 start-0 translate-middle msp--20 mtp-0 zindex-1 visible-768"><img src={"images/page_" + pagina + "/img_006.svg"} className="wp-60" alt="" /></div>
                 </div>
-                <div className="position-absolute top-50 start-0 translate-middle msp-190 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_006.svg"} className="wp-60" alt="" /></div>
               </div>
 
               <div className="ptp-20"></div>
@@ -76,10 +79,10 @@ function Page016(props) {
               <div className="d-flex justify-content-center align-items-center position-relative">
                 <div className="bloque-p16 bgc-saitama text-center py-2 f-Ubuntu-M color-white rounded-p-5 pep-10">Creación</div>
                 <div className="wp-35"></div>
-                <div className="caja-p16 bgc-white border-style-solid border-1 border-color-saitama psp-20">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-80" />
+                <div className="caja-p16 bgc-white border-style-solid border-1 border-color-saitama psp-20 position-relative">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 w-100 min-hp-80" />
+                  <div className="position-absolute top-50 start-0 translate-middle msp--20 mtp-0 zindex-1 visible-768"><img src={"images/page_" + pagina + "/img_006.svg"} className="wp-60" alt="" /></div>
                 </div>
-                <div className="position-absolute top-50 start-0 translate-middle msp-190 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_006.svg"} className="wp-60" alt="" /></div>
               </div>
 
               <div className="ptp-20"></div>
@@ -87,10 +90,10 @@ function Page016(props) {
               <div className="d-flex justify-content-center align-items-center position-relative">
                 <div className="bloque-p16 bgc-pikachu text-center py-2 f-Ubuntu-M color-white rounded-p-5 pep-10">Difusión</div>
                 <div className="wp-35"></div>
-                <div className="caja-p16 bgc-white border-style-solid border-1 border-color-pikachu psp-20">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-80" />
+                <div className="caja-p16 bgc-white border-style-solid border-1 border-color-pikachu psp-20 position-relative">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 w-100 min-hp-80" />
+                  <div className="position-absolute top-50 start-0 translate-middle msp--20 mtp-0 zindex-1 visible-768"><img src={"images/page_" + pagina + "/img_006.svg"} className="wp-60" alt="" /></div>
                 </div>
-                <div className="position-absolute top-50 start-0 translate-middle msp-190 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_006.svg"} className="wp-60" alt="" /></div>
               </div>
 
               <div className="pbp-40"></div>
@@ -135,7 +138,7 @@ function Page016(props) {
               </div>
             </div>
 
-            <div className="d-flex flex-column global-margin mtp-0 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
+            <div className="d-flex flex-column global-margin mtp-0 mbp-20 psp-0 pep-0 ptp-0 pbp-60">
               <div className="col-12">
                 <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo me siento?</div>
                 <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-30">
@@ -145,28 +148,28 @@ function Page016(props) {
                       <tbody>
                         <tr>
                           <td>&nbsp;</td>
-                          <td className={"style-caja " + background + " tf-letra border-style-solid border-1 " + borderColor + " f-colby-compres-bold ps-2 pe-2"}>
+                          <td className={"style-caja " + background + " tf-letra border-style-solid border-1 " + borderColor + " f-colby-compres-bold ps-2 pe-2 color-white"}>
                             Nunca</td>
-                          <td style={{ minWidth: "55px" }} className={"style-caja " + background + " tf-letra  border-style-solid border-1 " + borderColor + " f-colby-compres-bold ps-2 pe-2"}>
+                          <td style={{ minWidth: "55px" }} className={"style-caja " + background + " tf-letra  border-style-solid border-1 " + borderColor + " f-colby-compres-bold ps-2 pe-2 color-white"}>
                             A veces</td>
-                          <td className={"style-caja " + background + " tf-letra border-style-solid border-1 " + borderColor + " f-colby-compres-bold ps-2 pe-2"}>
+                          <td className={"style-caja " + background + " tf-letra border-style-solid border-1 " + borderColor + " f-colby-compres-bold ps-2 pe-2 color-white"}>
                             Generalmente</td>
-                          <td className={"style-caja " + background + " tf-letra  border-style-solid border-1 " + borderColor + " f-colby-compres-bold ps-2 pe-2"}>
+                          <td className={"style-caja " + background + " tf-letra  border-style-solid border-1 " + borderColor + " f-colby-compres-bold ps-2 pe-2 color-white"}>
                             Siempre</td>
                         </tr>
                         <tr>
                           <td className={"" + bgc_cajas + " f-Ubuntu-L fsp-16 text-start psp-5 border-style-solid border-1 " + borderColor + ""}>El ambiente de trabajo en mi equipo es agradable.</td>
-                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
+                          <td className={"border-style-solid border-1 " + borderColor + ""}> <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
+                          <td className={"border-style-solid border-1 " + borderColor + ""}> <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
+                          <td className={"border-style-solid border-1 " + borderColor + ""}> <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
+                          <td className={"border-style-solid border-1 " + borderColor + ""}> <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
                         </tr>
                         <tr>
                           <td className={"" + bgc_cajas + " f-Ubuntu-L fsp-16 text-start psp-5 border-style-solid border-1 " + borderColor + ""}>Estoy contento de trabajar en este proyecto.</td>
-                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                          <td className={"border-style-solid border-1 " + borderColor + ""}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
+                          <td className={"border-style-solid border-1 " + borderColor + ""}> <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
+                          <td className={"border-style-solid border-1 " + borderColor + ""}> <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
+                          <td className={"border-style-solid border-1 " + borderColor + ""}> <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
+                          <td className={"border-style-solid border-1 " + borderColor + ""}> <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
                         </tr>
                       </tbody>
                     </table>

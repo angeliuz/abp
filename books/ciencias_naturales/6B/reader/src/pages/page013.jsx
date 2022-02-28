@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check2";
 
 
 import "./page_013.css";
@@ -75,7 +76,7 @@ function Page013(props) {
                 <div className="position-relative bgc-draco sombra-1 px-2 ptp-30 pbp-20">
                   <div className="f-Ubuntu-R">He entendido que las energías renovables...</div>
                   <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-400" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-400" />
                   </div>
                   <div className="position-absolute top-0 start-50 translate-middle w-100 mtp-10"><div className="flequillo-p13 w-100 hp-30"></div></div>
                 </div>
@@ -86,7 +87,7 @@ function Page013(props) {
                 <div className="position-relative bgc-bobafett sombra-1 px-2 ptp-55 pbp-20">
                   <div className="f-Ubuntu-R"> He descubierto que la sostenibilidad...</div>
                   <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-400" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-400" />
                   </div>
                 </div>
                 <div className="position-absolute top-0 start-100 translate-middle msp--20 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-80" alt="" /></div>
@@ -100,7 +101,7 @@ function Page013(props) {
             <div className="d-flex psp-20">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                3
+                2
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                 ¡Ya hice los pasatiempos de la revista!<br />En el tema de la energía considero que...
@@ -116,7 +117,7 @@ function Page013(props) {
                 <div className="position-absolute top-0 start-50 translate-middle mtp--40">
                   <div className="border-style-solid border-2 border-color-bulma rounded-p-40 hp-30 wp-120">No sé nada</div>
                 </div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-30" />
+                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
               </div>
 
               <div className="border-style-solid border-2 border-color-bulma border-solo-bot hp-30 w-100 mtp--15 "></div>
@@ -125,7 +126,7 @@ function Page013(props) {
                 <div className="position-absolute top-0 start-50 translate-middle mtp--40">
                   <div className="border-style-solid border-2 border-color-bulma rounded-p-40 hp-30 wp-120">Sé poco</div>
                 </div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-30" />
+                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
               </div>
 
               <div className="border-style-solid border-2 border-color-bulma border-solo-bot hp-30 w-100 mtp--15 "></div>
@@ -134,7 +135,7 @@ function Page013(props) {
                 <div className="position-absolute top-0 start-50 translate-middle mtp--40">
                   <div className="border-style-solid border-2 border-color-bulma rounded-p-40 hp-30 wp-120">Sé mucho</div>
                 </div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-30" />
+                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
               </div>
             </div>
             <div className="position-absolute top-50 start-100 translate-middle msp--150 mtp--40 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_009.png"} className="wp-140" alt="" /></div>
