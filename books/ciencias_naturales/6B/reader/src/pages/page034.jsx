@@ -44,35 +44,43 @@ function Page034(props) {
 
                             <div className="col-md-12 col-4 justify-content-between disposicion-imagenes msp--20">
 
-                                <div className="position-relative psp-10 pbp-30">
+                                <div className="position-relative psp-10 pbp-30 check-p34">
                                     <div className="cajafoto-p34 foto1-p34 rounded-p-20"></div>
-                                    <div className="position-absolute posicion-check-1 cuadrado-p34">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-30" />
+                                    <div className="position-absolute top-100 posicion-check-1 cuadrado-p34 ">
+                                        <div>
+                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-30" />
+                                        </div>
                                     </div>
                                 </div>
-
-                                <div className="position-relative psp-10 pbp-10">
+                                <div className="position-relative psp-10 pbp-30 check-p34">
                                     <div className="cajafoto-p34 foto2-p34 rounded-p-20"></div>
-                                    <div className="position-absolute posicion-check-1 cuadrado-p34">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-30" />
+
+                                    <div className="position-absolute top-100 posicion-check-1 cuadrado-p34 ">
+                                        <div>
+                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-30" />
+                                        </div>
                                     </div>
                                 </div>
-                                <div className="position-relative psp-10 pbp-10">
+                                <div className="position-relative psp-10 pbp-30 check-p34">
                                     <div className="cajafoto-p34 foto3-p34 rounded-p-20"></div>
-                                    <div className="position-absolute posicion-check-1 cuadrado-p34">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-30" />
+                                    <div className="position-absolute top-100 posicion-check-1 cuadrado-p34 ">
+                                        <div>
+                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-30" />
+                                        </div>
                                     </div>
                                 </div>
-                                <div className="position-relative psp-10 pbp-10">
+                                <div className="position-relative psp-10 pbp-30 check-p34">
                                     <div className="cajafoto-p34 foto4-p34 rounded-p-20"></div>
-                                    <div className="position-absolute posicion-check-1 cuadrado-p34">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-30" />
+                                    <div className="position-absolute top-100 posicion-check-1 cuadrado-p34 ">
+                                        <div>
+                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-30" />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="col-md-12 col-4 ">
-                                <div className="disposicion-palabra ptp-40 pbp-50">
+                                <div className="disposicion-palabra ptp-40 pbp-50 psp-20">
                                     <div className="espaciado-p34">
                                         <div className="border-style-solid border-color-bulma border-2 bgc-tigro p-2 rounded-p-20 "><div className="psp-20 pep-20">Sistema tecnológico</div></div>
                                     </div>
@@ -84,26 +92,26 @@ function Page034(props) {
 
                             <div className="col-md-12 col-4 justify-content-between disposicion-imagenes msp--20-p34">
 
-                                <div className="position-relative psp-10 pbp-30">
+                                <div className="position-relative psp-10 pbp-30 check-p34">
                                     <div className="cajafoto-p34 foto5-p34 rounded-p-20"></div>
                                     <div className="position-absolute posicion-check-2 cuadrado-p34">
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-30" />
                                     </div>
                                 </div>
 
-                                <div className="position-relative psp-10 pbp-10">
+                                <div className="position-relative psp-10 pbp-10 check-p34">
                                     <div className="cajafoto-p34 foto6-p34 rounded-p-20"></div>
                                     <div className="position-absolute posicion-check-2 cuadrado-p34">
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-30" />
                                     </div>
                                 </div>
-                                <div className="position-relative psp-10 pbp-10">
+                                <div className="position-relative psp-10 pbp-10 check-p34">
                                     <div className="cajafoto-p34 foto7-p34 rounded-p-20"></div>
                                     <div className="position-absolute posicion-check-2 cuadrado-p34">
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-30" />
                                     </div>
                                 </div>
-                                <div className="position-relative psp-10 pbp-10">
+                                <div className="position-relative psp-10 pbp-10 check-p34">
                                     <div className="cajafoto-p34 foto8-p34 rounded-p-20"></div>
                                     <div className="position-absolute posicion-check-2 cuadrado-p34">
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-30" />

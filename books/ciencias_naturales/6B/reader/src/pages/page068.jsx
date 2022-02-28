@@ -68,7 +68,7 @@ function Page068(props) {
                       <div className="f-Ubuntu-L fsp-15 ptp-2 text-start">Las fortalezas de nuestro equipo son</div>
                     </div>
                     <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-80" />
                     </div>
                   </div>
                 </div>
@@ -81,7 +81,7 @@ function Page068(props) {
                       <div className="f-Ubuntu-L fsp-15 ptp-2 text-start">Lo que deberíamos mejorar en nuestro trabajo como equipo es</div>
                     </div>
                     <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-80" />
                     </div>
                   </div>
                 </div>

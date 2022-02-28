@@ -86,7 +86,7 @@ function Page040(props) {
                         <div className="f-Ubuntu-L fsp-15 ptp-2 text-start">¿Nos involucramos en la realización de las tareas?</div>
                       </div>
                       <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-80" />
                       </div>
                     </div>
                   </div>
@@ -99,7 +99,7 @@ function Page040(props) {
                         <div className="f-Ubuntu-L fsp-15 ptp-2 text-start">¿Logramos acuerdos y tomamos decisiones de manera compartida?</div>
                       </div>
                       <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-80" />
                       </div>
                     </div>
                   </div>

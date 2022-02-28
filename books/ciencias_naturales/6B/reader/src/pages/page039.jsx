@@ -24,11 +24,11 @@ function Page039(props) {
                 Esta página fue completada por:
               </div>
               <div className="d-flex position-relative">
-                <img
+                {/* <img
                   src={"images/page_" + pagina + "/.svg"}
                   class="hp-110 position-absolute start-0 top-0 mtp--20 msp--10"
                   alt=""
-                />
+                /> */}
                 <div className="bgc-white rounded-p-10 border-style-solid border-1 border-color-android18 w-100 py-1 psp-50 pep-20">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -53,7 +53,7 @@ function Page039(props) {
                       Creemos que los siguientes hábitos son importantes para crear un entorno sostenible:
                     </div>
                   </div>
-                  <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-70" alt="" /></div>
+                  <div className="position-absolute top-50 start-100 translate-middle msp-30 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-70" alt="" /></div>
                 </div>
               </div>
             </div>
@@ -85,7 +85,7 @@ function Page039(props) {
                       La infografía que hicimos la utilizaremos para...
                     </div>
                   </div>
-                  <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-90" alt="" /></div>
+                  <div className="position-absolute top-50 start-100 translate-middle msp-20 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-90" alt="" /></div>
                 </div>
               </div>
             </div>

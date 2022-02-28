@@ -4,7 +4,6 @@
 
 .cuadrado-p34 {
   min-width: 30px;
-  max-width: 30px;
   min-height: 30px;
   max-height: 30px;
   background: #ffffff;
@@ -66,13 +65,11 @@
   }
 
   .posicion-check-1 {
-    margin-left: 70px;
-    margin-top: -10px;
+    margin-top: -40px;
   }
 
   .posicion-check-2 {
-    margin-left: 70px;
-    margin-top: -166px;
+    margin-top: -20px;
   }
 
   .disposicion-palabra {
@@ -94,6 +91,11 @@
     width: 167px;
     height: 155px;
   }
+
+  .check-p34 {
+    display: flex;
+    Justify-content: center;
+  }
 }
 
 @media all and (max-width: 766px) {
@@ -103,7 +105,7 @@
 
   .posicion-check-1 {
     margin-left: 85%;
-    margin-top: -95px;
+    margin-top: -120px;
   }
 
   .posicion-check-2 {

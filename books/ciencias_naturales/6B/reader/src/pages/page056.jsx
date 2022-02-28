@@ -46,9 +46,9 @@ function Page056(props) {
               <div className="col-12 position-relative">
                 <div className="bgc-white border-style-solid border-1 p-3 rounded-p-5">
                   <div className="text-start">Incluiremos el video del prototipo en...</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                   <div className="text-start ptp-20">Para...</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                 </div>
                 <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-80" alt="" /></div>
               </div>
@@ -56,15 +56,15 @@ function Page056(props) {
             </div>
           </div>
 
-          <div className="d-flex flex-column global-margin mtp-0 mbp-20 psp-0 pep-0 ptp-20 pbp-20">
-            <div className="col-12">
+          <div className="d-flex flex-column global-margin mtp-0 mbp-20 psp-0 pep-80 ptp-20 pbp-20">
+            <div className="col-12 position-relative">
               <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo vamos?</div>
               <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-30">
                 {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src={"images/page_" + pagina + "/img_005.svg"} className="hp-17 mtp--2" alt="" /> el recuadro que mejor me represente.</span> */}
                 <div className="w-100 p-2 pb-3 bgc-white rounded-p-10">
                   <table className="w-100">
                     <tbody>
-                      <tr>
+                      <tr className="color-white">
                         <td>&nbsp;</td>
                         <td className={"style-caja " + background + " tf-letra border-style-solid border-1 " + borderColor + " f-colby-compres-bold ps-2 pe-2"}>
                           Nunca</td>
@@ -107,6 +107,7 @@ function Page056(props) {
                   </table>
                 </div>
               </div>
+              <div className="position-absolute top-100 start-100 translate-middle msp-50 mtp--160 visible-768"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-140" alt="" /></div>
             </div>
           </div>
 
