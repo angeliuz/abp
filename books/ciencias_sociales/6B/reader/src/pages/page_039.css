@@ -1,12 +1,12 @@
 .caja1-p39 {
     max-width: 220px;
-    height: 70px;
+    min-height: 70px;
 }
 
 .caja2-p39 {
     min-width: 50px;
     width: 220px;
-    height: 30px;
+    min-height: 30px;
 }
 
 

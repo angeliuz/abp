@@ -50,7 +50,7 @@ function Page039(props) {
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-180" />
                   <div className="position-absolute top-0 start-50 msp-0 mtp-0 translate-middle">
                     <div className="bgc-ron mnwp-400 color-white f-Ubuntu-B text-center px-3 py-2 rounded-p-20">
-                      Creemos que los siguientes hábitos son importantes para crear un entorno sostenible:
+                      Creemos que los siguientes hábitos son importantes para crear un entorno sostenible:
                     </div>
                   </div>
                   <div className="position-absolute top-50 start-100 translate-middle msp-30 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-70" alt="" /></div>
@@ -66,7 +66,7 @@ function Page039(props) {
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
                   <div className="position-absolute top-0 start-50 msp-0 mtp-0 translate-middle">
                     <div className="bgc-bulma mnwp-400 color-white f-Ubuntu-B text-center px-3 py-2 rounded-p-20">
-                      Lo que nos sirve de esta investigación para nuestro proyecto es...
+                      Lo que nos sirve de esta investigación para nuestro proyecto es...
                     </div>
                   </div>
                   <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-140" alt="" /></div>
@@ -82,7 +82,7 @@ function Page039(props) {
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
                   <div className="position-absolute top-0 start-50 msp-0 mtp-0 translate-middle">
                     <div className="bgc-pidgey mnwp-300 color-white f-Ubuntu-B text-center px-3 py-2 rounded-p-20">
-                      La infografía que hicimos la utilizaremos para...
+                      La infografía que hicimos la utilizaremos para...
                     </div>
                   </div>
                   <div className="position-absolute top-50 start-100 translate-middle msp-20 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-90" alt="" /></div>
