@@ -42,6 +42,7 @@ function Page015(props) {
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_007/revista65.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+              <img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" />
             </div>
           </div>
 
@@ -115,6 +116,8 @@ function Page015(props) {
               <div className="col-12 pbp-100">
                 <img src="images/page_015/img_004.png" className="hp-200 align-center mtp-40" alt="" />
               </div>
+
+              <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
             </div>
 
           </div>
