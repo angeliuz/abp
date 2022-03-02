@@ -84,16 +84,19 @@ function Page041(props) {
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                   </div>
                 </div>
+
                 <div className="col-2 d-flex center-center  border-style-solid  border-color-pidgey border-1 border-right-hidden border-bottom-hidden bgc-white color-pidgey f-Ubuntu-B p-0 m-0">
                   <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-pidgey bgc-white rounded-1">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
                   </div>
                 </div>
+
                 <div className="col-2 d-flex center-center  border-style-solid  border-color-pidgey border-1 border-bottom-hidden bgc-white color-pidgey f-Ubuntu-B p-0 m-0">
                   <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-pidgey bgc-white rounded-1">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
                   </div>
                 </div>
+
                 <div className="col-8 border-style-solid  border-color-pidgey border-1 border-bottom-hidden border-right-hidden  bgc-white color-pidgey f-Ubuntu-B p-0 m-0">
                   <div className="d-flex flex-column text-start w-100 psp-10 pep-10 ptp-5 pbp-5">
                     Pregunta 2
@@ -143,7 +146,7 @@ function Page041(props) {
                 2
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Organizamos la información de la tabla anterior en gráficos de barra. Dibujamos en hojas cuadriculadas un gráfico para cada pregunta considerando los aspectos anteriores.Total de respuestasSíNoPregunta 1Pregunta 2Pregunta 3De un total de  encuestados, estos son los resultados:
+                Organizamos la información de la tabla anterior en gráficos de barra. Dibujamos en hojas cuadriculadas un gráfico para cada pregunta considerando los aspectos anteriores.
               </div>
               {/* <img src={"images/page_"+pagina+"/img_00.svg"} className="wp-100" alt=""/> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}

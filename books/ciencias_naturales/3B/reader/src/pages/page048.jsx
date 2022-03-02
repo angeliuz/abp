@@ -54,7 +54,7 @@ function Page048(props) {
                     <div className="wp-25 hp-25 d-flex center-center color-white f-Ubuntu-B fsp-14 psp-5 pep-5 ptp-2 pbp-2  wp-150 min-hp-45 rounded-p-5 bgc-saitama">El modelo</div>
                   </div>
                   <div className="d-flex w-100 psp-10 pep-10 ptp-30 pbp-0 bgc-white rounded-p-10">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-250" />
                   </div>
                 </div>
               </div>
@@ -64,7 +64,7 @@ function Page048(props) {
                     <div className="d-flex center-center color-white f-Ubuntu-B  fsp-14 psp-5 pep-5 ptp-2 pbp-2  rounded-p-5 bgc-saitama min-hp-45  wp-150">La infografía que explique el modelo</div>
                   </div>
                   <div className="d-flex w-100 psp-10 pep-10 ptp-30 pbp-0 bgc-white rounded-p-10">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-250" />
                   </div>
                 </div>
               </div>
@@ -74,7 +74,7 @@ function Page048(props) {
                     <div className="d-flex center-center color-white f-Ubuntu-B fsp-14 psp-5 pep-5 ptp-2 pbp-2 rounded-p-5 bgc-saitama min-hp-45 wp-150">Las decoraciones para el stand</div>
                   </div>
                   <div className="d-flex w-100 psp-10 pep-10 ptp-30 pbp-0 bgc-white rounded-p-10">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-250" />
                   </div>
                 </div>
               </div>
