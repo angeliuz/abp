@@ -49,6 +49,11 @@ function Page049(props) {
 
           <div className="d-flex flex-column global-margin mtp-0 mbp-0 psp-20 pep-20 ptp-20 pbp-20 bgc-buzz rounded-p-10">
             <div className="row p-0 msp-0 mep-0 mtp-0 mbp-10 w-100 ">
+              <div className="d-flex justify-content-evenly">
+                <div className="col-md-4 col-6">¿Qué hay que hacer?</div>
+                <div className="col-md-8 col-6">¿Quiénes lo harán?</div>
+              </div>
+
               <div className="col-auto p-0 m-0 position-relative d-flex justify-content-end align-items-center ">
                 <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_001.svg"} className="wp-25" alt="" /></div>
                 <div className="bgc-bulma color-white f-Ubuntu-B fsp-15 psp-10 pep-10 ptp-10 pbp-10 mep-10 rounded-p-10 max-wp-200 wp-200 min-hp-50 d-flex align-items-center justify-content-start text-start">Construir el modelo.</div>
@@ -61,7 +66,7 @@ function Page049(props) {
                 </div>
               </div>
             </div>
-            <div className="row p-0 m-0 w-100 ">
+            <div className="row m-0 w-100 pbp-10 ps-0 pe-0 pt-0">
               <div className="col-auto p-0 m-0 position-relative d-flex justify-content-end align-items-center ">
                 <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_001.svg"} className="wp-25" alt="" /></div>
                 <div className="bgc-bulma color-white f-Ubuntu-B fsp-15 psp-10 pep-10 ptp-10 pbp-10 mep-10 rounded-p-10 max-wp-200 wp-200 min-hp-50 d-flex center-center text-start">Preparar la infografía que explique el modelo.</div>
@@ -105,7 +110,7 @@ function Page049(props) {
               {/* <img src={"images/page_"+pagina+"/img_00.svg"} className="wp-100" alt=""/> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"75"} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
 

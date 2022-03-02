@@ -1,5 +1,6 @@
 import React from "react";
 import InputBox from "../components/InputBox";
+import Check from "../components/Check";
 import "./page_059.css";
 
 function Page059(props) {
@@ -56,21 +57,21 @@ function Page059(props) {
                 <div className="d-flex flex-column w-100  psp-20 pep-20 ptp-20 pbp-0">
                   <div className="position-relative msp-0 mep-0 mbp-10 psp-30 pep-10 ptp-10 pbp-10 rounded-p-10 border-style-solid border-1 border-color-white bgc-baraka f-Ubuntu-L fsp-14">
                     <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-1">
-                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                      <div className="wp-30 hp-30">
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                     </div>
-                    Seleccionar la idea que desarrollaremos en equipo.
+                    tal como esperaba.
                   </div>
                 </div>
                 <div className="d-flex flex-column w-100 psp-20 pep-20 ptp-0 pbp-20">
                   <div className="position-relative msp-0 mep-0 mbp-10 psp-30 pep-10 ptp-10 pbp-10 rounded-p-10 border-style-solid border-1 border-color-white bgc-baraka f-Ubuntu-L fsp-14">
                     <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-1">
-                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                      <div className="wp-30 hp-30">
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                     </div>
-                    Seleccionar la idea que desarrollaremos en equipo.
+                    de forma distinta a como esperaba.
                   </div>
                 </div>
 
