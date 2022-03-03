@@ -1,38 +1,36 @@
-
+/* 
 .cb-page56 {
   background: url(images/page_056/fondo_001.svg) top left/ cover no-repeat !important;
    -webkit-print-color-adjust: exact !important;
-
-
-
-
-
-}.linea {
+} */
+.linea {
   border-bottom: 1px dashed #dedede;
   padding-top: 5px;
   border-color: var(--dark);
 }
+
 .nunca {
   font-size: 16px;
   min-width: 50px;
 }
+
 .siempre {
   font-size: 16px;
   min-width: 70px;
 }
 
 
-.cb-contenedor-tabla-texto-400{
- 
-   width: 400px;
+.cb-contenedor-tabla-texto-400 {
+
+  width: 400px;
   padding-right: 10px;
 }
 
 
 
 
- 
- 
+
+
 
 .flecha-pidgey {
   width: 0;
@@ -46,66 +44,75 @@
 
 
 
- 
+
 .mxwp-490 {
   max-width: 490px;
 }
+
 .hp-240 {
-    height: 240px;
+  height: 240px;
 }
+
 .mrp--60 {
-    margin-right: -60px;
+  margin-right: -60px;
 }
+
 .tf-letra {
-    border-top: 1px solid;
-    border-left: 1px solid;
-    border-right: 1px solid;
-    color: white !important;
-    font-size: 16px;
-  }
-  .tf-parrafo-caja {
-    font-size: 16px;
-    text-align: left !important;
-    color: #000 !important;
-    font-family: ubuntu-l, sans-serif;
-    background-color: var(--kai);
-    width: 400px;
-    padding-left: 8px;
-  }
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  color: white !important;
+  font-size: 16px;
+}
+
+.tf-parrafo-caja {
+  font-size: 16px;
+  text-align: left !important;
+  color: #000 !important;
+  font-family: ubuntu-l, sans-serif;
+  background-color: var(--kai);
+  width: 400px;
+  padding-left: 8px;
+}
+
+.tf-mono {
+  display: flex;
+  position: absolute;
+  right: 20px;
+  bottom: 70px;
+  z-index: 1;
+}
+
+.tf-megafono {
+  display: flex;
+  position: absolute;
+  right: 40px;
+  top: 70px;
+  z-index: 1;
+}
+
+.tf-lupa {
+  display: flex;
+  position: absolute;
+  left: 60px;
+  top: 220px;
+  z-index: 1;
+}
+
+.tf-calendario {
+  display: flex;
+  position: absolute;
+  left: 40px;
+  top: 440px;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
   .tf-mono {
     display: flex;
     position: absolute;
-    right: 20px;
-    bottom: 70px;
+    right: 0px;
+    bottom: 190px;
     z-index: 1;
   }
-  .tf-megafono {
-    display: flex;
-    position: absolute;
-    right: 40px;
-    top: 70px;
-    z-index: 1;
-  }
-  .tf-lupa {
-    display: flex;
-    position: absolute;
-    left: 60px;
-    top: 220px;
-    z-index: 1;
-  }
-  .tf-calendario {
-    display: flex;
-    position: absolute;
-    left: 40px;
-    top: 440px;
-    z-index: 1;
-  }
-  @media (max-width: 768px) {
-    .tf-mono {
-        display: flex;
-        position: absolute;
-        right: 0px;
-        bottom: 190px;
-        z-index: 1;
-      }
-    }
+}
