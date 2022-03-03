@@ -21,7 +21,7 @@ function Page024(props) {
         <div className={"page " + background + " position-relative pagina-cohete"} id={"page_" + pagina}>
 
           <div className="w-100 mt-15 pe-5 ps-5 ">
-            <div className="pc-lineas-v2 pbp-80">
+            <div className="pc-lineas-v2 pbp-160">
               <div className="pc-cabecera">
                 <div className="pc-titulo-12 color-white fsp-20 lh-sm f-durotype-aspiranar-bold">
                   Mis objetivos <br /> en esta etapa son:
@@ -50,7 +50,7 @@ function Page024(props) {
                 <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
                   <div className={"d-flex " + bgc_cajas + " psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e" + etapa}>
                     <div className="d-flex wp-23">
-                      <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-25 mep-5 wp-20" alt="" />
+                      <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-25 mtp--35 mep-5 wp-20" alt="" />
                     </div>
                     <div className="d-flex">
                       <span className="fsp-16 text-start f-pixilate-regular">
