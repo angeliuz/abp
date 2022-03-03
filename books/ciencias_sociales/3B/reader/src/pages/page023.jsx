@@ -16,11 +16,11 @@ function Page023(props) {
           id={"page_" + pagina}
         >
           <div className="cabecera-v2 bgc-android18 d-flex flex-column">
-                  <div className="d-flex contenedor-cabecera-v2 align-items-center ptp-40 psp-30 pep-30">
-                    <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-balrog fsp-24 f-IntroRustG-Base">SESIÓN 5</div>
-                    <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Navegando por la web</div>
-                  </div>
-                </div> 
+            <div className="d-flex contenedor-cabecera-v2 align-items-center ptp-40 psp-30 pep-30">
+              <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-balrog fsp-24 f-IntroRustG-Base">SESIÓN 5</div>
+              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Navegando por la web</div>
+            </div>
+          </div>
           {/* END CABECERA VERSIÓN 2 */}
 
           <div className="ptp-30 psp-60 ">
@@ -43,12 +43,7 @@ function Page023(props) {
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                 Leo la revista y comprendo.
               </div>
-              <ModalBook
-                id={"p" + pagina + "_book" + (indexInput += 1)}
-                image="images/page_023/img_002.svg"
-                clasesImagen="hp-40 text-center mtp-15 msp--10"
-                className="p-0 px-0"
-              />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"67"} image={"images/page_" + pagina + "/img_002.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
 
@@ -86,7 +81,7 @@ function Page023(props) {
           </div>
 
           <div className="ptp-10 psp-60 pep-60 mbp-0 position-relative">
-            
+
             <div className="row">
               <div className="col-md-5 col-12 psp-20 pep-20 pbp-20">
                 <div className="d-flex">
@@ -101,17 +96,17 @@ function Page023(props) {
 
               <div className="col-md-7 position-relative pbp-20 ptp-15 ">
 
-              <div className="position-absolute top-0 end-0 zindex-2 mtp--10">
-              <img
-                src="images/page_023/clip.png"
-                className="wp-30 mep-110 mtp-5"
-                alt=""
-              />
-            </div>
+                <div className="position-absolute top-0 end-0 zindex-2 mtp--10">
+                  <img
+                    src="images/page_023/clip.png"
+                    className="wp-30 mep-110 mtp-5"
+                    alt=""
+                  />
+                </div>
                 <div className="box-shadow-simple w-100 p-3 text-left bgc-draco rota">
                   <div className="d-flex align-items-center pbp-10">
                     <div className="pep-10">
-                    <div className="border-style-solid border-1 wp-30 hp-30 bgc-white">
+                      <div className="border-style-solid border-1 wp-30 hp-30 bgc-white">
                         <InputBox
                           id={"p" + pagina + "_input" + (indexInput += 1)}
                           className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
@@ -124,7 +119,7 @@ function Page023(props) {
                   </div>
                   <div className="d-flex align-items-center pbp-10">
                     <div className="pep-10">
-                    <div className="border-style-solid border-1 wp-30 hp-30 bgc-white">
+                      <div className="border-style-solid border-1 wp-30 hp-30 bgc-white">
                         <InputBox
                           id={"p" + pagina + "_input" + (indexInput += 1)}
                           className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
@@ -137,7 +132,7 @@ function Page023(props) {
                   </div>
                   <div className="d-flex align-items-center pbp-10">
                     <div className="pep-10">
-                    <div className="border-style-solid border-1 wp-30 hp-30 bgc-white">
+                      <div className="border-style-solid border-1 wp-30 hp-30 bgc-white">
                         <InputBox
                           id={"p" + pagina + "_input" + (indexInput += 1)}
                           className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
@@ -175,7 +170,7 @@ function Page023(props) {
               <div className="d-flex margen-21 mbp-60 mtp-10 w-100 ">
                 <div className="p-2  w-100 border-style-solid border-4 border-color-raiden rounded-tbe-20 ">
                   <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-start">
-                    Lo que más nos interesaría saber de esta institución <br/>es…
+                    Lo que más nos interesaría saber de esta institución <br />es…
                   </div>
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
