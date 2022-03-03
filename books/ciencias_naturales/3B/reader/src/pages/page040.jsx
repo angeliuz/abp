@@ -26,8 +26,8 @@ function Page040(props) {
 
 
           <div className="d-flex global-margin mtp-20 mbp-0 psp-0 pep-0 ptp-0 pbp-0 bgc-bobafett rounded-p-10">
-            <div className="row p-0 m-0 w-100 f-Ubuntu-R fsp-15">
-              <div className="col-sm-12 p-0 m-0 position-relative">
+            <div className="row p-0 m-0 w-100 f-Ubuntu-R fsp-15 position-relative">
+              <div className="col-sm-12 p-0 m-0">
                 <div className="d-flex psp-20 pep-20 ptp-10 pbp-0">
                   Las 3 preguntas para nuestra encuesta son...
                 </div>
@@ -38,7 +38,7 @@ function Page040(props) {
                     <div className="wp-25 hp-25 d-flex center-center color-white f-Ubuntu-B rounded-p-5 bgc-android18">1</div>
                   </div>
                   <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0 bgc-white rounded-p-10">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-300" />
                   </div>
                 </div>
               </div>
@@ -48,7 +48,7 @@ function Page040(props) {
                     <div className="wp-25 hp-25 d-flex center-center color-white f-Ubuntu-B rounded-p-5 bgc-goten">2</div>
                   </div>
                   <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0 bgc-white rounded-p-10">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-300" />
                   </div>
                 </div>
               </div>
@@ -58,10 +58,11 @@ function Page040(props) {
                     <div className="wp-25 hp-25 d-flex center-center color-white f-Ubuntu-B rounded-p-5 bgc-saitama">3</div>
                   </div>
                   <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0 bgc-white rounded-p-10">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-300" />
                   </div>
                 </div>
               </div>
+              <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/bolsa.png"} className="wp-60" alt="" /></div>
             </div>
           </div>
 
@@ -99,7 +100,7 @@ function Page040(props) {
                         <div className="f-Ubuntu-L fsp-15 ptp-2 text-start"> ¿Para qué utilizaré lo que he aprendido hoy?</div>
                       </div>
                       <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-80" />
                       </div>
                     </div>
                   </div>
@@ -112,7 +113,7 @@ function Page040(props) {
                         <div className="f-Ubuntu-L fsp-15 ptp-2 text-start"> ¿Qué hago si no he comprendido algo?</div>
                       </div>
                       <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-80" />
                       </div>
                     </div>
                   </div>

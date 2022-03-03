@@ -136,7 +136,7 @@ function Page050(props) {
               <div className="col-md-3 col-0"></div>
               <div className="col-md-9 col-12 d-flex justify-content-center position-relative">
                 <div className="text-start w-100 border-style-solid border-2 psp-20 pep-20 ptp-10 pbp-10 rounded-p-20">
-                  <div className="">La propuesta debe cambiar...</div>
+                  <div className="">Se puede mejorar...</div>
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
                 </div>
                 <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/estrella.png"} className="wp-60" alt="" /></div>

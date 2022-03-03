@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check2 from "../components/Check2";
 
 import "./page_014.css";
 
@@ -61,63 +62,63 @@ function Page014(props) {
 
                 <div className="w-100 mtp-27 d-flex justify-content-center">
                   <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-bulma position-relative">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2>
                     <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-bulma hp-30"></div>
                   </div>
                 </div>
 
                 <div className="w-100 mtp-27 d-flex justify-content-center">
                   <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-bulma position-relative">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2>
                     <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-bulma hp-30"></div>
                   </div>
                 </div>
 
                 <div className="w-100 mtp-27 d-flex justify-content-center">
                   <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-bulma position-relative">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2>
                     <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-bulma hp-30"></div>
                   </div>
                 </div>
 
                 <div className="w-100 mtp-27 d-flex justify-content-center">
                   <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-bulma position-relative">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2>
                     <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-bulma hp-30"></div>
                   </div>
                 </div>
 
                 <div className="w-100 mtp-27 d-flex justify-content-center">
                   <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-bulma position-relative">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2>
                     <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-bulma hp-30"></div>
                   </div>
                 </div>
 
                 <div className="w-100 mtp-27 d-flex justify-content-center">
                   <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-bulma position-relative">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2>
                     <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-bulma hp-30"></div>
                   </div>
                 </div>
 
                 <div className="w-100 mtp-27 d-flex justify-content-center">
                   <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-bulma position-relative">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2>
                     <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-bulma hp-30"></div>
                   </div>
                 </div>
 
                 <div className="w-100 mtp-27 d-flex justify-content-center">
                   <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-bulma position-relative">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2>
                     <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-bulma hp-30"></div>
                   </div>
                 </div>
 
                 <div className="w-100 mtp-27 d-flex justify-content-center">
                   <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-bulma position-relative">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2>
                     <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-bulma hp-30"></div>
                   </div>
                 </div>
@@ -145,63 +146,63 @@ function Page014(props) {
 
                 <div className="w-100 mtp-27 d-flex justify-content-center">
                   <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-saitama position-relative">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2>
                     <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-saitama hp-30"></div>
                   </div>
                 </div>
 
                 <div className="w-100 mtp-27 d-flex justify-content-center">
                   <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-saitama position-relative">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2>
                     <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-saitama hp-30"></div>
                   </div>
                 </div>
 
                 <div className="w-100 mtp-27 d-flex justify-content-center">
                   <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-saitama position-relative">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2>
                     <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-saitama hp-30"></div>
                   </div>
                 </div>
 
                 <div className="w-100 mtp-27 d-flex justify-content-center">
                   <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-saitama position-relative">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2>
                     <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-saitama hp-30"></div>
                   </div>
                 </div>
 
                 <div className="w-100 mtp-27 d-flex justify-content-center">
                   <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-saitama position-relative">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2>
                     <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-saitama hp-30"></div>
                   </div>
                 </div>
 
                 <div className="w-100 mtp-27 d-flex justify-content-center">
                   <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-saitama position-relative">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2>
                     <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-saitama hp-30"></div>
                   </div>
                 </div>
 
                 <div className="w-100 mtp-27 d-flex justify-content-center">
                   <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-saitama position-relative">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2>
                     <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-saitama hp-30"></div>
                   </div>
                 </div>
 
                 <div className="w-100 mtp-27 d-flex justify-content-center">
                   <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-saitama position-relative">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2>
                     <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-saitama hp-30"></div>
                   </div>
                 </div>
 
                 <div className="w-100 mtp-27 d-flex justify-content-center">
                   <div className="cuadrado-p14 bgc-white border-style-solid border-1 border-color-saitama position-relative">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                    <Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2>
                     <div className="position-absolute top-0 start-50 translate-middle mtp--15 border-style-solid border-1 border-color-saitama hp-30"></div>
                   </div>
                 </div>

@@ -45,7 +45,7 @@ function Page053(props) {
               <div className="ptp-30"></div>
               <div className="bgc-white border-style-solid border-1 border-color-dark rounded-p-10 position-relative">
                 <div className="bgc-chitara mxwp-280 rounded-p-10">
-                  <div className="f-Ubuntu-R psp-20 py-2 text-start">Y consulta pública nos sirvió para:</div>
+                  <div className="f-Ubuntu-R psp-20 py-2 text-start">La consulta pública nos sirvió para:</div>
                 </div>
                 <div className="psp-20 pep-20 pbp-20">
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />

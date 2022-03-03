@@ -1,5 +1,5 @@
 .caja-p16 {
-    width: 100%;
+    width: 70%;
 }
 
 .bloque-p16 {
@@ -11,4 +11,10 @@
     border-left: none !important;
     border-right: none !important;
     border-bottom: none !important;
+}
+
+@media (max-width: 800px) {
+    .caja-p16 {
+        width: 60%;
+    }
 }

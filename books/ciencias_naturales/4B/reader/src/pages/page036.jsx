@@ -15,7 +15,7 @@ function Page036(props) {
           className="page bgc-white overflow-hidden position-relative"
           id={"page_" + pagina}
         >
-            
+
           <div className="cabecera-v1 hp-80 bgc-android18"></div>
           <div className="ptp-30 psp-60 pep-60">
             <div className="f-Ubuntu-M fsp-20 color-android18 text-start">
@@ -47,7 +47,7 @@ function Page036(props) {
                     <div className="psp-15 pep-10 flex-fill">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75"
+                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 wp-280 min-hp-75"
                       />
                     </div>
                   </div>
@@ -58,7 +58,7 @@ function Page036(props) {
                     <div className="psp-15 pep-10 flex-fill">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75"
+                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 wp-280 min-hp-75"
                       />
                     </div>
                   </div>
@@ -69,7 +69,7 @@ function Page036(props) {
                     <div className="psp-15 pep-10 flex-fill">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75"
+                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 wp-280 min-hp-75"
                       />
                     </div>
                   </div>
@@ -80,7 +80,7 @@ function Page036(props) {
                     <div className="psp-15 pep-10 flex-fill">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75"
+                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 wp-280 min-hp-75"
                       />
                     </div>
                   </div>
@@ -91,7 +91,7 @@ function Page036(props) {
                     <div className="psp-15 pep-10 flex-fill">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75"
+                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 wp-280 min-hp-75"
                       />
                     </div>
                   </div>
@@ -102,7 +102,7 @@ function Page036(props) {
                     <div className="psp-15 pep-10 flex-fill">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75"
+                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 wp-280 min-hp-75"
                       />
                     </div>
                   </div>
@@ -120,7 +120,7 @@ function Page036(props) {
                     />
                   </div>
                 </div>
-                <img src="images/page_036/img_001.png" className="position-absolute top-0 start-100 msp--50 mtp--40"  alt=""/>
+                <img src="images/page_036/img_001.png" className="position-absolute top-0 start-100 msp--50 mtp--40" alt="" />
               </div>
             </div>
             <div className="row w-100">
@@ -150,7 +150,7 @@ function Page036(props) {
                   <div className="d-flex ptp-15">
                     <div className="f-Ubuntu-B color-android18 fsp-18">b.</div>
                     <div className="text-start f-Ubuntu-L psp-10 w-80">
-                    ¿Cómo esta información contribuye a definir las tareas de la brigada?
+                      ¿Cómo esta información contribuye a definir las tareas de la brigada?
                     </div>
                   </div>
                   <div className="">

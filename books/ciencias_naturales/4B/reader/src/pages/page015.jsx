@@ -7,6 +7,11 @@ import "./page_015.css";
 function Page015(props) {
   const pagina = "015";
   var indexInput = 0;
+  const background = "bgc-bulma";
+  const color = "color-bulma";
+  const borderColor = "border-color-bulma";
+  const borderColorTabla = "border-color-buzz";
+  const bgc_cajas = "bgc-piccolo";
 
   return (
     <div className="wrapper bgc-light">
@@ -27,9 +32,12 @@ function Page015(props) {
             </div>
           </div>
           {/* END CABECERA */}
-          <div className="psp-50 pep-50 ptp-20 pbp-60">
+          <div className="psp-50 pep-50 ptp-20 pbp-120">
             <div className="row">
-              <div className="col-md-6 col-12">
+              <div className="col-md-6 col-9 msp-a mep-a">
+                <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+                  ¿Qué sé del desafío?
+                </div>
                 <div className="d-flex text-start">
                   <div className="f-ccdigitaldelivery-bold fsp-35 color-bulma pep-10">
                     1
@@ -53,27 +61,16 @@ function Page015(props) {
                   />
                 </div>
 
-                <div className="mtp--10 position-relative">
-                  <img
-                    src="images/page_015/img_006.svg"
-                    className="mxwp-350 w-100"
-                    alt=""
-                  />
-                  <div className="position-absolute top-50 start-50 translate-middle mtp-10 zi1 mxwp-350 w-90">
-                    <InputBox
-                      id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-350"
-                    />
+                <div className="mtp--10 position-relative ptp-50">
+                  <div className="w-100 border-style-solid border-1 position-relative rounded-p-20 psp-20 pep-20 ptp-30 pbp-10">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 w-100 min-hp-400" />
                   </div>
-                  <img
-                    src="images/page_015/img_008.png"
-                    className="position-absolute translate-middle tf-crayones zi2 top-50 start-0 "
-                    alt=""
-                  />
+                  <img src="images/page_015/anillado.png" className="position-absolute translate-middle zi2 top-0 start-500 msp-0 mtp-50 w-90" alt="" />
+                  <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-180 zindex-1"><img src={"images/page_" + pagina + "/img_008.png"} className="wp-60" alt="" /></div>
                 </div>
               </div>
 
-              <div className="col-md-6 col-12">
+              <div className="col-md-6 col-9 msp-a mep-a ptp-20">
                 <div className="mtp-30 position-relative">
                   <img
                     src="images/page_015/img_003.jpg"
@@ -87,22 +84,13 @@ function Page015(props) {
                   />
                 </div>
                 <div className="mtp--10 position-relative">
-                  <img
-                    src="images/page_015/img_006.svg"
-                    className="mxwp-350 w-100"
-                    alt=""
-                  />
-                  <div className="position-absolute top-50 start-50 translate-middle mtp-10 zi1 mxwp-350 w-90">
-                    <InputBox
-                      id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-350"
-                    />
+                  <div className="mtp--10 position-relative ptp-50">
+                    <div className="w-100 border-style-solid border-1 position-relative rounded-p-20 psp-20 pep-20 ptp-30 pbp-10">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 w-100 min-hp-400" />
+                    </div>
+                    <img src="images/page_015/anillado.png" className="position-absolute translate-middle zi2 top-0 start-500 msp-0 mtp-50 w-90" alt="" />
+                    <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-80 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="hp-140" alt="" /></div>
                   </div>
-                  <img
-                    src="images/page_015/img_007.png"
-                    className="position-absolute translate-middle top-0 start-100 tf-mono-15 zi2"
-                    alt=""
-                  />
                 </div>
               </div>
             </div>

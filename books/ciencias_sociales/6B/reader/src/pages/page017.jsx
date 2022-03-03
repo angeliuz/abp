@@ -98,15 +98,15 @@ function Page017(props) {
             <div className="w-100 bgc-jaga border-style-solid border-1 border-color-goku p-2 position-relative sombra-3 ">
               <div className="d-flex ptp-10 pbp-10 pep-30">
                 <div className="psp-20 pep-20 ptp-10"><div className="punto-p17 bgc-bulma "></div></div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-90 min-hp-35" />
               </div>
               <div className="d-flex ptp-10 pbp-10 pep-30">
                 <div className="psp-20 pep-20 ptp-10"><div className="punto-p17 bgc-bulma "></div></div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-90 min-hp-35" />
               </div>
               <div className="d-flex ptp-10 pbp-10 pep-30">
                 <div className="psp-20 pep-20 ptp-10"><div className="punto-p17 bgc-bulma "></div></div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-90 min-hp-35" />
               </div>
               <div className="position-absolute top-0 start-100 translate-middle msp-3 mtp-30 zindex-1"><img src={"images/page_" + pagina + "/img_006.svg"} className="wp-60" alt="" /></div>
               <div className="pbp-100"></div>

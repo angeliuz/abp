@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 
 import "./page_054.css";
 
@@ -29,32 +30,32 @@ function Page054(props) {
                 <div className="d-flex flex-column w-100 bgc-rain rounded-p-20 psp-20 pep-20 ptp-20 pbp-20">
                   <div className="position-relative msp-0 mep-0 mbp-10 psp-30 pep-10 ptp-10 pbp-10 rounded-p-10 border-style-solid border-1 border-color-white bgc-chitara f-Ubuntu-L fsp-14">
                     <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-1">
-                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                      <div className="wp-30 hp-30">
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                     </div>
                     Seleccionar la idea que desarrollaremos en equipo.
                   </div>
                   <div className="position-relative msp-0 mep-0 mbp-10 psp-30 pep-10 ptp-10 pbp-10 rounded-p-10 border-style-solid border-1 border-color-white bgc-chitara f-Ubuntu-L fsp-14">
                     <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-1">
-                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                      <div className="wp-30 hp-30">
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                     </div>
                     Organizar y designar el trabajo que realiza cada uno.
                   </div>
                   <div className="position-relative msp-0 mep-0 mbp-10 psp-30 pep-10 ptp-10 pbp-10 rounded-p-10 border-style-solid border-1 border-color-white bgc-chitara f-Ubuntu-L fsp-14">
                     <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-1">
-                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                      <div className="wp-30 hp-30">
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                     </div>
                     Reconocer los pasos para construir el modelo, la infografía o las decoraciones.
                   </div>
                   <div className="position-relative msp-0 mep-0 mbp-10 psp-30 pep-10 ptp-10 pbp-10 rounded-p-10 border-style-solid border-1 border-color-white bgc-chitara f-Ubuntu-L fsp-14">
                     <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-1">
-                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                      <div className="wp-30 hp-30">
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                     </div>
                     Construir o confeccionar el modelo, la infografía o las decoraciones.

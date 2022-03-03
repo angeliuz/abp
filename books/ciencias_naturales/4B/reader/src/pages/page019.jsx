@@ -104,7 +104,7 @@ function Page019(props) {
                 />
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-0 px-1 text-center flex-grow-1 lhp-80 min-hp-80"
+                  className="p-0 px-1 text-center flex-grow-1 lhp-80 wp-160 min-hp-80"
                 />
               </div>
               <div className="centrar-ver">
@@ -138,7 +138,7 @@ function Page019(props) {
                 />
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-0 px-1 text-center flex-grow-1 lhp-80 min-hp-80"
+                  className="p-0 px-1 text-center flex-grow-1 lhp-80 wp-160 min-hp-80"
                 />
               </div>
               <div className="centrar-ver">
@@ -172,7 +172,7 @@ function Page019(props) {
                 />
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-0 px-1 text-center flex-grow-1 lhp-80 min-hp-80"
+                  className="p-0 px-1 text-center flex-grow-1 lhp-80 wp-160 min-hp-80"
                 />
               </div>
               <div className="centrar-ver">
@@ -206,7 +206,7 @@ function Page019(props) {
                 />
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-0 px-1 text-center flex-grow-1 lhp-80 min-hp-80"
+                  className="p-0 px-1 text-center flex-grow-1 lhp-80 wp-160 min-hp-80"
                 />
               </div>
               <div className="centrar-ver">

@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 
 import "./page_050.css";
 
@@ -46,31 +47,31 @@ function Page050(props) {
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative d-flex center-center">
 
-                <div className="position-absolute top-100 start-50 translate-middle msp-220 mtp--110 zindex-2"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-150" alt="" /></div>
+                <div className="position-absolute top-100 start-50 translate-middle msp-190 mtp--110 zindex-2"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-150" alt="" /></div>
                 <div className="d-flex wp-400 hp-420">
                   <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-350" alt="" /></div>
                   <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1 max-wp-300">
                     <div className="d-flex justify-content-start w-100 p-2">
-                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                      <div className="wp-30 hp-30">
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                       <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5"> Tenemos todos los materiales.</div>
                     </div>
                     <div className="d-flex justify-content-start w-100 p-2">
-                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                      <div className="wp-30 hp-30">
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                       <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5"> Tenemos claro de qué somos responsables.</div>
                     </div>
                     <div className="d-flex justify-content-start w-100 p-2">
-                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                      <div className="wp-30 hp-30">
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                       <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5"> Conocemos los pasos que hay que seguir.</div>
                     </div>
                     <div className="d-flex justify-content-start w-100 p-2">
-                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                      <div className="wp-30 hp-30">
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                       <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5"> Sabemos cuál es el resultado esperado.</div>
                     </div>

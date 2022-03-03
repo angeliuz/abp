@@ -75,11 +75,11 @@ function Page013(props) {
               <div className="position-relative bgc-draco sombra-1 px-2 ptp-30 pbp-20">
                 <div className="f-Ubuntu-R">¿Qué son los derechos fundamentales de las personas?</div>
                 <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-220" />
                 </div>
                 <div className="f-Ubuntu-L text-start psp-30 ptp-10">¿Qué ejemplos conocemos?</div>
                 <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-80" />
                 </div>
                 <div className="position-absolute top-0 start-50 translate-middle w-100 mtp-10"><div className="flequillo-p13 w-100 hp-30"></div></div>
               </div>
@@ -93,11 +93,11 @@ function Page013(props) {
                 <div className="position-relative bgc-bobafett sombra-1 px-2 ptp-70 pbp-20 mtp--70">
                   <div className="f-Ubuntu-R"> ¿Qué es una obra de arte?</div>
                   <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-220" />
                   </div>
                   <div className="f-Ubuntu-L text-start psp-30 ptp-10">¿Qué ejemplos conocemos?</div>
                   <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-80" />
                   </div>
                 </div>
                 <div className="position-absolute top-0 start-100 translate-middle msp--50 mtp--60 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-40" alt="" /></div>
