@@ -58,7 +58,7 @@ function Page069(props) {
                 <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-25 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-60" alt="" /></div>
                 <div className="row mtp-10 d-flex mbp-10">
                   <div className="col-sm-12 col-md-6 mbp-10">
-                    <div className="text-start w-100 bgc-white rounded-p-10">
+                    <div className="text-start w-100 max-wp-400 bgc-white rounded-p-10">
                       <div className="position-absolute top-0 start-0 translate-middle msp-20 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-30" alt="" /></div>
                       <div className="hp-50 pep-20 psp-20 ptp-10 pbp-10 d-flex justify-content-start align-items-center">
                         Fui entrevistado/a por:
@@ -69,7 +69,7 @@ function Page069(props) {
                     </div>
                   </div>
                   <div className="col-sm-12 col-md-6">
-                    <div className="text-start w-100 bgc-white rounded-p-10">
+                    <div className="text-start w-100 max-wp-400 bgc-white rounded-p-10">
                       <div className="position-absolute top-0 start-50 translate-middle msp-10 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-30" alt="" /></div>
                       <div className="hp-50 pep-20 psp-20 max-wp-200 ptp-10 pbp-10 d-flex justify-content-start align-items-center">
                         Lo que más me gustó de mi entrevista fue:
@@ -82,7 +82,7 @@ function Page069(props) {
                 </div>
                 <div className="row mtp-10 d-flex">
                   <div className="col-sm-12 col-md-6 mbp-10">
-                    <div className="text-start w-100 bgc-white rounded-p-10">
+                    <div className="text-start w-100 max-wp-400 bgc-white rounded-p-10">
                       <div className="position-absolute top-50 start-0 translate-middle msp-20 mtp-20 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-30" alt="" /></div>
                       <div className="hp-50 pep-20 psp-20 ptp-10 pbp-10 d-flex justify-content-start align-items-center">
                         El álbum que más me gusto fue el de:
@@ -99,7 +99,7 @@ function Page069(props) {
                     </div>
                   </div>
                   <div className="col-sm-12 col-md-6">
-                    <div className="text-start w-100 bgc-white rounded-p-10">
+                    <div className="text-start w-100 max-wp-400 bgc-white rounded-p-10">
                       <div className="position-absolute top-10 start-50 translate-middle msp-20 mtp-20 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-30" alt="" /></div>
                       <div className="hp-50 pep-20 psp-20 ptp-10 pbp-10 d-flex justify-content-start align-items-center">
                         Lo que más me gusta de mi curso es:
