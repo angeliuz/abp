@@ -61,7 +61,7 @@ function Page040(props) {
               <div className="position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle msp--60 mtp--40 visible-768"><img src="images/page_040/img_005.png" className="wp-80 " alt="" /></div>
               </div>
-              <div className="d-flex flex-column mbp-70 mtp-10 w-100">
+              <div className="d-flex flex-column mbp-70 mtp-10 w-100 max-wp-700">
                 <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
                   <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
                     <img src="images/generales/flecha_e3.svg" className="mep-5 wp-15" alt="" />

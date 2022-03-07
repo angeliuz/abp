@@ -46,10 +46,10 @@ function Page032(props) {
                             <div className="col-12 p-0 m-0 position-relative">
                                 <div className="position-absolute top-0 start-100 translate-middle visible-768"><img src="images/page_032/img_002.png" className="wp-80 msp-60 mep-40 mtp--20" alt="" /></div>
                                 <div className="d-flex border-style-solid border-color-goten border-3 p-0 m-0 ">
-                                    <div className="w-30 bgc-genos p-3 border-right-style-solid border-color-goten border-3 d-flex align-items-center f-Ubuntu-L fsp-14 text-center">Compañeros que
+                                    <div className="w-30  bgc-genos p-3 border-right-style-solid border-color-goten border-3 d-flex align-items-center f-Ubuntu-L fsp-14 text-center">Compañeros que
                                         nuestro grupo
                                         entrevistará:</div>
-                                    <div className="p-2 w-100 ">
+                                    <div className="p-2 w-100 max-wp-500">
                                         {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Podemos mejorar en...</div> */}
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                                     </div>
@@ -66,7 +66,7 @@ function Page032(props) {
                                     <div className=" w-30 bgc-hotaru p-3 border-right-style-solid border-color-schubert border-3 d-flex align-items-center f-Ubuntu-L fsp-14 text-center">Lo que queremos
                                         saber de nuestros
                                         compañeros es:</div>
-                                    <div className="p-2 w-100 d-flex flex-column">
+                                    <div className="p-2 w-100 max-wp-500 d-flex flex-column">
                                         {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Podemos mejorar en...</div> */}
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                                     </div>
@@ -85,7 +85,7 @@ function Page032(props) {
                                         ejemplo de la
                                         revista, haremos las
                                         siguientes preguntas:</div>
-                                    <div className="p-2 w-100 d-flex flex-column">
+                                    <div className="p-2 w-100 max-wp-500 d-flex flex-column">
                                         {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Podemos mejorar en...</div> */}
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                                     </div>
@@ -101,7 +101,7 @@ function Page032(props) {
                                     <div className="w-30 bgc-kai p-3 border-right-style-solid border-color-ken border-3 d-flex align-items-center f-Ubuntu-L fsp-14 text-center">Otras preguntas
                                         que nos gustaría
                                         hacer son:</div>
-                                    <div className="p-2 w-100 d-flex flex-column">
+                                    <div className="p-2 w-100 max-wp-500 d-flex flex-column">
                                         {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Podemos mejorar en...</div> */}
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                                     </div>

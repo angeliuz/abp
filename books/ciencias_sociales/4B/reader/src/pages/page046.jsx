@@ -31,7 +31,7 @@ function Page046(props) {
                                 <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_046/clip.png" className="hp-25 mep-0 mtp-45" alt="" /></div>
                                 <div className="bgc-jugador001 border-style-solid border-color-goku border-1 box-shadow-simple">
                                     <div className="f-Ubuntu-R fsp-14 p-1 lh-sm d-flex align-items-center justify-content-center">¿Sobre qué vamos a reflexionar?</div>
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-75 mep-10 msp-10" />
+                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75 mep-10 msp-10" />
                                 </div>
                             </div>
                             <div className="col-12 pe-1 ps-1 pb-1 pt-0 m-0 position-relative">
@@ -40,7 +40,7 @@ function Page046(props) {
                                 <div className="position-absolute top-100 start-100 translate-middle zindex-2"><img src="images/page_046/espiral.svg" className="hp-35 mep-80 mtp-0" alt="" /></div>
                                 <div className="rounded-p-10 bgc-white border-style-solid border-color-bulma border-2">
                                     <div className="f-Ubuntu-B fsp-14 p-1 bgc-bulma rounded-set-10 text-white lh-sm min-hp-45 d-flex align-items-center justify-content-center">Lo que pienso</div>
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-150 mep-10 msp-10" />
+                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150 mep-10 msp-10" />
                                 </div>
                             </div>
                             <div className="col-12 p-1 m-0 position-relative">

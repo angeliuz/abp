@@ -22,7 +22,7 @@ function Page052(props) {
                 <div className="position-absolute top-100 start-100 translate-middle visible-768"><img src="images/page_052/mono.png" className="hp-140 mep-40 mtp--130" alt="" /></div>
                 <div className="position-absolute top-50 start-0 translate-middle"><img src="images/page_052/lapiz.png" className="hp-80 msp-0 mtp--90" alt="" /></div>
                 <div className="bgc-jugador001 border-style-solid border-color-dark border-1 box-shadow-simple">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-330 contenedor-linea mep-10 msp-10" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-330 contenedor-linea mep-10 msp-10" />
                 </div>
               </div>
             </div>
@@ -39,19 +39,20 @@ function Page052(props) {
           </div>
 
           <div className="ptp-10 psp-65 pep-40">
-            <div className="row d-flex mx-auto f-Ubuntu-B fsp-15 mbp-0 position-relative justify-content-between">
-              <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-25 visible-768 zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-60 mtp-60" alt="" /></div>
+          <div className="position-absolute top-50 start-50 translate-middle msp-10 mtp-145 visible-768 zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-60 mtp-60" alt="" /></div>
+            <div className="row d-flex mx-auto f-Ubuntu-L fsp-15 mbp-0 position-relative justify-content-between">
+              
               <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp-25 zindex-1"><img src={"images/page_" + pagina + "/posit.png"} className="wp-60 mtp--60 msp-0" alt="" /></div>
               <div className="col-sm-12 col-md-6 pbp-10">
                 <div className="text-center w-100 border-1 border-style-solid border-color-saitama rounded-p-10">
-                  <div className="rounded-set-6 hp-60 pep-20 psp-20 ptp-10 pbp-10 bgc-saitama d-flex justify-content-center align-items-center text-white p-2">¿A qué acuerdo llegamos<br />como curso?</div>
-                  <div className="psp-15 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-330" /></div>
+                  <div className="rounded-set-6 hp-60 pep-20 psp-20 ptp-10 pbp-10 bgc-saitama d-flex justify-content-center align-items-center text-white p-2 f-Ubuntu-B">¿A qué acuerdo llegamos<br />como curso?</div>
+                  <div className="psp-15 pep-25"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-330" /></div>
                 </div>
               </div>
               <div className="col-sm-12 col-md-6 pbp-10">
                 <div className="text-center w-100 border-1 border-style-solid border-color-bulma rounded-p-10">
-                  <div className="rounded-set-6 hp-60 ptp-10 pbp-10 bgc-bulma d-flex justify-content-center align-items-center text-white p-2">¿Estoy de acuerdo con<br />ese acuerdo? ¿Por qué?</div>
-                  <div className="psp-15 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-330" /></div>
+                  <div className="rounded-set-6 hp-60 ptp-10 pbp-10 bgc-bulma d-flex justify-content-center align-items-center text-white p-2 f-Ubuntu-B">¿Estoy de acuerdo con<br />ese acuerdo? ¿Por qué?</div>
+                  <div className="psp-20 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-330" /></div>
                 </div>
               </div>
             </div>

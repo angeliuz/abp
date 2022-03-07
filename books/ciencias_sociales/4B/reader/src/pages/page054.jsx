@@ -44,7 +44,7 @@ function Page054(props) {
 
           <div className="ptp-10 psp-0 pep-60 mbp-0 position-relative">
             <div className="mbp-5 psp-50 f-pixilate-bold fsp-18 lh-sm text-start">¿Cómo vamos?</div>
-            <div className="row">
+            <div className="row psp-50">
               <div className="col-10 border-style-solid border-color-white border-2 p-1 bgc-genos">
                 <div className="d-flex flex-wrap w-100 align-items-center titulo-linea psp-60">
                   <img src={"images/generales/flecha_e1.svg"} className="mep-5 wp-15" alt="" />
