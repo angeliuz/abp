@@ -93,7 +93,7 @@ function Page033(props) {
                   <div className="d-flex align-items-center pbp-10">
                     <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Otra:</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" max-wp-300 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                   </div>
                 </div>
               </div>
