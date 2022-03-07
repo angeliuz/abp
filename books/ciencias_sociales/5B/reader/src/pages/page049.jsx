@@ -54,7 +54,161 @@ function Page049(props) {
             </div>
           </div>
 
-          <div className="d-flex msp-60 mep-60 mbp-70">
+          <div className="d-flex psp-0 pep-0 ptp-0 pbp-0 mtp-0 msp-60 mep-60 mbp-70">
+            <div className="row ptp-10 pbp-10 m-0 w-100 fondo-49 f-Ubuntu-M fsp-14 lh-sm text-center">
+
+              <div className="col-sm-4 position-relative d-flex align-items-center justify-content-center lh-sm">Sección</div>
+              <div className="col-sm-4 position-relative d-flex align-items-center justify-content-center lh-sm">¿Cómo la identifico visualmente?</div>
+              <div className="col-sm-4 position-relative d-flex align-items-center justify-content-center lh-sm">¿Qué tipo de información presenta?</div>
+
+              <div className="col-sm-4 position-relative d-flex align-items-center justify-content-center">
+                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
+                  <img src="images/page_049/flecha_amarilla.svg" className="wp-30" alt="" />
+                </div>
+                <div className="d-flex align-items-center justify-content-center flex-column mbp-5 mtp-10 w-100 rounded-p-10 h-80" style={{ backgroundColor: "#22b9d8" }}>Título</div>
+              </div>
+              <div className="col-sm-4 position-relative d-flex align-items-center">
+                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
+                  <img src="images/page_049/flecha_amarilla.svg" className="wp-30" alt="" />
+                </div>
+                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
+                  <div className="p-2 w-100 max-wp-300">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-70" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-4 position-relative d-flex align-items-center">
+                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
+                  <div className="p-2 w-100 max-wp-300">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-70" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-sm-4 position-relative d-flex align-items-center justify-content-center">
+                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
+                  <img src="images/page_049/flecha_amarilla.svg" className="wp-30" alt="" />
+                </div>
+                <div className="d-flex align-items-center justify-content-center flex-column mbp-5 mtp-10 w-100 rounded-p-10 h-80" style={{ backgroundColor: "#60c4de" }}>Presentación</div>
+              </div>
+              <div className="col-sm-4 position-relative d-flex align-items-center">
+                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
+                  <img src="images/page_049/flecha_amarilla.svg" className="wp-30" alt="" />
+                </div>
+                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
+                  <div className="p-2 w-100 max-wp-300">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-70" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-4 position-relative d-flex align-items-center">
+                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
+                  <div className="p-2 w-100 max-wp-300">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-70" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-sm-4 position-relative d-flex align-items-center justify-content-center">
+                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
+                  <img src="images/page_049/flecha_amarilla.svg" className="wp-30" alt="" />
+                </div>
+                <div className="d-flex align-items-center justify-content-center flex-column mbp-5 mtp-10 w-100 rounded-p-10 h-80" style={{ backgroundColor: "#85cee4" }}>Preguntas</div>
+              </div>
+              <div className="col-sm-4 position-relative d-flex align-items-center">
+                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
+                  <img src="images/page_049/flecha_amarilla.svg" className="wp-30" alt="" />
+                </div>
+                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
+                  <div className="p-2 w-100 max-wp-300">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-70" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-4 position-relative d-flex align-items-center">
+                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
+                  <div className="p-2 w-100 max-wp-300">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-70" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-sm-4 position-relative d-flex align-items-center justify-content-center">
+                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
+                  <img src="images/page_049/flecha_amarilla.svg" className="wp-30" alt="" />
+                </div>
+                <div className="d-flex align-items-center justify-content-center flex-column mbp-5 mtp-10 w-100 rounded-p-10 h-80" style={{ backgroundColor: "#a3d9ea" }}>Respuestas</div>
+              </div>
+              <div className="col-sm-4 position-relative d-flex align-items-center">
+                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
+                  <img src="images/page_049/flecha_amarilla.svg" className="wp-30" alt="" />
+                </div>
+                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
+                  <div className="p-2 w-100 max-wp-300">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-70" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-4 position-relative d-flex align-items-center">
+                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
+                  <div className="p-2 w-100 max-wp-300">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-70" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-sm-4 position-relative d-flex align-items-center justify-content-center">
+                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
+                  <img src="images/page_049/flecha_amarilla.svg" className="wp-30" alt="" />
+                </div>
+                <div className="d-flex align-items-center justify-content-center flex-column mbp-5 mtp-10 w-100 rounded-p-10 h-80" style={{ backgroundColor: "#bde3f0" }}>Imágenes de apoyo</div>
+              </div>
+              <div className="col-sm-4 position-relative d-flex align-items-center">
+                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
+                  <img src="images/page_049/flecha_amarilla.svg" className="wp-30" alt="" />
+                </div>
+                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
+                  <div className="p-2 w-100 max-wp-300">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-70" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-4 position-relative d-flex align-items-center">
+                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
+                  <div className="p-2 w-100 max-wp-300">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-70" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-sm-4 position-relative d-flex align-items-center">
+                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
+                  <img src="images/page_049/flecha_amarilla.svg" className="wp-30" alt="" />
+                </div>
+                <div className="d-flex align-items-center justify-content-center flex-column mbp-5 mtp-10 w-100 rounded-p-10 h-80" style={{ backgroundColor: "#d5ecf6" }}>Pie de imagen</div>
+              </div>
+              <div className="col-sm-4 position-relative d-flex align-items-center">
+                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
+                  <img src="images/page_049/flecha_amarilla.svg" className="wp-30" alt="" />
+                </div>
+                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
+                  <div className="p-2 w-100 max-wp-300">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-70" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-4 position-relative d-flex align-items-center">
+                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
+                  <div className="p-2 w-100 max-wp-300">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-70" />
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          {/* <div className="d-flex msp-60 mep-60 mbp-70">
 
             <div className="row ptp-20 pbp-20 psp-0 pep-10 m-0 w-100 fondo-49">
 
@@ -133,7 +287,7 @@ function Page049(props) {
               </div>
             </div>
 
-          </div>
+          </div> */}
 
           {/* PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
