@@ -35,10 +35,10 @@ function Page031(props) {
                     <div className="cabecera-v2 bgc-android18 d-flex flex-column">
                         <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
                             <div className="caja wp-160 text-center fsp-24 f-IntroRustG-Base">SESIÓN 7</div>
-                            <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Indagamos sobre la situación
+                            <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white text-start">Indagamos sobre la situación
                                 de los derechos en el mundo</div>
                         </div>
-                        <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
+                        <div className="d-flex contenedor-cabecera-v2 ptp-5 psp-30 pep-30 align-self-center justify-content-between w-90">
                             <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
                                 Mis objetivos <br />en  esta sesión son:
                             </div>
@@ -151,12 +151,12 @@ function Page031(props) {
                             <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
                             <div className="w-100 hp-25 bgc-goten"></div>
                         </div>
-                        <div className="col-7 position-relative col-sm-2 p-0 m-0">
+                        <div className="col-1 position-relative col-sm-2 p-0 m-0">
                             <img src="images/rotulo_planificacion.svg" className="oculto" alt="" />
                             <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-bulma"></div>
                         </div>
-                        <div className="col-1 position-relative col-sm-2 p-0 m-0">
+                        <div className="col-7 position-relative col-sm-2 p-0 m-0">
                             <img src="images/rotulo_investigacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
                             <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-android18"></div>

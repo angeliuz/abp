@@ -27,7 +27,7 @@ function Page062(props) {
 
           <div className="msp-70 mep-50 position-relative mtp-70 ">
             <div className="position-absolute top-0 start-100 translate-middle zindex-10 visible-768 msp--20 mtp--20 "><img src="images/page_062/img_002.png" className="wp-70 " alt="" /></div>
-            <div className="position-absolute top-50 start-0 translate-middle zindex-4 visible-768 msp-10 mtp--20 "><img src="images/page_062/img_003.png" className="wp-15 " alt="" /></div>
+            <div className="position-absolute top-50 start-0 translate-middle zindex-10 visible-768 msp-10 mtp--20 "><img src="images/page_062/img_003.png" className="wp-15 " alt="" /></div>
             <div className="row w-100 mbp-10   ">
               <div className="cb-ep-paper-62 ">
                 <div className="cb-ep-paper-content-62 f-Ubuntu-L text-start  ">
