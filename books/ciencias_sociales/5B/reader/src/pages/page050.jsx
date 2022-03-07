@@ -68,11 +68,11 @@ function Page050(props) {
           <div className="d-flex psp-60 pep-60 pbp-100">
             <div className="row w-100 bgc-zangief psp-10 pep-10 ptp-20 pbp-20 rounded-p-20">
               <div className="col-sm-12 col-md-6 ">
-                <div className="d-flex bgc-white border-style-solid border-color-cyrax border-2 w-100 min-hp-400"></div>
+                <div className="d-flex bgc-white border-style-solid border-color-cyrax border-2 w-100 min-hp-400"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-300" /></div>
               </div>
               <div className="col-sm-12 col-md-6 position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle wp-100 msp-40 mtp-50"><img src="images/page_050/lapiz.png" className="wp-15 mep-70 mtp-30" alt="" /></div>
-                <div className="d-flex bgc-white border-style-solid border-color-cyrax border-2 w-100 min-hp-400"></div>
+                <div className="d-flex bgc-white border-style-solid border-color-cyrax border-2 w-100 min-hp-400"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-300" /></div>
               </div>
             </div>
 
