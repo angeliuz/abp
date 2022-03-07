@@ -83,46 +83,37 @@ function Page031(props) {
 
           <div className="d-flex msp-60 mep-60 mbp-100 mtp-30 rounded-p-20  ">
             <div className="row w-100 p-0 m-0">
-              <div className="col-sm-4 position-relative justify-content-center align-items-center ptp-10">
-                <div className="position-absolute top-0 start-0 translate-middle msp-3 mtp-0 zindex-1">
+
+              <div className="col-md-4 position-relative justify-content-center align-items-center">
+                <div className="position-absolute  translate-middle msp-3 mtp-0 zindex-1">
                   <img
                     src="images/page_070/img_002.png"
-                    className="wp-60 "
+                    className="wp-60 giro90-res"
                     alt=""
                   />
                 </div>
-                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1 mtp-20">
-                  <img
-                    src="images/page_031/img_003.svg"
-                    className="wp-30 "
-                    alt=""
-                  />
+                <div className="position-absolute flecha-p31 translate-middle msp-3 mtp-15 zindex-1 mtp-10">
+                  <img src="images/page_031/flecha_01.png" className="wp-30 giro90-res" alt="" />
                 </div>
                 <div className="d-flex justify-content-center w-100 ">
                   <div className="bgc-soldados w-50 rounded-caja ptp-5 pbp-5 color-white fsp-16 f-Ubuntu-M  ">
                     Palabra
                   </div>
                 </div>
-
                 <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-soldados">
                   <div className="p-2 w-100 d-flex ">
-                    <InputBox
-                      id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70"
-                    />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
                   </div>
                 </div>
               </div>
 
-              <div className="col-sm-8 position-relative justify-content-center align-items-center ptp-10">
-                <div className="position-absolute top-0 start-0 translate-middle msp-3 mtp-0 zindex-1"></div>
+              <div className="col-md-8 position-relative justify-content-center align-items-center padding-p31">
                 <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1"></div>
                 <div className="d-flex justify-content-center w-100 ">
                   <div className="bgc-soldados w-30 rounded-caja ptp-5 pbp-5 color-white fsp-16 f-Ubuntu-M  ">
                     Significado
                   </div>
                 </div>
-
                 <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-soldados">
                   <div className="p-2 w-100 d-flex">
                     <InputBox
@@ -133,16 +124,16 @@ function Page031(props) {
                 </div>
               </div>
 
-              <div className="col-sm-4 position-relative justify-content-center align-items-center ptp-10">
+              <div className="col-md-4 position-relative justify-content-center align-items-center padding-p31">
                 <div className="position-absolute top-0 start-0 translate-middle msp-3 mtp-0 zindex-1"></div>
-                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
-                  <img
-                    src="images/page_031/img_003.svg"
-                    className="wp-30 "
-                    alt=""
-                  />
+                <div className="position-absolute flecha-p31 translate-middle msp-3 mtp-15 zindex-1 mtp-10">
+                  <img src="images/page_031/flecha_02.png" className="wp-30 giro90-res" alt="" />
                 </div>
-
+                <div className="d-flex justify-content-center w-100 invisible-768">
+                  <div className="bgc-bulma w-50 rounded-caja ptp-5 pbp-5 color-white fsp-16 f-Ubuntu-M  ">
+                    Palabra
+                  </div>
+                </div>
                 <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-bulma">
                   <div className="p-2 w-100 d-flex">
                     <InputBox
@@ -153,16 +144,13 @@ function Page031(props) {
                 </div>
               </div>
 
-              <div className="col-sm-8 position-relative justify-content-center align-items-center ptp-10">
-                <div className="position-absolute top-0 start-0 translate-middle msp-3 mtp-0 zindex-1">
-                  <img
-                    src="images/page_070/img_002.png"
-                    className="wp-60 "
-                    alt=""
-                  />
-                </div>
+              <div className="col-md-8 position-relative justify-content-center align-items-center padding-p31">
                 <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1"></div>
-
+                <div className="d-flex justify-content-center w-100 invisible-768">
+                  <div className="bgc-bulma w-30 rounded-caja ptp-5 pbp-5 color-white fsp-16 f-Ubuntu-M  ">
+                    Significado
+                  </div>
+                </div>
                 <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-bulma">
                   <div className="p-2 w-100 d-flex">
                     <InputBox
@@ -173,16 +161,16 @@ function Page031(props) {
                 </div>
               </div>
 
-              <div className="col-sm-4 position-relative justify-content-center align-items-center ptp-10">
+              <div className="col-md-4 position-relative justify-content-center align-items-center padding-p31">
                 <div className="position-absolute top-0 start-0 translate-middle msp-3 mtp-0 zindex-1"></div>
-                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
-                  <img
-                    src="images/page_031/img_003.svg"
-                    className="wp-30 "
-                    alt=""
-                  />
+                <div className="position-absolute flecha-p31 translate-middle msp-3 mtp-15 zindex-1 mtp-10">
+                  <img src="images/page_031/flecha_03.png" className="wp-30 giro90-res" alt="" />
                 </div>
-
+                <div className="d-flex justify-content-center w-100 invisible-768">
+                  <div className="bgc-android18 w-50 rounded-caja ptp-5 pbp-5 color-white fsp-16 f-Ubuntu-M  ">
+                    Palabra
+                  </div>
+                </div>
                 <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-android18">
                   <div className="p-2 w-100 d-flex">
                     <InputBox
@@ -193,16 +181,13 @@ function Page031(props) {
                 </div>
               </div>
 
-              <div className="col-sm-8 position-relative justify-content-center align-items-center ptp-10">
-                <div className="position-absolute top-0 start-0 translate-middle msp-3 mtp-0 zindex-1">
-                  <img
-                    src="images/page_070/img_002.png"
-                    className="wp-60 "
-                    alt=""
-                  />
-                </div>
+              <div className="col-md-8 position-relative justify-content-center align-items-center padding-p31">
                 <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1"></div>
-
+                <div className="d-flex justify-content-center w-100 invisible-768">
+                  <div className="bgc-android18 w-30 rounded-caja ptp-5 pbp-5 color-white fsp-16 f-Ubuntu-M  ">
+                    Significado
+                  </div>
+                </div>
                 <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-android18">
                   <div className="p-2 w-100 d-flex">
                     <InputBox
@@ -213,16 +198,16 @@ function Page031(props) {
                 </div>
               </div>
 
-              <div className="col-sm-4 position-relative justify-content-center align-items-center ptp-10">
+              <div className="col-md-4 position-relative justify-content-center align-items-center padding-p31">
                 <div className="position-absolute top-0 start-0 translate-middle msp-3 mtp-0 zindex-1"></div>
-                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
-                  <img
-                    src="images/page_031/img_003.svg"
-                    className="wp-30 "
-                    alt=""
-                  />
+                <div className="position-absolute flecha-p31 translate-middle msp-3 mtp-15 zindex-1 mtp-10">
+                  <img src="images/page_031/flecha_04.png" className="wp-30 giro90-res" alt="" />
                 </div>
-
+                <div className="d-flex justify-content-center w-100 invisible-768">
+                  <div className="bgc-pidgey w-50 rounded-caja ptp-5 pbp-5 color-white fsp-16 f-Ubuntu-M  ">
+                    Palabra
+                  </div>
+                </div>
                 <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-pidgey">
                   <div className="p-2 w-100 d-flex">
                     <InputBox
@@ -233,16 +218,13 @@ function Page031(props) {
                 </div>
               </div>
 
-              <div className="col-sm-8 position-relative justify-content-center align-items-center ptp-10">
-                <div className="position-absolute top-0 start-0 translate-middle msp-3 mtp-0 zindex-1">
-                  <img
-                    src="images/page_070/img_002.png"
-                    className="wp-60 "
-                    alt=""
-                  />
-                </div>
+              <div className="col-md-8 position-relative justify-content-center align-items-center padding-p31">
                 <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1"></div>
-
+                <div className="d-flex justify-content-center w-100 invisible-768">
+                  <div className="bgc-pidgey w-30 rounded-caja ptp-5 pbp-5 color-white fsp-16 f-Ubuntu-M  ">
+                    Significado
+                  </div>
+                </div>
                 <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-pidgey">
                   <div className="p-2 w-100 d-flex">
                     <InputBox
@@ -253,16 +235,16 @@ function Page031(props) {
                 </div>
               </div>
 
-              <div className="col-sm-4 position-relative justify-content-center align-items-center ptp-10">
+              <div className="col-md-4 position-relative justify-content-center align-items-center padding-p31">
                 <div className="position-absolute top-0 start-0 translate-middle msp-3 mtp-0 zindex-1"></div>
-                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
-                  <img
-                    src="images/page_031/img_003.svg"
-                    className="wp-30 "
-                    alt=""
-                  />
+                <div className="position-absolute flecha-p31 translate-middle msp-3 mtp-15 zindex-1 mtp-10">
+                  <img src="images/page_031/flecha_05.png" className="wp-30 giro90-res" alt="" />
                 </div>
-
+                <div className="d-flex justify-content-center w-100 invisible-768">
+                  <div className="bgc-saitama w-50 rounded-caja ptp-5 pbp-5 color-white fsp-16 f-Ubuntu-M  ">
+                    Palabra
+                  </div>
+                </div>
                 <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
                   <div className="p-2 w-100 d-flex">
                     <InputBox
@@ -273,16 +255,13 @@ function Page031(props) {
                 </div>
               </div>
 
-              <div className="col-sm-8 position-relative justify-content-center align-items-center ptp-10">
-                <div className="position-absolute top-0 start-0 translate-middle msp-3 mtp-0 zindex-1">
-                  <img
-                    src="images/page_070/img_002.png"
-                    className="wp-60 "
-                    alt=""
-                  />
-                </div>
+              <div className="col-md-8 position-relative justify-content-center align-items-center padding-p31">
                 <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1"></div>
-
+                <div className="d-flex justify-content-center w-100 invisible-768">
+                  <div className="bgc-saitama w-30 rounded-caja ptp-5 pbp-5 color-white fsp-16 f-Ubuntu-M  ">
+                    Significado
+                  </div>
+                </div>
                 <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
                   <div className="p-2 w-100 d-flex">
                     <InputBox
@@ -292,6 +271,16 @@ function Page031(props) {
                   </div>
                 </div>
               </div>
+
+
+
+
+
+
+
+
+
+
             </div>
           </div>
 

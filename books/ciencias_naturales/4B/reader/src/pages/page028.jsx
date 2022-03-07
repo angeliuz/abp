@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 
 import "./page_028.css";
 
@@ -65,8 +66,8 @@ function Page028(props) {
                       <div className="d-flex flex-column   psp-10 pep-10 ptp-20 pbp-30 mbp-30 min-hp-200">
                         <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-10 text-start">
                           <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
-                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                           </div>
                           <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 d-flex align-items-center">
@@ -75,8 +76,8 @@ function Page028(props) {
                         </div>
                         <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-20 text-start">
                           <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
-                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                           </div>
                           <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 d-flex align-items-center ">
@@ -85,8 +86,8 @@ function Page028(props) {
                         </div>
                         <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-20 text-start">
                           <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
-                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                           </div>
                           <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 d-flex align-items-center ">
@@ -95,8 +96,8 @@ function Page028(props) {
                         </div>
                         <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-20 text-start">
                           <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
-                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                           </div>
                           <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 d-flex align-items-center ">
@@ -105,8 +106,8 @@ function Page028(props) {
                         </div>
                         <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-20 text-start">
                           <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
-                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                           </div>
                           <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 d-flex align-items-center ">
@@ -115,8 +116,8 @@ function Page028(props) {
                         </div>
                         <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-20 text-start">
                           <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
-                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                           </div>
                           <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 d-flex align-items-center ">
@@ -125,8 +126,8 @@ function Page028(props) {
                         </div>
                         <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-20 text-start">
                           <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
-                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                           </div>
                           <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 d-flex align-items-center ">
@@ -135,8 +136,8 @@ function Page028(props) {
                         </div>
                         <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-20 text-start">
                           <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
-                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                           </div>
                           <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 d-flex align-items-center ">
@@ -145,8 +146,8 @@ function Page028(props) {
                         </div>
                         <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-20 text-start">
                           <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
-                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                           </div>
                           <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 d-flex align-items-center ">
@@ -155,8 +156,8 @@ function Page028(props) {
                         </div>
                         <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-20 text-start">
                           <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
-                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                           </div>
                           <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 d-flex align-items-center ">
@@ -165,8 +166,8 @@ function Page028(props) {
                         </div>
                         <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-20 text-start">
                           <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">
-                            <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                           </div>
                           <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 d-flex align-items-center ">

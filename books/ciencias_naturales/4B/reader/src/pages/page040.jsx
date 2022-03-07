@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check2 from "../components/Check2";
 
 import "./page_040.css";
 
@@ -55,22 +56,14 @@ function Page040(props) {
                     ¿Repartió el turno de
                     <br /> palabra?
                   </td>
-                  <td className=" border-style-solid border-1"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                 <td className=" border-style-solid border-1"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
+                  <td className=" border-style-solid border-1">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
                 </tr>
                 <tr>
                   <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16">
@@ -79,22 +72,15 @@ function Page040(props) {
                     <br />
                     participaran en las tareas?
                   </td>
-                  <td className=" border-style-solid border-1"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
+                  <td className=" border-style-solid border-1">
+                    <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
                 </tr>
               </table>
 
@@ -105,22 +91,14 @@ function Page040(props) {
                     ¿Gestionó el tiempo
                     <br /> dedicado a las tareas?
                   </td>{" "}
-                  <td className=" border-style-solid border-1 border-color-pikachu"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1 border-color-pikachu"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1 border-color-pikachu"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1 border-color-pikachu"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
+                  <td className=" border-style-solid border-1 border-color-pikachu">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1 border-color-pikachu">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1 border-color-pikachu">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1 border-color-pikachu">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
                 </tr>
                 <tr>
                   <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 border-color-pikachu">
@@ -129,22 +107,14 @@ function Page040(props) {
                     <br /> hecho su tarea dentro del
                     <br /> plazo establecido?
                   </td>{" "}
-                  <td className=" border-style-solid border-1 border-color-pikachu"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1 border-color-pikachu"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1 border-color-pikachu"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1 border-color-pikachu"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
+                  <td className=" border-style-solid border-1 border-color-pikachu">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1 border-color-pikachu">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1 border-color-pikachu">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1 border-color-pikachu">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
                 </tr>
               </table>
 
@@ -159,94 +129,62 @@ function Page040(props) {
                     <br /> para solicitar ayuda y<br />
                     resolver dudas?
                   </td>{" "}
-                  <td className=" border-style-solid border-1 border-color-soldados"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1 border-color-soldados"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1 border-color-soldados"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1 border-color-soldados"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
+                  <td className=" border-style-solid border-1 border-color-soldados">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1 border-color-soldados">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1 border-color-soldados">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1 border-color-soldados">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
                 </tr>
                 <tr>
-                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 border-color-soldados">¿Pidió ayuda a otros equipos?</td> 
-                  <td className=" border-style-solid border-1 border-color-soldados"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1 border-color-soldados"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1 border-color-soldados"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1 border-color-soldados"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 border-color-soldados">¿Pidió ayuda a otros equipos?</td>
+                  <td className=" border-style-solid border-1 border-color-soldados">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1 border-color-soldados">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1 border-color-soldados">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1 border-color-soldados">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
                 </tr>
               </table>
 
               <table border="1">
                 <tr>
-                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 bgc-jarek border-color-bulma" rowspan="2">Intendencia</td>
-                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 border-color-bulma">
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 bgc-jarek border-color-android18" rowspan="2">Intendencia</td>
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 border-color-android18">
                     ¿Gestionó los materiales que
                     <br /> el equipo necesitaba para
                     <br />
                     realizar las tareas?
                   </td>{" "}
-                  <td className=" border-style-solid border-1 border-color-bulma"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1 border-color-bulma"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1 border-color-bulma"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1 border-color-bulma"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
+                  <td className=" border-style-solid border-1 border-color-android18">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1 border-color-android18">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1 border-color-android18">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1 border-color-android18">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
                 </tr>
                 <tr>
-                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 border-color-bulma" >
+                  <td className=" border-style-solid border-1 f-Ubuntu-L fsp-16 border-color-android18" >
                     ¿Comprobó que el equipo
                     <br />
                     mantuviera un espacio de
                     <br />
                     trabajo limpio y ordenado?
                   </td>
-                  <td className=" border-style-solid border-1 border-color-bulma"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1 border-color-bulma"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1 border-color-bulma"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
-                  <td className=" border-style-solid border-1 border-color-bulma"><InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70 min-wp-70"
-                  /></td>
+                  <td className=" border-style-solid border-1 border-color-android18">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1 border-color-android18">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1 border-color-android18">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
+                  <td className=" border-style-solid border-1 border-color-android18">                  <Check2 id={"check2" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" className="w-100 h-100"></Check2>
+                  </td>
                 </tr>
               </table>
 
@@ -266,13 +204,13 @@ function Page040(props) {
           <div className=" msp-60 mep-60 mbp-50">
             <div className="row">
               <div className="col-md-6 col-sm-12 position-relative">
-                  
-              <div className="  zindex-2 position-absolute top-0 start-100 translate-middle msp--30 mtp-20">
+
+                <div className="  zindex-2 position-absolute top-0 start-100 translate-middle msp--30 mtp-20">
                   <img src="images/page_040/img_001.png" className="" alt="" />
                 </div>
                 <div className="bgc-white  border-style-solid  border-color-dark border-1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
-                <div className="f-Ubuntu-R fsp-16 ptp-10 psp-10 pep-10 pbp-10 text-start">
-                Me comprometo a seguir siendo:
+                  <div className="f-Ubuntu-R fsp-16 ptp-10 psp-10 pep-10 pbp-10 text-start">
+                    Me comprometo a seguir siendo:
                   </div>
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -285,8 +223,8 @@ function Page040(props) {
                   <img src="images/page_040/img_001.png" className="" alt="" />
                 </div>
                 <div className="bgc-white  border-style-solid  border-color-dark border-1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
-                <div className="f-Ubuntu-R fsp-16 ptp-10 psp-10 pep-10 pbp-10 text-start">
-                Me comprometo a mejorar:
+                  <div className="f-Ubuntu-R fsp-16 ptp-10 psp-10 pep-10 pbp-10 text-start">
+                    Me comprometo a mejorar:
                   </div>
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}

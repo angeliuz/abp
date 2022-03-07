@@ -5,23 +5,31 @@
   border-width: 7px 0 7px 10px;
   border-color: transparent transparent transparent var(--android18);
 }
-.cb-contenedor-tabla-texto{
+
+.mxw-100 {
+  max-width: 100%;
+}
+
+.cb-contenedor-tabla-texto {
   width: 100%;
   max-width: 400px;
   padding-right: 10px;
 }
-.cb-outline-39{
+
+.cb-outline-39 {
   outline: solid 3px var(--white);
   outline-offset: -4px;
 }
-.cb-personaje-p39{
+
+.cb-personaje-p39 {
   top: 0px;
   right: -110px;
 }
+
 @media all and (max-width:780px) {
 
-  .cb-personaje-p39{
+  .cb-personaje-p39 {
     display: none;
   }
-  
-  }
+
+}

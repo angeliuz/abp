@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 
 import "./page_034.css";
 
@@ -50,7 +51,7 @@ function Page034(props) {
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"83"} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
 
@@ -64,11 +65,8 @@ function Page034(props) {
                       <div className="col-6">
                         <div className="ptp-10 pbp-10 psp-20">
                           <div className="d-flex">
-                            <div className="cuadrado bgc-white border-style-solid border-1 border-color-dark">
-                              <InputBox
-                                id={"p" + pagina + "_input" + (indexInput += 1)}
-                                className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                              />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                             <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                               Chaleco reflectante
@@ -77,11 +75,8 @@ function Page034(props) {
                         </div>
                         <div className="ptp-10 pbp-10 psp-20">
                           <div className="d-flex">
-                            <div className="cuadrado bgc-white border-style-solid border-1 border-color-dark">
-                              <InputBox
-                                id={"p" + pagina + "_input" + (indexInput += 1)}
-                                className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                              />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                             <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                               Botiquín
@@ -90,11 +85,8 @@ function Page034(props) {
                         </div>
                         <div className="ptp-10 pbp-10 psp-20">
                           <div className="d-flex">
-                            <div className="cuadrado bgc-white border-style-solid border-1 border-color-dark">
-                              <InputBox
-                                id={"p" + pagina + "_input" + (indexInput += 1)}
-                                className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                              />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                             <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                               Alcohol gel
@@ -103,11 +95,8 @@ function Page034(props) {
                         </div>
                         <div className="ptp-10 pbp-10 psp-20">
                           <div className="d-flex">
-                            <div className="cuadrado bgc-white border-style-solid border-1 border-color-dark">
-                              <InputBox
-                                id={"p" + pagina + "_input" + (indexInput += 1)}
-                                className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                              />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                             <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                               Mascarillas
@@ -116,11 +105,8 @@ function Page034(props) {
                         </div>
                         <div className="ptp-10 pbp-10 psp-20">
                           <div className="d-flex">
-                            <div className="cuadrado bgc-white border-style-solid border-1 border-color-dark">
-                              <InputBox
-                                id={"p" + pagina + "_input" + (indexInput += 1)}
-                                className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                              />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                             <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                               Guantes de seguridad
@@ -129,11 +115,8 @@ function Page034(props) {
                         </div>
                         <div className="ptp-10 pbp-10 psp-20">
                           <div className="d-flex">
-                            <div className="cuadrado bgc-white border-style-solid border-1 border-color-dark">
-                              <InputBox
-                                id={"p" + pagina + "_input" + (indexInput += 1)}
-                                className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                              />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                             <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                               Directorio telefónico
@@ -144,11 +127,8 @@ function Page034(props) {
                       <div className="col-6">
                         <div className="ptp-10 pbp-10 psp-20">
                           <div className="d-flex">
-                            <div className="cuadrado bgc-white border-style-solid border-1 border-color-dark">
-                              <InputBox
-                                id={"p" + pagina + "_input" + (indexInput += 1)}
-                                className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                              />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                             <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                               Extintor
@@ -157,11 +137,8 @@ function Page034(props) {
                         </div>
                         <div className="ptp-10 pbp-10 psp-20">
                           <div className="d-flex">
-                            <div className="cuadrado bgc-white border-style-solid border-1 border-color-dark">
-                              <InputBox
-                                id={"p" + pagina + "_input" + (indexInput += 1)}
-                                className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                              />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                             <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                               Linterna
@@ -170,11 +147,8 @@ function Page034(props) {
                         </div>
                         <div className="ptp-10 pbp-10 psp-20">
                           <div className="d-flex">
-                            <div className="cuadrado bgc-white border-style-solid border-1 border-color-dark">
-                              <InputBox
-                                id={"p" + pagina + "_input" + (indexInput += 1)}
-                                className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                              />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                             <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                               Generador eléctrico
@@ -183,11 +157,8 @@ function Page034(props) {
                         </div>
                         <div className="ptp-10 pbp-10 psp-20">
                           <div className="d-flex">
-                            <div className="cuadrado bgc-white border-style-solid border-1 border-color-dark">
-                              <InputBox
-                                id={"p" + pagina + "_input" + (indexInput += 1)}
-                                className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                              />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                             <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                               Guantes quirúrgicos
@@ -196,11 +167,8 @@ function Page034(props) {
                         </div>
                         <div className="ptp-10 pbp-10 psp-20">
                           <div className="d-flex">
-                            <div className="cuadrado bgc-white border-style-solid border-1 border-color-dark">
-                              <InputBox
-                                id={"p" + pagina + "_input" + (indexInput += 1)}
-                                className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                              />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                             <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                               Señaléticas
@@ -209,11 +177,8 @@ function Page034(props) {
                         </div>
                         <div className="ptp-10 pbp-10 psp-20">
                           <div className="d-flex">
-                            <div className="cuadrado bgc-white border-style-solid border-1 border-color-dark">
-                              <InputBox
-                                id={"p" + pagina + "_input" + (indexInput += 1)}
-                                className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                              />
+                            <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             </div>
                             <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                               Silbatos
