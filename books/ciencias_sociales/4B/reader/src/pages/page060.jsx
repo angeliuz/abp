@@ -110,7 +110,7 @@ function Page060(props) {
                                         {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/generales/ticket.svg" className="hp-17 mtp--3 msp-5 mep-5" alt=""/>el recuadro que mejor me represente.</span> */}
                                         <div className="w-100 p-0 pb-3 position-relative">
                                             <div className="position-absolute mtp--40 top-0 start-0 msp-10 mtp--10 mbp-10 f-pixilate-bold fsp-18 lh-sm text-start">¿Cómo me siento?</div>
-                                            <div className="d-flex position-absolute align-items-start w-50  mbp-30 top-0 start-0 msp-10 mtp--20 f-Ubuntu-R fsp-15  lh-sm text-start">¿Marco la alternativa que más me representa.</div>
+                                            <div className="d-flex position-absolute align-items-start w-50  mbp-30 top-0 start-0 msp-10 mtp--20 f-Ubuntu-R fsp-15  lh-sm text-start">Marco la alternativa que más me representa.</div>
                                             <table className="w-100">
                                                 <tbody>
                                                     <tr>
@@ -242,7 +242,7 @@ function Page060(props) {
                             <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-bulma"></div>
                         </div>
-                        <div className="col-7 col-sm-2 p-0 m-0 position-relative">
+                        <div className="col-1 col-sm-2 p-0 m-0 position-relative">
                             <img src="images/rotulo_investigacion.svg" className="oculto" alt="" />
                             <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-android18"></div>
@@ -252,7 +252,7 @@ function Page060(props) {
                             <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-pidgey"></div>
                         </div>
-                        <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+                        <div className="col-7 col-sm-2 p-0 m-0 position-relative">
                             <img src="images/rotulo_creacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
                             <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-saitama"></div>

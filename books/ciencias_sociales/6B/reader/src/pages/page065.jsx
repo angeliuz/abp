@@ -203,7 +203,7 @@ function Page065(props) {
                       <div className=" f-Ubuntu-R hp-10 fsp-16 ptp-20 pbp-0 psp-0 pep-0  text-center">
                         Como curso, seleccionamos por<br /> votación
                         el título de la exposición.</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-45 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-70 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                     </div>
                   </div>
                 </div>

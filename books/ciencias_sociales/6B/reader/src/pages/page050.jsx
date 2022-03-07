@@ -49,7 +49,7 @@ function Page050(props) {
             <div className="row m-0 w-100 bgc-hansolo p-2 position-relative rounded-p-10">
               <div className="position-absolute top-0 start-100 translate-middle zindex-1"><img src={"images/page_" + pagina + "/megafono.png"} className="hp-50 mtp-50 mep-40" alt="" /></div>
               <div className="position-absolute top-100 start-100 translate-middle zindex-1"><img src={"images/page_" + pagina + "/mono.png"} className="hp-140 mtp-20 mep-40" alt="" /></div>
-              <div className="position-absolute top-50 start-50 translate-middle zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-45 mtp-55 mep-0" alt="" /></div>
+              
               <div className="col-12 p-1 m-0 position-relative">
                 <div className="d-flex pbp-10 align-items-center">
                   <div className="f-Ubuntu-R fsp-14 lh-sm text-start pep-10">Formato 1:</div>
@@ -57,6 +57,8 @@ function Page050(props) {
                 </div>
               </div>
               <div className="col-6 p-2 m-0 position-relative">
+              <div className="position-absolute top-50 start-100 translate-middle zindex-1 mtp--20"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-45 mtp-55 mep-0" alt="" /></div>
+              
                 <div className="bgc-white rounded-p-10 p-2">
                   <div className="f-Ubuntu-R fsp-14 lh-sm text-center">Ventajas</div>
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-245" />
@@ -73,15 +75,18 @@ function Page050(props) {
 
           <div className="d-flex global-margin mtp-10 mbp-60 psp-50 pep-15 ptp-0 pbp-0">
             <div className="row m-0 w-100 bgc-bobafett p-2 position-relative rounded-p-10">
-              <div className="position-absolute top-50 start-0 translate-middle zindex-1"><img src={"images/page_" + pagina + "/lapiz.png"} className="hp-80 mtp-50 mep-0" alt="" /></div>
-              <div className="position-absolute top-50 start-50 translate-middle zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-45 mtp-55 mep-0" alt="" /></div>
+              
+              
               <div className="col-12 p-1 m-0 position-relative">
+              
                 <div className="d-flex pbp-10 align-items-center">
                   <div className="f-Ubuntu-R fsp-14 lh-sm text-start pep-10">Formato 2:</div>
                   <div className="flex-grow-1 bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" /></div>
                 </div>
               </div>
               <div className="col-6 p-2 m-0 position-relative">
+              <div className="position-absolute top-50 start-100 translate-middle zindex-1 mtp--20"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-45 mtp-55 mep-0" alt="" /></div>
+              <div className="position-absolute top-50 start-0 translate-middle zindex-1"><img src={"images/page_" + pagina + "/lapiz.png"} className="hp-80 mtp-50 mep-0" alt="" /></div>
                 <div className="bgc-white rounded-p-10 p-2">
                   <div className="f-Ubuntu-R fsp-14 lh-sm text-center">Ventajas</div>
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-245" />

@@ -66,8 +66,8 @@ function Page024(props) {
                                     </div>
                                 </div>
 
-                                <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                                    <div className="p-2 w-100 d-flex">
+                                <div className="d-flex flex-column center-center mbp-5 mtp-0 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
+                                    <div className="p-2 w-100 max-wp-300">
                                         <InputBox
                                             id={"p" + pagina + "_input" + (indexInput += 1)}
                                             className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
@@ -91,7 +91,7 @@ function Page024(props) {
                                 </div>
 
                                 <div className="d-flex flex-column mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                                    <div className="p-2 w-100 d-flex">
+                                    <div className="p-2 w-100 max-wp-300">
                                         <InputBox
                                             id={"p" + pagina + "_input" + (indexInput += 1)}
                                             className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
@@ -114,7 +114,7 @@ function Page024(props) {
                                 </div>
 
                                 <div className="d-flex flex-column mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                                    <div className="p-2 w-100 d-flex">
+                                    <div className="p-2 w-100 max-wp-300">
                                         <InputBox
                                             id={"p" + pagina + "_input" + (indexInput += 1)}
                                             className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
@@ -132,7 +132,7 @@ function Page024(props) {
                                     />
                                 </div>
                                 <div className="d-flex flex-column center-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                                    <div className="p-2 w-100 d-flex">
+                                    <div className="p-2 w-100 max-wp-300">
                                         <InputBox
                                             id={"p" + pagina + "_input" + (indexInput += 1)}
                                             className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
@@ -149,7 +149,7 @@ function Page024(props) {
                                     />
                                 </div>
                                 <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                                    <div className="p-2 w-100 d-flex">
+                                    <div className="p-2 w-100 max-wp-300">
                                         <InputBox
                                             id={"p" + pagina + "_input" + (indexInput += 1)}
                                             className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
@@ -159,7 +159,7 @@ function Page024(props) {
                             </div>
                             <div className="col-sm-4 position-relative">
                                 <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                                    <div className="p-2 w-100 d-flex">
+                                    <div className="p-2 w-100 max-wp-300">
                                         <InputBox
                                             id={"p" + pagina + "_input" + (indexInput += 1)}
                                             className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
@@ -183,7 +183,7 @@ function Page024(props) {
                                     />
                                 </div>
                                 <div className="d-flex flex-column center-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                                    <div className="p-2 w-100 d-flex">
+                                    <div className="p-2 w-100 max-wp-300">
                                         <InputBox
                                             id={"p" + pagina + "_input" + (indexInput += 1)}
                                             className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
@@ -200,7 +200,7 @@ function Page024(props) {
                                     />
                                 </div>
                                 <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                                    <div className="p-2 w-100 d-flex">
+                                    <div className="p-2 w-100 max-wp-300">
                                         <InputBox
                                             id={"p" + pagina + "_input" + (indexInput += 1)}
                                             className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
@@ -210,7 +210,7 @@ function Page024(props) {
                             </div>
                             <div className="col-sm-4 position-relative">
                                 <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                                    <div className="p-2 w-100 d-flex">
+                                    <div className="p-2 w-100 max-wp-300">
                                         <InputBox
                                             id={"p" + pagina + "_input" + (indexInput += 1)}
                                             className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"

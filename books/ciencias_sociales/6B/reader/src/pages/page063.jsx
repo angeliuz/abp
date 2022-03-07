@@ -100,7 +100,7 @@ function Page063(props) {
 
                     <div className="d-flex  justify-content-start align-items-center position-relative  mt-auto">
                       <div className="w-80 bgc-naraku m-0 pp-5 border-style-solid border-1 border-color-saitama  rounded-p-10  f-Ubuntu-R fsp-15 lh-sm">
-                        ¿Las líneas usadas ayudan a transmitirlo?
+                       Los colores usados ayudan a transmitirlo?
                       </div>
                       <div className="position-absolute top-50 start-100 translate-middle    msp--2 mtp--10  zindex-1"><img src={"images/page_" + pagina + "/flecha63_02.svg"} className="wp-60 rotate-180" alt="" /></div>
                     </div>

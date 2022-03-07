@@ -61,14 +61,14 @@ function Page040(props) {
               <div className="position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle msp--60 mtp--40 visible-768"><img src="images/page_040/img_005.png" className="wp-80 " alt="" /></div>
               </div>
-              <div className="d-flex flex-column mbp-20 mtp-10 w-100">
+              <div className="d-flex flex-column mbp-70 mtp-10 w-100 max-wp-700">
                 <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
                   <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
                     <img src="images/generales/flecha_e3.svg" className="mep-5 wp-15" alt="" />
                     <span>Lo que podemos mejorar como equipo es:</span>
                   </div>
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
-                  <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 mtp-20 text-start position-relative">
+                  <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 mtp-20 text-start position-relative ">
                     <div className="position-absolute top-100 start-100 translate-middle msp--45 mtp-40 visible-768"><img src="images/page_040/img_007.png" className="wp-120 " alt="" /></div>
                     <div className="position-absolute top-100 start-0 translate-middle msp-5 mtp-100 visible-768"><img src="images/page_040/img_009.png" className="wp-50 " alt="" /></div>
                     <img src="images/generales/flecha_e3.svg" className="mep-5 wp-15" alt="" />

@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 
 import "./page_057.css";
 
@@ -53,7 +54,8 @@ function Page057(props) {
                         <div className="d-flex">
                             {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_057/i_g.svg" alt="" /> */}
                             <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>1</div>
-                            <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Reviso el mapa mental que creamos en la etapa de investigación y las entrevistas que realizamos con mi grupo. Luego, completo el esquema.</div>
+                            <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Leo los componentes de nuestro álbum. Luego, marco con <img src="images/page_057/ticket.svg" className="hp-20 psp-5 pep-5 mtp--5" alt="" /> un los
+componentes que ya tengo. </div>
                             <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_057/img_002.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
                         </div>
                     </div>
@@ -68,39 +70,39 @@ function Page057(props) {
                             <div className="col-sm-12   position-relative">
                                 <div className="d-flex w-100 p-2">
                                     <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Portada e introducción del álbum.</div>
                                 </div>
                                 <div className="d-flex w-100 p-2">
                                     <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Afiche de los derechos y la buena convivencia.</div>
                                 </div>
                                 <div className="d-flex w-100 p-2">
                                     <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Fichas con información de las entrevistas.</div>
                                 </div>
                                 <div className="d-flex w-100 p-2">
                                     <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Documento con los desafíos para la convivencia y sus propuestas.</div>
                                 </div>
                                 <div className="d-flex w-100 p-2">
                                     <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Sección acordada por el grupo para incluir en el álbum.</div>
                                 </div>
                                 <div className="d-flex w-100 p-2">
                                     <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                     </div>
-                                    <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Afiche de los derechos y la buena convivencia.</div>
+                                    <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Materiales para la creación del álbum.</div>
                                 </div>
 
 
@@ -135,9 +137,9 @@ function Page057(props) {
                                     <div className="position-absolute bottom-0 start-0 msp--20 mbp--20 "><img class="hp-40 " src="images/page_057/img_004.png" alt="" /></div>
 
                                     <div className="d-flex justify-content-center p-1">
-                                        <div className="row bgc-chopin w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-20">
-                                            <div className="col-5 ptp-10 text-start">Color</div>
-                                            <div className="col-7 ptp-10 text-start">Justificación</div>
+                                        <div className="row bgc-chopin w-100 f-Ubuntu-R fsp-16 rounded-p-20">
+                                            <div className="col-5 ptp-10 text-start color-white fw-700 ">Color</div>
+                                            <div className="col-7 ptp-10 text-start color-white fw-700 ">Justificación</div>
                                             <div className="col-5 position-relative">
                                                 <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--10 mtp-0 zindex-1"><img src="images/page_057/flechablanca.svg" className="wp-50" alt="" /></div>
                                                 {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
@@ -159,9 +161,9 @@ function Page057(props) {
                                         </div>
                                     </div>
                                     <div className="d-flex justify-content-center p-1">
-                                        <div className="row bgc-schubert w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-20">
-                                            <div className="col-5 ptp-10 text-start">Símbolo</div>
-                                            <div className="col-7 ptp-10 text-start">Justificación</div>
+                                        <div className="row bgc-schubert w-100 f-Ubuntu-R fsp-16 rounded-p-20">
+                                            <div className="col-5 ptp-10 text-start color-white fw-700 ">Símbolo</div>
+                                            <div className="col-7 ptp-10 text-start color-white fw-700 ">Justificación</div>
                                             <div className="col-5 position-relative">
                                                 <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--10 mtp-0 zindex-1"><img src="images/page_057/flechablanca.svg" className="wp-50" alt="" /></div>
                                                 {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
@@ -183,9 +185,9 @@ function Page057(props) {
                                         </div>
                                     </div>
                                     <div className="d-flex justify-content-center p-1">
-                                        <div className="row bgc-debussy w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-20">
-                                            <div className="col-5 ptp-10 text-start">Imagen</div>
-                                            <div className="col-7 ptp-10 text-start ">Justificación</div>
+                                        <div className="row bgc-debussy w-100 f-Ubuntu-R fsp-16 rounded-p-20">
+                                            <div className="col-5 ptp-10 text-start fw-700 color-white">Imagen</div>
+                                            <div className="col-7 ptp-10 text-start fw-700 color-white">Justificación</div>
                                             <div className="col-5 position-relative">
                                                 <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--10 mtp-0 zindex-1"><img src="images/page_057/flechablanca.svg" className="wp-50" alt="" /></div>
                                                 {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
@@ -244,12 +246,12 @@ function Page057(props) {
                             <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-android18"></div>
                         </div>
-                        <div className="col-7 col-sm-2 p-0 m-0 position-relative">
+                        <div className="col-1 col-sm-2 p-0 m-0 position-relative">
                             <img src="images/rotulo_experimentacion.svg" className="oculto" alt="" />
                             <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-pidgey"></div>
                         </div>
-                        <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+                        <div className="col-7 col-sm-2 p-0 m-0 position-relative">
                             <img src="images/rotulo_creacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
                             <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-saitama"></div>

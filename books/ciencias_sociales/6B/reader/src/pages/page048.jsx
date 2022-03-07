@@ -33,50 +33,51 @@ function Page048(props) {
               {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-35 text-center mtp-10 " className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"89"} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
 
           <div className="d-flex global-margin mtp-10 mbp-0 psp-30 pep-70 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100 position-relative">
+              
+              <div className="col-12 position-relative">
               <div className="position-absolute top-0 start-100 translate-middle visible-768"><img src="images/page_048/profe.png" className="hp-120 msp--110 mtp--15" alt="" /></div>
-              <div className="col-12">
                 <div className="mx-auto w-90 bgc-draco f-Ubuntu-R fsp-14 lh-sm p-2 rounded-set-10">¿Qué característica de cada obra mencionarían para que alguien pueda diferenciarla de las demás?</div>
               </div>
               <div className="col-12 mbp-10">
                 <div className="d-flex border-style-solid border-color-goten border-3 p-0 m-0">
-                  <div className="w-20 bgc-genos p-3 border-right-style-solid border-color-goten border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14">Obra A</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-110 mep-10 msp-10" />
+                  <div className="min-wp-110 bgc-genos p-3 border-right-style-solid border-color-goten border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14">Obra A</div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="min-wp-200 p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-110 mep-10 msp-10" />
                 </div>
               </div>
               <div className="col-12 mbp-10">
                 <div className="d-flex border-style-solid border-color-bulma border-3 p-0 m-0">
-                  <div className="w-20 bgc-piccolo p-3 border-right-style-solid border-color-bulma border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14">Obra B</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-110 mep-10 msp-10" />
+                  <div className="min-wp-110 bgc-piccolo p-3 border-right-style-solid border-color-bulma border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14">Obra B</div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="min-wp-200 p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-110 mep-10 msp-10" />
                 </div>
               </div>
               <div className="col-12 mbp-10">
                 <div className="d-flex border-style-solid border-color-android18 border-3 p-0 m-0">
-                  <div className="w-20 bgc-azuka p-3 border-right-style-solid border-color-android18 border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14">Obra C</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-110 mep-10 msp-10" />
+                  <div className="min-wp-110 bgc-azuka p-3 border-right-style-solid border-color-android18 border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14">Obra C</div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="min-wp-200 p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-110 mep-10 msp-10" />
                 </div>
               </div>
               <div className="col-12 mbp-10">
                 <div className="d-flex border-style-solid border-color-ken border-3 p-0 m-0">
-                  <div className="w-20 bgc-kai p-3 border-right-style-solid border-color-ken border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14">Obra D</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-110 mep-10 msp-10" />
+                  <div className="min-wp-110 bgc-kai p-3 border-right-style-solid border-color-ken border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14">Obra D</div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="min-wp-200 p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-110 mep-10 msp-10" />
                 </div>
               </div>
               <div className="col-12 mbp-10">
                 <div className="d-flex border-style-solid border-color-saitama border-3 p-0 m-0">
-                  <div className="w-20 bgc-windu p-3 border-right-style-solid border-color-saitama border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14">Obra E</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-110 mep-10 msp-10" />
+                  <div className="min-wp-110 bgc-windu p-3 border-right-style-solid border-color-saitama border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14">Obra E</div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="min-wp-200 p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-110 mep-10 msp-10" />
                 </div>
               </div>
               <div className="col-12 mbp-10">
                 <div className="d-flex border-style-solid border-color-vegeta border-3 p-0 m-0">
-                  <div className="w-20 bgc-itto p-3 border-right-style-solid border-color-vegeta border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14">Obra F</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-110 mep-10 msp-10" />
+                  <div className="min-wp-110 bgc-itto p-3 border-right-style-solid border-color-vegeta border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14">Obra F</div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="min-wp-200 p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-110 mep-10 msp-10" />
                 </div>
               </div>
             </div>

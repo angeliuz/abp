@@ -68,7 +68,7 @@ function Page024(props) {
                                 <div className="">
                                     <div className="f-Ubuntu-B alinea rounded-set-20 bgc-haydn w-100 p-1 text-center color-white">Las características acordadas
                                         por el grupo:</div>
-                                    <div className="linea1 bgc-white p-2  rounded-seb-20 border-style-solid border-color-birdie border-2">
+                                    <div className="linea1 bgc-white p-2  rounded-seb-20 border-style-solid border-color-haydn border-2">
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-380" />
                                     </div>
                                 </div>

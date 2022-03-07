@@ -1,6 +1,8 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
+import Check from "../components/Check";
+import ModalBook from "../components/ModalBook";
 import "./page_044.css";
 
 function Page044(props) {
@@ -20,7 +22,7 @@ function Page044(props) {
             <div className="d-flex">
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">3</div>
               <div className="f-Ubuntu-R fsp-14 ptp-18 psp-10 text-start">Leo cómo analizar información a partir de una ficha. Luego, marco con<img src="images/page_044/ticket.svg" className="hp-20 psp-5 pep-5 mtp--5" alt="" />sobre los pasos que entiendo.</div>
-              <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/page_044/revista.svg" clasesImagen="hp-35 mtp-10 psp-10" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"84"} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
 
@@ -29,19 +31,19 @@ function Page044(props) {
               <div className="position-absolute top-0 end-0 zindex-2"><img src="images/page_044/pincho.svg" className="wp-30 mep-10 mtp--20" alt="" /></div>
               <div className="bloque-respuesta w-100 p-3 text-left bgc-draco">
                 <div className="d-flex align-items-center pbp-10">
-                  <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
+                  <div className="pep-10"><div className="cuadro-clic"> <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div></div>
                   <div className="f-Ubuntu-L fsp-14 lh-sm pep-5 text-start">Leer todas las fichas de forma general.</div>
                 </div>
                 <div className="d-flex align-items-center pbp-10">
-                  <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
+                  <div className="pep-10"><div className="cuadro-clic"> <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div></div>
                   <div className="f-Ubuntu-L fsp-14 lh-sm pep-5 text-start">Clasificar la información de cada ficha por categorías.</div>
                 </div>
                 <div className="d-flex align-items-center pbp-10">
-                  <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
+                  <div className="pep-10"><div className="cuadro-clic"> <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div></div>
                   <div className="f-Ubuntu-L fsp-14 lh-sm pep-5 text-start">Encontrar semejanzas y diferencias de las fichas entre sí.</div>
                 </div>
                 <div className="d-flex align-items-center pbp-10">
-                  <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
+                  <div className="pep-10"><div className="cuadro-clic"> <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div></div>
                   <div className="f-Ubuntu-L fsp-14 lh-sm pep-5 text-start">Elaborar una conclusión general.</div>
                 </div>
               </div>
@@ -56,23 +58,29 @@ function Page044(props) {
           </div>
 
           <div className="ptp-10 psp-100 pep-60 mbp-0">
-            <div className="row mbp-10 position-relative">
-              <div className="position-absolute top-0 start-100 translate-middle visible-768"><img src="images/page_044/tablet.png" className="wp-90 mep-40 mtp--20" alt="" /></div>
+            <div className=" mbp-10 position-relative max-wp-700">
+              <div className="position-absolute top-0 start-100 translate-middle visible-768"><img src="images/page_044/tablet.png" className="wp-90 mep-40 mtp--60" alt="" /></div>
               <div className="d-flex border-style-solid border-color-ken border-3 p-0 m-0">
                 <div className="w-30 bgc-kai p-3 border-right-style-solid border-color-ken border-3 d-flex align-items-center f-Ubuntu-L fsp-14 text-start">A partir de las entrevistas y las fichas, nuestros entrevistados se parecen en…</div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150 mep-10 msp-10 contenedor-linea" />
+                <div className="w-70">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150 mep-10 msp-10 contenedor-linea" />
+                </div>
               </div>
             </div>
-            <div className="row mbp-10 position-relative">
+            <div className="mbp-10 position-relative max-wp-700">
               <div className="d-flex border-style-solid border-color-android18 border-3 p-0 m-0">
                 <div className="w-30 bgc-azuka p-3 border-right-style-solid border-color-android18 border-3 d-flex align-items-center f-Ubuntu-L fsp-14 text-start">Nuestros entrevistados tienen diferencias en…</div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150 mep-10 msp-10 contenedor-linea" />
+                <div className="w-70">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150 mep-10 msp-10 contenedor-linea" />
+                </div>
               </div>
             </div>
-            <div className="row mbp-10 position-relative">
+            <div className="mbp-10 position-relative max-wp-700">
               <div className="d-flex border-style-solid border-color-goten border-3 p-0 m-0">
                 <div className="w-30 bgc-genos p-3 border-right-style-solid border-color-goten border-3 d-flex align-items-center f-Ubuntu-L fsp-14 text-start">Para ellos, es importante la buena convivencia porque…</div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150 mep-10 msp-10 contenedor-linea" />
+                <div className="w-70 max-wp-350">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150 mep-10 msp-10 contenedor-linea" />
+                </div>
               </div>
             </div>
           </div>

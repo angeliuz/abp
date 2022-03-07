@@ -155,7 +155,8 @@
   --mozart:#54676f;
   --alf:#9ea7ad;
   --pachelbel:#fff4d4;
-
+  --aister:#edf2d0;
+  --jack:#ddf1fd;
 }
 
 /* COLORES */
@@ -889,6 +890,14 @@
       color: var(--pachelbel);
 
     }
+    .color-aister {
+      color: var(--aister);
+
+    }
+    .color-jack {
+      color: var(--jack); 
+
+    }
 
 
 
@@ -1394,7 +1403,12 @@
 .border-color-pachelbel {
   border-color: var(--pachelbel) !important;
 }
-
+.border-color-aister {
+  border-color: var(--aister) !important;
+}
+.border-color-jack {
+  border-color: var(--jack) !important;
+}
 
 
 /* B
@@ -1877,5 +1891,13 @@
 }
 .bgc-pachelbel {
   background-color: var(--pachelbel);
+
+}
+.bgc-aister {
+  background-color: var(--aister);
+
+}
+.bgc-jack {
+  background-color: var(--jack);
 
 }

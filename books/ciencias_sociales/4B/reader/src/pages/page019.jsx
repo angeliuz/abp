@@ -133,37 +133,37 @@ function Page019(props) {
             <div className="row w-100">
 
               <div className="col-md-4 col-12 position-relative pbp-20">
-                <div className="bgc-white border-style-solid border-color-dark border-1 w-100 hp-100 rounded-p-10 p-2">
+                <div className="bgc-white border-style-solid border-color-dark border-1 w-100  rounded-p-10 p-2">
                   <div className="d-flex">
                     <div className="">Fecha: </div>
                     <div className="w-100"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-35" /></div>
                   </div>
-                  <div className="">Objetivo:</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-25 min-hp-45" />
+                  <div className="">Objetivo:</div>                
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-45" />                
                 </div>
                 <div className="position-absolute top-50 start-100 translate-middle msp-1 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_011.svg"} className="wp-25" alt="" /></div>
               </div>
 
               <div className="col-md-4 col-12 position-relative pbp-20">
-                <div className="bgc-white border-style-solid border-color-dark border-1 w-100 hp-100 rounded-p-10 p-2">
+                <div className="bgc-white border-style-solid border-color-dark border-1 w-100 rounded-p-10 p-2">
                   <div className="d-flex">
                     <div className="">Fecha: </div>
                     <div className="w-100"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-35" /></div>
                   </div>
                   <div className="">Objetivo:</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-25 min-hp-45" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-45" />
                 </div>
                 <div className="position-absolute top-50 start-100 translate-middle msp-1 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_011.svg"} className="wp-25" alt="" /></div>
               </div>
 
               <div className="col-md-4 col-12 position-relative pbp-20">
-                <div className="bgc-white border-style-solid border-color-dark border-1 w-100 hp-100 rounded-p-10 p-2">
+                <div className="bgc-white border-style-solid border-color-dark border-1 w-100 rounded-p-10 p-2">
                   <div className="d-flex">
                     <div className="">Fecha: </div>
                     <div className="w-100"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-35" /></div>
                   </div>
                   <div className="">Objetivo:</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-25 min-hp-45" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-45" />
                 </div>
               </div>
             </div>

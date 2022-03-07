@@ -50,7 +50,7 @@ function Page059(props) {
                     <div className="ptp-15  msp-20 mtp--50  gira-5 color-white  f-pixilate-bold fsp-18"> Ilustraciones </div>
                   </div>
 
-                  <div className="row bgc-white w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-10 border-style-solid border-2 border-color-yamcha">
+                  <div className="row bgc-white w-100 f-Ubuntu-R fsp-16  color-white rounded-p-10 border-style-solid border-2 border-color-yamcha">
                     <div className="col ptp-20">
                       <div className="d-flex w-100 p-2 rounded-p-20 ">
                         <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
@@ -60,9 +60,9 @@ function Page059(props) {
                         <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
                         <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">Debe retratar a los entrevistados y dibujar la portada.</div>
                       </div>
-                      <div className="d-flex align-items-center w-100 p-2 ">
-                        <div className="d-flex justify-content-start align-items-center wp-360 hp-60 psp-10 p-2 bgc-haendel rounded-tbs-10 text-start f-Ubuntu-R color-dark lh-sm "> La persona encargada de las ilustraciones será:</div>
-                        <div className="d-flex w-100 hp-90 psp-5 text-start color-dark rounded-p-10 border-style-solid border-2 border-color-yamcha ">
+                      <div className="d-flex align-items-center w-100 max-wp-700  p-2 ">
+                        <div className="justify-content-start align-items-center wp-360 hp-60 psp-10 p-2 bgc-haendel rounded-tbs-10 text-start f-Ubuntu-R color-dark lh-sm "> La persona encargada de las ilustraciones será:</div>
+                        <div className="w-100 max-wp-400 psp-5 text-start color-dark rounded-p-10 border-style-solid border-2 border-color-yamcha ">
                           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                         </div>
                       </div>
@@ -78,20 +78,20 @@ function Page059(props) {
                     <div className=" msp-20 mtp--35  gira-5 color-white zindex-2 f-pixilate-bold fsp-18"> Textos </div>
                   </div>
 
-                  <div className="row bgc-white w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-10 border-style-solid border-2 border-color-goro">
+                  <div className="row bgc-white w-100 f-Ubuntu-R fsp-16  color-white rounded-p-10 border-style-solid border-2 border-color-goro">
                     <div className="col ptp-20">
                       <div className="d-flex w-100 p-2 rounded-p-20 ">
                         <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
-                        <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">La persona encargada de los textos debe escribir bien y saber transmitir información en pocas palabras.</div>
+                        <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark">La persona encargada de los  textos debe escribir bien y saber transmitir información en pocas palabras.</div>
                       </div>
                       <div className="d-flex w-100 p-2 ">
                         <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
-                        <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">Debe escribir la introducción que explica el álbum y sus partes.</div>
+                        <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark">Debe escribir la introducción que explica el álbum y sus partes.</div>
                       </div>
                       <div className="d-flex align-items-center w-100 p-2 ">
-                        <div className="d-flex justify-content-start align-items-center wp-360 hp-60 psp-10 p-2 bgc-goro rounded-tbs-10 text-start f-Ubuntu-R color-dark lh-sm "> La persona encargada
+                        <div className="d-flex justify-content-start align-items-center wp-360 hp-60 psp-10 p-2 bgc-goro rounded-tbs-10 text-start f-Ubuntu-R color-dark lh-sm"> La persona encargada
                           de los textos será:</div>
-                        <div className="d-flex w-100 hp-90 psp-5 text-start color-dark rounded-p-10 border-style-solid border-2 border-color-goro ">
+                        <div className="d-flex w-100  psp-5 text-start color-dark rounded-p-10 border-style-solid border-2 border-color-goro">
                           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                         </div>
                       </div>
@@ -105,7 +105,7 @@ function Page059(props) {
                     <div className=" msp-20 mtp--35  gira-5 color-white zindex-2 f-pixilate-bold fsp-18"> Diseño </div>
                   </div>
 
-                  <div className="row bgc-white w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-10 border-style-solid border-2 border-color-yoda">
+                  <div className="row bgc-white w-100 f-Ubuntu-R fsp-16 color-white rounded-p-10 border-style-solid border-2 border-color-yoda">
                     <div className="col ptp-20">
                       <div className="d-flex w-100 p-2 rounded-p-20 ">
                         <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
@@ -116,8 +116,8 @@ function Page059(props) {
                         <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">Debe crear el soporte material del álbum.</div>
                       </div>
                       <div className="d-flex align-items-center w-100 p-2 ">
-                        <div className="d-flex justify-content-start align-items-center wp-360 hp-60 psp-10 p-2 bgc-yoda rounded-tbs-10 text-start f-Ubuntu-R color-dark lh-sm "> La persona encargada del diseño será:</div>
-                        <div className="d-flex w-100 hp-90 psp-5 text-start color-dark rounded-p-10 border-style-solid border-2 border-color-yoda ">
+                        <div className="justify-content-start align-items-center wp-360 hp-60 psp-10 p-2 bgc-yoda rounded-tbs-10 text-start f-Ubuntu-R color-dark lh-sm "> La persona encargada del diseño será:</div>
+                        <div className="w-100 max-wp-400 psp-5 text-start color-dark rounded-p-10 border-style-solid border-2 border-color-yoda ">
                           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                         </div>
                       </div>
@@ -131,7 +131,7 @@ function Page059(props) {
                     <div className=" msp-20 mtp--35  gira-5 color-white zindex-2 f-pixilate-bold fsp-18"> Edición </div>
                   </div>
 
-                  <div className="row bgc-white w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-10 border-style-solid border-2 border-color-brahms">
+                  <div className="row bgc-white w-100 f-Ubuntu-R fsp-16 color-white rounded-p-10 border-style-solid border-2 border-color-brahms">
                     <div className="col ptp-20">
                       <div className="d-flex w-100 p-2 rounded-p-20 ">
                         <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
@@ -142,8 +142,8 @@ function Page059(props) {
                         <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">Debe ser capaz de presentar y explicar el álbum a otros.</div>
                       </div>
                       <div className="d-flex align-items-center w-100 p-2 ">
-                        <div className="d-flex justify-content-start align-items-center wp-360 hp-60 psp-10 p-2 bgc-brahms rounded-tbs-10 text-start f-Ubuntu-R color-dark lh-sm "> La persona encargada de la edición será:</div>
-                        <div className="d-flex w-100 hp-90 psp-5 text-start color-dark rounded-p-10 border-style-solid border-2 border-color-brahms ">
+                        <div className=" justify-content-start align-items-center wp-360 hp-60 psp-10 p-2 bgc-brahms rounded-tbs-10 text-start f-Ubuntu-R color-dark lh-sm "> La persona encargada de la edición será:</div>
+                        <div className="w-100 max-wp-400 psp-5 text-start color-dark rounded-p-10 border-style-solid border-2 border-color-brahms ">
                           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                         </div>
                       </div>
@@ -178,7 +178,7 @@ function Page059(props) {
               <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
               <div className="w-100 hp-25 bgc-bulma"></div>
             </div>
-            <div className="col-7 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
               <img src="images/rotulo_investigacion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
               <div className="w-100 hp-25 bgc-android18"></div>
@@ -188,7 +188,7 @@ function Page059(props) {
               <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
               <div className="w-100 hp-25 bgc-pidgey"></div>
             </div>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-7 col-sm-2 p-0 m-0 position-relative">
               <img src="images/rotulo_creacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
               <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
               <div className="w-100 hp-25 bgc-saitama"></div>

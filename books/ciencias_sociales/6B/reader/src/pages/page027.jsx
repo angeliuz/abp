@@ -25,7 +25,7 @@ function Page027(props) {
           <div className="cabecera-v2 bgc-android18 d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
               <div className="caja wp-160 text-center fsp-24 f-IntroRustG-Base">SESIÓN 6</div>
-              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Mejorando la huella ecológica</div>
+              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Los derechos generan responsabilidades</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
@@ -35,19 +35,19 @@ function Page027(props) {
                 <img src="images/page_027/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Leer el reportaje de la<br />revista sobre la huella<br /> ecológica
+              Analizar conflictos relacionados<br />con los derechos fundamentales.
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_027/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Reconocer usos<br /> inadecuados de la energía<br />en el colegio
+              Proponer responsabilidades que<br /> ayuden a resolver conflictos.
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_027/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
-                Señalar cambios para<br /> utilizar responsablemente<br />la energía en el colegio
+              Analizar nuestras<br /> propuestas.
               </div>
               {/* <div className="p-0 align-self-center">
                 <img src="images/page_025/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
@@ -72,7 +72,7 @@ function Page027(props) {
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_027/img_003.svg" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"87"} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
 
@@ -91,7 +91,7 @@ function Page027(props) {
           </div>
 
           <div className="d-flex global-margin mtp-0 mbp-250 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-Ubuntu-L  fsp-16">
-            <div className="position-absolute top-100 start-0 translate-middle msp-150 mtp--70 zindex-2 visible-768"><img src="images/page_027/img_004.png" className="wp-200" alt="" /></div>
+            <div className="position-absolute top-100 start-0 translate-middle msp-150 mtp--70 zindex-2 visible-768"><img src="images/page_027/img_001.png" className="wp-200" alt="" /></div>
             
             <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-60 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-580" alt="" /></div>
 
@@ -177,12 +177,12 @@ function Page027(props) {
               <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
               <div className="w-100 hp-25 bgc-goten"></div>
             </div>
-            <div className="col-7 position-relative col-sm-2 p-0 m-0">
+            <div className="col-1 position-relative col-sm-2 p-0 m-0">
               <img src="images/rotulo_planificacion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
               <div className="w-100 hp-25 bgc-bulma"></div>
             </div>
-            <div className="col-1 position-relative col-sm-2 p-0 m-0">
+            <div className="col-7 position-relative col-sm-2 p-0 m-0">
               <img src="images/rotulo_investigacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
               <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
               <div className="w-100 hp-25 bgc-android18"></div>

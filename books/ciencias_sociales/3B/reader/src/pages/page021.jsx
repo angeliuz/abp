@@ -65,7 +65,7 @@ function Page021(props) {
             <div className="col-sm-12 col-md-4 mtp-20  position-relative">
               <img
                 src="images/page_021/img_003.png"
-                className="top-0 start-50 translate-middle-x position-absolute"
+                className="top-0 start-50 translate-middle-x position-absolute mtp--10"
                 alt=""
               />
               <div className=" margen-21 mtp-30 mbp-80 w-100">
@@ -81,7 +81,7 @@ function Page021(props) {
             <div className="col-sm-12 col-md-4 mtp-20  position-relative">
               <img
                 src="images/page_021/img_002.png"
-                className="top-0 start-50 translate-middle-x position-absolute"
+                className="top-0 start-50 translate-middle-x position-absolute mtp--10"
                 alt=""
               />
               <div className=" margen-21 mtp-30 mbp-80 w-100">
@@ -97,7 +97,7 @@ function Page021(props) {
             <div className="col-sm-12 col-md-4 mtp-20  position-relative">
               <img
                 src="images/page_021/img_001.png"
-                className="top-0 start-50 translate-middle-x position-absolute"
+                className="top-0 start-50 translate-middle-x position-absolute mtp--10"
                 alt=""
               />
               <div className=" mtp-30 mbp-80 w-100">

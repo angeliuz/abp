@@ -1,6 +1,9 @@
 import React from "react";
+import { useState } from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import ModalRecortable from "../components/ModalRecortable";
+
 
 import "./page_017.css";
 
@@ -14,6 +17,20 @@ function Page017(props) {
   const borderColor = "border-color-bulma"
   const borderColorTabla = "border-color-draco"
   const bgc_cajas = "bgc-draco";
+
+  const [visible, setVisible] = useState(false);
+
+  function handleVisible(e) {
+    // setFullscreen(breakpoint);
+    if (visible) {
+      setVisible(false);
+    } else {
+      setVisible(true);
+    }
+    console.log("visible: " + visible);
+  }
+
+
 
   return (
     <div className="wrapper bgc-light">
@@ -73,7 +90,11 @@ function Page017(props) {
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col-md-6 col-12 pbp-20">
+                  <div className="col-md-6 col-12 pbp-20 position-relative">
+                    <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1">
+                      <ModalRecortable id={"p" + pagina + "_book" + (indexInput += 1)} pagina={pagina} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" onClick={handleVisible} >hola</ModalRecortable>
+
+                    </div>
                     <div className="bgc-white mxwp-300 hp-200 centrar border-caja position-relative">
                       <img
                         src="images/page_017/img_007.png"
@@ -163,12 +184,12 @@ function Page017(props) {
                 </div>
                 <img
                   src="images/page_017/img_005.png"
-                  class="hp-70 position-absolute top-50 start-50 msp-340 mtp--40"
+                  className="hp-70 position-absolute top-50 start-50 msp-340 mtp--40"
                   alt=""
                 />
                 <img
                   src="images/page_017/img_006.png"
-                  class="hp-65 position-absolute top-50 start-0 msp-20 mtp-180"
+                  className="hp-65 position-absolute top-50 start-0 msp-20 mtp-180"
                   alt=""
                 />
               </div>
@@ -191,6 +212,9 @@ function Page017(props) {
           </div>
         </div>
       </div>
+
+
+
     </div>
   );
 }
