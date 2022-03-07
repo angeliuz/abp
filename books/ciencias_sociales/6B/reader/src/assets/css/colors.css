@@ -155,7 +155,7 @@
   --mozart:#54676f;
   --alf:#9ea7ad;
   --pachelbel:#fff4d4;
-
+  --aister:#edf2d0;
 }
 
 /* COLORES */
@@ -889,6 +889,10 @@
       color: var(--pachelbel);
 
     }
+    .color-aister {
+      color: var(--aister);
+
+    }
 
 
 
@@ -1394,6 +1398,9 @@
 .border-color-pachelbel {
   border-color: var(--pachelbel) !important;
 }
+.border-color-addEventListener {
+  border-color: var(--aister) !important;
+}
 
 
 
@@ -1877,5 +1884,9 @@
 }
 .bgc-pachelbel {
   background-color: var(--pachelbel);
+
+}
+.bgc-aister {
+  background-color: var(--aister);
 
 }
