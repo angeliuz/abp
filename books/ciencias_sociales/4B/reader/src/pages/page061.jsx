@@ -54,7 +54,7 @@ function Page061(props) {
                             {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_057/i_g.svg" alt="" /> */}
                             <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>1</div>
                             <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Realizamos una lista de tareas para completar el álbum.</div>
-                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_057/img_002.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+                            
                         </div>
                     </div>
 
@@ -85,7 +85,7 @@ function Page061(props) {
                                                     1
                                                 </div>
                                             </div>
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
+                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75 f-Ubuntu-L" />
                                         </div>
                                     </div>
 
@@ -101,7 +101,7 @@ function Page061(props) {
                                                     2
                                                 </div>
                                             </div>
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
+                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75 f-Ubuntu-L" />
                                         </div>
                                     </div>
 
@@ -117,7 +117,7 @@ function Page061(props) {
                                                     3
                                                 </div>
                                             </div>
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
+                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75 f-Ubuntu-L" />
                                         </div>
                                     </div>
 
@@ -133,7 +133,7 @@ function Page061(props) {
                                                     4
                                                 </div>
                                             </div>
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
+                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75 f-Ubuntu-L" />
                                         </div>
                                     </div>
 
@@ -206,12 +206,12 @@ function Page061(props) {
                             <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-android18"></div>
                         </div>
-                        <div className="col-7 col-sm-2 p-0 m-0 position-relative">
+                        <div className="col-1 col-sm-2 p-0 m-0 position-relative">
                             <img src="images/rotulo_experimentacion.svg" className="oculto" alt="" />
                             <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-pidgey"></div>
                         </div>
-                        <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+                        <div className="col-7 col-sm-2 p-0 m-0 position-relative">
                             <img src="images/rotulo_creacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
                             <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-saitama"></div>

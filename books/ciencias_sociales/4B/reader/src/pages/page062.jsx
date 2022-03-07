@@ -26,8 +26,8 @@ function Page062(props) {
 
 
           <div className="msp-70 mep-50 position-relative mtp-70 ">
-            <div className="position-absolute top-0 start-100 translate-middle   zindex-4 visible-768 msp--20 mtp--20 "><img src="images/page_062/img_002.png" className="wp-70 " alt="" /></div>
-            <div className="position-absolute top-50 start-0 translate-middle   zindex-4 visible-768 msp-10 mtp--20 "><img src="images/page_062/img_003.png" className="wp-15 " alt="" /></div>
+            <div className="position-absolute top-0 start-100 translate-middle zindex-10 visible-768 msp--20 mtp--20 "><img src="images/page_062/img_002.png" className="wp-70 " alt="" /></div>
+            <div className="position-absolute top-50 start-0 translate-middle zindex-4 visible-768 msp-10 mtp--20 "><img src="images/page_062/img_003.png" className="wp-15 " alt="" /></div>
             <div className="row w-100 mbp-10   ">
               <div className="cb-ep-paper-62 ">
                 <div className="cb-ep-paper-content-62 f-Ubuntu-L text-start  ">
@@ -125,7 +125,7 @@ function Page062(props) {
             <div className="d-flex justify-content-center p-1 position-relative">
               <div className="position-absolute top-0 start-100 translate-middle visible-768 zindex-2 wp-100 msp--30 mtp--10"><img src="images/page_062/img_004.png" className="wp-70" alt="" /></div>
               <div className="position-absolute top-100 start-50 translate-middle visible-768   zindex-2 wp-100 msp-0 mtp--25"><img src="images/page_062/img_007.png" className="wp-80" alt="" /></div>
-              <div className="row  w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-20 d-flex align-items-center">
+              <div className="row  w-100 f-Ubuntu-R fsp-16 rounded-p-20 d-flex align-items-center">
 
                 <div className="col-6 d-flex align-items-center   position-relative h-100">
                   <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--10 mtp-0"><img src="images/page_062/img_006.svg" className="wp-50" alt="" /></div>
@@ -196,7 +196,7 @@ function Page062(props) {
               <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
               <div className="w-100 hp-25 bgc-bulma"></div>
             </div>
-            <div className="col-7 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
               <img src="images/rotulo_investigacion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
               <div className="w-100 hp-25 bgc-android18"></div>
@@ -206,7 +206,7 @@ function Page062(props) {
               <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
               <div className="w-100 hp-25 bgc-pidgey"></div>
             </div>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-7 col-sm-2 p-0 m-0 position-relative">
               <img src="images/rotulo_creacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
               <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
               <div className="w-100 hp-25 bgc-saitama"></div>

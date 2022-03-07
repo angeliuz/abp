@@ -44,7 +44,7 @@ function Page014(props) {
           {/* BEGIN CONTENIDO */}
           <div className="pep-60 psp-60 ptp-20 pbp-20">
             <div className="bgc-draco w-100 psp-40 ptp-10 pbp-20 pep-10 position-relative">
-              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-36 min-hp-360" />
+              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-360" />
               <div className="position-absolute top-50 start-0 translate-middle h-100 msp-10 pbp-20"><div className="flequillo-p14 wp-30 h-100"></div></div>
             </div>
           </div>
