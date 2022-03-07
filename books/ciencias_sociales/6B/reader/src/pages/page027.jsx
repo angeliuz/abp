@@ -25,7 +25,7 @@ function Page027(props) {
           <div className="cabecera-v2 bgc-android18 d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
               <div className="caja wp-160 text-center fsp-24 f-IntroRustG-Base">SESIÓN 6</div>
-              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Mejorando la huella ecológica</div>
+              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Los derechos generan responsabilidades</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
@@ -35,19 +35,19 @@ function Page027(props) {
                 <img src="images/page_027/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Leer el reportaje de la<br />revista sobre la huella<br /> ecológica
+              Analizar conflictos relacionados<br />con los derechos fundamentales.
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_027/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Reconocer usos<br /> inadecuados de la energía<br />en el colegio
+              Proponer responsabilidades que<br /> ayuden a resolver conflictos.
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_027/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
-                Señalar cambios para<br /> utilizar responsablemente<br />la energía en el colegio
+              Analizar nuestras<br /> propuestas.
               </div>
               {/* <div className="p-0 align-self-center">
                 <img src="images/page_025/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
@@ -177,12 +177,12 @@ function Page027(props) {
               <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
               <div className="w-100 hp-25 bgc-goten"></div>
             </div>
-            <div className="col-7 position-relative col-sm-2 p-0 m-0">
+            <div className="col-1 position-relative col-sm-2 p-0 m-0">
               <img src="images/rotulo_planificacion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
               <div className="w-100 hp-25 bgc-bulma"></div>
             </div>
-            <div className="col-1 position-relative col-sm-2 p-0 m-0">
+            <div className="col-7 position-relative col-sm-2 p-0 m-0">
               <img src="images/rotulo_investigacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
               <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
               <div className="w-100 hp-25 bgc-android18"></div>
