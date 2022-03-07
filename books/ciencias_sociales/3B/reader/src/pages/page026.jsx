@@ -39,7 +39,7 @@ function Page026(props) {
               />
               <div className="lines-a ajuste-lineas">
                 <div className="lines-b p-2">
-                  <div className="bgc-white rounded-p-20 hp-200 p-2">
+                  <div className="bgc-white rounded-p-20x p-2">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
                       className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
