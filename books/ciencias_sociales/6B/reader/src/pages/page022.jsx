@@ -42,7 +42,7 @@ function Page022(props) {
                     <div className="d-flex wp-23">
                       <img
                         src={"images/generales/flecha_e" + etapa + ".svg"}
-                        className="mbp-20 mep-5 wp-20"
+                        className="mbp-60 mep-5 wp-20"
                         alt=""
                       />
                     </div>
@@ -73,7 +73,7 @@ function Page022(props) {
                     <div className="d-flex wp-23">
                       <img
                         src={"images/generales/flecha_e" + etapa + ".svg"}
-                        className="mbp-25 mep-5 wp-20"
+                        className="mbp-80 mep-5 wp-20"
                         alt=""
                       />
                     </div>
@@ -103,7 +103,7 @@ function Page022(props) {
                     <div className="d-flex">
                       <img
                         src={"images/generales/flecha_e" + etapa + ".svg"}
-                        className="mbp-25 mep-5 wp-20"
+                        className="mbp-60 mep-5 wp-20"
                         alt=""
                       />
                     </div>
