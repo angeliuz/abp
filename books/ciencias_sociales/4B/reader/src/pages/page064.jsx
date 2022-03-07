@@ -127,15 +127,15 @@ function Page064(props) {
                   <div className="d-flex flex-column">
                     <div className="d-flex w-100 psp-20 pep-20 ptp-0 pbp-0">
                       <div className="wp-25 hp-25 bgc-saitama rounded-circle color-white f-Ubuntu-L fw-900 fsp-18  ">1</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-600 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                     </div>
                     <div className="d-flex w-100 psp-20 pep-20 ptp-0 pbp-0">
                       <div className="wp-25 hp-25 bgc-saitama rounded-circle color-white f-Ubuntu-L fw-900 fsp-18  ">2</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-600 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                     </div>
                     <div className="d-flex w-100 psp-20 pep-20 ptp-0 pbp-0">
                       <div className="wp-25 hp-25 bgc-saitama rounded-circle color-white f-Ubuntu-L fw-900 fsp-18  ">3</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-600 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                     </div>
 
                   </div>
