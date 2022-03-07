@@ -4373,6 +4373,9 @@
 }
 
 /* MAX WIDTH */
+.max-wp-200 {
+  max-width: 200px !important;
+}
 .max-wp-360 {
   max-width: 360px !important;
 }

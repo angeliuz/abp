@@ -110,7 +110,7 @@ function Page029(props) {
                     <div className="d-flex global-margin mtp-30 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
 
 
-                        <div className="row p-0 m-0 w-100 bgc-kabal rounded-p-10 border-1 border-style-solid border-color-dark">
+                        <div className="row p-0 m-0 w-100 bgc-jack rounded-p-10 border-1 border-style-solid border-color-dark">
 
                             <div className="col-12 d-flex position-relative pbp-10 ptp-10 msp-5 mep-5 ">
                             <div className="position-absolute top-0 start-100 translate-middle zindex-1 msp--10 "><img src="images/page_029/img_002.png" className="wp-70 " alt="" /></div>
@@ -258,12 +258,12 @@ function Page029(props) {
                             <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
                             <div className="w-100 hp-25 bgc-goten"></div>
                         </div>
-                        <div className="col-7 position-relative col-sm-2 p-0 m-0">
+                        <div className="col-1 position-relative col-sm-2 p-0 m-0">
                             <img src="images/rotulo_planificacion.svg" className="oculto" alt="" />
                             <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-bulma"></div>
                         </div>
-                        <div className="col-1 position-relative col-sm-2 p-0 m-0">
+                        <div className="col-7 position-relative col-sm-2 p-0 m-0">
                             <img src="images/rotulo_investigacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
                             <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-android18"></div>

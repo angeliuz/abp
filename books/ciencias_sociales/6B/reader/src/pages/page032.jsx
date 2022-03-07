@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 
 import "./page_032.css";
 
@@ -44,19 +45,13 @@ function Page032(props) {
                         <div className="position-absolute top-0 start-100 translate-middle zindex-1 msp--40"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-50" alt="" /></div>
                             <div className=" ptp-10 psp-10 pep-10">
                                 <div className="f-Ubuntu-L fep-20 mtp-5 text-start">¿Cuál es la situación de</div>
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-25" />
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                             </div>
-                            <div className=" psp-20 pep-10">
-
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-25" />
-                            </div>
-                            <div className=" psp-20 pep-10">
-
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-25" />
-                            </div>
+                            
+                            
                             <div className=" psp-20 pep-10 pbp-20">
 
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-25" />
+                                
                                 <div className="f-Ubuntu-L fep-20 mtp-5 text-end">en el mundo actual?</div>
                             </div>
 
@@ -91,12 +86,12 @@ function Page032(props) {
                                         <div className="w-100  p-1 ">
 
 
-                                            <div className="d-flex text-start f-Ubuntu-L fsp-16 p-3   ">Los principales avances en el
+                                            <div className="d-flex text-center f-Ubuntu-L fsp-16 p-3   ">Los principales avances en el
                                                 respeto del derecho seleccionado y
                                                 los mayores desafíos que enfrenta.
                                             </div>
                                         </div>
-                                        <div className=" position-absolute top-0 start-50 translate-middle wp-30 hp-30  border-style-solid border-1 border-color-dark bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M "><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-25 min-hp-25" />
+                                        <div className=" position-absolute top-0 start-50 translate-middle bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M "><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
 
                                         </div>
 
@@ -111,12 +106,12 @@ function Page032(props) {
                                         <div className="w-100  p-1 ">
 
 
-                                            <div className="d-flex text-start f-Ubuntu-L fsp-16 p-3   ">Las consecuencias que
+                                            <div className="d-flex text-center f-Ubuntu-L fsp-16 p-3   ">Las consecuencias que
                                                 tienen para la población los
                                                 desafíos identificados.
                                             </div>
                                         </div>
-                                        <div className=" position-absolute top-0 start-50 translate-middle wp-30 hp-30  border-style-solid border-1 border-color-dark bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M "><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-25 min-hp-25" />
+                                        <div className=" position-absolute top-0 start-50 translate-middle bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M "><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
 
                                         </div>
 
@@ -132,11 +127,11 @@ function Page032(props) {
                                         <div className="w-100  p-1 ">
 
 
-                                            <div className="d-flex text-start f-Ubuntu-L fsp-16 p-3   ">Las causas de los principales
+                                            <div className="d-flex text-center f-Ubuntu-L fsp-16 p-3   ">Las causas de los principales
                                                 desafíos identificados.
                                             </div>
                                         </div>
-                                        <div className=" position-absolute top-0 start-50 translate-middle wp-30 hp-30  border-style-solid border-1 border-color-dark bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M "><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-25 min-hp-25" />
+                                        <div className=" position-absolute top-0 start-50 translate-middle bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M "><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
 
                                         </div>
 
@@ -152,12 +147,12 @@ function Page032(props) {
                                         <div className="w-100  p-1 ">
 
 
-                                            <div className="d-flex text-start f-Ubuntu-L fsp-16 p-3   ">Los beneficios que los avances
+                                            <div className="d-flex text-center f-Ubuntu-L fsp-16 p-3   ">Los beneficios que los avances
                                                 identificados provocan en la
                                                 vida de las personas.
                                             </div>
                                         </div>
-                                        <div className=" position-absolute top-0 start-50 translate-middle wp-30 hp-30  border-style-solid border-1 border-color-dark bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M "><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-25 min-hp-25" />
+                                        <div className=" position-absolute top-0 start-50 translate-middle bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M "><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
 
                                         </div>
 
@@ -173,12 +168,12 @@ function Page032(props) {
                                         <div className="w-100  p-1 ">
 
 
-                                            <div className="d-flex text-start f-Ubuntu-L fsp-16 p-3   ">Las medidas o políticas
+                                            <div className="d-flex text-center f-Ubuntu-L fsp-16 p-3   ">Las medidas o políticas
                                                 que explican los principales
                                                 avances identificados.
                                             </div>
                                         </div>
-                                        <div className="  position-absolute top-0 start-50 translate-middle wp-30 hp-30  border-style-solid border-1 border-color-dark bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M "><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-25 min-hp-25" />
+                                        <div className=" position-absolute top-0 start-50 translate-middle bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M "><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
 
                                         </div>
 
@@ -194,12 +189,12 @@ function Page032(props) {
                                         <div className="w-100  p-1 ">
 
 
-                                            <div className="d-flex text-start f-Ubuntu-L fsp-16 p-3   ">Las desigualdades entre diferentes
+                                            <div className="d-flex text-center f-Ubuntu-L fsp-16 p-3   ">Las desigualdades entre diferentes
                                                 regiones del mundo respecto de los
                                                 avances y los desaf os identificados.
                                             </div>
                                         </div>
-                                        <div className="  position-absolute top-0 start-50 translate-middle wp-30 hp-30  border-style-solid border-1 border-color-dark bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M "><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-25 min-hp-25" />
+                                        <div className=" position-absolute top-0 start-50 translate-middle bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M "><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
 
                                         </div>
 
@@ -215,12 +210,12 @@ function Page032(props) {
                                         <div className="w-100  p-1 ">
 
 
-                                            <div className="d-flex text-start f-Ubuntu-L fsp-16 p-3   ">Las acciones que personas y
+                                            <div className="d-flex text-center f-Ubuntu-L fsp-16 p-3   ">Las acciones que personas y
                                                 organizaciones realizan para
                                                 enfrentar los desaf os identificados.
                                             </div>
                                         </div>
-                                        <div className="  position-absolute top-0 start-50 translate-middle wp-30 hp-30  border-style-solid border-1 border-color-dark bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M "><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-25 min-hp-25" />
+                                        <div className=" position-absolute top-0 start-50 translate-middle bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M "><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
 
                                         </div>
 
@@ -236,16 +231,13 @@ function Page032(props) {
                                         <div className="w-100  p-1 ">
                                             <div className=" ptp-20 psp-20 pep-10 ">
                                                 <div className="f-Ubuntu-L fep-20 mtp-5">Otro:</div>
-                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-25" />
+                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
                                             </div>
-                                            <div className=" psp-20 pep-10">
-
-                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-25" />
-                                            </div>
+                                            
                                         </div>
-                                        <div className=" position-absolute top-0 start-50 translate-middle wp-30 hp-30  border-style-solid border-1 border-color-dark bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M "><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-25 min-hp-25" />
+                                        <div className=" position-absolute top-0 start-50 translate-middle bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M "><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
 
-                                        </div>
+</div>
 
                                     </div>
                                 </div>
