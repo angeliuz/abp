@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { useState } from "react";
 import "./App.css";
 import "./assets/css/colors.css";
 import "./assets/css/helpers.css";
@@ -67,15 +68,15 @@ function App() {
   console.log(dokenArray[2]);
 
   function pad(num, size) {
-    var s = num+"";
+    var s = num + "";
     while (s.length < size) s = "0" + s;
     return s;
   }
   // clear zeros before
   function clearZeros(num) {
-      num = num.toString();
-      num = num.replace(/^0+/, '');
-      return num;
+    num = num.toString();
+    num = num.replace(/^0+/, '');
+    return num;
   }
 
 
@@ -86,15 +87,17 @@ function App() {
     var results = regex.exec(window.location.search);
     return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
   };
-  
-  function goToPage(){    
-    document.getElementById('page_'+pad(dokenArray[2], 3)).scrollIntoView();
+
+  function goToPage() {
+    document.getElementById('page_' + pad(dokenArray[2], 3)).scrollIntoView();
   }
-  
+
+
+
   useEffect(() => {
     goToPage();
   });
-  
+
 
   return (
     <div className="App">
@@ -154,7 +157,8 @@ function App() {
       <Page058 numeroPagina={clearZeros} />
       <Page059 numeroPagina={clearZeros} />
       <Page060 numeroPagina={clearZeros} />
-    </div>
+
+    </div >
   );
 }
 
