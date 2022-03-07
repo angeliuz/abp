@@ -56,23 +56,29 @@ function Page044(props) {
           </div>
 
           <div className="ptp-10 psp-100 pep-60 mbp-0">
-            <div className="row mbp-10 position-relative">
-              <div className="position-absolute top-0 start-100 translate-middle visible-768"><img src="images/page_044/tablet.png" className="wp-90 mep-40 mtp--20" alt="" /></div>
+            <div className=" mbp-10 position-relative max-wp-700">
+              <div className="position-absolute top-0 start-100 translate-middle visible-768"><img src="images/page_044/tablet.png" className="wp-90 mep-40 mtp--60" alt="" /></div>
               <div className="d-flex border-style-solid border-color-ken border-3 p-0 m-0">
                 <div className="w-30 bgc-kai p-3 border-right-style-solid border-color-ken border-3 d-flex align-items-center f-Ubuntu-L fsp-14 text-start">A partir de las entrevistas y las fichas, nuestros entrevistados se parecen en…</div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150 mep-10 msp-10 contenedor-linea" />
+                <div className="w-70">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150 mep-10 msp-10 contenedor-linea" />
+                </div>
               </div>
             </div>
-            <div className="row mbp-10 position-relative">
+            <div className="mbp-10 position-relative max-wp-700">
               <div className="d-flex border-style-solid border-color-android18 border-3 p-0 m-0">
                 <div className="w-30 bgc-azuka p-3 border-right-style-solid border-color-android18 border-3 d-flex align-items-center f-Ubuntu-L fsp-14 text-start">Nuestros entrevistados tienen diferencias en…</div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150 mep-10 msp-10 contenedor-linea" />
+                <div className="w-70">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150 mep-10 msp-10 contenedor-linea" />
+                </div>
               </div>
             </div>
-            <div className="row mbp-10 position-relative">
+            <div className="mbp-10 position-relative max-wp-700">
               <div className="d-flex border-style-solid border-color-goten border-3 p-0 m-0">
                 <div className="w-30 bgc-genos p-3 border-right-style-solid border-color-goten border-3 d-flex align-items-center f-Ubuntu-L fsp-14 text-start">Para ellos, es importante la buena convivencia porque…</div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150 mep-10 msp-10 contenedor-linea" />
+                <div className="w-70">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150 mep-10 msp-10 contenedor-linea" />
+                </div>
               </div>
             </div>
           </div>

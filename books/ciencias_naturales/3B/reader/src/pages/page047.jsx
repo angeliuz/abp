@@ -57,10 +57,10 @@ function Page047(props) {
                   <div className="d-flex flex-column wp-580 position-relative mtp-0 psp-45 pep-45 ptp-0 f-Ubuntu-L fsp-14">
                     <div className="zindex-2 text-start">Estimados estudiantes:</div>
                     <div className="zindex-2 text-start mtp-10">
-                      Al inicio de este proyecto, junto con sus equipos propusieron ideas de acciones para enseñar a su comunidad en la feria Héroes del medioambiente. Ha llegado el momento de que se organicen, reflexionen sobre estas ideas y propongan otras nuevas si es necesario. Luego, deberán elegir como equipo cuál de ellas van a desarrollar. <br />
+                      Al inicio de este proyecto, junto con sus equipos propusieron ideas de acciones para enseñar a su comunidad en la feria < i>Héroes del medioambiente</i>. Ha llegado el momento de que se organicen, reflexionen sobre estas ideas y propongan otras nuevas si es necesario. Luego, deberán elegir como equipo cuál de ellas van a desarrollar. <br />
                     </div>
                     <div className="zindex-2 text-start mtp-10">
-                      Reúnanse con sus respectivos equipos y organicen lo necesario para crear un modelo que represente la acción de reciclaje o reutilización, una infografíaque explique en qué consiste y decoraciones para el stand. Luego, piensen en todos los materiales que necesitan para desarrollar esas ideas.<br />
+                      Reúnanse con sus respectivos equipos y organicen lo necesario para crear un <b >modelo</b> que represente la acción de reciclaje o reutilización, una < b>infografía</ b> que explique en qué consiste y < b>decoraciones</ b> para el < i>stand</i>. Luego, piensen en todos los materiales que necesitan para desarrollar esas ideas.<br />
                     </div>
                     <div className="zindex-2 text-start mtp-10">
                       Ya están muy cerca de lograr el desafío. ¡Ánimo!<br />

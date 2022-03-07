@@ -43,12 +43,7 @@ function Page025(props) {
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                 Leo la revista y completo.
               </div>
-              <ModalBook
-                id={"p" + pagina + "_book" + (indexInput += 1)}
-                image="images/page_025/img_005.svg"
-                clasesImagen="hp-40 text-center mtp-15 msp-10"
-                className="p-0 px-0"
-              />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"67"} image={"images/page_" + pagina + "/img_005.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
             <div className="hp-120 p-2 border-style-solid border-1 border-color-dark rounded-p-10">
               <div className="f-pixilate-regular fsp-18">Situación</div>
@@ -65,9 +60,9 @@ function Page025(props) {
                       Personaje 1
                     </div>
                     <InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 contenedor-linea text-start  lhp-25 min-hp-40"
-                  />
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 flex-grow-1 contenedor-linea text-start  lhp-25 min-hp-40"
+                    />
                   </div>
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -82,9 +77,9 @@ function Page025(props) {
                       Personaje 2
                     </div>
                     <InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 contenedor-linea text-start lhp-25 min-hp-40"
-                  />
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 flex-grow-1 contenedor-linea text-start lhp-25 min-hp-40"
+                    />
                   </div>
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -101,9 +96,9 @@ function Page025(props) {
                       Personaje 3
                     </div>
                     <InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 contenedor-linea text-start lhp-25 min-hp-40"
-                  />
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 flex-grow-1 contenedor-linea text-start lhp-25 min-hp-40"
+                    />
                   </div>
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -118,9 +113,9 @@ function Page025(props) {
                       Personaje 4
                     </div>
                     <InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 contenedor-linea text-start lhp-25 min-hp-40"
-                  />
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 flex-grow-1 contenedor-linea text-start lhp-25 min-hp-40"
+                    />
                   </div>
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -130,12 +125,12 @@ function Page025(props) {
               </div>
             </div>
             <div className="bgc-hansolo p-3 text-left hp-240 position-relative">
-                <div className="f-Ubuntu-L"> Nosotros opinamos que en este caso...</div>
-                <InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 flex-grow-1 contenedor-linea text-start lhp-25 min-hp-180"
-                  />
-                  <img src="images/page_025/img_004.png" className="position-absolute start-0 top-0 translate-middle mtp-35 msp--5" alt="" />
+              <div className="f-Ubuntu-L"> Nosotros opinamos que en este caso...</div>
+              <InputBox
+                id={"p" + pagina + "_input" + (indexInput += 1)}
+                className="p-0 px-1 flex-grow-1 contenedor-linea text-start lhp-25 min-hp-180"
+              />
+              <img src="images/page_025/img_004.png" className="position-absolute start-0 top-0 translate-middle mtp-35 msp--5" alt="" />
             </div>
           </div>
 

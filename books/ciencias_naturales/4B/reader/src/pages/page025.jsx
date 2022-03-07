@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
+import ModalBook from "../components/ModalBook";
 
 import "./page_025.css";
 
@@ -44,14 +45,14 @@ function Page025(props) {
                 Leo la revista y me anticipo a una situación de emergencia.
               </div>
               {
-                <ModalVideo
-                  id={"p" + pagina + "_video" + (indexInput += 1)}
-                  image="images/page_025/img_001.svg"
-                  clasesImagen="hp-40 text-center mtp-10 "
-                  className="p-0 px-1"
-                />
+                // <ModalVideo
+                //   id={"p" + pagina + "_video" + (indexInput += 1)}
+                //   image="images/page_025/img_001.svg"
+                //   clasesImagen="hp-40 text-center mtp-10 "
+                //   className="p-0 px-1"
+                // />
               }
-              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_031/img_002.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"79"} image="images/page_025/img_001.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
 
@@ -83,7 +84,7 @@ function Page025(props) {
                   <div className="p-2 w-100 d-flex">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-180"
                     />
                   </div>
                 </div>
@@ -107,7 +108,7 @@ function Page025(props) {
                   <div className="p-2 w-100 d-flex">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-180"
                     />
                   </div>
                 </div>
@@ -130,7 +131,7 @@ function Page025(props) {
                   <div className="p-2 w-100 d-flex">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-180"
                     />
                   </div>
                 </div>
@@ -147,7 +148,7 @@ function Page025(props) {
                   <div className="p-2 w-100 d-flex">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-180"
                     />
                   </div>
                 </div>
@@ -164,7 +165,7 @@ function Page025(props) {
                   <div className="p-2 w-100 d-flex">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-180"
                     />
                   </div>
                 </div>
@@ -174,7 +175,7 @@ function Page025(props) {
                   <div className="p-2 w-100 d-flex">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-180"
                     />
                   </div>
                 </div>
@@ -192,7 +193,7 @@ function Page025(props) {
                   <div className="p-2 w-100 d-flex">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-180"
                     />
                   </div>
                 </div>
@@ -209,7 +210,7 @@ function Page025(props) {
                   <div className="p-2 w-100 d-flex">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-180"
                     />
                   </div>
                 </div>
@@ -219,7 +220,7 @@ function Page025(props) {
                   <div className="p-2 w-100 d-flex">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-180"
                     />
                   </div>
                 </div>

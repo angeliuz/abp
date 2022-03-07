@@ -15,7 +15,7 @@ function Page008(props) {
                     <div className="cabecera-v1 hp-80 bgc-goten">
 
                     </div>
-                    <div className="cb-bgc-p08 ptp-5 pbp-5 mtp-10 mbp-70">
+                    <div className="cb-bgc-p08 ptp-5 pbp-5 mtp-10 mbp-70 position-relative">
                         <div className="d-flex cb-seccion-inicial-p07 justify-content-center msp-5 mbp-20 mtp-30 justify-content-between">
                             <div className="cb-seccion-inicial-col-a bgc-white cb-seccion-linea-p07 p-3 pb-3 f-Ubuntu-L fsp-13 mbp-5 position-relative msp-5">
                                 <img src="images/page_008/img_001.svg" className="cb-union-1" alt=""></img>
@@ -82,7 +82,7 @@ function Page008(props) {
 
                             </div>
                         </div>
-
+                        <div className="position-absolute top-100 start-0 translate-middle msp-30 mtp--60 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-90" alt="" /></div>
                     </div>
                     {/* BEGIN PIE DE PAGINA */}
                     <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>

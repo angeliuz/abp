@@ -1,15 +1,16 @@
 .bgc-investigacion {
-  background: url(images/page_023/bgc_investigacion.svg) #afca0b top left/ cover no-repeat !important;
+   background: url(images/page_023/bgc_investigacion.svg) #afca0b top left/ cover no-repeat !important;
    -webkit-print-color-adjust: exact !important;
 
 }
-.t-shadow-21{
+
+.t-shadow-21 {
    text-shadow: -7px -8px #529f3a;
 }
 
 @media all and (max-width: 500px) {
 
    .ft-m {
-       font-size: 50px;
-    }
+      font-size: 50px;
+   }
 }

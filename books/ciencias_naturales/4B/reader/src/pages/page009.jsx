@@ -1,5 +1,6 @@
 import React from "react";
 import InputBox from "../components/InputBox";
+import Check from "../components/Check";
 
 import "./page_009.css";
 
@@ -45,32 +46,32 @@ function Page009(props) {
           <div className="cb-ejercicio-2-p07 ptp-20 psp-25 pbp-15 pep-10 position-relative mbp-10 mtp-10">
             <img src="images/page_009/img_004.png" className="cb-lapiz-09" alt=""></img>
             <div className="d-flex mbp-10">
-              <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+              <div className="wp-30 hp-30">
+                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
               </div>
               <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12"> Ayudar cuando alguien lo necesite.</div>
             </div>
             <div className="d-flex mbp-10">
-              <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+              <div className="wp-30 hp-30">
+                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
               </div>
               <div className="msp-10 justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Pedir ayuda cuando la necesito.</div>
             </div>
             <div className="d-flex mbp-10">
-              <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+              <div className="wp-30 hp-30">
+                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
               </div>
               <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Compartir mi opinión y ser escuchado</div>
             </div>
             <div className="d-flex mbp-10">
-              <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+              <div className="wp-30 hp-30">
+                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
               </div>
               <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Aprender de los demás.</div>
             </div>
             <div className="d-flex mbp-10">
-              <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+              <div className="wp-30 hp-30">
+                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
               </div>
               <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Querer dar siempre lo mejor de mí.</div>
             </div>

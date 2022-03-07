@@ -30,7 +30,7 @@ function Page010(props) {
                             <div className="cb-nombre juttify-contente-center align-items-center d-flex bgc-marcianos psp-40 pep-40 ptp-40 pbp-40 f-Ubuntu-L fsp-15 ">Nombre</div>
                             <div className="cb-nombre-blanco w-100">
                                 <div className="psp-15 psp-5">
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-center flex-grow-1 lhp-35 min-hp-100 fsp-24" />
+                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-center flex-grow-1 lhp-35 min-hp-100 mxw-70 fsp-24" />
                                 </div>
                             </div>
                         </div>
@@ -38,7 +38,7 @@ function Page010(props) {
                             <div className="cb-mision juttify-contente-center align-items-center d-flex bgc-shogun psp-45 pep-45 ptp-40 pbp-40 f-Ubuntu-L fsp-15">Misión</div>
                             <div className="cb-mision-blanco w-100">
                                 <div className="psp-15 psp-5">
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-center flex-grow-1 lhp-35 min-hp-100 fsp-18" />
+                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-center flex-grow-1 lhp-35 min-hp-100 mxw-70 fsp-18" />
                                 </div>
                             </div>
                         </div>
