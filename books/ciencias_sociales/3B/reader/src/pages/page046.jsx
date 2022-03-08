@@ -67,7 +67,9 @@ function Page046(props) {
                                     </div>
                                     <div className="col-7 d-flex justify-content-center hp-250  ">
                                         <div className="position-relative  ">
-                                        <div className="text-start position-absolute mtp-10 msp-10 w-100 pep-30" contenteditable="true"></div>
+                                        <div className="text-start position-absolute mtp-10 msp-10 w-100 pep-30" >
+                                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" /> 
+                                        </div>
                                             <img className="hp-220 align-center w-100 " src="images/page_046/img_004.png" alt="" />
                                             <img className="hp-50 align-center position-absolute top-0 end-0 mtp--5 mep-10 " src="images/page_046/img_003.svg" alt="" />                                           
                                         </div>
