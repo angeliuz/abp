@@ -48,7 +48,7 @@ function Page027(props) {
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Elaborar un mapa mental para  <br /> completar una ficha de <br />saludable de una poco saludable
+                Elaborar un mapa mental para  <br /> diferenciar una alimentación <br />saludable de una poco saludable
               </div>
             </div>
           </div>
@@ -92,7 +92,7 @@ function Page027(props) {
                       <div className="bgc-white w-100 f-Ubuntu-B text-center color-rukia fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5">
                         ¿Qué veo?
                       </div>
-                      <div className="psp-10 pep-10">
+                      <div className="psp-10 pep-10 f-Ubuntu-L">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-360" />
                       </div>
                     </div>
@@ -108,7 +108,7 @@ function Page027(props) {
                       <div className="bgc-white w-100 f-Ubuntu-B text-center color-rukia fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5">
                         ¿Qué me hace pensar?
                       </div>
-                      <div className="psp-10 pep-10">
+                      <div className="psp-10 pep-10 f-Ubuntu-L">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-360" />
                       </div>
                     </div>
@@ -124,7 +124,7 @@ function Page027(props) {
                       <div className="bgc-white w-100 f-Ubuntu-B text-center color-rukia fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5">
                         ¿Qué me pregunto?
                       </div>
-                      <div className="psp-10 pep-10">
+                      <div className="psp-10 pep-10 f-Ubuntu-L">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-360" />
                       </div>
                     </div>
