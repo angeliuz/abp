@@ -78,7 +78,7 @@ function Page024(props) {
                 <div className="position-absolute top-0 start-100 translate-middle msp--60 mtp-20">
                   <img src="images/page_024/img_001.png" className=" " alt="" />
                 </div>
-                <div class="  w-90  p-3 text-left   box-shadow-simple border-1 mep-20 msp-20 mtp-10 bgc-white">
+                <div className="  w-90  p-3 text-left   box-shadow-simple border-1 mep-20 msp-20 mtp-10 bgc-white">
                   <div className="pt-0 flex-grow-1">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
