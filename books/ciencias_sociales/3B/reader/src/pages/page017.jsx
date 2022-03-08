@@ -18,33 +18,6 @@ function Page017(props) {
   const borderColorTabla = "border-color-draco"
   const bgc_cajas = "bgc-draco";
 
-  const [visible, setVisible] = useState(false);
-  const [recortable, setRecortable] = useState("");
-
-  function handleRecortable(e) {
-    // setFullscreen(breakpoint);
-    e.preventDefault();
-    setRecortable(e.target.id);
-    
-    // if (visible) {
-    //   setRecortable(false);
-    // } else {
-    //   setRecortable(true);
-    // }
-    console.log("recortable: " + recortable);
-    console.log("recortable: " + e.target.id);
-  }
-
-  function handleVisible(e) {
-    // setFullscreen(breakpoint);
-    if (visible) {
-      setVisible(false);
-    } else {
-      setVisible(true);
-    }
-    console.log("visible: " + visible);
-  }
-
 
 
   return (
@@ -76,10 +49,6 @@ function Page017(props) {
           </div>
           {/* END CAJA PRINCIPAL DOSIER */}
 
-
-          
-
-
           <div className="position-relative w-100">
             <div className="row psp-80 pep-70 ptp-10 pbp-50 ">
 
@@ -98,94 +67,45 @@ function Page017(props) {
                       Organizamos los pasos de nuestro proyecto.
                     </div>
                     <div className="d-flex">
-                    <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"79"} image={"images/page_" + pagina + "/img_004.png"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+                      <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"79"} image={"images/page_" + pagina + "/img_004.png"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
                     </div>
                   </div>
                 </div>
                 <div className="row">
                   <div className="col-md-6 col-12 pbp-20 position-relative">
-
-                    <div className="bgc-white mxwp-300 hp-200 centrar border-caja position-relative" data-bs-toggle="modal" data-bs-target={"#p" + pagina + "_cutouts"} id={"recortable_"+indexInput} onClick={handleRecortable}>
-                      <img
-                        src="images/page_017/img_007.png"
-                        className="position-absolute top-50 start-50 translate-middle"
-                        alt=""
-                      />
-                      {/* <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 flex-grow-1 lhp-35 min-hp-180"
-                      /> */}
+                    <div className="bgc-white mxwp-300 centrar border-caja position-relative">
+                      <ModalRecortable id={"p" + pagina + "_cutouts_" + (indexInput += 1)} pagina={pagina} image={"images/page_" + pagina + "/img_007.png"} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
                     </div>
                   </div>
                   <div className="col-md-6 col-12 pbp-20 position-relative">
-                  <div className="position-absolute top-0 start-100 translate-middle msp--10 mtp--25 visible-768"><img src={"images/page_"+pagina+"/img_000.png"} className="wp-100" alt="" /></div> 
-                    <div className="bgc-white mxwp-300 hp-200 centrar border-caja position-relative">
-                      <img
-                        src="images/page_017/img_008.png"
-                        className="position-absolute top-50 start-50 translate-middle"
-                        alt=""
-                      />
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 flex-grow-1 lhp-35 min-hp-180"
-                      />
-                      <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_.png"} className="wp-60" alt="" /></div>
+                    <div className="position-absolute top-0 start-100 translate-middle msp--10 mtp--25 visible-768"><img src={"images/page_" + pagina + "/img_000.png"} className="wp-100" alt="" /></div>
+                    <div className="bgc-white mxwp-300 centrar border-caja position-relative">
+                      <ModalRecortable id={"p" + pagina + "_cutouts_" + (indexInput += 1)} pagina={pagina} image={"images/page_" + pagina + "/img_008.png"} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
+                    </div>
+                    <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_.png"} className="wp-60" alt="" /></div>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-md-6 col-12 pbp-20">
+                    <div className="bgc-white mxwp-300 centrar border-caja position-relative">
+                      <ModalRecortable id={"p" + pagina + "_cutouts_" + (indexInput += 1)} pagina={pagina} image={"images/page_" + pagina + "/img_009.png"} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
+                    </div>
+                  </div>
+                  <div className="col-md-6 col-12 pbp-20">
+                    <div className="bgc-white mxwp-300 centrar border-caja position-relative">
+                      <ModalRecortable id={"p" + pagina + "_cutouts_" + (indexInput += 1)} pagina={pagina} image={"images/page_" + pagina + "/img_010.png"} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
                     </div>
                   </div>
                 </div>
                 <div className="row">
                   <div className="col-md-6 col-12 pbp-20">
-                    <div className="bgc-white mxwp-300 hp-200 centrar border-caja position-relative">
-                      <img
-                        src="images/page_017/img_009.png"
-                        className="position-absolute top-50 start-50 translate-middle"
-                        alt=""
-                      />
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 flex-grow-1 lhp-35 min-hp-180"
-                      />
+                    <div className="bgc-white mxwp-300 centrar border-caja position-relative">
+                      <ModalRecortable id={"p" + pagina + "_cutouts_" + (indexInput += 1)} pagina={pagina} image={"images/page_" + pagina + "/img_011.png"} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
                     </div>
                   </div>
                   <div className="col-md-6 col-12 pbp-20">
-                    <div className="bgc-white mxwp-300 hp-200 centrar border-caja position-relative">
-                      <img
-                        src="images/page_017/img_010.png"
-                        className="position-absolute top-50 start-50 translate-middle"
-                        alt=""
-                      />
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 flex-grow-1 lhp-35 min-hp-180"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-md-6 col-12 pbp-20">
-                    <div className="bgc-white mxwp-300 hp-200 centrar border-caja position-relative">
-                      <img
-                        src="images/page_017/img_011.png"
-                        className="position-absolute top-50 start-50 translate-middle"
-                        alt=""
-                      />
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 flex-grow-1 lhp-35 min-hp-180"
-                      />
-                    </div>
-                  </div>
-                  <div className="col-md-6 col-12 pbp-20">
-                    <div className="bgc-white mxwp-300 hp-200 centrar border-caja position-relative">
-                      <img
-                        src="images/page_017/img_012.png"
-                        className="position-absolute top-50 start-50 translate-middle"
-                        alt=""
-                      />
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 flex-grow-1 lhp-35 min-hp-180"
-                      />
+                    <div className="bgc-white mxwp-300 centrar border-caja position-relative">
+                      <ModalRecortable id={"p" + pagina + "_cutouts_" + (indexInput += 1)} pagina={pagina} image={"images/page_" + pagina + "/img_012.png"} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
                     </div>
                   </div>
                 </div>
@@ -225,7 +145,7 @@ function Page017(props) {
       </div>
 
 
-      <ModalRecortable id={"p" + pagina + "_cutouts"} pagina={pagina} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
+
 
 
 

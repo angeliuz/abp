@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import InputBox from "../components/InputBox";
 import ModalRecortable from "../components/ModalRecortable";
 
@@ -14,9 +15,10 @@ function Page016(props) {
   const borderColorTabla = "border-color-buzz";
   const bgc_cajas = "bgc-goku";
 
+
   return (
     <div className="wrapper bgc-light">
-      <ModalRecortable id={"p" + pagina + "_cutouts"} pagina={pagina} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
+      
       <div className="d-flex flex-column align-items-center pbp-20">
         <div
           className="page bgc-white overflow-hidden position-relative"
