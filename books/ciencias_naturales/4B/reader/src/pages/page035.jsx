@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 
 import "./page_035.css";
 
@@ -93,11 +94,8 @@ function Page035(props) {
               <div className="col-md-6 col-12">
                 <div className="ptp-10 pbp-10 psp-20">
                   <div className="d-flex">
-                    <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                      />
+                    <div className="wp-30 hp-30">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                       ¿Está al tanto del plan de seguridad del colegio?
@@ -106,11 +104,8 @@ function Page035(props) {
                 </div>
                 <div className="ptp-10 pbp-10 psp-20">
                   <div className="d-flex">
-                    <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                      />
+                    <div className="wp-30 hp-30">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                       ¿Conoce las vías de evacuación en el colegio?
@@ -119,11 +114,8 @@ function Page035(props) {
                 </div>
                 <div className="ptp-10 pbp-10 psp-20">
                   <div className="d-flex">
-                    <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                      />
+                    <div className="wp-30 hp-30">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                       ¿Sabe dónde se ubican las zonas de seguridad en el
@@ -133,11 +125,8 @@ function Page035(props) {
                 </div>
                 <div className="ptp-10 pbp-10 psp-20">
                   <div className="d-flex">
-                    <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                      />
+                    <div className="wp-30 hp-30">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                       ¿Sabe usar un extintor?
@@ -148,11 +137,8 @@ function Page035(props) {
               <div className="col-md-6 col-12">
                 <div className="ptp-10 pbp-10 psp-20">
                   <div className="d-flex">
-                    <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                      />
+                    <div className="wp-30 hp-30">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                       ¿Qué haría en caso de presenciar un accidente en el
@@ -162,11 +148,8 @@ function Page035(props) {
                 </div>
                 <div className="ptp-10 pbp-10 psp-20">
                   <div className="d-flex">
-                    <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                      />
+                    <div className="wp-30 hp-30">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                       ¿Quién cree que es el encargado de la seguridad en el
@@ -176,11 +159,8 @@ function Page035(props) {
                 </div>
                 <div className="ptp-10 pbp-10 psp-20">
                   <div className="d-flex">
-                    <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                      />
+                    <div className="wp-30 hp-30">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                       ¿A quién pediría ayuda en caso de una emergencia?

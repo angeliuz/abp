@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
+import Check from "../components/Check";
 import "./page_050.css";
 
 function Page050(props) {
@@ -35,8 +36,8 @@ function Page050(props) {
               <div className="bloque-respuesta w-100 psp-40 pep-40 ptp-10 pbp-10 bgc-yoru bgc-bang">
                 <div className="d-flex align-items-center pbp-10">
                   <div className="d-flex w-100 p-2">
-                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35 wp-30" />
+                    <div className="wp-30 hp-30">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Cada integrante conoce y domina el guion.</div>
                   </div>
@@ -44,8 +45,8 @@ function Page050(props) {
                 </div>
                 <div className="d-flex align-items-center pbp-10">
                   <div className="d-flex w-100 p-2">
-                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                    <div className="wp-30 hp-30">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Preparamos todos los materiales o insumos necesarios.</div>
                   </div>
@@ -53,16 +54,16 @@ function Page050(props) {
                 </div>
                 <div className="d-flex align-items-center pbp-10">
                   <div className="d-flex w-100 p-2">
-                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                    <div className="wp-30 hp-30">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Contamos con la vestimenta adecuada.</div>
                   </div>
                 </div>
                 <div className="d-flex align-items-center pbp-10">
                   <div className="d-flex w-100 p-2">
-                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                    <div className="wp-30 hp-30">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Disponemos de los recursos digitales que utilizaremos.</div>
                   </div>
@@ -70,8 +71,8 @@ function Page050(props) {
                 </div>
                 <div className="d-flex align-items-center">
                   <div className="d-flex w-100 p-2">
-                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                    <div className="wp-30 hp-30">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Si necesitamos apoyo extra, ya lo tenemos previsto.</div>
                   </div>
@@ -99,50 +100,50 @@ function Page050(props) {
                   <div className="f-Ubuntu-M fsp-15 lh-sm text-start psp-10 w-80">Emergencia</div>
                 </div>
                 <div className="d-flex align-items-center pbp-10">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-30 hp-30">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                   <div className="w-10 hp-2 bgc-goku"></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm text-start rounded-p-5 psp-10 pep-10 ptp-5 pbp-5 bgc-white w-80">Ocurre un sismo mientras estamos en la sala de clases.</div>
                 </div>
                 <div className="d-flex align-items-center pbp-10">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-30 hp-30">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                   <div className="w-10 hp-2 bgc-goku"></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm text-start rounded-p-5 psp-10 pep-10 ptp-5 pbp-5 bgc-white w-80">Un estudiante se cae al correr por las escaleras durante el recreo.</div>
                 </div>
                 <div className="d-flex align-items-center pbp-10">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-30 hp-30">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                   <div className="w-10 hp-2 bgc-goku"></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm text-start rounded-p-5 psp-10 pep-10 ptp-5 pbp-5 bgc-white w-80">Se rompe un material de vidrio durante un experimento científico.</div>
                 </div>
                 <div className="d-flex align-items-center pbp-10">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-30 hp-30">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                   <div className="w-10 hp-2 bgc-goku"></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm text-start rounded-p-5 psp-10 pep-10 ptp-5 pbp-5 bgc-white w-80">Hay una amago de incendio en la sala de profesores.</div>
                 </div>
                 <div className="d-flex align-items-center pbp-10">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-30 hp-30">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                   <div className="w-10 hp-2 bgc-goku"></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm text-start rounded-p-5 psp-10 pep-10 ptp-5 pbp-5 bgc-white w-80">Se siente olor a gas en el casino del colegio.</div>
                 </div>
                 <div className="d-flex align-items-center pbp-10">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-30 hp-30">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                   <div className="w-10 hp-2 bgc-goku"></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm text-start rounded-p-5 psp-10 pep-10 ptp-5 pbp-5 bgc-white w-80">Un estudiante se siente enfermo durante la clase.</div>
                 </div>
                 <div className="d-flex align-items-center">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-30 hp-30">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                   <div className="w-10 hp-2 bgc-goku"></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm text-start rounded-p-5 psp-10 pep-10 ptp-5 pbp-5 bgc-white w-80">Se derrama agua caliente en una actividad extraprogramática.</div>
