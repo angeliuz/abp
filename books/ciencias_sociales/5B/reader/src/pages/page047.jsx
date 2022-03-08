@@ -137,7 +137,7 @@ function Page047(props) {
 
           </div>
 
-          <div className="ptp-10 psp-50 pep-50 mbp-20">
+          <div className="ptp-10 psp-50 pep-50 mbp-60">
             <div className="d-flex">
               <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_047/g.svg" alt="" />
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">2</div>
