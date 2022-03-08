@@ -1,6 +1,6 @@
 import React from "react";
 import InputBox from "../components/InputBox";
-import ModalBook from "../components/ModalBook";
+import ModalRecortable from "../components/ModalRecortable";
 
 import "./page_016.css";
 
@@ -16,6 +16,7 @@ function Page016(props) {
 
   return (
     <div className="wrapper bgc-light">
+      <ModalRecortable id={"p" + pagina + "_cutouts"} pagina={pagina} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
       <div className="d-flex flex-column align-items-center pbp-20">
         <div
           className="page bgc-white overflow-hidden position-relative"
