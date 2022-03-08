@@ -6,7 +6,7 @@ function Page040(props) {
   var indexInput = 0;
   const etapa = "4"
   const background = "bgc-pidgey";
-  const bgc_cajas = "bgc-sid";
+  const bgc_cajas = "bgc-azuka";
 
   return (
 
