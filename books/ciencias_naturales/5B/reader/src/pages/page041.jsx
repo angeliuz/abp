@@ -3,6 +3,7 @@ import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
 import ModalBook from "../components/ModalBook";
 import "./page_041.css";
+import Check from "../components/Check";
 
 function Page041(props) {
 
