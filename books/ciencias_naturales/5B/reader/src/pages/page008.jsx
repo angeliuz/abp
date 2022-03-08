@@ -50,11 +50,11 @@ function Page008(props) {
                     <div className="d-flex w-100  ptp-5 pbp-5 m-0 text-center f-Ubuntu-B center-center">Acuerdo</div>
                     <div className="d-flex psp-10 pep-10 mbp-10">
                       <div className=" d-flex align-items-center">En</div>
-                      <div className=" w-100"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" /></div>
+                      <div className="w-100 "><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-190 msp-5 p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" /></div>
                       <div className=" d-flex align-items-center">,a</div>
-                      <div className=" w-100"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" /></div>
+                      <div className=" w-100"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-190 msp-5 p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" /></div>
                       <div className=" d-flex align-items-center">de</div>
-                      <div className=" w-100"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" /></div>
+                      <div className=" w-100"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-190 msp-5 p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" /></div>
                     </div>
                     <div className="d-flex w-100  psp-10 ptp-5 pbp-5 m-0 text-center align-items-center">Manifiesto que yo me comprometo a  </div>
                     <div className="d-flex psp-10 pep-10">
@@ -90,10 +90,10 @@ function Page008(props) {
                         <div className="mtp-0 pep-5">
                           <img src={"images/generales/flecha_e" + etapa + ".svg"} className="wp-15" />
                         </div>
-                        <div className="f-Ubuntu-L fsp-15 ptp-2 text-start">    ¿Qué comprendí del desafío?</div>
+                        <div className="f-Ubuntu-L fsp-15 ptp-2 text-start"> ¿Qué comprendí del desafío?</div>
                       </div>
                       <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-650 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                       </div>
                     </div>
                   </div>
