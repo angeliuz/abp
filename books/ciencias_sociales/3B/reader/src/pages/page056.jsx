@@ -105,7 +105,7 @@ function Page056(props) {
                         <div className="pep-10 psp-10">
                             <img src="images/page_056/img_001.png" className="cb-objeto-p56" alt="" />
                             <div className="text-start ptp-10 pbp-10 f-pixilate-regular fsp-15">Lo que nos falta...</div>
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-150" />
+                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-150" />
                         </div>
                         </div>
                         <div className="cb-ejercicioinicial-cajas cb-rotate-02 position-relative">
@@ -113,15 +113,15 @@ function Page056(props) {
                             <img src="images/page_056/img_001.png" className="cb-objeto-p56" alt="" />
                             <img src="images/page_056/img_003.png" className="cb-mujer-p56" alt=""/>
                             <div className="text-start ptp-10 pbp-10 f-pixilate-regular fsp-15">Necesitamos ayuda de...</div>
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-150" />
+                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-150" />
                         </div>
                     </div>
                         </div>
                         </div>
                     </div>
-                    <div className="cb-ejerciciofinal-caja-p56">
+                    <div className="cb-ejerciciofinal-caja-p56 mbp-80">
                         <div className="pep-10 psp-10 pbp-5">
-                            <div className="text-start ptp-10 pbp-10 f-Ubuntu-L fsp-12">Recibiremos a los invitados con el siguiente saludo:</div>
+                            <div className="text-start ptp-10 pbp-10 f-Ubuntu-L fsp-15">Recibiremos a los invitados con el siguiente saludo:</div>
                             <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" /> 
                         </div>
                         </div>
