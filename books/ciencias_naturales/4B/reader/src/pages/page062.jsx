@@ -23,7 +23,7 @@ function Page062(props) {
 
 
           <div className="ptp-10 psp-60 pep-60 mbp-0 pep-220 msp--20">
-            <div className="f-Ubuntu-B fsp-20 color-saitama text-start lhp-20 ">Preparando el stand de presentaciones</div>
+            <div className="f-Ubuntu-B fsp-20 color-saitama text-start lhp-20 ">Preparando el <i >stand</i> de presentaciones</div>
             <div className="d-flex">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_062/img_004.svg" alt="" /> */}
               <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">1</div>
@@ -60,11 +60,11 @@ function Page062(props) {
                 </div>
                 <div className="p-1 d-flex align-items-center   w-100">
                   <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama mbp-20"></div>
-                  <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm text-start">Educar a la comunidad educativa para actuar responsablementeante situaciones <br ></br> de emergencia.</div>
+                  <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm text-start">Educar a la comunidad educativa para actuar responsablementeante situaciones de emergencia.</div>
                 </div>
                 <div className="p-1 d-flex align-items-center   w-100">
                   <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama mbp-20"></div>
-                  <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm text-start">Solicitar la colaboración de la comunidad educativa para poner en marcha <br ></br>las brigadas.</div>
+                  <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm text-start">Solicitar la colaboración de la comunidad educativa para poner en marcha las brigadas.</div>
                 </div>
 
                 <div className="p-1 d-flex align-items-center mtp--10  w-100">
@@ -95,7 +95,7 @@ function Page062(props) {
 
 
 
-          <div className="row   container-row px-5 position-relative ">
+          <div className="row   container-row px-5 position-relative mbp-140">
             <div className=" position-absolute top-100 start-50 translate-middle "><img className="hp-100  mtp-60" src="images/page_062/img_006.png" alt="" /></div>
             <div className="col-sm-12 col-md-6   ">
               <div className="border-style-solid mtp-25 border-2 border-color-akuma rounded-p-10 hp-260 w-100 hp-190  ">
@@ -104,7 +104,7 @@ function Page062(props) {
                 <div className="mtp-10 msp-30 mep-30 w-85">    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-6  position relative mbp-100">
+            <div className="col-sm-12 col-md-6  position relative mbp-40">
               <div className="espirales-creacion-62   position-absolute"><img src="images/page_062/img_007.png" className="w-45   " alt="" /></div>
               <div className="border-style-solid mtp-25 border-2 border-color-arlo rounded-p-10 hp-260 w-100 hp-190  ">
                 <div className="d-flex align-items-center justify-content-center  rounded-set-10 bgc-arlo hp-45 pixilate-bold fsp-18 fw-700 color-white ">Justificación: </div>
@@ -123,38 +123,40 @@ function Page062(props) {
 
 
 
+          {/* PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
-            <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>ABP &copy; SM</div>
-            <div className="bgc-goku wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+            <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
+              ABP &copy; SM
+            </div>
+            <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
           </div>
-
           <div className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-1 col-md-2 p-0 m-0 position-relative">
               <img src="images/rotulo_motivacion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
               <div className="w-100 hp-25 bgc-goten"></div>
             </div>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-1 col-md-2 p-0 m-0 position-relative">
               <img src="images/rotulo_planificacion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
               <div className="w-100 hp-25 bgc-bulma"></div>
             </div>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-1 col-md-2 p-0 m-0 position-relative">
               <img src="images/rotulo_investigacion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
               <div className="w-100 hp-25 bgc-android18"></div>
             </div>
-            <div className="col-7 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-1 col-md-2 p-0 m-0 position-relative">
               <img src="images/rotulo_experimentacion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
               <div className="w-100 hp-25 bgc-pidgey"></div>
             </div>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-7 col-md-2 p-0 m-0 position-relative">
               <img src="images/rotulo_creacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
               <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
               <div className="w-100 hp-25 bgc-saitama"></div>
             </div>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-1 col-md-2 p-0 m-0 position-relative">
               <img src="images/rotulo_difusion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-leono rounded-caja-end"></div>
               <div className="w-100 hp-25 bgc-pikachu"></div>
