@@ -44,7 +44,7 @@ function Page051(props) {
                 <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_051/agenda.png" className="wp-100 msp--60 mbp-0" alt=""/></div>
                 <div className="position-absolute top-50 start-0 translate-middle h-100 ptp-10 pbp-10"><div className="espiral wp-30 h-100"></div></div>
                 <div className="d-flex align-items-center">
-                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-320" />
+                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-35 w-100 min-hp-320" />
                 </div>
               </div>
             </div>
