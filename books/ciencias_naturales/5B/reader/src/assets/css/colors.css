@@ -78,6 +78,7 @@
   --kokomi: #f4e6f1;
   --itto: #feede9;
   --blanka: #f4e6f0;
+  --blast:#ea90a5;
   
   
   --saitama: #7c6eb0;
@@ -819,7 +820,10 @@
 .color-bach {
   color: var(--bach);
 }
-  
+.color-blast {
+  color: var(--blast);
+}
+    
   
   
 
@@ -1263,6 +1267,9 @@
 .border-color-bach {
   border-color: var(--bach) !important;
 }
+.border-color-blast {
+  border-color: var(--blast) !important;
+}
 /* B
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1700,4 +1707,7 @@
 }
 .bgc-bach {
   background-color: var(--bach);
+}
+.bgc-blast {
+  background-color: var(--blast);
 }
