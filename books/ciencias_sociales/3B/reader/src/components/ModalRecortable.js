@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
-
-import { doc, getDoc, setDoc } from "firebase/firestore";
+import { doc, getDoc, setDoc, updateDoc, onSnapshot } from "firebase/firestore";
 import db from "../firebase/firebaseConfig";
+
 
 function ModalRecortable(props) {
 
@@ -21,6 +21,8 @@ function ModalRecortable(props) {
 
   const [recortable, setRecortable] = useState("");
   const [imagenSeleccionada, setImagenSeleccionada] = useState(image);
+  const [content1, setContent1] = useState("");
+
 
   console.log("revista pagina: " + id);
 
