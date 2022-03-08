@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 
 import "./page_029.css";
 
@@ -175,32 +176,32 @@ function Page029(props) {
                     Criterios de evaluación
                   </div>
                   <div className="d-flex align-items-start psp-20 pep-20 ptp-10 pbp-5 f-Ubuntu-R">
-                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                    <div className="wp-30 hp-30">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="msp-5 text-start">
                       Considera la labor educativa de la brigada.
                     </div>
                   </div>
                   <div className="d-flex align-items-start psp-20 pep-20 ptp-10 pbp-5">
-                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                    <div className="wp-30 hp-30">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="msp-5 text-start">
                       Es posible de ejecutar por la brigada.
                     </div>
                   </div>
                   <div className="d-flex align-items-start psp-20 pep-20 ptp-10 pbp-5">
-                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                    <div className="wp-30 hp-30">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="msp-5 text-start">
                       Entrega una asistencia rápida.
                     </div>
                   </div>
                   <div className="d-flex align-items-start psp-20 pep-20 ptp-10 pbp-20">
-                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 wp-30 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                    <div className="wp-30 hp-30">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="msp-5 text-start">
                       Otro:

@@ -91,7 +91,7 @@ function Page010(props) {
           </div>
 
 
-          <div className="d-flex flex-column global-margin mtp-20 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
+          <div className="d-flex flex-column global-margin mtp-20 mbp-130 psp-0 pep-0 ptp-0 pbp-0">
             <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-10">¿Cómo vamos?</div>
             <div className="d-flex flex-column bgc-white rounded-p-10 psp-10 pep-10 ptp-10 pbp-10 mtp-0 mbp-0">
               <div className="row p-0 m-0 w-100">
@@ -103,7 +103,7 @@ function Page010(props) {
                       </div>
                       <div className="f-Ubuntu-L fsp-15 ptp-2 text-start">  ¿Cuáles son las fortalezas del equipo?</div>
                     </div>
-                    <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
+                    <div className="w-100 psp-20 pep-10 ptp-0 pbp-0">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                     </div>
                   </div>
@@ -118,7 +118,7 @@ function Page010(props) {
                       </div>
                       <div className="f-Ubuntu-L fsp-15 ptp-2 text-start">  Lo que tenemos que mejorar es...</div>
                     </div>
-                    <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
+                    <div className="w-100 psp-20 pep-10 ptp-0 pbp-0">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                     </div>
                   </div>

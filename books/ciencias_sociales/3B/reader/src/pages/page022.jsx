@@ -64,7 +64,7 @@ function Page022(props) {
                     <div className="px-1 w-100">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-90"
+                        className="max-wp-250 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-90"
                       />
                     </div>
                   </div>
@@ -80,7 +80,7 @@ function Page022(props) {
                     <div className="px-1 w-100">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-90"
+                        className="max-wp-250 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-90"
                       />
                     </div>
                   </div>
@@ -100,12 +100,8 @@ function Page022(props) {
                   <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                     Leo la revista y completo.
                   </div>
-                  <ModalBook
-                    id={"p" + pagina + "_book" + (indexInput += 1)}
-                    image="images/page_022/img_003.svg"
-                    clasesImagen="hp-40 text-center mtp-15 msp-10"
-                    className="p-0 px-0"
-                  />
+                  <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"65"} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+
                 </div>
               </div>
             </div>
@@ -185,7 +181,7 @@ function Page022(props) {
                     alt=""
                   />
                 </div>
-                <div className="border-style-solid border-4 border-color-naraku w-100 p-2 mtp-20">
+                <div className="border-style-solid border-4 border-color-naraku w-100 p-2 mtp-20 mbp-80">
                   <div className="f-Ubuntu-L text-start fsp-16 lh-sm ">
                     El libro que encontramos es…
                   </div>
@@ -197,7 +193,7 @@ function Page022(props) {
                 </div>
               </div>
 
-              <div className="col-sm-12 col-md-6 position-relative mbp-90">
+              <div className="col-sm-12 col-md-6 position-relative mbp-80">
                 <div className="position-absolute top-0 start-50 translate-middle-x  ">
                   <img
                     src="images/page_022/img_005.png"

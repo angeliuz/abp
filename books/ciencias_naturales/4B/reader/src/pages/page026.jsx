@@ -29,7 +29,7 @@ function Page026(props) {
               </div>
               {/* <img src="images/page_023/img_003.svg" className="cambio hp-50 text-end mtp-0 psp-10 pep-40"  alt=""  /> */}
               <ModalBook
-                id={"p" + pagina + "_book" + (indexInput += 1)}
+                id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"81"}
                 image="images/page_026/img_002.svg"
                 clasesImagen="hp-40 text-center mtp-15 msp-5"
                 className="p-0 px-0"
@@ -96,7 +96,7 @@ function Page026(props) {
               </div>
 
               <div className="col-md-6 col-sm-6 position-relative">
-                
+
                 <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-white border-1 w-100 p-2 f-Ubuntu-R fsp-15 mbp-20">
                   <div className="d-flex interior-caja-v1  text-start min-hp-0">
                     <div className="w-100 text-start">
@@ -110,7 +110,7 @@ function Page026(props) {
                 </div>
               </div>
               <div className="col-md-6 col-sm-6">
-              <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--80 visible-695">
+                <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--80 visible-695">
                   <img src="images/page_026/img_003.png" className="" />
                 </div>
                 <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-white border-1 w-100 p-2 f-Ubuntu-R fsp-15 mbp-20">
@@ -172,8 +172,8 @@ function Page026(props) {
             </div>
           </div>
 
-          
-          
+
+
 
           {/* BEGIN PIE DE PAGINA */}
           <div

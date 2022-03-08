@@ -98,13 +98,13 @@ function Page051(props) {
                 <div className="w-100 h-100 p-1">
                   <div className="bgc-white rounded-p-5 p-2 w-100 border-style-solid border-color-saitama border-1">
                     <div className="f-Ubuntu-R fsp-14 lh-sm text-start">Lo que propongo:</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-600 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
                   </div>
                 </div>
                 <div className="w-100 p-1">
                   <div className="bgc-white rounded-p-5 p-2 w-100 border-style-solid border-color-saitama border-1">
                     <div className="f-Ubuntu-R fsp-14 lh-sm text-start">Lo que acordé con mi grupo:</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-600 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
                   </div>
                 </div>
               </div>
@@ -121,13 +121,13 @@ function Page051(props) {
                 <div className="w-100 h-100 p-1">
                   <div className="bgc-white rounded-p-5 p-2 w-100 border-style-solid border-color-android18 border-1">
                     <div className="f-Ubuntu-R fsp-14 lh-sm text-start">Lo que propongo:</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-600 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
                   </div>
                 </div>
                 <div className="w-100 p-1">
                   <div className="bgc-white rounded-p-5 p-2 w-100 border-style-solid border-color-android18 border-1">
                     <div className="f-Ubuntu-R fsp-14 lh-sm text-start">Lo que acordé con mi grupo:</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-600 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
                   </div>
                 </div>
               </div>
@@ -143,13 +143,13 @@ function Page051(props) {
                 <div className="w-100 h-100 p-1">
                   <div className="bgc-white rounded-p-5 p-2 w-100 border-style-solid border-color-bulma border-1">
                     <div className="f-Ubuntu-R fsp-14 lh-sm text-start">Lo que propongo:</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-600 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
                   </div>
                 </div>
                 <div className="w-100 p-1">
                   <div className="bgc-white rounded-p-5 p-2 w-100 border-style-solid border-color-bulma border-1">
                     <div className="f-Ubuntu-R fsp-14 lh-sm text-start">Lo que acordé con mi grupo:</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-600 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
                   </div>
                 </div>
               </div>

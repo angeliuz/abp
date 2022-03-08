@@ -31,25 +31,25 @@ function Page046(props) {
               <div class="col-6 p-1"><div class="bgc-white text-center f-Ubuntu-B fsp-15 p-1">Brigada a cargo</div></div>
 
               <div class="col-6 p-1"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Ocurre un sismo mientras estamos en la sala de clases.</div></div>
-              <div class="col-6 p-1"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-50 min-hp-50" /></div></div>
+              <div class="col-6 p-1"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-50 w-100 min-hp-50" /></div></div>
 
               <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Un estudiante se cae al correr por las escaleras durante el recreo.</div></div>
-              <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-50 min-hp-50" /></div></div>
+              <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 w-100 lhp-50 min-hp-50" /></div></div>
 
               <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Se rompe un material de vidrio durante un experimento científico.</div></div>
-              <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-50 min-hp-50" /></div></div>
+              <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 w-100 lhp-50 min-hp-50" /></div></div>
 
               <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Hay una amago de incendio en la sala de profesores.</div></div>
-              <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-50 min-hp-50" /></div></div>
+              <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 w-100 lhp-50 min-hp-50" /></div></div>
 
               <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Se siente olor a gas en el casino del colegio.</div></div>
-              <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-50 min-hp-50" /></div></div>
+              <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 w-100 lhp-50 min-hp-50" /></div></div>
 
               <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Un estudiante se siente enfermo durante la clase.</div></div>
-              <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-50 min-hp-50" /></div></div>
+              <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 w-100 lhp-50 min-hp-50" /></div></div>
 
               <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Se derrama agua caliente en una actividad extraprogramática.</div></div>
-              <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-50 min-hp-50" /></div></div>
+              <div class="col-6 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-center f-Ubuntu-R fsp-15 p-1 h-100 d-flex align-items-center"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 w-100 lhp-50 min-hp-50" /></div></div>
             </div>
           </div>
 

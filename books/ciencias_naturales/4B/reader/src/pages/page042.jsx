@@ -57,7 +57,7 @@ function Page042(props) {
                       </div>
                     </div>
                     <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-120" />
                     </div>
                   </div>
                 </div>
@@ -72,7 +72,7 @@ function Page042(props) {
                       </div>
                     </div>
                     <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-120" />
                     </div>
                   </div>
                 </div>
@@ -87,7 +87,7 @@ function Page042(props) {
                       </div>
                     </div>
                     <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-120" />
                     </div>
                   </div>
                 </div>

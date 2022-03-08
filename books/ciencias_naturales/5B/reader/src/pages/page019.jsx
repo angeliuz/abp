@@ -28,7 +28,7 @@ function Page019(props) {
               <div className={"psp-50 pep-50 ptp-5 pbp-5 bgc-white rounded-p-10 border-style-solid border-1 " + borderColor + " d-flex justify-content-center position-relative"}>
                 <div className="position-absolute top-50 start-100 translate-middle wp-100 msp-0 mtp--10"><img src={"images/page_" + pagina + "/img_002.png"} className="w-80" alt="" /></div>
                 <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp--10"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-60" alt="" /></div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-550 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
               </div>
             </div>
           </div>
@@ -184,7 +184,7 @@ function Page019(props) {
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-0 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-0 mbp-140 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
                 <ItemLista colorBullet="bgc-bulma" fontSize="fsp-15" fuente="f-Ubuntu-R" color="color-dark">Elaboramos nuestro cronograma del proyecto en una cartulina.</ItemLista>
@@ -202,7 +202,7 @@ function Page019(props) {
                       </div>
                       <div className="psp-10 pep-10 f-Ubuntu-L fsp-15 text-center">
                         Quien asume este rol será:
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-280 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                       </div>
                     </div>
                   </div>
@@ -222,7 +222,7 @@ function Page019(props) {
                       </div>
                       <div className="psp-10 pep-10 f-Ubuntu-L fsp-15 text-center">
                         Quien asume este rol será:
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-280 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                       </div>
                     </div>
                   </div>
@@ -242,7 +242,7 @@ function Page019(props) {
                       </div>
                       <div className="psp-10 pep-10 f-Ubuntu-L fsp-15 text-center">
                         Quien asume este rol será:
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-280 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                       </div>
                     </div>
                   </div>
@@ -262,7 +262,7 @@ function Page019(props) {
                       </div>
                       <div className="psp-10 pep-10 f-Ubuntu-L fsp-15 text-center">
                         Quien asume este rol será:
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-280 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                       </div>
                     </div>
                   </div>

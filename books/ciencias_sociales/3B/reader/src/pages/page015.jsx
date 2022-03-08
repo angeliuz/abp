@@ -82,7 +82,7 @@ function Page015(props) {
               </div>
             </div>
             <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
-              <div className="hp-80 mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
+              <div className=" mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
                 <img
                   src="images/page_015/img_004.png"
                   className="position-absolute top-0 start-100 translate-middle msp--15 mtp-5 hp-40 "
@@ -90,7 +90,7 @@ function Page015(props) {
                 />
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-0 px-1 text-center flex-grow-1 lhp-80 min-hp-80"
+                  className="max-wp-200 p-0 px-1 text-center flex-grow-1 lhp-35 min-hp-80"
                 />
               </div>
               <div className="centrar-ver">
@@ -118,7 +118,7 @@ function Page015(props) {
             <div className="ptp-15"></div>
 
             <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
-              <div className="hp-80 mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
+              <div className="mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
                 <img
                   src="images/page_015/img_004.png"
                   className="position-absolute top-0 start-0 translate-middle msp-10 mtp-5 hp-40 "
@@ -126,7 +126,7 @@ function Page015(props) {
                 />
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-0 px-1 text-center flex-grow-1 lhp-80 min-hp-80"
+                  className="max-wp-200 p-0 px-1 text-center flex-grow-1 lhp-35 min-hp-80"
                 />
               </div>
               <div className="centrar-ver">
@@ -150,7 +150,7 @@ function Page015(props) {
             <div className="ptp-15"></div>
 
             <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
-              <div className="hp-80 mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
+              <div className="mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
                 <img
                   src="images/page_015/img_004.png"
                   className="position-absolute top-0 start-100 translate-middle msp--15 mtp-5 hp-40 "
@@ -158,7 +158,7 @@ function Page015(props) {
                 />
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-0 px-1 text-center flex-grow-1 lhp-80 min-hp-80"
+                  className="max-wp-200 p-0 px-1 text-center flex-grow-1 lhp-35 min-hp-80"
                 />
               </div>
               <div className="centrar-ver">
@@ -182,7 +182,7 @@ function Page015(props) {
             <div className="ptp-15"></div>
 
             <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
-              <div className="hp-80 mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
+              <div className="mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
                 <img
                   src="images/page_015/img_004.png"
                   className="position-absolute top-0 start-0 translate-middle msp-10 mtp-5 hp-40 "
@@ -190,7 +190,7 @@ function Page015(props) {
                 />
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-0 px-1 text-center flex-grow-1 lhp-80 min-hp-80"
+                  className="max-wp-200 p-0 px-1 text-center flex-grow-1 lhp-35 min-hp-80"
                 />
               </div>
               <div className="centrar-ver">
@@ -214,7 +214,7 @@ function Page015(props) {
             <div className="ptp-15"></div>
 
             <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
-              <div className="hp-80 mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
+              <div className="mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
                 <img
                   src="images/page_015/img_004.png"
                   className="position-absolute top-0 start-100 translate-middle msp--15 mtp-5 hp-40 "
@@ -222,7 +222,7 @@ function Page015(props) {
                 />
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-0 px-1 text-center flex-grow-1 lhp-80 min-hp-80"
+                  className="max-wp-200 p-0 px-1 text-center flex-grow-1 lhp-35 min-hp-80"
                 />
               </div>
               <div className="centrar-ver">

@@ -146,7 +146,7 @@ function Page047(props) {
             </div>
           </div>
 
-          <div className="d-flex msp-60 mep-60 mbp-100">
+          {/* <div className="d-flex msp-60 mep-60 mbp-100">
             <div className="row w-100 p-0 m-0">
               <div className="col-sm-12 col-md-6 pbp-10">
                 <div className="d-flex">
@@ -200,7 +200,7 @@ function Page047(props) {
               </div>
 
             </div>
-          </div>
+          </div> */}
 
           {/* PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>

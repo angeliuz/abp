@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 
 import "./page_037.css";
 
@@ -112,33 +113,24 @@ function Page037(props) {
                 </div>
                 <div className=" p-2 diline-res justify-content-between">
                   <div className="d-flex">
-                    <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                      />
+                    <div className="wp-30 hp-30">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="f-Ubuntu-L psp-15 pbp-10 text-start">
                       Muy preparados.
                     </div>
                   </div>
                   <div className="d-flex">
-                    <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                      />
+                    <div className="wp-30 hp-30">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="f-Ubuntu-L psp-15 pbp-10 text-start">
                       Aún nos falta.
                     </div>
                   </div>
                   <div className="d-flex">
-                    <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                      />
+                    <div className="wp-30 hp-30">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="f-Ubuntu-L psp-15 pbp-10 text-start">
                       Necesitamos ayuda.
@@ -147,8 +139,8 @@ function Page037(props) {
                 </div>
               </div>
               <div className="position-absolute top-100 start-0">
-              <img src="images/page_037/img_003.png" className="hp-80" alt="" />
-            </div>
+                <img src="images/page_037/img_003.png" className="hp-80" alt="" />
+              </div>
             </div>
           </div>
 

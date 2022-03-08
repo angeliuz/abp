@@ -28,27 +28,27 @@ function Page018(props) {
             </div>
             <div className="row">
               <div className="col-md-6 col-12 pbp-20">
-                <div className="bgc-pantro border-style-solid border-color-pidgey border-1 hp-100">
+                <div className="bgc-pantro border-style-solid border-color-pidgey border-1">
                   <div className="bgc-white  border-style-solid border-1 border-color-pidgey d-flex center-center p-1 rotate--6 mtp--10 msp--10 wp-130 color-pidgey f-pixilate-bold fsp-18">
                     Coordinación
                   </div>
                   <div>
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 flex-grow-1 lhp-35 min-hp-75 mtp--10"
+                      className="text-start ptp-15p-0 px-1 flex-grow-1 lhp-35 min-hp-75"
                     />
                   </div>
                 </div>
               </div>
               <div className="col-md-6 col-12 pbp-20">
-                <div className="bgc-klee border-style-solid border-color-saitama border-1 hp-100">
+                <div className="bgc-klee border-style-solid border-color-saitama border-1 ">
                   <div className="bgc-white border-style-solid border-1 border-color-saitama d-flex center-center p-1 rotate--6 mtp--10 msp--10 wp-130 color-saitama f-pixilate-bold fsp-18">
                     Supervisión
                   </div>
                   <div>
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 flex-grow-1 lhp-35 min-hp-75 mtp--10"
+                      className="text-start ptp-15p-0 px-1 flex-grow-1 lhp-35 min-hp-75"
                     />
                   </div>
                 </div>
@@ -56,27 +56,27 @@ function Page018(props) {
             </div>
             <div className="row">
               <div className="col-md-6 col-12 pbp-20">
-                <div className="bgc-sargento border-style-solid border-color-yanfei border-1 hp-100">
+                <div className="bgc-sargento border-style-solid border-color-yanfei border-1 ">
                   <div className="bgc-white d-flex center-center p-1 rotate--6 mtp--10 msp--10 wp-150  border-style-solid border-1 border-color-yanfei color-goten f-pixilate-bold fsp-18">
                     Relaciones públicas
                   </div>
                   <div>
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 flex-grow-1 lhp-35 min-hp-75 mtp--10"
+                      className="text-start ptp-15p-0 px-1 flex-grow-1 lhp-35 min-hp-75 "
                     />
                   </div>
                 </div>
               </div>
               <div className="col-md-6 col-12 pbp-20">
-                <div className="bgc-jarek border-style-solid border-color-blaze border-1 hp-100">
-                  <div className="bgc-white d-flex center-center p-1 rotate--6 mtp--10 msp--10 wp-130  border-style-solid border-1 border-color-blaze color-blaze f-pixilate-bold fsp-18">
+                <div className="bgc-jarek border-style-solid border-color-blaze border-1 ">
+                  <div className=" bgc-white d-flex center-center p-1 rotate--6 mtp--10 msp--10 wp-130  border-style-solid border-1 border-color-blaze color-blaze f-pixilate-bold fsp-18">
                     Intendencia
                   </div>
                   <div>
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 flex-grow-1 lhp-35 min-hp-75 mtp--10"
+                      className="text-start ptp-15 p-0 px-1 flex-grow-1 lhp-35 min-hp-75"
                     />
                   </div>
                 </div>

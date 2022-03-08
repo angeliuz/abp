@@ -98,12 +98,7 @@ function Page017(props) {
                       Organizamos los pasos de nuestro proyecto.
                     </div>
                     <div className="d-flex">
-                      <ModalBook
-                        id={"p" + pagina + "_book" + (indexInput += 1)}
-                        image="images/page_017/img_004.png"
-                        clasesImagen="hp-60 text-center mtp--20 msp-10"
-                        className="p-0 px-0"
-                      />
+                    <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"79"} image={"images/page_" + pagina + "/img_004.png"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
                     </div>
                   </div>
                 </div>
@@ -122,7 +117,8 @@ function Page017(props) {
                       /> */}
                     </div>
                   </div>
-                  <div className="col-md-6 col-12 pbp-20">
+                  <div className="col-md-6 col-12 pbp-20 position-relative">
+                  <div className="position-absolute top-0 start-100 translate-middle msp--10 mtp--25 visible-768"><img src={"images/page_"+pagina+"/img_000.png"} className="wp-100" alt="" /></div> 
                     <div className="bgc-white mxwp-300 hp-200 centrar border-caja position-relative">
                       <img
                         src="images/page_017/img_008.png"
