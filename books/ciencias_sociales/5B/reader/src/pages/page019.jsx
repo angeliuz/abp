@@ -24,7 +24,7 @@ function Page019(props) {
 
                     <div className="position-relative w-100 mbp-20">
                         <div className=" psp-80 pep-70 ptp-30 pbp-0 ">
-                            <div className="fsp-16 f-Ubuntu-B text-start psp-0 pbp-10">Esta página ha sido completada por:</div>
+                            <div className="fsp-16 f-Ubuntu-R text-start psp-0 pbp-10">Esta página ha sido completada por:</div>
                             <div className="psp-0 ptp-5 pbp-5 bgc-white rounded-p-10 border border-color-lightDark d-flex justify-content-center position-relative">
                                 <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 mtp-0"><img src="images/page_019/img_001.png" className="wp-70" /></div>
                                 <div className="position-absolute top-50 start-100 translate-middle wp-100 msp-0 mtp-0"><img src="images/page_019/img_002.png" className="w-50" /></div>
@@ -39,8 +39,8 @@ function Page019(props) {
                             <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                                 Vemos el video. Luego, leemos y numeramos las tareas del proyecto.
                             </div>
-                            <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image={"images/page_" + pagina + "/img_003.png"} className="wp-50" alt="" />
-                            {/* <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+                            {/* <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image={"images/page_" + pagina + "/img_003.png"} className="hp-20" alt="" /> */}
+                            <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
                             {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
                         </div>
                     </div>
