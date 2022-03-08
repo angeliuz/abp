@@ -45,7 +45,7 @@ function Page058(props) {
                   src="images/page_058/flecha.svg"
                   className="hp-10 pep-5 mtp-5"
                 />
-                <span className="w-24 f-Ubuntu-L ">
+                <span className="w-24 f-Ubuntu-L fsp-15">
                   ¿Qué tres cosas destaco de lo aprendido?
                 </span>
                 <div className="pep-10 psp-10">

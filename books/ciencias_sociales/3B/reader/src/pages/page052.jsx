@@ -73,7 +73,7 @@ function Page052(props) {
                                             Las personas a las que invitaremos serán...
                                         </div>
                                     </div>
-                                    <div className="d-flex w-100 psp-20 pep-20 ptp-20 pbp-20">
+                                    <div className="max-wp-700 w-100 psp-20 pep-20 ptp-20 pbp-20">
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
                                     </div>
                                 </div>
@@ -88,7 +88,7 @@ function Page052(props) {
                         <div className="row w-100">
                             <div className="col">
                                 <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
-                                <div className="rounded-p-10  bgc-white hp-250 w-100 position-relative ">
+                                <div className="rounded-p-10  bgc-white  w-100 position-relative ">
                                     <div className="position-absolute bottom-0 end-0"><img src="images/page_052/img_011.png" className="hp-190 " alt="" /></div>
                                     <div className="d-flex flex-wrap w-80 titulo-linea  mep-40 ">
                                         <div className="d-flex mtp-10 msp-10 align-items-center   "><img src="images/page_052/img_007.svg" className="mep-10 hp-15" alt="" /><span className="f-Ubuntu-L fsp-14 text-start">Lo que más nos costó trabajar en esta etapa fue...</span></div>

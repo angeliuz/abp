@@ -109,7 +109,7 @@ function Page044(props) {
                     <div className="d-inline f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Otra:</div>
                   </div>
                   <div className="psp-30 pep-5 mtp--25 ">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-4 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="ptp-10 psp-10 fsp-15 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
                   </div>
 
                 </div>
@@ -141,7 +141,9 @@ function Page044(props) {
             <div className="row w-100 p-0 m-0">
               <div className="col-sm-12   position-relative">
                 <div className="d-flex justify-content-center ptp-20 w-100">
-                  <div className="border-style-solid border-1  wp-500 min-hp-250 sombra rounded-p-10 "></div>
+                  <div className="border-style-solid border-1  wp-500 min-hp-250 sombra rounded-p-10 ">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1  lhp-35 min-hp-80" />
+                  </div>
                 </div>
               </div>
             </div>

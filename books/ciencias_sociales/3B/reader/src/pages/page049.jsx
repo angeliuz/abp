@@ -123,7 +123,7 @@ function Page049(props) {
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" /></div>
                       <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm mt-1 psp-10 lh-sm "> Otra.
                       </div>
-                      <div className="w-100 m-0 p-0 ">
+                      <div className="w-100 max-wp-350 m-0 p-0 ">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                       </div>
                     </div>
