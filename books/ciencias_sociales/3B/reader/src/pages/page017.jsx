@@ -19,6 +19,21 @@ function Page017(props) {
   const bgc_cajas = "bgc-draco";
 
   const [visible, setVisible] = useState(false);
+  const [recortable, setRecortable] = useState("");
+
+  function handleRecortable(e) {
+    // setFullscreen(breakpoint);
+    e.preventDefault();
+    setRecortable(e.target.id);
+    
+    // if (visible) {
+    //   setRecortable(false);
+    // } else {
+    //   setRecortable(true);
+    // }
+    console.log("recortable: " + recortable);
+    console.log("recortable: " + e.target.id);
+  }
 
   function handleVisible(e) {
     // setFullscreen(breakpoint);
@@ -62,6 +77,9 @@ function Page017(props) {
           {/* END CAJA PRINCIPAL DOSIER */}
 
 
+          
+
+
           <div className="position-relative w-100">
             <div className="row psp-80 pep-70 ptp-10 pbp-50 ">
 
@@ -86,20 +104,17 @@ function Page017(props) {
                 </div>
                 <div className="row">
                   <div className="col-md-6 col-12 pbp-20 position-relative">
-                    <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1">
-                      <ModalRecortable id={"p" + pagina + "_book" + (indexInput += 1)} pagina={pagina} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" onClick={handleVisible} >hola</ModalRecortable>
 
-                    </div>
-                    <div className="bgc-white mxwp-300 hp-200 centrar border-caja position-relative">
+                    <div className="bgc-white mxwp-300 hp-200 centrar border-caja position-relative" data-bs-toggle="modal" data-bs-target={"#p" + pagina + "_cutouts"} id={"recortable_"+indexInput} onClick={handleRecortable}>
                       <img
                         src="images/page_017/img_007.png"
                         className="position-absolute top-50 start-50 translate-middle"
                         alt=""
                       />
-                      <InputBox
+                      {/* <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
                         className="p-0 px-1 flex-grow-1 lhp-35 min-hp-180"
-                      />
+                      /> */}
                     </div>
                   </div>
                   <div className="col-md-6 col-12 pbp-20 position-relative">
@@ -208,6 +223,9 @@ function Page017(props) {
           </div>
         </div>
       </div>
+
+
+      <ModalRecortable id={"p" + pagina + "_cutouts"} pagina={pagina} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
 
 
 
