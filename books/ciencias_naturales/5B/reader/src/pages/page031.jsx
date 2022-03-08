@@ -32,7 +32,7 @@ function Page031(props) {
                     <div className={"cabecera-v2 d-flex flex-column " + background}>
                         <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
                             <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN 6</div>
-                            <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white"> ¡Cuidado con la malnutrición!</div>
+                            <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡Cuidado con la malnutrición!</div>
                         </div>
                         <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-95">
                             <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
@@ -42,7 +42,7 @@ function Page031(props) {
                                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
                             </div>
                             <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                                Entender en qué  consiste  <br /> la malnutrición
+                                Entender en qué consiste  <br /> la malnutrición
                             </div>
                             <div className="psp-5 pep-5 align-self-center">
                                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
@@ -71,7 +71,7 @@ function Page031(props) {
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_002.jpg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"87"} image={"images/page_" + pagina + "/img_002.jpg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
                         </div>
                     </div>
 
@@ -160,7 +160,7 @@ function Page031(props) {
                             {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_001.svg"} alt=""  /> */}
                             <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
                             <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                                Qué pasar a si…
+                                Qué pasaría si…
                             </div>
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
@@ -189,7 +189,7 @@ function Page031(props) {
                                 </div>
                                 <div className="col-sm-12 col-md-6">
                                     <div className="text-center w-100 border-1 border-style-solid border-color-akuma rounded-p-10 mtp-10">
-                                        <div className="lhp-15 color-white fw-700 rounded-set-6 hp-50 p-2 bgc-akuma d-flex justify-content-center align-items-center">
+                                        <div className="lhp-15 color-white fw-700 rounded-set-6 hp-50 p-2 bgc-vegeta d-flex justify-content-center align-items-center">
                                             en su mayoría, la comida que se
                                             vendiera en el colegio fuera saludable
                                         </div>
@@ -219,12 +219,12 @@ function Page031(props) {
                             <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
                             <div className="w-100 hp-25 bgc-goten"></div>
                         </div>
-                        <div className="col-7 position-relative col-sm-2 p-0 m-0">
+                        <div className="col-1 position-relative col-sm-2 p-0 m-0">
                             <img src="images/rotulo_planificacion.svg" className="oculto" alt="" />
                             <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-bulma"></div>
                         </div>
-                        <div className="col-1 position-relative col-sm-2 p-0 m-0">
+                        <div className="col-7 position-relative col-sm-2 p-0 m-0">
                             <img src="images/rotulo_investigacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
                             <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-android18"></div>
