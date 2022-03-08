@@ -23,13 +23,13 @@ function Page039(props) {
           <div className={"dosier-e"+etapa+" page bgc-white overflow-hidden position-relative"} id={"page_"+pagina}>
               <img src={"images/cabecera/dosier_e"+etapa+".svg"} className="w-100" alt=""/>
 
-                <div className="position-relative w-100 mbp-40">
+                <div className="position-relative w-100 mbp-40 ">
                     <div className="psp-80 pep-70 ptp-30 pbp-0 position-relative">
                         <div className="fsp-16 f-Ubuntu-R text-start psp-50 pbp-10">Esta página fue completada por:</div>
-                        <div className="psp-50 pep-50 ptp-5 pbp-5 bgc-white rounded-p-10 border-style-solid border-1 border-color-pidgey d-flex justify-content-center position-relative">
+                        <div className="max-wp-700 psp-50 pep-50 ptp-5 pbp-5 bgc-white rounded-p-10 border-style-solid border-1 border-color-pidgey  justify-content-center position-relative">
                             <div className="position-absolute top-50 start-100 translate-middle wp-100 msp-0 mtp--10"><img src="images/page_039/escuela.png" className="w-100" alt="" /></div>
                             <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp--10"><img src="images/page_039/circulo.png" className="wp-80" alt="" /></div>
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className=" p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                         </div>
                     </div>
                 </div>

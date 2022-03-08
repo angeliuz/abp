@@ -76,7 +76,7 @@ function Page050(props) {
               <div className="col-12 p-0 m-0 position-relative">
                 <div className="position-absolute top-100 start-0 translate-middle zindex-1 msp-0 mtp-0"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
                 <div className="d-flex border-style-solid border-2 border-color-dark rounded-p-10 min-hp-500">
-                  {/* <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-35 min-hp-500" />*/}
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-35 min-hp-500" />
                 </div>
               </div>
 
