@@ -55,7 +55,9 @@ function Page049(props) {
           </div>
 
           <div className="d-flex psp-0 pep-0 ptp-0 pbp-0 mtp-0 msp-60 mep-60 mbp-70">
-            <div className="row ptp-10 pbp-10 m-0 w-100 fondo-49 f-Ubuntu-M fsp-14 lh-sm text-center">
+            <div className="row ptp-10 pbp-10 m-0 w-100 fondo-49 f-Ubuntu-M fsp-14 lh-sm text-center position-relative">
+
+              <div className="position-absolute top-50 start-100 translate-middle visible-768 zindex-1"><img src="images/page_049/carta.png" className="wp-50 " alt="" /></div>
 
               <div className="col-sm-4 position-relative d-flex align-items-center justify-content-center lh-sm">Sección</div>
               <div className="col-sm-4 position-relative d-flex align-items-center justify-content-center lh-sm">¿Cómo la identifico visualmente?</div>
