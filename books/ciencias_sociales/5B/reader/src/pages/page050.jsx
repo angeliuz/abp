@@ -20,9 +20,7 @@ function Page050(props) {
             <div className="d-flex">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_050/i_g.svg" alt=""  /> */}
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">2</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Busco otras entrevistas y comparo.
-              </div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Busco otras entrevistas y comparo.</div>
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_031/img_002.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
@@ -45,7 +43,7 @@ function Page050(props) {
               <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 visible-768"><img src="images/page_050/espiral.svg" className="wp-50 " alt="" /></div>
               <div className="box-color-24-2">
                 <div className="f-Ubuntu-B alinea rounded-set-10 bgc-bulma w-100 p-2 text-center color-white">¿En qué se diferencia de la entrevista<br />que observé en la actividad anterior?</div>
-                <div className="linea1 bgc-white hp-250 p-2  rounded-seb-20 border-style-solid border-color-bulma border-2">
+                <div className="linea1 bgc-white hp-250 p-2 rounded-seb-20 border-style-solid border-color-bulma border-2">
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
                 </div>
               </div>
@@ -54,7 +52,7 @@ function Page050(props) {
           </div>
 
 
-          <div className="ptp-10 container-titulo-global mbp-20">
+          <div className="ptp-10 msp-15 mep-50 mbp-20">
             <div className="d-flex">
               <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_050/g_i.svg" alt="" />
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">3</div>
