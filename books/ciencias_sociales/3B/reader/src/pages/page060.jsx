@@ -22,12 +22,12 @@ function Page060(props) {
             <div className={"dosier-e"+etapa+" page bgc-white overflow-hidden position-relative"} id={"page_"+pagina}>
 
           <div className="cb-ejercicioinicial-p60 mtp-90 mbp-30 psp-15 pep-15 pbp-10 ptp-50 mtp-20 position-relative">
-                    <div className="cb-caja-inicial position-absolute p-2 d-flex align-items-center justify-content-center f-pixilate-regular">Ponernos de acuerdo fue...</div>
-                    <div className="cb-bloque-1-p60 cb-caja-inicial-a position-absolute p-2 d-flex align-items-center justify-content-center f-pixilate-regular">Fácil</div>
-                    <div className="cb-bloque-2-p60 cb-caja-inicial-b position-absolute p-2 d-flex align-items-center justify-content-center f-pixilate-regular">Difícil</div>
+                    <div className="cb-caja-inicial position-absolute p-2 d-flex align-items-center justify-content-center f-pixilate-regular fsp-18">Ponernos de acuerdo fue...</div>
+                    <div className="cb-bloque-1-p60 cb-caja-inicial-a position-absolute p-2 d-flex align-items-center justify-content-center f-pixilate-regular fsp-18">Fácil</div>
+                    <div className="cb-bloque-2-p60 cb-caja-inicial-b position-absolute p-2 d-flex align-items-center justify-content-center f-pixilate-regular fsp-18">Difícil</div>
                     <div className="cb-ejercicioinicial-caja-p60 cb-outline-p59 ">
                        <div className="pep-10 psp-10 pbp-5">
-                          <div className="text-start ptp-10 pbp-10 f-pixilate-regular fsp-15">Por que..</div>
+                          <div className="text-start ptp-10 pbp-10 f-pixilate-regular fsp-18">Por que..</div>
                           <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
                        </div>
                     </div>                 
@@ -37,14 +37,14 @@ function Page060(props) {
                     <div className="cb-ejerciciofinal-cajas cb-rotate-01 position-relative">
                     <div className="pep-10 psp-10">
                         <img src="images/page_060/img_001.png" className="cb-objeto-p60" alt="" />
-                        <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-15">Si volviésemos a empezar, volveríamos a...</div>
+                        <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-18">Si volviésemos a empezar, volveríamos a...</div>
                         <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
                     </div>
                     </div>
                     <div className="cb-ejerciciofinal-cajas cb-rotate-02 position-relative">
                     <div className="pep-10 psp-10">
                         <img src="images/page_060/img_001.png" className="cb-objeto-p60" alt="" />
-                        <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-15">Si volviésemos a empezar, mejoraríamos en....</div>
+                        <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-18">Si volviésemos a empezar, mejoraríamos en....</div>
                         <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
                     </div>
                 </div>

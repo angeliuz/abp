@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 
 import "./page_035.css";
 
@@ -32,7 +33,7 @@ function Page035(props) {
                     <div className={"cabecera-v2 d-flex flex-column " + background}>
                         <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
                             <div className={"caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark"}>SESIÓN 8</div>
-                            <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white"> Hacemos una infografía</div>
+                            <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Hacemos una infografía</div>
                         </div>
                         <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-95">
                             <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
@@ -92,11 +93,8 @@ function Page035(props) {
                             <div className="col-md-6 col-12">
                                 <div className="ptp-10 pbp-10 psp-20">
                                     <div className="d-flex">
-                                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark">
-                                            <InputBox
-                                                id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-35"
-                                            />
+                                        <div className="">
+                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                         </div>
                                         <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                                             Malnutrición.
@@ -105,11 +103,8 @@ function Page035(props) {
                                 </div>
                                 <div className="ptp-10 pbp-10 psp-20">
                                     <div className="d-flex">
-                                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark">
-                                            <InputBox
-                                                id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-35"
-                                            />
+                                        <div className="">
+                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                         </div>
                                         <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                                             Los nutrientes.
@@ -118,11 +113,8 @@ function Page035(props) {
                                 </div>
                                 <div className="ptp-10 pbp-10 psp-20">
                                     <div className="d-flex">
-                                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark">
-                                            <InputBox
-                                                id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-35"
-                                            />
+                                        <div className="">
+                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                         </div>
                                         <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                                             Información nutricional.
@@ -134,11 +126,8 @@ function Page035(props) {
                             <div className="col-md-6 col-12">
                                 <div className="ptp-10 pbp-10 psp-20">
                                     <div className="d-flex">
-                                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark">
-                                            <InputBox
-                                                id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-35"
-                                            />
+                                        <div className="">
+                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                         </div>
                                         <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                                             Alimentación saludable.
@@ -147,11 +136,8 @@ function Page035(props) {
                                 </div>
                                 <div className="ptp-10 pbp-10 psp-20">
                                     <div className="d-flex">
-                                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark">
-                                            <InputBox
-                                                id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                className="p-0 px-1 text-center flex-grow-1 lhp-30 min-hp-35"
-                                            />
+                                        <div className="">
+                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                         </div>
                                         <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                                             Alimentación poco saludable.
@@ -239,12 +225,12 @@ function Page035(props) {
                             <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
                             <div className="w-100 hp-25 bgc-goten"></div>
                         </div>
-                        <div className="col-7 position-relative col-sm-2 p-0 m-0">
+                        <div className="col-1 position-relative col-sm-2 p-0 m-0">
                             <img src="images/rotulo_planificacion.svg" className="oculto" alt="" />
                             <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-bulma"></div>
                         </div>
-                        <div className="col-1 position-relative col-sm-2 p-0 m-0">
+                        <div className="col-7 position-relative col-sm-2 p-0 m-0">
                             <img src="images/rotulo_investigacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
                             <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-android18"></div>

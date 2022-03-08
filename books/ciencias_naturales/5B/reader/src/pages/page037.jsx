@@ -49,7 +49,7 @@ function Page037(props) {
                 <div className="bgc-white rounded-p-10 border-style-solid  border-2 border-color-android18 p-2 msp-0 mep-0 mtp-0 mbp-10 f-Ubuntu-B fsp-15 ">
                   <div className="d-flex flex-column position-relative w-100 text-start ">
                   Comprendimos que una alimentación saludable consiste en…
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="f-Ubuntu-L p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
                   </div>
                 </div>
               </div>
@@ -59,12 +59,12 @@ function Page037(props) {
           <div className="psp-80 pep-60 ptp-40">
             <div className="row w-100">
               <div className="col-12 position-relative">
-              <div className="position-absolute top-0 start-0 translate-middle mtp-70 msp--5 zindex-1 visible-768"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-90" alt="" /></div>
+              <div className="position-absolute top-0 start-0 translate-middle mtp-70 msp--20 zindex-1 visible-768"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-90" alt="" /></div>
               <div className="position-absolute top-50 start-100 translate-middle msp-10 zindex-1 "><img src={"images/page_" + pagina + "/img_004.png"} className="wp-50" alt="" /></div>
               <div className="bgc-white rounded-p-10 border-style-solid border-2 border-color-android18 p-2 msp-0 mep-0 mtp-0 mbp-10 f-Ubuntu-B fsp-15 ">
                   <div className="d-flex flex-column position-relative w-100 text-start ">
                   Lo que nos sirve de esta investigación para nuestro proyecto es…
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="f-Ubuntu-L p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
                   </div>
                 </div>
               </div>
@@ -79,7 +79,7 @@ function Page037(props) {
               <div className="bgc-white rounded-p-10 border-style-solid border-2 border-color-android18 p-2 msp-0 mep-0 mtp-0 mbp-10 f-Ubuntu-B fsp-15 ">
                   <div className="d-flex flex-column position-relative w-100 text-start ">
                   La infografía que hicimos la utilizaremos para…
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="f-Ubuntu-L p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
                   </div>
                 </div>
               </div>

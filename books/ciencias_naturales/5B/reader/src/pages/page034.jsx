@@ -36,7 +36,7 @@ function Page034(props) {
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"91"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
                         </div>
                     </div>
                     <div className="d-flex global-margin mtp-30 mbp-0 psp-20 pep-20 ptp-20 pbp-20 bgc-kai rounded-p-20 position-relative">
@@ -52,7 +52,7 @@ function Page034(props) {
                                             <div className="">
                                                 <div className="d-flex flex-column bgc-white p-2 rounded-p-10">
                                                     <div className="psp-10 pep-10">
-                                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-500" />
+                                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" msp-220 p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-500" />
                                                     </div>
 
                                                 </div>
@@ -81,7 +81,7 @@ function Page034(props) {
                             {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_002.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
                         </div>
                     </div>
-                    <div className="d-flex global-margin mtp-0 mbp-100 psp-20 pep-20 ptp-0 pbp-0">
+                    <div className="d-flex global-margin mtp-0 mbp-150 psp-20 pep-20 ptp-0 pbp-0">
                         <div className="row p-0 m-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative">
                                 <table className=" f-Ubuntu-L fsp-16 border-2 border-style-solid border-color-android18 text-start mbp-20 ">
@@ -90,21 +90,21 @@ function Page034(props) {
                                         <td className=" f-Ubuntu-B border-2 border-style-solid border-color-android18 text-center p-1 wp-500 bgc-android18 color-white" colspan="2">Energía (kcal) por porción</td>
                                     </tr>
                                     <tr>
-                                        <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-start p-1 bgc-kagome">Carbohidratos</td>
-                                        <td className=" f-Ubuntu-B border-2 border-style-solid border-color-android18 text-center p-1" colspan="2">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />
+                                        <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-start p-1 bgc-azuka">Carbohidratos</td>
+                                        <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-center p-1" colspan="2">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-450 p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-start p-1 bgc-kagome">Proteínas</td>
-                                        <td className=" f-Ubuntu-B border-2 border-style-solid border-color-android18 text-center p-1" colspan="2">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />
+                                        <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-start p-1 bgc-azuka">Proteínas</td>
+                                        <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-center p-1" colspan="2">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-450 p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-start p-1 bgc-kagome">Lípidos</td>
-                                        <td className=" f-Ubuntu-B border-2 border-style-solid border-color-android18 text-center p-1" colspan="2">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />
+                                        <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-start p-1 bgc-azuka">Lípidos</td>
+                                        <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-center p-1" colspan="2">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-450 p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />
                                         </td>
                                     </tr>
                                 </table>
