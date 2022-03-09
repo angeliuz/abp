@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 
 import "./page_076.css";
 
@@ -30,9 +31,9 @@ function Page076(props) {
                             <div className="d-flex">
                                 <div className="cb-lado-a-p76">
                                     <div className="cb-izq-p76 w-100 d-flex">
-                                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
-                                        </div>
+                                        <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                            </div>
                                     </div>
                                     <div className="pep-10 psp-10">
                                         <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-15">Muy bien</div>
@@ -41,9 +42,9 @@ function Page076(props) {
                                 </div>
                                 <div className="cb-lado-a-p76">
                                     <div className="cb-izq-p76 w-100 d-flex ">
-                                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
-                                        </div>
+                                        <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                            </div>
                                     </div>
                                     <div className="pep-10 psp-10">
                                         <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-15">Bien</div>
@@ -52,9 +53,9 @@ function Page076(props) {
                                 </div>
                                 <div className="cb-lado-a-p76">
                                     <div className="cb-izq-p76 w-100 d-flex ">
-                                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
-                                        </div>
+                                        <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                            </div>
                                     </div>
                                     <div className="pep-10 psp-10">
                                         <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-15">Regular</div>
@@ -63,9 +64,9 @@ function Page076(props) {
                                 </div>
                                 <div className="cb-lado-a-p76">
                                     <div className="cb-izq-p76 w-100 d-flex ">
-                                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
-                                        </div>
+                                        <div className="wp-30 hp-30">
+                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                            </div>
                                     </div>
                                     <div className="pep-10 psp-10">
                                         <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-15">Tenemos que mejorar</div>
