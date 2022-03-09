@@ -1,7 +1,13 @@
-/* .bgc-55 {
-    background: url(images/page_055/fondo.jpg) top center / contain no-repeat !important;
+.bgc-55 {
+    background: url(images/page_067/fondo-corcho.jpg) top center / cover no-repeat !important;
     -webkit-print-color-adjust: exact !important;
-} */
+  }
+  
+  .corcho-borde{
+    border-width: 10px;
+    border-style: solid;
+    border-color: #A24410;
+  }
 
 .box-shadow-55-1 {
     -webkit-box-shadow: 5px 5px 1px -1px var(--saitama);

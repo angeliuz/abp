@@ -65,7 +65,7 @@ function Page055(props) {
             </div>
           </div>
 
-          <div className="bgc-55 mtp-0 msp-60 mep-60 mbp-7 ptp-30 psp-10">
+          <div className="bgc-55 mtp-0 msp-60 mep-60 mbp-7 ptp-30 psp-10 corcho-borde">
 
 
 
