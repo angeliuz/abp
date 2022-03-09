@@ -51,7 +51,7 @@ function Page044(props) {
 
                                 <div className="d-flex flex-column mbp-20 mtp-10 p-2 w-100 border-style-solid border-2 rounded-p-10 border-color-dark bgc-white">
                                     <div className="p-2 w-100 d-flex flex-column">
-                                        <div className="f-Ubuntu-L fsp-16  text-start w-100">Podemos mejorar en...</div>
+                                        <div className="f-Ubuntu-L fsp-16  text-start w-100">Nos gustaria saber más sobre...</div>
                                         <div className="pep-20">
                                             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-210" />
                                         </div>

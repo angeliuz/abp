@@ -137,7 +137,7 @@ function Page047(props) {
 
           </div>
 
-          <div className="ptp-10 psp-50 pep-50 mbp-60">
+          <div className="ptp-10 psp-50 pep-50 mbp-20">
             <div className="d-flex">
               <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_047/g.svg" alt="" />
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">2</div>
@@ -146,7 +146,7 @@ function Page047(props) {
             </div>
           </div>
 
-          {/* <div className="d-flex msp-60 mep-60 mbp-100">
+          <div className="d-flex msp-60 mep-60 mbp-90">
             <div className="row w-100 p-0 m-0">
               <div className="col-sm-12 col-md-6 pbp-10">
                 <div className="d-flex">
@@ -200,7 +200,7 @@ function Page047(props) {
               </div>
 
             </div>
-          </div> */}
+          </div>
 
           {/* PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>

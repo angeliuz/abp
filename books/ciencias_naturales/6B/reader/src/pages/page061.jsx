@@ -1,7 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
-
+import Check from "../components/Check";
 import "./page_061.css";
 
 function Page061(props) {
@@ -75,7 +75,7 @@ function Page061(props) {
                             <div className="col-12 p-0 m-0 position-relative">
 
                                 <div className="d-flex w-100 p-2">
-                                    <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-saitama fsp-17  fw-700 pbp-5">c.</div>
+                                    <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-saitama fsp-17  fw-700 pbp-5">a.</div>
                                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Evalúamos el aparato o sistema de nuestros compañeros usando la escala de
                                         puntuación, donde 1 indica que no cumple y 5 indica que cumple completamente.</div>
                                 </div>
@@ -85,7 +85,7 @@ function Page061(props) {
                     </div>
 
 
-                    <div className="positon-relative ">
+                    <div className="positon-relative mbp-80 ">
                         <div className="bgc-draco rounded-p-10 mtp-0 msp-60 mep-60 mbp-10 ptp-5 pbp-10 psp-0   f-Ubuntu-R fw-700  position-relative">
 
 
@@ -94,7 +94,7 @@ function Page061(props) {
                                 <div className="row h-100 w-100 m-0 p-0 ">
                                     <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
                                         <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso1 color-white">FUNCIONAMIENTO</div>
-                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white psp-5 ">Presenta un sistema sencillo y c modo de manejar.</div>
+                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-L fsp-16 p-1 text-start bgc-white psp-5 ">Presenta un sistema sencillo y cómodo de manejar.</div>
                                     </div>
 
                                     <div className="col-sm-1 col-md-1 d-flex align-items-center justify-content-center position-relative  wp-50 p-0 m-0 ">
@@ -109,7 +109,7 @@ function Page061(props) {
                                 <div className="row h-100 w-100 m-0 p-0 ">
                                     <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
                                         <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso2 color-white">OPERATIVIDAD</div>
-                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white psp-5 ">Aprovecha eficientemente la energía renovable.</div>
+                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-L fsp-16 p-1 text-start bgc-white psp-5 ">Aprovecha eficientemente la energía renovable.</div>
                                     </div>
 
                                     <div className="col-sm-1 col-md-1 d-flex align-items-center justify-content-center position-relative  wp-50 p-0 m-0 ">
@@ -124,7 +124,7 @@ function Page061(props) {
                                 <div className="row h-100 w-100 m-0 p-0 ">
                                     <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
                                         <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso3 color-white">SEGURIDAD</div>
-                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white psp-5 ">No presenta riesgos ni peligrosidad para los usuarios.</div>
+                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-L fsp-16 p-1 text-start bgc-white psp-5 ">No presenta riesgos ni peligrosidad para los usuarios.</div>
                                     </div>
 
                                     <div className="col-sm-1 col-md-1 d-flex align-items-center justify-content-center position-relative  wp-50 p-0 m-0 ">
@@ -139,7 +139,7 @@ function Page061(props) {
                                 <div className="row h-100 w-100 m-0 p-0 ">
                                     <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
                                         <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso4 color-white">PROPÓSITO</div>
-                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white psp-5 ">Cumple su objetivo y mejora la vida de las personas.</div>
+                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-L fsp-16 p-1 text-start bgc-white psp-5 ">Cumple su objetivo y mejora la vida de las personas.</div>
                                     </div>
 
                                     <div className="col-sm-1 col-md-1 d-flex align-items-center justify-content-center position-relative  wp-50 p-0 m-0 ">
@@ -154,7 +154,7 @@ function Page061(props) {
                                 <div className="row h-100 w-100 m-0 p-0 ">
                                     <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
                                         <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso5 color-white">SOSTENIBILIDAD</div>
-                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 text-start bgc-white psp-5 ">Es respetuoso con el medioambiente.</div>
+                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-30 f-Ubuntu-L fsp-16 p-1 text-start bgc-white psp-5 ">Es respetuoso con el medioambiente.</div>
                                     </div>
 
                                     <div className="col-sm-1 col-md-1 d-flex align-items-center justify-content-center position-relative  wp-50 p-0 m-0 ">
@@ -169,7 +169,7 @@ function Page061(props) {
                                 <div className="row h-100 w-100 m-0 p-0 ">
                                     <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
                                         <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso6 color-white">CREATIVIDAD</div>
-                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-60 f-Ubuntu-R fsp-16 p-1 text-start bgc-white psp-5 ">Es una propuesta innovadora.</div>
+                                        <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-60 f-Ubuntu-L fsp-16 p-1 text-start bgc-white psp-5 ">Es una propuesta innovadora.</div>
                                     </div>
 
                                     <div className="col-sm-1 col-md-1 d-flex align-items-center justify-content-center position-relative  wp-50 p-0 m-0 ">
@@ -187,9 +187,9 @@ function Page061(props) {
                                 <div className="d-flex flex-column msp-10 mep-10 w-100 ptp-0 pbp-10 psp-20 pep-20 bgc-white border-style-solid border-2 bolder-color-lightDark rounded-p-10 position-relative">
                                     <div className="position-absolute top-0 start-0 translate-middle     msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-60" alt="" /></div>
                                     <div className="position-absolute top-0 start-100 translate-middle   msp--30 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-30" alt="" /></div>
-                                    <div className="d-flex align-items-center   w-100   f-Ubuntu-R fsp-16  text-start ptp-10 ">Observaciones:</div>
+                                    <div className=" align-items-center w-100 f-Ubuntu-R fsp-16  text-start ptp-10 ">Observaciones:</div>
 
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
+                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200 f-Ubuntu-L" />
                                 </div>
                             </div>
 

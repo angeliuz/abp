@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
+import Check from "../components/Check";
 import "./page_052.css";
 
 function Page052(props) {
@@ -42,16 +43,12 @@ function Page052(props) {
                     <div className="col-12 f-Ubuntu-L fsp-14 lh-sm text-start ptp-20 msp-20">Al probar el prototipo el resultado…</div>
 
                     <div className="col-4 d-flex p-2">
-                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
-                      </div>
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">fue el esperado.</div>
                     </div>
 
                     <div className="col-6 d-flex  p-2">
-                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
-                      </div>
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">no fue el esperado.</div>
                     </div>
 

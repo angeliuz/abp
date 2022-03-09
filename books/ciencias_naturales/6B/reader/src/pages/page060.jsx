@@ -34,7 +34,7 @@ function Page060(props) {
                                 <div className="d-flex w-100 p-2">
                                     <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-saitama fsp-17 fw-700 pbp-1">b.</div>
                                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Construimos el aparato o sistema tecnológico que aprovechará la
-                                        energía en el colegio y documentamos el proceso con fotografías</div>
+                                        energía en el colegio y documentamos el proceso con fotografías.</div>
                                 </div>
 
                             </div>
@@ -120,7 +120,7 @@ function Page060(props) {
                                                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
                                                 </div>
                                                 <div className=" d-flex h-50  center-center position-relative m-3 ">
-                                                    <div className="position-absolute top-100 start-0 translate-middle  msp--250 mtp--120 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-180" alt="" /></div>
+                                                    <div className="position-absolute top-100 start-0 translate-middle  msp--250 mtp--120 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-200" alt="" /></div>
                                                 </div>
                                                 {/* <div className="position-absolute top-0 start-50 translate-middle-x msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_001.svg"} className="wp-300" alt="" /></div> */}
 
@@ -165,7 +165,7 @@ function Page060(props) {
                             <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-bulma"></div>
                         </div>
-                        <div className="col-7 col-sm-2 p-0 m-0 position-relative">
+                        <div className="col-1 col-sm-2 p-0 m-0 position-relative">
                             <img src="images/rotulo_investigacion.svg" className="oculto" alt="" />
                             <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-android18"></div>
@@ -175,7 +175,7 @@ function Page060(props) {
                             <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-pidgey"></div>
                         </div>
-                        <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+                        <div className="col-7 col-sm-2 p-0 m-0 position-relative">
                             <img src="images/rotulo_creacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
                             <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-saitama"></div>
