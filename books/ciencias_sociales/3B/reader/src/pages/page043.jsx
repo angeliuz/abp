@@ -2,6 +2,7 @@ import React from "react";
 import ModalVideo from "../components/ModalVideo";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 import "./page_043.css";
 
 function Page043(props) {
@@ -114,15 +115,15 @@ function Page043(props) {
                     <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm  psp-10 lh-sm">Muestra de diversidad gastronómica.</div>
                   </div>
                   <div className="d-flex align-items-center p-1 w-100  ">
-                    <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" /></div>
+                    <div className="d-inline wp-30 hp-30  bgc-white"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
                     <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm  psp-10 lh-sm">Muestra de vestimenta típica.</div>
                   </div>
                   <div className="d-flex align-items-center p-1 w-100  ">
-                    <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" /></div>
+                    <div className="d-inline wp-30 hp-30  bgc-white"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
                     <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm  psp-10 lh-sm">Representación de diversas tradiciones.</div>
                   </div>
                   <div className="d-flex align-items-start  p-1 w-100 mbp-10 ">
-                    <div className="d-inline wp-35 hp-30 border-style-solid border-1 border-color-dark bgc-white"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" /></div>
+                    <div className="d-inline wp-35 hp-30 bgc-white"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
                     <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm mt-1 psp-10 lh-sm "> Otra.
                     </div>
                     <div className="w-100 max-wp-400 m-0 p-0 ">

@@ -71,7 +71,7 @@ function Page066(props) {
 
                   <div className="col-12 p-3">
                     <div className="w-100 p-3 mtp-3 bgc-white border-style-solid  border-1 border-color-motaro sombra rounded-p-10 ">
-                      <div className="text-start">Características de la campaña</div>
+                      <div className="text-start">Soportes de la campaña</div>
 
 
                       <div className="row psp-4">
@@ -123,7 +123,7 @@ function Page066(props) {
                           <div className="d-flex align-items-start justify-content-start  p-2  f-Ubuntu-R fsp-15   ">
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             <div className="f-Ubuntu-L  ptp-10 f-Ubuntu-R fsp-15 psp-5  ">Otros: </div>
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 w-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
 
                           </div>
                         </div>
@@ -136,7 +136,7 @@ function Page066(props) {
 
                   <div className="col-12 p-3">
                     <div className="w-100 p-3 mtp-1 bgc-white border-style-solid border-1 border-color-motaro sombra rounded-p-10">
-                      <div className="text-start">Soportes de la campaña</div>
+                      <div className="text-start">Características de la campaña</div>
 
 
                       <div className="row psp-4">
@@ -188,7 +188,7 @@ function Page066(props) {
                           <div className="d-flex align-items-start justify-content-start  p-2  f-Ubuntu-R fsp-15   ">
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             <div className="f-Ubuntu-L  ptp-10 f-Ubuntu-R fsp-15 psp-5  ">Otros: </div>
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 w-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
 
                           </div>
                         </div>

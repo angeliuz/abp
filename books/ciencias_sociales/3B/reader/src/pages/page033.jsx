@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 import "./page_033.css";
 
 function Page033(props) {
@@ -59,39 +60,39 @@ function Page033(props) {
               <div className="col-md-8 position-relative pbp-20 ptp-15">
                 <div className="bloque-respuesta p-3 text-left bgc-yoru border-style-solid border-color-goku border-1 ">
                   <div className="d-flex align-items-center pbp-10">
-                    <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
+                    <div className="pep-10"><div className="cuadro-clic"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div></div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Qué edad tienes?</div>
                   </div>
                   <div className="d-flex align-items-center pbp-10">
-                    <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
+                    <div className="pep-10"><div className="cuadro-clic"> <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div></div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿De qué nacionalidad eres?</div>
                   </div>
                   <div className="d-flex align-items-center pbp-10">
-                    <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
+                    <div className="pep-10"><div className="cuadro-clic"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div></div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Te consideras parte de o perteneces a un pueblo originario?</div>
                   </div>
                   <div className="d-flex align-items-center pbp-10">
-                    <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
+                    <div className="pep-10"><div className="cuadro-clic"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div></div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Cuál es tu música favorita?</div>
                   </div>
                   <div className="d-flex align-items-center pbp-10">
-                    <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
+                    <div className="pep-10"><div className="cuadro-clic"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div></div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Cuál es tu comida típica favorita?</div>
                   </div>
                   <div className="d-flex align-items-center pbp-10">
-                    <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
+                    <div className="pep-10"><div className="cuadro-clic"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div></div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Cuál es tu deporte favorito?</div>
                   </div>
                   <div className="d-flex align-items-center pbp-10">
-                    <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
+                    <div className="pep-10"><div className="cuadro-clic"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div></div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Qué te gusta hacer en tu tiempo libre?</div>
                   </div>
                   <div className="d-flex align-items-center pbp-10">
-                    <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
+                    <div className="pep-10"><div className="cuadro-clic"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div></div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">¿Cuál es tu asignatura favorita?</div>
                   </div>
                   <div className="d-flex align-items-center pbp-10">
-                    <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
+                    <div className="pep-10"><div className="cuadro-clic"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div></div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Otra:</div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" max-wp-300 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                   </div>

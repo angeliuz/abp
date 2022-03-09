@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 import "./page_049.css";
 
 function Page049(props) {
@@ -89,38 +90,38 @@ function Page049(props) {
 
                   <div className=" mtp-15 psp-20">
                     <div className="d-flex align-items-center pbp-10 w-100">
-                      <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white pb-1">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" />
+                      <div className="d-inline wp-30 hp-30 bgc-white pb-1">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                       <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Pintura (témpera, acuarela, óleo).</div>
                     </div>
                     <div className="d-flex align-items-center pbp-10 w-100">
-                      <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" />
+                      <div className="d-inline wp-30 hp-30  bgc-white">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                       <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Escultura (greda, plasticina, arcilla).</div>
                     </div>
                     <div className="d-flex align-items-center pbp-10 w-100">
-                      <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" />
+                      <div className="d-inline wp-30 hp-30 bgc-white">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                       <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Collage (papeles de colores, palabras, fotografías).</div>
                     </div>
                     <div className="d-flex align-items-center pbp-10 w-100">
-                      <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" />
+                      <div className="d-inline wp-30 hp-30 bgc-white">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                       <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Escultura (greda, plasticina, arcilla).</div>
                     </div>
                     <div className="d-flex align-items-center pbp-10 w-100">
-                      <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" />
+                      <div className="d-inline wp-30 hp-30 bgc-white">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                       <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Collage (papeles de colores, palabras, fotografías)..</div>
                     </div>
                     <div className="d-flex align-items-start   w-100 mbp-10 ">
-                      <div className="d-inline wp-35 hp-30 border-style-solid border-1 border-color-dark bgc-white">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" /></div>
+                      <div className="d-inline wp-35 hp-30">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
                       <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm mt-1 psp-10 lh-sm "> Otra.
                       </div>
                       <div className="w-100 max-wp-350 m-0 p-0 ">
