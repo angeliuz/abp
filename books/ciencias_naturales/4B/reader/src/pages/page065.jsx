@@ -42,7 +42,7 @@ function Page065(props) {
           </div>
           {/* CONTENIDO*/}
           <div className="bgc-arena cb-calc cb-600 mx-auto ptp-5 pbp-20 rounded-p-10 mtp-10 position-relative f-Ubuntu-R">
-            <img src="images/page_065/img_004.png" class="wp-260 position-absolute cb-personaje-65" alt="" />
+            <img src="images/page_065/img_004.png" class="wp-260 position-absolute cb-personaje-65 visible-768" alt="" />
             <img src="images/page_065/img_002.png" class="wp-20 position-absolute cb-lapiz-65" alt="" />
             <div className="mtp-20 cb-calc bgc-white mx-auto rounded-p-10 border-style-solid border-1 border-color-pikachu position-relative">
               <span className="d-flex text-start p-2 f-pixilate-bold fsp-15"> NOMBRE DE LA BRIGADA:</span>

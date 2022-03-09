@@ -33,18 +33,34 @@ function Page068(props) {
                   <span className="f-Ubuntu-L fsp-15 fw-700">Las tres frases que identifican nuestra brigada son:</span>
                   <div className="d-flex">
                     <div className="justify-content-between h-100 ptp-20">
-                      <div className="hp-20 wp-20 bgc-ken justify-content-center align-items-center d-flex color-white fw-700 fsp-15 mbp-50">
-                        1
-                      </div>
-                      <div className="hp-20 wp-20 bgc-ken justify-content-center align-items-center d-flex color-white fw-700 fsp-15 mbp-50">
-                        2
-                      </div>
-                      <div className="hp-20 wp-20 bgc-ken justify-content-center align-items-center d-flex color-white fw-700 fsp-15">
-                        3
+                    </div>
+                    <div className="psp-35 w-100 position-relative">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                      <div className="position-absolute top-50 start-0 mtp-10 translate-middle">
+                        <div className="hp-20 wp-20 bgc-ken justify-content-center align-items-center d-flex color-white fw-700 fsp-15 mbp-50">
+                          1
+                        </div>
                       </div>
                     </div>
-                    <div className="psp-20 w-100">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
+                  </div>
+                  <div className="justify-content-between h-100 ptp-20">
+                    <div className="psp-35 w-100 position-relative">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                      <div className="position-absolute top-50 start-0 mtp-10 translate-middle">
+                        <div className="hp-20 wp-20 bgc-ken justify-content-center align-items-center d-flex color-white fw-700 fsp-15 mbp-50">
+                          2
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="justify-content-between h-100 ptp-20">
+                    <div className="psp-35 w-100 position-relative">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                      <div className="position-absolute top-50 start-0 mtp-10 translate-middle">
+                        <div className="hp-20 wp-20 bgc-ken justify-content-center align-items-center d-flex color-white fw-700 fsp-15 mbp-50">
+                          3
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -63,9 +79,9 @@ function Page068(props) {
                 <div className="d-flex flex-column mtp-30 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
                   <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-10">¿Cómo vamos?</div>
                   <div className="d-flex flex-column bgc-white rounded-p-10 psp-10 pep-10 ptp-10 pbp-10 mtp-0 mbp-0">
-                    <div className="row p-0 m-0 w-70">
+                    <div className="row p-0 m-0 w-80">
                       <div className="col-12 p-0 m-0 position-relative">
-                        <div className="position-absolute top-100 start-100 translate-middle msp-100 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-120" alt="" /></div>
+                        <div className="position-absolute top-100 start-100 translate-middle msp-70 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-120" alt="" /></div>
                         <div className="d-flex flex-column">
                           <div className="d-flex align-items-start">
                             <div className="mtp-0 pep-5">
@@ -74,7 +90,7 @@ function Page068(props) {
                             <div className="f-Ubuntu-L fsp-15 ptp-2 text-start"> Las fortalezas de nuestro equipo son:</div>
                           </div>
                           <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea w-100 lhp-35 min-hp-80" />
                           </div>
                         </div>
                       </div>
@@ -87,7 +103,7 @@ function Page068(props) {
                             <div className="f-Ubuntu-L fsp-15 ptp-2 text-start"> Lo que deberíamos mejorar de nuestro trabajo en equipo es:</div>
                           </div>
                           <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea w-100 lhp-35 min-hp-140" />
                           </div>
                         </div>
                       </div>

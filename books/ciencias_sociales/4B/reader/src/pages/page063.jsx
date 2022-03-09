@@ -22,22 +22,30 @@ function Page063(props) {
       <div className="d-flex flex-column align-items-center pbp-20">
         <div className={"dosier-e" + etapa + " page bgc-white overflow-hidden position-relative"} id={"page_" + pagina}>
           <img src={"images/cabecera/dosier_e" + etapa + ".svg"} className="w-100" alt="" />
-          <div className="position-relative w-100 mbp-10">
-            <div className="psp-80 pep-70 ptp-30 pbp-0 position-relative">
-              <div className="position-absolute top-50 start-100 translate-middle    zindex-2  msp--140 mtp-25 position-relative"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-220" alt="" />
-                <div className="position-absolute top-0 start-50 translate-middle-x  "><div className="ptp-20 f-pixilate-bold fsp-16 text-center wp-200 pep-20 gira--4">Dibuja aquí la insignia de tu equipo.</div>
-                  <div className="p-2 mtp--5"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start  flex-grow-1 contenedor-linea lhp-35 min-hp-120  gira--4" /></div>
-                </div>
-
+          <div className="position-relative w-100">
+            <div className="row psp-80 pep-70 ptp-10 pbp-50 ">
+              <div className="f-Ubuntu-R text-start msp-40 fsp-18 psp-30 pbp-10">
+                Esta página fue completada por:
               </div>
-              <div className="fsp-16 f-Ubuntu-R text-start psp-50 pbp-10">Esta página fue completada por:</div>
-              <div className={"psp-50 pep-180 ptp-5 pbp-5 bgc-white rounded-p-10 border-style-solid border-1 " + borderColor + " d-flex justify-content-center position-relative"}>
-                <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 mtp--10"><img src={"images/page_" + pagina + "/img_001.png"} className="w-80" alt="" /></div>
-                {/* <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp--10"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-60" alt="" /></div> */}
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start  flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+              <div className="d-flex position-relative">
+                <img src={"images/page_" + pagina + "/.svg"} class="hp-110 position-absolute start-0 top-0 mtp--20 msp--10"alt="" />
+                <div className={"bgc-white rounded-p-10 border-style-solid border-1 " + borderColor + " w-100 py-1 psp-50 pep-20"}>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 w-60 lhp-35 min-hp-35" />
+                </div>
               </div>
             </div>
+
+            <div className="position-absolute top-0 start-100 hoja-p39 zindex-2">
+              <div className="position-relative bgc-white border-style-solid border-1 border-dark wp-250 hp-200 d-flex flex-column p-2 giro--4deg sombra-1">
+                <div className=" mxwp-160 centrar-hor f-pixilate-regular fsp-21">Dibuja aquí la insignia de tu equipo</div>
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-35" />
+                
+               
+              </div>
+            </div>
+            <div className="position-absolute top-0 start-0 translate-middle msp-90 mtp-60 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-60" alt="" /></div>
           </div>
+          <div className="espaciado-p39"></div>
 
 
 
