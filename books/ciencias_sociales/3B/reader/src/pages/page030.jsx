@@ -88,7 +88,7 @@ function Page030(props) {
                 </div>
               <div className="  border-2 pbp-50 psp-60 pep-60 ">
                 
-                <div className="block-bottom text-start mtp-30 f-pixilate-bold">
+                <div className="block-bottom text-start mtp-30 f-pixilate-bold fsp-18">
                   ¿Cómo voy?
                 </div>
                 <div className=" block-bottom  pb-3 psp-15 ptp-10 pep-20 f-Ubuntu-L bgc-white fsp-13 rounded-p-10">
@@ -96,7 +96,7 @@ function Page030(props) {
                   <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
                     <div className="d-flex">
                       <div className="flecha-android18-30 pep-10 mtp-3"></div>
-                      <span className="w-24 f-Ubuntu-L text-start">
+                      <span className="w-24 f-Ubuntu-L text-start fsp-15">
                         Lo que debemos mejorar como equipo es…
                       </span>
                     </div>
@@ -112,7 +112,7 @@ function Page030(props) {
                   <div className="d-flex flex-wrap w-100 align-items-end titulo-linea">
                     <div className="d-flex">
                       <div className="flecha-android18-30 pep-10 mtp-3"></div>
-                      <span className="w-24 f-Ubuntu-L text-start">
+                      <span className="w-24 f-Ubuntu-L text-start fsp-15">
                         Lo que mejor nos resultó del trabajo en equipo es…
                       </span>
                     </div>

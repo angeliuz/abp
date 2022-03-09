@@ -31,7 +31,7 @@ function Page046(props) {
                     {/* <img className="hp-15 align-center mt-3 me-2 mb-2" src="images/page_014/img_001.svg" alt="" /> */}
                     <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">4</div>
                     <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10">Leo la revista, comprendo y completo.</div>
-                    <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"73"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+                    <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"73"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 msp-10" className="p-0 px-0" />
                     
                    
                 </div>             
