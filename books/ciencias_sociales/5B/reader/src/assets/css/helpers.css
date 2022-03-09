@@ -425,6 +425,9 @@
 .hp-30 {
   height: 30px;
 }
+.hp-32 {
+  height: 32px;
+}
 .hp-35 {
   height: 35px;
 }
@@ -4375,6 +4378,9 @@
 /* MAX WIDTH */
 .max-wp-200 {
   max-width: 200px !important;
+}
+.max-wp-260 {
+  max-width: 260px !important;
 }
 .max-wp-360 {
   max-width: 360px !important;

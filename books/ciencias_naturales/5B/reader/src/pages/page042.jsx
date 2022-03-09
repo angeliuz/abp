@@ -3,6 +3,7 @@ import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
 import ModalBook from "../components/ModalBook";
 import "./page_042.css";
+import Check from "../components/Check";
 
 function Page042(props) {
 
@@ -65,42 +66,43 @@ function Page042(props) {
             </div> */}
           </div>
 
-          <div className="d-flex global-margin mtp-10 mbp-60 psp-50 pep-0 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-10 mbp-140 psp-50 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100 position-relative">
-              <div className="position-absolute top-50 start-0 translate-middle zindex-2"><img src={"images/page_" + pagina + "/lapiz.png"} className="hp-80 mep-10 mbp-200" alt="" /></div>
+              
               <div className="col-12 m-0 rounded-p-10 bgc-motaro p-3 position-relative">
+              <div className="position-absolute top-50 start-0 translate-middle zindex-2"><img src={"images/page_" + pagina + "/lapiz.png"} className="hp-80 mep-10 mbp-200" alt="" /></div>
                 <div className="text-center f-colby-bold fsp-18 pbp-10">ENCUESTA</div>
-                <div className="d-flex align-items-center pbp-10">
+                <div className=" d-flex align-items-center pbp-10">
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 text-start">Nombre:</div>
-                  <div className="w-100 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-30 contenedor-linea" /></div>
+                  <div className="w-100 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-30 contenedor-linea" /></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 psp-10">Curso:</div>
-                  <div className="w-20 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-30 contenedor-linea" /></div>
+                  <div className=" bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="wp-80 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-30 contenedor-linea" /></div>
                 </div>
                 <div className="d-flex align-items-center pbp-10">
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 text-start">Fecha de nacimiento:</div>
-                  <div className="w-100 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-30 contenedor-linea" /></div>
+                  <div className="w-100 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-350 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-30 contenedor-linea" /></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 psp-10 text-start">Tengo:</div>
-                  <div className="w-20 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-30 contenedor-linea" /></div>
+                  <div className=" bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="wp-80 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-30 contenedor-linea" /></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 psp-5 text-start">años</div>
                 </div>
                 <div className="d-flex align-items-center pbp-10">
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 text-start"><span className="f-Ubuntu-M pep-10">1.</span>¿Compras en el kiosco del colegio?</div>
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" /></div>
+                  <div className=""><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-10 psp-5 text-start">Sí</div>
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" /></div>
+                  <div className=""><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 psp-5 text-start">No</div>
                 </div>
                 <div className="align-items-center pbp-0 f-Ubuntu-L fsp-15 lh-sm pep-5 text-start"><span className="f-Ubuntu-M pep-10">2.</span>Si la respuesta fue Sí, menciona los productos que compras habitualmente.</div>
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 fsp-15 text-start flex-grow-1 lhp-35 min-hp-35 contenedor-linea msp-20" />
                 <div className="d-flex align-items-center pbp-10 ptp-10">
                   <div className="w-60 f-Ubuntu-L fsp-15 lh-sm pep-5 mtp-0 text-start"><span className="f-Ubuntu-M pep-10">3.</span>¿Qué otros alimentos te gustaría que se vendieran?</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 fsp-15 text-start flex-grow-1 lhp-35 min-hp-35 contenedor-linea msp-0" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-250 px-1 fsp-15 text-start flex-grow-1 lhp-35 min-hp-35 contenedor-linea msp-0" />
                 </div>
                 <div className="d-flex align-items-center pbp-10">
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 text-start"><span className="f-Ubuntu-M pep-10">4.</span>¿Almuerzas en el casino del colegio?</div>
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" /></div>
+                  <div className=""><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-10 psp-5 text-start">Sí</div>
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" /></div>
+                  <div className=""><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 psp-5 text-start">No</div>
                 </div>
                 <div className="align-items-center pbp-0 f-Ubuntu-L fsp-15 lh-sm pep-5 text-start"><span className="f-Ubuntu-M pep-10">5.</span>Si la respuesta fue Sí, menciona tus comidas favoritas.</div>
@@ -109,23 +111,23 @@ function Page042(props) {
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 fsp-15 text-start flex-grow-1 lhp-35 min-hp-35 contenedor-linea msp-20" />
                 <div className="align-items-center pbp-10 f-Ubuntu-L fsp-15 lh-sm pep-5 ptp-10 text-start"><span className="f-Ubuntu-M pep-10">7.</span>Selecciona las afirmaciones que te identifican.</div>
                 <div className="d-flex align-items-center psp-20 pbp-10">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" /></div>
+                  <div className=""><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 psp-10 text-start">Tomo bebidas azucaradas más de 2 veces por semana.</div>
                 </div>
                 <div className="d-flex align-items-center psp-20 pbp-10">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" /></div>
+                <div className=""><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 psp-10 text-start">Como al menos 2 porciones de frutas al día.</div>
                 </div>
                 <div className="d-flex align-items-center psp-20 pbp-10">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" /></div>
+                <div className=""><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 psp-10 text-start">Para las comidas prefiero las papas fritas en lugar de las verduras.</div>
                 </div>
                 <div className="d-flex align-items-center psp-20 pbp-10">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" /></div>
+                <div className=""><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 psp-10 text-start">Suelo comer comida rápida 1 o 2 veces por semana.</div>
                 </div>
                 <div className="d-flex align-items-center psp-20 pbp-5">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" /></div>
+                <div className=""><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 psp-10 text-start">Mi <i>snack</i> favorito son los dulces y pasteles.</div>
                 </div>
               </div>

@@ -80,7 +80,7 @@ function Page043(props) {
                             <div className="position-absolute top-0 start-100 translate-middle zindex-2"><img src={"images/page_" + pagina + "/estrella.png"} className="hp-40 msp-45 mtp-15" alt="" /></div>
                             <div className="col-12 p-0 m-0">
                                 <div className="bgc-tshinhan psp-10 pep-10 msp-5 mbp-20 p-2">
-                                    <div className="bgc-hutao w-100 p-3 mbp-5 rounded-p-10 linea_central">
+                                    <div className="bgc-hutao w-100 p-3 mbp-5 rounded-p-10">
                                         <div className="f-Ubuntu-L fsp-14 lh-sm text-start ptp-10">Nuestro equipo hará la encuesta a</div>
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-70 contenedor-linea" />
                                         <div className="f-Ubuntu-L fsp-14 lh-sm text-start ptp-10">Porque</div>
@@ -110,7 +110,7 @@ function Page043(props) {
                         </div> */}
                     </div>
 
-                    <div className="d-flex global-margin mtp-0 mbp-80 psp-0 pep-0 ptp-0 pbp-0">
+                    <div className="d-flex global-margin mtp-0 mbp-140 psp-0 pep-0 ptp-0 pbp-0">
                         <div className="row p-0 m-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative d-flex">
                                 <div className="col p-0 m-0"><div className="fondo-2 mbp-10 ptp-5 color-white text-center f-Ubuntu-M fsp-16 lh-sm">Lo que hay que hacer</div></div>
@@ -138,7 +138,7 @@ function Page043(props) {
                                 <div className="col-6 p-0 m-0"><div className="bgc-windu mbp-10 pp-9_4 rounded-p-5 text-start"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-30 contenedor-linea" /></div></div>
                             </div>
                             <div className="col-12 p-0 m-0 position-relative d-flex justify-content-center align-items-center">
-                                <div className="col p-0 m-0"><div className="bgc-azuka mbp-10 pp-9_4 rounded-p-5 text-center"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-30 contenedor-linea" /></div></div>
+                                <div className="w-40 col p-0 m-0"><div className="bgc-azuka mbp-10 pp-9_4 rounded-p-5 text-center"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-30 contenedor-linea" /></div></div>
                                 <div className="col-auto p-0 m-0"><div className="triangulo"></div></div>
                                 <div className="col-6 p-0 m-0"><div className="bgc-windu mbp-10 pp-9_4 rounded-p-5 text-start"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-30 contenedor-linea" /></div></div>
                             </div>

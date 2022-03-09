@@ -28,9 +28,9 @@ function Page056(props) {
               <div className="pc-caja-objetivos-1">
                 <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
                   <div className={"d-flex " + bgc_cajas + " psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e" + etapa}>
-                    {/* <div className="d-flex wp-23">
-                      <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-20 mep-5 wp-20" alt="" />
-                    </div> */}
+                    <div className="d-flex wp-23">
+                      <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-20 mep-5 wp-20 mtp--20" alt="" />
+                    </div> 
                     <div>
                       <span className="fsp-16 text-start f-pixilate-regular">
                         <span className="fsp-16 f-IntroRustG-Base text-start">
@@ -45,9 +45,9 @@ function Page056(props) {
               <div className="pc-caja-objetivos-2">
                 <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
                   <div className={"d-flex " + bgc_cajas + " psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e" + etapa}>
-                    {/* <div className="d-flex wp-23">
-                      <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-25 mep-5 wp-20" alt="" />
-                    </div> */}
+                    <div className="d-flex wp-23">
+                      <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-25 mep-5 wp-20 mtp--20" alt="" />
+                    </div> 
                     <div className="d-flex">
                       <span className="fsp-16 text-start f-pixilate-regular">
                         <span className="fsp-16 f-IntroRustG-Base text-start">
@@ -60,9 +60,9 @@ function Page056(props) {
               <div className="pc-caja-objetivos-3">
                 <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
                   <div className={"d-flex " + bgc_cajas + " psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e" + etapa}>
-                    {/* <div className="d-flex">
-                      <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-25 mep-5 wp-20" alt="" />
-                    </div> */}
+                     <div className="d-flex">
+                      <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-25 mep-5 wp-20 mtp--20" alt="" />
+                    </div> 
                     <div className="d-flex">
                       <span className="fsp-16 text-start f-pixilate-regular">
                         <span className="fsp-16 f-IntroRustG-Base text-start">

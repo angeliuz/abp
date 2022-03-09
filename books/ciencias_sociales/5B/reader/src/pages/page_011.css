@@ -1,15 +1,14 @@
-.soc-page11 {
-   background: url(images/page_011/bgc_planificacion.svg) #F29205 top left/ cover no-repeat !important;
+.bgc-planificacion {
+    background: url(images/page_011/bgc_planificacion.svg) var(--bulma) top left/ cover no-repeat !important;
     -webkit-print-color-adjust: exact !important;
-
 }
-.t-shadow-11{
+
+.t-shadow-planificacion {
     text-shadow: -7px -8px #D55F2A;
 }
 
-@media all and (max-width: 500px) {
-
-    .ft-m {
-        font-size: 50px;
-     }
+@media all and (max-width: 580px) {
+    .ft-m-planificacion {
+        font-size: 60px;
+    }
 }

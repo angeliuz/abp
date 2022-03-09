@@ -122,7 +122,7 @@ function Page064(props) {
                   </div>
                 </div>
                 <div className="col-12 p-0 m-0   position-relative">
-                  <div className="position-absolute top-100 start-100 translate-middle visible-768  msp-0 mtp--50 mep-10 pb-2  "> <img src={"images/page_" + pagina + "/img_005.png"} className="wp-85 hp-150" alt="" /> </div>
+                  <div className="position-absolute top-100 start-100 translate-middle visible-768  msp-0 mtp--40 mep-10 pb-2  "> <img src={"images/page_" + pagina + "/img_000.png"} className="wp-110 " alt="" /> </div>
                   <div className="position-absolute top-100 start-0 translate-middle visible-768  msp-0 mtp-10 mep-10 pb-2  "> <img src={"images/page_" + pagina + "/img_006.png"} className="wp-100 hp-50" alt="" /> </div>
                   <div className="d-flex flex-column">
                     <div className="d-flex w-100 psp-20 pep-20 ptp-0 pbp-0">
@@ -131,11 +131,11 @@ function Page064(props) {
                     </div>
                     <div className="d-flex w-100 psp-20 pep-20 ptp-0 pbp-0">
                       <div className="wp-25 hp-25 bgc-saitama rounded-circle color-white f-Ubuntu-L fw-900 fsp-18  ">2</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-600 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-580 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                     </div>
                     <div className="d-flex w-100 psp-20 pep-20 ptp-0 pbp-0">
                       <div className="wp-25 hp-25 bgc-saitama rounded-circle color-white f-Ubuntu-L fw-900 fsp-18  ">3</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-600 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-580 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                     </div>
 
                   </div>

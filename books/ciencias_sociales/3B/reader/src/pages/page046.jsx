@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 
 import "./page_046.css";
 
@@ -31,7 +32,7 @@ function Page046(props) {
                     {/* <img className="hp-15 align-center mt-3 me-2 mb-2" src="images/page_014/img_001.svg" alt="" /> */}
                     <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">4</div>
                     <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10">Leo la revista, comprendo y completo.</div>
-                    <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"73"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+                    <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"73"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 msp-10" className="p-0 px-0" />
                     
                    
                 </div>             
@@ -138,29 +139,29 @@ function Page046(props) {
                                                 </td>
                                                 <td className={"bgc-white f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-1 "+borderColorTabla}>
                                                   <div className="d-flex center-center">
-                                                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                                    <div className="wp-30 hp-30 bgc-white rounded-1">
+                                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                     </div>
                                                   </div>
                                                 </td>
                                                 <td className={"bgc-white min-hp-100 p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-1 "+borderColorTabla}>
                                                   <div className="d-flex center-center">
-                                                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                                    <div className="wp-30 hp-30 bgc-white rounded-1">
+                                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                     </div>
                                                   </div>
                                                 </td>
                                                 <td className={"bgc-white min-hp-100 p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-1 "+borderColorTabla}>
                                                   <div className="d-flex center-center">
-                                                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                                    <div className="wp-30 hp-30 bgc-white rounded-1">
+                                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                     </div>
                                                   </div>
                                                 </td>
                                                 <td className={"bgc-white rounded-te-10  min-hp-100 p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-1 "+borderColorTabla}>
                                                   <div className="d-flex center-center">
-                                                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                                    <div className="wp-30 hp-30 bgc-white rounded-1">
+                                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                     </div>
                                                   </div>
                                                 </td>
@@ -212,29 +213,29 @@ function Page046(props) {
                                                 </td>
                                                 <td className={"bgc-white f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-bottom-hidden border-1 "+borderColorTabla}>
                                                   <div className="d-flex center-center">
-                                                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                                    <div className="wp-30 hp-30 bgc-white rounded-1">
+                                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                     </div>
                                                   </div>
                                                 </td>
                                                 <td className={"bgc-white f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-bottom-hidden border-1 "+borderColorTabla}>
                                                   <div className="d-flex center-center">
-                                                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                                    <div className="wp-30 hp-30 bgc-white rounded-1">
+                                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                     </div>
                                                   </div>
                                                 </td>
                                                 <td className={"bgc-white f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-bottom-hidden border-1 "+borderColorTabla}>
                                                   <div className="d-flex center-center">
-                                                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                                    <div className="wp-30 hp-30 bgc-white rounded-1">
+                                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                     </div>
                                                   </div>
                                                 </td>
-                                                <td className={"bgc-white rounded-be-10   f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-bottom-hidden border-right-hidden border-1 "+borderColorTabla}>
+                                                <td className={"bgc-white rounded-be-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-bottom-hidden border-right-hidden border-1 "+borderColorTabla}>
                                                   <div className="d-flex center-center">
-                                                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                                    <div className="wp-30 hp-30 bgc-white rounded-1">
+                                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                     </div>
                                                   </div>
                                                 </td>

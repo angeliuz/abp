@@ -1,6 +1,7 @@
 import React from "react";
 import ModalVideo from "../components/ModalVideo";
 import InputBox from "../components/InputBox";
+import Check from "../components/Check";
 import "./page_007.css";
 
 function Page007(props) {
@@ -84,32 +85,32 @@ function Page007(props) {
           <div className="cb-ejercicio-2-p07 ptp-15 psp-15 pbp-15 border-color-leia border position-relative mbp-70">
             <img src="images/page_007/img_004.png" className="cb-personaje-p07" alt="" />
                 <div className="d-flex mbp-10">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-30 hp-30 bgc-white rounded-1">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                   <div className="msp-10 justify-content-center align-items-center d-flex"> Todos somos únicos.</div>
                 </div>
                 <div className="d-flex mbp-10">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-30 hp-30 bgc-white  rounded-1">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                     <div className="msp-10 justify-content-center align-items-center d-flex">Todos somos diferentes.</div>
                 </div>
                 <div className="d-flex mbp-10">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-30 hp-30 bgc-white  rounded-1">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                     <div className="msp-10 justify-content-center align-items-center d-flex">Hay que ignorar la diversidad.</div>
                 </div>
                 <div className="d-flex mbp-10">
-                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                    <div className="wp-30 hp-30 bgc-white rounded-1">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="msp-10 justify-content-center align-items-center d-flex">Tenemos que tolerar la diversidad.</div>
                 </div>
                 <div className="d-flex mbp-10">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-30 hp-30 bgc-white  rounded-1">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                     <div className="msp-10 justify-content-center align-items-center d-flex">Es importante respetar la diversidad.</div>
                 </div>

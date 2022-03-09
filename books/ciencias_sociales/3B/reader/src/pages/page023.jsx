@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 
 import "./page_023.css";
 
@@ -106,11 +107,8 @@ function Page023(props) {
                 <div className="box-shadow-simple w-100 p-3 text-left bgc-draco rota">
                   <div className="d-flex align-items-center pbp-10">
                     <div className="pep-10">
-                      <div className="border-style-solid border-1 wp-30 hp-30 bgc-white">
-                        <InputBox
-                          id={"p" + pagina + "_input" + (indexInput += 1)}
-                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                        />
+                      <div className=" wp-30 hp-30 bgc-white">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                     </div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">
@@ -119,11 +117,8 @@ function Page023(props) {
                   </div>
                   <div className="d-flex align-items-center pbp-10">
                     <div className="pep-10">
-                      <div className="border-style-solid border-1 wp-30 hp-30 bgc-white">
-                        <InputBox
-                          id={"p" + pagina + "_input" + (indexInput += 1)}
-                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                        />
+                      <div className="1 wp-30 hp-30 bgc-white">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                     </div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">
@@ -132,11 +127,8 @@ function Page023(props) {
                   </div>
                   <div className="d-flex align-items-center pbp-10">
                     <div className="pep-10">
-                      <div className="border-style-solid border-1 wp-30 hp-30 bgc-white">
-                        <InputBox
-                          id={"p" + pagina + "_input" + (indexInput += 1)}
-                          className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30"
-                        />
+                      <div className=" wp-30 hp-30 bgc-white">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                     </div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">
