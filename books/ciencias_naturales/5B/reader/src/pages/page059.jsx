@@ -154,7 +154,7 @@ function Page059(props) {
                       <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
                         <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         <div className="f-Ubuntu-L msp-10 ptp-10 fsp-15 lh-sm pep-5 text-start     ">otro: </div>
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 w-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
 
                       </div>
                     </div>
@@ -176,10 +176,10 @@ function Page059(props) {
                         <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5  text-start">tablas y/o gráficos</div>
                       </div>
 
-                      <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+                      <div className="d-flex align-items-start justify-content-start f-Ubuntu-R fsp-15   ">
                         <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
-                        <div className="f-Ubuntu-L msp-10 ptp-10 fsp-15 lh-sm pep-5 text-start     ">otro: </div>
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                        <div className="f-Ubuntu-L msp-10 ptp-10 fsp-15 lh-sm pep-5 text-start ">otro: </div>
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 w-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
 
                       </div>
                     </div>
@@ -205,7 +205,7 @@ function Page059(props) {
                       <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
                         <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         <div className="f-Ubuntu-L msp-10 ptp-10 fsp-15 lh-sm pep-5 text-start     ">otro: </div>
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 w-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
 
                       </div>
                     </div>
@@ -251,7 +251,7 @@ function Page059(props) {
                 {/* <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-25 visible-768 zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-60 mtp-60" alt="" /></div> */}
                 <div className="text-center w-100 border-2 border-style-solid border-color-android18 rounded-p-10">
                   <div className="rounded-set-6 hp-40 pep-20 psp-20 ptp-10 pbp-10 bgc-android18 d-flex justify-content-center align-items-center text-white p-2">Yo me encargo de...</div>
-                  <div className="psp-15 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" /></div>
+                  <div className="psp-15 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 f-Ubuntu-R text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" /></div>
                 </div>
               </div>
               <div className="col-sm-12 col-md-6 pbp-25">
@@ -259,7 +259,7 @@ function Page059(props) {
                   <div className="position-absolute top-50 start-100 translate-middle  msp-20 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-30" alt="" /></div>
                   <div className="position-absolute posicion-centro-centro translate-middle zindex-1   "><img src={"images/page_" + pagina + "/img_003.svg"} className="rotacion-centro-centro msp--30 mtp--26 wp-50" alt="" /></div>
                   <div className="rounded-set-6 hp-40 ptp-10 pbp-10 bgc-leia d-flex justify-content-center align-items-center text-white p-2">Además, ayudo a...</div>
-                  <div className="psp-15 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" /></div>
+                  <div className="psp-15 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 f-Ubuntu-R text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" /></div>
                 </div>
               </div>
             </div>

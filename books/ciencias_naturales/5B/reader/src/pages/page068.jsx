@@ -26,7 +26,7 @@ function Page068(props) {
           <div className=" psp-70 pep-50 mtp-60">
 
             <div className="max-wp-640 mx-auto position-relative mtp-20">
-              <div className="position-absolute top-0 start-100 translate-middle   msp-0 mtp-50 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-50" alt="" /></div>
+              <div className="position-absolute top-0 start-100 translate-middle msp-20 mtp-50 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-50" alt="" /></div>
               <div className="position-absolute top-50 start-0 translate-middle    msp--20 mtp-0 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
               <div className="text-center w-100 border-1 border-style-solid border-color-dark rounded-p-10 pbp-15 bgc-white">
                 <div className="f-Ubuntu-L fsp-15 rounded-p-10 w-70  text-start  pep-20 psp-20 ptp-10 pbp-10 mtp--5 bgc-trans-gdosier1   ">
@@ -100,7 +100,7 @@ function Page068(props) {
                       </div>
                       <div className="f-Ubuntu-L fsp-15 ptp-2 text-start">Las fortalezas de nuestro equipo son </div>
                     </div>
-                    <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
+                    <div className=" w-100 psp-20 pep-10 ptp-0 pbp-0">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                     </div>
                   </div>
@@ -113,7 +113,7 @@ function Page068(props) {
                       </div>
                       <div className="f-Ubuntu-L fsp-15 ptp-2 text-start">Lo que deberíamos mejorar de nuestro trabajo en equipo es</div>
                     </div>
-                    <div className="d-flex w-100 psp-20 pep-30 ptp-0 pbp-0">
+                    <div className="w-100 psp-20 pep-30 ptp-0 pbp-0">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
                     </div>
                   </div>
