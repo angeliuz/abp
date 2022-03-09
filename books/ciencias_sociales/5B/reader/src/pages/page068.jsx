@@ -1,11 +1,13 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
-import Check from "../components/Check";
+import Check from "../components/Check2";
 
 import "./page_068.css";
 
 function Page068(props) {
+
+
 
   const pagina = "068";
   var indexInput = 0;
@@ -13,6 +15,8 @@ function Page068(props) {
   const background = "bgc-saitama";
   const color = "color-saitama";
   const bgc_cajas = "bgc-bobafett";
+  const borderColor = "border-color-saitama";
+
 
   return (
     <div className="wrapper bgc-light">
@@ -146,36 +150,39 @@ function Page068(props) {
                 <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo me siento?</div>
                 <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-30">
                   <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/page_018/img_005.svg" className="hp-17 mtp--2" alt="" /> el recuadro que mejor me represente.</span>
-                  <div className="w-100 p-2 pb-3 bgc-white rounded-p-10">
-                    <table className="w-100">
-                      <tbody>
-                        <tr>
-                          <td>&nbsp;</td>
-                          <td className="style-caja bgc-saitama tf-letra border-style-solid border-1 border-color-saitama f-colby-compres-bold ps-2 pe-2">
-                            Nunca</td>
-                          <td style={{ minWidth: "55px" }} className="style-caja bgc-saitama tf-letra  border-style-solid border-1 border-color-saitama f-colby-compres-bold ps-2 pe-2">
-                            A veces</td>
-                          <td className="style-caja bgc-saitama tf-letra border-style-solid border-1 border-color-saitama f-colby-compres-bold ps-2 pe-2">
-                            Generalmente</td>
-                          <td className="style-caja bgc-saitama tf-letra  border-style-solid border-1 border-color-saitama f-colby-compres-bold ps-2 pe-2">
-                            Siempre</td>
-                        </tr>
-                        <tr>
-                          <td className="bgc-windu f-Ubuntu-L fsp-12 text-start psp-5 border-style-solid border-1 border-color-saitama">Me siento tenso y nervioso cuando trabajo con mi equipo.</td>
-                          <td className="border-style-solid border-1 border-color-saitama"></td>
-                          <td className="border-style-solid border-1 border-color-saitama"></td>
-                          <td className="border-style-solid border-1 border-color-saitama"></td>
-                          <td className="border-style-solid border-1 border-color-saitama"></td>
-                        </tr>
-                        <tr>
-                          <td className="bgc-windu f-Ubuntu-L fsp-12 text-start psp-5 border-style-solid border-1 border-color-saitama">Me asusta no hacer bien el trabajo y recibir críticas.</td>
-                          <td className="border-style-solid border-1 border-color-saitama"></td>
-                          <td className="border-style-solid border-1 border-color-saitama"></td>
-                          <td className="border-style-solid border-1 border-color-saitama"></td>
-                          <td className="border-style-solid border-1 border-color-saitama"></td>
-                        </tr>
-                      </tbody>
-                    </table>
+                  <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-30">
+                    {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/page_018/img_005.svg" className="hp-17 mtp--2" alt=""/> el recuadro que mejor me represente.</span> */}
+                    <div className="w-100 p-2 pb-3 bgc-white rounded-p-10">
+                      <table className="w-100">
+                        <tbody>
+                          <tr>
+                            <td>&nbsp;</td>
+                            <td className={"style-caja " + background + " tf-letra border-style-solid border-1 " + borderColor + " f-colby-compres-bold color-white ps-2 pe-2"}>
+                              Nunca</td>
+                            <td style={{ minWidth: "55px" }} className={"style-caja " + background + " tf-letra  border-style-solid border-1 " + borderColor + " f-colby-compres-bold color-white ps-2 pe-2"}>
+                              A veces</td>
+                            <td className={"style-caja " + background + " tf-letra border-style-solid border-1 " + borderColor + " f-colby-compres-bold color-white ps-2 pe-2"}>
+                              Generalmente</td>
+                            <td className={"style-caja " + background + " tf-letra  border-style-solid border-1 " + borderColor + " f-colby-compres-bold color-white ps-2 pe-2"}>
+                              Siempre</td>
+                          </tr>
+                          <tr>
+                            <td className={"" + bgc_cajas + " f-Ubuntu-L fsp-14 text-start psp-5 border-style-solid border-1 " + borderColor + ""}>Confío en mi capacidad para aprender y me valoro.</td>
+                            <td className={"border-style-solid border-1 " + borderColor + ""}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                            <td className={"border-style-solid border-1 " + borderColor + ""}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                            <td className={"border-style-solid border-1 " + borderColor + ""}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                            <td className={"border-style-solid border-1 " + borderColor + ""}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                          </tr>
+                          <tr>
+                            <td className={"" + bgc_cajas + " f-Ubuntu-L fsp-14 text-start psp-5 border-style-solid border-1 " + borderColor + ""}>Confío en mis compañeros y me ayudan cuando lo necesito.</td>
+                            <td className={"border-style-solid border-1 " + borderColor + ""}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                            <td className={"border-style-solid border-1 " + borderColor + ""}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                            <td className={"border-style-solid border-1 " + borderColor + ""}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                            <td className={"border-style-solid border-1 " + borderColor + ""}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
                 </div>
               </div>
