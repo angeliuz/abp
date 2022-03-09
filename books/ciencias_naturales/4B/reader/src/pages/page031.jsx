@@ -36,7 +36,7 @@ function Page031(props) {
           </div>
 
           <div className="row mx-4 position-relative">
-            <div className="col-sm-12 col-md-6 position-relative mbp-10">
+            <div className="col-md-12 col-md-6 position-relative mbp-10">
 
               <div className="box-color-24-1">
                 <div className="f-Ubuntu-M alinea fsp-18 rounded-caja bgc-vegeta w-100 p-2 text-center color-white">
@@ -51,7 +51,7 @@ function Page031(props) {
               </div>
             </div>
 
-            <div className="col-sm-12 col-md-6 position-relative mbp-40">
+            <div className="col-md-12 col-md-6 position-relative mbp-40">
               <div className="position-absolute posicion-centro-centro translate-middle zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="rotacion-centro-centro" alt="" /></div>
               <div className="position-absolute top-0 start-100 translate-middle visible-768 zindex-2 msp--50 mtp--50">
                 <img src="images/page_031/img_001.png" className="" alt="" />
@@ -303,7 +303,7 @@ function Page031(props) {
             className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end"
             style={{ bottom: 0 }}
           >
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-1 col-md-2 p-0 m-0 position-relative">
               <img
                 src="images/rotulo_motivacion.svg"
                 className="oculto"
@@ -312,7 +312,7 @@ function Page031(props) {
               <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
               <div className="w-100 hp-25 bgc-goten"></div>
             </div>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-1 col-md-2 p-0 m-0 position-relative">
               <img
                 src="images/rotulo_planificacion.svg"
                 className="oculto"
@@ -321,7 +321,7 @@ function Page031(props) {
               <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
               <div className="w-100 hp-25 bgc-bulma"></div>
             </div>
-            <div className="col-7 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-7 col-md-2 p-0 m-0 position-relative">
               <img
                 src="images/rotulo_investigacion.svg"
                 className="visible rotulo-etapa position-absolute top-0 start-0"
@@ -330,7 +330,7 @@ function Page031(props) {
               <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
               <div className="w-100 hp-25 bgc-android18"></div>
             </div>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-1 col-md-2 p-0 m-0 position-relative">
               <img
                 src="images/rotulo_experimentacion.svg"
                 className="oculto"
@@ -339,12 +339,12 @@ function Page031(props) {
               <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
               <div className="w-100 hp-25 bgc-pidgey"></div>
             </div>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-1 col-md-2 p-0 m-0 position-relative">
               <img src="images/rotulo_creacion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
               <div className="w-100 hp-25 bgc-saitama"></div>
             </div>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-1 col-md-2 p-0 m-0 position-relative">
               <img src="images/rotulo_difusion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-leono rounded-caja-end"></div>
               <div className="w-100 hp-25 bgc-pikachu"></div>
