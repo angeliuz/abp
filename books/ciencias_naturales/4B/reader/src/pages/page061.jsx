@@ -65,7 +65,7 @@ function Page061(props) {
               </div>
               <div className="col-sm-6 col-md-6 p-0 m-0 position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-60" alt="" /></div>
-                <div className="position-absolute top-100 start-100 translate-middle msp--50 mtp--100 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-120" alt="" /></div>
+                <div className="position-absolute top-100 start-100 translate-middle msp--150 mtp--100 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-120" alt="" /></div>
                 <div className="d-flex flex-column align-items-center psp-0 pep-0 ptp-0 pbp-0 border-style-solid border-2 border-color-saitama border-left-hidden bgc-white">
                   <div className="ptp-0 psp-10 pep-10 mbp-0">
                     <div className="d-flex psp-0">
@@ -154,8 +154,8 @@ function Page061(props) {
 
 
 
-  {/* PIE DE PAGINA */}
-  <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
+          {/* PIE DE PAGINA */}
+          <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
               ABP &copy; SM
             </div>
@@ -193,7 +193,7 @@ function Page061(props) {
               <div className="w-100 hp-25 bgc-pikachu"></div>
             </div>
           </div>
-          </div>
+        </div>
 
       </div>
     </div>
