@@ -29,36 +29,59 @@ function ModalRecortable(props) {
     getData();
   });
 
+  // const getData = () => {
+  //   const obtenerDatos = async () => {
+  //     const docSnap = await getDoc(docRef);
+  //     if(docSnap.exists()){
+  //       onSnapshot(doc(db, coleccion, documento), (doc) => {
+  //         const field = doc.data()[id];
+  //         //console.log("Current data: ", doc.data()[id]);
+  //         if (field) {
+  //           setContent1(doc.data()[id]);
+  //           setImagenSeleccionada(content1);
+  //           //console.log("content1: " + content1);
+  //         } else {
+  //           console.log("Sin datos: "+id);
+  //         }
+  //       });
+
+  //         if (docSnap.data()[id] !== undefined) {
+  //           setContent1(docSnap.data()[id]);
+  //         } else {
+  //           setContent1(image);
+  //           await updateDoc(docRef, {
+  //             [id]: content1,
+  //           });
+  //           console.log("undefined: "+id);
+  //         }
+  //     }else{
+  //       await setDoc(doc(db, coleccion, documento),{[id]:""});
+  //     }
+  //       // console.log("useEffect: " + docSnap.data()[id]);
+  //       // console.log("change: " + content1);
+  //   };
+  //   obtenerDatos();
+  // }
+
   const getData = () => {
     const obtenerDatos = async () => {
       const docSnap = await getDoc(docRef);
-      if(docSnap.exists()){
-        onSnapshot(doc(db, coleccion, documento), (doc) => {
-          const field = doc.data()[id];
-          //console.log("Current data: ", doc.data()[id]);
+
+      if (docSnap.exists()) {
+          const field = docSnap.data()[id];
+          console.log("Current data: ", docSnap.data()[id]);
           if (field) {
-            setContent1(doc.data()[id]);
+            setContent1(docSnap.data()[id]);
             setImagenSeleccionada(content1);
-            //console.log("content1: " + content1);
+            console.log("content1: " + content1);
           } else {
             console.log("Sin datos: "+id);
           }
-        });
-
-          if (docSnap.data()[id] !== undefined) {
-            setContent1(docSnap.data()[id]);
-          } else {
-            setContent1(image);
-            await updateDoc(docRef, {
-              [id]: content1,
-            });
-            console.log("undefined: "+id);
-          }
-      }else{
-        await setDoc(doc(db, coleccion, documento),{[id]:""});
+        //console.log("Document data:", docSnap.data());
+      } else {
+        // doc.data() will be undefined in this case
+        console.log("No such document!");
       }
-        // console.log("useEffect: " + docSnap.data()[id]);
-        // console.log("change: " + content1);
     };
     obtenerDatos();
   }

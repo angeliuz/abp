@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 import "./page_047.css";
 
 function Page047(props) {
@@ -77,21 +78,21 @@ function Page047(props) {
 
                   <div className="position-absolute top-0 start-50 translate-middle-x  msp--40 mep-20 mtp-20 msp-20">
                     <div className="d-flex align-items-center pbp-10">
-                      <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" />
+                      <div className="d-inline wp-30 hp-30 bgc-white">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
 
                       </div>
                       <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5">Cuento.</div>
                     </div>
                     <div className="d-flex align-items-center pbp-10">
-                      <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" />
+                      <div className="d-inline wp-30 hp-30 bgc-white">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                       <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5">Anécdota.</div>
                     </div>
                     <div className="d-flex align-items-center pbp-10">
-                      <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" />
+                      <div className="d-inline wp-30 hp-30 bgc-white">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                       <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5">Narración.</div>
                     </div>

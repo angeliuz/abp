@@ -1,5 +1,6 @@
 import React from "react";
 import InputBox from "../components/InputBox";
+import Check from "../components/Check";
 // import ModalVideo from "../components/ModalVideo";
 import "./page_034.css";
 
@@ -31,19 +32,19 @@ function Page034(props) {
                 <div className="position-absolute top-0 end-0 zindex-2"><img src="images/page_034/clip.png" className="wp-30 mep-40 mtp--5" alt="" /></div>
                 <div className="bloque-respuesta w-100 p-3 text-left bgc-draco rota">
                   <div className="d-flex align-items-center pbp-10">
-                    <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
+                    <div className="pep-10"><div className="cuadro-clic"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div></div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Compañeros de curso.</div>
                   </div>
                   <div className="d-flex align-items-center pbp-10">
-                    <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
+                    <div className="pep-10"><div className="cuadro-clic"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div></div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Profesores y profesoras.</div>
                   </div>
                   <div className="d-flex align-items-center pbp-10">
-                    <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
+                    <div className="pep-10"><div className="cuadro-clic"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div></div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Compañeros de otros cursos.</div>
                   </div>
                   <div className="d-flex align-items-center pbp-10">
-                    <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
+                    <div className="pep-10"><div className="cuadro-clic"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div></div>
                     <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Otros trabajadores del colegio.</div>
                   </div>
                 </div>
@@ -153,23 +154,23 @@ function Page034(props) {
             <div className="position-absolute top-50 start-100 translate-middle mtp-10 msp--120 visible-768"><img src="images/page_034/mono.png" className="wp-90" alt="" /></div>
             <div className="w-100 psp-40 ptp-20 pbp-20 text-left bgc-jarek rounded-p-20">
               <div className="d-flex align-items-center pbp-10">
-                <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
+                <div className="pep-10"><div className="cuadro-clic"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div></div>
                 <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Seleccionamos las preguntas para nuestras encuestas.</div>
               </div>
               <div className="d-flex align-items-center pbp-10">
-                <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
+                <div className="pep-10"><div className="cuadro-clic"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div></div>
                 <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Elaboramos nuestras encuestas.</div>
               </div>
               <div className="d-flex align-items-center pbp-10">
-                <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
+                <div className="pep-10"><div className="cuadro-clic"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div></div>
                 <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Definimos a quiénes íbamos a aplicar la encuesta.</div>
               </div>
               <div className="d-flex align-items-center pbp-10">
-                <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
+                <div className="pep-10"><div className="cuadro-clic"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div></div>
                 <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Creamos un plan de acción.</div>
               </div>
               <div className="d-flex align-items-center">
-                <div className="pep-10"><div className="cuadro-clic"> <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 flex-grow-1 contenedor-linea lhp-30 min-hp-30" /></div></div>
+                <div className="pep-10"><div className="cuadro-clic"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div></div>
                 <div className="f-Ubuntu-L fsp-15 lh-sm pep-5">Aplicamos las encuestas a quienes correspondía.</div>
               </div>
             </div>
