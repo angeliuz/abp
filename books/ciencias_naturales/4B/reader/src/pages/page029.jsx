@@ -57,7 +57,7 @@ function Page029(props) {
           <div className="row container-row m-0 psp-60 pep-60">
             <div className="">
               <div className="row">
-                <div className="col-md-12 col-sm-12 position-relative ">
+                <div className="col-md-12 col-md-12 position-relative ">
                   <div className="position-absolute top-0 start-100 translate-middle visible-768 zindex-1 msp--10 mtp-50">
                     <img
                       src="images/page_029/img_002.png"
@@ -135,10 +135,10 @@ function Page029(props) {
 
           <div className="d-flex global-margin mtp-0 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
-              <div className="col-sm-12 col-md-7 mbp-30">
+              <div className="col-md-12 col-md-7 mbp-30">
                 <div className="row m-0 p-1 bgc-smoke rounded-p-20   w-100 ">
 
-                  <div className="col-sm-12 col-md-12 p-2 position-relative">
+                  <div className="col-md-12 col-md-12 p-2 position-relative">
                     <div className="p-1   w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
                       <div className="f-Ubuntu-L fsp-16   mep-10 text-start">
                         Aspectos positivos
@@ -149,7 +149,7 @@ function Page029(props) {
                       />
                     </div>
                   </div>
-                  <div className="col-sm-12 col-md-12 p-2 position-relative">
+                  <div className="col-md-12 col-md-12 p-2 position-relative">
                     <div className="position-absolute top-0 start-0 translate-middle visible-768 zindex-1 msp--30 mtp-50">
                       <img
                         src="images/page_029/img_003.png"
@@ -169,7 +169,7 @@ function Page029(props) {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-5">
+              <div className="col-md-12 col-md-5">
                 <div className="bgc-white border-style-solid border-color-dark border-2 box-shadow-simple position-relative">
                   <div className="position-absolute top-0 start-100 translate-middle msp--20 mtp-0 "><img src={"images/generales/clip.png"} className="wp-30" alt="" /></div>
                   <div className="f-Ubuntu-B fsp-18 psp-20 pep-20 ptp-10 pbp-0">
@@ -236,7 +236,7 @@ function Page029(props) {
             className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end"
             style={{ bottom: 0 }}
           >
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-1 col-md-2 p-0 m-0 position-relative">
               <img
                 src="images/rotulo_motivacion.svg"
                 className="oculto"
@@ -245,7 +245,7 @@ function Page029(props) {
               <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
               <div className="w-100 hp-25 bgc-goten"></div>
             </div>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-1 col-md-2 p-0 m-0 position-relative">
               <img
                 src="images/rotulo_planificacion.svg"
                 className="oculto"
@@ -254,7 +254,7 @@ function Page029(props) {
               <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
               <div className="w-100 hp-25 bgc-bulma"></div>
             </div>
-            <div className="col-7 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-7 col-md-2 p-0 m-0 position-relative">
               <img
                 src="images/rotulo_investigacion.svg"
                 className="visible rotulo-etapa position-absolute top-0 start-0"
@@ -263,7 +263,7 @@ function Page029(props) {
               <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
               <div className="w-100 hp-25 bgc-android18"></div>
             </div>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-1 col-md-2 p-0 m-0 position-relative">
               <img
                 src="images/rotulo_experimentacion.svg"
                 className="oculto"
@@ -272,12 +272,12 @@ function Page029(props) {
               <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
               <div className="w-100 hp-25 bgc-pidgey"></div>
             </div>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-1 col-md-2 p-0 m-0 position-relative">
               <img src="images/rotulo_creacion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
               <div className="w-100 hp-25 bgc-saitama"></div>
             </div>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-1 col-md-2 p-0 m-0 position-relative">
               <img src="images/rotulo_difusion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-leono rounded-caja-end"></div>
               <div className="w-100 hp-25 bgc-pikachu"></div>

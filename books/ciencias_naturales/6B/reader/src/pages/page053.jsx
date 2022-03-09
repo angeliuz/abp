@@ -1,7 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
-
+import Check from "../components/Check";
 import "./page_053.css";
 
 function Page053(props) {
@@ -88,55 +88,41 @@ function Page053(props) {
 
                       <div className="row p-0 m-0 ">
                         <div className="col-6 d-flex p-2">
-                          <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
-                          </div>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">Aportes del prototipo a la
                             sostenibilidad del colegio.</div>
                         </div>
 
                         <div className="col-6 d-flex  p-2">
-                          <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
-                          </div>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5 pbp-10">Ventajas del prototipo.</div>
                         </div>
                         <div className="col-6 d-flex p-2">
-                          <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
-                          </div>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">Funcionamiento y uso adecuado
                             del prototipo.</div>
                         </div>
                         <div className="col-6 d-flex p-2">
-                          <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
-                          </div>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5 pbp-10">Mejoras del prototipo.</div>
                         </div>
 
                         <div className="col-6 d-flex  p-2">
-                          <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
-                          </div>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">Proceso de construcción del
                             prototipo.</div>
                         </div>
 
                         <div className="col-6 d-flex  p-2">
-                          <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
-                          </div>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">Diseño del prototipo.</div>
                         </div>
                         <div className="col-6 "></div>
 
                         <div className="col-6 d-flex  p-2">
-                          <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
-                          </div>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           <div className="d-flex justify-content-start align-items-start text-start f-Ubuntu-L fsp-15 wp-250 ptp-10 psp-10">Otro:
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 w-20" />
                           </div>
                         </div>
                       </div>

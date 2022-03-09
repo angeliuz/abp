@@ -1,7 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
-
+import Check from "../components/Check";
 import "./page_065.css";
 
 function Page065(props) {
@@ -118,15 +118,16 @@ function Page065(props) {
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
                       </div>
                     </div>
-                    <div className="col-4  m-0 p-0 ">
+                    <div className="col-4  m-0 p-0 position-relative">
+                    <div className="position-absolute top-50 start-50 translate-middle  mtp-100  msp-0 mtp-0 "><img src={"images/page_" + pagina + "/img_007.png"} className="wp-210 mtp--160" alt="" /></div>
                       <div className="f-Ubuntu-R fsp-14 ptp-18 psp-10 pep-10 text-center">
                         La presentación se <br />realizará el día
                       </div>
                       <div className="position-relative ">
-                        <div className="position-absolute top-50 start-50 translate-middle   psp-40 pep-40 ptp-10 pbp-15 m-0  w-100">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                        <div className="position-absolute top-50 start-50 translate-middle   psp-40 pep-40 ptp-30 pbp-15 m-0  w-100">
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-190 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120 zindex-2" />
                         </div>
-                        <img src={"images/page_" + pagina + "/img_007.png"} className="wp-210  mtp-25 " alt="" />
+                        {/* <img src={"images/page_" + pagina + "/img_007.png"} className="wp-210  mtp-25 " alt="" /> */}
                       </div>
                     </div>
 
@@ -195,22 +196,22 @@ function Page065(props) {
 
                   <div className="d-flex m-3">
                     <div className="d-flex wp-110 hp-45 bgc-yellow f-Ubuntu-R fsp-15 center-center position-relative  rounded-p-10 bgc-milena">Afiches
-                      <div className="position-absolute top-50 start-0 translate-middle  wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                      <div className="position-absolute top-50 start-0 translate-middle  ">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                     </div>
                   </div>
                   <div className="d-flex m-3">
                     <div className="d-flex wp-110 hp-45 bgc-yellow f-Ubuntu-R fsp-15 center-center position-relative  rounded-p-10 bgc-milena">Folletos
-                      <div className="position-absolute top-50 start-0 translate-middle  wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                      <div className="position-absolute top-50 start-0 translate-middle ">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                     </div>
                   </div>
                   <div className="d-flex m-3">
                     <div className="d-flex wp-110 hp-45 bgc-yellow f-Ubuntu-R fsp-15 center-center position-relative  rounded-p-10 bgc-milena">Cartas
-                      <div className="position-absolute top-50 start-0 translate-middle  wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                      <div className="position-absolute top-50 start-0 translate-middle ">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                     </div>
                   </div>
@@ -220,8 +221,8 @@ function Page065(props) {
                 <div className="d-flex justify-content-center m-3">
                   <div className="d-flex align-items-center justify-content-start psp-25 pep-20 wp-300    f-Ubuntu-R fsp-15   position-relative  rounded-p-10 bgc-milena">
                     Otros: <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-50" />
-                    <div className="position-absolute top-50 start-0 translate-middle  wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                    <div className="position-absolute top-50 start-0 translate-middle ">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                   </div>
                 </div>

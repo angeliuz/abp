@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 
 
 import "./page_017.css";
@@ -131,8 +132,8 @@ function Page017(props) {
                   <div className=" ptp-10 test-center pbp-10">
                     Fotografías de los integrantes de nuestro cursos.
                   </div>
-                  <div className="cuadrado border-style-solid border-1 border-dark">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-35" />
+                  <div className="cuadrado  border-dark">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/cruz.svg" ></Check>
                   </div>
                 </div>
               </div>
@@ -142,8 +143,8 @@ function Page017(props) {
                   <div className=" ptp-10 test-center pbp-10">
                     Fotografías o dibujos de nuestro colegio.
                   </div>
-                  <div className="cuadrado border-style-solid border-1 border-dark">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-35" />
+                  <div className="cuadrado  border-dark">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/cruz.svg" ></Check>
                   </div>
                 </div>
               </div>
@@ -153,8 +154,8 @@ function Page017(props) {
                   <div className=" ptp-10 test-center pbp-10">
                     Fotografías o dibujos de recuerdos de nuestro curso.
                   </div>
-                  <div className="cuadrado border-style-solid border-1 border-dark">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-35" />
+                  <div className="cuadrado  border-dark">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/cruz.svg" ></Check>
                   </div>
                 </div>
               </div>

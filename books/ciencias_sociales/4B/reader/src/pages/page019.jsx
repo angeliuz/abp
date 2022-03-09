@@ -19,34 +19,31 @@ function Page019(props) {
         <div className={"dosier-e" + etapa + " page bgc-white overflow-hidden position-relative"} id={"page_" + pagina}>
           <img src={"images/cabecera/dosier_e" + etapa + ".svg"} className="w-100" alt="" />
 
-
           <div className="position-relative w-100">
             <div className="row psp-80 pep-70 ptp-10 pbp-50 ">
               <div className="f-Ubuntu-R text-start msp-40 fsp-18 psp-30 pbp-10">
                 Esta página fue completada por:
               </div>
               <div className="d-flex position-relative">
-                <img
-                  src="images/page_019/img_002.png"
-                  class="hp-110 position-absolute start-0 top-0 mtp--20 msp--10"
-                  alt=""
-                />
-                <div className="bgc-white rounded-p-10 border-style-solid border-1 border-color-bulma w-65 py-1 psp-50 pep-20">
-                  <InputBox
-                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35"
-                  />
+                <img src={"images/page_" + pagina + "/.svg"} class="hp-110 position-absolute start-0 top-0 mtp--20 msp--10"alt="" />
+                <div className={"bgc-white rounded-p-10 border-style-solid border-1 " + borderColor + " w-100 py-1 psp-50 pep-20"}>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 w-60 lhp-35 min-hp-35" />
                 </div>
               </div>
             </div>
-            <div className="position-absolute top-0 start-100 msp--320 mtp-0 zindex-1">
+
+            <div className="position-absolute top-0 start-100 hoja-p39 zindex-2">
               <div className="position-relative bgc-white border-style-solid border-1 border-dark wp-250 hp-200 d-flex flex-column p-2 giro--4deg sombra-1">
                 <div className=" mxwp-160 centrar-hor f-pixilate-regular fsp-21">Dibuja aquí la insignia de tu equipo</div>
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-35" />
-                <div className="position-absolute top-0 start-100 translate-middle msp--30 mtp-35 zindex-1"><img src={"images/page_" + pagina + "/clip.svg"} className="wp-60" alt="" /></div>
+                
+                
               </div>
             </div>
+            <div className="position-absolute top-0 start-0 translate-middle msp-90 mtp-70 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-50" alt="" /></div>
           </div>
+          <div className="espaciado-p39"></div>
+
 
           <div className="psp-80 pep-70 mtp--10 text-start position-relative">
             <div className="psp-30 pbp-20 f-Ubuntu-R col-md-8 col-5">Declaramos los pasos de nuestro proyecto.</div>

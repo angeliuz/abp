@@ -80,14 +80,14 @@ function Page075(props) {
                       </div>
                     </div>
                   </div>
-                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex">
+                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 ">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                   </div>
                 </div>
                 <div className="d-flex flex-column justify-content-center align-items-start mbp-5 mtp-10 w-100 bgc-white border-1 border-style-solid border-color-lightDark p-2 position-relative">
                   <div className="position-absolute top-0 start-0 translate-middle msp-3 mtp-10 zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-30 " alt="" /></div>
                   <span className="f-Ubuntu-R fsp-15 px-2 ptp-10 text-start">Nunca olvidaré...</span>
-                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex">
+                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                   </div>
                 </div>
@@ -97,7 +97,7 @@ function Page075(props) {
                 <div className="position-absolute top-0 start-50 translate-middle msp-3 mtp-10 zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-30 " alt="" /></div>
                 <div className="d-flex flex-column center-center mbp-5 mtp-10 w-100 bgc-white border-1 border-style-solid border-color-lightDark p-2">
                   <span className="f-Ubuntu-R fsp-15 px-2 ptp-10 text-start">Los comentarios de los asistentes a la presentación fueron...</span>
-                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex">
+                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
                   </div>
                 </div>
@@ -119,40 +119,57 @@ function Page075(props) {
               {/*<ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />*/}
             </div>
           </div>
-          <div class="max-wp-700 mx-auto cb-contenedor justify-content-center pe-2 ps-2 pbp-15 mbp-40">
-            <div class="cb-caja mx-auto">
-              <div class="bgc-itto p-3 f-Ubuntu-L fsp-13 border-color-garou" >
-                <p>Qué he aprendido?</p>
-                <div className="psp-15 pep-15">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
-                </div>
-              </div>
-              <div class="bgc-pantro p-3 f-Ubuntu-L fsp-13 border-color-garou position-relative" >
-                <div className="position-absolute top-0 start-0 translate-middle msp-3 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60 " alt="" /></div>
-                <p>¿Con quién he aprendido?</p>
-                <div className="psp-15 pep-15">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
-                </div>
-              </div>
-            </div>
-            <div class="cb-caja mx-auto mbp-40">
-              <div class="bgc-draco p-3 c f-Ubuntu-L fsp-13 border-color-garou" >
-                <p class="cb-psp">¿Cómo he aprendido?</p>
-                <div className="psp-15 pep-15">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
-                </div>
-              </div>
-              <div class="bgc-kokomi p-3 f-Ubuntu-L fsp-13 border-color-garou" >
-                <p class="cb-psp2">¿Cómo me he sentido aprendiendo?</p>
-                <div className="psp-15 pep-15">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
-                </div>
-              </div>
-            </div>
+         
 
+          <div className="msp-60 mep-60 mbp-100">
+            <div className="row m-0 p-0">
+              <div className="col-md-6 col-sm-12 m-0 p-0">
+                <div class="text-start bgc-itto p-3 f-Ubuntu-L fsp-13 border-color-garou ">
+                  <p>¿Qué he aprendido?</p>
+                  <div className="psp-15 pep-15">
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className=" p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-sm-12 p-0 m-0">
+                <div class="text-start bgc-draco p-3 f-Ubuntu-L fsp-13 border-color-garou">
+                  <p>¿Cómo he aprendido?</p>
+                  <div className="psp-15 pep-15">
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className=" p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-sm-12 p-0 m-0 position-relative">
+              <div className="position-absolute top-0 start-0 translate-middle msp--15 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60 " alt="" /></div>
+                <div class="text-start bgc-pantro p-3 f-Ubuntu-L fsp-13 border-color-garou">
+                  <p> ¿Con quién he aprendido?</p>
+                  <div className="psp-15 pep-15">
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className=" p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-sm-12 p-0 m-0">
+                <div class="text-start bgc-kokomi p-3 f-Ubuntu-L fsp-13 border-color-garou ">
+                  <p>¿Cómo me he sentido aprendiendo?</p>
+                  <div className="psp-15 pep-15">
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className=" p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-
-
           {/* BEGIN PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
