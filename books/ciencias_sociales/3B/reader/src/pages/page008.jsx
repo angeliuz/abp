@@ -1,5 +1,6 @@
 import React from "react";
 import InputBox from "../components/InputBox";
+import Check from "../components/Check";
 
 import "./page_008.css";
 
@@ -43,26 +44,26 @@ function Page008(props) {
                 <div className="cb-ejercicio-1-p08 ptp-20 psp-25 pbp-15  position-relative mbp-90 f-Ubuntu-R fsp-15">
                 <div className="position-absolute top-0 start-100 translate-middle msp--20 mtp-0 visible-768"><img src={"images/generales/clip.png"} className="wp-30" alt="" /></div> 
                 <div className="d-flex mbp-10">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                    <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-30 hp-30 bgc-white rounded-1">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                     <div className="msp-10 justify-content-center align-items-center d-flex"> Crear una campaña.</div>
                     </div>
                     <div className="d-flex mbp-10">
-                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                      <div className="wp-30 hp-30 bgc-white rounded-1">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                         <div className="msp-10 justify-content-center align-items-center d-flex">Elaborar una revista..</div>
                         </div>
                     <div className="d-flex mbp-10">
-                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                      <div className="wp-30 hp-30 bgc-white rounded-1">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                         <div className="msp-10 justify-content-center align-items-center d-flex">Organizar una fiesta.</div>
                     </div>
                     <div className="d-flex mbp-10">
-                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                      <div className="wp-30 hp-30 bgc-white rounded-1">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
                         <div className="msp-10 justify-content-center align-items-center d-flex">Organizar una fiesta.</div>
                     </div>

@@ -2,6 +2,7 @@ import React from "react";
 import ModalVideo from "../components/ModalVideo";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 // import esquinaAzul from "images/page_044/esquinaAzul.svg";
 import "./page_048.css";
 
@@ -66,11 +67,11 @@ function Page048(props) {
                     <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 w-100 text-start">Muestro mi texto literario a mis compañeros y decidimos cómo difundirlos en la feria de la diversidad:.</div>
                   </div>
                   <div className="d-flex align-items-center  pbp-10">
-                    <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" /></div>
+                    <div className="d-inline wp-30 hp-30 bgc-white"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
                     <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 w-100 text-start">Haremos una copia en formato grande para que todos lo puedan ver..</div>
                   </div>
                   <div className="d-flex align-items-center pbp-10">
-                    <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-30" /></div>
+                    <div className="d-inline wp-30 hp-30 bgc-white"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
                     <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 w-100 text-start ">Haremos varias copias individuales para que podamos compartir con los asistentes a la feria..</div>
                   </div>
                 </div>

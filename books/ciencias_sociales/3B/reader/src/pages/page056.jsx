@@ -1,5 +1,6 @@
 import React from "react";
 import InputBox from "../components/InputBox";
+import Check from "../components/Check";
 
 import "./page_056.css";
 
@@ -27,42 +28,42 @@ function Page056(props) {
                         <div className="cb-ejercicio-1-p56 ptp-20 psp-25 pbp-15 pep-10 position-relative mbp-10">
                             <div>
                             <div className="d-flex mbp-10">
-                                <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                <div className="wp-30 hp-30 bgc-white rounded-1">
+                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                 </div>
                                 <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12"> Tenemos nuestro  stand cultural con:</div>
                             </div>
                                 <div className="cb-interior-lista d-flex justify-content-between">
                                     <div className="cb-opcion-a">
                                     <div className="d-flex mbp-10">
-                                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                      <div className="wp-30 hp-30 rounded-1">
+                                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                       </div>
                                         <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Música.</div>
                                     </div>
                                     <div className="d-flex mbp-10">
-                                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                          <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                        <div className="wp-30 hp-30 bgc-white rounded-1">
+                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                         </div>
                                         <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Gastronomía.</div>
                                     </div>
                                     <div className="d-flex mbp-10">
-                                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                      <div className="wp-30 hp-30 bgc-white  rounded-1">
+                                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                       </div>
                                         <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Obras literarias.</div>
                                     </div>
                                 </div>
                                 <div className="cb-opcion-b">
                                     <div className="d-flex mbp-10">
-                                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                      <div className="wp-30 hp-30 bgc-white rounded-1">
+                                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                       </div>
                                         <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Obras artísticas.</div>
                                     </div>
                                     <div className="d-flex mbp-10">
-                                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                      <div className="wp-30 hp-30 bgc-white  rounded-1">
+                                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                       </div>
                                         <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Otros.</div>
                                     </div>
@@ -71,26 +72,26 @@ function Page056(props) {
                                 </div>
                                 </div>
                                 <div className="d-flex mbp-10">
-                                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                      <div className="wp-30 hp-30 bgc-white rounded-1">
+                                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                       </div>
                                     <div className="msp-10 justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12 text-start">Tenemos nuestros eslóganes <br /> sobre diversidad.</div>
                                     </div>
                                 <div className="d-flex mbp-10">
-                                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                      <div className="wp-30 hp-30 bgc-white  rounded-1">
+                                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                       </div>
                                     <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Tenemos nuestros gráficos <br /> de las encuestas de diversidad.</div>
                                 </div>
                                 <div className="d-flex mbp-10">
-                                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                    <div className="wp-30 hp-30 bgc-white  rounded-1">
+                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                       </div>
                                     <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Tenemos nuestro decálogo de principios <br /> de respeto y tolerancia a la diversidad.</div>
                                 </div>
                                 <div className="d-flex mbp-10">
-                                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                      <div className="wp-30 hp-30 bgc-whites rounded-1">
+                                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                       </div>
                                     <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Enviamos las invitaciones.</div>
                                 </div>
