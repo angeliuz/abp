@@ -72,9 +72,9 @@ function Page042(props) {
               <div className="col-12 m-0 rounded-p-10 bgc-motaro p-3 position-relative">
               <div className="position-absolute top-50 start-0 translate-middle zindex-2"><img src={"images/page_" + pagina + "/lapiz.png"} className="hp-80 mep-10 mbp-200" alt="" /></div>
                 <div className="text-center f-colby-bold fsp-18 pbp-10">ENCUESTA</div>
-                <div className="d-flex align-items-center pbp-10">
+                <div className=" d-flex align-items-center pbp-10">
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 text-start">Nombre:</div>
-                  <div className=" w-65 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-30 contenedor-linea" /></div>
+                  <div className="w-100 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-30 contenedor-linea" /></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 psp-10">Curso:</div>
                   <div className=" bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="wp-80 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-30 contenedor-linea" /></div>
                 </div>
