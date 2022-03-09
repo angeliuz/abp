@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 
 import "./page_035.css";
 
@@ -96,40 +97,31 @@ function Page035(props) {
 
                             <div className="col-sm-12 col-md-12 position-relative d-flex justify-content-center">
 
-                                <div className="position-absolute top-0 start-100 translate-middle msp--110 mtp-0 visible-768"><img src={"images/page_" + pagina + "/img_006.svg"} className="wp-40 " alt="" /></div>
+                                <div className="position-absolute top-0 start-100 translate-middle msp--110 mtp-0 visible-768"><img src={"images/page_" + pagina + "/img_006.svg"} className="wp-40 mep-25 mtp-5" alt="" /></div>
                                 <div className="d-flex">
 
                                     <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-L fsp-18 box-shadow-simple bgc-lizt">
 
                                         <div className="d-flex">
                                             <div className="ptp-0">
-                                                <div className="border-style-solid border-2 border-color-lightDark  bgc-white">
-                                                    <InputBox
-                                                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                        className="p-0 px-0 text-center wp-30 hp-30 lhp-30 min-hp-30"
-                                                    />
+                                                <div className="bgc-white">
+                                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                 </div>
                                             </div>
                                             <div className="psp-10 ptp-0 f-Ubuntu-L fsp-16 text-start">Cada integrante del grupo sabe a quién entrevistará.</div>
                                         </div>
                                         <div className="d-flex">
                                             <div className="ptp-10">
-                                                <div className="border-style-solid border-2 border-color-lightDark  bgc-white">
-                                                    <InputBox
-                                                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                        className="p-0 px-0 text-center wp-30 hp-30 lhp-30 min-hp-30"
-                                                    />
+                                                <div className="bgc-white">
+                                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                 </div>
                                             </div>
                                             <div className="psp-10 ptp-10 f-Ubuntu-L fsp-16 text-start">Acordamos la hora y el día de las entrevistas.</div>
                                         </div>
                                         <div className="d-flex">
                                             <div className="ptp-10">
-                                                <div className="border-style-solid border-2 border-color-lightDark  bgc-white">
-                                                    <InputBox
-                                                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                        className="p-0 px-0 text-center wp-30 hp-30 lhp-30 min-hp-30"
-                                                    />
+                                                <div className="bgc-white">
+                                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                 </div>
                                             </div>
                                             <div className="psp-10 ptp-10 f-Ubuntu-L fsp-16 text-start">Tenemos nuestras pregunas anotadas.</div>

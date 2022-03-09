@@ -57,7 +57,7 @@ function Page069(props) {
               <div className="rounded-p-10 w-100 d-flex flex-column mx-auto bgc-milena ptp-20 pbp-20 f-Ubuntu-R fsp-15 mbp-10 position-relative justify-content-between">
                 <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-25 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-60" alt="" /></div>
                 <div className="row mtp-10 d-flex mbp-10">
-                  <div className="col-sm-12 col-md-6 mbp-10">
+                  <div className="col-sm-12 col-md-6 mbp-10 d-flex justify-content-center">
                     <div className="text-start w-100 max-wp-400 bgc-white rounded-p-10">
                       <div className="position-absolute top-0 start-0 translate-middle msp-20 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-30" alt="" /></div>
                       <div className="hp-50 pep-20 psp-20 ptp-10 pbp-10 d-flex justify-content-start align-items-center">
@@ -68,7 +68,7 @@ function Page069(props) {
                       </div>
                     </div>
                   </div>
-                  <div className="col-sm-12 col-md-6">
+                  <div className="col-sm-12 col-md-6 d-flex justify-content-center">
                     <div className="text-start w-100 max-wp-400 bgc-white rounded-p-10">
                       <div className="position-absolute top-0 start-50 translate-middle msp-10 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-30" alt="" /></div>
                       <div className="hp-50 pep-20 psp-20 max-wp-200 ptp-10 pbp-10 d-flex justify-content-start align-items-center">
@@ -81,7 +81,7 @@ function Page069(props) {
                   </div>
                 </div>
                 <div className="row mtp-10 d-flex">
-                  <div className="col-sm-12 col-md-6 mbp-10">
+                  <div className="col-sm-12 col-md-6 mbp-10 d-flex justify-content-center">
                     <div className="text-start w-100 max-wp-400 bgc-white rounded-p-10">
                       <div className="position-absolute top-50 start-0 translate-middle msp-20 mtp-20 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-30" alt="" /></div>
                       <div className="hp-50 pep-20 psp-20 ptp-10 pbp-10 d-flex justify-content-start align-items-center">
@@ -98,7 +98,7 @@ function Page069(props) {
                       </div>
                     </div>
                   </div>
-                  <div className="col-sm-12 col-md-6">
+                  <div className="col-sm-12 col-md-6 d-flex justify-content-center">
                     <div className="text-start w-100 max-wp-400 bgc-white rounded-p-10">
                       <div className="position-absolute top-10 start-50 translate-middle msp-20 mtp-20 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-30" alt="" /></div>
                       <div className="hp-50 pep-20 psp-20 ptp-10 pbp-10 d-flex justify-content-start align-items-center">
