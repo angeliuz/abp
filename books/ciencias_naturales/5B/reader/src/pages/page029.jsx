@@ -3,7 +3,7 @@ import { useState } from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import Crucigrama from "../components/Crucigrama";
-import Check from "../components/Check";
+import CheckMultiple from "../components/CheckMultiple";
 
 import "./page_029.css";
 
@@ -50,6 +50,16 @@ function Page029(props) {
                 clasesImagen="hp-40 text-center mtp-10 "
                 className="p-0 px-0"
               />
+            </div>
+          </div>
+
+
+          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 m-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative">
+                <CheckMultiple id={"check" + pagina + "_" + (indexInput += 1)} image0={"images/page_" + pagina + "/img_003.png"} image1={"images/page_" + pagina + "/img_005.png"} image2={"images/page_" + pagina + "/img_007.png"}></CheckMultiple>
+
+              </div>
             </div>
           </div>
 
@@ -267,21 +277,21 @@ function Page029(props) {
                         <div className="d-flex flex-column bgc-ermac">
                           <div className="psp-10 pep-10 ptp-10 pbp-10 f-Ubuntu-R fsp-15">
                             <div className="text-start f-Ubuntu-L fsp-14">
-                            Me llama la atención que
+                              Me llama la atención que
                             </div>
                             <InputBox
                               id={"p" + pagina + "_input" + (indexInput += 1)}
                               className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-110"
                             />
                             <div className="text-start f-Ubuntu-L fsp-14">
-                            Las pandillas se diferencian por
+                              Las pandillas se diferencian por
                             </div>
                             <InputBox
                               id={"p" + pagina + "_input" + (indexInput += 1)}
                               className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-110"
                             />
                             <div className="text-start f-Ubuntu-L fsp-14">
-                            Aprendí que
+                              Aprendí que
                             </div>
                             <InputBox
                               id={"p" + pagina + "_input" + (indexInput += 1)}
