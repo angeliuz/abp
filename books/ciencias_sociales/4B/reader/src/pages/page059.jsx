@@ -40,7 +40,7 @@ function Page059(props) {
           <div className="msp-60 mep-60 mb-20">
             <div className="row">
               <div className="col-12 bgc-ryu p-2 rounded-p-20 position-relative">
-                <div className="position-absolute top-0 start-100 translate-middle  zindex-2  mtp--150 "><img class="hp-60 " src="images/page_059/img_001.png" alt="" /></div>
+                <div className="position-absolute top-0 start-100 translate-middle  zindex-2  mtp-10 "><img class="hp-60 " src="images/page_059/img_001.png" alt="" /></div>
 
 
                 <div className="d-flex justify-content-center p-1 position-relative mbp-30">
