@@ -3,6 +3,7 @@ import ModalVideo from "../components/ModalVideo";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import "./page_072.css";
+import Check from "../components/Check";
 
 function Page072(props) {
 
@@ -49,39 +50,39 @@ function Page072(props) {
                             <img src="images/page_072/img_003.png" className="cb-computador-p72" />
                             <p className=" text-center fsp-16 fw-700 ">Lista de control</p>
                             <div className="d-flex justify-content-start align-items-center mbp-5 psp-15 ">
-                                <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                <div className="">
+                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                 </div>
                                 <div className="text-start msp-5 mtp-10 pep-5 rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
                                     Tenemos todos los materiales para la difusión de la campaña.
                                 </div>
                             </div>
                             <div className="d-flex justify-content-start align-items-center mbp-5 psp-15 ">
-                                <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                <div className="">
+                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                 </div>
                                 <div className="text-start msp-5 mtp-10 pep-5 rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
                                     Contamos con los permisos para realizar la campaña.
                                 </div>
                             </div>
                             <div className="d-flex justify-content-start align-items-center mbp-5 psp-15 ">
-                                <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                <div className="">
+                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                 </div>
                                 <div className="text-start msp-5 mtp-10 pep-5 rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
                                     Sabemos en qué lugar(es) del colegio llevaremos a cabo la campaña.</div>
                             </div>
-                            <div className="d-flex justify-content-start align-items-center mbp-5 psp-15 ">
-                                <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            <div className="d-flex justify-content-start align-items-center mbp-0 psp-15 ">
+                                <div className="">
+                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                 </div>
                                 <div className="text-start msp-5 mtp-10 pep-5 rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
                                     Nuestros compañeros saben que realizaremos la campaña.
                                 </div>
                             </div>
-                            <div className="d-flex justify-content-start align-items-center mbp-5 psp-15 ">
-                                <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                            <div className="d-flex justify-content-start align-items-center mbp-0 psp-15 ">
+                                <div className="">
+                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                 </div>
                                 <div className="text-start msp-5 mtp-10 pep-5 rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
                                     Tenemos considerado poner un buzón para recopilar las sugerencias y <br /> comentarios de nuestros compañeros.
@@ -89,8 +90,8 @@ function Page072(props) {
                             </div>
 
                             <div className="d-flex justify-content-start align-items-center mbp-5 psp-15 ">
-                                <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                <div className="">
+                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                 </div>
                                 <div className="text-start msp-5 mtp-10 pep-5 rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
                                     Otro:
