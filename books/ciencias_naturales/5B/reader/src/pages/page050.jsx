@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 
 import "./page_050.css";
 
@@ -45,8 +46,8 @@ function Page050(props) {
                 <div className="bgc-bach rounded-p-10 hp-90 d-flex align-items-center p-2 position-relative">
                   <div className="f-Ubuntu-R text-start psp-30">Proponer nuevas alternativas de alimentación saludables para el colegio.</div>
                   <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0">
-                    <div className="cuadrado-p50 bgc-white border-style-solid border-1 border-color-lightDark">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30" />
+                    <div className="">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                   </div>
                 </div>
@@ -56,8 +57,8 @@ function Page050(props) {
                 <div className="bgc-honda rounded-p-10 hp-90 d-flex align-items-center p-2 position-relative">
                   <div className="f-Ubuntu-R text-start psp-30">Considerar las sugerencias escritas por los compañeros en la consulta pública de la propuesta.</div>
                   <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0">
-                    <div className="cuadrado-p50 bgc-white border-style-solid border-1 border-color-lightDark">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30" />
+                    <div className="">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                   </div>
                 </div>
@@ -70,8 +71,8 @@ function Page050(props) {
                 <div className="bgc-gohan rounded-p-10 hp-90 d-flex align-items-center p-2 position-relative">
                   <div className="f-Ubuntu-R text-start psp-30">Incluir otros alimentos que no consideramos en nuestra propuesta.</div>
                   <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0">
-                    <div className="cuadrado-p50 bgc-white border-style-solid border-1 border-color-lightDark">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30" />
+                    <div className="">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                   </div>
                 </div>
@@ -81,8 +82,8 @@ function Page050(props) {
                 <div className="bgc-milena rounded-p-10 hp-90 d-flex align-items-center p-2 position-relative">
                   <div className="f-Ubuntu-R text-start psp-30">Identificar los alimentos de la propuesta que no gustaron y cambiarlos por otros.</div>
                   <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0">
-                    <div className="cuadrado-p50 bgc-white border-style-solid border-1 border-color-lightDark">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30" />
+                    <div className="">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                   </div>
                 </div>
@@ -100,8 +101,8 @@ function Page050(props) {
                     </div>
                   </div>
                   <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0">
-                    <div className="cuadrado-p50 bgc-white border-style-solid border-1 border-color-lightDark">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30" />
+                    <div className="">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                   </div>
                 </div>
@@ -115,8 +116,8 @@ function Page050(props) {
                     </div>
                   </div>
                   <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0">
-                    <div className="cuadrado-p50 bgc-white border-style-solid border-1 border-color-lightDark">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30" />
+                    <div className="">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                   </div>
                 </div>

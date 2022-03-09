@@ -27,7 +27,7 @@ function Page014(props) {
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-left">
                 Leo la noticia de la revista y completo el crucigrama.
               </div>
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"61"} image={"images/page_" + pagina + "/img_001.png"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"61"} image={"images/page_" + pagina + "/img_001.png"} clasesImagen="hp-40 text-center mtp-10 msp-10" className="p-0 px-0" />
 
             </div>
             <div className="d-flex pbp-20">
@@ -86,7 +86,7 @@ function Page014(props) {
             <div className="row ptp-15">
               <div className="col-md-6 col-12 psp-20 pep-20 pbp-20">
                 <div className="d-flex">
-                  <img src={"images/page_" + pagina + "/img_004.svg"} className="wp-100 msp--50 pep-10" alt="" />
+                  <img src={"images/page_" + pagina + "/img_004.svg"} className="wp-100 msp--50 pep-10 mtp--15" alt="" />
                   <div className="f-ccdigitaldelivery-bold fsp-35 color-bulma">
                     5
                   </div>

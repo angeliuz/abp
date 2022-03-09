@@ -138,7 +138,7 @@ function Page043(props) {
                                 <div className="col-6 p-0 m-0"><div className="bgc-windu mbp-10 pp-9_4 rounded-p-5 text-start"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-30 contenedor-linea" /></div></div>
                             </div>
                             <div className="col-12 p-0 m-0 position-relative d-flex justify-content-center align-items-center">
-                                <div className="col p-0 m-0"><div className="bgc-azuka mbp-10 pp-9_4 rounded-p-5 text-center"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-30 contenedor-linea" /></div></div>
+                                <div className="w-40 col p-0 m-0"><div className="bgc-azuka mbp-10 pp-9_4 rounded-p-5 text-center"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-30 contenedor-linea" /></div></div>
                                 <div className="col-auto p-0 m-0"><div className="triangulo"></div></div>
                                 <div className="col-6 p-0 m-0"><div className="bgc-windu mbp-10 pp-9_4 rounded-p-5 text-start"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-30 contenedor-linea" /></div></div>
                             </div>

@@ -140,7 +140,7 @@ function Page016(props) {
               <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
                 <div className="d-flex">
                   <div className="flecha-bulma pep-10 mtp-3"></div>
-                  <span className="w-24 f-Ubuntu-L text-start">
+                  <span className="w-24 f-Ubuntu-L text-start fsp-15">
                     Hoy aprendí...
                   </span>
                 </div>
@@ -156,7 +156,7 @@ function Page016(props) {
               <div className="d-flex flex-wrap w-100 align-items-end titulo-linea">
                 <div className="d-flex">
                   <div className="flecha-bulma pep-10 mtp-3"></div>
-                  <span className="w-24 f-Ubuntu-L">
+                  <span className="w-24 f-Ubuntu-L fsp-15">
                     Y lo puedo utilizar para...
                   </span>
                 </div>
