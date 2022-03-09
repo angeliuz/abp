@@ -34,7 +34,7 @@ function Page055(props) {
 
             <div className="border-style-solid border-1 rounded-p-20 position-relative">
               <div className="position-relative bgc-white px-3 ptp-30 pbp-20 rounded-p-20">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150 mtp-10" />
                 <div className="position-absolute top-0 start-0 bgc-guile py-2 psp-20 pep-20 rounded-p-20">
                   <div className="f-Ubuntu-M text-start">La elaboración del boceto nos ayudó a...</div>
                 </div>
@@ -46,7 +46,7 @@ function Page055(props) {
 
             <div className="border-style-solid border-1 rounded-p-20 position-relative">
               <div className="position-relative bgc-white px-3 ptp-30 pbp-20 rounded-p-20">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150 mtp-10" />
                 <div className="position-absolute top-0 start-0 bgc-milk py-2 psp-20 pep-20 rounded-p-20">
                   <div className="f-Ubuntu-M text start">La creación del prototipo nos sirvió para...</div>
                 </div>

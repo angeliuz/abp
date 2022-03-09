@@ -1,7 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
-
+import Check from "../components/Check";
 import "./page_059.css";
 
 function Page059(props) {
@@ -63,7 +63,7 @@ function Page059(props) {
             <div className="d-flex psp-20">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_004.svg"} alt="" /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                2
+                1
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                 Seleccionamos las consideraciones que tendremos presentes para la construcción de nuestro aparato o sistema tecnológico.
@@ -88,34 +88,26 @@ function Page059(props) {
                     <div className="mtp-5 ">
 
                       <div className="d-flex w-100 p-2">
-                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
-                        </div>
-                        <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Portada e introducción del álbum.</div>
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                        <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5"> Los materiales que escogimos.</div>
                       </div>
 
                       <div className="d-flex w-100 p-2">
-                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
-                        </div>
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Las herramientas que utilizaremos.</div>
                       </div>
 
                       <div className="d-flex w-100 p-2">
-                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
-                        </div>
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Las mejoras del prototipo.</div>
                       </div>
 
                       <div className="d-flex w-100 p-2">
-                        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
-                        </div>
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Elementos de seguridad.</div>
                       </div>
 
-                      <div className="d-flex justify-content-start align-items-start text-start f-Ubuntu-R fsp-15  ptp-10 psp-10">Otro:
+                      <div className=" justify-content-start align-items-start text-start f-Ubuntu-R fsp-15  ptp-10 psp-10">Otro:
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                       </div>
                     </div>
@@ -174,14 +166,14 @@ function Page059(props) {
                 {/* <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-25 visible-768 zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-60 mtp-60" alt="" /></div> */}
                 <div className="text-center w-100 border-2 border-style-solid border-color-akuma rounded-p-10">
                   <div className="rounded-set-6 hp-40 pep-20 psp-20 ptp-10 pbp-10 bgc-akuma d-flex justify-content-center align-items-center text-white p-2">Lo que hay que hacer</div>
-                  <div className="psp-15 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" /></div>
+                  <div className="psp-15 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300 f-Ubuntu-R" /></div>
                 </div>
               </div>
               <div className="col-sm-12 col-md-6 pbp-25">
                 <div className="text-center w-100 border-1 border-style-solid border-color-haydn rounded-p-10  position-relative">
                   <div className="position-absolute posicion-centro-centro translate-middle zindex-1   "><img src={"images/page_" + pagina + "/espiral.svg"} className="rotacion-centro-centro msp--30 mtp--26 wp-50" alt="" /></div>
                   <div className="rounded-set-6 hp-40 ptp-10 pbp-10 bgc-haydn d-flex justify-content-center align-items-center text-white p-2">Estudiante a cargo</div>
-                  <div className="psp-15 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" /></div>
+                  <div className="psp-15 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300 f-Ubuntu-R" /></div>
                 </div>
               </div>
             </div>
@@ -220,12 +212,12 @@ function Page059(props) {
               <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
               <div className="w-100 hp-25 bgc-android18"></div>
             </div>
-            <div className="col-7 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
               <img src="images/rotulo_experimentacion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
               <div className="w-100 hp-25 bgc-pidgey"></div>
             </div>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+            <div className="col-7 col-sm-2 p-0 m-0 position-relative">
               <img src="images/rotulo_creacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
               <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
               <div className="w-100 hp-25 bgc-saitama"></div>

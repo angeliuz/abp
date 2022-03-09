@@ -291,7 +291,8 @@
   width: 235px;
 }
 .wp-240 {
-  width: 240px;
+  width: 240px !important;
+
 }
 .wp-245 {
   width: 245px;

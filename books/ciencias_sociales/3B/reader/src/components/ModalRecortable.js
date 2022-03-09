@@ -27,7 +27,8 @@ function ModalRecortable(props) {
 
   useEffect(() => {
     getData();
-  });
+    setImagenSeleccionada(content1);
+  },[imagenSeleccionada, content1]);
 
   // const getData = () => {
   //   const obtenerDatos = async () => {
