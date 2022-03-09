@@ -1,6 +1,8 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
+import Check from "../components/Check2";
+
 import "./page_077.css";
 
 function Page077(props) {
@@ -54,31 +56,31 @@ function Page077(props) {
                               </tr>
                               <tr className="bgc-white">
                                 <td className={"bgc-honda f-Ubuntu-L fsp-16 text-start psp-5 border-style-solid border-1 border-color-obiwan"}>Nos involucramos en la realización de la tarea y nos responsabilizamos de las tareas que tuvimos que hacer.</td>
-                                <td className={"border-style-solid border-1 border-color-obiwan"}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                                <td className={"border-style-solid border-1 border-color-obiwan"}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                                <td className={"border-style-solid border-1 border-color-obiwan"}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                                <td className={"border-style-solid border-1 border-color-obiwan"}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
+                                <td className={"border-style-solid border-1 border-color-obiwan"}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                                <td className={"border-style-solid border-1 border-color-obiwan"}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                                <td className={"border-style-solid border-1 border-color-obiwan"}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                                <td className={"border-style-solid border-1 border-color-obiwan"}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                               </tr>
                               <tr className="bgc-white">
                                 <td className={"bgc-honda f-Ubuntu-L fsp-16 text-start psp-5 border-style-solid border-1 border-color-obiwan"}>Ante una petición de ayuda, dejamos de hacer otras cosas e intentamos ayudar antes de preguntarle al profesor</td>
-                                <td className={"border-style-solid border-1 border-color-obiwan"}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                                <td className={"border-style-solid border-1 border-color-obiwan"}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                                <td className={"border-style-solid border-1 border-color-obiwan"}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                                <td className={"border-style-solid border-1 border-color-obiwan"}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
+                                <td className={"border-style-solid border-1 border-color-obiwan"}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                                <td className={"border-style-solid border-1 border-color-obiwan"}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                                <td className={"border-style-solid border-1 border-color-obiwan"}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                                <td className={"border-style-solid border-1 border-color-obiwan"}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                               </tr>
                               <tr className="bgc-white">
                                 <td className={"bgc-honda f-Ubuntu-L fsp-16 text-start psp-5 border-style-solid border-1 border-color-obiwan"}>Respetamos el turno de la palabra.</td>
-                                <td className={"border-style-solid border-1 border-color-obiwan"}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                                <td className={"border-style-solid border-1 border-color-obiwan"}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                                <td className={"border-style-solid border-1 border-color-obiwan"}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                                <td className={"border-style-solid border-1 border-color-obiwan"}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
+                                <td className={"border-style-solid border-1 border-color-obiwan"}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                                <td className={"border-style-solid border-1 border-color-obiwan"}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                                <td className={"border-style-solid border-1 border-color-obiwan"}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                                <td className={"border-style-solid border-1 border-color-obiwan"}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                               </tr>
                               <tr className="bgc-white">
                                 <td className={"bgc-honda f-Ubuntu-L fsp-16 text-start psp-5 border-style-solid border-1 border-color-obiwan"}>Llegamos a acuerdos y decisiones compartidas después de que cada uno dio su opinión.</td>
-                                <td className={"border-style-solid border-1 border-color-obiwan"}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                                <td className={"border-style-solid border-1 border-color-obiwan"}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                                <td className={"border-style-solid border-1 border-color-obiwan"}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
-                                <td className={"border-style-solid border-1 border-color-obiwan"}><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-35 w-100 h-100" /></td>
+                                <td className={"border-style-solid border-1 border-color-obiwan"}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                                <td className={"border-style-solid border-1 border-color-obiwan"}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                                <td className={"border-style-solid border-1 border-color-obiwan"}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
+                                <td className={"border-style-solid border-1 border-color-obiwan"}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                               </tr>
 
                             </tbody>
@@ -99,7 +101,7 @@ function Page077(props) {
                       <div className="f-Ubuntu-L fsp-15 rounded-p-10 max-wp-200 mx-auto hp-40 pep-20 psp-20 ptp-10 mtp--5 pbp-10 bgc-trans-tomoe d-flex justify-content-center align-items-center">
                         Lo más difícil fue
                       </div>
-                      <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex">
+                      <div className="psp-10 pep-10 pbp-10 ptp-0 w-100">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
                       </div>
                     </div>
@@ -109,7 +111,7 @@ function Page077(props) {
                       <div className="f-Ubuntu-L fsp-15 rounded-p-10 max-wp-200 mx-auto  hp-40 pep-20 psp-20 ptp-10 pbp-10 mtp--5 bgc-trans-madoka d-flex justify-content-center align-items-center">
                         Lo más divertido fue
                       </div>
-                      <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex">
+                      <div className="psp-10 pep-10 pbp-10 ptp-0 w-100">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
                       </div>
                     </div>
@@ -124,16 +126,16 @@ function Page077(props) {
                     </div>
                     <div className="d-flex mx-auto max-wp-400 justify-content-center ">
                       <div className="d-flex justify-content-start align-items-center mbp-5 psp-15 ">
-                        <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                      <div className=" mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         </div>
                         <div className="text-start msp-5 mtp-10 pep-5  bgc-white  rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
                           fácil
                         </div>
                       </div>
                       <div className="d-flex justify-content-start align-items-center mbp-5 psp-15">
-                        <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                        <div className=" mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         </div>
                         <div className="text-start msp-5 mtp-10 pep-5  bgc-white  rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
                           difícil
