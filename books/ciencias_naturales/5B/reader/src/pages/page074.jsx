@@ -2,6 +2,7 @@ import React from "react";
 import ModalVideo from "../components/ModalVideo";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 import "./page_074.css";
 
 function Page074(props) {
@@ -43,34 +44,34 @@ function Page074(props) {
                                 {/* BEGIN EJERCICIO 1 */}
                                 <div className="d-flex justify-content-between max-wp-500 mbp-20">
                                     <div className="d-flex justify-content-start align-items-center mbp-5 psp-15 ">
-                                        <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                        <div className="">
+                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                         </div>
-                                        <div className="text-start msp-5 mtp-10 pep-5 rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
+                                        <div className="text-start msp-5 mtp-5 pep-5 rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
                                             muy bien
                                         </div>
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center mbp-5 psp-15 ">
-                                        <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                        <div className="">
+                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                         </div>
-                                        <div className="text-start msp-5 mtp-10 pep-5 rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
+                                        <div className="text-start msp-5 mtp-5 pep-5 rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
                                             bien
                                         </div>
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center mbp-5 psp-15 ">
-                                        <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                        <div className="">
+                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                         </div>
-                                        <div className="text-start msp-5 mtp-10 pep-5 rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
+                                        <div className="text-start msp-5 mtp-5 pep-5 rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
                                             regular
                                         </div>
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center mbp-5 psp-15 ">
-                                        <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                                        <div className="">
+                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                         </div>
-                                        <div className="text-start msp-5 mtp-10 pep-5 rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
+                                        <div className="text-start msp-5 mtp-5 pep-5 rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
                                             mal
                                         </div>
                                     </div>
