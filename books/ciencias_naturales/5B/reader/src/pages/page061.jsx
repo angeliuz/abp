@@ -148,7 +148,7 @@ function Page061(props) {
                           <div className="d-flex align-items-start justify-content-start  p-2  f-Ubuntu-R fsp-15   ">
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             <div className="f-Ubuntu-L  ptp-10 f-Ubuntu-R fsp-15 psp-5  ">Otros: </div>
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 w-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
 
                           </div>
                         </div>
@@ -226,7 +226,7 @@ function Page061(props) {
                         <div className="d-flex align-items-start justify-content-start  ptp-10  f-Ubuntu-R fsp-15   ">
                           <Check id={"imagen" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           <div className="f-Ubuntu-L  ptp-10 f-Ubuntu-R fsp-15 psp-5  ">Otros: </div>
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 w-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
 
                         </div>
                       </div>
