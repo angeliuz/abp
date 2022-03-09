@@ -1,15 +1,14 @@
-.bgc-creacion{
-    background: url(images/page_059/fondo_001.svg) #543d89 top left/ cover no-repeat !important;
-     -webkit-print-color-adjust: exact !important;
- 
- }
- .t-shadow-creacion{
-     text-shadow: -7px -8px #543d89;
- }
- 
- @media all and (max-width: 500px) {
- 
-     .ft-m {
-         font-size: 50px;
-      }
- }
+.bgc-creacion {
+    background: url(images/page_059/fondo_001.svg) var(--saitama) top left/ cover no-repeat !important;
+    -webkit-print-color-adjust: exact !important;
+}
+
+.t-shadow-creacion {
+    text-shadow: -7px -8px #543d89;
+}
+
+@media all and (max-width: 580px) {
+    .ft-m-creacion {
+        font-size: 60px;
+    }
+}
