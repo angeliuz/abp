@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
 import "./page_052.css";
+import Check from "../components/Check"
 
 function Page052(props) {
 
@@ -88,121 +89,121 @@ function Page052(props) {
               <div class="col-8 p-1"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Creemos que la emergencia simulada podría suceder en la realidad.</div></div>
               <div class="col-1 p-1">
                 <div class="bgc-white p-1 h-100 d-flex align-items-center justify-content-center">
-                  <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="wp-30 hp-30">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                 </div>
               </div>
               <div class="col-2 p-1">                <div class="bgc-white p-1 h-100 d-flex align-items-center justify-content-center">
-                <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                <div className="wp-30 hp-30">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                 </div>
               </div>              </div>
               <div class="col-1 p-1">                <div class="bgc-white p-1 h-100 d-flex align-items-center justify-content-center">
-                <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                <div className="wp-30 hp-30">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                 </div>
               </div>              </div>
 
               <div class="col-8 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Estamos conformes con nuestro desempeño.</div></div>
               <div class="col-1 ps-1 pe-1 pb-1 ptp-2">                <div class="bgc-white p-1 h-100 d-flex align-items-center justify-content-center">
-                <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                <div className="wp-30 hp-30">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                 </div>
               </div>              </div>
               <div class="col-2 ps-1 pe-1 pb-1 ptp-2">                <div class="bgc-white p-1 h-100 d-flex align-items-center justify-content-center">
-                <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                <div className="wp-30 hp-30">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                 </div>
               </div>              </div>
               <div class="col-1 ps-1 pe-1 pb-1 ptp-2">                <div class="bgc-white p-1 h-100 d-flex align-items-center justify-content-center">
-                <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                <div className="wp-30 hp-30">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                 </div>
               </div>              </div>
 
               <div class="col-8 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Creemos que la emergencia simulada fue útil para los asistentes.</div></div>
               <div class="col-1 ps-1 pe-1 pb-1 ptp-2">                <div class="bgc-white p-1 h-100 d-flex align-items-center justify-content-center">
-                <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                <div className="wp-30 hp-30">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                 </div>
               </div>              </div>
               <div class="col-2 ps-1 pe-1 pb-1 ptp-2">                <div class="bgc-white p-1 h-100 d-flex align-items-center justify-content-center">
-                <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                <div className="wp-30 hp-30">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                 </div>
               </div>              </div>
               <div class="col-1 ps-1 pe-1 pb-1 ptp-2">                <div class="bgc-white p-1 h-100 d-flex align-items-center justify-content-center">
-                <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                <div className="wp-30 hp-30">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                 </div>
               </div>              </div>
 
               <div class="col-8 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Nos sentimos más preparados para poner en marcha la brigada.</div></div>
               <div class="col-1 ps-1 pe-1 pb-1 ptp-2">                <div class="bgc-white p-1 h-100 d-flex align-items-center justify-content-center">
-                <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                <div className="wp-30 hp-30">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                 </div>
               </div>              </div>
               <div class="col-2 ps-1 pe-1 pb-1 ptp-2">                <div class="bgc-white p-1 h-100 d-flex align-items-center justify-content-center">
-                <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                <div className="wp-30 hp-30">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                 </div>
               </div>              </div>
               <div class="col-1 ps-1 pe-1 pb-1 ptp-2">                <div class="bgc-white p-1 h-100 d-flex align-items-center justify-content-center">
-                <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                <div className="wp-30 hp-30">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                 </div>
               </div>              </div>
 
               <div class="col-8 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Creemos que la simulación fue bien recibida por nuestros compañeros.</div></div>
               <div class="col-1 ps-1 pe-1 pb-1 ptp-2">                <div class="bgc-white p-1 h-100 d-flex align-items-center justify-content-center">
-                <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                <div className="wp-30 hp-30">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                 </div>
               </div>              </div>
               <div class="col-2 ps-1 pe-1 pb-1 ptp-2">                <div class="bgc-white p-1 h-100 d-flex align-items-center justify-content-center">
-                <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                <div className="wp-30 hp-30">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                 </div>
               </div>              </div>
               <div class="col-1 ps-1 pe-1 pb-1 ptp-2">                <div class="bgc-white p-1 h-100 d-flex align-items-center justify-content-center">
-                <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                <div className="wp-30 hp-30">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                 </div>
               </div>              </div>
 
               <div class="col-8 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Los simulacros de nuestro compañeros nos sirven para que nuestra brigada esté más preparada.</div></div>
               <div class="col-1 ps-1 pe-1 pb-1 ptp-2">                <div class="bgc-white p-1 h-100 d-flex align-items-center justify-content-center">
-                <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                <div className="wp-30 hp-30">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                 </div>
               </div>              </div>
               <div class="col-2 ps-1 pe-1 pb-1 ptp-2">                <div class="bgc-white p-1 h-100 d-flex align-items-center justify-content-center">
-                <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                <div className="wp-30 hp-30">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                 </div>
               </div>              </div>
               <div class="col-1 ps-1 pe-1 pb-1 ptp-2">                <div class="bgc-white p-1 h-100 d-flex align-items-center justify-content-center">
-                <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                <div className="wp-30 hp-30">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                 </div>
               </div>              </div>
 
               <div class="col-8 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Otro:</div></div>
               <div class="col-1 ps-1 pe-1 pb-1 ptp-2">                <div class="bgc-white p-1 h-100 d-flex align-items-center justify-content-center">
-                <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                <div className="wp-30 hp-30">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                 </div>
               </div>              </div>
               <div class="col-2 ps-1 pe-1 pb-1 ptp-2">                <div class="bgc-white p-1 h-100 d-flex align-items-center justify-content-center">
-                <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                <div className="wp-30 hp-30">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                 </div>
               </div>              </div>
               <div class="col-1 ps-1 pe-1 pb-1 ptp-2">                <div class="bgc-white p-1 h-100 d-flex align-items-center justify-content-center">
-                <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
+                <div className="wp-30 hp-30">
+                  <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                 </div>
               </div>              </div>
             </div>
