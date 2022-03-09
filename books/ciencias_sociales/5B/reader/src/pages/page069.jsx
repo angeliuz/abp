@@ -82,13 +82,13 @@ function Page069(props) {
                   <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white">
                     <div className="p-2 w-100 d-flex">
                       <div className="f-Ubuntu-B fsp-18 color-saitama msp-10 mep-10 ptp-10 text-center">1</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 max-wp-200" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90" />
                     </div>
                   </div>
                   <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white">
                     <div className="p-2 w-100 d-flex">
                       <div className="f-Ubuntu-B fsp-18 color-saitama msp-10 mep-10 ptp-10 text-center">2</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90" />
                     </div>
                   </div>
 
@@ -98,13 +98,13 @@ function Page069(props) {
                   <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white">
                     <div className="p-2 w-100 d-flex">
                       <div className="f-Ubuntu-B fsp-18 color-saitama msp-10 mep-10 ptp-10 text-center">1</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90" />
                     </div>
                   </div>
                   <div className="d-flex flex-column mbp-20 mtp-10 w-100 rounded-p-10 bgc-white">
                     <div className="p-2 w-100 d-flex">
                       <div className="f-Ubuntu-B fsp-18 color-saitama msp-10 mep-10 ptp-10 text-center">2</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90" />
                     </div>
                   </div>
 
@@ -132,13 +132,13 @@ function Page069(props) {
                   <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white">
                     <div className="p-2 w-100 d-flex">
                       <div className="f-Ubuntu-B fsp-18 color-saitama msp-10 mep-10 ptp-10 text-center">1</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90" />
                     </div>
                   </div>
                   <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white">
                     <div className="p-2 w-100 d-flex">
                       <div className="f-Ubuntu-B fsp-18 color-saitama msp-10 mep-10 ptp-10 text-center">2</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90" />
                     </div>
                   </div>
 
@@ -148,13 +148,13 @@ function Page069(props) {
                   <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white">
                     <div className="p-2 w-100 d-flex">
                       <div className="f-Ubuntu-B fsp-18 color-saitama msp-10 mep-10 ptp-10 text-center">1</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90" />
                     </div>
                   </div>
                   <div className="d-flex flex-column mbp-20 mtp-10 w-100 rounded-p-10 bgc-white">
                     <div className="p-2 w-100 d-flex">
                       <div className="f-Ubuntu-B fsp-18 color-saitama msp-10 mep-10 ptp-10 text-center">2</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90" />
                     </div>
                   </div>
 
