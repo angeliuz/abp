@@ -72,29 +72,24 @@ function Page021(props) {
               Energía
             </div>
           </div>
-          <div className="d-flex msp-60 mep-60 mbp-10  bgc-kai rounded-p-20 border-style-solid border-1 border-color-kai">
+          <div className="d-flex msp-60 mep-60 mbp-10  bgc-calypso8 rounded-p-20 border-style-solid border-1 border-color-kai">
 
             <div className="row w-100 p-0 m-0">
 
               <div className="col-sm-3 position-relative ptp-60 msp-20">
                 <div className="position-absolute top-50 start-0 translate-middle msp-3 mtp-0 msp--30 zindex-1 visible-768">
-                  <img
-                    src="images/page_021/img_004.png"
-                    className=" "
-                    alt=""
-                  />
+                  <img src="images/page_021/img_004.png" className=" " alt="" />
                 </div>
 
-                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
-                  <img
-                    src="images/page_021/img_005.svg"
-                    className="wp-30 "
-                    alt=""
-                  />
+                <div className="position-absolute top-50 start-100 translate-middle  msp-3 mtp-30 zindex-1">
+                  <img src="images/page_021/img_005.svg" className="wp-30 " alt="" />
                 </div>
-                <div className="d-flex flex-column min-hp-170 center-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-bach border-style-solid border-1 border-color-bach">
+
+                <div className="d-flex flex-column min-hp-170 center-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-sonic border-style-solid border-1 border-color-bach">
                   <div className="f-Ubuntu-L fsp-16 text-center w-100 p-1">Se caracteriza
                     por…</div>
+
+
                   <div className="p-2 w-100 d-flex">
                     {/* <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -104,7 +99,7 @@ function Page021(props) {
                 </div>
               </div>
               <div className="col-sm-4 position-relative ptp-10 ">
-                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
+                <div className="position-absolute top-50 start-100 translate-middle  msp-3 mtp-30 zindex-1">
                   <img
                     src="images/page_021/img_005.svg"
                     className="wp-30 "
@@ -128,7 +123,7 @@ function Page021(props) {
                 </div>
               </div>
               <div className="col-sm-4 position-relative ptp-10 ">
-                
+
                 <div className="d-flex justify-content-center w-100 ptp-25">
                   <div className="bgc-freezer w-90 rounded-caja ptp-5 pbp-5 color-black fsp-15 f-Ubuntu-M  ">
                     No renovable
@@ -153,7 +148,7 @@ function Page021(props) {
                     alt=""
                   />
                 </div>
-                <div className="d-flex flex-column min-hp-170 center-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-bach border-style-solid border-1 border-color-bach">
+                <div className="d-flex flex-column min-hp-170 center-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-sonic border-style-solid border-1 border-color-bach">
                   <div className="f-Ubuntu-L fsp-16 text-center w-100 p-2">¿Cuáles son?</div>
                   <div className="p-2 w-100 d-flex">
                     {/* <InputBox
@@ -181,7 +176,7 @@ function Page021(props) {
                 </div>
               </div>
               <div className="col-sm-4 position-relative mbp-10">
-              <div className="position-absolute top-100 start-100 translate-middle msp-3 mtp-0 msp-20 zindex-1 visible-768">
+                <div className="position-absolute top-100 start-100 translate-middle msp-3 mtp-0 msp-20 zindex-1 visible-768">
                   <img
                     src="images/page_021/img_006.png"
                     className=" "
@@ -274,13 +269,13 @@ function Page021(props) {
               <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
               <div className="w-100 hp-25 bgc-bulma"></div>
             </div>
-            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-              <img src="images/rotulo_investigacion.svg" className="oculto" alt="" />
+            <div className="col-7 col-sm-2 p-0 m-0 position-relative">
+              <img src="images/rotulo_investigacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
               <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
               <div className="w-100 hp-25 bgc-android18"></div>
             </div>
-            <div className="col-7 col-sm-2 p-0 m-0 position-relative">
-              <img src="images/rotulo_experimentacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
+            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+              <img src="images/rotulo_experimentacion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
               <div className="w-100 hp-25 bgc-pidgey"></div>
             </div>
@@ -295,6 +290,7 @@ function Page021(props) {
               <div className="w-100 hp-25 bgc-pikachu"></div>
             </div>
           </div>
+          {/* END PIE DE PAGINA */}
 
         </div>
       </div>
