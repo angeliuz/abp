@@ -61,11 +61,11 @@ function Page043(props) {
               {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-35 text-center mtp-10 " className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"91"} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-pixilate-semibold fsp-16 fw-800">
+          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-Ubuntu-L fsp-15 fw-800">
             <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/fondo_001.svg"} className="wp-560" alt="" /></div>
             <div className="position-absolute top-100 start-100 translate-middle msp--70 mtp--95 zindex-1 visible-768"><img src={"images/page_" + pagina + "/mono.png"} className="hp-150" alt="" /></div>
             <div className="position-absolute top-0 start-50 msp--260 mtp-55 zindex-1">
