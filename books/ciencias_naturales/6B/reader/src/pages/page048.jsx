@@ -44,13 +44,13 @@ function Page048(props) {
                 <div className="col-4 p-1 m-0">
                   <div className="rounded-p-10 bgc-white border-style-solid border-color-pidgey border-1 p-2 f-Ubuntu-B fsp-15 lh-sm">
                     <div className="f-Ubuntu-R fsp-14 ptp-0 psp-0 pep-10 text-start">Tareas:</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-110" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-110 f-Ubuntu-R" />
                   </div>
                 </div>
                 <div className="col-4 p-1 m-0">
                   <div className="rounded-p-10 bgc-white border-style-solid border-color-pidgey border-1 p-2 f-Ubuntu-B fsp-15 lh-sm">
                     <div className="f-Ubuntu-R fsp-14 ptp-0 psp-0 pep-10 text-start">Responsables:</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-110" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-110 f-Ubuntu-R " />
                   </div>
                 </div>
               </div>
@@ -60,13 +60,13 @@ function Page048(props) {
                 <div className="col-4 p-1 m-0">
                   <div className="rounded-p-10 bgc-white border-style-solid border-color-android18 border-1 p-2 f-Ubuntu-B fsp-15 lh-sm">
                     <div className="f-Ubuntu-R fsp-14 ptp-0 psp-0 pep-10 text-start">Tareas:</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-110" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-110 f-Ubuntu-R " />
                   </div>
                 </div>
                 <div className="col-4 p-1 m-0">
                   <div className="rounded-p-10 bgc-white border-style-solid border-color-android18 border-1 p-2 f-Ubuntu-B fsp-15 lh-sm">
                     <div className="f-Ubuntu-R fsp-14 ptp-0 psp-0 pep-10 text-start">Responsables:</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-110" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-110 f-Ubuntu-R " />
                   </div>
                 </div>
               </div>
@@ -76,13 +76,13 @@ function Page048(props) {
                 <div className="col-4 p-1 m-0">
                   <div className="rounded-p-10 bgc-white border-style-solid border-color-bulma border-1 p-2 f-Ubuntu-B fsp-15 lh-sm">
                     <div className="f-Ubuntu-R fsp-14 ptp-0 psp-0 pep-10 text-start">Tareas:</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-110" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-110 f-Ubuntu-R " />
                   </div>
                 </div>
                 <div className="col-4 p-1 m-0">
                   <div className="rounded-p-10 bgc-white border-style-solid border-color-bulma border-1 p-2 f-Ubuntu-B fsp-15 lh-sm">
                     <div className="f-Ubuntu-R fsp-14 ptp-0 psp-0 pep-10 text-start">Responsables:</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-110" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-110 f-Ubuntu-R " />
                   </div>
                 </div>
               </div>
@@ -92,13 +92,13 @@ function Page048(props) {
                 <div className="col-4 p-1 m-0">
                   <div className="rounded-p-10 bgc-white border-style-solid border-color-saitama border-1 p-2 f-Ubuntu-B fsp-15 lh-sm">
                     <div className="f-Ubuntu-R fsp-14 ptp-0 psp-0 pep-10 text-start">Tareas:</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-110" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-110 f-Ubuntu-R " />
                   </div>
                 </div>
                 <div className="col-4 p-1 m-0">
                   <div className="rounded-p-10 bgc-white border-style-solid border-color-saitama border-1 p-2 f-Ubuntu-B fsp-15 lh-sm">
                     <div className="f-Ubuntu-R fsp-14 ptp-0 psp-0 pep-10 text-start">Responsables:</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-110" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-110 f-Ubuntu-R " />
                   </div>
                 </div>
               </div>
@@ -108,13 +108,13 @@ function Page048(props) {
                 <div className="col-4 p-1 m-0">
                   <div className="rounded-p-10 bgc-white border-style-solid border-color-pikachu border-1 p-2 f-Ubuntu-B fsp-15 lh-sm">
                     <div className="f-Ubuntu-R fsp-14 ptp-0 psp-0 pep-10 text-start">Tareas:</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-110" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-110 f-Ubuntu-R " />
                   </div>
                 </div>
                 <div className="col-4 p-1 m-0">
                   <div className="rounded-p-10 bgc-white border-style-solid border-color-pikachu border-1 p-2 f-Ubuntu-B fsp-15 lh-sm">
                     <div className="f-Ubuntu-R fsp-14 ptp-0 psp-0 pep-10 text-start">Responsables:</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-110" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-110 f-Ubuntu-R " />
                   </div>
                 </div>
               </div>

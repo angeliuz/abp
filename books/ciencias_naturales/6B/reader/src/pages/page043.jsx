@@ -65,7 +65,7 @@ function Page043(props) {
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-pixilate-semibold fsp-16">
+          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-pixilate-semibold fsp-16 fw-800">
             <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/fondo_001.svg"} className="wp-560" alt="" /></div>
             <div className="position-absolute top-100 start-100 translate-middle msp--70 mtp--95 zindex-1 visible-768"><img src={"images/page_" + pagina + "/mono.png"} className="hp-150" alt="" /></div>
             <div className="position-absolute top-0 start-50 msp--260 mtp-55 zindex-1">
@@ -75,7 +75,7 @@ function Page043(props) {
             </div>
             <div className="position-absolute top-50 start-50 msp--275 mtp-35 zindex-1">
               <div className="d-flex flex-column wp-250 psp-10 pep-10 ptp-0 pbp-0 ">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-120" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-120" />1
               </div>
             </div>
             <div className="position-absolute top-0 start-50 msp-55 mtp-60 zindex-1">

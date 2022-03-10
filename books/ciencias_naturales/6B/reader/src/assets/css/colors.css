@@ -148,6 +148,7 @@
   --calypso5:#5ebcd6;
   --calypso6:#7cc6de;
   --calypso7:#ccc9e5;
+  --calypso8:#eaf6f8;
   --grieg:#eef4d8;
   --brahms:#f9f7d4;
   --olsen:#b8703a;
@@ -881,6 +882,9 @@
     .color-mozart {
       color: var(--mozart);
     }
+    .color-calypso8 {
+      color: var(--calypso8);
+    }
 
 
 
@@ -1379,6 +1383,9 @@
  .border-color-mozart {
   border-color: var(--mozart) !important;
  }
+ .border-color-calypso8 {
+  border-color: var(--calypso8) !important;
+ }
 
 
 
@@ -1856,4 +1863,7 @@
 }
 .bgc-mozart {
   background-color: var(--mozart);
+}
+.bgc-calypso8 {
+  background-color: var(--calypso8);
 }

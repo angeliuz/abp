@@ -100,7 +100,7 @@ function Page045(props) {
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-10 mbp-40 psp-50 pep-15 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-10 mbp-90 psp-50 pep-15 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_045/clip.png" className="hp-45 mep-40 mtp-0" alt="" /></div>
