@@ -35,19 +35,19 @@ function Page027(props) {
                 <img src="images/page_027/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-              Leer el reportaje de la<br />revista sobre la huella<br /> ecológica
+                Leer el reportaje de la<br />revista sobre la huella<br /> ecológica
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_027/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-              Reconocer usos<br /> inadecuados de la energía<br />en el colegio
+                Reconocer usos<br /> inadecuados de la energía<br />en el colegio
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_027/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
-              Señalar cambios para<br /> utilizar responsablemente<br/>la energ a en el colegio
+                Señalar cambios para<br /> utilizar responsablemente<br />la energ a en el colegio
               </div>
               {/* <div className="p-0 align-self-center">
                 <img src="images/page_025/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
@@ -86,7 +86,7 @@ function Page027(props) {
 
 
               <div className="col-md-6 col-12 position-relative">
-              <div className="position-absolute top-100 start-0 translate-middle mtp--90 msp--20 visible-768"><img src="images/page_027/img_005.png" className="wp-120" alt="" /></div>
+                <div className="position-absolute top-100 start-0 translate-middle mtp--90 msp--20 visible-768"><img src="images/page_027/img_005.png" className="wp-120" alt="" /></div>
                 <div className="position-absolute top-0 start-50 translate-middle wp-200 mtp-20 bgc-pikachu psp-5 pep-5 ptp-5 pbp-5 rounded-p-20 ">
                   <div className="f-Ubuntu-M color-white fsp-16">¿Qué estoy aprendiendo?</div>
                 </div>
@@ -94,8 +94,7 @@ function Page027(props) {
                 <div className="position-absolute top-50 start-100 translate-middle msp-25 mtp-0 visible-768"><img src="images/page_027/img_006.png" className="hp-450 " alt="" /></div>
 
                 <div className="d-flex mbp-20 mtp-20 w-100">
-                  <div className="p-2 
-                       w-100 border-style-solid border-2 rounded-p-10 border-color-leono bgc-kai">
+                  <div className="p-2  w-100 border-style-solid border-2 rounded-p-10 border-color-leono bgc-tanya">
 
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-700" />
                   </div>
@@ -106,12 +105,12 @@ function Page027(props) {
 
 
                 <div className="col-md-12 col-12 mbp-20 mtp-60 position-relative">
-                <div className="position-absolute top-0 start-100 translate-middle mtp--60 msp-10 visible-768"><img src="images/page_027/img_004.png" className="wp-120" alt="" /></div>
+                  <div className="position-absolute top-0 start-100 translate-middle mtp--60 msp-10 visible-768"><img src="images/page_027/img_004.png" className="wp-120" alt="" /></div>
                   <div className="position-absolute top-0 start-50 translate-middle wp-130 mtp--40 bgc-pikachu psp-5 pep-5 ptp-5 pbp-5 rounded-p-20 ">
                     <div className="f-Ubuntu-M color-white fsp-16">¿Para qué lo
                       puedo utilizar?</div>
                   </div>
-                  <div className="text-center w-100 border-2 border-style-solid border-color-leono bgc-kai rounded-p-10">
+                  <div className="text-center w-100 border-2 border-style-solid border-color-leono bgc-tanya rounded-p-10">
                     <div className="rounded-set-6 f-Ubuntu-M fsp-16 pep-20 psp-20 ptp-5 pbp-5 bgc-white d-flex justify-content-center align-items-center color-pikachu">
                       En mi vida
                     </div>
@@ -122,8 +121,8 @@ function Page027(props) {
                 </div>
 
                 <div className="col-md-12 col-12 mbp-20 position-relative">
-                <div className="position-absolute top-0 start-100 translate-middle msp-15 mtp--5 "><img src="images/page_027/img_007.svg" className="wp-30 " alt="" /></div>
-                  <div className="text-center w-100 border-2 border-style-solid border-color-leono bgc-kai rounded-p-10">
+                  <div className="position-absolute top-0 start-100 translate-middle msp-15 mtp--5 "><img src="images/page_027/img_007.svg" className="wp-30 " alt="" /></div>
+                  <div className="text-center w-100 border-2 border-style-solid border-color-leono bgc-tanya rounded-p-10">
                     <div className="rounded-set-6 f-Ubuntu-M fsp-16 pep-20 psp-20 ptp-5 pbp-5 bgc-white d-flex justify-content-center align-items-center color-pikachu">
                       En mi casa y el colegio
                     </div>
@@ -134,8 +133,8 @@ function Page027(props) {
                 </div>
 
                 <div className="col-md-12 col-12 mbp-10 position-relative">
-                <div className="position-absolute top-0 start-100 translate-middle msp-15 mtp--5 "><img src="images/page_027/img_007.svg" className="wp-30 " alt="" /></div>
-                  <div className="text-center w-100 border-2 border-style-solid border-color-leono bgc-kai rounded-p-10">
+                  <div className="position-absolute top-0 start-100 translate-middle msp-15 mtp--5 "><img src="images/page_027/img_007.svg" className="wp-30 " alt="" /></div>
+                  <div className="text-center w-100 border-2 border-style-solid border-color-leono bgc-tanya rounded-p-10">
                     <div className="rounded-set-6 f-Ubuntu-M fsp-16 pep-20 psp-20 ptp-5 pbp-5 bgc-white d-flex justify-content-center align-items-center color-pikachu">
                       En el desafío
                     </div>
@@ -161,34 +160,33 @@ function Page027(props) {
             </div>
             <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
           </div>
-          <div className="row position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
-
-            <div className="col-1 position-relative col-sm-2 p-0 m-0">
+          <div className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
+            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
               <img src="images/rotulo_motivacion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
               <div className="w-100 hp-25 bgc-goten"></div>
             </div>
-            <div className="col-7 position-relative col-sm-2 p-0 m-0">
+            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
               <img src="images/rotulo_planificacion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
               <div className="w-100 hp-25 bgc-bulma"></div>
             </div>
-            <div className="col-1 position-relative col-sm-2 p-0 m-0">
+            <div className="col-7 col-sm-2 p-0 m-0 position-relative">
               <img src="images/rotulo_investigacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
               <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
               <div className="w-100 hp-25 bgc-android18"></div>
             </div>
-            <div className="col-1 position-relative col-sm-2 p-0 m-0">
+            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
               <img src="images/rotulo_experimentacion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
               <div className="w-100 hp-25 bgc-pidgey"></div>
             </div>
-            <div className="col-1 position-relative col-sm-2 p-0 m-0">
+            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
               <img src="images/rotulo_creacion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
               <div className="w-100 hp-25 bgc-saitama"></div>
             </div>
-            <div className="col-1 position-relative col-sm-2 p-0 m-0">
+            <div className="col-1 col-sm-2 p-0 m-0 position-relative">
               <img src="images/rotulo_difusion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-leono rounded-caja-end"></div>
               <div className="w-100 hp-25 bgc-pikachu"></div>

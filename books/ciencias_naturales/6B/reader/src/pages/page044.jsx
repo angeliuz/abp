@@ -107,7 +107,7 @@ function Page044(props) {
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-0 mbp-60 psp-50 pep-0 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-0 mbp-100 psp-50 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-sm-12 col-md-6 p-1 m-0 position-relative">
                 <div className="bgc-android18 rounded-p-10 p-2">
