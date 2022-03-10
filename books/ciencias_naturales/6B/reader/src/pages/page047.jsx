@@ -67,7 +67,7 @@ function Page047(props) {
                             {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-35 text-center mtp-10 " className="p-0 px-0" />
+                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"93"} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
                         </div>
                     </div>
 
@@ -77,13 +77,19 @@ function Page047(props) {
                             <div className="col-12 mbp-10">
                                 <div className="d-flex border-style-solid border-color-goten border-3 p-0 m-0">
                                     <div className="w-20 bgc-genos p-3 border-right-style-solid border-color-goten border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14">Paso 1:</div>
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-110 mep-10 msp-10" />
+                                    <div className="p-2 w-80">
+                                        {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Podemos mejorar en...</div> */}
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1  lhp-35 min-hp-110" />
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-12 mbp-10">
                                 <div className="d-flex border-style-solid border-color-bulma border-3 p-0 m-0">
                                     <div className="w-20 bgc-piccolo p-3 border-right-style-solid border-color-bulma border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14">Paso 2:</div>
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-110 mep-10 msp-10" />
+                                    <div className="p-2 w-80">
+                                        {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Podemos mejorar en...</div> */}
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1  lhp-35 min-hp-110" />
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-12 mbp-10">
@@ -95,19 +101,28 @@ function Page047(props) {
                             <div className="col-12 mbp-10">
                                 <div className="d-flex border-style-solid border-color-ken border-3 p-0 m-0">
                                     <div className="w-20 bgc-kai p-3 border-right-style-solid border-color-ken border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14"></div>
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-110 mep-10 msp-10" />
+                                    <div className="p-2 w-80">
+                                        {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Podemos mejorar en...</div> */}
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1  lhp-35 min-hp-110" />
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-12 mbp-10">
                                 <div className="d-flex border-style-solid border-color-saitama border-3 p-0 m-0">
                                     <div className="w-20 bgc-windu p-3 border-right-style-solid border-color-saitama border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14"></div>
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-110 mep-10 msp-10" />
+                                    <div className="p-2 w-80">
+                                        {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Podemos mejorar en...</div> */}
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1  lhp-35 min-hp-110" />
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-12 mbp-10">
                                 <div className="d-flex border-style-solid border-color-vegeta border-3 p-0 m-0">
                                     <div className="w-20 bgc-itto p-3 border-right-style-solid border-color-vegeta border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14"></div>
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-110 mep-10 msp-10" />
+                                    <div className="p-2 w-80">
+                                        {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Podemos mejorar en...</div> */}
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1  lhp-35 min-hp-110" />
+                                    </div>
                                 </div>
                             </div>
                         </div>

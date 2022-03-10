@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
+import Check from "../components/Check";
 import "./page_051.css";
 
 function Page051(props) {
@@ -286,60 +287,33 @@ function Page051(props) {
               <div className="d-flex mbp-0 psp-0 pep-0 position-relative p-1 ptp-10">
                 {/* <div className="position-absolute top-50 end-0 translate-middle-y   visible-768 msp-80 mtp--0 "><img src="images/page_061/img_005.png" className="wp-30 " alt="" /></div> */}
                 <div className="row h-100 w-100 m-0 p-0 ">
-                  
-                    <div className="row m-0 p-0 hp-45">
-                      <div className="col-1 d-flex center-center h-100 m-1 wp-240 rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 border-style-solid border-2 border-color-mozart bgc-white color-mozart">
-                        Otra
-                      </div>
-                      <div className="col-5 align-items-center h-100 m-1 w-100  rounded-p-10 hp-60 f-Ubuntu-R fsp-16 p-1 text-start border-style-solid border-2 border-color-mozart bgc-white psp-5 ">
-                        <InputBox
+                  <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
+                    <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 border-style-solid border-2 border-color-mozart bgc-white color-mozart">
+                      Otra
+                    </div>
+                    <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-60 f-Ubuntu-L fsp-16 p-1 text-start border-style-solid border-2 border-color-goten bgc-white  psp-5 ">
+                    <InputBox
                           id={"p" + pagina + "_input" + (indexInput += 1)}
                           className=" p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-35 f-Ubuntu-L min-wp-100"
                         />
-                      </div>
                     </div>
+                  </div>
 
-                    <div className="col-sm-1 col-md-1 d-flex align-items-center justify-content-center position-relative  wp-50 p-0 m-0 ">
-                      <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                        <InputBox
-                          id={"p" + pagina + "_input" + (indexInput += 1)}
-                          className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35"
-                        />
-                      </div>
+                  <div className="col-sm-1 col-md-1 d-flex align-items-center justify-content-center position-relative  wp-50 p-0 m-0 ">
+                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-mozart bgc-white rounded-1">
+                      <InputBox
+                        id={"p" + pagina + "_input" + (indexInput += 1)}
+                        className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35"
+                      />
                     </div>
-                  
+                  </div>
                 </div>
               </div>
+              
             </div>
           </div>
-          <div className="row bgc-red d-flex flex-row  mb-3 mbp-200 psp-60 pep-60">
-            <div className="col-1">
-              <div className="w-100 hp-30 border border-color-dark border-style-solid border-1 bgc-white  ">
-                otra
-              </div>
-            </div>
-            <div className="col-7">
-              <div className="w-100 hp-30 border-color-dark border-style-solid border-1 bgc-white ">
-                <InputBox
-                  id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className=" p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-35 f-Ubuntu-L min-wp-100"
-                />
-              </div>
-            </div>
-            <div className="col-1">
-              <div className="w-100 hp-30 border-color-dark border-style-solid border-1 bgc-white ">
-                <InputBox
-                  id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className=" p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-35 f-Ubuntu-L min-wp-100"
-                />
-              </div>
-            </div>
-          </div>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
+          
+          
           <div
             className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2"
             style={{ bottom: 70, right: 0 }}
