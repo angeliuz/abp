@@ -58,56 +58,56 @@ function Page041(props) {
               <div className="col-12 p-0 m-0 position-relative">
 
                 <div className="position-absolute top-50 start-50 translate-middle mtp--350 msp--120 conceptos1">
-                  <div className="text-center f-colby-condensed-medium fsp-16 color-bulma">Conceptos clave 1</div>
+                  <div className="text-center f-colby-condensed-medium fsp-16 color-bulma">Conceptos clave</div>
                   <div className="position-relative bgc-white p-1 rounded-p-5 border-style-solid border-color-bulma border-1 wp-230">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                   </div>
                 </div>
 
                 <div className="position-absolute top-50 start-50 translate-middle mtp--350 msp-120 conceptos2">
-                  <div className="text-center f-colby-condensed-medium fsp-16 color-blaze">Conceptos clave 2</div>
+                  <div className="text-center f-colby-condensed-medium fsp-16 color-blaze">Conceptos clave</div>
                   <div className="position-relative bgc-white p-1 rounded-p-5 border-style-solid border-color-blaze border-1 wp-230">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                   </div>
                 </div>
 
                 <div className="position-absolute top-50 start-50 translate-middle mtp-350 msp--120 conceptos3">
-                  <div className="text-center f-colby-condensed-medium fsp-16 color-pidgey">Conceptos clave 3</div>
+                  <div className="text-center f-colby-condensed-medium fsp-16 color-pidgey">Conceptos clave</div>
                   <div className="position-relative bgc-white p-1 rounded-p-5 border-style-solid border-color-pidgey border-1 wp-230">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                   </div>
                 </div>
 
                 <div className="position-absolute top-50 start-50 translate-middle mtp-350 msp-120 conceptos4">
-                  <div className="text-center f-colby-condensed-medium fsp-16 color-pikachu">Conceptos clave 4</div>
+                  <div className="text-center f-colby-condensed-medium fsp-16 color-pikachu">Conceptos clave</div>
                   <div className="position-relative bgc-white p-1 rounded-p-5 border-style-solid border-color-pikachu border-1 wp-230">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                   </div>
                 </div>
 
                 <div className="position-absolute top-50 start-50 translate-middle mtp--130 msp--290 imagen1">
-                  <div className="text-center f-colby-condensed-medium fsp-16 color-bulma">Imagen clave 1</div>
+                  <div className="text-center f-colby-condensed-medium fsp-16 color-bulma">Imagen clave</div>
                   <div className="position-relative bgc-white p-1 rounded-p-5 border-style-solid border-color-bulma border-1 wp-210 achica-caja">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-140" />
                   </div>
                 </div>
 
                 <div className="position-absolute top-50 start-50 translate-middle mtp--130 msp-290 imagen2">
-                  <div className="text-center f-colby-condensed-medium fsp-16 color-blaze">Imagen clave 2</div>
+                  <div className="text-center f-colby-condensed-medium fsp-16 color-blaze">Imagen clave</div>
                   <div className="position-relative bgc-white p-1 rounded-p-5 border-style-solid border-color-blaze border-1 wp-210 achica-caja">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-140" />
                   </div>
                 </div>
 
                 <div className="position-absolute top-50 start-50 translate-middle mtp-130 msp--290 imagen3">
-                  <div className="text-center f-colby-condensed-medium fsp-16 color-pidgey">Imagen clave 3</div>
+                  <div className="text-center f-colby-condensed-medium fsp-16 color-pidgey">Imagen clave</div>
                   <div className="position-relative bgc-white p-1 rounded-p-5 border-style-solid border-color-pidgey border-1 wp-210 achica-caja">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-140" />
                   </div>
                 </div>
 
                 <div className="position-absolute top-50 start-50 translate-middle mtp-130 msp-290 imagen4">
-                  <div className="text-center f-colby-condensed-medium fsp-16 color-pikachu">Imagen clave 4</div>
+                  <div className="text-center f-colby-condensed-medium fsp-16 color-pikachu">Imagen clave</div>
                   <div className="position-relative bgc-white p-1 rounded-p-5 border-style-solid border-color-pikachu border-1 wp-210 achica-caja">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-140" />
                   </div>
