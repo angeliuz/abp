@@ -1,21 +1,9 @@
-import React from 'react';
-import { doc, getDoc, setDoc, updateDoc, onSnapshot } from "firebase/firestore";
-import db from "../firebase/firebaseConfig";
+import React, {useEffect} from "react";
+import InputCrucigrama from "./InputCrucigrama";
+
 
 
 function Crucigrama(props) {
-    const dokenArray = getUrlParameter("doken").split([','])
-    const coleccion = "dataUsers";
-    const documento = dokenArray[0] + dokenArray[1];
-    const docRef = doc(db, coleccion, documento);
-
-    function getUrlParameter(name) {
-        name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-        var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-        var results = regex.exec(window.location.search);
-        return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-    };
-
 
     var box = props.numero_cajas
     var id = props.id;
@@ -32,15 +20,15 @@ function Crucigrama(props) {
         rotuloAlign = "justify-content-end align-items-center ";
     }
 
-
-
     const autoTab = e => {
 
         const BACKSPACE_KEY = 8;
         const DELETE_KEY = 46;
-        let tabindex = e.target.getAttribute('data-index');
+        let tabindex = e.target.getAttribute('dataIndex');
         tabindex = Number(tabindex);
         console.log(tabindex)
+        
+        console.log("value: " + e.target.value)
 
         if (e.keyCode === BACKSPACE_KEY) {
             if (tabindex > 0) {
@@ -53,7 +41,6 @@ function Crucigrama(props) {
                 document.getElementById(id + "_" + (tabindex + 1)).focus();
             }
         }
-
 
     };
 
@@ -91,15 +78,26 @@ function Crucigrama(props) {
             }
         }
 
+
         return (
-            <input
+            <InputCrucigrama
                 className={"f-Ubuntu-B text-center text-uppercase color-dark border-style-solid border-color-dark border-2 bgc-transparent " + borderHidden + " " + ancho + " " + alto}
-                data-index={props.index}
+                dataIndex={props.index}
                 id={id + "_" + props.index}
                 maxLength={1}
                 onKeyUp={props.autoTab}
                 onClick={focusGrupo}
             />
+            // <input
+            //     className={"f-Ubuntu-B text-center text-uppercase color-dark border-style-solid border-color-dark border-2 bgc-transparent " + borderHidden + " " + ancho + " " + alto}
+            //     data-index={props.index}
+            //     id={id + "_" + props.index}
+            //     maxLength={1}
+            //     onKeyUp={props.autoTab}
+            //     onClick={focusGrupo}
+            //     onChange={handleTextChange}
+            //     value={content1}
+            // />
         );
     };
 
@@ -118,3 +116,5 @@ function Crucigrama(props) {
 }
 
 export default Crucigrama;
+
+
