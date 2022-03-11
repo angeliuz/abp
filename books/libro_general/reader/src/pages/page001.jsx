@@ -4,6 +4,7 @@ import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import Crucigrama from "../components/Crucigrama";
 import CheckMultiple from "../components/CheckMultiple";
+import ModalRecortable from "../components/ModalRecortable";
 
 import "./page_001.css";
 
@@ -32,7 +33,7 @@ function Page001() {
                                 1
                             </div>
                             <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                                Checks
+                                Check Multiples
                             </div>
                         </div>
                     </div>
@@ -41,7 +42,7 @@ function Page001() {
                             <div className="col-3 p-0 m-0 position-relative d-flex center-center">
                                 <CheckMultiple
                                     id={"check_p" + pagina + "_" + (indexInput += 1)}
-                                    image0={"images/generales/check_vacio.svg"}
+                                    image0={"images/page_" + pagina + "/check_vacio.svg"}
                                     image1={"images/generales/check_azul.svg"}
                                     image2={"images/generales/check_rojo.svg"}
                                     classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-circle disable-select d-flex center-center p-1 "
@@ -76,6 +77,55 @@ function Page001() {
                             </div>
                         </div>
                     </div>
+
+                    <div className="container-titulo-global mtp-20 mbp-0">
+                        <div className="d-flex psp-20">
+                            <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                                2
+                            </div>
+                            <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                                Recortables
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="d-flex global-margin mtp-0 mbp-0 psp-70 pep-70 ptp-0 pbp-0">
+                        <div className="row p-0 m-0 w-100">
+                            <div className="col-12 p-0 m-0 position-relative">
+                                <div className="row">
+                                    <div className="col-md-6 col-12 pbp-20 position-relative">
+                                        <div className="bgc-white mxwp-300 centrar border-style-dashed border-color-info border-2 position-relative">
+                                            <ModalRecortable
+                                                id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                                                pagina={pagina}
+                                                image={"images/page_" + pagina + "/recortable.png"}
+                                                numRecortables="3"
+                                                className="p-0 m-0 d-flex wp-200 hp-200 bgc-red pe-auto"
+                                            />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-12 pbp-20 position-relative">
+                                        <div className="bgc-white mxwp-300 centrar border-style-dashed border-color-info border-2 position-relative">
+                                            <ModalRecortable
+                                                id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                                                pagina={pagina}
+                                                image={"images/page_" + pagina + "/recortable.png"}
+                                                numRecortables="3"
+                                                className="p-0 m-0 d-flex wp-200 hp-200 bgc-red pe-auto"
+                                            />
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
 
                 </div>
             </div>

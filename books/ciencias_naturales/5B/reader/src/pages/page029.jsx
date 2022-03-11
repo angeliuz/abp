@@ -53,22 +53,6 @@ function Page029(props) {
             </div>
           </div>
 
-
-          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
-            <div className="row p-0 m-0 w-100">
-              <div className="col-12 p-0 m-0 position-relative">
-                <CheckMultiple
-                  id={"check_p" + pagina + "_" + (indexInput += 1)}
-                  image0={"images/generales/check_vacio.svg"}
-                  image1={"images/generales/check_azul.svg"}
-                  image2={"images/generales/check_rojo.svg"}
-                  classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-circle disable-select d-flex center-center p-1"
-                />
-
-              </div>
-            </div>
-          </div>
-
           <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">

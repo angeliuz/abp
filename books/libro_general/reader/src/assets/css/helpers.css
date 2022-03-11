@@ -3874,6 +3874,13 @@
   border-right-style: solid;
 }
 
+.border-style-dotted{
+  border-style: dotted;
+}
+.border-style-dashed{
+  border-style: dashed;
+}
+
 /* HELPERS ROUNDED PIXELES*/
 .rounded-p-5 {
   border-radius: 5px;

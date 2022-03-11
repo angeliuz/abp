@@ -17,6 +17,7 @@ function ModalRecortable(props) {
   const id = props.id;
   const clasesImagen = props.clasesImagen;
   const pagina = props.pagina;
+  const numRecortables = props.numRecortables;
 
 
   const [imagenSeleccionada, setImagenSeleccionada] = useState(image);
@@ -29,39 +30,6 @@ function ModalRecortable(props) {
     getData();
   }, [imagenSeleccionada, content1]);
 
-  // const getData = () => {
-  //   const obtenerDatos = async () => {
-  //     const docSnap = await getDoc(docRef);
-  //     if(docSnap.exists()){
-  //       onSnapshot(doc(db, coleccion, documento), (doc) => {
-  //         const field = doc.data()[id];
-  //         //console.log("Current data: ", doc.data()[id]);
-  //         if (field) {
-  //           setContent1(doc.data()[id]);
-  //           setImagenSeleccionada(content1);
-  //           //console.log("content1: " + content1);
-  //         } else {
-  //           console.log("Sin datos: "+id);
-  //         }
-  //       });
-
-  //         if (docSnap.data()[id] !== undefined) {
-  //           setContent1(docSnap.data()[id]);
-  //         } else {
-  //           setContent1(image);
-  //           await updateDoc(docRef, {
-  //             [id]: content1,
-  //           });
-  //           console.log("undefined: "+id);
-  //         }
-  //     }else{
-  //       await setDoc(doc(db, coleccion, documento),{[id]:""});
-  //     }
-  //       // console.log("useEffect: " + docSnap.data()[id]);
-  //       // console.log("change: " + content1);
-  //   };
-  //   obtenerDatos();
-  // }
 
   const getData = () => {
     const obtenerDatos = async () => {
@@ -130,7 +98,7 @@ function ModalRecortable(props) {
 
   function loopColumn() {
     const column = [];
-    for (let i = 1; i <= 6; i++) {
+    for (let i = 1; i <= numRecortables; i++) {
       column.push(
 
         <div className="col p-0 m-0 position-relative d-flex center-center p-2 pe-auto" id={"reco_" + i} onClick={handleClick} data-bs-dismiss="modal" >
@@ -183,8 +151,8 @@ function ModalRecortable(props) {
 
   return (
     <>
-      <div className="bgc-white mxwp-300 hp-200 centrar position-relative" data-bs-toggle="modal" data-bs-target={"#" + id} id={"recortable_" + id}>
-        <img src={imagenSeleccionada} className="position-absolute top-50 start-50 translate-middle w-100 h-100" alt="" />
+      <div className="bgc-white centrar position-relative" data-bs-toggle="modal" data-bs-target={"#" + id} id={"recortable_" + id}>
+        <img src={imagenSeleccionada} className="w-100 h-100" alt="" />
       </div>
       <div className="modal fade" id={id} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div className="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
