@@ -109,7 +109,7 @@ function Page033(props) {
 
           <div className="d-flex global-margin mtp-0 mbp-20 psp-30 pep-30 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
-              <div className="col-sm-12 col-md-5 position-relative">
+              <div className="col-md-12 col-md-5 position-relative">
                 <table className=" f-Ubuntu-L fsp-16 border-2 border-style-solid border-color-dark text-start mbp-20 ">
                   <tr>
                     <td
@@ -251,7 +251,7 @@ function Page033(props) {
                   </tr>
                 </table>
               </div>
-              <div className="col-sm-12 col-md-7 p-0 m-0 position-relative">
+              <div className="col-md-12 col-md-7 p-0 m-0 position-relative">
                 <div className="position-absolute top-100 start-100 translate-middle  zindex-1">
                   <img
                     src={"images/page_" + pagina + "/img_003.png"}
@@ -396,7 +396,7 @@ function Page033(props) {
 
           <div className="d-flex global-margin mtp-0 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
-              <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
+              <div className="col-md-12 col-md-6 p-0 m-0 position-relative">
                 <div className="d-flex msp-10 mep-10 mtp-10 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
                   <div className="row p-0 m-0 w-100">
                     <div className="col-12 p-0 m-0 position-relative">
@@ -418,7 +418,7 @@ function Page033(props) {
                 </div>
               </div>
 
-              <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
+              <div className="col-md-12 col-md-6 p-0 m-0 position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle  zindex-1">
                   <img
                     src={"images/page_" + pagina + "/img_004.png"}
@@ -468,7 +468,7 @@ function Page033(props) {
             className="row position-absolute caja-flotante2 p-0 m-0 align-items-end"
             style={{ bottom: 0 }}
           >
-            <div className="col-1 position-relative col-sm-2 p-0 m-0">
+            <div className="col-1 position-relative col-md-2 p-0 m-0">
               <img
                 src="images/rotulo_motivacion.svg"
                 className="oculto"
@@ -477,7 +477,7 @@ function Page033(props) {
               <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
               <div className="w-100 hp-25 bgc-goten"></div>
             </div>
-            <div className="col-1 position-relative col-sm-2 p-0 m-0">
+            <div className="col-1 position-relative col-md-2 p-0 m-0">
               <img
                 src="images/rotulo_planificacion.svg"
                 className="oculto"
@@ -486,7 +486,7 @@ function Page033(props) {
               <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
               <div className="w-100 hp-25 bgc-bulma"></div>
             </div>
-            <div className="col-7 position-relative col-sm-2 p-0 m-0">
+            <div className="col-7 position-relative col-md-2 p-0 m-0">
               <img
                 src="images/rotulo_investigacion.svg"
                 className="visible rotulo-etapa position-absolute top-0 start-0"
@@ -495,7 +495,7 @@ function Page033(props) {
               <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
               <div className="w-100 hp-25 bgc-android18"></div>
             </div>
-            <div className="col-1 position-relative col-sm-2 p-0 m-0">
+            <div className="col-1 position-relative col-md-2 p-0 m-0">
               <img
                 src="images/rotulo_experimentacion.svg"
                 className="oculto"
@@ -504,12 +504,12 @@ function Page033(props) {
               <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
               <div className="w-100 hp-25 bgc-pidgey"></div>
             </div>
-            <div className="col-1 position-relative col-sm-2 p-0 m-0">
+            <div className="col-1 position-relative col-md-2 p-0 m-0">
               <img src="images/rotulo_creacion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
               <div className="w-100 hp-25 bgc-saitama"></div>
             </div>
-            <div className="col-1 position-relative col-sm-2 p-0 m-0">
+            <div className="col-1 position-relative col-md-2 p-0 m-0">
               <img src="images/rotulo_difusion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-leono rounded-caja-end"></div>
               <div className="w-100 hp-25 bgc-pikachu"></div>

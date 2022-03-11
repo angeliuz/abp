@@ -142,7 +142,7 @@ function Page075(props) {
                   </div>
                 </div>
 
-                <div className="col-sm-12 col-md-6 position-relative">
+                <div className="col-md-12 col-md-6 position-relative">
                   <div className="position-absolute top-100 start-0 translate-middle msp-10 mtp--40 visible-768 zindex-1">
                     <img
                       src={"images/page_" + pagina + "/img_003.png"}
@@ -162,7 +162,7 @@ function Page075(props) {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-md-6 position-relative">
+                <div className="col-md-12 col-md-6 position-relative">
                   <div className="position-absolute top-0 start-100 translate-middle msp--20 mtp-40 visible-768 zindex-1">
                     <img
                       src={"images/page_" + pagina + "/img_002.png"}
@@ -205,7 +205,7 @@ function Page075(props) {
           </div>
           <div className="msp-60 mep-60 mbp-100">
             <div className="row m-0 p-0">
-              <div className="col-md-6 col-sm-12 m-0 p-0">
+              <div className="col-md-6 col-md-12 m-0 p-0">
                 <div class="text-start bgc-itto p-3 f-Ubuntu-L fsp-13 border-color-garou cb-outline-p75 rounded-p-10">
                   <p>¿Qué aprendí?</p>
                   <div className="psp-15 pep-15">
@@ -216,7 +216,7 @@ function Page075(props) {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-sm-12 p-0 m-0">
+              <div className="col-md-6 col-md-12 p-0 m-0">
                 <div class="text-start bgc-draco p-3 f-Ubuntu-L fsp-13 border-color-garou cb-outline-p75 rounded-p-10">
                   <p>¿Cómo aprendí?</p>
                   <div className="psp-15 pep-15">
@@ -227,7 +227,7 @@ function Page075(props) {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-sm-12 p-0 m-0">
+              <div className="col-md-6 col-md-12 p-0 m-0">
                 <div class="text-start bgc-pantro p-3 f-Ubuntu-L fsp-13 border-color-garou cb-outline-p75 rounded-p-10">
                   <p>¿Con quién aprendí?</p>
                   <div className="psp-15 pep-15">
@@ -238,7 +238,7 @@ function Page075(props) {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-sm-12 p-0 m-0">
+              <div className="col-md-6 col-md-12 p-0 m-0">
                 <div class="text-start bgc-kokomi p-3 f-Ubuntu-L fsp-13 border-color-garou cb-outline-p75 rounded-p-10">
                   <p>¿Cómo me sentí aprendiendo?</p>
                   <div className="psp-15 pep-15">
@@ -273,8 +273,8 @@ function Page075(props) {
             <div
               className={
                 etapa == 1
-                  ? "col-7 position-relative col-sm-2 p-0 m-0"
-                  : "col-1 position-relative col-sm-2 p-0 m-0"
+                  ? "col-7 position-relative col-md-2 p-0 m-0"
+                  : "col-1 position-relative col-md-2 p-0 m-0"
               }
             >
               <img
@@ -292,8 +292,8 @@ function Page075(props) {
             <div
               className={
                 etapa == 2
-                  ? "col-7 position-relative col-sm-2 p-0 m-0"
-                  : "col-1 position-relative col-sm-2 p-0 m-0"
+                  ? "col-7 position-relative col-md-2 p-0 m-0"
+                  : "col-1 position-relative col-md-2 p-0 m-0"
               }
             >
               <img
@@ -311,8 +311,8 @@ function Page075(props) {
             <div
               className={
                 etapa == 3
-                  ? "col-7 position-relative col-sm-2 p-0 m-0"
-                  : "col-1 position-relative col-sm-2 p-0 m-0"
+                  ? "col-7 position-relative col-md-2 p-0 m-0"
+                  : "col-1 position-relative col-md-2 p-0 m-0"
               }
             >
               <img
@@ -330,8 +330,8 @@ function Page075(props) {
             <div
               className={
                 etapa == 4
-                  ? "col-7 position-relative col-sm-2 p-0 m-0"
-                  : "col-1 position-relative col-sm-2 p-0 m-0"
+                  ? "col-7 position-relative col-md-2 p-0 m-0"
+                  : "col-1 position-relative col-md-2 p-0 m-0"
               }
             >
               <img
@@ -349,8 +349,8 @@ function Page075(props) {
             <div
               className={
                 etapa == 5
-                  ? "col-7 position-relative col-sm-2 p-0 m-0"
-                  : "col-1 position-relative col-sm-2 p-0 m-0"
+                  ? "col-7 position-relative col-md-2 p-0 m-0"
+                  : "col-1 position-relative col-md-2 p-0 m-0"
               }
             >
               <img
@@ -368,8 +368,8 @@ function Page075(props) {
             <div
               className={
                 etapa == 6
-                  ? "col-7 position-relative col-sm-2 p-0 m-0"
-                  : "col-1 position-relative col-sm-2 p-0 m-0"
+                  ? "col-7 position-relative col-md-2 p-0 m-0"
+                  : "col-1 position-relative col-md-2 p-0 m-0"
               }
             >
               <img

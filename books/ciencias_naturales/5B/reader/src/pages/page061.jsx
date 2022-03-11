@@ -121,7 +121,7 @@ function Page061(props) {
 
 
                       <div className="row psp-4">
-                        <div className="col-md-4 col-sm-6 p-2">
+                        <div className="col-md-4 col-md-6 p-2">
                           <div className="d-flex w-100 p-0">
                             {/* <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"> */}
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
@@ -130,13 +130,13 @@ function Page061(props) {
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Frases motivadoras</div>
                           </div>
                         </div>
-                        <div className="col-md-4 col-sm-6 p-2">
+                        <div className="col-md-4 col-md-6 p-2">
                           <div className="d-flex w-100 p-0">
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Preguntas frecuentes</div>
                           </div>
                         </div>
-                        <div className="col-md-4 col-sm-12 p-2">
+                        <div className="col-md-4 col-md-12 p-2">
                           <div className="d-flex w-100 p-0">
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Slogans</div>
@@ -158,7 +158,7 @@ function Page061(props) {
                           <div className="text-start p-2">Para ello, utilizaremos...</div>
                         </div>
 
-                        <div className="col-md-4 col-sm-6 p-2">
+                        <div className="col-md-4 col-md-6 p-2">
                           <div className="d-flex w-100 p-0">
 
 
@@ -166,51 +166,51 @@ function Page061(props) {
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Infografías</div>
                           </div>
                         </div>
-                        <div className="col-md-4 col-sm-6 p-2">
+                        <div className="col-md-4 col-md-6 p-2">
                           <div className="d-flex w-100 p-0">
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Afiches</div>
                           </div>
                         </div>
-                        <div className="col-md-4 col-sm-12 p-2">
+                        <div className="col-md-4 col-md-12 p-2">
                           <div className="d-flex w-100 p-0">
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Folletos</div>
                           </div>
                         </div>
 
-                        <div className="col-md-4 col-sm-6 p-2">
+                        <div className="col-md-4 col-md-6 p-2">
                           <div className="d-flex w-100 p-0">
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Propaganda</div>
                           </div>
                         </div>
-                        <div className="col-md-4 col-sm-6 p-2">
+                        <div className="col-md-4 col-md-6 p-2">
                           <div className="d-flex w-100 p-0">
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Fotografías</div>
                           </div>
                         </div>
-                        <div className="col-md-4 col-sm-12 p-2">
+                        <div className="col-md-4 col-md-12 p-2">
                           <div className="d-flex w-100 p-0">
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Dibujos</div>
                           </div>
                         </div>
 
-                        <div className="col-md-4 col-sm-6 p-2">
+                        <div className="col-md-4 col-md-6 p-2">
                           <div className="d-flex w-100 p-0">
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Audios</div>
                           </div>
                         </div>
-                        <div className="col-md-4 col-sm-6 p-2">
+                        <div className="col-md-4 col-md-6 p-2">
                           <div className="d-flex w-100 p-0">
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Animaciones</div>
                           </div>
                         </div>
-                        <div className="col-md-4 col-sm-12 p-2">
+                        <div className="col-md-4 col-md-12 p-2">
                           <div className="d-flex w-100 p-0">
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Videos</div>
@@ -273,32 +273,32 @@ function Page061(props) {
           </div>
           <div className="row position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
 
-            <div className={etapa == 1 ? "col-7 position-relative col-sm-2 p-0 m-0" : "col-1 position-relative col-sm-2 p-0 m-0"}>
+            <div className={etapa == 1 ? "col-7 position-relative col-md-2 p-0 m-0" : "col-1 position-relative col-md-2 p-0 m-0"}>
               <img src="images/rotulo_motivacion.svg" className={etapa == 1 ? "visible rotulo-etapa position-absolute top-0 start-0" : "oculto"} alt="" />
               <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
               <div className="w-100 hp-25 bgc-goten"></div>
             </div>
-            <div className={etapa == 2 ? "col-7 position-relative col-sm-2 p-0 m-0" : "col-1 position-relative col-sm-2 p-0 m-0"}>
+            <div className={etapa == 2 ? "col-7 position-relative col-md-2 p-0 m-0" : "col-1 position-relative col-md-2 p-0 m-0"}>
               <img src="images/rotulo_planificacion.svg" className={etapa == 2 ? "visible rotulo-etapa position-absolute top-0 start-0" : "oculto"} alt="" />
               <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
               <div className="w-100 hp-25 bgc-bulma"></div>
             </div>
-            <div className={etapa == 3 ? "col-7 position-relative col-sm-2 p-0 m-0" : "col-1 position-relative col-sm-2 p-0 m-0"}>
+            <div className={etapa == 3 ? "col-7 position-relative col-md-2 p-0 m-0" : "col-1 position-relative col-md-2 p-0 m-0"}>
               <img src="images/rotulo_investigacion.svg" className={etapa == 3 ? "visible rotulo-etapa position-absolute top-0 start-0" : "oculto"} alt="" />
               <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
               <div className="w-100 hp-25 bgc-android18"></div>
             </div>
-            <div className={etapa == 4 ? "col-7 position-relative col-sm-2 p-0 m-0" : "col-1 position-relative col-sm-2 p-0 m-0"}>
+            <div className={etapa == 4 ? "col-7 position-relative col-md-2 p-0 m-0" : "col-1 position-relative col-md-2 p-0 m-0"}>
               <img src="images/rotulo_experimentacion.svg" className={etapa == 4 ? "visible rotulo-etapa position-absolute top-0 start-0" : "oculto"} alt="" />
               <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
               <div className="w-100 hp-25 bgc-pidgey"></div>
             </div>
-            <div className={etapa == 5 ? "col-7 position-relative col-sm-2 p-0 m-0" : "col-1 position-relative col-sm-2 p-0 m-0"}>
+            <div className={etapa == 5 ? "col-7 position-relative col-md-2 p-0 m-0" : "col-1 position-relative col-md-2 p-0 m-0"}>
               <img src="images/rotulo_creacion.svg" className={etapa == 5 ? "visible rotulo-etapa position-absolute top-0 start-0" : "oculto"} alt="" />
               <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
               <div className="w-100 hp-25 bgc-saitama"></div>
             </div>
-            <div className={etapa == 6 ? "col-7 position-relative col-sm-2 p-0 m-0" : "col-1 position-relative col-sm-2 p-0 m-0"}>
+            <div className={etapa == 6 ? "col-7 position-relative col-md-2 p-0 m-0" : "col-1 position-relative col-md-2 p-0 m-0"}>
               <img src="images/rotulo_difusion.svg" className={etapa == 6 ? "visible rotulo-etapa position-absolute top-0 start-0" : "oculto"} alt="" />
               <div className="w-100 hp-15 bgc-leono rounded-caja-end"></div>
               <div className="w-100 hp-25 bgc-pikachu"></div>

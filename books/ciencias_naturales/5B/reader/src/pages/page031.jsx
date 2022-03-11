@@ -110,7 +110,7 @@ function Page031(props) {
                     <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
                         <div className="row p-0 m-0 w-100">
 
-                            <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
+                            <div className="col-md-12 col-md-6 p-0 m-0 position-relative">
 
                                 <div className="d-flex msp-10 mep-10 mtp-10 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
                                     <div className="row p-0 m-0 w-100">
@@ -130,7 +130,7 @@ function Page031(props) {
 
                             </div>
 
-                            <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
+                            <div className="col-md-12 col-md-6 p-0 m-0 position-relative">
 
                                 <div className="d-flex msp-10 mep-10 mtp-10 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
                                     <div className="row p-0 m-0 w-100">
@@ -176,7 +176,7 @@ function Page031(props) {
                                     <div className="position-absolute top-50 start-50 translate-middle msp--0 mtp-170 visible-768 zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-60" alt="" /></div>
                                 </div>
 
-                                <div className="col-sm-12 col-md-6">
+                                <div className="col-md-12 col-md-6">
                                     <div className="text-center w-100 border-1 border-style-solid border-color-akuma rounded-p-10  mtp-10">
                                         <div className="lhp-20 color-white fw-700 rounded-set-6 hp-50  p-2 bgc-akuma d-flex justify-content-center align-items-center">
                                             en su mayoría, la comida que se vendiera
@@ -187,7 +187,7 @@ function Page031(props) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-sm-12 col-md-6">
+                                <div className="col-md-12 col-md-6">
                                     <div className="text-center w-100 border-1 border-style-solid border-color-akuma rounded-p-10 mtp-10">
                                         <div className="lhp-15 color-white fw-700 rounded-set-6 hp-50 p-2 bgc-vegeta d-flex justify-content-center align-items-center">
                                             en su mayoría, la comida que se
@@ -214,32 +214,32 @@ function Page031(props) {
                     </div>
                     <div className="row position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
 
-                        <div className="col-1 position-relative col-sm-2 p-0 m-0">
+                        <div className="col-1 position-relative col-md-2 p-0 m-0">
                             <img src="images/rotulo_motivacion.svg" className="oculto" alt="" />
                             <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
                             <div className="w-100 hp-25 bgc-goten"></div>
                         </div>
-                        <div className="col-1 position-relative col-sm-2 p-0 m-0">
+                        <div className="col-1 position-relative col-md-2 p-0 m-0">
                             <img src="images/rotulo_planificacion.svg" className="oculto" alt="" />
                             <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-bulma"></div>
                         </div>
-                        <div className="col-7 position-relative col-sm-2 p-0 m-0">
+                        <div className="col-7 position-relative col-md-2 p-0 m-0">
                             <img src="images/rotulo_investigacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
                             <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-android18"></div>
                         </div>
-                        <div className="col-1 position-relative col-sm-2 p-0 m-0">
+                        <div className="col-1 position-relative col-md-2 p-0 m-0">
                             <img src="images/rotulo_experimentacion.svg" className="oculto" alt="" />
                             <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-pidgey"></div>
                         </div>
-                        <div className="col-1 position-relative col-sm-2 p-0 m-0">
+                        <div className="col-1 position-relative col-md-2 p-0 m-0">
                             <img src="images/rotulo_creacion.svg" className="oculto" alt="" />
                             <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
                             <div className="w-100 hp-25 bgc-saitama"></div>
                         </div>
-                        <div className="col-1 position-relative col-sm-2 p-0 m-0">
+                        <div className="col-1 position-relative col-md-2 p-0 m-0">
                             <img src="images/rotulo_difusion.svg" className="oculto" alt="" />
                             <div className="w-100 hp-15 bgc-leono rounded-caja-end"></div>
                             <div className="w-100 hp-25 bgc-pikachu"></div>
