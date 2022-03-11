@@ -4,18 +4,24 @@ import ContentEditable from "react-contenteditable";
 import { doc, getDoc, setDoc, updateDoc, onSnapshot } from "firebase/firestore";
 import db from "../firebase/firebaseConfig";
 
-function InputBox(props) {
+function InputCrucigrama(props) {
   const dokenArray = getUrlParameter("doken").split([','])
   //console.log(dokenArray);
 
   const coleccion = "dataUsers";
   const documento = dokenArray[0]+dokenArray[1];
   const docRef = doc(db, coleccion, documento);
-  const [content1, setContent1] = useState("");
-
-  const className = props.className;
+  
+  const dataIndex = props.dataIndex;
   const id = props.id;
-
+  const maxLength = props.maxLength;
+  const onKeyUp = props.onKeyUp;
+  const onClick = props.onClick;
+  const onChange = props.onChange;
+  const value = props.value;
+  const className = props.className;
+  const [content1, setContent1] = useState("");
+  
   function getUrlParameter(name) {
     name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
     var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
@@ -25,7 +31,7 @@ function InputBox(props) {
 
   useEffect(() => {
     getData();
-  });
+  },[content1]);
 
   const getData = () => {
     const obtenerDatos = async () => {
@@ -36,7 +42,7 @@ function InputBox(props) {
           console.log("Current data: ", docSnap.data()[id]);
           if (field) {
             setContent1(docSnap.data()[id]);
-            console.log("content1: " + content1);
+            console.log("content1 crucigrama: " + content1);
           } else {
             console.log("Sin datos: "+id);
           }
@@ -66,13 +72,19 @@ function InputBox(props) {
 
 
   return (
-    <ContentEditable
-      className={className}
-      html={content1} // innerHTML of the editable div
-      disabled={false} // use true to disable editing
-      onChange={(e) => handleTextChange(e)} // hae a custom HTML tag (uses a div by default)
+    <>
+    <input
+        className={className}
+        dataIndex={dataIndex}
+        id={id}
+        maxLength={maxLength}
+        onKeyUp={onKeyUp}
+        onClick={onClick}
+        onChange={handleTextChange}
+        value={content1}
     />
+    </>
   );
 }
 
-export default InputBox;
+export default InputCrucigrama;

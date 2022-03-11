@@ -88,7 +88,7 @@ function Page017(props) {
 
           <div className="d-flex global-margin mtp-10 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
-              <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
+              <div className="col-md-12 col-md-6 p-0 m-0 position-relative">
 
                 <div className="d-flex msp-10 mep-10  mtp-0 mbp-10 psp-0 pep-0 ptp-0 pbp-0">
                   <div className="row p-0 m-0 w-100">
@@ -106,7 +106,7 @@ function Page017(props) {
                 </div>
 
               </div>
-              <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
+              <div className="col-md-12 col-md-6 p-0 m-0 position-relative">
                 <div className="position-absolute top-50 start-100 translate-middle msp--60 mtp--120 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-130" alt="" /></div>
                 <div className="position-absolute top-50 start-0 translate-middle msp-30 mtp--80 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-60" alt="" /></div>
 
@@ -152,7 +152,7 @@ function Page017(props) {
 
           <div className="d-flex global-margin mtp-20 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
-              <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
+              <div className="col-md-12 col-md-6 p-0 m-0 position-relative">
 
                 <div className="position-absolute top-0 start-50 translate-middle msp--150 mtp-10 zindex-1">
 
@@ -188,7 +188,7 @@ function Page017(props) {
 
 
               </div>
-              <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
+              <div className="col-md-12 col-md-6 p-0 m-0 position-relative">
 
 
                 <div className="position-absolute top-0 start-50 translate-middle msp--150 mtp-10 zindex-1">
@@ -225,7 +225,7 @@ function Page017(props) {
 
               </div>
 
-              <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
+              <div className="col-md-12 col-md-6 p-0 m-0 position-relative">
 
                 <div className="position-absolute top-0 start-50 translate-middle msp--150 mtp-10 zindex-1">
 
@@ -261,7 +261,7 @@ function Page017(props) {
 
 
               </div>
-              <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
+              <div className="col-md-12 col-md-6 p-0 m-0 position-relative">
 
 
                 <div className="position-absolute top-0 start-50 translate-middle msp--150 mtp-10 zindex-1">
@@ -310,32 +310,32 @@ function Page017(props) {
           </div>
           <div className="row position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
 
-            <div className={etapa == 1 ? "col-7 position-relative col-sm-2 p-0 m-0" : "col-1 position-relative col-sm-2 p-0 m-0"}>
+            <div className={etapa == 1 ? "col-7 position-relative col-md-2 p-0 m-0" : "col-1 position-relative col-md-2 p-0 m-0"}>
               <img src="images/rotulo_motivacion.svg" className={etapa == 1 ? "visible rotulo-etapa position-absolute top-0 start-0" : "oculto"} alt="" />
               <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
               <div className="w-100 hp-25 bgc-goten"></div>
             </div>
-            <div className={etapa == 2 ? "col-7 position-relative col-sm-2 p-0 m-0" : "col-1 position-relative col-sm-2 p-0 m-0"}>
+            <div className={etapa == 2 ? "col-7 position-relative col-md-2 p-0 m-0" : "col-1 position-relative col-md-2 p-0 m-0"}>
               <img src="images/rotulo_planificacion.svg" className={etapa == 2 ? "visible rotulo-etapa position-absolute top-0 start-0" : "oculto"} alt="" />
               <div className="w-100 hp-15 bgc-tshinhan rounded-caja"></div>
               <div className="w-100 hp-25 bgc-bulma"></div>
             </div>
-            <div className={etapa == 3 ? "col-7 position-relative col-sm-2 p-0 m-0" : "col-1 position-relative col-sm-2 p-0 m-0"}>
+            <div className={etapa == 3 ? "col-7 position-relative col-md-2 p-0 m-0" : "col-1 position-relative col-md-2 p-0 m-0"}>
               <img src="images/rotulo_investigacion.svg" className={etapa == 3 ? "visible rotulo-etapa position-absolute top-0 start-0" : "oculto"} alt="" />
               <div className="w-100 hp-15 bgc-milk rounded-caja"></div>
               <div className="w-100 hp-25 bgc-android18"></div>
             </div>
-            <div className={etapa == 4 ? "col-7 position-relative col-sm-2 p-0 m-0" : "col-1 position-relative col-sm-2 p-0 m-0"}>
+            <div className={etapa == 4 ? "col-7 position-relative col-md-2 p-0 m-0" : "col-1 position-relative col-md-2 p-0 m-0"}>
               <img src="images/rotulo_experimentacion.svg" className={etapa == 4 ? "visible rotulo-etapa position-absolute top-0 start-0" : "oculto"} alt="" />
               <div className="w-100 hp-15 bgc-freezer rounded-caja"></div>
               <div className="w-100 hp-25 bgc-pidgey"></div>
             </div>
-            <div className={etapa == 5 ? "col-7 position-relative col-sm-2 p-0 m-0" : "col-1 position-relative col-sm-2 p-0 m-0"}>
+            <div className={etapa == 5 ? "col-7 position-relative col-md-2 p-0 m-0" : "col-1 position-relative col-md-2 p-0 m-0"}>
               <img src="images/rotulo_creacion.svg" className={etapa == 5 ? "visible rotulo-etapa position-absolute top-0 start-0" : "oculto"} alt="" />
               <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
               <div className="w-100 hp-25 bgc-saitama"></div>
             </div>
-            <div className={etapa == 6 ? "col-7 position-relative col-sm-2 p-0 m-0" : "col-1 position-relative col-sm-2 p-0 m-0"}>
+            <div className={etapa == 6 ? "col-7 position-relative col-md-2 p-0 m-0" : "col-1 position-relative col-md-2 p-0 m-0"}>
               <img src="images/rotulo_difusion.svg" className={etapa == 6 ? "visible rotulo-etapa position-absolute top-0 start-0" : "oculto"} alt="" />
               <div className="w-100 hp-15 bgc-leono rounded-caja-end"></div>
               <div className="w-100 hp-25 bgc-pikachu"></div>

@@ -120,7 +120,7 @@ function Page077(props) {
                     <div className="d-flex global-margin mtp-0 mbp-10 psp-0 pep-10 ptp-0 pbp-0">
                         <div className="row p-0 m-0 w-100  position-relative">
                             
-                            <div className="col-sm-12 col-md-6 psp-20 pep-20 msp-0 mep-0 mtp-0 mbp-30 position-relative">
+                            <div className="col-md-12 col-md-6 psp-20 pep-20 msp-0 mep-0 mtp-0 mbp-30 position-relative">
 
                                 <div className="border-style-solid border-2 border-color-android18 rounded-p-10">
                                     <div className="d-flex flex-column bgc-white rounded-p-10">
@@ -133,7 +133,7 @@ function Page077(props) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-sm-12 col-md-6 psp-20 pep-20 msp-0 mep-0 mtp-0 mbp-30 position-relative">
+                            <div className="col-md-12 col-md-6 psp-20 pep-20 msp-0 mep-0 mtp-0 mbp-30 position-relative">
                             <div className="position-absolute top-50 start-100 translate-middle  msp-10 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-35" alt="" /></div>
                                 <div className="position-absolute posicion-centro-centro translate-middle zindex-1"><img src={"images/page_077/img_009.svg"} className="wp-60 mtp--30 rotacion-centro-centro" alt="" /></div>
                                 <div className="border-style-solid border-2 border-color-leia rounded-p-10">
