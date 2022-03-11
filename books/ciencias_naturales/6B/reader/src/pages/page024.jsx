@@ -76,7 +76,8 @@ function Page024(props) {
                         <div className="position-absolute top-50 start-50 translate-middle msp-200 mtp-5  zindex-1">
                             <div className="d-flex flex-column wp-100 psp-10 pep-10 ptp-0 pbp-0 ">
 
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-30 min-hp-35" />
+                                <div className="f-Ubuntu-R fsp-15 fw-500">Energías</div>
+
                             </div>
                         </div>
                         <div className="position-absolute top-100 start-50 translate-middle  mtp--90 msp-50 zindex-1">
@@ -110,20 +111,20 @@ function Page024(props) {
                             <div className="col-sm-12 col-md-6 position-relative mbp-10">
                                 <div className="position-absolute top-0 start-50 translate-middle zindex-1 mtp-30 "><img src="images/page_024/img_002.svg" className="wp-30" alt="" /></div>
                                 <div className="d-flex mbp-20 mtp-10 w-100">
-                                    <div className="position-relative p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10  bgc-tanya border-color-dark">
+                                    <div className="position-relative p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10  bgc-calypso8 border-color-dark">
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" ptp-35 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
-                                        <div className="position-absolute top-0 start-50 translate-middle wp-200 mtp--10 bgc-harry psp-5 pep-5 ptp-5 pbp-5 rounded-p-20 ">
+                                        <div className="position-absolute top-0 start-50 translate-middle wp-200 mtp--10 bgc-harry psp-5 pep-5 ptp-5 pbp-5 rounded-p-20 border-style-solid border-2 border-color-white ">
                                             <div className="f-Ubuntu-L color-black fsp-16">Yo pienso que…</div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-sm-12 col-md-6 position-relative">
-                                <div className="position-absolute top-0 start-50 translate-middle zindex-1 mtp-30 "><img src="images/page_024/img_002.svg" className="wp-30" alt="" /></div>
+                                <div className="position-absolute top-0 start-50 translate-middle zindex-1 mtp-30 "><img src="images/page_024/img_003.svg" className="wp-30" alt="" /></div>
                                 <div className="d-flex mbp-20 mtp-10 w-100">
-                                    <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-dark bgc-kai">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="ptp-35 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
-                                        <div className="position-absolute top-0 start-50 translate-middle wp-300 bgc-harry psp-5 pep-5 ptp-5 pbp-5 rounded-p-20 ">
+                                    <div className="p-2 ptp-50  min-hp-120 w-100 border-style-solid border-2 rounded-p-10 border-color-dark bgc-tanya ptp-50">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="ptp-35 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175 " />
+                                        <div className="position-absolute top-0 start-50 translate-middle wp-300 bgc-windu  harry psp-5 pep-5 ptp-5 pbp-5 rounded-p-20 border-style-solid border-2 border-color-white ">
                                             <div className="f-Ubuntu-L color-black fsp-16">¿Qué piensa mi pareja de trabajo?</div>
                                         </div>
                                     </div>

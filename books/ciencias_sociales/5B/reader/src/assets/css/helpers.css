@@ -278,6 +278,9 @@
 .wp-215 {
   width: 215px;
 }
+.wp-220 {
+  width: 220px;
+}
 .wp-230 {
   width: 230px;
 }
@@ -1109,6 +1112,9 @@
 .msp--110 {
   margin-left: -110px;
 }
+.msp--115 {
+  margin-left: -115px;
+}
 .msp--120 {
   margin-left: -120px;
 }
@@ -1692,6 +1698,9 @@
 .mtp-280 {
   margin-top: 280px;
 }
+.mtp-350 {
+  margin-top: 350px;
+}
 
 
 
@@ -2024,6 +2033,18 @@
 }
 .mtp--110 {
   margin-top: -110px;
+}
+.mtp--115 {
+  margin-top: -115px;
+}
+.mtp--120 {
+  margin-top: -120px;
+}
+.mtp--130 {
+  margin-top: -130px;
+}
+.mtp--350 {
+  margin-top: -350px;
 }
 
 
