@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import Check from "../components/Check";
+import CheckMultiple from "../components/CheckMultiple";
 
 import "./page_048.css";
 
@@ -37,7 +38,9 @@ function Page048(props) {
               <div className="col-sm-12 col-md-3 position-relative p-1 mbp-40">
                 {/* <div className="flecha position-absolute"><img src="images/page_031/img_003.svg" className="w-45 " alt=""/></div> */}
                 {/* <div className="position-absolute top-100 start-50 translate-middle zindex-1 min-hp-40 min-wp-50 bgc-white border-style-solid border-1 border-color-dark wp-40 mtp-0 msp-0"></div> */}
-                <div className="position-absolute top-100 start-50 translate-middle zindex-1"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg"></Check></div>
+                <div className="position-absolute top-100 start-50 translate-middle zindex-1"><CheckMultiple id={"check_p" + pagina + "_" + (indexInput += 1)} image0={"images/generales/check_vacio.svg"} image1={"images/generales/ticket.svg"} image2={"images/generales/cruz.svg"}
+                  classContainer="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1 disable-select d-flex center-center p-1" />
+                </div>
                 <div className="position-absolute top-0 start-50 translate-middle d-flex justify-content-center align-items-center f-Ubuntu-B color-white zindex-1 bgc-goten rounded-2 wp-30 hp-30 mtp-10 msp-0">1</div>
                 <div className="px-0">
                   <div className="position-relative d-flex align-items-center justify-content-center bgc-genos min-hp-110 p-2 rounded-p-10 ">
@@ -48,7 +51,9 @@ function Page048(props) {
               <div className="col-sm-12 col-md-3 position-relative p-1 mbp-40">
                 {/* <div className="flecha position-absolute"><img src="images/page_031/img_003.svg" className="w-45 " alt=""/></div> */}
                 {/* <div className="position-absolute top-100 start-50 translate-middle zindex-1 min-hp-40 min-wp-50 bgc-white border-style-solid border-1 border-color-dark wp-40 mtp-0 msp-0"></div> */}
-                <div className="position-absolute top-100 start-50 translate-middle zindex-1"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg"></Check></div>
+                <div className="position-absolute top-100 start-50 translate-middle zindex-1"><CheckMultiple id={"check_p" + pagina + "_" + (indexInput += 1)} image0={"images/generales/check_vacio.svg"} image1={"images/generales/ticket.svg"} image2={"images/generales/cruz.svg"}
+                  classContainer="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1 disable-select d-flex center-center p-1" />
+                </div>
                 <div className="position-absolute top-0 start-50 translate-middle d-flex justify-content-center align-items-center f-Ubuntu-B color-white zindex-1 bgc-bulma rounded-2 wp-30 hp-30 mtp-10 msp-0">2</div>
                 <div className="px-0">
                   <div className="position-relative d-flex align-items-center justify-content-center bgc-buzz min-hp-110 p-2 rounded-p-10 ">
@@ -58,7 +63,9 @@ function Page048(props) {
               </div>
               <div className="col-sm-12 col-md-3 position-relative p-1 mbp-40">
                 {/* <div className="flecha position-absolute"><img src="images/page_031/img_003.svg" className="w-45 " alt=""/></div> */}
-                <div className="position-absolute top-100 start-50 translate-middle zindex-1"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg"></Check></div>
+                <div className="position-absolute top-100 start-50 translate-middle zindex-1"><CheckMultiple id={"check_p" + pagina + "_" + (indexInput += 1)} image0={"images/generales/check_vacio.svg"} image1={"images/generales/ticket.svg"} image2={"images/generales/cruz.svg"}
+                  classContainer="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1 disable-select d-flex center-center p-1" />
+                </div>
                 <div className="position-absolute top-0 start-50 translate-middle d-flex justify-content-center align-items-center f-Ubuntu-B color-white zindex-1 bgc-android18 rounded-2 wp-30 hp-30 mtp-10 msp-0">3</div>
                 <div className="px-0">
                   <div className="position-relative d-flex align-items-center justify-content-center bgc-azuka min-hp-110 p-2 rounded-p-10 ">
@@ -68,7 +75,9 @@ function Page048(props) {
               </div>
               <div className="col-sm-12 col-md-3 position-relative p-1 mbp-40">
                 {/* <div className="flecha position-absolute"><img src="images/page_031/img_003.svg" className="w-45 " alt=""/></div> */}
-                <div className="position-absolute top-100 start-50 translate-middle zindex-1"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg"></Check></div>
+                <div className="position-absolute top-100 start-50 translate-middle zindex-1"><CheckMultiple id={"check_p" + pagina + "_" + (indexInput += 1)} image0={"images/generales/check_vacio.svg"} image1={"images/generales/ticket.svg"} image2={"images/generales/cruz.svg"}
+                  classContainer="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1 disable-select d-flex center-center p-1" />
+                </div>
                 <div className="position-absolute top-0 start-50 translate-middle d-flex justify-content-center align-items-center f-Ubuntu-B color-white zindex-1 bgc-pidgey rounded-2 wp-30 hp-30 mtp-10 msp-0">4</div>
                 <div className="px-0">
                   <div className="position-relative d-flex align-items-center justify-content-center bgc-woody min-hp-110 p-2 rounded-p-10 ">

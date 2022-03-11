@@ -150,16 +150,16 @@ function Page047(props) {
             <div className="row w-100 p-0 m-0">
               <div className="col-sm-12 col-md-6 pbp-10">
                 <div className="d-flex">
-                  <div className="d-flex justify-content-center align-items-center f-ccdigitaldelivery-bold fsp-15 color-pidgey wp-30 hp-30 border-style-solid border-1 border-color-dark rounded-2 bgc-white">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0 text-center wp-30 hp-30 lhp-35 min-hp-35" />
+                  <div className="d-flex justify-content-center align-items-center f-ccdigitaldelivery-bold fsp-15 color-pidgey">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0 text-center wp-30 hp-30 lhp-30 min-hp-30 border-style-solid border-1 border-color-dark rounded-2 bgc-white" />
                   </div>
                   <div className="d-flex justify-content-start align-items-center text-start Ubuntu-R fsp-15 psp-5">Informar que la entrevista será registrada.</div>
                 </div>
               </div>
               <div className="col-sm-12 col-md-6 pbp-10">
                 <div className="d-flex">
-                  <div className="d-flex justify-content-center align-items-center f-ccdigitaldelivery-bold fsp-15 color-pidgey wp-30 hp-30 border-style-solid border-1 border-color-dark rounded-2 bgc-white">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0 text-center wp-30 hp-30 lhp-35 min-hp-35" />
+                  <div className="d-flex justify-content-center align-items-center f-ccdigitaldelivery-bold fsp-15 color-pidgey">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0 text-center wp-30 hp-30 lhp-30 min-hp-30 border-style-solid border-1 border-color-dark rounded-2 bgc-white" />
                   </div>
                   <div className="d-flex justify-content-start align-items-center text-start Ubuntu-R fsp-15 psp-5">Asistir puntualmente.</div>
                 </div>
@@ -167,16 +167,16 @@ function Page047(props) {
 
               <div className="col-sm-12 col-md-6 pbp-10">
                 <div className="d-flex">
-                  <div className="d-flex justify-content-center align-items-center f-ccdigitaldelivery-bold fsp-15 color-pidgey wp-30 hp-30 border-style-solid border-1 border-color-dark rounded-2 bgc-white">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0 text-center wp-30 hp-30 lhp-35 min-hp-35" />
+                  <div className="d-flex justify-content-center align-items-center f-ccdigitaldelivery-bold fsp-15 color-pidgey">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0 text-center wp-30 hp-30 lhp-30 min-hp-30 border-style-solid border-1 border-color-dark rounded-2 bgc-white" />
                   </div>
-                  <div className="d-flex justify-content-start align-items-center text-start Ubuntu-R fsp-15 psp-5">Preguntar y escuchar con atención a la vez que se registra entrevista.</div>
+                  <div className="d-flex justify-content-start align-items-center text-start Ubuntu-R fsp-15 psp-5 lh-sm">Preguntar y escuchar con atención a la vez que se registra entrevista.</div>
                 </div>
               </div>
               <div className="col-sm-12 col-md-6 pbp-10">
                 <div className="d-flex">
-                  <div className="d-flex justify-content-center align-items-center f-ccdigitaldelivery-bold fsp-15 color-pidgey wp-30 hp-30 border-style-solid border-1 border-color-dark rounded-2 bgc-white">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0 text-center wp-30 hp-30 lhp-35 min-hp-35" />
+                  <div className="d-flex justify-content-center align-items-center f-ccdigitaldelivery-bold fsp-15 color-pidgey">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0 text-center wp-30 hp-30 lhp-30 min-hp-30 border-style-solid border-1 border-color-dark rounded-2 bgc-white" />
                   </div>
                   <div className="d-flex justify-content-start align-items-center text-start Ubuntu-R fsp-15 psp-5">Agradecer y despedirse.</div>
                 </div>
@@ -184,16 +184,16 @@ function Page047(props) {
 
               <div className="col-sm-12 col-md-6 pbp-10">
                 <div className="d-flex">
-                  <div className="d-flex justify-content-center align-items-center f-ccdigitaldelivery-bold fsp-15 color-pidgey wp-30 hp-30 border-style-solid border-1 border-color-dark rounded-2 bgc-white">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0 text-center wp-30 hp-30 lhp-35 min-hp-35" />
+                  <div className="d-flex justify-content-center align-items-center f-ccdigitaldelivery-bold fsp-15 color-pidgey">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0 text-center wp-30 hp-30 lhp-30 min-hp-30 border-style-solid border-1 border-color-dark rounded-2 bgc-white" />
                   </div>
                   <div className="d-flex justify-content-start align-items-center text-start Ubuntu-R fsp-15 psp-5">Saludar y presentarse.</div>
                 </div>
               </div>
               <div className="col-sm-12 col-md-6 pbp-10">
                 <div className="d-flex">
-                  <div className="d-flex justify-content-center align-items-center f-ccdigitaldelivery-bold fsp-15 color-pidgey wp-30 hp-30 border-style-solid border-1 border-color-dark rounded-2 bgc-white">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0 text-center wp-30 hp-30 lhp-35 min-hp-35" />
+                  <div className="d-flex justify-content-center align-items-center f-ccdigitaldelivery-bold fsp-15 color-pidgey">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0 text-center wp-30 hp-30 lhp-30 min-hp-30 border-style-solid border-1 border-color-dark rounded-2 bgc-white" />
                   </div>
                   <div className="d-flex justify-content-start align-items-center text-start Ubuntu-R fsp-15 psp-5">Explicar el objetivo de la entrevista.</div>
                 </div>
