@@ -1,0 +1,43 @@
+@media (max-width: 580px) {
+    .achica-margen{
+        margin-bottom: 145px;
+        margin-top: 145px;
+    }
+    .achica-caja{
+        width: 150px;
+    }
+    .acerca-arriba{
+        margin-top: -260px;
+    }
+    .acerca-abajo{
+        margin-top: 260px;
+    }
+    .conceptos1{
+        margin-top: -260px;
+    }
+    .conceptos2{
+        margin-top: -260px;
+    }
+    .conceptos3{
+        margin-top: 260px;
+    }
+    .conceptos4{
+        margin-top: 260px;
+    }
+    .imagen1{
+        margin-top: -95px;
+        margin-left: -200px;
+    }
+    .imagen2{
+        margin-top: -95px;
+        margin-left: 200px;
+    }
+    .imagen3{
+        margin-top: 95px;
+        margin-left: -200px;
+    }
+    .imagen4{
+        margin-top: 95px;
+        margin-left: 200px;
+    }
+}

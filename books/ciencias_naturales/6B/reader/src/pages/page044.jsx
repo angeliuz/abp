@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
+import Check from "../components/Check";
 import "./page_044.css";
 
 function Page044(props) {
@@ -107,7 +108,7 @@ function Page044(props) {
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-0 mbp-60 psp-50 pep-0 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-0 mbp-150 psp-50 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-sm-12 col-md-6 p-1 m-0 position-relative">
                 <div className="bgc-android18 rounded-p-10 p-2">
@@ -132,23 +133,23 @@ function Page044(props) {
                   <div className="bgc-white rounded-p-10 w-100 h-100 p-2">
                     <p className="f-Ubuntu-L fsp-16 lh-sm mbp-10">El nivel de dificultad que tiene la construcción de la propuesta es...</p>
                     <div className="d-flex align-items-center psp-40 pbp-10">
-                      <div className="border-style-solid border-1 border-color-lightDark bgc-white"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0 text-center wp-25 hp-25" /></div>
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       <div className="psp-10 ptp-0 f-Ubuntu-L fsp-16 text-start">Muy alto</div>
                     </div>
                     <div className="d-flex align-items-center psp-40 pbp-10">
-                      <div className="border-style-solid border-1 border-color-lightDark bgc-white"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0 text-center wp-25 hp-25" /></div>
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       <div className="psp-10 ptp-0 f-Ubuntu-L fsp-16 text-start">Alto</div>
                     </div>
                     <div className="d-flex align-items-center psp-40 pbp-10">
-                      <div className="border-style-solid border-1 border-color-lightDark bgc-white"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0 text-center wp-25 hp-25" /></div>
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       <div className="psp-10 ptp-0 f-Ubuntu-L fsp-16 text-start">Medio</div>
                     </div>
                     <div className="d-flex align-items-center psp-40 pbp-10">
-                      <div className="border-style-solid border-1 border-color-lightDark bgc-white"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0 text-center wp-25 hp-25" /></div>
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       <div className="psp-10 ptp-0 f-Ubuntu-L fsp-16 text-start">Bajo</div>
                     </div>
                     <div className="d-flex align-items-center psp-40">
-                      <div className="border-style-solid border-1 border-color-lightDark bgc-white"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-0 text-center wp-25 hp-25" /></div>
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       <div className="psp-10 ptp-0 f-Ubuntu-L fsp-16 text-start">Muy bajo</div>
                     </div>
                   </div>
