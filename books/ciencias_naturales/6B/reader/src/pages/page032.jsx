@@ -28,7 +28,7 @@ function Page032(props) {
                     <div className="ptp-30 container-titulo-global mbp-10">
                         <div className="d-flex">
                             <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_001.svg"} alt="" />
-                            <div className={"mtp-10 f-Ubuntu-B fsp-24 " + color}>b.</div>
+                            <div className={"mtp-10 f-Ubuntu-B fsp-17 mt-3 " + color}>b.</div>
                             <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                                 Elaboramos una lluvia de ideas para encontrar soluciones al desafío.
                             </div>

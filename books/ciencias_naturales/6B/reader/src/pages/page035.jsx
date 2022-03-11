@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 
 import "./page_035.css";
 
@@ -112,11 +113,9 @@ function Page035(props) {
 
                                                     <div className="ptp-10 pbp-10 psp-20">
                                                         <div className="d-flex">
-                                                            <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                                                                <InputBox
-                                                                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                                    className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                                                                />
+                                                            <div className="hp-30 wp-30 bgc-white  ">
+                                                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+
                                                             </div>
                                                             <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                                                                 Energía renovable.
@@ -125,11 +124,9 @@ function Page035(props) {
                                                     </div>
                                                     <div className="ptp-10 pbp-10 psp-20">
                                                         <div className="d-flex">
-                                                            <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                                                                <InputBox
-                                                                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                                    className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                                                                />
+                                                            <div className="hp-30 wp-30 bgc-white  ">
+                                                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+
                                                             </div>
                                                             <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                                                                 Energía no renovable.
@@ -138,11 +135,9 @@ function Page035(props) {
                                                     </div>
                                                     <div className="ptp-10 pbp-10 psp-20">
                                                         <div className="d-flex">
-                                                            <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                                                                <InputBox
-                                                                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                                    className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                                                                />
+                                                            <div className="hp-30 wp-30 bgc-white  ">
+                                                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+
                                                             </div>
                                                             <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                                                                 Sostenibilidad.
@@ -151,11 +146,9 @@ function Page035(props) {
                                                     </div>
                                                     <div className="ptp-10 pbp-10 psp-20">
                                                         <div className="d-flex">
-                                                            <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                                                                <InputBox
-                                                                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                                    className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                                                                />
+                                                            <div className="hp-30 wp-30 bgc-white  ">
+                                                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+
                                                             </div>
                                                             <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                                                                 Huella ecológica.
@@ -164,11 +157,9 @@ function Page035(props) {
                                                     </div>
                                                     <div className="ptp-10 pbp-10 psp-20">
                                                         <div className="d-flex">
-                                                            <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                                                                <InputBox
-                                                                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                                    className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                                                                />
+                                                            <div className="hp-30 wp-30 bgc-white  ">
+                                                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+
                                                             </div>
                                                             <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                                                                 Soluciones energéticas.
@@ -177,11 +168,9 @@ function Page035(props) {
                                                     </div>
                                                     <div className="ptp-10 pbp-10 psp-20">
                                                         <div className="d-flex">
-                                                            <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                                                                <InputBox
-                                                                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                                    className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                                                                />
+                                                            <div className="hp-30 wp-30 bgc-white  ">
+                                                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+
                                                             </div>
                                                             <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                                                                 Aparatos tecnológicos.
@@ -190,11 +179,9 @@ function Page035(props) {
                                                     </div>
                                                     <div className="ptp-10 pbp-10 psp-20">
                                                         <div className="d-flex">
-                                                            <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                                                                <InputBox
-                                                                    id={"p" + pagina + "_input" + (indexInput += 1)}
-                                                                    className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                                                                />
+                                                            <div className="hp-30 wp-30 bgc-white  ">
+                                                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+
                                                             </div>
                                                             <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                                                                 Sistemas tecnológicos.
@@ -218,22 +205,16 @@ function Page035(props) {
                                     </div>
                                 </div>
                                 <div className="d-flex psp-30 pbp-20">
-                                    <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                                        <InputBox
-                                            id={"p" + pagina + "_input" + (indexInput += 1)}
-                                            className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                                        />
+                                    <div className="hp-30 wp-30 bgc-white  ">
+                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                     </div>
                                     <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                                         Pegarla en la sala.
                                     </div>
                                 </div>
                                 <div className="d-flex psp-30 pbp-20">
-                                    <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark">
-                                        <InputBox
-                                            id={"p" + pagina + "_input" + (indexInput += 1)}
-                                            className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                                        />
+                                    <div className="hp-30 wp-30 bgc-white  ">
+                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                     </div>
                                     <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                                         Utilizarla en la difusión.
@@ -241,12 +222,8 @@ function Page035(props) {
                                 </div>
 
                                 <div className="d-flex psp-30 pbp-10">
-                                    <div className="cuadrado-p35 bgc-white border-style-solid border-1 border-color-dark position-relative">
-                                        <InputBox
-                                            id={"p" + pagina + "_input" + (indexInput += 1)}
-                                            className="p-0 px-1 text-start flex-grow-1 hp-25 min-hp-25"
-                                        />
-
+                                    <div className="hp-30 wp-30 bgc-white  ">
+                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                     </div>
                                     <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                                         Otro:

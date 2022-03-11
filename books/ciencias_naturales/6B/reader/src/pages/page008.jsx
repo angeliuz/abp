@@ -1,5 +1,6 @@
 import React from "react";
 import InputBox from "../components/InputBox";
+import Check from "../components/Check";
 
 import "./page_008.css";
 
@@ -125,7 +126,8 @@ function Page008(props) {
                 </div>
                 <div className="d-flex justify-content-center mbp-5 ">
                   <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-ken rounded-1">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+
                   </div>
                   <div className="msp-5  mtp-10 pep-5 psp-5 bgc-white border-1 border-style-solid border-color-ken rounded-1 f-Ubuntu-L fsp-15 d-flex align-items-center">
                     He leído, acepto las normas y quiero participar.
