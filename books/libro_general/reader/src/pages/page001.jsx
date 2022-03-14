@@ -156,7 +156,7 @@ function Page001() {
                                             X
                                         </div>
                                         <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                                            xxx
+                                            Vimeo
                                         </div>
                                         <ModalVideo
                                             id={"p" + pagina + "_video" + (indexInput += 1)}
@@ -185,11 +185,11 @@ function Page001() {
                                             X
                                         </div>
                                         <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                                            xxx
+                                            Youtube
                                         </div>
                                         <ModalVideo
                                             id={"p" + pagina + "_video" + (indexInput += 1)}
-                                            linkVideo="OtPY-yMLpwA"
+                                            linkVideo="cvakvfXj0KE"
                                             tituloVideo="Video desde youtube"
                                             tipoVideo="youtube"
                                             image={"images/generales/play.svg"}
