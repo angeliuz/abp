@@ -56,7 +56,7 @@ xxx
                     <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
                         <div className="row p-0 m-0 w-100 position-relative ">
                             <div className="position-absolute top-0 start-100 translate-middle  msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/grafico.png"} className="wp-75" alt="" /></div>
-                            <div className="col-md-12 col-md-6 p-0 m-0 position-relative ">
+                            <div className="col-sm-12 col-md-6 p-0 m-0 position-relative ">
                                 <div className="mtp-20">
 
                                     <div className="m-1 mtp-10 border-style-solid border-1 border-color-dark rounded-te-be-bs-20">
@@ -76,7 +76,7 @@ xxx
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-12 col-md-6 p-0 m-0 position-relative ">
+                            <div className="col-sm-12 col-md-6 p-0 m-0 position-relative ">
                                 <div className="mtp-20">
                                     <div className="m-1 border-style-solid border-1 border-color-dark rounded-te-be-bs-20">
                                         <div className="f-Ubuntu-R fsp-16  lh-sm text-start p-2">¿Qué les gusta comer a la mayoría de los encuestados?</div>
