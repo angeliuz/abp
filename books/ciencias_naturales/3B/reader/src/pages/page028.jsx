@@ -99,7 +99,7 @@ function Page028(props) {
               <div className="col-md-6 col-lg-6 position-relative">
 
                 <div className="d-flex border-style-solid border-color-raiden border-2 rounded-p-10 psp-10 pep-10">
-                  <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-0 pep-0 mtp-20 w-100">
+                  <div className="d-flex flex-column f-Ubuntu-R fsp-15 psp-0 pep-0 mtp-20 w-100">
                     <div className="f-colby-compres-medium fsp-20 color-dark text-center color-dark ">¿Qué puedo reciclar?</div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
                   </div>
@@ -109,24 +109,24 @@ function Page028(props) {
               <div className="col-md-6 col-lg-6 position-relative">
 
                 <div className="d-flex border-style-solid border-color-raiden border-2 rounded-p-10 bgc-kano psp-10 pep-10 mbp-20">
-                  <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-0 pep-0 ptp-5 pbp-5 mtp-0 w-100">
+                  <div className="d-flex flex-column f-Ubuntu-R fsp-15 psp-0 pep-0 ptp-5 pbp-5 mtp-0 w-100">
                     <div className="f-colby-compres-medium fsp-20 color-dark text-center color-dark ">¿Para qué lo puedo utilizar?</div>
                   </div>
                 </div>
                 <div className="d-flex border-style-solid border-color-raiden border-2 rounded-p-10 psp-10 pep-10 mbp-20">
-                  <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-0 pep-0 ptp-5 pbp-10 mtp-0 w-100">
+                  <div className="d-flex flex-column f-Ubuntu-R fsp-15 psp-0 pep-0 ptp-5 pbp-10 mtp-0 w-100">
                     <div className="f-colby-compres-medium fsp-20 color-dark text-start color-dark ">En la casa</div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                   </div>
                 </div>
                 <div className="d-flex border-style-solid border-color-raiden border-2 rounded-p-10 psp-10 pep-10 mbp-20">
-                  <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-0 pep-0 ptp-5 pbp-10 mtp-0 w-100">
+                  <div className="d-flex flex-column f-Ubuntu-R fsp-15 psp-0 pep-0 ptp-5 pbp-10 mtp-0 w-100">
                     <div className="f-colby-compres-medium fsp-20 color-dark text-start color-dark ">En el colegio</div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                   </div>
                 </div>
                 <div className="d-flex border-style-solid border-color-raiden border-2 rounded-p-10 psp-10 pep-10 mbp-20">
-                  <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-0 pep-0 ptp-5 pbp-10 mtp-0 w-100">
+                  <div className="d-flex flex-column f-Ubuntu-R fsp-15 psp-0 pep-0 ptp-5 pbp-10 mtp-0 w-100">
                     <div className="f-colby-compres-medium fsp-20 color-dark text-start color-dark ">En nuestra feria</div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                   </div>

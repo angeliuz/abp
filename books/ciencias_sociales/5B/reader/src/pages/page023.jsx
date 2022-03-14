@@ -51,7 +51,7 @@ function Page023(props) {
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Leo los artículos de la Declaración Universal de Derechos Humanos y completo con mi equipo.</div>
               {/* <img src="images/page_023/img_003.svg" className="cambio hp-50 text-end mtp-0 psp-10 pep-40"  alt=""  /> */}
               {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_023/img_003.svg" clasesImagen="hp-40 text-center mtp-15 msp--10" className="p-0 px-0" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"23"} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-40 text-center mtp-15 msp--10" className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"83"} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-40 text-center mtp-15 msp--10" className="p-0 px-0" />
             </div>
           </div>
 

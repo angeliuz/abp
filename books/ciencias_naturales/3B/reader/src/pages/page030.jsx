@@ -47,19 +47,19 @@ function Page030(props) {
                             <div className="col-sm-12 col-md-12 position-relative pbp-20">
                                 <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-40"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-70 " alt="" /></div>
 
-                                <div className="psp-20 pep-20 ptp-20 pbp-10 f-Ubuntu-L fsp-18 box-shadow-simple bgc-kano">
+                                <div className="psp-20 pep-20 ptp-20 pbp-10 f-Ubuntu-L fsp-15 box-shadow-simple bgc-kano">
 
                                     <div className="d-flex pbp-20">
                                         <div className="wp-30 hp-30">
                                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                         </div>
-                                        <div className="psp-10 ptp-0">Pocos desechos</div>
+                                        <div className="psp-10 ptp-5">Pocos desechos</div>
                                     </div>
                                     <div className="d-flex pbp-20">
                                         <div className="wp-30 hp-30">
                                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                         </div>
-                                        <div className="psp-10">Muchos desechos</div>
+                                        <div className="psp-10 ptp-5">Muchos desechos</div>
                                     </div>
                                 </div>
 

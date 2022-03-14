@@ -51,7 +51,7 @@ function Page013(props) {
                 <div className="position-absolute top-0 start-0 msp-0 mtp--25"><img src="images/page_013/img_001.svg" className="wp-200 " alt="" /></div>
                 <div className="d-flex justify-content-center w-100 pbp-20">
                   <div className="p-2 w-100 f-Ubuntu-L border-style-solid border-3 rounded-p-10 border-color-android18 text-start bgc-white">
-                    <div className="fsp-13 lh-sm text-start ptp-10">
+                    <div className="fsp-15 lh-sm text-start ptp-10">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                     </div>
                   </div>
@@ -65,7 +65,7 @@ function Page013(props) {
                 <div className="position-absolute top-0 start-0 msp-0 mtp--5"><img src="images/page_013/img_002.svg" className="wp-230" alt="" /></div>
                 <div className="d-flex justify-content-center w-100 pbp-20">
                   <div className="p-2 w-100 f-Ubuntu-L border-style-solid border-3 rounded-p-10 border-color-vegeta text-start bgc-white">
-                    <div className="fsp-13 lh-sm text-start">
+                    <div className="fsp-15 lh-sm text-start">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                     </div>
                   </div>
@@ -75,7 +75,7 @@ function Page013(props) {
                 <div className="position-absolute top-0 start-0 msp-0 mtp--5"><img src="images/page_013/img_003.svg" className="wp-180" alt="" /></div>
                 <div className="d-flex justify-content-center w-100  pbp-20">
                   <div className="p-2 w-100 f-Ubuntu-L border-style-solid border-3 rounded-p-10 border-color-trunks text-start bgc-white">
-                    <div className="fsp-13 lh-sm text-start">
+                    <div className="fsp-15 lh-sm text-start">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                     </div>
                   </div>

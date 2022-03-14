@@ -43,7 +43,7 @@ function Page027(props) {
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"74"} image={"images/page_" + pagina + "/img_002.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"73"} image={"images/page_" + pagina + "/img_002.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
 
@@ -57,11 +57,11 @@ function Page027(props) {
                 </div>
 
                 <div className="col position-relative">
-                  <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-0 pep-10 mtp-20">
+                  <div className="d-flex flex-column f-Ubuntu-R fsp-15 psp-0 pep-10 mtp-20">
                     <div className="f-colby-compres-medium fsp-20 color-dark text-start color-bulma ">Nombre:</div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
                   </div>
-                  <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-0 pep-10 mtp-20">
+                  <div className="d-flex flex-column f-Ubuntu-R fsp-15 psp-0 pep-10 mtp-20">
                     <div className="f-colby-compres-medium fsp-20 color-dark text-start color-bulma ">¿Qué puedo reciclar?</div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                   </div>
@@ -82,11 +82,11 @@ function Page027(props) {
                 </div>
 
                 <div className="col position-relative">
-                  <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-0 pep-10 mtp-20">
+                  <div className="d-flex flex-column f-Ubuntu-R fsp-15 psp-0 pep-10 mtp-20">
                     <div className="f-colby-compres-medium fsp-20 color-dark text-start color-bulma ">Nombre:</div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
                   </div>
-                  <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-0 pep-10 mtp-20">
+                  <div className="d-flex flex-column f-Ubuntu-R fsp-15 psp-0 pep-10 mtp-20">
                     <div className="f-colby-compres-medium fsp-20 color-dark text-start color-bulma ">¿Qué puedo reciclar?</div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                   </div>

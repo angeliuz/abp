@@ -55,7 +55,7 @@ function Page033(props) {
                                 <div className="position-absolute top-0 start-50 translate-middle msp-80 mtp-0"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-30 " alt="" /></div>
                                 <div className="d-flex">
 
-                                    <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-L fsp-18 box-shadow-simple bgc-draco">
+                                    <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-L fsp-15 box-shadow-simple bgc-draco">
 
                                         <div className="d-flex">
                                             <div className="ptp-0">
