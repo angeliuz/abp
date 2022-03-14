@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import ModalRecortable from "../components/ModalRecortable"
 import "./page_021.css";
 
 function Page021(props) {
@@ -62,138 +63,154 @@ function Page021(props) {
                   <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-50 text-center mtp-10 " className="p-0 px-0" />
                 </div>
               </div>
+            </div>
 
+            <div className="psp-80 pep-60 ptp-0">
+              <div className="row position-relative">
+                <div className="col-md-6 col-12 pbp-20 position-relative">
+                  <div className="bgc-white mxwp-300 centrar border-style-dashed border-color-info border-2 position-relative">
+                    <ModalRecortable
+                      id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                      pagina={pagina}
 
-
-              <div className="psp-80 pep-60 ptp-0">
-
-                <div className="row position-relative">
-                  <div className="col-md-6 col-12 pbp-20">
-                    <div className="mxwp-200 hp-30 bgc-android18 rounded-set-20 border-style-solid border-1 border-color-anakin centrar-hor">
+                      numRecortables="3"
+                      className="p-0 m-0 d-flex wp-200 hp-200 bgc-red pe-auto"
+                    />
+                  </div>
+                  <div className="position-absolute translate-middle top-0 start-50 mtp--15">
+                    <div className="wp-200 mxwp-200 hp-30 bgc-android18 rounded-set-20 border-style-solid border-1 border-color-anakin centrar-hor">
                       <div className="color-white ptp-3 fsp-18 f-pixilate-bold ">
                         INVESTIGACIÓN
                       </div>
                     </div>
-                    <div className="bgc-white w-100 border-dashed-pidgey">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-230"
-                      />
-                    </div>
-                    <div className="w-100 border-style-solid border-color-dark border-1 bgc-white p-1 mtp-10 d-flex justify-content-center">
-                      <div className="text-center f-Ubuntu-R pep-10 mtp-10">
-                        Fecha: del
-                      </div>
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
-                      />
-                      <div className="text-center f-Ubuntu-R psp-10 pep-10 mtp-10">
-                        al
-                      </div>
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
-                      />
-                    </div>
                   </div>
-                  <div className="col-md-6 col-12 pbp-20">
-                    <div className="mxwp-200 hp-30 bgc-pidgey rounded-set-20 border-style-solid border-1 border-color-anakin centrar-hor">
+                  <div className="w-100 border-style-solid border-color-dark border-1 bgc-white p-1 mtp-10 mbp-20 d-flex justify-content-center">
+                    <div className="text-center f-Ubuntu-R pep-10 mtp-10">
+                      Fecha: del
+                    </div>
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
+                    />
+                    <div className="text-center f-Ubuntu-R psp-10 pep-10 mtp-10">
+                      al
+                    </div>
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
+                    />
+                  </div>
+                  <div className="position-absolute top-0 start-100 translate-middle msp--30 mtp--10 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-30" alt="" /></div>
+                </div>
+                <div className="col-md-6 col-12 pbp-20 position-relative">
+                  <div className="bgc-white mxwp-280 centrar border-style-dashed border-color-info border-2 position-relative">
+                    <ModalRecortable
+                      id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                      pagina={pagina}
+
+                      numRecortables="3"
+                      className="p-0 m-0 d-flex wp-60 hp-60 bgc-red pe-auto"
+                    />
+                  </div>
+                  <div className="position-absolute translate-middle top-0 start-50 mtp--15">
+                    <div className="wp-200 mxwp-200 hp-30 bgc-pidgey rounded-set-20 border-style-solid border-1 border-color-anakin centrar-hor">
                       <div className="color-white ptp-3 fsp-18 f-pixilate-bold ">
                         EXPERIMENTACIÓN
                       </div>
                     </div>
-                    <div className="bgc-white w-100 border-dashed-pidgey">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-230"
-                      />
-                    </div>
-                    <div className="w-100 border-style-solid border-color-dark border-1 bgc-white p-1 mtp-10 d-flex justify-content-center">
-                      <div className="text-center f-Ubuntu-R pep-10 mtp-10">
-                        Fecha: del
-                      </div>
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
-                      />
-                      <div className="text-center f-Ubuntu-R psp-10 pep-10 mtp-10">
-                        al
-                      </div>
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
-                      />
-                    </div>
-
                   </div>
+                  <div className="w-100 border-style-solid border-color-dark border-1 bgc-white p-1 mtp-10 mbp-20 d-flex justify-content-center">
+                    <div className="text-center f-Ubuntu-R pep-10 mtp-10">
+                      Fecha: del
+                    </div>
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
+                    />
+                    <div className="text-center f-Ubuntu-R psp-10 pep-10 mtp-10">
+                      al
+                    </div>
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
+                    />
+                  </div>
+                  <div className="position-absolute top-0 start-100 translate-middle msp--30 mtp--10 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-30" alt="" /></div>
                 </div>
-                <div className="row">
-                  <div className="col-md-6 col-12 pbp-20  position-relative">
-                    <div className="mxwp-200 hp-30 bgc-saitama rounded-set-20 border-style-solid border-1 border-color-anakin centrar-hor">
+                <div className="col-md-6 col-12 pbp-20 position-relative">
+                  <div className="bgc-white mxwp-300 centrar border-style-dashed border-color-info border-2 position-relative">
+                    <ModalRecortable
+                      id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                      pagina={pagina}
+
+                      numRecortables="3"
+                      className="p-0 m-0 d-flex wp-200 hp-200 bgc-red pe-auto"
+                    />
+                  </div>
+                  <div className="position-absolute translate-middle top-0 start-50 mtp--15">
+                    <div className="wp-200 mxwp-200 hp-30 bgc-saitama rounded-set-20 border-style-solid border-1 border-color-anakin centrar-hor">
                       <div className="color-white ptp-3 fsp-18 f-pixilate-bold ">
-                        CREACIÓN
+                        CREACIÓN
                       </div>
-                    </div>
-                    <div className="bgc-white w-100 border-dashed-pidgey">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-230"
-                      />
-                    </div>
-                    <div className="w-100 border-style-solid border-color-dark border-1 bgc-white p-1 mtp-10 d-flex justify-content-center">
-                      <div className="text-center f-Ubuntu-R pep-10 mtp-10">
-                        Fecha: del
-                      </div>
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
-                      />
-                      <div className="text-center f-Ubuntu-R psp-10 pep-10 mtp-10">
-                        al
-                      </div>
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
-                      />
                     </div>
                   </div>
-                  <div className="col-md-6 col-12 pbp-20">
-                    <div className="mxwp-200 hp-30 bgc-pikachu rounded-set-20 border-style-solid border-1 border-color-anakin centrar-hor">
+                  <div className="w-100 border-style-solid border-color-dark border-1 bgc-white p-1 mtp-10 mbp-20 d-flex justify-content-center">
+                    <div className="text-center f-Ubuntu-R pep-10 mtp-10">
+                      Fecha: del
+                    </div>
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
+                    />
+                    <div className="text-center f-Ubuntu-R psp-10 pep-10 mtp-10">
+                      al
+                    </div>
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
+                    />
+                  </div>
+                  <div className="position-absolute top-0 start-100 translate-middle msp--30 mtp--10 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-30" alt="" /></div>
+                </div>
+                <div className="col-md-6 col-12 pbp-20 position-relative">
+                  <div className="bgc-white mxwp-280 centrar border-style-dashed border-color-info border-2 position-relative">
+                    <ModalRecortable
+                      id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                      pagina={pagina}
+
+                      numRecortables="3"
+                      className="p-0 m-0 d-flex wp-60 hp-60 bgc-red pe-auto"
+                    />
+                  </div>
+                  <div className="position-absolute translate-middle top-0 start-50 mtp--15">
+                    <div className="wp-200 mxwp-200 hp-30 bgc-pikachu rounded-set-20 border-style-solid border-1 border-color-anakin centrar-hor">
                       <div className="color-white ptp-3 fsp-18 f-pixilate-bold ">
-                        DIFUSIÓN
+                       DIFUSIÓN
                       </div>
-                    </div>
-                    <div className="bgc-white w-100 border-dashed-pidgey">
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-230"
-                      />
-                    </div>
-                    <div className="w-100 border-style-solid border-color-dark border-1 bgc-white p-1 mtp-10 d-flex justify-content-center">
-                      <div className="text-center f-Ubuntu-R pep-10 mtp-10">
-                        Fecha: del
-                      </div>
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
-                      />
-                      <div className="text-center f-Ubuntu-R psp-10 pep-10 mtp-10">
-                        al
-                      </div>
-                      <InputBox
-                        id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
-                      />
-                      <img
-                        src="images/page_021/img_004.png"
-                        className="hp-60 position-absolute top-100 start-0 msp-25 mtp--120"
-                        alt=""
-                      />
                     </div>
                   </div>
+                  <div className="w-100 border-style-solid border-color-dark border-1 bgc-white p-1 mtp-10 mbp-20 d-flex justify-content-center">
+                    <div className="text-center f-Ubuntu-R pep-10 mtp-10">
+                      Fecha: del
+                    </div>
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
+                    />
+                    <div className="text-center f-Ubuntu-R psp-10 pep-10 mtp-10">
+                      al
+                    </div>
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea mxwp-a lhp-35 min-hp-30"
+                    />
+                  </div>
+                  <div className="position-absolute top-0 start-100 translate-middle msp--30 mtp--10 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-30" alt="" /></div>
+
                 </div>
               </div>
+
+      
             </div>
           </div>
           {/* PIE DE PAGINA */}
