@@ -60,7 +60,7 @@ function Page008(props) {
                     <div className="d-flex psp-10 pep-10">
                       <div className=" w-100"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-150" /></div>
                     </div>
-                    <div className="d-flex w-100  ptp-5 pbp-5 m-0 text-center f-Ubuntu-B center-center">
+                    <div className="d-flex w-100  ptp-5 pbp-5 m-0 text-center f-Ubuntu-R center-center">
                       <div className="bgc-white rounded-p-10 wp-200 hp-50 psp-10 pep-10 ptp-10 pbp-10">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
 
