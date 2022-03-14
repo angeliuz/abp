@@ -26,7 +26,7 @@ function Page032(props) {
                             <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Selecciono una noticia y completo.</div>
                             {/* <img src="images/page_023/img_003.svg" className="cambio hp-50 text-end mtp-0 psp-10 pep-40"  alt=""  /> */}
                             {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_032/img_002.svg" clasesImagen="hp-40 text-center mtp-15 msp-5" className="p-0 px-0" /> */}
-                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"32"} image={"images/page_" + pagina + "/img_002.svg"} clasesImagen="hp-40 text-center mtp-15 msp-5" className="p-0 px-0" />
+                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"89"} image={"images/page_" + pagina + "/img_002.svg"} clasesImagen="hp-40 text-center mtp-15 msp-5" className="p-0 px-0" />
                         </div>
                     </div>
 
@@ -85,7 +85,7 @@ function Page032(props) {
                             <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">En grupo, busco noticias referidas a los deberes del Estado en relación con los derechos. Seleccionamos dos que consideramos especialmente importantes para incorporarlas en nuestra revista.</div>
                             {/* <img src="images/page_023/img_003.svg" className="cambio hp-50 text-end mtp-0 psp-10 pep-40"  alt=""  /> */}
                             {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_032/img_003.svg" clasesImagen="hp-40 text-center mtp-15 msp--10" className="p-0 px-0" /> */}
-                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"32"} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-40 text-center mtp-15 msp--10" className="p-0 px-0" />
+                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"91"} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-40 text-center mtp-15 msp--10" className="p-0 px-0" />
                         </div>
                     </div>
                     <div className="d-flex msp-60 mep-60 mbp-70">
