@@ -78,7 +78,7 @@ function Page024(props) {
 
                         <div className="col-sm-12 col-md-6 position-relative m-0 p-0">
                             <div className="position-absolute posicion-centro-centro translate-middle"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-40 rotacion-centro-centro" alt="" /></div>
-                            <div className="d-flex flex-column bgc-sextario border-style-solid border-1 psp-10 pep-10 ptp-20 pbp-20 msp-5 mep-5 mbp-5  min-hp-230">
+                            <div className="d-flex flex-column bgc-sextario border-style-solid border-1 psp-10 pep-10 ptp-20 pbp-30 msp-5 mep-5 mbp-5  min-hp-230">
                                 <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 text-start">
                                     <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">b.</div>
                                     <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">¿En cuál de los desechos se observaron menos cambios? Marca.</div>

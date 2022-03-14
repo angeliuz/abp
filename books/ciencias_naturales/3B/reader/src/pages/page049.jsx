@@ -59,9 +59,9 @@ function Page049(props) {
                 <div className="bgc-bulma color-white f-Ubuntu-B fsp-15 psp-10 pep-10 ptp-10 pbp-10 mep-10 rounded-p-10 max-wp-200 wp-200 min-hp-50 d-flex align-items-center justify-content-start text-start">Construir el modelo.</div>
               </div>
               <div className="col p-0 m-0 position-relative d-flex center-center ">
-                <div className="bgc-white border-style-solid border-2 border-color-bulma color-white f-Ubuntu-B fsp-15 psp-10 pep-10 ptp-10 pbp-10 msp-0 min-hp-40 w-100 rounded-p-10 min-hp-50 d-flex center-center">
+                <div className="bgc-white border-style-solid border-2 border-color-bulma f-Ubuntu-R fsp-15 psp-10 pep-10 ptp-10 pbp-10 msp-0 min-hp-40 w-100 rounded-p-10 min-hp-50 d-flex center-center">
                   <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                   </div>
                 </div>
               </div>
@@ -72,7 +72,7 @@ function Page049(props) {
                 <div className="bgc-bulma color-white f-Ubuntu-B fsp-15 psp-10 pep-10 ptp-10 pbp-10 mep-10 rounded-p-10 max-wp-200 wp-200 min-hp-50 d-flex center-center text-start">Preparar la infografía que explique el modelo.</div>
               </div>
               <div className="col p-0 m-0 position-relative d-flex center-center ">
-                <div className="bgc-white border-style-solid border-2 border-color-bulma color-white f-Ubuntu-B fsp-15 psp-10 pep-10 ptp-10 pbp-10 msp-0 min-hp-40 w-100 rounded-p-10 min-hp-50 d-flex center-center">
+                <div className="bgc-white border-style-solid border-2 border-color-bulma  f-Ubuntu-r fsp-15 psp-10 pep-10 ptp-10 pbp-10 msp-0 min-hp-40 w-100 rounded-p-10 min-hp-50 d-flex center-center">
                   <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                   </div>
@@ -85,7 +85,7 @@ function Page049(props) {
                 <div className="bgc-bulma color-white f-Ubuntu-B fsp-15 psp-10 pep-10 ptp-10 pbp-10 mep-10 rounded-p-10 max-wp-200 wp-200 min-hp-50 d-flex center-center text-start">Realizar decoraciones para el stand.</div>
               </div>
               <div className="col p-0 m-0 position-relative d-flex center-center ">
-                <div className="bgc-white border-style-solid border-2 border-color-bulma color-white f-Ubuntu-B fsp-15 psp-10 pep-10 ptp-10 pbp-10 msp-0 min-hp-40 w-100 rounded-p-10 min-hp-50 d-flex center-center">
+                <div className="bgc-white border-style-solid border-2 border-color-bulma f-Ubuntu-R fsp-15 psp-10 pep-10 ptp-10 pbp-10 msp-0 min-hp-40 w-100 rounded-p-10 min-hp-50 d-flex center-center">
                   <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                   </div>
@@ -118,10 +118,10 @@ function Page049(props) {
           <div className="d-flex global-margin mtp-20 mbp-100 psp-0 pep-0 ptp-0 pbp-0 bgc-ryu rounded-p-10">
             <div className="row p-0 m-0 w-100 f-Ubuntu-R fsp-15">
 
-              <div className="col-sm-4 col-md-4 p-0 m-0 position-relative">
+              <div className="col-sm-4 col-md-4 p-0 m-0 position-relative ">
                 <div className="d-flex mtp-20 psp-20 pep-20 ptp-0 pbp-10 position-relative">
-                  <div className="d-flex w-100 psp-10 pep-10 ptp-30 pbp-0 bgc-white rounded-p-10">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                  <div className="d-flex w-100 psp-10 pep-10 ptp-30 pbp-0 bgc-white rounded-p-10 ">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" max-wp-170 w-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                   </div>
                 </div>
                 <div className="d-flex mtp-5 psp-20 pep-20 ptp-0 pbp-10 w-100">
@@ -132,7 +132,7 @@ function Page049(props) {
                         Paso 1
                       </div>
                       <div className="psp-10 pep-10">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-120" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-170 w-100 p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-120" />
                       </div>
                     </div>
                   </div>
@@ -141,7 +141,7 @@ function Page049(props) {
               <div className="col-sm-4 col-md-4 p-0 m-0 position-relative">
                 <div className="d-flex mtp-20 psp-20 pep-20 ptp-0 pbp-10 position-relative">
                   <div className="d-flex w-100 psp-10 pep-10 ptp-30 pbp-0 bgc-white rounded-p-10">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-170 w-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                   </div>
                 </div>
                 <div className="d-flex mtp-5 psp-20 pep-20 ptp-0 pbp-10 w-100">
@@ -152,7 +152,7 @@ function Page049(props) {
                         Paso 2
                       </div>
                       <div className="psp-10 pep-10">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-120" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-120" />
                       </div>
                     </div>
                   </div>
@@ -161,7 +161,7 @@ function Page049(props) {
               <div className="col-sm-4 col-md-4 p-0 m-0 position-relative">
                 <div className="d-flex mtp-20 psp-20 pep-20 ptp-0 pbp-10 position-relative">
                   <div className="d-flex w-100 psp-10 pep-10 ptp-30 pbp-0 bgc-white rounded-p-10">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-170 w-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                   </div>
                 </div>
                 <div className="d-flex mtp-5 psp-20 pep-20 ptp-0 pbp-10 w-100">

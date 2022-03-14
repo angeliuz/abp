@@ -88,26 +88,30 @@ function Page059(props) {
                     <div className="mtp-5 ">
 
                       <div className="d-flex w-100 p-2">
-                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5"> Los materiales que escogimos.</div>
                       </div>
 
                       <div className="d-flex w-100 p-2">
-                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Las herramientas que utilizaremos.</div>
                       </div>
 
                       <div className="d-flex w-100 p-2">
-                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Las mejoras del prototipo.</div>
                       </div>
 
                       <div className="d-flex w-100 p-2">
-                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Elementos de seguridad.</div>
                       </div>
 
-                      <div className=" justify-content-start align-items-start text-start f-Ubuntu-R fsp-15  ptp-10 psp-10">Otro:
+                      <div className="d-flex w-100 p-2">
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                        <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Otro</div>
+                      </div>
+                      <div className=" justify-content-start align-items-start text-start f-Ubuntu-R fsp-15  ptp-0 psp-10">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                       </div>
                     </div>
@@ -149,7 +153,7 @@ function Page059(props) {
 
                 <div className="d-flex w-100 p-2">
                   <div className="d-flex d-inline justify-content-start align-items-center text-start f-Ubuntu-R color-saitama fsp-17 fw-700 pbp-5">a.</div>
-                  <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Portada e introducción del álbum.</div>
+                  <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Hacemos una lista con las tareas y las distribuimos.</div>
                 </div>
 
               </div>
@@ -162,6 +166,7 @@ function Page059(props) {
           <div className="ptp-10 psp-65 pep-40 mbp-70">
             <div className="row d-flex mx-auto f-Ubuntu-B fsp-15 mbp-0 position-relative justify-content-between">
               <div className="col-sm-12 col-md-6 pbp-25 ">
+
                 {/* <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp-25 zindex-1"><img src={"images/page_" + pagina + "/posit.png"} className="wp-60 mtp--60 msp-0" alt="" /></div> */}
                 {/* <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-25 visible-768 zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-60 mtp-60" alt="" /></div> */}
                 <div className="text-center w-100 border-2 border-style-solid border-color-akuma rounded-p-10">
@@ -171,6 +176,7 @@ function Page059(props) {
               </div>
               <div className="col-sm-12 col-md-6 pbp-25">
                 <div className="text-center w-100 border-1 border-style-solid border-color-haydn rounded-p-10  position-relative">
+                  <div className="position-absolute top-0 start-100 translate-middle   msp--50 mtp--30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-90 " alt="" /></div>
                   <div className="position-absolute posicion-centro-centro translate-middle zindex-1   "><img src={"images/page_" + pagina + "/espiral.svg"} className="rotacion-centro-centro msp--30 mtp--26 wp-50" alt="" /></div>
                   <div className="rounded-set-6 hp-40 ptp-10 pbp-10 bgc-haydn d-flex justify-content-center align-items-center text-white p-2">Estudiante a cargo</div>
                   <div className="psp-15 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300 f-Ubuntu-R" /></div>

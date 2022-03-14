@@ -73,11 +73,11 @@ function Page051(props) {
           </div>
           {/* END CABECERA VERSIÓN 2 */}
 
-          <div className="ptp-0 psp-65 pep-40">
+          <div className="ptp-0 psp-30 pep-0">
             {/* <div className="f-Ubuntu-B fsp-17 color-pidgey text-start lhp-20 psp-0">Preparamos la jornada de diálogo</div> */}
             <div className="d-flex">
               <img
-                className="hp-15 mtp-20 pep-10"
+                className="hp-20 mtp-15 pep-0"
                 src="images/page_051/img_004.svg"
                 alt=""
               />
@@ -292,10 +292,10 @@ function Page051(props) {
                       Otra
                     </div>
                     <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-60 f-Ubuntu-L fsp-16 p-1 text-start border-style-solid border-2 border-color-goten bgc-white  psp-5 ">
-                    <InputBox
-                          id={"p" + pagina + "_input" + (indexInput += 1)}
-                          className=" p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-35 f-Ubuntu-L min-wp-100"
-                        />
+                      <InputBox
+                        id={"p" + pagina + "_input" + (indexInput += 1)}
+                        className=" p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-35 f-Ubuntu-L min-wp-100"
+                      />
                     </div>
                   </div>
 
@@ -309,11 +309,11 @@ function Page051(props) {
                   </div>
                 </div>
               </div>
-              
+
             </div>
           </div>
-          
-          
+
+
           <div
             className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2"
             style={{ bottom: 70, right: 0 }}

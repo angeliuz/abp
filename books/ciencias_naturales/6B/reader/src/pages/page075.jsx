@@ -47,7 +47,7 @@ function Page075(props) {
                   <img src="images/cabecera/caja_blanca.png" width="100%" height="100%" alt="" />
                 </div>
                 <div className="position-relative">
-                  valuar el trabajo  <br /> en equipo
+                  Evaluar el trabajo  <br /> en equipo
                 </div>
               </div>
               <div className="p-0 align-self-center">
@@ -119,7 +119,7 @@ function Page075(props) {
               {/*<ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />*/}
             </div>
           </div>
-         
+
 
           <div className="msp-60 mep-60 mbp-100">
             <div className="row m-0 p-0">
@@ -146,7 +146,7 @@ function Page075(props) {
                 </div>
               </div>
               <div className="col-md-6 col-sm-12 p-0 m-0 position-relative">
-              <div className="position-absolute top-0 start-0 translate-middle msp--15 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60 " alt="" /></div>
+                <div className="position-absolute top-0 start-0 translate-middle msp--15 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60 " alt="" /></div>
                 <div class="text-start bgc-pantro p-3 f-Ubuntu-L fsp-13 border-color-garou">
                   <p> ¿Con quién he aprendido?</p>
                   <div className="psp-15 pep-15">

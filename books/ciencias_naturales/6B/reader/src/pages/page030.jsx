@@ -36,7 +36,7 @@ function Page030(props) {
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_030/img_001.svg" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"89"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
                         </div>
                     </div>
                     <div className="d-flex global-margin h-100  mtp-0 mbp-0 psp-40 pep-0 ptp-0 pbp-0">
@@ -116,7 +116,7 @@ function Page030(props) {
 
                         <div className="row ptp-0 ps-12 pe-8 m-0 w-100">
                             <div className="col-12  position-relative ">
-                            <div className="position-absolute top-0 start-100 translate-middle mtp-20 msp--10"><img src="images/page_030/img_005.svg" className="wp-40 " alt="" /></div>
+                                <div className="position-absolute top-0 start-100 translate-middle mtp-20 msp--10"><img src="images/page_030/img_005.svg" className="wp-40 " alt="" /></div>
                                 <div className="position-absolute top-50 start-0 translate-middle zindex-2 msp--20 "> <img src={"images/page_" + pagina + "/img_004.png"} className="" alt="" />  </div>
 
                                 {/* <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-60 visible-768"><img src="images/page_048/periodista.png" className="wp-60 " alt="" /></div> */}
@@ -133,7 +133,7 @@ function Page030(props) {
                     </div>
 
 
-                    <div className="d-flex global-margin h-100  mtp-0 mbp-0 psp-60 pep-0 ptp-0 pbp-0">
+                    <div className="d-flex global-margin h-100  mtp-0 mbp-0 psp-40 pep-0 ptp-0 pbp-0">
                         <div className="row p-0 msp-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative">
 
@@ -162,7 +162,7 @@ function Page030(props) {
                         <div className="row m-0 psp-10 pep-10  pbp-0  w-100  ">
 
                             <div className="col-md-12 col-lg-12 position-relative ">
-                            <div className="position-absolute top-50 start-100 translate-middle zindex-2 msp-20 "> <img src={"images/page_" + pagina + "/img_006.png"} className="" alt="" />  </div>
+                                <div className="position-absolute top-50 start-100 translate-middle zindex-2 msp-20 "> <img src={"images/page_" + pagina + "/img_006.png"} className="" alt="" />  </div>
                                 <div className="d-flex flex-column mbp-0 mtp-0 w-100">
                                     {/* <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-center">una palabra que me haya llamado la atención</div> */}
                                     <div className="p-2 min-hp-80 w-100 ">
@@ -180,7 +180,7 @@ function Page030(props) {
                         </div>
                     </div>
 
-                    <div className="d-flex global-margin h-100  mtp-0 mbp-0 psp-60 pep-0 ptp-0 pbp-0">
+                    <div className="d-flex global-margin h-100  mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
                         <div className="row p-0 msp-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative">
 

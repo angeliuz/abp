@@ -106,12 +106,7 @@ function Page025(props) {
                 <div className="d-flex w-100 p-2">
                   <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-android18 fsp-17 fw-700 ptp-10">a.</div>
                   <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Leo el reportaje de la revista y resumo la información señalando…</div>
-                  <ModalBook
-                    id={"p" + pagina + "_book" + (indexInput += 1)}
-                    image={"images/page_" + pagina + "/img_004.svg"}
-                    clasesImagen="hp-40 text-center mtp-10 "
-                    className="p-0 px-1"
-                  />
+                  <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"85"} image={"images/page_" + pagina + "/img_004.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
                 </div>
 
               </div>
@@ -184,12 +179,7 @@ function Page025(props) {
                     clasesImagen="cambio hp-40 mtp-10"
                     className="p-0 px-1"
                   />
-                  <ModalBook
-                    id={"p" + pagina + "_book" + (indexInput += 1)}
-                    image={"images/page_" + pagina + "/img_008.svg"}
-                    clasesImagen="hp-40 text-center mtp-10 "
-                    className="p-0 px-1"
-                  />
+                  <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"87"} image={"images/page_" + pagina + "/img_008.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
                 </div>
 
               </div>

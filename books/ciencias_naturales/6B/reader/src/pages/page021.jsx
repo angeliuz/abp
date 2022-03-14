@@ -85,7 +85,7 @@ function Page021(props) {
                   <img src="images/page_021/img_005.svg" className="wp-30 " alt="" />
                 </div>
 
-                <div className="d-flex flex-column min-hp-170 center-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-sonic border-style-solid border-1 border-color-bach">
+                <div className="d-flex flex-column min-hp-170 center-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-sonic border-style-solid border-1 border-color-sonic">
                   <div className="f-Ubuntu-L fsp-16 text-center w-100 p-1">Se caracteriza
                     por…</div>
 
@@ -148,7 +148,7 @@ function Page021(props) {
                     alt=""
                   />
                 </div>
-                <div className="d-flex flex-column min-hp-170 center-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-sonic border-style-solid border-1 border-color-bach">
+                <div className="d-flex flex-column min-hp-170 center-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-sonic  ">
                   <div className="f-Ubuntu-L fsp-16 text-center w-100 p-2">¿Cuáles son?</div>
                   <div className="p-2 w-100 d-flex">
                     {/* <InputBox

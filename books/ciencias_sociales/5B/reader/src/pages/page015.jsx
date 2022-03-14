@@ -1,5 +1,5 @@
 import React from "react";
-import InputBox from "../components/InputBox";
+// import InputBox from "../components/InputBox";
 
 import "./page_015.css";
 

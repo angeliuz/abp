@@ -217,7 +217,7 @@ function Page063(props) {
               <div className="col-12 p-0 m-0 position-relative">
 
                 <div className="d-flex w-100 p-2">
-                  <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-saitama fsp-17  fw-700 pbp-5">c.</div>
+                  <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-saitama fsp-17  fw-700 mbp-30">c.</div>
                   <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Señalamos los beneficios que tendría la instalación de nuestro aparato o
                     sistema tecnológico para el colegio .</div>
                 </div>
@@ -228,7 +228,7 @@ function Page063(props) {
 
 
 
-          <div className="  msp-60 mep-40 mbp-60">
+          <div className="  msp-60 mep-40 mbp-80">
 
             <div className="row">
               <div className="col-12 position-relative">

@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
 import ModalBook from "../components/ModalBook";
+import Check from "../components/Check";
 
 import "./page_015.css";
 import { isIndexedDBAvailable } from "@firebase/util";
@@ -108,7 +109,7 @@ function Page015(props) {
 
           <div className="psp-60 pep-60 ptp-20 w-100">
             <div className="row w-100 position-relative">
-
+              <div className="position-absolute top-50 start-100 translate-middle msp-20 mtp-0 "><img src={"images/page_" + pagina + "/img_007.png"} className="wp-60" alt="" /></div>
               <div className="col-md-6 col-12 pbp-20">
                 <div className="bgc-genos border-style-solid border-1 border-color-goten rounded-p-20 p-2 position-relative">
                   <div className="text-center f-colby-regular color-goten fsp-18">Coordinación</div>
@@ -123,8 +124,9 @@ function Page015(props) {
                     </div>
                   </div>
                   <div className="position-absolute top-100 start-50 translate-middle">
-                    <div className="cuadrado-p15 bgc-white border-style-solid border-1 border-color-lightDark">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
+                    <div className="hp-30 wp-30 bgc-white  ">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+
                     </div>
                   </div>
                 </div>
@@ -145,8 +147,8 @@ function Page015(props) {
                     </div>
                   </div>
                   <div className="position-absolute top-100 start-50 translate-middle">
-                    <div className="cuadrado-p15 bgc-white border-style-solid border-1 border-color-lightDark">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
+                    <div className="hp-30 wp-30 bgc-white  ">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                   </div>
                 </div>
@@ -166,8 +168,8 @@ function Page015(props) {
                     </div>
                   </div>
                   <div className="position-absolute top-100 start-50 translate-middle">
-                    <div className="cuadrado-p15 bgc-white border-style-solid border-1 border-color-lightDark">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
+                    <div className="hp-30 wp-30 bgc-white  ">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                   </div>
                 </div>
@@ -188,14 +190,15 @@ function Page015(props) {
                     </div>
                   </div>
                   <div className="position-absolute top-100 start-50 translate-middle">
-                    <div className="cuadrado-p15 bgc-white border-style-solid border-1 border-color-lightDark">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
+                    <div className="hp-30 wp-30 bgc-white  ">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="position-absolute top-50 start-100 translate-middle msp-20 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-60" alt="" /></div>
+
+
             </div>
           </div>
 
