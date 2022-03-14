@@ -38,7 +38,7 @@ function Page072(props) {
                                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-20 mep-5 wp-20" alt="" />
                                         </div>
                                         <div>
-                                            <span className="fsp-16 text-start f-pixilate-regular">
+                                            <span className="fsp-16 text-start f-Ubuntu-R">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start"> Realizar </span>
                                                 la <br /> exposición artística.
                                             </span>
@@ -53,7 +53,7 @@ function Page072(props) {
                                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-25 mep-5 wp-20" alt="" />
                                         </div>
                                         <div className="d-flex">
-                                            <span className="fsp-16 text-start f-pixilate-regular">
+                                            <span className="fsp-16 text-start f-Ubuntu-R">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">EVALUAR </span>
                                                 el <br /> trabajo realizado.
                                             </span>
@@ -68,7 +68,7 @@ function Page072(props) {
                                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-25 mep-5 wp-20" alt="" />
                                         </div>
                                         <div className="d-flex">
-                                            <span className="fsp-16 text-start f-pixilate-regular">
+                                            <span className="fsp-16 text-start f-Ubuntu-R">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start"> Celebrar </span>
                                                 el <br /> trabajo realizado.
                                             </span>

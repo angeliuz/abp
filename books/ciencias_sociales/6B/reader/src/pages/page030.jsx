@@ -57,7 +57,7 @@ function Page030(props) {
                         <div className="row">
 
                             <div className="col-12 position-relative">
-                            <div className="position-absolute top-0 start-100 translate-middle zindex-1 "><img src="images/page_030/img_002.png" className=" " alt="" /></div>
+                                <div className="position-absolute top-0 start-100 translate-middle zindex-1 "><img src="images/page_030/img_002.png" className=" " alt="" /></div>
                                 <div className="d-flex pbp-20">
                                     <div className="wp-180 bgc-saitama rounded-p-20 zindex-1 d-flex align-items-center justify-content-center ">
                                         <span className=" p-3 f-Ubuntu-B color-white text-center">Deber o
@@ -69,7 +69,7 @@ function Page030(props) {
 
                             </div>
                             <div className="col-12 position-relative">
-                            <div className="position-absolute top-100 start-0 translate-middle zindex-2 "><img src="images/page_030/img_003.png" className=" " alt="" /></div>
+                                <div className="position-absolute top-100 start-0 translate-middle zindex-2 "><img src="images/page_030/img_003.png" className=" " alt="" /></div>
                                 <div className="d-flex pbp-20  ">
                                     <div className="wp-160 bgc-saitama rounded-p-20 zindex-1 d-flex align-items-center justify-content-center ">
                                         <span className="p-3 f-Ubuntu-B color-white text-center d-flex ">Color</span></div>
@@ -88,7 +88,7 @@ function Page030(props) {
                                 </div>
                             </div>
                             <div className="col-6 position-relative ptp-20 pbp-20">
-                            <div className="position-absolute top-100 start-100 translate-middle mtp--15 zindex-2 "><img src="images/page_030/img_004.png" className=" " alt="" /></div>
+                                <div className="position-absolute top-100 start-100 translate-middle mtp--15 zindex-2 "><img src="images/page_030/img_004.png" className=" " alt="" /></div>
                                 <div className="bgc-bobafett  px-3 py-2  rounded-p-30">
                                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea mtp-20 lhp-35 min-hp-200" />
                                 </div>
@@ -101,7 +101,7 @@ function Page030(props) {
                                     <div className="wp-180 bgc-pidgey rounded-p-20 zindex-1 d-flex align-items-center justify-content-center ">
                                         <span className=" p-3 f-Ubuntu-B color-white text-center">Deber o
                                             responsabilidad 2</span></div>
-                                    <div className="wp-560 bgc-bobafett rounded-tbe-20 msp--20 py-2 psp-25 pep-10">
+                                    <div className="wp-560 bgc-jack rounded-tbe-20 msp--20 py-2 psp-25 pep-10">
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
                                     </div>
                                 </div>
@@ -111,14 +111,14 @@ function Page030(props) {
                                 <div className="d-flex pbp-20  ">
                                     <div className="wp-160 bgc-pidgey rounded-p-20 zindex-1 d-flex align-items-center justify-content-center ">
                                         <span className="p-3 f-Ubuntu-B color-white text-center d-flex ">Color</span></div>
-                                    <div className="wp-560 bgc-bobafett rounded-tbe-20 msp--20 py-2 psp-25 pep-10">
+                                    <div className="wp-560 bgc-jack rounded-tbe-20 msp--20 py-2 psp-25 pep-10">
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-25 min-hp-100" />
                                     </div>
                                 </div>
 
                             </div>
                             <div className="col-6 position-relative ptp-20">
-                                <div className="bgc-bobafett  px-3 py-2  rounded-p-30">
+                                <div className="bgc-jack  px-3 py-2  rounded-p-30">
                                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea mtp-20 lhp-35 min-hp-200" />
                                 </div>
                                 <div className="position-absolute top-0 start-50 translate-middle mtp-20 f-Ubuntu-B wp-160 bgc-pidgey rounded-p-20 zindex-1 d-flex align-items-center justify-content-center color-white p-3">
@@ -126,7 +126,7 @@ function Page030(props) {
                                 </div>
                             </div>
                             <div className="col-6 position-relative ptp-20">
-                                <div className="bgc-bobafett  px-3 py-2  rounded-p-30">
+                                <div className="bgc-jack  px-3 py-2  rounded-p-30">
                                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea mtp-20 lhp-35 min-hp-200" />
                                 </div>
                                 <div className="position-absolute top-0 start-50 translate-middle mtp-20 f-Ubuntu-B wp-160 bgc-pidgey rounded-p-20 zindex-1 d-flex align-items-center justify-content-center color-white p-3">
