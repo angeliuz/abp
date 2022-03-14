@@ -1,5 +1,6 @@
 import React from "react";
 import ModalBook from "../components/ModalBook";
+import InputBox from "../components/InputBox";
 
 import "./page_021.css";
 
@@ -53,7 +54,7 @@ function Page021(props) {
 
                 <div className="mbp-20 mtp-10 msp-20 mep-20">
                   <div className=" bgc-white caja-dibujo-global p-2 rounded-p-20 border-style-solid border-2 border-color-android18">
-
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
                   </div>
                 </div>
 

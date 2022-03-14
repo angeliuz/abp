@@ -49,7 +49,7 @@ function Page034(props) {
                                 <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-60 " alt="" /></div>
                                 <div className="d-flex">
 
-                                    <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-L fsp-18 box-shadow-simple bgc-pantro border-style-solid border-2 border-color-freezer">
+                                    <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-L fsp-15 box-shadow-simple bgc-pantro border-style-solid border-2 border-color-freezer">
 
                                         <div className="d-flex">
                                             <div className="ptp-0">

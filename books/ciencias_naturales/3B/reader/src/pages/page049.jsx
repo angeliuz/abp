@@ -50,15 +50,15 @@ function Page049(props) {
           <div className="d-flex flex-column global-margin mtp-0 mbp-0 psp-20 pep-20 ptp-20 pbp-20 bgc-buzz rounded-p-10">
             <div className="row p-0 msp-0 mep-0 mtp-0 mbp-10 w-100 ">
               <div className="d-flex justify-content-evenly">
-                <div className="col-md-4 col-6">¿Qué hay que hacer?</div>
-                <div className="col-md-8 col-6">¿Quiénes lo harán?</div>
+                <div className="col-md-3 col-6">¿Qué hay que hacer?</div>
+                <div className="col-md-9 col-6">¿Quiénes lo harán?</div>
               </div>
 
-              <div className="col-auto p-0 m-0 position-relative d-flex justify-content-end align-items-center ">
+              <div className="col-3 p-0 m-0 position-relative d-flex justify-content-end align-items-center ">
                 <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_001.svg"} className="wp-25" alt="" /></div>
                 <div className="bgc-bulma color-white f-Ubuntu-B fsp-15 psp-10 pep-10 ptp-10 pbp-10 mep-10 rounded-p-10 max-wp-200 wp-200 min-hp-50 d-flex align-items-center justify-content-start text-start">Construir el modelo.</div>
               </div>
-              <div className="col p-0 m-0 position-relative d-flex center-center ">
+              <div className="col-9 p-0 m-0 position-relative d-flex center-center ">
                 <div className="bgc-white border-style-solid border-2 border-color-bulma f-Ubuntu-R fsp-15 psp-10 pep-10 ptp-10 pbp-10 msp-0 min-hp-40 w-100 rounded-p-10 min-hp-50 d-flex center-center">
                   <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
@@ -67,27 +67,27 @@ function Page049(props) {
               </div>
             </div>
             <div className="row m-0 w-100 pbp-10 ps-0 pe-0 pt-0">
-              <div className="col-auto p-0 m-0 position-relative d-flex justify-content-end align-items-center ">
+              <div className="col-3 p-0 m-0 position-relative d-flex justify-content-end align-items-center ">
                 <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_001.svg"} className="wp-25" alt="" /></div>
                 <div className="bgc-bulma color-white f-Ubuntu-B fsp-15 psp-10 pep-10 ptp-10 pbp-10 mep-10 rounded-p-10 max-wp-200 wp-200 min-hp-50 d-flex center-center text-start">Preparar la infografía que explique el modelo.</div>
               </div>
-              <div className="col p-0 m-0 position-relative d-flex center-center ">
+              <div className="col-9 p-0 m-0 position-relative d-flex center-center ">
                 <div className="bgc-white border-style-solid border-2 border-color-bulma  f-Ubuntu-r fsp-15 psp-10 pep-10 ptp-10 pbp-10 msp-0 min-hp-40 w-100 rounded-p-10 min-hp-50 d-flex center-center">
                   <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="row p-0 m-0 w-100 ">
-              <div className="col-auto p-0 m-0 position-relative d-flex justify-content-end align-items-center ">
+              <div className="col-3 p-0 m-0 position-relative d-flex justify-content-end align-items-center ">
                 <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_001.svg"} className="wp-25" alt="" /></div>
                 <div className="bgc-bulma color-white f-Ubuntu-B fsp-15 psp-10 pep-10 ptp-10 pbp-10 mep-10 rounded-p-10 max-wp-200 wp-200 min-hp-50 d-flex center-center text-start">Realizar decoraciones para el stand.</div>
               </div>
-              <div className="col p-0 m-0 position-relative d-flex center-center ">
+              <div className="col-9 p-0 m-0 position-relative d-flex center-center ">
                 <div className="bgc-white border-style-solid border-2 border-color-bulma f-Ubuntu-R fsp-15 psp-10 pep-10 ptp-10 pbp-10 msp-0 min-hp-40 w-100 rounded-p-10 min-hp-50 d-flex center-center">
                   <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                   </div>
                 </div>
               </div>

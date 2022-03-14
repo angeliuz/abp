@@ -57,11 +57,11 @@ function Page027(props) {
                 </div>
 
                 <div className="col position-relative">
-                  <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-0 pep-10 mtp-20">
+                  <div className="d-flex flex-column f-Ubuntu-R fsp-15 psp-0 pep-10 mtp-20">
                     <div className="f-colby-compres-medium fsp-20 color-dark text-start color-bulma ">Nombre:</div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
                   </div>
-                  <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-0 pep-10 mtp-20">
+                  <div className="d-flex flex-column f-Ubuntu-R fsp-15 psp-0 pep-10 mtp-20">
                     <div className="f-colby-compres-medium fsp-20 color-dark text-start color-bulma ">¿Qué puedo reciclar?</div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                   </div>
@@ -82,11 +82,11 @@ function Page027(props) {
                 </div>
 
                 <div className="col position-relative">
-                  <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-0 pep-10 mtp-20">
+                  <div className="d-flex flex-column f-Ubuntu-R fsp-15 psp-0 pep-10 mtp-20">
                     <div className="f-colby-compres-medium fsp-20 color-dark text-start color-bulma ">Nombre:</div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
                   </div>
-                  <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-0 pep-10 mtp-20">
+                  <div className="d-flex flex-column f-Ubuntu-R fsp-15 psp-0 pep-10 mtp-20">
                     <div className="f-colby-compres-medium fsp-20 color-dark text-start color-bulma ">¿Qué puedo reciclar?</div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                   </div>

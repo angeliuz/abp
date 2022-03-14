@@ -59,7 +59,7 @@ function Page035(props) {
 
 
                         <div className="col-12 position-relative">
-                            <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-20">
+                            <div className="d-flex flex-column f-Ubuntu-R fsp-15 psp-10 pep-10 mtp-20">
                                 <div className="f-Ubuntu-R fsp-15 color-dark text-start color-dark ">Aprendimos sobre...</div>
                                 <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-330" />
                             </div>

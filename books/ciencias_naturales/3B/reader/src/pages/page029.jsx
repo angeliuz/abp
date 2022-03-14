@@ -60,7 +60,7 @@ function Page029(props) {
                                     </div>
                                 </div>
                                 <div className="col-sm-12 position-relative border-style-solid border-2 border-color-goku">
-                                    <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-0 pep-10 mtp-0">
+                                    <div className="d-flex flex-column f-Ubuntu-R fsp-15 psp-0 pep-10 mtp-0">
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190" />
                                     </div>
                                 </div>
@@ -80,22 +80,22 @@ function Page029(props) {
                                     </div>
                                 </div>
                                 <div className="col-sm-6 position-relative border-style-solid border-top-hidden border-right-hidden border-2 border-color-goku">
-                                    <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-0 pep-10 mtp-0">
+                                    <div className="d-flex flex-column f-Ubuntu-R fsp-15 psp-0 pep-10 mtp-0">
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
                                     </div>
                                 </div>
                                 <div className="col-sm-6 position-relative border-style-solid border-top-hidden border-2 border-color-goku">
-                                    <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-0 pep-10 mtp-0">
+                                    <div className="d-flex flex-column f-Ubuntu-R fsp-15 psp-0 pep-10 mtp-0">
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
                                     </div>
                                 </div>
                                 <div className="col-sm-6 position-relative border-style-solid border-top-hidden border-right-hidden border-2 border-color-goku">
-                                    <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-0 pep-10 mtp-0">
+                                    <div className="d-flex flex-column f-Ubuntu-R fsp-15 psp-0 pep-10 mtp-0">
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
                                     </div>
                                 </div>
                                 <div className="col-sm-6 position-relative border-style-solid border-top-hidden  border-2 border-color-goku">
-                                    <div className="d-flex flex-column f-Ubuntu-R fsp-20 psp-0 pep-10 mtp-0">
+                                    <div className="d-flex flex-column f-Ubuntu-R fsp-15 psp-0 pep-10 mtp-0">
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
                                     </div>
                                 </div>

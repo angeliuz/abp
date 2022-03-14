@@ -59,11 +59,11 @@ function Page010(props) {
                     </div>
                     <div className="p-2 w-100 d-flex">
                       <div className="f-pixilate-bold  fsp-18 color-pidgey msp-10 mep-10 ptp-10 text-center">3.</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-90 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
                     </div>
-                    <div className="p-2 w-100 d-flex">
-                      <div className="f-pixilate-bold  fsp-18 color-pidgey msp-10 mep-10 ptp-10 text-center">4.</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                    <div className="p-2  d-flex">
+                      <div className="f-pixilate-bold fsp-18 color-pidgey msp-10 mep-10 ptp-10 text-center">4.</div>
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-90 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
                     </div>
                   </div>
                 </div>
