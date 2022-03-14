@@ -73,7 +73,7 @@ function Page054(props) {
                 </div>
               </div>
 
-              <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp--20 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-60" alt="" /></div>
+              <div className="position-absolute top-50 start-0 translate-middle msp--10 mtp--20 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-60" alt="" /></div>
               <div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-30 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-30" alt="" /></div>
             </div>
           </div>
