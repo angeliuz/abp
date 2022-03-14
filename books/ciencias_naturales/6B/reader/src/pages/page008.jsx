@@ -125,7 +125,7 @@ function Page008(props) {
                   </div>
                 </div>
                 <div className="d-flex justify-content-center mbp-5 ">
-                  <div className="wp-30 hp-30 mtp-10 bgc-white border-1 border-style-solid border-color-ken rounded-1">
+                  <div className="wp-30 hp-30 mtp-10 bgc-white   ">
                     <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
 
                   </div>

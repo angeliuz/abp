@@ -32,7 +32,7 @@ function Page058(props) {
                                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-60 mep-5 wp-20" alt="" />
                                         </div>
                                         <div>
-                                            <span className="fsp-16 text-start f-pixilate-regular">
+                                            <span className="fsp-16 text-start  f-Ubuntu-R">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
                                                     CREAR
                                                 </span>
@@ -49,7 +49,7 @@ function Page058(props) {
                                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-40 mep-5 wp-20" alt="" />
                                         </div>
                                         <div className="d-flex">
-                                            <span className="fsp-16 text-start f-pixilate-regular">
+                                            <span className="fsp-16 text-start  f-Ubuntu-R">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
                                                     EVALUAR</span> <br />  el aparato o sistema<br />  propuesto.
                                             </span>
@@ -64,7 +64,7 @@ function Page058(props) {
                                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-40 mep-5 wp-20" alt="" />
                                         </div>
                                         <div className="d-flex">
-                                            <span className="fsp-16 text-start f-pixilate-regular">
+                                            <span className="fsp-16 text-start  f-Ubuntu-R">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
                                                     CREAR</span> <br />invitaciones para la<br /> presentación del proyecto.
                                             </span>
@@ -80,9 +80,9 @@ function Page058(props) {
                                         </div>
 
                                         <div className="d-flex">
-                                            <span className="fsp-16 text-start f-pixilate-regular">
+                                            <span className="fsp-16 text-start  f-Ubuntu-R">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
-                                                    Valorar</span> <br />el trabajo realizado.
+                                                    Valorar</span> <br />el trabajo en equipo.
                                             </span>
                                         </div>
                                     </div>
