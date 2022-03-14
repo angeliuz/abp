@@ -73,7 +73,7 @@ function Page047(props) {
 
                     <div className="d-flex global-margin mtp-10 mbp-60 psp-30 pep-70 ptp-0 pbp-0">
                         <div className="row p-0 m-0 w-100 position-relative">
-                            <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_047/mono.png" className="hp-250 msp-90 mtp-400" alt="" /></div>
+                            
                             <div className="col-12 mbp-10">
                                 <div className="d-flex border-style-solid border-color-goten border-3 p-0 m-0">
                                     <div className="w-20 bgc-genos p-3 border-right-style-solid border-color-goten border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14">Paso 1:</div>
@@ -107,7 +107,8 @@ function Page047(props) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-12 mbp-10">
+                            <div className="col-12 mbp-10 position-relative">
+                            <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_047/mono.png" className="hp-250 msp-90 mtp-50" alt="" /></div>
                                 <div className="d-flex border-style-solid border-color-saitama border-3 p-0 m-0">
                                     <div className="w-20 bgc-windu p-3 border-right-style-solid border-color-saitama border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14"></div>
                                     <div className="p-2 w-80">
