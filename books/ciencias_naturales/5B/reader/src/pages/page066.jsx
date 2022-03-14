@@ -75,7 +75,7 @@ function Page066(props) {
 
 
                       <div className="row psp-4">
-                        <div className="col-md-4 col-md-6 p-2">
+                        <div className="col-sm-4 col-md-6 p-2">
                           <div className="d-flex w-100 p-0">
                             {/* <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"> */}
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
@@ -84,19 +84,19 @@ function Page066(props) {
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Audios</div>
                           </div>
                         </div>
-                        <div className="col-md-4 col-md-6 p-2">
+                        <div className="col-sm-4 col-md-6 p-2">
                           <div className="d-flex w-100 p-0">
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Redes sociales</div>
                           </div>
                         </div>
-                        <div className="col-md-4 col-md-12 p-2">
+                        <div className="col-sm-4 col-md-12 p-2">
                           <div className="d-flex w-100 p-0">
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Afiches</div>
                           </div>
                         </div>
-                        <div className="col-md-4 col-md-6 p-2">
+                        <div className="col-sm-4 col-md-6 p-2">
                           <div className="d-flex w-100 p-0">
                             {/* <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"> */}
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
@@ -105,13 +105,13 @@ function Page066(props) {
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Videos</div>
                           </div>
                         </div>
-                        <div className="col-md-4 col-md-6 p-2">
+                        <div className="col-sm-4 col-md-6 p-2">
                           <div className="d-flex w-100 p-0">
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Correos electrónicos</div>
                           </div>
                         </div>
-                        <div className="col-md-4 col-md-12 p-2">
+                        <div className="col-sm-4 col-md-12 p-2">
                           <div className="d-flex w-100 p-0">
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Diario</div>
@@ -140,7 +140,7 @@ function Page066(props) {
 
 
                       <div className="row psp-4">
-                        <div className="col-md-4 col-md-6 p-2">
+                        <div className="col-sm-4 col-md-6 p-2">
                           <div className="d-flex w-100 p-0">
                             {/* <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"> */}
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
@@ -149,19 +149,19 @@ function Page066(props) {
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Útil</div>
                           </div>
                         </div>
-                        <div className="col-md-4 col-md-6 p-2">
+                        <div className="col-sm-4 col-md-6 p-2">
                           <div className="d-flex w-100 p-0">
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Creativa</div>
                           </div>
                         </div>
-                        <div className="col-md-4 col-md-12 p-2">
+                        <div className="col-sm-4 col-md-12 p-2">
                           <div className="d-flex w-100 p-0">
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Original</div>
                           </div>
                         </div>
-                        <div className="col-md-4 col-md-6 p-2">
+                        <div className="col-sm-4 col-md-6 p-2">
                           <div className="d-flex w-100 p-0">
                             {/* <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1"> */}
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
@@ -170,13 +170,13 @@ function Page066(props) {
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Coherente</div>
                           </div>
                         </div>
-                        <div className="col-md-4 col-md-6 p-2">
+                        <div className="col-sm-4 col-md-6 p-2">
                           <div className="d-flex w-100 p-0">
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Divertida</div>
                           </div>
                         </div>
-                        <div className="col-md-4 col-md-12 p-2">
+                        <div className="col-sm-4 col-md-12 p-2">
                           <div className="d-flex w-100 p-0">
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                             <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Informativa</div>

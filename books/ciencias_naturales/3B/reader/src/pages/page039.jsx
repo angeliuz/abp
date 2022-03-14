@@ -118,7 +118,7 @@ function Page039(props) {
                 </div>
               </div>
               <div className="col-sm-12 col-md-6 psp-20 pep-20 msp-0 mep-0 mtp-0 mbp-30 position-relative">
-                <div className="position-absolute posicion-centro-centro translate-middle zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-50 mtp--30 rotacion-centro-centro" alt="" /></div>
+                <div className="position-absolute posicion-centro-centro translate-middle zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-50 mtp-30 rotacion-centro-centro" alt="" /></div>
                 <div className="border-style-solid border-2 border-color-bulma rounded-p-10">
                   <div className="d-flex flex-column bgc-white rounded-p-10">
                     <div className="bgc-bulma w-100 f-Ubuntu-B text-center color-white fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5">
