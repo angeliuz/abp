@@ -3,7 +3,7 @@ import { useState } from "react";
 import { doc, getDoc, setDoc, updateDoc, onSnapshot } from "firebase/firestore";
 import db from "../firebase/firebaseConfig";
 
-const Check = (props) => {
+const Check2 = (props) => {
 
     const dokenArray = getUrlParameter("doken").split([',']);
     //console.log(dokenArray[1]);
@@ -20,6 +20,29 @@ const Check = (props) => {
     const pagina = props.pagina;
 
     const [visible, setVisible] = useState(false);
+
+    function getUrlParameter(name) {
+        name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+        var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+        var results = regex.exec(window.location.search);
+        return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+    };
+
+    function handleClick() {
+        console.log(visible)
+        setVisible(!visible);
+        updateContenido();
+        console.log(visible)
+
+    }
+
+    const updateContenido = () => {
+        //console.log("content1: " + data);
+        let estadoCheck = !visible; // Por alguna razón el componente no se actualiza antes de enviar a Firestore 
+        updateDoc(docRef, {
+            [id]: estadoCheck,
+        });
+    }
 
 
     // firestore get data for check
@@ -80,43 +103,15 @@ const Check = (props) => {
         obtenerDatos();
     }
 
-
-    function getUrlParameter(name) {
-        name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-        var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-        var results = regex.exec(window.location.search);
-        return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-    };
-
-    function handleClick() {
-        console.log(visible)
-        setVisible(!visible);
-        updateContenido();
-        console.log(visible)
-
-    }
-
-    const updateContenido = () => {
-        //console.log("content1: " + data);
-        let estadoCheck = !visible; // Por alguna razón el componente no se actualiza antes de enviar a Firestore 
-        updateDoc(docRef, {
-            [id]: estadoCheck,
-        });
-    }
-
-
-    
-
-
     console.log(visible)
 
     return <div>
 
-        <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1 disable-select d-flex center-center" onClick={handleClick}>
+        <div className="wp-30 hp-30 bgc-white mx-auto bgc-white rounded-1 disable-select d-flex center-center" onClick={handleClick}>
             <img src={image} className={(visible === false ? "oculto" : "visible") + " disable-select"} alt="" />
         </div>
 
     </div>;
 }
 
-export default Check;
+export default Check2;

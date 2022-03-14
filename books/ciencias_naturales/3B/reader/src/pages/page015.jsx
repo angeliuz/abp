@@ -30,21 +30,33 @@ function Page015(props) {
           {/* END CABECERA VERSIÓN 2 */}
 
 
-          <div className="ptp-30 container-titulo-global mbp-20">
-            <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 " + color}>¿Qué hacemos en cada etapa del proyecto?</div>
-            <div className="d-flex">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_007/ig.svg" alt=""  /> */}
-              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>1</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Veo el video. Luego, relaciono las actividades con la etapa del proyecto en que las vamos a realizar.
-              </div>
-              <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_007/revista65.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
-              <img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" />
-            </div>
-          </div>
+
+          <div className="col-12 p-0 m-0 position-relative">
+<div className="container-titulo-global mtp-20 mbp-0">
+    <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+    ¿Qué hacemos en cada etapa del proyecto?
+    </div>
+    <div className="d-flex psp-20">
+       {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_005.svg"} alt=""  />  */}
+        <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+            1
+        </div>
+        <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+        Veo el video. Luego, relaciono las actividades con la etapa del proyecto en que las vamos a realizar.
+        </div>
+        <ModalVideo
+        id={"p" + pagina + "_video" + (indexInput += 1)}
+        linkVideo="662244296"
+        tituloVideo="Héroes del medioambiente I"
+        tipoVideo="vimeo"
+        image={"images/generales/play.svg"}
+        colorUnidad={background}
+        clasesImagen="cambio hp-40 mtp-10"
+        className="p-0 px-1"
+        />
+    </div>
+</div>
+</div>
 
           <div className="d-flex psp-60 pep-60">
             <div className="row w-100 position-relative">
