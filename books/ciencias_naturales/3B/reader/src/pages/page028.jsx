@@ -37,17 +37,10 @@ function Page028(props) {
 
 
 <div className="container-titulo-global mtp-20 mbp-0">
-    <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
-        xxx
-    </div>
+    
     <div className="d-flex psp-20">
         {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
-        <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-            X
-        </div>
-        <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-            Youtube
-        </div>
+        
         <ModalVideo
             id={"p" + pagina + "_video" + (indexInput += 1)}
             linkVideo="xS_EPS2ZSfY"
