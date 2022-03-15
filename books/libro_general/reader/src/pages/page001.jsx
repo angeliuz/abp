@@ -161,7 +161,7 @@ function Page001() {
                                         </div>
                                         <ModalVideo
                                             id={"p" + pagina + "_video" + (indexInput += 1)}
-                                            linkVideo="662244296"
+                                            linkVideo="/662244296"
                                             tituloVideo="Héroes del medioambiente I"
                                             tipoVideo="vimeo"
                                             image={"images/generales/play.svg"}

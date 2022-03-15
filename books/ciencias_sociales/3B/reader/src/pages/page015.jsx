@@ -7,6 +7,12 @@ import "./page_015.css";
 function Page015(props) {
   const pagina = "015";
   var indexInput = 0;
+  const etapa = "2";
+  const background = "bgc-bulma";
+  const color = "color-bulma";
+  const borderColor = "border-color-bulma";
+  const borderColorTabla = "border-color-buzz";
+  const bgc_cajas = "bgc-goku";
 
   return (
     <div className="wrapper bgc-light f-Ubuntu-R">
@@ -28,34 +34,38 @@ function Page015(props) {
           </div>
           {/* END CABECERA */}
 
-          <div className="psp-80 pep-60 ptp-30">
-            <div className="f-Ubuntu-B color-bulma fsp-18 text-left">
-              ¡Los pasos que vamos a seguir!
-            </div>
-            <div className="text-left col-9">
+          
+
+            <div className="container-titulo-global mtp-20 mbp-0">
+    <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+    ¡Los pasos que vamos a seguir!
+    </div>
+    <div className="text-left col-9">
               Ahora que ya nos motivamos conociendo el desafío de este proyecto,
               organizamos las siguientes etapas.
             </div>
-            <div className="d-flex">
-              <img
-                src="images/page_015/img_002.svg"
-                className="pep-10 msp--40"
-                alt=""
-              />
-              <div className="f-ccdigitaldelivery-bold fsp-35 color-bulma">
-                1
-              </div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-left">
-                Vemos el video y rotulamos los siguientes momentos según
+    <div className="d-flex psp-20">
+         <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_002.svg"} alt=""  />
+        <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+            1
+        </div>
+        <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+        Vemos el video y rotulamos los siguientes momentos según
                 corresponda.
-              </div>
-              <ModalVideo
-                id={"p" + pagina + "_video" + (indexInput += 1)}
-                image="images/page_015/img_003.jpg"
-                clasesImagen="cambio hp-40 mtp-10"
-                className="p-0 px-1"
-              />
-            </div>
+        </div>
+        <ModalVideo
+        id={"p" + pagina + "_video" + (indexInput += 1)}
+        linkVideo="682272125"
+        tituloVideo="¡Somos diversos! II"
+        tipoVideo="vimeo"
+        image={"images/generales/play.svg"}
+        colorUnidad={background}
+        clasesImagen="cambio hp-40 mtp-10"
+        className="p-0 px-1"
+    />
+    </div>
+</div>
+<div className="psp-80 pep-60 ptp-30">
             <div className="d-flex flex-wrap justify-content-between ptp-15 pbp-20">
               <div className="p-2 centrar-todo">
                 <div className="py-2 px-3 bgc-woody rounded-p-10">
