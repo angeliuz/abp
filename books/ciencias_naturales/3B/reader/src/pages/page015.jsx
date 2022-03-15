@@ -47,7 +47,7 @@ function Page015(props) {
         <ModalVideo
         id={"p" + pagina + "_video" + (indexInput += 1)}
         linkVideo="662244296"
-        tituloVideo="Héroes del medioambiente I"
+        tituloVideo="Héroes del medioambiente II"
         tipoVideo="vimeo"
         image={"images/generales/play.svg"}
         colorUnidad={background}
