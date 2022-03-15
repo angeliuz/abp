@@ -35,81 +35,81 @@ function Page036(props) {
           </div>
           <div className="psp-60 pep-60 pbp-120">
             <div className="row w-100">
-              <div className="col-md-6 pbp-20">
-                <div className="bgc-trunks mxwp-120 rounded-p-20 msp--10">
+              <div className="col-md-6 pbp-20 position-relative">
+                <div className="bgc-trunks wp-120 rounded-p-20 msp--10">
                   <div className="py-3 f-Ubuntu-L">Pregunta</div>
                 </div>
                 <div className="border-style-solid border-1 border-color-pidgey mtp--45 rounded-p-20 pbp-20">
-                  <div className="d-flex msp--15 mtp-50">
-                    <div className="cuadrado bgc-trunks border-style-solid border-1 border-color-pidgey color-pidgey">
+                <div className="msp--15 mtp-50">
+                    <div className=" position-absolute wp-30 hp-30 bgc-trunks border-style-solid border-1 border-color-pidgey color-pidgey ">
                       1
                     </div>
                     <div className="psp-15 pep-10 flex-fill">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 wp-280 min-hp-75"
+                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-95 min-hp-75 msp-20 "
                       />
                     </div>
                   </div>
-                  <div className="d-flex msp--15">
-                    <div className="cuadrado bgc-trunks border-style-solid border-1 border-color-pidgey color-pidgey">
+                  <div className="msp--15">
+                    <div className=" position-absolute wp-30 hp-30 bgc-trunks border-style-solid border-1 border-color-pidgey color-pidgey ">
                       2
                     </div>
                     <div className="psp-15 pep-10 flex-fill">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 wp-280 min-hp-75"
+                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-95 min-hp-75 msp-20 "
                       />
                     </div>
                   </div>
-                  <div className="d-flex msp--15">
-                    <div className="cuadrado bgc-trunks border-style-solid border-1 border-color-pidgey color-pidgey">
+                  <div className="msp--15">
+                    <div className=" position-absolute wp-30 hp-30 bgc-trunks border-style-solid border-1 border-color-pidgey color-pidgey ">
                       3
                     </div>
                     <div className="psp-15 pep-10 flex-fill">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 wp-280 min-hp-75"
+                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-95 min-hp-75 msp-20 "
                       />
                     </div>
                   </div>
-                  <div className="d-flex msp--15">
-                    <div className="cuadrado bgc-trunks border-style-solid border-1 border-color-pidgey color-pidgey">
+                  <div className="msp--15">
+                    <div className=" position-absolute wp-30 hp-30 bgc-trunks border-style-solid border-1 border-color-pidgey color-pidgey ">
                       4
                     </div>
                     <div className="psp-15 pep-10 flex-fill">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 wp-280 min-hp-75"
+                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-95 min-hp-75 msp-20 "
                       />
                     </div>
                   </div>
-                  <div className="d-flex msp--15">
-                    <div className="cuadrado bgc-trunks border-style-solid border-1 border-color-pidgey color-pidgey">
+                  <div className="msp--15">
+                    <div className=" position-absolute wp-30 hp-30 bgc-trunks border-style-solid border-1 border-color-pidgey color-pidgey ">
                       5
                     </div>
                     <div className="psp-15 pep-10 flex-fill">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 wp-280 min-hp-75"
+                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-95 min-hp-75 msp-20 "
                       />
                     </div>
                   </div>
-                  <div className="d-flex msp--15">
-                    <div className="cuadrado bgc-trunks border-style-solid border-1 border-color-pidgey color-pidgey">
+                  <div className="msp--15">
+                    <div className=" position-absolute wp-30 hp-30 bgc-trunks border-style-solid border-1 border-color-pidgey color-pidgey ">
                       6
                     </div>
                     <div className="psp-15 pep-10 flex-fill">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 wp-280 min-hp-75"
+                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-95 min-hp-75 msp-20 "
                       />
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col-md-6 pbp-20 position-relative">
-                <div className="bgc-trunks mxwp-120 rounded-p-20 msp--10">
+                <div className="bgc-trunks wp-120 rounded-p-20 msp--10">
                   <div className="py-3 f-Ubuntu-L">Resultado</div>
                 </div>
                 <div className="border-style-solid border-1 border-color-pidgey mtp--45 rounded-p-20 pbp-20">
