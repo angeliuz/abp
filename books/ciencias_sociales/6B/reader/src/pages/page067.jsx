@@ -85,7 +85,7 @@ function Page067(props) {
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_004.svg"} clasesImagen="hp-40 text-center mtp-10 " className="mtp-20 p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_004.svg"} clasesImagen="hp-40 text-center mtp-10 " className="mtp--5 p-0 px-0" />
             </div>
           </div>
 
@@ -95,7 +95,7 @@ function Page067(props) {
 
 
 
-          <div className="d-flex msp-60 mep-60 mtp-40 ">
+          <div className="d-flex msp-60 mep-60 mtp-50 ">
             <div className="bgc-pachelbel rounded-p-5 psp-10 ptp-10 pep-10 pbp-10 w-100 border-style-solid border-color-boros border-4 rounded-p-20">
               <div className="position-relative">
                 <div className="d-flex w-100">
