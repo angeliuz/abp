@@ -231,7 +231,7 @@ function Page001() {
                                         <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                                             xxx
                                         </div>
-                                        <ModalVideo
+                                        {/* <ModalVideo
                                             id={"p" + pagina + "_video" + (indexInput += 1)}
                                             linkVideo="cvakvfXj0KE"
                                             tituloVideo="Video desde youtube"
@@ -240,7 +240,7 @@ function Page001() {
                                             colorUnidad={background}
                                             clasesImagen="cambio hp-40 mtp-10"
                                             className="p-0 px-1"
-                                        />
+                                        /> */}
                                     </div>
                                 </div>
 
