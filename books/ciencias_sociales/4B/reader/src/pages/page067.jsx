@@ -33,23 +33,30 @@ function Page067(props) {
           <div className="d-flex msp-60 mep-60 mtp-20 mbp-10">
             <div className="row p-0 m-0">
               <div className="col-sm-12 col-md-3 position-relative"></div>
-              <div className="ptp-50 container-titulo-global mbp-0">
-                <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
-                  Una nueva invitación
-                </div>
-                <div className="d-flex psp-20">
-                  {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
-                  <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                    1
-                  </div>
-                  <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                    Veo el video y leo la invitación. Luego, subrayo las principales ideas.
-                  </div>
-                  <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
-                  {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-                  {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
-                </div>
-              </div>
+              <div className="container-titulo-global mtp-20 mbp-0">
+    <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+    Una nueva invitación
+    </div>
+    <div className="d-flex psp-20">  
+        <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+            1
+        </div>
+        <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start mbp-30">
+        Veo el video y leo la invitación. Luego, subrayo las principales ideas.
+        </div>
+        <ModalVideo
+        id={"p" + pagina + "_video" + (indexInput += 1)}
+        linkVideo="662953821"
+        tituloVideo="Todos nos cuidamos III"
+        tipoVideo="vimeo"
+        image={"images/generales/play.svg"}
+        colorUnidad={background}
+        clasesImagen="cambio hp-40 mtp-10"
+        className="p-0 px-1"
+    />
+   
+    </div>
+</div>
               <div class="cb-contenedor-mail">
                 <div class="cb-datos-mail pep-15 psp-10 ptp-10 pbp-10">
                   <div class="d-flex mbp-5 text-start">

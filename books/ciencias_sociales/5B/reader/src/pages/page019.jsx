@@ -42,7 +42,7 @@ function Page019(props) {
                             </div>
                             <ModalVideo
                                 id={"p" + pagina + "_video" + (indexInput += 1)}
-                                linkVideo="662245223/673730cd5d"
+                                linkVideo="662245223"
                                 tituloVideo="Reporteros en acción II"
                                 tipoVideo="vimeo"
                                 image={"images/generales/play.svg"}

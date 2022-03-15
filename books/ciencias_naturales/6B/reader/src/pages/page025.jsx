@@ -185,7 +185,7 @@ function Page025(props) {
                   <ModalVideo
                                             id={"p" + pagina + "_video" + (indexInput += 1)}
                                             linkVideo="345IxGgjF9s"
-                                            tituloVideo="ODS - Los 17 Objetivos de Desarrollo Sostenible"
+                                            tituloVideo="Los 17 Objetivos de Desarrollo Sostenible"
                                             tipoVideo="youtube"
                                             image={"images/generales/play.svg"}
                                             colorUnidad={background}

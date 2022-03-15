@@ -48,7 +48,7 @@ function Page030(props) {
 
           <div className="global-margin mtp-30 mbp-100">
             <div className="row mx-4 position-relative">
-              <div className="col-md-12 col-md-6 position-relative mbp-20">
+              <div className="col-sm-12 col-md-6 position-relative mbp-20">
                 <div className="position-absolute top-0 start-0 translate-middle  zindex-1 mtp-10 msp-100 ">
                   <img
                     src="images/page_030/img_003.png"
@@ -64,7 +64,7 @@ function Page030(props) {
                 </div>
               </div>
 
-              <div className="col-md-12 col-md-6 position-relative mbp-20">
+              <div className="col-sm-12 col-md-6 position-relative mbp-20">
                 <div className="position-absolute top-0 start-0 translate-middle  zindex-1 mtp-10 msp-100 ">
                   <img
                     src="images/page_030/img_004.png"
@@ -83,7 +83,7 @@ function Page030(props) {
                 </div>
               </div>
 
-              <div className="col-md-12 col-md-6 position-relative mbp-20">
+              <div className="col-sm-12 col-md-6 position-relative mbp-20">
                 <div className="position-absolute top-0 start-0 translate-middle  zindex-1 mtp-15 msp-100 ">
                   <img
                     src="images/page_030/img_006.png"
@@ -102,7 +102,7 @@ function Page030(props) {
                 </div>
               </div>
 
-              <div className="col-md-12 col-md-6 position-relative mbp-20">
+              <div className="col-sm-12 col-md-6 position-relative mbp-20">
                 <div className="position-absolute top-0 start-0 translate-middle  zindex-1 mtp-10 msp-90 ">
                   <img
                     src="images/page_030/img_007.png"

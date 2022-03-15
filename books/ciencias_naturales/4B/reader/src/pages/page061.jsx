@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import CheckMultiple from "../components/CheckMultiple";
 import "./page_061.css";
 
 function Page061(props) {
@@ -79,64 +80,112 @@ function Page061(props) {
                   </div>
 
                   <div className="d-flex w-100 psp-40 pep-20 ptp-0 pbp-0 mtp-20 mbp-0">
-                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                    <div className="">
+                    <CheckMultiple
+                                    id={"check_p" + pagina + "_" + (indexInput += 1)}
+                                    image0={"images/generales/check_vacio.svg"}
+                                    image1={"images/generales/ticket.svg"}
+                                    image2={"images/generales/cruz.svg"}
+                                    classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-1 disable-select d-flex center-center p-1"
+                                />
                     </div>
                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">
                       ¿Tenemos claro qué es ser brigadista?
                     </div>
                   </div>
                   <div className="d-flex w-100 psp-40 pep-20 ptp-0 pbp-0 mtp-10 mbp-0">
-                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="">
+                    <CheckMultiple
+                                    id={"check_p" + pagina + "_" + (indexInput += 1)}
+                                    image0={"images/generales/check_vacio.svg"}
+                                    image1={"images/generales/ticket.svg"}
+                                    image2={"images/generales/cruz.svg"}
+                                    classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-1 disable-select d-flex center-center p-1"
+                                />
                     </div>
                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">
                       ¿Conocemos experiencias de otros y sabemos cómo actuar ante una situación de peligro?
                     </div>
                   </div>
                   <div className="d-flex w-100 psp-40 pep-20 ptp-0 pbp-0 mtp-10 mbp-0">
-                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="">
+                    <CheckMultiple
+                                    id={"check_p" + pagina + "_" + (indexInput += 1)}
+                                    image0={"images/generales/check_vacio.svg"}
+                                    image1={"images/generales/ticket.svg"}
+                                    image2={"images/generales/cruz.svg"}
+                                    classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-1 disable-select d-flex center-center p-1"
+                                />
                     </div>
                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">
                       ¿Definimos la misión y las tareas de la brigada?
                     </div>
                   </div>
                   <div className="d-flex w-100 psp-40 pep-20 ptp-0 pbp-0 mtp-10 mbp-0">
-                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="">
+                    <CheckMultiple
+                                    id={"check_p" + pagina + "_" + (indexInput += 1)}
+                                    image0={"images/generales/check_vacio.svg"}
+                                    image1={"images/generales/ticket.svg"}
+                                    image2={"images/generales/cruz.svg"}
+                                    classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-1 disable-select d-flex center-center p-1"
+                                />
                     </div>
                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">
                       ¿Investigamos situaciones de riesgo y las consideramos para elaborar el simulacro?
                     </div>
                   </div>
                   <div className="d-flex w-100 psp-40 pep-20 ptp-0 pbp-0 mtp-10 mbp-0">
-                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="">
+                    <CheckMultiple
+                                    id={"check_p" + pagina + "_" + (indexInput += 1)}
+                                    image0={"images/generales/check_vacio.svg"}
+                                    image1={"images/generales/ticket.svg"}
+                                    image2={"images/generales/cruz.svg"}
+                                    classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-1 disable-select d-flex center-center p-1"
+                                />
                     </div>
                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">
                       ¿Simulamos emergencias y definimos lo que haría la brigada antes, durante y después de que ocurran?
                     </div>
                   </div>
                   <div className="d-flex w-100 psp-40 pep-20 ptp-0 pbp-0 mtp-10 mbp-0">
-                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="">
+                    <CheckMultiple
+                                    id={"check_p" + pagina + "_" + (indexInput += 1)}
+                                    image0={"images/generales/check_vacio.svg"}
+                                    image1={"images/generales/ticket.svg"}
+                                    image2={"images/generales/cruz.svg"}
+                                    classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-1 disable-select d-flex center-center p-1"
+                                />
                     </div>
                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">
                       ¿Creamos fichas de seguridad para compartir con la comunidad educativa?
                     </div>
                   </div>
                   <div className="d-flex w-100 psp-40 pep-20 ptp-0 pbp-0 mtp-10 mbp-0">
-                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="">
+                    <CheckMultiple
+                                    id={"check_p" + pagina + "_" + (indexInput += 1)}
+                                    image0={"images/generales/check_vacio.svg"}
+                                    image1={"images/generales/ticket.svg"}
+                                    image2={"images/generales/cruz.svg"}
+                                    classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-1 disable-select d-flex center-center p-1"
+                                />
                     </div>
                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">
                       ¿Contamos con un inventario  de los insumos para enfrentar  un emergencia?
                     </div>
                   </div>
                   <div className="d-flex w-100 psp-40 pep-20 ptp-0 pbp-0 mtp-10 mbp-20">
-                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 wp-30 text-center flex-grow-1 lhp-30 min-hp-35" />
+                  <div className="">
+                    <CheckMultiple
+                                    id={"check_p" + pagina + "_" + (indexInput += 1)}
+                                    image0={"images/generales/check_vacio.svg"}
+                                    image1={"images/generales/ticket.svg"}
+                                    image2={"images/generales/cruz.svg"}
+                                    classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-1 disable-select d-flex center-center p-1"
+                                />
                     </div>
                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">
                       ¿Contamos con nuestra  identificación como brigadista?
