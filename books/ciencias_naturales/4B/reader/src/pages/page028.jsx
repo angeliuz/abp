@@ -196,14 +196,14 @@ function Page028(props) {
 
           <div className=" msp-60 mep-60 mbp-50">
             <div className="row">
-              <div className="col-md-6 col-md-12 position-relative">
+              <div className="col-md-6 col-sm-12 position-relative">
 
                 <div className="bgc-white rounded-caja-start border-style-solid  border-color-pidgey border-1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
 
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
                 </div>
               </div>
-              <div className="col-md-6 col-md-12 position-relative">
+              <div className="col-md-6 col-sm-12 position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle msp--50 mtp--100 visible-768" style={{ zIndex: 4 }}><img src="images/page_028/img_004.png" className="wp-120" alt="" />
                 </div>
                 <div className="bgc-white rounded-caja-start border-style-solid  border-color-pidgey border-1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
