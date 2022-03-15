@@ -33,7 +33,16 @@ function Page016(props) {
                 Veo el video e identifico las tareas que debo llevar a cabo en cada etapa del proyecto.
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
-              <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} className="p-0 px-1" />
+              <ModalVideo
+                                            id={"p" + pagina + "_video" + (indexInput += 1)}
+                                            linkVideo="682624537"
+                                            tituloVideo="Limpia tu huella II"
+                                            tipoVideo="vimeo"
+                                            image={"images/generales/play.svg"}
+                                            colorUnidad={background}
+                                            clasesImagen="cambio hp-40 mtp-10"
+                                            className="p-0 px-1"
+                                        />
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>

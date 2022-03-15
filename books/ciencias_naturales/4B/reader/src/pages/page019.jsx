@@ -47,7 +47,16 @@ function Page019(props) {
                 Vemos el video y rotulamos las siguientes etapas del proyecto según corresponda.
               </div>
               {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="w-50" alt="" /> */}
-              <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
+              <ModalVideo
+                                            id={"p" + pagina + "_video" + (indexInput += 1)}
+                                            linkVideo="682622701"
+                                            tituloVideo="Brigadas al rescate II"
+                                            tipoVideo="vimeo"
+                                            image={"images/generales/play.svg"}
+                                            colorUnidad={background}
+                                            clasesImagen="cambio hp-40 mtp-10"
+                                            className="p-0 px-1"
+                                        />
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_"+pagina+"/img_001.png" className="p-0 px-1" /> */}
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_007/revista65.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>

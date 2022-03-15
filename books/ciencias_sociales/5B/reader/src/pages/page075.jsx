@@ -9,8 +9,10 @@ function Page075(props) {
   var indexInput = 0;
   const etapa = "6"
   const background = "bgc-pikachu";
-  const bgc_cajas = "bgc-quaternary";
   const color = "color-pikachu";
+  const borderColor = "border-color-pikachu"
+  const borderColorTabla = "border-color-kokomi"
+  const bgc_cajas = "bgc-kokomi";
 
   return (
     <div className="wrapper bgc-light">
@@ -55,7 +57,16 @@ function Page075(props) {
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                 Veo el video, leo la carta y destaco las ideas principales.
               </div>
-              <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/page_007/img_002.jpg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
+              <ModalVideo
+                id={"p" + pagina + "_video" + (indexInput += 1)}
+                linkVideo="662245384/23e7a419fd"
+                tituloVideo="Reporteros en acción III"
+                tipoVideo="vimeo"
+                image={"images/generales/play.svg"}
+                colorUnidad={background}
+                clasesImagen="cambio hp-40 mtp-10"
+                className="p-0 px-1"
+              />
             </div>
           </div>
 

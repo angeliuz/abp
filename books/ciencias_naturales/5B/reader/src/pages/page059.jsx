@@ -136,7 +136,7 @@ function Page059(props) {
             </div>
             <div className="row p-0 m-0 w-100 f-Ubuntu-R fsp-15 ">
 
-              <div className="col-md-12 col-md-4 p-0 m-0 mtp-20 position-relative">
+              <div className="col-sm-12 col-md-4 p-0 m-0 mtp-20 position-relative">
                 <div className="d-flex justify-content-center">
 
                   <div className="psp-10 pep-10  ptp-10 mtp-20 border-style-solid border-1 border-color-dark bgc-hotaru rounded-p-5 wp-200 ">
@@ -162,7 +162,7 @@ function Page059(props) {
                 </div>
               </div>
 
-              <div className="col-md-12 col-md-4  p-0 m-0 mtp-20 position-relative">
+              <div className="col-sm-12 col-md-4  p-0 m-0 mtp-20 position-relative">
                 <div className="d-flex justify-content-center">
                   <div className="psp-10  pep-10  ptp-10 mtp-20 border-style-solid border-1 border-color-dark bgc-jarek rounded-p-5 wp-200 ">
                     <div className="d-flex justify-content-start  flex-column">
@@ -188,7 +188,7 @@ function Page059(props) {
 
               </div>
 
-              <div className="col-md-12 col-md-4 p-0 m-0 mtp-20 position-relative">
+              <div className="col-sm-12 col-md-4 p-0 m-0 mtp-20 position-relative">
                 <div className="d-flex justify-content-center">
                   <div className="psp-10 pep-10 ptp-10 mtp-20 border-style-solid border-1 border-color-dark bgc-kai rounded-p-5  wp-200 ">
                     <div className="d-flex justify-content-start  flex-column">
@@ -246,7 +246,7 @@ function Page059(props) {
 
           <div className="ptp-10 psp-65 pep-40 mbp-70">
             <div className="row d-flex mx-auto f-Ubuntu-B fsp-15 mbp-0 position-relative justify-content-between">
-              <div className="col-md-12 col-md-6 pbp-25 ">
+              <div className="col-sm-12 col-md-6 pbp-25 ">
                 {/* <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp-25 zindex-1"><img src={"images/page_" + pagina + "/posit.png"} className="wp-60 mtp--60 msp-0" alt="" /></div> */}
                 {/* <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-25 visible-768 zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-60 mtp-60" alt="" /></div> */}
                 <div className="text-center w-100 border-2 border-style-solid border-color-android18 rounded-p-10">
@@ -254,7 +254,7 @@ function Page059(props) {
                   <div className="psp-15 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 f-Ubuntu-R text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" /></div>
                 </div>
               </div>
-              <div className="col-md-12 col-md-6 pbp-25">
+              <div className="col-sm-12 col-md-6 pbp-25">
                 <div className="text-center w-100 border-2 border-style-solid border-color-leia rounded-p-10  position-relative">
                   <div className="position-absolute top-50 start-100 translate-middle  msp-20 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-30" alt="" /></div>
                   <div className="position-absolute posicion-centro-centro translate-middle zindex-1   "><img src={"images/page_" + pagina + "/img_003.svg"} className="rotacion-centro-centro msp--30 mtp--26 wp-50" alt="" /></div>

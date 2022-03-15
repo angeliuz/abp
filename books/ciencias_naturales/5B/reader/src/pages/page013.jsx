@@ -76,7 +76,7 @@ function Page013(props) {
 
           <div className="d-flex global-margin mtp-10 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
-              <div className="col-md-12 col-md-4 p-0 m-0 position-relative ">
+              <div className="col-sm-12 col-md-4 p-0 m-0 position-relative ">
                 <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--20 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-80" alt="" /></div>
 
                 <div className="position-relative color-dark f-Ubuntu-M fsp-15">Pienso</div>
@@ -85,7 +85,7 @@ function Page013(props) {
 
                   <div className="position-absolute top-0 start-50 translate-middle w-100 msp-0 mtp--20 lhp-17 d-flex center-center">
                     <div className="bgc-buzz rounded-set-10  w-90 min-hp-40 psp-5 pep-5 ptp-5 pbp-5 d-flex center-center">
-                      <span className="color-dark f-Ubuntu-R fsp-15">¿Qué sé sobre el tema?</span>
+                      <span className="color-dark f-Ubuntu-R fsp-15 text-center ">¿Qué sé sobre el tema?</span>
                     </div>
                   </div>
 
@@ -100,7 +100,7 @@ function Page013(props) {
 
 
               </div>
-              <div className="col-md-12 col-md-4 p-0 m-0 position-relative ">
+              <div className="col-sm-12 col-md-4 p-0 m-0 position-relative ">
 
                 <div className="position-relative color-dark f-Ubuntu-M fsp-15">Me intereso</div>
 
@@ -123,7 +123,7 @@ function Page013(props) {
 
 
               </div>
-              <div className="col-md-12 col-md-4 p-0 m-0 position-relative">
+              <div className="col-sm-12 col-md-4 p-0 m-0 position-relative">
 
                 <div className="position-relative color-dark f-Ubuntu-M fsp-15">Investigo</div>
 
@@ -172,7 +172,7 @@ function Page013(props) {
           <div className="d-flex global-margin mtp-0 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
 
-              <div className="col-md-12 col-md-6 p-0 m-0 position-relative">
+              <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
 
                 <div className="d-flex msp-10 mep-10 mtp-10 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
                   <div className="row p-0 m-0 w-100">
@@ -191,7 +191,7 @@ function Page013(props) {
 
               </div>
 
-              <div className="col-md-12 col-md-6 p-0 m-0 position-relative">
+              <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle msp--50 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-180" alt="" /></div>
                 <div className="d-flex msp-10 mep-10 mtp-10 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
                   <div className="row p-0 m-0 w-100">

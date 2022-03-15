@@ -9,6 +9,7 @@ function Page019(props) {
 
     const pagina = "019";
     var indexInput = 0;
+    const etapa = "2"
     const background = "bgc-bulma";
     const color = "color-bulma";
     const borderColor = "border-color-bulma"
@@ -39,9 +40,16 @@ function Page019(props) {
                             <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                                 Vemos el video. Luego, leemos y numeramos las tareas del proyecto.
                             </div>
-                            {/* <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image={"images/page_" + pagina + "/img_003.png"} className="hp-20" alt="" /> */}
-                            <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
-                            {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+                            <ModalVideo
+                                id={"p" + pagina + "_video" + (indexInput += 1)}
+                                linkVideo="662245223/673730cd5d"
+                                tituloVideo="Reporteros en acción II"
+                                tipoVideo="vimeo"
+                                image={"images/generales/play.svg"}
+                                colorUnidad={background}
+                                clasesImagen="cambio hp-40 mtp-10"
+                                className="p-0 px-1"
+                            />
                         </div>
                     </div>
                     <div className=" psp-80 pep-70 ptp-20 pbp-0 ">

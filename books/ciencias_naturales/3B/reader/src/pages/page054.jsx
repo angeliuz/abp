@@ -102,7 +102,7 @@ function Page054(props) {
                             <div className="f-Ubuntu-L fsp-15 ptp-2 text-start">Para nosotros, lo más fácil de trabajar en equipo es...</div>
                           </div>
                           <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
+                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
                           </div>
                         </div>
                       </div>
@@ -128,7 +128,7 @@ function Page054(props) {
                             <div className="f-Ubuntu-L fsp-15 ptp-2 text-start"> Para nosotros, lo más difícil de trabajar en equipo es...</div>
                           </div>
                           <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
+                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
                           </div>
                         </div>
                       </div>

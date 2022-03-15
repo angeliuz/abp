@@ -108,13 +108,6 @@ function Page022(props) {
               </div>
             </div>
             <div className="d-flex msp-20">
-              <div className="position-relative">
-                <img
-                  src="images/page_021/img_005.png"
-                  className="hp-220 position-absolute msp--28 mtp-10 start-0 top-0"
-                  alt=""
-                />
-              </div>
               <div className="row bgc-color-papel border-style-solid border-color-papel border-1 psp-10 w-100 position-relative">
                 <div className="col-md-6 text-left ptp-15 border-derecha">
                   <div className="f-Ubuntu-L text-start">
