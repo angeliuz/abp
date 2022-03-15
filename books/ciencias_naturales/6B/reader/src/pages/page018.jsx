@@ -86,7 +86,7 @@ function Page018(props) {
                                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                                 </div>
                             </div>
-                            <div className="position-absolute top-0 start-100 translate-middle msp-80 mtp-40 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-90" alt="" /></div>
+                            <div className="position-absolute top-0 start-100 translate-middle msp-20 mtp-40 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-90" alt="" /></div>
 
                         </div>
                     </div>
