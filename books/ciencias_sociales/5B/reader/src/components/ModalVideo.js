@@ -78,7 +78,7 @@ function ModalVideo(props) {
   }
 
   function tipoDeVideo(close) {
-    if (tipoVideo == "vimeo") {
+    if (tipoVideo === "vimeo") {
       return <iframe width="80%" style={{ minHeight: "73vh" }} title={id} src={"https://player.vimeo.com/video/" + linkVideo} frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>;
     } else {
       return <iframe width="80%" style={{ minHeight: "73vh" }} title={id} src={"https://www.youtube.com/embed/" + linkVideo} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>;
