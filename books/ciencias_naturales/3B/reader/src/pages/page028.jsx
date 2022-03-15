@@ -42,7 +42,7 @@ function Page028(props) {
         <ModalVideo
             id={"p" + pagina + "_video" + (indexInput += 1)}
             linkVideo="xS_EPS2ZSfY"
-            tituloVideo="Video desde youtube"
+            tituloVideo="Juguete de tela"
             tipoVideo="youtube"
             image={"images/generales/play.svg"}
             colorUnidad={background}

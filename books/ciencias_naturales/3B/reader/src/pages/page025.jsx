@@ -50,7 +50,7 @@ function Page025(props) {
         <ModalVideo
             id={"p" + pagina + "_video" + (indexInput += 1)}
             linkVideo="cvakvfXj0KE"
-            tituloVideo="Video desde youtube"
+            tituloVideo="Reducir, Reutilizar y Reciclar."
             tipoVideo="youtube"
             image={"images/generales/play.svg"}
             colorUnidad={background}
