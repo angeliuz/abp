@@ -203,7 +203,7 @@ function Page040(props) {
 
           <div className=" msp-60 mep-60 mbp-50">
             <div className="row">
-              <div className="col-md-6 col-md-12 position-relative">
+              <div className="col-md-6 col-sm-12 position-relative">
 
                 <div className="  zindex-2 position-absolute top-0 start-100 translate-middle msp--30 mtp-20">
                   <img src="images/page_040/img_001.png" className="" alt="" />
@@ -218,7 +218,7 @@ function Page040(props) {
                   />
                 </div>
               </div>
-              <div className="col-md-6 col-md-12 position-relative">
+              <div className="col-md-6 col-sm-12 position-relative">
                 <div className="  zindex-2 position-absolute top-0 start-100 translate-middle msp--30 mtp-20">
                   <img src="images/page_040/img_001.png" className="" alt="" />
                 </div>

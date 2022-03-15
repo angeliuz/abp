@@ -35,7 +35,7 @@ function Page031(props) {
           </div>
 
           <div className="row mx-4 position-relative">
-            <div className="col-sm-12 col-md-6 position-relative mbp-10">
+            <div className="col-sm-12 col-md-6 position-relative mbp-10 ptp-14">
 
               <div className="box-color-24-1">
                 <div className="f-Ubuntu-M alinea fsp-18 rounded-caja bgc-vegeta w-100 p-2 text-center color-white">

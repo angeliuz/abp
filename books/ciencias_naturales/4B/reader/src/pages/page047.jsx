@@ -46,8 +46,9 @@ function Page047(props) {
 
           <div className="ptp-10 psp-130 pep-80 mbp-0">
             <div className="row mbp-10 position-relative">
+              
+              <div className="d-flex border-style-solid border-color-android18 border-3 p-0 m-0 position-relative">
               <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_047/nina.png" className="wp-50 mbp-90" alt="" /></div>
-              <div className="d-flex border-style-solid border-color-android18 border-3 p-0 m-0">
                 <div className="mnw-30 bgc-azuka p-3 border-right-style-solid border-color-android18 border-3 d-flex align-items-center f-Ubuntu-L fsp-15">Después de una emergencia de este tipo debemos…</div>
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 mnw-65 min-hp-220 mep-10 msp-10" />
               </div>

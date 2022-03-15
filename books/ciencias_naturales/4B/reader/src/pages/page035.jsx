@@ -46,7 +46,7 @@ function Page035(props) {
 
 
           <div className="row mx-4 position-relative">
-            <div className="col-md-12 col-md-6 position-relative mbp-10">
+            <div className="col-sm-12 col-md-6 position-relative mbp-10">
 
 
               <div className="box-color-24-1 mtp-12">
@@ -62,7 +62,7 @@ function Page035(props) {
               </div>
             </div>
 
-            <div className="col-md-12 col-md-6 mbp-40 position-relative">
+            <div className="col-sm-12 col-md-6 mbp-40 position-relative">
               <div className="position-absolute posicion-centro-centro translate-middle zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="rotacion-centro-centro" alt="" /></div>
               <div className="box-color-24-2 mtp-12">
                 <div className="f-Ubuntu-M alinea fsp-18 rounded-caja bgc-saitama w-100 h-100 p-2 text-center color-white min-hp-70 d-flex center-center">
