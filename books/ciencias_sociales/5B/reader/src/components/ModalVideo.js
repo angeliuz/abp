@@ -3,7 +3,7 @@ import { useState } from "react";
 import Modal from 'react-bootstrap/Modal'
 import CloseButton from 'react-bootstrap/CloseButton'
 
-import { doc, getDoc, setDoc } from "firebase/firestore";
+import { doc, getDoc, setDoc, updateDoc } from "firebase/firestore";
 import db from "../firebase/firebaseConfig";
 
 function ModalVideo(props) {
@@ -61,6 +61,13 @@ function ModalVideo(props) {
           setTipoVideo(docSnap.data()[id][2]);
         } else {
           console.log("No existe el video");
+          updateDoc(docRef, {
+            [id]: [
+              linkVideo,
+              tituloVideo,
+              tipoVideo
+            ],
+          });
         }
       } else {
         await setDoc(doc(db, coleccion, documento), {
@@ -78,7 +85,7 @@ function ModalVideo(props) {
   }
 
   function tipoDeVideo(close) {
-    if (tipoVideo === "vimeo") {
+    if (tipoVideo == "vimeo") {
       return <iframe width="80%" style={{ minHeight: "73vh" }} title={id} src={"https://player.vimeo.com/video/" + linkVideo} frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>;
     } else {
       return <iframe width="80%" style={{ minHeight: "73vh" }} title={id} src={"https://www.youtube.com/embed/" + linkVideo} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>;
