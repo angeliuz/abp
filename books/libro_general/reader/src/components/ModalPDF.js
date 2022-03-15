@@ -6,7 +6,7 @@ import CloseButton from 'react-bootstrap/CloseButton'
 import { doc, getDoc, setDoc } from "firebase/firestore";
 import db from "../firebase/firebaseConfig";
 
-function ModalVideo(props) {
+function ModalPDF(props) {
 
   const dokenArray = getUrlParameter("doken").split([',']);
   console.log("DOKEN ARRAY" + dokenArray[1]);
@@ -78,7 +78,7 @@ function ModalVideo(props) {
   }
 
   function tipoDeVideo(close) {
-    if (tipoVideo === "vimeo") {
+    if (tipoVideo == "vimeo") {
       return <iframe width="80%" style={{ minHeight: "73vh" }} title={id} src={"https://player.vimeo.com/video/" + linkVideo} frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>;
     } else {
       return <iframe width="80%" style={{ minHeight: "73vh" }} title={id} src={"https://www.youtube.com/embed/" + linkVideo} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>;
@@ -114,7 +114,7 @@ function ModalVideo(props) {
 
   return (
     <>
-      <div className={className} data-bs-toggle="modal" data-bs-target={"#" + id} id={"recortable_" + id} onClick={handleShow}>
+      <div className={className} data-bs-toggle="modal" data-bs-target={"#" + id} id={"pdf_" + id} onClick={handleShow}>
         <img src={image} className={clasesImagen} alt="" />
       </div>
 
@@ -137,4 +137,4 @@ function ModalVideo(props) {
   );
 }
 
-export default ModalVideo;
+export default ModalPDF;

@@ -57,7 +57,7 @@ function Page029(props) {
           <div className="row container-row m-0 psp-60 pep-60">
             <div className="">
               <div className="row">
-                <div className="col-md-12 col-md-12 position-relative ">
+                <div className="col-12 position-relative ">
                   <div className="position-absolute top-0 start-100 translate-middle visible-768 zindex-1 msp--10 mtp-50">
                     <img
                       src="images/page_029/img_002.png"
@@ -135,7 +135,7 @@ function Page029(props) {
 
           <div className="d-flex global-margin mtp-0 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
-              <div className="col-md-12 col-md-7 mbp-30">
+              <div className="col-sm-12 col-md-7 mbp-30">
                 <div className="row m-0 p-1 bgc-smoke rounded-p-20   w-100 ">
 
                   <div className="col-md-12 col-md-12 p-2 position-relative">
@@ -169,7 +169,7 @@ function Page029(props) {
                   </div>
                 </div>
               </div>
-              <div className="col-md-12 col-md-5">
+              <div className="col-sm-12 col-md-5">
                 <div className="bgc-white border-style-solid border-color-dark border-2 box-shadow-simple position-relative">
                   <div className="position-absolute top-0 start-100 translate-middle msp--20 mtp-0 "><img src={"images/generales/clip.png"} className="wp-30" alt="" /></div>
                   <div className="f-Ubuntu-B fsp-18 psp-20 pep-20 ptp-10 pbp-0">

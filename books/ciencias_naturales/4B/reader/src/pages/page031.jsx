@@ -1,7 +1,6 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
-
 import "./page_031.css";
 
 function Page031(props) {
@@ -36,7 +35,7 @@ function Page031(props) {
           </div>
 
           <div className="row mx-4 position-relative">
-            <div className="col-md-12 col-md-6 position-relative mbp-10">
+            <div className="col-sm-12 col-md-6 position-relative mbp-10">
 
               <div className="box-color-24-1">
                 <div className="f-Ubuntu-M alinea fsp-18 rounded-caja bgc-vegeta w-100 p-2 text-center color-white">
@@ -51,7 +50,9 @@ function Page031(props) {
               </div>
             </div>
 
-            <div className="col-md-12 col-md-6 position-relative mbp-40">
+
+
+            <div className="col-sm-12 col-md-6 position-relative mbp-40">
               <div className="position-absolute posicion-centro-centro translate-middle zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="rotacion-centro-centro" alt="" /></div>
               <div className="position-absolute top-0 start-100 translate-middle visible-768 zindex-2 msp--50 mtp--50">
                 <img src="images/page_031/img_001.png" className="" alt="" />

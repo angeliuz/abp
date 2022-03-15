@@ -7,6 +7,13 @@ function Page055(props) {
 
   const pagina = "055";
   var indexInput = 0;
+  const etapa = "6"
+  const background = "bgc-pikachu";
+  const color = "color-pikachu";
+  const colorSesion = "color-pikachu";
+  const borderColor = "border-color-pikachu"
+  const borderColorTabla = "border-color-kokomi"
+  const bgc_cajas = "bgc-kokomi";
 
   return (
       <div className="wrapper bgc-light">
@@ -21,15 +28,31 @@ function Page055(props) {
                 </div> 
                 {/* END CABECERA VERSIÓN 2 */}
 
-            <div className="ptp-10 psp-60 mbp-0 contenedor-pagina">
-              <div className="f-Ubuntu-B fsp-20 color-pikachu text-start lhp-20">Antes de partir…</div>
-              <div className="d-flex">
-                <div className="f-ccdigitaldelivery-bold fsp-35 color-pikachu">1</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Veo, leo y contesto.</div>
-                <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_002.jpg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
-                {/*<ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              </div>
-            </div>
+            <div className="container-titulo-global mtp-20 mbp-0">
+    <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+    Antes de partir…
+    </div>
+
+    <div className="d-flex psp-20">
+         <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_002.svg"} alt=""  />
+        <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+            1
+        </div>
+        <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+        Veo, leo y contesto.
+        </div>
+        <ModalVideo
+        id={"p" + pagina + "_video" + (indexInput += 1)}
+        linkVideo="662961663"
+        tituloVideo="¡Somos diversos! III"
+        tipoVideo="vimeo"
+        image={"images/generales/play.svg"}
+        colorUnidad={background}
+        clasesImagen="cambio hp-40 mtp-10"
+        className="p-0 px-1"
+    />
+    </div>
+</div>
 
                   <div className="cb-contenedor-mail">
                         <div className="cb-datos-mail pep-15 psp-10 ptp-10 pbp-10">

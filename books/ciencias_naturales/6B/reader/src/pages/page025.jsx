@@ -88,7 +88,16 @@ function Page025(props) {
                 clasesImagen="cambio hp-40 mtp-10"
                 className="p-0 px-1"
               /> */}
-              <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
+              <ModalVideo
+                                            id={"p" + pagina + "_video" + (indexInput += 1)}
+                                            linkVideo="5yCsjASSd1M"
+                                            tituloVideo="¿Qué es la sostenibilidad?"
+                                            tipoVideo="youtube"
+                                            image={"images/generales/play.svg"}
+                                            colorUnidad={background}
+                                            clasesImagen="cambio hp-40 mtp-10"
+                                            className="p-0 px-1"
+                                        />
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_025/img_001.svg" className="p-0 px-1" /> */}
               {/* <ModalBook
                 id={"p" + pagina + "_book" + (indexInput += 1)}
@@ -174,11 +183,15 @@ function Page025(props) {
                   <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-android18 fsp-17 fw-700 ptp-10">b.</div>
                   <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Veo el video, leo la revista y respondo.</div>
                   <ModalVideo
-                    id={"p" + pagina + "_video" + (indexInput += 1)}
-                    image="images/generales/play.svg"
-                    clasesImagen="cambio hp-40 mtp-10"
-                    className="p-0 px-1"
-                  />
+                                            id={"p" + pagina + "_video" + (indexInput += 1)}
+                                            linkVideo="345IxGgjF9s"
+                                            tituloVideo="Los 17 Objetivos de Desarrollo Sostenible"
+                                            tipoVideo="youtube"
+                                            image={"images/generales/play.svg"}
+                                            colorUnidad={background}
+                                            clasesImagen="cambio hp-40 mtp-10"
+                                            className="p-0 px-1"
+                                        />
                   <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"87"} image={"images/page_" + pagina + "/img_008.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
                 </div>
 
