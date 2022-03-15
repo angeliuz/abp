@@ -59,7 +59,7 @@ function Page075(props) {
               </div>
               <ModalVideo
                 id={"p" + pagina + "_video" + (indexInput += 1)}
-                linkVideo="662245384/23e7a419fd"
+                linkVideo="662245384"
                 tituloVideo="Reporteros en acción III"
                 tipoVideo="vimeo"
                 image={"images/generales/play.svg"}
@@ -71,27 +71,16 @@ function Page075(props) {
           </div>
 
           <div className="ptp-0 psp-60 mbp-80 contenedor-pagina">
-
             <div className="cb-paper">
               <div className="cb-paper-content f-Ubuntu-L text-start position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle visible-768 zindex-1 msp--10 mtp-50"><img src="images/page_075/img_001.png" className="hp-70" alt="" /></div>
                 <div className="position-absolute top-100 start-0 translate-middle visible-768 zindex-1 msp--10 mtp--40"><img src="images/page_075/img_003.png" className="hp-70" alt="" /></div>
-
                 <p className="text-start">Queridos estudiantes,</p>
                 <p>Es momento de un disfrutar. Han trabajado arduamente para que la revista esté lista. Solo falta el paso más significativo: publicarla para que puede ser leída por la comunidad.</p>
-
                 <p>Para ello, es necesario que identifiquen qué necesitan para elaborar algunas copias que queden a disposición de la comunidad y cómo pueden difundir su revista vía web.</p>
-
-                <p>
-                  Al publicar la revista, contribuirán a crear una sociedad más respetuosa de los derechos y harán que se escuche la voz de quienes elaboraron la revista y quienes aportaron su testimonio.
-                </p>
-
+                <p>Al publicar la revista, contribuirán a crear una sociedad más respetuosa de los derechos y harán que se escuche la voz de quienes elaboraron la revista y quienes aportaron su testimonio.</p>
                 <p>Felicidades y muchas gracias.</p>
-
-
-                <p className="cb-paper-sign">
-                  Nibaldo.
-                </p>
+                <p className="cb-paper-sign">Nibaldo.</p>
               </div>
             </div>
           </div>
