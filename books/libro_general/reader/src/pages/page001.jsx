@@ -231,16 +231,16 @@ function Page001() {
                                         <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                                             xxx
                                         </div>
-                                        {/* <ModalVideo
+                                        <ModalPDF
                                             id={"p" + pagina + "_video" + (indexInput += 1)}
-                                            linkVideo="cvakvfXj0KE"
-                                            tituloVideo="Video desde youtube"
-                                            tipoVideo="youtube"
+                                            link=""
+                                            titulo="Material descargable"
+                                            tipo="PDF"
                                             image={"images/generales/descargable.svg"}
                                             colorUnidad={background}
                                             clasesImagen="cambio hp-40 mtp-10"
                                             className="p-0 px-1"
-                                        /> */}
+                                        />
                                     </div>
                                 </div>
 
