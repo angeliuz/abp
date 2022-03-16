@@ -3,10 +3,10 @@ import { useState } from "react";
 import Modal from 'react-bootstrap/Modal'
 import CloseButton from 'react-bootstrap/CloseButton'
 
-import { doc, getDoc, setDoc, updateDoc } from "firebase/firestore";
+import { doc, getDoc, setDoc } from "firebase/firestore";
 import db from "../firebase/firebaseConfig";
 
-function ModalVideo(props) {
+function ModalPDF(props) {
 
   const dokenArray = getUrlParameter("doken").split([',']);
   console.log("DOKEN ARRAY" + dokenArray[1]);
@@ -61,13 +61,6 @@ function ModalVideo(props) {
           setTipoVideo(docSnap.data()[id][2]);
         } else {
           console.log("No existe el video");
-          updateDoc(docRef, {
-            [id]: [
-              linkVideo,
-              tituloVideo,
-              tipoVideo
-            ],
-          });
         }
       } else {
         await setDoc(doc(db, coleccion, documento), {
@@ -121,7 +114,7 @@ function ModalVideo(props) {
 
   return (
     <>
-      <div className={className} data-bs-toggle="modal" data-bs-target={"#" + id} id={"recortable_" + id} onClick={handleShow}>
+      <div className={className} data-bs-toggle="modal" data-bs-target={"#" + id} id={"pdf_" + id} onClick={handleShow}>
         <img src={image} className={clasesImagen} alt="" />
       </div>
 
@@ -144,4 +137,4 @@ function ModalVideo(props) {
   );
 }
 
-export default ModalVideo;
+export default ModalPDF;

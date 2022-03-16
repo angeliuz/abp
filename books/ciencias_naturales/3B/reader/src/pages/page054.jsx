@@ -26,8 +26,8 @@ function Page054(props) {
                 Lo más difícil de esta etapa fue...
               </div>
               <div className="col-6 p-0 m-0 position-relative text-start">
+                <div className="d-flex flex-column w-100 bgc-rain rounded-p-20 psp-20 pep-20 ptp-20 pbp-20 position-relative">
                 <div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-30" alt="" /></div>
-                <div className="d-flex flex-column w-100 bgc-rain rounded-p-20 psp-20 pep-20 ptp-20 pbp-20">
                   <div className="position-relative msp-0 mep-0 mbp-10 psp-30 pep-10 ptp-10 pbp-10 rounded-p-10 border-style-solid border-1 border-color-white bgc-chitara f-Ubuntu-L fsp-14">
                     <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-1">
                       <div className="wp-30 hp-30">
@@ -88,10 +88,9 @@ function Page054(props) {
             <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-10 w-100">¿Cómo voy?</div>
             <div className="row p-0 m-0 w-100">
               <div className="col-6 p-0 m-0 position-relative">
-                <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--20 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-50" alt="" /></div>
                 <div className="d-flex flex-column  mtp-0 mbp-20 psp-0 pep-10 ptp-0 pbp-0">
-
-                  <div className="d-flex flex-column bgc-white rounded-p-10 psp-10 pep-10 ptp-10 pbp-10 mtp-0 mbp-0">
+                  <div className="d-flex flex-column bgc-white rounded-p-10 psp-10 pep-10 ptp-10 pbp-10 mtp-0 mbp-0 position-relative">
+                  <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--20 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-50" alt="" /></div>
                     <div className="row p-0 m-0 w-100">
                       <div className="col-12 p-0 m-0">
                         <div className="d-flex flex-column">

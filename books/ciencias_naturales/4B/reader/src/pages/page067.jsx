@@ -77,7 +77,7 @@ function Page067(props) {
                 <img src="images/page_067/img_006.png" class="wp-30 top-0 end-0 position-absolute" alt=""></img>
                 <div className="text-start f-Ubuntu-L fsp-15 mtp-10"> Con la brigada queremos que en el colegio se sientan</div>
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
-                <div className="text-start f-Ubuntu-L fsp-15 mtp-10">poque: </div>
+                <div className="text-start f-Ubuntu-L fsp-15 mtp-10">porque: </div>
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
               </div>
             </div>

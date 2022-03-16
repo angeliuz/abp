@@ -42,7 +42,7 @@ function Page009(props) {
                 </div>
               </div>
               <div className="col-sm-12 col-md-12 position-relative">
-                <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 visible-768 zindex-1"><img src="images/page_009/img_004.png" className="wp-60 " alt="" /></div>
+                <div className="position-absolute top-50 start-0 translate-middle msp--10 mtp-0 visible-768 zindex-1"><img src="images/page_009/img_004.png" className="wp-60 " alt="" /></div>
                 <div className="bgc-white exterior-caja-v1  w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
                   <div className="d-flex flex-column position-relative w-100">
                     <div className="fsp-16 f-Ubuntu-R text-start psp-0 pbp-10 text-center">Lo formamos:</div>
@@ -53,7 +53,7 @@ function Page009(props) {
 
 
               <div className="col-sm-12 col-md-12 position-relative">
-                <div className="position-absolute top-100 start-0 translate-middle msp-20 mtp--20 visible-768 zindex-1"><img src="images/page_009/img_005.png" className="wp-60 " alt="" /></div>
+                <div className="position-absolute top-100 start-0 translate-middle msp-20 mtp--5 visible-768 zindex-1"><img src="images/page_009/img_005.png" className="wp-60 " alt="" /></div>
                 <div className="bgc-white exterior-caja-v1  w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
                   <div className="d-flex flex-column position-relative w-100">
                     <div className="fsp-16 f-Ubuntu-R text-start psp-0 pbp-10 text-center">En el proyecto <i> Limpia tu huella</i>, nos comprometemos a:</div>
@@ -62,7 +62,7 @@ function Page009(props) {
                 </div>
               </div>
               <div className="col-sm-12 col-md-12 position-relative">
-                <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--20 visible-768 zindex-2"><img src="images/page_009/img_006.png" className="wp-90 " alt="" /></div>
+                <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 visible-768 zindex-2"><img src="images/page_009/img_006.png" className="wp-90 " alt="" /></div>
                 <div className="bgc-white exterior-caja-v1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
                   <div className="d-flex flex-column position-relative w-100">
                     <div className="fsp-16 f-Ubuntu-R text-start psp-0 pbp-10 text-center">Aquí reflejamos el compromiso con nuestras firmas:</div>

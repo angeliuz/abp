@@ -29,7 +29,7 @@ function Page017(props) {
               <div className={"psp-50 pep-50 ptp-5 pbp-5 bgc-white rounded-p-10 border-style-solid border-1 " + borderColor + " d-flex justify-content-center position-relative"}>
                 <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--20 mtp-10"><img src={"images/page_" + pagina + "/img_002.png"} className="w-100" alt="" /></div>
                 <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-120" alt="" /></div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35 msp-15" />
               </div>
             </div>
           </div>
@@ -46,10 +46,11 @@ function Page017(props) {
                   </div>
                   <div className="position-absolute top-50 start-50 msp-0 mtp--10 translate-middle">
                     <div className="ovalo-p17 border-style-solid border-1 border-color-bulma position-relative">
-                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado-p17 ">
-                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                    <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle wp-30 hp-30 border-1 border-style-solid bgc-white rounded-1 center-center">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30 text-center" />
                       </div>
                     </div>
+                    
                   </div>
                 </div>
                 <div className="position-absolute top-100 start-0 translate-middle msp-20 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_010.png"} className="wp-60" alt="" /></div>
@@ -62,8 +63,8 @@ function Page017(props) {
                   </div>
                   <div className="position-absolute top-50 start-50 msp-0 mtp--10 translate-middle">
                     <div className="ovalo-p17 border-style-solid border-1 border-color-pikachu position-relative">
-                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado-p17 ">
-                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                    <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle wp-30 hp-30 border-1 border-style-solid bgc-white rounded-1 center-center">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30 text-center" />
                       </div>
                     </div>
                   </div>
@@ -77,8 +78,8 @@ function Page017(props) {
                   </div>
                   <div className="position-absolute top-50 start-50 msp-0 mtp--10 translate-middle">
                     <div className="ovalo-p17 border-style-solid border-1 border-color-soldados position-relative">
-                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado-p17 ">
-                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                    <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle wp-30 hp-30 border-1 border-style-solid bgc-white rounded-1 center-center">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30 text-center" />
                       </div>
                     </div>
                   </div>
@@ -92,8 +93,8 @@ function Page017(props) {
                   </div>
                   <div className="position-absolute top-50 start-50 msp-0 mtp--10 translate-middle">
                     <div className="ovalo-p17 border-style-solid border-1 border-color-saitama position-relative">
-                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado-p17 ">
-                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                    <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle wp-30 hp-30 border-1 border-style-solid bgc-white rounded-1 center-center">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30 text-center" />
                       </div>
                     </div>
                   </div>
@@ -108,8 +109,8 @@ function Page017(props) {
                   </div>
                   <div className="position-absolute top-50 start-50 msp-0 mtp--10 translate-middle">
                     <div className="ovalo-p17 border-style-solid border-1 border-color-android18 position-relative">
-                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado-p17 ">
-                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                    <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle wp-30 hp-30 border-1 border-style-solid bgc-white rounded-1 center-center">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30 text-center" />
                       </div>
                     </div>
                   </div>
@@ -124,8 +125,8 @@ function Page017(props) {
                   </div>
                   <div className="position-absolute top-50 start-50 msp-0 mtp--15 translate-middle">
                     <div className="ovalo-p17 border-style-solid border-1 border-color-pidgey position-relative">
-                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado-p17 ">
-                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                    <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle wp-30 hp-30 border-1 border-style-solid bgc-white rounded-1 center-center">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30 text-center" />
                       </div>
                     </div>
                   </div>

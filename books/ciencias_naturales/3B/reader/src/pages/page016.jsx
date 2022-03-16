@@ -159,7 +159,7 @@ function Page016(props) {
           <div className={"border-top-style-solid " + borderColor + " border-2 pbp-50 position-relative " + bgc_cajas}>
             <img src="images/page_008/img_002.png" className="tf-personaje-18" alt="" />
             <div className="msp-60 mep-60 mtp-30 mbp-5 f-pixilate-bold fsp-18 lh-sm text-start">¿Cómo voy?</div>
-            <div className="msp-60 mep-60 mbp-50 psp-20 pep-20 ptp-10 pbp-10  f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ">
+            <div className="msp-60 mep-60 mbp-50 psp-20 pep-20 ptp-10 pbp-10  f-Ubuntu-L bgc-white fsp-15 rounded-p-10 ">
               <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
                 <div className="d-flex">
                   <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 tf-flecha" alt="" />

@@ -52,7 +52,7 @@ function Page053(props) {
 
               <div className="col-12 p-1 m-0 position-relative">
                 <div className="position-absolute top-0 start-0"><img src="images/page_053/pincho.svg" className="wp-35 msp--15 mtp--10" alt="" /></div>
-                <div className="position-absolute top-50 start-0"><img src="images/page_053/pito.png" className="wp-80 msp--60 mtp-0" alt="" /></div>
+                <div className="position-absolute top-50 start-0"><img src="images/page_053/pito.png" className="wp-80 msp--70 mtp-0" alt="" /></div>
                 <div className="bgc-white rounded-p-5 p-2 border-style-solid border-color-pidgey border-2">
                   <div className="f-Ubuntu-L fsp-15 p-1 text-start mtp-5">Hay una amago de incendio en la sala de profesores.</div>
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />

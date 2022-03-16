@@ -2,7 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import ModalVideo from "../components/ModalVideo";
-
+import Crucigrama from "../components/Crucigrama";
 import "./page_023.css";
 
 function Page023(props) {
@@ -39,7 +39,10 @@ function Page023(props) {
             </div>
           </div> */}
 
-          <div className="ptp-30 container-titulo-global mbp-10">
+
+
+
+         <div className="ptp-30 container-titulo-global mbp-10">
             {/* <div
               className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 " + color}
             >
