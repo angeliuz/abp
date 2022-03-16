@@ -281,11 +281,19 @@ function Page024(props) {
                 />
               </div>
             </div>
-            <div className="position-absolute top-50 start-50 translate-middle msp- mtp--85 zindex-1 bgc-red">
+            <div className="position-absolute top-50 start-50 translate-middle msp-45 mtp--85 zindex-1">
               <div className=" ">
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
                   className="p-0 px-1 wp-100 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 "
+                />
+              </div>
+            </div>
+            <div className="position-absolute top-50 start-50 translate-middle msp--120 mtp--40 zindex-1">
+              <div className=" ">
+                <InputBox
+                  id={"p" + pagina + "_input" + (indexInput += 1)}
+                  className="p-0 px-1 wp-100 fsp-13 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 "
                 />
               </div>
             </div>
