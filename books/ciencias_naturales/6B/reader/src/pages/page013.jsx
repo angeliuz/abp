@@ -80,7 +80,7 @@ function Page013(props) {
                   </div>
                   <div className="position-absolute top-0 start-50 translate-middle w-100 mtp-10"><div className="flequillo-p13 w-100 hp-30"></div></div>
                 </div>
-                <div className="position-absolute top-100 start-0 translate-middle msp-10 mtp--60 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-60" alt="" /></div>
+                <div className="position-absolute top-100 start-0 translate-middle msp--5 mtp--60 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-60" alt="" /></div>
               </div>
 
               <div className="col-md-6 col-12 pbp-20 position-relative">
