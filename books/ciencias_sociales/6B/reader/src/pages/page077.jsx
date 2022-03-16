@@ -5,17 +5,18 @@ import Check2 from "../components/Check2";
 import "./page_077.css";
 
 function Page077(props) {
-
   const pagina = "077";
   var indexInput = 0;
-  const etapa = "6"
+  const etapa = "6";
   const background = "bgc-pikachu";
   const color = "color-pikachu";
-  const borderColor = "border-color-pikachu"
-  const borderColorTabla = "border-color-kokomi"
+  const borderColor = "border-color-pikachu";
+  const borderColorTabla = "border-color-kokomi";
   const bgc_cajas = "bgc-kokomi";
 
   return (
+    // comentario
+
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
         <div className="page bgc-white overflow-hidden position-relative" id={"page_" + pagina}>
