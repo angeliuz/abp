@@ -16,8 +16,12 @@ function Page017(props) {
   const borderColor = "border-color-bulma"
   const bgc_cajas = "bgc-draco";
 
+
+
   return (
-    <div className="wrapper bgc-light">
+  
+ 
+  <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
         <div className="page bgc-white overflow-hidden position-relative" id={"page_" + pagina}>
           <div className={"cabecera-v1 hp-80 " + background}>
