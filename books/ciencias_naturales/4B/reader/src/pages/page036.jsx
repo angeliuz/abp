@@ -126,7 +126,7 @@ function Page036(props) {
             <div className="row w-100">
               <div className="col-md-6 col-12 bgc-white mxwp-a sombra border-style-solid border-1 border-color-lightDark position-relative giro-2deg">
                 <div className="giro--2deg">
-                  <div className="d-flex ptp-15">
+                  <div className="d-flex ptp-15 rotate-2">
                     <div className="f-Ubuntu-B color-android18 fsp-18">a.</div>
                     <div className="text-start f-Ubuntu-L psp-10 w-80">
                       ¿Qué podemos concluir de los resultados de la encuesta?
@@ -135,7 +135,7 @@ function Page036(props) {
                   <div className="">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-200"
+                      className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-200 rotate-2"
                     />
                   </div>
                 </div>
@@ -147,7 +147,7 @@ function Page036(props) {
               </div>
               <div className="col-md-6 col-12 bgc-white sombra border-style-solid border-1 border-color-lightDark position-relative giro--2deg">
                 <div className="giro-2deg">
-                  <div className="d-flex ptp-15">
+                  <div className="d-flex ptp-15 rotate--2">
                     <div className="f-Ubuntu-B color-android18 fsp-18">b.</div>
                     <div className="text-start f-Ubuntu-L psp-10 w-80">
                       ¿Cómo esta información contribuye a definir las tareas de la brigada?
@@ -156,7 +156,7 @@ function Page036(props) {
                   <div className="">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-200"
+                      className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-200 rotate--2"
                     />
                   </div>
                 </div>
