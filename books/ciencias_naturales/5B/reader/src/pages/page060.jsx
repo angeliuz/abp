@@ -58,7 +58,7 @@ xxx
                                 {/* <div className="position-absolute top-50 start-100 translate-middle  zindex-1 mep-25 mtp-0"><img src={"images/page_" + pagina + "/img_003.png"} className="hp-80" alt="" /></div> */}
                                 {/* <div className="position-absolute top-100 start-0 translate-middle   zindex-1 msp-20 mtp--40"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-130" alt="" /></div> */}
                                 <div className=" border-style-solid border-2 border-color-dark rounded-p-10 min-hp-700">
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-35 min-hp-500" />
+                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-35 min-hp-580" />
                                 </div>
                             </div>
 
