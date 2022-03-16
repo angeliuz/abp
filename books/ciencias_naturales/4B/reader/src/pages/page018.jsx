@@ -61,7 +61,7 @@ function Page018(props) {
             <div className="row w-100">
               <div className="col-md-6 col-12 position-relative ">
                 <img src="images/page_018/img_006.svg" className="" alt="" />
-                <div className="position-absolute top-0 start-50 mtp-20 msp--140 giro-2deg">
+                <div className="position-absolute top-0 start-50 mtp-20 msp--140 rotate-1">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-90 wp-240 msp-30"
@@ -70,7 +70,7 @@ function Page018(props) {
               </div>
               <div className="col-md-6 col-12 position-relative ">
                 <img src="images/page_018/img_007.svg" className="" alt="" />
-                <div className="position-absolute top-0 start-50 mtp-10 msp--140 giro--2deg">
+                <div className="position-absolute top-0 start-50 mtp-10 msp--140 rotate--1">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-90 wp-240 msp-30"
@@ -88,7 +88,7 @@ function Page018(props) {
             <div className="row w-100">
               <div className="col-md-6 col-12 position-relative ">
                 <img src="images/page_018/img_006.svg" className="" alt="" />
-                <div className="position-absolute top-0 start-50 mtp-20 msp--140 giro-2deg">
+                <div className="position-absolute top-0 start-50 mtp-20 msp--140 rotate-1">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-90 wp-240 msp-30"
@@ -97,7 +97,7 @@ function Page018(props) {
               </div>
               <div className="col-md-6 col-12 position-relative ">
                 <img src="images/page_018/img_007.svg" className="" alt="" />
-                <div className="position-absolute top-0 start-50 mtp-10 msp--140 giro--2deg">
+                <div className="position-absolute top-0 start-50 mtp-10 msp--140 rotate--1">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-90 wp-240 msp-30"
@@ -120,7 +120,7 @@ function Page018(props) {
                 className="position-absolute translate-middle wp-20 top-50 start-0 msp--1"
                 alt=""
               />
-              <div className="w-100 bgc-white sombra ptp-5 psp-15">
+              <div className="w-100 bgc-white box-shadow-simple ptp-5 psp-15">
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
                   className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-240 w-98"
@@ -128,7 +128,7 @@ function Page018(props) {
               </div>
               <img
                 src="images/page_018/img_011.png"
-                className="position-absolute hp-200 translate-middle top-0 start-100 mtp--95 msp--30"
+                className="position-absolute hp-200 translate-middle top-0 start-100 mtp--95 msp--5"
                 alt=""
               />
               <img

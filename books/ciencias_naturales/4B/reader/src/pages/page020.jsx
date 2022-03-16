@@ -41,7 +41,7 @@ function Page020(props) {
                 equipo.
               </div>
             </div>
-            <div className="bgc-white sombra psp-40 pep-20 ptp-20 pbp-20 position-relative">
+            <div className="bgc-white box-shadow-simple psp-40 pep-20 ptp-20 pbp-20 position-relative">
               <div className="row">
                 <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-pidgey">
                   <div className=" py-2 color-pidgey f-pixilate-bold fsp-18">
