@@ -60,7 +60,7 @@ xxx
 
                                 <div className="rounded-p-10 bgc-white border-style-solid border-color-arlo border-2">
                                     <div className="f-Ubuntu-B fsp-14 p-1 bgc-arlo rounded-set-10 text-white lh-sm min-hp-45 d-flex align-items-center justify-content-center">Me gusta mucho como quedó...</div>
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-230 mep-10 msp-10" />
+                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230 mep-10 msp-10" />
                                 </div>
                             </div>
                             <div className="col-12 pe-1 ps-1 pb-1 pt-0 m-0 position-relative">

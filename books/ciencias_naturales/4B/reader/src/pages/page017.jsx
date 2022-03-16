@@ -102,7 +102,7 @@ function Page017(props) {
                   />
                 </div>
               </div>
-              <div className="mtp-20 pep-80">
+              <div className="mtp-20 pep-90">
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
                   className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-280"

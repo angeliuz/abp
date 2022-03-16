@@ -28,33 +28,6 @@ function Page007(props) {
 
           <div className="col-12 p-0 m-0 position-relative">
 
-
-<<<<<<< HEAD
-  <div className="container-titulo-global mtp-20 mbp-0">
-    <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
-      Conociendo el desafío
-    </div>
-    <div className="d-flex psp-20">
-      {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
-      <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-        1
-      </div>
-      <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-        Veo el video, leo y comprendo.
-      </div>
-      <ModalVideo
-        id={"p" + pagina + "_video" + (indexInput += 1)}
-        linkVideo="662961757"
-        tituloVideo="Héroes del medioambiente I"
-        tipoVideo="vimeo"
-        image={"images/generales/play.svg"}
-        colorUnidad={background}
-        clasesImagen="cambio hp-40 mtp-10"
-        className="p-0 px-1"
-      />
-    </div>
-  </div>
-=======
 <div className="container-titulo-global mtp-20 mbp-0">
     <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
     Conociendo el desafío

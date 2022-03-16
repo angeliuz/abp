@@ -45,7 +45,7 @@ function Page071(props) {
               <ModalVideo
                                             id={"p" + pagina + "_video" + (indexInput += 1)}
                                             linkVideo="682622752"
-                                            tituloVideo="Brigadas al rescate II"
+                                            tituloVideo="Brigadas al rescate III"
                                             tipoVideo="vimeo"
                                             image={"images/generales/play.svg"}
                                             colorUnidad={background}

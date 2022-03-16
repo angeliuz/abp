@@ -42,7 +42,14 @@ function Page022(props) {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-12 pbp-20 ptp-20">
+              <div className="col-md-6 col-12 pbp-20 ptp-20 position-relative">
+              <div className="position-absolute translate-middle top-0 start-100">
+                <img
+                  src="images/page_022/img_005.png"
+                  className="hp-130"
+                  alt=""
+                />
+              </div>
                 <div className="bgc-klee border-style-solid border-color-saitama border-1">
                   <div className="mtp--20 msp--10 bgc-white ptp-5 border-style-solid border-1 border-color-saitama caja-uno color-saitama f-pixilate-bold fsp-18">
                     Supervisión
@@ -55,13 +62,7 @@ function Page022(props) {
                   </div>
                 </div>
               </div>
-              <div className="position-absolute translate-middle top-0 start-100">
-                <img
-                  src="images/page_022/img_005.png"
-                  className="hp-130"
-                  alt=""
-                />
-              </div>
+              
             </div>
             <div className="row w-100 position-relative">
               <div className="col-md-6 col-12 pbp-20 ptp-20">

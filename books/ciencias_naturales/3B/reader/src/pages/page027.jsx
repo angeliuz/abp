@@ -53,7 +53,7 @@ function Page027(props) {
               <div className="row w-100 p-0 m-0 border-style-dashed border-1 border-color-bulma rounded-p-5 bgc-white">
 
                 <div className="col-auto position-relative">
-                  <img src={"images/page_" + pagina + "/img_003.jpg"} className="h-100" alt="" />
+                  <img src={"images/page_" + pagina + "/img_003.jpg"} className="" alt="" />
                 </div>
 
                 <div className="col position-relative">
@@ -72,13 +72,13 @@ function Page027(props) {
             </div>
 
           </div>
-          <div className="d-flex psp-60 pep-60 pbp-0">
+          <div className="d-flex psp-60 pep-60 pbp-0 mbp-80">
 
             <div className="d-flex w-100 bgc-tshinhan psp-10 pep-10 ptp-10 pbp-10 rounded-p-10">
               <div className="row w-100 p-0 m-0 border-style-dashed border-1 border-color-bulma rounded-p-5 bgc-white">
 
                 <div className="col-auto position-relative">
-                  <img src={"images/page_" + pagina + "/img_004.jpg"} className="h-100" alt="" />
+                  <img src={"images/page_" + pagina + "/img_004.jpg"} className="" alt="" />
                 </div>
 
                 <div className="col position-relative">

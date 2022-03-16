@@ -98,10 +98,10 @@ function Page060(props) {
                     <div className="psp-10 pep-10">
                       <div className="d-flex align-items-start w-100 psp-10 pep-10 ptp-0 pbp-0">
                         <div className="wp-5 hp-5 mtp-8 bgc-saitama rounded-circle"></div>
-                        <div className="d-flex flex-fill justify-content-start align-items-start text-start f-Ubuntu-L fsp-15 psp-5">
+                        <div className="d-flex justify-content-start align-items-start text-start f-Ubuntu-L fsp-15 psp-5">
                           Otro:
-                          <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                          <div className=" psp-10 pep-10 ptp-0 pbp-0">
+                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80 wp-190" />
                           </div>
                         </div>
                       </div>

@@ -40,7 +40,7 @@ function Page053(props) {
                 <div className="psp-20 pep-20 pbp-20">
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                 </div>
-                <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
+                <div className="position-absolute top-50 start-0 translate-middle msp--10 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
               </div>
               <div className="ptp-30"></div>
               <div className="bgc-white border-style-solid border-1 border-color-dark rounded-p-10 position-relative">
@@ -61,7 +61,7 @@ function Page053(props) {
                 <div className="psp-20 pep-20 pbp-20">
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                 </div>
-                <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-30  zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-60" alt="" /></div>
+                <div className="position-absolute top-50 start-0 translate-middle msp--10 mtp-30  zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-60" alt="" /></div>
                 <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-40" alt="" /></div>
               </div>
             </div>

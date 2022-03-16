@@ -35,7 +35,7 @@ function Page021(props) {
                 <div className="bgc-white rounded-p-10 border-style-solid border-1 border-color-bulma w-100 py-1 psp-50 pep-20">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35"
+                    className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35 w-90"
                   />
                 </div>
                 <img
@@ -74,7 +74,7 @@ function Page021(props) {
                       id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
                       pagina={pagina}
 
-                      numRecortables="3"
+                      numRecortables="4"
                       className="p-0 m-0 d-flex wp-200 hp-200 bgc-red pe-auto"
                     />
                   </div>
@@ -109,7 +109,7 @@ function Page021(props) {
                       id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
                       pagina={pagina}
 
-                      numRecortables="3"
+                      numRecortables="4"
                       className="p-0 m-0 d-flex wp-60 hp-60 bgc-red pe-auto"
                     />
                   </div>
@@ -144,7 +144,7 @@ function Page021(props) {
                       id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
                       pagina={pagina}
 
-                      numRecortables="3"
+                      numRecortables="4"
                       className="p-0 m-0 d-flex wp-200 hp-200 bgc-red pe-auto"
                     />
                   </div>
@@ -179,7 +179,7 @@ function Page021(props) {
                       id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
                       pagina={pagina}
 
-                      numRecortables="3"
+                      numRecortables="4"
                       className="p-0 m-0 d-flex wp-60 hp-60 bgc-red pe-auto"
                     />
                   </div>

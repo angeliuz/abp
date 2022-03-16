@@ -26,9 +26,10 @@ function Page048(props) {
 
           <div className="ptp-10 psp-130 pep-80 mbp-0">
             <div className="row mbp-10 position-relative">
-              <div className="position-absolute top-100 start-0 translate-middle"><img src="images/page_048/libreta.png" className="wp-60 mep-20 mtp--80" alt="" /></div>
+              
               <div className="position-absolute top-0 start-100 translate-middle visible-768"><img src="images/page_048/casco.png" className="wp-60 mep-70 mtp--80" alt="" /></div>
-              <div className="col-12 col-md-4 p-1 m-0">
+              <div className="col-12 col-md-4 p-1 m-0 position-relative">
+              <div className="position-absolute top-100 start-0 translate-middle"><img src="images/page_048/libreta.png" className="wp-60 mep-40 mtp--80" alt="" /></div>
                 <div className="rounded-seb-10 bgc-white border-style-solid border-color-bulma border-1">
                   <div className="f-Ubuntu-L fsp-14 p-2 text-center bgc-piccolo w-95 rounded-be-10">Antes de la emergencia</div>
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220 mep-10 msp-10" />
@@ -58,9 +59,10 @@ function Page048(props) {
 
           <div className="ptp-10 psp-130 pep-80 mbp-100">
             <div className="row mbp-10 position-relative">
-              <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0"><img src="images/page_048/mono.png" className="wp-110" alt="" /></div>
+              
+              <div className="col-12 p-1 m-0 position-relative">
+              <div className="position-absolute top-0 start-100 translate-middle msp-10 mtp--55"><img src="images/page_048/mono.png" className="wp-110" alt="" /></div>
               <div className="position-absolute top-100 start-0 translate-middle"><img src="images/page_048/patin.png" className="wp-70 mep-0 mtp--80" alt="" /></div>
-              <div className="col-12 p-1 m-0">
                 <div className="rounded-seb-10 bgc-white border-style-solid border-color-dark border-2 hp-430">
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-400 mep-10 msp-10" />
                 </div>

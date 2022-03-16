@@ -66,7 +66,7 @@ function Page015(props) {
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 w-100 min-hp-400" />
                   </div>
                   <img src="images/page_015/anillado.png" className="position-absolute translate-middle zi2 top-0 start-500 msp-0 mtp-50 w-90" alt="" />
-                  <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-180 zindex-1"><img src={"images/page_" + pagina + "/img_008.png"} className="wp-60" alt="" /></div>
+                  <div className="position-absolute top-50 start-0 translate-middle msp--10 mtp-180 zindex-1"><img src={"images/page_" + pagina + "/img_008.png"} className="wp-60" alt="" /></div>
                 </div>
               </div>
 
@@ -89,7 +89,7 @@ function Page015(props) {
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 w-100 min-hp-400" />
                     </div>
                     <img src="images/page_015/anillado.png" className="position-absolute translate-middle zi2 top-0 start-500 msp-0 mtp-50 w-90" alt="" />
-                    <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-80 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="hp-140" alt="" /></div>
+                    <div className="position-absolute top-0 start-100 translate-middle msp-5 mtp-65 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="hp-140" alt="" /></div>
                   </div>
                 </div>
               </div>

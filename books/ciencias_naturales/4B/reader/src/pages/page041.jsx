@@ -37,7 +37,7 @@ function Page041(props) {
                 <div className="row w-100 ptp-40">
 
                   <div className="col-md-12 col-md-12 position-relative">
-                    <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--70 visible-768 z-index-3">
+                    <div className="position-absolute top-100 start-100 translate-middle msp-10 mtp--70 z-index-3">
                       <img
                         src="images/page_041/img_003.png"
                         className=" "
@@ -87,7 +87,7 @@ function Page041(props) {
                     </div>
                   </div>
                   <div className="col-md-12 col-md-12 position-relative">
-                    <div className="position-absolute top-50 start-100 translate-middle msp--10 mtp-100 visible-768">
+                    <div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-100 visible-768">
                       <img
                         src="images/page_041/img_004.png"
                         className=""
