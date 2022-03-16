@@ -55,7 +55,7 @@ function Page009(props) {
           <div className="d-flex global-margin mtp-30 mbp-0 psp-0 pep-0 ptp-0 pbp-0 f-Ubuntu-R fsp-15">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
-                <div className="position-absolute top-0 start-0 translate-middle msp-0 mtp-5 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-80" alt="" /></div>
+                <div className="position-absolute top-0 start-0 translate-middle msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-80" alt="" /></div>
                 <div className="border-style-solid border-2 border-color-white rounded-p-10">
                   <div className="d-flex flex-column bgc-white  rounded-p-10">
                     <div className="psp-10 pep-10 ptp-10 text-center">
