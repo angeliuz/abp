@@ -122,12 +122,11 @@ function Page025(props) {
                       {/* <div className="position-absolute top-0 start-50 translate-middle bgc-akuma mtp-5  w-50 f-Ubuntu-B text-center color-white fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5"> Tarea </div> */}
                       <div className="w-100  p-1 border-style-solid border-2 border-color-calypso6 rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
 
-
                         <div className="d-flex text-start f-Ubuntu-R fsp-15 p-3   ">¿A qué documentos
-                          corresponden los
-                          artículos? ¿Cuál es la
-                          importancia de estos
-                          documentos?
+                        corresponden los
+                        artículos? ¿Cuál es la
+                        importancia de estos
+                        documentos?
                         </div>
 
 
@@ -139,40 +138,25 @@ function Page025(props) {
                   </div>
                   <div className="col-md-8 col-12 position-relative pbp-10">
 
-                    <div className="mtp-20">
+                    <div className="mtp-20">1
                       {/* <div className="position-absolute top-0 start-50 translate-middle bgc-haydn mtp-5  w-50 f-Ubuntu-B text-center color-white fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5"> Responsable </div> */}
                       <div className="w-100  p-1  border-style-solid border-1 border-color-white rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
-
                         <div className="position-absolute top-50 start-0 translate-middle zindex-1 visible-768"><img src={"images/page_025/espiral.svg"} className="wp-55 msp--25  mtp-0 " alt="" /></div>
-                        
-
                         <div className="align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
-
                           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-210" />
-
                         </div>
-
-
                       </div>
                     </div>
 
                   </div>
-
-                  <div className="col-md-4 col-12 position-relative pbp-10 ">
+                  <div className="col-md-4 col-12 d-flex position-relative pbp-10 align-items-center justify-content-center ">
 
                     <div className="mtp-20">
                       {/* <div className="position-absolute top-0 start-50 translate-middle bgc-akuma mtp-5  w-50 f-Ubuntu-B text-center color-white fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5"> Tarea </div> */}
                       <div className="w-100  p-1 border-style-solid border-2 border-color-calypso6 rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
 
-
-                        <div className="d-flex text-start f-Ubuntu-R fsp-15 p-3   ">¿Por qué para alcanzar
-                          una sociedad más
-                          justa es importante
-                          que estos derechos
-                          sean respetados?
-                          Ejemplificamos a partir de
-                          las imágenes presentadas
-                          en las páginas 82 y
+                        <div className="d-flex text-start f-Ubuntu-R fsp-15 p-3   ">
+                          ¿Por qué para alcanzar una sociedad más justa es importante que estos derechos sean respetados? Ejemplificamos a partir de las imágenes presentadas en las páginas 82 y 83 de la revista.
                         </div>
 
 
@@ -182,27 +166,21 @@ function Page025(props) {
 
 
                   </div>
-
                   <div className="col-md-8 col-12 position-relative pbp-10">
-                  <div className="position-absolute top-100 start-100 translate-middle zindex-1 visible-768"><img src={"images/page_025/img_006.png"} className=" " alt="" /></div>
-                    <div className="mtp-20">
+
+                    <div className="mtp-20">1
                       {/* <div className="position-absolute top-0 start-50 translate-middle bgc-haydn mtp-5  w-50 f-Ubuntu-B text-center color-white fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5"> Responsable </div> */}
                       <div className="w-100  p-1  border-style-solid border-1 border-color-white rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
-
-                        <div className="position-absolute  top-50 start-0 translate-middle zindex-1 visible-768"><img src={"images/page_025/espiral.svg"} className="wp-55 msp--25  mtp-0 " alt="" /></div>
-                       
-
+                        <div className="position-absolute top-50 start-0 translate-middle zindex-1 visible-768"><img src={"images/page_025/espiral.svg"} className="wp-55 msp--25  mtp-0 " alt="" /></div>
                         <div className="align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
-
                           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-210" />
-
                         </div>
-
-
                       </div>
                     </div>
 
                   </div>
+
+
 
                   <div className="col-md-4 col-12 d-flex position-relative pbp-10 align-items-center justify-content-center">
 
@@ -212,9 +190,9 @@ function Page025(props) {
 
 
                         <div className="d-flex text-start f-Ubuntu-R fsp-15 p-3   ">¿Cuál será el aporte
-                          de nuestra obra
-                          al logro de una
-                          sociedad más justa?
+                        de nuestra obra
+                        al logro de una
+                        sociedad más justa?
                         </div>
 
 
@@ -232,7 +210,7 @@ function Page025(props) {
                       <div className="w-100  p-1  border-style-solid border-1 border-color-white rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
 
                         <div className="position-absolute top-50 start-0 translate-middle zindex-1 visible-768"><img src={"images/page_025/espiral.svg"} className="wp-55 msp--25  mtp-0 " alt="" /></div>
-                        
+
 
                         <div className=" align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
 
@@ -250,8 +228,8 @@ function Page025(props) {
             </div>
           </div>
 
-{/* BEGIN PIE DE PAGINA */}
-<div
+          {/* BEGIN PIE DE PAGINA */}
+          <div
             className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2"
             style={{ bottom: 70, right: 0 }}
           >

@@ -19,9 +19,9 @@ function Page017(props) {
 
 
   return (
-  
- 
-  <div className="wrapper bgc-light">
+
+
+    <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
         <div className="page bgc-white overflow-hidden position-relative" id={"page_" + pagina}>
           <div className={"cabecera-v1 hp-80 " + background}>
@@ -45,27 +45,27 @@ function Page017(props) {
           <div className="psp-60 pep-60 ptp-20">
             <div className="d-flex flex-wrap justify-content-around position-relative">
 
-              <div className="ptp-20 pbp-20 psp-20 pep-20">
-                <div className="mxwp-300 hp-220 border-style-solid border-2 rounded-p-5 bgc-itto psp-20 pep-20 pbp-20">
+              <div className="ptp-20 pbp-20 psp-20 pep-20 mbp-60">
+                <div className="mxwp-300  border-style-solid border-2 rounded-p-5 bgc-itto psp-20 pep-20 pbp-20">
                   <div className="f-colby-bold color-soldados py-3">Coordinación</div>
                   <div className="f-Ubuntu-L pbp-10">Organiza el trabajo del equipo. Da el turno de palabra y procura que todos participen.</div>
                   <div className="bgc-white p-1 rounded-p-5"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" /></div>
                 </div>
               </div>
 
-              <div className="ptp-20 pbp-20 psp-20 pep-20 msp-a mep-a">
-                <div className="mxwp-300 hp-220 border-style-solid border-2 rounded-p-5 bgc-draco psp-20 pep-20 pbp-20">
+              <div className="ptp-20 pbp-20 psp-20 pep-20 msp-a mep-a mbp-60 ">
+                <div className="mxwp-300  border-style-solid border-2 rounded-p-5 bgc-draco psp-20 pep-20 pbp-20">
                   <div className="f-colby-bold color-bulma py-3">Supervisión</div>
                   <div className="f-Ubuntu-L pbp-10">Se asegura de que el equipo siga las instrucciones y respete el tiempo asignado.</div>
-                  <div className="bgc-white p-1 rounded-p-5"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" /></div>
+                  <div className="bgc-white  p-1 rounded-p-5"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" /></div>
                 </div>
               </div>
-              <div className="visible-p17">
-                <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 w-100 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="hp-140" alt="" /></div>
+              <div className="visible-p17 mtp-20 mbp-30">
+                <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-20 mbp-30 w-100 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="hp-140" alt="" /></div>
               </div>
 
               <div className="ptp-20-p17 pbp-20 psp-20 pep-20">
-                <div className="mxwp-300 hp-220 border-style-solid border-2 rounded-p-5 bgc-chitara psp-20 pep-20 pbp-20">
+                <div className="mxwp-300  border-style-solid border-2 rounded-p-5 bgc-chitara psp-20 pep-20 pbp-20">
                   <div className="f-colby-bold color-android18 py-3">Relaciones públicas</div>
                   <div className="f-Ubuntu-L pbp-10">Se comunica con el profesor o con otros equipos para pedir ayuda.</div>
                   <div className="bgc-white p-1 rounded-p-5"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" /></div>
@@ -73,7 +73,7 @@ function Page017(props) {
               </div>
 
               <div className="ptp-20-p17 pbp-20 psp-20 pep-20">
-                <div className="mxwp-300 hp-220 border-style-solid border-2 rounded-p-5 bgc-pantro psp-20 pep-20 pbp-20">
+                <div className="mxwp-300  border-style-solid border-2 rounded-p-5 bgc-pantro psp-20 pep-20 pbp-20">
                   <div className="f-colby-bold color-pidgey py-3">Intendencia</div>
                   <div className="f-Ubuntu-L pbp-10">Se asegura de que el equipo consiga los materiales necesarios y mantenga su espacio limpio y ordenado.</div>
                   <div className="bgc-white p-1 rounded-p-5"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" /></div>
