@@ -25,7 +25,7 @@ function Page049(props) {
 
             <div className="ptp-10 psp-130 pep-80 mbp-0">
               <div className="row mbp-10 position-relative">
-                <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_049/agenda.png" className="wp-60 mep-0 mtp--80" alt=""/></div>
+                
                 
                 <div className="position-absolute top-50 start-50 translate-middle visible-768"><img src="images/page_049/espiral.svg" className="w-100" alt=""/></div>
                 <div className="col-12 col-md-6 p-1 m-0 position-relative">
@@ -47,7 +47,8 @@ function Page049(props) {
                     <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150 mep-10 msp-10" />
                   </div>
                 </div>
-                <div className="col-12 col-md-6 p-1 m-0">
+                <div className="col-12 col-md-6 p-1 m-0 position-relative">
+                <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_049/agenda.png" className="wp-60 msp-25 mtp--80" alt=""/></div>
                   <div className="rounded-p-10 bgc-white border-style-solid border-color-bulma border-2">
                     <div className="f-Ubuntu-B fsp-14 p-1 bgc-bulma rounded-set-10 text-white lh-sm min-hp-45 d-flex align-items-center justify-content-center">Mis compañeros de equipo<br />se encargarán de:</div>
                     <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-150 mep-10 msp-10" />

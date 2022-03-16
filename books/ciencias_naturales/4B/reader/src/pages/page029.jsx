@@ -58,7 +58,7 @@ function Page029(props) {
             <div className="">
               <div className="row">
                 <div className="col-12 position-relative ">
-                  <div className="position-absolute top-0 start-100 translate-middle visible-768 zindex-1 msp--10 mtp-50">
+                  <div className="position-absolute top-0 start-100 translate-middle visible-768 zindex-1 msp-10 mtp-60">
                     <img
                       src="images/page_029/img_002.png"
                       className=""
@@ -206,7 +206,7 @@ function Page029(props) {
                     <div className="msp-5 text-start">
                       Otro:
                     </div>
-                    <div className="w-100">
+                    <div className="w-70">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15  text-start contenedor-linea flex-grow-1 lhp-35 min-hp-35" />
                     </div>
                   </div>

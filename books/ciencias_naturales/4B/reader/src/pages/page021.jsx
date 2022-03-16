@@ -74,7 +74,7 @@ function Page021(props) {
                       id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
                       pagina={pagina}
 
-                      numRecortables="3"
+                      numRecortables="4"
                       className="p-0 m-0 d-flex wp-200 hp-200 bgc-red pe-auto"
                     />
                   </div>
@@ -109,7 +109,7 @@ function Page021(props) {
                       id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
                       pagina={pagina}
 
-                      numRecortables="3"
+                      numRecortables="4"
                       className="p-0 m-0 d-flex wp-60 hp-60 bgc-red pe-auto"
                     />
                   </div>
@@ -144,7 +144,7 @@ function Page021(props) {
                       id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
                       pagina={pagina}
 
-                      numRecortables="3"
+                      numRecortables="4"
                       className="p-0 m-0 d-flex wp-200 hp-200 bgc-red pe-auto"
                     />
                   </div>
@@ -179,7 +179,7 @@ function Page021(props) {
                       id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
                       pagina={pagina}
 
-                      numRecortables="3"
+                      numRecortables="4"
                       className="p-0 m-0 d-flex wp-60 hp-60 bgc-red pe-auto"
                     />
                   </div>

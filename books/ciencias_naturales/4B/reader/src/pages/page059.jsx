@@ -81,8 +81,8 @@ function Page059(props) {
               </div>
             </div>
             <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-50" alt="" /></div>
-          <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-150 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
-          <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-180 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-60" alt="" /></div>
+          <div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-150 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
+          <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-170 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-60" alt="" /></div>
           </div>
 
           <div className="row ptp--10 mbp-100">
