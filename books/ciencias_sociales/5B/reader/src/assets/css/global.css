@@ -161,6 +161,12 @@ body {
   background-position: center;
   padding: 8px;
 }
+.caja-seccion {
+  background-image: url(../../pages/images/generales/caja_sesion.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 14px;
+}
 
 .rotar-elemento-90-768 {
   transform: rotate(0deg);
