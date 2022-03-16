@@ -114,7 +114,7 @@ function Page021(props) {
                 </div>
 
                 <div className="d-flex flex-column min-hp-170 mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                  <div className="p-2 w-100 d-flex">
+                  <div className="p-2 w-100">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
                       className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
@@ -131,7 +131,7 @@ function Page021(props) {
                 </div>
 
                 <div className="d-flex flex-column min-hp-170 mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                  <div className="p-2 w-100 d-flex">
+                  <div className="p-2 w-100">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
                       className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
@@ -150,7 +150,7 @@ function Page021(props) {
                 </div>
                 <div className="d-flex flex-column min-hp-170 center-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-sonic  ">
                   <div className="f-Ubuntu-L fsp-16 text-center w-100 p-2">¿Cuáles son?</div>
-                  <div className="p-2 w-100 d-flex">
+                  <div className="p-2 w-100">
                     {/* <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
                       className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
@@ -167,7 +167,7 @@ function Page021(props) {
                   />
                 </div>
                 <div className="d-flex flex-column min-hp-170 mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                  <div className="p-2 w-100 d-flex">
+                  <div className="p-2 w-100">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
                       className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
@@ -184,7 +184,7 @@ function Page021(props) {
                   />
                 </div>
                 <div className="d-flex flex-column min-hp-170 mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                  <div className="p-2 w-100 d-flex">
+                  <div className="p-2 w-100">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
                       className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
@@ -212,7 +212,7 @@ function Page021(props) {
 
             <div className="row m-0 psp-10 pep-10 ptp-0 pbp-10 rounded-p-20 w-100">
 
-              <div className="col-sm-12 col-md-6 position-relative">
+              <div className="col-sm-12 col-md-6 position-relative mbp-10">
 
                 <div className="d-flex mbp-20 mtp-10 w-100">
                   <div className="position-relative p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-genos bgc-genos">

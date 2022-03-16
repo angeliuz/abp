@@ -95,7 +95,7 @@ function Page010(props) {
 
               <div className="row w-100 p-0 m-0">
                 <div className="col-12 position-relative max-wp-600 mx-auto">
-                  <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-100" alt="" /></div>
+                  <div className="position-absolute top-50 start-100 translate-middle msp-25 mtp-50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-100" alt="" /></div>
                   <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
                   <div className="d-flex flex-column mbp-20 mtp-10 w-100">
                     <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
