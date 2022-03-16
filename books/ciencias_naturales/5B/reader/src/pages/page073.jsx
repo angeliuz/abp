@@ -41,7 +41,7 @@ function Page073(props) {
                             </div>
                             <div className="col-12 border-1 border-style-solid border-color-lightDark mbp-30 position-relative ">
                                 <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-20 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-50" alt="" /></div>
-                                <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-70" alt="" /></div>
+                                <div className="position-absolute top-100 start-100 translate-middle msp-10 mtp--30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-70" alt="" /></div>
                                 <div className="position-absolute top-0 start-0 translate-middle msp-0 mtp-150 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-25" alt="" /></div>
                                 <div className="psp-15 pep-15">
                                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-310" />
@@ -62,7 +62,7 @@ function Page073(props) {
                                 </div>
                             </div>
                             <div className="col-12 border-1 border-style-solid border-color-lightDark mtp-20 rounded-p-10 position-relative">
-                                <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-70" alt="" /></div>
+                                <div className="position-absolute top-0 start-100 translate-middle msp-10 mtp-60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-70" alt="" /></div>
                                 <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-50" alt="" /></div>
                                 <div className="psp-15 pep-15">
                                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-310" />
