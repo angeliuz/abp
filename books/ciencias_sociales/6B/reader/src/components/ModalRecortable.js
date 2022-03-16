@@ -24,7 +24,7 @@ function ModalRecortable(props) {
   const [content1, setContent1] = useState(image);
 
 
-  console.log("revista pagina: " + id);
+  //console.log("revista pagina: " + id);
 
   useEffect(() => {
     getData();
@@ -37,11 +37,11 @@ function ModalRecortable(props) {
 
       if (docSnap.exists()) {
         const field = docSnap.data()[id];
-        console.log("Current data: ", docSnap.data()[id]);
+        //console.log("Current data: ", docSnap.data()[id]);
         if (field) {
           setContent1(docSnap.data()[id]);
           setImagenSeleccionada(content1);
-          console.log("content1: " + content1);
+          //console.log("content1: " + content1);
         } else {
           console.log("Sin datos: " + id);
         }
@@ -62,10 +62,10 @@ function ModalRecortable(props) {
     image = "images/page_" + pagina + "/recortables/" + event.target.id + ".png"
     // document.getElementById("recortable_"+props.id).childNodes[0].src = getChildImage(id);
 
-    console.log("click get image: " + getChildImage(event.target.id))
-    console.log("click target: " + event.target.id)
-    console.log("click id: " + id)
-    console.log("click image: " + image)
+    // console.log("click get image: " + getChildImage(event.target.id))
+    // console.log("click target: " + event.target.id)
+    // console.log("click id: " + id)
+    // console.log("click image: " + image)
 
     setContent1(image);
     setImagenSeleccionada(content1);
@@ -123,32 +123,6 @@ function ModalRecortable(props) {
     return num;
   }
 
-
-
-  const styles = {
-    modalHeader: {
-      backgroundColor: "#49B2F4",
-      paddingLeft: "10px",
-      paddingRight: "10px",
-      paddingTop: "5px",
-      paddingBottom: "5px",
-      borderRadius: "9px 9px 0px 0px"
-
-    },
-    modalBody: {
-      margin: "0px",
-      padding: "0px",
-      borderRadius: "15px",
-      minHeight: "400px",
-      maxHeight: "400px",
-      borderRadius: "0px 0px 10px 10px"
-    },
-    modalTitle: {
-      fontSize: "17px",
-    }
-  };
-
-
   return (
     <>
       <div className="bgc-white centrar position-relative" data-bs-toggle="modal" data-bs-target={"#" + id} id={"recortable_" + id}>
@@ -157,9 +131,10 @@ function ModalRecortable(props) {
       <div className="modal fade" id={id} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div className="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
           <div className="modal-content">
-            <div className="modal-header">
-              <h5 className="modal-title" id="exampleModalLabel">{"Recortables página " + removeZeros(pagina) + id}</h5>
-              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div className="modal-header bgc-info color-white fsp-18 f-Ubuntu-M">
+              <div className="modal-title" id="exampleModalLabel">{"Recortables página " + removeZeros(pagina)}</div>
+
+              <button type="button" className="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div className="modal-body">
               <div className="row w-100">
