@@ -35,7 +35,7 @@ function Page021(props) {
                 <div className="bgc-white rounded-p-10 border-style-solid border-1 border-color-bulma w-100 py-1 psp-50 pep-20">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35"
+                    className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35 w-90"
                   />
                 </div>
                 <img
