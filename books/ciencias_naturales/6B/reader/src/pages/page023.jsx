@@ -42,17 +42,7 @@ function Page023(props) {
 
 
 
-          
-
-
-
-
-
-
-
-
-
-          <div className="ptp-30 container-titulo-global mbp-10">
+         <div className="ptp-30 container-titulo-global mbp-10">
             {/* <div
               className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 " + color}
             >
