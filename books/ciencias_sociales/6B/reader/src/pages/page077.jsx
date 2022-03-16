@@ -144,6 +144,8 @@ function Page077(props) {
                                     image="images/generales/ticket.svg"
                                   ></Check2>
                                 </td>
+
+                                
                                 <td
                                   className={
                                     "border-style-solid border-1 " +
