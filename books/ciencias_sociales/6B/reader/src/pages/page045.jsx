@@ -73,9 +73,9 @@ function Page045(props) {
                 {/* <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_045/pintora.png" className="hp-120 mep-100" alt="" /></div> */}
 
                 <div className="bgc-draco rounded-p-10 p-2">
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center ">
                     <div className="f-Ubuntu-R fsp-14 lh-sm w-100 text-start pep-10">Obra letra</div>
-                    <div className="p-1 max-wp-100 d-flex bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" /></div>
+                    <div className="p-1  d-flex bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" /></div>
                   </div>
                   <div className="d-flex p-2 m-0 h-100 align-items-center">
                     <div className="col-3 bgc-yoda rounded-p-10 p-2 hp-150 f-Ubuntu-R fsp-14 lh-sm position-relative d-flex justify-content-center align-items-center">¿Qué veo?
