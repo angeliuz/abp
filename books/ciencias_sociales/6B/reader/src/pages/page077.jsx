@@ -15,6 +15,8 @@ function Page077(props) {
   const bgc_cajas = "bgc-kokomi";
 
   return (
+    // comentario
+
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
         <div className="page bgc-white overflow-hidden position-relative" id={"page_" + pagina}>
