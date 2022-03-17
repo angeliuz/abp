@@ -31,18 +31,33 @@ function Page015(props) {
           {/* END CABECERA VERSIÓN 2 */}
 
           {/* BEGIN TITULO */}
-          <div className="ptp-30 container-titulo-global mbp-20">
-            <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 " + color}>Conocemos la ruta del desafío</div>
-            <div className="d-flex">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_007/ig.svg" alt=""  /> */}
-              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>1</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start col-6">
-                Veo el video y recorto los pasos para completar la ruta del desafío.
-              </div>
-              <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image={"images/page_" + pagina + "/img_002.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-45 text-center mtp-10 msp-20" className="p-0 px-0" />
-            </div>
-          </div>
+
+          <div className="container-titulo-global mtp-20 mbp-0">
+    <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+    Conocemos la ruta del desafío
+    </div>
+
+    <div className="d-flex psp-20">
+         
+        <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+            1
+        </div>
+        <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start mbp-30">
+        Veo el video y recorto los <br /> pasos para completar la ruta del desafío.
+        </div>
+        <ModalVideo
+        id={"p" + pagina + "_video" + (indexInput += 1)}
+        linkVideo="662953759"
+        tituloVideo="Todos nos cuidamos II"
+        tipoVideo="vimeo"
+        image={"images/generales/play.svg"}
+        colorUnidad={background}
+        clasesImagen="cambio hp-40 mtp-10"
+        className="p-0 px-1"
+    />
+    <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-45 text-center mtp-10 msp-20" className="p-0 px-0" />
+    </div>
+</div>
           {/* END TITULO */}
 
           {/* BEGIN CONTENIDO */}

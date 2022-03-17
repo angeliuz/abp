@@ -33,7 +33,16 @@ function Page016(props) {
                 Veo el video e identifico las tareas que debo llevar a cabo en cada etapa del proyecto.
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
-              <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} className="p-0 px-1" />
+              <ModalVideo
+                                            id={"p" + pagina + "_video" + (indexInput += 1)}
+                                            linkVideo="682624537"
+                                            tituloVideo="Limpia tu huella II"
+                                            tipoVideo="vimeo"
+                                            image={"images/generales/play.svg"}
+                                            colorUnidad={background}
+                                            clasesImagen="cambio hp-40 mtp-10"
+                                            className="p-0 px-1"
+                                        />
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
@@ -116,7 +125,7 @@ function Page016(props) {
                         </div>
                         <div className="f-Ubuntu-L fsp-15 ptp-2 text-start">Hoy he descubierto que</div>
                       </div>
-                      <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
+                      <div className="w-100 psp-20 pep-10 ptp-0 pbp-0">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                       </div>
                     </div>
@@ -129,7 +138,7 @@ function Page016(props) {
                         </div>
                         <div className="f-Ubuntu-L fsp-15 ptp-2 text-start">Quisiera profundizar sobre</div>
                       </div>
-                      <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
+                      <div className="w-100 psp-20 pep-10 ptp-0 pbp-0">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                       </div>
                     </div>

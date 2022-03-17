@@ -154,10 +154,11 @@ function Page041(props) {
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-10 mbp-60 psp-60 pep-30 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-10 mbp-80 psp-60 pep-30 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100 position-relative">
-              <div className="position-absolute top-50 start-0 translate-middle zindex-2"><img src={"images/page_" + pagina + "/papel.png"} className="hp-50 mep-30" alt="" /></div>
+              
               <div className="col-12 p-2 m-0 position-relative bgc-white border-style-solid border-color-dark border-1">
+              <div className="position-absolute top-50 start-0 translate-middle zindex-2"><img src={"images/page_" + pagina + "/papel.png"} className="hp-50 mep-30" alt="" /></div>
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-250" />
               </div>
             </div>

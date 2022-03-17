@@ -99,7 +99,7 @@ function Page034(props) {
                         </div>
                     </div>
 
-                    <div className="ptp-10 container-titulo-global mbp-50">
+                    <div className="ptp-10 container-titulo-global mbp-70">
                         <div className="d-flex psp-20">
                             {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_001.svg"} alt="" /> */}
                             <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>

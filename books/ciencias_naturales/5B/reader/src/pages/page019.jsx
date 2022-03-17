@@ -156,7 +156,7 @@ function Page019(props) {
                     <div className="col-6 p-0 m-0 position-relative">
 
                       <div className="d-flex msp-10 mep-10 mtp-30 mbp-10 position-relative w-100">
-                        <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-0  zindex-1">
+                        <div className="position-absolute top-0 start-50 translate-middle msp--10 mtp-0  zindex-1">
 
                           <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
                             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />

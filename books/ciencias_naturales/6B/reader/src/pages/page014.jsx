@@ -37,7 +37,7 @@ function Page014(props) {
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_002.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"81"} image={"images/page_" + pagina + "/img_002.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
           {/* END TITULO */}
@@ -74,7 +74,8 @@ function Page014(props) {
 
                 <div className="ptp-50 row w-100 position-relative">
 
-                  <div className="col-md-6 col-12 pbp-20">
+                  <div className="col-md-6 col-12 pbp-20 position-relative">
+                  <div className="position-absolute top-0 start-0 translate-middle msp-0 zindex-1"><img src={"images/page_" + pagina + "/img_008.png"} className="wp-40 mtp-240" alt="" /></div>
                     <div className="bgc-white border-style-solid border-2 border-color-saitama rounded-p-20 px-2 ptp-5 pbp-20">
                       <div className="text-start f-Ubuntu-M ">Alternativa 1</div>
                       <div className="">
@@ -115,7 +116,7 @@ function Page014(props) {
                   </div>
 
                   <div className="position-absolute top-0 start-50 translate-middle msp--120 zindex-1"><img src={"images/page_" + pagina + "/espiral_1.svg"} className="wp-100 mtp-40" alt="" /></div>
-                  <div className="position-absolute top-0 start-0 translate-middle msp--10 zindex-1"><img src={"images/page_" + pagina + "/img_008.png"} className="wp-40 mtp-240" alt="" /></div>
+                  
                 </div>
               </div>
               <div className="position-absolute top-0 start-100 translate-middle msp-5 mtp--5 zindex-1"><img src={"images/page_" + pagina + "/img_004.svg"} className="wp-30" alt="" /></div>

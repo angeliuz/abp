@@ -28,7 +28,7 @@ function Page064(props) {
                 Observo los ejemplos. Luego, dibujo el boceto de una portada de la revista a partir del color, el símbolo y la imagen que seleccioné.
               </div>
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_064/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"64"} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={""} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
 

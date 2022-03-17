@@ -37,7 +37,8 @@ function Page019(props) {
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                 Vemos el video. Luego, leemos y numeramos las tareas del proyecto.
               </div>
-              <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
+              <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} linkVideo="682622834" tituloVideo="Expresamos lo que somos II" tipoVideo="vimeo" image={"images/generales/play.svg"} colorUnidad={background} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
+ 
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
@@ -56,7 +57,7 @@ function Page019(props) {
                       <div className="position-absolute top-50 start-50 msp-0 mtp--10 translate-middle">
                         <div className="ovalo-p19 border-style-solid border-1 border-color-bulma position-relative">
                           <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado-p19 bgc-white border-style-solid border-color-lightDark border-1">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
+                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-25 min-hp-25" />
                           </div>
                         </div>
                       </div>
@@ -72,7 +73,7 @@ function Page019(props) {
                       <div className="position-absolute top-50 start-50 msp-0 mtp--10 translate-middle">
                         <div className="ovalo-p19 border-style-solid border-1 border-color-pikachu position-relative">
                           <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado-p19 bgc-white border-style-solid border-color-lightDark border-1">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
+                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-25 min-hp-25" />
                           </div>
                         </div>
                       </div>
@@ -87,7 +88,7 @@ function Page019(props) {
                       <div className="position-absolute top-50 start-50 msp-0 mtp--10 translate-middle">
                         <div className="ovalo-p19 border-style-solid border-1 border-color-soldados position-relative">
                           <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado-p19 bgc-white border-style-solid border-color-lightDark border-1">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
+                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-25 min-hp-25" />
                           </div>
                         </div>
                       </div>
@@ -102,7 +103,7 @@ function Page019(props) {
                       <div className="position-absolute top-50 start-50 msp-0 mtp--10 translate-middle">
                         <div className="ovalo-p19 border-style-solid border-1 border-color-saitama position-relative">
                           <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado-p19 bgc-white border-style-solid border-color-lightDark border-1">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
+                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-25 min-hp-25" />
                           </div>
                         </div>
                       </div>
@@ -117,7 +118,7 @@ function Page019(props) {
                       <div className="position-absolute top-50 start-50 msp-0 mtp--10 translate-middle">
                         <div className="ovalo-p19 border-style-solid border-1 border-color-android18 position-relative">
                           <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado-p19 bgc-white border-style-solid border-color-lightDark border-1">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
+                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-25 min-hp-25" />
                           </div>
                         </div>
                       </div>
@@ -133,7 +134,7 @@ function Page019(props) {
                       <div className="position-absolute top-50 start-50 msp-0 mtp--15 translate-middle">
                         <div className="ovalo-p19 border-style-solid border-1 border-color-pidgey position-relative">
                           <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle cuadrado-p19 bgc-white border-style-solid border-color-lightDark border-1">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-25" />
+                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 lhp-25 min-hp-25" />
                           </div>
                         </div>
                       </div>

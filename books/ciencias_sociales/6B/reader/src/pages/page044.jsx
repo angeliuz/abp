@@ -31,7 +31,7 @@ function Page044(props) {
                                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-20 mep-5 wp-20" alt="" />
                                         </div>
                                         <div>
-                                            <span className="fsp-16 text-start f-pixilate-regular">
+                                            <span className="fsp-16 text-start f-Ubuntu-R">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
                                                     ANALIZAR</span> diversas <br /> obras visuales.
                                             </span>
@@ -46,7 +46,7 @@ function Page044(props) {
                                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-20 mep-5 wp-20" alt="" />
                                         </div>
                                         <div className="d-flex">
-                                            <span className="fsp-16 text-start f-pixilate-regular">
+                                            <span className="fsp-16 text-start f-Ubuntu-R">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
                                                     DISEÑAR</span> nuestra obra <br /> para la exposición.
                                             </span>
@@ -61,7 +61,7 @@ function Page044(props) {
                                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-20 mep-5 wp-20" alt="" />
                                         </div>
                                         <div className="d-flex">
-                                            <span className="fsp-16 text-start f-pixilate-regular">
+                                            <span className="fsp-16 text-start f-Ubuntu-R">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
                                                     VALORAR</span> el <br /> trabajo realizado.
                                             </span>

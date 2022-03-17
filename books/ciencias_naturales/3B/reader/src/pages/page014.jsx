@@ -32,7 +32,7 @@ function Page014(props) {
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_007/ig.svg" alt=""  /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">
-                Marco con un <img src="images/page_014/img_001.svg" className="" alt="" /> lo que sé. Luego, completo el juego en la revista.
+                Marco con un <img src="images/page_014/img_001.svg" className="mbp-10" alt="" /> lo que sé. Luego, completo el juego en la revista.
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_002.jpg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
@@ -122,7 +122,7 @@ function Page014(props) {
               <div className="col-md-4 d-flex center-center pbp-20">
                 <div className="d-flex flex-column pbp-30 w-100 bgc-woody p-2 rounded-p-20 position-relative">
                   <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-5"><img src="images/page_014/img_005.png" className="wp-150 " alt="" /></div>
-                  <div className="fsp-13 lh-sm text-start bgc-white psp-10 pep-10 ptp-10 rounded-p-20">
+                  <div className="fsp-15 lh-sm text-start bgc-white psp-10 pep-10 ptp-10 rounded-p-20">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
                   </div>
                 </div>
@@ -130,7 +130,7 @@ function Page014(props) {
               <div className="col-md-4 d-flex center-center pbp-20">
                 <div className="d-flex flex-column pbp-30 w-100 bgc-milk p-2 rounded-p-20 position-relative">
                   <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-5"><img src="images/page_014/img_005.png" className="wp-150 " alt="" /></div>
-                  <div className="fsp-13 lh-sm text-start bgc-white psp-10 pep-10 ptp-10 rounded-p-20">
+                  <div className="fsp-15 lh-sm text-start bgc-white psp-10 pep-10 ptp-10 rounded-p-20">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
                   </div>
                 </div>
@@ -138,7 +138,7 @@ function Page014(props) {
               <div className="col-md-4 d-flex center-center pbp-20">
                 <div className="d-flex flex-column pbp-30 w-100 bgc-yanfei p-2 rounded-p-20 position-relative">
                   <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-5"><img src="images/page_014/img_005.png" className="wp-150 " alt="" /></div>
-                  <div className="fsp-13 lh-sm text-start bgc-white psp-10 pep-10 ptp-10 rounded-p-20">
+                  <div className="fsp-15 lh-sm text-start bgc-white psp-10 pep-10 ptp-10 rounded-p-20">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
                   </div>
                 </div>

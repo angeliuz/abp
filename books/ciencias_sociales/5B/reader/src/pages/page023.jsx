@@ -8,6 +8,12 @@ function Page023(props) {
 
   const pagina = "023";
   var indexInput = 0;
+  const etapa = "3"
+  const background = "bgc-android18";
+  const color = "color-android18";
+  const borderColor = "border-color-android18"
+  const borderColorTabla = "border-color-azuka"
+  const bgc_cajas = "bgc-azuka";
 
   return (
     <div className="wrapper bgc-light">
@@ -16,8 +22,8 @@ function Page023(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className="cabecera-v2 bgc-android18 d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja wp-150 text-center fsp-24 f-IntroRustG-Base">SESIÓN 4</div>
-              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Todos tenemos derechos</div>
+              <div className="caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base">SESIÓN 4</div>
+              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Todos tenemos derechos</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
@@ -51,7 +57,7 @@ function Page023(props) {
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Leo los artículos de la Declaración Universal de Derechos Humanos y completo con mi equipo.</div>
               {/* <img src="images/page_023/img_003.svg" className="cambio hp-50 text-end mtp-0 psp-10 pep-40"  alt=""  /> */}
               {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_023/img_003.svg" clasesImagen="hp-40 text-center mtp-15 msp--10" className="p-0 px-0" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"23"} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-40 text-center mtp-15 msp--10" className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"83"} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-40 text-center mtp-15 msp--10" className="p-0 px-0" />
             </div>
           </div>
 

@@ -34,7 +34,7 @@ function Page006(props) {
                                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-20 mep-5 wp-20" alt="" />
                                         </div>
                                         <div>
-                                            <span className="fsp-16 text-start f-pixilate-regular">
+                                            <span className="fsp-16 text-start f-Ubuntu-R">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start"> Comprender </span>
                                                 el desafío <br /> que nos plantean.
                                             </span>
@@ -49,7 +49,7 @@ function Page006(props) {
                                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-25 mep-5 wp-20" alt="" />
                                         </div>
                                         <div className="d-flex">
-                                            <span className="fsp-16 text-start f-pixilate-regular">
+                                            <span className="fsp-16 text-start f-Ubuntu-R">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">COMPROMETERME </span>
                                                 con el <br /> desafío que nos plantean.
                                             </span>

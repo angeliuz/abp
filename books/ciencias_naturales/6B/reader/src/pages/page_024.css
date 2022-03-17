@@ -1,0 +1,496 @@
+.ms-18 {
+    margin-left: 18%;
+}
+
+.mt-8 {
+    margin-top: 8%;
+}
+
+.w-x {
+    width: 100%;
+}
+
+@media all and (min-width: 820px) {
+    .esquema-p24 {
+        width: 820px;
+    }
+
+    .ancho-ansp24 {
+        width: 130px;
+    }
+
+    .ancho-ans2p24 {
+        width: 120px;
+    }
+
+    .red-0p24 {
+        margin-top: 275px;
+        margin-left: 655px;
+    }
+
+    .red-1p24 {
+        margin-top: 60px;
+        margin-left: 150px;
+    }
+
+    .red-2p24 {
+        margin-top: 60px;
+        margin-left: 310px;
+    }
+
+    .red-3p24 {
+        margin-top: 60px;
+        margin-left: 470px;
+    }
+
+    .red-4p24 {
+        margin-top: 460px;
+        margin-left: 210px;
+    }
+
+    .red-5p24 {
+        margin-top: 460px;
+        margin-left: 372px;
+    }
+
+    .normal-1p24 {
+        margin-top: 115px;
+        margin-left: 240px;
+    }
+
+    .normal-2p24 {
+        margin-top: 160px;
+        margin-left: 255px;
+    }
+
+    .normal-3p24 {
+        margin-top: 205px;
+        margin-left: 270px;
+    }
+
+    .normal-4p24 {
+        margin-top: 115px;
+        margin-left: 400px;
+    }
+
+    .normal-5p24 {
+        margin-top: 160px;
+        margin-left: 415px;
+    }
+
+    .normal-6p24 {
+        margin-top: 205px;
+        margin-left: 430px;
+    }
+
+    .normal-7p24 {
+        margin-top: 115px;
+        margin-left: 560px;
+    }
+
+    .normal-8p24 {
+        margin-top: 160px;
+        margin-left: 575px;
+    }
+
+    .normal-9p24 {
+        margin-top: 205px;
+        margin-left: 590px;
+    }
+
+    .normal-10p24 {
+        margin-top: 315px;
+        margin-left: 330px;
+    }
+
+    .normal-11p24 {
+        margin-top: 360px;
+        margin-left: 315px;
+    }
+
+    .normal-12p24 {
+        margin-top: 405px;
+        margin-left: 300px;
+    }
+
+    .normal-13p24 {
+        margin-top: 315px;
+        margin-left: 495px;
+    }
+
+    .normal-14p24 {
+        margin-top: 360px;
+        margin-left: 480px;
+    }
+
+    .normal-15p24 {
+        margin-top: 405px;
+        margin-left: 465px;
+    }
+}
+
+@media all and (max-width: 820px) {
+    .esquema-p24 {
+        width: 760px;
+    }
+    .ancho-ansp24 {
+        width: 110px;
+    }
+
+    .ancho-ans2p24 {
+        width: 100px;
+    }
+
+    .red-0p24 {
+        margin-top: 250px;
+        margin-left: 605px;
+    }
+
+    .red-1p24 {
+        margin-top: 60px;
+        margin-left: 140px;
+    }
+
+    .red-2p24 {
+        margin-top: 60px;
+        margin-left: 285px;
+    }
+
+    .red-3p24 {
+        margin-top: 60px;
+        margin-left: 435px;
+    }
+
+    .red-4p24 {
+        margin-top: 430px;
+        margin-left: 190px;
+    }
+
+    .red-5p24 {
+        margin-top: 430px;
+        margin-left: 345px;
+    }
+
+    .normal-1p24 {
+        margin-top: 110px;
+        margin-left: 220px;
+    }
+
+    .normal-2p24 {
+        margin-top: 150px;
+        margin-left: 230px;
+    }
+
+    .normal-3p24 {
+        margin-top: 190px;
+        margin-left: 240px;
+    }
+
+    .normal-4p24 {
+        margin-top: 110px;
+        margin-left: 375px;
+    }
+
+    .normal-5p24 {
+        margin-top: 150px;
+        margin-left: 385px;
+    }
+
+    .normal-6p24 {
+        margin-top: 190px;
+        margin-left: 395px;
+    }
+
+    .normal-7p24 {
+        margin-top: 110px;
+        margin-left: 515px;
+    }
+
+    .normal-8p24 {
+        margin-top: 150px;
+        margin-left: 525px;
+    }
+
+    .normal-9p24 {
+        margin-top: 190px;
+        margin-left: 535px;
+    }
+
+    .normal-10p24 {
+        margin-top: 290px;
+        margin-left: 315px;
+    }
+
+    .normal-11p24 {
+        margin-top: 330px;
+        margin-left: 305px;
+    }
+
+    .normal-12p24 {
+        margin-top: 370px;
+        margin-left: 295px;
+    }
+
+    .normal-13p24 {
+        margin-top: 290px;
+        margin-left: 460px;
+    }
+
+    .normal-14p24 {
+        margin-top: 330px;
+        margin-left: 450px;
+    }
+
+    .normal-15p24 {
+        margin-top: 370px;
+        margin-left: 430px;
+    }
+}
+
+@media all and (max-width: 720px) {
+    .msp-respon-p24 {
+        margin-left: -50px;
+    }
+    .esquema-p24 {
+        width: 690px;
+    }
+    .esquema-p24 {
+        width: 760px;
+    }
+    .ancho-ansp24 {
+        width: 110px;
+    }
+
+    .ancho-ans2p24 {
+        width: 100px;
+    }
+
+    .red-0p24 {
+        margin-top: 250px;
+        margin-left: 605px;
+    }
+
+    .red-1p24 {
+        margin-top: 60px;
+        margin-left: 140px;
+    }
+
+    .red-2p24 {
+        margin-top: 60px;
+        margin-left: 285px;
+    }
+
+    .red-3p24 {
+        margin-top: 60px;
+        margin-left: 435px;
+    }
+
+    .red-4p24 {
+        margin-top: 430px;
+        margin-left: 190px;
+    }
+
+    .red-5p24 {
+        margin-top: 430px;
+        margin-left: 345px;
+    }
+
+    .normal-1p24 {
+        margin-top: 110px;
+        margin-left: 220px;
+    }
+
+    .normal-2p24 {
+        margin-top: 150px;
+        margin-left: 230px;
+    }
+
+    .normal-3p24 {
+        margin-top: 190px;
+        margin-left: 240px;
+    }
+
+    .normal-4p24 {
+        margin-top: 110px;
+        margin-left: 375px;
+    }
+
+    .normal-5p24 {
+        margin-top: 150px;
+        margin-left: 385px;
+    }
+
+    .normal-6p24 {
+        margin-top: 190px;
+        margin-left: 395px;
+    }
+
+    .normal-7p24 {
+        margin-top: 110px;
+        margin-left: 515px;
+    }
+
+    .normal-8p24 {
+        margin-top: 150px;
+        margin-left: 525px;
+    }
+
+    .normal-9p24 {
+        margin-top: 190px;
+        margin-left: 535px;
+    }
+
+    .normal-10p24 {
+        margin-top: 290px;
+        margin-left: 315px;
+    }
+
+    .normal-11p24 {
+        margin-top: 330px;
+        margin-left: 305px;
+    }
+
+    .normal-12p24 {
+        margin-top: 370px;
+        margin-left: 295px;
+    }
+
+    .normal-13p24 {
+        margin-top: 290px;
+        margin-left: 460px;
+    }
+
+    .normal-14p24 {
+        margin-top: 330px;
+        margin-left: 450px;
+    }
+
+    .normal-15p24 {
+        margin-top: 370px;
+        margin-left: 430px;
+    }
+}
+
+@media all and (max-width: 650px) {
+    .msp-respon-p24 {
+        margin-left: 0px;
+    }
+    .esquema-p24 {
+        width: 630px;
+        margin-left: -30px;
+    }
+
+    .ancho-ansp24 {
+        width: 80px;
+        height: 25px;
+    }
+
+    .ancho-ans2p24 {
+        width: 80px;
+    }
+
+    .red-0p24 {
+        margin-top: 210px;
+        margin-left: 485px;
+    }
+
+    .red-1p24 {
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+
+    .red-2p24 {
+        margin-top: 50px;
+        margin-left: 210px;
+    }
+
+    .red-3p24 {
+        margin-top: 50px;
+        margin-left: 335px;
+    }
+
+    .red-4p24 {
+        margin-top: 355px;
+        margin-left: 130px;
+    }
+
+    .red-5p24 {
+        margin-top: 355px;
+        margin-left: 260px;
+    }
+
+    .normal-1p24 {
+        margin-top: 90px;
+        margin-left: 160px;
+    }
+
+    .normal-2p24 {
+        margin-top: 125px;
+        margin-left: 175px;
+    }
+
+    .normal-3p24 {
+        margin-top: 160px;
+        margin-left: 190px;
+    }
+
+    .normal-4p24 {
+        margin-top: 90px;
+        margin-left: 280px;
+    }
+
+    .normal-5p24 {
+        margin-top: 125px;
+        margin-left: 295px;
+    }
+
+    .normal-6p24 {
+        margin-top: 160px;
+        margin-left: 310px;
+    }
+
+    .normal-7p24 {
+        margin-top: 90px;
+        margin-left: 405px;
+    }
+
+    .normal-8p24 {
+        margin-top: 125px;
+        margin-left: 420px;
+    }
+
+    .normal-9p24 {
+        margin-top: 160px;
+        margin-left: 435px;
+    }
+
+    .normal-10p24 {
+        margin-top: 245px;
+        margin-left: 225px;
+    }
+
+    .normal-11p24 {
+        margin-top: 280px;
+        margin-left: 210px;
+    }
+
+    .normal-12p24 {
+        margin-top: 315px;
+        margin-left: 195px;
+    }
+
+    .normal-13p24 {
+        margin-top: 245px;
+        margin-left: 345px;
+    }
+
+    .normal-14p24 {
+        margin-top: 280px;
+        margin-left: 330px;
+    }
+
+    .normal-15p24 {
+        margin-top: 315px;
+        margin-left: 320px;
+    }
+}

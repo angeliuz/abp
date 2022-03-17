@@ -9,8 +9,10 @@ function Page075(props) {
   var indexInput = 0;
   const etapa = "6"
   const background = "bgc-pikachu";
-  const bgc_cajas = "bgc-quaternary";
   const color = "color-pikachu";
+  const borderColor = "border-color-pikachu"
+  const borderColorTabla = "border-color-kokomi"
+  const bgc_cajas = "bgc-kokomi";
 
   return (
     <div className="wrapper bgc-light">
@@ -19,8 +21,8 @@ function Page075(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className={"cabecera-v2 " + background + " d-flex flex-column"}>
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja wp-160 text-center fsp-24 f-IntroRustG-Base">SESIÓN 19</div>
-              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">La publicación de la revista</div>
+              <div className="caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base">SESIÓN 19</div>
+              <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">La publicación de la revista</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
@@ -55,32 +57,30 @@ function Page075(props) {
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                 Veo el video, leo la carta y destaco las ideas principales.
               </div>
-              <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/page_007/img_002.jpg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" />
+              <ModalVideo
+                id={"p" + pagina + "_video" + (indexInput += 1)}
+                linkVideo="662245384"
+                tituloVideo="Reporteros en acción III"
+                tipoVideo="vimeo"
+                image={"images/generales/play.svg"}
+                colorUnidad={background}
+                clasesImagen="cambio hp-40 mtp-10"
+                className="p-0 px-1"
+              />
             </div>
           </div>
 
           <div className="ptp-0 psp-60 mbp-80 contenedor-pagina">
-
             <div className="cb-paper">
               <div className="cb-paper-content f-Ubuntu-L text-start position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle visible-768 zindex-1 msp--10 mtp-50"><img src="images/page_075/img_001.png" className="hp-70" alt="" /></div>
                 <div className="position-absolute top-100 start-0 translate-middle visible-768 zindex-1 msp--10 mtp--40"><img src="images/page_075/img_003.png" className="hp-70" alt="" /></div>
-
                 <p className="text-start">Queridos estudiantes,</p>
                 <p>Es momento de un disfrutar. Han trabajado arduamente para que la revista esté lista. Solo falta el paso más significativo: publicarla para que puede ser leída por la comunidad.</p>
-
                 <p>Para ello, es necesario que identifiquen qué necesitan para elaborar algunas copias que queden a disposición de la comunidad y cómo pueden difundir su revista vía web.</p>
-
-                <p>
-                  Al publicar la revista, contribuirán a crear una sociedad más respetuosa de los derechos y harán que se escuche la voz de quienes elaboraron la revista y quienes aportaron su testimonio.
-                </p>
-
+                <p>Al publicar la revista, contribuirán a crear una sociedad más respetuosa de los derechos y harán que se escuche la voz de quienes elaboraron la revista y quienes aportaron su testimonio.</p>
                 <p>Felicidades y muchas gracias.</p>
-
-
-                <p className="cb-paper-sign">
-                  Nibaldo.
-                </p>
+                <p className="cb-paper-sign">Nibaldo.</p>
               </div>
             </div>
           </div>

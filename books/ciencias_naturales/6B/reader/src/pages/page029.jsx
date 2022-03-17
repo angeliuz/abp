@@ -74,11 +74,11 @@ function Page029(props) {
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_029/img_003.svg" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_029/img_001.svg" className="p-0 px-1" /> */}
-                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"89"} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
                         </div>
                     </div>
 
-                    <div className="d-flex global-margin h-100  mtp-0 mbp-0 psp-60 pep-0 ptp-0 pbp-0">
+                    <div className="d-flex global-margin h-100  mtp-0 mbp-0 psp-20 pep-0 ptp-0 pbp-0">
                         <div className="row p-0 msp-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative">
 
@@ -127,7 +127,7 @@ function Page029(props) {
                         </div>
                     </div>
 
-                    <div className="d-flex global-margin h-100  mtp-0 mbp-0 psp-60 pep-0 ptp-0 pbp-0">
+                    <div className="d-flex global-margin h-100  mtp-0 mbp-0 psp-20 pep-0 ptp-0 pbp-0">
                         <div className="row p-0 msp-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative">
 

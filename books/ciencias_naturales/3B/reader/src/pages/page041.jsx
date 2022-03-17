@@ -78,9 +78,9 @@ function Page041(props) {
                 <div className="col-2 border-style-solid  border-color-pidgey border-1 border-right-hidden border-bottom-hidden bgc-pantro color-dark f-Ubuntu-R p-0 m-0">Sí</div>
                 <div className="col-2 border-style-solid  border-color-pidgey border-1 border-bottom-hidden bgc-pantro color-dark f-Ubuntu-R p-0 m-0">No</div>
 
-                <div className="col-8 border-style-solid  border-color-pidgey border-1 border-bottom-hidden border-right-hidden  bgc-white color-pidgey f-Ubuntu-B p-0 m-0">
+                <div className="col-8 border-style-solid  border-color-pidgey border-1 border-bottom-hidden border-right-hidden bgc-white p-0 m-0">
                   <div className="d-flex flex-column text-start w-100 psp-10 pep-10 ptp-5 pbp-5">
-                    Pregunta 1
+                  <div className="color-pidgey f-Ubuntu-B">  Pregunta 1</div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                   </div>
                 </div>
@@ -97,9 +97,9 @@ function Page041(props) {
                   </div>
                 </div>
 
-                <div className="col-8 border-style-solid  border-color-pidgey border-1 border-bottom-hidden border-right-hidden  bgc-white color-pidgey f-Ubuntu-B p-0 m-0">
+                <div className="col-8 border-style-solid  border-color-pidgey border-1 border-bottom-hidden border-right-hidden  bgc-white p-0 m-0">
                   <div className="d-flex flex-column text-start w-100 psp-10 pep-10 ptp-5 pbp-5">
-                    Pregunta 2
+                  <div className="color-pidgey f-Ubuntu-B">  Pregunta 2</div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                   </div>
                 </div>
@@ -113,9 +113,9 @@ function Page041(props) {
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center wp-30 flex-grow-1 lhp-30 min-hp-35" />
                   </div>
                 </div>
-                <div className="col-8 border-style-solid  border-color-pidgey border-1 border-right-hidden  bgc-white color-pidgey f-Ubuntu-B p-0 m-0">
+                <div className="col-8 border-style-solid  border-color-pidgey border-1 border-right-hidden bgc-white p-0 m-0">
                   <div className="d-flex flex-column text-start w-100 psp-10 pep-10 ptp-5 pbp-5">
-                    Pregunta 3
+                  <div className="color-pidgey f-Ubuntu-B">  Pregunta 3</div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                   </div>
                 </div>

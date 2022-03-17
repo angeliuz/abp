@@ -42,7 +42,7 @@ function Page024(props) {
                             {/* <img src={"images/page_"+pagina+"/img_00.svg"} className="wp-100" alt=""/> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"81"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
                         </div>
                     </div>
 
@@ -61,7 +61,7 @@ function Page024(props) {
 
                             <div className="col-3 p-0 m-0 position-relative">
 
-                                <div className="d-flex msp-10 mep-10 mtp-0 mbp-10 position-relative">
+                                <div className="d-flex msp-10 mep-0 mtp-0 mbp-10 position-relative">
                                     <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-1">
 
                                         <div className="wp-35 hp-35 bgc-white border-style-solid border-2 border-color-bulma bgc-white rounded-circle d-flex center-center f-Ubuntu-B color-bulma">
@@ -82,7 +82,7 @@ function Page024(props) {
                             </div>
                             <div className="col-3 p-0 m-0 position-relative">
 
-                                <div className="d-flex msp-10 mep-10 mtp-0 mbp-10 position-relative">
+                                <div className="d-flex msp-0 mep-10 mtp-0 mbp-10 position-relative">
                                     <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0  zindex-1">
 
                                         <div className="wp-35 hp-35 bgc-white border-style-solid border-2 border-color-bulma bgc-white rounded-circle d-flex center-center f-Ubuntu-B color-bulma">

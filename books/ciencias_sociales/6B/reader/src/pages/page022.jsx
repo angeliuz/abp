@@ -47,7 +47,7 @@ function Page022(props) {
                       />
                     </div>
                     <div>
-                      <span className="fsp-16 text-start f-pixilate-regular">
+                      <span className="fsp-16 text-start f-Ubuntu-R">
                         <span className="fsp-16 f-IntroRustG-Base text-start">
                           REFLEXIONAR
                         </span>{" "}
@@ -78,7 +78,7 @@ function Page022(props) {
                       />
                     </div>
                     <div className="d-flex">
-                      <span className="fsp-16 text-start f-pixilate-regular">
+                      <span className="fsp-16 text-start f-Ubuntu-R">
                         <span className="fsp-16 f-IntroRustG-Base text-start">
                           IDENTIFICAR
                         </span>{" "}
@@ -108,12 +108,12 @@ function Page022(props) {
                       />
                     </div>
                     <div className="d-flex">
-                      <span className="fsp-16 text-start f-pixilate-regular">
+                      <span className="fsp-16 text-start f-Ubuntu-R">
                         <span className="fsp-16 f-IntroRustG-Base text-start">
                           DEFINIR
                         </span>{" "}
                         qué queremos <br /> expresar acerca de los<br />
-                        derechos en nuestra<br/>obra de arte.
+                        derechos en nuestra<br />obra de arte.
                       </span>
                     </div>
                   </div>
@@ -141,7 +141,7 @@ function Page022(props) {
                         <span className="fsp-16 f-IntroRustG-Base text-start">
                           REFLEXIONAR
                         </span>{" "}
-                        sobre<br/> el trabajo que 
+                        sobre<br /> el trabajo que
                         hemos realizado.
                       </span>
                     </div>

@@ -40,13 +40,13 @@ function Page035(props) {
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"85"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
 
 
           <div className="row mx-4 position-relative">
-            <div className="col-md-12 col-md-6 position-relative mbp-10">
+            <div className="col-sm-12 col-md-6 position-relative mbp-10">
 
 
               <div className="box-color-24-1 mtp-12">
@@ -62,7 +62,7 @@ function Page035(props) {
               </div>
             </div>
 
-            <div className="col-md-12 col-md-6 mbp-40 position-relative">
+            <div className="col-sm-12 col-md-6 mbp-40 position-relative">
               <div className="position-absolute posicion-centro-centro translate-middle zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="rotacion-centro-centro" alt="" /></div>
               <div className="box-color-24-2 mtp-12">
                 <div className="f-Ubuntu-M alinea fsp-18 rounded-caja bgc-saitama w-100 h-100 p-2 text-center color-white min-hp-70 d-flex center-center">

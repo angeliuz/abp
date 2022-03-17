@@ -119,9 +119,9 @@
 .cb-tarjeta-p72{
   position: absolute;
   left: -37px;
-  top: 50px;
-    width: 60px;
-    z-index: 1;
+  top: 40px;
+  width: 60px;
+  z-index: 1;
 }
 .triangulo-p72 { 
   position: relative;

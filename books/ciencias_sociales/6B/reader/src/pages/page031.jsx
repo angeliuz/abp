@@ -75,8 +75,8 @@ function Page031(props) {
                             <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_003.svg"} alt="" />
                             <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>1</div>
                             <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                                Completo a partir del derecho<br/>
-                                que seleccionamos para inspirar<br/>
+                                Completo a partir del derecho<br />
+                                que seleccionamos para inspirar<br />
                                 nuestra obra de arte.
                             </div>
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
@@ -92,15 +92,15 @@ function Page031(props) {
 
                                 <div className="row">
                                     <div className="col-6 position-relative">
-                                    <div className="position-absolute top-0 start-100 translate-middle visible-768 msp--20 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="" alt="" /></div>
-                                    <div className="position-absolute top-100 start-0 translate-middle msp-50 mtp--20 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="" alt="" /></div>
-                                        <div className="bgc-kai w-100 border-style-solid border-2 border-color-kai m-1">
+                                        <div className="position-absolute top-0 start-100 translate-middle visible-768 msp--20 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="" alt="" /></div>
+                                        <div className="position-absolute top-100 start-0 translate-middle msp-50 mtp--20 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="" alt="" /></div>
+                                        <div className="bgc-jack w-100  m-1">
 
                                             <div className="f-Ubuntu-R fsp-16 p-3 text-start align-self-center">
                                                 ¿Cuál pienso que es la situación de<br />
                                                 este derecho en el mundo?
                                             </div>
-                                            <div className="psp-20 pep-20 ptp-0 pbp-5 m-0  w-100 bgc-kai">
+                                            <div className="psp-20 pep-20 ptp-0 pbp-5 m-0  w-100 bgc-jack">
                                                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-600" />
                                             </div>
 
@@ -108,28 +108,28 @@ function Page031(props) {
                                     </div>
                                     <div className="col-6 position-relative ptp-50">
                                         {/* <div className="position-absolute top-0 start-0   msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className=" msp-10 mtp--5" alt="" /></div> */}
-                                        <div className="bgc-kai w-100 border-style-solid border-2 border-color-kai  m-1">
+                                        <div className="bgc-jack w-100   m-1">
 
                                             <div className="f-Ubuntu-R fsp-16 p-3 text-center align-self-center mtp-40">
                                                 ¿Qué piensa el resto de mi grupo?
                                             </div>
-                                            <div className="psp-20 pep-20 ptp-0 pbp-5 m-0  w-100 bgc-kai">
+                                            <div className="psp-20 pep-20 ptp-0 pbp-5 m-0  w-100 bgc-jack">
                                                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-600" />
                                             </div>
 
                                         </div>
                                     </div>
                                     <div className="col-6 position-absolute top-0 start-100 translate-middle msp--170 mtp-20 ">
-                                    <div className="rotate-5">
-                                        <div className="bgc-makoto w-100 border-style-solid border-1 p-2 box-shadow-simple">
-                                            <div className="f-Ubuntu-L fsp-16 text-center">El derecho que inspirará nuestra obra es:</div>
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
-                                            <div className="position-absolute top-100 start-100 translate-middle msp--10 mtp--10 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
+                                        <div className="rotate-5">
+                                            <div className="bgc-makoto w-100 border-style-solid border-1 p-2 box-shadow-simple">
+                                                <div className="f-Ubuntu-L fsp-16 text-center">El derecho que inspirará nuestra obra es:</div>
+                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                                                <div className="position-absolute top-100 start-100 translate-middle msp--10 mtp--10 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
+                                            </div>
                                         </div>
-                                    </div>
 
                                     </div>
-                                    
+
                                 </div>
 
                             </div>

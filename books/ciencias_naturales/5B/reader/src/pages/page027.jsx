@@ -84,7 +84,7 @@ function Page027(props) {
           <div className="d-flex global-margin mtp-20 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
 
-              <div className="col-md-12 col-md-4 p-0 m-0 position-relative">
+              <div className="col-sm-12 col-md-4 p-0 m-0 position-relative">
 
                 <div className="d-flex msp-10 mep-10 mtp-10 mbp-10 ">
                   <div className="w-100 border-style-solid border-2 border-color-milk rounded-p-10">
@@ -100,7 +100,7 @@ function Page027(props) {
                 </div>
 
               </div>
-              <div className="col-md-12 col-md-4 p-0 m-0 position-relative">
+              <div className="col-sm-12 col-md-4 p-0 m-0 position-relative">
 
                 <div className="d-flex msp-10 mep-10 mtp-10 mbp-10 ">
                   <div className="w-100 border-style-solid border-2 border-color-milk rounded-p-10">
@@ -116,7 +116,7 @@ function Page027(props) {
                 </div>
 
               </div>
-              <div className="col-md-12 col-md-4 p-0 m-0 position-relative">
+              <div className="col-sm-12 col-md-4 p-0 m-0 position-relative">
 
                 <div className="d-flex msp-10 mep-10 mtp-10 mbp-10 ">
                   <div className="w-100 border-style-solid border-2 border-color-milk rounded-p-10">

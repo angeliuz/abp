@@ -75,7 +75,7 @@ function Page043(props) {
             </div>
             <div className="position-absolute top-50 start-50 msp--275 mtp-35 zindex-1">
               <div className="d-flex flex-column wp-250 psp-10 pep-10 ptp-0 pbp-0 ">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-120" />1
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-120" />
               </div>
             </div>
             <div className="position-absolute top-0 start-50 msp-55 mtp-60 zindex-1">

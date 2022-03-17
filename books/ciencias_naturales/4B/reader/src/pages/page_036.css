@@ -1,17 +1,3 @@
-.mxwp-120 {
-  max-width: 120px;
-}
-.cuadrado-p35 {
-  min-width: 25px;
-  max-width: 25px;
-  min-height: 25px;
-  max-height: 25px;
-}
 .min-hp-455-r {
   min-height: 455px;
-}
-@media (max-width: 767px) {
-  .min-hp-a-r {
-    min-height: 355px;
-  }
 }

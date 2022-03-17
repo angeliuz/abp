@@ -110,7 +110,7 @@ function Page031(props) {
                     <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
                         <div className="row p-0 m-0 w-100">
 
-                            <div className="col-md-12 col-md-6 p-0 m-0 position-relative">
+                            <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
 
                                 <div className="d-flex msp-10 mep-10 mtp-10 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
                                     <div className="row p-0 m-0 w-100">
@@ -130,7 +130,7 @@ function Page031(props) {
 
                             </div>
 
-                            <div className="col-md-12 col-md-6 p-0 m-0 position-relative">
+                            <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
 
                                 <div className="d-flex msp-10 mep-10 mtp-10 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
                                     <div className="row p-0 m-0 w-100">
@@ -176,7 +176,7 @@ function Page031(props) {
                                     <div className="position-absolute top-50 start-50 translate-middle msp--0 mtp-170 visible-768 zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-60" alt="" /></div>
                                 </div>
 
-                                <div className="col-md-12 col-md-6">
+                                <div className="col-sm-12 col-md-6">
                                     <div className="text-center w-100 border-1 border-style-solid border-color-akuma rounded-p-10  mtp-10">
                                         <div className="lhp-20 color-white fw-700 rounded-set-6 hp-50  p-2 bgc-akuma d-flex justify-content-center align-items-center">
                                             en su mayoría, la comida que se vendiera
@@ -187,7 +187,7 @@ function Page031(props) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-12 col-md-6">
+                                <div className="col-sm-12 col-md-6">
                                     <div className="text-center w-100 border-1 border-style-solid border-color-akuma rounded-p-10 mtp-10">
                                         <div className="lhp-15 color-white fw-700 rounded-set-6 hp-50 p-2 bgc-vegeta d-flex justify-content-center align-items-center">
                                             en su mayoría, la comida que se

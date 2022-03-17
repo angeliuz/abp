@@ -52,7 +52,7 @@ function Page015(props) {
                 <div className="col-12 p-0 m-0 position-relative">
                   <div className="color-dhalsim f-Ubuntu-B fsp-15 mtp-10">De los alimentos disponibles en la fiesta, creo que...</div>
                 </div>
-                <div className="col-md-12 col-md-6 psp-10 pep-10 m-0 position-relative">
+                <div className="col-sm-12 col-md-6 psp-10 pep-10 m-0 position-relative">
 
                   <div className="bgc-white rounded-p-10 border-style-solid border-color-birdie border-2 p-2 msp-0 mep-0 mtp-0 mbp-10 f-Ubuntu-L fsp-15 ">
                     <div className="d-flex flex-column position-relative w-100 text-start ">
@@ -63,7 +63,7 @@ function Page015(props) {
 
                 </div>
 
-                <div className="col-md-12 col-md-6 psp-10 pep-10 m-0 position-relative">
+                <div className="col-sm-12 col-md-6 psp-10 pep-10 m-0 position-relative">
                   <div className="position-absolute posicion-centro-centro translate-middle zindex-1"><img src={"images/generales/espiral3.svg"} className="hp-160 rotacion-centro-centro" alt="" /></div>
 
                   <div className="bgc-white rounded-p-10 border-style-solid border-color-birdie border-2 p-2 msp-0 mep-0 mtp-0 mbp-20 f-Ubuntu-L fsp-15 ">

@@ -37,7 +37,7 @@ function Page036(props) {
             <div className="bgc-white rounded-p-5 psp-10 ptp-5 pep-2 pbp-10 w-100 border-style-solid border-1">
               <div className="position-relative">
                 <div className="d-flex w-100">
-                  <div className="min-hp-100 w-100 rounded-p-10 bgc-sid psp-20 pep-20 ptp-10 pbp-20">
+                  <div className="min-hp-100 w-100 rounded-p-10 bgc-pantro psp-20 pep-20 ptp-10 pbp-20">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-800" />
                   </div>
                 </div>

@@ -5,6 +5,8 @@ import ModalBook from "../components/ModalBook";
 import Crucigrama from "../components/Crucigrama";
 import CheckMultiple from "../components/CheckMultiple";
 import ModalRecortable from "../components/ModalRecortable";
+import ModalVideo from "../components/ModalVideo";
+import ModalPDF from "../components/ModalPDF";
 
 import "./page_001.css";
 
@@ -19,6 +21,8 @@ function Page001() {
     const borderColorTabla = "border-color-genos"
     const bgc_cajas = "bgc-genos";
 
+    var indexTitulo = 1;
+
 
     return (
         <div className="wrapper bgc-light">
@@ -30,7 +34,7 @@ function Page001() {
                     <div className="container-titulo-global mtp-20 mbp-0">
                         <div className="d-flex psp-20">
                             <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                                1
+                                {indexTitulo++}
                             </div>
                             <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                                 Check Multiples
@@ -81,7 +85,7 @@ function Page001() {
                     <div className="container-titulo-global mtp-20 mbp-0">
                         <div className="d-flex psp-20">
                             <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                                2
+                                {indexTitulo++}
                             </div>
                             <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                                 Recortables
@@ -111,7 +115,7 @@ function Page001() {
                                                 pagina={pagina}
                                                 image={"images/page_" + pagina + "/recortable.png"}
                                                 numRecortables="3"
-                                                className="p-0 m-0 d-flex wp-200 hp-200 bgc-red pe-auto"
+                                                className="p-0 m-0 d-flex wp-200 hp-200 pe-auto"
                                             />
                                         </div>
                                     </div>
@@ -125,6 +129,125 @@ function Page001() {
                     </div>
 
 
+                    <div className="container-titulo-global mtp-20 mbp-0">
+                        <div className="d-flex psp-20">
+                            <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                                {indexTitulo++}
+                            </div>
+                            <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                                Video
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+                        <div className="row p-0 m-0 w-100">
+                            <div className="col-12 p-0 m-0 position-relative">
+
+
+                                <div className="container-titulo-global mtp-20 mbp-0">
+                                    <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+                                        xxx
+                                    </div>
+                                    <div className="d-flex psp-20">
+                                        {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
+                                        <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                                            X
+                                        </div>
+                                        <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                                            Vimeo
+                                        </div>
+                                        <ModalVideo
+                                            id={"p" + pagina + "_video" + (indexInput += 1)}
+                                            linkVideo="/662244296"
+                                            tituloVideo="Héroes del medioambiente I"
+                                            tipoVideo="vimeo"
+                                            image={"images/generales/play.svg"}
+                                            colorUnidad={background}
+                                            clasesImagen="cambio hp-40 mtp-10"
+                                            className="p-0 px-1"
+                                        />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div className="col-12 p-0 m-0 position-relative">
+
+
+                                <div className="container-titulo-global mtp-20 mbp-0">
+                                    <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+                                        xxx
+                                    </div>
+                                    <div className="d-flex psp-20">
+                                        {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
+                                        <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                                            X
+                                        </div>
+                                        <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                                            Youtube
+                                        </div>
+                                        <ModalVideo
+                                            id={"p" + pagina + "_video" + (indexInput += 1)}
+                                            linkVideo="cvakvfXj0KE"
+                                            tituloVideo="Video desde youtube"
+                                            tipoVideo="youtube"
+                                            image={"images/generales/play.svg"}
+                                            colorUnidad={background}
+                                            clasesImagen="cambio hp-40 mtp-10"
+                                            className="p-0 px-1"
+                                        />
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className="container-titulo-global mtp-20 mbp-0">
+                        <div className="d-flex psp-20">
+                            <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                                {indexTitulo++}
+                            </div>
+                            <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                                Descarga PDF
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                    <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+                        <div className="row p-0 m-0 w-100">
+                            <div className="col-12 p-0 m-0 position-relative">
+
+
+                                <div className="container-titulo-global mtp-20 mbp-0">
+
+                                    <div className="d-flex psp-20">
+                                        <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                                            xxx
+                                        </div>
+                                        <ModalPDF
+                                            id={"p" + pagina + "_video" + (indexInput += 1)}
+                                            link=""
+                                            titulo="Material descargable"
+                                            tipo="PDF"
+                                            image={"images/generales/descargable.svg"}
+                                            colorUnidad={background}
+                                            clasesImagen="cambio hp-40 mtp-10"
+                                            className="p-0 px-1"
+                                        />
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
 
 
                 </div>

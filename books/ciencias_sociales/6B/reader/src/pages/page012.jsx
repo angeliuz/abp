@@ -32,7 +32,7 @@ function Page012(props) {
                                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-20 mep-5 wp-20" alt="" />
                                         </div>
                                         <div>
-                                            <span className="fsp-16 text-start f-pixilate-regular">
+                                            <span className="fsp-16 text-start f-Ubuntu-R">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">IDENTIFICAR </span>
                                                 qué sé<br /> acerca del desafío.
                                             </span>
@@ -47,7 +47,7 @@ function Page012(props) {
                                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-25 mep-5 wp-20" alt="" />
                                         </div>
                                         <div className="d-flex">
-                                            <span className="fsp-16 text-start f-pixilate-regular">
+                                            <span className="fsp-16 text-start f-Ubuntu-R">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">IDENTIFICAR </span>
                                                 qué<br />necesito saber para<br /> afrontar el desafío.
                                             </span>
@@ -62,7 +62,7 @@ function Page012(props) {
                                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-25 mep-5 wp-20" alt="" />
                                         </div>
                                         <div className="d-flex">
-                                            <span className="fsp-16 text-start f-pixilate-regular">
+                                            <span className="fsp-16 text-start f-Ubuntu-R">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">ASIGNAR </span>
                                                 los roles<br /> para realizar el<br /> trabajo en equipo.
                                             </span>
@@ -77,8 +77,8 @@ function Page012(props) {
                                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-25 mep-5 wp-20" alt="" />
                                         </div>
                                         <div className="d-flex">
-                                            <span className="fsp-16 text-start f-pixilate-regular">
-                                                <span className="fsp-16 f-IntroRustG-Base text-start">ELABORAR</span>
+                                            <span className="fsp-16 text-start f-Ubuntu-R">
+                                                <span className="fsp-16 f-IntroRustG-Base text-start">ELABORAR </span>
                                                 un plan para<br /> superar el desafío.
                                             </span>
                                         </div>

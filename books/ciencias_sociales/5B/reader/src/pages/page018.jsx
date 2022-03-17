@@ -17,9 +17,7 @@ function Page018(props) {
         <div className="wrapper bgc-light">
             <div className="d-flex flex-column align-items-center pbp-20">
                 <div className="page bgc-white overflow-hidden position-relative" id={"page_" + pagina}>
-                    <div className="cabecera-v1 hp-80 bgc-bulma">
-
-                    </div>
+                    <div className="cabecera-v1 hp-80 bgc-bulma"></div>
 
                     <div className="ptp-10 psp-60">
                         <div className="d-flex">
@@ -80,6 +78,7 @@ function Page018(props) {
                                     <span className="w-24 f-Ubuntu-L">Algo que cambiaría para hacer mejor las actividades es</span>
                                 </div>
                             </div>
+
                             <div className="pt-0 flex-grow-1">
                                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                             </div>
@@ -93,14 +92,10 @@ function Page018(props) {
                                         <tbody>
                                             <tr>
                                                 <td>&nbsp;</td>
-                                                <td className="style-caja bgc-bulma tf-letra border-style-solid border-1 border-color-bulma f-colby-compres-bold ps-2 pe-2">
-                                                    Nunca</td>
-                                                <td style={{ minWidth: "55px" }} className="style-caja bgc-bulma tf-letra  border-style-solid border-1 border-color-bulma f-colby-compres-bold ps-2 pe-2">
-                                                    A veces</td>
-                                                <td className="style-caja bgc-bulma tf-letra border-style-solid border-1 border-color-bulma f-colby-compres-bold ps-2 pe-2">
-                                                    Generalmente</td>
-                                                <td className="style-caja bgc-bulma tf-letra  border-style-solid border-1 border-color-bulma f-colby-compres-bold ps-2 pe-2">
-                                                    Siempre</td>
+                                                <td className="style-caja bgc-bulma tf-letra border-style-solid border-1 border-color-bulma f-colby-compres-bold ps-2 pe-2">Nunca</td>
+                                                <td style={{ minWidth: "55px" }} className="style-caja bgc-bulma tf-letra  border-style-solid border-1 border-color-bulma f-colby-compres-bold ps-2 pe-2">A veces</td>
+                                                <td className="style-caja bgc-bulma tf-letra border-style-solid border-1 border-color-bulma f-colby-compres-bold ps-2 pe-2">Generalmente</td>
+                                                <td className="style-caja bgc-bulma tf-letra  border-style-solid border-1 border-color-bulma f-colby-compres-bold ps-2 pe-2">Siempre</td>
                                             </tr>
                                             <tr>
                                                 <td className="bgc-draco f-Ubuntu-L fsp-12 text-start psp-5 border-style-solid border-1 border-color-bulma">El ambiente de trabajo en mi equipo es agradable.</td>

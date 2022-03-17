@@ -56,7 +56,7 @@ function Page058(props) {
                     <div className="d-flex mtp-30 msp-90 mep-60 position-relative">
 
                         <div className="position-absolute top-100 start-100 translate-middle msp--10 mtp--60 visible-768 imagen-58-sobre-papel zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-160  " alt="" /></div>
-                        <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--95 visible-768 imagen-58-sobre-papel zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-120  " alt="" /></div>
+                        <div className="position-absolute top-100 start-0 translate-middle msp--20 mtp--95 visible-768 imagen-58-sobre-papel zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-120  " alt="" /></div>
                         {/* <div className="position-absolute top-0 start-0 translate-middle msp-0 mtp--40 visible-768 imagen1-64-sobre-papel zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div> */}
                         <div className="row w-100">
 

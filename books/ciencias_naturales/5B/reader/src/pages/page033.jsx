@@ -109,7 +109,7 @@ function Page033(props) {
 
           <div className="d-flex global-margin mtp-0 mbp-20 psp-30 pep-30 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
-              <div className="col-md-12 col-md-5 position-relative">
+              <div className="col-sm-12 col-md-5 position-relative">
                 <table className=" f-Ubuntu-L fsp-16 border-2 border-style-solid border-color-dark text-start mbp-20 ">
                   <tr>
                     <td
@@ -251,8 +251,8 @@ function Page033(props) {
                   </tr>
                 </table>
               </div>
-              <div className="col-md-12 col-md-7 p-0 m-0 position-relative">
-                <div className="position-absolute top-100 start-100 translate-middle  zindex-1">
+              <div className="col-sm-12 col-md-7 p-0 m-0 position-relative">
+                <div className="position-absolute top-50 start-100 translate-middle mtp-100 zindex-1">
                   <img
                     src={"images/page_" + pagina + "/img_003.png"}
                     className=""
@@ -396,7 +396,7 @@ function Page033(props) {
 
           <div className="d-flex global-margin mtp-0 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
-              <div className="col-md-12 col-md-6 p-0 m-0 position-relative">
+              <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
                 <div className="d-flex msp-10 mep-10 mtp-10 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
                   <div className="row p-0 m-0 w-100">
                     <div className="col-12 p-0 m-0 position-relative">
@@ -404,7 +404,7 @@ function Page033(props) {
                         <div className="d-flex flex-column bgc-white">
                           <div className="psp-10 pep-10 ptp-10 pbp-10 f-Ubuntu-R fsp-15">
                             <div className="text-center f-Ubuntu-L fsp-14">
-                               ¿Qué estoy aprendiendo?
+                              ¿Qué estoy aprendiendo?
                             </div>
                             <InputBox
                               id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -418,7 +418,7 @@ function Page033(props) {
                 </div>
               </div>
 
-              <div className="col-md-12 col-md-6 p-0 m-0 position-relative">
+              <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle  zindex-1">
                   <img
                     src={"images/page_" + pagina + "/img_004.png"}

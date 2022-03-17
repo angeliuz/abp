@@ -2,7 +2,9 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import ModalVideo from "../components/ModalVideo";
+
 import CheckMultiple from "../components/CheckMultiple";
+
 import Crucigrama from "../components/Crucigrama";
 import "./page_023.css";
 
@@ -40,7 +42,10 @@ function Page023(props) {
             </div>
           </div> */}
 
-          <div className="ptp-30 container-titulo-global mbp-10">
+
+
+
+         <div className="ptp-30 container-titulo-global mbp-10">
             {/* <div
               className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 " + color}
             >
@@ -57,12 +62,7 @@ function Page023(props) {
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              <ModalBook
-                id={"p" + pagina + "_book" + (indexInput += 1)}
-                image={"images/page_" + pagina + "/img_001.svg"}
-                clasesImagen="hp-40 text-center mtp-10 "
-                className="p-0 px-0"
-              />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"85"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
           <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
