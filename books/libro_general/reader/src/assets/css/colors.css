@@ -1,0 +1,1662 @@
+:root {
+  --transparent: transparent;
+  --primary: #73b72b;
+  --secondary: #e72889;
+  --tertiary: #d8edec;
+  --quaternary: #ebd8e8;
+  --quinary: none;
+  --sextario: #f2f7e5;
+  --septenario: #bbdfb7;
+  --lightDark: #9f9f9f;
+  --dark: #55524f;
+  --hardDark: #2e2e2e;
+  --info: #00b0f6;
+  --success: #198754;
+  --danger: #e72e3c;
+  --warning: #f1871d;
+  --light: #e5e9ec;
+  --muted: black;
+  --white: white;
+
+  --goku: #FECB00;
+  --bulma: #f39200;
+  --krillin: #D55F2A;
+  --piccolo: #FDE9D4;
+  --gohan: #DAE4B0;
+  --vegeta: #F4B4CF;
+  --trunks: #C3E3F5;
+  --goten: #ea5153;
+  --yamcha: #f3afa4;
+  --tshinhan: #f9c980;
+  --android18: #afca0b;
+  --milk: #d7e585;
+  --pidgey: #00abcc;
+  --freezer: #80cee2;
+  --saitama: #7c6eb0;
+  --ash: #beb7d8;
+  --pikachu: #b80e80;
+  --leono: #db86bf;
+  --tigro: #FCDFBB;
+  --pantro: #CBE8F7;
+  --chitara: #E2EBC4;
+  --raichu: #F0C1AF;
+  --jaga: #FDEFC3;
+  --anakin: #DBDA00;
+  --bang: #EAF4F7;
+  --sonic: #BEE0EE;
+  --luke: #bb0c20;
+  --genos: #fce1dc;
+  --leia: #009DC5;
+  --hansolo: #EAF6FB;
+  --garou: #231F20;
+  --obiwan: #f39200;
+  --misty: #d7dd3b;
+  --boros: #dedc00;
+  --harry: #66c4dc;
+  --hermione: #e6f5f9;
+  --voldemort: #f7b34d;
+  --draco: #fde9cc;
+  --ron: #e30613;
+  --shogun: #f7f9df;
+  --padme: #FCDB76;
+  --jawa: #FFD000;
+  --yoda: #BAB0D9;
+  --quigon: #A7A1CD;
+  --windu: #D6D2E8;
+  --bobafett: #E3E1F0;
+  --kokomi: #f4e6f1;
+  --azuka: #ebf4d5;
+  --arlo: #2cbfc2;
+  --buzz: #fddbb6;
+  --rex: #79d2f5;
+  --woody: #a7dff8;
+  --sid: #bde7f9;
+  --betty: #e6e2d0;
+  --rukia: #5AB041;
+  --klee: #ebd0e4;
+  --palpatine: #67BD43;
+  --tatooine: #F5DAC1;
+  --sargento: #fcdbd3;
+  --hannah: #fee6cc;
+  --caradepapa: #ebf3d6;
+  --marcianos: #c8e9f2;
+  --soldados: #ee5b5e;
+  --tiburon: #f59331;
+  --barbie: #acce8c;
+  --ken: #00accb;
+  --ryu: #ece9d9;
+  --honda: #ffedbf;
+  --akuma: #f29eb7;
+  --bison: #d6eef5;
+  --sagat: #e7e3d2;
+  --cammy: #aee0ec;
+  --guile: #e0bad7;
+  --zangief: #caeBea;
+  --blanka: #f4e6f0;
+  --dhalsim: #74be4b;
+  --ibuki: #feca30;
+  --balrog: #45ad4e;
+  --birdie: #a7cd45;
+  --jurihan: #ffe4a1;
+  --urien: #fff2be;
+  --yanfei: #f0b099;
+  --makoto: #fef6e6;
+  --reptile:#DAEBC1;  
+  --scorpion:#FEDCB5;
+  --itto: #feede9;
+  --baki:#e7e4d1;
+  --milena:#ffe197;
+  --kitana:#f48a31;
+  --goro:#fed894;
+  --raiden:#71c078;
+  --kano:#fffbd7;
+  --baraka:#fdfdfb;
+  --sindel:#e8f2fa;
+  --motaro:#E5E0C9;
+  --ganyu: #eaf1f9;
+  --qiqi: #d1e0f2;
+  --kabal:#dbd9ec;
+  --rain:#c5de9e;
+  --hutao: #fef7ea;
+  --cyrax: #b0dedb;
+  --smoke:#ebf1f9;
+  --ermac:#f0f6df;
+  --shaokhan:#FFF9EC;
+  --sektor:#0071a1;
+  --kintaro:#e8e4f4;
+  --jade:#b0acd4;
+  --tanya:#f0ecf4;
+  --hotaru:#FFE9CD;
+  --jarek:#ECF4D5;
+  --kai:#CAECF3;
+  --blaze:#5cac3c;
+  --kagome:#ffdcb4;
+  --naraku:#b0dcec;
+}
+
+/* COLORES */
+.color-primary {
+  color: var(--primary);
+}
+
+.color-secondary {
+  color: var(--secondary);
+}
+
+.color-tertiary {
+  color: var(--tertiary);
+}
+
+.color-quaternary {
+  color: var(--quaternary);
+}
+
+.color-quinary {
+  background-color: var(--quinary);
+}
+
+.color-sextario {
+  background-color: var(--sextario);
+}
+
+.color-septenario {
+  background-color: var(--septenario);
+}
+
+.color-white {
+  color: var(--white);
+}
+
+.color-success {
+  color: var(--success);
+}
+
+.color-danger {
+  color: var(--danger);
+}
+
+.color-warning {
+  color: var(--warning);
+}
+
+.color-light {
+  color: var(--light);
+}
+
+.color-muted {
+  color: var(--muted);
+  opacity: 0.4;
+}
+
+.color-lightDark {
+  color: var(--lightDark);
+}
+
+.color-dark {
+  color: var(--dark);
+}
+
+.color-hardDark {
+  color: var(--hardDark);
+}
+
+.color-info {
+  color: var(--info);
+}
+
+.color-yanfei {
+  color: var(--yanfei)
+}
+
+/* BACKGROUND */
+.bgc-primary {
+  background-color: var(--primary);
+}
+
+.bgc-secondary {
+  background-color: var(--secondary);
+}
+
+.bgc-tertiary {
+  background-color: var(--tertiary);
+}
+
+.bgc-quaternary {
+  background-color: var(--quaternary);
+}
+
+.bgc-quinary {
+  background-color: var(--quinary);
+}
+
+.bgc-sextario {
+  background-color: var(--sextario);
+}
+
+.bgc-septenario {
+  background-color: var(--septenario);
+}
+
+.bgc-white {
+  background-color: var(--white);
+}
+
+.bgc-success {
+  background-color: var(--success);
+}
+
+.bgc-danger {
+  background-color: var(--danger);
+}
+
+.bgc-warning {
+  background-color: var(--warning);
+}
+
+.bgc-light {
+  background-color: var(--light);
+}
+
+.bgc-muted {
+  background-color: var(--muted);
+}
+
+.bgc-lightDark {
+  background-color: var(--lightDark);
+}
+
+.bgc-dark {
+  background-color: var(--dark);
+}
+
+.bgc-hardDark {
+  background-color: var(--hardDark);
+}
+
+.bgc-info {
+  background-color: var(--info);
+}
+
+/* BACKGROUND PARA DESARROLLO */
+.bgc-aqua {
+  background-color: aqua;
+}
+
+.bgc-red {
+  background-color: red;
+}
+
+.bgc-yellow {
+  background-color: yellow;
+}
+
+.bgc-green {
+  background-color: green;
+}
+.bgc-blue {
+  background-color: blue;
+}
+
+/* END BACKGROUND PARA DESARROLLO */
+
+/* BORDES */
+.border-color-primary {
+  border-color: var(--primary) !important;
+}
+
+.border-color-secondary {
+  border-color: var(--secondary) !important;
+}
+
+.border-color-tertiary {
+  border-color: var(--tertiary) !important;
+}
+
+.border-color-quaternary {
+  border-color: var(--quaternary) !important;
+}
+
+.border-color-quinary {
+  border-color: var(--quinary) !important;
+}
+
+.border-color-sextario {
+  border-color: var(--sextario) !important;
+}
+
+.border-color-septenario {
+  border-color: var(--septenario) !important;
+}
+
+.border-color-lightDark {
+  border-color: var(--lightDark) !important;
+}
+
+.border-color-dark {
+  border-color: var(--dark) !important;
+}
+
+.border-color-hardDark {
+  border-color: var(--hardDark) !important;
+}
+
+.border-color-info {
+  border-color: var(--info) !important;
+}
+
+.border-color-success {
+  border-color: var(--success) !important;
+}
+
+.border-color-danger {
+  border-color: var(--danger) !important;
+}
+
+.border-color-warning {
+  border-color: var(--warning) !important;
+}
+
+.border-color-light {
+  border-color: var(--light) !important;
+}
+
+.border-color-muted {
+  border-color: var(--muted) !important;
+}
+
+.border-color-white {
+  border-color: var(--white) !important;
+}
+
+/* AUXILIARES */
+/* COLORS */
+.color-goku {
+  color: var(--goku);
+}
+
+.color-bulma {
+  color: var(--bulma);
+}
+
+.color-krillin {
+  color: var(--krillin);
+}
+
+.color-piccolo {
+  color: var(--piccolo);
+}
+
+.color-gohan {
+  color: var(--gohan);
+}
+
+.color-vegeta {
+  color: var(--vegeta);
+}
+
+.color-trunks {
+  color: var(--trunks);
+}
+
+.color-goten {
+  color: var(--goten);
+}
+
+.color-yamcha {
+  color: var(--yamcha);
+}
+
+.color-tshinhan {
+  color: var(--tshinhan);
+}
+
+.color-android18 {
+  color: var(--android18);
+}
+
+.color-milk {
+  color: var(--milk);
+}
+
+.color-freezer {
+  color: var(--freezer);
+}
+
+.color-saitama {
+  color: var(--saitama);
+}
+
+.color-ash {
+  color: var(--ash);
+}
+
+.color-pikachu {
+  color: var(--pikachu);
+}
+
+.color-leono {
+  color: var(--leono);
+}
+
+.color-tigro {
+  color: var(--tigro);
+}
+
+.color-pantro {
+  color: var(--pantro);
+}
+
+.color-chitara {
+  color: var(--chitara);
+}
+
+.color-raichu {
+  color: var(--raichu);
+}
+
+.color-jaga {
+  color: var(--jaga);
+}
+
+.color-luke {
+  color: var(--luke);
+}
+
+.color-anakin {
+  color: var(--anakin);
+}
+
+.color-bang {
+  color: var(--bang);
+}
+
+.color-sonic {
+  color: var(--sonic);
+}
+
+.color-genos {
+  color: var(--genos);
+}
+
+.color-garou {
+  color: var(--garou);
+}
+
+.color-boros {
+  color: var(--boros);
+}
+
+.color-leia {
+  color: var(--leia);
+}
+
+.color-hansolo {
+  color: var(--hansolo);
+}
+
+.color-pidgey {
+  color: var(--pidgey);
+}
+
+.color-obiwan {
+  color: var(--obiwan);
+}
+
+.color-misty {
+  color: var(--misty);
+}
+
+.color-harry {
+  color: var(--harry);
+}
+
+.color-hermione {
+  color: var(--hermione);
+}
+
+.color-voldemort {
+  color: var(--voldemort);
+}
+
+.color-draco {
+  color: var(--draco);
+}
+
+.color-ron {
+  color: var(--ron);
+}
+
+.color-shogun {
+  color: var(--shogun);
+}
+
+.color-padme {
+  color: var(--padme);
+}
+
+.color-jawa {
+  color: var(--jawa);
+}
+
+.color-yoda {
+  color: var(--yoda);
+}
+
+.color-quigon {
+  color: var(--quigon);
+}
+
+.color-windu {
+  color: var(--windu);
+}
+
+.color-bobafett {
+  color: var(--bobafett);
+}
+
+.color-kokomi {
+  color: var(--kokomi);
+}
+
+.color-azuka {
+  color: var(--azuka);
+}
+
+.color-arlo {
+  color: var(--arlo);
+}
+
+.color-buzz {
+  color: var(--buzz);
+}
+
+.color-rex {
+  color: var(--rex);
+}
+
+.color-woody {
+  color: var(--woody);
+}
+
+.color-sid {
+  color: var(--sid);
+}
+
+.color-betty {
+  color: var(--betty);
+}
+
+.color-rukia {
+  color: var(--rukia);
+}
+
+.color-klee {
+  color: var(--klee);
+}
+
+.color-palpatine {
+  color: var(--palpatine);
+}
+
+.color-tatooine {
+  color: var(--tatooine);
+}
+
+.color-sargento {
+  color: var(--sargento);
+}
+
+.color-hannah {
+  color: var(--hannah);
+}
+
+.color-caradepapa {
+  color: var(--caradepapa);
+}
+
+.color-marcianos {
+  color: var(--marcianos);
+}
+
+.color-soldados {
+  color: var(--soldados);
+}
+
+.color-tiburon {
+  color: var(--tiburon);
+}
+
+.color-barbie {
+  color: var(--barbie);
+}
+
+.color-ken {
+  color: var(--ken);
+}
+
+.color-ryu {
+  color: var(--ryu);
+}
+
+.color-honda {
+  color: var(--honda);
+}
+
+.color-akuma {
+  color: var(--akuma);
+}
+
+.color-bison {
+  color: var(--bison);
+}
+
+.color-sagat {
+  color: var(--sagat);
+}
+
+.color-cammy {
+  color: var(--cammy);
+}
+
+.color-guile {
+  color: var(--guile);
+}
+
+.color-zangief {
+  color: var(--zangief);
+}
+
+.color-blanka {
+  color: var(--blanka);
+}
+
+.color-dhalsim {
+  color: var(--dhalsim);
+}
+
+.color-ibuki {
+  color: var(--ibuki);
+}
+
+.color-balrog {
+  color: var(--balrog);
+}
+
+.color-birdie {
+  color: var(--birdie);
+}
+
+.color-jurihan {
+  color: var(--jurihan);
+}
+
+.color-urien {
+  color: var(--urien);
+}
+
+.color-yanfei {
+  color: var(--yanfei);
+}
+.color-makoto {
+  color: var(--makoto);
+}
+.color-reptile {
+  color: var(--reptile);
+}
+.color-scorpion {
+  color: var(--scorpion);
+}
+.color-itto {
+  color: var(--itto);
+}
+.color-baki{
+  color: var(--baki);
+}
+.color-milena{
+  color: var(--milena);
+}
+.color-kitana{
+  color: var(--kitana);
+}
+.color-goro{
+  color: var(--goro);
+}
+.color-raiden{
+  color: var(--raiden);
+}
+.color-kano{
+  color: var(--kano);
+}
+.color-baraka{
+  color: var(--baraka);
+}
+.color-sindel{
+  color: var(--sindel);
+}
+.color-motaro {
+  color: var(--motaro);
+}
+.color-ganyu {
+  color: var(--ganyu);
+}
+.color-qiqi {
+  color: var(--qiqi);
+}
+.color-kabal {
+  color: var(--kabal);
+}
+.color-rain {
+  color: var(--rain);
+}
+.color-hutao {
+  color: var(--hutao);
+}
+.color-cyrax {
+  color: var(--cyrax);
+}
+.color-smoke {
+  color: var(--smoke);
+}
+.color-ermac {
+  color: var(--ermac);
+}
+.color-shaokhan {
+  color: var(--shaokhan);
+}
+.color-sektor {
+  color: var(--sektor);
+}
+.color-kintaro {
+  color: var(--kintaro);
+}
+.color-jade {
+  color: var(--jade);
+}
+.color-tanya {
+  color: var(--tanya);
+}
+.color-hotaru {
+  color: var(--hotaru);
+}
+  .color-jarek {
+  color: var(--jarek);
+}
+  .color-kai {
+  color: var(--kai);
+}
+.color-blaze {
+  color: var(--blaze);
+}
+.color-kagome {
+  color: var(--kagome);
+}
+.color-naraku {
+  color: var(--naraku);
+}
+  
+  
+  
+
+
+
+/* BORDERS */
+.border-color-goku {
+  border-color: var(--goku) !important;
+}
+
+.border-color-bulma {
+  border-color: var(--bulma) !important;
+}
+
+.border-color-krillin {
+  border-color: var(--krillin) !important;
+}
+
+.border-color-piccolo {
+  border-color: var(--piccolo) !important;
+}
+
+.border-color-gohan {
+  border-color: var(--gohan) !important;
+}
+
+.border-color-vegeta {
+  border-color: var(--vegeta) !important;
+}
+
+.border-color-trunks {
+  border-color: var(--trunks) !important;
+}
+
+.border-color-goten {
+  border-color: var(--goten) !important;
+}
+
+.border-color-yamcha {
+  border-color: var(--yamcha) !important;
+}
+
+.border-color-tshinhan {
+  border-color: var(--tshinhan) !important;
+}
+
+.border-color-android18 {
+  border-color: var(--android18) !important;
+}
+
+.border-color-milk {
+  border-color: var(--milk) !important;
+}
+
+.border-color-freezer {
+  border-color: var(--freezer) !important;
+}
+
+.border-color-saitama {
+  border-color: var(--saitama) !important;
+}
+
+.border-color-ash {
+  border-color: var(--ash) !important;
+}
+
+.border-color-pikachu {
+  border-color: var(--pikachu) !important;
+}
+
+.border-color-leono {
+  border-color: var(--leono) !important;
+}
+
+.border-color-tigro {
+  border-color: var(--tigro) !important;
+}
+
+.border-color-pantro {
+  border-color: var(--pantro) !important;
+}
+
+.border-color-chitara {
+  border-color: var(--chitara) !important;
+}
+
+.border-color-raichu {
+  border-color: var(--raichu) !important;
+}
+
+.border-color-jaga {
+  border-color: var(--jaga) !important;
+}
+
+.border-color-luke {
+  border-color: var(--luke) !important;
+}
+
+.border-color-anakin {
+  border-color: var(--anakin) !important;
+}
+
+.border-color-bang {
+  border-color: var(--bang) !important;
+}
+
+.border-color-sonic {
+  border-color: var(--sonic) !important;
+}
+
+.border-color-genos {
+  border-color: var(--genos) !important;
+}
+
+.border-color-garou {
+  border-color: var(--garou) !important;
+}
+
+.border-color-boros {
+  border-color: var(--boros) !important;
+}
+
+.border-color-leia {
+  border-color: var(--leia) !important;
+}
+
+.border-color-hansolo {
+  border-color: var(--hansolo) !important;
+}
+
+.border-color-pidgey {
+  border-color: var(--pidgey) !important;
+}
+
+.border-color-obiwan {
+  border-color: var(--obiwan) !important;
+}
+
+.border-color-misty {
+  border-color: var(--misty) !important;
+}
+
+.border-color-harry {
+  border-color: var(--harry) !important;
+}
+
+.border-color-hermione {
+  border-color: var(--hermione) !important;
+}
+
+.border-color-voldemort {
+  border-color: var(--voldemort) !important;
+}
+
+.border-color-draco {
+  border-color: var(--draco) !important;
+}
+
+.border-color-ron {
+  border-color: var(--ron) !important;
+}
+
+.border-color-shogun {
+  border-color: var(--shogun) !important;
+}
+
+.border-color-padme {
+  border-color: var(--padme) !important;
+}
+
+.border-color-jawa {
+  border-color: var(--jawa) !important;
+}
+
+.border-color-yoda {
+  border-color: var(--yoda) !important;
+}
+
+.border-color-quigon {
+  border-color: var(--quigon) !important;
+}
+
+.border-color-windu {
+  border-color: var(--windu) !important;
+}
+
+.border-color-bobafett {
+  border-color: var(--bobafett) !important;
+}
+
+.border-color-kokomi {
+  border-color: var(--kokomi) !important;
+}
+
+.border-color-azuka {
+  border-color: var(--azuka) !important;
+}
+
+.border-color-arlo {
+  border-color: var(--arlo) !important;
+}
+
+.border-color-buzz {
+  border-color: var(--buzz) !important;
+}
+
+.border-color-rex {
+  border-color: var(--rex) !important;
+}
+
+.border-color-woody {
+  border-color: var(--woody) !important;
+}
+
+.border-color-sid {
+  border-color: var(--sid) !important;
+}
+
+.border-color-betty {
+  border-color: var(--betty) !important;
+}
+
+.border-color-rukia {
+  border-color: var(--rukia) !important;
+}
+
+.border-color-klee {
+  border-color: var(--klee) !important;
+}
+
+.border-color-palpatine {
+  border-color: var(--palpatine) !important;
+}
+
+.border-color-tatooine {
+  border-color: var(--tatooine) !important;
+}
+
+.border-color-sargento {
+  border-color: var(--sargento) !important;
+}
+
+.border-color-hannah {
+  border-color: var(--hannah) !important;
+}
+
+.border-color-caradepapa {
+  border-color: var(--caradepapa) !important;
+}
+
+.border-color-marcianos {
+  border-color: var(--marcianos) !important;
+}
+
+.border-color-soldados {
+  border-color: var(--soldados) !important;
+}
+
+.border-color-tiburon {
+  border-color: var(--tiburon) !important;
+}
+
+.border-color-barbie {
+  border-color: var(--barbie) !important;
+}
+
+.border-color-ken {
+  border-color: var(--ken) !important;
+}
+
+.border-color-ryu {
+  border-color: var(--ryu) !important;
+}
+
+.border-color-honda {
+  border-color: var(--honda) !important;
+}
+
+.border-color-akuma {
+  border-color: var(--akuma) !important;
+}
+
+.border-color-bison {
+  border-color: var(--bison) !important;
+}
+
+.border-color-sagat {
+  border-color: var(--sagat) !important;
+}
+
+.border-color-cammy {
+  border-color: var(--cammy) !important;
+}
+
+.border-color-guile {
+  border-color: var(--guile) !important;
+}
+
+.border-color-zangief {
+  border-color: var(--zangief) !important;
+}
+
+.border-color-blanka {
+  border-color: var(--blanka) !important;
+}
+
+.border-color-dhalsim {
+  border-color: var(--dhalsim) !important;
+}
+
+.border-color-ibuki {
+  border-color: var(--ibuki) !important;
+}
+
+.border-color-balrog {
+  border-color: var(--balrog) !important;
+}
+
+.border-color-birdie {
+  border-color: var(--birdie) !important;
+}
+
+.border-color-jurihan {
+  border-color: var(--jurihan) !important;
+}
+
+.border-color-urien {
+  border-color: var(--urien) !important;
+}
+
+.border-color-yanfei {
+  border-color: var(--yanfei) !important;
+}
+.border-color-makoto {
+  border-color: var(--makoto) !important;
+}
+.border-color-reptile {
+  border-color: var(--reptile) !important;
+}
+.border-color-scorpion {
+  border-color: var(--scorpion) !important;
+}
+.border-color-itto {
+  border-color: var(--itto) !important;
+}
+.border-color-baki {
+  border-color: var(--baki) !important;
+}
+.border-color-milena {
+  border-color: var(--milena) !important;
+}
+.border-color-kitana {
+  border-color: var(--kitana) !important;
+}
+.border-color-goro {
+  border-color: var(--goro) !important;
+}
+.border-color-raiden {
+  border-color: var(--raiden) !important;
+}
+.border-color-kano {
+  border-color: var(--kano) !important;
+}
+.border-color-baraka {
+  border-color: var(--baraka) !important;
+}
+.border-color-sindel {
+  border-color: var(--sindel) !important;
+}
+.border-color-motaro {
+  border-color: var(--motaro) !important;
+}
+.border-color-ganyu {
+  border-color: var(--ganyu) !important;
+}
+.border-color-qiqi {
+  border-color: var(--qiqi) !important;
+}
+.border-color-kabal {
+  border-color: var(--kabal) !important;
+}
+.border-color-rain {
+  border-color: var(--rain) !important;
+}
+.border-color-hutao {
+  border-color: var(--hutao) !important;
+}
+.border-color-cyrax {
+  border-color: var(--cyrax) !important;
+}
+.border-color-smoke {
+  border-color: var(--smoke) !important;
+}
+.border-color-ermac {
+  border-color: var(--ermac) !important;
+}
+.border-color-shaokhan {
+  border-color: var(--shaokhan) !important;
+
+}
+.border-color-sektor {
+  border-color: var(--sektor) !important;
+
+}
+.border-color-kintaro {
+  border-color: var(--kintaro) !important;
+
+}
+.border-color-jade {
+  border-color: var(--jade) !important;
+
+}
+.border-color-tanya {
+  border-color: var(--tanya) !important;
+
+}
+.border-color-hotaru {
+  border-color: var(--hotaru) !important;
+}
+  .border-color-jarek {
+  border-color: var(--jarek) !important;
+}
+  .border-color-kai {
+  border-color: var(--kai) !important;
+}
+.border-color-blaze {
+  border-color: var(--blaze) !important;
+}
+.border-color-kagome {
+  border-color: var(--kagome) !important;
+}
+.border-color-naraku {
+  border-color: var(--naraku) !important;
+}
+/* B
+/* BACKGROUND COLORS */
+.bgc-goku {
+  background-color: var(--goku);
+}
+
+.bgc-bulma {
+  background-color: var(--bulma);
+}
+
+.bgc-krillin {
+  background-color: var(--krillin);
+}
+
+.bgc-piccolo {
+  background-color: var(--piccolo);
+}
+
+.bgc-gohan {
+  background-color: var(--gohan);
+}
+
+.bgc-vegeta {
+  background-color: var(--vegeta);
+}
+
+.bgc-trunks {
+  background-color: var(--trunks);
+}
+
+.bgc-goten {
+  background-color: var(--goten);
+}
+
+.bgc-yamcha {
+  background-color: var(--yamcha);
+}
+
+.bgc-tshinhan {
+  background-color: var(--tshinhan);
+}
+
+.bgc-android18 {
+  background-color: var(--android18);
+}
+
+.bgc-milk {
+  background-color: var(--milk);
+}
+
+.bgc-pidgey {
+  background-color: var(--pidgey);
+}
+
+.bgc-freezer {
+  background-color: var(--freezer);
+}
+
+.bgc-saitama {
+  background-color: var(--saitama);
+}
+
+.bgc-ash {
+  background-color: var(--ash);
+}
+
+.bgc-pikachu {
+  background-color: var(--pikachu);
+}
+
+.bgc-leono {
+  background-color: var(--leono);
+}
+
+.bgc-tigro {
+  background-color: var(--tigro);
+}
+
+.bgc-pantro {
+  background-color: var(--pantro);
+}
+
+.bgc-chitara {
+  background-color: var(--chitara);
+}
+
+.bgc-raichu {
+  background-color: var(--raichu);
+}
+
+.bgc-jaga {
+  background-color: var(--jaga);
+}
+
+.bgc-luke {
+  background-color: var(--luke);
+}
+
+.bgc-anakin {
+  background-color: var(--anakin);
+}
+
+.bgc-bang {
+  background-color: var(--bang);
+}
+
+.bgc-sonic {
+  background-color: var(--sonic);
+}
+
+.bgc-genos {
+  background-color: var(--genos);
+}
+
+.bgc-garou {
+  background-color: var(--garou);
+}
+
+.bgc-boros {
+  background-color: var(--boros);
+}
+
+.bgc-leia {
+  background-color: var(--leia);
+}
+
+.bgc-hansolo {
+  background-color: var(--hansolo);
+}
+
+.bgc-obiwan {
+  background-color: var(--obiwan);
+}
+
+.bgc-misty {
+  background-color: var(--misty);
+}
+
+.bgc-harry {
+  background-color: var(--harry);
+}
+
+.bgc-hermione {
+  background-color: var(--hermione);
+}
+
+.bgc-voldemort {
+  background-color: var(--voldemort);
+}
+
+.bgc-draco {
+  background-color: var(--draco);
+}
+
+.bgc-ron {
+  background-color: var(--ron);
+}
+
+.bgc-shogun {
+  background-color: var(--shogun);
+}
+
+.bgc-padme {
+  background-color: var(--padme);
+}
+
+.bgc-jawa {
+  background-color: var(--jawa);
+}
+
+.bgc-yoda {
+  background-color: var(--yoda);
+}
+
+.bgc-quigon {
+  background-color: var(--quigon);
+}
+
+.bgc-windu {
+  background-color: var(--windu);
+}
+
+.bgc-bobafett {
+  background-color: var(--bobafett);
+}
+
+.bgc-kokomi {
+  background-color: var(--kokomi);
+}
+
+.bgc-azuka {
+  background-color: var(--azuka);
+}
+
+.bgc-arlo {
+  background-color: var(--arlo);
+}
+
+.bgc-buzz {
+  background-color: var(--buzz);
+}
+
+.bgc-rex {
+  background-color: var(--rex);
+}
+
+.bgc-woody {
+  background-color: var(--woody);
+}
+
+.bgc-sid {
+  background-color: var(--sid);
+}
+
+.bgc-betty {
+  background-color: var(--betty);
+}
+
+.bgc-rukia {
+  background-color: var(--rukia);
+}
+
+.bgc-klee {
+  background-color: var(--klee);
+}
+
+.bgc-palpatine {
+  background-color: var(--palpatine);
+}
+
+.bgc-tatooine {
+  background-color: var(--tatooine);
+}
+
+.bgc-sargento {
+  background-color: var(--sargento);
+}
+
+.bgc-hannah {
+  background-color: var(--hannah);
+}
+
+.bgc-caradepapa {
+  background-color: var(--caradepapa);
+}
+
+.bgc-marcianos {
+  background-color: var(--marcianos);
+}
+
+.bgc-soldados {
+  background-color: var(--soldados);
+}
+
+.bgc-tiburon {
+  background-color: var(--tiburon);
+}
+
+.bgc-barbie {
+  background-color: var(--barbie);
+}
+
+.bgc-ken {
+  background-color: var(--ken);
+}
+
+.bgc-ryu {
+  background-color: var(--ryu);
+}
+
+.bgc-honda {
+  background-color: var(--honda);
+}
+
+.bgc-akuma {
+  background-color: var(--akuma);
+}
+
+.bgc-bison {
+  background-color: var(--bison);
+}
+
+.bgc-sagat {
+  background-color: var(--sagat);
+}
+
+.bgc-cammy {
+  background-color: var(--cammy);
+}
+
+.bgc-guile {
+  background-color: var(--guile);
+}
+
+.bgc-zangief {
+  background-color: var(--zangief);
+}
+
+.bgc-blanka {
+  background-color: var(--blanka);
+}
+
+.bgc-dhalsim {
+  background-color: var(--dhalsim);
+}
+
+.bgc-ibuki {
+  background-color: var(--ibuki);
+}
+
+.bgc-balrog {
+  background-color: var(--balrog);
+}
+
+.bgc-birdie {
+  background-color: var(--birdie);
+}
+
+.bgc-jurihan {
+  background-color: var(--jurihan);
+}
+
+.bgc-urien {
+  background-color: var(--urien);
+}
+
+.bgc-yanfei {
+  background-color: var(--yanfei);
+}
+.bgc-makoto {
+  background-color: var(--makoto);
+}
+.bgc-reptile {
+  background-color: var(--reptile);
+}
+.bgc-scorpion {
+  border-color: var(--scorpion) !important;
+}
+.bgc-itto {
+  background-color: var(--itto) !important;
+}
+.bgc-baki {
+  background-color: var(--baki) !important;
+}
+.bgc-milena {
+  background-color: var(--milena) !important;
+}
+.bgc-kitana {
+  background-color: var(--kitana) !important;
+}
+.bgc-goro {
+  background-color: var(--goro) !important;
+}
+.bgc-raiden {
+  background-color: var(--raiden) !important;
+}
+.bgc-kano {
+  background-color: var(--kano) !important;
+}
+.bgc-baraka {
+  background-color: var(--baraka) !important;
+}
+.bgc-sindel {
+  background-color: var(--sindel) !important;
+}
+.bgc-motaro {
+  background-color: var(--motaro);
+}
+.bgc-ganyu {
+  background-color: var(--ganyu);
+}
+.bgc-qiqi {
+  background-color: var(--qiqi);
+}
+.bgc-kabal {
+  background-color: var(--kabal);
+}
+.bgc-rain {
+  background-color: var(--rain);
+}
+.bgc-hutao {
+  background-color: var(--hutao);
+}
+.bgc-cyrax {
+  background-color: var(--cyrax);
+}
+.bgc-smoke {
+  background-color: var(--smoke);
+}
+.bgc-ermac {
+  background-color: var(--ermac);
+}
+.bgc-shaokhan {
+  background-color: var(--shaokhan);
+
+}
+.bgc-sektor {
+  background-color: var(--sektor);
+
+}
+.bgc-kintaro {
+  background-color: var(--kintaro);
+
+}
+.bgc-jade {
+  background-color: var(--jade);
+
+}
+.bgc-tanya {
+  background-color: var(--tanya);
+}
+.bgc-hotaru {
+  background-color: var(--hotaru);
+}
+  
+.bgc-jarek {
+  background-color: var(--jarek);
+}
+  
+.bgc-kai {
+  background-color: var(--kai);
+}
+
+.bgc-blaze {
+  background-color: var(--blaze);
+}
+.bgc-kagome {
+  background-color: var(--kagome);
+}
+.bgc-naraku {
+  background-color: var(--naraku);
+}

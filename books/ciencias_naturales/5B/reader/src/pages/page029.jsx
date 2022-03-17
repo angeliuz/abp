@@ -53,16 +53,6 @@ function Page029(props) {
             </div>
           </div>
 
-
-          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
-            <div className="row p-0 m-0 w-100">
-              <div className="col-12 p-0 m-0 position-relative">
-                <CheckMultiple id={"check" + pagina + "_" + (indexInput += 1)} image0={"images/page_" + pagina + "/img_003.png"} image1={"images/page_" + pagina + "/img_005.png"} image2={"images/page_" + pagina + "/img_007.png"}></CheckMultiple>
-
-              </div>
-            </div>
-          </div>
-
           <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
@@ -160,7 +150,7 @@ function Page029(props) {
 
           <div className="ptp-10 psp-65 pep-40 mbp-0">
             <div className="row d-flex mx-auto f-Ubuntu-B fsp-15 mbp-0 position-relative justify-content-between">
-              <div className="col-sm-12 col-md-6 pbp-25 ">
+              <div className="col-md-12 col-md-6 pbp-25 ">
                 <div className="position-absolute top-50 start-0 translate-middle zindex-1">
                   <img
                     src={"images/page_" + pagina + "/img_003.png"}
@@ -192,7 +182,7 @@ function Page029(props) {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-6 pbp-25 position-relative">
+              <div className="col-md-12 col-md-6 pbp-25 position-relative">
                 <div className="position-absolute top-100 start-100 translate-middle zindex-1 mtp--40 msp--10">
                   <img
                     src={"images/page_" + pagina + "/img_005.png"}
@@ -329,8 +319,8 @@ function Page029(props) {
             <div
               className={
                 etapa == 1
-                  ? "col-7 position-relative col-sm-2 p-0 m-0"
-                  : "col-1 position-relative col-sm-2 p-0 m-0"
+                  ? "col-7 position-relative col-md-2 p-0 m-0"
+                  : "col-1 position-relative col-md-2 p-0 m-0"
               }
             >
               <img
@@ -348,8 +338,8 @@ function Page029(props) {
             <div
               className={
                 etapa == 2
-                  ? "col-7 position-relative col-sm-2 p-0 m-0"
-                  : "col-1 position-relative col-sm-2 p-0 m-0"
+                  ? "col-7 position-relative col-md-2 p-0 m-0"
+                  : "col-1 position-relative col-md-2 p-0 m-0"
               }
             >
               <img
@@ -367,8 +357,8 @@ function Page029(props) {
             <div
               className={
                 etapa == 3
-                  ? "col-7 position-relative col-sm-2 p-0 m-0"
-                  : "col-1 position-relative col-sm-2 p-0 m-0"
+                  ? "col-7 position-relative col-md-2 p-0 m-0"
+                  : "col-1 position-relative col-md-2 p-0 m-0"
               }
             >
               <img
@@ -386,8 +376,8 @@ function Page029(props) {
             <div
               className={
                 etapa == 4
-                  ? "col-7 position-relative col-sm-2 p-0 m-0"
-                  : "col-1 position-relative col-sm-2 p-0 m-0"
+                  ? "col-7 position-relative col-md-2 p-0 m-0"
+                  : "col-1 position-relative col-md-2 p-0 m-0"
               }
             >
               <img
@@ -405,8 +395,8 @@ function Page029(props) {
             <div
               className={
                 etapa == 5
-                  ? "col-7 position-relative col-sm-2 p-0 m-0"
-                  : "col-1 position-relative col-sm-2 p-0 m-0"
+                  ? "col-7 position-relative col-md-2 p-0 m-0"
+                  : "col-1 position-relative col-md-2 p-0 m-0"
               }
             >
               <img
@@ -424,8 +414,8 @@ function Page029(props) {
             <div
               className={
                 etapa == 6
-                  ? "col-7 position-relative col-sm-2 p-0 m-0"
-                  : "col-1 position-relative col-sm-2 p-0 m-0"
+                  ? "col-7 position-relative col-md-2 p-0 m-0"
+                  : "col-1 position-relative col-md-2 p-0 m-0"
               }
             >
               <img

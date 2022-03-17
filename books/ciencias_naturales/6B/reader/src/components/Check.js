@@ -21,6 +21,66 @@ const Check = (props) => {
 
     const [visible, setVisible] = useState(false);
 
+
+    // firestore get data for check
+    useEffect(() => {
+        getData();
+        // const obtenerDatos = async () => {
+        //     const docSnap = await getDoc(docRef);
+        //     if (docSnap.exists()) {
+        //         onSnapshot(doc(db, coleccion, documento), (doc) => {
+        //             const field = doc.data()[id];
+        //             //console.log("Current data: ", doc.data()[id]);
+        //             if (field) {
+        //                 setVisible(doc.data()[id]);
+        //                 //console.log("content1: " + content1);
+        //             } else {
+        //                 //console.log("Sin datos: "+id);
+        //             }
+        //         });
+
+        //         if (docSnap.data()[id] !== undefined) {
+        //             setVisible(docSnap.data()[id]);
+        //         } else {
+        //             setVisible(false);
+        //             await updateDoc(docRef, {
+        //                 [id]: visible,
+        //             });
+        //             console.log("undefined: " + id);
+        //         }
+        //     } else {
+        //         await setDoc(doc(db, coleccion, documento), { [id]: false });
+        //     }
+        //     // console.log("useEffect: " + docSnap.data()[id]);
+        //     // console.log("change: " + content1);
+        // };
+        // obtenerDatos();
+    }, [visible]);
+
+    const getData = () => {
+        const obtenerDatos = async () => {
+        const docSnap = await getDoc(docRef);
+
+        if (docSnap.exists()) {
+            const field = docSnap.data()[id];
+            console.log("Current data: ", docSnap.data()[id]);
+            if (field) {
+                setVisible(docSnap.data()[id]);
+                console.log("content1: " + visible);
+            } else {
+                console.log("Sin datos: "+id);
+            }
+            //console.log("Document data:", docSnap.data());
+        } else {
+            // doc.data() will be undefined in this case
+            await setDoc(doc(db, coleccion, documento), { build: "1" });
+            console.log("No such document!");
+        }
+        };
+        obtenerDatos();
+    }
+
+
     function getUrlParameter(name) {
         name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
         var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
@@ -45,39 +105,7 @@ const Check = (props) => {
     }
 
 
-    // firestore get data for check
-    useEffect(() => {
-        const obtenerDatos = async () => {
-            const docSnap = await getDoc(docRef);
-            if (docSnap.exists()) {
-                onSnapshot(doc(db, coleccion, documento), (doc) => {
-                    const field = doc.data()[id];
-                    //console.log("Current data: ", doc.data()[id]);
-                    if (field) {
-                        setVisible(doc.data()[id]);
-                        //console.log("content1: " + content1);
-                    } else {
-                        //console.log("Sin datos: "+id);
-                    }
-                });
-
-                if (docSnap.data()[id] !== undefined) {
-                    setVisible(docSnap.data()[id]);
-                } else {
-                    setVisible(false);
-                    await updateDoc(docRef, {
-                        [id]: visible,
-                    });
-                    console.log("undefined: " + id);
-                }
-            } else {
-                await setDoc(doc(db, coleccion, documento), { [id]: false });
-            }
-            // console.log("useEffect: " + docSnap.data()[id]);
-            // console.log("change: " + content1);
-        };
-        obtenerDatos();
-    }, [visible]);
+    
 
 
     console.log(visible)

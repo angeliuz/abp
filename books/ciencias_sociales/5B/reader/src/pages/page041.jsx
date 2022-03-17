@@ -1,6 +1,6 @@
 import React from "react";
 import InputBox from "../components/InputBox";
-import ModalBook from "../components/ModalBook";
+// import ModalBook from "../components/ModalBook";
 
 import "./page_041.css";
 
@@ -21,25 +21,25 @@ function Page041(props) {
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Mis objetivos en <br /> esta sesión son:
+                Mis objetivos en<br />esta sesión son:
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_023/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Identificar los principales <br /> avances de nuestra revista.
+                Identificar los principales<br />avances de nuestra revista.
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_023/flecha1.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Elaborar un mapa <br />mental con los avances <br />de nuestra revista.
+                Elaborar un mapa<br />mental con los avances<br />de nuestra revista.
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_023/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
-                Reflexionar sobre <br /> el trabajo que hemos<br /> realizado.
+                Reflexionar sobre<br />el trabajo que hemos<br />realizado.
               </div>
             </div>
           </div>
@@ -114,17 +114,17 @@ function Page041(props) {
                 </div>
 
                 <img src="images/page_041/img_002.svg" className="w-45 mtp-150 mbp-150 achica-margen" alt="" />
+
               </div>
             </div>
           </div>
 
           {/* PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
-            <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
-              ABP &copy; SM
-            </div>
+            <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>ABP &copy; SM</div>
             <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
           </div>
+
           <div className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
             <div className="col-1 col-sm-2 p-0 m-0 position-relative">
               <img src="images/rotulo_motivacion.svg" className="oculto" alt="" />
