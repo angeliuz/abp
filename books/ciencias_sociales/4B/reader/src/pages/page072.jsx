@@ -25,7 +25,7 @@ function Page072(props) {
                     <div className="max-wp-600 mx-auto mtp-120 cb-calc ">
                         <div className="bgc-windu max-wp-300 rounded-p-10 ptp-10 pbp-10 mx-auto zindex-10 position-relative f-Ubuntu-L fsp-15 "> Lo que más valoramos de nuestra convivencia como curso es:</div>
                         <div className="psp-35 pep-35 bgc-white rounded-p-90 position-relative">
-                            <div className="position-absolute top-0 start-100 translate-middle wp-100 msp--10 mtp--10 zindex-10 visible-768"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-90" alt="" /></div>
+                            <div className="position-absolute top-0 start-100 translate-middle wp-100 msp-10 mtp--10 zindex-10 visible-768"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-90" alt="" /></div>
                             <div className="position-absolute top-50 start-0 translate-middle wp-100 msp--10 mtp--10 zindex-10 visible-768"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
                             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="zindex-10 position-relative p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
                             <div className="cloud"></div>

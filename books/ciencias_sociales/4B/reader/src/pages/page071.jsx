@@ -56,7 +56,7 @@ function Page071(props) {
                                 <table className="w-100">
                                     <tbody>
                                         <tr>
-                                            <td> </td>
+                                            <td></td>
                                             <td className={"color-dark f-colby-compres-bold p-0 m-0 "}>
                                                 <div className="d-flex w-100 center-center psp-10 pep-10 ptp-0 pbp-0 text-center ">Nunca</div>
                                             </td>
@@ -226,7 +226,7 @@ function Page071(props) {
                     <div className="msp-60 mep-60 mbp-70">
                         <div className="p-0 m-0">
                             <div className="text-start mbp-10 f-Ubuntu-R fsp-15 position-relative">Reconocemos nuestras dificultades y logros.</div>
-                            <div className="position-absolute top-50 start-100 translate-middle msp--90 mtp-25 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-60" alt="" /></div>
+                            <div className="position-absolute top-50 start-100 translate-middle msp--90 mtp-35 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-60" alt="" /></div>
                             <div className="row mtp-10 d-flex mbp-10">
                                 <div className="col-sm-12 col-md-6 mbp-10">
                                     <div className="text-start w-100 bgc-palpatine rounded-p-10 pep-10 psp-10 pbp-10">
