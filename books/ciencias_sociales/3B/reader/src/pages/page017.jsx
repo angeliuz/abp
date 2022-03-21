@@ -110,20 +110,18 @@ function Page017(props) {
                     </div>
                   </div>
                 </div>
-                <div className="f-Ubuntu-R text-left">
-                  Elaboramos nuestro <b>cronograma</b> del proyecto con el
-                  material que nos entregarán.
-                </div>
-                <ModalPDF
-                  id={"p" + pagina + "_video" + (indexInput += 1)}
-                  link="https://www.smconecta.cl/resources/1894/portadas.pdf"
-                  titulo="Material descargable"
-                  tipo="PDF"
-                  image={"images/generales/descargable.svg"}
-                  colorUnidad={background}
-                  clasesImagen="cambio hp-40 mtp-10"
-                  className="p-0 px-1"
-                />
+                <div className="d-flex align-items-center">
+                  <div className="f-Ubuntu-R text-left pep-10">Elaboramos nuestro <b>cronograma</b> del proyecto con el material que nos entregarán.</div>
+                  <ModalPDF
+                    id={"p" + pagina + "_video" + (indexInput += 1)}
+                    link="https://www.smconecta.cl/resources/1894/portadas.pdf"
+                    titulo="Material descargable"
+                    tipo="PDF"
+                    image={"images/generales/descargable.svg"}
+                    colorUnidad={background}
+                    clasesImagen="cambio hp-40 mtp-10"
+                    className="p-0 px-1"
+                  /></div>
                 <img
                   src="images/page_017/img_005.png"
                   className="hp-70 position-absolute top-50 start-50 msp-340 mtp--40"
