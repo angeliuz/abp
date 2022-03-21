@@ -3,12 +3,20 @@ import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
 import ModalBook from "../components/ModalBook";
 import Check from "../components/Check";
+import ModalPDF from "../components/ModalPDF";
 import "./page_033.css";
 
 function Page033(props) {
 
   const pagina = "033";
   var indexInput = 0;
+
+  const etapa = "4"
+  const background = "bgc-pidgey";
+  const color = "color-pidgey";
+  const borderColor = "border-color-pidgey"
+  const borderColorTabla = "border-color-pantro"
+  const bgc_cajas = "bgc-pantro";
 
   return (
     <div className="wrapper bgc-light">
@@ -53,7 +61,17 @@ function Page033(props) {
                 <div className="d-flex">
                   <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey wp-40 pep-5">2</div>
                   <div className="f-Ubuntu-R fsp-16 text-start pep-10 mtp-15">Elegimos cinco preguntas para elaborar nuestra encuesta con el material que nos entregarán.</div>
-                  <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/page_033/circ.png" clasesImagen="hp-35 mtp-10" />
+                  {/* <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/page_033/circ.png" clasesImagen="hp-35 mtp-10" /> */}
+                  <ModalPDF
+                    id={"p" + pagina + "_video" + (indexInput += 1)}
+                    link="https://www.smconecta.cl/resources/1894/portadas.pdf"
+                    titulo="Material descargable"
+                    tipo="PDF"
+                    image={"images/generales/descargable.svg"}
+                    colorUnidad={background}
+                    clasesImagen="cambio hp-40 mtp-10"
+                    className="p-0 px-1"
+                  />
                 </div>
               </div>
 
