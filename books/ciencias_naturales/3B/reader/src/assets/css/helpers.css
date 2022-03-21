@@ -4617,8 +4617,16 @@
   border-radius: 0px 0px 20px 20px;
 }
 /*redondeado derecha, plano izquerda*/
+.rounded-tbe-10 {
+  border-radius: 0px 10px 10px 0px;
+}
+/*redondeado derecha, plano izquerda*/
 .rounded-tbe-20 {
   border-radius: 0px 20px 20px 0px;
+}
+/*redondeado izquierda, plano derecha*/
+.rounded-tbs-10 {
+  border-radius: 10px 0px 0px 10px;
 }
 /*redondeado izquierda, plano derecha*/
 .rounded-tbs-20 {
