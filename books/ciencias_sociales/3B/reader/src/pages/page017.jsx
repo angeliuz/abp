@@ -114,11 +114,6 @@ function Page017(props) {
                   Elaboramos nuestro <b>cronograma</b> del proyecto con el
                   material que nos entregarán.
                 </div>
-                <img
-                  src="images/page_017/img_005.png"
-                  className="hp-70 position-absolute top-50 start-50 msp-340 mtp--40"
-                  alt=""
-                />
                 <ModalPDF
                   id={"p" + pagina + "_video" + (indexInput += 1)}
                   link="https://www.smconecta.cl/resources/1894/portadas.pdf"
@@ -128,6 +123,11 @@ function Page017(props) {
                   colorUnidad={background}
                   clasesImagen="cambio hp-40 mtp-10"
                   className="p-0 px-1"
+                />
+                <img
+                  src="images/page_017/img_005.png"
+                  className="hp-70 position-absolute top-50 start-50 msp-340 mtp--40"
+                  alt=""
                 />
                 <img
                   src="images/page_017/img_006.png"
