@@ -219,14 +219,14 @@ function Page029(props) {
                                 <div className="text-center w-100 border-2 border-style-solid border-color-kagome bgc-draco rounded-p-10">
                                     <div className="f-Ubuntu-L fsp-16 rounded-set-6 hp-60 pep-20 psp-20 ptp-10 pbp-10 bgc-white d-flex justify-content-center align-items-center color-dark p-2">¿Por qué es una solución<br />
                                         al problema energético?</div>
-                                    <div className="psp-15 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" /></div>
+                                    <div className="f-Ubuntu-L psp-15 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" /></div>
                                 </div>
                             </div>
                             <div className="col-sm-12 col-md-6 pbp-10 position-relative">
                                 <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp-20 "> <img src={"images/page_" + pagina + "/img_006.png"} className="" alt="" />  </div>
                                 <div className="text-center w-100 border-2 border-style-solid border-color-windu bgc-tanya rounded-p-10">
                                     <div className="f-Ubuntu-L fsp-16 rounded-set-6 hp-60 ptp-10 pbp-10 bgc-white d-flex justify-content-center align-items-center color-dark p-2">¿En qué otros lugares se podría<br /> replicar esta solución?</div>
-                                    <div className="psp-15 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" /></div>
+                                    <div className="f-Ubuntu-L psp-15 pep-15"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" /></div>
                                 </div>
                             </div>
                         </div>
