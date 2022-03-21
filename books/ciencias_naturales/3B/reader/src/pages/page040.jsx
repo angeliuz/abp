@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import ModalPDF from "../components/ModalPDF";
 
 import "./page_040.css";
 
@@ -81,7 +82,17 @@ function Page040(props) {
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/circ_descarga.png"} clasesImagen="wp-40 text-center mtp-20 mep-10" className="p-0 px-0" />
+              {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/circ_descarga.png"} clasesImagen="wp-40 text-center mtp-20 mep-10" className="p-0 px-0" /> */}
+              <ModalPDF
+                id={"p" + pagina + "_video" + (indexInput += 1)}
+                link="https://www.smconecta.cl/resources/1894/portadas.pdf"
+                titulo="Material descargable"
+                tipo="PDF"
+                image={"images/generales/descargable.svg"}
+                colorUnidad={background}
+                clasesImagen="cambio hp-40 mtp-10"
+                className="p-0 px-1"
+              />
               <img src={"images/page_" + pagina + "/mono.png"} className="hp-100" alt="" />
             </div>
           </div>
