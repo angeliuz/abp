@@ -104,7 +104,8 @@ function App() {
     <div className="App">
       <a href="https://www.smconecta.cl/plataforma/UsedCodes/mi_biblioteca/54">
         <div className="wp-40 hp-40 bgc-voldemort color-white fsp-25 position-fixed top-0 start-0 mep-0 mtp-10 pep-5 rounded-tbe-10 box-shadow-tools zindex-10 d-flex center-center">
-        <ion-icon name="apps-outline"></ion-icon>
+        {/* <ion-icon name="apps-outline"></ion-icon> */}
+        <ion-icon name="arrow-back-outline"></ion-icon>
         </div>
       </a>
       <div className="wp-40 hp-40 bgc-arlo color-white fsp-25 position-fixed top-0 start-0 mep-0 mtp-60 pep-5 box-shadow-tools rounded-tbe-10 zindex-10 d-flex center-center">
