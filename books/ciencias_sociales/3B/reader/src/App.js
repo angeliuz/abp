@@ -1,10 +1,72 @@
-import React, { useEffect } from "react";
+import React, { useEffect, Suspense, lazy } from "react";
+import VisibilitySensor from "react-visibility-sensor";
+
 import "./App.css";
 import "./assets/css/colors.css";
 import "./assets/css/helpers.css";
 import "./assets/css/global.css";
 import "./assets/css/fonts.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+// const Page005 = lazy(() => import("./pages/page005"));
+// const Page006 = lazy(() => import("./pages/page006"));
+// const Page007 = lazy(() => import("./pages/page007"));
+// const Page008 = lazy(() => import("./pages/page008"));
+// const Page009 = lazy(() => import("./pages/page009"));
+// const Page010 = lazy(() => import("./pages/page010"));
+// const Page011 = lazy(() => import("./pages/page011"));
+// const Page012 = lazy(() => import("./pages/page012"));
+// const Page013 = lazy(() => import("./pages/page013"));
+// const Page014 = lazy(() => import("./pages/page014"));
+// const Page015 = lazy(() => import("./pages/page015"));
+// const Page016 = lazy(() => import("./pages/page016"));
+// const Page017 = lazy(() => import("./pages/page017"));
+// const Page018 = lazy(() => import("./pages/page018"));
+// const Page019 = lazy(() => import("./pages/page019"));
+// const Page020 = lazy(() => import("./pages/page020"));
+// const Page021 = lazy(() => import("./pages/page021"));
+// const Page022 = lazy(() => import("./pages/page022"));
+// const Page023 = lazy(() => import("./pages/page023"));
+// const Page024 = lazy(() => import("./pages/page024"));
+// const Page025 = lazy(() => import("./pages/page025"));
+// const Page026 = lazy(() => import("./pages/page026"));
+// const Page027 = lazy(() => import("./pages/page027"));
+// const Page028 = lazy(() => import("./pages/page028"));
+// const Page029 = lazy(() => import("./pages/page029"));
+// const Page030 = lazy(() => import("./pages/page030"));
+// const Page031 = lazy(() => import("./pages/page031"));
+// const Page032 = lazy(() => import("./pages/page032"));
+// const Page033 = lazy(() => import("./pages/page033"));
+// const Page034 = lazy(() => import("./pages/page034"));
+// const Page035 = lazy(() => import("./pages/page035"));
+// const Page036 = lazy(() => import("./pages/page036"));
+// const Page037 = lazy(() => import("./pages/page037"));
+// const Page038 = lazy(() => import("./pages/page038"));
+// const Page039 = lazy(() => import("./pages/page039"));
+// const Page040 = lazy(() => import("./pages/page040"));
+// const Page041 = lazy(() => import("./pages/page041"));
+// const Page042 = lazy(() => import("./pages/page042"));
+// const Page043 = lazy(() => import("./pages/page043"));
+// const Page044 = lazy(() => import("./pages/page044"));
+// const Page045 = lazy(() => import("./pages/page045"));
+// const Page046 = lazy(() => import("./pages/page046"));
+// const Page047 = lazy(() => import("./pages/page047"));
+// const Page048 = lazy(() => import("./pages/page048"));
+// const Page049 = lazy(() => import("./pages/page049"));
+// const Page050 = lazy(() => import("./pages/page050"));
+// const Page051 = lazy(() => import("./pages/page051"));
+// const Page052 = lazy(() => import("./pages/page052"));
+// const Page053 = lazy(() => import("./pages/page053"));
+// const Page054 = lazy(() => import("./pages/page054"));
+// const Page055 = lazy(() => import("./pages/page055"));
+// const Page056 = lazy(() => import("./pages/page056"));
+// const Page057 = lazy(() => import("./pages/page057"));
+// const Page058 = lazy(() => import("./pages/page058"));
+// const Page059 = lazy(() => import("./pages/page059"));
+// const Page060 = lazy(() => import("./pages/page060"));
+
+
+
 
 import Page005 from "./pages/page005";
 import Page006 from "./pages/page006";
@@ -92,15 +154,36 @@ function App() {
     document.getElementById('page_' + pad(dokenArray[2], 3)).scrollIntoView();
   }
 
-
+  function cargando() {
+    return (
+      <div className="wrapper bgc-light">
+        <div className="d-flex flex-column align-items-center pbp-10">
+          <div className="page position-relative bgc-white">
+            Cargando...
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   useEffect(() => {
     goToPage();
   });
 
+  function cargador() {
+    return (<div className="wrapper bgc-light">
+      <div className="d-flex flex-column align-items-center pbp-10">
+        <div className="page position-relative bgc-white">
+          Cargando...
+        </div>
+      </div>
+    </div>)
+  }
 
   return (
     <div className="App">
+
+
       <Page005 numeroPagina={clearZeros} />
       <Page006 numeroPagina={clearZeros} />
       <Page007 numeroPagina={clearZeros} />

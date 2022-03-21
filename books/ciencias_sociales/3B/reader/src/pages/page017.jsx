@@ -75,13 +75,13 @@ function Page017(props) {
                 <div className="row">
                   <div className="col-md-6 col-12 pbp-20 position-relative">
                     <div className="bgc-white mxwp-300 centrar border-caja position-relative">
-                      <ModalRecortable id={"p" + pagina + "_cutouts_" + (indexInput += 1)} pagina={pagina} image={"images/page_" + pagina + "/img_007.png"} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
+                      <ModalRecortable id={"p" + pagina + "_cutouts_" + (indexInput += 1)} numRecortables="6" pagina={pagina} image={"images/page_" + pagina + "/img_007.png"} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
                     </div>
                   </div>
                   <div className="col-md-6 col-12 pbp-20 position-relative">
                     <div className="position-absolute top-0 start-100 translate-middle msp--10 mtp--25 visible-768"><img src={"images/page_" + pagina + "/img_000.png"} className="wp-100" alt="" /></div>
                     <div className="bgc-white mxwp-300 centrar border-caja position-relative">
-                      <ModalRecortable id={"p" + pagina + "_cutouts_" + (indexInput += 1)} pagina={pagina} image={"images/page_" + pagina + "/img_008.png"} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
+                      <ModalRecortable id={"p" + pagina + "_cutouts_" + (indexInput += 1)} numRecortables="6" pagina={pagina} image={"images/page_" + pagina + "/img_008.png"} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
                     </div>
                     <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_.png"} className="wp-60" alt="" /></div>
                   </div>
@@ -89,24 +89,24 @@ function Page017(props) {
                 <div className="row">
                   <div className="col-md-6 col-12 pbp-20">
                     <div className="bgc-white mxwp-300 centrar border-caja position-relative">
-                      <ModalRecortable id={"p" + pagina + "_cutouts_" + (indexInput += 1)} pagina={pagina} image={"images/page_" + pagina + "/img_009.png"} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
+                      <ModalRecortable id={"p" + pagina + "_cutouts_" + (indexInput += 1)} numRecortables="6" pagina={pagina} image={"images/page_" + pagina + "/img_009.png"} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
                     </div>
                   </div>
                   <div className="col-md-6 col-12 pbp-20">
                     <div className="bgc-white mxwp-300 centrar border-caja position-relative">
-                      <ModalRecortable id={"p" + pagina + "_cutouts_" + (indexInput += 1)} pagina={pagina} image={"images/page_" + pagina + "/img_010.png"} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
+                      <ModalRecortable id={"p" + pagina + "_cutouts_" + (indexInput += 1)} numRecortables="6" pagina={pagina} image={"images/page_" + pagina + "/img_010.png"} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
                     </div>
                   </div>
                 </div>
                 <div className="row">
                   <div className="col-md-6 col-12 pbp-20">
                     <div className="bgc-white mxwp-300 centrar border-caja position-relative">
-                      <ModalRecortable id={"p" + pagina + "_cutouts_" + (indexInput += 1)} pagina={pagina} image={"images/page_" + pagina + "/img_011.png"} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
+                      <ModalRecortable id={"p" + pagina + "_cutouts_" + (indexInput += 1)} numRecortables="6" pagina={pagina} image={"images/page_" + pagina + "/img_011.png"} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
                     </div>
                   </div>
                   <div className="col-md-6 col-12 pbp-20">
                     <div className="bgc-white mxwp-300 centrar border-caja position-relative">
-                      <ModalRecortable id={"p" + pagina + "_cutouts_" + (indexInput += 1)} pagina={pagina} image={"images/page_" + pagina + "/img_012.png"} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
+                      <ModalRecortable id={"p" + pagina + "_cutouts_" + (indexInput += 1)} numRecortables="6" pagina={pagina} image={"images/page_" + pagina + "/img_012.png"} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
                     </div>
                   </div>
                 </div>

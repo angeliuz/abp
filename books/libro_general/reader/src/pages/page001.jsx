@@ -233,7 +233,7 @@ function Page001() {
                                         </div>
                                         <ModalPDF
                                             id={"p" + pagina + "_video" + (indexInput += 1)}
-                                            link=""
+                                            link="https://www.smconecta.cl/resources/1894/portadas.pdf"
                                             titulo="Material descargable"
                                             tipo="PDF"
                                             image={"images/generales/descargable.svg"}
@@ -249,6 +249,18 @@ function Page001() {
                         </div>
                     </div>
 
+                    <div className="container-titulo-global mtp-20 mbp-0">
+                        <div className="d-flex psp-20">
+                            <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                                {indexTitulo++}
+                            </div>
+                            <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                                Subir imagen
+                            </div>
+
+
+                        </div>
+                    </div>
 
                 </div>
             </div>
