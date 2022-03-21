@@ -2,7 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import Check from "../components/Check";
-
+import ModalPDF from "../components/ModalPDF";
 
 import "./page_017.css";
 
@@ -46,11 +46,11 @@ function Page017(props) {
                   </div>
                   <div className="position-absolute top-50 start-50 msp-0 mtp--10 translate-middle">
                     <div className="ovalo-p17 border-style-solid border-1 border-color-bulma position-relative">
-                    <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle wp-30 hp-30 border-1 border-style-solid bgc-white rounded-1 center-center">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30 text-center" />
+                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle wp-30 hp-30 border-1 border-style-solid bgc-white rounded-1 center-center">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30 text-center" />
                       </div>
                     </div>
-                    
+
                   </div>
                 </div>
                 <div className="position-absolute top-100 start-0 translate-middle msp-20 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_010.png"} className="wp-60" alt="" /></div>
@@ -63,8 +63,8 @@ function Page017(props) {
                   </div>
                   <div className="position-absolute top-50 start-50 msp-0 mtp--10 translate-middle">
                     <div className="ovalo-p17 border-style-solid border-1 border-color-pikachu position-relative">
-                    <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle wp-30 hp-30 border-1 border-style-solid bgc-white rounded-1 center-center">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30 text-center" />
+                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle wp-30 hp-30 border-1 border-style-solid bgc-white rounded-1 center-center">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30 text-center" />
                       </div>
                     </div>
                   </div>
@@ -78,8 +78,8 @@ function Page017(props) {
                   </div>
                   <div className="position-absolute top-50 start-50 msp-0 mtp--10 translate-middle">
                     <div className="ovalo-p17 border-style-solid border-1 border-color-soldados position-relative">
-                    <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle wp-30 hp-30 border-1 border-style-solid bgc-white rounded-1 center-center">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30 text-center" />
+                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle wp-30 hp-30 border-1 border-style-solid bgc-white rounded-1 center-center">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30 text-center" />
                       </div>
                     </div>
                   </div>
@@ -93,8 +93,8 @@ function Page017(props) {
                   </div>
                   <div className="position-absolute top-50 start-50 msp-0 mtp--10 translate-middle">
                     <div className="ovalo-p17 border-style-solid border-1 border-color-saitama position-relative">
-                    <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle wp-30 hp-30 border-1 border-style-solid bgc-white rounded-1 center-center">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30 text-center" />
+                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle wp-30 hp-30 border-1 border-style-solid bgc-white rounded-1 center-center">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30 text-center" />
                       </div>
                     </div>
                   </div>
@@ -109,8 +109,8 @@ function Page017(props) {
                   </div>
                   <div className="position-absolute top-50 start-50 msp-0 mtp--10 translate-middle">
                     <div className="ovalo-p17 border-style-solid border-1 border-color-android18 position-relative">
-                    <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle wp-30 hp-30 border-1 border-style-solid bgc-white rounded-1 center-center">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30 text-center" />
+                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle wp-30 hp-30 border-1 border-style-solid bgc-white rounded-1 center-center">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30 text-center" />
                       </div>
                     </div>
                   </div>
@@ -125,8 +125,8 @@ function Page017(props) {
                   </div>
                   <div className="position-absolute top-50 start-50 msp-0 mtp--15 translate-middle">
                     <div className="ovalo-p17 border-style-solid border-1 border-color-pidgey position-relative">
-                    <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle wp-30 hp-30 border-1 border-style-solid bgc-white rounded-1 center-center">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30 text-center" />
+                      <div className="position-absolute top-0 start-50 mtp-0 msp-0 translate-middle wp-30 hp-30 border-1 border-style-solid bgc-white rounded-1 center-center">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-30 min-hp-30 text-center" />
                       </div>
                     </div>
                   </div>
@@ -146,7 +146,17 @@ function Page017(props) {
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_011.svg"} clasesImagen="hp-40 text-center mtp-10 pep-30 " className="p-0 px-0" />
+              {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_011.svg"} clasesImagen="hp-40 text-center mtp-10 pep-30 " className="p-0 px-0" /> */}
+              <ModalPDF
+                id={"p" + pagina + "_video" + (indexInput += 1)}
+                link="https://www.smconecta.cl/resources/1894/portadas.pdf"
+                titulo="Material descargable"
+                tipo="PDF"
+                image={"images/generales/descargable.svg"}
+                colorUnidad={background}
+                clasesImagen="cambio hp-40 mtp-10"
+                className="p-0 px-1"
+              />
               <div className="msp-0 mtp--60 zindex-1 pep-20"><img src={"images/page_" + pagina + "/img_012.png"} className="wp-120" alt="" /></div>
             </div>
           </div>
