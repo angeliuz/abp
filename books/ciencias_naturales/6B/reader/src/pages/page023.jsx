@@ -2,6 +2,9 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import ModalVideo from "../components/ModalVideo";
+
+import CheckMultiple from "../components/CheckMultiple";
+
 import Crucigrama from "../components/Crucigrama";
 import "./page_023.css";
 
@@ -62,7 +65,16 @@ function Page023(props) {
               <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"85"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
+          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 m-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative">
+                <CheckMultiple id={"check" + pagina + "_" + (indexInput += 1)} image0={"images/page_" + pagina + "/img_003.png"} image1={"images/page_" + pagina + "/img_005.png"} image2={"images/page_" + pagina + "/img_007.png"}></CheckMultiple>
 
+              </div>
+            </div>
+          </div>
+
+          
 
           <div className="msp-60 mep-60 mtp-20 mbp-10">
             <div className="row p-0 m-0">

@@ -126,8 +126,8 @@ function Page077(props) {
                     </div>
                     <div className="d-flex mx-auto max-wp-400 justify-content-center ">
                       <div className="d-flex justify-content-start align-items-center mbp-5 psp-15 ">
-                      <div className=" mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
-                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                        <div className=" mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
+                          <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         </div>
                         <div className="text-start msp-5 mtp-10 pep-5  bgc-white  rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
                           fácil
@@ -135,7 +135,7 @@ function Page077(props) {
                       </div>
                       <div className="d-flex justify-content-start align-items-center mbp-5 psp-15">
                         <div className=" mtp-10 bgc-white border-1 border-style-solid border-color-dark rounded-1 mep-5">
-                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                          <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                         </div>
                         <div className="text-start msp-5 mtp-10 pep-5  bgc-white  rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
                           difícil
