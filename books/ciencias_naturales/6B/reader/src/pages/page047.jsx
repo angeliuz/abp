@@ -95,7 +95,10 @@ function Page047(props) {
                             <div className="col-12 mbp-10">
                                 <div className="d-flex border-style-solid border-color-android18 border-3 p-0 m-0">
                                     <div className="w-20 bgc-azuka p-3 border-right-style-solid border-color-android18 border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14">Paso 3:</div>
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-110 mep-10 msp-10" />
+                                    <div className="p-2 w-80">
+                                        {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Podemos mejorar en...</div> */}
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1  lhp-35 min-hp-110" />
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-12 mbp-10">
