@@ -2,7 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import Check from "../components/Check";
-
+import CheckMultiple from "../components/CheckMultiple";
 import "./page_033.css";
 
 function Page033(props) {
@@ -103,7 +103,13 @@ function Page033(props) {
                                         <div className="d-flex">
                                             <div className="ptp-0">
                                                 <div>
-                                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                                <CheckMultiple
+                                                id={"check_p" + pagina + "_" + (indexInput += 1)}
+                                                image0={"images/generales/check_vacio.svg"}
+                                                image1={"images/generales/ticket.svg"}
+                                                image2={"images/generales/cruz.svg"}
+                                                classContainer="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1 disable-select d-flex center-center p-1"
+                                                 />
                                                 </div>
                                             </div>
                                             <div className="psp-10 ptp-0 f-Ubuntu-L fsp-16 text-start">Entregamos nuestras propuestas para realizar las entrevistas.</div>
@@ -111,7 +117,13 @@ function Page033(props) {
                                         <div className="d-flex">
                                             <div className="ptp-10">
                                                 <div>
-                                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                                <CheckMultiple
+                                                id={"check_p" + pagina + "_" + (indexInput += 1)}
+                                                image0={"images/generales/check_vacio.svg"}
+                                                image1={"images/generales/ticket.svg"}
+                                                image2={"images/generales/cruz.svg"}
+                                                classContainer="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1 disable-select d-flex center-center p-1"
+                                                 />
                                                 </div>
                                             </div>
                                             <div className="psp-10 ptp-10 f-Ubuntu-L fsp-16 text-start">Preparamos las entrevistas creando preguntas.</div>
@@ -119,7 +131,13 @@ function Page033(props) {
                                         <div className="d-flex">
                                             <div className="ptp-10">
                                                 <div>
-                                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                                <CheckMultiple
+                                                id={"check_p" + pagina + "_" + (indexInput += 1)}
+                                                image0={"images/generales/check_vacio.svg"}
+                                                image1={"images/generales/ticket.svg"}
+                                                image2={"images/generales/cruz.svg"}
+                                                classContainer="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1 disable-select d-flex center-center p-1"
+                                                 />
                                                 </div>
                                             </div>
                                             <div className="psp-10 ptp-10 f-Ubuntu-L fsp-16 text-start">Elaboramos el guion de las entrevistas que realizaremos.</div>
