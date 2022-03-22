@@ -2,7 +2,7 @@
   "name": "reader",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://localhost:3000",
+  "homepage": "https://www.smconecta.cl/libros_abp/books/ciencias_naturales/3B/reader/build",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -11,11 +11,9 @@
     "firebase": "^9.6.2",
     "react": "^17.0.2",
     "react-bootstrap": "^2.1.0",
-    "react-burger-menu": "^3.0.6",
     "react-contenteditable": "^3.3.6",
     "react-dom": "^17.0.2",
     "react-scripts": "^5.0.0",
-    "react-sidebar": "^3.0.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

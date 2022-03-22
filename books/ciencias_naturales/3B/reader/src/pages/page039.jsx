@@ -106,7 +106,7 @@ function Page039(props) {
           <div className="d-flex global-margin mtp-0 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100 position-relative">
               <div className="col-sm-12 col-md-6 psp-20 pep-20 msp-0 mep-0 mtp-0 mbp-30 position-relative">
-              <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/lapiz.png"} className="hp-70 rotate--30" alt="" /></div>
+                <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/lapiz.png"} className="hp-70 rotate--30" alt="" /></div>
                 <div className="border-style-solid border-2 border-color-bulma rounded-p-10">
                   <div className="d-flex flex-column bgc-white rounded-p-10">
                     <div className="bgc-bulma w-100 f-Ubuntu-B text-center color-white fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5">
@@ -132,7 +132,7 @@ function Page039(props) {
                 </div>
               </div>
               <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-20 zindex-1"><img src={"images/page_" + pagina + "/globo.png"} className="wp-50" alt="" /></div>
-              
+
             </div>
           </div>
 

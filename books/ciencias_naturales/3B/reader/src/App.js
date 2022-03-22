@@ -1,9 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+
+
 import "./App.css";
 import "./assets/css/colors.css";
 import "./assets/css/helpers.css";
 import "./assets/css/global.css";
 import "./assets/css/fonts.css";
+
 
 import Page005 from "./pages/page005";
 import Page006 from "./pages/page006";
@@ -68,6 +71,7 @@ import Page062 from "./pages/page062";
 
 function App() {
   const dokenArray = getUrlParameter("doken").split([',']);
+
   console.log(dokenArray[2]);
 
   function pad(num, size) {
@@ -98,23 +102,48 @@ function App() {
   useEffect(() => {
     goToPage();
   });
-  
 
+
+  const [sideBarOpen, setSidebarOpen] = useState(false);
+  
+  function estadoSideBar(){
+
+    if(sideBarOpen){
+      setSidebarOpen(false);
+    }else{
+      setSidebarOpen(true);
+    }
+
+  }
+
+
+  
   return (
     <div className="App">
+
+      {/* <Menu isOpen={ sideBarOpen } >
+        <a id="home" className="menu-item" href="/">Home</a>
+        <a id="about" className="menu-item" href="/about">About</a>
+        <a id="contact" className="menu-item" href="/contact">Contact</a>
+
+      </Menu> */}
+
       <a href="https://www.smconecta.cl/plataforma/UsedCodes/mi_biblioteca/54">
         <div className="wp-40 hp-40 bgc-voldemort color-white fsp-25 position-fixed top-0 start-0 mep-0 mtp-10 pep-5 rounded-tbe-10 box-shadow-tools zindex-10 d-flex center-center">
         {/* <ion-icon name="apps-outline"></ion-icon> */}
         <ion-icon name="arrow-back-outline"></ion-icon>
         </div>
       </a>
-      <div className="wp-40 hp-40 bgc-arlo color-white fsp-25 position-fixed top-0 start-0 mep-0 mtp-60 pep-5 box-shadow-tools rounded-tbe-10 zindex-10 d-flex center-center">
+      <div className="wp-40 hp-40 bgc-arlo color-white fsp-25 position-fixed top-0 start-0 mep-0 mtp-60 pep-5 box-shadow-tools rounded-tbe-10 zindex-10 d-flex center-center" onClick={estadoSideBar}>
         <div className="position-absolute mtp--20 mep--20 wp-20 hp-20 fsp-12 zindex-10 d-flex center-center rounded-circle bgc-goten color-white f-Ubuntu-B">10</div>
-      <ion-icon name="chatbox-outline"></ion-icon>
+        <ion-icon name="chatbox-outline"></ion-icon>
       </div>
       <div className="wp-40 hp-40 bgc-saitama color-white fsp-25 position-fixed top-0 start-0 mep-0 pep-5 box-shadow-tools mtp-110 rounded-tbe-10 zindex-10 d-flex center-center">
-      <ion-icon name="brush-outline"></ion-icon>
+        <ion-icon name="brush-outline"></ion-icon>
       </div>
+
+
+
       <Page005 numeroPagina={clearZeros} />
       <Page006 numeroPagina={clearZeros} />
       <Page007 numeroPagina={clearZeros} />
