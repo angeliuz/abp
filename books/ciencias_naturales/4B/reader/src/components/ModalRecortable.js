@@ -125,7 +125,7 @@ function ModalRecortable(props) {
 
   return (
     <>
-      <div className="bgc-white centrar position-relative" data-bs-toggle="modal" data-bs-target={"#" + id} id={"recortable_" + id}>
+      <div className=" hp-240 centrar position-relative" data-bs-toggle="modal" data-bs-target={"#" + id} id={"recortable_" + id}>
         <img src={imagenSeleccionada} className="w-100 h-100" alt="" />
       </div>
       <div className="modal fade" id={id} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
