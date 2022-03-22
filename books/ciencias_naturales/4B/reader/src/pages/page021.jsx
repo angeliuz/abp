@@ -73,9 +73,8 @@ function Page021(props) {
                     <ModalRecortable
                       id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
                       pagina={pagina}
-
                       numRecortables="4"
-                      className="p-0 m-0 d-flex wp-200 hp-200 bgc-red pe-auto"
+                      className="p-0 m-0 d-flex wp-200 hp-240 bgc-red pe-auto"
                     />
                   </div>
                   <div className="position-absolute translate-middle top-0 start-50 mtp--15">

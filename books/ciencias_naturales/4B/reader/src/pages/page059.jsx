@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import ModalRecortable from "../components/ModalRecortable";
 
 import "./page_059.css";
 
@@ -81,8 +82,8 @@ function Page059(props) {
               </div>
             </div>
             <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-50" alt="" /></div>
-          <div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-150 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
-          <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-170 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-60" alt="" /></div>
+            <div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-150 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
+            <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-170 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-60" alt="" /></div>
           </div>
 
           <div className="row ptp--10 mbp-100">
@@ -94,7 +95,15 @@ function Page059(props) {
                   <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">2</div>
                   <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Recorto y armo mi credencial de brigadista.</div>
                   {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> */}
-                  <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_059/img_005.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+                  <div className="hp-20 wp-50 mtp-10 msp-10">
+                    <ModalRecortable
+                      id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                      pagina={pagina}
+                      image={"images/page_" + pagina + "/img_005.svg"}
+                      numRecortables="1"
+                      className="p-0 m-0 d-flex pe-auto bgc-goten"
+                    />
+                  </div>
                 </div>
               </div>
 

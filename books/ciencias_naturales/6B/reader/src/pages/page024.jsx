@@ -55,7 +55,7 @@ function Page024(props) {
                 alt=""
               />
             </div>
-
+            <div className="position-absolute top-100 start-100 translate-middle msp--120 mtp--120 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-180" alt="" /></div>
             {/* Cuadros rojos */}
 
             <div className="position-absolute top-0 start-0 translate-middle red-0p24 zindex-1">
