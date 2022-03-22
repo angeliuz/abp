@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import ModalRecortable from "../components/ModalRecortable";
 
 import "./page_010.css";
 
@@ -81,7 +82,15 @@ function Page010(props) {
                 {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_002.jpg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                 {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
                 {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-                <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_010/img_006.png" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+                <div className="wp-40 hp-40 mtp-10">
+                  <ModalRecortable
+                    id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                    pagina={pagina}
+                    image={"images/page_" + pagina + "/img_010.png"}
+                    numRecortables="1"
+                    className="p-0 m-0 d-flex  pe-auto bgc-goten"
+                  />
+                </div>
               </div>
             </div>
 
