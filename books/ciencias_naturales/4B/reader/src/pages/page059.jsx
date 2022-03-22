@@ -95,7 +95,7 @@ function Page059(props) {
                   <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">2</div>
                   <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Recorto y armo mi credencial de brigadista.</div>
                   {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> */}
-                  <div className="hp-50 wp-50 msp-20 mtp--80">
+                  <div className="hp-20 wp-50 mtp-10 msp-10">
                     <ModalRecortable
                       id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
                       pagina={pagina}
