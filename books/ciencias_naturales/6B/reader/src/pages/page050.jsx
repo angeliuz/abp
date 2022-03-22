@@ -33,8 +33,9 @@ function Page050(props) {
 
           <div className="d-flex global-margin mtp-10 mbp-10 psp-70 pep-30 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100 position-relative">
-              <div className="position-absolute top-0 start-0 translate-middle"><img src="images/page_050/brocha.png" className="hp-100 msp-0 mtp-140" alt="" /></div>
-              <div className="col-12 p-0 m-0 rounded-p-20 bgc-white border-style-solid border-color-dark border-1 p-2">
+              
+              <div className="col-12 position -relative p-0 m-0 rounded-p-20 bgc-white border-style-solid border-color-dark border-1 p-2">
+              <div className="position-absolute top-0 start-0 translate-middle"><img src="images/page_050/brocha.png" className="hp-100 msp--20 mtp-140" alt="" /></div>
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-320" />
               </div>
             </div>

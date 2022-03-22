@@ -41,7 +41,7 @@ function Page036(props) {
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-800" />
                   </div>
                 </div>
-                <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-80" alt="" /></div>
+                <div className="position-absolute top-0 start-100 translate-middle msp-20 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-80" alt="" /></div>
                 <div className="position-absolute top-0 start-0 translate-middle msp--20 mtp-80 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-70" alt="" /></div>
                 <div className="position-absolute top-100 start-100 translate-middle msp--20 mtp--80 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-100" alt="" /></div>
               </div>

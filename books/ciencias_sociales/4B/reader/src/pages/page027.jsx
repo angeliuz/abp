@@ -3,7 +3,7 @@ import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import ModalVideo from "../components/ModalVideo";
 import Check from "../components/Check";
-
+import CheckMultiple from "../components/CheckMultiple";
 import "./page_027.css";
 
 function Page027(props) {
@@ -108,22 +108,28 @@ function Page027(props) {
 
               <div className="col-6 position-relative">
                 <div className="" ><img src="images/page_027/img_007.jpg" className="w-100 position-relative" alt="" />
-                  <div className="border-style-solid border-2 border-color-lightDark bgc-white position-absolute mtp--50 msp-10 rounded-50">
-                    <InputBox
-                      id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-0 text-center wp-40 hp-40 lhp-35 min-hp-35"
-                    />
+                  <div className=" position-absolute mtp--50 msp-10 ">
+                  <CheckMultiple
+                  id={"check_p" + pagina + "_" + (indexInput += 1)}
+                  image0={"images/page_" + pagina + "/check_vacio.svg"}
+                  image1={"images/generales/check_azul.svg"}
+                  image2={"images/generales/check_rojo.svg"}
+                  classContainer="wp-45 hp-45 border-style-solid border-2 border-color-dark bgc-white rounded-circle disable-select d-flex center-center p-1 "
+                />
                   </div>
                 </div>
               </div>
 
               <div className="col-6 position-relative">
                 <div className="  "><img src="images/page_027/img_008.jpg" className=" w-100 position-relative" alt="" />
-                  <div className="border-style-solid border-2 border-color-lightDark bgc-white position-absolute mtp--50 msp-10 rounded-50">
-                    <InputBox
-                      id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-0 text-center wp-40 hp-40 lhp-35 min-hp-35"
-                    />
+                <div className=" position-absolute mtp--50 msp-10 ">
+                  <CheckMultiple
+                  id={"check_p" + pagina + "_" + (indexInput += 1)}
+                  image0={"images/page_" + pagina + "/check_vacio.svg"}
+                  image1={"images/generales/check_azul.svg"}
+                  image2={"images/generales/check_rojo.svg"}
+                  classContainer="wp-45 hp-45 border-style-solid border-2 border-color-dark bgc-white rounded-circle disable-select d-flex center-center p-1 "
+                />
                   </div>
                 </div>
               </div>
@@ -136,22 +142,28 @@ function Page027(props) {
 
               <div className="col-6 position-relative">
                 <div className="" ><img src="images/page_027/img_009.jpg" className="w-100 position-relative " alt="" />
-                  <div className="border-style-solid border-2 border-color-lightDark bgc-white position-absolute mtp--50 msp-10 rounded-50">
-                    <InputBox
-                      id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-0 text-center wp-40 hp-40 lhp-35 min-hp-35"
-                    />
+                <div className=" position-absolute mtp--50 msp-10 ">
+                  <CheckMultiple
+                  id={"check_p" + pagina + "_" + (indexInput += 1)}
+                  image0={"images/page_" + pagina + "/check_vacio.svg"}
+                  image1={"images/generales/check_azul.svg"}
+                  image2={"images/generales/check_rojo.svg"}
+                  classContainer="wp-45 hp-45 border-style-solid border-2 border-color-dark bgc-white rounded-circle disable-select d-flex center-center p-1 "
+                />
                   </div>
                 </div>
               </div>
 
               <div className="col-6 position-relative">
                 <div className="  "><img src="images/page_027/img_010.jpg" className=" w-100 position-relative" alt="" />
-                  <div className="border-style-solid border-2 border-color-lightDark bgc-white position-absolute mtp--50 msp-10 rounded-50">
-                    <InputBox
-                      id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-0 text-center wp-40 hp-40 lhp-35 min-hp-35"
-                    />
+                <div className=" position-absolute mtp--50 msp-10 ">
+                  <CheckMultiple
+                  id={"check_p" + pagina + "_" + (indexInput += 1)}
+                  image0={"images/page_" + pagina + "/check_vacio.svg"}
+                  image1={"images/generales/check_azul.svg"}
+                  image2={"images/generales/check_rojo.svg"}
+                  classContainer="wp-45 hp-45 border-style-solid border-2 border-color-dark bgc-white rounded-circle disable-select d-flex center-center p-1 "
+                />
                   </div>
                 </div>
               </div>

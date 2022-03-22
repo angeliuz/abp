@@ -69,37 +69,37 @@ componentes que ya tengo. </div>
                         <div className="row p-0 m-0">
                             <div className="col-sm-12   position-relative">
                                 <div className="d-flex w-100 p-2">
-                                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                                    <div className=" ">
                                     <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Portada e introducción del álbum.</div>
                                 </div>
                                 <div className="d-flex w-100 p-2">
-                                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                                    <div className="">
                                     <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Afiche de los derechos y la buena convivencia.</div>
                                 </div>
                                 <div className="d-flex w-100 p-2">
-                                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                                    <div className="">
                                     <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Fichas con información de las entrevistas.</div>
                                 </div>
                                 <div className="d-flex w-100 p-2">
-                                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                                    <div className="">
                                     <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Documento con los desafíos para la convivencia y sus propuestas.</div>
                                 </div>
                                 <div className="d-flex w-100 p-2">
-                                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                                    <div className="">
                                     <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Sección acordada por el grupo para incluir en el álbum.</div>
                                 </div>
                                 <div className="d-flex w-100 p-2">
-                                    <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                                    <div className="">
                                     <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Materiales para la creación del álbum.</div>

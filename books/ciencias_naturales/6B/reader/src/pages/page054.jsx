@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import ModalVideo from "../components/ModalVideo";
+import ModalPDF from "../components/ModalPDF";
 
 import "./page_054.css";
 
@@ -86,7 +87,17 @@ function Page054(props) {
               <div className="f-Ubuntu-R fsp-16 psp-10 pep-10 text-start">
                 Con el modelo de guion que nos entregarán, hacemos una lista con las tareas necesarias para grabar el video y las distribuimos:
               </div>
-              <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image={"images/page_" + pagina + "/img_003.svg"} className="p-0 px-1" />
+              {/* <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image={"images/page_" + pagina + "/img_003.svg"} className="p-0 px-1" /> */}
+              <ModalPDF
+                id={"p" + pagina + "_video" + (indexInput += 1)}
+                link="https://www.smconecta.cl/resources/1894/portadas.pdf"
+                titulo="Material descargable"
+                tipo="PDF"
+                image={"images/generales/descargable.svg"}
+                colorUnidad={background}
+                clasesImagen="cambio hp-40 mtp-10"
+                className="p-0 px-1"
+              />
             </div>
           </div>
 

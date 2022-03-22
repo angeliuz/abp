@@ -4,7 +4,6 @@ import "./assets/css/colors.css";
 import "./assets/css/helpers.css";
 import "./assets/css/global.css";
 import "./assets/css/fonts.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Page005 from "./pages/page005";
 import Page006 from "./pages/page006";
@@ -63,6 +62,8 @@ import Page058 from "./pages/page058";
 import Page059 from "./pages/page059";
 import Page060 from "./pages/page060";
 
+
+
 function App() {
   const dokenArray = getUrlParameter("doken").split([',']);
   console.log(dokenArray[2]);
@@ -91,8 +92,6 @@ function App() {
   function goToPage() {
     document.getElementById('page_' + pad(dokenArray[2], 3)).scrollIntoView();
   }
-
-
 
   useEffect(() => {
     goToPage();
@@ -158,7 +157,7 @@ function App() {
       <Page059 numeroPagina={clearZeros} />
       <Page060 numeroPagina={clearZeros} />
 
-    </div >
+    </div>
   );
 }
 

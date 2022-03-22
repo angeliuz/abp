@@ -80,7 +80,12 @@ function Page007(props) {
                 </div>
               </div>
 
-              <div className="d-flex psp-20">
+              
+
+              </div>
+          </div>
+
+          <div className="d-flex psp-20">
                 {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
                 <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                   2
@@ -90,12 +95,11 @@ function Page007(props) {
                 </div>
               </div>
 
-              {/* BEGIN EJERCICIO 2 */}
-              <div className="row d-flex mx-auto f-Ubuntu-R fsp-15 mbp-70 justify-content-between">
+          <div className="row d-flex psp-60 pep-60 f-Ubuntu-R fsp-15 mbp-70 justify-content-between">
                 <div className="position-relative">
                   <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-140 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-60" alt="" /></div>
                 </div>
-                <div className="col-sm-12 col-md-6">
+                <div className="col-sm-12 col-md-6 pbp-10">
                   <div className="text-center w-100 border-1 border-style-solid border-color-palpatine rounded-p-10">
                     <div className="rounded-set-6  hp-60 pep-20 psp-20 ptp-10 pbp-10 bgc-palpatine color-white fw-700 d-flex justify-content-center align-items-center">
                       La convivencia escolar es:
@@ -117,11 +121,6 @@ function Page007(props) {
                 </div>
 
               </div>
-
-
-            </div>
-          </div>
-
           {/* BEGIN PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>

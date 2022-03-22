@@ -3,7 +3,7 @@ import { useState } from "react";
 import Modal from 'react-bootstrap/Modal'
 import CloseButton from 'react-bootstrap/CloseButton'
 
-import { doc, getDoc, setDoc } from "firebase/firestore";
+import { doc, getDoc, setDoc, updateDoc } from "firebase/firestore";
 import db from "../firebase/firebaseConfig";
 
 function ModalPDF(props) {
@@ -20,9 +20,9 @@ function ModalPDF(props) {
   const id = props.id;
   const clasesImagen = props.clasesImagen;
   const colorUnidad = props.colorUnidad;
-  const [linkVideo, setLinkVideo] = useState(props.linkVideo);
-  const [tituloVideo, setTituloVideo] = useState(props.tituloVideo);
-  const [tipoVideo, setTipoVideo] = useState(props.tipoVideo);
+  const [link, setLink] = useState(props.link);
+  const [titulo, setTitulo] = useState(props.titulo);
+  const [tipo, setTipo] = useState(props.tipo);
 
   const [fullscreen, setFullscreen] = useState(true);
   const [show, setShow] = useState(false);
@@ -44,47 +44,22 @@ function ModalPDF(props) {
   }
 
 
-  useEffect(() => {
-    getData();
-  }, [linkVideo, tituloVideo, tipoVideo]);
 
-  const getData = () => {
-    const obtenerDatos = async () => {
-      const docSnap = await getDoc(docRef);
-      if (docSnap.exists()) {
-        if (docSnap.data()[id]) {
-          console.log("LINKVIDEO: " + docSnap.data()[id][0])
-          console.log("TITULOVIDEO: " + docSnap.data()[id][1])
-          console.log("TIPOVIDEO: " + docSnap.data()[id][2])
-          setLinkVideo(docSnap.data()[id][0]);
-          setTituloVideo(docSnap.data()[id][1]);
-          setTipoVideo(docSnap.data()[id][2]);
-        } else {
-          console.log("No existe el video");
-        }
-      } else {
-        await setDoc(doc(db, coleccion, documento), {
-          [id]: [
-            linkVideo,
-            tituloVideo,
-            tipoVideo
-          ]
-        });
-      }
-      // console.log("useEffect: " + docSnap.data()[id]);
-      // console.log("change: " + content1);
-    };
-    obtenerDatos();
-  }
 
   function tipoDeVideo(close) {
-    if (tipoVideo == "vimeo") {
-      return <iframe width="80%" style={{ minHeight: "73vh" }} title={id} src={"https://player.vimeo.com/video/" + linkVideo} frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>;
+    console.log(link)
+    if (link != "") {
+      return (
+        <object data={link} type="application/pdf" width="100%" style={{ minHeight: "80vh" }} ></object>
+      )
     } else {
-      return <iframe width="80%" style={{ minHeight: "73vh" }} title={id} src={"https://www.youtube.com/embed/" + linkVideo} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>;
+
+      return (
+        <div className="d-flex center-center min-hp-300 color-white f-Ubuntu-M">No se encontro ningún documento.</div>
+      )
     }
   }
-
+  // "http://africau.edu/images/default/sample.pdf"
   function handleShow(breakpoint) {
     setFullscreen(breakpoint);
     setShow(true);
@@ -104,7 +79,7 @@ function ModalPDF(props) {
       margin: "0px",
       padding: "0px",
       borderRadius: "15px",
-      minHeight: "75vh",
+      //minHeight: "450px",
       borderRadius: "0px 0px 10px 10px"
     },
     modalTitle: {
@@ -114,7 +89,7 @@ function ModalPDF(props) {
 
   return (
     <>
-      <div className={className} data-bs-toggle="modal" data-bs-target={"#" + id} id={"pdf_" + id} onClick={handleShow}>
+      <div className={className} id={"pdf_" + id} onClick={handleShow}>
         <img src={image} className={clasesImagen} alt="" />
       </div>
 
@@ -123,9 +98,10 @@ function ModalPDF(props) {
         onHide={handleClose}
         size="lg"
         aria-labelledby="contained-modal-title-vcenter"
+        centered={true}
       >
         <Modal.Header className={"color-white boton-close-white " + colorUnidad} style={styles.modalHeader}>
-          <Modal.Title id="contained-modal-title-vcenter" className="f-Ubuntu-M fsp-20 color-white" style={styles.modalTitle}>{tituloVideo}</Modal.Title>
+          <Modal.Title id="contained-modal-title-vcenter" className="f-Ubuntu-M fsp-20 color-white" style={styles.modalTitle}>{titulo}</Modal.Title>
           <CloseButton variant="white" onClick={handleClose} />
         </Modal.Header>
         <Modal.Body className="d-flex justify-content-center align-items-center video-bgc" style={styles.modalBody}>
