@@ -65,7 +65,7 @@ function Page054(props) {
           <div className="d-flex w-100 mtp-50 psp-60 pep-60 ptp-20 mbp-0 bgc-bison border-top-style-solid border-color-dark border-2 pbp-80">
             <div className="row w-100 p-0 m-0">
               <div className="col-12 position-relative">
-                <div className="position-absolute top-0 start-100 translate-middle msp--10 mtp--52 visible-768"><img src="images/page_040/img_002.png" className="wp-80 " alt="" /></div>
+                <div className="position-absolute top-0 start-100 translate-middle msp--10 mtp--52 visible-768"><img src="images/page_054/img_004.png" className="wp-90 " alt="" /></div>
                 <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
                 <div className="d-flex flex-column mbp-20 mtp-10 w-100">
                   <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
@@ -86,7 +86,7 @@ function Page054(props) {
               <div className="col-12">
                 <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo me siento?</div>
                 <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-30">
-                  <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/page_018/img_005.svg" className="hp-17 mtp--2" alt="" /> el recuadro que mejor me represente.</span>
+                  <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/page_054/img_006.svg" className="hp-17 mtp--2" alt="" /> el recuadro que mejor me represente.</span>
                   <div className="w-100 p-2 pb-3 bgc-white rounded-p-10">
                     <table className="w-100">
                       <tbody>
