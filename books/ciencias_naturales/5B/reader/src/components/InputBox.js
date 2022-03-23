@@ -33,17 +33,17 @@ function InputBox(props) {
 
       if (docSnap.exists()) {
           const field = docSnap.data()[id];
-          console.log("Current data: ", docSnap.data()[id]);
+          //console.log("Current data: ", docSnap.data()[id]);
           if (field) {
             setContent1(docSnap.data()[id]);
-            console.log("content1: " + content1);
+            //console.log("content1: " + content1);
           } else {
-            console.log("Sin datos: "+id);
+            //console.log("Sin datos: "+id);
           }
         //console.log("Document data:", docSnap.data());
       } else {
         // doc.data() will be undefined in this case
-        console.log("No such document!");
+        //console.log("No such document!");
       }
     };
     obtenerDatos();

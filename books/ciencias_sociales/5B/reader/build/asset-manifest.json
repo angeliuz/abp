@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/css/main.187cb3b4.css",
-    "main.js": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/js/main.2028459d.js",
-    "static/js/787.5c056c1f.chunk.js": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/js/787.5c056c1f.chunk.js",
+    "main.css": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/css/main.57a0b5f9.css",
+    "main.js": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/js/main.f8699226.js",
+    "static/js/787.327d116d.chunk.js": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/js/787.327d116d.chunk.js",
     "static/media/Fondo_001.svg": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/Fondo_001.e920e604fad3eb1b1abe.svg",
     "static/media/IntroRustG-Base.otf": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/IntroRustG-Base.550328cf018992102ea6.otf",
     "static/media/Ubuntu-L.ttf": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/Ubuntu-L.b6c0962b33adfd62ee88.ttf",
@@ -11,7 +11,7 @@
     "static/media/Ubuntu-R.ttf": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/Ubuntu-R.5d5340410d5982ca5432.ttf",
     "static/media/Ubuntu-M.ttf": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/Ubuntu-M.f6a60e5ba8fbdef3907b.ttf",
     "static/media/Ubuntu-B.ttf": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/Ubuntu-B.dcbada85323904e0cb69.ttf",
-    "static/media/fondo_0011.svg": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/fondo_0011.c0630d90e406347e98e1.svg",
+    "static/media/bgc_planificacion.svg": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/bgc_planificacion.b76d6ae4c95419468b39.svg",
     "static/media/bgc_experimentacion.svg": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/bgc_experimentacion.3829bbcee5b9adf9689a.svg",
     "static/media/fondo_001.svg": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/fondo_001.0cffdaadc42b8f8bb724.svg",
     "static/media/MinionPro-Regular.otf": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/MinionPro-Regular.e5d2692c7bb84fdf476b.otf",
@@ -20,7 +20,6 @@
     "static/media/Colby_Com_B.ttf": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/Colby_Com_B.0e6efb77f7468eb9c6a7.ttf",
     "static/media/Colby-StLt.ttf": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/Colby-StLt.848fe078f55a910c0b43.ttf",
     "static/media/Colby_Ext_R.ttf": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/Colby_Ext_R.df7baee160ef14c4cb1d.ttf",
-    "static/media/fondo.jpg": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/fondo.cb07252c999d6778434a.jpg",
     "static/media/Colby_Com_M.ttf": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/Colby_Com_M.a4be80c81a2ca825a9e7.ttf",
     "static/media/Colby_Con_M.ttf": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/Colby_Con_M.8c054466367aa560dc10.ttf",
     "static/media/Colby_Com_R.ttf": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/Colby_Com_R.c043be993b63d6a3934f.ttf",
@@ -35,22 +34,23 @@
     "static/media/lineas_objetivos.svg": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/lineas_objetivos.88c8aa5dcddf50c32ccd.svg",
     "static/media/ZapfDingbatsStd.otf": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/ZapfDingbatsStd.b2ab4645c9d58e565be1.otf",
     "static/media/ccdigitaldelivery-bold.otf": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/ccdigitaldelivery-bold.369b2ebfbb133df15b06.otf",
-    "static/media/caja_sesion.svg": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/caja_sesion.22544717d6b791fb0110.svg",
+    "static/media/fondo.jpg": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/fondo.cb07252c999d6778434a.jpg",
     "static/media/caja_blanca.svg": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/caja_blanca.386fc2af98bcb36376f1.svg",
     "static/media/fondo_003.svg": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/fondo_003.55d3d73a64af66485cac.svg",
     "static/media/fondo_004.svg": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/fondo_004.d49794662dc009b73f52.svg",
+    "static/media/caja_sesion.svg": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/caja_sesion.a0549fa2812ca17b4433.svg",
     "static/media/fondo_007.svg": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/fondo_007.81a5426f38519152a176.svg",
     "static/media/fondo_008.svg": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/fondo_008.aff0078d9ef453fc898f.svg",
     "index.html": "/libros_abp/books/ciencias_sociales/5B/reader/build/index.html",
     "static/media/fondo_005.svg": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/fondo_005.d94f5449813804f54e2b.svg",
     "static/media/linea.svg": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/linea.608e36926dfa6d98a1a5.svg",
     "static/media/lineas_objetivos_movile.svg": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/lineas_objetivos_movile.bb3e000f820ddef8d96d.svg",
-    "main.187cb3b4.css.map": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/css/main.187cb3b4.css.map",
-    "main.2028459d.js.map": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/js/main.2028459d.js.map",
-    "787.5c056c1f.chunk.js.map": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/js/787.5c056c1f.chunk.js.map"
+    "main.57a0b5f9.css.map": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/css/main.57a0b5f9.css.map",
+    "main.f8699226.js.map": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/js/main.f8699226.js.map",
+    "787.327d116d.chunk.js.map": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/js/787.327d116d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.187cb3b4.css",
-    "static/js/main.2028459d.js"
+    "static/css/main.57a0b5f9.css",
+    "static/js/main.f8699226.js"
   ]
 }
