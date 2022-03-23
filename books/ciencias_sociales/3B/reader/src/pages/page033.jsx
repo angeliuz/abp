@@ -37,7 +37,7 @@ function Page033(props) {
               <img className="hp-15 mtp-20 pep-10" src="images/page_033/g_i.svg" alt="" />
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey pep-10">1</div>
               <div className="f-Ubuntu-R fsp-16 text-start pep-10 mtp-15">Leo la revista y contesto.</div>
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"69"} image={"images/page_" + pagina + "/revista.png"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"70"} image={"images/page_" + pagina + "/revista.png"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
 
             </div>
           </div>
