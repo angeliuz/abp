@@ -13,7 +13,6 @@ function ModalBook(props) {
 
   const coleccion = "books";
   const documento = dokenArray[1];
-  const IDLIBRO = dokenArray[1];
   const docRef = doc(db, coleccion, documento);
 
   const className = props.className;
@@ -39,37 +38,6 @@ function ModalBook(props) {
     var results = regex.exec(window.location.search);
     return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
   };
-
-  function getBookIDPadre(){
-
-    // get local storage
-    var abp = localStorage.getItem('abp');
-    // convert string to Object
-    var abpObj = JSON.parse(abp);
-    // get book id
-    for(var a = 0; a < abpObj.length; a++){
-    
-      var bookID = abpObj[a].Book["Book"];
-      
-      var arreglo = [];
-      
-      for(var i = 0; i < bookID.length; i++){
-        arreglo.push(bookID[i].Book);
-      }
-
-      var index = arreglo[0].id;
-      if(index === IDLIBRO){
-        console.log(abp);
-        console.log(bookID);
-        console.log(IDLIBRO)
-        console.log(arreglo); 
-        console.log(arreglo[0].padre_id)
-        return arreglo[0].padre_id;
-      }
-
-    }
-
-  }
 
   const styles = {
     modalHeader: {
@@ -105,7 +73,7 @@ function ModalBook(props) {
           <CloseButton variant="white" onClick={handleClose} />
         </Modal.Header>
         <Modal.Body className="d-flex justify-content-center align-items-center video-bgc" style={styles.modalBody}>
-          <iframe title={id} src={"https://www.smconecta.cl/plataforma/viewers/" + getBookIDPadre() + "?pagina=" + pagina} width="100%" height="100%" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
+          <iframe title={id} src={"https://www.smconecta.cl/plataforma/viewers/" + documento + "?pagina=" + pagina} width="100%" height="100%" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
         </Modal.Body>
       </Modal>
     </>
