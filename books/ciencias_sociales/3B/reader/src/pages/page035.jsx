@@ -27,7 +27,7 @@ function Page035(props) {
             <div className="d-flex">
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">1</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Observo la revista, comprendo y completo.</div>
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"69"} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-40 text-center mtp-10 msp-10" className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"70"} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-40 text-center mtp-10 msp-10" className="p-0 px-0" />
 
             </div>
           </div>
