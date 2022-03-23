@@ -3,7 +3,7 @@ import { useState } from "react";
 import Modal from 'react-bootstrap/Modal'
 import CloseButton from 'react-bootstrap/CloseButton'
 
-import { doc, getDoc, setDoc } from "firebase/firestore";
+import { doc, getDoc, setDoc, updateDoc } from "firebase/firestore";
 import db from "../firebase/firebaseConfig";
 
 function ModalVideo(props) {
@@ -53,14 +53,21 @@ function ModalVideo(props) {
       const docSnap = await getDoc(docRef);
       if (docSnap.exists()) {
         if (docSnap.data()[id]) {
-          console.log("LINKVIDEO: " + docSnap.data()[id][0])
-          console.log("TITULOVIDEO: " + docSnap.data()[id][1])
-          console.log("TIPOVIDEO: " + docSnap.data()[id][2])
+          // console.log("LINKVIDEO: " + docSnap.data()[id][0])
+          // console.log("TITULOVIDEO: " + docSnap.data()[id][1])
+          // console.log("TIPOVIDEO: " + docSnap.data()[id][2])
           setLinkVideo(docSnap.data()[id][0]);
           setTituloVideo(docSnap.data()[id][1]);
           setTipoVideo(docSnap.data()[id][2]);
         } else {
           console.log("No existe el video");
+          updateDoc(docRef, {
+            [id]: [
+              linkVideo,
+              tituloVideo,
+              tipoVideo
+            ],
+          });
         }
       } else {
         await setDoc(doc(db, coleccion, documento), {
@@ -81,7 +88,7 @@ function ModalVideo(props) {
     if (tipoVideo == "vimeo") {
       return <iframe width="80%" style={{ minHeight: "73vh" }} title={id} src={"https://player.vimeo.com/video/" + linkVideo} frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>;
     } else {
-      return <iframe width="80%" style={{ minHeight: "73vh" }} title={id} src={"https://www.youtube.com/embed/" + linkVideo} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>;
+      return <iframe width="80%" style={{ minHeight: "73vh" }} title={id} src={"https://www.youtube.com/embed/" + linkVideo} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>;
     }
   }
 
@@ -114,7 +121,7 @@ function ModalVideo(props) {
 
   return (
     <>
-      <div className={className} data-bs-toggle="modal" data-bs-target={"#" + id} id={"recortable_" + id} onClick={handleShow}>
+      <div className={className} id={"recortable_" + id} onClick={handleShow}>
         <img src={image} className={clasesImagen} alt="" />
       </div>
 
@@ -123,6 +130,7 @@ function ModalVideo(props) {
         onHide={handleClose}
         size="lg"
         aria-labelledby="contained-modal-title-vcenter"
+        centered={true}
       >
         <Modal.Header className={"color-white boton-close-white " + colorUnidad} style={styles.modalHeader}>
           <Modal.Title id="contained-modal-title-vcenter" className="f-Ubuntu-M fsp-20 color-white" style={styles.modalTitle}>{tituloVideo}</Modal.Title>
