@@ -30,7 +30,7 @@ function Page010(props) {
                 <div className="position-absolute top-50 start-0 translate-middle msp--0 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-20" alt="" /></div>
                 <div className="position-absolute top-100 start-100 translate-middle msp--0 mtp--40 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
 
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-230" />
               </div>
               <div className="max-wp-600 mx-auto d-flex f-Ubuntu-R fsp-15 mbp-20 position-relative mtp-20">
                 <div className="position-absolute top-0 start-0 translate-middle msp-60 mtp--15 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-10" alt="" /></div>

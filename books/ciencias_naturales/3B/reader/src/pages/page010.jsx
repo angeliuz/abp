@@ -82,7 +82,7 @@ function Page010(props) {
                 {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_002.jpg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                 {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
                 {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-                <div className="wp-40 hp-40 mtp-10">
+                <div className="mtp-10">
                   <ModalRecortable
                     id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
                     pagina={pagina}

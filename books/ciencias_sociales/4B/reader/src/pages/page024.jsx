@@ -25,7 +25,7 @@ function Page024(props) {
                             Los derechos y la buena convivencia
                         </div>
                     </div>
-                    
+
                     <div className=" container-titulo-global mbp-∫0">
                         <div className="d-flex">
                             <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_024/img_002.svg" alt="" />
@@ -46,180 +46,164 @@ function Page024(props) {
                             {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_031/img_002.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
                         </div>
                     </div>
-
-                    <div className="d-flex msp-60 mep-60 mbp-100 mtp-30 bgc-motaro rounded-p-20 border-style-solid border-1 border-color-azuka">
+                    <div className="d-flex msp-60 mep-60 mbp-100 mtp-30 bgc-motaro rounded-p-20 border-style-solid border-1 border-color-azuka position-relative">
                         <div className="row w-100 p-0 m-0">
-                            <div className="col-sm-4 position-relative justify-content-center align-items-center ptp-10">
 
-                                
-                                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
-                                    <img
-                                        src="images/page_024/img_003.svg"
-                                        className="wp-30 "
-                                        alt=""
-                                    />
-                                </div>
+                            <div className="col-md-4  position-relative justify-content-center align-items-center ptp-10 pbp-10">
                                 <div className="d-flex justify-content-center w-100 ">
                                     <div className="bgc-bulma w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
                                         REALIDAD ACTUAL
-                                        DEL CURSO
                                     </div>
                                 </div>
-
-                                <div className="d-flex flex-column center-center mbp-5 mtp-0 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                                    <div className="p-2 w-100 max-wp-300">
-                                        <InputBox
-                                            id={"p" + pagina + "_input" + (indexInput += 1)}
-                                            className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
-                                        />
+                                <div className="position-absolute flecha-p24 translate-middle msp-3 mtp-0 zindex-1 ">
+                                    <img src="images/page_024/img_003.svg" className="wp-30 giro90-res" alt="" />
+                                </div>
+                                <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
+                                    <div className="p-2 w-100 d-flex">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-180" />
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-sm-4 position-relative ptp-10">
-                                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
-                                    <img
-                                        src="images/page_024/img_004.svg"
-                                        className="wp-30 "
-                                        alt=""
-                                    />
-                                </div>
 
-                                <div className="d-flex justify-content-center w-100 ptp-25">
+                            <div className="col-md-4 position-relative justify-content-center align-items-center ptp-10 pbp-10">
+                                <div className="position-absolute flecha-p24 translate-middle msp-3 mtp-0 zindex-1 ">
+                                    <img src="images/page_024/img_004.svg" className="wp-30 giro90-res" alt="" />
+                                </div>
+                                <div className="d-flex justify-content-center w-100 ">
                                     <div className="bgc-android18 w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
                                         ¿QUÉ PASARÍA SI...?
                                     </div>
                                 </div>
-
                                 <div className="d-flex flex-column mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                                    <div className="p-2 w-100 max-wp-300">
-                                        <InputBox
-                                            id={"p" + pagina + "_input" + (indexInput += 1)}
-                                            className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
-                                        />
+                                    <div className="p-2 w-100 d-flex">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-180" />
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-sm-4 position-relative ptp-10">
-                            <div className="position-absolute top-0 start-100 translate-middle msp-3 mtp--40 msp--70 zindex-1 visible-768">
-                                    <img
-                                        src="images/page_024/img_001.png"
-                                        className=" "
-                                        alt=""
-                                    />
+
+                            <div className="col-md-4 position-relative ptp-10 pbp-10">
+                                <div className="position-absolute top-0 start-100 translate-middle msp-3 mtp-20 msp--50 zindex-1 visible-768">
+                                    <img src="images/page_024/img_004.png" className=" " alt="" />
                                 </div>
-                                <div className="d-flex justify-content-center w-100 ptp-25">
+                                <div className="d-flex justify-content-center w-100 ">
                                     <div className="bgc-pidgey w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
                                         CONSECUENCIAS
                                     </div>
                                 </div>
-
                                 <div className="d-flex flex-column mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                                    <div className="p-2 w-100 max-wp-300">
+                                    <div className="p-2 w-100 d-flex">
                                         <InputBox
                                             id={"p" + pagina + "_input" + (indexInput += 1)}
-                                            className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
+                                            className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-180"
                                         />
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-sm-4 position-relative">
-                            
-                                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
-                                    <img
-                                        src="images/page_024/img_003.svg"
-                                        className="wp-30 "
-                                        alt=""
-                                    />
+
+                            <div className="col-md-4 position-relative justify-content-center align-items-center ptp-10 pbp-10">
+                                <div className="d-flex justify-content-center w-100 invisible-768 ">
+                                    <div className="bgc-bulma w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
+                                        REALIDAD ACTUAL
+                                    </div>
                                 </div>
-                                <div className="d-flex flex-column center-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                                    <div className="p-2 w-100 max-wp-300">
+                                <div className="position-absolute flecha-p24 translate-middle msp-3 mtp-0 zindex-1 ">
+                                    <img src="images/page_024/img_003.svg" className="wp-30 giro90-res" alt="" />
+                                </div>
+                                <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
+                                    <div className="p-2 w-100 d-flex">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-180" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-md-4 position-relative justify-content-center align-items-center ptp-10 pbp-10">
+                                <div className="position-absolute flecha-p24 translate-middle msp-3 mtp-0 zindex-1 ">
+                                    <img src="images/page_024/img_004.svg" className="wp-30 giro90-res" alt="" />
+                                </div>
+                                <div className="d-flex justify-content-center w-100 invisible-768 ">
+                                    <div className="bgc-android18 w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
+                                        ¿QUÉ PASARÍA SI...?
+                                    </div>
+                                </div>
+                                <div className="d-flex flex-column mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
+                                    <div className="p-2 w-100 d-flex">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-180" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-md-4 position-relative ptp-10 pbp-10">
+                                <div className="d-flex justify-content-center w-100 invisible-768 ">
+                                    <div className="bgc-pidgey w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
+                                        CONSECUENCIAS
+                                    </div>
+                                </div>
+                                <div className="d-flex flex-column mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
+                                    <div className="p-2 w-100 d-flex">
                                         <InputBox
                                             id={"p" + pagina + "_input" + (indexInput += 1)}
-                                            className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
+                                            className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-180"
                                         />
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-sm-4 position-relative">
-                                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
-                                    <img
-                                        src="images/page_024/img_004.svg"
-                                        className="wp-30 "
-                                        alt=""
-                                    />
+                            <div className="col-md-4 position-relative justify-content-center align-items-center ptp-10 pbp-10">
+                                <div className="d-flex justify-content-center w-100 invisible-768 ">
+                                    <div className="bgc-bulma w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
+                                        REALIDAD ACTUAL
+                                    </div>
                                 </div>
-                                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                                    <div className="p-2 w-100 max-wp-300">
-                                        <InputBox
-                                            id={"p" + pagina + "_input" + (indexInput += 1)}
-                                            className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
-                                        />
+                                <div className="position-absolute flecha-p24 translate-middle msp-3 mtp-0 zindex-1 ">
+                                    <img src="images/page_024/img_003.svg" className="wp-30 giro90-res" alt="" />
+                                </div>
+                                <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
+                                    <div className="p-2 w-100 d-flex">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-180" />
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-sm-4 position-relative">
-                                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                                    <div className="p-2 w-100 max-wp-300">
-                                        <InputBox
-                                            id={"p" + pagina + "_input" + (indexInput += 1)}
-                                            className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
-                                        />
+
+                            <div className="col-md-4 position-relative justify-content-center align-items-center ptp-10 pbp-10">
+                                <div className="position-absolute flecha-p24 translate-middle msp-3 mtp-0 zindex-1 ">
+                                    <img src="images/page_024/img_004.svg" className="wp-30 giro90-res" alt="" />
+                                </div>
+                                <div className="d-flex justify-content-center w-100 invisible-768 ">
+                                    <div className="bgc-android18 w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
+                                        ¿QUÉ PASARÍA SI...?
+                                    </div>
+                                </div>
+                                <div className="d-flex flex-column mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
+                                    <div className="p-2 w-100 d-flex">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-180" />
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-sm-4 position-relative">
-                            <div className="position-absolute top-100 start-0 translate-middle  mtp-20 msp--10 zindex-1">
-                                    <img
-                                        src="images/page_024/img_005.png"
-                                        className=" "
-                                        alt=""
-                                    />
-                                </div>
-                                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
-                                    <img
-                                        src="images/page_024/img_003.svg"
-                                        className="wp-30 "
-                                        alt=""
-                                    />
-                                </div>
-                                <div className="d-flex flex-column center-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                                    <div className="p-2 w-100 max-wp-300">
-                                        <InputBox
-                                            id={"p" + pagina + "_input" + (indexInput += 1)}
-                                            className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
-                                        />
+
+                            <div className="col-md-4 position-relative ptp-10 pbp-10">
+                                <div className="d-flex justify-content-center w-100 invisible-768 ">
+                                    <div className="bgc-pidgey w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
+                                        CONSECUENCIAS
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-sm-4 position-relative">
-                                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
-                                    <img
-                                        src="images/page_024/img_004.svg"
-                                        className="wp-30 "
-                                        alt=""
-                                    />
-                                </div>
-                                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                                    <div className="p-2 w-100 max-wp-300">
+                                <div className="d-flex flex-column mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
+                                    <div className="p-2 w-100 d-flex">
                                         <InputBox
                                             id={"p" + pagina + "_input" + (indexInput += 1)}
-                                            className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
-                                        />
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-sm-4 position-relative">
-                                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                                    <div className="p-2 w-100 max-wp-300">
-                                        <InputBox
-                                            id={"p" + pagina + "_input" + (indexInput += 1)}
-                                            className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
+                                            className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-180"
                                         />
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <div className="position-absolute top-0 start-100 translate-middle msp-3 mtp--40 msp--70 zindex-1 visible-768">
+                            <img
+                                src="images/page_024/img_001.png"
+                                className=" "
+                                alt=""
+                            />
+                        </div>
                     </div>
+
 
                     {/* PIE DE PAGINA */}
                     <div
