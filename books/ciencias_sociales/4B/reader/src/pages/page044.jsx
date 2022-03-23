@@ -22,7 +22,7 @@ function Page044(props) {
             <div className="d-flex">
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">3</div>
               <div className="f-Ubuntu-R fsp-14 ptp-18 psp-10 text-start">Leo cómo analizar información a partir de una ficha. Luego, marco con<img src="images/page_044/ticket.svg" className="hp-20 psp-5 pep-5 mtp--10" alt="" />sobre los pasos que entiendo.</div>
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"84"} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"83"} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
 

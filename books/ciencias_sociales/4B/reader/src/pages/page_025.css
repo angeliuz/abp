@@ -1,2 +1,17 @@
 
+        .flecha-p24 {
+            left: 100% !important;
+            top: 50% !important;
+        }
         
+        @media all and (max-width: 768px) {
+            .flecha-p24 {
+                left: 50% !important;
+                top: 100% !important;
+        
+            }
+        
+            .giro90-res {
+                transform: rotate(90deg) !important;
+            }
+        }

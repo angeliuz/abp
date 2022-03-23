@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
 import ModalBook from "../components/ModalBook";
+import ModalRecortable from "../components/ModalRecortable";
 
 import "./page_015.css";
 
@@ -19,7 +20,7 @@ function Page015(props) {
 
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
-        <div className="page bgc-white overflow-hidden position-relative" id={"page_" + pagina}>
+        <div className="page bgc-white overflow-hidden position-relative pbp-180" id={"page_" + pagina}>
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className={"cabecera-v2 d-flex flex-column " + background}>
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
@@ -33,91 +34,124 @@ function Page015(props) {
           {/* BEGIN TITULO */}
 
           <div className="container-titulo-global mtp-20 mbp-0">
-    <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
-    Conocemos la ruta del desafío
-    </div>
+            <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+              Conocemos la ruta del desafío
+            </div>
 
-    <div className="d-flex psp-20">
-         
-        <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-            1
-        </div>
-        <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start mbp-30">
-        Veo el video y recorto los <br /> pasos para completar la ruta del desafío.
-        </div>
-        <ModalVideo
-        id={"p" + pagina + "_video" + (indexInput += 1)}
-        linkVideo="662953759"
-        tituloVideo="Todos nos cuidamos II"
-        tipoVideo="vimeo"
-        image={"images/generales/play.svg"}
-        colorUnidad={background}
-        clasesImagen="cambio hp-40 mtp-10"
-        className="p-0 px-1"
-    />
-    <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-45 text-center mtp-10 msp-20" className="p-0 px-0" />
-    </div>
-</div>
+            <div className="d-flex psp-20">
+
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                1
+              </div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start mbp-30">
+                Veo el video y recorto los <br /> pasos para completar la ruta del desafío.
+              </div>
+              <ModalVideo
+                id={"p" + pagina + "_video" + (indexInput += 1)}
+                linkVideo="662953759"
+                tituloVideo="Todos nos cuidamos II"
+                tipoVideo="vimeo"
+                image={"images/generales/play.svg"}
+                colorUnidad={background}
+                clasesImagen="cambio hp-40 mtp-10"
+                className="p-0 px-1"
+              />
+              <img src={"images/page_" + pagina + "/img_003.svg"} className="wp-40 mtp--25" alt="" />
+            </div>
+          </div>
           {/* END TITULO */}
 
           {/* BEGIN CONTENIDO */}
+        
           <div className="position-relative">
             <div className="position-absolute top-100 start-100 msp--970 mtp--20"><img src={"images/page_" + pagina + "/fondo_001.png"} className="wp-1000" alt="" /></div>
           </div>
 
-          <div className="psp-60 pep-60 ptp-120 position-absolute ">
+          <div className="psp-60 pep-60 ptp-120 position-absolute">
             <div className="d-flex position-relative">
-              <div className="caja-p15 bgc-white p-2 zindex-2">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+              <div className="caja-p15 bgc-white p-2    ">
+              <ModalRecortable
+                    id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                    pagina={pagina}
+                    image={"images/page_" + pagina + "/img_000.png"}
+                    numRecortables="5"
+                    className="p-0 m-0 d-flex  pe-auto bgc-goten"
+                  />
               </div>
               <div className="wp-290-p15 linea-p15  border-solo-bot align-self-end text-end mbp-40"><div className="mb-0 f-pixilate-regular fsp-21 pep-40">DIFUSIÓN</div></div>
-              <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_009.png"} className="wp-25" alt="" /></div>
-              <div className="position-absolute top-0 start-100 msp--63 mtp--100 zindex-1"><img src={"images/page_" + pagina + "/img_004.svg"} className="wp-120" alt="" /></div>
+              <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 mtp--40  "><img src={"images/page_" + pagina + "/img_009.png"} className="wp-25" alt="" /></div>
+              <div className="position-absolute top-0 start-100 msp--63 mtp--100  "><img src={"images/page_" + pagina + "/img_004.svg"} className="wp-120" alt="" /></div>
               <div className="position-absolute top-0 start-100 hp-700 mtp-55 msp--5 recorrido-p15 border-solo-end"></div>
             </div>
 
             <div className="d-flex position-relative ptp-20 msp-50-rp15">
-              <div className="caja-p15 bgc-white p-2 zindex-2">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-              </div>
+              <div className="caja-p15 bgc-white p-2    ">
+              <ModalRecortable
+                    id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                    pagina={pagina}
+                    image={"images/page_" + pagina + "/img_000.png"}
+                    numRecortables="5"
+                    className="p-0 m-0 d-flex  pe-auto bgc-goten"
+                  />
+                     </div>
               <div className="wp-240-p15 linea-p15  border-solo-bot align-self-end text-end mbp-40"><div className="mb-0 f-pixilate-regular fsp-21 pep-40">CREACIÓN</div></div>
-              <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_009.png"} className="wp-25" alt="" /></div>
+              <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 mtp--40  "><img src={"images/page_" + pagina + "/img_009.png"} className="wp-25" alt="" /></div>
             </div>
 
             <div className="d-flex position-relative ptp-20">
-              <div className="caja-p15 bgc-white p-2 zindex-2">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-              </div>
+              <div className="caja-p15 bgc-white p-2    ">
+              <ModalRecortable
+                    id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                    pagina={pagina}
+                    image={"images/page_" + pagina + "/img_000.png"}
+                    numRecortables="5"
+                    className="p-0 m-0 d-flex  pe-auto bgc-goten"
+                  />
+                    </div>
               <div className="wp-290-p15 linea-p15  border-solo-bot align-self-end text-end mbp-40"><div className="mb-0 f-pixilate-regular fsp-21 pep-30">EXPERIMENTACIÓN</div></div>
-              <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_009.png"} className="wp-25" alt="" /></div>
+              <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 mtp--40  "><img src={"images/page_" + pagina + "/img_009.png"} className="wp-25" alt="" /></div>
             </div>
 
             <div className="d-flex position-relative ptp-20 msp-50-rp15">
-              <div className="caja-p15 bgc-white p-2 zindex-2">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-              </div>
+              <div className="caja-p15 bgc-white p-2    ">
+              <ModalRecortable
+                    id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                    pagina={pagina}
+                    image={"images/page_" + pagina + "/img_000.png"}
+                    numRecortables="5"
+                    className="p-0 m-0 d-flex  pe-auto bgc-goten"
+                  />
+                     </div>
               <div className="wp-240-p15 linea-p15  border-solo-bot align-self-end text-end mbp-40"><div className="mb-0 f-pixilate-regular fsp-21 pep-40">INVESTIGACIÓN</div></div>
-              <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_009.png"} className="wp-25" alt="" /></div>
+              <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 mtp--40  "><img src={"images/page_" + pagina + "/img_009.png"} className="wp-25" alt="" /></div>
             </div>
 
             <div className="d-flex position-relative ptp-20 msp-100rp15">
               <div className="caja-p15 bgc-white p-2">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-              </div>
+              <ModalRecortable
+                      id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                      pagina={pagina} 
+                      image={"images/page_" + pagina + "/img_000.png"}
+                      numRecortables="5"
+                      className="p-0 m-0 d-flex wp-200 hp-240 bgc-red pe-auto"
+                    />
+                        </div>
               <div className="wp-190-p15 linea-p15  border-solo-bot align-self-end text-end mbp-40"><div className="mb-0 f-pixilate-regular fsp-21 pep-40">PLANIFICACIÓN</div></div>
-              <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_009.png"} className="wp-25" alt="" /></div>
-              <div className="position-absolute top-100 start-100 msp--53 mtp--20 zindex-1"><img src={"images/page_" + pagina + "/img_008.svg"} className="wp-100" alt="" /></div>
+              <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 mtp--40  "><img src={"images/page_" + pagina + "/img_009.png"} className="wp-25" alt="" /></div>
+              <div className="position-absolute top-100 start-100 msp--53 mtp-30p15 zindex-1"><img src={"images/page_" + pagina + "/img_008.svg"} className="wp-100" alt="" /></div>
             </div>
+            <div className="hp-60"></div>
           </div>
-          <div className="position-relative ptp-600"><div className="position-absolute top-100 start-0 translate-middle msp-100 mtp-320 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-150" alt="" /></div></div>
+          <div className="position-absolute top-100 start-0 translate-middle msp-100 mtp--160  "><img src={"images/page_" + pagina + "/img_007.png"} className="wp-150" alt="" /></div>
 
-
-          <div className="pbp-400"></div>
+          <div className=" hp-900 zindex--1">
+            </div>
+      
           {/* END CONTENIDO */}
 
 
           {/* BEGIN PIE DE PAGINA */}
-          <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
+          <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end    " style={{ bottom: 70, right: 0 }}>
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "white" }}>
               ABP &copy; SM
             </div>
