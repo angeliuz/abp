@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import ModalVideo from "../components/ModalVideo";
+import ModalRecortable from "../components/ModalRecortable";
 
 import "./page_030.css";
 
@@ -36,7 +37,7 @@ function Page030(props) {
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_030/img_001.svg" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+                            <img src={"images/page_" + pagina + "/img_001.svg"} className="p-0 px-0 hp-40 text-center mtp-10" />
                         </div>
                     </div>
 
@@ -50,8 +51,13 @@ function Page030(props) {
                                 {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
                                 <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
                                     <div className="p-2 min-hp-100 w-100 border-style-dashed border-2 rounded-p-10 border-color-rex ">
-
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                                        <ModalRecortable
+                                            id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                                            pagina={pagina}
+                                            image={"images/page_" + pagina + "/img_000.png"}
+                                            numRecortables="4"
+                                            className="p-0 m-0 d-flex  pe-auto bgc-goten"
+                                        />
                                     </div>
                                 </div>
                             </div>
@@ -70,9 +76,14 @@ function Page030(props) {
                                 {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
                                 <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
                                     <div className="p-2 min-hp-100 w-100 border-style-dashed border-2 rounded-p-10 border-color-rex ">
-
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-                                    </div>
+                                    <ModalRecortable
+                                            id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                                            pagina={pagina}
+                                            image={"images/page_" + pagina + "/img_000.png"}
+                                            numRecortables="4"
+                                            className="p-0 m-0 d-flex  pe-auto bgc-goten"
+                                        />
+          </div>
                                 </div>
                             </div>
                             <div className="col-6 position-relative">
@@ -90,9 +101,13 @@ function Page030(props) {
                                 {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
                                 <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
                                     <div className="p-2 min-hp-100 w-100 border-style-dashed border-2 rounded-p-10 border-color-rex ">
-
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-                                    </div>
+                                    <ModalRecortable
+                                            id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                                            pagina={pagina}
+                                            image={"images/page_" + pagina + "/img_000.png"}
+                                            numRecortables="4"
+                                            className="p-0 m-0 d-flex  pe-auto bgc-goten"
+                                        />                                    </div>
                                 </div>
                             </div>
                             <div className="col-6 position-relative">
@@ -111,8 +126,13 @@ function Page030(props) {
                                 {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
                                 <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
                                     <div className="p-2 min-hp-100 w-100 border-style-dashed border-2 rounded-p-10 border-color-rex ">
-
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                                    <ModalRecortable
+                                            id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                                            pagina={pagina}
+                                            image={"images/page_" + pagina + "/img_000.png"}
+                                            numRecortables="4"
+                                            className="p-0 m-0 d-flex  pe-auto bgc-goten"
+                                        />
                                     </div>
                                 </div>
                             </div>

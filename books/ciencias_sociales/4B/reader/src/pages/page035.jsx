@@ -52,7 +52,7 @@ function Page035(props) {
                     <div className="position-absolute top-100 start-100 translate-middle msp--160 mtp--100 visible-768 zindex-2"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-100 " alt="" /></div>
 
 
-                        <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-580 hp-600" alt="" /></div>
+                        <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp--100 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-580 hp-600" alt="" /></div>
                         <div className="position-absolute top-0 start-50 translate-middle-x msp--5 mtp-0 zindex-1">
                             <div className=" wp-400 psp-10 pep-10 ptp-0 pbp-0">
                                 <p className="text-start ptp-10">Querido Sergio,<br /></p>
