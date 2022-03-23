@@ -33,18 +33,18 @@ const Check = (props) => {
 
             if (docSnap.exists()) {
                 const field = docSnap.data()[id];
-                //console.log("Current data: ", docSnap.data()[id]);
+                console.log("Current data: ", docSnap.data()[id]);
                 if (field) {
                     setVisible(docSnap.data()[id]);
-                    //console.log("content1: " + visible);
+                    console.log("content1: " + visible);
                 } else {
-                   // console.log("Sin datos: " + id);
+                    console.log("Sin datos: " + id);
                 }
                 //console.log("Document data:", docSnap.data());
             } else {
                 // doc.data() will be undefined in this case
                 await setDoc(doc(db, coleccion, documento), { build: "1" });
-                //console.log("No such document!");
+                console.log("No such document!");
             }
         };
         obtenerDatos();
@@ -59,10 +59,10 @@ const Check = (props) => {
     };
 
     function handleClick() {
-        //console.log(visible)
+        console.log(visible)
         setVisible(!visible);
         updateContenido();
-       // console.log(visible)
+        console.log(visible)
 
     }
 
