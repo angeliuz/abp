@@ -481,7 +481,10 @@ body {
   -webkit-box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.15);
   box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.15);
 }
-
+.box-shadow-tools{
+  -webkit-box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.30);
+  box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.30);
+  }
 @media (max-width: 767px) {
   .rotulo-etapa {
     width: 100px;

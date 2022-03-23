@@ -29,10 +29,10 @@ const Check2 = (props) => {
     };
 
     function handleClick() {
-        console.log(visible)
+        //console.log(visible)
         setVisible(!visible);
         updateContenido();
-        console.log(visible)
+        //console.log(visible)
 
     }
 

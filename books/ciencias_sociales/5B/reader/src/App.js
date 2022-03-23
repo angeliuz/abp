@@ -119,6 +119,19 @@ function App() {
 
   return (
     <div className="App">
+      <a href="https://www.smconecta.cl/plataforma/UsedCodes/mi_biblioteca/54">
+<div className="wp-40 hp-40 bgc-voldemort color-white fsp-25 position-fixed top-0 start-0 mep-0 mtp-10 pep-5 rounded-tbe-10 box-shadow-tools zindex-10 d-flex center-center">
+{/* <ion-icon name="apps-outline"></ion-icon> */}
+<ion-icon name="arrow-back-outline"></ion-icon>
+</div>
+</a>
+<div className="wp-40 hp-40 bgc-arlo color-white fsp-25 position-fixed top-0 start-0 mep-0 mtp-60 pep-5 box-shadow-tools rounded-tbe-10 zindex-10 d-flex center-center">
+<div className="position-absolute mtp--20 mep--20 wp-20 hp-20 fsp-12 zindex-10 d-flex center-center rounded-circle bgc-goten color-white f-Ubuntu-B">10</div>
+<ion-icon name="chatbox-outline"></ion-icon>
+</div>
+<div className="wp-40 hp-40 bgc-saitama color-white fsp-25 position-fixed top-0 start-0 mep-0 pep-5 box-shadow-tools mtp-110 rounded-tbe-10 zindex-10 d-flex center-center">
+<ion-icon name="brush-outline"></ion-icon>
+</div>
       <Page005 numeroPagina={clearZeros} />
       <Page006 numeroPagina={clearZeros} />
       <Page007 numeroPagina={clearZeros} />

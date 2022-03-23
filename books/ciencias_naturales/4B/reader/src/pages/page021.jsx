@@ -69,10 +69,10 @@ function Page021(props) {
             <div className="psp-80 pep-60 ptp-0">
               <div className="row position-relative">
                 <div className="col-md-6 col-12 pbp-20 position-relative">
-                  <div className="bgc-white mxwp-300 mnhp-240 centrar border-style-dashed border-color-info border-2 position-relative">
+                  <div className="bgc-white mxwp-300 centrar border-style-dashed border-color-info border-2 position-relative">
                     <ModalRecortable
                       id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
-                      pagina={pagina}
+                      pagina={pagina} image={"images/page_" + pagina + "/img_000.png"}
                       numRecortables="4"
                       className="p-0 m-0 d-flex wp-200 hp-240 bgc-red pe-auto"
                     />
@@ -103,10 +103,10 @@ function Page021(props) {
                   <div className="position-absolute top-0 start-100 translate-middle msp--30 mtp--10 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-30" alt="" /></div>
                 </div>
                 <div className="col-md-6 col-12 pbp-20 position-relative">
-                  <div className="bgc-white mxwp-280 mnhp-240 centrar border-style-dashed border-color-info border-2 position-relative">
+                  <div className="bgc-white mxwp-300 centrar border-style-dashed border-color-info border-2 position-relative">
                     <ModalRecortable
                       id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
-                      pagina={pagina}
+                      pagina={pagina} image={"images/page_" + pagina + "/img_000.png"}
 
                       numRecortables="4"
                       className="p-0 m-0 d-flex wp-60 hp-60 bgc-red pe-auto"
@@ -138,10 +138,10 @@ function Page021(props) {
                   <div className="position-absolute top-0 start-100 translate-middle msp--30 mtp--10 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-30" alt="" /></div>
                 </div>
                 <div className="col-md-6 col-12 pbp-20 position-relative">
-                  <div className="bgc-white mxwp-300 mnhp-240 centrar border-style-dashed border-color-info border-2 position-relative">
+                  <div className="bgc-white mxwp-300 centrar border-style-dashed border-color-info border-2 position-relative">
                     <ModalRecortable
                       id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
-                      pagina={pagina}
+                      pagina={pagina} image={"images/page_" + pagina + "/img_000.png"}
 
                       numRecortables="4"
                       className="p-0 m-0 d-flex wp-200 hp-200 bgc-red pe-auto"
@@ -172,11 +172,11 @@ function Page021(props) {
                   </div>
                   <div className="position-absolute top-0 start-100 translate-middle msp--30 mtp--10 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-30" alt="" /></div>
                 </div>
-                <div className="col-md-6 col-12 pbp-20 position-relative">
-                  <div className="bgc-white mxwp-280 mnhp-240 centrar border-style-dashed border-color-info border-2 position-relative">
+                <div className="col-md-6 col-12 pbp-50 position-relative">
+                  <div className="bgc-white mxwp-300 centrar border-style-dashed border-color-info border-2 position-relative">
                     <ModalRecortable
                       id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
-                      pagina={pagina}
+                      pagina={pagina} image={"images/page_" + pagina + "/img_000.png"}
 
                       numRecortables="4"
                       className="p-0 m-0 d-flex wp-60 hp-60 bgc-red pe-auto"
