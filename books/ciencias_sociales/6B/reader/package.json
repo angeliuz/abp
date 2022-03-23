@@ -2,7 +2,7 @@
   "name": "reader",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://localhost:3000",
+  "homepage": "https://angeliuz.github.io/abp/books/ciencias_sociales/6B/reader/build/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
