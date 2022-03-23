@@ -6,6 +6,7 @@ import "./assets/css/global.css";
 import "./assets/css/fonts.css";
 
 import Page001 from "./pages/page001";
+import Page002 from "./pages/page002";
 
 function App() {
   const dokenArray = getUrlParameter("doken").split([',']);
@@ -44,6 +45,7 @@ function App() {
   return (
     <div className="App">
       <Page001 numeroPagina={clearZeros} />
+      <Page002 numeroPagina={clearZeros} />
 
     </div>
   );
