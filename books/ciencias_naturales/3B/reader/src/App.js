@@ -121,13 +121,6 @@ function App() {
   return (
     <div className="App">
 
-      {/* <Menu isOpen={ sideBarOpen } >
-        <a id="home" className="menu-item" href="/">Home</a>
-        <a id="about" className="menu-item" href="/about">About</a>
-        <a id="contact" className="menu-item" href="/contact">Contact</a>
-
-      </Menu> */}
-
       <a href="https://www.smconecta.cl/plataforma/UsedCodes/mi_biblioteca/54">
         <div className="wp-40 hp-40 bgc-voldemort color-white fsp-25 position-fixed top-0 start-0 mep-0 mtp-10 pep-5 rounded-tbe-10 box-shadow-tools zindex-10 d-flex center-center">
         {/* <ion-icon name="apps-outline"></ion-icon> */}
