@@ -133,8 +133,8 @@ function Page015(props) {
               </div>
 
               <div className="pbp-40"></div>
-              <div className="position-absolute top-0 start-100 translate-middle msp-20 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
-              <div className="position-absolute top-100 start-0 translate-middle msp--20 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-40" alt="" /></div>
+              {/* <div className="position-absolute top-0 start-100 translate-middle msp-20 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div> */}
+              {/* <div className="position-absolute top-100 start-0 translate-middle msp--20 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-40" alt="" /></div> */}
             </div>
           </div>
 
