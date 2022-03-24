@@ -9,6 +9,13 @@ function Page060(props) {
   const pagina = "060";
   var indexInput = 0;
 
+  const etapa = "5"
+  const background = "bgc-saitama";
+  const color = "color-saitama";
+  const borderColor = "border-color-saitama"
+  const borderColorTabla = "border-color-bobafett"
+  const bgc_cajas = "bgc-bobafett";
+
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
@@ -29,7 +36,7 @@ function Page060(props) {
               <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">3</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Leo la revista y realizo el boceto de un folleto para divulgar la importancia de contar con brigadas en el colegio.</div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/revista.svg" clasesImagen="cambio hp-35 mtp-20" className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"89"} image="images/page_060/img_002.svg" clasesImagen="hp-40 text-center mtp-10 pep-20" className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"90"} image="images/page_060/img_002.svg" clasesImagen="hp-40 text-center mtp-10 pep-20" className="p-0 px-0" />
             </div>
           </div>
 
@@ -37,80 +44,80 @@ function Page060(props) {
           <div className="d-flex global-margin mtp-20 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-relative">
             <div className="position-absolute top-0 start-100 msp--140 mtp-170 translate-middle zindex-1">
               <div className="">
-              <div className="wp-300 position-relative">
-                <div className="border-style-solid border-2 border-color-padme ">
-                  <div className="d-flex flex-column bgc-jaga ptp-10 pbp-20">
-                    <div className="psp-10 pep-10">
-                      <div className="d-flex align-items-center w-100 psp-10 pep-10 ptp-10 pbp-10">
-                        <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">
-                          ¿El boceto tiene o considera...?
-                        </div>
-                      </div>
-                    </div>
-                    <div className="psp-10 pep-10">
-                      <div className="d-flex align-items-center w-100 psp-10 pep-10 ptp-0 pbp-0">
-                        <div className="wp-5 hp-5 bgc-saitama rounded-circle"></div>
-                        <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">
-                          Título.
-                        </div>
-                      </div>
-                    </div>
-                    <div className="psp-10 pep-10">
-                      <div className="d-flex align-items-center w-100 psp-10 pep-10 ptp-0 pbp-0">
-                        <div className="wp-5 hp-5 bgc-saitama rounded-circle"></div>
-                        <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">
-                          Recortes o imágenes.
-                        </div>
-                      </div>
-                    </div>
-                    <div className="psp-10 pep-10">
-                      <div className="d-flex align-items-center w-100 psp-10 pep-10 ptp-0 pbp-0">
-                        <div className="wp-5 hp-5 bgc-saitama rounded-circle"></div>
-                        <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">
-                          Misión de la brigada.
-                        </div>
-                      </div>
-                    </div>
-                    <div className="psp-10 pep-10">
-                      <div className="d-flex align-items-center w-100 psp-10 pep-10 ptp-0 pbp-0">
-                        <div className="wp-5 hp-5 bgc-saitama rounded-circle"></div>
-                        <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">
-                          Tareas de la brigada.
-                        </div>
-                      </div>
-                    </div>
-                    <div className="psp-10 pep-10">
-                      <div className="d-flex align-items-center w-100 psp-10 pep-10 ptp-0 pbp-0">
-                        <div className="wp-5 hp-5 bgc-saitama rounded-circle"></div>
-                        <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">
-                          Forma de comunicarse con la brigada.
-                        </div>
-                      </div>
-                    </div>
-                    <div className="psp-10 pep-10">
-                      <div className="d-flex align-items-center w-100 psp-10 pep-10 ptp-0 pbp-0">
-                        <div className="wp-5 hp-5 bgc-saitama rounded-circle"></div>
-                        <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">
-                          Distintivo de brigadista.
-                        </div>
-                      </div>
-                    </div>
-                    <div className="psp-10 pep-10">
-                      <div className="d-flex align-items-start w-100 psp-10 pep-10 ptp-0 pbp-0">
-                        <div className="wp-5 hp-5 mtp-8 bgc-saitama rounded-circle"></div>
-                        <div className="d-flex justify-content-start align-items-start text-start f-Ubuntu-L fsp-15 psp-5">
-                          Otro:
-                          <div className=" psp-10 pep-10 ptp-0 pbp-0">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80 wp-190" />
+                <div className="wp-300 position-relative">
+                  <div className="border-style-solid border-2 border-color-padme ">
+                    <div className="d-flex flex-column bgc-jaga ptp-10 pbp-20">
+                      <div className="psp-10 pep-10">
+                        <div className="d-flex align-items-center w-100 psp-10 pep-10 ptp-10 pbp-10">
+                          <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">
+                            ¿El boceto tiene o considera...?
                           </div>
                         </div>
                       </div>
+                      <div className="psp-10 pep-10">
+                        <div className="d-flex align-items-center w-100 psp-10 pep-10 ptp-0 pbp-0">
+                          <div className="wp-5 hp-5 bgc-saitama rounded-circle"></div>
+                          <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">
+                            Título.
+                          </div>
+                        </div>
+                      </div>
+                      <div className="psp-10 pep-10">
+                        <div className="d-flex align-items-center w-100 psp-10 pep-10 ptp-0 pbp-0">
+                          <div className="wp-5 hp-5 bgc-saitama rounded-circle"></div>
+                          <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">
+                            Recortes o imágenes.
+                          </div>
+                        </div>
+                      </div>
+                      <div className="psp-10 pep-10">
+                        <div className="d-flex align-items-center w-100 psp-10 pep-10 ptp-0 pbp-0">
+                          <div className="wp-5 hp-5 bgc-saitama rounded-circle"></div>
+                          <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">
+                            Misión de la brigada.
+                          </div>
+                        </div>
+                      </div>
+                      <div className="psp-10 pep-10">
+                        <div className="d-flex align-items-center w-100 psp-10 pep-10 ptp-0 pbp-0">
+                          <div className="wp-5 hp-5 bgc-saitama rounded-circle"></div>
+                          <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">
+                            Tareas de la brigada.
+                          </div>
+                        </div>
+                      </div>
+                      <div className="psp-10 pep-10">
+                        <div className="d-flex align-items-center w-100 psp-10 pep-10 ptp-0 pbp-0">
+                          <div className="wp-5 hp-5 bgc-saitama rounded-circle"></div>
+                          <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">
+                            Forma de comunicarse con la brigada.
+                          </div>
+                        </div>
+                      </div>
+                      <div className="psp-10 pep-10">
+                        <div className="d-flex align-items-center w-100 psp-10 pep-10 ptp-0 pbp-0">
+                          <div className="wp-5 hp-5 bgc-saitama rounded-circle"></div>
+                          <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">
+                            Distintivo de brigadista.
+                          </div>
+                        </div>
+                      </div>
+                      <div className="psp-10 pep-10">
+                        <div className="d-flex align-items-start w-100 psp-10 pep-10 ptp-0 pbp-0">
+                          <div className="wp-5 hp-5 mtp-8 bgc-saitama rounded-circle"></div>
+                          <div className="d-flex justify-content-start align-items-start text-start f-Ubuntu-L fsp-15 psp-5">
+                            Otro:
+                            <div className=" psp-10 pep-10 ptp-0 pbp-0">
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80 wp-190" />
+                            </div>
+                          </div>
+                        </div>
 
+                      </div>
                     </div>
                   </div>
+                  <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp--15 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-110" alt="" /></div>
                 </div>
-                <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp--15 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-110" alt="" /></div>
-              </div>
               </div>
             </div>
           </div>
@@ -146,8 +153,8 @@ function Page060(props) {
 
 
 
-                    {/* PIE DE PAGINA */}
-                    <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
+          {/* PIE DE PAGINA */}
+          <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
               ABP &copy; SM
             </div>

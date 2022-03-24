@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/css/main.be44e0e8.chunk.css",
-    "main.js": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/js/main.e5e87af8.chunk.js",
-    "main.js.map": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/js/main.e5e87af8.chunk.js.map",
+    "main.js": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/js/main.471c7722.chunk.js",
+    "main.js.map": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/js/main.471c7722.chunk.js.map",
     "runtime-main.js": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/js/runtime-main.45f01aa6.js",
     "runtime-main.js.map": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/js/runtime-main.45f01aa6.js.map",
     "static/css/2.e6c1e8c5.chunk.css": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/css/2.e6c1e8c5.chunk.css",
-    "static/js/2.85b0adf5.chunk.js": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/js/2.85b0adf5.chunk.js",
-    "static/js/2.85b0adf5.chunk.js.map": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/js/2.85b0adf5.chunk.js.map",
+    "static/js/2.508bbdb2.chunk.js": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/js/2.508bbdb2.chunk.js",
+    "static/js/2.508bbdb2.chunk.js.map": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/js/2.508bbdb2.chunk.js.map",
     "static/js/3.94da57f3.chunk.js": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/js/3.94da57f3.chunk.js",
     "static/js/3.94da57f3.chunk.js.map": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/js/3.94da57f3.chunk.js.map",
     "index.html": "/libros_abp/books/ciencias_naturales/4B/reader/build/index.html",
     "static/css/2.e6c1e8c5.chunk.css.map": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/css/2.e6c1e8c5.chunk.css.map",
     "static/css/main.be44e0e8.chunk.css.map": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/css/main.be44e0e8.chunk.css.map",
-    "static/js/2.85b0adf5.chunk.js.LICENSE.txt": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/js/2.85b0adf5.chunk.js.LICENSE.txt",
+    "static/js/2.508bbdb2.chunk.js.LICENSE.txt": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/js/2.508bbdb2.chunk.js.LICENSE.txt",
     "static/media/fonts.css": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/media/pixilate-jollygood-proper-condensed-semibold.9876aa40.otf",
     "static/media/page_069.css": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/media/Fondo_001_69.bb345550.svg",
     "static/media/page_023.css": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/media/bgc_investigacion.e5575ad9.svg",
@@ -37,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.45f01aa6.js",
     "static/css/2.e6c1e8c5.chunk.css",
-    "static/js/2.85b0adf5.chunk.js",
+    "static/js/2.508bbdb2.chunk.js",
     "static/css/main.be44e0e8.chunk.css",
-    "static/js/main.e5e87af8.chunk.js"
+    "static/js/main.471c7722.chunk.js"
   ]
 }
