@@ -76,7 +76,7 @@ function Page073(props) {
             <div class="cb-texto-mail position-relative mbp-90">
               <div class="cb-carta-content f-Ubuntu-L text-start">
                 <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-50" alt="" /></div>
-                <div className="position-absolute top-100 start-0 translate-middle msp-60 mtp--10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-120" alt="" /></div>
+                {/* <div className="position-absolute top-100 start-0 translate-middle msp-60 mtp--10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-120" alt="" /></div> */}
                 <p>Estimados estudiantes:</p>
                 <p>Nos encontramos en la parte final del camino. Falta un simple pero
                   significativo paso: que expongan sus obras ante la comunidad.</p>
