@@ -8,7 +8,12 @@ function Page025(props) {
 
   const pagina = "025";
   var indexInput = 0;
-
+  const etapa = "3"
+  const background = "bgc-android18";
+  const color = "color-android18";
+  const borderColor = "border-color-android18"
+  const borderColorTabla = "border-color-azuka"
+  const bgc_cajas = "bgc-azuka";
 
 
   return (
@@ -24,7 +29,7 @@ function Page025(props) {
               <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">3</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Observo los ejemplos de afiches. Luego, diseño uno que promueva la idea de que todas las personas tenemos derechos.</div>
               {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_025/img_005.svg" clasesImagen="hp-40 text-center mtp-15 msp--10" className="p-0 px-0" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"85"} image={"images/page_" + pagina + "/img_005.svg"} clasesImagen="hp-40 text-center mtp-15 msp--10" className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"85"} image={"images/page_" + pagina + "/img_005.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
 

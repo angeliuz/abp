@@ -8,6 +8,9 @@ function Page039(props) {
 
   const pagina = "39";
   var indexInput = 0;
+  const etapa = "4"
+  const background = "bgc-pidgey";
+  const bgc_cajas = "bgc-tertiary";
 
   return (
     <div className="wrapper bgc-light">
