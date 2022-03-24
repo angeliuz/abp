@@ -8,7 +8,12 @@ function Page031(props) {
 
   const pagina = "031";
   var indexInput = 0;
-
+  const etapa = "3"
+  const background = "bgc-android18";
+  const color = "color-android18";
+  const borderColor = "border-color-android18"
+  const borderColorTabla = "border-color-azuka"
+  const bgc_cajas = "bgc-azuka";
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">

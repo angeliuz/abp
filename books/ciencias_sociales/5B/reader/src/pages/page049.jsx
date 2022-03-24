@@ -8,7 +8,10 @@ function Page049(props) {
 
   const pagina = "049";
   var indexInput = 0;
-
+  const etapa = "4"
+  const background = "bgc-pidgey";
+  const bgc_cajas = "bgc-tertiary";
+  
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
