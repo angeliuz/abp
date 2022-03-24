@@ -10,6 +10,13 @@ function Page073(props) {
   const pagina = "073";
   var indexInput = 0;
 
+  const etapa = "6"
+  const background = "bgc-pikachu";
+  const color = "color-pikachu";
+  const borderColor = "border-color-pikachu"
+  const borderColorTabla = "border-color-kokomi"
+  const bgc_cajas = "bgc-kokomi";
+
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
@@ -31,7 +38,7 @@ function Page073(props) {
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pikachu">1</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Trabajo en la revista y reflexiono sobre lo que aprendí en este proyecto.</div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"91"} image="images/page_073/img_002.svg" clasesImagen="hp-40 text-center mtp-10 mbp-10 " className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"91"} image="images/page_073/img_002.svg" clasesImagen="hp-40 text-center mtp-10 mbp-10 " className="p-0 px-0" />
             </div>
           </div>
           <div className="cb-contenedor-dos justify-content-center pe-2 ps-2 pbp-15">

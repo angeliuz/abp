@@ -5,6 +5,13 @@ import ModalBook from "../components/ModalBook";
 
 import "./page_045.css";
 
+const etapa = "4"
+const background = "bgc-pidgey";
+const color = "color-pidgey";
+const borderColor = "border-color-pidgey"
+const borderColorTabla = "border-color-pantro"
+const bgc_cajas = "bgc-pantro";
+
 function Page045(props) {
 
   const pagina = "045";
@@ -29,8 +36,7 @@ function Page045(props) {
               <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_045/g_i.svg" alt="" />
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">1</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Leemos la revista. Luego, nos organizamos como equipo para que cada integrante sea responsable de realizar y monitorear una tarea específica.</div>
-              <ModalBook
-                id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"87"} image="images/page_045/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"88"} image="images/page_045/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
 

@@ -8,6 +8,13 @@ function Page026(props) {
   const pagina = "026";
   var indexInput = 0;
 
+  const etapa = "3"
+  const background = "bgc-android18";
+  const color = "color-android18";
+  const borderColor = "border-color-android18"
+  const borderColorTabla = "border-color-azuka"
+  const bgc_cajas = "bgc-azuka";
+
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
@@ -29,7 +36,7 @@ function Page026(props) {
               </div>
               {/* <img src="images/page_023/img_003.svg" className="cambio hp-50 text-end mtp-0 psp-10 pep-40"  alt=""  /> */}
               <ModalBook
-                id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"81"}
+                id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"81"}
                 image="images/page_026/img_002.svg"
                 clasesImagen="hp-40 text-center mtp-15 msp-5"
                 className="p-0 px-0"
