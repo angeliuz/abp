@@ -3,7 +3,7 @@ import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import Check from "../components/Check";
 import ModalRecortable from "../components/ModalRecortable";
-
+import ModalRecortableEstatico from "../components/ModalRecortableEstatico";
 
 import "./page_017.css";
 
@@ -142,12 +142,21 @@ function Page017(props) {
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
               <div className="wp-40 hp-40 mtp-10">
-                <ModalRecortable
+                {/* <ModalRecortable
                   id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
                   pagina={pagina}
                   image={"images/page_" + pagina + "/revista.png"}
                   numRecortables="12"
                   className="p-0 m-0 d-flex pe-auto"
+                /> */}
+                <ModalRecortableEstatico
+                  id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                  pagina={pagina}
+                  image={"images/page_" + pagina + "/revista.png"}
+                  colorUnidad={background}
+                  numRecortables="12"
+                  grupo="1"
+                  className="p-0 m-0 d-flex wp-200 hp-200 pe-auto"
                 />
               </div>
             </div>
