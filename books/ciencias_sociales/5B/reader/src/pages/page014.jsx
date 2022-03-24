@@ -89,7 +89,7 @@ function Page014(props) {
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Realizo los pasatiempos y respondo.  </div>
               <div className="pep-10 psp-15 ptp-10">
                 {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_014/img_003.svg" clasesImagen="cambio hp-40 text-center mtp-0 psp-10 pep-40" className="p-0 px-1" /> */}
-                <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"83"} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="cambio hp-40 text-center mtp-0 psp-10 pep-40" className="p-0 px-1" />
+                <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"82"} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
               </div>
             </div>
           </div>
