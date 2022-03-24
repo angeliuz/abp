@@ -45,7 +45,7 @@ function Page029(props) {
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
               <ModalBook
                 id={"p" + pagina + "_book" + (indexInput += 1)}
-                pagina={"87"}
+                colorUnidad={background} pagina={"87"}
                 image={"images/page_" + pagina + "/img_001.svg"}
                 clasesImagen="hp-40 text-center mtp-10 "
                 className="p-0 px-0"
@@ -241,7 +241,7 @@ function Page029(props) {
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
               <ModalBook
                 id={"p" + pagina + "_book" + (indexInput += 1)}
-                pagina={"87"}
+                colorUnidad={background} pagina={"87"}
                 image={"images/page_" + pagina + "/img_001.svg"}
                 clasesImagen="hp-40 text-center mtp-10 "
                 className="p-0 px-0"

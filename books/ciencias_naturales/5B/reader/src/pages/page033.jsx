@@ -99,7 +99,7 @@ function Page033(props) {
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
               <ModalBook
                 id={"p" + pagina + "_book" + (indexInput += 1)}
-                pagina={"89"}
+                colorUnidad={background} pagina={"90"}
                 image={"images/page_" + pagina + "/img_002.svg"}
                 clasesImagen="hp-40 text-center mtp-10 "
                 className="p-0 px-0"
@@ -347,11 +347,11 @@ function Page033(props) {
                             </div>
                             <div className="text-start f-Ubuntu-L fsp-14 ptp-20 psp-10">
                               El porcentaje en relación a la dosis diaria
-                              
+
                             </div>
                             <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
                               <div className="f-Ubuntu-L msp-10 ptp-10 fsp-15 lh-sm pep-5 text-start     ">
-                              recomendada de la vitamina C es{" "}
+                                recomendada de la vitamina C es{" "}
                               </div>
                               <InputBox
                                 id={"p" + pagina + "_input" + (indexInput += 1)}
@@ -360,7 +360,7 @@ function Page033(props) {
                             </div>
                             <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
                               <div className="f-Ubuntu-L msp-10 ptp-10 fsp-15 lh-sm pep-5 text-start     ">
-                              y de la vitamina B6{" "}
+                                y de la vitamina B6{" "}
                               </div>
                               <InputBox
                                 id={"p" + pagina + "_input" + (indexInput += 1)}
