@@ -2,10 +2,11 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
 import ModalBook from "../components/ModalBook";
+import ModalRecortable from "../components/ModalRecortable";
 import "./page_045.css";
 
 function Page045(props) {
-
+  const background = "bgc-pidgey";
   const pagina = "045";
   var indexInput = 0;
 
@@ -28,7 +29,17 @@ function Page045(props) {
             <div className="d-flex">
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">1</div>
               <div className="f-Ubuntu-R fsp-14 ptp-18 psp-10 text-start">A partir de las sesiones anteriores y mis experiencias, recorto y pego personajes de mi curso o colegio. Luego, representamos alguna situación de convivencia escolar.</div>
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"93"} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+             <div className="hp-40">
+                <ModalRecortable
+                id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                pagina={pagina}
+                image={"images/page_" + pagina + "/revista.svg"}
+                colorUnidad={background}
+                numRecortables="7"
+                grupo="1"
+                className="p-0 m-0 d-flex wp-200 hp-200 pe-auto"
+              />
+              </div>
             </div>
           </div>
 
