@@ -68,7 +68,7 @@ function Page023(props) {
           <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
-                <CheckMultiple id={"check" + pagina + "_" + (indexInput += 1)} image0={"images/page_" + pagina + "/img_003.png"} image1={"images/page_" + pagina + "/img_005.png"} image2={"images/page_" + pagina + "/img_007.png"}></CheckMultiple>
+                <CheckMultiple id={"check" + pagina + "_" + (indexInput += 1)} image0={"images/page_" + pagina + "/img_005.png"}></CheckMultiple>
 
               </div>
             </div>
