@@ -5,7 +5,7 @@ import ModalBook from "../components/ModalBook";
 import "./page_051.css";
 
 function Page051(props) {
-
+const background = "bgc-pidgey";
   const pagina = "051";
   var indexInput = 0;
 
@@ -50,8 +50,8 @@ function Page051(props) {
               {/* <img className="hp-15 mtp-20 pep-10" src="images/page_047/i_g.svg" alt="" /> */}
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey pep-10">2</div>
               <div className="f-Ubuntu-R fsp-14 text-start pep-10 mtp-15">Leo en la revista cómo tomar notas.</div>
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"85"} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
-            </div>
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"85"} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-40 text-center mtp-10" className="p-0 px-0" />
+       </div>
           </div>
 
           <div className="ptp-20 psp-65 pep-40">
