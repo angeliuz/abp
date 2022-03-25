@@ -13,7 +13,7 @@ function Page009(props) {
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
         <div className="cb-page09 page bgc-white overflow-hidden position-relative" id={"page_" + pagina}>
-          <img src="images/page_009/cabecera.svg" className="cb-dossier" alt="" />
+          {/* <img src="images/page_009/cabecera.svg" className="cb-dossier" alt="" /> */}
 
 
           <div className="d-flex msp-90 mep-90 mtp-170 mbp-100">
