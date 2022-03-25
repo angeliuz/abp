@@ -45,7 +45,7 @@ function Page023(props) {
 
 
 
-         <div className="ptp-30 container-titulo-global mbp-10">
+          <div className="ptp-30 container-titulo-global mbp-10">
             {/* <div
               className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 " + color}
             >
@@ -62,7 +62,7 @@ function Page023(props) {
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"85"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"85"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
           <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
@@ -74,12 +74,12 @@ function Page023(props) {
             </div>
           </div>
 
-          
+
 
           <div className="msp-60 mep-60 mtp-20 mbp-10">
             <div className="row p-0 m-0">
               <div className="col-sm-12 col-md-3 position-relative">
-              
+
               </div>
               <div className="w-100 mx-auto position-relative mbp-20">
                 <div className=""><img src={"images/page_" + pagina + "/img_005.png"} className="wp-400" alt="" /></div>
@@ -96,7 +96,7 @@ function Page023(props) {
               <div className="col-sm-12 col-md-6 position-relative mbp-40">
                 <div className="d-flex justify-content-end  w-100 ">
                   <div className="position-absolute top-0 start-0 translate-middle mtp-120 msp-100 bgc-voldemort min-wp-200 hp-300 rounded-p-10 ptp-5 pbp-5 color-white fsp-15 f-Ubuntu-M ">
-                  Horizontales
+                    Horizontales
                   </div>
                 </div>
                 <div className="d-flex mbp-20  w-100 ">
@@ -115,7 +115,7 @@ function Page023(props) {
               </div>
 
               <div className="col-sm-12 col-md-6 position-relative mbp-40">
-              <div className="position-absolute top-0 start-100 translate-middle mtp--85 msp--90 visible-768 "><img src="images/page_023/img_004.png" className="" alt="" /></div>
+                <div className="position-absolute top-0 start-100 translate-middle mtp--85 msp--90 visible-768 "><img src="images/page_023/img_004.png" className="" alt="" /></div>
                 <div className="d-flex justify-content-end  w-100 ">
                   <div className="position-absolute top-0 start-100 translate-middle msp--100 mtp-120 bgc-ken min-wp-200 hp-300 rounded-p-10 ptp-5 pbp-5 color-white fsp-15 f-Ubuntu-M ">
                     Verticales

@@ -35,18 +35,18 @@ function Page022(props) {
                 2
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-              Leo la noticia. Luego, completo el diagrama.
+                Leo la noticia. Luego, completo el diagrama.
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"83"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"84"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
 
           <div className="d-flex global-margin mtp-0 mbp-50 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-Ubuntu-L  fsp-16">
-          <div className="position-absolute top-0 start-100 translate-middle mtp-90 msp--100 zindex-2 visible-768"><img src="images/page_022/img_002.png" className="" alt="" /></div>
-          <div className="position-absolute top-100 start-100 translate-middle msp--90 zindex-2 visible-768"><img src="images/page_022/img_004.png" className="" alt="" /></div>
-          <div className="position-absolute top-50 start-0 translate-middle  zindex-2 msp-80 visible-768"><img src="images/page_022/img_003.png" className="" alt="" /></div>
+            <div className="position-absolute top-0 start-100 translate-middle mtp-90 msp--100 zindex-2 visible-768"><img src="images/page_022/img_002.png" className="" alt="" /></div>
+            <div className="position-absolute top-100 start-100 translate-middle msp--90 zindex-2 visible-768"><img src="images/page_022/img_004.png" className="" alt="" /></div>
+            <div className="position-absolute top-50 start-0 translate-middle  zindex-2 msp-80 visible-768"><img src="images/page_022/img_003.png" className="" alt="" /></div>
             <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-60 zindex-1"><img src={"images/page_" + pagina + "/circulo.svg"} className="wp-580" alt="" /></div>
 
             <div className="position-absolute top-50 start-50 translate-middle msp--60 mtp--120 zindex-1">

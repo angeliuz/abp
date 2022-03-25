@@ -36,9 +36,9 @@ function Page066(props) {
                   </div>
                   <ModalBook
                     id={"p" + pagina + "_book" + (indexInput += 1)}
-                    pagina={"95"}
+                    colorUnidad={background} pagina={"95"}
                     image={"images/page_" + pagina + "/img_001.svg"}
-                    clasesImagen="hp-40 text-center mtp-10 msp-20"
+                    clasesImagen="hp-40 text-center msp-20"
                     className="p-0 px-0"
                   />
                 </div>
