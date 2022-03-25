@@ -297,7 +297,7 @@ function Page024(props) {
               <div className="col-sm-12 col-md-6 position-relative">
                 <div className="position-absolute top-0 start-50 translate-middle zindex-1 mtp-30 ">
                   <img
-                    src="images/page_024/img_003.svg"
+                    src="images/page_024/img_003.png"
                     className="wp-30"
                     alt=""
                   />
