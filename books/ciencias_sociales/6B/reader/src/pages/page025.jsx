@@ -169,6 +169,7 @@ function Page025(props) {
                   <div className="col-md-8 col-12 position-relative pbp-10">
 
                     <div className="mtp-20">
+                      
                       {/* <div className="position-absolute top-0 start-50 translate-middle bgc-haydn mtp-5  w-50 f-Ubuntu-B text-center color-white fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5"> Responsable </div> */}
                       <div className="w-100  p-1  border-style-solid border-1 border-color-white rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
                         <div className="position-absolute top-50 start-0 translate-middle zindex-1 visible-768"><img src={"images/page_025/espiral.svg"} className="wp-55 msp--25  mtp-0 " alt="" /></div>
