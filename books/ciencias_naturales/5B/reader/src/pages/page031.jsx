@@ -71,7 +71,7 @@ function Page031(props) {
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"87"} image={"images/page_" + pagina + "/img_002.jpg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"88"} image={"images/page_" + pagina + "/img_002.jpg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
                         </div>
                     </div>
 
@@ -81,7 +81,7 @@ function Page031(props) {
                         <div className="row p-0 m-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative">
                                 <div className="position-absolute top-0 start-100 translate-middle mtp-50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="" alt="" /></div>
-                                
+
 
                                 <div className="d-flex msp-10 mep-10 mtp-20 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
                                     <div className="row p-0 m-0 w-100">

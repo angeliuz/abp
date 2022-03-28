@@ -18,6 +18,7 @@ function ModalRecortable(props) {
   const clasesImagen = props.clasesImagen;
   const pagina = props.pagina;
   const numRecortables = props.numRecortables;
+  const colorUnidad = props.colorUnidad;
 
 
   const [imagenSeleccionada, setImagenSeleccionada] = useState(image);
@@ -125,13 +126,13 @@ function ModalRecortable(props) {
 
   return (
     <>
-      <div className=" centrar position-relative" data-bs-toggle="modal" data-bs-target={"#" + id} id={"recortable_" + id}>
+      <div className="bgc-white centrar position-relative" data-bs-toggle="modal" data-bs-target={"#" + id} id={"recortable_" + id}>
         <img src={imagenSeleccionada} className="w-100 h-100" alt="" />
       </div>
       <div className="modal fade" id={id} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div className="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
           <div className="modal-content">
-            <div className="modal-header bgc-info color-white fsp-18 f-Ubuntu-M">
+            <div className={"modal-header bgc-info color-white fsp-18 f-Ubuntu-M "+colorUnidad}>
               <div className="modal-title" id="exampleModalLabel">{"Recortables página " + removeZeros(pagina)}</div>
 
               <button type="button" className="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>

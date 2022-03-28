@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import ModalRecortableEstatico from "../components/ModalRecortableEstatico";
 
 import "./page_052.css";
 
@@ -65,7 +66,16 @@ function Page052(props) {
                                     </div>
                                     <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--20 zindex-1">
                                         {/* <img src={"images/page_"+pagina+"/img_005.svg"} className="wp-40" alt="" /> */}
-                                        <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_005.svg"} clasesImagen="hp-40 msp-30 text-center mtp-10 " className="p-0 px-0" />
+                                        {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_005.svg"} clasesImagen="hp-40 msp-30 text-center mtp-10 " className="p-0 px-0" /> */}
+                                        <ModalRecortableEstatico
+                                id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                                pagina={pagina}
+                                image={"images/page_" + pagina + "/img_005.png"}
+                                colorUnidad={background}
+                                numRecortables="4"
+                                grupo="1"
+                                className="p-0 m-0 d-flex wp-200 hp-200 pe-auto"
+                            />
                                     </div>
 
                                     <div className="position-absolute top-0 start-0 translate-middle msp-150 mtp-0 zindex-1 wp-300">

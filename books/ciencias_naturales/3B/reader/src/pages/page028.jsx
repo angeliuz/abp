@@ -25,34 +25,34 @@ function Page028(props) {
           <div className="cabecera-v1 hp-80 bgc-android18">
           </div>
 
-             
-              <div className="col-12 p-0 m-0 position-relative">
-<div className="container-titulo-global mtp-20 mbp-0">
-    <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
-    Desechos + creatividad = Reutilizar
-    </div>
-    <div className="d-flex psp-20">
-        <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_005.svg"} alt=""  /> 
-        <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-            2
-        </div>
-        <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-        Observamos el video. Proponemos ideas para reutilizar los desechos y luego las dibujo.
-        </div>
-        <ModalVideo
-            id={"p" + pagina + "_video" + (indexInput += 1)}
-            linkVideo="xS_EPS2ZSfY"
-            tituloVideo="Juguete de tela"
-            tipoVideo="youtube"
-            image={"images/generales/play.svg"}
-            colorUnidad={background}
-            clasesImagen="cambio hp-40 mtp-10"
-            className="p-0 px-1"
-        />
-    </div>
-</div>
 
-</div>
+          <div className="col-12 p-0 m-0 position-relative">
+            <div className="container-titulo-global mtp-20 mbp-0">
+              <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+                Desechos + creatividad = Reutilizar
+              </div>
+              <div className="d-flex psp-20">
+                <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_005.svg"} alt="" />
+                <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                  2
+                </div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                  Observamos el video. Proponemos ideas para reutilizar los desechos y luego las dibujo.
+                </div>
+                <ModalVideo
+                  id={"p" + pagina + "_video" + (indexInput += 1)}
+                  linkVideo="xS_EPS2ZSfY"
+                  tituloVideo="Juguete de tela"
+                  tipoVideo="youtube"
+                  image={"images/generales/play.svg"}
+                  colorUnidad={background}
+                  clasesImagen="cambio hp-40 mtp-10"
+                  className="p-0 px-1"
+                />
+              </div>
+            </div>
+
+          </div>
 
 
 
@@ -102,7 +102,7 @@ function Page028(props) {
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"75"} image={"images/page_" + pagina + "/img_004.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"76"} image={"images/page_" + pagina + "/img_004.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
 

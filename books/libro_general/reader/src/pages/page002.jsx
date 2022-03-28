@@ -1,12 +1,14 @@
 import React from "react";
 import { useState } from "react";
 
+import LineTo from 'react-lineto';
+
 
 import "./page_002.css";
 
 function Page002() {
 
-    const pagina = "001";
+    const pagina = "002";
     var indexInput = 0;
     const etapa = "1"
     const background = "bgc-goten";
@@ -16,6 +18,8 @@ function Page002() {
     const bgc_cajas = "bgc-genos";
 
     var indexTitulo = 1;
+
+
 
 
     return (
@@ -51,13 +55,15 @@ function Page002() {
                         </div>
                     </div>
 
+
+
                     <div className="d-flex psp-60 pep-60">
                         <div className="row w-100 position-relative">
                             <div className="col-6 col-md-6">
                                 <div className="d-flex flex-column pbp-30">
                                     <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-R fsp-14 w-90 position-relative bgc-draco rounded-p-10 min-hp-100 d-flex center-center text-start">
                                         Investigar sobre el destino de los desechos para realizar infografía.
-                                        <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
+                                        <div className="A position-absolute top-50 start-100 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
                                     </div>
                                 </div>
                             </div>
@@ -65,9 +71,10 @@ function Page002() {
                                 <div className="d-flex flex-column justify-content-center ptp-30 pbp-30">
                                     <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-R fsp-14 w-60 position-relative bgc-quigon rounded-p-10 min-hp-50 d-flex center-center align-self-end text-center">
                                         Creación
-                                        <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
+                                        <div className="B position-absolute top-50 start-0 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
                                     </div>
                                 </div>
+                                <LineTo from="A" to="B" borderWidth="3px" delay={1} fromAnchor="center" borderColor="#000" borderStyle="dashed" />
                             </div>
                             <div className="col-6 col-md-6">
                                 <div className="d-flex flex-column pbp-30">
@@ -81,7 +88,7 @@ function Page002() {
                                 <div className="d-flex flex-column justify-content-center ptp-30 pbp-30">
                                     <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-R fsp-14 w-60 position-relative bgc-woody rounded-p-10 min-hp-50 d-flex center-center align-self-end text-center">
                                         Experimentación
-                                        <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
+                                        <div className="C position-absolute top-50 start-0 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
                                     </div>
                                 </div>
                             </div>
@@ -89,9 +96,10 @@ function Page002() {
                                 <div className="d-flex flex-column pbp-30">
                                     <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-R fsp-14 w-90 position-relative bgc-draco rounded-p-10 min-hp-100 d-flex center-center text-start">
                                         Realizar una encuesta para conocer qué sabe de reciclaje la comunidad escolar.
-                                        <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
+                                        <div className="D position-absolute top-50 start-100 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
                                     </div>
                                 </div>
+                                <LineTo from="C" to="D" borderWidth="3px" delay={1} fromAnchor="center" borderColor="#000" borderStyle="dashed" />
                             </div>
                             <div className="col-6 col-md-6">
                                 <div className="d-flex flex-column justify-content-center ptp-30 pbp-30">

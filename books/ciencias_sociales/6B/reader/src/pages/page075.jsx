@@ -75,7 +75,7 @@ function Page075(props) {
               {/* BEGIN EJERCICIO 1 */}
               <div className="row mx-auto d-flex f-Ubuntu-R fsp-15 mbp-20 ">
                 <div className="position-relative">
-                  <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-80" alt="" /></div>
+                  {/* <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-80" alt="" /></div> */}
                   <div className="position-absolute top-50 start-50 translate-middle msp--0 mtp-160 visible-768 zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-60" alt="" /></div>
                 </div>
 

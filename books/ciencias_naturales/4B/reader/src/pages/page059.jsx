@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import ModalRecortable from "../components/ModalRecortable";
+import ModalRecortableEstatico from "../components/ModalRecortableEstatico";
 
 import "./page_059.css";
 
@@ -10,6 +11,12 @@ function Page059(props) {
   const pagina = "059";
   var indexInput = 0;
 
+  const etapa = "5"
+  const background = "bgc-saitama";
+  const color = "color-saitama";
+  const borderColor = "border-color-saitama"
+  const borderColorTabla = "border-color-bobafett"
+  const bgc_cajas = "bgc-bobafett";
 
   return (
     <div className="wrapper bgc-light">
@@ -96,12 +103,21 @@ function Page059(props) {
                   <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Recorto y armo mi credencial de brigadista.</div>
                   {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> */}
                   <div className="hp-20 wp-50 mtp-10 msp-10">
-                    <ModalRecortable
+                    {/* <ModalRecortable
                       id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
                       pagina={pagina}
                       image={"images/page_" + pagina + "/img_005.svg"}
                       numRecortables="1"
                       className="p-0 m-0 d-flex pe-auto bgc-goten"
+                    /> */}
+                    <ModalRecortableEstatico
+                      id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                      pagina={pagina}
+                      image={"images/page_" + pagina + "/img_005.svg"}
+                      colorUnidad={background}
+                      numRecortables="1"
+                      grupo="1"
+                      className="p-0 m-0 d-flex wp-200 hp-200 pe-auto"
                     />
                   </div>
                 </div>

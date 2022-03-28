@@ -110,7 +110,7 @@ function Page040(props) {
             <div className="d-flex justify-content-between pbp-20">
               <div className="caja1-p40 bgc-verde1 rounded-p-20 position-relative d-flex justify-content-center align-items-center">
                 <div className="f-Ubuntu-M color-white">Párrafo 1</div>
-                <div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-60" alt="" /></div>
+                {/* <div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-60" alt="" /></div> */}
               </div>
               <div className="mnwp-20"></div>
               <div className="caja2-p40 border-style-solid border-3 border-color-chitara rounded-p-20 d-flex justify-content-center align-items-center">

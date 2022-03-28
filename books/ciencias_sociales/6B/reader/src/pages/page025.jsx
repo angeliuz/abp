@@ -89,7 +89,7 @@ function Page025(props) {
               /> */}
               {/* <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_025/img_001.svg" className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"83"} image={"images/page_" + pagina + "/img_004.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"84"} image={"images/page_" + pagina + "/img_004.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
 
@@ -138,7 +138,7 @@ function Page025(props) {
                   </div>
                   <div className="col-md-8 col-12 position-relative pbp-10">
 
-                    <div className="mtp-20">1
+                    <div className="mtp-20">
                       {/* <div className="position-absolute top-0 start-50 translate-middle bgc-haydn mtp-5  w-50 f-Ubuntu-B text-center color-white fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5"> Responsable </div> */}
                       <div className="w-100  p-1  border-style-solid border-1 border-color-white rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
                         <div className="position-absolute top-50 start-0 translate-middle zindex-1 visible-768"><img src={"images/page_025/espiral.svg"} className="wp-55 msp--25  mtp-0 " alt="" /></div>
@@ -168,7 +168,8 @@ function Page025(props) {
                   </div>
                   <div className="col-md-8 col-12 position-relative pbp-10">
 
-                    <div className="mtp-20">1
+                    <div className="mtp-20">
+                      
                       {/* <div className="position-absolute top-0 start-50 translate-middle bgc-haydn mtp-5  w-50 f-Ubuntu-B text-center color-white fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5"> Responsable </div> */}
                       <div className="w-100  p-1  border-style-solid border-1 border-color-white rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
                         <div className="position-absolute top-50 start-0 translate-middle zindex-1 visible-768"><img src={"images/page_025/espiral.svg"} className="wp-55 msp--25  mtp-0 " alt="" /></div>

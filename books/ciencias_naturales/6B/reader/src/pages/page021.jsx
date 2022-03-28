@@ -9,6 +9,13 @@ function Page021(props) {
   const pagina = "021";
   var indexInput = 0;
 
+  const etapa = "3"
+  const background = "bgc-android18";
+  const color = "color-android18";
+  const borderColor = "border-color-android18"
+  const borderColorTabla = "border-color-azuka"
+  const bgc_cajas = "bgc-azuka";
+
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
@@ -63,7 +70,7 @@ function Page021(props) {
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_053/g.svg" alt=""  /> */}
               <div className="f-ccdigitaldelivery-bold fsp-16 color-android18">a.</div>
               <div className="f-Ubuntu-L fsp-16 psp-10 pep-10 text-start">Identifico las características de las fuentes de energías renovables y no renovables.</div>
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"81"} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"82"} image={"images/page_" + pagina + "/img_003.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
 

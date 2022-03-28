@@ -5,6 +5,7 @@ import ModalBook from "../components/ModalBook";
 import "./page_025.css";
 
 function Page025(props) {
+  const background = "bgc-android18";
   const pagina = "025";
   var indexInput = 0;
 
@@ -43,8 +44,8 @@ function Page025(props) {
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                 Leo la revista y completo.
               </div>
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"68"} image={"images/page_" + pagina + "/img_005.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
-            </div>
+            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"68"} image={"images/page_" + pagina + "/img_005.svg"} clasesImagen="hp-40 text-center mtp-10" className="p-0 px-0" />
+               </div>
             <div className="p-2 border-style-solid border-1 border-color-dark rounded-p-10">
               <div className="f-pixilate-regular fsp-18">Situación</div>
               <InputBox

@@ -188,7 +188,7 @@ function Page061(props) {
                                             <div className="position-absolute top-0 start-50 translate-middle bgc-haydn mtp--10  w-50 hp-20 f-Ubuntu-B text-center color-white fsp-15   psp-10 pep-10 ptp-5 pbp-5">   </div>
                                             <div className="w-100  p-1 m-2 border-style-solid border-1 border-color-haydn rounded-p-10  lh-sm text-start p-2 position-relative">
 
-                                                <div className="position-absolute top-100 start-0 translate-middle   zindex-1"><img src={"images/page_061/img_006.png"} className="wp-70 msp--25  mtp-50  " alt="" /></div>
+                                                <div className="position-absolute top-100 start-0 translate-middle   zindex-1"><img src={"images/page_061/img_006.png"} className="wp-70 msp--40 mtp-35  " alt="" /></div>
                                                 <div className="position-absolute top-50 start-0 translate-middle  msp--12 mtp-0   zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-50" alt="" /></div>
 
                                                 <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">

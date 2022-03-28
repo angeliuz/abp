@@ -124,7 +124,7 @@ function Page031(props) {
                                             <div className="bgc-makoto w-100 border-style-solid border-1 p-2 box-shadow-simple">
                                                 <div className="f-Ubuntu-L fsp-16 text-center">El derecho que inspirará nuestra obra es:</div>
                                                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
-                                                <div className="position-absolute top-100 start-100 translate-middle msp--10 mtp--10 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
+                                                {/* <div className="position-absolute top-100 start-100 translate-middle msp--10 mtp--10 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div> */}
                                             </div>
                                         </div>
 

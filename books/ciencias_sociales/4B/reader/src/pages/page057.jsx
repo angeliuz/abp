@@ -56,8 +56,8 @@ function Page057(props) {
                             <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>1</div>
                             <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Leo los componentes de nuestro álbum. Luego, marco con <img src="images/page_057/ticket.svg" className="hp-20 psp-5 pep-5 mtp--5" alt="" /> un los
 componentes que ya tengo. </div>
-                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"83"} image="images/page_057/img_002.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
-                        </div>
+<ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"84"} image={"images/page_" + pagina + "/img_002.svg"} clasesImagen="hp-40 text-center mtp-10" className="p-0 px-0" />
+                 </div>
                     </div>
 
 

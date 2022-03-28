@@ -61,7 +61,7 @@ function Page053(props) {
               <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_053/g.svg" alt="" />
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">1</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Grabaremos el prototipo de nuestro proyecto. Para ello:</div>
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_053/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_053/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
 
@@ -88,39 +88,39 @@ function Page053(props) {
 
                       <div className="row p-0 m-0 ">
                         <div className="col-6 d-flex p-2">
-                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                          <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">Aportes del prototipo a la
                             sostenibilidad del colegio.</div>
                         </div>
 
                         <div className="col-6 d-flex  p-2">
-                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                          <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5 pbp-10">Ventajas del prototipo.</div>
                         </div>
                         <div className="col-6 d-flex p-2">
-                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                          <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">Funcionamiento y uso adecuado
                             del prototipo.</div>
                         </div>
                         <div className="col-6 d-flex p-2">
-                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                          <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5 pbp-10">Mejoras del prototipo.</div>
                         </div>
 
                         <div className="col-6 d-flex  p-2">
-                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                          <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">Proceso de construcción del
                             prototipo.</div>
                         </div>
 
                         <div className="col-6 d-flex  p-2">
-                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                          <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">Diseño del prototipo.</div>
                         </div>
                         <div className="col-6 "></div>
 
                         <div className="col-6 d-flex  p-2">
-                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                          <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           <div className="d-flex justify-content-start align-items-start text-start f-Ubuntu-L fsp-15 wp-250 ptp-10 psp-10">Otro:
                             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 w-20" />
                           </div>

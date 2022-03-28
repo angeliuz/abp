@@ -29,7 +29,7 @@ function Page017(props) {
 
           <div className="ptp-30 container-titulo-global mbp-0">
             <div className="d-flex psp-20">
-              <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_001.svg"} alt="" />
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_001.svg"} alt="" /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 4
               </div>

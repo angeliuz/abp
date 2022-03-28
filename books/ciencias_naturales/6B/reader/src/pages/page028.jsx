@@ -92,7 +92,7 @@ function Page028(props) {
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_004.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_004.png"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
           <div className="d-flex msp-100 mep-100 mbp-0 mtp-10 ">
@@ -102,7 +102,7 @@ function Page028(props) {
 
 
               <div className="col-md-12 col-lg-12 position-relative">
-                
+
                 <div className="position-absolute top-100 start-0 translate-middle zindex-1"><img src="images/page_028/img_004.png" className=" wp-90" alt="" /></div>
                 <div className="d-flex mbp-20 mtp-10 w-100">
                   <div className="p-2 min-hp-100 w-100 border-style-solid border-1 border-color-kai bgc-kai ">

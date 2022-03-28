@@ -62,7 +62,7 @@ function Page019(props) {
                         </div>
                       </div>
                     </div>
-                    <div className="position-absolute top-100 start-0 translate-middle msp-20 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_010.png"} className="wp-60" alt="" /></div>
+                    {/* <div className="position-absolute top-100 start-0 translate-middle msp-20 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_010.png"} className="wp-60" alt="" /></div> */}
                   </div>
 
                   <div className="col-md-6 position-relative d-flex justify-content-center pbp-40">
@@ -123,7 +123,7 @@ function Page019(props) {
                         </div>
                       </div>
                     </div>
-                    <div className="position-absolute top-100 start-0 translate-middle msp-20 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_009.png"} className="wp-80" alt="" /></div>
+                    {/* <div className="position-absolute top-100 start-0 translate-middle msp-20 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_009.png"} className="wp-80" alt="" /></div> */}
                   </div>
 
                   <div className="col-md-6 position-relative d-flex justify-content-center pbp-40">

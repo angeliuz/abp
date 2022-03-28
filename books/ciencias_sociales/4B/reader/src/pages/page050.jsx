@@ -5,7 +5,7 @@ import ModalBook from "../components/ModalBook";
 import "./page_050.css";
 
 function Page050(props) {
-
+  const background = "bgc-pidgey";
   const pagina = "050";
   var indexInput = 0;
 
@@ -46,8 +46,8 @@ function Page050(props) {
               {/* <img className="hp-15 mtp-20 pep-10" src="images/page_047/i_g.svg" alt="" /> */}
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey pep-10">4</div>
               <div className="f-Ubuntu-R fsp-14 text-start pep-10 mtp-15">Leo un ejemplo de cómo será una jornada de diálogo.</div>
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"83"} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
-            </div>
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"84"} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-40 text-center mtp-10" className="p-0 px-0" />
+          </div>
           </div>
 
           <div className="ptp-0 psp-65 pep-40">

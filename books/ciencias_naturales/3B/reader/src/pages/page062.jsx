@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import ModalRecortable from "../components/ModalRecortable";
+import ModalRecortableEstatico from "../components/ModalRecortableEstatico";
 
 import "./page_062.css";
 
@@ -90,35 +91,44 @@ function Page062(props) {
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
               <div className="wp-40 hp-40 mtp-10">
-                  <ModalRecortable
+                {/* <ModalRecortable
                     id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
                     pagina={pagina}
                     image={"images/page_" + pagina + "/img_006.svg"}
                     numRecortables="1"
                     className="p-0 m-0 d-flex pe-auto"
-                  />
-                    </div>
-          </div>
-
-          <div className="d-flex  mtp-20 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
-            <div className="row p-0 m-0 w-100">
-              <div className="col-12 p-0 m-0 position-relative">
-
-                <img src={"images/page_" + pagina + "/img_005.png"} className="w-100 max-wp-500" alt="" />
+                  /> */}
+                <ModalRecortableEstatico
+                  id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                  pagina={pagina}
+                  image={"images/page_" + pagina + "/img_006.svg"}
+                  colorUnidad={background}
+                  numRecortables="1"
+                  grupo="1"
+                  className="p-0 m-0 d-flex wp-200 hp-200 pe-auto"
+                />
               </div>
             </div>
-          </div>
+
+            <div className="d-flex  mtp-20 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+              <div className="row p-0 m-0 w-100">
+                <div className="col-12 p-0 m-0 position-relative">
+
+                  <img src={"images/page_" + pagina + "/img_005.png"} className="w-100 max-wp-500" alt="" />
+                </div>
+              </div>
+            </div>
 
 
-          {/* BEIGN PIE DE PAGINA */}
-          <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
-            <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>ABP &copy; SM</div>
-            <div className="bgc-goku wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+            {/* BEIGN PIE DE PAGINA */}
+            <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
+              <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>ABP &copy; SM</div>
+              <div className="bgc-goku wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+            </div>
+            {/* END PIE DE PAGINA */}
           </div>
-          {/* END PIE DE PAGINA */}
         </div>
       </div>
-    </div>
     </div>
   );
 }

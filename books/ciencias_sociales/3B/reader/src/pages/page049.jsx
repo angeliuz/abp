@@ -6,7 +6,7 @@ import Check from "../components/Check";
 import "./page_049.css";
 
 function Page049(props) {
-
+  const background = "bgc-saitama";
   const pagina = "049";
   var indexInput = 0;
 
@@ -29,8 +29,8 @@ function Page049(props) {
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/g_i.svg" alt="" /> */}
               <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">1</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Observo la revista y completo.</div>
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"76"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 msp-10 " className="p-0 px-0" />
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/img_001.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"76"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10" className="p-0 px-0" />
+           {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/img_001.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
             </div>
           </div>
 

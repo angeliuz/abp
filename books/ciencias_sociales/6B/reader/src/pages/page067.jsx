@@ -85,7 +85,7 @@ function Page067(props) {
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_004.svg"} clasesImagen="hp-40 text-center mtp-10 " className="mtp--5 p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"95"} image={"images/page_" + pagina + "/img_004.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
 
@@ -103,11 +103,11 @@ function Page067(props) {
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-600" />
                   </div>
                 </div>
-                <div className="position-absolute top-0 start-100 translate-middle  msp--50 mtp--43 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-65" alt="" /></div>
+                {/* <div className="position-absolute top-0 start-100 translate-middle  msp--50 mtp--43 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-65" alt="" /></div> */}
                 <div className="position-absolute top-50 start-0 translate-middle  msp--10 mtp-5 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="hp-100" alt="" /></div>
                 <div className="position-absolute top-100 start-100 translate-middle   msp--30 mtp-5 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-90" alt="" /></div>
 
-                <div className="position-absolute top-0 start-0 msp-10 mtp--50 zindex-1 gira--5">
+                <div className="position-absolute top-0 start-0 msp-10 mtp--65 zindex-1 gira--5">
                   <div className="position-absolute top-50 start-50 translate-middle  w-100  f-colby-compres-bold fsp-19 ptp-5">Dibujo acá nuestro diseño</div>
                   <img src={"images/page_" + pagina + "/img_009.png"} className="wp-190" alt="" />
                 </div>
@@ -125,7 +125,7 @@ function Page067(props) {
                             Plan de trabajo
                         </div> */}
             <div className="d-flex psp-0">
-              <img className="hp-20 align-center mtp-40 me-2 mb-2" src={"images/page_" + pagina + "/img_005.svg"} alt="" />
+              {/* <img className="hp-20 align-center mtp-40 me-2 mb-2" src={"images/page_" + pagina + "/img_005.svg"} alt="" /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 2
               </div>

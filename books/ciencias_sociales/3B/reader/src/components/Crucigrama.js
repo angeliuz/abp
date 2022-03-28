@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, {useEffect} from "react";
 import InputCrucigrama from "./InputCrucigrama";
 
 
@@ -27,7 +27,7 @@ function Crucigrama(props) {
         let tabindex = e.target.getAttribute('dataIndex');
         tabindex = Number(tabindex);
         console.log(tabindex)
-
+        
         console.log("value: " + e.target.value)
 
         if (e.keyCode === BACKSPACE_KEY) {
