@@ -121,7 +121,7 @@ function Page068(props) {
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                 A partir de los esquemas realizados y la información recopilada, elaboramos la revista. Creamos una versión impresa y una digital para la siguiente sesión.
               </div>
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_068/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_068/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
 
