@@ -39,7 +39,7 @@ function Page024(props) {
                     <div className="position-absolute top-100 start-0 translate-middle visible-768 zindex-1 msp-60 mtp--5"><img src="images/page_024/img_006.png" className="hp-60" alt=""/></div>
                     <div className="box-color-24-1">
                         <div className="f-Ubuntu-B alinea rounded-set-10 bgc-saitama w-100 p-2 text-center color-white">¿Qué ejemplo o caso de<br /> discriminación conoces?</div>
-                        <div className=" linea1 bgc-white hp-250 p-2  rounded-seb-20 border-style-solid border-color-saitama border-2">
+                        <div className="bgc-white hp-250 p-2  rounded-seb-20 border-style-solid border-color-saitama border-2">
                             <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
                         </div>
                     </div>
@@ -51,7 +51,7 @@ function Page024(props) {
                     <div className="espirales position-absolute"><img src="images/page_024/img_005.png" className="w-45 " alt=""/></div>
                     <div className="box-color-24-2">
                     <div className="f-Ubuntu-B alinea rounded-set-10 bgc-leia w-100 p-2 text-center color-white">¿Por qué condición o característica<br /> se discriminó en dicho caso?</div>
-                    <div className="linea1 bgc-white hp-250 p-2  rounded-seb-20 border-style-solid border-color-leia border-2">
+                    <div className="bgc-white hp-250 p-2  rounded-seb-20 border-style-solid border-color-leia border-2">
                         <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
                     </div>
                     </div>
@@ -61,7 +61,7 @@ function Page024(props) {
                     
                     <div className="mbp-20 mtp-10 msp-20 mep-20">
                     <div className="f-Ubuntu-B alinea rounded-set-10 bgc-arlo w-100 p-2 text-center color-white">¿Qué medidas se podrían adoptar para<br /> resguardar los derechos en este caso?</div>
-                    <div className="linea1 bgc-white hp-250 p-2  rounded-seb-20 border-style-solid border-color-arlo border-2">
+                    <div className="bgc-white hp-250 p-2  rounded-seb-20 border-style-solid border-color-arlo border-2">
                         <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
                     </div>
                     </div>
@@ -73,7 +73,7 @@ function Page024(props) {
                     
                     <div className="position-absolute top-50 start-0 translate-middle wp-100"><img src="images/page_024/img_004.png" className="w-45 " alt=""/></div>
                     <div className="mbp-20 mtp-10 msp-20 mep-20">
-                    <div className="linea1 bgc-white min-hp-300 p-2  border-style-solid border-color-chitara border-5 rounded-p-20 border-color-sextario">
+                    <div className="bgc-white min-hp-300 p-2  border-style-solid border-color-chitara border-5 rounded-p-20 border-color-sextario">
 
                         <div className="f-Ubuntu-L fsp-16 p-1 text-start">¿Qué llamó nuestra atención de las respuestas?</div>
                     
