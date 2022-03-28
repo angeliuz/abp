@@ -1,10 +1,14 @@
 import React from "react";
-import { useState } from "react";
+import { useEffect, useState, useRef } from "react";
+import { gsap } from "gsap";
+import { Draggable } from "gsap/Draggable";
 
-import LineTo from 'react-lineto';
+
+// import LineTo from 'react-lineto';
 
 
 import "./page_002.css";
+gsap.registerPlugin(Draggable);
 
 function Page002() {
 
@@ -19,7 +23,80 @@ function Page002() {
 
     var indexTitulo = 1;
 
+    const [linea1, setLinea1] = useState({ x1: "0", y1: "0", x2: "0", y2: "0" });
+    const [seleccion, setSeleccion] = useState({ a: "", b: "" });
 
+    const dragInstance = useRef(null);
+    const dragTarget = useRef(null);
+
+
+    useEffect(() => {
+        dibujaLinea1();
+        console.log(seleccion);
+        console.log(linea1);
+
+        dragInstance.current = Draggable.create(dragTarget.current, {
+            type: "rotation",
+            onDragEnd() {
+                console.log(this);
+            }
+        });
+
+
+    }, [seleccion, linea1, setLinea1]);
+
+
+    function dibujaLinea1() {
+        //setLinea1({ x1: linea1.x1, y1: linea1.y1, x2: linea1.x2, y2: linea1.y2 });
+        console.log("dibujaLinea1");
+
+        return (
+            <div className="position-absolute top-0 start-0 w-100 user-select-none">
+                <svg version="1.1" width="100%" height="100%">
+                    <line x1={linea1.x1} y1={linea1.y1} x2={linea1.x2} y2={linea1.y2} stroke="orange" strokeWidth="5" />
+                </svg>
+            </div>
+        )
+    }
+
+    function handleClick(e) {
+        const elem = e.target;
+
+        console.log(elem)
+        if (seleccion.a === "") {
+            setSeleccion(prevState => {
+                return {
+                    ...prevState,
+                    a: e.target
+                };
+            });
+        } else {
+            if (seleccion.b === "") {
+                setSeleccion(prevState => {
+                    return {
+                        ...prevState,
+                        b: e.target
+                    };
+                });
+                setLinea1(prevState => {
+                    return {
+                        x1: seleccion.a.offsetLeft,
+                        y1: seleccion.a.offsetTop,
+                        x2: e.target.offsetLeft,
+                        y2: e.target.offsetTop
+                    };
+                });
+            } else {
+                setSeleccion({ a: "", b: "" });
+                setLinea1({ x1: "0", y1: "0", x2: "0", y2: "0" });
+            }
+        }
+    }
+
+    function superSet(a, b) {
+        console.log("superSet: " + seleccion.a + " " + seleccion.b)
+        setLinea1({ x1: seleccion.a.offsetLeft, y1: seleccion.a.offsetTop, x2: seleccion.b.offsetLeft, y2: seleccion.b.offsetTop });
+    }
 
 
     return (
@@ -48,10 +125,67 @@ function Page002() {
                             <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                                 Términos pareados
                             </div>
-                            {/* <img src={"images/page_"+pagina+"/img_00.svg"} className="wp-100" alt=""/> */}
-                            {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
-                            {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-                            {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+
+                        </div>
+                    </div>
+
+                    <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+                        <div className="row p-0 m-0 w-100">
+                            <div className="col-12 p-0 m-0 position-relative">
+                                {/* <div className="draggable" ref={dragTarget}>
+                                    Drag & Rotate
+                                </div> */}
+
+                                {/* <svg id="svg" viewBox="0 0 400 400">
+
+                                    <defs>
+                                        <circle class="handle" r="10" />
+                                        <circle class="marker" r="4" />
+                                    </defs>
+
+                                    <polygon id="star" points="261,220 298,335 200,264 102,335 139,220 42,149 162,148 200,34 238,148 358,149" />
+                                    <g id="marker-layer"></g>
+                                    <g id="handle-layer"></g>
+                                </svg> */}
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-100 position-absolute w-100 zindex-10 bgc-yellow">
+                        <div className="row p-0 m-0 w-100">
+                            <div className="col-12 p-0 m-0 position-relative">
+
+                                {dibujaLinea1()}
+
+                                <div id="a1" onClick={handleClick} className="position-absolute top-50 start-0 translate-middle msp-100 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
+                                <div id="b1" onClick={handleClick} className="position-absolute top-50 start-100 translate-middle msp--100 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
+                                <div id="a2" onClick={handleClick} className="position-absolute top-50 start-0 translate-middle msp-100 mtp-70 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
+                                <div id="b2" onClick={handleClick} className="position-absolute top-50 start-100 translate-middle msp--100 mtp-70 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
+
+                                <div>
+                                    <svg>
+                                        <path stroke="black" d="M 0 0 L 0 100" />
+                                    </svg>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+                        <div className="row p-0 m-0 w-100">
+                            <div className="col-12 p-0 m-0 position-relative">
+
+
+
+
+                            </div>
                         </div>
                     </div>
 
@@ -63,7 +197,7 @@ function Page002() {
                                 <div className="d-flex flex-column pbp-30">
                                     <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-R fsp-14 w-90 position-relative bgc-draco rounded-p-10 min-hp-100 d-flex center-center text-start">
                                         Investigar sobre el destino de los desechos para realizar infografía.
-                                        <div className="A position-absolute top-50 start-100 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
+                                        <div id="a1" onClick={handleClick} className="A position-absolute top-50 start-100 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
                                     </div>
                                 </div>
                             </div>
@@ -71,16 +205,16 @@ function Page002() {
                                 <div className="d-flex flex-column justify-content-center ptp-30 pbp-30">
                                     <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-R fsp-14 w-60 position-relative bgc-quigon rounded-p-10 min-hp-50 d-flex center-center align-self-end text-center">
                                         Creación
-                                        <div className="B position-absolute top-50 start-0 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
+                                        <div id="b1" onClick={handleClick} className="B position-absolute top-50 start-0 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
                                     </div>
                                 </div>
-                                <LineTo from="A" to="B" borderWidth="3px" delay={1} fromAnchor="center" borderColor="#000" borderStyle="dashed" />
+
                             </div>
                             <div className="col-6 col-md-6">
                                 <div className="d-flex flex-column pbp-30">
                                     <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-R fsp-14 w-90 position-relative bgc-draco rounded-p-10 min-hp-100 d-flex center-center text-start">
                                         Crear modelos de objetos que nos ayudan a reutilizar o reciclar para presentarlos en la feria.
-                                        <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
+                                        <div id="a2" onClick={handleClick} className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +222,7 @@ function Page002() {
                                 <div className="d-flex flex-column justify-content-center ptp-30 pbp-30">
                                     <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-R fsp-14 w-60 position-relative bgc-woody rounded-p-10 min-hp-50 d-flex center-center align-self-end text-center">
                                         Experimentación
-                                        <div className="C position-absolute top-50 start-0 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
+                                        <div id="b2" onClick={handleClick} className="C position-absolute top-50 start-0 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
                                     </div>
                                 </div>
                             </div>
@@ -99,7 +233,7 @@ function Page002() {
                                         <div className="D position-absolute top-50 start-100 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
                                     </div>
                                 </div>
-                                <LineTo from="C" to="D" borderWidth="3px" delay={1} fromAnchor="center" borderColor="#000" borderStyle="dashed" />
+
                             </div>
                             <div className="col-6 col-md-6">
                                 <div className="d-flex flex-column justify-content-center ptp-30 pbp-30">
