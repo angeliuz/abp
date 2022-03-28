@@ -58,7 +58,7 @@ function Page042(props) {
               {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-35 text-center mtp-10 " className="p-0 px-0" />
+              {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/revista.svg"} clasesImagen="hp-35 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
             {/* <div className="d-flex ptp-5 psp-60 align-items-top justify-content-start">
               <div className="text-start f-Ubuntu-B color-pidgey fsp-15">a.</div>
@@ -68,9 +68,9 @@ function Page042(props) {
 
           <div className="d-flex global-margin mtp-10 mbp-140 psp-50 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100 position-relative">
-              
+
               <div className="col-12 m-0 rounded-p-10 bgc-motaro p-3 position-relative">
-              <div className="position-absolute top-50 start-0 translate-middle zindex-2"><img src={"images/page_" + pagina + "/lapiz.png"} className="hp-80 mep-10 mbp-200" alt="" /></div>
+                <div className="position-absolute top-50 start-0 translate-middle zindex-2"><img src={"images/page_" + pagina + "/lapiz.png"} className="hp-80 mep-10 mbp-200" alt="" /></div>
                 <div className="text-center f-colby-bold fsp-18 pbp-10">ENCUESTA</div>
                 <div className=" d-flex align-items-center pbp-10">
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 text-start">Nombre:</div>
@@ -115,19 +115,19 @@ function Page042(props) {
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 psp-10 text-start">Tomo bebidas azucaradas más de 2 veces por semana.</div>
                 </div>
                 <div className="d-flex align-items-center psp-20 pbp-10">
-                <div className=""><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
+                  <div className=""><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 psp-10 text-start">Como al menos 2 porciones de frutas al día.</div>
                 </div>
                 <div className="d-flex align-items-center psp-20 pbp-10">
-                <div className=""><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
+                  <div className=""><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 psp-10 text-start">Para las comidas prefiero las papas fritas en lugar de las verduras.</div>
                 </div>
                 <div className="d-flex align-items-center psp-20 pbp-10">
-                <div className=""><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
+                  <div className=""><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 psp-10 text-start">Suelo comer comida rápida 1 o 2 veces por semana.</div>
                 </div>
                 <div className="d-flex align-items-center psp-20 pbp-5">
-                <div className=""><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
+                  <div className=""><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 psp-10 text-start">Mi <i>snack</i> favorito son los dulces y pasteles.</div>
                 </div>
               </div>
