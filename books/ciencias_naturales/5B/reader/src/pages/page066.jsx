@@ -209,7 +209,7 @@ function Page066(props) {
                             xxx
                         </div> */}
             <div className="d-flex psp-20">
-              <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_.svg"} alt="" />
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_.svg"} alt="" /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 4
               </div>
@@ -265,7 +265,7 @@ function Page066(props) {
                             xxx
                         </div> */}
             <div className="d-flex psp-20">
-              <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_.svg"} alt="" />
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_.svg"} alt="" /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 5
               </div>

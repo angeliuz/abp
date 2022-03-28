@@ -65,14 +65,14 @@ function Page023(props) {
               <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"85"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
           </div>
-          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+          {/* <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
                 <CheckMultiple id={"check" + pagina + "_" + (indexInput += 1)} image0={"images/page_" + pagina + "/img_005.png"}></CheckMultiple>
 
               </div>
             </div>
-          </div>
+          </div> */}
 
 
 

@@ -51,7 +51,7 @@ function Page070(props) {
                     <div className="d-flex">
                       <span className="fsp-16 text-start f-Ubuntu-R">
                         <span className="fsp-16 f-IntroRustG-Base text-start">EVALUAR </span>
-                        el trabajo<br /> realizado a lo largo<br /> del proyecto.
+                        el trabajo<br /> realizado a lo largo<br />del proyecto.
                       </span>
                     </div>
                   </div>
@@ -66,7 +66,7 @@ function Page070(props) {
                     <div className="d-flex">
                       <span className="fsp-16 text-start f-Ubuntu-R">
                         <span className="fsp-16 f-IntroRustG-Base text-start">Reflexionar </span>
-                        sobre <br /> nuestro trabajo en  equipo.
+                        sobre <br /> nuestro trabajo en<br />equipo.
                       </span>
                     </div>
                   </div>
@@ -82,7 +82,7 @@ function Page070(props) {
             </div>
             {/* Begin pie de página */}
             <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
-              <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
+              <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "white" }}>
                 ABP &copy; SM
               </div>
               <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>

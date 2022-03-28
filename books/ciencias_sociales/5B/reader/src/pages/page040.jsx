@@ -83,14 +83,14 @@ function Page040(props) {
                             Siempre</td>
                         </tr>
                         <tr>
-                          <td className="bgc-ermac f-Ubuntu-L fsp-12 text-start psp-5 border-style-solid border-1 border-color-milk">El ambiente de trabajo en mi equipo es agradable.</td>
+                          <td className="bgc-ermac f-Ubuntu-L fsp-12 text-start psp-5 border-style-solid border-1 border-color-milk">Me gusta investigar sobre el tema del proyecto.</td>
                           <td className="border-style-solid border-1 border-color-milk"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-milk"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-milk"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-milk"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                         </tr>
                         <tr>
-                          <td className="bgc-ermac f-Ubuntu-L fsp-12 text-start psp-5 border-style-solid border-1 border-color-milk">Estoy muy contento de trabajar en este proyecto.</td>
+                          <td className="bgc-ermac f-Ubuntu-L fsp-12 text-start psp-5 border-style-solid border-1 border-color-milk">Tengo ganas de encontrar soluciones al reto planteado.</td>
                           <td className="border-style-solid border-1 border-color-milk"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-milk"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-milk"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
