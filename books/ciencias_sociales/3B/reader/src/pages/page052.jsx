@@ -80,7 +80,7 @@ function Page052(props) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-2 bgc-red">
+                            <div className="col-2">
                                 <ModalRecortableEstatico
                                     id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
                                     pagina={pagina}

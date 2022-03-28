@@ -34,9 +34,9 @@ function Page054(props) {
                                     </div>  
                                     <div className="d-flex"> 
                                       <span className="fsp-16 f-IntroRustG-Base text-start"> 
-                                      COMPRENDER
+                                     LLEVAR
                                         <span className="fsp-16 text-start f-pixilate-regular">
-                                          <br /> cuál es el desafío.
+                                          <br /> a cabo la Fiesta de la Diversidad.
                                         </span> 
                                       </span>
                                     </div>   
@@ -52,9 +52,9 @@ function Page054(props) {
                                     <div className="d-flex"> 
                                       <span className="fsp-16 text-start f-pixilate-regular">
                                         <span className="fsp-16 f-IntroRustG-Base text-start"> 
-                                        COMPROMETERME
+                                        REFLEXIONAR
                                         </span> 
-                                        <br /> con el desafío.
+                                        <br /> sobre nuestro trabajo en equipo.
                                       </span>
                                     </div> 
                                 </div>

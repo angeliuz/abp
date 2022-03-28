@@ -131,10 +131,10 @@ function Page046(props) {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className={"bgc-white rounded-ts-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-1 "+borderColorTabla}>
+                                                <td className={"bgc-white rounded-ts-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-1 "+borderColorTabla}>
                                                   <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 ">
                                                   <img src={"images/generales/flecha_e"+etapa+".svg"} className="mep-5 mtp-3 wp-15" alt="" />
-                                                  El ambiente de trabajo en mi equipo fue agradable.
+                                                  Confío en mi capacidad para aprender y me valoro.
                                                   </div> 
                                                 </td>
                                                 <td className={"bgc-white f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-1 "+borderColorTabla}>
@@ -205,10 +205,10 @@ function Page046(props) {
                                                 </td>
                                             </tr> */}
                                             <tr>
-                                                <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-bottom-hidden border-left-hidden border-right-hidden border-1 "+borderColorTabla}>
+                                                <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-bottom-hidden border-left-hidden border-right-hidden border-1 "+borderColorTabla}>
                                                   <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10">
                                                     <img src={"images/generales/flecha_e"+etapa+".svg"} className="mep-5 mtp-3 wp-15" alt="" />
-                                                    Estuve tenso y nervioso cuando trabajé con mi equipo.
+                                                    Confío en mis compañeros y me ayudan cuando lo necesito.
                                                   </div>
                                                 </td>
                                                 <td className={"bgc-white f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-bottom-hidden border-1 "+borderColorTabla}>
