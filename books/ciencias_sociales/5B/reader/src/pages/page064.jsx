@@ -36,7 +36,7 @@ function Page064(props) {
 
             <div className="col-md-12 col-lg-12 position-relative">
 
-              <div className="position-absolute top-0 start-100 translate-middle visible-768 zindex-1 msp--70 mtp-50"><img src="images/page_025/img_003.png" className="hp-60" alt="" /></div>
+              
               <div className="position-absolute top-50 start-0 translate-middle visible-768 zindex-1 msp-70 mtp--5"><img src="images/page_064/img_003.png" className="w-100" alt="" /></div>
               <div className="position-absolute top-100 start-0 translate-middle visible-768 zindex-1 msp-100 mtp--90"><img src="images/page_064/img_004.png" className="wp-120" alt="" /></div>
 

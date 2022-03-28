@@ -42,7 +42,7 @@ function Page049(props) {
                 <img src="images/page_049/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
-                Enviar las invitaciones<br /> a las entrevistas.
+              Establecer la estructura que<br /> tendrán nuestras entrevistas.
               </div>
             </div>
           </div>

@@ -123,7 +123,7 @@ function Page077(props) {
               <div className="col-sm-12 col-md-6 position-relative p-0 m-0">
 
                 <div className="d-flex flex-column mbp-0 mtp-10 p-2 w-100 caja-outline-white rounded-p-10 bgc-draco">
-                  <span className="f-Ubuntu-R fsp-15 px-2 ptp-10 text-start">¿Con quién he aprendido?</span>
+                  <span className="f-Ubuntu-R fsp-15 px-2 ptp-10 text-start"> ¿Cómo he aprendido?</span>
                   <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex flex-column">
                     {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Cosas que hemos hecho que nos han encantado:</div> */}
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
@@ -133,7 +133,7 @@ function Page077(props) {
               <div className="col-sm-12 col-md-6 position-relative p-0 m-0">
 
                 <div className="d-flex flex-column mbp-20 mtp-0 p-2 w-100 caja-outline-white rounded-p-10 bgc-pantro">
-                  <span className="f-Ubuntu-R fsp-15 px-2 ptp-10 text-start">¿Cómo he aprendido?</span>
+                  <span className="f-Ubuntu-R fsp-15 px-2 ptp-10 text-start">¿Con quién he aprendido?</span>
                   <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex flex-column">
                     {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Cosas que hemos hecho que nos han encantado:</div> */}
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
