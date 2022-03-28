@@ -56,7 +56,7 @@ function Page069(props) {
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                 Reviso la revista en formato impreso y digital. Luego, señalo sus principales fortalezas y los aspectos que se deben mejorar.
               </div>
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_069/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_069/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
 
