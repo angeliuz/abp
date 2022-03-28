@@ -34,15 +34,15 @@ function Page016(props) {
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               <ModalVideo
-                                            id={"p" + pagina + "_video" + (indexInput += 1)}
-                                            linkVideo="682624537"
-                                            tituloVideo="Limpia tu huella II"
-                                            tipoVideo="vimeo"
-                                            image={"images/generales/play.svg"}
-                                            colorUnidad={background}
-                                            clasesImagen="cambio hp-40 mtp-10"
-                                            className="p-0 px-1"
-                                        />
+                id={"p" + pagina + "_video" + (indexInput += 1)}
+                linkVideo="682624537"
+                tituloVideo="Limpia tu huella II"
+                tipoVideo="vimeo"
+                image={"images/generales/play.svg"}
+                colorUnidad={background}
+                clasesImagen="cambio hp-40 mtp-10"
+                className="p-0 px-1"
+              />
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
@@ -111,7 +111,7 @@ function Page016(props) {
             </div>
           </div>
 
-          <div className="bgc-buzz border-style-solid border-color-bulma border-solo-top pbp-20 position-relative">
+          <div className="bgc-buzz border-style-solid border-color-hardDark border-solo-top pbp-20 position-relative">
 
             <div className="d-flex flex-column global-margin mtp-0 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
               <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-10 ptp-30">¿Cómo voy?</div>
@@ -187,7 +187,7 @@ function Page016(props) {
               </div>
             </div>
 
-            <div className="position-absolute top-0 start-0 translate-middle msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_.png"} className="wp-60" alt="" /></div>
+            <div className="position-absolute top-0 start-100 translate-middle msp--100 mtp--41 visible-768 zindex-1"><img src={"images/page_" + pagina + "/mono.png"} className="hp-100" alt="" /></div>
           </div>
 
           {/* PIE DE PAGINA */}
