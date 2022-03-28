@@ -72,9 +72,9 @@ function Page007(props) {
               />
             </div>
             <div className="cb-paper">
-              <div className="cb-paper-content f-Ubuntu-L text-start">
+              <div className="cb-paper-content f-Ubuntu-L text-start position-relative">
                 <img src="images/page_007/img_002.png" className="cb-carta" alt="" />
-                <img src="images/page_007/img_001.png" className="cb-lapiz" alt="" />
+                <img src="images/page_007/img_001.png" className="position-absolute top-100 start-0 translate-middle mtp--110 msp-30 visible-768" alt="" />
                 <p className="text-start">Queridos estudiantes,</p>
                 <p>Soy dirigente de una organización que promueve el respeto de los derechos de todas las personas en Chile.</p>
 

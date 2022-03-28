@@ -52,8 +52,8 @@ function ModalRecortable(props) {
 
   return (
     <>
-      <div className="bgc-white centrar position-relative mtp-10" data-bs-toggle="modal" data-bs-target={"#" + id} id={"recortable_" + id}>
-        <img src={image} className="" alt="" />
+      <div className="centrar position-relative" data-bs-toggle="modal" data-bs-target={"#" + id} id={"recortable_" + id}>
+        <img src={image} className="wp-45" alt="" />
       </div>
       <div className="modal fade" id={id} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div className="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">

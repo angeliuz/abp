@@ -64,18 +64,10 @@ function Page052(props) {
                                     <div className="position-absolute top-100 start-100 translate-middle msp--30 mtp-40 zindex-2">
                                         <div className="d-flex color-saitama fsp-14 f-Ubuntu-R  wp-150  gira5">Completamos las invitaciones que entregaremos a los asistentes.</div>
                                     </div>
-                                    <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--20 zindex-1">
+                                    <div className="position-absolute w-100 h-100 top-100 start-100 translate-middle msp-0 mtp--20 zindex-1">
                                         {/* <img src={"images/page_"+pagina+"/img_005.svg"} className="wp-40" alt="" /> */}
                                         {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_005.svg"} clasesImagen="hp-40 msp-30 text-center mtp-10 " className="p-0 px-0" /> */}
-                                        <ModalRecortableEstatico
-                                id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
-                                pagina={pagina}
-                                image={"images/page_" + pagina + "/img_005.png"}
-                                colorUnidad={background}
-                                numRecortables="4"
-                                grupo="1"
-                                className="p-0 m-0 d-flex wp-200 hp-200 pe-auto"
-                            />
+
                                     </div>
 
                                     <div className="position-absolute top-0 start-0 translate-middle msp-150 mtp-0 zindex-1 wp-300">
@@ -87,8 +79,20 @@ function Page052(props) {
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
                                     </div>
                                 </div>
-
                             </div>
+                            <div className="col-2 bgc-red">
+                                <ModalRecortableEstatico
+                                    id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
+                                    pagina={pagina}
+                                    image={"images/page_" + pagina + "/img_005.png"}
+                                    colorUnidad={background}
+                                    numRecortables="4"
+                                    grupo="1"
+                                    className="p-0 m-0 d-flex wp-200 hp-200 pe-auto"
+                                />
+                            </div>
+                            <div className="col-8"></div>
+
                         </div>
                     </div>
 

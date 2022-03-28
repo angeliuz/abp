@@ -76,7 +76,7 @@ function Page052(props) {
 
           <div className="ptp-10 container-titulo-global mbp-20">
             <div className="d-flex">
-              <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_052/i_g.svg" alt="" />
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_052/i_g.svg" alt="" /> */}
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">3</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                 Simulo la entrevista en grupo y compruebo que todo funcione adecuadamente (grabadora, plataforma web, entre otras).

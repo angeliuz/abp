@@ -29,7 +29,7 @@ function ModalRecortable(props) {
       column.push(
 
         <div className="col p-0 m-0 position-relative d-flex center-center p-2 pe-auto" id={"reco_" + i} data-bs-dismiss="modal" >
-          <img src={"images/page_" + pagina + "/recortables_"+grupo+"/reco_" + i + ".png"} alt="" style={{ pointerEvents: "none" }} className="user-select-none" />
+          <img src={"images/page_" + pagina + "/recortables_" + grupo + "/reco_" + i + ".png"} alt="" style={{ pointerEvents: "none" }} className="user-select-none" />
         </div>
       );
     }
@@ -52,13 +52,13 @@ function ModalRecortable(props) {
 
   return (
     <>
-      <div className="bgc-white centrar position-relative mtp-10" data-bs-toggle="modal" data-bs-target={"#" + id} id={"recortable_" + id}>
+      <div className="centrar position-relative mtp-10" data-bs-toggle="modal" data-bs-target={"#" + id} id={"recortable_" + id}>
         <img src={image} className="" alt="" />
       </div>
       <div className="modal fade" id={id} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div className="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
           <div className="modal-content">
-            <div className={"modal-header bgc-info color-white fsp-18 f-Ubuntu-M "+colorUnidad}>
+            <div className={"modal-header bgc-info color-white fsp-18 f-Ubuntu-M " + colorUnidad}>
               <div className="modal-title" id="exampleModalLabel">{"Recortables página " + removeZeros(pagina)}</div>
 
               <button type="button" className="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>

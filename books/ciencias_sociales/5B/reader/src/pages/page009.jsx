@@ -18,7 +18,7 @@ function Page009(props) {
               <img src="images/page_009/fondo_002.svg" className="cb-dosier" alt="" />
 
             </div>
-            <div className="cb-block-arriba mtp-40 f-Ubuntu-L mbp-5 psp-20 fw-700 fsp-13">Esta página ha sido completada por</div>
+            <div className="cb-block-arriba mtp-40 f-Ubuntu-L mbp-5 psp-20 fw-700 fsp-13 text-start">Esta página ha sido completada por</div>
             <div className="cb-block-inicial p-2 pb-3 mbp-30">
               <div className="px-3">
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1  lhp-35" />

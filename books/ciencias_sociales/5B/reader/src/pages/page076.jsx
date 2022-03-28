@@ -93,7 +93,7 @@ function Page076(props) {
 
           <div className="ptp-10 container-titulo-global mbp-50">
             <div className="d-flex position-relative">
-              <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_076/img_007.svg" alt="" />
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_076/img_007.svg" alt="" /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>4</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                 Con mi grupo, realizamos los preparativos acordados y luego publicamos la revista.

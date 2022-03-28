@@ -61,7 +61,7 @@ function Page015(props) {
               <img className="hp-20 align-center mt-3 me-2 psp-50 mb-2" src="images/page_015/img_002.svg" alt="" />
               <div className="f-ccdigitaldelivery-bold fsp-35 color-bulma">1</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Leo la descripción de las secciones que tendrá la revista y el número de páginas para cada una. Luego, defino con mi grupo el orden que tendrán.</div>
-              <img src="images/page_015/img_001.png" className="tf-lapiz cambio hp-80 text-end mtp-0 psp-10 pep-40" alt="" />
+              {/* <img src="images/page_015/img_001.png" className="tf-lapiz cambio hp-80 text-end mtp-0 psp-10 pep-40" alt="" /> */}
 
             </div>
           </div>
