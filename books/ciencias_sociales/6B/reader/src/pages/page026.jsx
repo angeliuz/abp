@@ -70,9 +70,9 @@ function Page026(props) {
                       <div className="d-flex w-100  f-Ubuntu-R fsp-15 p-1 color-bulma mbp-20 text-center">¿En que derecho me gustaría
                         centrar nuestra obra?
                       </div>
-                      <div className=" wp-270 p-1 border-style-solid border-2 border-color-lizt rounded-p-10  lh-sm text-start p-2 position-relative bgc-lizt">
+                      <div className=" w-100 p-1 border-style-solid border-2 border-color-lizt rounded-p-10  lh-sm text-start p-2 position-relative bgc-lizt">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-110" />
-                        <div className=" d-flex position-absolute top-0 start-0 translate-middle mtp-30 wp-30 hp-30 bgc-bulma border-style-solid border-1 border-color-bulma bgc-white rounded-1 fsp-16 align-items-center justify-content-center f-Ubuntu-M color-white">1
+                        <div className=" d-flex position-absolute top-0 start-0 translate-middle msp--5 mtp-30 wp-30 hp-30 bgc-bulma border-style-solid border-1 border-color-bulma bgc-white rounded-1 fsp-16 align-items-center justify-content-center f-Ubuntu-M color-white">1
 
                         </div>
 
@@ -87,12 +87,12 @@ function Page026(props) {
                     <div className="mtp-20">
                       <div className="d-flex align-items-center justify-content-center f-Ubuntu-R fsp-15 p-3 color-bulma  ">¿Por qué?
                       </div>
-                      <div className="  p-1  border-style-solid border-2 border-color-kagome rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
+                      <div className=" w-100 p-1  border-style-solid border-2 border-color-kagome rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
 
                         <div className="position-absolute top-50 start-0 translate-middle zindex-1 "><img src={"images/page_026/img_003.svg"} className=" msp--25  mtp-0 " alt="" /></div>
 
 
-                        <div className=" align-items-start justify-content-start wp-360 f-Ubuntu-R fsp-15   ">
+                        <div className=" align-items-start justify-content-start w-100 f-Ubuntu-R fsp-15   ">
 
                           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
 
@@ -108,9 +108,9 @@ function Page026(props) {
 
                     <div className=" w-100 mtp-20">
 
-                      <div className=" wp-270 p-1 border-style-solid border-2 border-color-lizt rounded-p-10  lh-sm text-start p-2 position-relative bgc-lizt">
+                      <div className=" w-100 p-1 border-style-solid border-2 border-color-lizt rounded-p-10  lh-sm text-start p-2 position-relative bgc-lizt">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-110" />
-                        <div className=" d-flex position-absolute top-0 start-0 translate-middle mtp-30 wp-30 hp-30 bgc-bulma border-style-solid border-1 border-color-bulma bgc-white rounded-1 fsp-16 align-items-center justify-content-center f-Ubuntu-M color-white">2
+                        <div className=" d-flex position-absolute top-0 start-0 translate-middle msp--5 mtp-30 wp-30 hp-30 bgc-bulma border-style-solid border-1 border-color-bulma bgc-white rounded-1 fsp-16 align-items-center justify-content-center f-Ubuntu-M color-white">2
 
                         </div>
 
@@ -130,7 +130,7 @@ function Page026(props) {
                         <div className="position-absolute top-50 start-0 translate-middle zindex-1 "><img src={"images/page_026/img_003.svg"} className=" msp--25  mtp-0 " alt="" /></div>
 
 
-                        <div className=" align-items-start justify-content-start  wp-360  f-Ubuntu-R fsp-15   ">
+                        <div className=" align-items-start justify-content-start w-100 f-Ubuntu-R fsp-15   ">
 
                           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
 
@@ -146,9 +146,9 @@ function Page026(props) {
 
                     <div className=" w-100 mtp-20">
 
-                      <div className=" wp-270 p-1 border-style-solid border-2 border-color-lizt rounded-p-10  lh-sm text-start p-2 position-relative bgc-lizt">
+                      <div className=" w-100 p-1 border-style-solid border-2 border-color-lizt rounded-p-10  lh-sm text-start p-2 position-relative bgc-lizt">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-110" />
-                        <div className=" d-flex position-absolute top-0 start-0 translate-middle mtp-30 wp-30 hp-30 bgc-bulma border-style-solid border-1 border-color-bulma rounded-1 fsp-16 align-items-center justify-content-center f-Ubuntu-M color-white">3
+                        <div className=" d-flex position-absolute top-0 start-0 translate-middle msp--5 mtp-30 wp-30 hp-30 bgc-bulma border-style-solid border-1 border-color-bulma rounded-1 fsp-16 align-items-center justify-content-center f-Ubuntu-M color-white">3
 
                         </div>
 
@@ -168,7 +168,7 @@ function Page026(props) {
                         <div className="position-absolute top-50 start-0 translate-middle zindex-1 "><img src={"images/page_026/img_003.svg"} className=" msp--25  mtp-0 " alt="" /></div>
 
 
-                        <div className=" align-items-start justify-content-start  wp-360  f-Ubuntu-R fsp-15   ">
+                        <div className=" align-items-start justify-content-start w-100 f-Ubuntu-R fsp-15   ">
 
                           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
 

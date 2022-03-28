@@ -65,14 +65,14 @@ function Page037(props) {
                       <div className=" p-2 min-hp-100 w-100 border-style-solid border-2 mbp-5 rounded-p-10 border-color-azuka  bgc-white">
                         <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
                           <div className="psp-5 ptp-10 pep-5 color-rukia fsp-18 fw-700">1</div>
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start color-dark flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-90 mtp-0 p-0 px-1 text-start color-dark flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
 
                         </div>
                       </div>
                       <div className=" p-2 min-hp-100 w-100 border-style-solid border-2 pbp-10 rounded-p-10 border-color-azuka  bgc-white ">
                         <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
                           <div className="psp-5 ptp-10 pep-5   color-rukia fsp-18 fw-700">2</div>
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 color-dark text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-90 mtp-0 p-0 px-1 color-dark text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
 
                         </div>
                       </div>
@@ -120,7 +120,7 @@ function Page037(props) {
 
 
                 <div className="col-6 position-relative ">
-
+                <div className="position-absolute top-50 start-100 translate-middle msp--20 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-45 msp-60" alt="" /></div>
                   <div className="d-flex mbp-20 mtp-10 w-100 h-100 psp-10  bgc-windu p-2 rounded-p-10  position-relative">
                     <div className="position-absolute top-100 start-50 translate-middle   msp--20 mtp--5 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-80" alt="" /></div>
                     <div className="d-block w-100">
@@ -129,15 +129,15 @@ function Page037(props) {
                       <div className=" p-2 min-hp-100 w-100 border-style-solid border-2 mbp-5  rounded-p-10 border-color-windu  bgc-white ">
                         <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
                           <div className="psp-5 ptp-10 pep-5 color-saitama fsp-18 fw-700">1</div>
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 color-dark text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-90 mtp-0 p-0 px-1 color-dark text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
 
                         </div>
                       </div>
                       <div className=" p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-windu  bgc-white position-relative">
-                        <div className="position-absolute top-50 start-100 translate-middle   msp-0 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-45 msp-60" alt="" /></div>
+                        
                         <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
                           <div className="psp-5 ptp-10 pep-5  color-saitama fsp-18 fw-700">2</div>
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 color-dark text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-90 mtp-0 p-0 px-1 color-dark text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
 
                         </div>
                       </div>
