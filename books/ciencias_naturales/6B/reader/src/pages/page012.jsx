@@ -33,10 +33,7 @@ function Page012(props) {
                                         </div>
                                         <div className="d-flex">
                                             <span className="fsp-16 text-start f-pixilate-regular">
-                                                <span className="fsp-16 f-IntroRustG-Base text-start">
-                                                    REFLEXIONAR &nbsp;
-                                                </span>
-                                                sobre<br />lo que sé de las<br />energías renovables.
+                                                <span className="fsp-16 f-IntroRustG-Base text-start">REFLEXIONAR</span> sobre<br />lo que sé de las<br />energías renovables.
                                             </span>
                                         </div>
                                     </div>

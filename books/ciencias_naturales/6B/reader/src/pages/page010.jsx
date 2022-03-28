@@ -23,7 +23,7 @@ function Page010(props) {
             <div className="p-0 m-0">
               <div className="col-sm-12 col-md-3 position-relative"></div>
               <div class="d-flex justify-content-center">
-                <div class="cb-titulo-aceptamos text-center fsp-25 f-IntroRustG-Base mbp-20">ACEPTAMOS EL DESAFÍO</div>
+                <div class="cb-titulo-aceptamos text-center fsp-25 f-IntroRustG-Base mbp-20">¡ACEPTAMOS EL DESAFÍO!</div>
               </div>
               <div className="text-start f-Ubuntu-L fsp-15 psp-30">Diseñamos un logo que nos represente:</div>
               <div class="w-100 cb-inicio d-flex text-center align-items-center justify-content-center position-relative">
@@ -96,17 +96,17 @@ function Page010(props) {
               <div className="row w-100 p-0 m-0">
                 <div className="col-12 position-relative max-wp-600 mx-auto">
                   <div className="position-absolute top-50 start-100 translate-middle msp-25 mtp-50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-100" alt="" /></div>
-                  <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
+                  <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo vamos?</div>
                   <div className="d-flex flex-column mbp-20 mtp-10 w-100">
                     <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
                       <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
                         <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 wp-15" alt="" />
-                        <span>Lo que nos motiva como equipo es:</span>
+                        <span>Una de las fortalezas del equipo es...</span>
                       </div>
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                       <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 mtp-20 text-start">
                         <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 wp-15" alt="" />
-                        <span>Lo que podemos mejorar hasta el momento es:</span>
+                        <span>Lo que nos gustaría mejorar es...</span>
                       </div>
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                     </div>

@@ -52,7 +52,7 @@ function Page016(props) {
 
               <div className="d-flex justify-content-center align-items-center position-relative">
                 <div className="bloque-p16 bgc-bulma text-center py-2 f-Ubuntu-M color-white rounded-p-5 pep-10">
-                  <span>lanificación</span>
+                  <span>Planificación</span>
                 </div>
                 <div className="wp-35"></div>
                 <div className="caja-p16 bgc-white border-style-solid border-1 border-color-bulma psp-20 position-relative">
