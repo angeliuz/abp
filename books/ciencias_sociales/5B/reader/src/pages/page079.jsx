@@ -18,7 +18,7 @@ function Page079(props) {
 
                     <div className="position-relative w-100 mbp-20">
                         <div className=" psp-80 pep-70 ptp-30 pbp-0 ">
-                            <div className="fsp-16 f-Ubuntu-B text-start psp-0 pbp-10">Esta página ha sido completada por:</div>
+                            <div className="fsp-16 f-Ubuntu-B text-start psp-30 pbp-10">Esta página ha sido completada por:</div>
                             <div className="psp-0 ptp-5 pbp-5 bgc-white rounded-p-10 border border-color-lightDark d-flex justify-content-center position-relative">
                                 <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 mtp-0"><img src="images/page_079/img_001.png" className="wp-70" /></div>
                                 <div className="position-absolute top-50 start-100 translate-middle wp-100 msp-0 mtp-0"><img src="images/page_079/img_002.png" className="w-50" /></div>
@@ -96,7 +96,7 @@ function Page079(props) {
 
                                 <div className="box-color-24-1">
                                     <div className="f-Ubuntu-B alinea rounded-set-10 bgc-android18 w-100 p-2 text-center color-white hp-65 d-flex justify-content-center align-items-center">Lo más difícil del proyecto </div>
-                                    <div className=" linea1 bgc-white hp-250 p-2 rounded-seb-20 border-style-solid border-color-android18 border-2">
+                                    <div className="bgc-white hp-250 p-2 rounded-seb-20 border-style-solid border-color-android18 border-2">
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
                                     </div>
                                 </div>
@@ -109,7 +109,7 @@ function Page079(props) {
                                 <div className="position-absolute top-0 start-100 translate-middle wp-100 msp--20 mtp-30"><img src="images/page_079/img_005.png" className="wp-60" /></div>
                                 <div className="box-color-24-2">
                                     <div className="f-Ubuntu-B alinea rounded-set-10 bgc-pidgey w-100 p-2 text-center color-white">Lo que más nos ha<br />  gustado del proyecto</div>
-                                    <div className="linea1 bgc-white hp-250 p-2  rounded-seb-20 border-style-solid border-color-pidgey border-2">
+                                    <div className="bgc-white hp-250 p-2  rounded-seb-20 border-style-solid border-color-pidgey border-2">
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
                                     </div>
                                 </div>
