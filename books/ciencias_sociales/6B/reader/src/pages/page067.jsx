@@ -107,7 +107,7 @@ function Page067(props) {
                 <div className="position-absolute top-50 start-0 translate-middle  msp--10 mtp-5 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="hp-100" alt="" /></div>
                 <div className="position-absolute top-100 start-100 translate-middle   msp--30 mtp-5 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-90" alt="" /></div>
 
-                <div className="position-absolute top-0 start-0 msp-10 mtp--50 zindex-1 gira--5">
+                <div className="position-absolute top-0 start-0 msp-10 mtp--65 zindex-1 gira--5">
                   <div className="position-absolute top-50 start-50 translate-middle  w-100  f-colby-compres-bold fsp-19 ptp-5">Dibujo acá nuestro diseño</div>
                   <img src={"images/page_" + pagina + "/img_009.png"} className="wp-190" alt="" />
                 </div>
