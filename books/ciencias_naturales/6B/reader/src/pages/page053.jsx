@@ -58,7 +58,7 @@ function Page053(props) {
           {/* END CABECERA VERSIÓN 2 */}
           <div className="ptp-10 container-titulo-global mbp-20">
             <div className="d-flex">
-              <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_053/g.svg" alt="" />
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_053/g.svg" alt="" /> */}
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">1</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Grabaremos el prototipo de nuestro proyecto. Para ello:</div>
               {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_053/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
