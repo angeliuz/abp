@@ -62,7 +62,7 @@ function Page015(props) {
             <div className="row w-100 position-relative">
               <div className="col-6 col-md-6">
                 <div className="d-flex flex-column pbp-30">
-                  <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-R fsp-14 w-90 position-relative bgc-draco rounded-p-10 min-hp-100 d-flex center-center text-start">
+                  <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-R fsp-14 w-90 position-relative bgc-draco rounded-p-10 min-hp-100 d-flex center-center text-start mtp-20">
                     Investigar sobre el destino de los desechos para realizar infografía.
                     <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
                   </div>
