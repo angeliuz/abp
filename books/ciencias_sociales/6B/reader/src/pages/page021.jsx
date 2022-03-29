@@ -12,7 +12,7 @@ function Page021(props) {
   const background = "bgc-android18";
   const color = "color-primary";
   const borderColor = "border-color-android18"
-  const bgc_cajas = "bgc-goku";
+  const bgc_cajas = "bgc-boros";
 
   return (
 

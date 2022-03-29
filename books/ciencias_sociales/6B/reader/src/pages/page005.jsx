@@ -9,7 +9,7 @@ function Page005(props) {
   const background = "bgc-goten";
   const color = "color-goten";
   const borderColor = "border-color-android18"
-  const bgc_cajas = "bgc-goku";
+  const bgc_cajas = "bgc-boros";
 
   return (
     <div className="wrapper bgc-light">

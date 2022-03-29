@@ -137,7 +137,7 @@ function Page022(props) {
                       />
                     </div>
                     <div className="d-flex">
-                      <span className="fsp-16 text-start f-pixilate-regular">
+                      <span className="fsp-16 text-start f-Ubuntu-R">
                         <span className="fsp-16 f-IntroRustG-Base text-start">
                           REFLEXIONAR
                         </span>{" "}

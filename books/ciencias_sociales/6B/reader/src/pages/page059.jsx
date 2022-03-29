@@ -8,7 +8,7 @@ function Page059(props) {
   const background = "bgc-saitama";
   const color = "color-saitama";
   const borderColor = "border-color-saitama"
-  const bgc_cajas = "bgc-goku";
+  const bgc_cajas = "bgc-boros";
   // const bgc_cajas = "bgc-bobafett";
 
   return (

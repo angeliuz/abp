@@ -9,7 +9,7 @@ function Page011(props) {
   const background = "bgc-bulma";
   const color = "color-krillin";
   const borderColor = "border-color-bulma"
-  const bgc_cajas = "bgc-jawa";
+  const bgc_cajas = "bgc-boros";
 
   return (
     <div className="wrapper bgc-light">

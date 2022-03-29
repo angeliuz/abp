@@ -23,8 +23,8 @@ function Page035(props) {
                     {/* BEGIN CABECERA VERSIÓN 2 */}
                     <div className={"cabecera-v2 d-flex flex-column " + background}>
                         <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-                            <div className={"caja-seccion wp-160 hp-70 text-center fsp-24  f-IntroRustG-Base color-dark"}>SESIÓN 8</div>
-                            <div className="d-flex align-items-start justify-content-start   fsp-24 fw-700 f-Ubuntu-M color-white text-start">Proponemos formas en que la sociedad puede defender sus derechos</div>
+                            <div className={"lh-sm caja-seccion wp-160 hp-70 text-center fsp-24  f-IntroRustG-Base color-dark"}>SESIÓN 8</div>
+                            <div className="lh-sm d-flex align-items-start justify-content-start   fsp-24 fw-700 f-Ubuntu-M color-white text-start">Proponemos formas en que la sociedad puede defender sus derechos</div>
                         </div>
                         <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-0 pep-0 align-self-center justify-content-between w-95">
                             <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
