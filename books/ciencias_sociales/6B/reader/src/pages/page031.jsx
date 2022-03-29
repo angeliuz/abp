@@ -92,6 +92,7 @@ function Page031(props) {
 
                                 <div className="row">
                                     <div className="col-6 position-relative">
+                                    <div className="position-absolute top-50 start-100 translate-middle  msp-10 zindex-1"><img src={"images/page_" + pagina + "/flecha_2.svg"} className="" alt="" /></div>
                                         <div className="position-absolute top-0 start-100 translate-middle visible-768 msp--20 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="" alt="" /></div>
                                         <div className="position-absolute top-100 start-0 translate-middle msp-50 mtp--20 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="" alt="" /></div>
                                         <div className="bgc-jack w-100  m-1">

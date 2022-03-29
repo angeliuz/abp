@@ -91,15 +91,15 @@ function Page034(props) {
                     <div className="d-flex w-100">
 
                       <div className="d-flex align-items-center psp-10">
-                        <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
-                        </div>
+                        <div className="d-inline">
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                           </div>
                         <div className="f-Ubuntu-L fsp-15 lh-sm psp-5 pep-5">de manera individual.</div>
                       </div>
                       <div className="d-flex align-items-center psp-10">
-                        <div className="d-inline wp-30 hp-30 border-style-solid border-1 border-color-dark bgc-white rounded-1">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
-                        </div>
+                        <div className="d-inline">
+                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                              </div>
                         <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 psp-5">en parejas.</div>
                       </div>
                     </div>

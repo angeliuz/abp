@@ -137,8 +137,8 @@ function Page056(props) {
               <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
             </div>
             <div className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
-              <div className="col-7 col-sm-2 p-0 m-0 position-relative">
-                <img src="images/rotulo_motivacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
+              <div className="col-1 col-sm-2 p-0 m-0 position-relative">
+                <img src="images/rotulo_motivacion.svg" className="oculto" alt="" />
                 <div className="w-100 hp-15 bgc-yamcha rounded-caja-start"></div>
                 <div className="w-100 hp-25 bgc-goten"></div>
               </div>
@@ -162,8 +162,8 @@ function Page056(props) {
                 <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
                 <div className="w-100 hp-25 bgc-saitama"></div>
               </div>
-              <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-                <img src="images/rotulo_difusion.svg" className="oculto" alt="" />
+              <div className="col-7 col-sm-2 p-0 m-0 position-relative">
+                <img src="images/rotulo_difusion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
                 <div className="w-100 hp-15 bgc-leono rounded-caja-end"></div>
                 <div className="w-100 hp-25 bgc-pikachu"></div>
               </div>

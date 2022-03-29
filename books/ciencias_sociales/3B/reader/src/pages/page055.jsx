@@ -88,7 +88,7 @@ function Page055(props) {
                     <div className="ptp-10 psp-60 mbp-0 contenedor-pagina">
               <div className="d-flex">
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-pikachu">2</div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Contesto el correo a Alejandra contándole mis expectativas sobre la feria.</div>
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Contesto el correo a Alejandra contándole mis expectativas sobre la fiesta.</div>
               </div>
             </div>
             <div className="cb-contenedor-mail ">

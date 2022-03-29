@@ -49,7 +49,7 @@ function Page026(props) {
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                 A partir de los derechos revisados y de otros presentes en la Constitución y la
-                Declaración Universal de Derechos Humanos, propongo tres derechos en los
+              <i> Declaración Universal de Derechos Humanos</i>, propongo tres derechos en los
                 que se podría centrar nuestra obra de arte. Justifico en cada caso.
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}

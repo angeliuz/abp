@@ -50,7 +50,7 @@ function Page037(props) {
 
           <div className="msp-60 mep-40 mb-10 mbp-5">
             <div className="d-flex justify-content-center p-1 position-relative">
-              <div className="position-absolute top-100 start-100 translate-middle msp--20 mtp--20 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-80" alt="" /></div>
+              <div className="position-absolute top-100 start-100 translate-middle msp--30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-110" alt="" /></div>
               <div className="row  w-100 f-Ubuntu-R fsp-16 fw-700 color-white rounded-p-20 d-flex align-items-center">
 
 
@@ -92,7 +92,7 @@ function Page037(props) {
 
                   <div className="d-flex mbp-20 mtp-10  w-100 pep-10   ">
                     <div className="p-2  w-100 ">
-                      <div className="f-Ubuntu-R fsp-16 text-center color-rukia"> ¿Qué estamos aprendiendo? </div>
+                      <div className="f-Ubuntu-R fsp-16 text-center color-rukia"> Son importantes porque: </div>
                       <div className="mtp-10  w-100 pep-10  psp-10 border-style-solid border-2 rounded-p-10 border-color-azuka  bgc-white  zindex-1">
 
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 color-dark text-start flex-grow-1 contenedor-linea lhp-35 min-hp-360" />
@@ -122,7 +122,7 @@ function Page037(props) {
                 <div className="col-6 position-relative ">
                 <div className="position-absolute top-50 start-100 translate-middle msp--20 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-45 msp-60" alt="" /></div>
                   <div className="d-flex mbp-20 mtp-10 w-100 h-100 psp-10  bgc-windu p-2 rounded-p-10  position-relative">
-                    <div className="position-absolute top-100 start-50 translate-middle   msp--20 mtp--5 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-80" alt="" /></div>
+                    <div className="position-absolute top-100 start-50 translate-middle msp--20 mtp-10   zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-110" alt="" /></div>
                     <div className="d-block w-100">
 
                       <div className="f-Ubuntu-R fsp-16 text-start p-1 color-dark">Dos mecanismos de protección ante estos desafíos son:</div>

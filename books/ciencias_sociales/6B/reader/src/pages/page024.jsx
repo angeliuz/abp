@@ -104,7 +104,7 @@ function Page024(props) {
                     <div className="d-flex  mtp-0 mbp-120 psp-90 pep-90 ptp-10 pbp-0">
                         <div className="row p-0 m-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative">
-                                <div className="position-absolute top-100 start-100 translate-middle mtp--70 msp--20 visible-768"><img src="images/page_024/img_006.png" className="hp-150 " alt="" /></div>
+                                <div className="position-absolute top-100 start-100 translate-middle mtp--70 msp-10 visible-768"><img src="images/page_024/img_006.png" className="hp-150 " alt="" /></div>
                                 <div className=" border-style-solid border-color-dark border-1 p-2 bgc-sid">
                                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-320 contenedor-linea" />
                                 </div>

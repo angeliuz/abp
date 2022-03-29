@@ -50,35 +50,28 @@ function Page044(props) {
                   </div>
                 </div>
                 <div className="d-block p-2 ">
-                  <div className="f-Ubuntu-L text-start fsp-15 lh-sm">El espacio donde se realizará será</div>
-                  <div className="rounded-p-5 w-100  p-1 bgc-white">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-30" />
-                  </div>
-                </div>
-                <div className="d-block p-2 ">
                   <div className="f-Ubuntu-L text-start fsp-15 lh-sm">Responsables de solicitar la ayuda</div>
                   <div className="rounded-p-5 w-100  p-1 bgc-white">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-30" />
                   </div>
                 </div>
                 <div className="d-block p-2 ">
-                  <div className="f-Ubuntu-L text-start fsp-15 lh-sm">Responsables de solicitar la autorización</div>
+                  <div className="f-Ubuntu-L text-start fsp-15 lh-sm">Responsables de solicitar la autorización</div>
                   <div className="rounded-p-5 w-100  p-1 bgc-white">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-30" />
                   </div>
                 </div>
                 <div className="d-block p-2 ">
-                  <div className="f-Ubuntu-L text-start fsp-15 lh-sm">Responsables de solicitar la ayuda</div>
+                  <div className="f-Ubuntu-L text-start fsp-15 lh-sm">El espacio donde se realizará será</div>
                   <div className="rounded-p-5 w-100  p-1 bgc-white">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-30" />
                   </div>
                 </div>
-                <div className="d-block p-2 mbp-20">
-                  <div className="f-Ubuntu-L text-start fsp-15 lh-sm">Responsables de reunir los materiales </div>
+                <div className="d-block p-2 ">
+                  <div className="f-Ubuntu-L text-start fsp-15 lh-sm">Responsables de reunir los materiales</div>
                   <div className="rounded-p-5 w-100  p-1 bgc-white">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-30" />
                   </div>
-
                 </div>
 
               </div>
@@ -110,7 +103,7 @@ function Page044(props) {
                     <div className="d-inline f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Otra:</div>
                   </div>
                   <div className="psp-30 pep-5 mtp--25 ">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="ptp-10 psp-10 fsp-15 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="ptp-10 psp-10 fsp-15 text-start flex-grow-1 contenedor-linea lhp-35" />
                   </div>
 
                 </div>

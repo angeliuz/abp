@@ -7,6 +7,10 @@
 
 }
 
+.hp-800 {
+  height: 800px;
+}
+
 .cuadroIndex-5{
   z-index: 5 !important;
 }
