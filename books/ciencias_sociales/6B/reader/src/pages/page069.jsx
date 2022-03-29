@@ -36,7 +36,7 @@ function Page069(props) {
 
           <div className="psp-50 pep-70 ">
 
-            <div className="d-flex justify-content-start msp-10 f-Ubuntu-L fsp-16  mtp-20 mbp-0 psp-20 pep-0 ptp-0 pbp-0">¿Cómo imaginábamos que iba a ser nuestra obra de arte?</div>
+            <div className="d-flex justify-content-start msp-10 f-Ubuntu-R fsp-16  mtp-20 mbp-0 psp-20 pep-0 ptp-0 pbp-0">¿Cómo imaginábamos que iba a ser nuestra obra de arte?</div>
 
             <div className="max-wp-640 mx-auto position-relative mtp-20">
               <div className="position-absolute top-50 start-0 translate-middle   msp-0 mtp--0 visible-768 zindex-10 msp--20"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-70" alt="" /></div>
@@ -52,7 +52,7 @@ function Page069(props) {
 
 
 
-            <div className="d-flex justify-content-start msp-10 f-Ubuntu-L fsp-16  mtp-20 mbp-0 psp-20 pep-0 ptp-0 pbp-0">¿Qué ha cambiado desde entonces?</div>
+            <div className="d-flex justify-content-start msp-10 f-Ubuntu-R fsp-16  mtp-20 mbp-0 psp-20 pep-0 ptp-0 pbp-0">¿Qué ha cambiado desde entonces?</div>
 
             <div className="max-wp-640 mx-auto position-relative mtp-20">
               <div className="position-absolute top-100 start-0 translate-middle   msp--25 mtp--50 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-90" alt="" /></div>

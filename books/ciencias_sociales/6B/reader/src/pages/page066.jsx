@@ -63,13 +63,13 @@ function Page066(props) {
                 {/* border-left-hidden */}
                 <div className="d-flex flex-column psp-0 pep-0 ptp-0 pbp-0 mtp-20 border-style-solid border-2 border-color-milk bgc-white  ">
 
-                  <div className="d-flex flex-column text-start w-100 psp-15 pep-10 ptp-10 pbp-0 mtp-10 f-Ubuntu-L">
+                  <div className="d-flex flex-column text-start w-100 psp-15 pep-10 ptp-10 pbp-0 mtp-10 f-Ubuntu-R">
                     ... redactamos la invitación...
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-400" />
                   </div>
                   <div className="d-flex justify-content-end mbp-20 ">
 
-                    <div className=" Ubuntu-R fsp-16 pep-20 ptp-10 ">
+                    <div className="f-Ubuntu-R fsp-16 pep-20 ptp-10 ">
                       ...y la enviamos!
                     </div>
                   </div>

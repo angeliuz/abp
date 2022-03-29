@@ -73,11 +73,11 @@ function Page073(props) {
                 <div class="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start">Felicitaciones</div>
               </div>
             </div>
-            <div class="cb-texto-mail position-relative mbp-90">
+            <div class="cb-texto-mail position-relative">
               <div class="cb-carta-content f-Ubuntu-L text-start">
-                <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-50" alt="" /></div>
-                {/* <div className="position-absolute top-100 start-0 translate-middle msp-60 mtp--10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-120" alt="" /></div> */}
-                <p>Estimados estudiantes:</p>
+                <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-60  zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-30" alt="" /></div>
+                <div className="position-absolute top-100 start-0 translate-middle mtp--90 msp-30 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="w-50" alt="" /></div>
+                <p>Queridos estudiantes,</p>
                 <p>Nos encontramos en la parte final del camino. Falta un simple pero
                   significativo paso: que expongan sus obras ante la comunidad.</p>
 
@@ -89,7 +89,7 @@ function Page073(props) {
                 <p>Con su exposición, contribuirán a crear una sociedad más justa, respetuosa
                   de los derechos de las personas y abierta a diversas formas de ver el mundo.</p>
 
-                <p>elicidades y muchas gracias.</p>
+                <p>Felicidades y muchas gracias.</p>
 
                 <div className="justify-content-end">
                   <div className="text-end"> Se despide con cariño,</div>
@@ -100,6 +100,33 @@ function Page073(props) {
             </div>
           </div>
 
+          <div className=" container-titulo-global mbp-0">
+            <div className="d-flex psp-20">
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                2
+              </div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+              Explico cómo me siento luego de leer el mensaje de Josefa.
+              </div>
+              {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
+              {/* <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} linkVideo="682622960" tituloVideo="Expresamos lo que somos III" tipoVideo="vimeo" image={"images/generales/play.svg"} colorUnidad={background} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
+ 
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
+              {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+            </div>
+          </div>
+
+          <div className="d-flex  mtp-0 mbp-120 psp-90 pep-90 ptp-10 pbp-0">
+                        <div className="row p-0 m-0 w-100">
+                            <div className="col-12 p-0 m-0 position-relative">
+                                {/* <div className="position-absolute top-100 start-100 translate-middle mtp--70 msp-10 visible-768"><img src="images/page_024/img_006.png" className="hp-150 " alt="" /></div> */}
+                                <div className=" border-style-solid border-color-dark border-1 border-color-pikachu p-2 bgc-tanya">
+                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-210 contenedor-linea" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
           {/* BEGIN PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
