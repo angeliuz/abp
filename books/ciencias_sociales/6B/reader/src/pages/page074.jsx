@@ -77,8 +77,12 @@ function Page074(props) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="position-relative mtp-30 mbp-190">
-                                <div className="psp-30 pep-10 ptp-10 pbp-20 max-wp-400 top-100 start-50 translate-middle msp-0 mtp-50 d-flex bgc-marcianos position-absolute border-1 border-style-solid border-color-dark">
+                            <div className="row psp-50 pep-50 pbp-50">
+                            <div className="col-12 position-relative w-100 d-flex">
+                                <div className="col-2"></div>
+                                <div className="col-8 position-relative mtp-20 msp-50">
+                                <div className="position-absolute top-0 start-100 translate-middle msp--110 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-30" alt="" /></div>
+                                <div className=" w-80 psp-30 pep-10 ptp-10 pbp-20 msp-0 d-flex bgc-marcianos  border-1 border-style-solid border-color-dark">
                                     <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                                         4
                                     </div>
@@ -86,7 +90,12 @@ function Page074(props) {
                                         Con mi grupo preparamos los últimos detalles y realizamos <br /> la exposición.
                                     </div>
                                 </div>
+                                </div>
+                           
                             </div>
+                            </div>
+                            
+                            
 
 
                         </div>

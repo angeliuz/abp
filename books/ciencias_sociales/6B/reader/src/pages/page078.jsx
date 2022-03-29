@@ -26,8 +26,8 @@ function Page078(props) {
               </div>
               <div className="row mx-auto d-flex f-Ubuntu-R fsp-15 mbp-20">
                 <div className="position-relative">
-                  <div className="position-absolute top-0 start-0 translate-middle msp-20 mtp-5 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-40" alt="" /></div>
-                  <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp--5 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
+                  <div className="position-absolute top-0 start-0 translate-middle msp-20 mtp-5 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
+                  <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp--5 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-70" alt="" /></div>
                   <div className="position-absolute top-50 start-50 translate-middle msp--0 mtp-270 visible-768 zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-60" alt="" /></div>
                 </div>
 
