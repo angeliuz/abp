@@ -21,7 +21,7 @@ function Page078(props) {
           {/* BEGIN EJERCICIO 1 */}
           <div className="d-flex msp-60 mep-60 mbp-20 mtp-90">
             <div className="row w-100 p-0 m-0">
-              <div className="max-wp-640 f-Ubuntu-L fsp-15 text-center mx-auto mbp-10 ">
+              <div className="max-wp-640 f-Ubuntu-R fsp-15 text-center mx-auto mbp-10 ">
                 Si volviéramos a trabajar juntos en otro proyecto...
               </div>
               <div className="row mx-auto d-flex f-Ubuntu-R fsp-15 mbp-20">
