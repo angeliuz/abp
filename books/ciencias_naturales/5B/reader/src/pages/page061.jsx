@@ -96,7 +96,7 @@ function Page061(props) {
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle   msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-80" alt="" /></div>
-                <div className="position-absolute top-50 start-0 translate-middle    msp--20 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-50" alt="" /></div>
+                <div className="position-absolute top-50 start-0 translate-middle    msp--20 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
 
                 <div className="row w-100 border-style-solid border-2 border-color-obiwan sombra bgc-hotaru  rounded-p-10 mbp-10">
 

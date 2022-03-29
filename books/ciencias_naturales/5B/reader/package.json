@@ -2,7 +2,7 @@
   "name": "reader",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.smconecta.cl/libros_abp/books/ciencias_naturales/5B/reader/build",
+  "homepage": "http://localhost:3000",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",

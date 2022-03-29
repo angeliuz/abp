@@ -190,7 +190,7 @@ function Page029(props) {
                     alt=""
                   />
                 </div>
-                <div className="text-center w-100 h-100 border-2 border-style-solid border-color-akuma rounded-p-10  position-relative">
+                <div className="text-center w-100 h-100 border-2 border-style-solid border-color-arlo rounded-p-10  position-relative">
                   {/* <div className="position-absolute top-50 start-100 translate-middle  msp-20 mtp-0 visible-768 zindex-1">
                     <img
                       src={"images/page_" + pagina + "/img_004.png"}
@@ -205,7 +205,7 @@ function Page029(props) {
                       alt=""
                     />
                   </div>
-                  <div className="rounded-set-6 hp-40 ptp-10 pbp-10 bgc-akuma d-flex justify-content-center align-items-center text-white p-2 fsp-18">
+                  <div className="rounded-set-6 hp-40 ptp-10 pbp-10 bgc-arlo d-flex justify-content-center align-items-center text-white p-2 fsp-18">
                     Verticales
                   </div>
                   <div className="p-2">
