@@ -1,7 +1,7 @@
 {
-  "main.css": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/css/main.07868b38.chunk.css",
-  "main.js": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/js/main.e0727dcb.chunk.js",
-  "main.js.map": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/js/main.e0727dcb.chunk.js.map",
+  "main.css": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/css/main.992b7382.chunk.css",
+  "main.js": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/js/main.d6e3b198.chunk.js",
+  "main.js.map": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/js/main.d6e3b198.chunk.js.map",
   "static/js/1.876fcedc.chunk.js": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/js/1.876fcedc.chunk.js",
   "static/js/1.876fcedc.chunk.js.map": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/js/1.876fcedc.chunk.js.map",
   "static/css/2.a44d00d8.chunk.css": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/css/2.a44d00d8.chunk.css",
@@ -14,8 +14,8 @@
   "static/media/page_072.css": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/img_004.62e82fb0.svg",
   "static/media/page_043.css": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/img_004.7ae2f9d0.svg",
   "static/css/2.a44d00d8.chunk.css.map": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/css/2.a44d00d8.chunk.css.map",
-  "static/css/main.07868b38.chunk.css.map": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/css/main.07868b38.chunk.css.map",
+  "static/css/main.992b7382.chunk.css.map": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/css/main.992b7382.chunk.css.map",
   "index.html": "/libros_abp/books/ciencias_naturales/5B/reader/build/index.html",
-  "precache-manifest.49ae272e280ec9177f8113e8707f4096.js": "/libros_abp/books/ciencias_naturales/5B/reader/build/precache-manifest.49ae272e280ec9177f8113e8707f4096.js",
+  "precache-manifest.8c69b0e0cada3edbbeed0bf54bf55228.js": "/libros_abp/books/ciencias_naturales/5B/reader/build/precache-manifest.8c69b0e0cada3edbbeed0bf54bf55228.js",
   "service-worker.js": "/libros_abp/books/ciencias_naturales/5B/reader/build/service-worker.js"
 }
