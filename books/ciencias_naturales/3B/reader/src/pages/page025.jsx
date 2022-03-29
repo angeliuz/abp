@@ -100,9 +100,9 @@ function Page025(props) {
           </div>
 
 
-          <div className="ptp-30 container-titulo-global mbp-0">
+          <div className="ptp-10 container-titulo-global  position-relative ">
             {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>La regla de las 3R</div> */}
-            <div className="d-flex">
+            <div className="d-flex max-wp-500 ">
               <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_001.svg"} alt="" />
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
@@ -115,14 +115,14 @@ function Page025(props) {
             </div>
           </div>
 
-          <div className="d-flex psp-60 pep-60 pbp-100">
+          
 
-            <div className="row w-100 p-0 m-0">
-              <div className="col-12">
-                <img className="wp-200 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_007.png"} alt="" />
+           
+              <div className="position-absolute top-100 start-100 translate-middle visible-768 zindex-1 msp--190 mtp--110 mbp-20">
+                <img className="wp-200" src={"images/page_" + pagina + "/img_007.png"} alt="" />
               </div>
-            </div>
-          </div>
+         
+         
 
           {/* BEGIN PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
