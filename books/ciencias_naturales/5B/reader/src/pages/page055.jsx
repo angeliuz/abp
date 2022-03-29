@@ -9,7 +9,7 @@ function Page055(props) {
   const color = "color-saitama";
   const borderColor = "border-color-saitama"
   const borderColorTabla = "border-color-bobafett"
-  const bgc_cajas = "bgc-goku";
+  const bgc_cajas = "bgc-boros";
 
   return (
     <div className="wrapper bgc-light">

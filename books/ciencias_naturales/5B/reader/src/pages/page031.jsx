@@ -188,8 +188,8 @@ function Page031(props) {
                                     </div>
                                 </div>
                                 <div className="col-sm-12 col-md-6">
-                                    <div className="text-center w-100 border-1 border-style-solid border-color-akuma rounded-p-10 mtp-10">
-                                        <div className="lhp-15 color-white fw-700 rounded-set-6 hp-50 p-2 bgc-vegeta d-flex justify-content-center align-items-center">
+                                    <div className="text-center w-100 border-1 border-style-solid border-color-arlo rounded-p-10 mtp-10">
+                                        <div className="lhp-15 color-white fw-700 rounded-set-6 hp-50 p-2 bgc-arlo d-flex justify-content-center align-items-center">
                                             en su mayoría, la comida que se
                                             vendiera en el colegio fuera saludable
                                         </div>

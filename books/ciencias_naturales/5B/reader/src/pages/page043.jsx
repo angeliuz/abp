@@ -113,9 +113,9 @@ function Page043(props) {
                     <div className="d-flex global-margin mtp-0 mbp-140 psp-0 pep-0 ptp-0 pbp-0">
                         <div className="row p-0 m-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative d-flex">
-                                <div className="col p-0 m-0"><div className="fondo-2 mbp-10 ptp-5 color-white text-center f-Ubuntu-M fsp-16 lh-sm">Lo que hay que hacer</div></div>
+                                <div className="col p-0 m-0"><div className="fondo-2 mbp-10 ptp-5 color-white text-center f-Ubuntu-M fsp-16 lh-sm">Lo que hay<br />que hacer</div></div>
                                 <div className="col-auto p-0 m-0"><div className="wp-30"></div></div>
-                                <div className="col-6 p-0 m-0"><div className="fondo-1 mbp-10 ptp-5 color-white text-center f-Ubuntu-M fsp-16 lh-sm">Estudiante que se encarga</div></div>
+                                <div className="col-6 p-0 m-0"><div className="fondo-1 mbp-10 ptp-5 color-white text-center f-Ubuntu-M fsp-16 lh-sm">Estudiante a<br />cargo</div></div>
                             </div>
                             <div className="col-12 p-0 m-0 position-relative d-flex justify-content-center align-items-center">
                                 <div className="col p-0 m-0"><div className="bgc-azuka mbp-10 f-Ubuntu-L fsp-15 lh-sm psp-10 ptp-15 pbp-15 rounded-p-5 text-start">Conseguir los permisos</div></div>

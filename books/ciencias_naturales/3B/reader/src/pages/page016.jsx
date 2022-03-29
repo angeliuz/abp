@@ -105,7 +105,7 @@ function Page016(props) {
                   <div className="d-flex justify-content-center w-100">
                     <div className="d-flex flex-column psp-10 pep-10 ptp-25 pbp-20 w-100 f-Ubuntu-L border-style-solid border-2 border-color-android18 rounded-p-10 text-start bgc-white">
                       <div className="d-flex align-items-center fsp-15 text-start mbp-5">
-                        <div className="wp-20 hp-20 d-flex center-center">
+                        <div className="wp-20 hp-20 d-flex center-center mbp-20">
                           <div className="bgc-bulma rounded-circle wp-5 hp-5"></div>
                         </div>
                         <div className="w-100">
@@ -131,7 +131,7 @@ function Page016(props) {
                   <div className="d-flex justify-content-center w-100">
                     <div className="d-flex flex-column psp-10 pep-10 ptp-25 pbp-20 w-100 f-Ubuntu-L border-style-solid border-2 border-color-android18 rounded-p-10 text-start bgc-white">
                       <div className="d-flex align-items-center fsp-15 text-start mbp-5">
-                        <div className="wp-20 hp-20 d-flex center-center">
+                        <div className="wp-20 hp-20 d-flex center-center mbp-20">
                           <div className="bgc-bulma rounded-circle wp-5 hp-5"></div>
                         </div>
                         <div className="w-100">

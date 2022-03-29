@@ -110,7 +110,7 @@ xxx
                     <div className="d-flex bgc-white border-style-solid border-color-pidgey border-2 rounded-p-10 p-2">
 
                       <div className="d-flex flex-column position-relative w-100 text-start mtp-10">
-                        <div className="mbp-10 text-center f-Ubuntu-R fsp-15 color-dark">Durante la investigación me gustaría profundizar sobre...</div>
+                        <div className="mbp-10 text-center f-Ubuntu-R fsp-15 color-dark">Antes de terminar quisiera saber…</div>
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
                       </div>
 
