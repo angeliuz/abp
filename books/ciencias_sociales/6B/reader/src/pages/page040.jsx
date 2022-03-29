@@ -38,26 +38,27 @@ function Page040(props) {
           <div className="psp-60 pep-60 ptp-40">
             <div className="bgc-blanka psp-20 pep-20 ptp-20 pbp-30 rounded-p-20 position-relative">
 
-              <div className="pbp-70">
-                <div className="bgc-bach w-100 rounded-set-20 d-flex justify-content-center position-relative">
-                  <div className="f-Ubuntu-R mxwp-550 py-2">Seleccionen la idea del esquema anterior que más les interese expresar (derecho, deber, desafío o medida de defensa u otra)</div>
-                  <div className="position-absolute top-0 start-50 translate-middle mtp--22">
-                    <div className="bgc-debussy mxwp-450 f-Ubuntu-B color-white rounded-set-20">La idea central que expresaremos en nuestra obra es...</div>
+              <div className="col-12 pbp-70">
+                <div className=" bgc-bach w-100 rounded-set-20 d-flex justify-content-center position-relative">
+                <div className="">
+                    <div className=" position-absolute top-0 start-50 translate-middle mtp--15 bgc-debussy w-80 p-1 f-Ubuntu-B color-white rounded-set-20 ">La idea central que expresaremos en nuestra obra es...</div>
                   </div>
+                  <div className="f-Ubuntu-R w-80 py-2">Seleccionen la idea del esquema anterior que más les interese expresar (derecho, deber, desafío o medida de defensa u otra)</div>
+                  
                 </div>
                 <div className="bgc-white w-100 p-3 rounded-seb-20">
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                 </div>
               </div>
 
-              <div className="bgc-bach w-100 rounded-set-20 d-flex justify-content-center  position-relative">
-                <div className="f-Ubuntu-R mxwp-550 py-2">Señalen la importancia de esa idea. Pueden hacerlo a partir de su relación con otras ideas presentes en el esquema anterior.</div>
+              <div className="col-12 bgc-bach w-100 rounded-set-20 d-flex justify-content-center  position-relative">
+                <div className="f-Ubuntu-R w-80 py-2">Señalen la importancia de esa idea. Pueden hacerlo a partir de su relación con otras ideas presentes en el esquema anterior.</div>
 
-                <div className="position-absolute top-0 start-0 translate-middle mtp--20 msp-150">
-                  <div className="bgc-debussy mxwp-450 f-Ubuntu-B color-white rounded-set-20 py-2 psp-20 pep-20">Argumento 1</div>
+                <div className="position-absolute top-0 start-0 translate-middle mtp--20 msp-120">
+                  <div className="bgc-debussy mxwp-450 f-Ubuntu-B color-white rounded-set-20 py-2 psp-10 pep-10">Argumento 1</div>
                 </div>
-                <div className="position-absolute top-0 start-100 translate-middle mtp--20 msp--150">
-                  <div className="bgc-debussy mxwp-450 f-Ubuntu-B color-white rounded-set-20 py-2 psp-20 pep-20">Argumento 2</div>
+                <div className="position-absolute top-0 start-100 translate-middle msp--120 mtp--20">
+                  <div className="bgc-debussy mxwp-450 f-Ubuntu-B color-white rounded-set-20 py-2 psp-10 pep-10">Argumento 2</div>
                 </div>
               </div>
 
@@ -74,12 +75,13 @@ function Page040(props) {
                 </div>
               </div>
 
-              <div className="pbp-20">
+              <div className="col-12 pbp-20">
                 <div className="bgc-bach w-100 rounded-set-20 d-flex justify-content-center position-relative">
-                  <div className="f-Ubuntu-R mxwp-550 py-2">Indiquen las sensaciones, ideas, acciones o comportamientos que desean provocar en los espectadores con su obra.</div>
-                  <div className="position-absolute top-0 start-50 translate-middle mtp--22">
-                    <div className="bgc-debussy mxwp-450 f-Ubuntu-B color-white rounded-set-20">El impacto que esperamos en los espectadores es el siguiente:</div>
+                <div className="">
+                    <div className="position-absolute top-0 start-50 translate-middle mtp--16 bgc-debussy w-80 p-1 f-Ubuntu-B color-white rounded-set-20">El impacto que esperamos en los espectadores es el siguiente:</div>
                   </div>
+                  <div className="f-Ubuntu-R mxwp-550 py-2">Indiquen las sensaciones, ideas, acciones o comportamientos que desean provocar en los espectadores con su obra.</div>
+                  
                 </div>
                 <div className="bgc-white w-100 p-3 rounded-seb-20">
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
@@ -110,7 +112,7 @@ function Page040(props) {
             <div className="d-flex justify-content-between pbp-20">
               <div className="caja1-p40 bgc-verde1 rounded-p-20 position-relative d-flex justify-content-center align-items-center">
                 <div className="f-Ubuntu-M color-white">Párrafo 1</div>
-                {/* <div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-60" alt="" /></div> */}
+                <div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-60" alt="" /></div>
               </div>
               <div className="mnwp-20"></div>
               <div className="caja2-p40 border-style-solid border-3 border-color-chitara rounded-p-20 d-flex justify-content-center align-items-center">
@@ -120,7 +122,7 @@ function Page040(props) {
             <div className="d-flex justify-content-between pbp-20">
               <div className="caja1-p40 bgc-verde2 rounded-p-20 position-relative d-flex justify-content-center align-items-center">
                 <div className="f-Ubuntu-M color-white">Párrafo 2</div>
-                <div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-60" alt="" /></div>
+                <div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-60" alt="" /></div>
               </div>
               <div className="mnwp-20"></div>
               <div className="caja2-p40 border-style-solid border-3 border-color-chitara rounded-p-20 d-flex justify-content-center align-items-center">
@@ -130,7 +132,7 @@ function Page040(props) {
             <div className="d-flex justify-content-between pbp-20">
               <div className="caja1-p40 bgc-verde3 rounded-p-20 position-relative d-flex justify-content-center align-items-center">
                 <div className="f-Ubuntu-M color-white">Párrafo 3</div>
-                <div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-60" alt="" /></div>
+                <div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-60" alt="" /></div>
               </div>
               <div className="mnwp-20"></div>
               <div className="caja2-p40 border-style-solid border-3 border-color-chitara rounded-p-20 d-flex justify-content-center align-items-center">
@@ -140,7 +142,7 @@ function Page040(props) {
             <div className="d-flex justify-content-between pbp-20">
               <div className="caja1-p40 bgc-verde4 rounded-p-20 position-relative d-flex justify-content-center align-items-center">
                 <div className="f-Ubuntu-M color-white ">Párrafo 4</div>
-                <div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-60" alt="" /></div>
+                <div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-60" alt="" /></div>
               </div>
               <div className="mnwp-20"></div>
               <div className="caja2-p40 border-style-solid border-3 border-color-chitara rounded-p-20 d-flex justify-content-center align-items-center">
