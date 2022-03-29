@@ -39,7 +39,7 @@ function Page052(props) {
           <div className="d-flex global-margin mtp-0 mbp-50 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-500 f-Ubuntu-L fsp-16">
             <div className="position-absolute top-50 start-50 translate-middle zindex-2"><img src={"images/page_" + pagina + "/mono.png"} className="hp-95 mtp-125 msp-0" alt="" /></div>
             <div className="position-absolute top-100 start-100 translate-middle zindex-2"><img src={"images/page_" + pagina + "/mono1.png"} className="hp-150 mtp-140 mep-200" alt="" /></div>
-            <div className="position-absolute top-50 start-100 translate-middle zindex-2"><img src={"images/page_" + pagina + "/lapiz.png"} className="hp-80 mbp-50 msp-20" alt="" /></div>
+            <div className="position-absolute top-50 start-100 translate-middle zindex-2 msp--80 visible-768"><img src={"images/page_" + pagina + "/lapiz.png"} className="hp-80 mbp-50 msp-20" alt="" /></div>
             <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-60 zindex-1"><img src={"images/page_" + pagina + "/fondo.svg"} className="wp-560" alt="" /></div>
 
             <div className="position-absolute top-50 start-50 translate-middle msp--80 mtp--35 zindex-1">
