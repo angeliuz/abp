@@ -74,10 +74,11 @@ function Page041(props) {
 
                   <div className="position-absolute top-0 start-50 msp-0 mtp-0 translate-middle">
                     <div className="bgc-ron mnwp-400 color-white f-Ubuntu-B text-center px-3 py-2 rounded-p-20">
-                      Creemos que los siguientes hábitos son importantes para crear un entorno sostenible:
+                    Pensamos que lo que hemos aprendido nos va a servir en nuestra ruta para:
+ 
                     </div>
                   </div>
-                  <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-70" alt="" /></div>
+                  <div className="position-absolute top-100 start-100 translate-middle msp-20  zindex-1 visible-768"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-90" alt="" /></div>
                 </div>
               </div>
             </div>

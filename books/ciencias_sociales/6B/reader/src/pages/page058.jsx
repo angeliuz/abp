@@ -52,7 +52,7 @@ function Page058(props) {
                         </div>
                     </div>
                     <div className="d-flex flex-column global-margin mtp-0 mbp-20 psp-0 pep-0 ptp-20 pbp-20 position-relative">
-                        <div className="position-absolute top-100 start-100 translate-middle wp-100 msp--100 mtp--70"><img src={"images/page_" + pagina + "/img_005.png"} className="w-200" alt="" /></div>
+                        <div className="position-absolute top-100 start-100 translate-middle wp-100 msp--100 mtp--70 visible-768"><img src={"images/page_" + pagina + "/img_005.png"} className="w-200" alt="" /></div>
                         <div className="col-10">
                             <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo vamos?</div>
                             <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-30">

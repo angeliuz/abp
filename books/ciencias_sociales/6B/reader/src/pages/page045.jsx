@@ -65,7 +65,7 @@ function Page045(props) {
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-10 mbp-50 psp-40 pep-0 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-10 mbp-50  pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 m-0 p-0 position-relative">
                 <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_045/posit.png" className="hp-60 mtp-150" alt="" /></div>
@@ -75,7 +75,7 @@ function Page045(props) {
                 <div className="bgc-draco rounded-p-10 p-2">
                   <div className="d-flex  justify-content-start align-items-center psp-10 ptp-10">
                     <div className="f-Ubuntu-R fsp-14 lh-sm  text-start pep-10">Obra letra</div>
-                    <div className="bgc-white h-100 rounded-p-10 p-2 min-wp-70 "><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 max-wp-150" /></div>
+                    <div className="msp-20 bgc-white h-100 rounded-p-10 p-2 min-wp-70 "><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 max-wp-150" /></div>
                   </div>
 
 

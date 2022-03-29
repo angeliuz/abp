@@ -24,7 +24,7 @@ function Page038(props) {
           </div>
           <div className="container-titulo-global mbp-0 mbp-20">
             <div className="d-flex psp-20">
-              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
+              <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_001.svg"} alt=""  />
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 4
               </div>
@@ -77,8 +77,8 @@ function Page038(props) {
                 </div>
                 <div className="col-sm-12 col-md-6 position-relative">
                   <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp--0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-10" alt="" /></div>
-                  <div className="text-center w-100 border-1 border-style-solid border-color-info rounded-p-10 mtp-10">
-                    <div className="lhp-15 color-white fw-700 rounded-set-6 hp-50 ptp-5 pbp-5 bgc-info d-flex justify-content-center align-items-center">
+                  <div className="text-center w-100 border-1 border-style-solid border-color-alf rounded-p-10 mtp-10">
+                    <div className="lhp-15 color-white fw-700 rounded-set-6 hp-50 ptp-5 pbp-5 bgc-alf d-flex justify-content-center align-items-center">
                       ¿Por qué la seleccionamos?
                     </div>
                     <div className="psp-15 pep-15">
