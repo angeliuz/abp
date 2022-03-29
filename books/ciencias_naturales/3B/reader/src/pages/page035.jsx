@@ -27,8 +27,8 @@ function Page035(props) {
                     <div className="fsp-16 f-Ubuntu-M text-start psp-0 pbp-10">Esta página es completada por:</div>
                     <div className={"psp-0 ptp-5 pbp-5 bgc-white rounded-p-10 border-style-solid border-1 "+borderColor+" d-flex justify-content-center position-relative"}>
                       <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 mtp-0"><img src={"images/page_"+pagina+"/img_001.png"} className="wp-70" /></div>
-                      <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--30 mtp--20"><img src={"images/page_"+pagina+"/img_002.png"} className="w-70" /></div>
-                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="px-1 text-start lhp-35 w-100 msp-10 mep-50" />
+                      <div className="position-absolute top-50 start-100 translate-middle wp-100 msp-20 mtp--20"><img src={"images/page_"+pagina+"/img_002.png"} className="w-70" /></div>
+                      <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) }  className="max-wp-600 px-1 text-start lhp-35 w-100 msp-40 mep-50" />
                     </div>
 
                 </div>
@@ -60,7 +60,7 @@ function Page035(props) {
 
                         <div className="col-12 position-relative">
                             <div className="d-flex flex-column f-Ubuntu-R fsp-15 psp-10 pep-10 mtp-20">
-                                <div className="f-Ubuntu-R fsp-15 color-dark text-start color-dark ">Aprendimos sobre...</div>
+                                <div className="f-Ubuntu-R fsp-15 color-dark text-start">Aprendimos sobre...</div>
                                 <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-330" />
                             </div>
 
@@ -80,7 +80,7 @@ function Page035(props) {
                     <div className="position-absolute top-50 start-100 translate-middle msp--100 mtp-0 "><img src={"images/page_"+pagina+"/img_003.png"} className="wp-150 " alt="" /></div> 
                     
                         <div className="d-flex flex-column bgc-bison box-shadow-simple psp-20 pep-190 ptp-20 border-style-solid border-2 border-color-freezer">
-                            <div className="f-Ubuntu-R fsp-15 color-dark text-start color-dark ">La infografía que hemos confeccionado nos servirá para...</div>
+                            <div className="f-Ubuntu-R fsp-15 color-dark text-start">La infografía que hemos confeccionado nos servirá para...</div>
                             <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
                         </div>
 
