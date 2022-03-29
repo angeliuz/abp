@@ -50,7 +50,7 @@ function Page026(props) {
                   <div className="p-2 min-hp-80 w-100 ">
                     <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
 
-                      <span>¿Qué he aprendido hoy nuevo e interesante?</span>
+                      <span>Un punto limpio es</span>
                     </div>
                     <InputBox id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"75"} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                   </div>

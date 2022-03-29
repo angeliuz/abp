@@ -139,9 +139,9 @@ function Page024(props) {
                             {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_002.svg"} alt=""  /> */}
                             <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>6</div>
                             <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                                Presentamos los resultados de forma oral. Comparamos y discutimos con los otros grupos.
+                                Presentamos los resultados de forma oral. <br /> Comparamos y discutimos con los otros grupos.
                             </div>
-                            <img src={"images/page_" + pagina + "/img_001.png"} className="wp-250" alt="" />
+                            <img src={"images/page_" + pagina + "/img_001.png"} className="msp-50 wp-250" alt="" />
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}

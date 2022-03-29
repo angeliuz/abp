@@ -52,7 +52,7 @@ function Page029(props) {
                             <div className="row w-100 p-0 m-0 rounded-p-5 bgc-white">
 
                                 <div className="col-sm-12 position-relative p-0 m-0 rounded-set-10 bgc-gohan border-style-solid border-bottom-hidden border-2 border-color-goku">
-                                    <div className="position-absolute top-0 start-100 translate-middle msp--30 mtp--20 visible-768"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-80" alt="" /></div>
+                                    <div className="position-absolute top-0 start-100 translate-middle msp--60 mtp--40 visible-768"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-130" alt="" /></div>
                                     <div className="d-flex center-center w-100 ptp-5 pbp-5 f-Ubuntu-R fsp-16">
                                         <span className="text-center">
                                             Realidad actual

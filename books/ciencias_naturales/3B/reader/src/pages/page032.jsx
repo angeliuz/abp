@@ -46,7 +46,7 @@ function Page032(props) {
 
                 <div className="col-sm-12 col-md-12 position-relative pbp-20">
                     <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0"><img src={"images/page_"+pagina+"/img_001.png"} className="wp-70 " alt="" /></div> 
-                    <div className="position-absolute top-100 start-100 translate-middle msp-20 mtp-0"><img src={"images/page_"+pagina+"/img_002.png"} className="wp-150 " alt="" /></div> 
+                    <div className="position-absolute top-100 start-100 translate-middle msp--50 mtp--50"><img src={"images/page_"+pagina+"/img_002.png"} className="wp-170 " alt="" /></div> 
                     
                     <div className="d-flex flex-column psp-20 pep-20 ptp-0 pbp-10 bgc-kano border-style-solid border-2 border-color-goku w-100">
 
@@ -68,7 +68,7 @@ function Page032(props) {
                         <div className="d-flex f-Ubuntu-R fsp-20 psp-0 pep-10 mtp-20 text-start">
                             <div className="f-colby-compres-medium fsp-20 color-dark w-100">¿Cómo ayuda a la ciudadanía esta institución?</div>        
                         </div>
-                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
+                        <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="max-wp-400 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
 
                     </div>
 
