@@ -40,31 +40,31 @@ function Page032(props) {
                             {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
                         </div>
                     </div>
-                    <div className="psp-60 pep-60 ptp-20 pbp-90">
-                        <div className="border-style-solid border-3 border-color-lightDark p-2 position-relative box-shadow-simple rounded-p-10 ">
+                    
+                    
+
+                    <div className="d-flex global-margin mtp-30 mbp-100 psp-0 pep-0 ptp-190 pbp-0">
+
+
+                        <div className="row p-0 m-0 w-100 bgc-baki rounded-p-10 position-relative">
+                      <div className="col-12 position-relative w-100">
+                      <div className="col-8">
+                        <div className="position-absolute top-100 start-50 translate-middle w-60 mtp--80 zindex-2 border-style-solid border-3 border-color-lightDark p-2 position-relative box-shadow-simple rounded-p-10 bgc-white">
                         <div className="position-absolute top-0 start-100 translate-middle zindex-1 msp--40"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-50" alt="" /></div>
                             <div className=" ptp-10 psp-10 pep-10">
                                 <div className="f-Ubuntu-L fep-20 mtp-5 text-start">¿Cuál es la situación de</div>
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                             </div>
-                            
-                            
                             <div className=" psp-20 pep-10 pbp-20">
-
-                                
-                                <div className="f-Ubuntu-L fep-20 mtp-5 text-end">en el mundo actual?</div>
+                            <div className="f-Ubuntu-L fep-20 mtp-5 text-end">en el mundo actual?</div>
                             </div>
 
 
                             
                         </div>
                     </div>
-
-                    <div className="d-flex global-margin mtp-30 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
-
-
-                        <div className="row p-0 m-0 w-100 bgc-baki rounded-p-10 position-relative">
-                            <div className="container-titulo-global mbp-0 mbp-20">
+</div>
+                            <div className="container-titulo-global ptp-30 mbp-20">
                                 <div className="d-flex psp-20">
                                 <div className="position-absolute top-0 start-100 translate-middle zindex-1 msp--50 mtp--45"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-90" alt="" /></div>
                                 <div className="position-absolute top-0 start-0 translate-middle zindex-1 msp-10 mtp--10"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-" alt="" /></div>

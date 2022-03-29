@@ -32,7 +32,7 @@ function Page073(props) {
                                         3
                                     </div>
                                     <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                                        Llevamos a cabo la campaña para dar a conocer nuestra propuesta de alimentación saludable. Tomamos fotografías y registramos la que más nos gustó
+                                        Llevamos a cabo la campaña para dar a conocer nuestra propuesta de alimentación saludable. Tomamos fotografías y registramos la que más nos gustó.
                                     </div>
                                     {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                                     {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}

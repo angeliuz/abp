@@ -13,7 +13,7 @@ function Page071(props) {
     const color = "color-pikachu";
     const borderColor = "border-color-pikachu"
     const borderColorTabla = "border-color-kokomi"
-    const bgc_cajas = "bgc-kokomi";
+    const bgc_cajas = "bgc-boros";
 
     return (
         <div className="wrapper bgc-light">

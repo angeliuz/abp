@@ -4,3 +4,7 @@
     height: 100% !important;
     -webkit-print-color-adjust: exact !important;
   }
+  .outlineclau {
+    outline: solid 1px var(--goten);
+    outline-offset: 2px;
+}

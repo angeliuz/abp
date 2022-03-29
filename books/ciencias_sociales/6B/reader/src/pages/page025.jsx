@@ -25,7 +25,7 @@ function Page025(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className="cabecera-v2 bgc-android18 d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja wp-160 text-center fsp-24 f-IntroRustG-Base">SESIÓN 5</div>
+              <div className="caja-seccion wp-160 hp-70 text-center fsp-24  f-IntroRustG-Base color-dark">SESIÓN 5</div>
               <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Sociedad justa y los derechos</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
@@ -150,7 +150,7 @@ function Page025(props) {
 
                   </div>
                   <div className="col-md-4 col-12 d-flex position-relative pbp-10 align-items-center justify-content-center ">
-
+                  
                     <div className="mtp-20">
                       {/* <div className="position-absolute top-0 start-50 translate-middle bgc-akuma mtp-5  w-50 f-Ubuntu-B text-center color-white fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5"> Tarea </div> */}
                       <div className="w-100  p-1 border-style-solid border-2 border-color-calypso6 rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
@@ -167,7 +167,7 @@ function Page025(props) {
 
                   </div>
                   <div className="col-md-8 col-12 position-relative pbp-10">
-
+                  <div className="position-absolute top-100 start-100 translate-middle zindex-1 mtp--30 msp-10 visible-768"><img src={"images/page_025/img_006.png"} className="" alt="" /></div>
                     <div className="mtp-20">
                       
                       {/* <div className="position-absolute top-0 start-50 translate-middle bgc-haydn mtp-5  w-50 f-Ubuntu-B text-center color-white fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5"> Responsable </div> */}

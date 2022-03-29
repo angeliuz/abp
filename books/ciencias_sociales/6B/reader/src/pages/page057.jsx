@@ -30,7 +30,7 @@ function Page057(props) {
                     </div>
                     <div className="max-wp-640 mx-auto position-relative mtp-20">
                         <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-20 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-70" alt="" /></div>
-                        <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--50 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-50" alt="" /></div>
+                        <div className="position-absolute top-100 start-0 translate-middle msp--20 mtp--50 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-50" alt="" /></div>
                         <div className="text-center w-100 border-1 border-style-solid border-color-dark rounded-p-10 pbp-15 bgc-white">
                             <div className="f-Ubuntu-L fsp-15 rounded-p-10 wp-400  hp-40 pep-20 psp-20 ptp-10 pbp-10 mtp--5 bgc-trans-uwu d-flex justify-content-start ">
                                 Al diseñar nuestra obra de arte aprendimos que...
@@ -65,7 +65,7 @@ function Page057(props) {
                     {/* BEIGN PIE DE PAGINA */}
                     <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
                         <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>ABP &copy; SM</div>
-                        <div className="bgc-goku wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+                        <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
                     </div>
                     {/* END PIE DE PAGINA */}
                 </div>

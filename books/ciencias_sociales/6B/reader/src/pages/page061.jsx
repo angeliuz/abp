@@ -20,7 +20,7 @@ function Page061(props) {
                     {/* BEGIN CABECERA VERSIÓN 2 */}
                     <div className={"cabecera-v2 " + background + " d-flex flex-column"}>
                         <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-                            <div className="caja wp-160 text-center  fsp-24 f-IntroRustG-Base">SESIÓN 15</div>
+                            <div className="caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark">SESIÓN 15</div>
                             <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Manos a la obra</div>
                         </div>
                         <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
@@ -260,7 +260,7 @@ function Page061(props) {
                         <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
                             ABP &copy; SM
                         </div>
-                        <div className="bgc-misty wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+                        <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
                     </div>
                     <div className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
                         <div className="col-1 col-sm-2 p-0 m-0 position-relative">

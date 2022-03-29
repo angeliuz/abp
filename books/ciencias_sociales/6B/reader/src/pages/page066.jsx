@@ -63,13 +63,13 @@ function Page066(props) {
                 {/* border-left-hidden */}
                 <div className="d-flex flex-column psp-0 pep-0 ptp-0 pbp-0 mtp-20 border-style-solid border-2 border-color-milk bgc-white  ">
 
-                  <div className="d-flex flex-column text-start w-100 psp-15 pep-10 ptp-10 pbp-0 mtp-10 f-Ubuntu-L">
+                  <div className="d-flex flex-column text-start w-100 psp-15 pep-10 ptp-10 pbp-0 mtp-10 f-Ubuntu-R">
                     ... redactamos la invitación...
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-400" />
                   </div>
                   <div className="d-flex justify-content-end mbp-20 ">
 
-                    <div className=" Ubuntu-R fsp-16 pep-20 ptp-10 ">
+                    <div className="f-Ubuntu-R fsp-16 pep-20 ptp-10 ">
                       ...y la enviamos!
                     </div>
                   </div>
@@ -85,7 +85,7 @@ function Page066(props) {
 
 
           <div className="d-flex w-100 mtp-10 psp-60 pep-60 ptp-20 mbp-0 bgc-windu border-top-style-solid border-color-dark border-2 pbp-80    position-relative">
-            <div className="position-absolute top-0 start-50 translate-middle   visible-768 mtp--39 msp--80"><img src="images/page_060/img_004.png" className="wp-80 " alt="" /></div>
+            {/* <div className="position-absolute top-0 start-50 translate-middle   visible-768 mtp--39 msp--80"><img src="images/page_060/img_004.png" className="wp-80 " alt="" /></div> */}
             <div className="row w-100 p-0 m-0">
               <div className="col-12 position-relative">
                 <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
@@ -252,7 +252,7 @@ function Page066(props) {
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
               ABP &copy; SM
             </div>
-            <div className="bgc-misty wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+            <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
           </div>
           <div className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
             <div className="col-1 col-sm-2 p-0 m-0 position-relative">

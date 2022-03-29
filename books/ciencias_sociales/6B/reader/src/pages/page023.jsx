@@ -25,7 +25,7 @@ function Page023(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className="cabecera-v2 bgc-android18 d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja wp-160 text-center fsp-24 f-IntroRustG-Base">SESIÓN 4</div>
+              <div className="caja-seccion wp-160 hp-70 text-center fsp-24  f-IntroRustG-Base color-dark">SESIÓN 4</div>
               <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¿Qué es una sociedad justa?</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
@@ -89,7 +89,7 @@ function Page023(props) {
               <div className="position-absolute top-50 start-0 translate-middle zindex-1 msp--20"><img src="images/page_023/img_004.png" className="" alt="" /></div>
                 <div className="d-flex mbp-30 mtp-10 w-100">
                   <div className="position-relative p-2 min-hp-100 w-100 border-style-solid border-4 rounded-p-20 border-color-grieg bgc-kai">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="psp-10  text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
                     <div className="position-absolute top-0 start-50 translate-middle wp-100 mtp--10 bgc-naraku psp-5 pep-5 ptp-5 pbp-5 rounded-ts-be-10  ">
                       <div className="f-Ubuntu-L color-black fsp-16">¿Qué veo?</div>
                     </div>
@@ -97,10 +97,10 @@ function Page023(props) {
                 </div>
               </div>
               <div className="col-sm-12 col-md-6 position-relative">
-              <div className="position-absolute top-100 start-100 translate-middle zindex-1 mtp--150 msp-10 visible-768"><img src="images/page_023/img_005.png" className="" alt="" /></div>
+              <div className="position-absolute top-100 start-100 translate-middle zindex-1 mtp--150 msp-10 "><img src="images/page_023/img_005.png" className="" alt="" /></div>
                 <div className="d-flex mbp-20 mtp-10 w-100">
                   <div className="p-2 min-hp-100 w-100 border-style-solid border-4 rounded-p-20 border-color-grieg bgc-lizt">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="pep-20 psp-5 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
                     <div className="position-absolute top-0 start-50 translate-middle wp-120 bgc-rain psp-5 pep-5 ptp-5 pbp-5 rounded-ts-be-10  mtp-5">
                       <div className="f-Ubuntu-L color-black fsp-16">¿Qué pienso?</div>
                     </div>
@@ -108,11 +108,11 @@ function Page023(props) {
                 </div>
               </div>
               <div className="col-md-12 col-lg-12 position-relative ">
-              <div className="position-absolute top-50 start-0 translate-middle zindex-1 msp--10 visible-768"><img src="images/page_023/img_006.png" className="" alt="" /></div>
+              <div className="position-absolute top-50 start-0 translate-middle zindex-1 msp--10 "><img src="images/page_023/img_006.png" className="" alt="" /></div>
                 <div className="d-flex mbp-20 mtp-10 w-100 mtp-20">
                   <div className="p-2 min-hp-100 w-100 border-style-solid border-4 rounded-p-20 border-color-grieg bgc-bobafett">
                     {/* <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-center">Registro con mi grupo una conclusión general a partir de todas las entrevistas.</div> */}
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-280" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="psp-30 pep-5 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-280" />
                     <div className="position-absolute top-0 start-50 translate-middle wp-160 bgc-calypso7 psp-5 pep-5 ptp-5 pbp-5 rounded-ts-be-10 mtp-15">
                       <div className="f-Ubuntu-L color-black fsp-16">¿Qué me pregunto?</div>
                     </div>

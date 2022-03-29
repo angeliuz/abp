@@ -14,11 +14,11 @@ function Page037(props) {
 
   return (
     <div className="wrapper bgc-light">
-      <div className="d-flex flex-column align-items-center pbp-20">
+      <div className="d-flex flex-column align-items-center">
         <div className={"dosier-e" + etapa + " page bgc-white overflow-hidden position-relative"} id={"page_" + pagina}>
-          {/* <img src={"images/cabecera/dosier_e" + etapa + ".svg"} className="w-100" alt="" /> */}
+          <img src={"images/cabecera/dosier_e" + etapa + ".svg"} className="w-100" alt="" />
 
-          <div className="position-relative w-100">
+          <div className="position-relative w-100 mtp-30">
             <div className="row psp-80 pep-70 ptp-10 pbp-50 ">
               <div className="f-Ubuntu-R text-start msp-40 fsp-18 psp-30 pbp-10">
                 Esta página fue completada por:

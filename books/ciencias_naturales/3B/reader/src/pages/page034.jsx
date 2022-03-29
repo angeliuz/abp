@@ -112,12 +112,12 @@ function Page034(props) {
                         <div className="row w-100 p-0 m-0">
 
                             <div className="col-sm-12 col-md-12 position-relative d-flex justify-content-end ">
-                                <img src={"images/page_" + pagina + "/personaje.png"} className="wp-250" alt="" />
+                                <img src={"images/page_" + pagina + "/personaje.png"} className="wp-270" alt="" />
                             </div>
                         </div>
                     </div>
 
-                    <div className={"border-top-style-solid " + borderColor + " border-2 pbp-100 position-relative ptp-20 " + bgc_cajas}>
+                    <div className={"border-top-style-solid " + borderColor + " border-2 pbp-100 position-relative ptp-40 " + bgc_cajas}>
 
                         <div className="global-margin mbp-50 psp-0 pep-0 ptp-10 pbp-10  f-Ubuntu-L fsp-13 rounded-p-10 ">
                             <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-0">
