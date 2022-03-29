@@ -59,7 +59,7 @@ function Page036(props) {
                         <div className="position-absolute top-0 start-100 translate-middle   msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60 mtp-0" alt="" /></div>
                         <div className="position-absolute top-50 start-0 translate-middle  msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-15 mtp-0" alt="" /></div>
 
-                        <div className="f-Ubuntu-R fsp-16 lh-sm ptp-15 pbp-0 psp-15 pep-15 hp-60  text-center d-flex align-items-center">
+                        <div className="ptp-30 f-Ubuntu-R fsp-16 lh-sm ptp-15 pbp-0 psp-15 pep-15 hp-60  text-center align-items-center">
                           ¿Qué cambió entre una respuesta y otra?
                         </div>
                         <div className="psp-20 pep-20 ptp-0 pbp-5 m-0  w-100 bgc-bang">
@@ -75,7 +75,7 @@ function Page036(props) {
                           <div className="position-absolute top-0 start-100 translate-middle  msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-70 msp-0 mtp-0" alt="" /></div>
                           <div className="position-absolute top-100 start-0 translate-middle   msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-50 msp-0 mtp-0" alt="" /></div>
 
-                          <div className="f-Ubuntu-R fsp-16 lh-sm ptp-15 pbp-0 psp-15 pep-15 hp-60  text-center d-flex align-items-center">
+                          <div className="f-Ubuntu-R fsp-16 lh-sm ptp-15 pbp-0 psp-15 pep-15 hp-60  text-center ptp-30 align-items-center">
                             ¿Qué evidencias obtenidas en la investigación  causaron dichos cambios?
                           </div>
                           <div className="psp-20 pep-20 ptp-0 pbp-5 m-0  w-100 bgc-azuka">

@@ -66,7 +66,7 @@ function Page008(props) {
                       Ella se dedica a
                     </div>
                     <div className="psp-15 pep-15">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
                     </div>
                   </div>
                 </div>

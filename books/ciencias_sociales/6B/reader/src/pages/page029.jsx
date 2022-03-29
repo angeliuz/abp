@@ -121,7 +121,7 @@ function Page029(props) {
 
                                             <div className="align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
 
-                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 psp-10 pep-5 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
 
                                             </div>
 
@@ -142,7 +142,7 @@ function Page029(props) {
 
                                             <div className="align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
 
-                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 psp-10 pep-5 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
 
                                             </div>
 
@@ -164,7 +164,7 @@ function Page029(props) {
 
                                             <div className="align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
 
-                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 psp-10 pep-5 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
 
                                             </div>
 
