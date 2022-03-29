@@ -39,8 +39,8 @@ function Page049(props) {
                                     <div className="position-absolute top-50 start-0 translate-middle h-100 ptp-10 pbp-10"><div className="espiral wp-30 h-100"></div></div>
                                     <div className="f-Ubuntu-L fsp-14 text-start">
                                         <span className="text-start">Querido cuarto básico:<br /></span>
-                                        <span className="text-start mtp-5">La convivencia no solo es una tarea de cada uno, también es un compromiso colectivo. Para llevarlo a cabo, debemos conversar entre todos acerca de la convivencia escolar y sus desafíos.<br /></span>
-                                        <span className="text-start mtp-5">Los invitamos a prepararse junto a sus equipos de trabajar para realizar una jornada de diálogo. Se llamará “Conversamos sobre nuestra convivencia”. Es importante que todos participen. Así conoceremos las reflexiones de cada uno sobre este tema.<br /></span>
+                                        <span className="text-center mtp-5">La convivencia no solo es una tarea de cada uno, también es un compromiso colectivo. Para llevarlo a cabo, debemos conversar entre todos acerca de la convivencia escolar y sus desafíos.<br /></span>
+                                        <span className="text-center mtp-5">Los invitamos a prepararse junto a sus equipos de trabajar para realizar una jornada de diálogo. Se llamará “Conversamos sobre nuestra convivencia”. Es importante que todos participen. Así conoceremos las reflexiones de cada uno sobre este tema.<br /></span>
                                         <span className="text-center mtp-5">¡Prepara junto a tu equipo esta jornada de diálogo!</span>
                                     </div>
                                 </div>

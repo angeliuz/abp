@@ -28,7 +28,7 @@ function Page040(props) {
 
               <div className="row d-flex mbp-70 w-100 mx-auto position-relative">
                 <div className="col-sm-12 col-md-6 mbp-10 position-relative">
-                  <div className="text-start w-100 bgc-white rounded-p-10 t-shadow ">
+                  <div className="text-start mxw-100 bgc-white rounded-p-10 t-shadow ">
                     <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp--5 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-30" alt="" /></div>
                     <div className="position-absolute top-0 start-100 translate-middle msp--20 mtp-15 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-30" alt="" /></div>
                     <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--5 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-60" alt="" /></div>
@@ -36,7 +36,7 @@ function Page040(props) {
                       Lo que más nos gustó de esta etapa fue:
                     </div>
                     <div className="psp-15 pep-15">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-400" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 mxw-100 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-400" />
                     </div>
                   </div>
                 </div>

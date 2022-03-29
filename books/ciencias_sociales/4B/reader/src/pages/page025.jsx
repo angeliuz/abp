@@ -81,7 +81,7 @@ function Page025(props) {
               <div className="position-absolute top-0 start-100 translate-middle  mtp-0 visible-768"><img src={"images/page_" + pagina + "/img_002.png"} className=" " alt="" />
                 </div>
 
-                <div className="d-flex flex-column psp-20 pep-20 ptp-0 pbp-10  border-style-solid border-3 border-color-goku w-100 rounded-p-20">
+                <div className="d-flex flex-column psp-20 pep-20 ptp-0 pbp-10  border-style-solid border-3 border-color-android18 w-100 rounded-p-20">
 
 
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-500" />
@@ -136,7 +136,7 @@ function Page025(props) {
 
           <div className="d-flex msp-120 mep-120 mbp-100 mtp-0">
 
-            <div className="row m-0 psp-10 pep-10  pbp-0 bgc-makoto border-style-solid border-1 border-color-dark w-100  ">
+            <div className="row m-0 psp-10 pep-10  pbp-0 bgc-azuka border-style-solid border-1 border-color-dark w-100  ">
 
               <div className="col-md-12 col-lg-12 position-relative ">
               <div className="position-absolute top-0 start-100 translate-middle msp--30 mtp--120 visible-768"><img src={"images/page_" + pagina + "/img_003.png"} className=" " alt="" />

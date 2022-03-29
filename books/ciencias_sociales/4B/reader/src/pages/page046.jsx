@@ -38,7 +38,7 @@ function Page046(props) {
                                 <div className="position-absolute top-0 start-0 translate-middle"><img src="images/page_046/mono.png" className="hp-80 msp-100 mtp--70" alt="" /></div>
                                 <div className="position-absolute top-100 start-0 translate-middle zindex-2"><img src="images/page_046/espiral.svg" className="hp-35 msp-80 mtp-0" alt="" /></div>
                                 <div className="position-absolute top-100 start-100 translate-middle zindex-2"><img src="images/page_046/espiral.svg" className="hp-35 mep-80 mtp-0" alt="" /></div>
-                                <div className="rounded-p-10 bgc-white border-style-solid border-color-bulma border-2">
+                                <div className="rounded-p-15 bgc-white border-style-solid border-color-bulma border-2">
                                     <div className="f-Ubuntu-B fsp-14 p-1 bgc-bulma rounded-set-10 text-white lh-sm min-hp-45 d-flex align-items-center justify-content-center">Lo que pienso</div>
                                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150 mep-10 msp-10" />
                                 </div>
@@ -46,14 +46,14 @@ function Page046(props) {
                             <div className="col-12 p-1 m-0 position-relative">
                                 <div className="position-absolute top-100 start-0 translate-middle zindex-2"><img src="images/page_046/espiral.svg" className="hp-35 msp-80 mtp-0" alt="" /></div>
                                 <div className="position-absolute top-100 start-100 translate-middle zindex-2"><img src="images/page_046/espiral.svg" className="hp-35 mep-80 mtp-0" alt="" /></div>
-                                <div className="rounded-p-10 bgc-white border-style-solid border-color-android18 border-2">
+                                <div className="rounded-p-15 bgc-white border-style-solid border-color-android18 border-2">
                                     <div className="f-Ubuntu-B fsp-14 p-1 bgc-android18 rounded-set-10 text-white lh-sm min-hp-45 d-flex align-items-center justify-content-center">¿Qué piensa mi compañero?</div>
                                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150 mep-10 msp-10" />
                                 </div>
                             </div>
                             <div className="col-12 p-1 m-0 position-relative">
                                 <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_046/mono1.jpg" className="hp-150 mep-15 mtp-70" alt="" /></div>
-                                <div className="rounded-p-10 bgc-white border-style-solid border-color-ken border-2">
+                                <div className="rounded-p-15 bgc-white border-style-solid border-color-ken border-2">
                                     <div className="f-Ubuntu-B fsp-14 p-1 bgc-ken rounded-set-10 text-white lh-sm min-hp-45 d-flex align-items-center justify-content-center">¿Qué compartiremos con los demás?</div>
                                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150 mep-10 msp-10" />
                                 </div>

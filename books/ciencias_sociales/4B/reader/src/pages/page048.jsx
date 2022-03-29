@@ -63,7 +63,7 @@ function Page048(props) {
                 {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/generales/ticket.svg" className="hp-17 mtp--3 msp-5 mep-5" alt=""/>el recuadro que mejor me represente.</span> */}
                 <div className="w-100 p-0 pb-3 position-relative">
                   <div className="position-absolute top-0 start-0 msp-10 mtp--30 f-pixilate-bold fsp-18 lh-sm text-start">¿Cómo me siento?</div>
-                  <div className="position-absolute top-0 start-0 msp-10 mtp-0 f-Ubuntu-M fsp-12 lh-sm text-start">Marco la alternativa que más me representa.</div>
+                  <div className="position-absolute top-0 start-0 msp-10 mtp-0 f-Ubuntu-L fsp-14 lh-sm text-start">Marco la alternativa que más me representa.</div>
                   <table className="w-100">
                     <tbody>
                       <tr>
@@ -82,7 +82,7 @@ function Page048(props) {
                         </td>
                       </tr>
                       <tr>
-                        <td className={"bgc-white rounded-ts-10 f-Ubuntu-L fsp-13 lh-sm text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-1 " + borderColorTabla}>
+                        <td className={"bgc-white rounded-ts-10 f-Ubuntu-L fsp-14 lh-sm text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-1 " + borderColorTabla}>
                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 ">
                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                             Me siento tenso y nervioso cuando trabajo con mi equipo.
@@ -118,7 +118,7 @@ function Page048(props) {
                         </td>
                       </tr>
                       <tr>
-                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-13 lh-sm text-start p-0 m-0 border-style-solid border-bottom-hidden border-left-hidden border-right-hidden border-1 " + borderColorTabla}>
+                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-14 lh-sm text-start p-0 m-0 border-style-solid border-bottom-hidden border-left-hidden border-right-hidden border-1 " + borderColorTabla}>
                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10">
                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                             Me asusta no hacer bien el trabajo y recibir críticas.

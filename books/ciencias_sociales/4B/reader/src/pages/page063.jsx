@@ -62,7 +62,7 @@ function Page063(props) {
                 <div className="row ">
                   <div className="col-6 m-0 p-0">
                     <div className="bgc-wagner w-100 hp-70 rounded-ts-10 ptp-15 ">
-                      <div className="f-Ubuntu-R fsp-15 color-dark text-start p-2 ">Las tareas que realizamos en esta etapa fueron:</div>
+                      <div className="f-Ubuntu-R fsp-16 color-dark text-start p-2 ">Las tareas que realizamos en esta etapa fueron:</div>
 
                     </div>
                     <div className="bgc-wagner w-100  p-3 "><div className=" rounded-p-10 p-0 bgc-white ">
@@ -95,7 +95,7 @@ function Page063(props) {
 
                   <div className="col-6 m-0 p-0">
                     <div className="bgc-milena w-100 hp-70 rounded-te-10 ptp-15 ">
-                      <div className="f-Ubuntu-R fsp-15 color-dark text-start p-2  ">Los responsables de cada una de estas tareas fueron:</div>
+                      <div className="f-Ubuntu-R fsp-16 color-dark text-start p-2  ">Los responsables de cada una de estas tareas fueron:</div>
 
                     </div>
                     <div className="bgc-milena w-100  p-3 "><div className="psp-10  rounded-p-10 p-0 bgc-white  position-relative">

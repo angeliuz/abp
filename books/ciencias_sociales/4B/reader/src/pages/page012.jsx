@@ -36,7 +36,7 @@ function Page012(props) {
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
                                                     IDENTIFICAR &nbsp;
                                                 </span>
-                                                lo <br />que sé del tema y lo que<br /> necesito saber..
+                                                lo <br />que sé del tema y lo que<br /> necesito saber.
                                             </span>
                                         </div>
                                     </div>

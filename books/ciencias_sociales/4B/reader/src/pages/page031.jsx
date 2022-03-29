@@ -105,7 +105,7 @@ function Page031(props) {
                             <div className="col-12 col-md-4 p-0 position-relative">
                                 {/* <div className="position-absolute top-0 start-100 translate-middle "><img src="images/page_029/img_002.png" className=" mtp--40 msp-30 z-index-1" alt="" /></div> */}
                                 <div className="w-100 p-2 m-0 position-relative">
-                                    <div className="rounded-tbe-20 p-3 border-style-solid border-4 border-color-jade">
+                                    <div className="rounded-tbe-20 p-3 border-style-solid border-4 border-color-bach">
                                         <div className="f-Ubuntu-R fsp-16 text-start w-100">Tipos de preguntas
                                             realizadas en la entrevista:</div>
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />

@@ -52,16 +52,16 @@ function Page059(props) {
 
                   <div className="row bgc-white w-100 f-Ubuntu-R fsp-16  color-white rounded-p-10 border-style-solid border-2 border-color-yamcha">
                     <div className="col ptp-20">
-                      <div className="d-flex w-100 p-2 rounded-p-20 ">
+                      <div className="d-flex w-100 p-2 rounded-p-20 text-start">
                         <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
-                        <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">La persona que realice las ilustraciones debe ser alguien a quien le guste dibujar y pintar.</div>
+                        <div className="justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark">La persona que realice las <b>ilustraciones</b> debe ser alguien a quien le guste dibujar y pintar.</div>
                       </div>
                       <div className="d-flex w-100 p-2 ">
                         <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
                         <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">Debe retratar a los entrevistados y dibujar la portada.</div>
                       </div>
                       <div className="d-flex align-items-center w-100 p-2 ">
-                        <div className="justify-content-start align-items-center w-40 hp-60 psp-10 p-2 bgc-haendel rounded-tbs-10 text-start f-Ubuntu-R color-dark lh-sm "> La persona encargada de las ilustraciones será:</div>
+                        <div className="d-flex justify-content-start align-items-center w-40 hp-60 psp-10 p-2 bgc-sargento rounded-tbs-10 text-start f-Ubuntu-R color-dark lh-sm"> La persona encargada de las ilustraciones será:</div>
                         <div className="w-60 psp-5 text-start color-dark rounded-p-10 border-style-solid border-2 border-color-yamcha ">
                           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                         </div>
@@ -82,7 +82,7 @@ function Page059(props) {
                     <div className="col ptp-20">
                       <div className="d-flex w-100 p-2 rounded-p-20 ">
                         <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
-                        <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark">La persona encargada de los  textos debe escribir bien y saber transmitir información en pocas palabras.</div>
+                        <div className="justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark">La persona encargada de los <b>textos</b> debe escribir bien y saber transmitir información en pocas palabras.</div>
                       </div>
                       <div className="d-flex w-100 p-2 ">
                         <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
@@ -109,7 +109,7 @@ function Page059(props) {
                     <div className="col ptp-20">
                       <div className="d-flex w-100 p-2 rounded-p-20 ">
                         <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
-                        <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">La persona encargada del diseño debe distribuir los espacios, colores y formas del álbum.</div>
+                        <div className="justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">La persona encargada del <b>diseño</b> debe distribuir los espacios, colores y formas del álbum.</div>
                       </div>
                       <div className="d-flex w-100 p-2 ">
                         <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
@@ -135,15 +135,15 @@ function Page059(props) {
                     <div className="col ptp-20">
                       <div className="d-flex w-100 p-2 rounded-p-20 ">
                         <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
-                        <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">La persona encargada de la edición debe revisar y procurar un justo equilibrio entre las partes del álbum.</div>
+                        <div className="justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">La persona encargada de la <b>edición</b> debe revisar y procurar un justo equilibrio entre las partes del álbum.</div>
                       </div>
                       <div className="d-flex w-100 p-2 ">
                         <div className="wp-5 hp-5 bgc-dark  rounded-p-50 mtp-10"> </div>
                         <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">Debe ser capaz de presentar y explicar el álbum a otros.</div>
                       </div>
                       <div className="d-flex align-items-center w-100 p-2 ">
-                        <div className=" justify-content-start align-items-center w-40 hp-60 psp-10 p-2 bgc-brahms rounded-tbs-10 text-start f-Ubuntu-R color-dark lh-sm "> La persona encargada de la edición será:</div>
-                        <div className="w-60 psp-5 text-start color-dark rounded-p-10 border-style-solid border-2 border-color-brahms ">
+                        <div className=" justify-content-start align-items-center w-40 hp-60 psp-10 p-2 bgc-sonic rounded-tbs-10 text-start f-Ubuntu-R color-dark lh-sm "> La persona encargada de la edición será:</div>
+                        <div className="w-60 psp-5 text-start color-dark rounded-p-10 border-style-solid border-2 border-color-sonic ">
                           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                         </div>
                       </div>
