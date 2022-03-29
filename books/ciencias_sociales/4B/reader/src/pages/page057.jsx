@@ -55,9 +55,9 @@ function Page057(props) {
                             {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_057/i_g.svg" alt="" /> */}
                             <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>1</div>
                             <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Leo los componentes de nuestro álbum. Luego, marco con <img src="images/page_057/ticket.svg" className="hp-20 psp-5 pep-5 mtp--5" alt="" /> un los
-componentes que ya tengo. </div>
-<ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"84"} image={"images/page_" + pagina + "/img_002.svg"} clasesImagen="hp-40 text-center mtp-10" className="p-0 px-0" />
-                 </div>
+                                componentes que ya tengo. </div>
+                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"84"} image={"images/page_" + pagina + "/img_002.svg"} clasesImagen="hp-40 text-center mtp-10" className="p-0 px-0" />
+                        </div>
                     </div>
 
 
@@ -70,37 +70,37 @@ componentes que ya tengo. </div>
                             <div className="col-sm-12   position-relative">
                                 <div className="d-flex w-100 p-2">
                                     <div className=" ">
-                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Portada e introducción del álbum.</div>
                                 </div>
                                 <div className="d-flex w-100 p-2">
                                     <div className="">
-                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Afiche de los derechos y la buena convivencia.</div>
                                 </div>
                                 <div className="d-flex w-100 p-2">
                                     <div className="">
-                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Fichas con información de las entrevistas.</div>
                                 </div>
                                 <div className="d-flex w-100 p-2">
                                     <div className="">
-                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Documento con los desafíos para la convivencia y sus propuestas.</div>
                                 </div>
                                 <div className="d-flex w-100 p-2">
                                     <div className="">
-                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Sección acordada por el grupo para incluir en el álbum.</div>
                                 </div>
                                 <div className="d-flex w-100 p-2">
                                     <div className="">
-                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Materiales para la creación del álbum.</div>
                                 </div>
