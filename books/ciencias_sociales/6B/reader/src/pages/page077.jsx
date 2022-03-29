@@ -10,7 +10,7 @@ function Page077(props) {
   const etapa = "6";
   const background = "bgc-pikachu";
   const color = "color-pikachu";
-  const borderColor = "border-color-pikachu";
+  const borderColor = "border-color-obiwan";
   const borderColorTabla = "border-color-kokomi";
   const bgc_cajas = "bgc-kokomi";
 
