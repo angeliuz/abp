@@ -43,30 +43,30 @@ function Page024(props) {
                   </div>
 
                   <div className="w-100 rounded-p-10 border-style-solid border-1 border-color-dark bgc-urien text-start psp-10 pep-10 ptp-10 pbp-10 mtp-20 mbp-20">
-                    <div className="f-Ubuntu-L fsp-15 ">
+                    <div className="f-Ubuntu-R fsp-15 ">
                       <ul>
                         <li className="color-android18">
-                          <span className="color-dark">
+                          <span className="color-hardDark">
                             Nombre de la institución.
                           </span>
                         </li>
                         <li className="color-android18">
-                          <span className="color-dark">
+                          <span className="color-hardDark">
                             Logo de la institución (si corresponde).
                           </span>
                         </li>
                         <li className="color-android18">
-                          <span className="color-dark">
+                          <span className="color-hardDark">
                             Misión u objetivos de la institución.
                           </span>
                         </li>
                         <li className="color-android18">
-                          <span className="color-dark">
+                          <span className="color-hardDark">
                             Algunas labores que cumple.
                           </span>
                         </li>
                         <li className="color-android18">
-                          <span className="color-dark">
+                          <span className="color-hardDark">
                             Otra información que consideren relevante.
                           </span>
                         </li>
@@ -132,7 +132,7 @@ function Page024(props) {
         
 
           {/* BEGIN TABLA */}
-          <div className="global-margin mbp-50 psp-0 pep-0 ptp-10 pbp-10  f-Ubuntu-L fsp-13 rounded-p-10 ">
+          <div className="global-margin mbp-10 psp-0 pep-0 ptp-10 pbp-10  f-Ubuntu-L fsp-13 rounded-p-10 ">
                         <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-0">
                             {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/generales/ticket.svg" className="hp-17 mtp--3 msp-5 mep-5" alt=""/>el recuadro que mejor me represente.</span> */}
                             <div className="w-100 p-0 pb-3 position-relative">
@@ -155,8 +155,8 @@ function Page024(props) {
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td className={"bgc-white rounded-ts-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
-                                              <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 fsp-13">
+                                            <td className={"bgc-white rounded-ts-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
+                                              <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 fsp-14">
                                               <img src={"images/generales/flecha_e"+etapa+".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                                               Me gusta investigar sobre el tema del proyecto.
                                               </div> 
@@ -230,7 +230,7 @@ function Page024(props) {
                                         </tr> */}
                                         <tr>
                                             <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-bottom-hidden border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
-                                              <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 fsp-13">
+                                              <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 fsp-14">
                                                 <img src={"images/generales/flecha_e"+etapa+".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                                                 Tengo ganas de encontrar soluciones al desafío planteado.
                                               </div>

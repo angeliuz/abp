@@ -10,7 +10,7 @@ function Page008(props) {
   var indexInput = 0;
   const etapa = "1"
   const background = "bgc-goten";
-  const color = "color-bulma";
+  const color = "color-goten";
   const borderColor = "border-color-goten"
   const bgc_cajas = "bgc-genos";
 
@@ -22,9 +22,6 @@ function Page008(props) {
           {/* Cabecera*/}
 
             <div className="ptp-30 container-titulo-global mbp-40">
-                <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>
-                Tiempo de degradación de los desechos
-                </div>
                 <div className="d-flex">
                     {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_002.svg"} alt=""  /> */}
                     <div className={"f-ccdigitaldelivery-bold fsp-35 "+color}>

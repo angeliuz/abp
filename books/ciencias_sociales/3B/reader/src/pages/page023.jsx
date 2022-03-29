@@ -31,12 +31,6 @@ function Page023(props) {
             </div>
           </div>
 
-          <div className="ptp-5 psp-60 ">
-            <div className="f-Ubuntu-R fsp-16  text-start">
-              Reflexiono sobre la diversidad.
-            </div>
-          </div>
-
           <div className="ptp-10 container-titulo-global mbp-0">
             <div className="d-flex">
               <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">
@@ -45,7 +39,7 @@ function Page023(props) {
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                 Leo la revista y comprendo.
               </div>
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"68"} image={"images/page_" + pagina + "/img_005.svg"} clasesImagen="hp-40 text-center mtp-10" className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"67"} image={"images/page_" + pagina + "/img_002.svg"} clasesImagen="hp-40 text-center mtp-10" className="p-0 px-0" />
             </div>
           </div>
 

@@ -39,47 +39,40 @@ function Page050(props) {
 
 
           <div className="d-flex psp-60 pep-60 mbp-20">
-            <div className="row w-100 p-0 m-0">
-              <div className="col-12 p-0 m-0 position-relative">
-                <div className="position-absolute top-0 start-100 translate-middle zindex-1 msp--40 mtp-0"><img src={"images/page_" + pagina + "/clip.png"} className="wp-30" alt="" /></div>
-                <div className="d-flex flex-column bgc-pantro psp-20 pep-20 ptp-10 pbp-10 box-shadow-simple">
-
-                  <div className="d-flex align-items-center  justify-content-between pbp-10 mt-3 w-100">
-                    <div className="f-pixilate-bold msp-10 fsp-20 lh-sm pep-5 text-start">Considero:</div>
-                  </div>
-                  <div className="d-flex align-items-center pbp-10 w-100">
-                    <div className="d-inline hp-30 "><img src="images/page_050/img_003.svg" className="hp-20  " alt=""></img></div>
-                    <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Decoración.</div>
-                  </div>
-                  <div className="d-flex align-items-center pbp-10 w-100">
-                    <div className="d-inline hp-30 "><img src="images/page_050/img_003.svg" className="hp-20  " alt=""></img></div>
-                    <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Trabajos realizados a lo largo del proyecto.</div>
-                  </div>
-                  <div className="d-flex align-items-center pbp-10 w-100">
-                    <div className="d-inline hp-30 "><img src="images/page_050/img_003.svg" className="hp-20  " alt=""></img></div>
-                    <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Elementos que utilizaremos como soporte (mesas, sillas, toldo, etc.)</div>
-                  </div>
-                  <div className="d-flex align-items-center pbp-10 w-100">
-                    <div className="d-inline hp-30 "><img src="images/page_050/img_003.svg" className="hp-20  " alt=""></img></div>
-                    <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Otros: como sistema de audio, luces, telas, etc.</div>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-
-          <div className="d-flex psp-60 pep-60 mbp-20">
-            <div className="row w-100 p-0 m-0">
-              <div className="col-12 p-0 m-0 position-relative">
+            <div className="row w-100 position-relative">
+              <div className="col-12 px-0 m-0 position-relative ptp-20">
                 <div className="position-absolute top-100 start-0 translate-middle zindex-1 msp-0 mtp-0"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
                 <div className="d-flex border-style-solid border-2 border-color-dark rounded-p-10 min-hp-500">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-35 min-hp-500" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-35 hp-800" />
                 </div>
               </div>
+              <div className="position-absolute top-0 start-100 msp--280 mtp--20">
+                <div className="wp-300 position-relative">
+                  <div className="position-absolute top-0 start-100 translate-middle zindex-1 msp--40 mtp-0"><img src={"images/page_" + pagina + "/clip.png"} className="wp-30" alt="" /></div>
+                  <div className="d-flex flex-column bgc-pantro psp-20 pep-20 ptp-10 pbp-10 box-shadow-simple">
 
+                    <div className="d-flex align-items-center  justify-content-between pbp-10 mt-3 w-100">
+                      <div className="f-pixilate-bold msp-10 fsp-20 lh-sm pep-5 text-start">Considero:</div>
+                    </div>
+                    <div className="d-flex align-items-center pbp-10 w-100">
+                      <div className="d-inline hp-30 "><img src="images/page_050/img_003.svg" className="hp-20  " alt=""></img></div>
+                      <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Decoración.</div>
+                    </div>
+                    <div className="d-flex align-items-center pbp-10 w-100">
+                      <div className="d-inline hp-30 "><img src="images/page_050/img_003.svg" className="hp-20  " alt=""></img></div>
+                      <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Trabajos realizados a lo largo del proyecto.</div>
+                    </div>
+                    <div className="d-flex align-items-center pbp-10 w-100">
+                      <div className="d-inline hp-30 "><img src="images/page_050/img_003.svg" className="hp-20  " alt=""></img></div>
+                      <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Elementos que utilizaremos como soporte (mesas, sillas, toldo, etc.)</div>
+                    </div>
+                    <div className="d-flex align-items-center pbp-10 w-100">
+                      <div className="d-inline hp-30 "><img src="images/page_050/img_003.svg" className="hp-20  " alt=""></img></div>
+                      <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Otros: como sistema de audio, luces, telas, etc.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
           </div>

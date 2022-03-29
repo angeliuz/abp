@@ -192,13 +192,13 @@ function Page018(props) {
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td className={"bgc-white rounded-ts-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
+                                        <td className={"bgc-white rounded-ts-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
                                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 ">
                                           <img src={"images/generales/flecha_e"+etapa+".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                                           Nos implicamos en la realización de la tarea y nos responsabilizamos del trabajo que tenemos que hacer.
                                           </div> 
                                         </td>
-                                        <td className={"bgc-white f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
+                                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
                                           <div className="d-flex center-center">
                                             <div className="wp-30 hp-30 bgc-white rounded-1">
                                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
@@ -230,34 +230,34 @@ function Page018(props) {
 
                                     </tr>
                                     <tr>
-                                        <td className={"f-Ubuntu-L fsp-12 text-start p-0 m-0 "}>
+                                        <td className={"f-Ubuntu-L fsp-14 text-start p-0 m-0 "}>
                                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 bgc-white ">
                                             <img src={"images/generales/flecha_e"+etapa+".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                                             Ante una petición de apoyo de alguien del grupo, intentamos ayudar antes de preguntarle al profesor.
                                           </div> 
                                         </td>
-                                        <td className={"bgc-white f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
+                                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
                                           <div className="d-flex center-center">
                                             <div className="wp-30 hp-30 bgc-white rounded-1">
                                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                             </div>
                                           </div>
                                         </td>
-                                        <td className={"bgc-white f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
+                                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
                                           <div className="d-flex center-center">
                                             <div className="wp-30 hp-30 bgc-white rounded-1">
                                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                             </div>
                                           </div>
                                         </td>
-                                        <td className={"bgc-white f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
+                                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
                                           <div className="d-flex center-center">
                                             <div className="wp-30 hp-30 bgc-white rounded-1">
                                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                             </div>
                                           </div>
                                         </td>
-                                        <td className={"bgc-white f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
+                                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
                                           <div className="d-flex center-center">
                                             <div className="wp-30 hp-30  bgc-white rounded-1">
                                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
@@ -266,34 +266,34 @@ function Page018(props) {
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
+                                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
                                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 bgc-white ">
                                             <img src={"images/generales/flecha_e"+etapa+".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                                             Respetamos el turno de la palabra.
                                           </div> 
                                         </td>
-                                        <td className={"bgc-white f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
+                                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
                                           <div className="d-flex center-center">
                                             <div className="wp-30 hp-30 bgc-white rounded-1">
                                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                             </div>
                                           </div>
                                         </td>
-                                        <td className={"bgc-white f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
+                                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
                                           <div className="d-flex center-center">
                                             <div className="wp-30 hp-30 bgc-white rounded-1">
                                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                             </div>
                                           </div>
                                         </td>
-                                        <td className={"bgc-white f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
+                                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
                                           <div className="d-flex center-center">
                                             <div className="wp-30 hp-30 rounded-1">
                                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                             </div>
                                           </div>
                                         </td>
-                                        <td className={"bgc-white f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
+                                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
                                           <div className="d-flex center-center">
                                             <div className="wp-30 hp-30  rounded-1">
                                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
@@ -302,34 +302,34 @@ function Page018(props) {
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-bottom-hidden border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
+                                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-bottom-hidden border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
                                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10">
                                             <img src={"images/generales/flecha_e"+etapa+".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                                             Llegamos a acuerdos y decisiones compartidas después de que cada uno da su opinión.
                                           </div>
                                         </td>
-                                        <td className={"bgc-white f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-bottom-hidden border-2 "+borderColorTabla}>
+                                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-bottom-hidden border-2 "+borderColorTabla}>
                                           <div className="d-flex center-center">
                                             <div className="wp-30 hp-30 bgc-white rounded-1">
                                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                             </div>
                                           </div>
                                         </td>
-                                        <td className={"bgc-white f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-bottom-hidden border-2 "+borderColorTabla}>
+                                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-bottom-hidden border-2 "+borderColorTabla}>
                                           <div className="d-flex center-center">
                                             <div className="wp-30 hp-30 bgc-white rounded-1">
                                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                             </div>
                                           </div>
                                         </td>
-                                        <td className={"bgc-white f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-bottom-hidden border-2 "+borderColorTabla}>
+                                        <td className={"bgc-white f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-bottom-hidden border-2 "+borderColorTabla}>
                                           <div className="d-flex center-center">
                                             <div className="wp-30 hp-30 bgc-white rounded-1">
                                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                             </div>
                                           </div>
                                         </td>
-                                        <td className={"bgc-white rounded-be-10   f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-bottom-hidden border-right-hidden border-2 "+borderColorTabla}>
+                                        <td className={"bgc-white rounded-be-10   f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-bottom-hidden border-right-hidden border-2 "+borderColorTabla}>
                                           <div className="d-flex center-center">
                                             <div className="wp-30 hp-30 bgc-white rounded-1">
                                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>

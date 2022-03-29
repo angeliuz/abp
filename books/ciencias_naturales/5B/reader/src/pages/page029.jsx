@@ -191,13 +191,13 @@ function Page029(props) {
                   />
                 </div>
                 <div className="text-center w-100 h-100 border-2 border-style-solid border-color-akuma rounded-p-10  position-relative">
-                  <div className="position-absolute top-50 start-100 translate-middle  msp-20 mtp-0 visible-768 zindex-1">
+                  {/* <div className="position-absolute top-50 start-100 translate-middle  msp-20 mtp-0 visible-768 zindex-1">
                     <img
                       src={"images/page_" + pagina + "/img_004.png"}
                       className="wp-30"
                       alt=""
                     />
-                  </div>
+                  </div> */}
                   <div className="position-absolute posicion-centro-centro translate-middle zindex-1   ">
                     <img
                       src={"images/page_" + pagina + "/img_003.svg"}

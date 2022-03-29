@@ -55,18 +55,18 @@ function Page010(props) {
             <div className="pbp-90">
               <div className="cb-block-bottom-p10 mtp-30 f-pixilate-bold text-start">¿Cómo vamos?</div>
               <div className=" cb-block-bottom-p10 d-flex flex-column mbp-20 mtp-10 w-100">
-                <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                  <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
+                <div className="p-2 min-hp-80 border-style-solid border-2 rounded-p-10 border-color-white bgc-white position-relative">
+                  <div className="f-Ubuntu-L w-80 fsp-15 msp-0 mep-10 text-start">
                     <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 wp-15" alt="" />
                     <span>Una fortaleza de nuestro equipo podría ser...</span>
                   </div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
-                  <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 mtp-20 text-start">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 w-80  text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
+                  <div className="w-80  f-Ubuntu-L fsp-15 msp-0 mep-10 mtp-20 text-start">
                     <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 wp-15" alt="" />
                     <span>¿Qué desafíos enfrentamos como equipo en este proyecto?</span>
                   </div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
-
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-80 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
+                  <div className="position-absolute top-50 start-100 translate-middle msp--60 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-90" alt="" /></div>
                 </div>
 
               </div>
