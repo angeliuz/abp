@@ -4,7 +4,7 @@ import "./page_005.css";
 function Page005(props) {
   const pagina = "005";
   var indexInput = 0;
-
+  const bgc_cajas = "bgc-boros";
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-10">
