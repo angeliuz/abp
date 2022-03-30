@@ -34,7 +34,7 @@ function Page006(props) {
                                         <div className="d-flex">
                                             <span className="fsp-16 f-IntroRustG-Base text-start">
                                                 COMPRENDER
-                                                <span className="fsp-16 text-start f-pixilate-regular">
+                                                <span className="fsp-16 text-start f-Ubuntu-R">
                                                     <br /> el desafío que nos plantean.
                                                 </span>
                                             </span>
@@ -53,7 +53,10 @@ function Page006(props) {
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
                                                     COMPROMETERME
                                                 </span>
-                                                <br /> con el desafío.
+
+                                                <span className="fsp-16 text-start f-Ubuntu-R">
+                                                    <br /> con el desafío.
+                                                </span>
                                             </span>
                                         </div>
                                     </div>

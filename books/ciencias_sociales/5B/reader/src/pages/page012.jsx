@@ -35,8 +35,9 @@ function Page012(props) {
                                         <span className="fsp-16 text-start f-pixilate-regular">
                                             <span className="fsp-16 f-IntroRustG-Base text-start"> 
                                             IDENTIFICAR
-                                            </span> 
-                                            <br /> qué sé acerca del desafío. 
+                                            </span> <span className="fsp-16 text-start f-Ubuntu-R">
+                                                      qué sé <br /> acerca del desafío.
+                                                </span>
                                         </span>
                                     </div>  
                                 </div>
@@ -46,12 +47,14 @@ function Page012(props) {
                             <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
                                 <div className={"d-flex "+bgc_cajas+" psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e"+etapa}> 
                                     <div className="d-flex wp-23"> 
-                                        <img src={"images/generales/flecha_e"+etapa+".svg"} className="mbp-25 mep-5 wp-20" alt=""/>
+                                        <img src={"images/generales/flecha_e"+etapa+".svg"} className="mbp-40 mep-5 wp-20" alt=""/>
                                     </div> 
                                     <div className="d-flex"> 
                                         <span className="fsp-16 text-start f-pixilate-regular">
                                             <span className="fsp-16 f-IntroRustG-Base text-start">
-                                                IDENTIFICAR</span>  que necesito <br />saber para afrontar el desafío.
+                                                IDENTIFICAR</span>  <span className="fsp-16 text-start f-Ubuntu-R">
+                                                      qué <br /> necesito saber para <br/> afrontar el desafío.
+                                                </span>
                                             </span>
                                     </div> 
                                 </div>
@@ -61,12 +64,14 @@ function Page012(props) {
                             <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
                                 <div className={"d-flex "+bgc_cajas+" psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e"+etapa}> 
                                     <div className="d-flex"> 
-                                        <img src={"images/generales/flecha_e"+etapa+".svg"} className="mbp-25 mep-5 wp-20" alt=""/>
+                                        <img src={"images/generales/flecha_e"+etapa+".svg"} className="mbp-40 mep-5 wp-20" alt=""/>
                                     </div> 
                                     <div className="d-flex"> 
                                         <span className="fsp-16 text-start f-pixilate-regular">
                                             <span className="fsp-16 f-IntroRustG-Base text-start">
-                                            ASIGNAR</span> los roles <br /> para realizar el trabajo en equipo.
+                                            ASIGNAR</span> <span className="fsp-16 text-start f-Ubuntu-R">
+                                                      los roles <br /> para realizar el<br/>trabajo en equipo.
+                                                </span>
                                         </span>
                                     </div> 
                                 </div>
@@ -81,7 +86,9 @@ function Page012(props) {
                                     <div className="d-flex"> 
                                         <span className="fsp-16 text-start f-pixilate-regular">
                                             <span className="fsp-16 f-IntroRustG-Base text-start">
-                                            ELABORAR</span> un plan para <br />superar el desafio.
+                                            ELABORAR</span> <span className="fsp-16 text-start f-Ubuntu-R">
+                                                      un plan <br />para superar el desafío.
+                                                </span>
                                             </span>
                                     </div> 
                                 </div>
