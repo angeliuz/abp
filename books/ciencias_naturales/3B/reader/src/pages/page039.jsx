@@ -78,7 +78,7 @@ function Page039(props) {
                     </div>
                   </div>
                 </div>
-                <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/ojo.png"} className="wp-60" alt="" /></div>
+                <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp--30 zindex-1"><img src={"images/page_" + pagina + "/ojo.png"} className="wp-80" alt="" /></div>
               </div>
             </div>
           </div>

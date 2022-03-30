@@ -36,13 +36,13 @@ function Page043(props) {
                     <div className="d-flex global-margin mtp-20 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
                         <div className="row p-0 m-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative">
-                                <div className="position-absolute top-100 start-100 translate-middle msp--30 mtp--50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/profe.png"} className="wp-60" alt="" /></div>
-                                <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+                                <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/profe.png"} className="wp-60" alt="" /></div>
+                                <div className="d-flex  mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
                                     <div className="row p-0 m-0 w-100">
                                         <div className="col-12 p-0 m-0 position-relative ">
                                             <div className="border-style-solid border-2 border-color-pidgey rounded-p-10">
                                                 <div className="d-flex flex-column bgc-white rounded-p-10 f-Ubuntu-R fsp-15 text-start">
-                                                    <div className="psp-10 pep-10 ptp-10">
+                                                    <div className="psp-10 pep-20 ptp-10">
                                                         Nuestra tarea fue...
                                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-150" />
                                                     </div>
@@ -57,8 +57,8 @@ function Page043(props) {
                     <div className="d-flex global-margin mtp-20 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
                         <div className="row p-0 m-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative">
-                                <div className="position-absolute top-100 start-0 translate-middle msp-30 mtp--30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/buzon.png"} className="wp-40" alt="" /></div>
-                                <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+                                <div className="position-absolute top-100 start-0 translate-middle msp--10 mtp--30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/buzon.png"} className="wp-40" alt="" /></div>
+                                <div className="d-flex  mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
                                     <div className="row p-0 m-0 w-100">
                                         <div className="col-12 p-0 m-0 position-relative ">
                                             <div className="border-style-solid border-2 border-color-pidgey rounded-p-10">
@@ -78,9 +78,9 @@ function Page043(props) {
                     <div className="d-flex global-margin mtp-20 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
                         <div className="row p-0 m-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative">
-                                <div className="position-absolute top-100 start-0 translate-middle msp-50 mtp-40 visible-768 zindex-1"><img src={"images/page_" + pagina + "/bicicleta.png"} className="wp-100" alt="" /></div>
-                                <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp-40 visible-768 zindex-1"><img src={"images/page_" + pagina + "/tablet.png"} className="wp-80" alt="" /></div>
-                                <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+                                <div className="position-absolute top-100 start-0 translate-middle msp-50 mtp-40 visible-768 zindex-1"><img src={"images/page_" + pagina + "/bicicleta.png"} className="wp-120" alt="" /></div>
+                                <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/tablet.png"} className="wp-80" alt="" /></div>
+                                <div className="d-flex mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
                                     <div className="row p-0 m-0 w-100">
                                         <div className="col-12 p-0 m-0 position-relative ">
                                             <div className="border-style-solid border-2 border-color-pidgey rounded-p-10">
