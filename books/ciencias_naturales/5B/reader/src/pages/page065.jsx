@@ -94,7 +94,8 @@ function Page065(props) {
 
 
           <div className="d-flex global-margin mtp-0 mbp-0 psp-40 pep-0 ptp-0 pbp-0">
-            <div className="row p-0 m-0 w-100">
+            <div className="row p-0 m-0 w-100 position-relative">
+              <div className="position-absolute top-100 start-100 translate-middle msp-20 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-50" alt="" /></div>
               <div className="col-6 p-0 col-md-6 p-1 w-90">
                 <div className="w-100 border-style-solid  border-1 border-color-dark rounded-p-10  psp-10 pep-10 ptp-10">
                   <div className="d-flex  p-0 m-0  ">
