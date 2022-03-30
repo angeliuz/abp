@@ -45,7 +45,8 @@ function Page064(props) {
 
           <div className="d-flex mtp-40 msp-90 mep-60 position-relative">
 
-            <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-40 visible-768 imagen-64-sobre-papel zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
+            <div className="position-absolute top-0 start-100 translate-middle msp--50 mtp-0 visible-768 imagen-64-sobre-papel zindex-1"><img src={"images/page_" + pagina + "/clip.png"} className="wp-30" alt="" /></div>
+            <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-80 visible-768 imagen-64-sobre-papel zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
             <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--70 visible-768 imagen-64-sobre-papel zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-90" alt="" /></div>
             {/* <div className="position-absolute top-0 start-0 translate-middle msp-0 mtp--40 visible-768 imagen1-64-sobre-papel zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div> */}
             <div className="row w-100">

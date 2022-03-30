@@ -153,7 +153,7 @@ function Page051(props) {
           <div className="positon-relative mbp-120 ">
             <div className="bgc-azuka rounded-p-10 mtp-0 msp-60 mep-60 mbp-10 ptp-5 pbp-10 psp-0   f-Ubuntu-R fw-700  position-relative">
               <div className="d-flex mbp-0 psp-0 pep-0 position-relative p-1">
-                <div className="position-absolute top-0 start-0 translate-middle visible-768 msp-80 mtp--0 "><img src="images/page_051/img_005.png" className="wp-30 " alt="" /></div>
+                <div className="position-absolute top-0 start-100 translate-middle visible-768 msp-10 mtp-0 "><img src="images/page_051/mono.png" className="wp-100 " alt="" /></div>
                 <div className="row h-100 w-100 m-0 p-0 ">
                   <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
                     <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 border-style-solid border-2 border-color-android18 bgc-white color-android18">
