@@ -65,13 +65,13 @@ function Page027(props) {
 
           <div className="row container-row px-5">
             <div className="col-12 justify-content-center mtp-10 mbp-70 psp-80 pep-80  position-relative">
-              <div className="position-absolute top-50 start-0 translate-middle msp-40 mtp-25 visible-768">
+              {/* <div className="position-absolute top-50 start-0 translate-middle msp-40 mtp-25 visible-768">
                 <img
                   src="images/page_027/img_001.png"
                   className="wp-40 "
                   alt=""
                 />
-              </div>
+              </div> */}
 
               <div className="mx-4 p-2 rounded-p-10 bgc-bobafett">
                 <div className="mx-3">

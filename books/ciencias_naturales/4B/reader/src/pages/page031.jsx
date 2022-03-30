@@ -86,13 +86,13 @@ function Page031(props) {
             <div className="row w-100 p-0 m-0">
 
               <div className="col-md-4 position-relative justify-content-center align-items-center">
-                <div className="position-absolute  translate-middle msp-3 mtp-0 zindex-1">
+                {/* <div className="position-absolute  translate-middle msp-3 mtp-0 zindex-1">
                   <img
                     src="images/page_070/img_002.png"
                     className="wp-60 giro90-res"
                     alt=""
                   />
-                </div>
+                </div> */}
                 <div className="position-absolute flecha-p31 translate-middle msp-3 mtp-15 zindex-1 mtp-10">
                   <img src="images/page_031/flecha_01.png" className="wp-30 giro90-res" alt="" />
                 </div>
