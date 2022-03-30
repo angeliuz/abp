@@ -73,7 +73,7 @@ function Page054(props) {
                         <div className="d-flex flex-column bgc-white">
                           <div className="psp-10 pep-10 ptp-10 text-start">
                             Porque...
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-200" />
+                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-200 max-wp-300" />
                           </div>
                         </div>
                       </div>

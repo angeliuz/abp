@@ -53,7 +53,7 @@ function Page060(props) {
                                             <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-0 zindex-1">
                                                 <div className="wp-25 hp-25 d-flex center-center color-white f-Ubuntu-B rounded-p-5 bgc-leono">1</div>
                                             </div>
-                                            <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0 bgc-white rounded-p-10">
+                                            <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0 bgc-white rounded-p-10 mtp-10">
                                                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-300" />
                                             </div>
                                         </div>
@@ -63,7 +63,7 @@ function Page060(props) {
                                             <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-0 zindex-1">
                                                 <div className="wp-25 hp-25 d-flex center-center color-white f-Ubuntu-B rounded-p-5 bgc-leono">2</div>
                                             </div>
-                                            <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0 bgc-white rounded-p-10">
+                                            <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0 bgc-white rounded-p-10 mtp-10">
                                                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-300" />
                                             </div>
                                         </div>
@@ -73,7 +73,7 @@ function Page060(props) {
                                             <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-0 zindex-1">
                                                 <div className="wp-25 hp-25 d-flex center-center color-white f-Ubuntu-B rounded-p-5 bgc-leono">3</div>
                                             </div>
-                                            <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0 bgc-white rounded-p-10">
+                                            <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0 bgc-white rounded-p-10 mtp-10">
                                                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-300" />
                                             </div>
                                         </div>
