@@ -157,7 +157,8 @@ function Page075(props) {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-sm-12 p-0 m-0">
+              <div className="col-md-6 col-sm-12 p-0 m-0 position-relative">
+                <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="hp-90 " alt="" /></div>
                 <div class="text-start bgc-kokomi p-3 f-Ubuntu-L fsp-13 border-color-garou ">
                   <p>¿Cómo me he sentido aprendiendo?</p>
                   <div className="psp-15 pep-15">
