@@ -43,12 +43,12 @@ function Page052(props) {
                     <div className="col-12 f-Ubuntu-L fsp-14 lh-sm text-start ptp-20 msp-20">Al probar el prototipo el resultado…</div>
 
                     <div className="col-4 d-flex p-2">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">fue el esperado.</div>
                     </div>
 
                     <div className="col-6 d-flex  p-2">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-15 psp-5">no fue el esperado.</div>
                     </div>
 
@@ -57,7 +57,7 @@ function Page052(props) {
                   <div className="position-absolute top-0 start-50 translate-middle h-100 ptp-10 pbp-10 "><div className="espiral-calado wp-30 h-100 rotate-90"></div></div>
 
                   <div className="col-12 m-0 p-0  ">
-                  <div className="position-absolute top-0 start-100 translate-middle zindex-1 mtp-90 "><img src="images/page_052/img_001.png" className="wp-80 " alt="" /></div>
+                    <div className="position-absolute top-0 start-100 translate-middle zindex-1 mtp-90 "><img src="images/page_052/img_001.png" className="wp-80 " alt="" /></div>
                     <div className=" w-100  f-Ubuntu-L fsp-16 ptp-5  psp-10 pep-10 text-start mbp-10">
                       <div className="m-0 p-0  "> Porque…</div>
 
@@ -113,7 +113,7 @@ function Page052(props) {
                 </div>
               </div>
               <div className="col-7 position-relative">
-              <div className="position-absolute top-0 start-100 translate-middle zindex-1 msp--40 mtp-20"><img src="images/page_052/pincho.svg" className="wp-30 " alt="" /></div>
+                <div className="position-absolute top-0 start-100 translate-middle zindex-1 msp--40 mtp-20"><img src="images/page_052/pincho.svg" className="wp-30 " alt="" /></div>
                 <div className="d-flex mbp-20 mtp-10 w-100">
                   <div className="p-2 min-hp-210 w-100 border-style-solid border-2  border-color-dark ">
                     <div className="f-Ubuntu-L fsp-16 msp-10 mep-10 text-center">Lo que más me costó realizar fue…</div>
@@ -130,7 +130,7 @@ function Page052(props) {
 
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>ABP &copy; SM</div>
-            <div className="bgc-goku wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+            <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
           </div>
 
           <div className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
