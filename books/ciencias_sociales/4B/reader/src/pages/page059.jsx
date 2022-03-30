@@ -142,7 +142,7 @@ function Page059(props) {
                         <div className="d-flex justify-content-start align-items-center psp-5 text-start f-Ubuntu-R color-dark   ">Debe ser capaz de presentar y explicar el álbum a otros.</div>
                       </div>
                       <div className="d-flex align-items-center w-100 p-2 ">
-                        <div className=" justify-content-start align-items-center w-40 hp-60 psp-10 p-2 bgc-sonic rounded-tbs-10 text-start f-Ubuntu-R color-dark lh-sm "> La persona encargada de la edición será:</div>
+                        <div className=" d-flex justify-content-start align-items-center w-40 hp-60 psp-10 p-2 bgc-sonic rounded-tbs-10 text-start f-Ubuntu-R color-dark lh-sm "> La persona encargada de la edición será:</div>
                         <div className="w-60 psp-5 text-start color-dark rounded-p-10 border-style-solid border-2 border-color-sonic ">
                           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                         </div>

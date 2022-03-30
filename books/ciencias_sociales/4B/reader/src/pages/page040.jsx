@@ -23,12 +23,13 @@ function Page040(props) {
 
           <div className="d-flex msp-60 mep-60 mtp-80 mbp-10">
             <div className="row p-0 m-0">
-              <div className="col-12 col-md-3 position-relative"> </div>
               {/* BEGIN EJERCICIO 1 */}
 
-              <div className="row d-flex mbp-70 w-100 mx-auto position-relative">
-                <div className="col-sm-12 col-md-6 mbp-10 position-relative">
-                  <div className="text-start mxw-100 bgc-white rounded-p-10 t-shadow ">
+              <div className="row d-flex mbp-70 position-relative">
+                <div className="col-6 mbp-10 position-relative">
+                  
+                  <div className="text-start bgc-white rounded-p-10 t-shadow ">
+
                     <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp--5 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-30" alt="" /></div>
                     <div className="position-absolute top-0 start-100 translate-middle msp--20 mtp-15 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-30" alt="" /></div>
                     <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--5 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-60" alt="" /></div>
@@ -36,12 +37,12 @@ function Page040(props) {
                       Lo que más nos gustó de esta etapa fue:
                     </div>
                     <div className="psp-15 pep-15">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 mxw-100 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-400" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-400" />
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-md-6 position-relative">
-                  <div className="text-start w-100 bgc-white rounded-p-10 border-3 border-style-solid border-color-wagner">
+                <div className="col-6 position-relative">
+                  <div className="text-start bgc-white rounded-p-10 border-3 border-style-solid border-color-wagner">
                     <div className="position-absolute top-0 start-0 translate-middle msp-50 mtp--15 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_004.svg"} className="wp-10" alt="" /></div>
                     <div className="position-absolute top-0 start-100 translate-middle msp--50 mtp--15 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_004.svg"} className="wp-10" alt="" /></div>
                     <div className="position-absolute top-0 start-50 translate-middle msp-30 mtp-20 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-30" alt="" /></div>
