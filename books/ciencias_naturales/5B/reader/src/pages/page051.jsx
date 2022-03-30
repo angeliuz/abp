@@ -89,13 +89,14 @@ function Page051(props) {
                   <div className="bgc-white sombra-2 p-3 giro-3deg ">
                     <div className="row pbp-20 psp-40 position-relative">
                       <div className="col-12">
-                      <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-80" alt="" /></div>
-                        </div>
-                    
+                        <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-80" alt="" /></div>
+                        <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-50 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-80" alt="" /></div>
+                      </div>
+
                       <div className="ptp-10 pbp-10 psp-20">
                         <div className="d-flex">
                           <div className="">
-                          <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           </div>
                           <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                             Tiene un título.
@@ -105,7 +106,7 @@ function Page051(props) {
                       <div className="ptp-10 pbp-10 psp-20">
                         <div className="d-flex">
                           <div className="">
-                          <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           </div>
                           <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                             Señala los objetivos.
@@ -115,7 +116,7 @@ function Page051(props) {
                       <div className="ptp-10 pbp-10 psp-20">
                         <div className="d-flex">
                           <div className="">
-                          <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           </div>
                           <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                             El lenguaje es sencillo y fácil de comprender.
@@ -125,7 +126,7 @@ function Page051(props) {
                       <div className="ptp-10 pbp-10 psp-20">
                         <div className="d-flex">
                           <div className="">
-                          <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           </div>
                           <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                             La información es clara y aparece ordenada.
@@ -135,7 +136,7 @@ function Page051(props) {
                       <div className="ptp-10 pbp-10 psp-20">
                         <div className="d-flex">
                           <div className="">
-                          <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           </div>
                           <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
 
@@ -146,7 +147,7 @@ function Page051(props) {
                       <div className="ptp-10 pbp-10 psp-20">
                         <div className="d-flex">
                           <div className="">
-                          <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           </div>
                           <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                             Recoge las ideas más importantes de las sesiones anteriores.
@@ -156,7 +157,7 @@ function Page051(props) {
                       <div className="ptp-10 pbp-10 psp-20">
                         <div className="d-flex">
                           <div className="">
-                          <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           </div>
                           <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                             Contiene una sección explicativa que detalla la variedad de nutrientes de las alternativas de alimentación.
@@ -166,7 +167,7 @@ function Page051(props) {
                       <div className="ptp-10 pbp-10 psp-20">
                         <div className="d-flex">
                           <div className="">
-                          <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           </div>
                           <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                             Contiene un sección que analiza los resultados obtenidos en la consulta pública.
@@ -176,7 +177,7 @@ function Page051(props) {
                       <div className="ptp-10 pbp-10 psp-20">
                         <div className="d-flex">
                           <div className="">
-                          <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           </div>
                           <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                             Contiene un apartado con recomendaciones de una alimentación saludable.
@@ -186,7 +187,7 @@ function Page051(props) {
                       <div className="ptp-10 pbp-10 psp-20">
                         <div className="d-flex">
                           <div className="">
-                          <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           </div>
                           <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                             Señala consejos relacionados con los beneficios de mantener una alimentación saludable.
@@ -196,14 +197,14 @@ function Page051(props) {
                       <div className="ptp-10 pbp-10 psp-20">
                         <div className="d-flex">
                           <div className="">
-                          <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           </div>
                           <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                             Contiene una sección que justifique por qué la propuesta se considera un ejemplo alimentación saludable.
                           </div>
                         </div>
                       </div>
-                      
+
                       <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-80" alt="" /></div>
                     </div>
                   </div>

@@ -32,7 +32,7 @@ function Page012(props) {
                                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-20 mep-5 wp-20 mtp--20" alt="" />
                                         </div>
                                         <div className="d-flex">
-                                            <span className="fsp-16 text-start f-pixilate-regular">
+                                            <span className="fsp-16 text-start f-Ubuntu-R">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">REFLEXIONAR</span> sobre<br />lo que sé de las<br />energías renovables.
                                             </span>
                                         </div>
@@ -46,7 +46,7 @@ function Page012(props) {
                                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-25 mep-5 wp-20 mtp--20" alt="" />
                                         </div>
                                         <div className="d-flex">
-                                            <span className="fsp-16 text-start f-pixilate-regular">
+                                            <span className="fsp-16 text-start f-Ubuntu-R">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
                                                     DESCUBRIR</span> lo que<br /> necesito saber para<br />conseguir el desafío.
                                             </span>
@@ -61,7 +61,7 @@ function Page012(props) {
                                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-25 mep-5 wp-20 mtp--35" alt="" />
                                         </div>
                                         <div className="d-flex">
-                                            <span className="fsp-16 text-start f-pixilate-regular">
+                                            <span className="fsp-16 text-start f-Ubuntu-R">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
                                                     ELABORAR</span> un plan de<br />trabajo para crear<br />un aparato o sistema<br />tecnológico.
                                             </span>
