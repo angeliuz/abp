@@ -91,7 +91,7 @@ function Page023(props) {
               </div>
               <div className="d-flex">
                 <div className="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">Asunto:</div>
-                <div className="cb-datos-1 psp-10 f-Ubuntu-R fsp-16">Propuesta para una alimentación saludable para el colegio</div>
+                <div className="cb-datos-1 psp-10 f-Ubuntu-R fsp-16">La nutrición es muy importante</div>
               </div>
             </div>
             <div className="cb-texto-mail">
