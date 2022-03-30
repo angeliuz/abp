@@ -121,6 +121,7 @@ function Page031(props) {
                                         </div>
                                     </div>
                                     <div className="col-6 position-absolute top-0 start-100 translate-middle msp--170 mtp-20 ">
+                                    <div className="position-absolute top-0 start-100 translate-middle  msp--15 mtp-20 zindex-1"><img src={"images/page_" + pagina + "/clip.svg"} className="wp-30" alt="" /></div>
                                         <div className="rotate-5">
                                             <div className="bgc-makoto w-100 border-style-solid border-1 p-2 box-shadow-simple">
                                                 <div className="f-Ubuntu-L fsp-16 text-center">El derecho que inspirará nuestra obra es:</div>
