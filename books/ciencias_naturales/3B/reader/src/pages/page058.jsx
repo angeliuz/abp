@@ -32,7 +32,7 @@ function Page058(props) {
                                 <div className="border-style-solid border-2 border-color-bach rounded-p-10">
                                     <div className="d-flex flex-column bgc-blanka rounded-p-10">
                                         <div className="bgc-white w-100 f-Ubuntu-L text-center fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5">
-                                            Hemos recibido un mensaje de nuestro amigo reciclador el que nos dice que...
+                                        ¿Qué recomendaciones nos entrega?
                                         </div>
                                         <div className="psp-10 pep-10">
                                             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-160" />
