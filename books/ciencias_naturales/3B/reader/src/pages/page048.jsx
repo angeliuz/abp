@@ -111,7 +111,7 @@ function Page048(props) {
                       <div className="border-style-solid border-2 border-color-dark rounded-p-10">
                         <div className="d-flex flex-column bgc-white rounded-p-10">
                           <div className="psp-10 pep-10">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-300" />
+                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1   lhp-35 min-hp-300" />
                           </div>
                         </div>
                       </div>

@@ -101,8 +101,8 @@ function Page057(props) {
                                 <div className="row ptp-10 pbp-10 rounded-seb-10">
 
                                     <div className="col-sm-12 col-md-4 p-0 m-0 position-relative">
-                                    <div className="position-absolute top-100 start-100 translate-middle msp--60 zindex-1 visible-768"><img src={"images/page_" + pagina + "/img_005.png"} className="" alt="" /></div>
-                                    <div className="position-absolute top-50 start-0 translate-middle mtp--20 zindex-1 "><img src={"images/page_" + pagina + "/img_003.png"} className="" alt="" /></div>
+                                        <div className="position-absolute top-100 start-100 translate-middle msp--60 zindex-1 visible-768"><img src={"images/page_" + pagina + "/img_005.png"} className="" alt="" /></div>
+                                        <div className="position-absolute top-50 start-0 translate-middle mtp--20 zindex-1 "><img src={"images/page_" + pagina + "/img_003.png"} className="" alt="" /></div>
                                         <div className="d-flex center-center h-100 msp-5">
 
                                             {/* <div className="d-flex justify-content-center align-items-center"></div> */}
@@ -113,13 +113,13 @@ function Page057(props) {
                                     </div>
 
                                     <div className="col-sm-12 col-md-1 p-0 m-0 position-relative wp-50  d-flex justify-content-center align-items-center  ">
-                                    
+
                                         <div className="d-flex align-items-center "></div>
                                         <img src={"images/page_" + pagina + "/img_004.svg"} className="wp-30 rotar-flecha" alt="" />
                                     </div>
 
                                     <div className="col-sm-12 col-md-7 p-0 m-0 h-100 position-relative ">
-                                    <div className="position-absolute top-0 start-100 translate-middle zindex-1 msp--20"><img src={"images/page_" + pagina + "/img_002.png"} className="" alt="" /></div>
+                                        <div className="position-absolute top-0 start-100 translate-middle zindex-1 msp--20"><img src={"images/page_" + pagina + "/img_002.png"} className="" alt="" /></div>
                                         <div className=" justify-content-end mep-20 msp-20">
                                             <div className="rounded-p-10 border-style-solid border-1 border-color-dark m-1 p-2 bgc-white">
 
@@ -174,7 +174,7 @@ function Page057(props) {
                     <div className="d-flex global-margin mtp-10 mbp-90 psp-60 pep-0 ptp-0 pbp-0">
                         <div className="row p-0 m-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative bgc-white   border-style-solid  border-1 shadow border-color-lightDark  ">
-                            <div className="position-absolute top-100 start-100 translate-middle msp--50 mtp-40 zindex-1 visible-768"><img src={"images/page_" + pagina + "/img_007.png"} className="" alt="" /></div>
+                                <div className="position-absolute top-100 start-100 translate-middle msp--50 mtp-40 zindex-1 visible-768"><img src={"images/page_" + pagina + "/img_007.png"} className="" alt="" /></div>
                                 <div className="position-absolute top-50 start-0 translate-middle    msp-0 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/img_006.svg"} className="wp-20" alt="" /></div>
                                 <div className="psp-25 ptp-10 pep-20">
                                     <div className="f-Ubuntu-L fsp-15 lh-sm text-start  ">
@@ -199,7 +199,7 @@ function Page057(props) {
                         <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
                             ABP &copy; SM
                         </div>
-                        <div className="bgc-misty wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+                        <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
                     </div>
                     <div className="row position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
 

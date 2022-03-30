@@ -69,9 +69,8 @@ function Page073(props) {
                           id={"check" + pagina + "_" + (indexInput += 1)}
                           image="images/generales/ticket.svg"
                         ></Check>
-                        <div className="text-start msp-5 mtp-5 pep-5  bgc-white  rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
-                          Dominio del tema: Todos conocemos <br /> el tema de
-                          nuestro proyecto.
+                        <div className="text-start msp-5 mtp-5 pep-5 bgc-white  rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
+                          <p><b>Dominio del tema:</b> Todos conocemos <br /> el tema de nuestro proyecto.</p>
                         </div>
                       </div>
                       <div className="d-flex justify-content-start mbp-5 psp-15 mtp-10">
@@ -80,9 +79,7 @@ function Page073(props) {
                           image="images/generales/ticket.svg"
                         ></Check>
                         <div className="text-start msp-5 mtp-5 pep-5  bgc-white  rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
-                          Participación: Todos participamos en <br /> la
-                          exposición y todos podemos hablar
-                          <br /> del tema de nuestro proyecto.
+                          <p><b>Participación:</b> Todos participamos en<br />la exposición y todos podemos hablar<br />del tema de nuestro proyecto.</p>
                         </div>
                       </div>
                     </div>
@@ -108,8 +105,7 @@ function Page073(props) {
                           image="images/generales/ticket.svg"
                         ></Check>
                         <div className="text-start msp-5 mtp-5 pep-5  bgc-white  rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
-                          Organización: Nos planificamos para <br /> que la
-                          exposición esté bien ordenada.
+                          <p><b>Organización:</b> Nos planificamos para<br />que la exposición esté bien ordenada.</p>
                         </div>
                       </div>
                       <div className="d-flex justify-content-start mbp-5 psp-15 mtp-10">
@@ -118,8 +114,7 @@ function Page073(props) {
                           image="images/generales/ticket.svg"
                         ></Check>
                         <div className="text-start msp-5 mtp-5 pep-5  bgc-white  rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
-                          Claridad: El objetivo de nuestra <br /> presentación
-                          queda claro.
+                          <p><b>Claridad:</b> El objetivo de nuestra<br />presentación queda claro.</p>
                         </div>
                       </div>
                     </div>
@@ -148,17 +143,7 @@ function Page073(props) {
                           image="images/generales/ticket.svg"
                         ></Check>
                         <div className="text-start msp-5 mtp-5 pep-5  bgc-white  rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
-                          Volumen: Utilizamos un tono de voz adecuado para{" "}
-                          <br /> que nos escuchen.
-                        </div>
-                      </div>
-                      <div className="d-flex justify-content-start align-items-center mbp-5 psp-15">
-                        <Check
-                          id={"check" + pagina + "_" + (indexInput += 1)}
-                          image="images/generales/ticket.svg"
-                        ></Check>
-                        <div className="text-start msp-5 mtp-5 pep-5  bgc-white  rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
-                          Postura: Miramos a la cara a nuestro público.
+                          <p><b>Volumen:</b> Utilizamos un tono de voz adecuado para<br />que nos escuchen.</p>
                         </div>
                       </div>
                       <div className="d-flex justify-content-start mbp-5 psp-15 ptp-5">
@@ -167,8 +152,16 @@ function Page073(props) {
                           image="images/generales/ticket.svg"
                         ></Check>
                         <div className="text-start msp-5 mtp-5 pep-5  bgc-white  rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
-                          Lenguaje no verbal: Utilizamos las manos para darle{" "}
-                          <br /> sentido a nuestro mensaje.
+                          <p><b>Postura:</b> Miramos a la cara a nuestro público.</p>
+                        </div>
+                      </div>
+                      <div className="d-flex justify-content-start mbp-5 psp-15 ptp-5">
+                        <Check
+                          id={"check" + pagina + "_" + (indexInput += 1)}
+                          image="images/generales/ticket.svg"
+                        ></Check>
+                        <div className="text-start msp-5 mtp-5 pep-5  bgc-white  rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
+                          <p><b>Lenguaje no verbal:</b> Utilizamos las manos para darle<br />sentido a nuestro mensaje.</p>
                         </div>
                       </div>
                     </div>

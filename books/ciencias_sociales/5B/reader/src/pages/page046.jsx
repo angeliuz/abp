@@ -36,7 +36,8 @@ function Page046(props) {
                         <span className="fsp-16 f-IntroRustG-Base text-start">
                           Realizar
                         </span>
-                        <br /> las entrevistas.
+                        <br /> <span className="fsp-16 text-start f-Ubuntu-R">
+                              las entrevistas. </span>
                       </span>
                     </div>
                   </div>
@@ -51,7 +52,8 @@ function Page046(props) {
                     <div className="d-flex">
                       <span className="fsp-16 text-start f-pixilate-regular">
                         <span className="fsp-16 f-IntroRustG-Base text-start">
-                          Analizar</span> <br /> las entrevistas.
+                          Analizar</span> <br /> <span className="fsp-16 text-start f-Ubuntu-R">
+                              las entrevistas. </span>
                       </span>
                     </div>
                   </div>
@@ -66,7 +68,8 @@ function Page046(props) {
                     <div className="d-flex">
                       <span className="fsp-16 text-start f-pixilate-regular">
                         <span className="fsp-16 f-IntroRustG-Base text-start">
-                          Transcribir</span> <br /> las entrevistas.
+                          Transcribir</span> <br /> <span className="fsp-16 text-start f-Ubuntu-R">
+                              las entrevistas. </span>
                       </span>
                     </div>
                   </div>
@@ -82,7 +85,8 @@ function Page046(props) {
                     <div className="d-flex">
                       <span className="fsp-16 text-start f-pixilate-regular">
                         <span className="fsp-16 f-IntroRustG-Base text-start">
-                          Valorar</span> <br />el trabajo realizado.
+                          Valorar</span> <br /> <span className="fsp-16 text-start f-Ubuntu-R">
+                              el trabajo realizado. </span>
                       </span>
                     </div>
                   </div>

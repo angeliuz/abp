@@ -27,7 +27,7 @@ function Page061(props) {
               <div className={"psp-50 pep-50 ptp-5 pbp-5 bgc-white rounded-p-10 border-style-solid border-1 " + borderColor + " d-flex justify-content-center position-relative"}>
                 <div className="position-absolute top-50 start-100 translate-middle wp-100 msp-0 mtp--10"><img src={"images/page_" + pagina + "/img_002.png"} className="w-60" alt="" /></div>
                 <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp--10"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 max-wp-550" />
               </div>
             </div>
           </div>
@@ -38,7 +38,7 @@ function Page061(props) {
                 <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-80" alt="" /></div>
                 <div className="border-style-solid border-2 border-color-android18 rounded-p-10">
                   <div className="d-flex flex-column bgc-white rounded-p-10">
-                    <div className="bgc-android18 w-100 f-Ubuntu-B text-center color-white fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5">
+                    <div className="bgc-android18 w-100 f-Ubuntu-B text-center color-white fsp-15 rounded-set-6 psp-10 pep-10 ptp-5 pbp-5">
                       Lo más divertido de este proyecto ha sido...
                     </div>
                     <div className="psp-10 pep-10">
@@ -228,58 +228,58 @@ function Page061(props) {
 
 
           <div className="d-flex global-margin mtp-0 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
-            <div className="row p-0 m-0 w-100 f-Ubuntu-R fsp-13">
+            <div className="row p-0 m-0 w-100 f-Ubuntu-R fsp-16">
               <div className="col-12 p-0 m-0 position-relative">
                 En general, creemos que hemos trabajado en equipo...
               </div>
               <div className="col-3 p-0 m-0 position-relative">
                 <div className="border-style-solid border-2 border-color-white rounded-p-10 mtp-10 msp-10 mep-10">
-                  <div className="d-flex flex-column align-items-center bgc-white rounded-p-10">
+                  <div className="d-flex flex-column align-items-center bgc-white rounded-p-5">
                     <div className="wp-30 hp-30 ptp-5">
                       <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="psp-10 pep-10 ptp-5 pbp-10 f-pixilate-semibold d-flex flex-column">
                       Muy bien
-                      <img src={"images/page_" + pagina + "/img_005.svg"} className="wp-50" alt="" />
+                      <img src={"images/page_" + pagina + "/img_005.svg"} className="wp-70 mtp-10" alt="" />
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col-3 p-0 m-0 position-relative">
                 <div className="border-style-solid border-2 border-color-white rounded-p-10 mtp-10 msp-10 mep-10">
-                  <div className="d-flex flex-column align-items-center bgc-white rounded-p-10">
+                  <div className="d-flex flex-column align-items-center bgc-white rounded-p-5">
                     <div className="wp-30 hp-30 ptp-5">
                       <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="psp-10 pep-10 ptp-5 pbp-10 f-pixilate-semibold d-flex flex-column">
                       Bien
-                      <img src={"images/page_" + pagina + "/img_006.svg"} className="wp-50" alt="" />
+                      <img src={"images/page_" + pagina + "/img_006.svg"} className="wp-70 mtp-10" alt="" />
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col-3 p-0 m-0 position-relative">
                 <div className="border-style-solid border-2 border-color-white rounded-p-10 mtp-10 msp-10 mep-10">
-                  <div className="d-flex flex-column align-items-center bgc-white rounded-p-10">
+                  <div className="d-flex flex-column align-items-center bgc-white rounded-p-5">
                     <div className="wp-30 hp-30 ptp-5">
                       <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="psp-10 pep-10 ptp-5 pbp-10 f-pixilate-semibold d-flex flex-column">
                       Regular
-                      <img src={"images/page_" + pagina + "/img_007.svg"} className="wp-50" alt="" />
+                      <img src={"images/page_" + pagina + "/img_007.svg"} className="wp-70 mtp-10" alt="" />
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col-3 p-0 m-0 position-relative">
                 <div className="border-style-solid border-2 border-color-white rounded-p-10 mtp-10 msp-10 mep-10">
-                  <div className="d-flex flex-column align-items-center bgc-white rounded-p-10">
+                  <div className="d-flex flex-column align-items-center bgc-white rounded-p-5">
                     <div className="wp-30 hp-30 ptp-5">
                       <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="psp-1 pep-1 ptp-5 pbp-10 f-pixilate-semibold d-flex flex-column align-items-center text-center">
                       Tenemos que mejorar
-                      <img src={"images/page_" + pagina + "/img_008.svg"} className="wp-50" alt="" />
+                      <img src={"images/page_" + pagina + "/img_008.svg"} className="wp-70 mtp-10" alt="" />
                     </div>
                   </div>
                 </div>

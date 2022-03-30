@@ -126,8 +126,9 @@ function Page030(props) {
                                 </div>
                             </div>
                             <div className="col-6 position-relative ptp-20">
+                            <div className="position-absolute top-50 start-100 translate-middle msp--25 mtp--50 zindex-2 visible-768"><img src="images/page_030/img_001.png" className="wp-150 " alt="" /></div>
                                 <div className="bgc-jack  px-3 py-2  rounded-p-30">
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea mtp-20 lhp-35 min-hp-200" />
+                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-90 p-0 px-1 text-start flex-grow-1 contenedor-linea mtp-20 lhp-35 min-hp-200" />
                                 </div>
                                 <div className="position-absolute top-0 start-50 translate-middle mtp-20 f-Ubuntu-B wp-160 bgc-pidgey rounded-p-20 zindex-1 d-flex align-items-center justify-content-center color-white p-3">
                                     Imagen

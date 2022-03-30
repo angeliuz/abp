@@ -31,7 +31,7 @@ function Page050(props) {
               <div className="position-absolute top-100 start-0 translate-middle wp-100 msp-40 mtp--70"><img src="images/page_050/carta.png" className="wp-50 mep-70 mtp-30" alt="" /></div>
 
               <div className="box-color-24-1">
-                <div className="f-Ubuntu-B alinea rounded-set-10 bgc-akuma w-100 p-2 text-center color-white">¿En qué se parece a la entrevista<br />que observé en la actividad anterior?</div>
+                <div className="f-Ubuntu-B alinea rounded-set-10 bgc-akuma w-100 p-1 text-center color-white">¿En qué se parece a la entrevista que observé en la actividad anterior?</div>
                 <div className=" bgc-white hp-250 p-2 rounded-seb-20 border-style-solid border-color-akuma border-2">
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
                 </div>
@@ -42,7 +42,7 @@ function Page050(props) {
 
               <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 visible-768"><img src="images/page_050/espiral.svg" className="wp-50 " alt="" /></div>
               <div className="box-color-24-2">
-                <div className="f-Ubuntu-B alinea rounded-set-10 bgc-bulma w-100 p-2 text-center color-white">¿En qué se diferencia de la entrevista<br />que observé en la actividad anterior?</div>
+                <div className="f-Ubuntu-B alinea rounded-set-10 bgc-bulma w-100 p-1 text-center color-white">¿En qué se diferencia de la entrevista que observé en la actividad anterior?</div>
                 <div className=" bgc-white hp-250 p-2 rounded-seb-20 border-style-solid border-color-bulma border-2">
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
                 </div>

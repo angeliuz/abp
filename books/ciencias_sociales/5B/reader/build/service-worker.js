@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/libros_abp/books/ciencias_sociales/5B/reader/build/precache-manifest.b8fb89ed3cfb397f6906094b130e6aa1.js"
+  "/libros_abp/books/ciencias_sociales/5B/reader/build/precache-manifest.3cb1af0cd1f49ee3304483b4ad2bf8fc.js"
 );
 
 workbox.clientsClaim();

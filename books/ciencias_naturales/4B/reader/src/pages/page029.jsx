@@ -52,7 +52,7 @@ function Page029(props) {
 
 
 
-          <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--80 visible-768"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-60" alt="" /></div>
+          {/* <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--80 visible-768"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-60" alt="" /></div> */}
 
           <div className="row container-row m-0 psp-60 pep-60">
             <div className="">

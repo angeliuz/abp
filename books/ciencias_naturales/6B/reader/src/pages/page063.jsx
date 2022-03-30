@@ -77,8 +77,9 @@ function Page063(props) {
 
 
 
-          <div className="d-flex global-margin h-100  mtp-10 mbp-0 psp-30 pep-0 ptp-0 pbp-0">
-            <div className="row p-0 msp-0 w-100">
+          <div className="d-flex global-margin h-100 mtp-10 mbp-0 psp-30 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 msp-0 w-100 position-relative">
+              <div className="position-absolute top-50 start-100 translate-middle msp-0 mbp-0 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-80" alt="" /></div>
               <div className="col-12 p-0 m-0 position-relative">
 
                 <div className="d-flex w-100 p-2">
