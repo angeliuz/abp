@@ -77,8 +77,8 @@ function Page038(props) {
                 </div>
                 <div className="col-sm-12 col-md-6 position-relative">
                   <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp--0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-10" alt="" /></div>
-                  <div className="text-center w-100 border-1 border-style-solid border-color-alf rounded-p-10 mtp-10">
-                    <div className="lhp-15 color-white fw-700 rounded-set-6 hp-50 ptp-5 pbp-5 bgc-alf d-flex justify-content-center align-items-center">
+                  <div className="text-center w-100 border-1 border-style-solid border-color-klaus rounded-p-10 mtp-10">
+                    <div className="lhp-15 color-white fw-700 rounded-set-6 hp-50 ptp-5 pbp-5 bgc-klaus d-flex justify-content-center align-items-center">
                       ¿Por qué la seleccionamos?
                     </div>
                     <div className="psp-15 pep-15">
