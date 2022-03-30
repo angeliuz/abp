@@ -24,7 +24,7 @@ function Page027(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className="cabecera-v2 bgc-android18 d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja wp-160 text-center fsp-24 f-IntroRustG-Base">SESIÓN 6</div>
+              <div className="caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark">SESIÓN 6</div>
               <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Mejorando la huella ecológica</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
@@ -47,7 +47,7 @@ function Page027(props) {
                 <img src="images/page_027/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
-                Señalar cambios para<br /> utilizar responsablemente<br />la energ a en el colegio
+                Señalar cambios para<br /> utilizar responsablemente<br />la energía en el colegio
               </div>
               {/* <div className="p-0 align-self-center">
                 <img src="images/page_025/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />

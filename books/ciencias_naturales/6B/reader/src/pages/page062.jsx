@@ -31,7 +31,7 @@ function Page062(props) {
 
                 <div className="d-flex w-100 p-2">
                   <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-saitama fsp-17  fw-700 pbp-5">b.</div>
-                  <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Consideramos que la propuesta de nuestros compa eros es…</div>
+                  <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Consideramos que la propuesta de nuestros compañeros es…</div>
                 </div>
 
               </div>
