@@ -32,7 +32,7 @@ function Page062(props) {
                 <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-60" alt="" /></div>
                 <div className="border-style-solid border-2 border-color-dark rounded-p-10 mtp-10">
                   <div className="d-flex flex-column bgc-white rounded-p-10">
-                    <div className="bgc-guile w-100 f-Ubuntu-B text-start fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5">
+                    <div className="bgc-trans-rose max-wp-400 f-Ubuntu-B text-start fsp-15 rounded-p-5 psp-10 pep-10  pbp-5 msp--10 mtp--10 ptp-10 psp-15">
                       No podemos olvidar que es importante...
                     </div>
                     <div className="psp-10 pep-10">
@@ -43,10 +43,10 @@ function Page062(props) {
 
               </div>
               <div className="col-6 p-0 m-0 position-relative">
-                <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-40" alt="" /></div>
+                <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp-10  zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-50" alt="" /></div>
                 <div className="border-style-solid border-2 border-color-dark rounded-p-10 mtp-10 mep-10">
                   <div className="d-flex flex-column bgc-white rounded-p-10">
-                    <div className="bgc-pantro w-100 f-Ubuntu-B text-start fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5">
+                    <div className="bgc-trans-blu max-wp-200 f-Ubuntu-B text-start fsp-15 rounded-p-5 psp-10 pep-10 ptp-5pbp-5 msp--10 mtp--10 ptp-10 psp-15">
                       Haríamos igual....
                     </div>
                     <div className="psp-10 pep-10">
@@ -58,10 +58,10 @@ function Page062(props) {
 
               </div>
               <div className="col-6 p-0 m-0 position-relative">
-                <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-40" alt="" /></div>
+                <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-10  zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-50" alt="" /></div>
                 <div className="border-style-solid border-2 border-color-dark rounded-p-10 mtp-10 msp-10">
                   <div className="d-flex flex-column bgc-white rounded-p-10">
-                    <div className="bgc-buzz w-100 f-Ubuntu-B text-start fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5">
+                    <div className="bgc-trans-mayo max-wp-200 f-Ubuntu-B text-start fsp-15 rounded-p-5 psp-10 pep-10 ptp-5 pbp-5 msp--10 mtp--10 ptp-10 psp-15">
                       Modificaríamos....
                     </div>
                     <div className="psp-10 pep-10">
@@ -84,7 +84,7 @@ function Page062(props) {
               {/* <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 X
               </div> */}
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start max-wp-300">
                 Confeccionamos y nos premiamos con la medalla de Héroes del medioambiente.
               </div>
               {/* <img src={"images/page_"+pagina+"/img_00.svg"} className="wp-100" alt=""/> */}
@@ -114,7 +114,7 @@ function Page062(props) {
               <div className="row p-0 m-0 w-100">
                 <div className="col-12 p-0 m-0 position-relative">
 
-                  <img src={"images/page_" + pagina + "/img_005.png"} className="w-100 max-wp-500" alt="" />
+                  <img src={"images/page_" + pagina + "/img_005.png"} className="w-100 max-wp-500 mtp--40 mbp-30" alt="" />
                 </div>
               </div>
             </div>
