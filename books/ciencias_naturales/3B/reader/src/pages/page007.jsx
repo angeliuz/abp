@@ -78,7 +78,7 @@ function Page007(props) {
                   2
                 </div>
                 <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Veo el video, leo la historieta y completo.
+                  Veo el video, leo la historieta y completo.
                 </div>
               </div>
             </div>
