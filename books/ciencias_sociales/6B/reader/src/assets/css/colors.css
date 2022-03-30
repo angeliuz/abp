@@ -158,6 +158,7 @@
   --aister:#edf2d0;
   --jack:#ddf1fd;
   --klaus:#43b7b3;
+  --ogro:#005c9c;
 }
 
 /* COLORES */
@@ -903,7 +904,10 @@
       color: var(--klaus); 
 
     }
+    .color-ogro {
+      color: var(--ogro); 
 
+    }
 
 
 
@@ -1418,7 +1422,9 @@
 .border-color-klaus {
   border-color: var(--klaus) !important;
 }
-
+.border-color-ogro {
+  border-color: var(--ogro) !important;
+}
 /* B
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1911,5 +1917,9 @@
 }
 .bgc-klaus {
   background-color: var(--klaus);
+
+}
+.bgc-ogro {
+  background-color: var(--ogro);
 
 }

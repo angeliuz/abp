@@ -169,7 +169,7 @@ function Page029(props) {
                                             </div>
 
                                         </div>
-                                        <div className=" d-flex position-absolute top-0 start-0 translate-middle mtp-40 wp-30 hp-30 bgc-pikachu border-style-solid border-1 border-color-pikachu  rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M color-white">3
+                                        <div className=" d-flex position-absolute top-0 start-0 translate-middle mtp-40 wp-30 hp-30 bgc-ogro border-style-solid border-1 border-color-ogro  rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M color-white">3
 
                                         </div>
 

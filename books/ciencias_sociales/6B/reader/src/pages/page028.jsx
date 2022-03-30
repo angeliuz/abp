@@ -58,7 +58,7 @@ function Page028(props) {
                         la noticia?
                       </div>
                     </div>
-                    <div className=" d-flex position-absolute top-50 start-0 translate-middle wp-30 hp-30 bgc-alf border-style-solid border-1 border-color-alf bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M color-white">a.
+                    <div className=" d-flex position-absolute top-50 start-0 translate-middle wp-30 hp-30 bgc-klaus border-style-solid border-1 border-color-klaus bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M color-white">a.
 
                     </div>
 
@@ -79,7 +79,7 @@ function Page028(props) {
                         acciones lo hacen?
                       </div>
                     </div>
-                    <div className=" d-flex position-absolute top-50 start-0 translate-middle wp-30 hp-30 bgc-alf border-style-solid border-1 border-color-alf bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M color-white">b.
+                    <div className=" d-flex position-absolute top-50 start-0 translate-middle wp-30 hp-30 bgc-klaus border-style-solid border-1 border-color-klaus bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M color-white">b.
 
                     </div>
 
@@ -136,7 +136,7 @@ function Page028(props) {
                         riesgo los derechos?
                       </div>
                     </div>
-                    <div className=" d-flex position-absolute top-50 start-0 translate-middle wp-30 hp-30 bgc-alf border-style-solid border-1 border-color-alf bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M color-white">c.
+                    <div className=" d-flex position-absolute top-50 start-0 translate-middle wp-30 hp-30 bgc-klaus border-style-solid border-1 border-color-klaus bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M color-white">c.
 
                     </div>
 
@@ -158,7 +158,7 @@ function Page028(props) {
                         personas para remediar la situación?
                       </div>
                     </div>
-                    <div className=" d-flex position-absolute top-50 start-0 translate-middle wp-30 hp-30 bgc-alf border-style-solid border-1 border-color-alf bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M color-white">d.
+                    <div className=" d-flex position-absolute top-50 start-0 translate-middle wp-30 hp-30 bgc-klaus border-style-solid border-1 border-color-klaus bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M color-white">d.
 
                     </div>
 
