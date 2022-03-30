@@ -1,7 +1,7 @@
 {
   "main.css": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/css/main.556e6a18.chunk.css",
-  "main.js": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/js/main.6d2558de.chunk.js",
-  "main.js.map": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/js/main.6d2558de.chunk.js.map",
+  "main.js": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/js/main.380cd453.chunk.js",
+  "main.js.map": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/js/main.380cd453.chunk.js.map",
   "static/js/1.876fcedc.chunk.js": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/js/1.876fcedc.chunk.js",
   "static/js/1.876fcedc.chunk.js.map": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/js/1.876fcedc.chunk.js.map",
   "static/css/2.7169b40e.chunk.css": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/css/2.7169b40e.chunk.css",
@@ -16,11 +16,11 @@
   "static/media/page_010.css": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/media/fondo_001.6bd9571b.svg",
   "static/media/page_013.css": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/media/flequillo.5418285c.svg",
   "static/media/page_032.css": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/media/anillo.7a5e9aca.svg",
-  "static/media/page_034.css": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/media/img_006.55b3e074.jpg",
+  "static/media/page_034.css": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/media/img_008.d1416bdf.jpg",
   "static/media/page_057.css": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/media/fondo_001.0751a048.svg",
   "static/css/main.556e6a18.chunk.css.map": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/css/main.556e6a18.chunk.css.map",
   "static/css/2.7169b40e.chunk.css.map": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/css/2.7169b40e.chunk.css.map",
   "index.html": "/libros_abp/books/ciencias_naturales/6B/reader/build/index.html",
-  "precache-manifest.7714aa4d277366957a523554af0c9f78.js": "/libros_abp/books/ciencias_naturales/6B/reader/build/precache-manifest.7714aa4d277366957a523554af0c9f78.js",
+  "precache-manifest.a58f10f8f2d9a4bd1d582d871faf188c.js": "/libros_abp/books/ciencias_naturales/6B/reader/build/precache-manifest.a58f10f8f2d9a4bd1d582d871faf188c.js",
   "service-worker.js": "/libros_abp/books/ciencias_naturales/6B/reader/build/service-worker.js"
 }
