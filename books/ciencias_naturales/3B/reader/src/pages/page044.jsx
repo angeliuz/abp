@@ -29,7 +29,7 @@ function Page044(props) {
                                 <div className="border-style-solid border-2 border-color-akuma rounded-p-10">
                                     <div className="d-flex flex-column bgc-white rounded-p-10">
                                         <div className="bgc-akuma w-100 f-Ubuntu-B text-center color-white fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5">
-                                            Lo que más nos ha costado hacer en esta etapa fue...
+                                            Lo que más nos ha costado <br /> hacer en esta etapa fue...
                                         </div>
                                         <div className="psp-10 pep-10">
                                             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-300" />
@@ -42,7 +42,7 @@ function Page044(props) {
                                 <div className="border-style-solid border-2 border-color-pidgey rounded-p-10">
                                     <div className="d-flex flex-column bgc-white rounded-p-10">
                                         <div className="bgc-pidgey w-100 f-Ubuntu-B text-center color-white fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5">
-                                            Lo más sencillo de realizar en esta etapa fue...
+                                            Lo más sencillo de realizar <br /> en esta etapa fue...
                                         </div>
                                         <div className="psp-10 pep-10">
                                             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-300" />

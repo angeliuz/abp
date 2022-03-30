@@ -51,6 +51,8 @@ function Page047(props) {
           <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative d-flex center-center hp-380">
+              <div className="position-absolute top-0 start-100 translate-middle msp--120 mtp-10 zindex-10"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-60" alt="" /></div>
+              <div className="position-absolute top-50 start-0 translate-middle msp-80 mtp-10 zindex-10"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-40" alt="" /></div>
                 <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-580" alt="" /></div>
 
                 <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1">
