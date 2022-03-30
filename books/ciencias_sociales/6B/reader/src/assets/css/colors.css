@@ -157,6 +157,7 @@
   --pachelbel:#fff4d4;
   --aister:#edf2d0;
   --jack:#ddf1fd;
+  --klaus:#43b7b3;
 }
 
 /* COLORES */
@@ -898,6 +899,11 @@
       color: var(--jack); 
 
     }
+    .color-klaus {
+      color: var(--klaus); 
+
+    }
+
 
 
 
@@ -1409,7 +1415,9 @@
 .border-color-jack {
   border-color: var(--jack) !important;
 }
-
+.border-color-klaus {
+  border-color: var(--klaus) !important;
+}
 
 /* B
 /* BACKGROUND COLORS */
@@ -1899,5 +1907,9 @@
 }
 .bgc-jack {
   background-color: var(--jack);
+
+}
+.bgc-klaus {
+  background-color: var(--klaus);
 
 }
