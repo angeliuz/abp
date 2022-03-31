@@ -78,7 +78,8 @@ function Page042(props) {
                   </div>
                 </div>
                 <div className="col-12 p-0 m-0 position-relative">
-                <div className="position-absolute top-100 start-0 translate-middle msp--10 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-60" alt="" /></div>
+                <div className="position-absolute top-100 start-100 translate-middle zindex-1 mtp--60 msp--10 visible-768"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-100" alt="" /></div>
+                <div className="position-absolute top-100 start-0 translate-middle msp--10 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-50" alt="" /></div>
                   <div className="d-flex flex-column">
                     <div className="d-flex align-items-start">
                       <div className="mtp-0 pep-5">
@@ -88,7 +89,7 @@ function Page042(props) {
                         Lo que podemos mejorar es:
                       </div>
                     </div>
-                    <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
+                    <div className="d-flex w-95 psp-20 pep-10 ptp-0 pbp-0">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-120" />
                     </div>
                   </div>
