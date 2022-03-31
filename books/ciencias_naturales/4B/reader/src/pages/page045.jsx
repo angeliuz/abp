@@ -95,7 +95,7 @@ function Page045(props) {
                 <div className="bgc-white rounded-p-5 p-2">
                   <div className="bgc-pidgey f-Ubuntu-M fsp-15 text-start text-white wp-90 text-center">Personas</div>
                   <div className="f-Ubuntu-L fsp-15 p-1 text-start mtp-5 min-hp-55">Necesitaré ayuda y colaboración de…</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-185" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-185" />
                 </div>
               </div>
               <div className="col-12 col-md-6 p-1 m-0">
