@@ -23,7 +23,7 @@ function Page037(props) {
                 SESIÓN 8
               </div>
               <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">
-                Qué hacemos con todo lo investigado?
+                ¿Qué hacemos con todo lo investigado?
               </div>
             </div>
 

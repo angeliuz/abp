@@ -24,6 +24,7 @@ function Page042(props) {
           <div className="d-flex global-margin mtp-80 mbp-80 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
+              <div className="position-absolute top-100 start-100 translate-middle zindex-1 mtp-50"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-70" alt="" /></div>
                 <div className="position-absolute top-0 start-100 translate-middle msp-20 mtp-50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-60" alt="" /></div>
                 <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
                 <div className="border-style-solid border-2 border-color-dark rounded-p-10">
@@ -76,7 +77,8 @@ function Page042(props) {
                     </div>
                   </div>
                 </div>
-                <div className="col-12 p-0 m-0">
+                <div className="col-12 p-0 m-0 position-relative">
+                <div className="position-absolute top-100 start-0 translate-middle msp--10 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-60" alt="" /></div>
                   <div className="d-flex flex-column">
                     <div className="d-flex align-items-start">
                       <div className="mtp-0 pep-5">
