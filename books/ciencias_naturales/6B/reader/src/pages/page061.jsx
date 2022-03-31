@@ -20,7 +20,7 @@ function Page061(props) {
                     {/* BEGIN CABECERA VERSIÓN 2 */}
                     <div className={"cabecera-v2 " + background + " d-flex flex-column"}>
                         <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-                            <div className="caja wp-160 text-center  fsp-24 f-IntroRustG-Base">SESIÓN 16</div>
+                            <div className="caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark">SESIÓN 16</div>
                             <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Evaluamos las propuestas</div>
                         </div>
                         <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
@@ -86,11 +86,11 @@ function Page061(props) {
 
 
                     <div className="positon-relative mbp-80 ">
-                        <div className="bgc-draco rounded-p-10 mtp-0 msp-60 mep-60 mbp-10 ptp-5 pbp-10 psp-0   f-Ubuntu-R fw-700  position-relative">
-
-
+                        <div className="bgc-draco rounded-p-10 mtp-0 msp-60 mep-60 mbp-10 ptp-5 pbp-10 psp-0 f-Ubuntu-R fw-700 position-relative">
+                            {/* <div className="position-absolute top-50 start-100 translate-middle visible-768 msp-15 mtp--60 "><img src="images/page_061/img_003.png" className="wp-60 " alt="" /></div> */}
+                            <div className="position-absolute top-50 start-100 translate-middle visible-768 msp-15 mtp--60"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
                             <div className="d-flex mbp-0 psp-0 pep-0 position-relative p-1">
-                                {/* <div className="position-absolute top-50 end-0 translate-middle-y   visible-768 msp-80 mtp--0 "><img src="images/page_061/img_005.png" className="wp-30 " alt="" /></div> */}
+                                {/* <div className="position-absolute top-50 end-0 translate-middle-y visible-768 msp-80 mtp--0 "><img src="images/page_061/img_005.png" className="wp-30 " alt="" /></div> */}
                                 <div className="row h-100 w-100 m-0 p-0 ">
                                     <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
                                         <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 bgc-calypso1 color-white">FUNCIONAMIENTO</div>

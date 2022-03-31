@@ -20,8 +20,8 @@ function Page063(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className={"cabecera-v2 " + background + " d-flex flex-column"}>
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja wp-160 text-center  fsp-24 f-IntroRustG-Base">SESIÓN 17</div>
-              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Evaluamos las propuestas</div>
+              <div className="caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark">SESIÓN 17</div>
+              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">La instalación</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
@@ -77,8 +77,9 @@ function Page063(props) {
 
 
 
-          <div className="d-flex global-margin h-100  mtp-10 mbp-0 psp-30 pep-0 ptp-0 pbp-0">
-            <div className="row p-0 msp-0 w-100">
+          <div className="d-flex global-margin h-100 mtp-10 mbp-0 psp-30 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 msp-0 w-100 position-relative">
+              <div className="position-absolute top-50 start-100 translate-middle msp-0 mbp-0 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-80" alt="" /></div>
               <div className="col-12 p-0 m-0 position-relative">
 
                 <div className="d-flex w-100 p-2">

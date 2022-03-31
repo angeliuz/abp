@@ -52,7 +52,7 @@ function Page058(props) {
                         </div>
                     </div>
                     <div className="d-flex flex-column global-margin mtp-0 mbp-20 psp-0 pep-0 ptp-20 pbp-20 position-relative">
-                        <div className="position-absolute top-100 start-100 translate-middle wp-100 msp--100 mtp--70"><img src={"images/page_" + pagina + "/img_005.png"} className="w-200" alt="" /></div>
+                        <div className="position-absolute top-100 start-100 translate-middle wp-100 msp--100 mtp--70 visible-768"><img src={"images/page_" + pagina + "/img_005.png"} className="w-200" alt="" /></div>
                         <div className="col-10">
                             <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo vamos?</div>
                             <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-30">
@@ -108,7 +108,7 @@ function Page058(props) {
                     {/* BEIGN PIE DE PAGINA */}
                     <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
                         <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>ABP &copy; SM</div>
-                        <div className="bgc-goku wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+                        <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
                     </div>
                     {/* END PIE DE PAGINA */}
                 </div>

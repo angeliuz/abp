@@ -21,13 +21,13 @@ function Page078(props) {
           {/* BEGIN EJERCICIO 1 */}
           <div className="d-flex msp-60 mep-60 mbp-20 mtp-90">
             <div className="row w-100 p-0 m-0">
-              <div className="max-wp-640 f-Ubuntu-L fsp-15 text-center mx-auto mbp-10 ">
+              <div className="max-wp-640 f-Ubuntu-R fsp-15 text-center mx-auto mbp-10 ">
                 Si volviéramos a trabajar juntos en otro proyecto...
               </div>
               <div className="row mx-auto d-flex f-Ubuntu-R fsp-15 mbp-20">
                 <div className="position-relative">
-                  <div className="position-absolute top-0 start-0 translate-middle msp-20 mtp-5 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-40" alt="" /></div>
-                  <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp--5 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
+                  <div className="position-absolute top-0 start-0 translate-middle msp-20 mtp-5 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
+                  <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp--5 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-70" alt="" /></div>
                   <div className="position-absolute top-50 start-50 translate-middle msp--0 mtp-270 visible-768 zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-60" alt="" /></div>
                 </div>
 
@@ -62,7 +62,7 @@ function Page078(props) {
           {/* BEIGN PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>ABP &copy; SM</div>
-            <div className="bgc-goku wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+            <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
           </div>
           {/* END PIE DE PAGINA */}
         </div>

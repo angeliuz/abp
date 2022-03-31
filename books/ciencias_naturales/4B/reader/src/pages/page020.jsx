@@ -117,7 +117,7 @@ function Page020(props) {
                 </div>
                 <div className="position-absolute translate-middle top-50 start-0">
                   <img
-                    src="/images/page_020/img_001.png"
+                    src="images/page_020/img_001.png"
                     className="wp-40-res"
                     alt=""
                   />

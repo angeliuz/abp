@@ -19,7 +19,7 @@ function Page051(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className="cabecera-v2 bgc-pidgey d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base">SESIÓN 12</div>
+              <div className="caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark">SESIÓN 12</div>
               <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Realizamos las entrevistas</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
@@ -64,7 +64,7 @@ function Page051(props) {
               <div className="col-6 ptp-10">Preguntas</div>
               <div className="col-6 ptp-10">Importancia</div>
               <div className="col-6 position-relative">
-                <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--10 mtp-0 zindex-1"><img src="images/page_051/flechablanca.svg" className="wp-50" alt="" /></div>
+                <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--5 mtp-0 zindex-1"><img src="images/page_051/flechablanca.svg" className="wp-50" alt="" /></div>
                 <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div>
                 <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
                   <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
@@ -81,7 +81,7 @@ function Page051(props) {
                 </div>
               </div>
               <div className="col-6 position-relative">
-                <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--10 mtp-0 zindex-1"><img src="images/page_051/flechablanca.svg" className="wp-50" alt="" /></div>
+                <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--5 mtp-0 zindex-1"><img src="images/page_051/flechablanca.svg" className="wp-50" alt="" /></div>
                 <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">2</div>
                 <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
                   <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
@@ -98,7 +98,7 @@ function Page051(props) {
                 </div>
               </div>
               <div className="col-6 position-relative">
-                <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--10 mtp-0 zindex-1"><img src="images/page_051/flechablanca.svg" className="wp-50" alt="" /></div>
+                <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--5 mtp-0 zindex-1"><img src="images/page_051/flechablanca.svg" className="wp-50" alt="" /></div>
                 <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">3</div>
                 <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
                   <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
@@ -115,7 +115,7 @@ function Page051(props) {
                 </div>
               </div>
               <div className="col-6 position-relative">
-                <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--10 mtp-0 zindex-1"><img src="images/page_051/flechablanca.svg" className="wp-50" alt="" /></div>
+                <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--5 mtp-0 zindex-1"><img src="images/page_051/flechablanca.svg" className="wp-50" alt="" /></div>
                 <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">4</div>
                 <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
                   <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">

@@ -33,7 +33,9 @@ function Page022(props) {
                                         </div>
                                         <div>
                                             <span className="fsp-16 text-start f-pixilate-regular">
-                                                <span className="fsp-16 f-IntroRustG-Base text-start">RECONOCER</span> que todos<br />tenemos derechos y que<br />ellos generan deberes.
+                                                <span className="fsp-16 f-IntroRustG-Base text-start">RECONOCER</span> <span className="fsp-16 text-start f-Ubuntu-R">
+                                                      que todos <br /> tenemos derechos y que<br/>ellos generan deberes.
+                                                </span>
                                             </span>
                                         </div>
                                     </div>
@@ -47,7 +49,9 @@ function Page022(props) {
                                         </div>
                                         <div className="d-flex">
                                             <span className="fsp-16 text-start f-pixilate-regular">
-                                                <span className="fsp-16 f-IntroRustG-Base text-start">COMPROMETERME</span> con<br />una forma de trabajo<br />respetuosa de los derechos.
+                                                <span className="fsp-16 f-IntroRustG-Base text-start">COMPROMETERME</span> <span className="fsp-16 text-start f-Ubuntu-R">
+                                                      con <br /> una forma de trabajo<br/>respetuosa de los derechos.
+                                                </span>
                                             </span>
                                         </div>
                                     </div>
@@ -61,7 +65,9 @@ function Page022(props) {
                                         </div>
                                         <div className="d-flex">
                                             <span className="fsp-16 text-start f-pixilate-regular">
-                                                <span className="fsp-16 f-IntroRustG-Base text-start">BUSCAR</span> información<br />para las noticias y el<br />reportaje de la revista.
+                                                <span className="fsp-16 f-IntroRustG-Base text-start">BUSCAR</span> <span className="fsp-16 text-start f-Ubuntu-R">
+                                                      información <br /> para las noticias y el<br/>reportaje de la revista.
+                                                </span>
                                             </span>
                                         </div>
                                     </div>
@@ -75,7 +81,9 @@ function Page022(props) {
                                         </div>
                                         <div className="d-flex">
                                             <span className="fsp-16 text-start f-pixilate-regular">
-                                                <span className="fsp-16 f-IntroRustG-Base text-start">REFLEXIONAR</span> sobre<br />el trabajo que hemos<br />realizado.
+                                                <span className="fsp-16 f-IntroRustG-Base text-start">REFLEXIONAR</span> <span className="fsp-16 text-start f-Ubuntu-R">
+                                                      sobre <br /> el trabajo que hemos<br/>realizado.
+                                                </span>
                                             </span>
                                         </div>
                                     </div>

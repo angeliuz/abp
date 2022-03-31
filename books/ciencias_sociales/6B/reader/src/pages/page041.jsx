@@ -74,10 +74,11 @@ function Page041(props) {
 
                   <div className="position-absolute top-0 start-50 msp-0 mtp-0 translate-middle">
                     <div className="bgc-ron mnwp-400 color-white f-Ubuntu-B text-center px-3 py-2 rounded-p-20">
-                      Creemos que los siguientes hábitos son importantes para crear un entorno sostenible:
+                    Pensamos que lo que hemos aprendido nos va a servir en nuestra ruta para:
+ 
                     </div>
                   </div>
-                  <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-70" alt="" /></div>
+                  <div className="position-absolute top-100 start-100 translate-middle msp-20  zindex-1 visible-768"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-90" alt="" /></div>
                 </div>
               </div>
             </div>
@@ -140,7 +141,7 @@ function Page041(props) {
           {/* BEIGN PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>ABP &copy; SM</div>
-            <div className="bgc-goku wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+            <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
           </div>
           {/* END PIE DE PAGINA */}
         </div>

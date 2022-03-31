@@ -121,7 +121,7 @@ function Page029(props) {
 
                                             <div className="align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
 
-                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 psp-10 pep-5 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
 
                                             </div>
 
@@ -142,7 +142,7 @@ function Page029(props) {
 
                                             <div className="align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
 
-                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 psp-10 pep-5 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
 
                                             </div>
 
@@ -164,12 +164,12 @@ function Page029(props) {
 
                                             <div className="align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
 
-                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 psp-10 pep-5 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
 
                                             </div>
 
                                         </div>
-                                        <div className=" d-flex position-absolute top-0 start-0 translate-middle mtp-40 wp-30 hp-30 bgc-pikachu border-style-solid border-1 border-color-pikachu  rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M color-white">3
+                                        <div className=" d-flex position-absolute top-0 start-0 translate-middle mtp-40 wp-30 hp-30 bgc-ogro border-style-solid border-1 border-color-ogro  rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M color-white">3
 
                                         </div>
 

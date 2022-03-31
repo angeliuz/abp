@@ -2518,7 +2518,7 @@
   margin-top: -39px;
 }
 .mtp--40 {
-  margin-top: -40px;
+  margin-top: -40px !important;
 }
 .mtp--41 {
   margin-top: -41px;
@@ -5774,6 +5774,9 @@
 }
 .zindex-2 {
   z-index: 2;
+}
+.zindex-5 {
+  z-index: 5;
 }
 .zindex-10 {
   z-index: 10;

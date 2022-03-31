@@ -68,7 +68,7 @@ function Page010(props) {
                                 <img src="images/page_010/arrow.svg" className="mep-5 cb-flecha"></img>
                                 <span className="triangulo text-start">¿Cómo me siento ante el desafío?</span>
                             </div>
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-130" />
+                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                         </div>
                     </div>
 

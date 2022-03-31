@@ -23,7 +23,7 @@ function Page021(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className="cabecera-v2 bgc-android18 d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja wp-160 text-center fsp-24 f-IntroRustG-Base">SESIÓN 4</div>
+              <div className="caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark">SESIÓN 4</div>
               <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Renovables y no renovables</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
@@ -59,7 +59,7 @@ function Page021(props) {
           {/* END CABECERA VERSIÓN 2 */}
           <div className="ptp-10 container-titulo-global ">
             <div className="d-flex">
-              <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_053/g.svg" alt="" />
+              {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_053/g.svg" alt="" /> */}
               <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">1</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Leo los reportajes de la revista. Luego, realizo las actividades..</div>
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_053/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}

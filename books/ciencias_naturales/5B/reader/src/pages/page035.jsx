@@ -83,7 +83,7 @@ function Page035(props) {
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-                            <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_002.jpg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+                            {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_002.jpg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
                         </div>
                     </div>
 
@@ -94,7 +94,7 @@ function Page035(props) {
                                 <div className="ptp-10 pbp-10 psp-20">
                                     <div className="d-flex">
                                         <div className="">
-                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                         </div>
                                         <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                                             Malnutrición.
@@ -104,7 +104,7 @@ function Page035(props) {
                                 <div className="ptp-10 pbp-10 psp-20">
                                     <div className="d-flex">
                                         <div className="">
-                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                         </div>
                                         <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                                             Los nutrientes.
@@ -114,7 +114,7 @@ function Page035(props) {
                                 <div className="ptp-10 pbp-10 psp-20">
                                     <div className="d-flex">
                                         <div className="">
-                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                         </div>
                                         <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                                             Información nutricional.
@@ -127,7 +127,7 @@ function Page035(props) {
                                 <div className="ptp-10 pbp-10 psp-20">
                                     <div className="d-flex">
                                         <div className="">
-                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                         </div>
                                         <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                                             Alimentación saludable.
@@ -137,7 +137,7 @@ function Page035(props) {
                                 <div className="ptp-10 pbp-10 psp-20">
                                     <div className="d-flex">
                                         <div className="">
-                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                         </div>
                                         <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
                                             Alimentación poco saludable.
@@ -169,17 +169,17 @@ function Page035(props) {
                         <div className="d-flex w-100 bgc-betty rounded-p-10">
 
                             <div className="row p-0 m-0 w-100">
-                                
-                               
 
-                                
+
+
+
 
                                 <div className="col-12 ptp-20 psp-10 pep-10 m-0 position-relative">
-                                <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="" alt="" /></div>
-                                
+                                    <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="" alt="" /></div>
+
                                     <div className="bgc-white rounded-p-10 border-style-solid border-color-white border-2 p-2 msp-0 mep-0 mtp-0 mbp-10 f-Ubuntu-L fsp-15 ">
                                         <div className="d-flex flex-column position-relative w-100 text-start ">
-                                        El título de la infografía será:
+                                            El título de la infografía será:
                                             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
                                         </div>
                                     </div>
@@ -189,17 +189,17 @@ function Page035(props) {
 
                                     <div className="bgc-white rounded-p-10 border-style-solid border-color-white border-2 p-2 msp-0 mep-0 mtp-0 mbp-10 f-Ubuntu-L fsp-15 ">
                                         <div className="d-flex flex-column position-relative w-100 text-start ">
-                                        Incluiré información sobre...
+                                            Incluiré información sobre...
                                             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                                         </div>
                                     </div>
 
                                 </div>
                                 <div className="col-12 ptp-0 psp-10 pep-10 m-0 position-relative">
-                                <div className="position-absolute top-50 start-0 translate-middle msp--10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="" alt="" /></div>
+                                    <div className="position-absolute top-50 start-0 translate-middle msp--10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="" alt="" /></div>
                                     <div className="bgc-white rounded-p-10 border-style-solid border-color-white border-2 p-2 msp-0 mep-0 mtp-0 mbp-10 f-Ubuntu-L fsp-15 ">
                                         <div className="d-flex flex-column position-relative w-100 text-start ">
-                                        Agregaré imágenes de:
+                                            Agregaré imágenes de:
                                             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-210" />
                                         </div>
                                     </div>

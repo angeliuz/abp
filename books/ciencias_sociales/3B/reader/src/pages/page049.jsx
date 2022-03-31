@@ -105,19 +105,13 @@ function Page049(props) {
                       <div className="d-inline wp-30 hp-30 bgc-white">
                       <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
+                      <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Dibujo (lápices de colores, lápiz grafito).</div>
+                    </div>
+                    <div className="d-flex align-items-center pbp-10 w-100">
+                      <div className="d-inline wp-30 hp-30 bgc-white">
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                      </div>
                       <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Collage (papeles de colores, palabras, fotografías).</div>
-                    </div>
-                    <div className="d-flex align-items-center pbp-10 w-100">
-                      <div className="d-inline wp-30 hp-30 bgc-white">
-                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
-                      </div>
-                      <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Escultura (greda, plasticina, arcilla).</div>
-                    </div>
-                    <div className="d-flex align-items-center pbp-10 w-100">
-                      <div className="d-inline wp-30 hp-30 bgc-white">
-                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
-                      </div>
-                      <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 text-start">Collage (papeles de colores, palabras, fotografías)..</div>
                     </div>
                     <div className="d-flex align-items-start   w-100 mbp-10 ">
                       <div className="d-inline wp-35 hp-30">

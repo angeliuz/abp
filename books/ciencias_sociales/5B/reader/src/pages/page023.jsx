@@ -22,7 +22,7 @@ function Page023(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className="cabecera-v2 bgc-android18 d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base">SESIÓN 4</div>
+              <div className="caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark">SESIÓN 4</div>
               <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Todos tenemos derechos</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
@@ -103,6 +103,7 @@ function Page023(props) {
               </div>
               <div className="col-md-6 col-sm-6 position-relative">
                 <div className="position-absolute top-100 start-100 translate-middle wp-100 mtp--50 visible-695"><img src="images/page_023/img_007.png" className="w-45 mep-20" /></div>
+                <div className="position-absolute top-50 start-100 translate-middle wp-100 visible-695"><img src="images/page_023/img_004.png" className=" msp-150" /></div>
                 <div className="bgc-shogun cb-block w-100 p-2 f-Ubuntu-L fsp-13 mbp-20 cb-outline-2">
                   <div className="d-flex cb-interior-caja text-start min-hp-50">
                     <div className="bgc-saitama color-white f-Ubuntu-B fsp-15 hp-25 wp-25 rounded-3 d-flex justify-content-center align-items-center text-center msp--20 mep-10 mtp-5 zindex-1">e</div>

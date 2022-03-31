@@ -103,7 +103,7 @@ function Page067(props) {
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-600" />
                   </div>
                 </div>
-                {/* <div className="position-absolute top-0 start-100 translate-middle  msp--50 mtp--43 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-65" alt="" /></div> */}
+                <div className="position-absolute top-0 start-100 translate-middle  msp--50 mtp--43 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-65" alt="" /></div>
                 <div className="position-absolute top-50 start-0 translate-middle  msp--10 mtp-5 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="hp-100" alt="" /></div>
                 <div className="position-absolute top-100 start-100 translate-middle   msp--30 mtp-5 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-90" alt="" /></div>
 
@@ -211,7 +211,7 @@ function Page067(props) {
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
               ABP &copy; SM
             </div>
-            <div className="bgc-misty wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+            <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
           </div>
           <div className="row position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>
 

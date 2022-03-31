@@ -47,7 +47,7 @@ function Page050(props) {
                   <div className="f-Ubuntu-R text-start psp-30">Proponer nuevas alternativas de alimentación saludables para el colegio.</div>
                   <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0">
                     <div className="">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                   </div>
                 </div>
@@ -58,7 +58,7 @@ function Page050(props) {
                   <div className="f-Ubuntu-R text-start psp-30">Considerar las sugerencias escritas por los compañeros en la consulta pública de la propuesta.</div>
                   <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0">
                     <div className="">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                   </div>
                 </div>
@@ -72,7 +72,7 @@ function Page050(props) {
                   <div className="f-Ubuntu-R text-start psp-30">Incluir otros alimentos que no consideramos en nuestra propuesta.</div>
                   <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0">
                     <div className="">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                   </div>
                 </div>
@@ -83,7 +83,7 @@ function Page050(props) {
                   <div className="f-Ubuntu-R text-start psp-30">Identificar los alimentos de la propuesta que no gustaron y cambiarlos por otros.</div>
                   <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0">
                     <div className="">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                   </div>
                 </div>
@@ -102,7 +102,7 @@ function Page050(props) {
                   </div>
                   <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0">
                     <div className="">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                   </div>
                 </div>
@@ -117,13 +117,21 @@ function Page050(props) {
                   </div>
                   <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0">
                     <div className="">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
+          <div className="container-titulo-global mtp-20 mbp-0">
+            <div className="d-flex psp-20">
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>3</div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Establecemos cambios y mejoras a la propuesta.</div>
+            </div>
+          </div>
+
           <div className="psp-60 pep-60 ptp-20 pbp-80">
             <div className="row pbp-20">
               <div className="col-md-9 col-12 d-flex justify-content-center">

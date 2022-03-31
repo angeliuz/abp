@@ -42,14 +42,14 @@ function Page020(props) {
                     <div className="d-flex wp-23">
                       <img
                         src={"images/generales/flecha_e" + etapa + ".svg"}
-                        className="mbp-20 mep-5 wp-20"
+                        className="mbp-40 mep-5 wp-20"
                         alt=""
                       />
                     </div>
                     <div>
-                      <span className="fsp-16 text-start f-pixilate-regular">
+                      <span className="fsp-16 text-start f-Ubuntu-R">
                         <span className="fsp-16 f-IntroRustG-Base text-start">
-                        RECOPILAR
+                          RECOPILAR
                         </span>{" "}
                         información
                         <br />
@@ -73,17 +73,17 @@ function Page020(props) {
                     <div className="d-flex wp-23">
                       <img
                         src={"images/generales/flecha_e" + etapa + ".svg"}
-                        className="mbp-25 mep-5 wp-20"
+                        className="mbp-40 mep-5 wp-20"
                         alt=""
                       />
                     </div>
                     <div className="d-flex">
-                      <span className="fsp-16 text-start f-pixilate-regular">
+                      <span className="fsp-16 text-start f-Ubuntu-R">
                         <span className="fsp-16 f-IntroRustG-Base text-start">
-                        IDENTIFICAR
+                          IDENTIFICAR
                         </span>{" "}
                         soluciones <br />
-                        para aprovechar las<br/>
+                        para aprovechar las<br />
                         energías renovables.
                       </span>
                     </div>
@@ -103,16 +103,16 @@ function Page020(props) {
                     <div className="d-flex">
                       <img
                         src={"images/generales/flecha_e" + etapa + ".svg"}
-                        className="mbp-25 mep-5 wp-20"
+                        className="mbp-40 mep-5 wp-20"
                         alt=""
                       />
                     </div>
                     <div className="d-flex">
-                      <span className="fsp-16 text-start f-pixilate-regular">
+                      <span className="fsp-16 text-start f-Ubuntu-R">
                         <span className="fsp-16 f-IntroRustG-Base text-start">
-                        CONSTRUIR
+                          CONSTRUIR
                         </span>{" "}
-                        una <br /> infografía sobre la<br/>
+                        una <br /> infografía sobre la<br />
                         investigación.
                       </span>
                     </div>
@@ -132,17 +132,17 @@ function Page020(props) {
                     <div className="d-flex">
                       <img
                         src={"images/generales/flecha_e" + etapa + ".svg"}
-                        className="mbp-20 mep-5 wp-20"
+                        className="mbp-40 mep-5 wp-20"
                         alt=""
                       />
                     </div>
                     <div className="d-flex">
-                      <span className="fsp-16 text-start f-pixilate-regular">
+                      <span className="fsp-16 text-start f-Ubuntu-R">
                         <span className="fsp-16 f-IntroRustG-Base text-start">
-                        VALORAR
+                          VALORAR
                         </span>{" "}
                         cómo se <br />
-                        trabaja en equipo y<br/>
+                        trabaja en equipo y<br />
                         qué se puede mejorar.
                       </span>
                     </div>

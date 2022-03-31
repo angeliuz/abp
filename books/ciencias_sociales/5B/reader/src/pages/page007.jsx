@@ -20,7 +20,7 @@ function Page007(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className={"cabecera-v2 " + background + " d-flex flex-column"}>
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base">SESIÓN 1</div>
+              <div className="caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark">SESIÓN 1</div>
               <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Tenemos un desafío</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
@@ -72,9 +72,9 @@ function Page007(props) {
               />
             </div>
             <div className="cb-paper">
-              <div className="cb-paper-content f-Ubuntu-L text-start">
+              <div className="cb-paper-content f-Ubuntu-L text-start position-relative">
                 <img src="images/page_007/img_002.png" className="cb-carta" alt="" />
-                <img src="images/page_007/img_001.png" className="cb-lapiz" alt="" />
+                <img src="images/page_007/img_001.png" className="position-absolute top-100 start-0 translate-middle mtp--110 msp-30 visible-768" alt="" />
                 <p className="text-start">Queridos estudiantes,</p>
                 <p>Soy dirigente de una organización que promueve el respeto de los derechos de todas las personas en Chile.</p>
 

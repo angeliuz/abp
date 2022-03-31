@@ -98,7 +98,7 @@ function Page055(props) {
                 <div className="d-flex justify-content-center w-100">
                   <div className="bgc-ermac w-100 p-2 box-shadow-simple position-relative border-style-solid border-color-dark border-1">
                     <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/posit.png"} className="hp-50" alt="" /></div>
-                    <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--70 zindex-1 visible-768"><img src={"images/page_" + pagina + "/mono1.png"} className="hp-140" alt="" /></div>
+                    <div className="position-absolute top-100 start-0 translate-middle msp--20 mtp--100 zindex-1 visible-768"><img src={"images/page_" + pagina + "/mono1.png"} className="hp-140" alt="" /></div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-350" />
                   </div>
                 </div>

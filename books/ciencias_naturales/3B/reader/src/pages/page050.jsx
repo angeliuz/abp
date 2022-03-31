@@ -47,7 +47,7 @@ function Page050(props) {
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative d-flex center-center">
 
-                <div className="position-absolute top-100 start-50 translate-middle msp-190 mtp--110 zindex-2"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-150" alt="" /></div>
+                <div className="position-absolute top-100 start-50 translate-middle msp-230 mtp--110 zindex-2"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-150" alt="" /></div>
                 <div className="d-flex wp-400 hp-420">
                   <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-350" alt="" /></div>
                   <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1 max-wp-300">
@@ -97,7 +97,7 @@ function Page050(props) {
                         <div className="f-Ubuntu-L fsp-15 ptp-2 text-start"> ¿Qué hago cuando algo no me sale como quiero?</div>
                       </div>
                       <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80 max-wp-650" />
                       </div>
                     </div>
                   </div>
@@ -110,7 +110,7 @@ function Page050(props) {
                         <div className="f-Ubuntu-L fsp-15 ptp-2 text-start"> El trabajo en equipo me aporta...</div>
                       </div>
                       <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80 max-wp-650" />
                       </div>
                     </div>
                   </div>

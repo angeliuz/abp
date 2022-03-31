@@ -297,7 +297,7 @@ function Page024(props) {
               <div className="col-sm-12 col-md-6 position-relative">
                 <div className="position-absolute top-0 start-50 translate-middle zindex-1 mtp-30 ">
                   <img
-                    src="images/page_024/img_003.png"
+                    src="images/page_024/img_003.svg"
                     className="wp-30"
                     alt=""
                   />
@@ -308,7 +308,7 @@ function Page024(props) {
                       id={"p" + pagina + "_input" + (indexInput += 1)}
                       className="ptp-35 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175 "
                     />
-                    <div className="position-absolute top-0 start-50 translate-middle wp-300 bgc-windu  harry psp-5 pep-5 ptp-5 pbp-5 rounded-p-20 border-style-solid border-2 border-color-white ">
+                    <div className="position-absolute top-0 start-50 translate-middle wp-300 bgc-windu harry psp-5 pep-5 ptp-5 pbp-5 rounded-p-20 border-style-solid border-2 border-color-white ">
                       <div className="f-Ubuntu-L color-black fsp-16">
                         ¿Qué piensa mi pareja de trabajo?
                       </div>

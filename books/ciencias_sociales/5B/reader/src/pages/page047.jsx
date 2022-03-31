@@ -16,7 +16,7 @@ function Page047(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className="cabecera-v2 bgc-pidgey d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base">SESIÓN 10</div>
+              <div className="caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark">SESIÓN 10</div>
               <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Organizamos las entrevistas</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
@@ -58,6 +58,7 @@ function Page047(props) {
             <div className="row ptp-20 ps-12 pe-8 m-0 w-100">
 
               <div className="col-sm-12 col-md-6 position-relative ptp-20 pbp-20 m-0 d-flex justify-content-start">
+              <div className="position-absolute top-100 start-0 translate-middle mtp--40 msp-10  zindex-1"><img src="images/page_047/celular.png" className=" wp-40" alt="" /></div>
                 <img src="images/page_047/flechas_celeste.svg" className="wp-25 rotar-flecha position-absolute zindex-1 posicion-flecha" alt="" />
                 <div className="position-relative bgc-harry rounded-p-10 w-90 ptp-5 pbp-10">
                   <div className="position-absolute mtp-30 msp-10 bgc-pidgey wp-25 hp-25 text-white text-center rounded-1 f-Ubuntu-R fsp-16 zindex-1">1</div>
@@ -125,6 +126,7 @@ function Page047(props) {
                 </div>
               </div>
               <div className="col-sm-12 col-md-6 position-relative  ptp-0 pbp-30 m-0 d-flex justify-content-end">
+              <div className="position-absolute top-100 start-100 translate-middle mtp-70 msp--50 zindex-1 visible-768"><img src="images/page_047/mono.png" className=" wp-90" alt="" /></div>
                 <div className="position-relative bgc-voldemort rounded-p-10 w-90 ptp-5 pbp-10">
                   <div className="f-Ubuntu-M fsp-15 text-center color-white">¿Por qué?</div>
                   <div className="position-relative rounded-p-5 bgc-white mtp-5 msp--15 mep-200  psp-20 pep-10 pbp-10 w-100 border-style-solid border-2 border-color-bulma" >

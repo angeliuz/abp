@@ -7,9 +7,9 @@ function Page011(props) {
   var indexInput = 0;
   const etapa = "2"
   const background = "bgc-bulma";
-  const color = "color-krillin";
+  const color = "color-bulma";
   const borderColor = "border-color-bulma"
-  const bgc_cajas = "bgc-jawa";
+  const bgc_cajas = "bgc-boros";
 
   return (
     <div className="wrapper bgc-light">

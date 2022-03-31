@@ -57,7 +57,7 @@ function Page041(props) {
                 <div className="d-flex border-style-solid border-2 border-color-goku rounded-p-10 psp-10 pep-10 ptp-5 pbp-15 bgc-white">
 
                   <div className="d-flex w-100 psp-10 pep-10 ptp-10 pbp-0 align-items-center">
-                    De un total de <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />encuestados, estos son los resultados:
+                    De un total de <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 max-wp-300" />encuestados, estos son los resultados:
                   </div>
                 </div>
 
@@ -81,7 +81,7 @@ function Page041(props) {
                 <div className="col-8 border-style-solid  border-color-pidgey border-1 border-bottom-hidden border-right-hidden bgc-white p-0 m-0">
                   <div className="d-flex flex-column text-start w-100 psp-10 pep-10 ptp-5 pbp-5">
                   <div className="color-pidgey f-Ubuntu-B">  Pregunta 1</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120 max-wp-600" />
                   </div>
                 </div>
 
@@ -100,7 +100,7 @@ function Page041(props) {
                 <div className="col-8 border-style-solid  border-color-pidgey border-1 border-bottom-hidden border-right-hidden  bgc-white p-0 m-0">
                   <div className="d-flex flex-column text-start w-100 psp-10 pep-10 ptp-5 pbp-5">
                   <div className="color-pidgey f-Ubuntu-B">  Pregunta 2</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120 max-wp-600" />
                   </div>
                 </div>
                 <div className="col-2 d-flex center-center  border-style-solid  border-color-pidgey border-1 border-right-hidden border-bottom-hidden bgc-white color-pidgey f-Ubuntu-B p-0 m-0">
@@ -116,7 +116,7 @@ function Page041(props) {
                 <div className="col-8 border-style-solid  border-color-pidgey border-1 border-right-hidden bgc-white p-0 m-0">
                   <div className="d-flex flex-column text-start w-100 psp-10 pep-10 ptp-5 pbp-5">
                   <div className="color-pidgey f-Ubuntu-B">  Pregunta 3</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120 max-wp-600" />
                   </div>
                 </div>
                 <div className="col-2 d-flex center-center  border-style-solid  border-color-pidgey border-1 border-right-hidden  bgc-white color-pidgey f-Ubuntu-B p-0 m-0">

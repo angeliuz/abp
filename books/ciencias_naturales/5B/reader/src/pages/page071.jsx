@@ -62,15 +62,15 @@ function Page071(props) {
               </div>
               {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
               <ModalVideo
-                                            id={"p" + pagina + "_video" + (indexInput += 1)}
-                                            linkVideo="682623207"
-                                            tituloVideo="¡Arcoíris en tu plato! III"
-                                            tipoVideo="vimeo"
-                                            image={"images/generales/play.svg"}
-                                            colorUnidad={background}
-                                            clasesImagen="cambio hp-40 mtp-10"
-                                            className="p-0 px-1"
-                                        />
+                id={"p" + pagina + "_video" + (indexInput += 1)}
+                linkVideo="682623207"
+                tituloVideo="¡Arcoíris en tu plato! III"
+                tipoVideo="vimeo"
+                image={"images/generales/play.svg"}
+                colorUnidad={background}
+                clasesImagen="cambio hp-40 mtp-10"
+                className="p-0 px-1"
+              />
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
@@ -95,8 +95,8 @@ function Page071(props) {
                 </div>
                 <div class="cb-texto-mail position-relative">
                   <div class="cb-carta-content f-Ubuntu-L text-start">
-                    <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-50" alt="" /></div>
-                    <div className="position-absolute top-100 start-0 translate-middle msp-60 mtp--10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-120" alt="" /></div>
+                    <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-65" alt="" /></div>
+                    {/* <div className="position-absolute top-100 start-0 translate-middle msp-60 mtp--10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-120" alt="" /></div> */}
                     <p>Estimados estudiantes:</p>
                     <p>Han llegado al final de este proyecto. Ahora solo les queda presentar,
                       a toda la comunidad educativa, la campaña para dar a conocer su propuesta
@@ -131,8 +131,8 @@ function Page071(props) {
                 </div>
                 <div class="cb-texto-mail position-relative">
                   <div class="cb-carta-content f-Ubuntu-L text-start">
-                    <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-50" alt="" /></div>
-                    <div className="position-absolute top-100 start-0 translate-middle msp-60 mtp--10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-120" alt="" /></div>
+                    {/* <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-50" alt="" /></div> */}
+                    <div className="position-absolute top-100 start-100 translate-middle msp--20 mtp--30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-80" alt="" /></div>
 
                     <div className="psp-15 pep-15">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />

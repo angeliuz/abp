@@ -23,7 +23,7 @@ function Page010(props) {
 
           <div className="mtp-90">
             <div className="d-flex justify-content-center ">
-              <div className="cb-titulo-aceptamos text-center fsp-25 f-IntroRustG-Base mbp-20 border-top-style-solid border-bottom-style-solid">ACEPTAMOS EL DESAFÍO</div>
+              <div className="cb-titulo-aceptamos text-center fsp-25 f-IntroRustG-Base mbp-20 border-top-style-solid border-bottom-style-solid">¡ACEPTAMOS EL DESAFÍO!</div>
             </div>
           </div>
 

@@ -31,7 +31,7 @@ function Page017(props) {
               <div className={"psp-0 ptp-5 pbp-5 bgc-white rounded-p-10 border-style-solid border-1 " + borderColor + " d-flex justify-content-center position-relative"}>
                 {/* <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 mtp-0"><img src="images/page_019/img_001.png" className="wp-70" /></div> */}
                 <div className="position-absolute top-50 start-100 translate-middle wp-100 msp--30 mtp--20"><img src={"images/page_" + pagina + "/img_001.png"} className="w-70" /></div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 text-start lhp-35 w-100 msp-50 mep-50" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 max-wp-550 text-start lhp-35 w-100 msp-0 mep-50" />
               </div>
 
             </div>

@@ -96,12 +96,7 @@
   transform: rotate(2deg);
 }
 
-.cb-lapiz{
-  position: absolute;
-    left: 25px;
-    bottom: 70px;
-    transform: rotate(-25deg);
-}
+
 .cb-carta{
   position: absolute;
     right: -35px;

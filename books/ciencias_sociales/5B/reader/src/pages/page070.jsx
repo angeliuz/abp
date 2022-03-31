@@ -27,7 +27,7 @@ function Page070(props) {
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                 Defino con mi grupo cuatro aspectos que mejoraremos de la revista. En la elección consideramos la importancia del cambio y el tiempo con el que contamos para hacerlo.
               </div>
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_070/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_070/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
 
@@ -146,7 +146,7 @@ function Page070(props) {
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                 Realizamos las mejoras a la revista.
               </div>
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_070/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_070/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
 

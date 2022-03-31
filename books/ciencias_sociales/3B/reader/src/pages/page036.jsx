@@ -90,7 +90,7 @@ function Page036(props) {
               <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
                 <div className="d-flex">
                   <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 wp-15" alt="" />
-                  <span className="w-24 f-Ubuntu-L text-start">Los pasos que seguí hoy son…</span>
+                  <span className="w-24 fsp-14 f-Ubuntu-L text-start">Los pasos que seguí hoy son…</span>
                 </div>
               </div>
               <div className="pt-0 flex-grow-1 mbp-20">
@@ -124,7 +124,7 @@ function Page036(props) {
                         </td>
                       </tr>
                       <tr>
-                        <td className={"bgc-white rounded-ts-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-1 " + borderColorTabla}>
+                        <td className={"bgc-white rounded-ts-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-1 " + borderColorTabla}>
                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 ">
                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                             Me siento tenso y nervioso cuando trabajo  con mi equipo.
@@ -198,7 +198,7 @@ function Page036(props) {
                                             </td>
                                         </tr> */}
                       <tr>
-                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-bottom-hidden border-left-hidden border-right-hidden border-1 " + borderColorTabla}>
+                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-bottom-hidden border-left-hidden border-right-hidden border-1 " + borderColorTabla}>
                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10">
                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                             Me asusta no hacer bien el trabajo y recibir críticas.

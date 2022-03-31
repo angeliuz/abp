@@ -12,12 +12,20 @@
 
 @media (max-width: 767px) {
     .espaciado-p39 {
-        padding-top: 180px;
+        padding-top: 60px;
     }
 
     .hoja-p39 {
-        margin-top: 100px;
-        margin-left: -80%;
+        margin-top: 40px;
+        margin-left: -40%;
     }
 
+
+
+}
+
+@media (max-width: 771px) {
+    .ptp-p39 {
+        padding-top: 20px;
+    }
 }

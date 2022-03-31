@@ -125,7 +125,9 @@ function Page044(props) {
               <div className="col-sm-12 col-md-6 p-1 m-0 position-relative">
                 <div className="bgc-saitama rounded-p-10 p-2">
                   <p className="text-white f-Ubuntu-M fsp-16 lh-sm min-hp-50 m-0 pb-2 d-flex justify-content-center align-items-center">La propuesta que hemos escogido es...</p>
-                  <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 text-start flex-grow-1 lhp-35 min-hp-175 contenedor-linea" /></div>
+                  <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 text-start flex-grow-1 lhp-35 min-hp-70 contenedor-linea" /></div>
+                  <p className="text-white f-Ubuntu-M fsp-16 lh-sm min-hp-50 m-0 p-0 d-flex align-items-center text-start">porque</p>
+                  <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 text-start flex-grow-1 lhp-35 min-hp-70 contenedor-linea" /></div>
                 </div>
               </div>
               <div className="col-sm-12 col-md-6 p-1 m-0 position-relative">
@@ -133,23 +135,23 @@ function Page044(props) {
                   <div className="bgc-white rounded-p-10 w-100 h-100 p-2">
                     <p className="f-Ubuntu-L fsp-16 lh-sm mbp-10">El nivel de dificultad que tiene la construcción de la propuesta es...</p>
                     <div className="d-flex align-items-center psp-40 pbp-10">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       <div className="psp-10 ptp-0 f-Ubuntu-L fsp-16 text-start">Muy alto</div>
                     </div>
                     <div className="d-flex align-items-center psp-40 pbp-10">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       <div className="psp-10 ptp-0 f-Ubuntu-L fsp-16 text-start">Alto</div>
                     </div>
                     <div className="d-flex align-items-center psp-40 pbp-10">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       <div className="psp-10 ptp-0 f-Ubuntu-L fsp-16 text-start">Medio</div>
                     </div>
                     <div className="d-flex align-items-center psp-40 pbp-10">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       <div className="psp-10 ptp-0 f-Ubuntu-L fsp-16 text-start">Bajo</div>
                     </div>
                     <div className="d-flex align-items-center psp-40">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       <div className="psp-10 ptp-0 f-Ubuntu-L fsp-16 text-start">Muy bajo</div>
                     </div>
                   </div>

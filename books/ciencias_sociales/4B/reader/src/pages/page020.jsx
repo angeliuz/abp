@@ -136,7 +136,7 @@ function Page020(props) {
 
 
                     {/* BEGIN TABLE */}
-                    <div className="global-margin mbp-50 psp-0 pep-100-768 ptp-80 pbp-50  f-Ubuntu-L fsp-13 rounded-p-10 position-relative">
+                    <div className="global-margin mbp-50 psp-0 pep-100-768 ptp-20 pbp-20  f-Ubuntu-L fsp-13 rounded-p-10 position-relative">
                         <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-0">
                             {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/generales/ticket.svg" className="hp-17 mtp--3 msp-5 mep-5" alt=""/>el recuadro que mejor me represente.</span> */}
                             <div className="w-100 p-0 pb-3 position-relative">
@@ -159,7 +159,7 @@ function Page020(props) {
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td className={"bgc-white rounded-ts-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                                            <td className={"bgc-white rounded-ts-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
                                                 <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 ">
                                                     <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                                                     Nos involucramos en las tareas y nos hacemos responsables de ellas.
@@ -195,7 +195,7 @@ function Page020(props) {
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td className={"f-Ubuntu-L fsp-12 text-start p-0 m-0 "}>
+                                            <td className={"f-Ubuntu-L fsp-14 text-start p-0 m-0 "}>
                                                 <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 bgc-white ">
                                                     <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                                                     Nos ayudamos mutuamente antes de preguntar al profesor.
@@ -231,7 +231,7 @@ function Page020(props) {
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                                            <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
                                                 <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 bgc-white ">
                                                     <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                                                     Respetamos los turnos para hablar.
@@ -267,7 +267,7 @@ function Page020(props) {
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-bottom-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                                            <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-bottom-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
                                                 <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10">
                                                     <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                                                     Escuchamos todas las opiniones y llegamos a acuerdos.

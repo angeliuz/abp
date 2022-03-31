@@ -60,7 +60,7 @@ function Page037(props) {
                       <div className="p-2 min-hp-100 min-wp-200  border-style-solid border-2 rounded-p-10 border-color-lightDark bgc-white">
                         <div className="f-pixilate-semibold  fsp-18 msp-10 mep-10 text-center">Mi entrevistado<br/>
                           o entrevistada:</div>
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 w-100 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                       </div>
                     </div>
                   </div>
@@ -113,7 +113,7 @@ function Page037(props) {
                 <div className="col-sm-12 col-md-6 position-relative">
                 
                   <div className="d-flex mbp-80 mtp-10 w-100">
-                      <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-yoda bgc-smoke">
+                      <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-bach bgc-itto">
                       <div className="f-Ubuntu-M interior-caja-v1 bgc-white fsp-16 msp-10 mep-10 text-center color-debussy ">Frase</div>
                           <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
                       </div>

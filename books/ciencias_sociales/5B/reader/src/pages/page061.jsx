@@ -20,7 +20,7 @@ function Page061(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className={"cabecera-v2 " + background + " d-flex flex-column"}>
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base">SESIÓN 15</div>
+              <div className="caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark">SESIÓN 15</div>
               <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">El editorial de la revista</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
@@ -54,7 +54,7 @@ function Page061(props) {
               <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_061/i_g.svg" alt="" />
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>1</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Reviso el mapa mental que creamos en la etapa de investigación y las entrevistas que realizamos con mi grupo. Luego, completo el esquema.</div>
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_061/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_061/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
 

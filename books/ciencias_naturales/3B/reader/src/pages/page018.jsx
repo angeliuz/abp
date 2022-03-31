@@ -48,11 +48,11 @@ function Page018(props) {
                             <div className="col-sm-12 col-md-6 position-relative">
                                 <div className="position-absolute top-0 start-0 translate-middle wp-100 msp-20 mtp-10"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-40" /></div>
 
-                                <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-freezer border-2 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
-                                    <div className="d-flex interior-caja-v1 bgc-bison text-start min-hp-30">
-                                        <div className="w-100 text-center f-Ubuntu-R">Materiales</div>
+                                <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-freezer border-2 w-100  f-Ubuntu-L fsp-15 mbp-20">
+                                    <div className="d-flex bgc-bison text-start min-hp-30 max-wp-200 rounded-seb-20">
+                                        <div className="w-100 text-center f-Ubuntu-R ptp-5 pbp-5">Materiales</div>
                                     </div>
-                                    <div className="d-flex flex-column position-relative w-100 text-start">
+                                    <div className="d-flex flex-column position-relative w-100 text-start p-2">
                                         <span className="mtp-10 text-start">
                                             Para nuestro proyecto necesitaremos...
                                         </span>
@@ -64,33 +64,33 @@ function Page018(props) {
                             <div className="col-sm-12 col-md-6 position-relative">
                                 <div className="position-absolute top-0 start-0 translate-middle wp-100 msp-40 mtp-10"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" /></div>
 
-                                <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-freezer border-2 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
-                                    <div className="d-flex interior-caja-v1 bgc-bison text-start min-hp-30">
-                                        <div className="w-100 text-center f-Ubuntu-R">Personas</div>
+                                <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-freezer border-2 w-100 f-Ubuntu-L fsp-15 mbp-20">
+                                    <div className="d-flex bgc-bison text-start min-hp-30 max-wp-200 rounded-seb-20">
+                                        <div className="w-100 text-center f-Ubuntu-R ptp-5 pbp-5">Personas</div>
                                     </div>
-                                    <div className="d-flex flex-column position-relative w-100">
+                                    <div className="d-flex flex-column position-relative w-100  p-2">
                                         <span className="mtp-10 text-start">
                                             Necesitaremos la colaboración de...
                                         </span>
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                                     </div>
                                 </div>
-                                <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-freezer border-2 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20 position-relative">
+                                <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-freezer border-2 w-100 f-Ubuntu-L fsp-15 mbp-20 position-relative">
                                     <div className="position-absolute top-0 start-0 translate-middle wp-100 msp-20 mtp-10"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-50" /></div>
-                                    <div className="d-flex interior-caja-v1 bgc-bison text-start min-hp-30">
-                                        <div className="w-100 text-center f-Ubuntu-R"> Lugar y fecha</div>
+                                    <div className="d-flex bgc-bison text-start min-hp-30 max-wp-200 rounded-seb-20">
+                                        <div className="w-100 text-center f-Ubuntu-R ptp-5 pbp-5"> Lugar y fecha</div>
                                     </div>
-                                    <div className="d-flex flex-column position-relative w-100">
+                                    <div className="d-flex flex-column position-relative w-100 p-2 ">
                                         <span className="mtp-10 text-start">
                                             Desarrollaremos el proyecto en...
                                         </span>
                                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
                                     </div>
-                                    <div className="d-flex position-relative w-100 pbp-10">
-                                        <span className="mtp-10 text-start">
+                                    <div className="d-flex position-relative w-100 pbp-10 p-2">
+                                        <span className="mtp-10 text-start ">
                                             el día
                                         </span>
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-60" />
                                     </div>
                                 </div>
 
@@ -103,8 +103,8 @@ function Page018(props) {
 
 
                     {/* BEGIN TABLE */}
-                    <div className="global-margin mbp-150 psp-0 pep-0 ptp-10 pbp-10  f-Ubuntu-L fsp-13 rounded-p-10 position-relative">
-                        <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-50  zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-100" alt="" /></div>
+                    <div className="max-wp-550 mtp-30 global-margin mbp-150 psp-0 pep-0 ptp-10 pbp-10  f-Ubuntu-L fsp-13 rounded-p-10 position-relative">
+                        <div className="position-absolute top-100 start-100 translate-middle msp-80 mtp--110"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-120" alt="" /></div>
                         <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-0">
                             {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/generales/ticket.svg" className="hp-17 mtp--3 msp-5 mep-5" alt=""/>el recuadro que mejor me represente.</span> */}
                             <div className="w-100 p-0 pb-3 position-relative">

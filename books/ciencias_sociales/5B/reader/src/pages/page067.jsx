@@ -21,7 +21,7 @@ function Page067(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className={"cabecera-v2 " + background + " d-flex flex-column"}>
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base">SESIÓN 17</div>
+              <div className="caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark">SESIÓN 17</div>
               <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Elaboramos la revista</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
@@ -57,7 +57,7 @@ function Page067(props) {
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                 Leo las descripciones, distribuyo las tareas con mi grupo y marco con un <img src="images/page_067/img_003.svg" className="wp-15 mtp--2" alt="" /> la que asumiré.
               </div>
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_067/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
+              {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_067/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
 

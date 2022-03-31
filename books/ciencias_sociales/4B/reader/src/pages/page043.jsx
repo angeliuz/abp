@@ -8,6 +8,14 @@ function Page043(props) {
   const pagina = "043";
   var indexInput = 0;
 
+  const etapa = "4"
+  const background = "bgc-pidgey";
+  const color = "color-pidgey";
+  const colorSesion = "color-primary";
+  const borderColor = "border-color-pidgey"
+  const borderColorTabla = "border-color-pantro"
+  const bgc_cajas = "bgc-pantro";
+
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
@@ -22,7 +30,7 @@ function Page043(props) {
           {/* END CABECERA VERSIÓN 2 */}
 
           <div className="ptp-10 psp-60 mbp-0">
-            <div className="f-Ubuntu-B fsp-17 color-pidgey text-start lhp-20">Recordamos</div>
+            <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 " + color}>Recordamos</div>
             <div className="d-flex">
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">1</div>
               <div className="f-Ubuntu-R fsp-14 ptp-18 psp-10 text-start">Completo:</div>

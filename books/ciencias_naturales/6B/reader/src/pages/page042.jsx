@@ -31,7 +31,7 @@ function Page042(props) {
                                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-40 mep-5 wp-20" alt="" />
                                         </div>
                                         <div>
-                                            <span className="fsp-16 text-start f-pixilate-regular">
+                                            <span className="fsp-16 text-start f-Ubuntu-R">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
                                                     CREAR</span> un prototipo de<br />aparato o sistema que<br />aproveche la energía.
                                             </span>
@@ -46,7 +46,7 @@ function Page042(props) {
                                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-20 mep-5 wp-20" alt="" />
                                         </div>
                                         <div className="d-flex">
-                                            <span className="fsp-16 text-start f-pixilate-regular">
+                                            <span className="fsp-16 text-start f-Ubuntu-R">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
                                                     EVALUAR</span> las implicancias<br />del prototipo propuesto.
                                             </span>
@@ -61,7 +61,7 @@ function Page042(props) {
                                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mbp-40 mep-5 wp-20" alt="" />
                                         </div>
                                         <div className="d-flex">
-                                            <span className="fsp-16 text-start f-pixilate-regular">
+                                            <span className="fsp-16 text-start f-Ubuntu-R">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
                                                     CREAR</span> un video explicativo<br />del prototipo para<br />aprovechar la energía.
                                             </span>

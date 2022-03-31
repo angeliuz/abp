@@ -120,16 +120,16 @@ function Page075(props) {
           </div>
           {/* BEGIN EJERCICIO 1 */}
 
-          
+
 
           <div className="msp-60 mep-60 mtp-20 mbp-10">
             <div className="row p-0 m-0">
               <div className="row mx-auto d-flex f-Ubuntu-R fsp-15 ">
                 <div className="position-relative">
-                  <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp-0 visible-768 zindex-1">
+                  {/* <div className="bgc-red position-absolute top-0 start-100 translate-middle msp--40 mtp-0 visible-768 zindex-1">
                     <img
                       src={"images/page_" + pagina + "/img_001.png"}
-                      className="wp-80"
+                      className="wp-80 bgc_red"
                       alt=""
                     />
                   </div>
@@ -139,7 +139,7 @@ function Page075(props) {
                       className="wp-60"
                       alt=""
                     />
-                  </div>
+                  </div> */}
                 </div>
 
                 <div className="col-sm-12 col-md-6 position-relative">
@@ -199,8 +199,8 @@ function Page075(props) {
                   {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
                 </div>
               </div>
-              
-              
+
+
             </div>
           </div>
           <div className="msp-60 mep-60 mbp-100">

@@ -10,7 +10,7 @@ function Page077(props) {
   const etapa = "6";
   const background = "bgc-pikachu";
   const color = "color-pikachu";
-  const borderColor = "border-color-pikachu";
+  const borderColor = "border-color-obiwan";
   const borderColorTabla = "border-color-kokomi";
   const bgc_cajas = "bgc-kokomi";
 
@@ -45,7 +45,7 @@ function Page077(props) {
                     <table className="w-100">
                       <tbody>
                         <tr>
-                          <td><div className="w-24 f-Ubuntu-L text-start justify-content-start">¿Cómo aprendimos en equipo?</div></td>
+                          <td><div className="w-24 f-Ubuntu-R text-start justify-content-start">¿Cómo aprendimos en equipo?</div></td>
                           <td className={"color-white style-caja bgc-obiwan tf-letra border-style-solid border-1 border-color-obiwan f-colby-compres-bold ps-2 pe-2"}>
                             Nunca</td>
                           <td style={{ minWidth: "55px" }} className={"color-white style-caja bgc-obiwan tf-letra  border-style-solid border-1 border-color-obiwan f-colby-compres-bold ps-2 pe-2"}>
@@ -56,14 +56,14 @@ function Page077(props) {
                             Siempre</td>
                         </tr>
                         <tr className="bgc-white">
-                          <td className={"bgc-honda f-Ubuntu-L fsp-16 text-start psp-5 border-style-solid border-1 border-color-obiwan"}>Nos involucramos en la realización de la tarea y nos responsabilizamos de las tareas que tuvimos que hacer.</td>
+                          <td className={"bgc-honda f-Ubuntu-L fsp-16 text-start psp-5 border-style-solid border-1 border-color-obiwan"}>Nos implicamos en la realización de la tarea y asumimos con responsabilidad el trabajo.</td>
                           <td className={"border-style-solid border-1 " + borderColor + ""}><Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
                           <td className={"border-style-solid border-1 " + borderColor + ""}><Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
                           <td className={"border-style-solid border-1 " + borderColor + ""}><Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
                           <td className={"border-style-solid border-1 " + borderColor + ""}><Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
                         </tr>
                         <tr className="bgc-white">
-                          <td className={"bgc-honda f-Ubuntu-L fsp-16 text-start psp-5 border-style-solid border-1 border-color-obiwan"}>Ante una petición de ayuda, dejamos de hacer otras cosas e intentamos ayudar antes de preguntarle al profesor</td>
+                          <td className={"bgc-honda f-Ubuntu-L fsp-16 text-start psp-5 border-style-solid border-1 border-color-obiwan"}>Ante una petición de apoyo de alguien del grupo, intentamos ayudar antes de preguntarle al profesor.</td>
                           <td className={"border-style-solid border-1 " + borderColor + ""}><Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
                           <td className={"border-style-solid border-1 " + borderColor + ""}><Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
                           <td className={"border-style-solid border-1 " + borderColor + ""}><Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
@@ -77,7 +77,7 @@ function Page077(props) {
                           <td className={"border-style-solid border-1 " + borderColor + ""}><Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
                         </tr>
                         <tr className="bgc-white">
-                          <td className={"bgc-honda f-Ubuntu-L fsp-16 text-start psp-5 border-style-solid border-1 border-color-obiwan"}>Llegamos a acuerdos y decisiones compartidas después de que cada uno dio su opinión.</td>
+                          <td className={"bgc-honda f-Ubuntu-L fsp-16 text-start psp-5 border-style-solid border-1 border-color-obiwan"}>Llegamos a acuerdos y decisiones compartidas después de que cada integrante da su opinión.</td>
                           <td className={"border-style-solid border-1 " + borderColor + ""}><Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
                           <td className={"border-style-solid border-1 " + borderColor + ""}><Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
                           <td className={"border-style-solid border-1 " + borderColor + ""}><Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
@@ -95,7 +95,7 @@ function Page077(props) {
 
 
 
-          <div className="max-wp-640 f-Ubuntu-L fsp-15 text-start mx-auto mbp-10 psp-10">
+          <div className="max-wp-640 f-Ubuntu-R fsp-15 text-start mx-auto mbp-10 psp-10">
             Después de todo el trabajo, valoramos así lo que hemos hecho:
                </div>
 
@@ -104,10 +104,10 @@ function Page077(props) {
               <div className="position-absolute top-0 start-100 translate-middle msp--10 mtp-25 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-70" alt="" /></div>
               <div className="position-absolute top-100 start-0 translate-middle msp-10 mtp-0 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-80" alt="" /></div>
               <div className="text-center w-100 border-1 border-style-solid border-color-dark rounded-p-10 pbp-30 bgc-white mtp-10">
-                <div className="f-Ubuntu-L fsp-15 rounded-p-10 max-wp-200 mx-auto hp-40 pep-20 psp-20 ptp-10 mtp--5 pbp-10 bgc-trans-tomoe d-flex justify-content-center align-items-center">
+                <div className="f-Ubuntu-R fsp-15 rounded-p-10 max-wp-200 mx-auto hp-40 pep-20 psp-20 ptp-10 mtp--5 pbp-10 bgc-trans-tomoe d-flex justify-content-center align-items-center">
                   Lo más difícil fue
                 </div>
-                <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex">
+                <div className="psp-10 pep-10 pbp-10 ptp-15 w-100 d-flex">
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
                 </div>
               </div>
@@ -115,8 +115,8 @@ function Page077(props) {
             <div className="col-sm-12 col-md-5 position-relative mbp-70">
               <div className="position-absolute top-100 start-100 translate-middle msp--30 mtp-0 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-80" alt="" /></div>
               <div className="text-center w-100 border-1 border-style-solid border-color-dark rounded-p-10 pbp-30 bgc-white mtp-10">
-                <div className="f-Ubuntu-L fsp-15 rounded-p-10 max-wp-200 mx-auto  hp-40 pep-20 psp-20 ptp-10 pbp-10 mtp--5 bgc-trans-madoka d-flex justify-content-center align-items-center">
-                  Lo más divertido fue
+                <div className="f-Ubuntu-R fsp-15 rounded-p-10 max-wp-200 mx-auto  hp-55 pep-20 psp-20 ptp-15 pbp-10 mtp--5 bgc-trans-madoka d-flex justify-content-center align-items-center">
+                Lo que más nos gustó del proyecto
                 </div>
                 <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex">
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />

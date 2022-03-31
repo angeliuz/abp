@@ -36,7 +36,8 @@ function Page074(props) {
                                         <span className="fsp-16 f-IntroRustG-Base text-start"> 
                                         Publicar
                                         </span> 
-                                        <br /> la revista.
+                                        <br /> <span className="fsp-16 text-start f-Ubuntu-R">
+                              la revista. </span>
                                     </span>
                                 </div>  
                                 </div>
@@ -51,7 +52,8 @@ function Page074(props) {
                                     <div className="d-flex"> 
                                         <span className="fsp-16 text-start f-pixilate-regular">
                                             <span className="fsp-16 f-IntroRustG-Base text-start">
-                                            Evaluar</span> <br />  el trabajo realizado.
+                                            Evaluar</span> <br />  <span className="fsp-16 text-start f-Ubuntu-R">
+                              el trabajo realizado. </span>
                                             </span>
                                     </div> 
                                 </div>
@@ -66,7 +68,8 @@ function Page074(props) {
                                     <div className="d-flex"> 
                                             <span className="fsp-16 text-start f-pixilate-regular">
                                                 <span className="fsp-16 f-IntroRustG-Base text-start">
-                                                Celebrar</span> <br /> el trabajo realizado.
+                                                Celebrar</span> <br /> <span className="fsp-16 text-start f-Ubuntu-R">
+                              el trabajo realizado. </span>
                                                 </span>
                                         </div> 
                                 </div>

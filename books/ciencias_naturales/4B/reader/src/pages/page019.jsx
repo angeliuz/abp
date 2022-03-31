@@ -57,7 +57,8 @@ function Page019(props) {
                                             clasesImagen="cambio hp-40 mtp-10"
                                             className="p-0 px-1"
                                         />
-              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_"+pagina+"/img_001.png" className="p-0 px-1" /> */}
+              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_"+pagina+"/
+              _001.png" className="p-0 px-1" /> */}
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_007/revista65.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
@@ -104,10 +105,16 @@ function Page019(props) {
               />
             </div>
 
-            <div className="bgc-urien p-2 d-flex rounded-p-10 box-shadow-simple">
+            <div className="bgc-urien p-2 d-flex rounded-p-10 box-shadow-simple position-relative ">
+            <img
+                  src="images/page_019/img_004.png"
+                  className="position-absolute top-0 start-100 translate-middle wp-60 mtp-50 msp-30"
+                  alt=""
+                />
               <div className="mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
+              
                 <img
-                  src="/images/page_019/img_011.png"
+                  src="images/page_019/img_011.png"
                   className="position-absolute top-0 start-0 translate-middle msp-5 mtp-5 hp-40 "
                   alt=""
                 />
@@ -141,7 +148,7 @@ function Page019(props) {
             <div className="bgc-urien p-2 d-flex rounded-p-10 box-shadow-simple">
               <div className="mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
                 <img
-                  src="/images/page_019/img_011.png"
+                  src="images/page_019/img_011.png"
                   className="position-absolute top-0 start-0 translate-middle msp-5 mtp-5 hp-40 "
                   alt=""
                 />
@@ -175,7 +182,7 @@ function Page019(props) {
             <div className="bgc-urien p-2 d-flex rounded-p-10 box-shadow-simple">
               <div className="mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
                 <img
-                  src="/images/page_019/img_011.png"
+                  src="images/page_019/img_011.png"
                   className="position-absolute top-0 start-0 translate-middle msp-5 mtp-5 hp-40 "
                   alt=""
                 />
@@ -209,7 +216,7 @@ function Page019(props) {
             <div className="bgc-urien p-2 d-flex rounded-p-10 box-shadow-simple">
               <div className="mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
                 <img
-                  src="/images/page_019/img_011.png"
+                  src="images/page_019/img_011.png"
                   className="position-absolute top-0 start-0 translate-middle msp-5 mtp-5 hp-40 "
                   alt=""
                 />

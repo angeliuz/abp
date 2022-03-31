@@ -22,7 +22,7 @@ function Page024(props) {
 
                     <div className="ptp-30 psp-60 pep-60">
                         <div className="f-Ubuntu-M fsp-20 color-android18 text-start">
-                            Los derechos y la buena convivencia
+                        ¿Qué pasaría si...?
                         </div>
                     </div>
 

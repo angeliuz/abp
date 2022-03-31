@@ -49,7 +49,7 @@ function Page010(props) {
 
               <div className="row w-100 p-0 m-0">
                 <div className="col-12 position-relative max-wp-600 mx-auto">
-                  <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
+                  <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo vamos?</div>
                   <div className="d-flex flex-column mbp-20 mtp-10 w-100">
                     <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
                       <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">

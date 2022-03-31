@@ -47,6 +47,7 @@ function Page008(props) {
 
                 <div className="border-style-solid border-2 border-color-dark rounded-p-10">
                   <div className="d-flex flex-column bgc-pantro border-style-solid border-2 border-color-white rounded-p-10 f-Ubuntu-R fsp-15">
+                    <div className="position-absolute top-0 start-100 translate-middle msp--80 mtp--15 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="hp-90" alt="" /></div>
                     <div className="d-flex w-100  ptp-5 pbp-5 m-0 text-center f-Ubuntu-B center-center">Acuerdo</div>
                     <div className="d-flex psp-10 pep-10 mbp-10">
                       <div className=" d-flex align-items-center">En</div>

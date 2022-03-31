@@ -40,7 +40,10 @@ function Page019(props) {
               </div>
               <div className="col-12 p-0 m-0 position-relative">
 
-                <div className="d-flex bgc-white rounded-p-10 mtp-10 mbp-10 psp-10 pep-10 ptp-30 pbp-10">
+                <div className="d-flex bgc-white rounded-p-10 mtp-10 mbp-10 psp-10 pep-10 ptp-30 pbp-10 position-relative">
+                  <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-60 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-35" alt="" /></div>
+                  <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--50 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-70" alt="" /></div>
+                  <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--100 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-35" alt="" /></div>
 
                   <div className="row p-0 m-0 w-100">
                     <div className="col-6 p-0 m-0 position-relative">

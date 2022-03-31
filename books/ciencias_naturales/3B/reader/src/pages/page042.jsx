@@ -51,7 +51,7 @@ function Page042(props) {
                 <div className="position-absolute top-50 start-0 translate-middle msp--5 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-30" alt="" /></div>
                 <div className="box-shadow-simple">
                   <div className="d-flex flex-column bgc-white">
-                    <div className="psp-20 ptp-20 pep-10">
+                    <div className="psp-25 ptp-20 pep-10">
                       <div className="text-start">A partir de los gráficos, podemos decir que nuestra comunidad escolar...</div>
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-300" />
                     </div>

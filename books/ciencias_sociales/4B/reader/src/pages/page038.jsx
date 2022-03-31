@@ -67,7 +67,7 @@ function Page038(props) {
           <div className="d-flex  mtp-0 mbp-0 psp-80 pep-80 ptp-0 pbp-100">
             <div className="row  m-0 w-100 bgc-loki rounded-p-10">
               <div className="col-12 p-0 m-0 position-relative">
-                <div className="row">
+                <div className="row psp-10 pep-10">
                   <div className="col-12 f-pixilate-bold fsp-18 ptp-10">¿Qué estoy aprendiendo?</div>
                   <div className="col-md-6 col-12 position-relative">
                     <div className="position-absolute top-50 start-0 translate-middle msp--10 mtp-0 visible-768"><img src="images/page_038/img_004.png" className=" " alt="" /></div>

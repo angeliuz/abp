@@ -82,7 +82,7 @@ function Page038(props) {
 
             <div className="d-flex justify-content-center mtp--10 mbp-50 ">
               <div className="">
-                <img src={"images/page_" + pagina + "/imagen.jpg"} className="w-100" alt="" />
+                <img src={"images/page_" + pagina + "/imagen.png"} className="w-100" alt="" />
               </div>
             </div>
             {/* Begin pie de página */}

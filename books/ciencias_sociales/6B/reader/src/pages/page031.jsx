@@ -34,8 +34,8 @@ function Page031(props) {
                     {/* BEGIN CABECERA VERSIÓN 2 */}
                     <div className="cabecera-v2 bgc-android18 d-flex flex-column">
                         <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-                            <div className="caja wp-160 text-center fsp-24 f-IntroRustG-Base">SESIÓN 7</div>
-                            <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white text-start">Indagamos sobre la situación
+                            <div className="caja-seccion wp-160 hp-70 text-center fsp-24  f-IntroRustG-Base color-dark">SESIÓN 7</div>
+                            <div className="lh-sm section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white text-start">Indagamos sobre la situación
                                 de los derechos en el mundo</div>
                         </div>
                         <div className="d-flex contenedor-cabecera-v2 ptp-5 psp-30 pep-30 align-self-center justify-content-between w-90">
@@ -92,6 +92,7 @@ function Page031(props) {
 
                                 <div className="row">
                                     <div className="col-6 position-relative">
+                                    <div className="position-absolute top-50 start-100 translate-middle  msp-10 zindex-1"><img src={"images/page_" + pagina + "/flecha_2.svg"} className="" alt="" /></div>
                                         <div className="position-absolute top-0 start-100 translate-middle visible-768 msp--20 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="" alt="" /></div>
                                         <div className="position-absolute top-100 start-0 translate-middle msp-50 mtp--20 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="" alt="" /></div>
                                         <div className="bgc-jack w-100  m-1">
@@ -120,6 +121,7 @@ function Page031(props) {
                                         </div>
                                     </div>
                                     <div className="col-6 position-absolute top-0 start-100 translate-middle msp--170 mtp-20 ">
+                                    <div className="position-absolute top-0 start-100 translate-middle  msp--15 mtp-20 zindex-1"><img src={"images/page_" + pagina + "/clip.svg"} className="wp-30" alt="" /></div>
                                         <div className="rotate-5">
                                             <div className="bgc-makoto w-100 border-style-solid border-1 p-2 box-shadow-simple">
                                                 <div className="f-Ubuntu-L fsp-16 text-center">El derecho que inspirará nuestra obra es:</div>

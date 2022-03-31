@@ -79,7 +79,7 @@ function Page023(props) {
 
 
           <div className="cb-contenedor-mail text-start position-relative">
-            <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 visible-768 zindex-2"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-80" alt="" /></div>
+            <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 visible-768 zindex-5"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-80" alt="" /></div>
             <div className="cb-datos-mail pep-15 psp-10 ptp-10 pbp-10">
               <div className="d-flex mbp-5">
                 <div className="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">De:</div>
@@ -91,7 +91,7 @@ function Page023(props) {
               </div>
               <div className="d-flex">
                 <div className="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">Asunto:</div>
-                <div className="cb-datos-1 psp-10 f-Ubuntu-R fsp-16">Propuesta para una alimentación saludable para el colegio</div>
+                <div className="cb-datos-1 psp-10 f-Ubuntu-R fsp-16">La nutrición es muy importante</div>
               </div>
             </div>
             <div className="cb-texto-mail">

@@ -111,7 +111,7 @@ function Page060(props) {
                                         {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/generales/ticket.svg" className="hp-17 mtp--3 msp-5 mep-5" alt=""/>el recuadro que mejor me represente.</span> */}
                                         <div className="w-100 p-0 pb-3 position-relative">
                                             <div className="position-absolute mtp--40 top-0 start-0 msp-10 mtp--10 mbp-10 f-pixilate-bold fsp-18 lh-sm text-start">¿Cómo me siento?</div>
-                                            <div className="d-flex position-absolute align-items-start w-50  mbp-30 top-0 start-0 msp-10 mtp--20 f-Ubuntu-R fsp-15  lh-sm text-start">Marco la alternativa que más me representa.</div>
+                                            <div className="position-absolute top-0 start-0 msp-10 mtp-0 f-Ubuntu-L fsp-14 lh-sm text-start">Marco la alternativa que más me representa.</div>
                                             <table className="w-100">
                                                 <tbody>
                                                     <tr>

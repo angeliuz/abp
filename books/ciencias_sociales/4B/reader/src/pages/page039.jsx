@@ -29,7 +29,7 @@ function Page039(props) {
                   class="hp-110 position-absolute start-0 top-0 mtp--20 msp--10"
                   alt=""
                 />
-                <div className="bgc-white rounded-p-10 border-style-solid border-1 border-color-android18 w-100 py-1 psp-50 pep-20">
+                <div className="bgc-white rounded-p-10 border-style-solid border-1 border-color-android18 w-100 py-1 psp-50 pep-20 position-relative">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
                     className="p-0 px-1 text-start flex-grow-1 w-60 lhp-35 min-hp-35"
@@ -88,7 +88,7 @@ function Page039(props) {
               </div>
             </div>
 
-            <div className="border-style-solid border-1 border-color-dark bgc-white mtp--45 rounded-p-20 pbp-20 px-3">
+            <div className="border-style-solid border-1 border-color-dark bgc-white mtp--45 rounded-p-20 pbp-20 px-3 ptp-p39">
               <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea mtp-35 lhp-35 min-hp-180" />
             </div>
             <div className="position-absolute top-100 start-100 translate-middle msp--80 mtp--10 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-100" alt="" /></div>

@@ -157,6 +157,8 @@
   --pachelbel:#fff4d4;
   --aister:#edf2d0;
   --jack:#ddf1fd;
+  --klaus:#43b7b3;
+  --ogro:#005c9c;
 }
 
 /* COLORES */
@@ -898,6 +900,14 @@
       color: var(--jack); 
 
     }
+    .color-klaus {
+      color: var(--klaus); 
+
+    }
+    .color-ogro {
+      color: var(--ogro); 
+
+    }
 
 
 
@@ -1409,8 +1419,12 @@
 .border-color-jack {
   border-color: var(--jack) !important;
 }
-
-
+.border-color-klaus {
+  border-color: var(--klaus) !important;
+}
+.border-color-ogro {
+  border-color: var(--ogro) !important;
+}
 /* B
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1899,5 +1913,13 @@
 }
 .bgc-jack {
   background-color: var(--jack);
+
+}
+.bgc-klaus {
+  background-color: var(--klaus);
+
+}
+.bgc-ogro {
+  background-color: var(--ogro);
 
 }
