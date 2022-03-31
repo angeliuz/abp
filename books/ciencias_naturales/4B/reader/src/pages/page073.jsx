@@ -32,6 +32,12 @@ function Page073(props) {
             </div>
           </div>
           {/* END CABECERA VERSIÓN 2 */}
+          <div className="ptp-50 container-titulo-global mbp-30">
+            <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 " + color}>
+            Valoración de lo aprendido y del trabajo realizado
+            </div>
+            
+          </div>
           <div className=" container-titulo-global mbp-∫0">
             <div className="d-flex">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/img_002.svg" alt=""  /> */}

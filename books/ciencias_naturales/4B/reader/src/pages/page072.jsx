@@ -8,6 +8,9 @@ function Page072(props) {
 
   const pagina = "072";
   var indexInput = 0;
+  const color = "color-pikachu";
+  const bgc_cajas = "bgc-kokomi";
+  const background = "bgc-pikachu";
 
   return (
     <div className="wrapper bgc-light">
@@ -45,7 +48,12 @@ function Page072(props) {
                 </div>
               </div>  
 
-              <div className="psp-60 color-pikachu text-start f-Ubuntu-R fsp-18 mbp-10">Reflexión final antes de presentar</div>
+              <div className="ptp-50 container-titulo-global mbp-30">
+            <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+            Reflexión final antes de presentar
+            </div>
+            
+          </div>
               {/* ejercicio 2 */}
               <div className="cb-ejercicio-final-p72 justify-content-between">
                 <div className="cb-ejercicio3-p72 psp-20 pep-10 position-relative">

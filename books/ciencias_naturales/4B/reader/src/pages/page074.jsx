@@ -26,7 +26,7 @@ function Page074(props) {
           {/* END CABECERA VERSIÓN 2 */}
 
 
-          <div className={"w-100 " + bgc_cajas + " border-top-style-solid " + borderColor + " border-2 mtp-100 pbp-100 position-relative"}>
+          <div className={"w-100 " + bgc_cajas + " border-top-style-solid " + borderColor + " border-2 mtp-100 pbp-110 position-relative"}>
             <div className="position-absolute top-0 start-100 translate-middle msp--120 mtp--60 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-200" alt="" /></div>
             <div className="position-absolute top-0 start-0 translate-middle msp-100 mtp--30 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-100" alt="" /></div>
             <div className="d-flex flex-column global-margin mtp-30 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
