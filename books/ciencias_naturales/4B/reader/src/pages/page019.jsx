@@ -107,7 +107,7 @@ function Page019(props) {
             <div className="bgc-urien p-2 d-flex rounded-p-10 box-shadow-simple">
               <div className="mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
                 <img
-                  src="/images/page_019/img_011.png"
+                  src="images/page_019/img_011.png"
                   className="position-absolute top-0 start-0 translate-middle msp-5 mtp-5 hp-40 "
                   alt=""
                 />
