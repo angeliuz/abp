@@ -1,12 +1,16 @@
 #svg {
-    position: fixed;
-    top: 20px;
+    position: relative;
+    top: 0px;
     left: 0;
-    width: 100%;
-    height: 100%;
   }
   
-  #star {
+  .linea {
+    stroke: #29e;
+    stroke-width: 20;
+    stroke-linejoin: round;
+    fill: none;
+  }
+  #star2 {
     stroke: #29e;
     stroke-width: 20;
     stroke-linejoin: round;
@@ -17,7 +21,7 @@
     fill: #fff;
     fill-opacity: 0.4;
     stroke-width: 4;
-    stroke: #fff;
+    stroke: #29e;
   }
   
   .marker {
@@ -25,7 +29,6 @@
     stroke: tomato;
     pointer-events: none;
   }
-  
   
   
   a:link, a:visited, a:active {
