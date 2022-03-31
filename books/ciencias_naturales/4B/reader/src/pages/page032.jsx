@@ -36,6 +36,13 @@ function Page032(props) {
           </div>
           <div className="ptp-30 psp-80 pep-60 pbp-100">
             <div className="bgc-white border-style-solid border-2 border-color-ash rounded-tbe-20 position-relative text-start ptp-20 psp-20 pep-20">
+            <div className="position-absolute top-0 start-100 translate-middle ">
+                  <img
+                    src="images/page_032/img_001.png"
+                    className="wp-"
+                    alt=""
+                  />
+                </div>
               <div className="mtp--35 msp--40 position-absolute">
                 <img
                   src="images/page_032/img_003.svg"
@@ -104,6 +111,13 @@ function Page032(props) {
             </div>
             <div className="ptp-30"></div>
             <div className="bgc-white border-style-solid border-2 border-color-pikachu rounded-tbe-20 position-relative text-start ptp-40 psp-20 pep-20">
+            <div className="position-absolute top-100 start-0 translate-middle msp--20 mtp--70 ">
+                  <img
+                    src="images/page_032/img_002.png"
+                    className="wp-"
+                    alt=""
+                  />
+                </div>
               <div className="mtp--55 msp--40 position-absolute">
                 <img
                   src="images/page_032/img_007.svg"

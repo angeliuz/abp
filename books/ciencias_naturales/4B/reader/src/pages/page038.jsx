@@ -79,7 +79,7 @@ function Page038(props) {
 
 
           <div className="msp-80 mep-60 mtp-20 position-relative">
-            <div className="position-absolute top-0 start-100 translate-middle   msp--30 mtp--65 "><img src="images/page_038/img_003.png" className="wp-110" alt="" /></div>
+            <div className="position-absolute top-0 start-100 translate-middle   msp--30 mtp--75 visible-768 "><img src="images/page_038/img_003.png" className="wp-130" alt="" /></div>
             <div className="m-2 border-style-solid border-2 border-color-android18  rounded-p-10 p-2 h-100 w-100 ">
               <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-280" />
             </div>

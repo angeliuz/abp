@@ -284,6 +284,21 @@
 .wp-360 {
   width: 360px;
 }
+.wp-400 {
+  width: 400px;
+}
+.wp-450 {
+  width: 450px;
+}
+.wp-500 {
+  width: 500px;
+}
+.wp-550 {
+  width: 550px;
+}
+.wp-580 {
+  width: 580px;
+}
 
 /* HEIGHT */
 .h-5 {
@@ -529,6 +544,15 @@
 }
 .hp-200 {
   height: 200px;
+}
+.hp-300 {
+  height: 300px;
+}
+.hp-400 {
+  height: 400px;
+}
+.hp-500 {
+  height: 500px;
 }
 
 /* MARGENES */

@@ -49,10 +49,10 @@ function Page039(props) {
 
           <div className="bgc-marcianos border-1 border-color-ken border-style-solid cb-outline-39 cb-calc cb-600 mx-auto psp-10 pep-10 ptp-10 pbp-20 rounded-p-10 position-relative">
             <div className="text-start">¿Qué estoy aprendiendo?</div>
-            <div className="d-flex w-100 psp-10 pep-10 ptp-0 pbp-0">
-              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-35" />
+            <div className="d-flex w-95 psp-10 pep-10 ptp-0 pbp-0">
+              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-90 min-hp-35" />
             </div>
-            {/* <img src="images/page_039/img_001.png" className="position-absolute cb-personaje-p39" alt=""/> */}
+            <img src="images/page_039/img_001.png" className="position-absolute top-50 start-100 translate-middle msp-35 mtp-10 visible-768" alt=""/>
           </div>
           <div className="text-center mtp-5 mbp-5">¿Para qué lo puedo utilizar?</div>
           <div className="cb-600 mx-auto cb-calc">
