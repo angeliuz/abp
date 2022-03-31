@@ -87,7 +87,7 @@ function Page062(props) {
               <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">2</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Propongo a mi equipo una idea para organizar el stand de presentación de la brigada. Luego, justifico mi propuesta.</div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/revista.svg" clasesImagen="cambio hp-35 mtp-20" className="p-0 px-1" /> */}
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_062/img_002.svg" clasesImagen="hp-40 text-center mtp-10 pep-20" className="p-0 px-0" />
+              {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_062/img_002.svg" clasesImagen="hp-40 text-center mtp-10 pep-20" className="p-0 px-0" /> */}
             </div>
           </div>
 
