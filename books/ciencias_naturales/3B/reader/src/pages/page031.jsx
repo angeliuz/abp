@@ -51,8 +51,7 @@ function Page031(props) {
                         <div className="row w-100 p-0 m-0">
 
                             <div className="col-sm-12 col-md-12 position-relative">
-                                <div className="position-absolute top-50 start-0 translate-middle visible-768 zindex-1 msp--20 mtp-0"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-60" alt="" /></div>
-                                <div className="position-absolute top-0 start-100 translate-middle visible-768 zindex-1 msp--50 mtp--10"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-150" alt="" /></div>
+
                                 <div className="d-flex f-Ubuntu-R fsp-20 psp-10 pep-10 mtp-20 text-start">
                                     <div className="color-android18 f-ccdigitaldelivery-bold  fsp-16 mep-5">a.</div>
                                     <div className="f-Ubuntu-R fsp-16 color-dark f-Ubuntu-B w-100 ">¿Qué acciones concretas realiza la organización para cumplir su misión?</div>
