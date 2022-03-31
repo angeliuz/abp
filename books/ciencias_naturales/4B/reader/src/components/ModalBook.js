@@ -106,7 +106,7 @@ function ModalBook(props) {
           <CloseButton variant="white" onClick={handleClose} />
         </Modal.Header>
         <Modal.Body className="d-flex justify-content-center align-items-center video-bgc" style={styles.modalBody}>
-          <div className="wp-120 hp-60 mtp--1 zindex-10 position-absolute top-0 end-0" style={{backgroundColor: "#2D3640"}}></div>
+          <div className="wp-240 hp-60 mtp--1 zindex-10 position-absolute top-0 end-0" style={{backgroundColor: "#2D3640"}}></div>
           <iframe title={id} src={"https://www.smconecta.cl/plataforma/viewers/" + getBookIDPadre() + "?pagina=" + paginaVisor} width="100%" height="100%" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
         </Modal.Body>
       </Modal>

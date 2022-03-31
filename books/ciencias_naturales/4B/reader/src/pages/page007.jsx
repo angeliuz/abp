@@ -52,7 +52,7 @@ function Page007(props) {
             </div>
           </div>
           <div className="cb-contenedor-mail-p07">
-            <div className="cb-invitacion-p07 psp-35 f-Ubuntu-R fsp-16">Invitación a ser brigadista escolar</div>
+            <div className="cb-invitacion-p07 psp-35 f-Ubuntu-R fsp-16"><b>Invitación a ser brigadista escolar</b></div>
             <div className="cb-datos-mail pep-15 psp-10 ptp-10 pbp-10">
               <div className="d-flex justify-content-between mbp-5">
                 <div><img src="images/page_007/img_006.png" className="cb-computador-carta psp-30" alt=""></img></div>

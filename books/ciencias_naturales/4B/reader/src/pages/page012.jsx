@@ -31,7 +31,7 @@ function Page012(props) {
                     <div className="d-flex justify-content-between mbp-5"> 
                       <div><img src="images/page_012/img_003.png" className="cb-computador-carta psp-30" alt=""></img></div> 
                       <div className="cb-datos-12 msp-10 align-items-center d-flex">
-                        <div className="text-start psp-10 f-Ubuntu-R fsp-16"> Estudiantes 4° básico 4_basico@colegio.cl <br /> Para Macarena </div>
+                        <div className="text-start psp-10 f-Ubuntu-R fsp-16"> <b>Estudiantes 4° básico</b> 4_basico@colegio.cl <br /> Para Macarena </div>
                       </div>
                     </div>
                   </div>
@@ -70,7 +70,7 @@ function Page012(props) {
                               <span className="triangulo text-start w-70">¿Qué me resulta mejor cuando trabajo en equipo?</span>
                             </div> 
                             <div className="d-flex w-70">
-                              <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" /> 
+                              <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" /> 
                             </div>
                             
                             <div className="d-flex align-items-start w-100 mbp-15 mtp-20">  
@@ -78,7 +78,7 @@ function Page012(props) {
                               <span className="triangulo w-70 text-start">¿Cuál es la mejor cualidad de cada integrante de mi equipo?</span>
                             </div> 
                             <div className="d-flex w-70">
-                              <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" /> 
+                              <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" /> 
                             </div>
                     </div>
                     
