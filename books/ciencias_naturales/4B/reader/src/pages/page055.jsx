@@ -59,7 +59,8 @@ function Page055(props) {
                                 <div className="border-style-solid border-2 border-color-android18 rounded-p-10">
                                     <div className="d-flex flex-column bgc-white rounded-p-10">
                                         <div className="bgc-azuka w-100 f-Ubuntu-R text-start fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5">
-                                            Presenciar otras simulaciones de emergencia nos sirvió para:
+                                        Preparar un simulacro de emergencia nos
+sirvió para:
                                         </div>
                                         <div className="psp-10 pep-10">
                                             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-190" />

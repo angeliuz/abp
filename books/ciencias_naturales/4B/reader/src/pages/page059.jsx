@@ -46,7 +46,7 @@ function Page059(props) {
 
               <div className="col-12   p-2">
                 <div className="p-1   w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                  <div className="f-Ubuntu-L fsp-16   mep-10 text-start">Después de la investigación, ¿qué pienso sobre la situación de sus derechos en Chile?</div>
+                  <div className="f-Ubuntu-L fsp-16   mep-10 text-start">Nombre de nuestra brigada:</div>
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-40" />
                 </div>
               </div>

@@ -48,7 +48,7 @@ function Page056(props) {
                 </div>
               </div>
 
-              <div className="col-md-12 col-md-6 p-0 m-0 position-relative">
+              <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
                 <div className="d-flex mtp-30 mbp-50 psp-10 pep-10 ptp-0 pbp-0">
                   <div className="row p-0 m-0 w-100">
                     <div className="col-12 p-0 m-0 position-relative">
@@ -67,7 +67,7 @@ function Page056(props) {
                   </div>
                 </div>
               </div>
-              <div className="col-md-12 col-md-6 p-0 m-0 position-relative">
+              <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
                 <div className="d-flex mtp-30 mbp-50 psp-10 pep-10 ptp-0 pbp-0">
                   <div className="row p-0 m-0 w-100">
                     <div className="col-12 p-0 m-0 position-relative">
