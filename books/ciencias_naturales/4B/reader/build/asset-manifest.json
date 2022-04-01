@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/css/main.be44e0e8.chunk.css",
-    "main.js": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/js/main.64f756ab.chunk.js",
-    "main.js.map": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/js/main.64f756ab.chunk.js.map",
+    "main.js": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/js/main.321ca91a.chunk.js",
+    "main.js.map": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/js/main.321ca91a.chunk.js.map",
     "runtime-main.js": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/js/runtime-main.45f01aa6.js",
     "runtime-main.js.map": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/js/runtime-main.45f01aa6.js.map",
     "static/css/2.e6c1e8c5.chunk.css": "/libros_abp/books/ciencias_naturales/4B/reader/build/static/css/2.e6c1e8c5.chunk.css",
@@ -39,6 +39,6 @@
     "static/css/2.e6c1e8c5.chunk.css",
     "static/js/2.b0dbe55f.chunk.js",
     "static/css/main.be44e0e8.chunk.css",
-    "static/js/main.64f756ab.chunk.js"
+    "static/js/main.321ca91a.chunk.js"
   ]
 }
