@@ -95,7 +95,7 @@ function Page045(props) {
                 <div className="bgc-white rounded-p-5 p-2">
                   <div className="bgc-pidgey f-Ubuntu-M fsp-15 text-start text-white wp-90 text-center">Personas</div>
                   <div className="f-Ubuntu-L fsp-15 p-1 text-start mtp-5 min-hp-55">Necesitaré ayuda y colaboración de…</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-185" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-185" />
                 </div>
               </div>
               <div className="col-12 col-md-6 p-1 m-0">
@@ -110,7 +110,7 @@ function Page045(props) {
 
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>ABP &copy; SM</div>
-            <div className="bgc-goku wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+            <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
           </div>
 
           <div className="row w-100 position-absolute caja-flotante2 p-0 m-0 align-items-end" style={{ bottom: 0 }}>

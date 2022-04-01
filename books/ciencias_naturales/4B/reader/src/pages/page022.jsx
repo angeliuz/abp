@@ -139,6 +139,7 @@ function Page022(props) {
                     className="hp-60 position-absolute start-100 top-100 translate-middle"
                     alt=""
                   />
+                  
                 </div>
               </div>
             </div>
@@ -149,6 +150,7 @@ function Page022(props) {
               <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-0">
                 {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/generales/ticket.svg" className="hp-17 mtp--3 msp-5 mep-5" alt=""/>el recuadro que mejor me represente.</span> */}
                 <div className="w-100 p-0 pb-3 position-relative">
+                <div className="position-absolute top-50 start-100 translate-middle zindex-1 msp-50 visible-768"><img src={"images/page_" + pagina + "/img_009.png"} className="wp-100" alt="" /></div>
                   <div className="position-absolute top-0 start-0 msp-10 mtp--5 f-pixilate-bold fsp-18 lh-sm text-start">¿Cómo vamos?</div>
 
                   <table className="w-100">
@@ -348,7 +350,7 @@ function Page022(props) {
             >
               ABP &copy; SM
             </div>
-            <div className="bgc-jawa wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">
+            <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">
               {props.numeroPagina(pagina)}
             </div>
           </div>

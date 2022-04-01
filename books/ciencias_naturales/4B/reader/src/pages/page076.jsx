@@ -25,6 +25,7 @@ function Page076(props) {
 
                     {/* contenido DE PAGINA */}
                     <div className="cb-contenedor-ejercicio-1-p76 pep-10 psp-10 ptp-5 pbp-30 mtp-80 position-relative">
+                    <div className="position-absolute top-0 start-100 translate-middle mtp-60 msp--30"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-40" alt="" /></div>
                         <img src="images/page_076/img_002.png" className="cb-triangulo-p76" alt=""></img>
                         <div className="cb-border-b-p76 mtp-20 mbp-30">
                             <p className="cb-texto-final-p76 f-Ubuntu-L fsp-15 mbp-10 text-start fw-700"> Ponernos de acuerdo ha sido:</p>
@@ -107,7 +108,7 @@ function Page076(props) {
                     {/* BEIGN PIE DE PAGINA */}
                     <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
                         <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>ABP &copy; SM</div>
-                        <div className="bgc-goku wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+                        <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
                     </div>
                     {/* END PIE DE PAGINA */}
                 </div>

@@ -214,7 +214,7 @@ function Page075(props) {
               <div className="cb-ejerciciofinal-cajas position-relative">
                 <div className="pep-15 psp-25">
                   <img src="images/page_075/img_006.svg" className="cb-tachuela-p75" alt=""></img>
-                  <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-15"> Lo que más me gustó de trabajar con mi equipo fue:</div>
+                  <div className="text-start ptp-10 pbp-10 f-pixilate-regular fsp-15"> Lo que más me gustó de trabajar con mi equipo fue:</div>
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-270" />
                 </div>
               </div>
@@ -222,7 +222,7 @@ function Page075(props) {
                 <div className="pep-15 psp-25">
                   <img src="images/page_075/img_006.svg" className="cb-tachuela-p75" alt=""></img>
                   <img src="images/page_075/img_005.png" className="cb-botiquin-p75" alt=""></img>
-                  <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-15">Lo que más valoro de mi equipo es:</div>
+                  <div className="text-start ptp-10 pbp-10 f-pixilate-regular fsp-15">Lo que más valoro de mi equipo es:</div>
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-270" />
                 </div>
               </div>
@@ -233,7 +233,7 @@ function Page075(props) {
           {/* BEIGN PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>ABP &copy; SM</div>
-            <div className="bgc-goku wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+            <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
           </div>
           {/* END PIE DE PAGINA */}
         </div>

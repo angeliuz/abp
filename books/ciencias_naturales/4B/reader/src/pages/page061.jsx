@@ -31,7 +31,7 @@ function Page061(props) {
           <div className="d-flex global-margin mtp-20 mbp-100 psp-10 pep-10 ptp-10 pbp-10 rounded-p-10 bgc-bobafett">
             <div className="row p-0 m-0 w-100">
               <div className="col-sm-6 col-md-6 p-0 m-0 position-relative">
-
+              <div className="position-absolute top-100 start-0 translate-middle zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
                 <div className="d-flex flex-column align-items-center psp-20 pep-20 ptp-0 pbp-0 border-style-solid border-2 border-color-saitama bgc-white">
 
                   <div className="ptp-0 psp-10 pep-10 mbp-0">

@@ -21,7 +21,7 @@ function Page030(props) {
                 SESIÓN 6
               </div>
               <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">
-                El plan de seguridad del colegio!
+                ¡El plan de seguridad del colegio!
               </div>
             </div>
 
@@ -65,6 +65,13 @@ function Page030(props) {
               </div>
 
               <div className="col-sm-12 col-md-6 position-relative mbp-20">
+              <div className="position-absolute top-0 start-100 translate-middle zindex-1 mtp--60 msp--40 visible-768">
+                  <img
+                    src="images/page_030/img_002.png"
+                    className="wp-"
+                    alt=""
+                  />
+                </div>
                 <div className="position-absolute top-0 start-0 translate-middle  zindex-1 mtp-10 msp-100 ">
                   <img
                     src="images/page_030/img_004.png"

@@ -172,7 +172,7 @@ function Page020(props) {
 
 
 
-            <div className="global-margin mbp-50 psp-0 pep-0 ptp-10 pbp-10  f-Ubuntu-L fsp-14 rounded-p-10 ">
+            <div className="global-margin mbp-0 psp-0 pep-0 ptp-10 pbp-10  f-Ubuntu-L fsp-14 rounded-p-10 ">
               <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-0">
                 {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/generales/ticket.svg" className="hp-17 mtp--3 msp-5 mep-5" alt=""/>el recuadro que mejor me represente.</span> */}
                 <div className="w-100 p-0 pb-3 position-relative">
@@ -327,7 +327,7 @@ function Page020(props) {
             >
               ABP &copy; SM
             </div>
-            <div className="bgc-jawa wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">
+            <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">
               {props.numeroPagina(pagina)}
             </div>
           </div>
