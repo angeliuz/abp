@@ -24,7 +24,7 @@ function Page073(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className="cabecera-v2 bgc-pikachu d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja wp-150 text-center fsp-24 f-IntroRustG-Base color-pikachu">SESIÓN 16</div>
+              <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-pikachu fsp-24 f-IntroRustG-Base">SESIÓN 16</div>
               <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¿Qué aprendimos?</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">

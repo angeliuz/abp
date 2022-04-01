@@ -99,8 +99,8 @@ function Page062(props) {
             <div className=" position-absolute top-100 start-50 translate-middle "><img className="hp-100  mtp-60" src="images/page_062/img_006.png" alt="" /></div>
             <div className="col-sm-12 col-md-6  position relative ">
               
-              <div className="border-style-solid mtp-25 border-2 border-color-arlo rounded-p-10 hp-260 w-100 hp-190  ">
-                <div className="d-flex align-items-center justify-content-center  rounded-set-10 bgc-arlo hp-45 pixilate-bold fsp-18 fw-700 color-white ">Mi propuesta de presentación </div>
+              <div className="border-style-solid mtp-25 border-2 border-color-jasper rounded-p-10 hp-260 w-100 hp-190  ">
+                <div className="d-flex align-items-center justify-content-center  rounded-set-10 bgc-jasper hp-45 pixilate-bold fsp-18 fw-700 color-white ">Mi propuesta de presentación </div>
                 <div className="mtp-10 msp-30 mep-30 w-85">    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
               </div>
             </div>
