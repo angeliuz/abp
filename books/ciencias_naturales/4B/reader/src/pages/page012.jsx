@@ -26,7 +26,7 @@ function Page012(props) {
             
             <div className="rounded-p-20 ptp-5 pbp-5 bgc-marcianos mtp-10 global-margin">
                 <div className="cb-contenedor-mail-p12 global-margin">
-                  <div className="cb-invitacion-p12 psp-35 f-Ubuntu-R fsp-16">RE: Invitación a ser brigadista escolar</div>
+                  <div className="cb-invitacion-p12 psp-35 f-Ubuntu-R fsp-16"><b>RE: Invitación a ser brigadista escolar</b></div>
                   <div className="pep-15 psp-10 ptp-10 pbp-10">
                     <div className="d-flex justify-content-between mbp-5"> 
                       <div><img src="images/page_012/img_003.png" className="cb-computador-carta psp-30" alt=""></img></div> 
