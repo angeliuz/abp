@@ -37,7 +37,7 @@ function Page007(props) {
             <div className="d-flex">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/img_002.svg" alt=""  /> */}
               <div className="f-ccdigitaldelivery-bold fsp-35 color-goten">1</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Completo y comparto con mi grupo.</div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Veo el video, leo el correo y respondo.</div>
               <ModalVideo
                 id={"p" + pagina + "_video" + (indexInput += 1)}
                 linkVideo="682622644"
