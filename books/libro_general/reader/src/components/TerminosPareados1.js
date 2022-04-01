@@ -33,9 +33,10 @@ function TerminosPareados1(props) {
 
         //original by Blake Bowen https://codepen.io/osublake/
         linea1 = document.querySelector("#linea1");
-        linea2 = document.querySelector("#linea2");
         markerLayer = document.querySelector("#marker-layer");
         handleLayer = document.querySelector("#handle-layer");
+
+        linea2 = document.querySelector("#linea2");
         markerLayer2 = document.querySelector("#marker-layer2");
         handleLayer2 = document.querySelector("#handle-layer2");
 
@@ -65,15 +66,21 @@ function TerminosPareados1(props) {
 
         var draggable = new Draggable(handle, {
             onDrag: update,
+            onDragEnd: dragEnd,
             onThrowUpdate: update,
             throwProps: true,
             liveSnap: {
                 points: points,
                 radius: 15
             }
+
         });
 
         console.log("draggable: " + draggable);
+    }
+
+    function dragEnd() {
+        console.log("dragEnd");
     }
 
     function createClone(node, parent, point) {
