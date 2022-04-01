@@ -48,7 +48,7 @@ function Page072(props) {
                 </div>
               </div>  
 
-              <div className="ptp-50 container-titulo-global mbp-30">
+              <div className="ptp-0 container-titulo-global mbp-30">
             <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
             Reflexión final antes de presentar
             </div>

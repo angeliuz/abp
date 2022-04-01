@@ -87,7 +87,7 @@ function Page074(props) {
                         </td>
                       </tr>
                       <tr>
-                        <td className={"bgc-white rounded-ts-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                        <td className={"bgc-white rounded-ts-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 ">
                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                             El ambiente de trabajo en mi equipo fue agradable.
@@ -123,7 +123,7 @@ function Page074(props) {
                         </td>
                       </tr>
                       <tr>
-                        <td className={"f-Ubuntu-L fsp-12 text-start p-0 m-0 "}>
+                        <td className={"f-Ubuntu-L fsp-14 text-start p-0 m-0 "}>
                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 bgc-white ">
                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                             Me alegra haber trabajado en este proyecto.
@@ -159,7 +159,7 @@ function Page074(props) {
                         </td>
                       </tr>
                       <tr>
-                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 bgc-white ">
                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                             Me gustó investigar sobre el tema del proyecto.
@@ -195,7 +195,7 @@ function Page074(props) {
                         </td>
                       </tr>
                       <tr>
-                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 bgc-white ">
                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                             Me motivó encontrar soluciones al desafío planteado.
@@ -231,7 +231,7 @@ function Page074(props) {
                         </td>
                       </tr>
                       <tr>
-                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 bgc-white ">
                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                             Estuve tenso y nervioso cuando trabajé con mi equipo.
@@ -267,7 +267,7 @@ function Page074(props) {
                         </td>
                       </tr>
                       <tr>
-                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 bgc-white ">
                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                             Tuve miedo de no hacer bien el trabajo y recibir críticas.
@@ -303,7 +303,7 @@ function Page074(props) {
                         </td>
                       </tr>
                       <tr>
-                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 bgc-white ">
                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                             Confié en mi capacidad de aprender y me valoré.
@@ -339,7 +339,7 @@ function Page074(props) {
                         </td>
                       </tr>
                       <tr>
-                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-bottom-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-bottom-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10">
                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                             Confié en mis compañeros y me ayudaron cuando lo necesité.
