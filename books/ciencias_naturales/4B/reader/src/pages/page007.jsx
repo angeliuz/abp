@@ -51,7 +51,9 @@ function Page007(props) {
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_031/img_002.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
-          <div className="cb-contenedor-mail-p07">
+          <div className="cb-contenedor-mail-p07 position-relative">
+          <div className="position-absolute top-0 start-50 translate-middle mtp-20 msp-120 zindex-1"><img src={"images/page_" + pagina + "/img_008.png"} className="" alt="" /></div>
+          <div className="position-absolute top-0 start-100 translate-middle mtp-20 msp--50 zindex-1 visible-768"><img src={"images/page_" + pagina + "/img_001.png"} className="" alt="" /></div>
             <div className="cb-invitacion-p07 psp-35 f-Ubuntu-R fsp-16"><b>Invitación a ser brigadista escolar</b></div>
             <div className="cb-datos-mail pep-15 psp-10 ptp-10 pbp-10">
               <div className="d-flex justify-content-between mbp-5">

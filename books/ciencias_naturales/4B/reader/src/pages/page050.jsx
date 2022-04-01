@@ -100,50 +100,50 @@ function Page050(props) {
                   <div className="f-Ubuntu-M fsp-15 lh-sm text-start psp-10 w-80">Emergencia</div>
                 </div>
                 <div className="d-flex align-items-center pbp-10">
-                  <div className="wp-30 hp-30">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                  <div className="wp-30 hp-30 border-1 border-style-solid border-color-dark rounded-1 bgc-white">
+                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className=" px-1 text-start flex-grow-1  lhp-30 min-hp-35 text-center" />
                   </div>
                   <div className="w-10 hp-2 bgc-goku"></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm text-start rounded-p-5 psp-10 pep-10 ptp-5 pbp-5 bgc-white w-80">Ocurre un sismo mientras estamos en la sala de clases.</div>
                 </div>
                 <div className="d-flex align-items-center pbp-10">
-                  <div className="wp-30 hp-30">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                <div className="wp-30 hp-30 border-1 border-style-solid border-color-dark rounded-1 bgc-white">
+                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className=" px-1 text-start flex-grow-1  lhp-30 min-hp-35 text-center" />
                   </div>
                   <div className="w-10 hp-2 bgc-goku"></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm text-start rounded-p-5 psp-10 pep-10 ptp-5 pbp-5 bgc-white w-80">Un estudiante se cae al correr por las escaleras durante el recreo.</div>
                 </div>
                 <div className="d-flex align-items-center pbp-10">
-                  <div className="wp-30 hp-30">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                <div className="wp-30 hp-30 border-1 border-style-solid border-color-dark rounded-1 bgc-white">
+                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className=" px-1 text-start flex-grow-1  lhp-30 min-hp-35 text-center" />
                   </div>
                   <div className="w-10 hp-2 bgc-goku"></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm text-start rounded-p-5 psp-10 pep-10 ptp-5 pbp-5 bgc-white w-80">Se rompe un material de vidrio durante un experimento científico.</div>
                 </div>
                 <div className="d-flex align-items-center pbp-10">
-                  <div className="wp-30 hp-30">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                <div className="wp-30 hp-30 border-1 border-style-solid border-color-dark rounded-1 bgc-white">
+                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className=" px-1 text-start flex-grow-1  lhp-30 min-hp-35 text-center" />
                   </div>
                   <div className="w-10 hp-2 bgc-goku"></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm text-start rounded-p-5 psp-10 pep-10 ptp-5 pbp-5 bgc-white w-80">Hay una amago de incendio en la sala de profesores.</div>
                 </div>
                 <div className="d-flex align-items-center pbp-10">
-                  <div className="wp-30 hp-30">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                <div className="wp-30 hp-30 border-1 border-style-solid border-color-dark rounded-1 bgc-white">
+                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className=" px-1 text-start flex-grow-1  lhp-30 min-hp-35 text-center" />
                   </div>
                   <div className="w-10 hp-2 bgc-goku"></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm text-start rounded-p-5 psp-10 pep-10 ptp-5 pbp-5 bgc-white w-80">Se siente olor a gas en el casino del colegio.</div>
                 </div>
                 <div className="d-flex align-items-center pbp-10">
-                  <div className="wp-30 hp-30">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                <div className="wp-30 hp-30 border-1 border-style-solid border-color-dark rounded-1 bgc-white">
+                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className=" px-1 text-start flex-grow-1  lhp-30 min-hp-35 text-center" />
                   </div>
                   <div className="w-10 hp-2 bgc-goku"></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm text-start rounded-p-5 psp-10 pep-10 ptp-5 pbp-5 bgc-white w-80">Un estudiante se siente enfermo durante la clase.</div>
                 </div>
                 <div className="d-flex align-items-center">
-                  <div className="wp-30 hp-30">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                <div className="wp-30 hp-30 border-1 border-style-solid border-color-dark rounded-1 bgc-white">
+                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className=" px-1 text-start flex-grow-1  lhp-30 min-hp-35 text-center" />
                   </div>
                   <div className="w-10 hp-2 bgc-goku"></div>
                   <div className="f-Ubuntu-L fsp-15 lh-sm text-start rounded-p-5 psp-10 pep-10 ptp-5 pbp-5 bgc-white w-80">Se derrama agua caliente en una actividad extraprogramática.</div>

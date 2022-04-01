@@ -124,8 +124,8 @@ function Page036(props) {
               </div>
             </div>
             <div className="row w-100">
-              <div className="col-sm-12 col-md-6 bgc-white mxwp-a sombra border-style-solid border-1 border-color-lightDark position-relative giro-2deg">
-                <div className="giro--2deg">
+              <div className="col-sm-12 col-md-6 bgc-white sombra border-style-solid border-1 border-color-lightDark position-relative giro-2deg">
+                <div className="rotate--1">
                   <div className="d-flex ptp-15 rotate-2">
                     <div className="f-Ubuntu-B color-android18 fsp-18">a.</div>
                     <div className="text-start f-Ubuntu-L psp-10 w-80">
@@ -146,7 +146,7 @@ function Page036(props) {
                 />
               </div>
               <div className="col-sm-12 col-md-6 bgc-white sombra border-style-solid border-1 border-color-lightDark position-relative giro--2deg">
-                <div className="giro-2deg">
+                <div className="rotate-1">
                   <div className="d-flex ptp-15 rotate--2">
                     <div className="f-Ubuntu-B color-android18 fsp-18">b.</div>
                     <div className="text-start f-Ubuntu-L psp-10 w-80">
