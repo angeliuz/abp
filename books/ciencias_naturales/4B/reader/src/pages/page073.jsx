@@ -24,7 +24,7 @@ function Page073(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className="cabecera-v2 bgc-pikachu d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja wp-150 text-center fsp-24 f-IntroRustG-Base color-pikachu">SESIÓN 16</div>
+              <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-pikachu fsp-24 f-IntroRustG-Base">SESIÓN 16</div>
               <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¿Qué aprendimos?</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
@@ -51,11 +51,11 @@ function Page073(props) {
             <div className="w-100 position-relative">
               <img src="images/page_073/img_004.png" className="cb-notamorada-p73" alt=""></img>
               <div className="bgc-kazuha cb-outline-p73 p-3 f-Ubuntu-L fsp-15 border-color-garou cb-caja1" >
-                <p className="cb-psp2 color-pikachu fw-700">¿Qué aprendí?</p>
+                <p className="cb-psp2 color-pikachu fw-700 text-start">¿Qué aprendí?</p>
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
               </div>
               <div className="bgc-marcianos cb-outline-p73 p-3 f-Ubuntu-L fsp-15 border-color-garou cb-caja2-p73" >
-                <p className="color-sektor fw-700">¿Con quién aprendí?</p>
+                <p className="psp-20 color-sektor fw-700 text-start">¿Con quién aprendí?</p>
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 w-100 contenedor-linea lhp-35 min-hp-110" />
               </div>
             </div>
@@ -63,11 +63,11 @@ function Page073(props) {
 
               <div className="bgc-sayu p-3 cb-outline-p73 f-Ubuntu-L fsp-15 border-color-garou cb-caja3 position-relative" >
                 <img src="images/page_073/img_003.png" className="cb-nube-p73" alt=""></img>
-                <p className="cb-psp color-bulma fw-700">¿Cómo aprendí?</p>
+                <p className="cb-psp color-bulma fw-700 text-start">¿Cómo aprendí?</p>
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
               </div>
               <div className="bgc-windu cb-outline-p73 p-3 f-Ubuntu-L fsp-15 border-color-garou cb-caja4" >
-                <p className="cb-psp2 color-saitama fw-700">¿Cómo me he sentido aprendiendo?</p>
+                <p className="cb-psp2 color-saitama fw-700 text-start">¿Cómo me he sentido aprendiendo?</p>
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp-10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
               </div>
             </div>
@@ -110,7 +110,7 @@ function Page073(props) {
           <div className="cb-seccion2-p73 text-start mbp-90">
             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
             <div className="mtp-15"> Esto nos hace sentir:</div>
-            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
           </div>
           {/* END ETAPA 4 */}
           {/* PIE DE PAGINA */}

@@ -61,7 +61,7 @@ function Page038(props) {
             {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 "+color}>
                   Plan de trabajo
               </div> */}
-            <div className="d-flex psp-20">
+            <div className="d-flex psp-40">
               <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_002.svg"} alt="" />
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 3
@@ -91,7 +91,7 @@ function Page038(props) {
             {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 "+color}>
         Plan de trabajo
     </div> */}
-            <div className="d-flex psp-20">
+            <div className="d-flex psp-0">
               <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_002.svg"} alt="" />
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 4

@@ -134,6 +134,7 @@
   --naraku:#b0dcec;
   --lizt:#FFF7E6;
   --bach:#F4D0E7;
+  --jasper:#f19eb4;
 }
 
 /* COLORES */
@@ -802,6 +803,9 @@
 .color-bach {
   color: var(--bach);
 }
+.color-jasper {
+  color: var(--jasper);
+}
   
   
   
@@ -1243,6 +1247,10 @@
 .border-color-bach {
   border-color: var(--bach) !important;
 }
+.border-color-jasper {
+  border-color: var(--jasper) !important;
+}
+
 /* B
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1680,4 +1688,7 @@
 }
 .bgc-bach {
   background-color: var(--bach);
+}
+.bgc-jasper {
+  background-color: var(--jasper);
 }

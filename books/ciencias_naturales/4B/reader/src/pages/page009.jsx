@@ -61,7 +61,7 @@ function Page009(props) {
               <div className="wp-30 hp-30">
                 <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
               </div>
-              <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Compartir mi opinión y ser escuchado</div>
+              <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12">Compartir mi opinión y ser escuchado.</div>
             </div>
             <div className="d-flex mbp-10">
               <div className="wp-30 hp-30">
