@@ -42,7 +42,7 @@ function Page025(props) {
                 1
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Leo la revista y completo.
+              Leemos la revista y analizamos la situación.
               </div>
             <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"68"} image={"images/page_" + pagina + "/img_005.svg"} clasesImagen="hp-40 text-center mtp-10" className="p-0 px-0" />
                </div>

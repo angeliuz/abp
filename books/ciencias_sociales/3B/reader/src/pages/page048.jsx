@@ -62,7 +62,7 @@ function Page048(props) {
 
               <div className=" rota-info">
 
-                <div className="position-absolute top-50 start-50 translate-middle w-95 psp-90 pep-110 mep-30  msp-120 mtp--110">
+                <div className="position-absolute top-50 start-50 translate-middle w-95 psp-90 pep-110 mep-30  msp-120 mtp--110 position-relative">
                   <div className="d-flex align-items-center pbp-10">
                     <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 w-100 text-start">Muestro mi texto literario a mis compañeros y decidimos cómo difundirlos en la feria de la diversidad:.</div>
                   </div>
@@ -74,6 +74,7 @@ function Page048(props) {
                     <div className="d-inline wp-30 hp-30 bgc-white"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
                     <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 w-100 text-start ">Haremos varias copias individuales para que podamos compartir con los asistentes a la feria..</div>
                   </div>
+                  <div className="position-absolute top-0 start-100 translate-middle msp--140 mtp--20 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-30" alt="" /></div>
                 </div>
 
               </div>

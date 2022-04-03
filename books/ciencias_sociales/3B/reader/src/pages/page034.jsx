@@ -109,7 +109,7 @@ function Page034(props) {
                     <div className="pep-10 ptp-3"><img src="images/page_034/medialuna.svg" className="hp-15 mbp-5" alt="" /></div>
                     <div className="d-flex w-100">
                       <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 ptp-5">El día que encuestaremos será:</div>
-                      <div className="d-inline wp-120 hp-30 border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                      <div className="d-inline wp-200 hp-30 border-style-solid border-1 border-color-dark bgc-white rounded-1">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
                       </div>
                     </div>
@@ -119,7 +119,7 @@ function Page034(props) {
                     <div className="pep-10 ptp-3"><img src="images/page_034/medialuna.svg" className="hp-15 mbp-5" alt="" /></div>
                     <div className="d-flex w-100">
                       <div className="f-Ubuntu-L fsp-15 lh-sm pep-5 ptp-5">El tiempo que destinaremos para encuestar será:</div>
-                      <div className="d-inline wp-120 hp-30 border-style-solid border-1 border-color-dark bgc-white rounded-1">
+                      <div className="d-inline wp-200 hp-30 border-style-solid border-1 border-color-dark bgc-white rounded-1">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-center flex-grow-1 lhp-30 min-hp-35" />
                       </div>
                     </div>

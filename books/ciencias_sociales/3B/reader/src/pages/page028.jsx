@@ -25,7 +25,7 @@ function Page028(props) {
             <div className="row p-0 m-0">
               <div className="col-6">
                 <div className="ptp-10 mbp-0">
-                  <div className="d-flex">
+                  <div className="d-flex msp--40">
                     <img
                       className="hp-20 align-center mt-3 me-2 mb-2"
                       src="images/page_028/img_001.svg"

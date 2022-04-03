@@ -30,7 +30,7 @@ function Page013(props) {
             <div className="f-Ubuntu-B color-bulma fsp-18 text-left">
               Conociendo conceptos
             </div>
-            <div className="row">
+            <div className="row w-100">
               <div className="col-md-6 psp-20">
                 <div className="d-flex">
                   <img
@@ -82,7 +82,7 @@ function Page013(props) {
                 Completo la tabla.
               </div>
             </div>
-            <div className="row pbp-50 f-Ubuntu-R">
+            <div className="row pbp-50 w-100-p13 f-Ubuntu-R">
               <div className="col-md-4 pbp-20">
                 <div className="bgc-tshinhan esquina-ts px-2 border-end alto-res ptp-res">
                   <div className="">¿Qué sé sobre la diversidad?</div>
