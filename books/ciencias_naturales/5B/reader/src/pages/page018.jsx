@@ -4,6 +4,7 @@ import ModalBook from "../components/ModalBook";
 import ModalVideo from "../components/ModalVideo";
 import ItemLista from "../components/ItemLista";
 import Check from "../components/Check2";
+import TerminosPareados1 from "../components/TerminosPareados1";
 
 import "./page_018.css";
 
@@ -44,15 +45,15 @@ function Page018(props) {
                             </div>
                             {/* <img src={"images/page_"+pagina+"/img_00.svg"} className="wp-100" alt=""/> */}
                             <ModalVideo
-                                            id={"p" + pagina + "_video" + (indexInput += 1)}
-                                            linkVideo="682623124"
-                                            tituloVideo="¡Arcoíris en tu plato! II"
-                                            tipoVideo="vimeo"
-                                            image={"images/generales/play.svg"}
-                                            colorUnidad={background}
-                                            clasesImagen="cambio hp-40 mtp-10"
-                                            className="p-0 px-1"
-                                        />
+                                id={"p" + pagina + "_video" + (indexInput += 1)}
+                                linkVideo="682623124"
+                                tituloVideo="¡Arcoíris en tu plato! II"
+                                tipoVideo="vimeo"
+                                image={"images/generales/play.svg"}
+                                colorUnidad={background}
+                                clasesImagen="cambio hp-40 mtp-10"
+                                className="p-0 px-1"
+                            />
                             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
                             {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
                         </div>
@@ -60,6 +61,26 @@ function Page018(props) {
 
 
                     <div className="d-flex psp-60 pep-60 mtp-20">
+
+                        <div className="d-flex w-100 mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-absolute zindex-10">
+                            <div className="row p-0 m-0 w-100">
+                                <div className="col-12 p-0 m-0 position-relative">
+
+                                    <TerminosPareados1
+                                        anchoSVG="550"
+                                        altoSVG="770"
+                                        totalLineas="5"
+                                        pointsLinea1="158,50 158,50"
+                                        pointsLinea2="158,206 158,206"
+                                        pointsLinea3="158,388 158,388"
+                                        pointsLinea4="158,620 158,620"
+                                        pointsLinea5="158,750 158,750"
+                                    />
+
+                                </div>
+                            </div>
+                        </div>
+
                         <div className="row w-100">
                             <div className="col-6 col-md-6">
                                 <div className="d-flex flex-column pbp-30">
