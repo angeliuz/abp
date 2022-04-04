@@ -96,7 +96,7 @@ function Page062(props) {
 
 
           <div className="row container-row px-5 position-relative mbp-140">
-            <div className=" position-absolute top-100 start-50 translate-middle "><img className="hp-100  mtp-60" src="images/page_062/img_006.png" alt="" /></div>
+            <div className=" position-absolute top-100 start-50 translate-middle visible-768"><img className="hp-130 mtp-30" src="images/page_062/img_006.png" alt="" /></div>
             <div className="col-sm-12 col-md-6  position relative ">
               
               <div className="border-style-solid mtp-25 border-2 border-color-jasper rounded-p-10 hp-260 w-100 hp-190  ">
