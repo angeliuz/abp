@@ -36,7 +36,7 @@ function Page044(props) {
                     <div>
                       <span className="fsp-16 text-start f-pixilate-regular">
                         <span className="fsp-16 f-IntroRustG-Base text-start">CONOCER </span>
-                        <br /> las tareas <br /> de la brigada.
+                        las tareas <br /> de la brigada.
                       </span>
                     </div>
                   </div>
