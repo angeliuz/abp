@@ -23,74 +23,6 @@ function Page002() {
     const borderColorTabla = "border-color-genos"
     const bgc_cajas = "bgc-genos";
 
-    var indexTitulo = 1;
-
-    const [linea1, setLinea1] = useState({ x1: "0", y1: "0", x2: "0", y2: "0" });
-    const [seleccion, setSeleccion] = useState({ a: "", b: "" });
-
-
-
-    useEffect(() => {
-        dibujaLinea1();
-        console.log(seleccion);
-        console.log(linea1);
-
-    }, [seleccion, linea1, setLinea1]);
-
-
-    function dibujaLinea1() {
-        //setLinea1({ x1: linea1.x1, y1: linea1.y1, x2: linea1.x2, y2: linea1.y2 });
-        console.log("dibujaLinea1");
-
-        return (
-            <div className="position-absolute top-0 start-0 w-100 user-select-none">
-                <svg version="1.1" width="100%" height="100%">
-                    <line x1={linea1.x1} y1={linea1.y1} x2={linea1.x2} y2={linea1.y2} stroke="orange" strokeWidth="5" />
-                </svg>
-            </div>
-        )
-    }
-
-    function handleClick(e) {
-        const elem = e.target;
-
-        console.log(elem)
-        if (seleccion.a === "") {
-            setSeleccion(prevState => {
-                return {
-                    ...prevState,
-                    a: e.target
-                };
-            });
-        } else {
-            if (seleccion.b === "") {
-                setSeleccion(prevState => {
-                    return {
-                        ...prevState,
-                        b: e.target
-                    };
-                });
-                setLinea1(prevState => {
-                    return {
-                        x1: seleccion.a.offsetLeft,
-                        y1: seleccion.a.offsetTop,
-                        x2: e.target.offsetLeft,
-                        y2: e.target.offsetTop
-                    };
-                });
-            } else {
-                setSeleccion({ a: "", b: "" });
-                setLinea1({ x1: "0", y1: "0", x2: "0", y2: "0" });
-            }
-        }
-    }
-
-    function superSet(a, b) {
-        console.log("superSet: " + seleccion.a + " " + seleccion.b)
-        setLinea1({ x1: seleccion.a.offsetLeft, y1: seleccion.a.offsetTop, x2: seleccion.b.offsetLeft, y2: seleccion.b.offsetTop });
-    }
-
-
 
     return (
         <div className="wrapper bgc-light">
@@ -125,41 +57,6 @@ function Page002() {
 
 
 
-                    {/* <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-100 position-absolute w-100 zindex-10 bgc-yellow">
-                        <div className="row p-0 m-0 w-100">
-                            <div className="col-12 p-0 m-0 position-relative">
-
-                                {dibujaLinea1()}
-
-                                <div id="a1" onClick={handleClick} className="position-absolute top-50 start-0 translate-middle msp-100 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
-                                <div id="b1" onClick={handleClick} className="position-absolute top-50 start-100 translate-middle msp--100 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
-                                <div id="a2" onClick={handleClick} className="position-absolute top-50 start-0 translate-middle msp-100 mtp-70 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
-                                <div id="b2" onClick={handleClick} className="position-absolute top-50 start-100 translate-middle msp--100 mtp-70 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
-
-                                <div>
-                                    <svg>
-                                        <path stroke="black" d="M 0 0 L 0 100" />
-                                    </svg>
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div> */}
-
-
-
-                    <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
-                        <div className="row p-0 m-0 w-100">
-                            <div className="col-12 p-0 m-0 position-relative">
-
-
-
-
-                            </div>
-                        </div>
-                    </div>
-
 
 
                     <div className="d-flex position-relative">
@@ -172,8 +69,11 @@ function Page002() {
                                     <TerminosPareados1
                                         anchoSVG="550"
                                         altoSVG="580"
-                                        totalLineas="2"
-                                        linea1="240,50 240,50"
+                                        totalLineas="4"
+                                        pointsLinea1="240,50 240,50"
+                                        pointsLinea2="240,195 240,195"
+                                        pointsLinea3="240,350 240,350"
+                                        pointsLinea4="240,493 240,493"
                                     />
 
 
@@ -188,7 +88,7 @@ function Page002() {
                                     <div className="d-flex flex-column pbp-30">
                                         <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-R fsp-14 w-90 position-relative bgc-draco rounded-p-10 min-hp-100 d-flex center-center text-start">
                                             Investigar sobre el destino de los desechos para realizar infografía.
-                                            <div id="a1" onClick={handleClick} className="A position-absolute top-50 start-100 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
+                                            <div className="A position-absolute top-50 start-100 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-0 border-color-dark rounded-circle"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -196,7 +96,7 @@ function Page002() {
                                     <div className="d-flex flex-column justify-content-center ptp-30 pbp-30">
                                         <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-R fsp-14 w-60 position-relative bgc-quigon rounded-p-10 min-hp-50 d-flex center-center align-self-end text-center">
                                             Creación
-                                            <div id="b1" onClick={handleClick} className="B position-absolute top-50 start-0 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
+                                            <div className="B position-absolute top-50 start-0 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-0 border-color-dark rounded-circle"></div>
                                         </div>
                                     </div>
 
@@ -205,7 +105,7 @@ function Page002() {
                                     <div className="d-flex flex-column pbp-30">
                                         <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-R fsp-14 w-90 position-relative bgc-draco rounded-p-10 min-hp-100 d-flex center-center text-start">
                                             Crear modelos de objetos que nos ayudan a reutilizar o reciclar para presentarlos en la feria.
-                                            <div id="a2" onClick={handleClick} className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
+                                            <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-0 border-color-dark rounded-circle"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -213,7 +113,7 @@ function Page002() {
                                     <div className="d-flex flex-column justify-content-center ptp-30 pbp-30">
                                         <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-R fsp-14 w-60 position-relative bgc-woody rounded-p-10 min-hp-50 d-flex center-center align-self-end text-center">
                                             Experimentación
-                                            <div id="b2" onClick={handleClick} className="C position-absolute top-50 start-0 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
+                                            <div className="C position-absolute top-50 start-0 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-0 border-color-dark rounded-circle"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -221,7 +121,7 @@ function Page002() {
                                     <div className="d-flex flex-column pbp-30">
                                         <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-R fsp-14 w-90 position-relative bgc-draco rounded-p-10 min-hp-100 d-flex center-center text-start">
                                             Realizar una encuesta para conocer qué sabe de reciclaje la comunidad escolar.
-                                            <div className="D position-absolute top-50 start-100 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
+                                            <div className="D position-absolute top-50 start-100 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-0 border-color-dark rounded-circle"></div>
                                         </div>
                                     </div>
 
@@ -230,7 +130,7 @@ function Page002() {
                                     <div className="d-flex flex-column justify-content-center ptp-30 pbp-30">
                                         <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-R fsp-14 w-60 position-relative bgc-leono rounded-p-10 min-hp-50 d-flex center-center align-self-end text-center">
                                             Difusión
-                                            <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
+                                            <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-0 border-color-dark rounded-circle"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -238,7 +138,7 @@ function Page002() {
                                     <div className="d-flex flex-column pbp-30">
                                         <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-R fsp-14 w-90 position-relative bgc-draco rounded-p-10 min-hp-100 d-flex center-center text-start">
                                             <span >Presentar a nuestra comunidad la feria <i>Héroes del medioambiente</ i>.</span>
-                                            <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
+                                            <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-0 border-color-dark rounded-circle"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -246,7 +146,7 @@ function Page002() {
                                     <div className="d-flex flex-column justify-content-center ptp-30 pbp-30">
                                         <div className="psp-20 pep-20 ptp-20 pbp-20 f-Ubuntu-R fsp-14 w-60 position-relative bgc-gohan rounded-p-10 min-hp-50 d-flex center-center align-self-end text-center">
                                             Investigación
-                                            <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-1 border-color-dark rounded-circle"></div>
+                                            <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 wp-25 hp-25 bgc-white border-style-solid border-0 border-color-dark rounded-circle"></div>
                                         </div>
                                     </div>
                                 </div>
