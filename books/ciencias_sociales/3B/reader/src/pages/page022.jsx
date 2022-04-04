@@ -47,10 +47,12 @@ function Page022(props) {
           <div className="d-flex psp-60 pep-60">
             <div className="row  w-100">
               <div className="col-3"></div>
-              <div className="col-6">
+              <div className="col-6 position-relative">
                 <div className="w-100 bgc-beethoven border-color-ken border-style-solid border-2 f-Ubuntu-R fsp-18 ptp-10 pbp-10 psp-10 pep-10 text-center mtp-10 rounded-p-10">
                   Los dos derechos que más me llamaron la atención son…
                 </div>
+                <div className="position-absolute top-50 start-0 translate-middle msp--28 mtp-40 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-80" alt="" /></div>
+                <div className="position-absolute top-50 start-100 translate-middle msp-28 mtp-40 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_008.png"} className="wp-80" alt="" /></div>
               </div>
               <div className="col-3"></div>
 
