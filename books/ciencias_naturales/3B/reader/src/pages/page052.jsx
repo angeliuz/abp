@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import Check from "../components/Check";
+import TerminosPareados1 from "../components/TerminosPareados1";
 
 import "./page_052.css";
 
@@ -43,7 +44,27 @@ function Page052(props) {
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
+          <div className="d-flex position-relative">
 
+            <div className="d-flex w-100 mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-absolute zindex-10">
+              <div className="row p-0 m-0 w-100">
+                <div className="col-12 p-0 m-0 position-relative">
+
+
+                  <TerminosPareados1
+                    anchoSVG="550"
+                    altoSVG="580"
+                    totalLineas="4"
+                    pointsLinea1="240,50 240,50"
+                    pointsLinea2="240,195 240,195"
+                    pointsLinea3="240,350 240,350"
+                    pointsLinea4="240,493 240,493"
+                  />
+
+
+                </div>
+              </div>
+            </div>
           <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-8 p-0 m-0 position-relative">
@@ -68,6 +89,7 @@ function Page052(props) {
                 </div>
               </div>
             </div>
+          </div>
           </div>
 
           <div className="ptp-50 container-titulo-global mbp-0">

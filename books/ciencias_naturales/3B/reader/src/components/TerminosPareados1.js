@@ -57,7 +57,7 @@ function TerminosPareados1(props) {
     }
 
     function createHandle(point, ml, hl, markerDef, handleDef, points, indice) {
-        
+
         var marker = createClone(markerDef, ml, point);
         var handle = createClone(handleDef, hl, point);
         var update = function () { updateDrag(point, this) };
@@ -76,7 +76,10 @@ function TerminosPareados1(props) {
 
         });
 
-        draggable.applyBounds({minX:20, minY:20, maxX:530, maxY:560})
+        var maxX = anchoSVG -20;
+        var maxY = altoSVG -20;
+
+        draggable.applyBounds({minX:20, minY:20, maxX:{maxX}, maxY:{maxY}})
 
     }
 
