@@ -123,7 +123,7 @@ function Page018(props) {
                         </div>
                     </div>
                     <div className="bgc-buzz border-style-solid border-color-bulma border-solo-top pbp-20">
-                        <div className="psp-60 pep-60 ptp-30 pbp-40">
+                        <div className="psp-60 pep-140 ptp-30 pbp-40">
                             <div className=" mtp--5 f-pixilate-bold fsp-18 msp-15 lh-sm text-start">¿Cómo voy?</div>
                             <div className=" block-bottom  pb-3 psp-15 ptp-10 pep-20 f-Ubuntu-L bgc-white fsp-13 rounded-p-20 position-relative">
                                 <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
@@ -157,15 +157,20 @@ function Page018(props) {
                                     />
                                 </div>
                                 <img src="images/page_020/img_002.png" className="hp-160 position-absolute start-100 top-50 msp--40 mtp--50" alt="" />
+                            <div className="position-absolute top-50 start-100 translate-middle msp-30 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-90" alt="" /></div>
                             </div>
                         </div>
 
-                        <div className="global-margin mbp-50 psp-0 pep-0 ptp-10 pbp-10  f-Ubuntu-L fsp-13 rounded-p-10 ">
+                        <div className="global-margin mbp-50 psp-0 pep-0 ptp-10 pbp-10  f-Ubuntu-L fsp-15 rounded-p-10 ">
                             <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-0">
                                 {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/generales/ticket.svg" className="hp-17 mtp--3 msp-5 mep-5" alt=""/>el recuadro que mejor me represente.</span> */}
                                 <div className="w-100 p-0 pb-3 position-relative">
                                     <div className="position-absolute top-0 start-0 msp-10 mtp--5 f-pixilate-bold fsp-18 lh-sm text-start">¿Cómo me siento?</div>
+                                    <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 mtp-10 fsp-15 mbp--30">
+                                        Marco la alternativa que más me representa.
+                                    </div>
                                     <table className="w-100">
+                                    
                                         <tbody>
                                             <tr>
                                                 <td> </td>
