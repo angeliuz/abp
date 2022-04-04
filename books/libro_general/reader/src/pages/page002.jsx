@@ -173,7 +173,8 @@ function Page002() {
                                         anchoSVG="550"
                                         altoSVG="580"
                                         totalLineas="2"
-                                        linea1="240,50 240,50"
+                                        pointsLinea1="240,50 240,50"
+                                        pointsLinea2="240,195 240,195"
                                     />
 
 
