@@ -109,7 +109,7 @@ function TerminosPareados1(props) {
 
     return (
         <div>
-            <svg id="svg" viewBox={"0 0 " + anchoSVG + " " + altoSVG} width={anchoSVG} height={altoSVG} preserveAspectRatio="xMinYMin meet" className="bgc-red">
+            <svg id="svg" viewBox={"0 0 " + anchoSVG + " " + altoSVG} width={anchoSVG} height={altoSVG} preserveAspectRatio="xMinYMin meet">
 
                 <defs>
                     <circle className="handle" r="10" />
