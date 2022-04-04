@@ -57,7 +57,7 @@ function TerminosPareados1(props) {
     }
 
     function createHandle(point, ml, hl, markerDef, handleDef, points, indice) {
-        
+
         var marker = createClone(markerDef, ml, point);
         var handle = createClone(handleDef, hl, point);
         var update = function () { updateDrag(point, this) };
@@ -69,10 +69,10 @@ function TerminosPareados1(props) {
             onDragEnd: function () { dragEnd(point, this, points, indice) },
             onThrowUpdate: update,
             throwProps: true,
-            liveSnap: {
-                points: points,
-                radius: 15
-            }
+            // liveSnap: {
+            //     points: points,
+            //     radius: 15
+            // }
 
         });
 

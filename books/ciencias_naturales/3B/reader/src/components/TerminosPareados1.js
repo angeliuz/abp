@@ -69,10 +69,10 @@ function TerminosPareados1(props) {
             onDragEnd: function () { dragEnd(point, this, points, indice) },
             onThrowUpdate: update,
             throwProps: true,
-            liveSnap: {
-                points: points,
-                radius: 15
-            }
+            // liveSnap: {
+            //     points: points,
+            //     radius: 15
+            // }
 
         });
 
