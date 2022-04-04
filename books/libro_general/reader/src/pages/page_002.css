@@ -9,6 +9,7 @@
     stroke-width: 20;
     stroke-linejoin: round;
     fill: none;
+    
   }
   #star2 {
     stroke: #29e;
@@ -22,6 +23,7 @@
     fill-opacity: 0.4;
     stroke-width: 4;
     stroke: #29e;
+    
   }
   
   .marker {

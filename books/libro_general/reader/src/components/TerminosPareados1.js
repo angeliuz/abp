@@ -57,13 +57,14 @@ function TerminosPareados1(props) {
     }
 
     function createHandle(point, ml, hl, markerDef, handleDef, points, indice) {
-
-
+        
         var marker = createClone(markerDef, ml, point);
         var handle = createClone(handleDef, hl, point);
         var update = function () { updateDrag(point, this) };
 
         var draggable = new Draggable(handle, {
+            bounds:"#svg",
+            applyBounds:true,
             onDrag: update,
             onDragEnd: function () { dragEnd(point, this, points, indice) },
             onThrowUpdate: update,
@@ -74,6 +75,8 @@ function TerminosPareados1(props) {
             }
 
         });
+
+        draggable.applyBounds({minX:20, minY:20, maxX:530, maxY:560})
 
     }
 
@@ -90,7 +93,7 @@ function TerminosPareados1(props) {
     function updateDrag(point, element) {
         point.x = element.x;
         point.y = element.y;
-        console.log("update")
+        console.log("update: "+point.x+" "+point.y);
     }
 
     function createClone(node, parent, point) {
@@ -100,12 +103,7 @@ function TerminosPareados1(props) {
         return element;
     }
 
-    // function constructorSVG() {
-    //     return (
 
-    //     )
-    // }
-    // init();
     return (
         <div>
             <svg id="svg" viewBox={"0 0 " + anchoSVG + " " + altoSVG} width={anchoSVG} height={altoSVG} preserveAspectRatio="xMinYMin meet">
