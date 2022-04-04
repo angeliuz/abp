@@ -84,7 +84,7 @@ function Page025(props) {
 
               <div className="col-md-4 position-relative justify-content-center align-items-center ptp-10 pbp-10">
                 <div className="position-absolute flecha-p25 translate-middle msp-3 mtp-0 zindex-1 ">
-                  <img src="images/page_025/img_003.svg" className="wp-30 giro90-res" alt="" />
+                  <img src="images/page_025/img_002.svg" className="wp-30 giro90-res" alt="" />
                 </div>
                 <div className="d-flex justify-content-center w-100 ">
                   <div className="bgc-android18 w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
@@ -135,7 +135,7 @@ function Page025(props) {
 
               <div className="col-md-4 position-relative justify-content-center align-items-center ptp-10 pbp-10">
                 <div className="position-absolute flecha-p25 translate-middle msp-3 mtp-0 zindex-1 ">
-                  <img src="images/page_025/img_003.svg" className="wp-30 giro90-res" alt="" />
+                  <img src="images/page_025/img_002.svg" className="wp-30 giro90-res" alt="" />
                 </div>
                 <div className="d-flex justify-content-center w-100 invisible-768 ">
                   <div className="bgc-android18 w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
@@ -182,7 +182,7 @@ function Page025(props) {
 
               <div className="col-md-4 position-relative justify-content-center align-items-center ptp-10 pbp-10">
                 <div className="position-absolute flecha-p25 translate-middle msp-3 mtp-0 zindex-1 ">
-                  <img src="images/page_025/img_003.svg" className="wp-30 giro90-res" alt="" />
+                  <img src="images/page_025/img_002.svg" className="wp-30 giro90-res" alt="" />
                 </div>
                 <div className="d-flex justify-content-center w-100 invisible-768 ">
                   <div className="bgc-android18 w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">

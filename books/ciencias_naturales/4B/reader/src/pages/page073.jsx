@@ -87,18 +87,23 @@ function Page073(props) {
           </div>
           {/* END ETAPA 2 */}
           {/* ETAPA 3*/}
-          <div className=" container-titulo-global mbp-∫0">
+          <div className=" container-titulo-global mbp-20 mep-40 mtp-20">
             <div className="d-flex">
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pikachu">3</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Creemos que nos faltó o pudimos mejorar en:  </div>
-            </div>
-          </div>
-          <div className="cb-seccion2-p73 text-start position-relative">
+              <div className="col-12 bgc-azuka rounded-p-10 ">
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start ">Creemos que nos faltó o pudimos mejorar en:  </div>
+              <div className="cb-seccion2-p73 text-start position-relative">
             <img src="images/page_073/img_005.png" className="cb-doctora-p73" alt=""></img>
             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
             <div className="mtp-15"> porque:</div>
-            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
           </div>
+              </div>
+              
+            </div>
+            
+          </div>
+          
           {/* END ETAPA 3 */}
           {/* ETAPA 4*/}
           <div className=" container-titulo-global mbp-∫0">
