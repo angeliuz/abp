@@ -142,7 +142,7 @@ function Page034(props) {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className={"bgc-white rounded-ts-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-1 " + borderColorTabla}>
+                                                <td className={"bgc-white rounded-ts-10 f-Ubuntu-L fsp-15 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-1 " + borderColorTabla}>
                                                     <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 ">
                                                         <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                                                         Me gusta investigar sobre el tema del proyecto.
@@ -171,7 +171,7 @@ function Page034(props) {
                                             </tr>
 
                                             <tr>
-                                                <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-bottom-hidden border-left-hidden border-right-hidden border-1 " + borderColorTabla}>
+                                                <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-15 text-start p-0 m-0 border-style-solid border-bottom-hidden border-left-hidden border-right-hidden border-1 " + borderColorTabla}>
                                                     <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10">
                                                         <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                                                         Tengo ganas de encontrar soluciones al desafío planteado.

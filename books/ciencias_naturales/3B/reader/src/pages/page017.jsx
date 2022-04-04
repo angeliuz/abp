@@ -60,8 +60,10 @@ function Page017(props) {
               <div className="col-sm-12 col-md-6 position-relative">
                 <div className="position-absolute top-50 start-0 msp-0 mtp-10"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-30 " alt="" /></div>
                 <div className="d-flex center-center bgc-fondo-1 pbp-30 ptp-20">
-                  <div className="ptp-10 center-center">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                  <div className="ptp-10 center-center ">
+                    <div className="hp-35 wp-35 bgc-white rounded-10 border-style-solid border-1 border-color-dark">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-center flex-grow-1  lhp-35 min-hp-35" />
+                  </div>
                   </div>
                   <div className="mtp-10 psp-20 pep-20 ptp-10 pbp-10 f-Ubuntu-R fsp-14 wp-200 position-relative  rounded-p-10 min-hp-100 d-flex center-center text-start">
                     Planificamos el trabajo.
@@ -71,8 +73,8 @@ function Page017(props) {
               <div className="col-sm-12 col-md-6 position-relative">
                 <div className="position-absolute top-0 start-100 msp--60 mtp--70"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-80 " alt="" /></div>
                 <div className="d-flex center-center bgc-fondo-2 pbp-30 ptp-20">
-                  <div className="wp-30 hp-30">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                <div className="hp-35 wp-35 bgc-white rounded-10 border-style-solid border-1 border-color-dark">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-center flex-grow-1  lhp-35 min-hp-35" />
                   </div>
                   <div className="mtp-10 psp-20 pep-20 ptp-10 pbp-10 f-Ubuntu-R fsp-14 wp-200 position-relative  rounded-p-10 min-hp-100 d-flex center-center text-start">
                     Realizamos una encuesta.
@@ -82,8 +84,8 @@ function Page017(props) {
 
               <div className="col-sm-12 col-md-6 ">
                 <div className="d-flex center-center bgc-fondo-3 pbp-30 ptp-20">
-                  <div className="wp-30 hp-30">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                <div className="hp-35 wp-35 bgc-white rounded-10 border-style-solid border-1 border-color-dark">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-center flex-grow-1  lhp-35 min-hp-35" />
                   </div>
                   <div className="mtp-10 psp-20 pep-20 ptp-10 pbp-10 f-Ubuntu-R fsp-14 wp-200 position-relative  rounded-p-10 min-hp-100 d-flex center-center text-start">
                     Celebramos nuestra feria.
@@ -92,8 +94,8 @@ function Page017(props) {
               </div>
               <div className="col-sm-12 col-md-6 ">
                 <div className="d-flex center-center bgc-fondo-4 pbp-30 ptp-20">
-                  <div className="wp-30 hp-30">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                <div className="hp-35 wp-35 bgc-white rounded-10 border-style-solid border-1 border-color-dark">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-center flex-grow-1  lhp-35 min-hp-35" />
                   </div>
                   <div className="mtp-10 psp-20 pep-20 ptp-10 pbp-10 f-Ubuntu-R fsp-14 wp-200 position-relative  rounded-p-10 min-hp-100 d-flex center-center text-start">
                     Investigamos y aprendemos sobre el destino de los desechos.
@@ -104,8 +106,8 @@ function Page017(props) {
               <div className="col-sm-12 col-md-6 position-relative">
                 <div className="position-absolute top-50 start-0 msp--20 mtp--10"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-60 " alt="" /></div>
                 <div className="d-flex center-center bgc-fondo-5 pbp-30 ptp-20">
-                  <div className="wp-30 hp-30">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                <div className="hp-35 wp-35 bgc-white rounded-10 border-style-solid border-1 border-color-dark">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-center flex-grow-1  lhp-35 min-hp-35" />
                   </div>
                   <div className="mtp-10 psp-20 pep-20 ptp-10 pbp-10 f-Ubuntu-R fsp-14 wp-200 position-relative  rounded-p-10 min-hp-100 d-flex center-center text-start">
                     Creamos los modelos que presentaremos en la feria
@@ -115,8 +117,8 @@ function Page017(props) {
               <div className="col-sm-12 col-md-6 position-relative">
                 <div className="position-absolute top-50 start-100 msp--20 mtp--10"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-60 " alt="" /></div>
                 <div className="d-flex center-center bgc-fondo-6 pbp-30 ptp-20">
-                  <div className="wp-30 hp-30">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                <div className="hp-35 wp-35 bgc-white rounded-10 border-style-solid border-1 border-color-dark">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-center flex-grow-1  lhp-35 min-hp-35" />
                   </div>
                   <div className="mtp-10 psp-20 pep-20 ptp-10 pbp-10 f-Ubuntu-R fsp-14 wp-200 position-relative  rounded-p-10 min-hp-100 d-flex center-center text-start">
                     Realizamos una infografía.
