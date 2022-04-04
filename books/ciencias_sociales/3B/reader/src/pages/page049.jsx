@@ -29,7 +29,7 @@ function Page049(props) {
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/g_i.svg" alt="" /> */}
               <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">1</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Observo la revista y completo.</div>
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"76"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10" className="p-0 px-0" />
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"76"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 psp-15" className="p-0 px-0" />
            {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/img_001.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
             </div>
           </div>
@@ -74,7 +74,7 @@ function Page049(props) {
           <div className="d-flex justify-content-center msp-60 mep-40">
             <div className="row w-100 d-flex justify-content-center ">
 
-              <div className="col-lg-4 col-sm-12 d-flex  m-0 p-0 position-relative ">
+              <div className="col-md-4 d-flex  m-0 p-0 position-relative ">
                 <div className="d-flex ">
                   {/* <img className="hp-15 align-center mt-3 me-2 mb-2" src="images/page_014/img_001.svg" alt="" /> */}
                   <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">2</div>
@@ -83,12 +83,12 @@ function Page049(props) {
                 </div>
               </div>
 
-              <div className="col-lg-8 col-sm-12 d-flex justify-content-center position-relative ptp-20 ">
+              <div className="col-md-8 d-flex position-relative ptp-20 ">
                 <div className="position-absolute top-100 start-0 translate-middle  msp--140 mtp--80 "><img src="images/page_049/img_003.png" className="hp-140 visible-768 " alt="" /></div>
 
                 <div className=" w-100 bgc-hotaru">
 
-                  <div className=" mtp-15 psp-20">
+                  <div className=" mtp-15 psp-20 position-relative">
                     <div className="d-flex align-items-center pbp-10 w-100">
                       <div className="d-inline wp-30 hp-30 bgc-white pb-1">
                       <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
@@ -118,11 +118,11 @@ function Page049(props) {
                       <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
                       <div className="d-inline f-Ubuntu-L text-start fsp-17 lh-sm mt-1 psp-10 lh-sm "> Otra.
                       </div>
-                      <div className="w-100 max-wp-350 m-0 p-0 ">
+                      <div className="w-100 max-wp-350 m-0 pep-20 ">
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                       </div>
                     </div>
-
+<div className="position-absolute top-0 start-100 translate-middle msp--20 mtp--15 zindex-1"><img src={"images/page_" + pagina + "/clip.png"} className="wp-30" alt="" /></div>
 
                   </div>
                 </div>

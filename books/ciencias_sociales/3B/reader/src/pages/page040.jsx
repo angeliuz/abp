@@ -56,7 +56,7 @@ function Page040(props) {
 
 
 
-          <div className="global-margin mbp-100 psp-0 pep-0 ptp-10 pbp-10 f-Ubuntu-L fsp-13 rounded-p-10">
+          <div className="global-margin mbp-100 psp-0 pep-100 ptp-10 pbp-10 f-Ubuntu-L fsp-13 rounded-p-10">
             <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-0">
               {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/generales/ticket.svg" className="hp-17 mtp--3 msp-5 mep-5" alt=""/>el recuadro que mejor me represente.</span> */}
               <div className="w-100 p-0 pb-3 position-relative">
@@ -226,6 +226,7 @@ function Page040(props) {
                     </tr>
                   </tbody>
                 </table>
+                <div className="position-absolute top-50 start-100 translate-middle msp-60 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/mono.png"} className="wp-120" alt="" /></div>
               </div>
             </div>
           </div>

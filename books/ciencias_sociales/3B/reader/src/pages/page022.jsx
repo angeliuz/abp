@@ -86,7 +86,7 @@ function Page022(props) {
                 </div>
               </div>
 
-              <div className="ptp-10 container-titulo-global mbp-0">
+              <div className="ptp-10 container-titulo-global msp--55 mbp-0">
                 <div className="d-flex msp-10">
                   <img
                     className="hp-20 align-center mt-3 me-2 mb-2"

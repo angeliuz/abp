@@ -49,6 +49,10 @@
   bottom: 440px;
   z-index: 1;
 }
+
+.w-100-p13 {
+  width: 108%;
+}
 @media (max-width: 782px) {
   .alto-res {
     min-height: 90px;
@@ -56,6 +60,7 @@
   .ptp-res {
     padding-top: 20px;
   }
+
 }
 @media (max-width: 767px) {
   .esquina-ts {
@@ -99,5 +104,8 @@
     right: 60px;
     bottom: 920px;
     z-index: 1;
+  }
+  .w-100-p13 {
+    width: 100%;
   }
 }

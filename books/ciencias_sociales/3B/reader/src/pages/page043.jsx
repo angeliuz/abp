@@ -27,7 +27,7 @@ function Page043(props) {
           </div>
           {/* END CABECERA VERSIÓN 2 */}
 
-          <div className="ptp-30 container-titulo-global mbp-40">
+          <div className="ptp-30 container-titulo-global mbp-40 position-relative">
             <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 " + color}>
               Conociendo otras fiestas
             </div>
@@ -37,13 +37,14 @@ function Page043(props) {
                 1
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Completo y comparto con mi grupo.
+              Leo la revista y luego contesto.
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
               <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"71"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10" className="p-0 px-0" />
                       </div>
+                      <div className="position-absolute top-0 start-100 translate-middle msp--160 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="hp-80" alt="" /></div>
           </div>
 
 

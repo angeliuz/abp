@@ -24,10 +24,10 @@ function Page030(props) {
             <div className="row m-0 p-2 w-100 ">
               <div className="col-sm-12 col-md-6 col-lg-6 position-relative">
                 <div className="border-color-tanya mbp-20 mtp-100 p-2 w-100 border-style-solid border-4  bgc-white">
-                  <div className="position-absolute top-0 start-50 translate-middle-x mtp-60">
+                  <div className="position-absolute top-0 start-50 translate-middle-x mtp-80">
                     <img
                       src="images/page_030/img_001.png"
-                      className=" wp-50"
+                      className=" wp-30"
                       alt=""
                     />
                   </div>
@@ -38,7 +38,7 @@ function Page030(props) {
                       alt=""
                     />
                   </div>
-                  <div className="text-start f-Ubuntu-R fsp-15 psp-10">
+                  <div className="text-start f-Ubuntu-R fsp-15 ptp-15 psp-10">
                     Lo que más nos gustó
                     <br /> hacer en esta etapa fue…
                   </div>
@@ -51,10 +51,10 @@ function Page030(props) {
 
               <div className="col-sm-12 col-md-6 col-lg-6 position-relative ">
                 <div className="border-4 border-color-kagome  mbp-20 mtp-100 p-2 w-100 border-style-solid  bgc-white position-relative">
-                  <div className="position-absolute top-0 end-0 mtp--30">
+                  <div className="position-absolute top-0 end-0 mtp--10">
                     <img
                       src="images/page_030/img_001.png"
-                      className=" wp-50"
+                      className=" wp-30"
                       alt=""
                     />
                   </div>
