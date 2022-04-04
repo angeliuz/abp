@@ -345,8 +345,8 @@ function Page022(props) {
             style={{ bottom: 70, right: 0 }}
           >
             <div
-              className="f-Ubuntu-M fsp-10 position-absolute mbp-60 bgc-white"
-              style={{ transform: `rotate(270deg)`, color: "dark" }}
+              className="f-Ubuntu-M fsp-10 position-absolute mbp-60"
+              style={{ transform: `rotate(270deg)`, color: "white" }}
             >
               ABP &copy; SM
             </div>
