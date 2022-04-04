@@ -9,16 +9,13 @@
   stroke-width: 20;
   stroke-linejoin: round;
   fill: none;
-  
 }
-
 
 .handle {
   fill: #fff;
   fill-opacity: 0.4;
   stroke-width: 4;
   stroke: #29e;
-  
 }
 
 .marker {
