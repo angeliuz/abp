@@ -64,7 +64,7 @@ function Page027(props) {
           </div>
 
           <div className="row container-row px-5">
-            <div className="col-12 justify-content-center mtp-10 mbp-70 psp-80 pep-80  position-relative">
+            <div className="col-12 justify-content-center mtp-10 mbp-70 psp-0 pep-0  position-relative">
               {/* <div className="position-absolute top-50 start-0 translate-middle msp-40 mtp-25 visible-768">
                 <img
                   src="images/page_027/img_001.png"
