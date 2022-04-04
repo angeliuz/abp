@@ -7,6 +7,8 @@ gsap.registerPlugin(Draggable);
 
 function TerminosPareados1(props) {
 
+
+    const totalLineas = props.totalLineas;
     const anchoSVG = props.anchoSVG;
     const altoSVG = props.altoSVG;
     const pointsLinea1 = props.pointsLinea1;
@@ -20,93 +22,42 @@ function TerminosPareados1(props) {
     const pointsLinea9 = props.pointsLinea9;
     const pointsLinea10 = props.pointsLinea10;
 
+
     useEffect(() => {
 
         init()
 
     }, []);
 
+    var arregloLineas = [];
+    var arregloMarker = [];
+    var arregloHandle = [];
+    var arregloPoints = [];
 
-
-    var points2 = [];
-    //arrow function
-    // const init = () => {
-    //     console.log("handleDrag");
-
-    //     //original by Blake Bowen https://codepen.io/osublake/
-    //     linea1 = document.querySelector("#linea1");
-    //     markerLayer = document.querySelector("#marker-layer");
-    //     handleLayer = document.querySelector("#handle-layer");
-
-    //     linea2 = document.querySelector("#linea2");
-    //     markerLayer2 = document.querySelector("#marker-layer2");
-    //     handleLayer2 = document.querySelector("#handle-layer2");
-
-
-    //     markerDef = document.querySelector("defs .marker");
-    //     handleDef = document.querySelector("defs .handle");
-
-    //     const arregloLineas = [linea1, linea2, linea3, linea4, linea5, linea6, linea7, linea8, linea9, linea10];
-
-    //     for (var i = 0; i < 1; i++) {
-    //         var point = linea1.points.getItem(i);
-    //         console.log("point");
-    //         console.log(point);
-    //         points[i] = { x: point.x, y: point.y };
-    //         createHandle(point, markerLayer, handleLayer);
-    //     }
-    //     for (var i = 0; i < 1; i++) {
-    //         var point = linea2.points.getItem(i);
-    //         points[i] = { x: point.x, y: point.y };
-    //         createHandle(point, markerLayer2, handleLayer2);
-    //     }
-    // }
     const init = () => {
-        let linea1;
-        let linea2;
-        let linea3;
-        let linea4;
-        let linea5;
-        let linea6;
-        let linea7;
-        let linea8;
-        let linea9;
-        let linea10;
-        var markerDef;
-        var handleDef;
-        var markerLayer;
-        var handleLayer;
-        var markerLayer2;
-        var handleLayer2;
-        var points = [];
+
         console.log("handleDrag");
-        markerDef = document.querySelector("defs .marker");
-        handleDef = document.querySelector("defs .handle");
+        var markerDef = document.querySelector("defs .marker");
+        var handleDef = document.querySelector("defs .handle");
 
-        //original by Blake Bowen https://codepen.io/osublake/
-        linea1 = document.querySelector("#linea1");
-        markerLayer = document.querySelector("#marker-layer");
-        handleLayer = document.querySelector("#handle-layer");
+        arregloLineas = [document.querySelector("#linea1"), document.querySelector("#linea2"), document.querySelector("#linea3"), document.querySelector("#linea4"), document.querySelector("#linea5"), document.querySelector("#linea6"), document.querySelector("#linea7"), document.querySelector("#linea8"), document.querySelector("#linea9"), document.querySelector("#linea10")];
+        arregloMarker = [document.querySelector("#marker-layer1"), document.querySelector("#marker-layer2"), document.querySelector("#marker-layer3"), document.querySelector("#marker-layer4"), document.querySelector("#marker-layer5"), document.querySelector("#marker-layer6"), document.querySelector("#marker-layer7"), document.querySelector("#marker-layer8"), document.querySelector("#marker-layer9"), document.querySelector("#marker-layer10")];
+        arregloHandle = [document.querySelector("#handle-layer1"), document.querySelector("#handle-layer2"), document.querySelector("#handle-layer3"), document.querySelector("#handle-layer4"), document.querySelector("#handle-layer5"), document.querySelector("#handle-layer6"), document.querySelector("#handle-layer7"), document.querySelector("#handle-layer8"), document.querySelector("#handle-layer9"), document.querySelector("#handle-layer10")];
 
-        linea2 = document.querySelector("#linea2");
-        markerLayer2 = document.querySelector("#marker-layer2");
-        handleLayer2 = document.querySelector("#handle-layer2");
+        var points = [];
+        var point = "";
 
-
-
-        const arregloLineas = [linea1, linea2, linea3, linea4, linea5, linea6, linea7, linea8, linea9, linea10];
-
-        for (var i = 0; i < 2; i++) {
-            var point = linea1.points.getItem(i);
-            console.log("point");
-            console.log(point);
-            points[i] = { x: point.x, y: point.y };
-            createHandle(point, markerLayer, handleLayer, markerDef, handleDef, points);
+        for (var i = 0; i < totalLineas; i++) {
+            arregloPoints[i] = arregloLineas[i].points;
+            point = arregloPoints[i].getItem(0);
+            points[0] = { x: point.x, y: point.y };
+            createHandle(point, arregloMarker[i], arregloHandle[i], markerDef, handleDef, points, i);
         }
 
     }
 
-    function createHandle(point, ml, hl, markerDef, handleDef, points) {
+    function createHandle(point, ml, hl, markerDef, handleDef, points, indice) {
+
 
         var marker = createClone(markerDef, ml, point);
         var handle = createClone(handleDef, hl, point);
@@ -114,7 +65,7 @@ function TerminosPareados1(props) {
 
         var draggable = new Draggable(handle, {
             onDrag: update,
-            onDragEnd: function () { dragEnd(point, this, points) },
+            onDragEnd: function () { dragEnd(point, this, points, indice) },
             onThrowUpdate: update,
             throwProps: true,
             liveSnap: {
@@ -124,15 +75,16 @@ function TerminosPareados1(props) {
 
         });
 
-        console.log("draggable: " + draggable);
     }
 
-    function dragEnd(point, element, points) {
+    function dragEnd(point, element, points, indice) {
+        console.log("indice: " + indice);
         point.x = element.x;
         point.y = element.y;
         points[1] = { x: point.x, y: point.y };
-        console.log("dragEnd");
-        console.log(points);
+
+        arregloPoints[indice] = arregloLineas[indice].points;
+        console.log(arregloPoints);
     }
 
     function updateDrag(point, element) {
@@ -153,7 +105,7 @@ function TerminosPareados1(props) {
 
     //     )
     // }
-
+    // init();
     return (
         <div>
             <svg id="svg" viewBox={"0 0 " + anchoSVG + " " + altoSVG} width={anchoSVG} height={altoSVG} preserveAspectRatio="xMinYMin meet">
@@ -164,8 +116,8 @@ function TerminosPareados1(props) {
                 </defs>
 
                 <polygon id="linea1" className="linea" points={pointsLinea1} />
-                <g id="marker-layer"></g>
-                <g id="handle-layer"></g>
+                <g id="marker-layer1"></g>
+                <g id="handle-layer1"></g>
 
                 <polygon id="linea2" className="linea" points={pointsLinea2} />
                 <g id="marker-layer2"></g>
