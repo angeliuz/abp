@@ -29,7 +29,7 @@ function Page057(props) {
           <div className="ptp-0 psp-0 pep-0 mbp-0">
           <div className="ptp-30 psp-60 pbp-20">
             <div className="f-Ubuntu-M fsp-20 color-pikachu text-start">
-              Antes de partir...
+            Evalúo nuestra fiesta
             </div>
           </div>
 
@@ -63,7 +63,7 @@ function Page057(props) {
             
             <div className="ptp-30 psp-60 pbp-20">
             <div className="f-Ubuntu-M fsp-20 color-pikachu text-start">
-              Antes de partir...
+            Reflexiono sobre lo aprendido en este proyecto
             </div>
           </div>
 
