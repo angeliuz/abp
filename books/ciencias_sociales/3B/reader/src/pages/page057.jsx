@@ -80,6 +80,7 @@ function Page057(props) {
                 </div>
 
                 <div className="col-6 p-0 m-0 position-relative">
+                <div className="position-absolute top-0 start-100 translate-middle zindex-1 msp--20 mtp--10 visible-768"><img src="images/page_057/img_003.png" className="wp-80 " alt="" /></div>
                   <div className="bgc-sayu p-3 cb-outline-p57  fsp-15 border-color-garou">
                     <p className="text-start f-pixilate-bold">¿Cómo aprendí?</p>
                     <InputBox

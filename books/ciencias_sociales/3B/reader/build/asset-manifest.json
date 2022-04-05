@@ -1,7 +1,7 @@
 {
-  "main.css": "/libros_abp/books/ciencias_sociales/3B/reader/build/static/css/main.8c42aedf.chunk.css",
-  "main.js": "/libros_abp/books/ciencias_sociales/3B/reader/build/static/js/main.f585352c.chunk.js",
-  "main.js.map": "/libros_abp/books/ciencias_sociales/3B/reader/build/static/js/main.f585352c.chunk.js.map",
+  "main.css": "/libros_abp/books/ciencias_sociales/3B/reader/build/static/css/main.016fd636.chunk.css",
+  "main.js": "/libros_abp/books/ciencias_sociales/3B/reader/build/static/js/main.9170890b.chunk.js",
+  "main.js.map": "/libros_abp/books/ciencias_sociales/3B/reader/build/static/js/main.9170890b.chunk.js.map",
   "static/js/1.66490d72.chunk.js": "/libros_abp/books/ciencias_sociales/3B/reader/build/static/js/1.66490d72.chunk.js",
   "static/js/1.66490d72.chunk.js.map": "/libros_abp/books/ciencias_sociales/3B/reader/build/static/js/1.66490d72.chunk.js.map",
   "static/css/2.60d027ab.chunk.css": "/libros_abp/books/ciencias_sociales/3B/reader/build/static/css/2.60d027ab.chunk.css",
@@ -33,11 +33,11 @@
   "static/media/page_051.css": "/libros_abp/books/ciencias_sociales/3B/reader/build/static/media/fondo_001.16aac0ba.svg",
   "static/media/page_052.css": "/libros_abp/books/ciencias_sociales/3B/reader/build/static/media/fondo_001.f0a97bf3.svg",
   "static/media/page_053.css": "/libros_abp/books/ciencias_sociales/3B/reader/build/static/media/fondo_001.d2af1553.svg",
+  "static/media/page_060.css": "/libros_abp/books/ciencias_sociales/3B/reader/build/static/media/fondo_001.bd831857.svg",
   "static/media/page_059.css": "/libros_abp/books/ciencias_sociales/3B/reader/build/static/media/fondo_005.516a3293.svg",
-  "static/media/page_060.css": "/libros_abp/books/ciencias_sociales/3B/reader/build/static/media/fondo_000.ed932dfb.svg",
-  "static/css/main.8c42aedf.chunk.css.map": "/libros_abp/books/ciencias_sociales/3B/reader/build/static/css/main.8c42aedf.chunk.css.map",
+  "static/css/main.016fd636.chunk.css.map": "/libros_abp/books/ciencias_sociales/3B/reader/build/static/css/main.016fd636.chunk.css.map",
   "static/css/2.60d027ab.chunk.css.map": "/libros_abp/books/ciencias_sociales/3B/reader/build/static/css/2.60d027ab.chunk.css.map",
   "index.html": "/libros_abp/books/ciencias_sociales/3B/reader/build/index.html",
-  "precache-manifest.7d1ec173a7f1438feb643a871cbf48d0.js": "/libros_abp/books/ciencias_sociales/3B/reader/build/precache-manifest.7d1ec173a7f1438feb643a871cbf48d0.js",
+  "precache-manifest.ada892bbe037ac575306369391538c42.js": "/libros_abp/books/ciencias_sociales/3B/reader/build/precache-manifest.ada892bbe037ac575306369391538c42.js",
   "service-worker.js": "/libros_abp/books/ciencias_sociales/3B/reader/build/service-worker.js"
 }
