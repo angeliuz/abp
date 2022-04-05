@@ -9,12 +9,12 @@ import TerminosPareados2 from "../components/TerminosPareados2";
 // import LineTo from 'react-lineto';
 
 
-import "./page_002.css";
+import "./page_003.css";
 
 
 function Page003() {
 
-    const pagina = "002";
+    const pagina = "003";
     var indexInput = 0;
     const etapa = "1"
     const background = "bgc-goten";

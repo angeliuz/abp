@@ -7,7 +7,7 @@ import "./page_004.css";
 
 function Page004() {
 
-    const pagina = "003";
+    const pagina = "004";
     var indexInput = 0;
     const etapa = "1"
     const background = "bgc-goten";

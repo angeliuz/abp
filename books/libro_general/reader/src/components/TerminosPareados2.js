@@ -40,7 +40,7 @@ function TerminosPareados2(props) {
         var markerDef = document.querySelector("defs .marker");
         var handleDef = document.querySelector("defs .handle");
 
-        arregloLineas = [document.querySelector("#linea1"), document.querySelector("#linea2"), document.querySelector("#linea3"), document.querySelector("#linea4"), document.querySelector("#linea5"), document.querySelector("#linea6"), document.querySelector("#linea7"), document.querySelector("#linea8"), document.querySelector("#linea9"), document.querySelector("#linea10")];
+        arregloLineas = [document.querySelector("#linea1_2"), document.querySelector("#linea2_2"), document.querySelector("#linea3_2"), document.querySelector("#linea4_2"), document.querySelector("#linea5_2"), document.querySelector("#linea6_2"), document.querySelector("#linea7_2"), document.querySelector("#linea8_2"), document.querySelector("#linea9_2"), document.querySelector("#linea10_2")];
         arregloMarker = [document.querySelector("#marker-layer1"), document.querySelector("#marker-layer2"), document.querySelector("#marker-layer3"), document.querySelector("#marker-layer4"), document.querySelector("#marker-layer5"), document.querySelector("#marker-layer6"), document.querySelector("#marker-layer7"), document.querySelector("#marker-layer8"), document.querySelector("#marker-layer9"), document.querySelector("#marker-layer10")];
         arregloHandle = [document.querySelector("#handle-layer1"), document.querySelector("#handle-layer2"), document.querySelector("#handle-layer3"), document.querySelector("#handle-layer4"), document.querySelector("#handle-layer5"), document.querySelector("#handle-layer6"), document.querySelector("#handle-layer7"), document.querySelector("#handle-layer8"), document.querySelector("#handle-layer9"), document.querySelector("#handle-layer10")];
 
@@ -63,7 +63,7 @@ function TerminosPareados2(props) {
         var update = function () { updateDrag(point, this) };
 
         var draggable = new Draggable(handle, {
-            bounds:"#svg",
+            bounds:"#svg2",
             applyBounds:true,
             onDrag: update,
             onDragEnd: function () { dragEnd(point, this, points, indice) },
@@ -109,50 +109,50 @@ function TerminosPareados2(props) {
 
     return (
         <div>
-            <svg id="svg" viewBox={"0 0 " + anchoSVG + " " + altoSVG} width={anchoSVG} height={altoSVG} preserveAspectRatio="xMinYMin meet">
+            <svg id="svg2" viewBox={"0 0 " + anchoSVG + " " + altoSVG} width={anchoSVG} height={altoSVG} preserveAspectRatio="xMinYMin meet">
 
                 <defs>
                     <circle className="handle" r="10" />
                     <circle className="marker" r="4" />
                 </defs>
 
-                <polygon id="linea1" className="linea" points={pointsLinea1} />
+                <polygon id="linea1_2" className="linea" points={pointsLinea1} />
                 <g id="marker-layer1"></g>
                 <g id="handle-layer1"></g>
 
-                <polygon id="linea2" className="linea" points={pointsLinea2} />
+                <polygon id="linea2_2" className="linea" points={pointsLinea2} />
                 <g id="marker-layer2"></g>
                 <g id="handle-layer2"></g>
 
-                <polygon id="linea3" className="linea" points={pointsLinea3} />
+                <polygon id="linea3_2" className="linea" points={pointsLinea3} />
                 <g id="marker-layer3"></g>
                 <g id="handle-layer3"></g>
 
-                <polygon id="linea4" className="linea" points={pointsLinea4} />
+                <polygon id="linea4_2" className="linea" points={pointsLinea4} />
                 <g id="marker-layer4"></g>
                 <g id="handle-layer4"></g>
 
-                <polygon id="linea5" className="linea" points={pointsLinea5} />
+                <polygon id="linea5_2" className="linea" points={pointsLinea5} />
                 <g id="marker-layer5"></g>
                 <g id="handle-layer5"></g>
 
-                <polygon id="linea6" className="linea" points={pointsLinea6} />
+                <polygon id="linea6_2" className="linea" points={pointsLinea6} />
                 <g id="marker-layer6"></g>
                 <g id="handle-layer6"></g>
 
-                <polygon id="linea7" className="linea" points={pointsLinea7} />
+                <polygon id="linea7_2" className="linea" points={pointsLinea7} />
                 <g id="marker-layer7"></g>
                 <g id="handle-layer7"></g>
 
-                <polygon id="linea8" className="linea" points={pointsLinea8} />
+                <polygon id="linea8_2" className="linea" points={pointsLinea8} />
                 <g id="marker-layer8"></g>
                 <g id="handle-layer8"></g>
 
-                <polygon id="linea9" className="linea" points={pointsLinea9} />
+                <polygon id="linea9_2" className="linea" points={pointsLinea9} />
                 <g id="marker-layer9"></g>
                 <g id="handle-layer9"></g>
 
-                <polygon id="linea10" className="linea" points={pointsLinea10} />
+                <polygon id="linea10_2" className="linea" points={pointsLinea10} />
                 <g id="marker-layer10"></g>
                 <g id="handle-layer10"></g>
 
