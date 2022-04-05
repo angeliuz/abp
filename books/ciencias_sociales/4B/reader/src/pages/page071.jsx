@@ -39,11 +39,11 @@ function Page071(props) {
               <div className="position-relative bgc-white border-style-solid border-1 border-dark wp-250 hp-200 d-flex flex-column p-2 giro--4deg sombra-1">
                 <div className=" mxwp-160 centrar-hor f-pixilate-regular fsp-21">Dibuja aquí la insignia de tu equipo</div>
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-35" />
-                
+                <div className="position-absolute top-0 start-100 translate-middle msp--30 mtp-17 zindex-1"><img src={"images/page_" + pagina + "/clip.svg"} className="wp-30" alt="" /></div>
                 <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--20 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-30" alt="" /></div>
               </div>
             </div>
-            <div className="position-absolute top-0 start-0 translate-middle msp-90 mtp-70 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-80" alt="" /></div>
+            <div className="position-absolute top-0 start-0 translate-middle msp-80 mtp-70 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-80" alt="" /></div>
           </div>
           <div className="espaciado-p39"></div>
 
@@ -226,7 +226,7 @@ function Page071(props) {
                     <div className="msp-60 mep-60 mbp-70">
                         <div className="p-0 m-0">
                             <div className="text-start mbp-10 f-Ubuntu-R fsp-15 position-relative">Reconocemos nuestras dificultades y logros.</div>
-                            <div className="position-absolute top-50 start-100 translate-middle msp--90 mtp-55 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-60" alt="" /></div>
+                            <div className="position-absolute top-50 start-100 translate-middle msp--90 mtp-75 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-60" alt="" /></div>
                             <div className="row mtp-10 d-flex mbp-10">
                                 <div className="col-sm-12 col-md-6 mbp-10">
                                     <div className="text-start w-100 bgc-palpatine rounded-p-10 pep-10 psp-10 pbp-10">

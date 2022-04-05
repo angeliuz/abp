@@ -95,7 +95,7 @@ function Page028(props) {
             </div>
             <div className="col-2"></div>
 
-            <div className="ptp-10 container-titulo-global mbp-0">
+            <div className="ptp-10  mbp-0">
               <div className="d-flex">
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">
                   3

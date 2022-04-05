@@ -107,7 +107,7 @@ function Page044(props) {
                   </div>
 
                 </div>
-                <div className="position-absolute bottom-0 start-50 visible-768 translate-middle-x">
+                <div className="position-absolute bottom-0 start-50 visible-768 translate-middle-x mono">
                   <img src="images/page_044/img_003.png" className="hp-150  " alt=""></img>
 
                 </div>

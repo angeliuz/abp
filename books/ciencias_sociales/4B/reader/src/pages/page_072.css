@@ -92,11 +92,16 @@
 .caja-clou-mini{
   margin-left: 60px;
 }
+@media all and (min-width: 717px){
+.position-absolute-767{
+  position: absolute;
+}
+}
 
 @media all and (max-width: 717px){
   .caja-clou-mini{
     margin-left: auto;
     margin-right: auto;
   }
-  
+
 }
