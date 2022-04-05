@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState, useRef } from "react";
 
 
-import TerminosPareados2 from "../components/TerminosPareados2";
+import TerminosPareados1 from "../components/TerminosPareados1";
 
 
 
@@ -66,7 +66,8 @@ function Page003() {
                                 <div className="col-12 p-0 m-0 position-relative">
 
 
-                                    <TerminosPareados2
+                                    <TerminosPareados1
+                                        id={"svg_" + indexInput + "_" + pagina}
                                         anchoSVG="550"
                                         altoSVG="580"
                                         totalLineas="4"

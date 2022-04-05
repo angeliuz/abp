@@ -7,6 +7,7 @@ gsap.registerPlugin(Draggable);
 
 function TerminosPareados2(props) {
 
+    console.log(props.id)
 
     const totalLineas = props.totalLineas;
     const anchoSVG = props.anchoSVG;
@@ -21,6 +22,39 @@ function TerminosPareados2(props) {
     const pointsLinea8 = props.pointsLinea8;
     const pointsLinea9 = props.pointsLinea9;
     const pointsLinea10 = props.pointsLinea10;
+
+    const nombreLinea1 = "linea_1"+props.id;
+    const nombreLinea2 = "linea_2"+props.id;
+    const nombreLinea3 = "linea_3"+props.id;
+    const nombreLinea4 = "linea_4"+props.id;
+    const nombreLinea5 = "linea_5"+props.id;
+    const nombreLinea6 = "linea_6"+props.id;
+    const nombreLinea7 = "linea_7"+props.id;
+    const nombreLinea8 = "linea_8"+props.id;
+    const nombreLinea9 = "linea_9"+props.id;
+    const nombreLinea10 = "linea_10"+props.id;
+
+    const nombreMarkerLayer1 = "markerLayer_1"+props.id;
+    const nombreMarkerLayer2 = "markerLayer_2"+props.id;
+    const nombreMarkerLayer3 = "markerLayer_3"+props.id;
+    const nombreMarkerLayer4 = "markerLayer_4"+props.id;
+    const nombreMarkerLayer5 = "markerLayer_5"+props.id;
+    const nombreMarkerLayer6 = "markerLayer_6"+props.id;
+    const nombreMarkerLayer7 = "markerLayer_7"+props.id;
+    const nombreMarkerLayer8 = "markerLayer_8"+props.id;
+    const nombreMarkerLayer9 = "markerLayer_9"+props.id;
+    const nombreMarkerLayer10 = "markerLayer_10"+props.id;
+
+    const nombreHandleLayer1 = "handleLayer_1"+props.id;
+    const nombreHandleLayer2 = "handleLayer_2"+props.id;
+    const nombreHandleLayer3 = "handleLayer_3"+props.id;
+    const nombreHandleLayer4 = "handleLayer_4"+props.id;
+    const nombreHandleLayer5 = "handleLayer_5"+props.id;
+    const nombreHandleLayer6 = "handleLayer_6"+props.id;
+    const nombreHandleLayer7 = "handleLayer_7"+props.id;
+    const nombreHandleLayer8 = "handleLayer_8"+props.id;
+    const nombreHandleLayer9 = "handleLayer_9"+props.id;
+    const nombreHandleLayer10 = "handleLayer_10"+props.id;
 
 
     useEffect(() => {
@@ -40,9 +74,9 @@ function TerminosPareados2(props) {
         var markerDef = document.querySelector("defs .marker");
         var handleDef = document.querySelector("defs .handle");
 
-        arregloLineas = [document.querySelector("#linea1_2"), document.querySelector("#linea2_2"), document.querySelector("#linea3_2"), document.querySelector("#linea4_2"), document.querySelector("#linea5_2"), document.querySelector("#linea6_2"), document.querySelector("#linea7_2"), document.querySelector("#linea8_2"), document.querySelector("#linea9_2"), document.querySelector("#linea10_2")];
-        arregloMarker = [document.querySelector("#marker-layer1"), document.querySelector("#marker-layer2"), document.querySelector("#marker-layer3"), document.querySelector("#marker-layer4"), document.querySelector("#marker-layer5"), document.querySelector("#marker-layer6"), document.querySelector("#marker-layer7"), document.querySelector("#marker-layer8"), document.querySelector("#marker-layer9"), document.querySelector("#marker-layer10")];
-        arregloHandle = [document.querySelector("#handle-layer1"), document.querySelector("#handle-layer2"), document.querySelector("#handle-layer3"), document.querySelector("#handle-layer4"), document.querySelector("#handle-layer5"), document.querySelector("#handle-layer6"), document.querySelector("#handle-layer7"), document.querySelector("#handle-layer8"), document.querySelector("#handle-layer9"), document.querySelector("#handle-layer10")];
+        arregloLineas = [document.querySelector("#"+nombreLinea1), document.querySelector("#"+nombreLinea2), document.querySelector("#"+nombreLinea3), document.querySelector("#"+nombreLinea4), document.querySelector("#"+nombreLinea5), document.querySelector("#"+nombreLinea6), document.querySelector("#"+nombreLinea7), document.querySelector("#"+nombreLinea8), document.querySelector("#"+nombreLinea9), document.querySelector("#"+nombreLinea10)];
+        arregloMarker = [document.querySelector("#"+nombreMarkerLayer1), document.querySelector("#"+nombreMarkerLayer2), document.querySelector("#"+nombreMarkerLayer3), document.querySelector("#"+nombreMarkerLayer4), document.querySelector("#"+nombreMarkerLayer5), document.querySelector("#"+nombreMarkerLayer6), document.querySelector("#"+nombreMarkerLayer7), document.querySelector("#"+nombreMarkerLayer8), document.querySelector("#"+nombreMarkerLayer9), document.querySelector("#"+nombreMarkerLayer10)];
+        arregloHandle = [document.querySelector("#"+nombreHandleLayer1), document.querySelector("#"+nombreHandleLayer2), document.querySelector("#"+nombreHandleLayer3), document.querySelector("#"+nombreHandleLayer4), document.querySelector("#"+nombreHandleLayer5), document.querySelector("#"+nombreHandleLayer6), document.querySelector("#"+nombreHandleLayer7), document.querySelector("#"+nombreHandleLayer8), document.querySelector("#"+nombreHandleLayer9), document.querySelector("#"+nombreHandleLayer10)];
 
         var points = [];
         var point = "";
@@ -116,45 +150,46 @@ function TerminosPareados2(props) {
                     <circle className="marker" r="4" />
                 </defs>
 
-                <polygon id="linea1_2" className="linea" points={pointsLinea1} />
-                <g id="marker-layer1"></g>
-                <g id="handle-layer1"></g>
+                <polygon id={nombreLinea1} className="linea" points={pointsLinea1} />
+                <g id={nombreMarkerLayer1}></g>
+                <g id={nombreHandleLayer1}></g>
 
-                <polygon id="linea2_2" className="linea" points={pointsLinea2} />
-                <g id="marker-layer2"></g>
-                <g id="handle-layer2"></g>
+                <polygon id={nombreLinea2} className="linea" points={pointsLinea2} />
+                <g id={nombreMarkerLayer2}></g>
+                <g id={nombreHandleLayer2}></g>
 
-                <polygon id="linea3_2" className="linea" points={pointsLinea3} />
-                <g id="marker-layer3"></g>
-                <g id="handle-layer3"></g>
+                <polygon id={nombreLinea3} className="linea" points={pointsLinea3} />
+                <g id={nombreMarkerLayer3}></g>
+                <g id={nombreHandleLayer3}></g>
 
-                <polygon id="linea4_2" className="linea" points={pointsLinea4} />
-                <g id="marker-layer4"></g>
-                <g id="handle-layer4"></g>
+                <polygon id={nombreLinea4} className="linea" points={pointsLinea4} />
+                <g id={nombreMarkerLayer4}></g>
+                <g id={nombreHandleLayer4}></g>
 
-                <polygon id="linea5_2" className="linea" points={pointsLinea5} />
-                <g id="marker-layer5"></g>
-                <g id="handle-layer5"></g>
+                <polygon id={nombreLinea5} className="linea" points={pointsLinea5} />
+                <g id={nombreMarkerLayer5}></g>
+                <g id={nombreHandleLayer5}></g>
 
-                <polygon id="linea6_2" className="linea" points={pointsLinea6} />
-                <g id="marker-layer6"></g>
-                <g id="handle-layer6"></g>
+                <polygon id={nombreLinea6} className="linea" points={pointsLinea6} />
+                <g id={nombreMarkerLayer6}></g>
+                <g id={nombreHandleLayer6}></g>
 
-                <polygon id="linea7_2" className="linea" points={pointsLinea7} />
-                <g id="marker-layer7"></g>
-                <g id="handle-layer7"></g>
+                <polygon id={nombreLinea7} className="linea" points={pointsLinea7} />
+                <g id={nombreMarkerLayer7}></g>
+                <g id={nombreHandleLayer7}></g>
 
-                <polygon id="linea8_2" className="linea" points={pointsLinea8} />
-                <g id="marker-layer8"></g>
-                <g id="handle-layer8"></g>
+                <polygon id={nombreLinea8} className="linea" points={pointsLinea8} />
+                <g id={nombreMarkerLayer8}></g>
+                <g id={nombreHandleLayer8}></g>
 
-                <polygon id="linea9_2" className="linea" points={pointsLinea9} />
-                <g id="marker-layer9"></g>
-                <g id="handle-layer9"></g>
+                <polygon id={nombreLinea9} className="linea" points={pointsLinea9} />
+                <g id={nombreMarkerLayer9}></g>
+                <g id={nombreHandleLayer9}></g>
 
-                <polygon id="linea10_2" className="linea" points={pointsLinea10} />
-                <g id="marker-layer10"></g>
-                <g id="handle-layer10"></g>
+                <polygon id={nombreLinea10} className="linea" points={pointsLinea10} />
+                <g id={nombreMarkerLayer10}></g>
+                <g id={nombreHandleLayer10}></g>
+
 
             </svg>
         </div>
