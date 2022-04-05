@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
 import Check from "../components/Check";
+import TerminosPareados1 from "../components/TerminosPareados1";
 import "./page_044.css";
 
 function Page044(props) {
@@ -38,6 +39,26 @@ function Page044(props) {
           </div>
 
           <div className="d-flex global-margin mtp-0 mbp-10 psp-50 pep-0 ptp-0 pbp-0">
+
+            <div className="d-flex w-100 mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-absolute zindex-10 bgc-red">
+              <div className="row p-0 m-0 w-100">
+                <div className="col-12 p-0 m-0 position-relative bgc-aqua">
+
+                  <TerminosPareados1
+                    anchoSVG="550"
+                    altoSVG="255"
+                    totalLineas="5"
+                    pointsLinea1="0,43 0,43"
+                    pointsLinea2="65,43 65,43"
+                    pointsLinea3="189,43 189,43"
+                    pointsLinea4="314,43 314,43"
+                    pointsLinea5="438,43 438,43"
+                  />
+
+                </div>
+              </div>
+            </div>
+
             <div className="row p-0 m-0 w-100">
               <div className="col-sm-3 col-md-12 p-0 m-0 position-relative d-flex center-center">
                 <div className="row f-Ubuntu-R justify-content-center f-Ubuntu-R fsp-14 lh-sm p-0 m-0 w-100">
