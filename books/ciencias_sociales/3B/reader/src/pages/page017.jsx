@@ -81,7 +81,7 @@ function Page017(props) {
                     <div className="bgc-white mxwp-300 centrar border-caja position-relative">
                       <ModalRecortable id={"p" + pagina + "_cutouts_" + (indexInput += 1)} numRecortables="6" pagina={pagina} image={"images/page_" + pagina + "/img_008.png"} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
                     </div>
-                    <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_.png"} className="wp-60" alt="" /></div>
+                    {/* <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_.png"} className="wp-60" alt="" /></div> */}
                   </div>
                 </div>
                 <div className="row">
