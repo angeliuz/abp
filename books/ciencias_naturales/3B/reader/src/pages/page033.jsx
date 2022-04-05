@@ -87,7 +87,7 @@ function Page033(props) {
                     </div>
 
 
-                    <div className="ptp-30 container-titulo-global mbp-20">
+                    <div className="ptp-30 container-titulo-global ">
                         {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>Creo e informo</div> */}
                         <div className="d-flex">
                             {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_001.svg"} alt=""  /> */}
@@ -102,7 +102,7 @@ function Page033(props) {
                         </div>
                     </div>
 
-                    <div className="d-flex psp-60 pep-60 pbp-0">
+                    <div className="d-flex psp-60 pep-60 pbp-0 mbp-80">
 
                         <div className="row w-100 p-0 m-0">
 

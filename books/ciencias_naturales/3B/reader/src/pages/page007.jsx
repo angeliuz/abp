@@ -31,7 +31,7 @@ function Page007(props) {
           <div className="ptp-10 container-titulo-global mbp-20">
             <div className={"f-Ubuntu-B fsp-20 psp-40 text-start lhp-20 " + color}>¡Tantos desechos!</div>
             <div className="d-flex">
-              <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_007/ig.svg" alt="" />
+              <img className="hp-20 align-center mt-3 mb-2" src="images/page_007/ig.svg" alt="" />
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>1</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                 Leo la noticia de la revista y respondo. Comparto con mi equipo <br /> algunas ideas.
