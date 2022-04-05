@@ -5,3 +5,13 @@
   .gira-2{
     transform:rotate(2deg);
 }
+
+.mxw-92 {
+  max-width: 90%;
+}
+
+@media all and (max-width: 768px) {
+  .mxw-92 {
+    max-width: 92%;
+  }
+}

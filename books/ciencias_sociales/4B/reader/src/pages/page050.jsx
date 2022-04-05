@@ -33,8 +33,8 @@ function Page050(props) {
                 <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_050/clip.png" className="hp-25 mep-0 mtp-45" alt="" /></div>
                 <div className="position-absolute top-50 start-0 translate-middle"><img src="images/page_050/lapiz.png" className="hp-85 mep-5 mtp-45" alt="" /></div>
                 <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_050/mono.png" className="hp-110 msp--50 mtp--110" alt="" /></div>
-                <div className="bgc-jugador001 border-style-solid border-color-goku border-1 box-shadow-simple">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-260 mep-70 msp-10" />
+                <div className="bgc-jugador001 border-style-solid border-color-goku border-1 box-shadow-simple psp-10 pep-80">
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-260" />
                 </div>
               </div>
             </div>
@@ -60,26 +60,26 @@ function Page050(props) {
             </div>
           </div>
 
-          <div className="ptp-10 psp-100 pep-60 mbp-0 position-relative">
+          <div className="ptp-10 psp-100 pep-60 mbp-60 pbp-60 position-relative">
             <div className="row justify-content-center">
               <div className="col-6 p-0 m-0 position-relative">
                 <div className="row justify-content-center p-1 m-0">
                   <div className="col-12 p-0 mbp-5 position-relative">
-                    <div className="bgc-white border-style-solid border-color-goten border-2 rounded-tbe-10">
+                    <div className="bgc-white border-style-solid border-color-goten border-2 rounded-tbe-10 psp-10 pep-10">
                       <div className="f-Ubuntu-R fsp-14 p-1 lh-sm d-flex align-items-center justify-content-start">Introducción</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-80 mep-10 msp-10" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                     </div>
                   </div>
                   <div className="col-12 p-0 mbp-5 position-relative">
-                    <div className="bgc-white border-style-solid border-color-bulma border-2 rounded-tbe-10">
+                    <div className="bgc-white border-style-solid border-color-bulma border-2 rounded-tbe-10 psp-10 pep-10">
                       <div className="f-Ubuntu-R fsp-14 p-1 lh-sm d-flex align-items-center justify-content-start">Desarrollo</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-80 mep-10 msp-10" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                     </div>
                   </div>
                   <div className="col-12 p-0 m-0 position-relative">
-                    <div className="bgc-white border-style-solid border-color-android18 border-2 rounded-tbe-10">
+                    <div className="bgc-white border-style-solid border-color-android18 border-2 rounded-tbe-10 psp-10 pep-10">
                       <div className="f-Ubuntu-R fsp-14 p-1 lh-sm d-flex align-items-center justify-content-start">Conclusión</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-80 mep-10 msp-10" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
                     </div>
                   </div>
                 </div>
@@ -89,7 +89,7 @@ function Page050(props) {
                   <div className="col-12 p-0 m-0 position-relative">
                     <div className="bgc-white border-style-solid border-color-ken border-2 rounded-tbe-10 h-100">
                       <div className="f-Ubuntu-R fsp-14 p-1 lh-sm d-flex align-items-center justify-content-start">El rol de mi equipo será:</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-h-90 mep-10 msp-10" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-h-90" />
                     </div>
                   </div>
                 </div>
