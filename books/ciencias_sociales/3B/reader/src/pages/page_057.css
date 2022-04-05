@@ -30,7 +30,6 @@
   border-radius: 10px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 320px;
   width: 50%;
 }
 .cb-block-2-p57 {
@@ -38,7 +37,7 @@
   border-radius: 10px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 320px;
+  
   width: 100%;
   box-shadow: 1px 1px 8px 3px rgb(0 0 0 / 20%);
 }

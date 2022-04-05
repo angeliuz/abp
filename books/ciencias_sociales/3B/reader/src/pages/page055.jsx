@@ -34,7 +34,7 @@ function Page055(props) {
     </div>
 
     <div className="d-flex psp-20">
-         <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_002.svg"} alt=""  />
+         {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_002.svg"} alt=""  /> */}
         <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
             1
         </div>

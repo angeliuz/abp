@@ -40,13 +40,13 @@ function Page032(props) {
         </div>
 
 
-        <div className="d-flex msp-60 mep-60 mbp-0 mtp-0">
+        <div className="d-flex msp-60 mep-60 mbp-80 mtp-0">
 
             <div className="row m-0 psp-60 pep-60 ptp-10 pbp-0 w-100">
 
                 <div className="col-sm-12 col-md-12 position-relative pbp-20">
                     <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0"><img src={"images/page_"+pagina+"/img_001.png"} className="wp-70 " alt="" /></div> 
-                    <div className="position-absolute top-100 start-100 translate-middle msp--50 mtp--50"><img src={"images/page_"+pagina+"/img_002.png"} className="wp-170 " alt="" /></div> 
+                    <div className="position-absolute top-100 start-100 translate-middle msp--50 mtp--50 visible-768"><img src={"images/page_"+pagina+"/img_002.png"} className="wp-170 " alt="" /></div> 
                     
                     <div className="d-flex flex-column psp-20 pep-20 ptp-0 pbp-10 bgc-kano border-style-solid border-2 border-color-goku w-100">
 
