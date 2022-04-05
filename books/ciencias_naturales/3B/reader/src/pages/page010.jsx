@@ -110,7 +110,7 @@ function Page010(props) {
 
                 <div className="col-12 position-relative">
                   <div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-0"><img src="images/page_010/img_007.png" className="wp-130 " alt="" /></div>
-                  <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
+                  <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo vamos?</div>
                   <div className="d-flex flex-column mbp-20 mtp-10 w-100">
                     <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
                       <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">

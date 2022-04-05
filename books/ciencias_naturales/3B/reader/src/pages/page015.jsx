@@ -43,8 +43,9 @@ function Page015(props) {
                 <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                   1
                 </div>
-                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                  Veo el video. Luego, relaciono las actividades con la etapa del proyecto en que las vamos a realizar.
+                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start mbp-15 position-relative">
+                <div className="position-absolute top-0 start-100 translate-middle msp-130 mtp-40 visible-768"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60 " alt="" /></div>
+                  Veo el video. Luego, relaciono las actividades con la etapa <br /> del proyecto en que las vamos a realizar.
                 </div>
                 <ModalVideo
                   id={"p" + pagina + "_video" + (indexInput += 1)}

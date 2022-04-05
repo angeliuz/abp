@@ -100,7 +100,7 @@ function Page025(props) {
           </div>
 
 
-          <div className="ptp-10 container-titulo-global  position-relative ">
+          <div className="ptp-10 container-titulo-global  position-relative mbp-80">
             {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>La regla de las 3R</div> */}
             <div className="d-flex max-wp-500 ">
               <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_001.svg"} alt="" />
