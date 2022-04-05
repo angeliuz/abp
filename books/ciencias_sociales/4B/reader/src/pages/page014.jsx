@@ -46,6 +46,7 @@ function Page014(props) {
             <div className="bgc-draco w-100 psp-40 ptp-10 pbp-20 pep-10 position-relative">
               <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-360" />
               <div className="position-absolute top-50 start-0 translate-middle h-100 msp-10 pbp-20"><div className="flequillo-p14 wp-30 h-100"></div></div>
+            <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp--90 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="hp-90" alt="" /></div>
             </div>
           </div>
 

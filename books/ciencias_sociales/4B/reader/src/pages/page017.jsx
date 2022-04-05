@@ -143,7 +143,7 @@ function Page017(props) {
                   <div className=" ptp-10 test-center pbp-10">
                     Fotografías o dibujos de nuestro colegio.
                   </div>
-                  <div className="cuadrado  border-dark">
+                  <div className="cuadrado  border-dark mtp-20-p17 ">
                   <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/cruz.svg" ></Check>
                   </div>
                 </div>

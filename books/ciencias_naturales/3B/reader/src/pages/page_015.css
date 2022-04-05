@@ -10,12 +10,7 @@
     stroke-linejoin: round;
     fill: none;
   }
-  #star2 {
-    stroke: #29e;
-    stroke-width: 20;
-    stroke-linejoin: round;
-    fill: none;
-  }
+
   
   .handle {
     fill: #fff;

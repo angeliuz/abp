@@ -2,6 +2,10 @@
   width: 170px;
 }
 
+.mtp-20-p17 {
+  margin-left: 20px;
+}
+
 .w-300 {
   width: 200%;
 }
@@ -91,6 +95,9 @@
 @media all and (max-width: 767px) {
   .caja-finalp17 {
     min-height: 80px;
+  }
+  .mtp-20-p17 {
+    margin-left: 0px;
   }
 }
 
