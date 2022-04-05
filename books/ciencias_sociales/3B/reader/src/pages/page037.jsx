@@ -31,14 +31,14 @@ function Page037(props) {
             </div>
           </div>
 
-          <div className="ptp-10 psp-135 pep-80 pbp-100">
+          <div className="ptp-10 psp-60 pep-60 pbp-100">
             <div className="row rounded-p-10 bgc-jaga">
 
               <div className="col-12 col-md-6 p-0">
                 <div className="w-100 p-2 m-0 position-relative">
                   <div className="position-absolute top-0 start-0">
                     <img src="images/page_037/pincho.png" className="hp-45 msp--10 mtp--5" alt="" />
-                    <div className="mtp--27 msp-25 color-white f-hanoded-butterflyball fsp-17 rota_p37">A partir de la pregunta 1…</div>
+                    <div className="mtp--27 msp-25 color-white f-Ubuntu-B fsp-16 rota_p37">A partir de la pregunta 1…</div>
                   </div>
                   <div className="w-100 rounded-p-10 bgc-white p-3 m-0">
                     {/* <div className="f-Ubuntu-L fsp-15 text-start ptp-30">Resultados:</div> */}
@@ -53,7 +53,7 @@ function Page037(props) {
                 <div className="w-100 p-2 m-0 position-relative">
                   <div className="position-absolute top-0 start-0">
                     <img src="images/page_037/pincho.png" className="hp-45 msp--10 mtp--5" alt="" />
-                    <div className="mtp--27 msp-25 color-white f-hanoded-butterflyball fsp-17 rota_p37">A partir de la pregunta 2…</div>
+                    <div className="mtp--27 msp-25 color-white f-Ubuntu-B fsp-16 rota_p37">A partir de la pregunta 2…</div>
                   </div>
                   <div className="w-100 rounded-p-10 bgc-white p-3 m-0">
                     {/* <div className="f-Ubuntu-L fsp-15 text-start ptp-30">Resultados:</div> */}
@@ -68,7 +68,7 @@ function Page037(props) {
                 <div className="w-100 p-2 m-0 position-relative">
                   <div className="position-absolute top-0 start-0">
                     <img src="images/page_037/pincho.png" className="hp-45 msp--10 mtp--5" alt="" />
-                    <div className="mtp--27 msp-25 color-white f-hanoded-butterflyball fsp-17 rota_p37">A partir de la pregunta 3…</div>
+                    <div className="mtp--27 msp-25 color-white f-Ubuntu-B fsp-16 rota_p37">A partir de la pregunta 3…</div>
                   </div>
                   <div className="w-100 rounded-p-10 bgc-white p-3 m-0">
                     {/* <div className="f-Ubuntu-L fsp-15 text-start ptp-30">Resultados:</div> */}
@@ -83,7 +83,7 @@ function Page037(props) {
                 <div className="w-100 p-2 m-0 position-relative">
                   <div className="position-absolute top-0 start-0">
                     <img src="images/page_037/pincho.png" className="hp-45 msp--10 mtp--5" alt="" />
-                    <div className="mtp--27 msp-25 color-white f-hanoded-butterflyball fsp-17 rota_p37">A partir de la pregunta 4…</div>
+                    <div className="mtp--27 msp-25 color-white f-Ubuntu-B fsp-16 rota_p37">A partir de la pregunta 4…</div>
                   </div>
                   <div className="w-100 rounded-p-10 bgc-white p-3 m-0">
                     {/* <div className="f-Ubuntu-L fsp-15 text-start ptp-30">Resultados:</div> */}
@@ -98,7 +98,7 @@ function Page037(props) {
                 <div className="w-100 p-2 m-0 position-relative">
                   <div className="position-absolute top-0 start-0">
                     <img src="images/page_037/pincho.png" className="hp-45 msp--10 mtp--5" alt="" />
-                    <div className="mtp--27 msp-25 color-white f-hanoded-butterflyball fsp-17 rota_p37">A partir de la pregunta 5…</div>
+                    <div className="mtp--27 msp-25 color-white f-Ubuntu-B fsp-16 rota_p37">A partir de la pregunta 5…</div>
                   </div>
                   <div className="w-100 rounded-p-10 bgc-white p-3 m-0">
                     {/* <div className="f-Ubuntu-L fsp-15 text-start ptp-30">Resultados:</div> */}
@@ -114,7 +114,7 @@ function Page037(props) {
                   {/* <div className="position-absolute top-0 start-0 mtp--20">
                         <img src="images/page_037/hoja.svg" className="w-100" alt=""/>
                     </div> */}
-                  <div className="f-hanoded-butterflyball fsp-15 text-start">Como conclusión general</div>
+                  <div className="f-pixilate-bold fsp-16 text-start">Como conclusión general...</div>
                   <div className="min-hp-175">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                   </div>

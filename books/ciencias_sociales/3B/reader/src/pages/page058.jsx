@@ -47,7 +47,8 @@ function Page058(props) {
                   className="hp-10 pep-5 mtp-5"
                 />
                 <span className="w-24 f-Ubuntu-L fsp-15">
-                  ¿Qué tres cosas destaco de lo aprendido?
+                ¿Qué tres cosas destaco de lo que aprendí?
+ 
                 </span>
                 <div className="pep-10 psp-10">
                   <InputBox

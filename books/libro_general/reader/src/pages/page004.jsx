@@ -2,12 +2,19 @@ import React from "react";
 import { useEffect, useState, useRef } from "react";
 
 
+import TerminosPareados1 from "../components/TerminosPareados1";
+
+
+
+// import LineTo from 'react-lineto';
+
+
 import "./page_004.css";
 
 
 function Page004() {
 
-    const pagina = "004";
+    const pagina = "003";
     var indexInput = 0;
     const etapa = "1"
     const background = "bgc-goten";
@@ -47,24 +54,38 @@ function Page004() {
                         </div>
                     </div>
 
-                    <div className="d-flex psp-0 pep-0 pbp-70">
-
-                        <div className="row w-100 p-0 m-0">
-
-                            <div className="col-md-12 col-lg-12 position-relative">
-
-                                <div className="position-absolute top-100 start-0 translate-middle visible-768 zindex-1 msp-100 mtp--90"><img src={"images/page_" + pagina + "/personaje.png"} className="w-100" alt="" /></div>
-
-                                <div className="mbp-20 mtp-10 msp-20 mep-20">
-                                    <div className=" bgc-white caja-dibujo-global p-2 rounded-p-20 border-style-solid border-2 border-color-android18">
 
 
 
 
-                                    </div>
+
+                    <div className="d-flex position-relative">
+
+                        <div className="d-flex w-100 mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-absolute zindex-10">
+                            <div className="row p-0 m-0 w-100">
+                                <div className="col-12 p-0 m-0 position-relative">
+
+
+                                    <TerminosPareados1
+                                        id={"svg_" + indexInput + "_" + pagina}
+                                        anchoSVG="550"
+                                        altoSVG="580"
+                                        totalLineas="4"
+                                        pointsLinea1="240,50 240,50"
+                                        pointsLinea2="240,195 240,195"
+                                        pointsLinea3="240,350 240,350"
+                                        pointsLinea4="240,493 240,493"
+                                    />
+
+
                                 </div>
-
                             </div>
+                        </div>
+
+                        <div className="d-flex w-100 justify-content-center">
+
+
+
 
                         </div>
 
