@@ -23,14 +23,17 @@ function Page069(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className={"cabecera-v2 d-flex flex-column " + background}>
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className={"caja wp-150 text-center fsp-24 f-IntroRustG-Base " + color}>SESIÓN 16</div>
+              <div className={"caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 fsp-24 f-IntroRustG-Base  " + color}>SESIÓN 16</div>
               <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">La amistad y la diversidad se celebran</div>
             </div>
 
           </div>
           {/* END CABECERA VERSIÓN 2 */}
           <div className="ptp-10 container-titulo-global">
-            <div className="d-flex">
+          <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+          El día de nuestra jornada
+                </div>
+            <div className="d-flex msp--30">
               <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_069/img_001.svg" alt="" />
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>1</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
@@ -42,7 +45,7 @@ function Page069(props) {
           <div className="d-flex msp-60 mep-60 mbp-70 ">
             <div className="row p-0 m-0">
               <div className="col-sm-12 col-md-6 position-relative"></div>
-              <div className=" container-titulo-global mbp-20">
+              <div className=" mbp-20">
                 <div className="d-flex">
                   <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
                   <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
@@ -112,7 +115,7 @@ function Page069(props) {
                 </div>
               </div>
 
-              <div className=" container-titulo-global mbp-20">
+              <div className=" mbp-40 msp--50">
                 <div className="d-flex">
                   <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_069/img_005.svg" alt="" />
                   <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>3</div>
