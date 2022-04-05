@@ -1,4 +1,4 @@
-#svg {
+#svg_6_024 {
   position: relative;
   top: 0px;
   left: 0;
@@ -6,7 +6,7 @@
 
 .linea {
   stroke: #29e;
-  stroke-width: 20;
+  stroke-width: 15;
   stroke-linejoin: round;
   fill: none;
 }
