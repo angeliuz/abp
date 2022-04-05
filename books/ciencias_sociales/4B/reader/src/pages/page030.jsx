@@ -76,14 +76,14 @@ function Page030(props) {
                                 {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
                                 <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
                                     <div className="p-2 min-hp-100 w-100 border-style-dashed border-2 rounded-p-10 border-color-rex ">
-                                    <ModalRecortable
+                                        <ModalRecortable
                                             id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
                                             pagina={pagina}
                                             image={"images/page_" + pagina + "/img_000.png"}
                                             numRecortables="4"
                                             className="p-0 m-0 d-flex  pe-auto bgc-goten"
                                         />
-          </div>
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-6 position-relative">
@@ -101,7 +101,7 @@ function Page030(props) {
                                 {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
                                 <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
                                     <div className="p-2 min-hp-100 w-100 border-style-dashed border-2 rounded-p-10 border-color-rex ">
-                                    <ModalRecortable
+                                        <ModalRecortable
                                             id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
                                             pagina={pagina}
                                             image={"images/page_" + pagina + "/img_000.png"}
@@ -126,7 +126,7 @@ function Page030(props) {
                                 {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
                                 <div className="d-flex mbp-20 mtp-10 w-100 pep-10 align-items-center">
                                     <div className="p-2 min-hp-100 w-100 border-style-dashed border-2 rounded-p-10 border-color-rex ">
-                                    <ModalRecortable
+                                        <ModalRecortable
                                             id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
                                             pagina={pagina}
                                             image={"images/page_" + pagina + "/img_000.png"}
@@ -152,31 +152,16 @@ function Page030(props) {
                         </div>
 
                     </div>
-
-                    <div className="ptp-30 container-titulo-global mbp-10">
-                        {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>Ahora podremos comprobar qué ocurre en nuestro entorno</div> */}
-                        <div className="d-flex">
-                            <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_004.svg"} alt="" />
-                            <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>7</div>
-                            <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                                Conversamos: ¿Cuál de estos valores
-                                necesitamos para disfrutar de una
-                                buena convivencia? Explicamos.
+                    <div className="row psp-80 pep-60 mbp-60">
+                        <div className="col-12 col-md-6">
+                            <div className="d-flex msp--60">
+                                <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_004.svg"} alt="" />
+                                <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>7</div>
+                                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                                    Conversamos: ¿Cuál de estos valores necesitamos para disfrutar de una buena convivencia? Explicamos.
+                                </div>
                             </div>
-                            {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
-                            {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-                            {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-                            {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_002.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
-                        </div>
-                    </div>
-
-                    <div className="d-flex msp-60 mep-60 psp-20 pep-20">
-
-                        <div className="row ptp-0 ps-12 pe-8 m-0 w-100">
-                            <div className="col-12  position-relative ">
-                                {/* <div className="position-absolute top-0 start-100 translate-middle msp-30 mtp-120 visible-768"><img src="images/page_048/camarografo.png" className="wp-70 " alt="" /></div> */}
-                                {/* <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-60 visible-768"><img src="images/page_048/periodista.png" className="wp-60 " alt="" /></div> */}
-
+                            <div className="position-relative ">
                                 <div className="d-flex flex-column mbp-20 mtp-10 p-2 w-100 border-style-solid border-4 rounded-p-10 border-color-jade bgc-white">
                                     <div className="p-2 w-100 d-flex flex-column">
                                         {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Podemos mejorar en...</div> */}
@@ -185,31 +170,14 @@ function Page030(props) {
                                 </div>
                             </div>
                         </div>
-
-                    </div>
-
-
-                    <div className="ptp-30 container-titulo-global mbp-10">
-                        {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>Ahora podremos comprobar qué ocurre en nuestro entorno</div> */}
-                        <div className="d-flex">
-                            {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_004.svg"} alt="" /> */}
-                            <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>8</div>
-                            <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                                ¿Qué otros valores y actitudes
-                                creemos necesarios para lograr una
-                                buena convivencia?
+                        <div className="col-12 col-md-6">
+                            <div className="d-flex">
+                                <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>8</div>
+                                <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                                    ¿Qué otros valores y actitudes creemos necesarios para lograr una buena convivencia?
+                                </div>
                             </div>
-                            {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
-                            {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-                            {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
-                            {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_002.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
-                        </div>
-                    </div>
-
-                    <div className="d-flex msp-60 mep-60 psp-20 pep-20 mbp-100">
-
-                        <div className="row ptp-0 ps-12 pe-8 m-0 w-100">
-                            <div className="col-12  position-relative ">
+                            <div className="position-relative ">
                                 {/* <div className="position-absolute top-0 start-100 translate-middle msp-30 mtp-120 visible-768"><img src="images/page_048/camarografo.png" className="wp-70 " alt="" /></div> */}
                                 {/* <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-60 visible-768"><img src="images/page_048/periodista.png" className="wp-60 " alt="" /></div> */}
 

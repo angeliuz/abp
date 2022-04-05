@@ -25,16 +25,15 @@
   }
 }
 
-#svg {
+#svg_0_044 {
   position: relative;
   top: 0px;
   left: 0;
-  background-color: #29e;
 }
 
 .linea {
   stroke: #29e;
-  stroke-width: 20;
+  stroke-width: 15;
   stroke-linejoin: round;
   fill: none;
 }

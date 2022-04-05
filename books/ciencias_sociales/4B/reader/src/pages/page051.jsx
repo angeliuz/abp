@@ -74,13 +74,13 @@ const background = "bgc-pidgey";
             </div>
           </div>
 
-          <div className="ptp-10 psp-100 pep-60 mbp-0 position-relative">
+          <div className="ptp-10 psp-100 pep-60 mbp-60 pbp-60 position-relative">
             <div className="row justify-content-center">
               <div className="col-12 p-0 m-0 position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_051/camara.png" className="hp-80 mep-40 mtp--40" alt="" /></div>
                 <div className="position-absolute top-50 start-0 translate-middle"><img src="images/page_051/acuarela.png" className="hp-60 msp--50 mtp-160" alt="" /></div>
-                <div className="bgc-jugador001 border-style-solid border-color-dark border-1 box-shadow-simple">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-330 contenedor-linea mep-10 msp-10" />
+                <div className="bgc-jugador001 border-style-solid border-color-dark border-1 box-shadow-simple psp-10 pep-10 ptp-10 pbp-10">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-330 contenedor-linea" />
                 </div>
               </div>
             </div>

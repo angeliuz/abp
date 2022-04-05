@@ -22,7 +22,7 @@ function Page053(props) {
           <div className="position-relative w-100">
             <div className="row psp-80 pep-70 ptp-10 pbp-50 ">
               <div className="f-Ubuntu-R text-start msp-40 fsp-18 psp-30 pbp-10">
-                Esta página fue completada por:
+              Este dosier fue completado por:
               </div>
               <div className="d-flex position-relative">
                 <img src={"images/page_" + pagina + "/arcoflecha.png"} class="hp-80 position-absolute start-0 top-0 mtp--20 msp--10"alt="" />
@@ -37,10 +37,11 @@ function Page053(props) {
                 <div className=" mxwp-160 centrar-hor f-pixilate-regular fsp-21">Dibuja aquí la insignia de tu equipo</div>
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-35" />
                 
-                <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--20 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-30" alt="" /></div>
+                <div className="position-absolute top-0 start-100 translate-middle msp--30 mtp-17 zindex-1"><img src={"images/page_" + pagina + "/clip.svg"} className="wp-30" alt="" /></div>
+            <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/estrella.png"} className="wp-60" alt="" /></div>
+              
               </div>
             </div>
-            <div className="position-absolute top-0 start-0 translate-middle msp-90 mtp-70 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-80" alt="" /></div>
           </div>
           <div className="espaciado-p39"></div>
 

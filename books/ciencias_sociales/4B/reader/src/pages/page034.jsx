@@ -69,7 +69,7 @@ function Page034(props) {
 
                                 </div>
                             </div>
-                            <div className=" mbp-30 psp-60 pep-60 ptp-30 pbp-10 f-Ubuntu-L fsp-13 rounded-p-10 ">
+                            <div className=" mbp-30 ptp-30 pbp-10 f-Ubuntu-L fsp-13 rounded-p-10 ">
                                 <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-0">
                                     {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/generales/ticket.svg" className="hp-17 mtp--3 msp-5 mep-5" alt=""/>el recuadro que mejor me represente.</span> */}
                                     <div className="w-100 p-0 pb-3 position-relative">

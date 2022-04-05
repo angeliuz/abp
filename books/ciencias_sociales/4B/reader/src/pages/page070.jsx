@@ -71,7 +71,7 @@ function Page070(props) {
                           </td>
                         </tr>
                         <tr>
-                          <td className={"bgc-white rounded-ts-10 f-Ubuntu-L 4 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                          <td className={"bgc-white rounded-ts-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
                             <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 ">
                               <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                               El ambiente de trabajo en mi equipo fue agradable.

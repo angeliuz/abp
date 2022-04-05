@@ -25,18 +25,18 @@ function Page054(props) {
           <div className="ptp-50 psp-70 pep-60 mbp-0 position-relative">
             <div className="row">
               <div className="col-12 p-2 m-0 position-relative">
-                <div className="rounded-p-10 bgc-white border-style-solid border-color-bulma border-1">
+                <div className="rounded-p-10 bgc-white border-style-solid border-color-bulma border-1 psp-10 pep-10">
                   <div className="position-relative f-Ubuntu-R fsp-14 p-2 bgc-hotaru rounded-ts-be-10 lh-sm min-hp-45 d-flex align-items-center justify-content-start text-start wp-320">Como equipo, creemos que lo importante para una buena convivencia en nuestro curso es:</div>
                   <div className="position-absolute top-0 start-50 visible-768"><img src="images/page_054/lapiz.png" className="hp-80 msp-0 mtp--20" alt="" /></div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190 mep-10 msp-10" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190" />
                 </div>
               </div>
 
               <div className="col-12 p-2 m-0 position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_054/ronda.png" className="hp-100 mep-70 mtp-0" alt="" /></div>
-                <div className="rounded-p-10 bgc-white border-style-solid border-color-saitama border-1">
+                <div className="rounded-p-10 bgc-white border-style-solid border-color-saitama border-1 psp-10 pep-10">
                   <div className="f-Ubuntu-R fsp-14 p-2 bgc-bobafett rounded-ts-be-10 lh-sm min-hp-45 d-flex align-items-center justify-content-start text-start wp-320">Como curso, acordamos que para mejorar nuestra convivencia:</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190 mep-10 msp-10" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-190" />
                 </div>
               </div>
             </div>
@@ -50,14 +50,18 @@ function Page054(props) {
                   <img src={"images/generales/flecha_e1.svg"} className="mep-5 wp-15" alt="" />
                   <span className="w-24 f-Ubuntu-L fsp-14 text-start">Lo que más nos gustó de esta etapa fue:</span>
                 </div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="msp-80 mep-10 text-start flex-grow-1 contenedor-linea lh-sm min-hp-80" />
+                <div className="psp-80 pep-10">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                </div>
               </div>
               <div className="col-11 border-style-solid border-color-white border-2 p-1 bgc-hotaru">
                 <div className="d-flex flex-wrap w-100 align-items-center titulo-linea psp-60">
                   <img src={"images/generales/flecha_e2.svg"} className="mep-5 wp-15" alt="" />
                   <span className="w-24 f-Ubuntu-L fsp-14 text-start">Lo mejor de la jornada de diálogo fue:</span>
                 </div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="msp-80 mep-10 text-start flex-grow-1 contenedor-linea lh-sm min-hp-80" />
+                <div className="psp-80 pep-10">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                </div>
               </div>
               <div className="col-12 border-style-solid border-color-white border-2 p-1 bgc-azuka position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_054/mono.png" className="hp-230 mep-70 mbp-235" alt="" /></div>
@@ -65,7 +69,9 @@ function Page054(props) {
                   <img src={"images/generales/flecha_e3.svg"} className="mep-5 wp-15" alt="" />
                   <span className="w-24 f-Ubuntu-L fsp-14 text-start">Lo que se puede mejorar de la jornada de diálogo es:</span>
                 </div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="msp-80 mep-10 text-start flex-grow-1 contenedor-linea lh-sm min-hp-80" />
+                <div className="psp-80 pep-10">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                </div>
               </div>
             </div>
           </div>

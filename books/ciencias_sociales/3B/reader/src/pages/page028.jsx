@@ -95,7 +95,7 @@ function Page028(props) {
             </div>
             <div className="col-2"></div>
 
-            <div className="ptp-10 container-titulo-global mbp-0">
+            <div className="ptp-10  mbp-0">
               <div className="d-flex">
                 <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">
                   3
@@ -121,8 +121,8 @@ function Page028(props) {
 
             <div className="col-sm-12 col-md-4 mtp-20  position-relative">
               <img
-                src="images/page_028/img_007.png"
-                className="rotulo-28 top-0 start-50 translate-middle-x position-absolute w-80"
+                src="images/page_028/img_006.png"
+                className="rotulo-28 top-0 start-50 translate-middle-x position-absolute w-90"
                 alt=""
               />
               <div className=" margen-21 mtp-30 mbp-80 w-100">
@@ -137,8 +137,8 @@ function Page028(props) {
 
             <div className="col-sm-12 col-md-4 mtp-20  position-relative">
               <img
-                src="images/page_028/img_006.png"
-                className="rotulo-28-1 top-0 start-50 translate-middle-x position-absolute w-90"
+                src="images/page_028/img_007.png"
+                className="rotulo-28-1 top-0 start-50 translate-middle-x position-absolute w-80"
                 alt=""
               />
               <div className=" mtp-30 mbp-80 w-100">

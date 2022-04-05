@@ -31,9 +31,9 @@ function Page052(props) {
                         <div className="row w-100 p-0 m-0">
                             <div className="col-sm-12 col-md-6 d-flex center-center min-hp-15 mbp-20">
                                 <div className="d-flex center-center wp-300 hp-150 position-relative ">
-                                    <div className="zindex-2 psp-20 pep-20 ptp-10 fsp-15 f-Ubuntu-R color-bulma">¡Solo nos queda preparar nuestra fiesta e invitar a la comunidad educativa!</div>
-                                    <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_010.svg"} className="wp-300" alt="" /></div>
-                                    <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-20 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-80" alt="" /></div>
+                                    <div className="zindex-2 psp-20 pep-20 pbp-30 ptp-10 fsp-15 f-Ubuntu-R color-bulma">¡Solo nos queda preparar nuestra fiesta e invitar a la comunidad educativa!</div>
+                                    <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp--20 zindex-1"><img src={"images/page_" + pagina + "/img_010.svg"} className="wp-300" alt="" /></div>
+                                    <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-80" alt="" /></div>
                                 </div>
                             </div>
 

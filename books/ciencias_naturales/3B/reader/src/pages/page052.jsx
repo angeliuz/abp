@@ -56,10 +56,10 @@ function Page052(props) {
                     anchoSVG="550"
                     altoSVG="580"
                     totalLineas="4"
-                    pointsLinea1="240,50 240,50"
-                    pointsLinea2="240,195 240,195"
-                    pointsLinea3="240,350 240,350"
-                    pointsLinea4="240,493 240,493"
+                    pointsLinea1="410,155 410,155"
+                    pointsLinea2="410,216 410,216"
+                    pointsLinea3="410,277 410,277"
+                    pointsLinea4="410,336 410,336"
                   />
 
 
@@ -86,7 +86,7 @@ function Page052(props) {
                 </div>
                 <div className="bgc-septenario d-flex center-center text-center wp-150 rounded-p-10 hp-50 psp-10 pep-10 mbp-10 position-relative">
                   <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-2"><img src={"images/page_" + pagina + "/img_001.png"} className="hp-20" alt="" /></div>
-                  Nombre del stand del equipo
+                  ¿Dónde se realizará?
                 </div>
               </div>
             </div>

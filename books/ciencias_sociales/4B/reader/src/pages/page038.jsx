@@ -30,7 +30,14 @@ function Page038(props) {
             <div className="row justify-content-center">
               <div className="col-12 p-0 m-0 position-relative">
                 <div className="position-absolute top-50 start-100 translate-middle  mtp--30 visible-768"><img src="images/page_038/img_003.png" className=" " alt="" /></div>
-                <div className="position-absolute top-0 start-100 translate-middle msp--60 mtp-90 visible-768"><img src="images/page_038/img_002.png" className=" wp-200" alt="" /></div>
+                <div className="position-absolute top-0 start-100 translate-middle msp--60 mtp-70 visible-768">
+                  <div className="position-relative">
+                    <div className="position-absolute top-0 start-0 msp-10 mtp-15 rotate--3 zindex-1">
+                      <span className="f-pixilate-bold fsp-16">Dibujo del entrevistado:</span>
+                    </div>
+                    <img src="images/page_038/img_002.png" className=" wp-200" alt="" />
+                  </div>
+                </div>
                 <div className="position-absolute top-0 start-0 translate-middle msp-50"><img src="images/page_038/img_001.svg" className="wp-180 " alt="" /></div>
                 <div className="bgc-jugador001 border-style-solid border-color-dark border-1 box-shadow-simple ptp-30">
                   <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">

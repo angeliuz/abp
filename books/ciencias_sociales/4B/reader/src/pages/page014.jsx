@@ -46,7 +46,7 @@ function Page014(props) {
             <div className="bgc-draco w-100 psp-40 ptp-10 pbp-20 pep-10 position-relative">
               <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-360" />
               <div className="position-absolute top-50 start-0 translate-middle h-100 msp-10 pbp-20"><div className="flequillo-p14 wp-30 h-100"></div></div>
-            <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp--90 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="hp-90" alt="" /></div>
+            <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp--90 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="hp-90" alt="" /></div>
             </div>
           </div>
 
@@ -56,7 +56,7 @@ function Page014(props) {
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
                 5
               </div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start col-6 col-md-8">
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start col-12 col-md-8">
                 Compartimos nuestras respuestas y concluimos. ¿Qué valores consideramos que hay que practicar día a día para lograr una buena convivencia escolar?
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
@@ -70,7 +70,7 @@ function Page014(props) {
               <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
               <div className="position-absolute top-0 start-100 translate-middle msp-3 mtp-30 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-60" alt="" /></div>
               <div className="position-absolute top-50 start-0 translate-middle msp--10 mtp-80 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
-              <div className="position-absolute top-0 start-100 translate-middle msp--100 mtp--50 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-160" alt="" /></div>
+              <div className="position-absolute top-0 start-100 translate-middle msp--100 mtp--50 zindex-1 visible-768"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-160" alt="" /></div>
             </div>
           </div>
           {/* END CONTENIDO */}
