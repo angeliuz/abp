@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import ItemLista from "../components/ItemLista";
+import TerminosPareados1 from "../components/TerminosPareados1";
 
 import "./page_024.css";
 
@@ -204,6 +205,25 @@ function Page024(props) {
                     </div>
 
                     <div className="d-flex psp-60 pep-60 mtp-20 mbp-100">
+
+                        <div className="d-flex w-100 mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-absolute zindex-10">
+                            <div className="row p-0 m-0 w-100">
+                                <div className="col-12 p-0 m-0 position-relative">
+
+                                    <TerminosPareados1
+                                        anchoSVG="550"
+                                        altoSVG="320"
+                                        totalLineas="4"
+                                        pointsLinea1="93,40 93,40"
+                                        pointsLinea2="93,121 93,121"
+                                        pointsLinea3="93,202 93,202"
+                                        pointsLinea4="93,283 93,283"
+                                    />
+
+                                </div>
+                            </div>
+                        </div>
+
                         <div className="row w-100">
                             <div className="col-6 col-md-6">
                                 <div className="d-flex flex-column justify-content-center  ptp-10 pbp-10">

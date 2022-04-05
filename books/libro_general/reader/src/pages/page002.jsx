@@ -67,6 +67,7 @@ function Page002() {
 
 
                                     <TerminosPareados1
+                                        id={"svg_" + indexInput + "_" + pagina}
                                         anchoSVG="550"
                                         altoSVG="580"
                                         totalLineas="4"

@@ -24,3 +24,29 @@
     top: 0% !important;
   }
 }
+
+#svg_0_044 {
+  position: relative;
+  top: 0px;
+  left: 0;
+}
+
+.linea {
+  stroke: #29e;
+  stroke-width: 20;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.handle {
+  fill: #fff;
+  fill-opacity: 0.4;
+  stroke-width: 4;
+  stroke: #29e;
+}
+
+.marker {
+  fill: white;
+  stroke: white;
+  pointer-events: none;
+}

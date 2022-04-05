@@ -42,10 +42,13 @@ function Page024(props) {
                     </div>
                   </div>
 
-                  <div className="w-100 rounded-p-10 border-style-solid border-1 border-color-dark bgc-urien text-start psp-10 pep-10 ptp-10 pbp-10 mtp-20 mbp-20">
+                  <div className="position-relative w-100 rounded-p-10 border-style-solid border-1 border-color-dark bgc-urien text-start psp-10 pep-10 ptp-10 pbp-10 mtp-20 mbp-20">
+                  <div className="position-absolute top-0 start-100 translate-middle mtp-10">
+                  <img src="images/page_024/clip.png" className="wp-35 " alt="" />
+                </div>
                     <div className="f-Ubuntu-R fsp-15 ">
                       <ul>
-                        <li className="color-android18">
+                        <li className="color-android18 mtp-10">
                           <span className="color-hardDark">
                             Nombre de la institución.
                           </span>

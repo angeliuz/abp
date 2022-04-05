@@ -46,18 +46,18 @@ function Page057(props) {
                          </div>
                          <div className="bgc-marcianos cb-outline-p57 p-3  fsp-15 border-color-garou cb-caja2-p57" >
                          <p className="text-start f-pixilate-bold">¿Con quién aprendí?</p>
-                         <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" /> 
+                         <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="w-96 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" /> 
                         </div>
                         </div>
                      <div className="w-100 position-relative">
                         <img src="images/page_057/img_003.png" className="cb-texto-nube" alt="" /> 
                          <div className="bgc-sayu p-3 cb-outline-p57  fsp-15 border-color-garou cb-caja3-p57" >
                          <p className="cb-psp text-start f-pixilate-bold">¿Cómo aprendí?</p>
-                         <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />  
+                         <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className=" wp-230 msp-20 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />  
                          </div>
                          <div className="bgc-windu  cb-outline-p57 p-3 fsp-15 border-color-garou cb-caja4-p57" >
                              <p className="cb-psp2 text-start f-pixilate-bold">¿Cómo me he sentido aprendiendo?</p>
-                             <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" /> 
+                             <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="wp-230 msp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" /> 
                         </div>
                     </div> 
                  

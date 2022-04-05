@@ -68,13 +68,13 @@ function Page018(props) {
 
                                     <TerminosPareados1
                                         anchoSVG="550"
-                                        altoSVG="770"
+                                        altoSVG="830"
                                         totalLineas="5"
                                         pointsLinea1="158,50 158,50"
                                         pointsLinea2="158,206 158,206"
                                         pointsLinea3="158,388 158,388"
-                                        pointsLinea4="158,620 158,620"
-                                        pointsLinea5="158,750 158,750"
+                                        pointsLinea4="158,571 158,571"
+                                        pointsLinea5="158,753 158,753"
                                     />
 
                                 </div>
