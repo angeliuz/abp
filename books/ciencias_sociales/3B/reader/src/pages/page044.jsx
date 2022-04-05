@@ -100,7 +100,7 @@ function Page044(props) {
                     <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white">
                     <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
-                    <div className="d-inline f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Otra:</div>
+                    <div className="d-inline f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Otro:</div>
                   </div>
                   <div className="psp-30 pep-5 mtp--25 ">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="ptp-10 psp-10 fsp-15 text-start flex-grow-1 contenedor-linea lhp-35" />
@@ -133,10 +133,14 @@ function Page044(props) {
 
           <div className="d-flex msp-60 mep-60 mtp-0 mbp-80">
             <div className="row w-100 p-0 m-0">
-              <div className="col-sm-12   position-relative">
+              <div className="col-12  position-relative">
+              <div className="position-absolute top-100 start-0 translate-middle">
+                  <img src="images/page_044/img_004.png" className="" alt=""></img>
+
+                </div>
                 <div className="d-flex justify-content-center ptp-20 w-100">
-                  <div className="border-style-solid border-1  wp-500 min-hp-250 sombra rounded-p-10 ">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1  lhp-35 min-hp-80" />
+                  <div className="border-style-solid border-1  w-100  box-shadow-simple rounded-p-10 ">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1  lhp-35 min-hp-290" />
                   </div>
                 </div>
               </div>

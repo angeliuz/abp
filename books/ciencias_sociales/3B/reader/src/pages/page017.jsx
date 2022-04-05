@@ -52,7 +52,7 @@ function Page017(props) {
           <div className="position-relative w-100">
             <div className="row psp-80 pep-70 ptp-10 pbp-50 ">
 
-              <div className="psp-80 pep-60 ptp-10 position-relative">
+              <div className="psp-0 pep-0 ptp-10 position-relative">
                 <div className="f-Ubuntu-B color-bulma fsp-18 text-left">
                   Plan de trabajo
                 </div>
@@ -109,7 +109,7 @@ function Page017(props) {
                   </div>
                 </div>
                 <div className="d-flex align-items-center">
-                  <div className="f-Ubuntu-R text-left pep-10">Elaboramos nuestro <b>cronograma</b> del proyecto con el material que nos entregarán.</div>
+                  <div className="f-Ubuntu-R text-left pep-10">Elaboramos un <b>cronograma</b> del proyecto con el material que nos entregarán.</div>
                   <ModalPDF
                     id={"p" + pagina + "_video" + (indexInput += 1)}
                     link="https://www.smconecta.cl/resources/1894/portadas.pdf"

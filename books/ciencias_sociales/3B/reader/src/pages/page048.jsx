@@ -31,7 +31,7 @@ function Page048(props) {
             <div className="d-flex">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/img_002.svg" alt=""  /> */}
               <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">4</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Escribo mi texto literario sobre la diversidad que presentaré en la feria.</div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Escribo mi texto literario sobre la diversidad que presentaré en la fiesta.</div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> */}
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_043/img_001.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
