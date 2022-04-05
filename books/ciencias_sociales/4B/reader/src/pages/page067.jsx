@@ -15,6 +15,7 @@ function Page067(props) {
   const borderColor = "border-color-pikachu"
   const borderColorTabla = "border-color-kokomi"
   const bgc_cajas = "bgc-kokomi";
+  const colorSesion = "color-pikachu";
 
   return (
     <div className="wrapper bgc-light">
@@ -24,7 +25,7 @@ function Page067(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className={"cabecera-v2 d-flex flex-column " + background}>
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className={"caja wp-150 text-center fsp-24 f-IntroRustG-Base " + color}>SESIÓN 15</div>
+              <div className={"caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 fsp-24 f-IntroRustG-Base  " + colorSesion}>SESIÓN 15</div>
               <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Es hora de comprometernos</div>
             </div>
 
@@ -33,7 +34,7 @@ function Page067(props) {
           <div className="d-flex msp-60 mep-60 mtp-20 mbp-10">
             <div className="row p-0 m-0">
               <div className="col-sm-12 col-md-3 position-relative"></div>
-              <div className="container-titulo-global mtp-20 mbp-0">
+              <div className=" mtp-20 mbp-0">
     <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
     Una nueva invitación
     </div>
@@ -94,7 +95,7 @@ function Page067(props) {
                   </div>
                 </div>
               </div>
-              <div className="ptp-10 container-titulo-global mbp-0">
+              <div className="ptp-10 mbp-0">
                 <div className="d-flex psp-20">
                   {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
                   <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>

@@ -29,7 +29,7 @@ function Page045(props) {
             <div className="d-flex">
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">1</div>
               <div className="f-Ubuntu-R fsp-14 ptp-18 psp-10 text-start">A partir de las sesiones anteriores y mis experiencias, recorto y pego personajes de mi curso o colegio. Luego, representamos alguna situación de convivencia escolar.</div>
-              <div className="hp-60">
+              <div className="mtp-30 msp-20">
                 <ModalRecortableEstatico
                   id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
                   pagina={pagina}

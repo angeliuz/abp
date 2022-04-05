@@ -53,6 +53,10 @@
     margin-left: 200px;
 }
 
+.mtp-17 {
+    margin-top: 17px;
+}
+
 @media all and (max-width: 700px) {
     .msp-40-rp19 {
         margin-left: 0px;

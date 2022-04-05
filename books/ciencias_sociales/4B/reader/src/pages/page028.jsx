@@ -26,7 +26,7 @@ function Page028(props) {
           </div>
 
           <div className="ptp-30 container-titulo-global mbp-10">
-            <div className={"f-Ubuntu-B fsp-20 psp-50 text-start lhp-20 " + color}>Nos ponemos en el lugar de otros</div>
+            <div className={"f-Ubuntu-B fsp-20 text-start lhp-20 " + color}>Nos ponemos en el lugar de otros</div>
             <div className="d-flex">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_005.svg"} alt=""  /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>3</div>
@@ -96,7 +96,7 @@ function Page028(props) {
             <div className="position-absolute top-0 start-50 msp--275 mtp-30 zindex-1">
               <div className="d-flex flex-column wp-150 psp-10 pep-10 ptp-0 pbp-0 ">
                 Si pienso como...
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120 max-hp-120" />
               </div>
             </div>
             <div className="position-absolute top-50 start-50 msp--275 mtp-20 zindex-1">

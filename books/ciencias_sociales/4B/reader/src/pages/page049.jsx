@@ -34,14 +34,14 @@ function Page049(props) {
                     <div className="d-flex psp-80 pep-100">
                         <div className="row w-100 p-0 m-0">
                             <div className="col-12">
-                                <div className="w-100 psp-40 ptp-20 pbp-20 pep-15 text-left bgc-white border-style-solid border-5 border-color-sid position-relative rounded-p-20">
+                                <div className="w-100 psp-40 ptp-20 pbp-20 pep-15 bgc-white border-style-solid border-5 border-color-sid position-relative rounded-p-20">
                                     <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_049/lupa.png" className="hp-60 mep--15 mtp-40" alt="" /></div>
                                     <div className="position-absolute top-50 start-0 translate-middle h-100 ptp-10 pbp-10"><div className="espiral wp-30 h-100"></div></div>
-                                    <div className="f-Ubuntu-L fsp-14 text-start">
-                                        <span className="text-start">Querido cuarto básico:<br /></span>
-                                        <span className="text-center mtp-5">La convivencia no solo es una tarea de cada uno, también es un compromiso colectivo. Para llevarlo a cabo, debemos conversar entre todos acerca de la convivencia escolar y sus desafíos.<br /></span>
-                                        <span className="text-center mtp-5">Los invitamos a prepararse junto a sus equipos de trabajar para realizar una jornada de diálogo. Se llamará “Conversamos sobre nuestra convivencia”. Es importante que todos participen. Así conoceremos las reflexiones de cada uno sobre este tema.<br /></span>
-                                        <span className="text-center mtp-5">¡Prepara junto a tu equipo esta jornada de diálogo!</span>
+                                    <div className="f-Ubuntu-L fsp-14">
+                                        <div className="text-start">Querido cuarto básico:<br /></div>
+                                        <div className="text-start mtp-5">La convivencia no solo es una tarea de cada uno, también es un compromiso colectivo. Para llevarlo a cabo, debemos conversar entre todos acerca de la convivencia escolar y sus desafíos.<br /></div>
+                                        <div className="text-start mtp-5">Los invitamos a prepararse junto a sus equipos de trabajar para realizar una jornada de diálogo. Se llamará “Conversamos sobre nuestra convivencia”. Es importante que todos participen. Así conoceremos las reflexiones de cada uno sobre este tema.<br /></div>
+                                        <div className="text-center mtp-5">¡Prepara junto a tu equipo esta jornada de diálogo!</div>
                                     </div>
                                 </div>
                             </div>

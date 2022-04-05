@@ -21,7 +21,7 @@ function Page039(props) {
           <div className="position-relative w-100">
             <div className="row psp-80 pep-70 ptp-10 pbp-50 ">
               <div className="f-Ubuntu-R text-start msp-40 fsp-18 psp-30 pbp-10">
-                Esta página fue completada por:
+              Este dosier fue completado por:
               </div>
               <div className="d-flex position-relative">
                 <img
