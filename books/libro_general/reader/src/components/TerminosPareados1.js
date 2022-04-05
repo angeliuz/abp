@@ -120,19 +120,19 @@ function TerminosPareados1(props) {
     }
 
     function dragEnd(point, element, points, indice) {
-        console.log("indice: " + indice);
+        //console.log("indice: " + indice);
         point.x = element.x;
         point.y = element.y;
         points[1] = { x: point.x, y: point.y };
 
         arregloPoints[indice] = arregloLineas[indice].points;
-        console.log(arregloPoints);
+       // console.log(arregloPoints);
     }
 
     function updateDrag(point, element) {
         point.x = element.x;
         point.y = element.y;
-        console.log("update: "+point.x+" "+point.y);
+       // console.log("update: "+point.x+" "+point.y);
     }
 
     function createClone(node, parent, point) {
