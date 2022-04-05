@@ -35,7 +35,7 @@ function Page064(props) {
                     <div className="border-style-solid p-3 border-5 border-color-sonic rounded-p-10 bgc-white position-relative">
                       <div className="position-absolute top-0 start-50 translate-middle  "> <img src={"images/page_" + pagina + "/img_004.svg"} className="hp-50 msp--200 mtp--20" alt="" /> </div>
                       <div className="position-absolute top-0 start-100 translate-middle  "> <img src={"images/page_" + pagina + "/img_004.svg"} className="hp-50 msp--100 mtp--20" alt="" /> </div>
-                      <div className="f-Ubuntu-R fsp-16 ptp-15  text-start color-dark lh-sm">Ahora que hemos finalizado, pensamos que nuestro álbum tiene as siguientes características:</div>
+                      <div className="f-Ubuntu-R fsp-16 ptp-15  text-start color-dark lh-sm">Ahora que hemos finalizado, pensamos que nuestro álbum tiene las siguientes características:</div>
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-280" />
                     </div>
                   </div>
@@ -127,15 +127,15 @@ function Page064(props) {
                   <div className="d-flex flex-column">
                     <div className="d-flex w-100 psp-20 pep-20 ptp-0 pbp-0">
                       <div className="wp-25 hp-25 bgc-saitama rounded-circle color-white f-Ubuntu-L fw-900 fsp-18  ">1</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-600 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mxw-92 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                     </div>
                     <div className="d-flex w-100 psp-20 pep-20 ptp-0 pbp-0">
                       <div className="wp-25 hp-25 bgc-saitama rounded-circle color-white f-Ubuntu-L fw-900 fsp-18  ">2</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-580 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mxw-92 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                     </div>
                     <div className="d-flex w-100 psp-20 pep-20 ptp-0 pbp-0">
                       <div className="wp-25 hp-25 bgc-saitama rounded-circle color-white f-Ubuntu-L fw-900 fsp-18  ">3</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-580 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mxw-92 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                     </div>
 
                   </div>

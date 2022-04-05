@@ -27,7 +27,7 @@ function Page068(props) {
             <div className="row p-0 m-0">
               <div className="col-sm-12 col-md-3 position-relative"></div>
 
-              <div className="ptp-10 container-titulo-global mbp-20">
+              <div className="ptp-10 mbp-20">
                 <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
                   Nos comprometemos
                 </div>
@@ -58,7 +58,7 @@ function Page068(props) {
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
                 </div>
               </div>
-              <div className="ptp-10 container-titulo-global mbp-20">
+              <div className="ptp-10 mbp-20">
                 <div className="d-flex psp-20">
                   {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
                   <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
