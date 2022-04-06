@@ -41,12 +41,12 @@ function Page050(props) {
           <div className="d-flex psp-60 pep-60 mbp-20">
             <div className="row w-100 position-relative">
               <div className="col-12 px-0 m-0 position-relative ptp-20">
-                <div className="position-absolute top-100 start-0 translate-middle zindex-1 msp-0 mtp-0"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
-                <div className="d-flex border-style-solid border-2 border-color-dark rounded-p-10 min-hp-500">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-35 hp-800" />
+                <div className="position-absolute top-100 start-0 translate-middle zindex-1 msp-0 mtp--50"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
+                <div className="mbp-40 border-style-solid border-2 border-color-dark rounded-p-10">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-caja p-0 px-1 fsp-15 text-start flex-grow-1 lhp-35 hp-800" />
                 </div>
               </div>
-              <div className="position-absolute top-0 start-100 msp--280 mtp--20">
+              <div className="cartel position-absolute top-0 start-100 msp--280 mtp--20">
                 <div className="wp-300 position-relative">
                   <div className="position-absolute top-0 start-100 translate-middle zindex-1 msp--40 mtp-0"><img src={"images/page_" + pagina + "/clip.png"} className="wp-30" alt="" /></div>
                   <div className="d-flex flex-column bgc-pantro psp-20 pep-20 ptp-10 pbp-10 box-shadow-simple">
