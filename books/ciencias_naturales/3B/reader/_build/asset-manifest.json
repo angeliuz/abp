@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/libros_abp/books/ciencias_naturales/3B/reader/build/static/css/main.0355f050.css",
-    "main.js": "/libros_abp/books/ciencias_naturales/3B/reader/build/static/js/main.a5ecd280.js",
+    "main.css": "/libros_abp/books/ciencias_naturales/3B/reader/build/static/css/main.aa40975e.css",
+    "main.js": "/libros_abp/books/ciencias_naturales/3B/reader/build/static/js/main.500b4274.js",
     "static/js/787.327d116d.chunk.js": "/libros_abp/books/ciencias_naturales/3B/reader/build/static/js/787.327d116d.chunk.js",
     "static/media/IntroRustG-Base.otf": "/libros_abp/books/ciencias_naturales/3B/reader/build/static/media/IntroRustG-Base.550328cf018992102ea6.otf",
     "static/media/Ubuntu-L.ttf": "/libros_abp/books/ciencias_naturales/3B/reader/build/static/media/Ubuntu-L.b6c0962b33adfd62ee88.ttf",
@@ -51,12 +51,12 @@
     "static/media/linea.svg": "/libros_abp/books/ciencias_naturales/3B/reader/build/static/media/linea.608e36926dfa6d98a1a5.svg",
     "static/media/caja_sesion.svg": "/libros_abp/books/ciencias_naturales/3B/reader/build/static/media/caja_sesion.3c8ca5b94ece0b7e3dce.svg",
     "static/media/lineas_objetivos_movile.svg": "/libros_abp/books/ciencias_naturales/3B/reader/build/static/media/lineas_objetivos_movile.bb3e000f820ddef8d96d.svg",
-    "main.0355f050.css.map": "/libros_abp/books/ciencias_naturales/3B/reader/build/static/css/main.0355f050.css.map",
-    "main.a5ecd280.js.map": "/libros_abp/books/ciencias_naturales/3B/reader/build/static/js/main.a5ecd280.js.map",
+    "main.aa40975e.css.map": "/libros_abp/books/ciencias_naturales/3B/reader/build/static/css/main.aa40975e.css.map",
+    "main.500b4274.js.map": "/libros_abp/books/ciencias_naturales/3B/reader/build/static/js/main.500b4274.js.map",
     "787.327d116d.chunk.js.map": "/libros_abp/books/ciencias_naturales/3B/reader/build/static/js/787.327d116d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0355f050.css",
-    "static/js/main.a5ecd280.js"
+    "static/css/main.aa40975e.css",
+    "static/js/main.500b4274.js"
   ]
 }

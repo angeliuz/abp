@@ -1,5 +1,6 @@
 import React from "react";
 import InputBox from "../components/InputBox";
+import Seleccion from '../components/Seleccion';
 
 import "./page_008.css";
 
@@ -37,21 +38,52 @@ function Page008(props) {
                   {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
                 </div>
               </div>
-              <div className="max-wp-500  ">
-                <div className="d-flex justify-content-between">
-                  <div className="text-center bgc-urien rounded-p-10 f-Ubuntu-L fsp-15 pep-10 psp-10">Organizar una fiesta sobre <br /> diversidad cultural.</div>
-                  <div className="text-center bgc-shogun rounded-p-10 f-Ubuntu-L fsp-15 pep-10 psp-10">Promover la buena <br /> convivencia escolar.</div>
+
+              <div className="w-100 mtp--40 pbp-10">
+                <div className="d-flex justify-content-around">
+                  <Seleccion
+                    id={"seleccion_" + pagina + "_" + (indexInput += 1)}
+                    image={"images/page_" + pagina + "/encierra.svg"}
+                    classNameContenedor="position-relative mtp-50 text-center bgc-urien rounded-p-10 f-Ubuntu-L fsp-15 pep-10 psp-10 wp-200 hp-50 d-flex center-center"
+                    classNameImagen="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 visible-768 zindex-1 wp-200 hp-200"
+                    texto="Organizar una fiesta sobre diversidad cultural."
+                  />
+                  <Seleccion
+                    id={"seleccion_" + pagina + "_" + (indexInput += 1)}
+                    image={"images/page_" + pagina + "/encierra.svg"}
+                    classNameContenedor="position-relative mtp-50 text-center bgc-shogun rounded-p-10 f-Ubuntu-L fsp-15 pep-10 psp-10 wp-200 hp-50 d-flex center-center"
+                    classNameImagen="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 visible-768 zindex-1 wp-200 hp-200"
+                    texto="Promover la buena convivencia escolar."
+                  />
                 </div>
               </div>
-              <div className="max-wp-600">
-                <div className="d-flex justify-content-between mtp-20 msp-50">
-                  <div className="w-100 max-wp-210 mep-5 text-center bgc-marcianos rounded-p-10 f-Ubuntu-L fsp-15 pep-10 psp-10">Crear un álbum para la buena convivencia.</div>
-                  <div className="w-100 max-wp-230 msp-5 text-center bgc-kokomi rounded-p-10 f-Ubuntu-L fsp-15 pep-10 psp-10">Conocer los gustos e intereses de otros compañeros.</div>
+              <div className="w-100  ptp-10 pbp-10">
+                <div className="d-flex justify-content-around">
+                  <Seleccion
+                    id={"seleccion_" + pagina + "_" + (indexInput += 1)}
+                    image={"images/page_" + pagina + "/encierra.svg"}
+                    classNameContenedor="position-relative mtp-50 text-center bgc-marcianos rounded-p-10 f-Ubuntu-L fsp-15 pep-10 psp-10 wp-200 hp-50 d-flex center-center"
+                    classNameImagen="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 visible-768 zindex-1 wp-200 hp-200"
+                    texto="Crear un álbum para la buena convivencia."
+                  />
+                  <Seleccion
+                    id={"seleccion_" + pagina + "_" + (indexInput += 1)}
+                    image={"images/page_" + pagina + "/encierra.svg"}
+                    classNameContenedor="position-relative mtp-50 text-center bgc-kokomi rounded-p-10 f-Ubuntu-L fsp-15 pep-10 psp-10 wp-250-p8 d-flex center-center"
+                    classNameImagen="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 visible-768 zindex-1 wp-200 hp-200"
+                    texto="Conocer los gustos e intereses de otros compañeros."
+                  />
                 </div>
               </div>
-              <div className="max-wp-700 mx-auto ">
-                <div className="d-flex justify-content-center align-items-center text-center mtp-20 ">
-                  <div className="w-100 max-wp-150 text-center bgc-bach rounded-p-10 f-Ubuntu-L fsp-15 pep-10 psp-10 "> Escribir una revista escolar semestral.</div>
+              <div className="w-100  ptp-10 pbp-10">
+                <div className="d-flex justify-content-around">
+                  <Seleccion
+                    id={"seleccion_" + pagina + "_" + (indexInput += 1)}
+                    image={"images/page_" + pagina + "/encierra.svg"}
+                    classNameContenedor="position-relative mtp-50 text-center bgc-bach rounded-p-10 f-Ubuntu-L fsp-15 pep-10 psp-10 wp-200 hp-50 d-flex center-center"
+                    classNameImagen="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 visible-768 zindex-1 wp-200 hp-200"
+                    texto="Escribir una revista escolar semestral."
+                  />
                 </div>
               </div>
             </div>
@@ -97,8 +129,8 @@ function Page008(props) {
           </div>
 
 
-      {/* BEGIN PIE DE PAGINA */}
-      <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
+          {/* BEGIN PIE DE PAGINA */}
+          <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>
               ABP &copy; SM
             </div>
