@@ -76,8 +76,8 @@ function Page023(props) {
 
           <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100 position-relative">
-              <div className="position-absolute top-50 start-0 translate-middle mtp--90 msp-70 visible-768 "><img src="images/page_023/img_001.png" className="wp-100" alt="" /></div>
-              <div className="position-absolute top-50 start-100 translate-middle mtp--130 msp--50 visible-768 "><img src="images/page_023/img_002.png" className="wp-100" alt="" /></div>
+              <div className="position-absolute top-50 start-0 translate-middle mtp--100 msp-70 visible-768 "><img src="images/page_023/img_001.png" className="wp-100" alt="" /></div>
+              <div className="position-absolute top-50 start-100 translate-middle mtp--100 msp--70 visible-768 "><img src="images/page_023/img_002.png" className="wp-100" alt="" /></div>
               <div className="col-12 p-0 m-0 position-relative">
                 <div className="d-flex w-100 hp-490">
                   {/* <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-540" alt="" /></div> */}
