@@ -100,7 +100,7 @@ function Page046(props) {
                                   <span className="f-Ubuntu-L fsp-14 text-start">Para qué me sirvió la sesión de hoy?</span>
                                 </div>
                             </div>
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="msp-20 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="msp-20 fsp-14 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
 
                         </div>
                     </div>
