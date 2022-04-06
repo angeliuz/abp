@@ -99,7 +99,7 @@ function Page023(props) {
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_004.jpg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
               <ModalPDF
                 id={"p" + pagina + "_video" + (indexInput += 1)}
-                link="https://www.smconecta.cl/resources/1894/portadas.pdf"
+                link="https://www.smconecta.cl/resources/1893/nat_3b_fic02.pdf"
                 titulo="Material descargable"
                 tipo="PDF"
                 image={"images/generales/descargable.svg"}
