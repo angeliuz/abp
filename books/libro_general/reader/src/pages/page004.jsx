@@ -65,7 +65,7 @@ function Page004() {
                                 X
                             </div>
                             <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                                Términos pareados
+                                Sopa de letras
                             </div>
 
                         </div>
