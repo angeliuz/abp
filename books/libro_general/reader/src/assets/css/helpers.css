@@ -167,6 +167,18 @@
 .wp-25 {
   width: 25px;
 }
+.wp-26 {
+  width: 26px;
+}
+.wp-27 {
+  width: 27px;
+}
+.wp-28 {
+  width: 28px;
+}
+.wp-29 {
+  width: 29px;
+}
 .wp-30 {
   width: 30px;
 }
@@ -280,6 +292,72 @@
 }
 .wp-230 {
   width: 230px;
+}
+.wp-235 {
+  width: 235px;
+}
+.wp-240 {
+  width: 240px;
+}
+.wp-245 {
+  width: 245px;
+}
+.wp-250 {
+  width: 250px;
+}
+.wp-255 {
+  width: 255px;
+}
+.wp-260 {
+  width: 260px;
+}
+.wp-265 {
+  width: 265px;
+}
+.wp-270 {
+  width: 270px;
+}
+.wp-275 {
+  width: 275px;
+}
+.wp-280 {
+  width: 280px;
+}
+.wp-281 {
+  width: 281px;
+}
+.wp-282 {
+  width: 282px;
+}
+.wp-283 {
+  width: 283px;
+}
+.wp-284 {
+  width: 284px;
+}
+.wp-285 {
+  width: 285px;
+}
+.wp-286 {
+  width: 286px;
+}
+.wp-287 {
+  width: 287px;
+}
+.wp-288 {
+  width: 288px;
+}
+.wp-289 {
+  width: 289px;
+}
+.wp-290 {
+  width: 290px;
+}
+.wp-295 {
+  width: 295px;
+}
+.wp-300 {
+  width: 300px;
 }
 .wp-360 {
   width: 360px;
@@ -1318,6 +1396,9 @@
   margin-right: 200%;
 }
 
+.mep-1 {
+  margin-right: 1px;
+}
 .mep-5 {
   margin-right: 5px;
 }
@@ -3407,6 +3488,18 @@
 }
 
 /* padding-left px */
+.psp-1 {
+  padding-left: 1px;
+}
+.psp-2 {
+  padding-left: 2px;
+}
+.psp-3 {
+  padding-left: 3px;
+}
+.psp-4 {
+  padding-left: 4px;
+}
 .psp-5 {
   padding-left: 5px;
 }

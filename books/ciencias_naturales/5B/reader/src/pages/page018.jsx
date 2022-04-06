@@ -19,7 +19,6 @@ function Page018(props) {
   const borderColorTabla = "border-color-buzz"
   const bgc_cajas = "bgc-piccolo";
 
-
   return (
 
     <div className="wrapper bgc-light">
@@ -29,7 +28,6 @@ function Page018(props) {
           {/* BEGIN CABECERA VERSIÓN 1 */}
           <div className={"cabecera-v1 hp-80 " + background}></div>
           {/* END CABECERA VERSIÓN 1 */}
-
 
           <div className="container-titulo-global mtp-20 mbp-0">
             {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
@@ -317,8 +315,6 @@ function Page018(props) {
                 </div>
               </div>
             </div>
-
-
 
           </div>
 
