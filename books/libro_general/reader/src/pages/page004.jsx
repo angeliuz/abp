@@ -83,7 +83,10 @@ function Page004() {
                                 <div className="col-12 p-0 m-0 position-relative d-flex center-center">
 
                                     <Sopa1
-
+                                        id={"sopa_" + indexInput + "_" + pagina}
+                                        totalCajas="100"
+                                        classNameCaja="wp-30 hp-30 d-flex center-center border-style-solid border-color-android18 border-1"
+                                        classNameContenedor="d-flex flex-wrap wp-302 border-style-solid border-color-android18 border-1"
                                     />
 
 
