@@ -105,7 +105,7 @@ function Page026(props) {
 
                   <div className="col-md-12 col-lg-12 position-relative m-0 p-0">
 
-                    <img src={"images/page_" + pagina + "/sopa.svg"} className="w-100 " alt="" />
+                    <img src={"images/page_" + pagina + "/sopa2.svg"} className="w-100 " alt="" />
 
                   </div>
 
