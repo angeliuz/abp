@@ -74,9 +74,104 @@ function Page023(props) {
             </div>
           </div> */}
 
+          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 m-0 w-100 position-relative">
+              <div className="position-absolute top-50 start-0 translate-middle mtp--90 msp-70 visible-768 "><img src="images/page_023/img_001.png" className="wp-100" alt="" /></div>
+              <div className="position-absolute top-50 start-100 translate-middle mtp--130 msp--50 visible-768 "><img src="images/page_023/img_002.png" className="wp-100" alt="" /></div>
+              <div className="col-12 p-0 m-0 position-relative">
+                <div className="d-flex w-100 hp-490">
+                  {/* <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-540" alt="" /></div> */}
+                  {/* BLOQUE 1 */}
+                  <div
+                    className="position-absolute top-50 start-50 translate-middle msp--30 mtp-15"
+                    id={"1"}
+                    style={{ zIndex: 1 }}
+                  >
+                    <div className="d-flex center-center psp-0 pep-0 ptp-0 pbp-0 zindex-2 border-style-solid border-color-transparent border-2">
+                      <Crucigrama
+                        id={"crucigrama" + pagina + "_" + (indexInput += 1)}
+                        numero_cajas="10"
+                        columns={"flex-row"}
+                        rotuloColor="bgc-android18"
+                        grupo="1"
+                        numeroDeGrupos="5"
+                      ></Crucigrama>
+                    </div>
+                  </div>
+                  {/* BLOQUE 2 */}
+                  <div
+                    className="position-absolute top-50 start-50 translate-middle msp-75 mtp--100"
+                    id={"2"}
+                    style={{ zIndex: 1 }}
+                  >
+                    <div className="d-flex center-center psp-0 pep-0 ptp-0 pbp-0 zindex-2 border-style-solid border-color-transparent border-1">
+                      <Crucigrama
+                        id={"crucigrama" + pagina + "_" + (indexInput += 1)}
+                        numero_cajas="5"
+                        columns={"flex-row"}
+                        rotuloColor="bgc-android18"
+                        grupo="2"
+                        numeroDeGrupos="5"
+                      ></Crucigrama>
+                    </div>
+                  </div>
+                  {/* BLOQUE 3 */}
+                  <div
+                    className="position-absolute top-50 start-50 translate-middle msp--30 mtp--45"
+                    id={"3"}
+                    style={{ zIndex: 1 }}
+                  >
+                    <div className="d-flex center-center psp-0 pep-0 ptp-0 pbp-0 zindex-2 border-style-solid border-color-transparent border-1">
+                      <Crucigrama
+                        id={"crucigrama" + pagina + "_" + (indexInput += 1)}
+                        numero_cajas="10"
+                        columns={"flex-column"}
+                        rotuloColor="bgc-android18"
+                        grupo="3"
+                        numeroDeGrupos="5"
+                      ></Crucigrama>
+                    </div>
+                  </div>
+                  {/* BLOQUE 4 */}
+                  <div
+                    className="position-absolute top-50 start-50 translate-middle msp-60 mtp--15"
+                    id={"4"}
+                    style={{ zIndex: 1 }}
+                  >
+                    <div className="d-flex center-center psp-0 pep-0 ptp-0 pbp-0 zindex-2 border-style-solid border-color-transparent border-2">
+                      <Crucigrama
+                        id={"crucigrama" + pagina + "_" + (indexInput += 1)}
+                        numero_cajas="10"
+                        columns={"flex-column"}
+                        rotuloColor="bgc-android18"
+                        grupo="4"
+                        numeroDeGrupos="5"
+                      ></Crucigrama>
+                    </div>
+                  </div>
+                  {/* BLOQUE 5 */}
+                  <div
+                    className="position-absolute top-50 start-50 translate-middle msp--120 mtp-57"
+                    id={"5"}
+                    style={{ zIndex: 1 }}
+                  >
+                    <div className="d-flex center-center psp-0 pep-0 ptp-0 pbp-0 zindex-2 border-style-solid border-color-transparent border-2">
+                      <Crucigrama
+                        id={"crucigrama" + pagina + "_" + (indexInput += 1)}
+                        numero_cajas="9"
+                        columns={"flex-column"}
+                        rotuloColor="bgc-android18"
+                        grupo="5"
+                        numeroDeGrupos="5"
+                      ></Crucigrama>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-
-          <div className="msp-60 mep-60 mtp-20 mbp-10">
+          {/* <div className="msp-60 mep-60 mtp-20 mbp-10">
             <div className="row p-0 m-0">
               <div className="col-sm-12 col-md-3 position-relative">
 
@@ -87,7 +182,7 @@ function Page023(props) {
                 <div className="position-absolute top-50 start-100 translate-middle mtp--130 msp--50 visible-768 "><img src="images/page_023/img_002.png" className="wp-100" alt="" /></div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="d-flex msp-60 mep-60 mbp-60 mtp-30">
 
