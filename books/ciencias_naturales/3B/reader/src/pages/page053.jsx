@@ -25,7 +25,7 @@ function Page053(props) {
               <div className={"psp-50 pep-50 ptp-5 pbp-5 bgc-white rounded-p-10 border-style-solid border-1 " + borderColor + " d-flex justify-content-center position-relative"}>
                 <div className="position-absolute top-50 start-100 translate-middle wp-100 msp-0 mtp--10"><img src={"images/page_" + pagina + "/img_001.png"} className="w-80" alt="" /></div>
                 <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp--10"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-80" alt="" /></div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 max-wp-550" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 max-wp-550" />
               </div>
             </div>
           </div>
@@ -64,9 +64,9 @@ function Page053(props) {
           <div className="d-flex global-margin mtp-20 mbp-0 psp-0 pep-0 ptp-0 pbp-0 f-Ubuntu-R fsp-15">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
-                <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-100" alt="" /></div>
+                <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-100" alt="" /></div>
                 <div className="position-absolute top-50 start-100 translate-middle msp-20 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-60" alt="" /></div>
-                <div className="border-style-solid border-2 border-color-dark rounded-p-10">
+                <div className="border-style-solid border-2 border-color-dark rounded-p-10 mbp-80">
                   <div className="d-flex flex-column bgc-white rounded-p-10">
                     <div className="psp-10 pep-10 ptp-10 text-start">
                       ¿Qué esperamos conseguir con la feria que realizaremos?

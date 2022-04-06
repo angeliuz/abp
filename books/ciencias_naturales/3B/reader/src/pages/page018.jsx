@@ -104,7 +104,7 @@ function Page018(props) {
 
 
                     {/* BEGIN TABLE */}
-                    <div className="max-wp-550 mtp-30 global-margin mbp-80 psp-0 pep-0 ptp-10 pbp-10  f-Ubuntu-L fsp-13 rounded-p-10 position-relative">
+                    <div className="max-wp-550 mtp-30 global-margin mbp-80 psp-0 pep-0 ptp-10 pbp-10  f-Ubuntu-L fsp-15 rounded-p-10 position-relative">
                         <div className="position-absolute top-100 start-100 translate-middle msp-80 mtp--110 visible-768"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-120" alt="" /></div>
                         <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-0">
                             {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/generales/ticket.svg" className="hp-17 mtp--3 msp-5 mep-5" alt=""/>el recuadro que mejor me represente.</span> */}
