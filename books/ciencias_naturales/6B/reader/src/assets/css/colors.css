@@ -324,6 +324,10 @@
 /* END BACKGROUND PARA DESARROLLO */
 
 /* BORDES */
+.border-color-transparent {
+  border-color: var(--transparent) !important;
+}
+
 .border-color-primary {
   border-color: var(--primary) !important;
 }
