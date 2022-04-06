@@ -44,9 +44,8 @@ function Page052(props) {
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
-          <div className="d-flex position-relative">
 
-            <div className="d-flex w-100 mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-absolute zindex-10">
+          <div className="d-flex w-100 mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-absolute zindex-10">
               <div className="row p-0 m-0 w-100">
                 <div className="col-12 p-0 m-0 position-relative">
 
@@ -56,7 +55,7 @@ function Page052(props) {
                     anchoSVG="550"
                     altoSVG="580"
                     totalLineas="4"
-                    pointsLinea1="410,155 410,155"
+                    pointsLinea1="354,138 354,138"
                     pointsLinea2="410,216 410,216"
                     pointsLinea3="410,277 410,277"
                     pointsLinea4="410,336 410,336"
@@ -66,11 +65,14 @@ function Page052(props) {
                 </div>
               </div>
             </div>
-          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+          <div className="d-flex position-relative center-center">
+
+          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 wp-580 bgc-green">
             <div className="row p-0 m-0 w-100">
-              <div className="col-8 p-0 m-0 position-relative">
-                <img src={"images/page_" + pagina + "/img_001.jpg"} className="w-100" alt="" />
+              <div className="col-7 p-0 m-0 position-relative">
+                <img src={"images/page_" + pagina + "/img_001.jpg"} className="wp-310 center-center" alt="" />
               </div>
+              <div className="col-1 wp-40"></div>
               <div className="col-4 p-0 m-0 position-relative f-Ubuntu-R fsp-14 d-flex flex-column center-center">
                 <div className="bgc-septenario d-flex center-center text-center wp-150 rounded-p-10 hp-50 psp-10 pep-10 mbp-10 position-relative">
                   <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-2"><img src={"images/page_" + pagina + "/img_001.png"} className="hp-20" alt="" /></div>
