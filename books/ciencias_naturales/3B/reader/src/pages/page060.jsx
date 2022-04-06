@@ -84,7 +84,7 @@ function Page060(props) {
                         </div>
 
                         {/* BEGIN TABLE */}
-                        <div className="global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-10 pbp-100  f-Ubuntu-L fsp-13 rounded-p-10 ">
+                        <div className="global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-10 pbp-100  f-Ubuntu-L fsp-15 rounded-p-10 ">
                             <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-0">
                                 {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/generales/ticket.svg" className="hp-17 mtp--3 msp-5 mep-5" alt=""/>el recuadro que mejor me represente.</span> */}
                                 <div className="w-100 p-0 pb-3 position-relative">
