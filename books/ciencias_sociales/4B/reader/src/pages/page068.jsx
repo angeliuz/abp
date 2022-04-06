@@ -23,7 +23,7 @@ function Page068(props) {
           <div className={"cabecera-v1 hp-80 " + background}>
           </div>
 
-          <div className="d-flex msp-60 mep-60 mtp-20 mbp-10">
+          <div className="d-flex msp-60 mep-60 mtp-20 mbp-90">
             <div className="row p-0 m-0">
               <div className="col-sm-12 col-md-3 position-relative"></div>
 
@@ -45,17 +45,17 @@ function Page068(props) {
                 </div>
               </div>
               {/* FIN CABECERA */}
-              <div className="max-wp-700 mx-auto bgc-white p-2 t-shadow position-relative">
+              <div className="max-wp-700-p68 mx-auto bgc-white p-2 t-shadow position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle msp--90 mtp-10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-30" alt="" /></div>
                 <span className="text-start f-Ubuntu-L fsp-15 d-flex">Nuestro compromiso por la buena convivencia:</span>
                 <div className="psp-10 pep-10">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 w-100 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
                 </div>
               </div>
-              <div className="max-wp-700 mx-auto bgc-marcianos p-2 t-shadow rounded-p-10 position-relative">
+              <div className="max-wp-700-68 mx-auto bgc-marcianos p-2 t-shadow rounded-p-10 position-relative">
                 <span className="text-start f-Ubuntu-L fsp-15 d-flex">Nuestro compromiso se ve reflejado en nuestro álbum en:</span>
                 <div className="psp-10 pep-10">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 w-100 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
                 </div>
               </div>
               <div className="ptp-10 mbp-20">
@@ -72,13 +72,13 @@ function Page068(props) {
                   {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista65.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
                 </div>
               </div>
-              <div className="max-wp-700 mx-auto cb-border-multicolor ptp-20 pbp-20 psp-60 bgc-lizt position-relative">
+              <div className="max-wp-700-68 mx-auto cb-border-multicolor ptp-20 pbp-20 psp-60 bgc-lizt position-relative">
                 <div className="position-absolute top-50 start-100 translate-middle msp--90 mtp-10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-110" alt="" /></div>
                 <span className="text-start f-Ubuntu-L fsp-15 d-flex ">Nuestra jornada “Por la buena convivencia escolar”</span>
                 <div className="d-flex w-100 mtp-10">
                   <span className="text-start f-Ubuntu-L fsp-15 d-flex justify-content-center align-items-center mep-10">se llevará a cabo el día</span>
                   <div className=" rounded-p-10 bgc-white border-1 border-style-solid border-color-ken max-wp-300 w-100 ptp-10 pbp-10 psp-20 pep-20 msp-10">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-25" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 w-100 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-25" />
                   </div>
                 </div>
                 <div className="d-flex mtp-10">
