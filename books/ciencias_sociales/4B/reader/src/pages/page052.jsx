@@ -50,7 +50,7 @@ function Page052(props) {
             <div className="position-absolute top-50 start-50 translate-middle msp-12 mtp-145 visible-768 zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-50 mtp-60" alt="" /></div>
             <div className="row d-flex mx-auto f-Ubuntu-L fsp-15 mbp-0 position-relative justify-content-between">
 
-              <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp-25 zindex-1"><img src={"images/page_" + pagina + "/posit.png"} className="wp-60 mtp--60 msp-0" alt="" /></div>
+              <div className="position-absolute top-100 start-0 translate-middle msp-0 zindex-1"><img src={"images/page_" + pagina + "/posit.png"} className="wp-60 mtp--140 msp-0" alt="" /></div>
               <div className="col-sm-12 col-md-6 pbp-10">
                 <div className="text-center w-100 border-1 border-style-solid border-color-saitama rounded-p-10">
                   <div className="rounded-set-6 hp-60 pep-20 psp-20 ptp-10 pbp-10 bgc-saitama d-flex justify-content-center align-items-center text-white p-2 f-Ubuntu-B">¿A qué acuerdo llegamos<br />como curso?</div>
