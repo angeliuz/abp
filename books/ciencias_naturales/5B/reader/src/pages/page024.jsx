@@ -214,9 +214,9 @@ function Page024(props) {
                                     altoSVG="310"
                                     totalLineas="4"
                                     pointsLinea1="183,37 183,37"
-                                    pointsLinea2="183,110 183,110"
+                                    pointsLinea2="183,111 183,111"
                                     pointsLinea3="183,184 183,184"
-                                    pointsLinea4="183,257 183,257"
+                                    pointsLinea4="183,258 183,258"
                                 />
 
                             </div>

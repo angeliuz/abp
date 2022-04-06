@@ -150,7 +150,7 @@ function Page016(props) {
               <div className="pt-0 flex-grow-1 mbp-20">
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80"
+                  className="fsp-15 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80"
                 />
               </div>
 
@@ -165,7 +165,7 @@ function Page016(props) {
               <div className="pt-0 flex-grow-1">
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-0 px-1 text-start flex-grow-1 contenedor-linea min-hp-80"
+                  className="fsp-15 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80"
                 />
               </div>
             </div>

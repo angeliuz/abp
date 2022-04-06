@@ -66,11 +66,11 @@ function Page018(props) {
                   anchoSVG="550"
                   altoSVG="830"
                   totalLineas="5"
-                  pointsLinea1="275,47 275,47"
+                  pointsLinea1="275,46 275,46"
                   pointsLinea2="275,168 275,168"
                   pointsLinea3="275,318 275,318"
                   pointsLinea4="275,468 275,468"
-                  pointsLinea5="275,618 275,618"
+                  pointsLinea5="275,617 275,617"
                 />
 
               </div>
@@ -112,7 +112,7 @@ function Page018(props) {
               </div>
               <div className="col-3 p-0 m-0 position-relative hp-100"></div>
               <div className="col-3 p-0 m-0 position-relative d-flex justify-content-center align-items-center">
-                <div className="row f-Ubuntu-R justify-content-center align-items-top f-Ubuntu-R fsp-13 lh-sm">
+                <div className="row justify-content-center align-items-top f-Ubuntu-R fsp-13 lh-sm">
 
                   <div className="col-12 bgc-leono rounded-p-10 position-relative pp-20 mtp-40 mbp-40">
                     <p className="p-0 m-0">Difusión</p>
