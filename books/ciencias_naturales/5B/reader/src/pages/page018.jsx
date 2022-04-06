@@ -112,7 +112,7 @@ function Page018(props) {
               </div>
               <div className="col-3 p-0 m-0 position-relative hp-100"></div>
               <div className="col-3 p-0 m-0 position-relative d-flex justify-content-center align-items-center">
-                <div className="row f-Ubuntu-R justify-content-center align-items-top f-Ubuntu-R fsp-13 lh-sm">
+                <div className="row justify-content-center align-items-top f-Ubuntu-R fsp-13 lh-sm">
 
                   <div className="col-12 bgc-leono rounded-p-10 position-relative pp-20 mtp-40 mbp-40">
                     <p className="p-0 m-0">Difusión</p>

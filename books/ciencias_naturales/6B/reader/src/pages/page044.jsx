@@ -125,11 +125,11 @@ function Page044(props) {
                   anchoSVG="500"
                   altoSVG="330"
                   totalLineas="5"
-                  pointsLinea1="123,59 123,59"
-                  pointsLinea2="123,111 123,111"
-                  pointsLinea3="123,163 123,163"
-                  pointsLinea4="123,215 123,215"
-                  pointsLinea5="123,266 123,266"
+                  pointsLinea1="124,60 124,60"
+                  pointsLinea2="124,111 124,111"
+                  pointsLinea3="124,163 124,163"
+                  pointsLinea4="124,214 124,214"
+                  pointsLinea5="124,266 124,266"
                 />
 
               </div>
