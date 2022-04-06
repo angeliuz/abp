@@ -68,7 +68,7 @@ function Page006() {
                                     <Seleccion
                                         id={"seleccion_" + pagina + "_" + (indexInput += 1)}
                                         image={"images/page_" + pagina + "/encierra.svg"}
-                                        classNameContenedor="position-relative text-center bgc-urien rounded-p-10 f-Ubuntu-L fsp-15 pep-10 psp-10 wp-200 hp-50 d-flex center-center"
+                                        classNameContenedor="position-relative mtp-50 text-center bgc-urien rounded-p-10 f-Ubuntu-L fsp-15 pep-10 psp-10 wp-200 hp-50 d-flex center-center"
                                         classNameImagen="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 visible-768 zindex-1 wp-200 hp-200"
                                         texto="Organizar una fiesta sobre diversidad cultural."
                                     />
