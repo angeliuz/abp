@@ -66,11 +66,11 @@ function Page018(props) {
                   anchoSVG="550"
                   altoSVG="830"
                   totalLineas="5"
-                  pointsLinea1="275,47 275,47"
+                  pointsLinea1="275,46 275,46"
                   pointsLinea2="275,168 275,168"
                   pointsLinea3="275,318 275,318"
                   pointsLinea4="275,468 275,468"
-                  pointsLinea5="275,618 275,618"
+                  pointsLinea5="275,617 275,617"
                 />
 
               </div>
