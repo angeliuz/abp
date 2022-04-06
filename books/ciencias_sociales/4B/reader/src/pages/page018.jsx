@@ -157,7 +157,7 @@ function Page018(props) {
                                     />
                                 </div>
                                 <img src="images/page_020/img_002.png" className="hp-160 position-absolute start-100 top-50 msp--40 mtp--50" alt="" />
-                            <div className="position-absolute top-50 start-100 translate-middle msp-30 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-90" alt="" /></div>
+                            <div className="position-absolute top-50 start-100 translate-middle msp-50 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-100" alt="" /></div>
                             </div>
                         </div>
 
