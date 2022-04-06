@@ -66,7 +66,7 @@ function Page054(props) {
                 <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-60" alt="" /></div>
                 <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
 
-                <div className="d-flex msp-10 mep-10 mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 w-100">
+                <div className="d-flex msp-10 mep-10 mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 w-100 psp-20">
                   <div className="row p-0 m-0 w-100">
                     <div className="col-12 p-0 m-0 position-relative">
                       <div className="border-style-solid border-2 border-color-rain">

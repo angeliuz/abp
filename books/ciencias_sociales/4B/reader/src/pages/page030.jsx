@@ -41,11 +41,9 @@ function Page030(props) {
                         </div>
                     </div>
 
-                    <div className="d-flex msp-80 mep-60 mbp-20">
+                    <div className="d-flex msp-80 mep-100 mbp-20 position-relative">
 
                         <div className="row  w-100 f-Ubuntu-R fsp-15 rounded-p-20">
-                            {/* <div className="col-6 ptp-10">Preguntas</div>
-    <div className="col-6 ptp-10">Importancia</div> */}
                             <div className="col-6 position-relative">
                                 <div className="position-absolute top-0 start-100 translate-middle wp-100  mtp-75 zindex-1"><img src="images/page_030/img_002.svg" className="wp-40" alt="" /></div>
                                 {/* <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0 wp-30 hp-30 d-flex align-items-center justify-content-center rounded-p-5 border-2 color-pidgey border-style-solid border-color-pidgey bgc-bison">1</div> */}
@@ -150,9 +148,9 @@ function Page030(props) {
 
 
                         </div>
-
+<div className="position-absolute top-100 start-100 translate-middle msp-20 mtp--20 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-120" alt="" /></div>
                     </div>
-                    <div className="row psp-80 pep-60 mbp-60">
+                    <div className="row ptp-50 psp-80 pep-60 mbp-60">
                         <div className="col-12 col-md-6">
                             <div className="d-flex msp--60">
                                 <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_004.svg"} alt="" />
