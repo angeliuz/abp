@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import Check from "../components/Check";
+import ItemLista from "../components/ItemLista";
 import TerminosPareados1 from "../components/TerminosPareados1";
 
 import "./page_052.css";
@@ -46,54 +47,80 @@ function Page052(props) {
           </div>
 
           <div className="d-flex w-100 mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-absolute zindex-10">
-              <div className="row p-0 m-0 w-100">
-                <div className="col-12 p-0 m-0 position-relative">
-
-
-                  <TerminosPareados1
-                  id={"svg_" + indexInput + "_" + pagina}
-                    anchoSVG="550"
-                    altoSVG="580"
-                    totalLineas="4"
-                    pointsLinea1="354,138 354,138"
-                    pointsLinea2="410,216 410,216"
-                    pointsLinea3="410,277 410,277"
-                    pointsLinea4="410,336 410,336"
-                  />
-
-
-                </div>
-              </div>
-            </div>
-          <div className="d-flex position-relative center-center">
-
-          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 wp-580 bgc-green">
             <div className="row p-0 m-0 w-100">
-              <div className="col-7 p-0 m-0 position-relative">
-                <img src={"images/page_" + pagina + "/img_001.jpg"} className="wp-310 center-center" alt="" />
+              <div className="col-12 p-0 m-0 position-relative">
+                <TerminosPareados1
+                  id={"svg_" + indexInput + "_" + pagina}
+                  anchoSVG="550"
+                  altoSVG="360"
+                  totalLineas="4"
+                  pointsLinea1="400,73 400,73"
+                  pointsLinea2="400,148 400,148"
+                  pointsLinea3="400,232 400,232"
+                  pointsLinea4="400,316 400,316"
+                />
               </div>
-              <div className="col-1 wp-40"></div>
-              <div className="col-4 p-0 m-0 position-relative f-Ubuntu-R fsp-14 d-flex flex-column center-center">
-                <div className="bgc-septenario d-flex center-center text-center wp-150 rounded-p-10 hp-50 psp-10 pep-10 mbp-10 position-relative">
-                  <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-2"><img src={"images/page_" + pagina + "/img_001.png"} className="hp-20" alt="" /></div>
-                  ¿Cuándo se realizará?
-                </div>
-                <div className="bgc-septenario d-flex center-center text-center wp-150 rounded-p-10 hp-50 psp-10 pep-10 mbp-10 position-relative">
-                  <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-2"><img src={"images/page_" + pagina + "/img_001.png"} className="hp-20" alt="" /></div>
-                  Nombre de la feria
-                </div>
-                <div className="bgc-septenario d-flex center-center text-center wp-150 rounded-p-10 hp-50 psp-10 pep-10 mbp-10 position-relative">
-                  <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-2"><img src={"images/page_" + pagina + "/img_001.png"} className="hp-20" alt="" /></div>
-                  Nombre del stand del equipo
-                </div>
-                <div className="bgc-septenario d-flex center-center text-center wp-150 rounded-p-10 hp-50 psp-10 pep-10 mbp-10 position-relative">
-                  <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-2"><img src={"images/page_" + pagina + "/img_001.png"} className="hp-20" alt="" /></div>
-                  ¿Dónde se realizará?
+            </div>
+          </div>
+
+          <div className="d-flex center-center mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 m-0 wp-550">
+              <div className="col-8 p-0 m-0 bgc-red"><img src={"images/page_" + pagina + "/img_001.jpg"} className="w-100" alt="" /></div>
+              <div className="col-1 p-0 m-0 position-relative"></div>
+              <div className="col-3 p-0 m-0 position-relative d-flex justify-content-center align-items-center">
+                <div className="row justify-content-center align-items-top f-Ubuntu-R fsp-13 lh-sm">
+
+                  <div className="col-12 bgc-septenario rounded-p-10 position-relative pp-20 mtp-20 mbp-20">
+                    <p className="p-0 m-0">¿Cuándo se realizará?</p>
+                    <div className="position-absolute translate-middle start-0 top-50 wp-20 hp-20 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                  </div>
+                  <div className="col-12 bgc-septenario rounded-p-10 position-relative pp-20 mtp-20 mbp-20">
+                    <p className="p-0 m-0">Nombre de la feria</p>
+                    <div className="position-absolute translate-middle start-0 top-50 wp-20 hp-20 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                  </div>
+                  <div className="col-12 bgc-septenario rounded-p-10 position-relative pp-20 mtp-20 mbp-20">
+                    <p className="p-0 m-0">Nombre del stand del equipo</p>
+                    <div className="position-absolute translate-middle start-0 top-50 wp-20 hp-20 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                  </div>
+                  <div className="col-12 bgc-septenario rounded-p-10 position-relative pp-20 mtp-20 mbp-20">
+                    <p className="p-0 m-0">¿Dónde se realizará?</p>
+                    <div className="position-absolute translate-middle start-0 top-50 wp-20 hp-20 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                  </div>
+
                 </div>
               </div>
             </div>
           </div>
-          </div>
+
+          {/* <div className="d-flex position-relative center-center">
+
+            <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 wp-580 bgc-green">
+              <div className="row p-0 m-0 w-100">
+                <div className="col-7 p-0 m-0 position-relative">
+                  <img src={"images/page_" + pagina + "/img_001.jpg"} className="wp-310 center-center" alt="" />
+                </div>
+                <div className="col-1 wp-40"></div>
+                <div className="col-4 p-0 m-0 position-relative f-Ubuntu-R fsp-14 d-flex flex-column center-center">
+                  <div className="bgc-septenario d-flex center-center text-center wp-150 rounded-p-10 hp-50 psp-10 pep-10 mbp-10 position-relative">
+                    <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-2"><img src={"images/page_" + pagina + "/img_001.png"} className="hp-20" alt="" /></div>
+                    ¿Cuándo se realizará?
+                  </div>
+                  <div className="bgc-septenario d-flex center-center text-center wp-150 rounded-p-10 hp-50 psp-10 pep-10 mbp-10 position-relative">
+                    <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-2"><img src={"images/page_" + pagina + "/img_001.png"} className="hp-20" alt="" /></div>
+                    Nombre de la feria
+                  </div>
+                  <div className="bgc-septenario d-flex center-center text-center wp-150 rounded-p-10 hp-50 psp-10 pep-10 mbp-10 position-relative">
+                    <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-2"><img src={"images/page_" + pagina + "/img_001.png"} className="hp-20" alt="" /></div>
+                    Nombre del stand del equipo
+                  </div>
+                  <div className="bgc-septenario d-flex center-center text-center wp-150 rounded-p-10 hp-50 psp-10 pep-10 mbp-10 position-relative">
+                    <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-2"><img src={"images/page_" + pagina + "/img_001.png"} className="hp-20" alt="" /></div>
+                    ¿Dónde se realizará?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> */}
 
           <div className="ptp-50 container-titulo-global mbp-0">
             {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
