@@ -55,7 +55,7 @@ function Page052(props) {
                         </div>
                     </div>
 
-                    <div className="d-flex psp-60 pep-60 mtp-40">
+                    <div className="d-flex psp-80 pep-80 mtp-40">
                         <div className="row w-100 p-0 m-0">
                             <div className="col-sm-12 col-md-12 d-flex center-center min-hp-150">
 
@@ -99,11 +99,11 @@ function Page052(props) {
 
 
                     <div className="d-flex justify-content-center msp-60 mep-60 mtp-50 mbp-80">
-                        <div className="row w-100">
+                        <div className="row w-100 psp-20 pep-20">
                             <div className="col">
                                 <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
                                 <div className="rounded-p-10  bgc-white  w-100 position-relative ">
-                                    <div className="position-absolute bottom-0 end-0 "><img src="images/page_052/img_011.png" className="wp-120" alt="" /></div>
+                                    <div className="position-absolute bottom-0 end-0 msp-20 visible-768"><img src="images/page_052/img_011.png" className="wp-120" alt="" /></div>
                                     <div className="d-flex flex-wrap w-80 titulo-linea  mep-40 ">
                                         <div className="d-flex mtp-10 msp-10 align-items-center   "><img src="images/page_052/img_007.svg" className="mep-10 hp-15" alt="" /><span className="f-Ubuntu-L fsp-14 text-start">Lo que más nos costó trabajar en esta etapa fue...</span></div>
                                     </div>

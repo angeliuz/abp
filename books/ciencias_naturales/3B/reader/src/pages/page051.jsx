@@ -47,7 +47,7 @@ function Page051(props) {
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-0 mbp-100 psp-20 pep-20 ptp-20 pbp-20 bgc-freezer rounded-p-20 position-relative">
+          <div className="d-flex global-margin mtp-0 mbp-100 psp-20 pep-20 ptp-20 pbp-20 bgc-robots rounded-p-20 position-relative">
             <div className="position-absolute top-0 start-100 translate-middle msp--50 mtp-0  zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-80" alt="" /></div>
             <div className="position-absolute top-100 start-100 translate-middle msp--40 mtp--80  zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-120" alt="" /></div>
             <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--20 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
