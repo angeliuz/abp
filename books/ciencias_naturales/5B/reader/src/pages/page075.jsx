@@ -206,7 +206,7 @@ function Page075(props) {
           <div className="msp-60 mep-60 mbp-100">
             <div className="row m-0 p-0">
               <div className="col-md-6 col-sm-12 m-0 p-0">
-                <div class="text-start bgc-kokomi p-3 f-Ubuntu-L fsp-13 border-color-garou cb-outline-p75 rounded-p-10">
+                <div className="text-start bgc-kokomi p-3 f-Ubuntu-L fsp-13 border-color-garou cb-outline-p75 rounded-p-10">
                   <p>¿Qué aprendí?</p>
                   <div className="psp-15 pep-15">
                     <InputBox
@@ -217,7 +217,7 @@ function Page075(props) {
                 </div>
               </div>
               <div className="col-md-6 col-sm-12 p-0 m-0">
-                <div class="text-start bgc-draco p-3 f-Ubuntu-L fsp-13 border-color-garou cb-outline-p75 rounded-p-10">
+                <div className="text-start bgc-draco p-3 f-Ubuntu-L fsp-13 border-color-garou cb-outline-p75 rounded-p-10">
                   <p>¿Cómo aprendí?</p>
                   <div className="psp-15 pep-15">
                     <InputBox
@@ -228,7 +228,7 @@ function Page075(props) {
                 </div>
               </div>
               <div className="col-md-6 col-sm-12 p-0 m-0">
-                <div class="text-start bgc-itto p-3 f-Ubuntu-L fsp-13 border-color-garou cb-outline-p75 rounded-p-10">
+                <div className="text-start bgc-itto p-3 f-Ubuntu-L fsp-13 border-color-garou cb-outline-p75 rounded-p-10">
                   <p>¿Con quién aprendí?</p>
                   <div className="psp-15 pep-15">
                     <InputBox
@@ -239,7 +239,7 @@ function Page075(props) {
                 </div>
               </div>
               <div className="col-md-6 col-sm-12 p-0 m-0">
-                <div class="text-start bgc-azuka p-3 f-Ubuntu-L fsp-13 border-color-garou cb-outline-p75 rounded-p-10">
+                <div className="text-start bgc-azuka p-3 f-Ubuntu-L fsp-13 border-color-garou cb-outline-p75 rounded-p-10">
                   <p>¿Cómo me sentí aprendiendo?</p>
                   <div className="psp-15 pep-15">
                     <InputBox

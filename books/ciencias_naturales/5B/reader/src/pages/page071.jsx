@@ -77,24 +77,24 @@ function Page071(props) {
           </div>
           <div className="d-flex msp-60 mep-60 mbp-30 ">
             <div className="row w-100 p-0 m-0">
-              <div class="cb-contenedor-mail position-relative">
+              <div className="cb-contenedor-mail position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp--20 zindex-10"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-50" alt="" /></div>
-                <div class="cb-datos-mail psp-10 ptp-10 pbp-10">
-                  <div class="d-flex mbp-5 text-start">
-                    <div class="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">De:</div>
-                    <div class="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start">salud@correo.cl</div>
+                <div className="cb-datos-mail psp-10 ptp-10 pbp-10">
+                  <div className="d-flex mbp-5 text-start">
+                    <div className="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">De:</div>
+                    <div className="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start">salud@correo.cl</div>
                   </div>
-                  <div class="d-flex mbp-5 text-start">
-                    <div class="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">Para:</div>
-                    <div class="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start">estudiantes_5b@correo.cl</div>
+                  <div className="d-flex mbp-5 text-start">
+                    <div className="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">Para:</div>
+                    <div className="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start">estudiantes_5b@correo.cl</div>
                   </div>
-                  <div class="d-flex text-start">
-                    <div class="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">Asunto:</div>
-                    <div class="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start"> ¡Llegó el día!</div>
+                  <div className="d-flex text-start">
+                    <div className="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">Asunto:</div>
+                    <div className="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start"> ¡Llegó el día!</div>
                   </div>
                 </div>
-                <div class="cb-texto-mail position-relative">
-                  <div class="cb-carta-content f-Ubuntu-L text-start">
+                <div className="cb-texto-mail position-relative">
+                  <div className="cb-carta-content f-Ubuntu-L text-start">
                     <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-65" alt="" /></div>
                     {/* <div className="position-absolute top-100 start-0 translate-middle msp-60 mtp--10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-120" alt="" /></div> */}
                     <p>Estimados estudiantes:</p>
@@ -113,24 +113,24 @@ function Page071(props) {
                   </div>
                 </div>
               </div>
-              <div class="cb-contenedor-mail position-relative mbp-190">
+              <div className="cb-contenedor-mail position-relative mbp-190">
                 <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp--20 zindex-10"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-50" alt="" /></div>
-                <div class="cb-datos-mail psp-10 ptp-10 pbp-10">
-                  <div class="d-flex mbp-5 text-start">
-                    <div class="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">De:</div>
-                    <div class="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start">estudiantes_5b@correo.cl</div>
+                <div className="cb-datos-mail psp-10 ptp-10 pbp-10">
+                  <div className="d-flex mbp-5 text-start">
+                    <div className="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">De:</div>
+                    <div className="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start">estudiantes_5b@correo.cl</div>
                   </div>
-                  <div class="d-flex mbp-5 text-start">
-                    <div class="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">Para:</div>
-                    <div class="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start">salud@correo.cl</div>
+                  <div className="d-flex mbp-5 text-start">
+                    <div className="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">Para:</div>
+                    <div className="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start">salud@correo.cl</div>
                   </div>
-                  <div class="d-flex text-start">
-                    <div class="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">Asunto:</div>
-                    <div class="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start"> RE: ¡Llegó el día!</div>
+                  <div className="d-flex text-start">
+                    <div className="cb-datos-a psp-10 f-Ubuntu-R fsp-16 mep-10">Asunto:</div>
+                    <div className="cb-datos-1 psp-10 f-Ubuntu-R fsp-16 text-start"> RE: ¡Llegó el día!</div>
                   </div>
                 </div>
-                <div class="cb-texto-mail position-relative">
-                  <div class="cb-carta-content f-Ubuntu-L text-start">
+                <div className="cb-texto-mail position-relative">
+                  <div className="cb-carta-content f-Ubuntu-L text-start">
                     {/* <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-50" alt="" /></div> */}
                     <div className="position-absolute top-100 start-100 translate-middle msp--20 mtp--30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-80" alt="" /></div>
 

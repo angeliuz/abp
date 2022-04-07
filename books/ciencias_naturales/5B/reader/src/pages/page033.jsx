@@ -111,144 +111,146 @@ function Page033(props) {
             <div className="row p-0 m-0 w-100">
               <div className="col-sm-12 col-md-5 position-relative">
                 <table className=" f-Ubuntu-L fsp-16 border-2 border-style-solid border-color-dark text-start mbp-20 ">
-                  <tr>
-                    <td
-                      className=" f-Ubuntu-B border-2 border-style-solid border-color-dark text-center p-1"
-                      colspan="3"
-                    >
-                      INFORMACIÓN NUTRICIONAL
-                    </td>
-                  </tr>
-                  <tr>
-                    <td
-                      className=" border-2 border-style-solid border-color-dark text-center p-1"
-                      colspan="3"
-                    >
-                      Porción: 1 vaso (200 mL)
-                    </td>
-                  </tr>
-                  <tr>
-                    <td
-                      className=" border-2 border-style-solid border-color-dark p-1"
-                      colspan="3"
-                    >
-                      Porciones por envase: 1
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className=" border-2 border-style-solid border-color-dark p-1 bgc-kagome"></td>
-                    <td className=" border-2 border-style-solid border-color-dark text-center p-1 bgc-kagome">
-                      100 mL
-                    </td>
-                    <td className=" border-2 border-style-solid border-color-dark text-center p-1 bgc-kagome">
-                      1 porción
-                    </td>
-                  </tr>
+                  <thead>
+                    <tr>
+                      <td
+                        className=" f-Ubuntu-B border-2 border-style-solid border-color-dark text-center p-1"
+                        colSpan="3"
+                      >
+                        INFORMACIÓN NUTRICIONAL
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        className=" border-2 border-style-solid border-color-dark text-center p-1"
+                        colSpan="3"
+                      >
+                        Porción: 1 vaso (200 mL)
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        className=" border-2 border-style-solid border-color-dark p-1"
+                        colSpan="3"
+                      >
+                        Porciones por envase: 1
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className=" border-2 border-style-solid border-color-dark p-1 bgc-kagome"></td>
+                      <td className=" border-2 border-style-solid border-color-dark text-center p-1 bgc-kagome">
+                        100 mL
+                      </td>
+                      <td className=" border-2 border-style-solid border-color-dark text-center p-1 bgc-kagome">
+                        1 porción
+                      </td>
+                    </tr>
 
-                  <tr>
-                    <td className=" border-2 border-style-solid border-color-dark bgc-azuka p-1">
-                      Energía (kcal)
-                    </td>
-                    <td className=" border-2 border-style-solid border-color-dark text-center p-1">
-                      29
-                    </td>
-                    <td className=" border-2 border-style-solid border-color-dark text-center p-1">
-                      58
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className=" border-2 border-style-solid border-color-dark bgc-azuka p-1">
-                      Proteínas (g)
-                    </td>
-                    <td className=" border-2 border-style-solid border-color-dark text-center p-1">
-                      0,3
-                    </td>
-                    <td className=" border-2 border-style-solid border-color-dark text-center p-1">
-                      0,6
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className=" border-2 border-style-solid border-color-dark bgc-azuka p-1">
-                      Grasa (g)
-                    </td>
-                    <td className=" border-2 border-style-solid border-color-dark text-center p-1">
-                      0,1
-                    </td>
-                    <td className=" border-2 border-style-solid border-color-dark text-center p-1">
-                      0,2
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className=" border-2 border-style-solid border-color-dark bgc-azuka p-1">
-                      H. de C. Disp. (g)
-                    </td>
-                    <td className=" border-2 border-style-solid border-color-dark text-center p-1">
-                      7
-                    </td>
-                    <td className=" border-2 border-style-solid border-color-dark text-center p-1">
-                      14
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className=" border-2 border-style-solid border-color-dark bgc-azuka p-1">
-                      Azúcar (g)
-                    </td>
-                    <td className=" border-2 border-style-solid border-color-dark text-center p-1">
-                      6
-                    </td>
-                    <td className=" border-2 border-style-solid border-color-dark text-center p-1">
-                      12
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className=" border-2 border-style-solid border-color-dark bgc-azuka p-1">
-                      Sodio (mg)
-                    </td>
-                    <td className=" border-2 border-style-solid border-color-dark text-center p-1">
-                      5
-                    </td>
-                    <td className=" border-2 border-style-solid border-color-dark text-center p-1">
-                      10
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className=" border-2 border-style-solid border-color-dark bgc-azuka p-1"></td>
-                    <td className=" border-2 border-style-solid border-color-dark p-1"></td>
-                    <td className=" border-2 border-style-solid border-color-dark text-center p-1">
-                      (*)
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className=" border-2 border-style-solid border-color-dark bgc-azuka p-1">
-                      Vitamina C (mg)
-                    </td>
-                    <td className=" border-2 border-style-solid border-color-dark text-center p-1">
-                      60
-                    </td>
-                    <td className=" border-2 border-style-solid border-color-dark text-center p-1">
-                      15%
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className=" border-2 border-style-solid border-color-dark bgc-azuka p-1">
-                      Vitamina B6 (mg)
-                    </td>
-                    <td className=" border-2 border-style-solid border-color-dark text-center p-1">
-                      60
-                    </td>
-                    <td className=" border-2 border-style-solid border-color-dark text-center p-1">
-                      15%
-                    </td>
-                  </tr>
-                  <tr>
-                    <td
-                      className=" border-2 border-style-solid border-color-dark p-1"
-                      colspan="3"
-                    >
-                      (*) Porcentaje en relación con la dosis diaria
-                      recomendada.
-                    </td>
-                  </tr>
+                    <tr>
+                      <td className=" border-2 border-style-solid border-color-dark bgc-azuka p-1">
+                        Energía (kcal)
+                      </td>
+                      <td className=" border-2 border-style-solid border-color-dark text-center p-1">
+                        29
+                      </td>
+                      <td className=" border-2 border-style-solid border-color-dark text-center p-1">
+                        58
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className=" border-2 border-style-solid border-color-dark bgc-azuka p-1">
+                        Proteínas (g)
+                      </td>
+                      <td className=" border-2 border-style-solid border-color-dark text-center p-1">
+                        0,3
+                      </td>
+                      <td className=" border-2 border-style-solid border-color-dark text-center p-1">
+                        0,6
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className=" border-2 border-style-solid border-color-dark bgc-azuka p-1">
+                        Grasa (g)
+                      </td>
+                      <td className=" border-2 border-style-solid border-color-dark text-center p-1">
+                        0,1
+                      </td>
+                      <td className=" border-2 border-style-solid border-color-dark text-center p-1">
+                        0,2
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className=" border-2 border-style-solid border-color-dark bgc-azuka p-1">
+                        H. de C. Disp. (g)
+                      </td>
+                      <td className=" border-2 border-style-solid border-color-dark text-center p-1">
+                        7
+                      </td>
+                      <td className=" border-2 border-style-solid border-color-dark text-center p-1">
+                        14
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className=" border-2 border-style-solid border-color-dark bgc-azuka p-1">
+                        Azúcar (g)
+                      </td>
+                      <td className=" border-2 border-style-solid border-color-dark text-center p-1">
+                        6
+                      </td>
+                      <td className=" border-2 border-style-solid border-color-dark text-center p-1">
+                        12
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className=" border-2 border-style-solid border-color-dark bgc-azuka p-1">
+                        Sodio (mg)
+                      </td>
+                      <td className=" border-2 border-style-solid border-color-dark text-center p-1">
+                        5
+                      </td>
+                      <td className=" border-2 border-style-solid border-color-dark text-center p-1">
+                        10
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className=" border-2 border-style-solid border-color-dark bgc-azuka p-1"></td>
+                      <td className=" border-2 border-style-solid border-color-dark p-1"></td>
+                      <td className=" border-2 border-style-solid border-color-dark text-center p-1">
+                        (*)
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className=" border-2 border-style-solid border-color-dark bgc-azuka p-1">
+                        Vitamina C (mg)
+                      </td>
+                      <td className=" border-2 border-style-solid border-color-dark text-center p-1">
+                        60
+                      </td>
+                      <td className=" border-2 border-style-solid border-color-dark text-center p-1">
+                        15%
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className=" border-2 border-style-solid border-color-dark bgc-azuka p-1">
+                        Vitamina B6 (mg)
+                      </td>
+                      <td className=" border-2 border-style-solid border-color-dark text-center p-1">
+                        60
+                      </td>
+                      <td className=" border-2 border-style-solid border-color-dark text-center p-1">
+                        15%
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        className=" border-2 border-style-solid border-color-dark p-1"
+                        colSpan="3"
+                      >
+                        (*) Porcentaje en relación con la dosis diaria
+                        recomendada.
+                      </td>
+                    </tr>
+                  </thead>
                 </table>
               </div>
               <div className="col-sm-12 col-md-7 p-0 m-0 position-relative">

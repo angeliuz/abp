@@ -85,28 +85,30 @@ function Page034(props) {
                         <div className="row p-0 m-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative">
                                 <table className=" f-Ubuntu-L fsp-16 border-2 border-style-solid border-color-android18 text-start mbp-20 ">
-                                    <tr>
-                                        <td className=" f-Ubuntu-B border-2 border-style-solid border-color-android18 text-center p-1 wp-200 bgc-android18 color-white">Tipo de nutriente</td>
-                                        <td className=" f-Ubuntu-B border-2 border-style-solid border-color-android18 text-center p-1 wp-500 bgc-android18 color-white" colspan="2">Energía (kcal) por porción</td>
-                                    </tr>
-                                    <tr>
-                                        <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-start p-1 bgc-azuka">Carbohidratos</td>
-                                        <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-center p-1" colspan="2">
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-450 p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-start p-1 bgc-azuka">Proteínas</td>
-                                        <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-center p-1" colspan="2">
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-450 p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-start p-1 bgc-azuka">Lípidos</td>
-                                        <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-center p-1" colspan="2">
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-450 p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />
-                                        </td>
-                                    </tr>
+                                    <thead>
+                                        <tr>
+                                            <td className=" f-Ubuntu-B border-2 border-style-solid border-color-android18 text-center p-1 wp-200 bgc-android18 color-white">Tipo de nutriente</td>
+                                            <td className=" f-Ubuntu-B border-2 border-style-solid border-color-android18 text-center p-1 wp-500 bgc-android18 color-white" colSpan="2">Energía (kcal) por porción</td>
+                                        </tr>
+                                        <tr>
+                                            <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-start p-1 bgc-azuka">Carbohidratos</td>
+                                            <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-center p-1" colSpan="2">
+                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-450 p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-start p-1 bgc-azuka">Proteínas</td>
+                                            <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-center p-1" colSpan="2">
+                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-450 p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-start p-1 bgc-azuka">Lípidos</td>
+                                            <td className=" f-Ubuntu-L border-2 border-style-solid border-color-android18 text-center p-1" colSpan="2">
+                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-450 p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />
+                                            </td>
+                                        </tr>
+                                    </thead>
                                 </table>
                             </div>
                         </div>
