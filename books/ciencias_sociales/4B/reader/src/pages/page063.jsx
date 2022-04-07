@@ -155,9 +155,9 @@ function Page063(props) {
                   </div>
                   <div className="position-absolute top-50 start-50 translate-middle msp-0  "><img src="images/page_063/img_008.svg" class="hp-30" alt="" /></div>
                 </div>
-<div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-60" alt="" /></div>
-<div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="hp-100" alt="" /></div>
-<div className="position-absolute top-100 start-0 translate-middle msp--10 mtp--10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-40" alt="" /></div>
+                <div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-60" alt="" /></div>
+                <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="hp-100" alt="" /></div>
+                <div className="position-absolute top-100 start-0 translate-middle msp--10 mtp--10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-40" alt="" /></div>
 
               </div>
             </div>
