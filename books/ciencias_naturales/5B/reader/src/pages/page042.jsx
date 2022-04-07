@@ -35,15 +35,15 @@ function Page042(props) {
           <div className="d-flex global-margin mtp-10 mbp-0 psp-60 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 position-relative rounded-p-5 bgc-white border-style-solid border-2 border-color-freezer p-2 mbp-10">
-                <div className="position-absolute start-0 top-0 rounded-be-10 bgc-hermione border-style-solid border-start-0 border-top-0 border-2 border-color-freezer p-2 text-center color-pidgey wp-35 f-Ubuntu-B fsp-14" styleName="top:calc(50% - 15px); margin-top: -2px;">1</div>
+                <div className="position-absolute start-0 top-0 rounded-be-10 bgc-hermione border-style-solid border-start-0 border-top-0 border-2 border-color-freezer p-2 text-center color-pidgey wp-35 f-Ubuntu-B fsp-14" stylename="top:calc(50% - 15px); margin-top: -2px;">1</div>
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="msp-30 px-1 fsp-15 text-start flex-grow-1 lhp-35 min-hp-35 contenedor-linea" />
               </div>
               <div className="col-12 position-relative rounded-p-5 bgc-white border-style-solid border-2 border-color-freezer p-2 mbp-10">
-                <div className="position-absolute start-0 top-0 rounded-be-10 bgc-hermione border-style-solid border-start-0 border-top-0 border-2 border-color-freezer p-2 text-center color-pidgey wp-35 f-Ubuntu-B fsp-14" styleName="top:calc(50% - 15px); margin-top: -2px;">2</div>
+                <div className="position-absolute start-0 top-0 rounded-be-10 bgc-hermione border-style-solid border-start-0 border-top-0 border-2 border-color-freezer p-2 text-center color-pidgey wp-35 f-Ubuntu-B fsp-14" stylename="top:calc(50% - 15px); margin-top: -2px;">2</div>
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="msp-30 px-1 fsp-15 text-start flex-grow-1 lhp-35 min-hp-35 contenedor-linea" />
               </div>
               <div className="col-12 position-relative rounded-p-5 bgc-white border-style-solid border-2 border-color-freezer p-2 mbp-10">
-                <div className="position-absolute start-0 top-0 rounded-be-10 bgc-hermione border-style-solid border-start-0 border-top-0 border-2 border-color-freezer p-2 text-center color-pidgey wp-35 f-Ubuntu-B fsp-14" styleName="top:calc(50% - 15px); margin-top: -2px;">3</div>
+                <div className="position-absolute start-0 top-0 rounded-be-10 bgc-hermione border-style-solid border-start-0 border-top-0 border-2 border-color-freezer p-2 text-center color-pidgey wp-35 f-Ubuntu-B fsp-14" stylename="top:calc(50% - 15px); margin-top: -2px;">3</div>
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="msp-30 px-1 fsp-15 text-start flex-grow-1 lhp-35 min-hp-35 contenedor-linea" />
               </div>
             </div>
