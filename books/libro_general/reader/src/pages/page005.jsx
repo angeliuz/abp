@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect, useState, useRef } from "react";
+import SubirImagen from '../components/SubirImagen';
 
 
 import "./page_005.css";
@@ -41,7 +42,7 @@ function Page005() {
                                 X
                             </div>
                             <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                                Términos pareados
+                                Subir imagen
                             </div>
 
                         </div>
@@ -59,7 +60,9 @@ function Page005() {
                                     <div className=" bgc-white caja-dibujo-global p-2 rounded-p-20 border-style-solid border-2 border-color-android18">
 
 
-
+                                        <SubirImagen
+                                            id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                                        />
 
                                     </div>
                                 </div>
