@@ -22,16 +22,16 @@ function Page010(props) {
           <div className="msp-60 mep-60 mtp-90 mbp-10">
             <div className="p-0 m-0">
               <div className="col-sm-12 col-md-3 position-relative"></div>
-              <div class="d-flex justify-content-center">
-                <div class="cb-titulo-aceptamos text-center fsp-25 f-IntroRustG-Base mbp-20">¡ACEPTAMOS EL DESAFÍO!</div>
+              <div className="d-flex justify-content-center">
+                <div className="cb-titulo-aceptamos text-center fsp-25 f-IntroRustG-Base mbp-20">¡ACEPTAMOS EL DESAFÍO!</div>
               </div>
               <div className="text-start f-Ubuntu-L fsp-15 psp-30">Diseñamos un logo que nos represente:</div>
-              <div class="w-100 cb-inicio d-flex text-center align-items-center justify-content-center position-relative">
+              <div className="w-100 cb-inicio d-flex text-center align-items-center justify-content-center position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle msp--90 mtp-50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-50" alt="" /></div>
                 <div className="position-absolute top-50 start-0 translate-middle msp-90 mtp-150 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-50" alt="" /></div>
-                <div class="cb-block-superior p-2 pb-2 text-center ">
-                  <div class="cb-bloque-0 bgc-white p-2 pb-2 f-Ubuntu-B fw-700 fsp-15 border-1 border-style-solid border-color-dark zindex-1 color-sektor">Hay que tener en cuenta</div>
-                  <div class="cb-bloque-4 text-center bgc-white p-2 pb-2 f-Ubuntu-L fw-700 fsp-13 cb-outline-p10 border-1 border-style-solid border-color-dark">
+                <div className="cb-block-superior p-2 pb-2 text-center ">
+                  <div className="cb-bloque-0 bgc-white p-2 pb-2 f-Ubuntu-B fw-700 fsp-15 border-1 border-style-solid border-color-dark zindex-1 color-sektor">Hay que tener en cuenta</div>
+                  <div className="cb-bloque-4 text-center bgc-white p-2 pb-2 f-Ubuntu-L fw-700 fsp-13 cb-outline-p10 border-1 border-style-solid border-color-dark">
                     <div className="f-Ubuntu-R fsp-13 color-ken fw-700 text-start psp-5">Simplicidad</div>
                     <div className="psp-10 pep-10 pbp-10 ptp-5">
                       <div className="d-flex align-items-center w-100 ">
@@ -48,7 +48,7 @@ function Page010(props) {
                       </div>
                     </div>
                   </div>
-                  <div class="cb-bloque-5 text-center bgc-white p-2 pb-2 f-Ubuntu-L fw-700 fsp-13 cb-outline-p10 border-1 border-style-solid border-color-dark">
+                  <div className="cb-bloque-5 text-center bgc-white p-2 pb-2 f-Ubuntu-L fw-700 fsp-13 cb-outline-p10 border-1 border-style-solid border-color-dark">
                     <div className="f-Ubuntu-R fsp-13 color-saitama fw-700 text-start psp-5">Representatividad</div>
                     <div className="psp-10 pep-10 pbp-10 ptp-5">
                       <div className="d-flex align-items-center w-100 ">
@@ -65,7 +65,7 @@ function Page010(props) {
                       </div>
                     </div>
                   </div>
-                  <div class="cb-bloque-6 text-center bgc-white p-2 pb-2 f-Ubuntu-L fw-700 fsp-13 cb-outline-p10 border-1 border-style-solid border-color-dark">
+                  <div className="cb-bloque-6 text-center bgc-white p-2 pb-2 f-Ubuntu-L fw-700 fsp-13 cb-outline-p10 border-1 border-style-solid border-color-dark">
                     <div className="f-Ubuntu-R fsp-13 color-obiwan fw-700 text-start psp-5">Imagen</div>
                     <div className="psp-10 pep-10 pbp-10 ptp-5">
                       <div className="d-flex align-items-center w-100 ">

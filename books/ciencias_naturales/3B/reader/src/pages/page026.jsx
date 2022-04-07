@@ -79,9 +79,9 @@ function Page026(props) {
           </div>
 
 
-          <div className="d-flex position-relative bgc-red">
+          <div className="d-flex position-relative">
 
-            <div className="d-flex w-100 mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-absolute zindex-10 bgc-green">
+            <div className="d-flex w-100 mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-absolute zindex-10">
               <div className="row m-0 psp-10 pep-10 ptp-10 pbp-0 w-100">
                 <div className="col-12 p-0 m-0 position-relative d-flex center-center">
 
@@ -105,7 +105,7 @@ function Page026(props) {
 
                   <div className="col-md-12 col-lg-12 position-relative m-0 p-0">
 
-                    <img src={"images/page_" + pagina + "/sopa.svg"} className="w-100 " alt="" />
+                    <img src={"images/page_" + pagina + "/sopa2.svg"} className="w-100 " alt="" />
 
                   </div>
 

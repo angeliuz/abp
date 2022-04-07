@@ -61,3 +61,13 @@ transform: rotate(-2deg);
 z-index: 1;
 transform: rotate(2deg);
 }
+@media (max-width: 580px) {
+ 
+  .p-caja {
+    margin-top: 250px !important;
+  }
+ .cartel{
+   margin-left:-380px;
+ }
+ 
+}
