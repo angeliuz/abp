@@ -28,7 +28,7 @@ function Page063(props) {
                 Esta página fue completada por:
               </div>
               <div className="d-flex position-relative">
-                <img src={"images/page_" + pagina + "/img.png"} class="hp-70 position-absolute start-0 top-0 mtp--20 msp--10" alt="" />
+                <img src={"images/page_" + pagina + "/img_001.png"} class="hp-70 position-absolute start-0 top-0 mtp--20 msp--10" alt="" />
                 <div className={"bgc-white rounded-p-10 border-style-solid border-1 " + borderColor + " w-100 py-1 psp-50 pep-20"}>
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 w-60 lhp-35 min-hp-35" />
                 </div>
