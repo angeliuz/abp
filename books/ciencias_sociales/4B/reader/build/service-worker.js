@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/libros_abp/books/ciencias_sociales/4B/reader/build/precache-manifest.6ea657794744ccb4e4ce341a37f7a422.js"
+  "/libros_abp/books/ciencias_sociales/3B/reader/build/precache-manifest.067bca3601c8c5806c27b4b067634a3b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/libros_abp/books/ciencias_sociales/4B/reader/build/index.html", {
+workbox.routing.registerNavigationRoute("/libros_abp/books/ciencias_sociales/3B/reader/build/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
