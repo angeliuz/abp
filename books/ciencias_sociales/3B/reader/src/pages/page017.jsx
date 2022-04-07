@@ -52,17 +52,16 @@ function Page017(props) {
           <div className="position-relative w-100">
             <div className="row psp-80 pep-70 ptp-10 pbp-50 ">
 
-              <div className="psp-80 pep-60 ptp-10">
-                <div className="f-Ubuntu-B color-bulma fsp-18 psp-80 text-left">
+              <div className="psp-0 pep-0 ptp-10 position-relative">
+                <div className="f-Ubuntu-B color-bulma fsp-18 text-left">
                   Plan de trabajo
                 </div>
-                <div className="psp-20">
                   <div className="d-flex">
-                    <img
+                    {/* <img
                       src="images/page_017/img_003.png"
                       className="pep-10 msp--40 hp-80 mtp--20"
                       alt=""
-                    />
+                    /> */}
                     <div className="f-Ubuntu-R fsp-16 ptp-18 text-left mtp--10">
                       Organizamos los pasos de nuestro proyecto.
                     </div>
@@ -71,7 +70,6 @@ function Page017(props) {
                       {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} pagina={"79"} image={"images/page_" + pagina + "/img_004.png"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
                     </div>
                   </div>
-                </div>
                 <div className="row">
                   <div className="col-md-6 col-12 pbp-20 position-relative">
                     <div className="bgc-white mxwp-300 centrar border-caja position-relative">
@@ -83,7 +81,7 @@ function Page017(props) {
                     <div className="bgc-white mxwp-300 centrar border-caja position-relative">
                       <ModalRecortable id={"p" + pagina + "_cutouts_" + (indexInput += 1)} numRecortables="6" pagina={pagina} image={"images/page_" + pagina + "/img_008.png"} className="p-0 m-0 d-flex wp-290 hp-200 bgc-red pe-auto" ></ModalRecortable>
                     </div>
-                    <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_.png"} className="wp-60" alt="" /></div>
+                    {/* <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_.png"} className="wp-60" alt="" /></div> */}
                   </div>
                 </div>
                 <div className="row">
@@ -111,7 +109,7 @@ function Page017(props) {
                   </div>
                 </div>
                 <div className="d-flex align-items-center">
-                  <div className="f-Ubuntu-R text-left pep-10">Elaboramos nuestro <b>cronograma</b> del proyecto con el material que nos entregarán.</div>
+                  <div className="f-Ubuntu-R text-left pep-10">Elaboramos un <b>cronograma</b> del proyecto con el material que nos entregarán.</div>
                   <ModalPDF
                     id={"p" + pagina + "_video" + (indexInput += 1)}
                     link="https://www.smconecta.cl/resources/1894/portadas.pdf"
@@ -132,6 +130,7 @@ function Page017(props) {
                   className="hp-65 position-absolute top-50 start-0 msp-20 mtp-180"
                   alt=""
                 />
+                <div className="position-absolute top-0 start-0 translate-middle msp--10 mtp-120 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-70" alt="" /></div>
               </div>
             </div>
           </div>

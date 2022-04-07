@@ -25,7 +25,7 @@ function Page046(props) {
                         </div>
                     </div>
 
-                    <div className="ptp-10 psp-100 pep-80 mbp-0 position-relative">
+                    <div className="ptp-10 psp-100 pep-80 mbp-80 pbp-140 position-relative">
                         <div className="row justify-content-center">
                             <div className="col-9 p-0 m-0 position-relative">
                                 <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_046/clip.png" className="hp-25 mep-0 mtp-45" alt="" /></div>

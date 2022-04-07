@@ -33,9 +33,9 @@ function Page050(props) {
 
           <div className="d-flex global-margin mtp-10 mbp-10 psp-70 pep-30 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100 position-relative">
-              
+
               <div className="col-12 position -relative p-0 m-0 rounded-p-20 bgc-white border-style-solid border-color-dark border-1 p-2">
-              <div className="position-absolute top-0 start-0 translate-middle"><img src="images/page_050/brocha.png" className="hp-100 msp--20 mtp-140" alt="" /></div>
+                <div className="position-absolute top-0 start-0 translate-middle"><img src="images/page_050/brocha.png" className="hp-100 msp--20 mtp-140" alt="" /></div>
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-320" />
               </div>
             </div>
@@ -70,7 +70,7 @@ function Page050(props) {
                 <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-30">
                   <div className="w-100 p-2 pb-3 bgc-white rounded-p-10">
                     <table className="w-100 text-start">
-                      <span className="w-24 f-Ubuntu-L fsp-14 mtp-5 mbp-10 text-start">Marco con un <img src={"images/page_" + pagina + "/ticket.svg"} className="hp-17 mtp--2" alt="" /> el recuadro que mejor me represente.</span>
+                      <thead><tr><td className="w-24 f-Ubuntu-L fsp-14 mtp-5 mbp-10 text-start">Marco con un <img src={"images/page_" + pagina + "/ticket.svg"} className="hp-17 mtp--2" alt="" /> el recuadro que mejor me represente.</td></tr></thead>
 
                       <tbody>
                         <tr>

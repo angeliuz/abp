@@ -90,7 +90,7 @@ function Page054(props) {
               {/* <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image={"images/page_" + pagina + "/img_003.svg"} className="p-0 px-1" /> */}
               <ModalPDF
                 id={"p" + pagina + "_video" + (indexInput += 1)}
-                link="https://www.smconecta.cl/resources/1894/portadas.pdf"
+                link="https://www.smconecta.cl/resources/1896/nat_6b_fic03.pdf"
                 titulo="Material descargable"
                 tipo="PDF"
                 image={"images/generales/descargable.svg"}
@@ -108,7 +108,7 @@ function Page054(props) {
                 <div className="bgc-white border-style-solid border-color-milk Border-2 rounded-p-20 px-2 pbp-10 ptp-30">
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-360" />
                 </div>
-                <div class="position-absolute top-0 start-50 translate-middle msp-0 mtp-0">
+                <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-0">
                   <img src={"images/page_" + pagina + "/img_006.svg"} className="wp-200" alt="" />
                   <div className="mtp--35">Lo que hay que hacer</div>
                 </div>
@@ -118,7 +118,7 @@ function Page054(props) {
                 <div className="bgc-white border-style-solid border-color-vegeta Border-2 rounded-p-20 px-2 pbp-10 ptp-30">
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-360" />
                 </div>
-                <div class="position-absolute top-0 start-50 translate-middle msp-0 mtp-0">
+                <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-0">
                   <img src={"images/page_" + pagina + "/img_007.svg"} className="wp-200" alt="" />
                   <div className="mtp--35">Estudiante a cargo</div>
                 </div>

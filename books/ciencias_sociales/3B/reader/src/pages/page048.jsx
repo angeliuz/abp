@@ -31,7 +31,7 @@ function Page048(props) {
             <div className="d-flex">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/img_002.svg" alt=""  /> */}
               <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">4</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Escribo mi texto literario sobre la diversidad que presentaré en la feria.</div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Escribo mi texto literario sobre la diversidad que presentaré en la fiesta.</div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> */}
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_043/img_001.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
@@ -62,7 +62,7 @@ function Page048(props) {
 
               <div className=" rota-info">
 
-                <div className="position-absolute top-50 start-50 translate-middle w-95 psp-90 pep-110 mep-30  msp-120 mtp--110">
+                <div className="position-absolute top-50 start-50 translate-middle w-95 psp-90 pep-110 mep-30  msp-120 mtp--110 position-relative">
                   <div className="d-flex align-items-center pbp-10">
                     <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 w-100 text-start">Muestro mi texto literario a mis compañeros y decidimos cómo difundirlos en la feria de la diversidad:.</div>
                   </div>
@@ -74,6 +74,7 @@ function Page048(props) {
                     <div className="d-inline wp-30 hp-30 bgc-white"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></div>
                     <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5 w-100 text-start ">Haremos varias copias individuales para que podamos compartir con los asistentes a la feria..</div>
                   </div>
+                  <div className="position-absolute top-0 start-100 translate-middle msp--140 mtp--20 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-30" alt="" /></div>
                 </div>
 
               </div>

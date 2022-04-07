@@ -28,11 +28,12 @@ function Page046(props) {
             </div>
 
             <div className="ptp-10 psp-60">
+            <div className="f-Ubuntu-B fsp-20 color-saitama text-start lhp-20">Sabores y delicias</div>
                 <div className="d-flex">
                     {/* <img className="hp-15 align-center mt-3 me-2 mb-2" src="images/page_014/img_001.svg" alt="" /> */}
-                    <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">4</div>
+                    <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">5</div>
                     <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10">Leo la revista, comprendo y completo.</div>
-                    <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"74"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10" className="p-0 px-0" />
+                    <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"74"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 psp-15" className="p-0 px-0" />
             
                    
                 </div>             
@@ -99,7 +100,7 @@ function Page046(props) {
                                   <span className="f-Ubuntu-L fsp-14 text-start">Para qué me sirvió la sesión de hoy?</span>
                                 </div>
                             </div>
-                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="msp-20 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                            <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="msp-20 fsp-14 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
 
                         </div>
                     </div>
@@ -107,7 +108,7 @@ function Page046(props) {
 
             
                 {/* BEGIN TABLA */}
-                <div className="global-margin mtp-20 mbp-50 psp-0 pep-0 ptp-10 pbp-10 f-Ubuntu-L fsp-13 rounded-p-10 ">
+                <div className="global-margin mtp-20 mbp-50 psp-0 pep-0 ptp-10 pbp-10 f-Ubuntu-L fsp-15 rounded-p-10 ">
                         <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-0">
                             {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/generales/ticket.svg" className="hp-17 mtp--3 msp-5 mep-5" alt=""/>el recuadro que mejor me represente.</span> */}
                             <div className="w-100 p-0 pb-3 position-relative">

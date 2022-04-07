@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import TerminosPareados1 from "../components/TerminosPareados1";
 
 import "./page_034.css";
 
@@ -39,7 +40,95 @@ function Page034(props) {
                         </div>
                     </div>
 
-                    <div className="psp-60 pep-60 ptp-20">
+                    <div className="d-flex w-100 mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-absolute zindex-10">
+                        <div className="row p-0 m-0 w-100">
+                            <div className="col-12 p-0 m-0 position-relative">
+
+                                <TerminosPareados1
+                                    id={"svg_" + indexInput + "_" + pagina}
+                                    anchoSVG="550"
+                                    altoSVG="395"
+                                    totalLineas="8"
+                                    pointsLinea1="69,128 69,128"
+                                    pointsLinea2="206,128 206,128"
+                                    pointsLinea3="344,128 344,128"
+                                    pointsLinea4="481,128 481,128"
+                                    pointsLinea5="69,292 69,292"
+                                    pointsLinea6="206,292 206,292"
+                                    pointsLinea7="344,292 344,292"
+                                    pointsLinea8="481,292 481,292"
+                                />
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="d-flex center-center mtp-0 mbp-10 psp-0 pep-0 ptp-0 pbp-0">
+                        <div className="row p-0 m-0 wp-550">
+                            <div className="col-12 p-0 m-0 position-relative d-flex center-center">
+                                <div className="row f-Ubuntu-R justify-content-center f-Ubuntu-R fsp-14 lh-sm p-0 m-0 w-100">
+
+                                    <div className="col position-relative p-1">
+                                        <img src={"images/page_" + pagina + "/img_001.jpg"} className="w-100" alt="" />
+                                        <div className="position-absolute translate-middle start-50 top-100 wp-20 hp-20 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                                    </div>
+                                    <div className="col position-relative p-1">
+                                        <img src={"images/page_" + pagina + "/img_002.jpg"} className="w-100" alt="" />
+                                        <div className="position-absolute translate-middle start-50 top-100 wp-20 hp-20 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                                    </div>
+                                    <div className="col position-relative p-1">
+                                        <img src={"images/page_" + pagina + "/img_003.jpg"} className="w-100" alt="" />
+                                        <div className="position-absolute translate-middle start-50 top-100 wp-20 hp-20 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                                    </div>
+                                    <div className="col position-relative p-1">
+                                        <img src={"images/page_" + pagina + "/img_004.jpg"} className="w-100" alt="" />
+                                        <div className="position-absolute translate-middle start-50 top-100 wp-20 hp-20 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="col-12 ptp-50 pbp-50 m-0 position-relative">
+                                <div className="row f-Ubuntu-R justify-content-center align-items-top f-Ubuntu-R fsp-16 lh-sm text-center h-100">
+
+                                    <div className="col-5 border-style-solid border-color-bulma border-2 bgc-tigro p-3 rounded-p-20 m-1 position-relative">
+                                        <p className="p-0 m-0">Sistema tecnológico</p>
+                                        <div className="position-absolute translate-middle start-50 top-100 wp-20 hp-20 rounded-50 border-style-solid border-color-bulma border-2 bgc-white"></div>
+                                        <div className="position-absolute translate-middle start-50 top-0 wp-20 hp-20 rounded-50 border-style-solid border-color-bulma border-2 bgc-white"></div>
+                                    </div>
+                                    <div className="col-5 border-style-solid border-color-bulma border-2 bgc-tigro p-3 rounded-p-20 m-1 position-relative">
+                                        <p className="p-0 m-0">Aparato tecnológico</p>
+                                        <div className="position-absolute translate-middle start-50 top-100 wp-20 hp-20 rounded-50 border-style-solid border-color-bulma border-2 bgc-white"></div>
+                                        <div className="position-absolute translate-middle start-50 top-0 wp-20 hp-20 rounded-50 border-style-solid border-color-bulma border-2 bgc-white"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="col-12 p-0 m-0 position-relative d-flex center-center">
+                                <div className="row f-Ubuntu-R justify-content-center f-Ubuntu-R fsp-14 lh-sm p-0 m-0 w-100">
+
+                                    <div className="col position-relative p-1">
+                                        <img src={"images/page_" + pagina + "/img_005.jpg"} className="w-100" alt="" />
+                                        <div className="position-absolute translate-middle start-50 top-0 wp-20 hp-20 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                                    </div>
+                                    <div className="col position-relative p-1">
+                                        <img src={"images/page_" + pagina + "/img_006.jpg"} className="w-100" alt="" />
+                                        <div className="position-absolute translate-middle start-50 top-0 wp-20 hp-20 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                                    </div>
+                                    <div className="col position-relative p-1">
+                                        <img src={"images/page_" + pagina + "/img_007.jpg"} className="w-100" alt="" />
+                                        <div className="position-absolute translate-middle start-50 top-0 wp-20 hp-20 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                                    </div>
+                                    <div className="col position-relative p-1">
+                                        <img src={"images/page_" + pagina + "/img_008.jpg"} className="w-100" alt="" />
+                                        <div className="position-absolute translate-middle start-50 top-0 wp-20 hp-20 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* <div className="psp-60 pep-60 ptp-20">
                         <div className="row w-100 justify-content-center">
 
                             <div className="col-md-12 col-4 justify-content-between disposicion-imagenes msp--20">
@@ -120,7 +209,7 @@ function Page034(props) {
                             </div>
 
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="ptp-20 container-titulo-global mbp-0">
                         <div className="d-flex psp-20">

@@ -28,8 +28,8 @@ function Page047(props) {
             <div className="d-flex">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/g_i.svg" alt="" /> */}
               <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">1</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Leo la revista, comprendo y completo.</div>
-              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"75"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10" className="p-0 px-0" />
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">Leo la revista y completo.</div>
+              <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"75"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 psp-15" className="p-0 px-0" />
              {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/img_001.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
             </div>
           </div>
@@ -66,7 +66,7 @@ function Page047(props) {
                 <div className="d-flex ">
                   {/* <img className="hp-15 align-center mt-3 me-2 mb-2" src="images/page_014/img_001.svg" alt="" /> */}
                   <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">2</div>
-                  <div className="f-Ubuntu-R fsp-16 text-start ptp-18 psp-10">El texto narrativo que presentaré en nuestra feria de la diversidad será:…</div>
+                  <div className="f-Ubuntu-R fsp-16 text-start ptp-18 psp-10">El texto narrativo que presentaré en nuestra fiesta de la diversidad será:…</div>
                   {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_045/img_001.svg" clasesImagen="hp-40 text-center msp-30 mtp-10 " className="p-0 px-0" /> */}
                 </div>
               </div>
@@ -112,7 +112,7 @@ function Page047(props) {
           <div className="d-flex   msp-80 msp-40">
             {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/g_i.svg" alt="" /> */}
             <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">3</div>
-            <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">El texto que creará tendrá…</div>
+            <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start">El texto que crearé tendrá…</div>
             {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_047/img_001.svg" clasesImagen="hp-40 msp-30 text-center mtp-10 " className="p-0 px-0" /> */}
             {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/img_001.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
           </div>
@@ -121,7 +121,7 @@ function Page047(props) {
 
 
           <div className="row mbp-75  container-row px-5 position-relative">
-            <div className=" position-absolute top-0 start-100 translate-middle "><img className="hp-80 msp--250 mtp--50" src="images/page_047/img_007.png" alt="" /></div>
+            <div className=" position-absolute top-0 start-100 translate-middle zindex-2 mtp--5 "><img className="hp-80 msp--250 mtp--50" src="images/page_047/img_007.png" alt="" /></div>
             <div className="col-sm-12 col-md-6   ">
               <div className="border-style-solid mtp-10 border-2 border-color-saitama rounded-p-10  w-100  ptp-10 psp-10 pep-30 ">
                 <div className="f-pixilate-bold fsp-18 text-start color-saitama ">Personajes: </div>

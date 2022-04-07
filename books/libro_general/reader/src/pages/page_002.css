@@ -1,4 +1,4 @@
-#svg {
+#svg_0_002 {
     position: relative;
     top: 0px;
     left: 0;
@@ -9,12 +9,7 @@
     stroke-width: 20;
     stroke-linejoin: round;
     fill: none;
-  }
-  #star2 {
-    stroke: #29e;
-    stroke-width: 20;
-    stroke-linejoin: round;
-    fill: none;
+    
   }
   
   .handle {
@@ -22,21 +17,11 @@
     fill-opacity: 0.4;
     stroke-width: 4;
     stroke: #29e;
+    
   }
   
   .marker {
-    fill: tomato;
-    stroke: tomato;
+    fill: white;
+    stroke: white;
     pointer-events: none;
-  }
-  
-  
-  a:link, a:visited, a:active {
-    color:#555;
-    text-decoration:none;
-  }
-  
-  a:hover {
-   
-    color:#300;
   }

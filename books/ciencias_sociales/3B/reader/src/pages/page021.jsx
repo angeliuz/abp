@@ -109,6 +109,7 @@ function Page021(props) {
                 </div>
               </div>
             </div>
+            <div className="position-absolute top-0 start-100 translate-middle msp--60  visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-80 mtp--120" alt="" /></div>
           </div>
 
           {/* PIE DE PAGINA */}

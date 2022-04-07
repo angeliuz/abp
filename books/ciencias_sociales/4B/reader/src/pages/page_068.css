@@ -6,3 +6,19 @@
     border-image:-webkit-linear-gradient(top,yellow,rgb(65, 204, 65),rgb(121, 235, 229),rgb(121, 98, 224),rgb(218, 56, 182) ) 1 10;
     border-radius: 10px !important;
 }
+
+.max-wp-700-p68 {
+    max-width: 700px !important;
+}
+
+@media (max-width: 800px) {
+    .max-wp-700-p68 {
+        max-width: 600px !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .max-wp-700-p68 {
+        max-width: 450px !important;
+    }
+}

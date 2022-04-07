@@ -16,7 +16,7 @@ function Page062(props) {
           <div className="cabecera-v2 bgc-saitama d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 align-items-center ptp-40 psp-30 pep-30">
               <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-saitama fsp-24 f-IntroRustG-Base">SESIÓN 13</div>
-              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡Preparando Sesión 13 las presentaciones!</div>
+              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡Preparando las presentaciones!</div>
             </div>
           </div>
           {/* END CABECERA VERSIÓN 2 */}
@@ -56,11 +56,11 @@ function Page062(props) {
                 </div>
                 <div className="p-1 d-flex align-items-center   w-100">
                   <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama"></div>
-                  <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm text-start">Dar a conocer la misión y las tareas de las brigadas.</div>
+                  <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm text-start">Informar a la comunidad educativa de la conformación de las brigadas.</div>
                 </div>
                 <div className="p-1 d-flex align-items-center   w-100">
                   <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama mbp-20"></div>
-                  <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm text-start">Educar a la comunidad educativa para actuar responsablementeante situaciones de emergencia.</div>
+                  <div className="f-Ubuntu-L msp-10 fsp-16 lh-sm text-start">Educar a la comunidad educativa para actuar responsablementeante ante situaciones de emergencia.</div>
                 </div>
                 <div className="p-1 d-flex align-items-center   w-100">
                   <div className="d-inline hp-5 wp-5 rounded-50 bgc-saitama mbp-20"></div>
@@ -85,7 +85,7 @@ function Page062(props) {
             <div className="d-flex">
               <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_062/img_004.svg" alt="" />
               <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">2</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Propongo a mi equipo una idea para organizar el stand de presentación de la brigada. Luego, justifico mi propuesta.</div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Propongo a mi equipo una idea para organizar el <i >stand</i> de presentación de la brigada. Luego, justifico mi propuesta.</div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/revista.svg" clasesImagen="cambio hp-35 mtp-20" className="p-0 px-1" /> */}
               {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_062/img_002.svg" clasesImagen="hp-40 text-center mtp-10 pep-20" className="p-0 px-0" /> */}
             </div>
@@ -96,11 +96,11 @@ function Page062(props) {
 
 
           <div className="row container-row px-5 position-relative mbp-140">
-            <div className=" position-absolute top-100 start-50 translate-middle "><img className="hp-100  mtp-60" src="images/page_062/img_006.png" alt="" /></div>
+            <div className=" position-absolute top-100 start-50 translate-middle visible-768"><img className="hp-130 mtp-30" src="images/page_062/img_006.png" alt="" /></div>
             <div className="col-sm-12 col-md-6  position relative ">
               
-              <div className="border-style-solid mtp-25 border-2 border-color-arlo rounded-p-10 hp-260 w-100 hp-190  ">
-                <div className="d-flex align-items-center justify-content-center  rounded-set-10 bgc-arlo hp-45 pixilate-bold fsp-18 fw-700 color-white ">Mi propuesta de presentación </div>
+              <div className="border-style-solid mtp-25 border-2 border-color-jasper rounded-p-10 hp-260 w-100 hp-190  ">
+                <div className="d-flex align-items-center justify-content-center  rounded-set-10 bgc-jasper hp-45 pixilate-bold fsp-18 fw-700 color-white ">Mi propuesta de presentación </div>
                 <div className="mtp-10 msp-30 mep-30 w-85">    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
               </div>
             </div>

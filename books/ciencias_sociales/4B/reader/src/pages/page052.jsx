@@ -47,10 +47,10 @@ function Page052(props) {
           </div>
 
           <div className="ptp-10 psp-65 pep-40">
-            <div className="position-absolute top-50 start-50 translate-middle msp-10 mtp-145 visible-768 zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-60 mtp-60" alt="" /></div>
+            <div className="position-absolute top-50 start-50 translate-middle msp-12 mtp-145 visible-768 zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-50 mtp-60" alt="" /></div>
             <div className="row d-flex mx-auto f-Ubuntu-L fsp-15 mbp-0 position-relative justify-content-between">
 
-              <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp-25 zindex-1"><img src={"images/page_" + pagina + "/posit.png"} className="wp-60 mtp--60 msp-0" alt="" /></div>
+              <div className="position-absolute top-100 start-0 translate-middle msp-0 zindex-1"><img src={"images/page_" + pagina + "/posit.png"} className="wp-60 mtp--140 msp-0" alt="" /></div>
               <div className="col-sm-12 col-md-6 pbp-10">
                 <div className="text-center w-100 border-1 border-style-solid border-color-saitama rounded-p-10">
                   <div className="rounded-set-6 hp-60 pep-20 psp-20 ptp-10 pbp-10 bgc-saitama d-flex justify-content-center align-items-center text-white p-2 f-Ubuntu-B">¿A qué acuerdo llegamos<br />como curso?</div>
@@ -70,7 +70,7 @@ function Page052(props) {
             <div className="d-flex">
               <img className="hp-15 mtp-20 pep-10" src="images/page_052/g.svg" alt="" />
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey pep-10">6</div>
-              <div className="f-Ubuntu-R fsp-14 text-start pep-10 mtp-15">Creamos un documento en el que exponemos los desafíos de nuestro curso en torno a la convivencia y nuestras propuestas. Utilizamos el material que nos entregarán..</div>
+              <div className="f-Ubuntu-R fsp-14 text-start pep-10 mtp-15">Creamos un documento en el que exponemos los desafíos de nuestro curso en torno a la convivencia y nuestras propuestas. Utilizamos el material que nos entregarán.</div>
               {/* <ModalVideo id={"p" + pagina + "_video" + (indexInput += 1)} image="images/page_052/revista.svg" clasesImagen="hp-35 mtp-10" /> */}
               <ModalPDF
                 id={"p" + pagina + "_video" + (indexInput += 1)}

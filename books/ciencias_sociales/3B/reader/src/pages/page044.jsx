@@ -31,7 +31,7 @@ function Page044(props) {
             <div className="d-flex">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/img_002.svg" alt=""  /> */}
               <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">3</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Lo que vamos a considerar para nuestra feria y la creación de nuestro stand:</div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Lo que vamos a considerar para nuestra feria y la creación de nuestro <i>stand</i>:</div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> */}
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_043/img_001.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
@@ -100,14 +100,14 @@ function Page044(props) {
                     <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white">
                     <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
-                    <div className="d-inline f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Otra:</div>
+                    <div className="d-inline f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Otro:</div>
                   </div>
                   <div className="psp-30 pep-5 mtp--25 ">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="ptp-10 psp-10 fsp-15 text-start flex-grow-1 contenedor-linea lhp-35" />
                   </div>
 
                 </div>
-                <div className="position-absolute bottom-0 start-50 visible-768 translate-middle-x">
+                <div className="position-absolute bottom-0 start-50 visible-768 translate-middle-x mono">
                   <img src="images/page_044/img_003.png" className="hp-150  " alt=""></img>
 
                 </div>
@@ -133,10 +133,14 @@ function Page044(props) {
 
           <div className="d-flex msp-60 mep-60 mtp-0 mbp-80">
             <div className="row w-100 p-0 m-0">
-              <div className="col-sm-12   position-relative">
+              <div className="col-12  position-relative">
+              <div className="position-absolute top-100 start-0 translate-middle">
+                  <img src="images/page_044/img_004.png" className="" alt=""></img>
+
+                </div>
                 <div className="d-flex justify-content-center ptp-20 w-100">
-                  <div className="border-style-solid border-1  wp-500 min-hp-250 sombra rounded-p-10 ">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1  lhp-35 min-hp-80" />
+                  <div className="border-style-solid border-1  w-100  box-shadow-simple rounded-p-10 ">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1  lhp-35 min-hp-290" />
                   </div>
                 </div>
               </div>

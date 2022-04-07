@@ -12,6 +12,7 @@ function Page061(props) {
     const background = "bgc-saitama";
     const color = "color-saitama";
     const bgc_cajas = "bgc-bobafett";
+    const colorSesion = "color-saitama";
 
     return (
         <div className="wrapper bgc-light">
@@ -20,7 +21,7 @@ function Page061(props) {
                     {/* BEGIN CABECERA VERSIÓN 2 */}
                     <div className={"cabecera-v2 " + background + " d-flex flex-column"}>
                         <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-                            <div className="caja wp-160 text-center color-saitama fsp-24 f-IntroRustG-Base">SESIÓN 14</div>
+                            <div className={"caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 fsp-24 f-IntroRustG-Base  " + colorSesion}>SESIÓN 14</div>
                             <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡Manos a la obra!</div>
                         </div>
                         {/* <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
@@ -167,7 +168,7 @@ function Page061(props) {
 
                     <div className="msp-80 mep-60 position-relative  ">
                         <div className="position-absolute top-0 start-100 translate-middle   zindex-4 visible-768 msp--10 mtp--60 "><img src="images/page_061/img_006.png" className="wp-80 " alt="" /></div>
-                        <div className="position-absolute top-100 start-0 translate-middle   zindex-4 visible-768 msp--30 mtp--20 "><img src="images/page_061/img_007.png" className="wp-50 " alt="" /></div>
+                        <div className="position-absolute top-100 start-0 translate-middle   zindex-10 visible-768 msp--10 mtp--30 "><img src="images/page_061/img_007.png" className="wp-50 " alt="" /></div>
                         <div className="row w-100 mb-10   ">
                             <div className="cb-ep-paper-61 ">
                                 <div className="cb-ep-paper-content-61 f-Ubuntu-L text-start">

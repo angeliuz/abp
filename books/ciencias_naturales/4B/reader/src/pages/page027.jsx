@@ -24,7 +24,7 @@ function Page027(props) {
         >
           <div className="cabecera-v2 bgc-android18 d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja wp-150 text-center fsp-24 f-IntroRustG-Base color-balrog">
+              <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-balrog fsp-24 f-IntroRustG-Base">
                 SESIÓN 5
               </div>
               <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">
@@ -64,7 +64,7 @@ function Page027(props) {
           </div>
 
           <div className="row container-row px-5">
-            <div className="col-12 justify-content-center mtp-10 mbp-70 psp-80 pep-80  position-relative">
+            <div className="col-12 justify-content-center mtp-10 mbp-70 psp-0 pep-0  position-relative">
               {/* <div className="position-absolute top-50 start-0 translate-middle msp-40 mtp-25 visible-768">
                 <img
                   src="images/page_027/img_001.png"
@@ -85,10 +85,14 @@ function Page027(props) {
                       />
                     </div>
                     <span>Actitud peligrosa:</span>
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35"
+                    />
                     <span>Recomendación:</span>
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70"
                     />
                   </div>
                   <div className="d-flex flex-column f-Ubuntu-L bgc-white psp-20 ptp-10 pbp-15 pep-20 rounded-p-10 text-start mbp-20 position-relative">
@@ -100,10 +104,14 @@ function Page027(props) {
                       />
                     </div>
                     <span>Actitud peligrosa:</span>
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35"
+                    />
                     <span>Recomendación:</span>
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70"
                     />
                   </div>
                   <div className="d-flex flex-column f-Ubuntu-L bgc-white psp-20 ptp-10 pbp-15 pep-20 rounded-p-10 text-start mbp-20 position-relative">
@@ -115,10 +123,14 @@ function Page027(props) {
                       />
                     </div>
                     <span>Actitud peligrosa:</span>
+                    <InputBox
+                      id={"p" + pagina + "_input" + (indexInput += 1)}
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35"
+                    />
                     <span>Recomendación:</span>
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70"
                     />
                   </div>
                 </div>

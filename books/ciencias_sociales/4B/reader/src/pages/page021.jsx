@@ -10,7 +10,7 @@ function Page021(props) {
   var indexInput = 0;
   const etapa = "3"
   const background = "bgc-android18";
-  const color = "color-primary";
+  const color = "color-blaze";
   const borderColor = "border-color-android18"
   const bgc_cajas = "bgc-goku";
 

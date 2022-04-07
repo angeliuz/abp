@@ -34,38 +34,38 @@ function Page015(props) {
           </div>
           {/* END CABECERA */}
 
-          
 
-            <div className="container-titulo-global mtp-20 mbp-0">
-    <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
-    ¡Los pasos que vamos a seguir!
-    </div>
-    <div className="text-left col-9">
+
+          <div className="container-titulo-global mtp-20 mbp-0">
+            <div className={"f-Ubuntu-B fsp-20 text-start lhp-20 " + color}>
+              ¡Los pasos que vamos a seguir!
+            </div>
+            <div className="text-left col-9">
               Ahora que ya nos motivamos conociendo el desafío de este proyecto,
               organizamos las siguientes etapas.
             </div>
-    <div className="d-flex psp-20">
-         <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_002.svg"} alt=""  />
-        <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-            1
-        </div>
-        <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-        Vemos el video y rotulamos los siguientes momentos según
+            <div className="d-flex msp--40">
+              <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_002.svg"} alt="" />
+              <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
+                1
+              </div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
+                Vemos el video y rotulamos los siguientes momentos según
                 corresponda.
-        </div>
-        <ModalVideo
-        id={"p" + pagina + "_video" + (indexInput += 1)}
-        linkVideo="682272125"
-        tituloVideo="¡Somos diversos! II"
-        tipoVideo="vimeo"
-        image={"images/generales/play.svg"}
-        colorUnidad={background}
-        clasesImagen="cambio hp-40 mtp-10"
-        className="p-0 px-1"
-    />
-    </div>
-</div>
-<div className="psp-80 pep-60 ptp-30">
+              </div>
+              <ModalVideo
+                id={"p" + pagina + "_video" + (indexInput += 1)}
+                linkVideo="682272125"
+                tituloVideo="¡Somos diversos! II"
+                tipoVideo="vimeo"
+                image={"images/generales/play.svg"}
+                colorUnidad={background}
+                clasesImagen="cambio hp-40 mtp-10"
+                className="p-0 px-1"
+              />
+            </div>
+          </div>
+          <div className="psp-80 pep-60 ptp-30">
             <div className="d-flex flex-wrap justify-content-between ptp-15 pbp-20">
               <div className="p-2 centrar-todo">
                 <div className="py-2 px-3 bgc-woody rounded-p-10">
@@ -92,7 +92,7 @@ function Page015(props) {
               </div>
             </div>
             <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
-              <div className=" mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
+              <div className="mnwp-160 bgc-white centrar-ver rounded-p-10 position-relative">
                 <img
                   src="images/page_015/img_004.png"
                   className="position-absolute top-0 start-100 translate-middle msp--15 mtp-5 hp-40 "
@@ -100,31 +100,30 @@ function Page015(props) {
                 />
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="max-wp-200 p-0 px-1 text-center flex-grow-1 lhp-35 min-hp-80"
+                  className="wp-160 p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-80"
                 />
               </div>
               <div className="centrar-ver">
-                <div className="text-left psp-10">
+                <div className="text-left psp-10 pep-20">
                   <div className="dot mep-10 mtp-10"></div>
                   <div className="f-ubuntu-L py-1 mtp--26 msp-20">
-                    Identificamos qué sabemos del tema.
+                  Identificamos qué sabemos del tema.
                   </div>
                 </div>
                 <div className="text-left psp-10 pep-20">
                   <div className="dot mep-10 mtp-10"></div>
                   <div className="f-ubuntu-L py-1 mtp--26 msp-20">
-                    Reconocemos qué necesitamos saber del tema.
+                  Reconocemos qué necesitamos saber del tema.
                   </div>
                 </div>
                 <div className="text-left psp-10 pep-20">
                   <div className="dot mep-10 mtp-10"></div>
                   <div className="f-ubuntu-L py-1 mtp--26 msp-20">
-                    Ordenamos las siguientes etapas de trabajo.
+                  Ordenamos las siguientes etapas de trabajo.
                   </div>
                 </div>
               </div>
             </div>
-
             <div className="ptp-15"></div>
 
             <div className="bgc-urien p-2 d-flex rounded-p-10 sombra">
@@ -136,7 +135,7 @@ function Page015(props) {
                 />
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="max-wp-200 p-0 px-1 text-center flex-grow-1 lhp-35 min-hp-80"
+                  className="max-wp-200 p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-80"
                 />
               </div>
               <div className="centrar-ver">
@@ -168,7 +167,7 @@ function Page015(props) {
                 />
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="max-wp-200 p-0 px-1 text-center flex-grow-1 lhp-35 min-hp-80"
+                  className="max-wp-200 p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-80"
                 />
               </div>
               <div className="centrar-ver">
@@ -200,7 +199,7 @@ function Page015(props) {
                 />
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="max-wp-200 p-0 px-1 text-center flex-grow-1 lhp-35 min-hp-80"
+                  className="max-wp-200 p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-80"
                 />
               </div>
               <div className="centrar-ver">
@@ -232,7 +231,7 @@ function Page015(props) {
                 />
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="max-wp-200 p-0 px-1 text-center flex-grow-1 lhp-35 min-hp-80"
+                  className="max-wp-200 p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-80"
                 />
               </div>
               <div className="centrar-ver">
@@ -247,7 +246,7 @@ function Page015(props) {
               </div>
             </div>
           </div>
-          <div className="ptp-20"></div>
+          <div className="ptp-40"></div>
           {/* PIE DE PAGINA */}
           <div
             className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2"

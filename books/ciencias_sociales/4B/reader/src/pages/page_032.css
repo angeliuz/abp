@@ -1,0 +1,8 @@
+.mxwp-500 {
+    max-width: 500px;
+}
+@media (max-width: 767px) {
+    .mxwp-500 {
+        max-width: 70%;
+    }
+}

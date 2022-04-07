@@ -54,8 +54,8 @@ function Page022(props) {
             <div className="col-md-12 col-lg-12 position-relative ptp-40">
               <div className="position-absolute top-0 start-100 translate-middle msp--100 mtp--80 visible-768"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-150 " alt="" /></div>
 
-              <div className="d-flex flex-column pbp-30 w-100 bgc-woody p-2 rounded-p-20 position-relative">
-                <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-5"><img src={"images/page_" + pagina + "/espiral2.png"} className="wp-550 " alt="" /></div>
+              <div className="d-flex flex-column pbp-30 w-100 bgc-woody p-2 rounded-p-20 position-relative mbp-70">
+                <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-5 visible-768"><img src={"images/page_" + pagina + "/espiral2.png"} className="wp-550 " alt="" /></div>
                 <div className="fsp-15 f-Ubuntu-R lh-sm text-start bgc-white psp-10 pep-10 ptp-20 rounded-p-20">
                   <span className="fsp-15 f-Ubuntu-R">
                     Predicción

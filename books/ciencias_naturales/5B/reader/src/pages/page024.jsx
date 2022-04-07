@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import ItemLista from "../components/ItemLista";
+import TerminosPareados1 from "../components/TerminosPareados1";
 
 import "./page_024.css";
 
@@ -203,7 +204,96 @@ function Page024(props) {
                         </div>
                     </div>
 
-                    <div className="d-flex psp-60 pep-60 mtp-20 mbp-100">
+                    <div className="d-flex w-100 mtp-20 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-absolute zindex-10">
+                        <div className="row p-0 m-0 w-100">
+                            <div className="col-12 p-0 m-0 position-relative">
+
+                                <TerminosPareados1
+                                    id={"svg_" + indexInput + "_" + pagina}
+                                    anchoSVG="550"
+                                    altoSVG="310"
+                                    totalLineas="4"
+                                    pointsLinea1="183,37 183,37"
+                                    pointsLinea2="183,111 183,111"
+                                    pointsLinea3="183,184 183,184"
+                                    pointsLinea4="183,258 183,258"
+                                />
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="d-flex center-center mtp-20 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
+                        <div className="row p-0 m-0 wp-550">
+                            <div className="col-4 p-0 m-0 position-relative d-flex center-center">
+                                <div className="row f-Ubuntu-R justify-content-center f-Ubuntu-R fsp-14 lh-sm p-0 m-0 w-100">
+
+                                    <div className="col-12 bgc-draco rounded-p-10 position-relative pp-20 m-2">
+                                        <p className="p-0 m-0">Grasas o lípidos</p>
+                                        <div className="position-absolute translate-middle start-100 top-50 wp-20 hp-20 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                                    </div>
+                                    <div className="col-12 bgc-draco rounded-p-10 position-relative pp-20 m-2">
+                                        <p className="p-0 m-0">Hidratos de carbono</p>
+                                        <div className="position-absolute translate-middle start-100 top-50 wp-20 hp-20 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                                    </div>
+                                    <div className="col-12 bgc-draco rounded-p-10 position-relative pp-20 m-2">
+                                        <p className="p-0 m-0">Proteínas</p>
+                                        <div className="position-absolute translate-middle start-100 top-50 wp-20 hp-20 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                                    </div>
+                                    <div className="col-12 bgc-draco rounded-p-10 position-relative pp-20 m-2">
+                                        <p className="p-0 m-0">Vitaminas y minerales</p>
+                                        <div className="position-absolute translate-middle start-100 top-50 wp-20 hp-20 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="col-3 p-0 m-0 position-relative hp-100"></div>
+                            <div className="col-5 p-0 m-0 position-relative">
+                                <div className="row f-Ubuntu-R justify-content-center align-items-top f-Ubuntu-R fsp-13 lh-sm h-100">
+
+                                    <div className="col-12 bgc-woody rounded-p-10 position-relative pp-20 m-2">
+                                        <p className="p-0 m-0">Aportan energía inmediata</p>
+                                        <div className="position-absolute translate-middle start-0 top-50 wp-20 hp-20 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                                    </div>
+                                    <div className="col-12 bgc-woody rounded-p-10 position-relative pp-20 m-2">
+                                        <p className="p-0 m-0">Regulan el metabolismo</p>
+                                        <div className="position-absolute translate-middle start-0 top-50 wp-20 hp-20 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                                    </div>
+                                    <div className="col-12 bgc-woody rounded-p-10 position-relative pp-20 m-2">
+                                        <p className="p-0 m-0">Construyen y regeneran los tejidos</p>
+                                        <div className="position-absolute translate-middle start-0 top-50 wp-20 hp-20 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                                    </div>
+                                    <div className="col-12 bgc-woody rounded-p-10 position-relative pp-20 m-2">
+                                        <p className="p-0 m-0">Constituyen una reserva energética</p>
+                                        <div className="position-absolute translate-middle start-0 top-50 wp-20 hp-20 rounded-50 border-style-solid border-color-dark border-1 bgc-white"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* <div className="d-flex psp-60 pep-60 mtp-20 mbp-100">
+
+                        <div className="d-flex w-100 mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-absolute zindex-10">
+                            <div className="row p-0 m-0 w-100">
+                                <div className="col-12 p-0 m-0 position-relative">
+
+                                    <TerminosPareados1
+                                        id={"svg_" + indexInput + "_" + pagina}
+                                        anchoSVG="550"
+                                        altoSVG="320"
+                                        totalLineas="4"
+                                        pointsLinea1="93,40 93,40"
+                                        pointsLinea2="93,121 93,121"
+                                        pointsLinea3="93,202 93,202"
+                                        pointsLinea4="93,283 93,283"
+                                    />
+
+                                </div>
+                            </div>
+                        </div>
+
                         <div className="row w-100">
                             <div className="col-6 col-md-6">
                                 <div className="d-flex flex-column justify-content-center  ptp-10 pbp-10">
@@ -286,7 +376,7 @@ function Page024(props) {
 
                         </div>
 
-                    </div>
+                    </div> */}
 
 
                     {/* BEGIN PIE DE PAGINA */}

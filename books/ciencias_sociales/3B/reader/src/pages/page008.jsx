@@ -62,7 +62,7 @@ function Page008(props) {
                       <div className="wp-30 hp-30 bgc-white rounded-1">
                       <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                       </div>
-                        <div className="msp-10 justify-content-center align-items-center d-flex">Organizar una fiesta.</div>
+                        <div className="msp-10 justify-content-center align-items-center d-flex">Llevar a cabo una feria.</div>
                     </div>
                     </div>
 

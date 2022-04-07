@@ -48,7 +48,7 @@ function Page067(props) {
                 </div>
                 <div className="hp-190 mx-290 w-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-saitama zindex-10 position-relative">
                   <img src="images/page_067/img_003.png" class="wp-80 cb-mega-p67 position-absolute" alt=""></img>
-                  <div className="wp-200 text-start p-2 bgc-senhe  cb-borde-desigual">Ahora sabemos que nuestra brigada sería:</div>
+                  <div className="wp-200 text-start p-2 bgc-senhe  cb-borde-desigual">Ahora sabemos que nuestra brigada será:</div>
                   <div className="text-start psp-10 pep-10" >
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                   </div>
@@ -89,7 +89,7 @@ function Page067(props) {
           {/* BEIGN PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>ABP &copy; SM</div>
-            <div className="bgc-goku wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
+            <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
           </div>
           {/* END PIE DE PAGINA */}
         </div>

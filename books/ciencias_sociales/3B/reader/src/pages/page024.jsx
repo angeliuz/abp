@@ -42,10 +42,13 @@ function Page024(props) {
                     </div>
                   </div>
 
-                  <div className="w-100 rounded-p-10 border-style-solid border-1 border-color-dark bgc-urien text-start psp-10 pep-10 ptp-10 pbp-10 mtp-20 mbp-20">
+                  <div className="position-relative w-100 rounded-p-10 border-style-solid border-1 border-color-dark bgc-urien text-start psp-10 pep-10 ptp-10 pbp-10 mtp-20 mbp-20">
+                  <div className="position-absolute top-0 start-100 translate-middle mtp-10">
+                  <img src="images/page_024/clip.png" className="wp-35 " alt="" />
+                </div>
                     <div className="f-Ubuntu-R fsp-15 ">
                       <ul>
-                        <li className="color-android18">
+                        <li className="color-android18 mtp-10">
                           <span className="color-hardDark">
                             Nombre de la institución.
                           </span>
@@ -109,7 +112,7 @@ function Page024(props) {
                   <div className="pt-0 flex-grow-1 mbp-20">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80"
+                      className=" fsp-15 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80"
                     />
                   </div>
 
@@ -124,7 +127,7 @@ function Page024(props) {
                   <div className="pt-0 flex-grow-1">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80"
+                      className="fsp-15 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80"
                     />
                   </div>
               </div>
@@ -132,7 +135,7 @@ function Page024(props) {
         
 
           {/* BEGIN TABLA */}
-          <div className="global-margin mbp-10 psp-0 pep-0 ptp-10 pbp-10  f-Ubuntu-L fsp-13 rounded-p-10 ">
+          <div className="global-margin mbp-10 psp-0 pep-0 ptp-10 pbp-10  f-Ubuntu-L fsp-15 rounded-p-10 ">
                         <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-0">
                             {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/generales/ticket.svg" className="hp-17 mtp--3 msp-5 mep-5" alt=""/>el recuadro que mejor me represente.</span> */}
                             <div className="w-100 p-0 pb-3 position-relative">
@@ -229,7 +232,7 @@ function Page024(props) {
                                             </td>
                                         </tr> */}
                                         <tr>
-                                            <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-bottom-hidden border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
+                                            <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-bottom-hidden border-left-hidden border-right-hidden border-2 "+borderColorTabla}>
                                               <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 fsp-14">
                                                 <img src={"images/generales/flecha_e"+etapa+".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                                                 Tengo ganas de encontrar soluciones al desafío planteado.

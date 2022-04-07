@@ -21,8 +21,8 @@ function Page007(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className="cabecera-v2 bgc-goten d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja wp-150 text-center fsp-24 f-IntroRustG-Base color-goten">SESIÓN 1</div>
-              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¿Qué sé y qué necesito saber?</div>
+              <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-goten fsp-24 f-IntroRustG-Base">SESIÓN 1</div>
+              <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡Tenemos un desafío!</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
 
@@ -37,7 +37,7 @@ function Page007(props) {
             <div className="d-flex">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/img_002.svg" alt=""  /> */}
               <div className="f-ccdigitaldelivery-bold fsp-35 color-goten">1</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Completo y comparto con mi grupo.</div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Veo el video, leo el correo y respondo.</div>
               <ModalVideo
                 id={"p" + pagina + "_video" + (indexInput += 1)}
                 linkVideo="682622644"
@@ -51,7 +51,9 @@ function Page007(props) {
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_031/img_002.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
-          <div className="cb-contenedor-mail-p07">
+          <div className="cb-contenedor-mail-p07 position-relative">
+          <div className="position-absolute top-0 start-50 translate-middle mtp-20 msp-120 zindex-1"><img src={"images/page_" + pagina + "/img_008.png"} className="" alt="" /></div>
+          <div className="position-absolute top-0 start-100 translate-middle mtp-20 msp--50 zindex-1 visible-768"><img src={"images/page_" + pagina + "/img_001.png"} className="" alt="" /></div>
             <div className="cb-invitacion-p07 psp-35 f-Ubuntu-R fsp-16"><b>Invitación a ser brigadista escolar</b></div>
             <div className="cb-datos-mail pep-15 psp-10 ptp-10 pbp-10">
               <div className="d-flex justify-content-between mbp-5">

@@ -43,20 +43,20 @@ function Page016(props) {
             </div>
             <div className="bgc-white sombra psp-40 pep-20 ptp-20 pbp-20 position-relative">
               <div className="row">
-                <div className="">
+                {/* <div className="">
                   <img
                     src="/images/page_016/img_002.png"
                     className="tf-anillo-1"
                     alt=""
                   />
-                </div>
-                <div className="">
+                </div> */}
+                {/* <div className="">
                   <img
                     src="/images/page_016/img_002.png"
                     className="tf-anillo-2"
                     alt=""
                   />
-                </div>
+                </div> */}
 
                 <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-pidgey">
                   <div className=" py-2 color-pidgey f-pixilate-bold fsp-18">
@@ -150,7 +150,7 @@ function Page016(props) {
               <div className="pt-0 flex-grow-1 mbp-20">
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80"
+                  className="fsp-15 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80"
                 />
               </div>
 
@@ -165,14 +165,14 @@ function Page016(props) {
               <div className="pt-0 flex-grow-1">
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-0 px-1 text-start flex-grow-1 contenedor-linea min-hp-80"
+                  className="fsp-15 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80"
                 />
               </div>
             </div>
 
 
 
-            <div className="global-margin mtp-10 mbp-50 psp-0 pep-0 ptp-10 pbp-10  f-Ubuntu-L fsp-13 rounded-p-10 ">
+            <div className="global-margin mtp-10 mbp-50 psp-0 pep-0 ptp-10 pbp-10  f-Ubuntu-L fsp-15 rounded-p-10 ">
               <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-0">
                 {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/generales/ticket.svg" className="hp-17 mtp--3 msp-5 mep-5" alt=""/>el recuadro que mejor me represente.</span> */}
                 <div className="w-100 p-0 pb-3 position-relative">
@@ -196,7 +196,7 @@ function Page016(props) {
                         </td>
                       </tr>
                       <tr>
-                        <td className={"bgc-white rounded-ts-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                        <td className={"bgc-white rounded-ts-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 ">
                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                             El ambiente de trabajo en mi equipo es agradable.
@@ -270,7 +270,7 @@ function Page016(props) {
                                                 </td>
                                             </tr> */}
                       <tr>
-                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-bottom-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                        <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-bottom-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10">
                             <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                             Estoy contento de trabajar en este proyecto.

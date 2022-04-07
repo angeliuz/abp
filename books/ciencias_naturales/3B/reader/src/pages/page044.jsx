@@ -38,7 +38,7 @@ function Page044(props) {
                                 </div>
                             </div>
                             <div className="col-sm-12 col-md-6 psp-20 pep-20 msp-0 mep-0 mtp-0 mbp-30 position-relative">
-                                <div className="position-absolute posicion-centro-centro translate-middle zindex-1"><img src={"images/generales/espiral2.svg"} className="wp-50 mtp-40 rotacion-centro-centro" alt="" /></div>
+                                <div className="position-absolute posicion-centro-centro translate-middle zindex-1"><img src={"images/generales/espiral2.svg"} className="wp-50 mtp--40 rotacion-centro-centro" alt="" /></div>
                                 <div className="border-style-solid border-2 border-color-pidgey rounded-p-10">
                                     <div className="d-flex flex-column bgc-white rounded-p-10">
                                         <div className="bgc-pidgey w-100 f-Ubuntu-B text-center color-white fsp-15 rounded-set-6 psp-10 pep-10 ptp-5 pbp-5">
@@ -77,7 +77,7 @@ function Page044(props) {
 
 
                     {/* BEGIN TABLE */}
-                    <div className="global-margin mtp-30 mbp-100 psp-10 pep-10 ptp-10 pbp-10 f-Ubuntu-L fsp-13 rounded-p-10 ">
+                    <div className="global-margin mtp-30 mbp-100 psp-10 pep-10 ptp-10 pbp-10 f-Ubuntu-L fsp-15 rounded-p-10 ">
                         <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-0">
                             {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/generales/ticket.svg" className="hp-17 mtp--3 msp-5 mep-5" alt=""/>el recuadro que mejor me represente.</span> */}
                             <div className="w-100 p-0 pb-3 position-relative">

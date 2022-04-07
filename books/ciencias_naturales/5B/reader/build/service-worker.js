@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/libros_abp/books/ciencias_naturales/5B/reader/build/precache-manifest.724eba5c11665ff719396a2b000c6893.js"
+  "/libros_abp/books/ciencias_naturales/5B/reader/build/precache-manifest.6e9a99e508faa0ad087f2c15b515f4cd.js"
 );
 
 workbox.clientsClaim();

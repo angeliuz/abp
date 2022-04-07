@@ -47,7 +47,7 @@ function Page063(props) {
               <div className="border-style-solid mtp-25 border-2 border-color-android18 rounded-p-10 hp-260 w-100 hp-190 position-relative ">
                 <div className="position-absolute top-50 start-0 translate-middle"><img className="hp-100 " src="images/page_063/img_003.png" alt="" /></div>
 
-                <div className="d-flex align-items-center justify-content-center   rounded-set-10 bgc-android18  hp-45 pixilate-bold fsp-18 fw-700 color-white  ">Mi propuesta de presentación: </div>
+                <div className="d-flex align-items-center justify-content-center   rounded-set-10 bgc-android18  hp-45 pixilate-bold fsp-18 fw-700 color-white  ">Aspectos positivos </div>
                 <div className="mtp-10 msp-30 mep-30 w-85">    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
               </div>
             </div>

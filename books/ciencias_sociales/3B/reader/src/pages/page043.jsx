@@ -20,14 +20,14 @@ function Page043(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className="cabecera-v2 bgc-saitama d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja wp-150 text-center fsp-24 f-IntroRustG-Base color-saitama">SESIÓN 11</div>
+              <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-saitama fsp-24 f-IntroRustG-Base">SESIÓN 11</div>
               <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Tomamos decisiones</div>
             </div>
 
           </div>
           {/* END CABECERA VERSIÓN 2 */}
 
-          <div className="ptp-30 container-titulo-global mbp-40">
+          <div className="ptp-30 container-titulo-global mbp-40 position-relative">
             <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 " + color}>
               Conociendo otras fiestas
             </div>
@@ -37,13 +37,14 @@ function Page043(props) {
                 1
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Completo y comparto con mi grupo.
+              Leo la revista y luego contesto.
               </div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
               <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"71"} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10" className="p-0 px-0" />
                       </div>
+                      <div className="position-absolute top-0 start-100 translate-middle msp--160 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="hp-80" alt="" /></div>
           </div>
 
 

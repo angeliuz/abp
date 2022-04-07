@@ -121,7 +121,7 @@ function Page017(props) {
             >
               ABP &copy; SM
             </div>
-            <div className="bgc-jawa wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">
+            <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">
               {props.numeroPagina(pagina)}
             </div>
           </div>

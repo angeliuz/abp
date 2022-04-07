@@ -171,7 +171,7 @@ function Page029(props) {
               </div>
               <div className="col-sm-12 col-md-5">
                 <div className="bgc-white border-style-solid border-color-dark border-2 box-shadow-simple position-relative">
-                  <div className="position-absolute top-0 start-100 translate-middle msp--20 mtp-0 "><img src={"images/generales/clip.png"} className="wp-30" alt="" /></div>
+                  <div className="position-absolute top-0 start-100 translate-middle msp--20 mtp-20 "><img src={"images/page_029/img_001.png"} className="wp-35" alt="" /></div>
                   <div className="f-Ubuntu-B fsp-18 psp-20 pep-20 ptp-10 pbp-0">
                     Criterios de evaluación
                   </div>

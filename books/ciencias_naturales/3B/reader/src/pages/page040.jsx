@@ -85,7 +85,7 @@ function Page040(props) {
               {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/circ_descarga.png"} clasesImagen="wp-40 text-center mtp-20 mep-10" className="p-0 px-0" /> */}
               <ModalPDF
                 id={"p" + pagina + "_video" + (indexInput += 1)}
-                link="https://www.smconecta.cl/resources/1894/portadas.pdf"
+                link="https://www.smconecta.cl/resources/1893/nat_3b_fic06.pdf"
                 titulo="Material descargable"
                 tipo="PDF"
                 image={"images/generales/descargable.svg"}

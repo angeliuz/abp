@@ -87,7 +87,7 @@ function Page033(props) {
                     </div>
 
 
-                    <div className="ptp-30 container-titulo-global mbp-20">
+                    <div className="ptp-30 container-titulo-global ">
                         {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>Creo e informo</div> */}
                         <div className="d-flex">
                             {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_001.svg"} alt=""  /> */}
@@ -102,14 +102,14 @@ function Page033(props) {
                         </div>
                     </div>
 
-                    <div className="d-flex psp-60 pep-60 pbp-0">
+                    <div className="d-flex psp-60 pep-60 pbp-0 mbp-80">
 
                         <div className="row w-100 p-0 m-0">
 
                             <div className="col-sm-12 col-md-12 position-relative d-flex justify-content-center">
                                 <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-0"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-30 " alt="" /></div>
                                 <div className="d-flex w-100 border-style-solid border-2 border-color-freezer rounded-p-10 bgc-white">
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-400" />
+                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-100 p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-400" />
                                 </div>
                             </div>
 

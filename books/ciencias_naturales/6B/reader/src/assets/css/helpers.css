@@ -170,6 +170,9 @@
 .wp-30 {
   width: 30px;
 }
+.wp-32 {
+  width: 32px;
+}
 .wp-35 {
   width: 35px;
 }
@@ -382,6 +385,9 @@
 .wp-540{
   width: 540px;
 }
+.wp-550{
+  width: 550px;
+}
 .wp-560{
   width: 560px;
 }
@@ -525,6 +531,9 @@
 }
 .hp-25 {
   height: 25px;
+}
+.hp-29 {
+  height: 29px;
 }
 .hp-30 {
   height: 30px;
@@ -1425,6 +1434,9 @@
 .msp--130 {
   margin-left: -130px;
 }
+.msp--135 {
+  margin-left: -135px;
+}
 .msp--140 {
   margin-left: -140px;
 }
@@ -1909,6 +1921,9 @@
 }
 .mtp-55 {
   margin-top: 55px;
+}
+.mtp-57 {
+  margin-top: 57px;
 }
 .mtp-60 {
   margin-top: 60px;
@@ -2402,6 +2417,9 @@
 }
 .mtp--160 {
   margin-top: -160px;
+}
+.mtp--165 {
+  margin-top: -165px;
 }
 
 
@@ -5546,3 +5564,5 @@
   -webkit-box-shadow: 10px 10px 0px 1px #E8E8E8; 
   box-shadow: 10px 10px 0px 1px #E8E8E8;
 }
+
+.disable-select {-webkit-touch-callout: none;/* iOS Safari */-webkit-user-select: none;/* Chrome/Safari/Opera */-khtml-user-select: none;/* Konqueror */-moz-user-select: none;/* Firefox */-ms-user-select: none;/* Internet Explorer/Edge */user-select: none;/* Non-prefixed version, currently supported by any browser but < IE9 */}

@@ -37,6 +37,7 @@
   width: calc(100% - 60px);
 }
 
+
 @media (min-width: 768px) {
 .border-derecha {
   border-color: var(--goten);
@@ -78,6 +79,9 @@
 }
 .mtp--30-r {
   margin-top: -20px;
+}
+.pep-90-p18 {
+  padding-right: 90px;
 }
 }
 @media (max-width: 768px) {

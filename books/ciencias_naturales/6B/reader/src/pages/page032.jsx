@@ -92,7 +92,7 @@ function Page032(props) {
                                 <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-30">
                                     <div className="w-100 p-2 pb-3 bgc-white rounded-p-10">
                                         <table className="w-100">
-                                            <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src={"images/page_" + pagina + "/img_007.svg"} className="hp-17 mtp--2" alt="" /> el recuadro que mejor me represente.</span>
+                                            <thead><tr><td className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src={"images/page_" + pagina + "/img_007.svg"} className="hp-17 mtp--2" alt="" /> el recuadro que mejor me represente.</td></tr></thead>
 
                                             <tbody>
                                                 <tr className="color-white">

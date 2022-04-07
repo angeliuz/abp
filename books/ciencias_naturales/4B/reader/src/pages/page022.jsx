@@ -346,11 +346,11 @@ function Page022(props) {
           >
             <div
               className="f-Ubuntu-M fsp-10 position-absolute mbp-60"
-              style={{ transform: `rotate(270deg)`, color: "dark" }}
+              style={{ transform: `rotate(270deg)`, color: "white" }}
             >
               ABP &copy; SM
             </div>
-            <div className="bgc-jawa wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">
+            <div className="bgc-boros wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">
               {props.numeroPagina(pagina)}
             </div>
           </div>

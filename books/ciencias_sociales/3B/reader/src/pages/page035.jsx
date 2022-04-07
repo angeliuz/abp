@@ -32,7 +32,7 @@ function Page035(props) {
             </div>
           </div>
 
-          <div className="ptp-10 psp-135 pep-80 pbp-10">
+          <div className="ptp-10 psp-60 pep-80 pbp-10">
             <div className="col-12">
               <div className="border-style-solid border-1 border-color-pidgey rounded-p-10">
                 <div className="p-2 bgc-white rounded-set-10">
@@ -54,7 +54,7 @@ function Page035(props) {
             </div>
           </div>
 
-          <div className="ptp-10 psp-135 pep-80 pbp-100">
+          <div className="ptp-10 psp-60 pep-80 pbp-100">
             <div className="row">
               <div className="col-10 p-1">
                 <div className="w-100 rounded-p-10 bgc-jaga p-2 m-0 position-relative">

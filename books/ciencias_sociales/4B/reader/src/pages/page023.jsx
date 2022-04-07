@@ -27,7 +27,7 @@ function Page023(props) {
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
               <div
                 className={
-                  "caja wp-150 text-center fsp-24 f-IntroRustG-Base " +
+                  "caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 fsp-24 f-IntroRustG-Base " +
                   colorSesion
                 }
               >

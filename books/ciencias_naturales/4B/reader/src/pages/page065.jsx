@@ -23,7 +23,7 @@ function Page065(props) {
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className="cabecera-v2 bgc-saitama d-flex flex-column">
             <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
-              <div className="caja wp-150 text-center fsp-24 color-saitama f-IntroRustG-Base">SESIÓN 14</div>
+              <div className="caja-seccion wp-160 hp-60 d-flex justify-content-center ptp-10 mtp-5 color-saitama fsp-24 f-IntroRustG-Base">SESIÓN 14</div>
               <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¡Últimos ajustes antes de presentar!</div>
             </div>
           </div>
@@ -69,7 +69,7 @@ function Page065(props) {
                         </td>
                       </tr>
                       <tr>
-                        <td className={" rounded-ts-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 " + borderColorTabla}>
+                        <td className={" rounded-ts-10 f-Ubuntu-L fsp-16 text-start p-0 m-0 " + borderColorTabla}>
                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 ">
                             <div className="p-2 pbp-5  border-1 border-color-pikachu border-style-solid w-100 rounded-p-10 bgc-white">
                               ¿Consideras importante que el colegio cuente con brigadas de seguridad?
@@ -99,7 +99,7 @@ function Page065(props) {
                         </td>
                       </tr>
                       <tr>
-                        <td className={"f-Ubuntu-L fsp-12 text-start p-0 m-0 "}>
+                        <td className={"f-Ubuntu-L fsp-16 text-start p-0 m-0 "}>
                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10">
                             <div className="p-2 border-1 border-color-pikachu border-style-solid w-100 rounded-p-10 bgc-white">
                               ¿Te parece adecuado y útil disponer de fichas de seguridad?
@@ -129,7 +129,7 @@ function Page065(props) {
                         </td>
                       </tr>
                       <tr>
-                        <td className={"rounded-bs-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 " + borderColorTabla}>
+                        <td className={"rounded-bs-10 f-Ubuntu-L fsp-16 text-start p-0 m-0 " + borderColorTabla}>
                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 ">
                             <div className="psp-10 ptp-5 pbp-5  border-1 border-color-pikachu border-style-solid w-100 rounded-p-10 bgc-white">
                               ¿Consideras valioso contar con folletos para enseñar a actuar responsablemente ante una emergencia?
@@ -162,7 +162,7 @@ function Page065(props) {
                         <td className={"rounded-bs-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 " + borderColorTabla}>
                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10">
                             <div className="psp-5 border-1 border-color-pikachu border-style-solid w-100 rounded-p-10 bgc-white">
-                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-35" />
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-35 min-hp-70" />
                             </div>
                           </div>
                         </td>
@@ -192,7 +192,7 @@ function Page065(props) {
                         <td className={"rounded-bs-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 " + borderColorTabla}>
                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10  ">
                             <div className="psp-5 border-1 border-color-pikachu border-style-solid w-100 rounded-p-10 bgc-white">
-                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-35" />
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-35 min-hp-70" />
                             </div>
                           </div>
                         </td>
@@ -222,7 +222,7 @@ function Page065(props) {
                         <td className={"rounded-bs-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 " + borderColorTabla}>
                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10">
                             <div className="psp-5 border-1 border-color-pikachu border-style-solid w-100 rounded-p-10 bgc-white">
-                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-35" />
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-35 min-hp-70" />
                             </div>
                           </div>
                         </td>
@@ -253,7 +253,7 @@ function Page065(props) {
                         <td className={"rounded-bs-10 f-Ubuntu-L fsp-12 text-start p-0 m-0 " + borderColorTabla}>
                           <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10">
                             <div className="psp-5 border-1 border-color-pikachu border-style-solid w-100 rounded-p-10 bgc-white">
-                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-35" />
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-35 min-hp-70" />
                             </div>
                           </div>
                         </td>

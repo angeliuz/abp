@@ -202,6 +202,7 @@ function Page024(props) {
                                 alt=""
                             />
                         </div>
+                        <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-60" alt="" /></div>
                     </div>
 
 
