@@ -28,7 +28,7 @@ function Page063(props) {
                 Esta página fue completada por:
               </div>
               <div className="d-flex position-relative">
-                <img src={"images/page_" + pagina + "/.svg"} class="hp-110 position-absolute start-0 top-0 mtp--20 msp--10" alt="" />
+                <img src={"images/page_" + pagina + "/img_001.png"} class="hp-70 position-absolute start-0 top-0 mtp--20 msp--10" alt="" />
                 <div className={"bgc-white rounded-p-10 border-style-solid border-1 " + borderColor + " w-100 py-1 psp-50 pep-20"}>
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 w-60 lhp-35 min-hp-35" />
                 </div>
@@ -48,104 +48,124 @@ function Page063(props) {
           </div>
           <div className="espaciado-p39"></div>
 
-
-
-
-
-
-
-
-          <div className="d-flex global-margin ptp-60 mbp-0 psp-0 pep-0 ptp-0 pbp-0 mbp-20">
+          <div className="d-flex global-margin ptp-60 mbp-90 psp-0 pep-0 ptp-0 pbp-0 mbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 mnp-20 position-relative">
-                <div className="position-absolute top-0 start-50 translate-middle  visible-768   zindex-2 wp-100 msp-20 mtp--15"><img src="images/page_063/img_003.png" className="hp-80" alt="" /></div>
+                <div className="position-absolute top-0 start-50 translate-middle  visible-768   zindex-2 wp-100 msp-0 mtp--30"><img src="images/page_063/img_003.png" className="hp-100" alt="" /></div>
 
-                <div className="row ">
-                  <div className="col-6 m-0 p-0">
-                    <div className="bgc-wagner w-100 hp-70 rounded-ts-10 ptp-15 ">
-                      <div className="f-Ubuntu-R fsp-16 color-dark text-start p-2 ">Las tareas que realizamos en esta etapa fueron:</div>
+                <div className="row d-flex align-items-center">
 
-                    </div>
-                    <div className="bgc-wagner w-100  p-3 "><div className=" rounded-p-10 p-0 bgc-white ">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
-                    </div>
-                    </div>
-                    <div className="bgc-wagner w-100  p-3 "><div className=" rounded-p-10 p-0 bgc-white ">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
-                    </div>
-                    </div>
-                    <div className="bgc-wagner w-100  p-3 "><div className=" rounded-p-10 p-0 bgc-white ">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
-                    </div>
-                    </div>
-                    <div className="bgc-wagner w-100  p-3 "><div className=" rounded-p-10 p-0 bgc-white ">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
-                    </div>
-                    </div>
-
-                    <div className="bgc-wagner w-100  p-3  "><div className="  rounded-p-10 p-0 bgc-white ">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
-                    </div>
-                    </div>
-                    <div className="bgc-wagner w-100  p-4 rounded-bs-10 mbp-50 "><div className=" position-relative  ">
-                      <div className="position-absolute top-100 start-0 translate-middle  visible-768   zindex-2 wp-100 msp--20 mtp-5"><img src="images/page_063/img_007.png" className="hp-90" alt="" /></div>
-
-                    </div>
-                    </div>
+                  <div className="col-6 bgc-wagner rounded-ts-20">
+                    <div className="ptp-20 pbp-20 text-start">Las tareas que realizamos en esta etapa fueron:</div>
                   </div>
 
-                  <div className="col-6 m-0 p-0">
-                    <div className="bgc-milena w-100 hp-70 rounded-te-10 ptp-15 ">
-                      <div className="f-Ubuntu-R fsp-16 color-dark text-start p-2  ">Los responsables de cada una de estas tareas fueron:</div>
-
-                    </div>
-                    <div className="bgc-milena w-100  p-3 "><div className="psp-10  rounded-p-10 p-0 bgc-white  position-relative">
-                      <div className="position-absolute top-50 start-0 translate-middle msp--15  "><img src="images/page_063/img_008.svg" class="hp-30" alt="" /></div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
-                    </div>
-                    </div>
-                    <div className="bgc-milena w-100  p-3 "><div className="psp-10  rounded-p-10 p-0 bgc-white  position-relative">
-                      <div className="position-absolute top-50 start-0 translate-middle msp--15 "><img src="images/page_063/img_008.svg" class="hp-30" alt="" /></div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
-                    </div>
-                    </div>
-                    <div className="bgc-milena w-100  p-3 "><div className="psp-10  rounded-p-10 p-0 bgc-white  position-relative">
-                      <div className="position-absolute top-0 start-100 translate-middle  visible-768   zindex-2 wp-100 msp-20 mtp--25"><img src="images/page_063/img_005.png" className="hp-50" alt="" /></div>
-                      <div className="position-absolute top-50 start-0 translate-middle msp--15 "><img src="images/page_063/img_008.svg" class="hp-30" alt="" /></div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
-                    </div>
-                    </div>
-                    <div className="bgc-milena w-100  p-3 "><div className="psp-10  rounded-p-10 p-0 bgc-white  position-relative">
-                      <div className="position-absolute top-50 start-0 translate-middle msp--15 "><img src="images/page_063/img_008.svg" class="hp-30" alt="" /></div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
-                    </div>
-                    </div>
-                    <div className="bgc-milena w-100  p-3   "><div className=" psp-10 rounded-p-10 p-0 bgc-white  position-relative">
-                      <div className="position-absolute top-50 start-0 translate-middle msp--15  "><img src="images/page_063/img_008.svg" class="hp-30" alt="" /></div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
-                    </div>
-                    </div>
-                    <div className="bgc-milena w-100  p-4 rounded-be-10  mbp-50 "><div className=" position-relative ">
-                      <div className="position-absolute top-100 start-0 translate-middle  visible-768   zindex-2 wp-100 msp-0 mtp-10"><img src="images/page_063/img_006.png" className="hp-80" alt="" /></div>
-
-                    </div>
-                    </div>
-
+                  <div className="col-6 bgc-milena rounded-te-20">
+                    <div className="ptp-20 pbp-20 text-start">Los responsables de cada una de estas tareas fueron:</div>
                   </div>
+
                 </div>
+
+
+                <div className="row d-flex align-items-center position-relative">
+                  <div className="col-6 d-flex align-self-stretch bgc-wagner align-items-center">
+                    <div className="ptp-10 pbp-10 psp-10 text-start w-100">
+                      <div className="bgc-white rounded-p-20">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-6 d-flex align-self-stretch bgc-milena align-items-center">
+                    <div className="ptp-10 pbp-10 psp-10 text-start w-100">
+                      <div className="bgc-white rounded-p-20">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="position-absolute top-50 start-50 translate-middle msp-0  "><img src="images/page_063/img_008.svg" class="hp-30" alt="" /></div>
+                </div>
+
+                <div className="row d-flex align-items-center position-relative">
+                  <div className="col-6 d-flex align-self-stretch bgc-wagner align-items-center">
+                    <div className="ptp-10 pbp-10 psp-10 text-start w-100">
+                      <div className="bgc-white rounded-p-20">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-6 d-flex align-self-stretch bgc-milena align-items-center">
+                    <div className="ptp-10 pbp-10 psp-10 text-start w-100">
+                      <div className="bgc-white rounded-p-20">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="position-absolute top-50 start-50 translate-middle msp-0  "><img src="images/page_063/img_008.svg" class="hp-30" alt="" /></div>
+                </div>
+
+                <div className="row d-flex align-items-center position-relative">
+                  <div className="col-6 d-flex align-self-stretch bgc-wagner align-items-center">
+                    <div className="ptp-10 pbp-10 psp-10 text-start w-100">
+                      <div className="bgc-white rounded-p-20">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-6 d-flex align-self-stretch bgc-milena align-items-center">
+                    <div className="ptp-10 pbp-10 psp-10 text-start w-100">
+                      <div className="bgc-white rounded-p-20">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="position-absolute top-50 start-50 translate-middle msp-0  "><img src="images/page_063/img_008.svg" class="hp-30" alt="" /></div>
+                </div>
+
+                <div className="row d-flex align-items-center position-relative">
+                  <div className="col-6 d-flex align-self-stretch bgc-wagner align-items-center">
+                    <div className="ptp-10 pbp-10 psp-10 text-start w-100">
+                      <div className="bgc-white rounded-p-20">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-6 d-flex align-self-stretch bgc-milena align-items-center">
+                    <div className="ptp-10 pbp-10 psp-10 text-start w-100">
+                      <div className="bgc-white rounded-p-20">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="position-absolute top-50 start-50 translate-middle msp-0  "><img src="images/page_063/img_008.svg" class="hp-30" alt="" /></div>
+                </div>
+
+                <div className="row d-flex align-items-center position-relative">
+                  <div className="col-6 d-flex align-self-stretch bgc-wagner align-items-center rounded-bs-20">
+                    <div className="ptp-10 pbp-10 psp-10 text-start w-100">
+                      <div className="bgc-white rounded-p-20">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-6 d-flex align-self-stretch bgc-milena align-items-center rounded-be-20">
+                    <div className="ptp-10 pbp-10 psp-10 text-start w-100">
+                      <div className="bgc-white rounded-p-20">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="position-absolute top-50 start-50 translate-middle msp-0  "><img src="images/page_063/img_008.svg" class="hp-30" alt="" /></div>
+                </div>
+                <div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-60" alt="" /></div>
+                <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="hp-100" alt="" /></div>
+                <div className="position-absolute top-100 start-0 translate-middle msp--10 mtp--10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-40" alt="" /></div>
+
               </div>
             </div>
           </div>
 
 
-
-
-
-
-
-
           {/* BEIGN PIE DE PAGINA */}
-          <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
+          <div className="d-flex caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
             <div className="f-Ubuntu-M fsp-10 position-absolute mbp-60" style={{ transform: `rotate(270deg)`, color: "dark" }}>ABP &copy; SM</div>
             <div className="bgc-goku wp-50 hp-30 f-Ubuntu-M fsp-20 psp-5">{props.numeroPagina(pagina)}</div>
           </div>

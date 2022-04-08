@@ -25,7 +25,7 @@ function Page036(props) {
             <div className="ptp-30 container-titulo-global mbp-20">
                         <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 " + color}>Realizamos las entrevistas</div>
                         <div className="d-flex">
-                            <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_002.svg"} alt="" />
+                            {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_002.svg"} alt="" /> */}
                             <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>3</div>
                             <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                             Escuchamos a los entrevistados y tomamos notas de sus respuestas.

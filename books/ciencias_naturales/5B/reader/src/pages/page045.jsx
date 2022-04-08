@@ -85,10 +85,10 @@ function Page045(props) {
           <div className="d-flex global-margin mtp-20 mbp-0 psp-40 pep-30 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100 p-2 bgc-chitara  sombra   position-relative">
               <div className="position-absolute top-0 start-100 translate-middle       msp-0  visible-768 zindex-1"><img src={"images/page_" + pagina + "/tabla.png"} className="wp-80 mtp-30" alt="" /></div>
-              
+
               <div className="position-absolute top-100 start-100 translate-middle     msp--30  visible-768   zindex-1"><img src={"images/page_" + pagina + "/mono.png"} className="wp-120 mtp-100" alt="" /></div>
               <div className="col-6 p-0 m-0 position-relative">
-              <div className="position-absolute top-0 start-0 translate-middle         msp--10  visible-768 zindex-1"><img src={"images/page_" + pagina + "/lupa.png"} className="wp-40 mtp-100" alt="" /></div>
+                <div className="position-absolute top-0 start-0 translate-middle         msp--10  visible-768 zindex-1"><img src={"images/page_" + pagina + "/lupa.png"} className="wp-40 mtp-100" alt="" /></div>
                 <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                   Compran en el kiosco:
                 </div>
@@ -96,14 +96,14 @@ function Page045(props) {
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
                 </div>
               </div>
-              <di v className="col-6  p-0 m-0">
+              <div className="col-6  p-0 m-0">
                 <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                   Asisten al casino:
                 </div>
                 <div className="w-95  m-2  rounded-p-10 bgc-white">
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
                 </div>
-              </di>
+              </div>
               <div className="col-12   p-2 m-0 position-relative  ">
                 <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 pbp-10 text-start">
                   Alimentos que se consumen principalmente:

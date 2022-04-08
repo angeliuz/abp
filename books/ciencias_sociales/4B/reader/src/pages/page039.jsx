@@ -24,11 +24,11 @@ function Page039(props) {
               Este dosier fue completado por:
               </div>
               <div className="d-flex position-relative">
-                <img
+                {/* <img
                   src={"images/page_" + pagina + "/.svg"}
                   class="hp-110 position-absolute start-0 top-0 mtp--20 msp--10"
                   alt=""
-                />
+                /> */}
                 <div className="bgc-white rounded-p-10 border-style-solid border-1 border-color-android18 w-100 py-1 psp-50 pep-20 position-relative">
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}

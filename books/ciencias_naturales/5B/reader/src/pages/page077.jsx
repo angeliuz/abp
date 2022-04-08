@@ -49,7 +49,7 @@ function Page077(props) {
                       <table className="w-100">
                         <tbody>
                           <tr>
-                            <td class="f-Ubuntu-R fsp-16 text-start pbp-10"> ¿Cómo hemos aprendido en equipo?</td>
+                            <td className="f-Ubuntu-R fsp-16 text-start pbp-10"> ¿Cómo hemos aprendido en equipo?</td>
                             <td className={"color-white style-caja bgc-bulma tf-letra border-style-solid border-1 border-color-bulma f-colby-compres-bold ps-2 pe-2"}>
                               Nunca</td>
                             <td style={{ minWidth: "55px" }} className={"color-white style-caja bgc-bulma tf-letra  border-style-solid border-1 border-color-bulma f-colby-compres-bold ps-2 pe-2"}>
@@ -120,7 +120,7 @@ function Page077(props) {
           <div className="d-flex global-margin mtp-0 mbp-10 psp-0 pep-10 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100  position-relative">
               <div className="col-12 psp-20 pep-20 msp-0 mep-0 mtp-0 mbp-0 position-relative">
-                <td class="f-Ubuntu-R fsp-16 text-start pbp-10">Después de todo el trabajo, valoramos así lo que hemos hecho:</td>
+                <div className="f-Ubuntu-R fsp-16 text-start pbp-10">Después de todo el trabajo, valoramos así lo que hemos hecho:</div>
               </div>
               <div className="col-sm-12 col-md-6 psp-20 pep-20 msp-0 mep-0 mtp-0 mbp-30 position-relative">
 
