@@ -40,7 +40,6 @@ function Page060(props) {
                                                 <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                                                     Evaluamos los materiales que nos faltan y los pasos que nos faltan.
                                                 </div>
-                                                <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_068/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
                                             </div>
                                         </div>
                                         <div className="mtp-20">

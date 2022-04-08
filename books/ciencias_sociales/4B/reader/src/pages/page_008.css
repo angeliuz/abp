@@ -1,10 +1,39 @@
 .wp-250-p8 {
     width: 250px;
 }
+.msp-40-p8 {
+    margin-left: 60px;
+}
+.msp--80-p8 {
+    margin-left: -80px;
+}
+.msp-90-p8 {
+margin-left: 90px;
+}
+
+.wp-250-p8 {
+    width: 250px;
+}
 
 @media (max-width: 650px) {
     .wp-250-p8 {
         width: 180px;
-        margin-top: 40px;
+        margin-top: 0px;
+    }
+
+    .msp-40-p8 {
+        margin-left: 0px;
+    }
+    .msp--80-p8 {
+        margin-left: 0px;
+    }
+    .msp-90-p8 {
+    margin-left: 0px;
+    margin-top: 1px;
+    }
+
+    .wp-250-p8 {
+        width: 200px;
+        
     }
 }

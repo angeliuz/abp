@@ -39,38 +39,38 @@ function Page008(props) {
                 </div>
               </div>
 
-              <div className="w-100 mtp--40 pbp-10">
+              <div className="w-100 mtp-0 pbp-10">
                 <div className="d-flex justify-content-around">
                   <Seleccion
                     id={"seleccion_" + pagina + "_" + (indexInput += 1)}
                     image={"images/page_" + pagina + "/encierra.svg"}
-                    classNameContenedor="position-relative mtp-50 text-center bgc-urien rounded-p-10 f-Ubuntu-L fsp-15 pep-10 psp-10 wp-200 hp-50 d-flex center-center"
-                    classNameImagen="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 visible-768 zindex-1 wp-200 hp-200"
+                    classNameContenedor="position-relative mtp-0 text-center bgc-urien rounded-p-10 f-Ubuntu-L fsp-15 pep-10 psp-10 wp-200 hp-50 d-flex center-center"
+                    classNameImagen="position-absolute top-50 start-50 translate-middle msp-0 mtp--5 visible-768 zindex-1 wp-200 hp-80"
                     texto="Organizar una fiesta sobre diversidad cultural."
                   />
                   <Seleccion
                     id={"seleccion_" + pagina + "_" + (indexInput += 1)}
                     image={"images/page_" + pagina + "/encierra.svg"}
-                    classNameContenedor="position-relative mtp-50 text-center bgc-shogun rounded-p-10 f-Ubuntu-L fsp-15 pep-10 psp-10 wp-200 hp-50 d-flex center-center"
-                    classNameImagen="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 visible-768 zindex-1 wp-200 hp-200"
+                    classNameContenedor="position-relative mtp-0 text-center bgc-shogun rounded-p-10 f-Ubuntu-L fsp-15 msp--80-p8  pep-10 psp-10 wp-200 hp-50 d-flex center-center"
+                    classNameImagen="position-absolute top-50 start-50 translate-middle msp-0 mtp--5 visible-768 zindex-1 wp-200 hp-80"
                     texto="Promover la buena convivencia escolar."
                   />
                 </div>
               </div>
-              <div className="w-100  ptp-10 pbp-10">
+              <div className="w-100 mtp-20 ptp-10 pbp-10">
                 <div className="d-flex justify-content-around">
                   <Seleccion
                     id={"seleccion_" + pagina + "_" + (indexInput += 1)}
                     image={"images/page_" + pagina + "/encierra.svg"}
-                    classNameContenedor="position-relative mtp-50 text-center bgc-marcianos rounded-p-10 f-Ubuntu-L fsp-15 pep-10 psp-10 wp-200 hp-50 d-flex center-center"
-                    classNameImagen="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 visible-768 zindex-1 wp-200 hp-200"
+                    classNameContenedor="position-relative mtp-0 text-center bgc-marcianos rounded-p-10 f-Ubuntu-L fsp-15 msp-90-p8 pep-10 psp-10 wp-200 hp-50 d-flex center-center"
+                    classNameImagen="position-absolute top-50 start-50 translate-middle msp-0 mtp--5 visible-768 zindex-1 wp-200 hp-80"
                     texto="Crear un álbum para la buena convivencia."
                   />
                   <Seleccion
                     id={"seleccion_" + pagina + "_" + (indexInput += 1)}
-                    image={"images/page_" + pagina + "/encierra.svg"}
-                    classNameContenedor="position-relative mtp-50 text-center bgc-kokomi rounded-p-10 f-Ubuntu-L fsp-15 pep-10 psp-10 wp-250-p8 d-flex center-center"
-                    classNameImagen="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 visible-768 zindex-1 wp-200 hp-200"
+                    image={"images/page_" + pagina + "/encierra_2.svg"}
+                    classNameContenedor="position-relative mtp-0 text-center bgc-kokomi rounded-p-10 f-Ubuntu-L fsp-15 msp-40-p8 pep-10 psp-10 wp-250-p8 d-flex center-center"
+                    classNameImagen="position-absolute top-50 start-50 translate-middle msp-0 mtp--5 visible-768 zindex-1 wp-250-p8 hp-100"
                     texto="Conocer los gustos e intereses de otros compañeros."
                   />
                 </div>
@@ -80,8 +80,8 @@ function Page008(props) {
                   <Seleccion
                     id={"seleccion_" + pagina + "_" + (indexInput += 1)}
                     image={"images/page_" + pagina + "/encierra.svg"}
-                    classNameContenedor="position-relative mtp-50 text-center bgc-bach rounded-p-10 f-Ubuntu-L fsp-15 pep-10 psp-10 wp-200 hp-50 d-flex center-center"
-                    classNameImagen="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 visible-768 zindex-1 wp-200 hp-200"
+                    classNameContenedor="position-relative mtp-0 text-center bgc-bach rounded-p-10 f-Ubuntu-L fsp-15 pep-10 psp-10 wp-200 hp-50 d-flex center-center"
+                    classNameImagen="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 visible-768 zindex-1 wp-200 hp-90"
                     texto="Escribir una revista escolar semestral."
                   />
                 </div>
