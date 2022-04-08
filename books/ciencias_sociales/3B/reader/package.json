@@ -2,11 +2,7 @@
   "name": "reader",
   "version": "0.1.0",
   "private": true,
-<<<<<<< HEAD
-  "homepage": "http://localhost:3000",
-=======
-  "homepage": "http://localhost:3001",
->>>>>>> c6a84fb61610bb4d64487b00aa5133bb8460cccd
+  "homepage": "https://www.smconecta.cl/libros_abp/books/ciencias_sociales/3B/reader/build",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
