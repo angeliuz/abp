@@ -21,14 +21,13 @@ function Page071(props) {
         <div className="wrapper bgc-light">
             <div className="d-flex flex-column align-items-center pbp-20">
                 <div className={"dosier-e" + etapa + " page bgc-white overflow-hidden position-relative"} id={"page_" + pagina}>
-                    <img src={"images/cabecera/dosier_e" + etapa + ".svg"} className="w-100" alt="" />
+                    <img src="images/cabecera/dosier_e6.svg" className="w-100" alt="" />
                     <div className="position-relative w-100">
             <div className="row psp-80 pep-70 ptp-10 pbp-50 ">
               <div className="f-Ubuntu-R text-start msp-40 fsp-18 psp-30 pbp-10">
                 Esta página fue completada por:
               </div>
               <div className="d-flex position-relative">
-                <img src={"images/page_" + pagina + "/.svg"} class="hp-110 position-absolute start-0 top-0 mtp--20 msp--10"alt="" />
                 <div className={"bgc-white rounded-p-10 border-style-solid border-1 " + borderColor + " w-100 py-1 psp-50 pep-20"}>
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 w-60 lhp-35 min-hp-35" />
                 </div>

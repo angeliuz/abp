@@ -28,7 +28,7 @@ function Page063(props) {
                 Esta página fue completada por:
               </div>
               <div className="d-flex position-relative">
-                <img src={"images/page_" + pagina + "/.svg"} class="hp-110 position-absolute start-0 top-0 mtp--20 msp--10" alt="" />
+                <img src={"images/page_" + pagina + "/img_001.png"} class="hp-70 position-absolute start-0 top-0 mtp--20 msp--10" alt="" />
                 <div className={"bgc-white rounded-p-10 border-style-solid border-1 " + borderColor + " w-100 py-1 psp-50 pep-20"}>
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 w-60 lhp-35 min-hp-35" />
                 </div>
@@ -155,9 +155,9 @@ function Page063(props) {
                   </div>
                   <div className="position-absolute top-50 start-50 translate-middle msp-0  "><img src="images/page_063/img_008.svg" class="hp-30" alt="" /></div>
                 </div>
-<div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-60" alt="" /></div>
-<div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="hp-100" alt="" /></div>
-<div className="position-absolute top-100 start-0 translate-middle msp--10 mtp--10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-40" alt="" /></div>
+                <div className="position-absolute top-50 start-100 translate-middle msp-10 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-60" alt="" /></div>
+                <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="hp-100" alt="" /></div>
+                <div className="position-absolute top-100 start-0 translate-middle msp--10 mtp--10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-40" alt="" /></div>
 
               </div>
             </div>
