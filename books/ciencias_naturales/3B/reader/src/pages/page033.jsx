@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import Check from "../components/Check";
+import SubirImagen from '../components/SubirImagen';
 
 import "./page_033.css";
 
@@ -102,19 +103,35 @@ function Page033(props) {
                         </div>
                     </div>
 
-                    <div className="d-flex psp-60 pep-60 pbp-0 mbp-80">
 
-                        <div className="row w-100 p-0 m-0">
+                    <div className="d-flex psp-0 pep-0 pbp-70 mtp-30">
 
-                            <div className="col-sm-12 col-md-12 position-relative d-flex justify-content-center">
-                                <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-0"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-30 " alt="" /></div>
-                                <div className="d-flex w-100 border-style-solid border-2 border-color-freezer rounded-p-10 bgc-white">
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-100 p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-400" />
-                                </div>
-                            </div>
+<div className="row w-100 p-0 m-0">
 
-                        </div>
-                    </div>
+    <div className="col-md-12 col-lg-12 position-relative">
+
+        <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-0"><img src={"images/page_" + pagina + "/img_003.png"} className="w-100" alt="" /></div>
+
+        <div className="mbp-20 mtp-10 msp-20 mep-20">
+            <div className="d-flex center-center p-2 rounded-p-20 border-style-solid border-2 border-color-freezer min-hp-300">
+
+                <SubirImagen
+                    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                    className="w-100 bgc-white"
+                    colorUnidad={background}
+                    imagenPlaceHolder="images/generales/subir_imagen.svg"
+                    titulo="Subir imagen"
+                />
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
 
 
                     {/* BEGIN PIE DE PAGINA */}
