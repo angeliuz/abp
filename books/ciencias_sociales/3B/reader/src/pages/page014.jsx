@@ -107,7 +107,7 @@ function Page014(props) {
                   className="position-absolute top-0 start-100 translate-middle mtp-30 msp--11 hp-25 "
                   alt=""
                 />
-                <div className="bloque-respuesta w-100 hp-220 p-3 text-left bgc-yoru border-style-solid border-color-goku border-1 ">
+                <div className="bloque-respuesta w-100 p-3 text-left bgc-yoru border-style-solid border-color-goku border-1 ">
                   <span>Por eso nosotros...</span>
                   <div className="z-index-2">
                     <InputBox

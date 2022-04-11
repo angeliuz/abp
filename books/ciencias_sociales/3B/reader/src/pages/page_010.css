@@ -3,6 +3,10 @@
      -webkit-print-color-adjust: exact !important;
  
  }
+
+ .msp--165 {
+     margin-left: -165px;
+ }
  .cb-inicio{
     height: 250px; 
     margin-bottom: 60px;

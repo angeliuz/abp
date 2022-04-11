@@ -2,11 +2,13 @@ import React from "react";
 import ModalVideo from "../components/ModalVideo";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import SubirImagen from '../components/SubirImagen';
 // import esquinaAzul from "images/page_044/esquinaAzul.svg";
 import "./page_050.css";
 
 function Page050(props) {
 
+  const background = "bgc-saitama";
   const pagina = "050";
   var indexInput = 0;
 
@@ -42,8 +44,16 @@ function Page050(props) {
             <div className="row w-100 position-relative">
               <div className="col-12 px-0 m-0 position-relative ptp-20">
                 <div className="position-absolute top-100 start-0 translate-middle zindex-1 msp-0 mtp--50"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
-                <div className="mbp-40 border-style-solid border-2 border-color-dark rounded-p-10">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-caja p-0 px-1 fsp-15 text-start flex-grow-1 lhp-35 hp-800" />
+                <div className="mbp-40 border-style-solid border-2 border-color-dark rounded-p-10 ">
+                  <div className="d-flex justify-content-center align-items-center min-hp-800">
+                    <SubirImagen
+                      id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                      className="w-100 bgc-white"
+                      colorUnidad={background}
+                      imagenPlaceHolder="images/generales/subir_imagen.svg"
+                      titulo="Subir imagen"
+                    />
+                  </div>
                 </div>
               </div>
               <div className="cartel position-absolute top-0 start-100 msp--280 mtp--20">
