@@ -1,14 +1,13 @@
 import React from "react";
-import { useEffect, useState, useRef } from "react";
 import SubirImagen from '../components/SubirImagen';
 
 
-import "./page_005.css";
+import "./page_001.css";
 
 
-function Page005() {
+function Page001() {
 
-    const pagina = "005";
+    const pagina = "001";
     var indexInput = 0;
     const etapa = "1"
     const background = "bgc-goten";
@@ -60,6 +59,7 @@ function Page005() {
                                     <div className="d-flex center-center p-2 rounded-p-20 border-style-solid border-2 border-color-android18 min-hp-800">
                                         <SubirImagen
                                             id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                                            idQR={"6810051"}
                                             className="w-100 bgc-white"
                                             colorUnidad={background}
                                             imagenPlaceHolder="images/generales/subir_imagen.svg"
@@ -86,13 +86,13 @@ function Page005() {
                                 <div className="mbp-20 mtp-10 msp-20 mep-20">
                                     <div className="d-flex center-center p-2 rounded-p-20 border-style-solid border-2 border-color-android18 min-hp-300">
 
-                                        <SubirImagen
+                                        {/* <SubirImagen
                                             id={"imagen_" + pagina + "_" + (indexInput += 1)}
                                             className="w-100 bgc-white"
                                             colorUnidad={background}
                                             imagenPlaceHolder="images/generales/subir_imagen.svg"
                                             titulo="Subir imagen"
-                                        />
+                                        /> */}
                                     </div>
 
 
@@ -114,4 +114,4 @@ function Page005() {
     );
 }
 
-export default Page005;
+export default Page001;

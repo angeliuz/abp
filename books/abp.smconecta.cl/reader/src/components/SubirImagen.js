@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useState, useRef } from "react";
-import { doc, getDoc, setDoc, updateDoc, onSnapshot } from "firebase/firestore";
+import { doc, updateDoc, onSnapshot } from "firebase/firestore";
 
 import db from "../firebase/firebaseConfig";
 import { app } from "../firebase/firebaseConfigStorage";
@@ -20,7 +20,7 @@ const SubirImagen = (props) => {
 
     // const image = props.image;
     const id = props.id;
-    const pagina = props.pagina;
+    // const pagina = props.pagina;
     const colorUnidad = props.colorUnidad;
     const className = props.className;
     const imagenPlaceHolder = props.imagenPlaceHolder;
@@ -47,11 +47,11 @@ const SubirImagen = (props) => {
     var temp = replaceCharacter(String(props.id), 'imagen', '');
     temp = replaceCharacter(temp, '_', '');
 
-    const idQR = String(documento + temp);
+    const idQR = props.idQR;
 
     // firestore get data for check
     useEffect(() => {
-        onSnapshot(docRef, (docSnap) => {
+        onSnapshot(doc(db, coleccion, "681"), (docSnap) => {
 
             if (docSnap.exists()) {
                 console.log("url Existe");
@@ -86,8 +86,13 @@ const SubirImagen = (props) => {
         return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
     };
 
+
+
+
+
     const getData = () => {
-        // onSnapshot(docRef, (docSnap) => {
+
+        // onSnapshot(doc(db, coleccion, "681"), (docSnap) => {
         //     console.log("Current data: ", docSnap.data());
         //     if (docSnap.exists()) {
         //         console.log("Existe");
@@ -101,10 +106,13 @@ const SubirImagen = (props) => {
         //             console.log("Actualizar contenido");
         //         }
         //     } else {
-
         //         console.log("No existe");
 
+
         //     }
+        //});
+
+
         // const obtenerDatos = async () => {
         //     const docSnap = await getDoc(docRef);
 
@@ -130,9 +138,7 @@ const SubirImagen = (props) => {
         //     }
         // };
         // obtenerDatos();
-        //});
-
-    };
+    }
 
 
 
