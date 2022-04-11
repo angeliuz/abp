@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
 import ModalBook from "../components/ModalBook";
+import SubirImagen from "../components/SubirImagen";
 import "./page_053.css";
 
 function Page053(props) {
