@@ -133,7 +133,7 @@ function Page028(props) {
 
                 <div className="d-flex border-style-solid border-color-raiden border-2 rounded-p-10 psp-10 pep-10">
                   <div className="d-flex flex-column f-Ubuntu-R fsp-15 psp-0 pep-0 mtp-20 w-100">
-                    <div className="f-colby-compres-medium fsp-20 color-dark text-center color-dark ">¿Qué puedo reciclar?</div>
+                    <div className="f-colby-compres-medium fsp-20 color-dark text-center color-dark ">¿Qué estoy aprendiendo?</div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
                   </div>
                 </div>

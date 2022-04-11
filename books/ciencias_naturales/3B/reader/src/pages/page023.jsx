@@ -61,7 +61,7 @@ function Page023(props) {
                     <div className="position-absolute top-0 start-0 msp-0 mtp-0 zindex-1">
                       <div className="psp-10 pep-10 ptp-5 pbp-5 bgc-android18 border-style-solid border-color-white border-2 fsp-12  f-ccdigitaldelivery-bold color-white">Paso 2</div>
                     </div>
-                    <img src={"images/page_" + pagina + "/img_001.png"} className="w-100 max-wp-280" alt="" />
+                    <img src={"images/page_" + pagina + "/img_002.png"} className="w-100 max-wp-280" alt="" />
 
                   </div>
                   <div className="bgc-urien mtp--30 ptp-30 pbp-10 psp-10 pep-10 border-style-double border-4 border-color-bulma w-95 max-wp-250 text-start fsp-15 f-Ubuntu-R">En el recipiente 1, colocar una cáscara de plátano. En el recipiente 2, poner una bolsa de té y en el 3 una tapa plástica.</div>
@@ -73,7 +73,7 @@ function Page023(props) {
                     <div className="position-absolute top-0 start-0 msp-0 mtp-0 zindex-1">
                       <div className="psp-10 pep-10 ptp-5 pbp-5 bgc-android18 border-style-solid border-color-white border-2 fsp-12 f-ccdigitaldelivery-bold color-white">Paso 3</div>
                     </div>
-                    <img src={"images/page_" + pagina + "/img_001.png"} className="w-100" alt="" />
+                    <img src={"images/page_" + pagina + "/img_003.png"} className="w-100" alt="" />
 
                   </div>
                   <div className="bgc-urien mtp--30 ptp-30 pbp-10 psp-10 pep-10 border-style-double border-4 border-color-bulma w-95 max-wp-250 text-start fsp-15 f-Ubuntu-R">Ubicar los recipientes en un lugar al aire libre y a la sombra durante 20 días. Cada 4 días observen los cambios que presenten los desechos.</div>
