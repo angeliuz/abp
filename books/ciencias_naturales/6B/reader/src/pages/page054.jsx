@@ -3,6 +3,7 @@ import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import ModalVideo from "../components/ModalVideo";
 import ModalPDF from "../components/ModalPDF";
+import SubirImagen from '../components/SubirImagen';
 
 import "./page_054.css";
 
@@ -40,37 +41,85 @@ function Page054(props) {
 
               <div className="col-md-4 col-12 pbp-20">
                 <div className="bgc-white border-style-solid border-2 p-2 rounded-p-20">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-140" />
+                  {/* <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-140" /> */}
+                  <SubirImagen
+                    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                    className="w-100 bgc-white min-hp-140"
+                    colorUnidad={background}
+                    imagenPlaceHolder1="images/generales/subir_imagen1.svg"
+                    imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                    titulo="Subir imagen"
+                  />
                 </div>
               </div>
 
               <div className="col-md-4 col-12 pbp-20">
                 <div className="bgc-white border-style-solid border-2 p-2 rounded-p-20">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-140" />
+                  {/* <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-140" /> */}
+                  <SubirImagen
+                    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                    className="w-100 bgc-white min-hp-140"
+                    colorUnidad={background}
+                    imagenPlaceHolder1="images/generales/subir_imagen1.svg"
+                    imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                    titulo="Subir imagen"
+                  />
                 </div>
               </div>
 
               <div className="col-md-4 col-12 pbp-20">
                 <div className="bgc-white border-style-solid border-2 p-2 rounded-p-20">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-140" />
+                  {/* <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-140" /> */}
+                  <SubirImagen
+                    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                    className="w-100 bgc-white min-hp-140"
+                    colorUnidad={background}
+                    imagenPlaceHolder1="images/generales/subir_imagen1.svg"
+                    imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                    titulo="Subir imagen"
+                  />
                 </div>
               </div>
 
               <div className="col-md-4 col-12 pbp-20">
                 <div className="bgc-white border-style-solid border-2 p-2 rounded-p-20">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-140" />
+                  {/* <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-140" /> */}
+                  <SubirImagen
+                    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                    className="w-100 bgc-white min-hp-140"
+                    colorUnidad={background}
+                    imagenPlaceHolder1="images/generales/subir_imagen1.svg"
+                    imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                    titulo="Subir imagen"
+                  />
                 </div>
               </div>
 
               <div className="col-md-4 col-12 pbp-20">
                 <div className="bgc-white border-style-solid border-2 p-2 rounded-p-20">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-140" />
+                  {/* <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-140" /> */}
+                  <SubirImagen
+                    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                    className="w-100 bgc-white min-hp-140"
+                    colorUnidad={background}
+                    imagenPlaceHolder1="images/generales/subir_imagen1.svg"
+                    imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                    titulo="Subir imagen"
+                  />
                 </div>
               </div>
 
               <div className="col-md-4 col-12 pbp-20">
                 <div className="bgc-white border-style-solid border-2 p-2 rounded-p-20">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-140" />
+                  {/* <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-140" /> */}
+                  <SubirImagen
+                    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                    className="w-100 bgc-white min-hp-140"
+                    colorUnidad={background}
+                    imagenPlaceHolder1="images/generales/subir_imagen1.svg"
+                    imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                    titulo="Subir imagen"
+                  />
                 </div>
               </div>
 

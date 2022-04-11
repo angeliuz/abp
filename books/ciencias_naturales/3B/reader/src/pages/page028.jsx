@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import ModalVideo from "../components/ModalVideo";
+import SubirImagen from '../components/SubirImagen';
 
 import "./page_028.css";
 
@@ -61,28 +62,45 @@ function Page028(props) {
             <div className="row m-0 psp-60 pep-60 ptp-10 pbp-0 w-100">
 
               <div className="col-sm-12 col-md-6 position-relative pbp-20">
-                <div className="position-absolute top-0 start-0 translate-middle msp-0 mtp-40"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-100 " alt="" /></div>
+                <div className="position-absolute top-0 start-0 translate-middle msp-0 mtp-40 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-100 " alt="" /></div>
                 <div className="d-flex flex-column mbp-0 mtp-0 w-100 bgc-white border-style-double border-color-goku border-3 rounded-p-10">
-                  <div className="p-2 min-hp-80 w-100 ">
-                    <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start psp-10">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-240" />
-                    </div>
+                
+            <div className="d-flex center-center p-2 rounded-p-20   min-hp-300">
 
-                  </div>
+                <SubirImagen
+                    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                    className="w-100 bgc-white"
+                    colorUnidad={background}
+                    imagenPlaceHolder1="images/generales/subir_imagen1.svg"
+                    imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                    titulo="Subir imagen"
+                />
+            
+
+
+        </div>
 
                 </div>
 
               </div>
 
               <div className="col-sm-12 col-md-6 position-relative">
-                <div className="position-absolute top-0 start-100 translate-middle msp--15 mtp-40"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-50 " alt="" /></div>
+                <div className="position-absolute top-0 start-100 translate-middle msp--15 mtp-40 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-50 " alt="" /></div>
                 <div className="d-flex flex-column mbp-0 mtp-0 w-100 bgc-white border-style-double border-color-goku border-3 rounded-p-10">
-                  <div className="p-2 min-hp-80 w-100 ">
-                    <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-240" />
-                    </div>
+                <div className="d-flex center-center p-2 rounded-p-20   min-hp-300">
 
-                  </div>
+<SubirImagen
+    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+    className="w-100 bgc-white"
+    colorUnidad={background}
+    imagenPlaceHolder1="images/generales/subir_imagen1.svg"
+    imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+    titulo="Subir imagen"
+/>
+
+
+
+</div>
 
                 </div>
 

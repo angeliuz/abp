@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import SubirImagen from '../components/SubirImagen';
 
 import "./page_037.css";
 
@@ -38,7 +39,15 @@ function Page037(props) {
               <div className="position-relative">
                 <div className="d-flex w-100">
                   <div className="min-hp-100 w-100 rounded-p-10">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-800" />
+                    {/* <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-800" /> */}
+                    <SubirImagen
+                      id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                      className="w-100 bgc-white min-hp-800"
+                      colorUnidad={background}
+                      imagenPlaceHolder1="images/generales/subir_imagen2.svg"
+                      imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                      titulo="Subir imagen"
+                    />
                   </div>
                 </div>
                 <div className="position-absolute top-100 start-0 translate-middle msp-20 mtp--40 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-120" alt="" /></div>

@@ -53,12 +53,13 @@ function Page009(props) {
                 
 
                 <div className="mbp-20 mtp-10 msp-20 mep-20">
-                  <div className="d-flex center-center p-2 rounded-p-20 border-style-solid border-2 border-color-android18 min-hp-400">
+                  <div className="d-flex center-center p-2 rounded-p-20 border-style-solid border-1 min-hp-400">
                     <SubirImagen
                       id={"imagen_" + pagina + "_" + (indexInput += 1)}
                       className="w-100 bgc-white"
                       colorUnidad={background}
-                      imagenPlaceHolder="images/generales/subir_imagen.svg"
+                      imagenPlaceHolder1="images/generales/subir_imagen2.svg"
+                      imagenPlaceHolder2="images/generales/subir_imagen2.svg"
                       titulo="Subir imagen"
                     />
                   </div>

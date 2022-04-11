@@ -1,7 +1,7 @@
 import { isIndexedDBAvailable } from "@firebase/util";
 import React from "react";
 import InputBox from "../components/InputBox";
-
+import SubirImagen from "../components/SubirImagen";
 import "./page_015.css";
 
 function Page015(props) {
@@ -35,7 +35,11 @@ function Page015(props) {
           <div className="psp-50 pep-50 ptp-20 pbp-120">
             <div className="row">
               <div className="col-md-6 col-9 msp-a mep-a">
-                <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>
+                <div
+                  className={
+                    "f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color
+                  }
+                >
                   ¿Qué sé del desafío?
                 </div>
                 <div className="d-flex text-start">
@@ -62,11 +66,30 @@ function Page015(props) {
                 </div>
 
                 <div className="mtp--10 position-relative ptp-50">
-                  <div className="w-100 border-style-solid border-1 position-relative rounded-p-20 psp-20 pep-20 ptp-30 pbp-10">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 w-100 min-hp-400" />
+                  <div className="mbp-10 mtp-10 msp-10 mep-10">
+                    <div className="d-flex center-center p-2 rounded-p-20 border-style-solid border-1 min-hp-400">
+                      <SubirImagen
+                        id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                        className="w-100 bgc-white"
+                        colorUnidad={background}
+                        imagenPlaceHolder1="images/generales/subir_imagen2.svg"
+                        imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                        titulo="Subir imagen"
+                      />
+                    </div>
                   </div>
-                  <img src="images/page_015/anillado.png" className="position-absolute translate-middle zi2 top-0 start-500 msp-0 mtp-50 w-90" alt="" />
-                  <div className="position-absolute top-50 start-0 translate-middle msp--10 mtp-180 zindex-1"><img src={"images/page_" + pagina + "/img_008.png"} className="wp-60" alt="" /></div>
+                  <img
+                    src="images/page_015/anillado.png"
+                    className="position-absolute translate-middle zi2 top-0 start-500 msp-0 mtp-60 w-90"
+                    alt=""
+                  />
+                  <div className="position-absolute top-50 start-0 translate-middle msp--10 mtp-180 zindex-1">
+                    <img
+                      src={"images/page_" + pagina + "/img_008.png"}
+                      className="wp-60"
+                      alt=""
+                    />
+                  </div>
                 </div>
               </div>
 
@@ -85,11 +108,30 @@ function Page015(props) {
                 </div>
                 <div className="mtp--10 position-relative">
                   <div className="mtp--10 position-relative ptp-50">
-                    <div className="w-100 border-style-solid border-1 position-relative rounded-p-20 psp-20 pep-20 ptp-30 pbp-10">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 w-100 min-hp-400" />
+                    <div className="mbp-20 mtp-10 msp-20 mep-20">
+                      <div className="d-flex center-center p-2 rounded-p-20 border-style-solid border-1 min-hp-400">
+                        <SubirImagen
+                          id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                          className="w-100 bgc-white"
+                          colorUnidad={background}
+                          imagenPlaceHolder1="images/generales/subir_imagen2.svg"
+                          imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                          titulo="Subir imagen"
+                        />
+                      </div>
                     </div>
-                    <img src="images/page_015/anillado.png" className="position-absolute translate-middle zi2 top-0 start-500 msp-0 mtp-50 w-90" alt="" />
-                    <div className="position-absolute top-0 start-100 translate-middle msp-5 mtp-65 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="hp-140" alt="" /></div>
+                    <img
+                      src="images/page_015/anillado.png"
+                      className="position-absolute translate-middle zi2 top-0 start-500 msp-0 mtp-60 w-90"
+                      alt=""
+                    />
+                    <div className="position-absolute top-0 start-100 translate-middle msp-5 mtp-65 zindex-1">
+                      <img
+                        src={"images/page_" + pagina + "/img_007.png"}
+                        className="hp-140"
+                        alt=""
+                      />
+                    </div>
                   </div>
                 </div>
               </div>

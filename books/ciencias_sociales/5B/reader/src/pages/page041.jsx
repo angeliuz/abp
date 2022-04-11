@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 // import ModalBook from "../components/ModalBook";
+import SubirImagen from "../components/SubirImagen";
 
 import "./page_041.css";
 
@@ -8,6 +9,7 @@ function Page041(props) {
 
   const pagina = "041";
   var indexInput = 0;
+  const background = "bgc-android18";
 
   return (
     <div className="wrapper bgc-light">
@@ -60,56 +62,88 @@ function Page041(props) {
                 <div className="position-absolute top-50 start-50 translate-middle mtp--350 msp--120 conceptos1">
                   <div className="text-center f-colby-condensed-medium fsp-16 color-bulma">Conceptos clave</div>
                   <div className="position-relative bgc-white p-1 rounded-p-5 border-style-solid border-color-bulma border-1 wp-230">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-90" />
                   </div>
                 </div>
 
                 <div className="position-absolute top-50 start-50 translate-middle mtp--350 msp-120 conceptos2">
                   <div className="text-center f-colby-condensed-medium fsp-16 color-blaze">Conceptos clave</div>
                   <div className="position-relative bgc-white p-1 rounded-p-5 border-style-solid border-color-blaze border-1 wp-230">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-90" />
                   </div>
                 </div>
 
                 <div className="position-absolute top-50 start-50 translate-middle mtp-350 msp--120 conceptos3">
                   <div className="text-center f-colby-condensed-medium fsp-16 color-pidgey">Conceptos clave</div>
                   <div className="position-relative bgc-white p-1 rounded-p-5 border-style-solid border-color-pidgey border-1 wp-230">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-90" />
                   </div>
                 </div>
 
                 <div className="position-absolute top-50 start-50 translate-middle mtp-350 msp-120 conceptos4">
                   <div className="text-center f-colby-condensed-medium fsp-16 color-pikachu">Conceptos clave</div>
                   <div className="position-relative bgc-white p-1 rounded-p-5 border-style-solid border-color-pikachu border-1 wp-230">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-90" />
                   </div>
                 </div>
 
                 <div className="position-absolute top-50 start-50 translate-middle mtp--130 msp--290 imagen1">
                   <div className="text-center f-colby-condensed-medium fsp-16 color-bulma">Imagen clave</div>
-                  <div className="position-relative bgc-white p-1 rounded-p-5 border-style-solid border-color-bulma border-1 wp-210 achica-caja">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-140" />
+                  <div className="position-relative d-flex center-center p-2 rounded-p-10 border-style-solid border-1 border-color-bulma wp-210 hp-160 achica-caja">
+
+                                        <SubirImagen
+                                            id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                                            className="wp-150 bgc-white"
+                                            colorUnidad={background}
+                                            imagenPlaceHolder1="images/generales/subir_imagen1.svg"
+                                            imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                                            titulo="Subir imagen"
+                                        />
                   </div>
                 </div>
 
                 <div className="position-absolute top-50 start-50 translate-middle mtp--130 msp-290 imagen2">
                   <div className="text-center f-colby-condensed-medium fsp-16 color-blaze">Imagen clave</div>
-                  <div className="position-relative bgc-white p-1 rounded-p-5 border-style-solid border-color-blaze border-1 wp-210 achica-caja">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-140" />
+                  <div className="position-relative d-flex center-center p-2 rounded-p-10 border-style-solid border-1 border-color-blaze wp-210 hp-160 achica-caja">
+
+                                        <SubirImagen
+                                            id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                                            className="wp-150 bgc-white"
+                                            colorUnidad={background}
+                                            imagenPlaceHolder1="images/generales/subir_imagen1.svg"
+                                            imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                                            titulo="Subir imagen"
+                                        />
                   </div>
                 </div>
 
                 <div className="position-absolute top-50 start-50 translate-middle mtp-130 msp--290 imagen3">
                   <div className="text-center f-colby-condensed-medium fsp-16 color-pidgey">Imagen clave</div>
-                  <div className="position-relative bgc-white p-1 rounded-p-5 border-style-solid border-color-pidgey border-1 wp-210 achica-caja">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-140" />
+                  <div className="position-relative d-flex center-center p-2 rounded-p-10 border-style-solid border-1 border-color-pidgey wp-210 hp-160 achica-caja">
+
+                                        <SubirImagen
+                                            id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                                            className="wp-150 bgc-white"
+                                            colorUnidad={background}
+                                            imagenPlaceHolder1="images/generales/subir_imagen1.svg"
+                                            imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                                            titulo="Subir imagen"
+                                        />
                   </div>
                 </div>
 
                 <div className="position-absolute top-50 start-50 translate-middle mtp-130 msp-290 imagen4">
                   <div className="text-center f-colby-condensed-medium fsp-16 color-pikachu">Imagen clave</div>
-                  <div className="position-relative bgc-white p-1 rounded-p-5 border-style-solid border-color-pikachu border-1 wp-210 achica-caja">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-140" />
+                  <div className="position-relative d-flex center-center p-2 rounded-p-10 border-style-solid border-1 border-color-pikachu wp-210 hp-160 achica-caja">
+
+                                        <SubirImagen
+                                            id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                                            className="wp-150 bgc-white"
+                                            colorUnidad={background}
+                                            imagenPlaceHolder1="images/generales/subir_imagen1.svg"
+                                            imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                                            titulo="Subir imagen"
+                                        />
                   </div>
                 </div>
 

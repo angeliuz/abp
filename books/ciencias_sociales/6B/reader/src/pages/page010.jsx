@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import SubirImagen from '../components/SubirImagen';
 
 import "./page_010.css";
 
@@ -26,13 +27,23 @@ function Page010(props) {
                 <div class="cb-titulo-aceptamos text-center fsp-25 f-IntroRustG-Base mbp-20">ACEPTAMOS EL DESAFÍO</div>
               </div>
               <div className="text-center f-Ubuntu-L fsp-15">Este es el símbolo de nuestro equipo:</div>
-              <div className="max-wp-600 mx-auto bgc-white border-1 border-style-solid border-color-dark rounded-p-20 mbp-20 position-relative">
-                <div className="position-absolute top-0 start-0 translate-middle msp-0 mtp-50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-70" alt="" /></div>
+              <div className="position-relative mbp-20 mtp-10 msp-60 mep-60">
+              <div className="position-absolute top-0 start-0 translate-middle msp-0 mtp-50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-70" alt="" /></div>
                 <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-70" alt="" /></div>
-                <div className="psp-30 pep-30">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
-                </div>
-              </div>
+                                    <div className="d-flex center-center p-2 rounded-p-20 border-style-solid border-1 min-hp-150 bgc-white">
+
+                                        <SubirImagen
+                                            id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                                            className="w-100 bgc-white"
+                                            colorUnidad={background}
+                                            imagenPlaceHolder1="images/generales/subir_imagen2.svg"
+                                            imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                                            titulo="Subir imagen"
+                                        />
+                                    </div>
+
+
+                                </div>
               <div class="w-100 cb-inicio d-flex text-center align-items-center justify-content-center position-relative">
                 <div class="cb-block-superior p-2 pb-2 text-center ">
                   <div class="cb-bloque-0 bgc-ken p-2 pb-2 f-Ubuntu-B fw-700 fsp-15 border-1 border-style-solid cb-outline-p10 border-color-dark zindex-1 color-white">Características de un buen símbolo</div>

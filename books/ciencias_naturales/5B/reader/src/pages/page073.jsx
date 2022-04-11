@@ -25,13 +25,10 @@ function Page073(props) {
 
           <div className="msp-60 mep-60 mtp-20 mbp-10">
             <div className="row p-0 m-0">
-              <div className="col-md-12 col-md-3 position-relative"></div>
               <div className="container-titulo-global mbp-20">
                 <div className="d-flex psp-20">
                   {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
-                  <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
-                    3
-                  </div>
+                  <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>3</div>
                   <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
                     Llevamos a cabo la campaña para dar a conocer nuestra propuesta de alimentación saludable. Tomamos fotografías y registramos la que más nos gustó.
                   </div>
@@ -50,7 +47,8 @@ function Page073(props) {
                     id={"imagen_" + pagina + "_" + (indexInput += 1)}
                     className="w-100 bgc-white min-hp-310"
                     colorUnidad={background}
-                    imagenPlaceHolder="images/generales/subir_imagen.svg"
+                    imagenPlaceHolder1="images/generales/subir_imagen2.svg"
+                    imagenPlaceHolder2="images/generales/subir_imagen2.svg"
                     titulo="Subir imagen"
                   />
                 </div>
@@ -123,9 +121,7 @@ function Page073(props) {
       </div>
     </div>
 
-
   );
 }
-
 
 export default Page073;

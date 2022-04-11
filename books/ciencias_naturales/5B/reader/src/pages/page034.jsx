@@ -58,7 +58,8 @@ function Page034(props) {
                               id={"imagen_" + pagina + "_" + (indexInput += 1)}
                               className="w-65 bgc-white msp-220 min-hp-500"
                               colorUnidad={background}
-                              imagenPlaceHolder="images/generales/subir_imagen.svg"
+                              imagenPlaceHolder1="images/generales/subir_imagen1.svg"
+                              imagenPlaceHolder2="images/generales/subir_imagen2.svg"
                               titulo="Subir imagen"
                             />
                           </div>

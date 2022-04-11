@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import SubirImagen from "../components/SubirImagen";
 
 import "./page_067.css";
 
@@ -96,21 +97,30 @@ function Page067(props) {
 
 
           <div className="d-flex msp-60 mep-60 mtp-50 ">
-            <div className="bgc-pachelbel rounded-p-5 psp-10 ptp-10 pep-10 pbp-10 w-100 border-style-solid border-color-boros border-4 rounded-p-20">
-              <div className="position-relative">
-                <div className="d-flex w-100">
-                  <div className="min-hp-100 w-100 rounded-p-10">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-600" />
-                  </div>
-                </div>
-                <div className="position-absolute top-0 start-100 translate-middle  msp--50 mtp--43 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-65" alt="" /></div>
-                <div className="position-absolute top-50 start-0 translate-middle  msp--10 mtp-5 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="hp-100" alt="" /></div>
-                <div className="position-absolute top-100 start-100 translate-middle   msp--30 mtp-5 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-90" alt="" /></div>
-
-                <div className="position-absolute top-0 start-0 msp-10 mtp--65 zindex-1 gira--5">
+            <div className="w-100 bgc-pachelbel d-flex center-center p-2 rounded-p-20 border-style-solid border-3 border-color-boros min-hp-800 position-relative">
+            <div className="position-absolute top-0 start-100 translate-middle  msp--50 mtp--35 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-65" alt="" /></div>
+            <div className="position-absolute top-50 start-0 translate-middle  msp--10 mtp-5 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="hp-100" alt="" /></div>
+            <div className="position-absolute top-100 start-100 translate-middle   msp--30 mtp-5 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-90" alt="" /></div>
+            <div className="position-absolute top-0 start-0 msp-10 mtp--50 zindex-1 gira--5">
                   <div className="position-absolute top-50 start-50 translate-middle  w-100  f-colby-compres-bold fsp-19 ptp-5">Dibujo acá nuestro diseño</div>
                   <img src={"images/page_" + pagina + "/img_009.png"} className="wp-190" alt="" />
                 </div>
+              <div className="position-relative">
+                <div className="d-flex w-100">
+                <SubirImagen
+                                            id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                                            className="w-100 bgc-white"
+                                            colorUnidad={background}
+                                            imagenPlaceHolder1="images/generales/subir_imagen2.svg"
+                                            imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                                            titulo="Subir imagen"
+                                        />
+                </div>
+                
+                
+                
+
+                
               </div>
 
             </div>

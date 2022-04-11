@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import SubirImagen from '../components/SubirImagen';
 
 import "./page_051.css";
 
@@ -91,20 +92,27 @@ function Page051(props) {
               <div className="col-12 p-0 m-0 position-relative">
                 <div className="d-flex mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
                   <div className="row p-0 m-0 w-100">
-                    <div className="col-12 p-0 m-0 position-relative">
-                      <div className="">
-                        <div className="d-flex flex-column bgc-white p-2 rounded-p-10">
-                          <div className="psp-10 pep-10">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1  lhp-35 min-hp-400" />
-                          </div>
+                  <div className="mbp-20 mtp-10 ">
+            <div className="bgc-white d-flex center-center p-2 rounded-p-20 border-style-solid border-2 border-color-dark min-hp-300">
 
-                        </div>
-                      </div>
-                    </div>
+                <SubirImagen
+                    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                    className="w-100 bgc-white"
+                    colorUnidad={background}
+                    imagenPlaceHolder1="images/generales/subir_imagen2.svg"
+                    imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                    titulo="Subir imagen"
+                />
+            </div>
+
+
+        </div>
                   </div>
                 </div>
 
               </div>
+
+ 
             </div>
           </div>
 
