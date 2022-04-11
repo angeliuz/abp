@@ -52,26 +52,26 @@ function Page027(props) {
 
           <div className="row container-row">
 
-                <div className="col-md-12 col-lg-12 position-relative">
+            <div className="col-md-12 col-lg-12 position-relative">
 
-                
-                    <div className="position-absolute  zindex-1 msp-30"><img src="images/page_027/img_001.png" className="w-100 " alt=""/></div>
-                    <div className="position-absolute top-50 start-100 translate-middle msp--100 mtp-250 visible-768"><img src="images/page_027/img_004.png" className=" " alt=""/></div>
 
-                    <div className="mbp-20 mtp-60 msp-20 mep-20 mbp-80">
-                        <div className=" bgc-urien caja-dibujo-global p-2 rounded-p-20 border-style-solid border-3 border-color-atreus">
-                        <div className="pt-0 flex-grow-1">
+              <div className="position-absolute  zindex-1 msp-30"><img src="images/page_027/img_001.png" className="w-100 " alt="" /></div>
+              <div className="position-absolute top-50 start-100 translate-middle msp--60 mtp-250 visible-768"><img src="images/page_027/img_004.png" className=" wp-80" alt="" /></div>
+
+              <div className="mbp-20 mtp-60 psp-50 pep-50 msp-20 mep-20 mbp-80">
+                <div className=" bgc-urien p-2 rounded-p-20 border-style-solid border-3 border-color-atreus">
+                  <div className="pt-0 flex-grow-1">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
                       className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-770"
                     />
                   </div>
-                        </div>
-                    </div>
-                    
                 </div>
+              </div>
 
             </div>
+
+          </div>
 
           {/* PIE DE PAGINA */}
           <div

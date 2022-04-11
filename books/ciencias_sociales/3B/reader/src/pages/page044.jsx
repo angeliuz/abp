@@ -33,7 +33,7 @@ function Page044(props) {
             <div className="d-flex">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/img_002.svg" alt=""  /> */}
               <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">3</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Lo que vamos a considerar para nuestra feria y la creación de nuestro <i>stand</i>:</div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Lo que vamos a considerar para nuestra fiesta y la creación de nuestro <i>stand</i>:</div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.jpg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-1" /> */}
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_043/img_001.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
@@ -69,7 +69,7 @@ function Page044(props) {
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-30" />
                   </div>
                 </div>
-                <div className="d-block p-2 ">
+                <div className="d-block p-2">
                   <div className="f-Ubuntu-L text-start fsp-15 lh-sm">Responsables de reunir los materiales</div>
                   <div className="rounded-p-5 w-100  p-1 bgc-white">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-30" />
@@ -84,6 +84,7 @@ function Page044(props) {
                   <div className="position-absolute bottom-0 end-0  p-0 m-0">
                     <img src="images/page_044/img_005.svg" className="hp-20  " alt=""></img>
 
+
                   </div>
                   <div className="d-flex ">
                     <div className="d-flex f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Los materiales que usaremos son:</div>
@@ -94,13 +95,13 @@ function Page044(props) {
                   </div>
                   <div className="d-flex align-items-center p-1 w-100  ">
                     <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="d-inline f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Adornos</div>
                   </div>
                   <div className="d-flex align-items-center p-1 w-100  ">
                     <div className="d-inline wp-30 hp-30 border border-1 border-color-dark bgc-white">
-                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                      <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
                     <div className="d-inline f-Ubuntu-L text-start fsp-15 lh-sm  psp-10 lh-sm">Otro:</div>
                   </div>
@@ -113,6 +114,7 @@ function Page044(props) {
                   <img src="images/page_044/img_003.png" className="hp-150  " alt=""></img>
 
                 </div>
+                  <div className="position-absolute top-0 start-100 translate-middle msp--15 mtp-15 zindex-1"><img src={"images/page_" + pagina + "/img_001.svg"} className="wp-30" alt="" /></div>
 
               </div>
             </div>
@@ -136,13 +138,13 @@ function Page044(props) {
           <div className="d-flex msp-60 mep-60 mtp-0 mbp-80">
             <div className="row w-100 p-0 m-0">
               <div className="col-12  position-relative">
-              <div className="position-absolute top-100 start-0 translate-middle zindex-2">
+                <div className="position-absolute top-100 start-0 translate-middle zindex-2">
                   <img src="images/page_044/img_004.png" className="" alt=""></img>
 
                 </div>
                 <div className="d-flex justify-content-center ptp-20 w-100">
                   <div className="border-style-solid border-1  w-100  box-shadow-simple rounded-p-10 ">
-                  <SubirImagen
+                    <SubirImagen
                       id={"imagen_" + pagina + "_" + (indexInput += 1)}
                       className="w-100 bgc-white"
                       colorUnidad={background}
