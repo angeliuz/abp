@@ -58,7 +58,7 @@ function Page009(props) {
                       id={"imagen_" + pagina + "_" + (indexInput += 1)}
                       className="w-100 bgc-white"
                       colorUnidad={background}
-                      imagenPlaceHolder="images/page_009/subir_imagen.svg"
+                      imagenPlaceHolder="images/generales/subir_imagen.svg"
                       titulo="Subir imagen"
                     />
                   </div>
