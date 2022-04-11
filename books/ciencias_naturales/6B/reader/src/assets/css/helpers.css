@@ -1881,7 +1881,7 @@
   margin-top: 5px;
 }
 .mtp-10 {
-  margin-top: 10px;
+  margin-top: 10px !important;
 }
 .mtp-11 {
   margin-top: 11px;

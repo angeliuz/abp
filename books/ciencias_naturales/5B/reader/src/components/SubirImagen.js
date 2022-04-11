@@ -23,7 +23,8 @@ const SubirImagen = (props) => {
     const pagina = props.pagina;
     const colorUnidad = props.colorUnidad;
     const className = props.className;
-    const imagenPlaceHolder = props.imagenPlaceHolder;
+    const imagenPlaceHolder = props.imagenPlaceHolder1;
+    const imagenPlaceHolder2 = props.imagenPlaceHolder2;
     const imagenCargador = "images/generales/progress2.gif";
 
     const [titulo, setTitulo] = useState(props.titulo);
@@ -281,15 +282,23 @@ const SubirImagen = (props) => {
                     <div className="d-flex mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 w-100">
                         <div className="row p-0 m-0 w-100">
                             <div className="col-12 mbp-30 position-relative d-flex center-center">
-                                <div className="d-flex align-items-center w-100  mtp-20 msp-10 mep-10 rounded-p-15 position-relative pep-20 fsp-15 f-Ubuntu-M bgc-jaga">
+                                <div className="d-flex align-items-center w-100  mtp-20 msp-10 mep-10 rounded-p-15 position-relative pep-5 psp-5 fsp-15 f-Ubuntu-M bgc-jaga">
+                                <div className="row ">
+                                <div className="col-lg-6 col-xs-12 d-flex">
                                     <div className="p-2 flex-fill">
                                         <img src="images/generales/celular.png" alt="icono celular" />
                                     </div>
+                                    
+                                   
                                     <div className="p-2 flex-fill text-start">
-                                        Puedes subir una fotografía de tu actividad con tu smartphone ingresando el siguiente código <strong>https://abp.smconecta.cl</strong>
+                                    Ingresa el siguiente código en <strong>https://abp.smconecta.cl</strong>  y sube tu fotografía de la actividad.
                                     </div>
+                                    </div>
+                                    <div className="col-lg-6 col-xs-12 text-center ptp-20 pbp-5">
                                     <div className="bgc-white flex-fill psp-20 pep-20 ptp-10 pbp-10 rounded-p-20 border-style-solid border-color-dark border-2 fsp-25">
                                         {idQR}
+                                    </div>
+                                    </div>
                                     </div>
 
 
@@ -303,7 +312,7 @@ const SubirImagen = (props) => {
 
                                 <div className="d-flex hp-300 bgc-red"></div>
 
-                                {url != "" ? <img src={url} alt="Subir imagen" className={visibleCargador1 ? "d-none" : "d-flex w-100 position-relative"} onClick={handleClick} role="button" onLoad={() => setVisibleCargador1(false)} /> : <img src={imagenPlaceHolder} alt="Subir imagen" className={"d-flex w-100 position-relative"} onClick={handleClick} role="button" onLoad={() => setVisibleCargador1(false)} />}
+                                {url != "" ? <img src={url} alt="Subir imagen" className={visibleCargador1 ? "d-none" : "d-flex w-100 position-relative"} onClick={handleClick} role="button" onLoad={() => setVisibleCargador1(false)} /> : <img src={imagenPlaceHolder2} alt="Subir imagen" className={"d-flex w-100 position-relative"} onClick={handleClick} role="button" onLoad={() => setVisibleCargador1(false)} />}
 
                             </div>
                             <div className="col-12 p-0 m-0 position-relative d-flex center-center">
