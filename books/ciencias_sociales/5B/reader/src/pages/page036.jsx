@@ -24,7 +24,7 @@ function Page036(props) {
 
                 <div className="row m-0 p-2 rounded-p-20 w-100">
                     <div className="col-md-12 col-lg-12 position-relative">
-                        <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-20 visible-768"><img src="images/page_036/img_002.png" className="w-35" /></div>
+                        <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-10 visible-768"><img src="images/page_036/img_002.png" className="w-35" /></div>
                         <div className="position-absolute top-0 start-50 translate-middle wp-100 mtp-30 msp-120 visible-768"><img src="images/page_036/img_001.png" className="w-45" /></div>
                         <div className="d-flex mbp-20 mtp-10 w-100 padding-box-36-1">
                             <div className="p-2 min-hp-100 w-100">
@@ -38,7 +38,7 @@ function Page036(props) {
                         </div>
                     </div>
                     <div className="col-md-12 col-lg-12 position-relative">
-                        <div className="position-absolute top-0 start-50 translate-middle wp-100 msp--120 mtp-60 visible-768"><img src="images/page_036/img_004.png" className="w-75" /></div>
+                        <div className="position-absolute top-0 start-50 translate-middle wp-100 msp--150 mtp-60 visible-768"><img src="images/page_036/img_004.png" className="w-75" /></div>
                         <div className="position-absolute top-100 start-100 translate-middle wp-100 mtp--60 msp--30 visible-768"><img src="images/page_036/img_005.png" className="w-65" /></div>
                         <div className="position-absolute top-0 start-100 translate-middle wp-100 mtp--100 msp--150 visible-768"><img src="images/page_036/img_003.png" className="wp-200" /></div>
                         <div className="d-flex mbp-20 mtp-10 w-100 padding-box-36-2">
