@@ -17,7 +17,6 @@ function Page028(props) {
   const borderColorTabla = "border-color-azuka"
   const bgc_cajas = "bgc-azuka";
 
-
   return (
 
     <div className="wrapper bgc-light">
@@ -134,7 +133,6 @@ xxx
               </div>
             </div>
           </div>
-
 
           <div className="d-flex global-margin mtp-10 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
