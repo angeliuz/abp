@@ -19,8 +19,10 @@ function Page010(props) {
         <div className={"dosier-e" + etapa + "_2 page bgc-white overflow-hidden position-relative"} id={"page_" + pagina}>
 
           <div className="mtp-75 cb-margen">
-            <div className="d-flex justify-content-center">
-              <div className="cb-titulo-aceptamos text-center fsp-25 f-IntroRustG-Base mtp-10 mbp-20 color-goten">¡ACEPTAMOS EL DESAFÍO!</div>
+            <div className="d-flex justify-content-center position-relative">
+              <div className="cb-titulo-aceptamos text-center fsp-25 f-IntroRustG-Base mtp-10 mbp-20 color-goten">ACEPTAMOS EL DESAFÍO</div>
+            <div className="position-absolute top-50 start-50 translate-middle msp--165 mtp--5 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="hp-55" alt="" /></div>
+            <div className="position-absolute top-50 start-50 translate-middle msp-165 mtp--5 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="hp-55" alt="" /></div>
             </div>
             <div className="text-star cb-m-auto psp-30 f-Ubuntu-R fsp-16 text-start">Respondemos el correo y nos comprometemos con el desafío.</div>
             <div className="cb-contenedor-mail text-start">
