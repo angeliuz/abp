@@ -23,25 +23,25 @@ function Page049(props) {
               <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Diseñamos las entrevistas</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
                 Mis objetivos en <br /> esta sesión son:
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_049/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
                 Diferenciar las partes que<br /> componen una entrevista.
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_049/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
               </div>
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
                 Identificar las <br />características de una<br></br> entrevista.
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_049/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
-              <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
+              <div className="p-3 align-self-center f-colby-compres-bold fsp-17 lh-sm text-center text-white">
               Establecer la estructura que<br /> tendrán nuestras entrevistas.
               </div>
             </div>

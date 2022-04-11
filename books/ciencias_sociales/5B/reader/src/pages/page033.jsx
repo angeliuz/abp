@@ -27,25 +27,25 @@ function Page033(props) {
               <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Indagamos sobre la situación de los derechos en Chile</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
                 Mis objetivos en <br /> esta sesión son:
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_023/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
                 Seleccionar sobre qué grupo de<br /> la población investigaré.
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_023/flecha1.svg" className="wp-40 arrow-global" alt="" />
               </div>
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
                 Acordar de qué forma <br />investigaremos.
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_023/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
-              <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
+              <div className="p-3 align-self-center f-colby-compres-bold fsp-17 lh-sm text-center text-white">
                 Investigar la situación<br /> de los derechos de un<br /> grupo de personas en Chile.
               </div>
             </div>
