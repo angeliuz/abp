@@ -57,14 +57,45 @@ function Page005() {
                                 <div className="position-absolute top-100 start-0 translate-middle visible-768 zindex-1 msp-100 mtp--90"><img src={"images/page_" + pagina + "/personaje.png"} className="w-100" alt="" /></div>
 
                                 <div className="mbp-20 mtp-10 msp-20 mep-20">
-                                    <div className=" bgc-white caja-dibujo-global p-2 rounded-p-20 border-style-solid border-2 border-color-android18">
+                                    <div className="d-flex center-center p-2 rounded-p-20 border-style-solid border-2 border-color-android18 min-hp-800">
+                                        <SubirImagen
+                                            id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                                            className="w-100 bgc-white"
+                                            colorUnidad={background}
+                                            imagenPlaceHolder="images/generales/subir_imagen.svg"
+                                            titulo="Subir imagen"
+                                        />
+                                    </div>
 
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div className="d-flex psp-0 pep-0 pbp-70">
+
+                        <div className="row w-100 p-0 m-0">
+
+                            <div className="col-md-12 col-lg-12 position-relative">
+
+                                <div className="position-absolute top-100 start-0 translate-middle visible-768 zindex-1 msp-100 mtp--90"><img src={"images/page_" + pagina + "/personaje.png"} className="w-100" alt="" /></div>
+
+                                <div className="mbp-20 mtp-10 msp-20 mep-20">
+                                    <div className="d-flex center-center p-2 rounded-p-20 border-style-solid border-2 border-color-android18 min-hp-300">
 
                                         <SubirImagen
                                             id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                                            className="w-100 bgc-white"
+                                            colorUnidad={background}
+                                            imagenPlaceHolder="images/generales/subir_imagen.svg"
+                                            titulo="Subir imagen"
                                         />
-
                                     </div>
+
+
                                 </div>
 
                             </div>
