@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
 import Check from "../components/Check2";
+import SubirImagen from '../components/SubirImagen';
 import "./page_050.css";
 
 function Page050(props) {
@@ -34,9 +35,16 @@ function Page050(props) {
           <div className="d-flex global-margin mtp-10 mbp-10 psp-70 pep-30 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100 position-relative">
 
-              <div className="col-12 position -relative p-0 m-0 rounded-p-20 bgc-white border-style-solid border-color-dark border-1 p-2">
+              <div className="col-12 position-relative p-0 m-0 rounded-p-20 bgc-white border-style-solid border-color-dark border-1 p-2">
                 <div className="position-absolute top-0 start-0 translate-middle"><img src="images/page_050/brocha.png" className="hp-100 msp--20 mtp-140" alt="" /></div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-320" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
+                {/* <SubirImagen
+                  id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                  className="w-100 bgc-white min-hp-320"
+                  colorUnidad={background}
+                  imagenPlaceHolder="images/generales/subir_imagen.svg"
+                  titulo="Subir imagen"
+                /> */}
               </div>
             </div>
           </div>

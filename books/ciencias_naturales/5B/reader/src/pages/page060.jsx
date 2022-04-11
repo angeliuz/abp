@@ -64,7 +64,8 @@ xxx
                     id={"imagen_" + pagina + "_" + (indexInput += 1)}
                     className="w-100 bgc-white min-hp-580"
                     colorUnidad={background}
-                    imagenPlaceHolder="images/generales/subir_imagen.svg"
+                    imagenPlaceHolder1="images/generales/subir_imagen2.svg"
+                    imagenPlaceHolder2="images/generales/subir_imagen2.svg"
                     titulo="Subir imagen"
                   />
                 </div>
