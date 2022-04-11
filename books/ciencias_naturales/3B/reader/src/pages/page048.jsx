@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import SubirImagen from '../components/SubirImagen';
 
 import "./page_048.css";
 
@@ -101,26 +102,34 @@ function Page048(props) {
           </div>
 
 
-          <div className="d-flex global-margin mtp-0 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
-            <div className="row p-0 m-0 w-100">
-              <div className="col-12 p-0 m-0 position-relative">
-                <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
-                  <div className="row p-0 m-0 w-100">
-                    <div className="col-12 p-0 m-0 position-relative">
-                      <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-60" alt="" /></div>
-                      <div className="border-style-solid border-2 border-color-dark rounded-p-10">
-                        <div className="d-flex flex-column bgc-white rounded-p-10">
-                          <div className="psp-10 pep-10">
-                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1   lhp-35 min-hp-300" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div className="d-flex psp-0 pep-0 pbp-70 mtp-10 mbp-10">
+
+<div className="row w-100 p-0 m-0">
+
+    <div className="col-md-12 col-lg-12 position-relative">
+
+        <div className="position-absolute top-100 start-0 translate-middle msp-50 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="w-100" alt="" /></div>
+
+        <div className="mbp-20 mtp-10 msp-20 mep-20">
+            <div className="d-flex center-center p-2 rounded-p-20 border-style-solid border-2 border-color-dark min-hp-300">
+
+                <SubirImagen
+                    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                    className="w-100 bgc-white"
+                    colorUnidad={background}
+                    imagenPlaceHolder="images/generales/subir_imagen.svg"
+                    titulo="Subir imagen"
+                />
             </div>
-          </div>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
 
 
           {/* BEGIN PIE DE PAGINA */}
