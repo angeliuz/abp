@@ -82,9 +82,6 @@ function Page024(props) {
                             </div>
 
                             <div className="col-md-4 position-relative ptp-10 pbp-10">
-                                <div className="position-absolute top-0 start-100 translate-middle msp-3 mtp-20 msp--50 zindex-1 visible-768">
-                                    <img src="images/page_024/img_004.png" className=" " alt="" />
-                                </div>
                                 <div className="d-flex justify-content-center w-100 ">
                                     <div className="bgc-pidgey w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
                                         CONSECUENCIAS

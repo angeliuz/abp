@@ -65,7 +65,6 @@ function Page027(props) {
 
               <div className="col-sm-12 col-md-6 position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle mtp--10 msp-20 "><img src="images/page_027/img_002.png" className="" alt="" /></div>
-                <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 visible-768"><img src="images/page_050/espiral.svg" className="wp-50 " alt="" /></div>
                 <div className="">
                   <div className="f-Ubuntu-B alinea rounded-set-10 bgc-saitama w-100 p-2 text-center color-white">Siento que con mis
                     compañeros de curso soy:</div>
