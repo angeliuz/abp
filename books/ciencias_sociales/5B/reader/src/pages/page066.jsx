@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import SubirImagen from "../components/SubirImagen";
 
 import "./page_066.css";
 
@@ -39,10 +40,17 @@ function Page066(props) {
               <div className="position-absolute top-100 start-0 translate-middle visible-768 zindex-1 msp-90 mtp--50"><img src="images/page_066/img_003.png" className="wp-100" alt="" /></div>
 
 
-              <div className="mbp-20 mtp-10 msp-20 mep-20">
-                <div className=" bgc-white caja-dibujo-global p-2 rounded-p-20 border-style-solid border-2 border-color-dark">
+              <div className="mbp-20 mtp-10 msp-60 mep-60">
+                                    <div className="d-flex center-center p-2 rounded-p-20 border-style-solid border-1 min-hp-800">
+                                        <SubirImagen
+                                            id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                                            className="w-100 bgc-white"
+                                            colorUnidad={background}
+                                            imagenPlaceHolder="images/generales/subir_imagen.svg"
+                                            titulo="Subir imagen"
+                                        />
+                                    </div>
 
-                </div>
               </div>
 
             </div>

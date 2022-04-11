@@ -34,8 +34,8 @@ function Page014(props) {
             <div className="col-md-6 ptp-0 psp-30 pep-30 pbp-30">
               <div className="d-flex flex-column w-100 bgc-buzz rounded-p-10 px-3 pbp-15">
                 <div className="ptp-15 w-100 color-dark text-start f-Ubuntu-L fsp-15 lh-sm">Una revista es...</div>
-                <div className="bgc-white tf-outlinebuzz rounded-p-5 hp-200 mtp-10 w-100 position-relative mbp-30" >
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 fsp-12 text-start flex-grow-1 lhp-25 min-hp-195" />
+                <div className="bgc-white tf-outlinebuzz rounded-p-5  mtp-10 w-100 position-relative mbp-30" >
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 fsp-12 text-start flex-grow-1 lhp-25 min-hp-200" />
                 </div>
               </div>
             </div>
@@ -57,11 +57,11 @@ function Page014(props) {
             <div className="col-md-6 ptp-0 psp-30 pep-30 pbp-30">
               <div className="d-flex flex-column w-100 bgc-buzz rounded-p-10 px-3 pbp-15">
                 <div className="ptp-15 w-100 color-dark text-start f-Ubuntu-L fsp-15 lh-sm">Una revista debería tener las siguientes características:</div>
-                <div className="bgc-white tf-outlinebuzz rounded-p-5 hp-120 mtp-10 w-100 position-relative mbp-0" >
+                <div className="bgc-white tf-outlinebuzz rounded-p-5  mtp-10 w-100 position-relative mbp-0" >
                   <div className="position-absolute top-0 start-0 colorbulmanumero msp-10 mtp-10 fsp-16">1</div>
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="ptp-10 pe-2 pb-2 psp-30 fsp-12 text-start flex-grow-1  lhp-25 min-hp-120" />
                 </div>
-                <div className="bgc-white tf-outlinebuzz rounded-p-5 hp-120 mtp-10 w-100 position-relative mbp-30" >
+                <div className="bgc-white tf-outlinebuzz rounded-p-5 mtp-10 w-100 position-relative mbp-30" >
                   <div className="position-absolute top-0 start-0 colorbulmanumero msp-10 mtp-10 fsp-16">2</div>
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="ptp-10 pe-2 pb-2 psp-30 fsp-14 text-start flex-grow-1 lhp-25 min-hp-120" />
                 </div>
