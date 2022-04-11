@@ -3,6 +3,7 @@ import ModalVideo from "../components/ModalVideo";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import Check from "../components/Check";
+import SubirImagen from '../components/SubirImagen';
 // import esquinaAzul from "images/page_044/esquinaAzul.svg";
 import "./page_044.css";
 
@@ -10,6 +11,7 @@ function Page044(props) {
 
   const pagina = "044";
   var indexInput = 0;
+  const background = "bgc-saitama";
 
   return (
     <div className="wrapper bgc-light">
@@ -134,13 +136,19 @@ function Page044(props) {
           <div className="d-flex msp-60 mep-60 mtp-0 mbp-80">
             <div className="row w-100 p-0 m-0">
               <div className="col-12  position-relative">
-              <div className="position-absolute top-100 start-0 translate-middle">
+              <div className="position-absolute top-100 start-0 translate-middle zindex-2">
                   <img src="images/page_044/img_004.png" className="" alt=""></img>
 
                 </div>
                 <div className="d-flex justify-content-center ptp-20 w-100">
                   <div className="border-style-solid border-1  w-100  box-shadow-simple rounded-p-10 ">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1  lhp-35 min-hp-290" />
+                  <SubirImagen
+                      id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                      className="w-100 bgc-white"
+                      colorUnidad={background}
+                      imagenPlaceHolder="images/generales/subir_imagen.svg"
+                      titulo="Subir imagen"
+                    />
                   </div>
                 </div>
               </div>
