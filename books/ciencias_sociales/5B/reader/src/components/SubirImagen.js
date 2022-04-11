@@ -291,7 +291,7 @@ const SubirImagen = (props) => {
                                     
                                    
                                     <div className="p-2 flex-fill text-start">
-                                    Ingresa el siguiente código en <strong>https://abp.smconecta.cl</strong>  y sube tu fotografía de la actividad.
+                                    Puedes subir directamente la imagen de la actividad desde tu computador. También puedes tomar una fotografía con tu celular y cargarla en <strong>https://abp.smconecta.cl</strong>  ingresando el siguiente código.
                                     </div>
                                     </div>
                                     <div className="col-lg-6 col-xs-12 text-center ptp-20 pbp-5">

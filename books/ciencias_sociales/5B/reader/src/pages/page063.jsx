@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import SubirImagen from "../components/SubirImagen";
 
 import "./page_063.css";
 
@@ -93,7 +94,17 @@ function Page063(props) {
                         Símbolo
                       </div>
                     </div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                    <div className="d-flex center-center p-2 rounded-p-20">
+
+                                        <SubirImagen
+                                            id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                                            className="w-100 bgc-white"
+                                            colorUnidad={background}
+                                            imagenPlaceHolder1="images/generales/subir_imagen1.svg"
+                                            imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                                            titulo="Subir imagen"
+                                        />
+                      </div>
                   </div>
                 </div>
 
@@ -116,7 +127,17 @@ function Page063(props) {
                         Imagen
                       </div>
                     </div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                    <div className="d-flex center-center p-2 rounded-p-20">
+
+                                        <SubirImagen
+                                            id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                                            className="w-100 bgc-white"
+                                            colorUnidad={background}
+                                            imagenPlaceHolder1="images/generales/subir_imagen1.svg"
+                                            imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                                            titulo="Subir imagen"
+                                        />
+                      </div>
                   </div>
                 </div>
 

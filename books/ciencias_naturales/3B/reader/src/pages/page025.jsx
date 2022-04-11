@@ -100,7 +100,7 @@ function Page025(props) {
           </div>
 
 
-          <div className="ptp-10 container-titulo-global  position-relative mbp-80">
+          <div className="ptp-10 container-titulo-global  position-relative mbp-180">
             {/* <div className={"f-Ubuntu-B fsp-20 psp-0 text-start lhp-20 "+color}>La regla de las 3R</div> */}
             <div className="d-flex max-wp-500 ">
               <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_" + pagina + "/img_001.svg"} alt="" />
@@ -113,14 +113,15 @@ function Page025(props) {
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_007/img_001.png" className="p-0 px-1" /> */}
               <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"71"} image={"images/page_" + pagina + "/img_006.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />
             </div>
+                       
+            <div className="position-absolute top-100 start-100 translate-middle visible-768 zindex-1 msp--190 mtp-60 mbp-20">
+                <img className="wp-200" src={"images/page_" + pagina + "/img_007.png"} alt="" />
+              </div>
           </div>
 
           
 
-           
-              <div className="position-absolute top-100 start-100 translate-middle visible-768 zindex-1 msp--190 mtp--110 mbp-20">
-                <img className="wp-200" src={"images/page_" + pagina + "/img_007.png"} alt="" />
-              </div>
+
          
          
 

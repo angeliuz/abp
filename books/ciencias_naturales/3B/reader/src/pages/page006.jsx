@@ -51,7 +51,7 @@ function Page006(props) {
                                     <div className="d-flex"> 
                                       <span className="fsp-16 text-start f-pixilate-regular">
                                         <span className="fsp-16 f-IntroRustG-Base text-start"> 
-                                        COMFORMAR
+                                        CONFORMAR
                                         </span> 
                                         <br /> el equipo y comprometernos a trabajar.
                                       </span>
