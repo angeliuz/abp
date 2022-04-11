@@ -143,7 +143,7 @@ xxx
                   <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-150" alt="" /></div>
                   <div className="d-flex w-100 center-center">
                     <div className=" center-center w-80 psp-10 pep-10 ptp-0 pbp-0 zindex-2">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 f-Ubuntu-R text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 f-Ubuntu-R text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 text-center" />
                     </div>
                   </div>
 
@@ -154,7 +154,7 @@ xxx
                   <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-150" alt="" /></div>
                   <div className="d-flex w-100 center-center">
                     <div className="center-center w-80 psp-10 pep-10 ptp-0 pbp-0 zindex-2">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 f-Ubuntu-R text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 f-Ubuntu-R text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 text-center" />
                     </div>
                   </div>
 
@@ -165,7 +165,7 @@ xxx
                   <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-150" alt="" /></div>
                   <div className="d-flex w-100 center-center">
                     <div className="center-center w-80 psp-10 pep-10 ptp-0 pbp-0 zindex-2">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 f-Ubuntu-R text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 f-Ubuntu-R text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 text-center" />
                     </div>
                   </div>
 
@@ -176,7 +176,7 @@ xxx
                   <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-150" alt="" /></div>
                   <div className="d-flex w-100 center-center">
                     <div className="center-center w-80 psp-10 pep-10 ptp-0 pbp-0 zindex-2">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 f-Ubuntu-R text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 f-Ubuntu-R text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35 text-center" />
                     </div>
                   </div>
 
