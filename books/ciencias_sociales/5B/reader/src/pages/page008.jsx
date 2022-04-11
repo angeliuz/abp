@@ -44,10 +44,10 @@ function Page008(props) {
             </div>
           </div>
 
-          <div className="bgc-genos border-top border-color-dark border-2 pbp-90 position-relative">
+          <div className="bgc-genos border-top-style-solid border-color-dark border-2 pbp-90 position-relative">
             <img src="images/page_008/img_002.png" className="cb-personaje-18" alt="" />
             <div className="block-bottom text-start mtp-30 f-pixilate-bold">¿Cómo voy?</div>
-            <div className=" block-bottom p-2 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4 nat-page08">
+            <div className=" block-bottom p-2 pb-3 f-Ubuntu-L bgc-white fsp-14 rounded-p-10 ps-4 pe-4 nat-page08">
               <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
                 <div className="d-flex">
                   <img src="images/page_008/arrow.svg" className="mep-5 cb-flecha" alt="" />
@@ -70,7 +70,7 @@ function Page008(props) {
               </div>
             </div>
             <div className="block-bottom text-start mtp-30 f-pixilate-bold">¿Cómo me siento?</div>
-            <div className="block-bottom p-2 pb-2 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4">
+            <div className="block-bottom p-2 pb-2 f-Ubuntu-L bgc-white fsp-14 rounded-p-10 ps-4 pe-4">
               <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
                 <div className="d-flex">
                   <img src="images/page_008/arrow.svg" className="mep-5 cb-flecha" alt="" />

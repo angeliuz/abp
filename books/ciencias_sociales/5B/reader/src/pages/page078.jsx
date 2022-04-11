@@ -30,12 +30,12 @@ function Page078(props) {
                 <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
                 <div className="d-flex flex-column mbp-20 mtp-10 w-100">
                   <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                    <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
+                    <div className="f-Ubuntu-L fsp-14 msp-0 mep-10 text-start">
                       <img src="images/generales/flecha_e6.svg" className="mep-5 wp-15" alt="" />
                       <span>¿Qué recordaré de lo que aprendí en este proyecto?</span>
                     </div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-20" />
-                    <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 mtp-20 text-start">
+                    <div className="f-Ubuntu-L fsp-14 msp-0 mep-10 mtp-20 text-start">
                       <img src="images/generales/flecha_e6.svg" className="mep-5 wp-15" alt="" />
                       <span>¿En qué momentos saqué lo mejor de mí?</span>
                     </div>
@@ -47,7 +47,7 @@ function Page078(props) {
               <div className="col-12">
                 <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo me sentí?</div>
                 <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-30">
-                  <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/page_018/img_005.svg" className="hp-17 mtp--2" alt="" /> el recuadro que mejor me represente.</span>
+                  <span className="w-24 f-Ubuntu-L mtp-5 mbp-10 fsp-14">Marco con un <img src="images/page_018/img_005.svg" className="hp-17 mtp--2" alt="" /> el recuadro que mejor me represente.</span>
                   <div className="w-100 p-2 pb-3 bgc-white rounded-p-10">
                     <table className="w-100">
                       <tbody>
@@ -63,56 +63,56 @@ function Page078(props) {
                             Siempre</td>
                         </tr>
                         <tr>
-                          <td className="bgc-quaternary f-Ubuntu-L fsp-12 text-start psp-5 border-style-solid border-1 border-color-pikachu">El ambiente de trabajo en mi equipo fue agradable.	</td>
+                          <td className="bgc-quaternary f-Ubuntu-L fsp-14 text-start psp-5 border-style-solid border-1 border-color-pikachu">El ambiente de trabajo en mi equipo fue agradable.	</td>
                           <td className="border-style-solid border-1 border-color-pikachu"> <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                         </tr>
                         <tr>
-                          <td className="bgc-quaternary f-Ubuntu-L fsp-12 text-start psp-5 border-style-solid border-1 border-color-pikachu">Estoy contento de haber trabajado en este proyecto.</td>
+                          <td className="bgc-quaternary f-Ubuntu-L fsp-14 text-start psp-5 border-style-solid border-1 border-color-pikachu">Estoy contento de haber trabajado en este proyecto.</td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                         </tr>
                         <tr>
-                          <td className="bgc-quaternary f-Ubuntu-L fsp-12 text-start psp-5 border-style-solid border-1 border-color-pikachu">Me gustó investigar sobre el tema del proyecto.</td>
+                          <td className="bgc-quaternary f-Ubuntu-L fsp-14 text-start psp-5 border-style-solid border-1 border-color-pikachu">Me gustó investigar sobre el tema del proyecto.</td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                         </tr>
                         <tr>
-                          <td className="bgc-quaternary f-Ubuntu-L fsp-12 text-start psp-5 border-style-solid border-1 border-color-pikachu">Me motivó encontrar soluciones al reto planteado.</td>
+                          <td className="bgc-quaternary f-Ubuntu-L fsp-14 text-start psp-5 border-style-solid border-1 border-color-pikachu">Me motivó encontrar soluciones al reto planteado.</td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                         </tr>
                         <tr>
-                          <td className="bgc-quaternary f-Ubuntu-L fsp-12 text-start psp-5 border-style-solid border-1 border-color-pikachu">Estuve tenso y nervioso cuando trabajé con mi equipo.</td>
+                          <td className="bgc-quaternary f-Ubuntu-L fsp-14 text-start psp-5 border-style-solid border-1 border-color-pikachu">Estuve tenso y nervioso cuando trabajé con mi equipo.</td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                         </tr>
                         <tr>
-                          <td className="bgc-quaternary f-Ubuntu-L fsp-12 text-start psp-5 border-style-solid border-1 border-color-pikachu">Tuve miedo de no hacer bien el trabajo y recibir críticas.</td>
+                          <td className="bgc-quaternary f-Ubuntu-L fsp-14 text-start psp-5 border-style-solid border-1 border-color-pikachu">Tuve miedo de no hacer bien el trabajo y recibir críticas.</td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                         </tr>
                         <tr>
-                          <td className="bgc-quaternary f-Ubuntu-L fsp-12 text-start psp-5 border-style-solid border-1 border-color-pikachu">Confié en mi capacidad de aprender y me valoré.</td>
+                          <td className="bgc-quaternary f-Ubuntu-L fsp-14 text-start psp-5 border-style-solid border-1 border-color-pikachu">Confié en mi capacidad de aprender y me valoré.</td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                         </tr>
                         <tr>
-                          <td className="bgc-quaternary f-Ubuntu-L fsp-12 text-start psp-5 border-style-solid border-1 border-color-pikachu">Confié en mis compañeros y me ayudaron cuando lo necesité.	</td>
+                          <td className="bgc-quaternary f-Ubuntu-L fsp-14 text-start psp-5 border-style-solid border-1 border-color-pikachu">Confié en mis compañeros y me ayudaron cuando lo necesité.	</td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                           <td className="border-style-solid border-1 border-color-pikachu"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>

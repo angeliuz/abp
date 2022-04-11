@@ -57,10 +57,10 @@ function Page018(props) {
                         </div>
                     </div>
 
-                    <div className="bgc-buzz border-top border-color-dark border-2 pbp-50 position-relative">
+                    <div className="bgc-buzz border-top-style-solid border-color-dark border-2 pbp-50 position-relative">
                         <img src="images/page_008/img_002.png" className="tf-personaje-18" alt="" />
                         <div className="block-bottom-18 mtp-30 f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
-                        <div className="block-bottom-18 p-2 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4 nat-page08">
+                        <div className="block-bottom-18 p-2 pb-3 f-Ubuntu-L bgc-white fsp-14 rounded-p-10 ps-4 pe-4 nat-page08">
                             <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
                                 <div className="d-flex">
                                     <img src="images/page_018/img_004.svg" className="mep-5 tf-flecha" alt="" />
@@ -84,7 +84,7 @@ function Page018(props) {
                             </div>
                         </div>
                         <div className="block-bottom-18 mtp-30 f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo me siento?</div>
-                        <div className="block-bottom-18 p-2 pb-2 ps-4 pe-4 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 mbp-50">
+                        <div className="block-bottom-18 p-2 pb-2 ps-4 pe-4 f-Ubuntu-L bgc-white fsp-14 rounded-p-10 mbp-50">
                             <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-30">
                                 <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/page_018/img_005.svg" className="hp-17 mtp--2" alt="" /> el recuadro que mejor me represente.</span>
                                 <div className="w-100 p-0 pb-3 bgc-white rounded-p-10">
@@ -98,14 +98,14 @@ function Page018(props) {
                                                 <td className="style-caja bgc-bulma tf-letra  border-style-solid border-1 border-color-bulma f-colby-compres-bold ps-2 pe-2">Siempre</td>
                                             </tr>
                                             <tr>
-                                                <td className="bgc-draco f-Ubuntu-L fsp-12 text-start psp-5 border-style-solid border-1 border-color-bulma">El ambiente de trabajo en mi equipo es agradable.</td>
+                                                <td className="bgc-draco f-Ubuntu-L fsp-14 text-start psp-5 border-style-solid border-1 border-color-bulma">El ambiente de trabajo en mi equipo es agradable.</td>
                                                 <td className="bgc-white border-style-solid border-1 border-color-bulma"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                                                 <td className="bgc-white border-style-solid border-1 border-color-bulma"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                                                 <td className="bgc-white border-style-solid border-1 border-color-bulma"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                                                 <td className="bgc-white border-style-solid border-1 border-color-bulma"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                                             </tr>
                                             <tr>
-                                                <td className="bgc-draco f-Ubuntu-L fsp-12 text-start psp-5 border-style-solid border-1 border-color-bulma">Estoy muy contento de trabajar en este proyecto.</td>
+                                                <td className="bgc-draco f-Ubuntu-L fsp-14 text-start psp-5 border-style-solid border-1 border-color-bulma">Estoy muy contento de trabajar en este proyecto.</td>
                                                 <td className="bgc-white border-style-solid border-1 border-color-bulma"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                                                 <td className="bgc-white border-style-solid border-1 border-color-bulma"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                                                 <td className="bgc-white border-style-solid border-1 border-color-bulma"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
