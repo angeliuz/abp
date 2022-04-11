@@ -45,11 +45,13 @@
     position:absolute;
     left: -40px;
     bottom: -5px;
+    z-index: 2;
 }
 .cb-crallones-09{
     position:absolute;
     right: -40px;
     bottom: 145px;
+    z-index: 2;
 }
 .cb-lapiz-09{
     position:absolute;
