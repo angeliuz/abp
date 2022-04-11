@@ -104,7 +104,8 @@ function Page030(props) {
                     id={"imagen_" + pagina + "_" + (indexInput += 1)}
                     className="w-100 bgc-white"
                     colorUnidad={background}
-                    imagenPlaceHolder="images/generales/subir_imagen.svg"
+                    imagenPlaceHolder1="images/generales/subir_imagen2.svg"
+                    imagenPlaceHolder2="images/generales/subir_imagen2.svg"
                     titulo="Subir imagen"
                   />
                 </div>
@@ -121,7 +122,8 @@ function Page030(props) {
                     id={"imagen_" + pagina + "_" + (indexInput += 1)}
                     className="w-100 bgc-white"
                     colorUnidad={background}
-                    imagenPlaceHolder="images/generales/subir_imagen.svg"
+                    imagenPlaceHolder1="images/generales/subir_imagen2.svg"
+                    imagenPlaceHolder2="images/generales/subir_imagen2.svg"
                     titulo="Subir imagen"
                   />
                 </div>
@@ -160,12 +162,13 @@ function Page030(props) {
                 </div>
               </div>
               <div className="col-6 position-relative ptp-20">
-              <div className="bgc-jack d-flex center-center p-2 rounded-p-20 border-style-solid border-2 border-color-jack min-hp-230">
+                <div className="bgc-jack d-flex center-center p-2 rounded-p-20 border-style-solid border-2 border-color-jack min-hp-230">
                   <SubirImagen
                     id={"imagen_" + pagina + "_" + (indexInput += 1)}
                     className="w-100 bgc-white"
                     colorUnidad={background}
-                    imagenPlaceHolder="images/generales/subir_imagen.svg"
+                    imagenPlaceHolder1="images/generales/subir_imagen2.svg"
+                    imagenPlaceHolder2="images/generales/subir_imagen2.svg"
                     titulo="Subir imagen"
                   />
                 </div>
@@ -186,7 +189,8 @@ function Page030(props) {
                     id={"imagen_" + pagina + "_" + (indexInput += 1)}
                     className="w-100 bgc-white"
                     colorUnidad={background}
-                    imagenPlaceHolder="images/generales/subir_imagen.svg"
+                    imagenPlaceHolder1="images/generales/subir_imagen2.svg"
+                    imagenPlaceHolder2="images/generales/subir_imagen2.svg"
                     titulo="Subir imagen"
                   />
                 </div>

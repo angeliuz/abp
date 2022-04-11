@@ -67,24 +67,20 @@ function Page053(props) {
           </div>
 
           <div className="d-flex msp-60 mep-60 mtp-40 mbp-110">
-            <div className="bgc-pachelbel rounded-p-5 psp-10 ptp-10 pep-10 pbp-10 w-100 border-style-solid border-color-boros border-3 rounded-p-20">
-              <div className="position-relative">
-                <div className="d-flex w-100">
-                  <div className="min-hp-100 w-100 rounded-p-10">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-600" />
-                  </div>
+            <div className="w-100 d-flex center-center p-2 rounded-p-20 border-style-solid border-2 border-color-android18 min-hp-800 position-relative bgc-pachelbel">
+            <div className="position-absolute top-0 start-0 msp--30 mtp--40 zindex-1 gira--5">
+                  <div className="position-absolute top-50 start-50 translate-middle w-100 f-Ubuntu-R fsp-14 ptp-5">Y este es su primer boceto:</div>
+                  <img src={"images/page_" + pagina + "/parche.svg"} className="wp-190" alt="" />
                 </div>
-                <div className="position-absolute top-100 start-0 translate-middle msp-25 mtp--60 zindex-1 visible-768"><img src={"images/page_" + pagina + "/mono.png"} className="hp-150" alt="" /></div>
-
-                <div className="position-absolute top-0 start-50 msp-0 mtp--40 zindex-1">
+            <div className="position-absolute top-100 start-0 translate-middle msp-25 mtp--60 zindex-1 visible-768"><img src={"images/page_" + pagina + "/mono.png"} className="hp-150" alt="" /></div>
+            <div className="position-absolute top-0 start-50 msp-0 mtp--40 zindex-1">
                   <div className="bgc-white rounded-p-10 p-2 border-style-solid border-color-lightDark border-2 wp-250 position-relative box-shadow-simple">
                     <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/pintura.png"} className="hp-110" alt="" /></div>
                     <div className="f-Ubuntu-R fsp-14 lh-sm text-center ptp-10">El formato de nuestra obra será</div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-50" />
                   </div>
                 </div>
-
-                <div className="position-absolute top-100 start-100 msp--260 mtp--70 zindex-1">
+                <div className="position-absolute top-100 start-100 msp--270 mtp--90 zindex-1">
                   <div className="bgc-white p-2 border-style-solid border-color-boros border-2 wp-270 position-relative box-shadow-simple">
                     <div className="position-absolute top-50 start-0 translate-middle msp--30 mtp-20 zindex-1"><img src={"images/page_" + pagina + "/lapices.png"} className="hp-60" alt="" /></div>
                     <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-20 zindex-1"><img src={"images/page_" + pagina + "/clip.png"} className="hp-25" alt="" /></div>
@@ -92,11 +88,26 @@ function Page053(props) {
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
                   </div>
                 </div>
-
-                <div className="position-absolute top-0 start-0 msp--30 mtp--40 zindex-1 gira--5">
-                  <div className="position-absolute top-50 start-50 translate-middle w-100 f-Ubuntu-R fsp-14 ptp-5">Y este es su primer boceto:</div>
-                  <img src={"images/page_" + pagina + "/parche.svg"} className="wp-190" alt="" />
+              <div className="position-relative">
+                <div className="d-flex w-100">
+                  <div className="min-hp-100 w-100 rounded-p-10">
+                  <SubirImagen
+                                            id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                                            className="w-100 bgc-white"
+                                            colorUnidad={background}
+                                            imagenPlaceHolder1="images/generales/subir_imagen2.svg"
+                                            imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                                            titulo="Subir imagen"
+                                        />
+                  </div>
                 </div>
+                
+
+                
+
+                
+
+                
               </div>
 
             </div>
