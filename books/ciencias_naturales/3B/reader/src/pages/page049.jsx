@@ -105,7 +105,7 @@ function Page049(props) {
                 2
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Observamos la sección Paso a paso en la revista. Con este ejemplo podré dibujar y describir los pasos para realizar mi tarea.
+                Observamos la sección <i> Paso a paso </i> en la revista. Con este ejemplo podré dibujar y describir los pasos para realizar mi tarea.
               </div>
               {/* <img src={"images/page_"+pagina+"/img_00.svg"} className="wp-100" alt=""/> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
