@@ -1,5 +1,6 @@
 import React from "react";
 import InputBox from "../components/InputBox";
+import SubirImagen from '../components/SubirImagen';
 import "./page_045.css";
 
 function Page045(props) {
@@ -93,7 +94,14 @@ function Page045(props) {
                   Compran en el kiosco:
                 </div>
                 <div className="w-95  m-2  rounded-p-10 bgc-white">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
+                  {/* <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" /> */}
+                  <SubirImagen
+                    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                    className="w-100 bgc-white min-hp-200"
+                    colorUnidad={background}
+                    imagenPlaceHolder="images/generales/subir_imagen.svg"
+                    titulo="Subir imagen"
+                  />
                 </div>
               </div>
               <div className="col-6  p-0 m-0">
@@ -101,7 +109,14 @@ function Page045(props) {
                   Asisten al casino:
                 </div>
                 <div className="w-95  m-2  rounded-p-10 bgc-white">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
+                  {/* <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" /> */}
+                  <SubirImagen
+                    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                    className="w-100 bgc-white min-hp-200"
+                    colorUnidad={background}
+                    imagenPlaceHolder="images/generales/subir_imagen.svg"
+                    titulo="Subir imagen"
+                  />
                 </div>
               </div>
               <div className="col-12   p-2 m-0 position-relative  ">
@@ -109,7 +124,14 @@ function Page045(props) {
                   Alimentos que se consumen principalmente:
                 </div>
                 <div className="w-100 p-2 rounded-p-10 bgc-white">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
+                  {/* <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" /> */}
+                  <SubirImagen
+                    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                    className="w-100 bgc-white min-hp-200"
+                    colorUnidad={background}
+                    imagenPlaceHolder="images/generales/subir_imagen.svg"
+                    titulo="Subir imagen"
+                  />
                 </div>
               </div>
             </div>
