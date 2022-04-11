@@ -25,25 +25,25 @@ function Page075(props) {
               <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">La publicación de la revista</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
                 Mis objetivos <br />en  esta sesión son:
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
                 Identificar qué necesitamos<br /> para presentar la revista en <br />comunidad.
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global rotate-90" alt="" />
               </div>
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
                 Invitar a la comunidad a la<br /> presentación de la revista.
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
-              <div className="p-3 align-self-center f-colby-compres-bold fsp-17 lh-sm text-center text-white">
+              <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
                 Presentar la revista en<br /> comunidad.
               </div>
 

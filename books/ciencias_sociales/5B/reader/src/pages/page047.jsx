@@ -20,25 +20,25 @@ function Page047(props) {
               <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Organizamos las entrevistas</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
                 Mis objetivos en <br /> esta sesión son:
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_047/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
                 Seleccionar a las personas<br /> que entrevistaremos.
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_047/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
               </div>
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
                 Decidir cómo realizar  <br />las entrevistas.
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_047/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
-              <div className="p-3 align-self-center f-colby-compres-bold fsp-17 lh-sm text-center text-white">
+              <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
                 Enviar las invitaciones<br /> a las entrevistas.
               </div>
             </div>
