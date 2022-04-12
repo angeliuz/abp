@@ -67,7 +67,7 @@ function Page053(props) {
           </div>
 
           <div className="d-flex msp-60 mep-60 mtp-40 mbp-110">
-            <div className="w-100 d-flex center-center p-2 rounded-p-20 border-style-solid border-2 border-color-android18 min-hp-800 position-relative bgc-pachelbel">
+            <div className="w-100 d-flex center-center p-2 rounded-p-20 border-style-solid border-2 border-color-android18 min-hp-800 position-relative bgc-white">
             <div className="position-absolute top-0 start-0 msp--30 mtp--40 zindex-1 gira--5">
                   <div className="position-absolute top-50 start-50 translate-middle w-100 f-Ubuntu-R fsp-14 ptp-5">Y este es su primer boceto:</div>
                   <img src={"images/page_" + pagina + "/parche.svg"} className="wp-190" alt="" />
@@ -95,7 +95,7 @@ function Page053(props) {
                                             id={"imagen_" + pagina + "_" + (indexInput += 1)}
                                             className="w-100 bgc-white"
                                             colorUnidad={background}
-                                            imagenPlaceHolder1="images/generales/subir_imagen2.svg"
+                                            imagenPlaceHolder1="images/generales/subir_imagen1.svg"
                                             imagenPlaceHolder2="images/generales/subir_imagen2.svg"
                                             titulo="Subir imagen"
                                         />

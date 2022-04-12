@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/libros_abp/books/ciencias_sociales/6B/reader/build/static/css/main.241c7004.css",
-    "main.js": "/libros_abp/books/ciencias_sociales/6B/reader/build/static/js/main.f96ea54b.js",
+    "main.js": "/libros_abp/books/ciencias_sociales/6B/reader/build/static/js/main.487aa341.js",
     "static/js/787.327d116d.chunk.js": "/libros_abp/books/ciencias_sociales/6B/reader/build/static/js/787.327d116d.chunk.js",
     "static/media/fondo_e2.svg": "/libros_abp/books/ciencias_sociales/6B/reader/build/static/media/fondo_e2.d0ff9926cb5906bdf93b.svg",
     "static/media/fondo_e6.svg": "/libros_abp/books/ciencias_sociales/6B/reader/build/static/media/fondo_e6.ef74022926470c306ee7.svg",
@@ -53,11 +53,11 @@
     "static/media/flequillo.svg": "/libros_abp/books/ciencias_sociales/6B/reader/build/static/media/flequillo.405e23c7296d4702802f.svg",
     "static/media/lineas_objetivos_movile.svg": "/libros_abp/books/ciencias_sociales/6B/reader/build/static/media/lineas_objetivos_movile.bb3e000f820ddef8d96d.svg",
     "main.241c7004.css.map": "/libros_abp/books/ciencias_sociales/6B/reader/build/static/css/main.241c7004.css.map",
-    "main.f96ea54b.js.map": "/libros_abp/books/ciencias_sociales/6B/reader/build/static/js/main.f96ea54b.js.map",
+    "main.487aa341.js.map": "/libros_abp/books/ciencias_sociales/6B/reader/build/static/js/main.487aa341.js.map",
     "787.327d116d.chunk.js.map": "/libros_abp/books/ciencias_sociales/6B/reader/build/static/js/787.327d116d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.241c7004.css",
-    "static/js/main.f96ea54b.js"
+    "static/js/main.487aa341.js"
   ]
 }

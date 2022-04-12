@@ -53,7 +53,7 @@ function Page032(props) {
                         <div className="position-absolute top-0 start-100 translate-middle zindex-1 msp--40"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-50" alt="" /></div>
                             <div className=" ptp-10 psp-10 pep-10">
                                 <div className="f-Ubuntu-L fep-20 mtp-5 text-start">¿Cuál es la situación de</div>
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-110 overflow-scroll" />
                             </div>
                             <div className=" psp-20 pep-10 pbp-20">
                             <div className="f-Ubuntu-L fep-20 mtp-5 text-end">en el mundo actual?</div>
@@ -91,7 +91,7 @@ function Page032(props) {
                                                 los mayores desafíos que enfrenta.
                                             </div>
                                         </div>
-                                        <div className=" position-absolute top-0 start-50 translate-middle bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M "><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                        <div className=" position-absolute top-0 start-50 translate-middle bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M wp-30 hp-30 border-style-solid border-1 d-flex"><img src="images/page_032/img_003.svg" className="hp-20  " alt=""></img>
 
                                         </div>
 
@@ -191,7 +191,7 @@ function Page032(props) {
 
                                             <div className="d-flex text-center f-Ubuntu-L fsp-16 p-3   ">Las desigualdades entre diferentes
                                                 regiones del mundo respecto de los
-                                                avances y los desaf os identificados.
+                                                avances y los desafíos identificados.
                                             </div>
                                         </div>
                                         <div className=" position-absolute top-0 start-50 translate-middle bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M "><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
@@ -212,7 +212,7 @@ function Page032(props) {
 
                                             <div className="d-flex text-center f-Ubuntu-L fsp-16 p-3   ">Las acciones que personas y
                                                 organizaciones realizan para
-                                                enfrentar los desaf os identificados.
+                                                enfrentar los desafíos identificados.
                                             </div>
                                         </div>
                                         <div className=" position-absolute top-0 start-50 translate-middle bgc-white rounded-1 fsp-20 align-items-center justify-content-center f-Ubuntu-M "><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
@@ -231,7 +231,7 @@ function Page032(props) {
                                         <div className="w-100  p-1 ">
                                             <div className=" ptp-20 psp-20 pep-10 ">
                                                 <div className="f-Ubuntu-L fep-20 mtp-5">Otro:</div>
-                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-70 overflow-scroll" />
                                             </div>
                                             
                                         </div>

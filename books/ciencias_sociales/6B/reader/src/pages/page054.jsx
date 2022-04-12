@@ -105,14 +105,7 @@ function Page054(props) {
             </div>
           </div>
 
-          <div
-            className={
-              "mtp-20 border-top-style-solid " +
-              borderColor +
-              " border-2 pbp-20 position-relative " +
-              bgc_cajas
-            }
-          >
+          <div className={" position-relative mtp-20  border-top-style-solid  border-2 pbp-80 " + bgc_cajas}>
             <div className="position-absolute top-0 start-100 translate-middle">
               <img
                 src={"images/page_" + pagina + "/mono.png"}

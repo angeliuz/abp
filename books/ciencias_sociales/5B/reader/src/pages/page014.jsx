@@ -34,8 +34,8 @@ function Page014(props) {
             <div className="col-md-6 ptp-0 psp-30 pep-30 pbp-30">
               <div className="d-flex flex-column w-100 bgc-buzz rounded-p-10 px-3 pbp-15">
                 <div className="ptp-15 w-100 color-dark text-start f-Ubuntu-L fsp-15 lh-sm">Una revista es...</div>
-                <div className="bgc-white tf-outlinebuzz rounded-p-5  mtp-10 w-100 position-relative mbp-30" >
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 fsp-12 text-start flex-grow-1 lhp-25 min-hp-200" />
+                <div className="bgc-white  rounded-p-5  mtp-10 w-100 position-relative mbp-30" >
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" f-Ubuntu-L fsp-15 p-2 fsp-12 text-start flex-grow-1 lhp-35 hp-200 overflow-scroll" />
                 </div>
               </div>
             </div>
@@ -46,8 +46,8 @@ function Page014(props) {
               </div>
               <div className="d-flex flex-column w-100">
                 <div className="f-Ubuntu-L text-center fsp-15">Comparo mis respuestas con las de mi grupo. ¿Pensamos todos lo mismo?</div>
-                <div className="rounded-p-5 bgc-white mtp-10 w-100 border-style-solid border-2 border-color-buzz rounded-p-5 px-3">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 fsp-12 text-start flex-grow-1 contenedor-linea lhp-25 min-hp-230" />
+                <div className="rounded-p-5 bgc-white mtp-10 w-100 border-style-solid border-2 border-color-buzz rounded-p-5 px-3  fsp-15">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 f-Ubuntu-L fsp-15 text-start flex-grow-1 contenedor-linea lhp-35 hp-230 overflow-scroll" />
                 </div>
               </div>
             </div>
@@ -57,13 +57,13 @@ function Page014(props) {
             <div className="col-md-6 ptp-0 psp-30 pep-30 pbp-30">
               <div className="d-flex flex-column w-100 bgc-buzz rounded-p-10 px-3 pbp-15">
                 <div className="ptp-15 w-100 color-dark text-start f-Ubuntu-L fsp-15 lh-sm">Una revista debería tener las siguientes características:</div>
-                <div className="bgc-white tf-outlinebuzz rounded-p-5  mtp-10 w-100 position-relative mbp-0" >
+                <div className="bgc-white f-Ubuntu-L fsp-15 rounded-p-5  mtp-10 w-100 position-relative mbp-0" >
                   <div className="position-absolute top-0 start-0 colorbulmanumero msp-10 mtp-10 fsp-16">1</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="ptp-10 pe-2 pb-2 psp-30 fsp-12 text-start flex-grow-1  lhp-25 min-hp-120" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="ptp-10 pe-2 pb-2 psp-30 fsp-12 text-start flex-grow-1  lhp-35 hp-120 overflow-scroll f-Ubuntu-L fsp-15" />
                 </div>
-                <div className="bgc-white tf-outlinebuzz rounded-p-5 mtp-10 w-100 position-relative mbp-30" >
+                <div className="bgc-white f-Ubuntu-L fsp-15 rounded-p-5 mtp-10 w-100 position-relative mbp-30" >
                   <div className="position-absolute top-0 start-0 colorbulmanumero msp-10 mtp-10 fsp-16">2</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="ptp-10 pe-2 pb-2 psp-30 fsp-14 text-start flex-grow-1 lhp-25 min-hp-120" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="ptp-10 pe-2 pb-2 psp-30 fsp-14 text-start flex-grow-1 lhp-25 hp-120 overflow-scroll" />
                 </div>
               </div>
             </div>
@@ -74,7 +74,7 @@ function Page014(props) {
               </div>
               <div className="d-flex flex-column w-100">
                 <div className="rounded-p-5 bgc-white w-100 border-style-solid border-2 border-color-buzz rounded-p-5 px-3">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 fsp-12 text-start flex-grow-1 contenedor-linea lhp-25 min-hp-230" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" f-Ubuntu-L fsp-15 p-2 fsp-12 text-start flex-grow-1 contenedor-linea lhp-35 hp-230 overflow-scroll" />
                 </div>
               </div>
               <div className="position-absolute top-0 end-0">
@@ -108,19 +108,19 @@ function Page014(props) {
                 <div className="f-Ubuntu-L border-style-solid border-3 rounded-p-10 border-color-luke mb-1 text-start  hp-70">
                   <div className="msp-80">
                     <span className="text-start">Para superar el desafío, tengo que profundizar en...</span>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 fsp-12 text-start flex-grow-1 lhp-25 contenedor-linea mep-10" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="f-Ubuntu-L fsp-15 px-1 p-0 text-start flex-grow-1 lhp-35 hp-35 contenedor-linea mep-10 overflow-scroll" />
                   </div>
                 </div>
                 <div className="f-Ubuntu-L border-style-solid border-3 rounded-p-10 border-color-jawa mb-1 text-start  hp-70">
                   <div className="msp-80">
                     <span className="text-start">Las dudas que tengo son...</span>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 fsp-12 text-start flex-grow-1 lhp-25 contenedor-linea mep-10" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="f-Ubuntu-L fsp-15 px-1 p-0 text-start flex-grow-1 lhp-35 hp-35 contenedor-linea mep-10 overflow-scroll" />
                   </div>
                 </div>
                 <div className="f-Ubuntu-L border-style-solid border-3 rounded-p-10 border-color-success mbp-10 text-start  hp-70">
                   <div className="msp-80">
                     <span className="text-start">Ya sé...</span>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 fsp-12 text-start flex-grow-1 lhp-25 contenedor-linea mep-10" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="f-Ubuntu-L fsp-15 px-1 p-0 text-start flex-grow-1 lhp-35 hp-35 contenedor-linea mep-10 overflow-scroll" />
                   </div>
                 </div>
               </div>

@@ -91,12 +91,12 @@ function Page066(props) {
                 <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
                 <div className="d-flex flex-column mbp-20 mtp-10 w-100">
                   <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                    <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
+                    <div className="f-Ubuntu-L fsp-14 msp-0 mep-10 text-start">
                       <img src="images/generales/flecha_e5.svg" className="mep-5 wp-15" alt="" />
                       <span>Las tareas en las que más me comprometo son</span>
                     </div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
-                    <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 mtp-20 text-start">
+                    <div className="f-Ubuntu-L fsp-14 msp-0 mep-10 mtp-20 text-start">
                       <img src="images/generales/flecha_e5.svg" className="mep-5 wp-15" alt="" />
                       <span>La estrategia que más me ha servido es</span>
                     </div>
@@ -114,7 +114,7 @@ function Page066(props) {
                     {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/generales/ticket.svg" className="hp-17 mtp--3 msp-5 mep-5" alt=""/>el recuadro que mejor me represente.</span> */}
                     <div className="w-100 p-0 pb-3 position-relative">
                       <div className="position-absolute mtp--40 top-0 start-0 msp-10 mtp--10 mbp-10 f-pixilate-bold fsp-18 lh-sm text-start">¿Cómo me siento?</div>
-                      <div className="d-flex position-absolute align-items-start w-100  mbp-50 top-0 start-0 msp-10 mtp--20 f-Ubuntu-R fsp-15  lh-sm text-start">Marco con un <img src={"images/page_" + pagina + "/ticket.svg"} className="wp-15 msp-5 mep-5 p-0 mpt-0 " alt="" /> el recuadro que mejor me represente.</div>
+                      <div className="d-flex position-absolute align-items-start w-100  mbp-50 top-0 start-0 msp-10 mtp--10 f-Ubuntu-R fsp-14  lh-sm text-start">Marco con un <img src={"images/page_" + pagina + "/ticket.svg"} className="wp-15 msp-5 mep-5 p-0 mpt-0 " alt="" /> el recuadro que mejor me represente.</div>
                       <table className="w-100">
 
                         <tbody>
@@ -134,7 +134,7 @@ function Page066(props) {
                             </td>
                           </tr>
                           <tr>
-                            <td className={"bgc-white rounded-ts-10 f-Ubuntu-L fsp-15 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                            <td className={"bgc-white rounded-ts-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
                               <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10 ">
                                 <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                                 Confío en mi capacidad para aprender y me valoro.
@@ -164,7 +164,7 @@ function Page066(props) {
 
 
                           <tr>
-                            <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-15 text-start p-0 m-0 border-style-solid border-bottom-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
+                            <td className={"bgc-white rounded-bs-10 f-Ubuntu-L fsp-14 text-start p-0 m-0 border-style-solid border-bottom-hidden border-left-hidden border-right-hidden border-2 " + borderColorTabla}>
                               <div className="d-flex align-items-start psp-10 pep-10 ptp-10 pbp-10">
                                 <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 mtp-3 wp-15" alt="" />
                                 Confío en mis compañeros y me ayudan cuando lo necesito.
