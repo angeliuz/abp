@@ -90,7 +90,7 @@ function Page062(props) {
               {/* <img src={"images/page_"+pagina+"/img_00.svg"} className="wp-100" alt=""/> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
-              <div className="wp-40 hp-40 mtp-10">
+              <div className="wp-50 hp-50 mtp-10">
                 {/* <ModalRecortable
                     id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
                     pagina={pagina}
@@ -101,7 +101,7 @@ function Page062(props) {
                 <ModalRecortableEstatico
                   id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
                   pagina={pagina}
-                  image={"images/page_" + pagina + "/img_006.svg"}
+                  image={"images/page_" + pagina + "/recortable.png"}
                   colorUnidad={background}
                   numRecortables="1"
                   grupo="1"
