@@ -43,20 +43,7 @@ function Page016(props) {
             </div>
             <div className="bgc-white sombra psp-40 pep-20 ptp-20 pbp-20 position-relative">
               <div className="row">
-                {/* <div className="">
-                  <img
-                    src="/images/page_016/img_002.png"
-                    className="tf-anillo-1"
-                    alt=""
-                  />
-                </div> */}
-                {/* <div className="">
-                  <img
-                    src="/images/page_016/img_002.png"
-                    className="tf-anillo-2"
-                    alt=""
-                  />
-                </div> */}
+
 
                 <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-pidgey">
                   <div className=" py-2 color-pidgey f-pixilate-bold fsp-18">

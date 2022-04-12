@@ -84,7 +84,7 @@ function Page007(props) {
 
                 <p>¡Sé que lo harán excelente! ¿Qué dicen? Quedo atenta a su respuesta.<br />
                   Reciban un cordial saludo de mi parte y de la brigada comunal a la que
-                  represento<br /></p>
+                  represento.<br /></p>
                 <p className="justify-content-end d-flex">Atte. Macarena, brigadista comunal.</p>
               </div>
             </div>

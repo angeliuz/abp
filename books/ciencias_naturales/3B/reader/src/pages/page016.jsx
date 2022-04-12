@@ -30,7 +30,7 @@ function Page016(props) {
             <div className={"f-Ubuntu-B fsp-20 psp-40 text-start lhp-20 " + color}>
               Cumplimos roles en nuestro equipo
             </div>
-            <div className="d-flex">
+            <div className="d-flex position-relative">
               <img src={"images/page_" + pagina + "/img_001.svg"} className="hp-20 align-center mt-3 me-2 mb-2" alt="" />
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start col-8 col-md-12">
@@ -40,6 +40,7 @@ function Page016(props) {
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_"+pagina+"/img_001.png" className="p-0 px-1" /> */}
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_007/revista65.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
+              <div className="position-absolute top-0 start-100 translate-middle msp--30 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-90 mtp-30" alt="" /></div>
             </div>
           </div>
 
@@ -186,7 +187,7 @@ function Page016(props) {
                     </div>
                   </div>
                 </div>
-                <div className="position-absolute top-0 start-100 translate-middle msp--30 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-90 mtp--100" alt="" /></div>
+               
 
               </div>
 
