@@ -59,14 +59,10 @@ function Page018(props) {
               <img src="images/page_018/img_005.svg" className="" alt="" />
             </div>
             <div className="row w-100">
-              <div className="col-md-6 col-12 position-relative ">
-                <img src="images/page_018/img_006.svg" className="" alt="" />
-                <div className="position-absolute top-0 start-50 mtp-20 msp--140 rotate-1">
+              <div className="col-md-6 col-12 bgc-white border-style-solid border-color-dark border-1 position-relative ">           
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-90 wp-240 msp-30"
-                  />
-                </div>
+                    className="w-100 p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-90 "/>        
               </div>
               <div className="col-md-6 col-12 position-relative ">
                 <img src="images/page_018/img_007.svg" className="" alt="" />

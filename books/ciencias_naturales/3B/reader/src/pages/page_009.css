@@ -1,5 +1,5 @@
 .cb-page09 {
-    background: url(images/page_009/fondo_001.svg) top center/cover no-repeat;
+    background: url(images/page_009/fondo_003.svg) top center/cover no-repeat;
     width: 100% !important;
     height: 100% !important;
     -webkit-print-color-adjust: exact !important;
@@ -7,4 +7,7 @@
   .outlineclau {
     outline: solid 1px var(--goten);
     outline-offset: 2px;
+}
+.cb-dosier {
+  width: 50%;
 }

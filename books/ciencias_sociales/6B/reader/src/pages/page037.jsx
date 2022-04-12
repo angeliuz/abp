@@ -63,14 +63,14 @@ function Page037(props) {
 
                       <div className="f-Ubuntu-R fsp-16 text-start p-1 color-dark">Dos grandes desafíos son:</div>
                       <div className=" p-2 min-hp-100 w-100 border-style-solid border-2 mbp-5 rounded-p-10 border-color-azuka  bgc-white">
-                        <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+                        <div className="d-flex align-items-start justify-content-start  f-Ubuntu-L fsp-15   ">
                           <div className="psp-5 ptp-10 pep-5 color-rukia fsp-18 fw-700">1</div>
                           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-90 mtp-0 p-0 px-1 text-start color-dark flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
 
                         </div>
                       </div>
                       <div className=" p-2 min-hp-100 w-100 border-style-solid border-2 pbp-10 rounded-p-10 border-color-azuka  bgc-white ">
-                        <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+                        <div className="d-flex align-items-start justify-content-start f-Ubuntu-L fsp-15   ">
                           <div className="psp-5 ptp-10 pep-5   color-rukia fsp-18 fw-700">2</div>
                           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-90 mtp-0 p-0 px-1 color-dark text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
 
@@ -93,7 +93,7 @@ function Page037(props) {
                   <div className="d-flex mbp-20 mtp-10  w-100 pep-10   ">
                     <div className="p-2  w-100 ">
                       <div className="f-Ubuntu-R fsp-16 text-center color-rukia"> Son importantes porque: </div>
-                      <div className="mtp-10  w-100 pep-10  psp-10 border-style-solid border-2 rounded-p-10 border-color-azuka  bgc-white  zindex-1">
+                      <div className="mtp-10  w-100 pep-10  psp-10 border-style-solid border-2 rounded-p-10 border-color-azuka  bgc-white  zindex-1 f-Ubuntu-L">
 
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 color-dark text-start flex-grow-1 contenedor-linea lhp-35 min-hp-360" />
                       </div>
@@ -127,7 +127,7 @@ function Page037(props) {
 
                       <div className="f-Ubuntu-R fsp-16 text-start p-1 color-dark">Dos mecanismos de protección ante estos desafíos son:</div>
                       <div className=" p-2 min-hp-100 w-100 border-style-solid border-2 mbp-5  rounded-p-10 border-color-windu  bgc-white ">
-                        <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+                        <div className="d-flex align-items-start justify-content-start f-Ubuntu-L fsp-15   ">
                           <div className="psp-5 ptp-10 pep-5 color-saitama fsp-18 fw-700">1</div>
                           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-90 mtp-0 p-0 px-1 color-dark text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
 
@@ -135,7 +135,7 @@ function Page037(props) {
                       </div>
                       <div className=" p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-windu  bgc-white position-relative">
                         
-                        <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+                        <div className="d-flex align-items-start justify-content-start f-Ubuntu-L fsp-15   ">
                           <div className="psp-5 ptp-10 pep-5  color-saitama fsp-18 fw-700">2</div>
                           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-90 mtp-0 p-0 px-1 color-dark text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
 
@@ -158,7 +158,7 @@ function Page037(props) {
                   <div className="d-flex mbp-20 mtp-10  w-100 pep-10   ">
                     <div className="p-2  w-100 ">
                       <div className="f-Ubuntu-R fsp-16 text-center color-saitama"> Son importantes porque: </div>
-                      <div className="mtp-10  w-100 pep-10 psp-10  border-style-solid border-2 rounded-p-10 border-color-windu  bgc-white  zindex-1">
+                      <div className="mtp-10 w-100 pep-10 psp-10 border-style-solid border-2 rounded-p-10 border-color-windu  bgc-white zindex-1 f-Ubuntu-L">
 
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 color-dark text-start flex-grow-1 contenedor-linea lhp-35 min-hp-360" />
                       </div>

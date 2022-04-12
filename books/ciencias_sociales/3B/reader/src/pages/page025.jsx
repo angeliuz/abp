@@ -125,7 +125,7 @@ function Page025(props) {
                 </div>
               </div>
             </div>
-            <div className="bgc-hansolo p-3 text-left hp-240 position-relative">
+            <div className="bgc-hansolo p-3 text-left position-relative">
               <div className="f-Ubuntu-L"> Nosotros opinamos que en este caso...</div>
               <InputBox
                 id={"p" + pagina + "_input" + (indexInput += 1)}

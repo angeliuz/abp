@@ -17,6 +17,8 @@ function Page010(props) {
             <div className="d-flex justify-content-center">
               <div className="cb-titulo-aceptamos text-center fsp-25 f-IntroRustG-Base mbp-20">ACEPTAMOS EL DESAFÍO</div>
             </div>
+
+            
             <div className="cb-block-inicial-2 p-2 pb-3 mbp-10">
               <div className=" f-Ubuntu-L mbp-5 psp-20 fw-700 fsp-13 text-start">Este es el nombre de nuestra revista:</div>
               <div className="px-3">
@@ -40,6 +42,13 @@ function Page010(props) {
               </div>
             </div>
             <div className="pbp-90 psp-90 pep-90 position-relative">
+            <div className="position-absolute top-100 start-0 translate-middle visible-768 zindex-1 msp-160 mtp--30">
+                <img
+                  src="images/page_010/img_010.png"
+                  className="w-100"
+                  alt=""
+                />
+              </div>
               <div className="block-bottom mtp-30 f-pixilate-bold text-start">¿Cómo vamos?</div>
               <div className=" block-bottom p-2 pb-3 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4">
                 <div className="d-flex flex-wrap w-100 align-items-end titulo-linea position-relative mtp-10">
@@ -54,7 +63,7 @@ function Page010(props) {
                 </div>
 
                 <div className="d-flex flex-wrap w-100 align-items-end titulo-linea position-relative mtp-10">
-                  <img src="images/page_010/img_010.png" className="cb-tv" alt="" />
+                  
                   <img src="images/page_010/img_009.png" className="cb-personaje" alt="" />
                   <div className="d-flex">
                     <img src="images/page_010/arrow.svg" className="mep-5 cb-flecha" alt="" />

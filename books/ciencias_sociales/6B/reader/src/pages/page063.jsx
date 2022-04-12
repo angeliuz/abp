@@ -24,19 +24,19 @@ function Page063(props) {
               <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Finalizamos nuestra obra de arte</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
                 Mis objetivos en  esta sesión son:<br />
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
                 Finalizar la elaboración de la obra de arte.<br />
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global rotate-90" alt="" />
               </div>
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
                 Evaluar la obra y nuestro trabajo.
               </div>
 

@@ -29,25 +29,25 @@ function Page023(props) {
               <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">¿Qué es una sociedad justa?</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
                 Mis objetivos <br />en  esta sesión son:
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_023/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
               Analizar situaciones<br />de desigualdad.
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_023/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
               </div>
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
               Caracterizar una<br /> sociedad justa.
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_023/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
-              <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
+              <div className="p-3 align-self-center f-colby-compres-bold fsp-17 lh-sm text-center text-white">
               Comprometerme con el logro<br /> de una sociedad más justa.
               </div>
               {/* <div className="p-0 align-self-center">

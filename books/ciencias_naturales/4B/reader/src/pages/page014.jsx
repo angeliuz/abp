@@ -55,7 +55,7 @@ function Page014(props) {
                     <div className="d-flex">
                       <span className="fsp-16 text-start f-pixilate-regular">
                         <span className="fsp-16 f-IntroRustG-Base text-start">
-                          RECONOCER</span>  lo que necesito <br /> saber para abordar el desafío.
+                        DESCUBRIR</span>  lo que necesito <br /> saber para abordar el desafío.
                       </span>
                     </div>
                   </div>

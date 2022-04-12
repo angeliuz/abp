@@ -290,6 +290,9 @@
 .wp-360 {
   width: 360px;
 }
+.wp-550 {
+  width: 550px;
+}
 
 /* HEIGHT */
 .h-5 {
@@ -536,7 +539,24 @@
 .hp-200 {
   height: 200px;
 }
-
+.hp-210 {
+  height: 210px;
+}
+.hp-220 {
+  height: 220px;
+}
+.hp-230 {
+  height: 220px;
+}
+.hp-230 {
+  height: 230px;
+}
+.hp-240 {
+  height: 240px;
+}
+.hp-250 {
+  height: 250px;
+}
 /* MARGENES */
 .ms-5 {
   margin-left: 5%;

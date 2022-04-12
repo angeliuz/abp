@@ -6,7 +6,7 @@
 .flecha-23-2{
   margin-top:0;
 }
-.flecha-23-3{
+.flecha031-morada{
   margin-top:20px;
   left:0%;
   top: 50%;
@@ -48,7 +48,7 @@
   border-radius: 20px 10px 20px 10px;
 }
 
-@media all and (max-width: 768px) {
+/* @media all and (max-width: 768px) {
   .cajas-fluid-inverso {
     flex-wrap: wrap;
   }
@@ -74,4 +74,4 @@
     top: 100%;
   }
 
-}
+} */

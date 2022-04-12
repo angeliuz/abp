@@ -1,8 +1,8 @@
 import React from "react";
 import SubirImagen from '../components/SubirImagen';
-
-
 import "./page_001.css";
+
+
 
 
 function Page001() {
@@ -58,8 +58,9 @@ function Page001() {
                                 <div className="mbp-20 mtp-10 msp-20 mep-20">
                                     <div className="d-flex center-center p-2 rounded-p-20 border-style-solid border-2 border-color-android18 min-hp-800">
                                         <SubirImagen
-                                            id={"imagen_" + pagina + "_" + (indexInput += 1)}
-                                            idQR={"6810051"}
+                                            // id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                                            id={"imagen_051_4"}
+                                            idQR={"1296318930514"}
                                             className="w-100 bgc-white"
                                             colorUnidad={background}
                                             imagenPlaceHolder="images/generales/subir_imagen.svg"

@@ -23,7 +23,7 @@ function Page038(props) {
                 <div className="cabecera-v1 hp-80 bgc-pidgey"></div> 
                 {/* END CABECERA VERSIÓN 2 */}
 
-            <div className="ptp-30 container-titulo-global mbp-40">
+            <div className="ptp-30 container-titulo-global mbp-10">
               <div className={"f-Ubuntu-B fsp-20 psp-40 text-start lhp-20 "+color}>
               Valoramos la diversidad de nuestra comunidad
               </div>
@@ -42,7 +42,7 @@ function Page038(props) {
             </div>
 
 
-          <div className="d-flex mtp-40 msp-90 mep-60 position-relative">
+          <div className="d-flex mtp-0 msp-90 mep-60 position-relative">
             <div className="row w-100">
                               
                   <div className="cb-ep-paper-48 ">

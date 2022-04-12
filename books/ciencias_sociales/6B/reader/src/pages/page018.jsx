@@ -62,7 +62,7 @@ function Page018(props) {
                         </div>
                     </div>
 
-                    <div className="w-100 bgc-draco ptp-30 pbp-40 border-solo-top border-color-hardDark border-style-solid border-2 position-relative">
+                    <div className="w-100 bgc-draco ptp-30 pbp-40 border-top-style-solid border-color-dark border-2 position-relative">
                         <div className="d-flex flex-column global-margin mtp-0 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
                             <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-10">¿Cómo voy?</div>
                             <div className="d-flex flex-column bgc-white rounded-p-10 psp-10 pep-10 ptp-10 pbp-10 mtp-0 mbp-0">
@@ -73,7 +73,7 @@ function Page018(props) {
                                                 <div className="mtp-0 pep-5">
                                                     <img src={"images/generales/flecha_e" + etapa + ".svg"} className="wp-15" />
                                                 </div>
-                                                <div className="f-Ubuntu-L fsp-15 ptp-2 text-start">Las tres palabras más relevantes de esta etapa fueron</div>
+                                                <div className="f-Ubuntu-L fsp-14 ptp-2 text-start">Las tres palabras más relevantes de esta etapa fueron</div>
                                             </div>
                                             <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
                                                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-80" />
@@ -86,7 +86,7 @@ function Page018(props) {
                                                 <div className="mtp-0 pep-5">
                                                     <img src={"images/generales/flecha_e" + etapa + ".svg"} className="wp-15" />
                                                 </div>
-                                                <div className="f-Ubuntu-L fsp-15 ptp-2 text-start">¿Para qué me sirvió la sesión de hoy?</div>
+                                                <div className="f-Ubuntu-L fsp-14 ptp-2 text-start">¿Para qué me sirvió la sesión de hoy?</div>
                                             </div>
                                             <div className="d-flex w-100 psp-20 pep-10 ptp-0 pbp-0">
                                                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-80" />
@@ -103,7 +103,7 @@ function Page018(props) {
                                 <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-30">
                                     <div className="w-100 p-2 pb-3 bgc-white rounded-p-10">
                                         <table className="w-100">
-                                            <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src={"images/page_" + pagina + "/img_006.svg"} className="hp-17 mtp--2" alt="" /> el recuadro que mejor me represente.</span>
+                                            <span className="w-24 f-Ubuntu-L mtp-5 mbp-10 fsp-14 text-start">Marco con un <img src={"images/page_" + pagina + "/img_006.svg"} className="hp-17 mtp--2" alt="" /> el recuadro que mejor me represente.</span>
 
                                             <tbody>
                                                 <tr>
@@ -118,14 +118,14 @@ function Page018(props) {
                                                         Siempre</td>
                                                 </tr>
                                                 <tr>
-                                                    <td className={"" + bgc_cajas + " f-Ubuntu-L fsp-16 text-start psp-5 border-style-solid border-1 " + borderColor + ""}>El ambiente de trabajo en mi equipo es agradable.</td>
+                                                    <td className={"" + bgc_cajas + " f-Ubuntu-L fsp-14 text-start psp-5 border-style-solid border-1 " + borderColor + ""}>El ambiente de trabajo en mi equipo es agradable.</td>
                                                     <td className={"border-style-solid border-1 " + borderColor + ""}><Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
                                                     <td className={"border-style-solid border-1 " + borderColor + ""}><Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
                                                     <td className={"border-style-solid border-1 " + borderColor + ""}><Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
                                                     <td className={"border-style-solid border-1 " + borderColor + ""}><Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
                                                 </tr>
                                                 <tr>
-                                                    <td className={"" + bgc_cajas + " f-Ubuntu-L fsp-16 text-start psp-5 border-style-solid border-1 " + borderColor + ""}>Estoy muy contento de trabajar en este proyecto.</td>
+                                                    <td className={"" + bgc_cajas + " f-Ubuntu-L fsp-14 text-start psp-5 border-style-solid border-1 " + borderColor + ""}>Estoy muy contento de trabajar en este proyecto.</td>
                                                     <td className={"border-style-solid border-1 " + borderColor + ""}><Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
                                                     <td className={"border-style-solid border-1 " + borderColor + ""}><Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
                                                     <td className={"border-style-solid border-1 " + borderColor + ""}><Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>

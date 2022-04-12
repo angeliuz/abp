@@ -114,19 +114,19 @@ function Page008(props) {
           </div>
 
           {/* SECCION COMO VOY */}
-          <div className={"d-flex w-100 mtp-50 psp-60 pep-60 ptp-20 mbp-0 border-top-style-solid " + borderColor + " border-2 pbp-80 " + bgc_cajas}>
+          <div className={"d-flex w-100 mtp-50 psp-60 pep-60 ptp-20 mbp-0 border-top-style-solid  border-2 pbp-80 " + bgc_cajas}>
             <div className="row w-100 p-0 m-0">
               <div className="col-12 position-relative">
                 <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp--60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-120" alt="" /></div>
                 <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
                 <div className="d-flex flex-column mbp-20 mtp-10 w-100">
                   <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">
-                    <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
+                    <div className="f-Ubuntu-L fsp-14 msp-0 mep-10 text-start">
                       <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 wp-15" alt="" />
                       <span>¿Qué aspectos del desafío no entendí del todo?</span>
                     </div>
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
-                    <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 mtp-20 text-start">
+                    <div className="f-Ubuntu-L fsp-14 msp-0 mep-10 mtp-20 text-start">
                       <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 wp-15" alt="" />
                       <span>¿Qué debería preguntar para entenderlo mejor?</span>
                     </div>
