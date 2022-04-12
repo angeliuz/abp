@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import SubirImagen from '../components/SubirImagen';
 import "./page_019.css";
 
 function Page019(props) {
@@ -26,15 +27,21 @@ function Page019(props) {
               </div>
               <div className="d-flex position-relative">
                 <div className={"bgc-white rounded-p-10 border-style-solid border-1 " + borderColor + " w-100 py-1 psp-50 pep-20"}>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 w-60 lhp-35 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 w-60 lhp-35 min-hp-35" />
                 </div>
               </div>
             </div>
 
             <div className="position-absolute top-0 start-100 hoja-p39 zindex-2">
-              <div className="position-relative bgc-white border-style-solid border-1 border-dark wp-250 hp-200 d-flex flex-column p-2 giro--4deg sombra-1">
+              <div className="position-relative bgc-white border-style-solid border-1 border-dark wp-250 min-hp-200 d-flex flex-column p-2 giro--4deg sombra-1">
                 <div className=" mxwp-160 centrar-hor f-pixilate-regular fsp-21">Dibuja aquí la insignia de tu equipo</div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-35" />
+                <SubirImagen
+                    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                    className="w-100 bgc-white"
+                    colorUnidad={background}
+                    imagenPlaceHolder="images/generales/subir_imagen.svg"
+                    titulo="Subir imagen"
+                  />
               </div>
             </div>
             <div className="position-absolute top-0 start-0 translate-middle msp-90 mtp-70 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-50" alt="" /></div>
@@ -132,8 +139,8 @@ function Page019(props) {
                     <div className="">Fecha: </div>
                     <div className="w-100"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-35" /></div>
                   </div>
-                  <div className="">Objetivo:</div>                
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-45" />                
+                  <div className="">Objetivo:</div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-45" />
                 </div>
                 <div className="position-absolute top-50 start-100 translate-middle msp-1 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_011.svg"} className="wp-25" alt="" /></div>
               </div>

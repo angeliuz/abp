@@ -52,12 +52,12 @@ function Page007(props) {
               />
             </div>
           </div>
-          <div className="d-flex msp-60 mep-60 mtp-20 mbp-10">
+          <div className="d-flex msp-60 mep-60 mtp-10 mbp-0">
             <div className="row p-0 m-0">
               <div className="col-sm-12 col-md-3 position-relative"></div>
-              <div class="cb-paper position-relative">
+              <div className="cb-paper position-relative">
                 <div className="position-absolute top-100 start-100 translate-middle msp--70 mtp-0 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-80" alt="" /></div>
-                <div class="cb-paper-content f-Ubuntu-L fsp-13 text-start">
+                <div className="cb-paper-content f-Ubuntu-L fsp-13 text-start">
                   <p>Querido cuarto básico:</p>
                   <p>En una escuela nos reunimos muchas personas: estudiantes, profesores, auxiliares,
                     apoderados... Por lo mismo, ¡qué importante es cuidar la convivencia entre todos! Para trabajar
@@ -81,7 +81,7 @@ function Page007(props) {
 
             </div>
           </div>
-          <div className="container-titulo-global mtp-20 mbp-0">
+          <div className="container-titulo-global mtp--20 mbp-0">
             <div className="d-flex psp-20">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src={"images/page_"+pagina+"/img_.svg"} alt=""  /> */}
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>
