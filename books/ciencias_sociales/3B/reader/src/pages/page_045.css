@@ -15,6 +15,9 @@
   z-index: 2;
 }
 
+.visible-p45 {
+  visibility: visible;
+}
 
 .sombra-contenedor-45{
   -webkit-box-shadow: 11px 10px 0px 5px #E3E1F0; 
@@ -55,6 +58,11 @@
 
  
  
+@media (max-width: 991px) {
+  .visible-p45 {
+    visibility: hidden;
+  }
+}
 @media (max-width: 990px) {
  
  .caja-debajo-45{
@@ -66,7 +74,9 @@
   
 
  }
-
+.visible-p45 {
+  visibility: hidden;
+}
  /* .img-monito-45{
   position: absolute;
   z-index: 4 !important;

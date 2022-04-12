@@ -40,7 +40,7 @@ function Page039(props) {
                         <div className="col-md-12 col-lg-12 position-relative">
                            <div className="position-absolute top-0 start-100 msp--60 mtp-0"><img src="images/page_039/pincho.svg" className="wp-35 " alt="" /></div>
                            <div className="position-absolute top-0 start-0 msp-10 mtp-0"><img src="images/page_039/pincho.svg" className="wp-35 " alt="" /></div>
-                           <div className="position-absolute top-50 start-0 msp-0 mtp-80 visible-768"><img src="images/page_039/lapiz.png" className="wp-50 " alt="" /></div> 
+                           <div className="position-absolute top-50 start-0 msp--20 mtp-80 visible-768"><img src="images/page_039/lapiz.png" className="wp-50 " alt="" /></div> 
 
                             <div className="d-flex flex-column mbp-20 mtp-10 p-2 w-100 border-style-solid border-1 border-color-dark bgc-jaga">
                             <div className="col-md-12 col-lg-12 position-relative text-center f-Ubuntu-R fsp-15">En esta etapa aprendimos que en nuestra escuela…</div>
