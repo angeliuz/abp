@@ -49,7 +49,7 @@ function Page017(props) {
                 <div className="mxwp-300  border-style-solid border-2 rounded-p-5 bgc-itto psp-20 pep-20 pbp-20">
                   <div className="f-colby-bold color-soldados py-3">Coordinación</div>
                   <div className="f-Ubuntu-L pbp-10">Organiza el trabajo del equipo. Da el turno de palabra y procura que todos participen.</div>
-                  <div className="bgc-white p-1 rounded-p-5"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" /></div>
+                  <div className="bgc-white p-1 rounded-p-5"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-35 overflow-scroll" /></div>
                 </div>
               </div>
 
@@ -57,7 +57,7 @@ function Page017(props) {
                 <div className="mxwp-300  border-style-solid border-2 rounded-p-5 bgc-draco psp-20 pep-20 pbp-20">
                   <div className="f-colby-bold color-bulma py-3">Supervisión</div>
                   <div className="f-Ubuntu-L pbp-10">Se asegura de que el equipo siga las instrucciones y respete el tiempo asignado.</div>
-                  <div className="bgc-white  p-1 rounded-p-5"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" /></div>
+                  <div className="bgc-white  p-1 rounded-p-5"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-35 overflow-scroll" /></div>
                 </div>
               </div>
               <div className="visible-p17 mtp-20 mbp-30">
@@ -68,7 +68,7 @@ function Page017(props) {
                 <div className="mxwp-300  border-style-solid border-2 rounded-p-5 bgc-chitara psp-20 pep-20 pbp-20">
                   <div className="f-colby-bold color-android18 py-3">Relaciones públicas</div>
                   <div className="f-Ubuntu-L pbp-10">Se comunica con el profesor o con otros equipos para pedir ayuda.</div>
-                  <div className="bgc-white p-1 rounded-p-5"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" /></div>
+                  <div className="bgc-white p-1 rounded-p-5"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-35 overflow-scroll" /></div>
                 </div>
               </div>
 
@@ -76,7 +76,7 @@ function Page017(props) {
                 <div className="mxwp-300  border-style-solid border-2 rounded-p-5 bgc-pantro psp-20 pep-20 pbp-20">
                   <div className="f-colby-bold color-pidgey py-3">Intendencia</div>
                   <div className="f-Ubuntu-L pbp-10">Se asegura de que el equipo consiga los materiales necesarios y mantenga su espacio limpio y ordenado.</div>
-                  <div className="bgc-white p-1 rounded-p-5"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" /></div>
+                  <div className="bgc-white p-1 rounded-p-5"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-35 overflow-scroll" /></div>
                 </div>
               </div>
 

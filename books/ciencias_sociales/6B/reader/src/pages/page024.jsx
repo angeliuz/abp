@@ -64,7 +64,7 @@ function Page024(props) {
 
                             <div className="col-sm-12 col-md-6 position-relative ptp-50">
                                 <div className="position-absolute top-100 start-100 translate-middle mtp--100 msp-10"><img src="images/page_024/img_004.png" className="" alt="" /></div>
-                                <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 visible-768"><img src="images/page_024/espiral.svg" className="wp-50 " alt="" /></div>
+                                {/* <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 visible-768"><img src="images/page_024/espiral.svg" className="wp-50 " alt="" /></div> */}
                                 <div className="">
                                     <div className="f-Ubuntu-B alinea rounded-set-20 bgc-haydn w-100 p-1 text-center color-white">Las características acordadas
                                         por el grupo:</div>
