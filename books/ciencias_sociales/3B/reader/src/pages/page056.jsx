@@ -31,7 +31,7 @@ function Page056(props) {
                     <div className="wp-30 hp-30 bgc-white rounded-1">
                       <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                     </div>
-                    <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12"> Tenemos nuestro  stand cultural con:</div>
+                    <div className="msp-10 text-start justify-content-center align-items-center d-flex f-Ubuntu-R fsp-12"><span> Tenemos nuestro  <i>stand</i>  cultural con:</span></div>
                   </div>
                   <div className="cb-interior-lista d-flex justify-content-between">
                     <div className="cb-opcion-a">

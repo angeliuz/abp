@@ -43,13 +43,13 @@ function Page046(props) {
                         <div className="position-absolute top-50 start-50 translate-middle zindex-1 mtp-70">
                             <div className="f-Ubuntu-B fsp-13">Obra:</div>
                             <div className="d-flex flex-column wp-130">
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-110 overflow-scroll" />
                             </div>
                         </div>
 
                         <div className="position-absolute top-50 start-50 translate-middle msp--150 mtp--90 zindex-1 ">
                             <div className="d-flex flex-column wp-250 psp-20 pep-10 ptp-0 pbp-0 rotate--40">
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-70 overflow-scroll" />
                             </div>
                         </div>
 

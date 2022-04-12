@@ -29,7 +29,7 @@ function Page050(props) {
 
 
           <div className="ptp-10 psp-60 mbp-0 contenedor-pagina">
-            <div className="f-Ubuntu-B fsp-20 color-saitama text-start lhp-20">Imaginamos nuestro stand cultural</div>
+            <div className="f-Ubuntu-B fsp-20 color-saitama text-start lhp-20">Imaginamos nuestro <i>stand</i> cultural</div>
             <div className="d-flex">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_033/g_i.svg" alt="" /> */}
               <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">4</div>

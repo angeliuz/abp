@@ -66,7 +66,7 @@ function Page047(props) {
                 <div className="d-flex ">
                   {/* <img className="hp-15 align-center mt-3 me-2 mb-2" src="images/page_014/img_001.svg" alt="" /> */}
                   <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">2</div>
-                  <div className="f-Ubuntu-R fsp-16 text-start ptp-18 psp-10">El texto narrativo que presentaré en nuestra fiesta de la diversidad será:…</div>
+                  <div className="f-Ubuntu-R fsp-16 text-start ptp-18 psp-10">El texto narrativo que presentaré en nuestra fiesta de la diversidad será:</div>
                   {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_045/img_001.svg" clasesImagen="hp-40 text-center msp-30 mtp-10 " className="p-0 px-0" /> */}
                 </div>
               </div>

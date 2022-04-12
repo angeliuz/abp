@@ -284,17 +284,17 @@ const SubirImagen = (props) => {
                             <div className="col-12 mbp-30 position-relative d-flex center-center">
                                 <div className="d-flex align-items-center w-100  mtp-20 msp-10 mep-10 rounded-p-15 position-relative pep-5 psp-5 fsp-15 f-Ubuntu-M bgc-jaga">
                                 <div className="row ">
-                                <div className="col-lg-6 col-xs-12 d-flex">
+                                <div className="col-lg-6 col-xs-12 d-flex align-items-center">
                                     <div className="p-2 flex-fill">
                                         <img src="images/generales/celular.png" alt="icono celular" />
                                     </div>
                                     
                                    
                                     <div className="p-2 flex-fill text-start">
-                                    Ingresa el siguiente código en <strong>https://abp.smconecta.cl</strong>  y sube tu fotografía de la actividad.
+                                    Puedes subir directamente la imagen de la actividad desde tu computador. También puedes tomar una fotografía con tu celular y cargarla en <strong>https://abp.smconecta.cl</strong>  ingresando el siguiente código.
                                     </div>
                                     </div>
-                                    <div className="col-lg-6 col-xs-12 text-center ptp-20 pbp-5">
+                                    <div className="col-lg-6 col-xs-12 text-center ptp-20 pbp-5 d-flex align-items-center">
                                     <div className="bgc-white flex-fill psp-20 pep-20 ptp-10 pbp-10 rounded-p-20 border-style-solid border-color-dark border-2 fsp-25">
                                         {idQR}
                                     </div>
