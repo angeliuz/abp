@@ -38,7 +38,7 @@ function Page076(props) {
 
                 <div className="d-flex flex-column center-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-white caja-outline-piccolo p-2">
                   <span className="f-Ubuntu-R fsp-15 px-2 ptp-10 text-start">¿A quiénes nos gustaría invitar a la publicación de la revista?</span>
-                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex">
+                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
                   </div>
                 </div>
@@ -49,13 +49,13 @@ function Page076(props) {
 
                 <div className="d-flex flex-column justify-content-start align-items-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-white caja-outline-piccolo p-2">
                   <span className="f-Ubuntu-R fsp-15 px-2 ptp-10 text-start">¿Qué necesitamos para elaborar copias materiales de la revista?</span>
-                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex">
+                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                   </div>
                 </div>
                 <div className="d-flex flex-column justify-content-center align-items-start mbp-5 mtp-10 w-100 rounded-p-10 bgc-white caja-outline-piccolo p-2">
                   <span className="f-Ubuntu-R fsp-15 px-2 ptp-10 text-start">¿Cuántas copias podremos elaborar?</span>
-                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex">
+                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                   </div>
                 </div>
@@ -63,27 +63,28 @@ function Page076(props) {
               <div className="col-sm-6 position-relative">
                 <div className="position-absolute top-100 start-0 translate-middle msp-3 mtp-0 zindex-1"><img src="images/page_076/img_003.png" className="wp-60 " alt="" /></div>
 
-                <div className="d-flex flex-column justify-content-start align-items-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-white caja-outline-piccolo p-2">
+                <div className="d-flex flex-column justify-content-start mbp-5 mtp-10 w-100 rounded-p-10 bgc-white caja-outline-piccolo p-2">
                   <span className="f-Ubuntu-R fsp-15 px-2 ptp-10 text-start">¿En qué plataforma web nos gustaría publicar la revista en formato digital?</span>
-                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex">
+                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 ">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                    </div>
+                    <span className="f-Ubuntu-R fsp-15 px-2 ptp-10 text-start">¿Qué necesitamos para hacerlo?</span>
+                    
+                    <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 ">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                   </div>
                 </div>
-                <div className="d-flex flex-column justify-content-center align-items-start mbp-5 mtp-10 w-100 rounded-p-10 bgc-white caja-outline-piccolo p-2">
-                  <span className="f-Ubuntu-R fsp-15 px-2 ptp-10 text-start">¿Qué necesitamos para hacerlo?</span>
-                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-                  </div>
-                </div>
+                
               </div>
 
               <div className="col-sm-6 position-relative">
 
                 <div className="d-flex flex-column center-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-white caja-outline-piccolo p-2">
                   <span className="f-Ubuntu-R fsp-15 px-2 ptp-10 text-start">¿Qué mensaje queremos transmitir al publicar la revista?</span>
-                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex">
+                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 ">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
                   </div>
+                  
                 </div>
 
               </div>
@@ -132,12 +133,12 @@ function Page076(props) {
               <div className="w-100 hp-25 bgc-pidgey"></div>
             </div>
             <div className="col-1 col-sm-2 p-0 m-0 position-relative">
-              <img src="images/rotulo_creacion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
+              <img src="images/rotulo_creacion.svg" className="oculto" alt="" />
               <div className="w-100 hp-15 bgc-ash rounded-caja"></div>
               <div className="w-100 hp-25 bgc-saitama"></div>
             </div>
             <div className="col-7 col-sm-2 p-0 m-0 position-relative">
-              <img src="images/rotulo_difusion.svg" className="oculto" alt="" />
+              <img src="images/rotulo_difusion.svg" className="visible rotulo-etapa position-absolute top-0 start-0" alt="" />
               <div className="w-100 hp-15 bgc-leono rounded-caja-end"></div>
               <div className="w-100 hp-25 bgc-pikachu"></div>
             </div>
