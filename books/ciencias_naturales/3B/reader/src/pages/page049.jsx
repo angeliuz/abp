@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import SubirImagen from '../components/SubirImagen';
 
 import "./page_049.css";
 
@@ -120,9 +121,16 @@ function Page049(props) {
 
               <div className="col-sm-4 col-md-4 p-0 m-0 position-relative ">
                 <div className="d-flex mtp-20 psp-20 pep-20 ptp-0 pbp-10 position-relative">
-                  <div className="d-flex w-100 psp-10 pep-10 ptp-30 pbp-0 bgc-white rounded-p-10 ">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" max-wp-170 w-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                  </div>
+                <div className="d-flex center-center p-2 rounded-p-20 min-hp-160 bgc-white">
+                <SubirImagen
+                    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                    className="w-100 bgc-white"
+                    colorUnidad={background}
+                    imagenPlaceHolder1="images/generales/subir_imagen1.svg"
+                    imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                    titulo="Subir imagen"
+                />
+            </div>
                 </div>
                 <div className="d-flex mtp-5 psp-20 pep-20 ptp-0 pbp-10 w-100">
 
@@ -140,9 +148,16 @@ function Page049(props) {
               </div>
               <div className="col-sm-4 col-md-4 p-0 m-0 position-relative">
                 <div className="d-flex mtp-20 psp-20 pep-20 ptp-0 pbp-10 position-relative">
-                  <div className="d-flex w-100 psp-10 pep-10 ptp-30 pbp-0 bgc-white rounded-p-10">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-170 w-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                  </div>
+                <div className="d-flex center-center p-2 rounded-p-20  min-hp-160 bgc-white">
+                <SubirImagen
+                    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                    className="w-100 bgc-white"
+                    colorUnidad={background}
+                    imagenPlaceHolder1="images/generales/subir_imagen1.svg"
+                    imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                    titulo="Subir imagen"
+                />
+            </div>
                 </div>
                 <div className="d-flex mtp-5 psp-20 pep-20 ptp-0 pbp-10 w-100">
 
@@ -160,9 +175,16 @@ function Page049(props) {
               </div>
               <div className="col-sm-4 col-md-4 p-0 m-0 position-relative">
                 <div className="d-flex mtp-20 psp-20 pep-20 ptp-0 pbp-10 position-relative">
-                  <div className="d-flex w-100 psp-10 pep-10 ptp-30 pbp-0 bgc-white rounded-p-10">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-170 w-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                  </div>
+                <div className="d-flex center-center p-2 rounded-p-20  min-hp-160 bgc-white">
+                <SubirImagen
+                    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                    className="w-100 bgc-white"
+                    colorUnidad={background}
+                    imagenPlaceHolder1="images/generales/subir_imagen1.svg"
+                    imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                    titulo="Subir imagen"
+                />
+            </div>
                 </div>
                 <div className="d-flex mtp-5 psp-20 pep-20 ptp-0 pbp-10 w-100">
 
