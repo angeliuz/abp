@@ -64,7 +64,7 @@ function Page047(props) {
                   <div className="position-absolute mtp-30 msp-10 bgc-pidgey wp-25 hp-25 text-white text-center rounded-1 f-Ubuntu-R fsp-16 zindex-1">1</div>
                   <div className="f-Ubuntu-M fsp-15 text-center color-white">Sugiero entrevistar a...</div>
                   <div className="position-relative rounded-p-5 bgc-hermione mtp-5 msp-20 mep-10 psp-20 pep-10 pbp-10 w-100" >
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-100 overflow-scroll" />
                   </div>
                 </div>
               </div>
@@ -73,7 +73,7 @@ function Page047(props) {
                 <div className="position-relative bgc-harry rounded-p-10 w-90 ptp-5 pbp-10">
                   <div className="f-Ubuntu-M fsp-15 text-center color-white">¿Por qué?</div>
                   <div className="position-relative rounded-p-5 bgc-white mtp-5 msp--15 mep-200  psp-20 pep-10 pbp-10 w-100 border-style-solid border-2 border-color-pidgey" >
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-100 overflow-scroll" />
                   </div>
                 </div>
               </div>
@@ -99,9 +99,9 @@ function Page047(props) {
                 <img src="images/page_047/flechas_naranja.svg" className="wp-25 rotar-flecha position-absolute zindex-1 posicion-flecha" alt="" />
                 <div className="position-relative bgc-voldemort rounded-p-10 w-90 ptp-5 pbp-10">
                   <div className="position-absolute mtp-30 msp-10 bgc-bulma wp-25 hp-25 text-white text-center rounded-1 f-Ubuntu-R fsp-16 zindex-1">1</div>
-                  <div className="f-Ubuntu-M fsp-15 text-center color-white">Sugiero entrevistar a...</div>
+                  <div className="f-Ubuntu-M fsp-15 text-center color-white">Entrevistaremos a...</div>
                   <div className="position-relative rounded-p-5 bgc-draco mtp-5 msp-20 mep-10 psp-20 pep-10 pbp-10 w-100" >
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-100 overflow-scroll" />
                   </div>
                 </div>
               </div>
@@ -110,7 +110,7 @@ function Page047(props) {
                 <div className="position-relative bgc-voldemort rounded-p-10 w-90 ptp-5 pbp-10">
                   <div className="f-Ubuntu-M fsp-15 text-center color-white">¿Por qué?</div>
                   <div className="position-relative rounded-p-5 bgc-white mtp-5 msp--15 mep-200  psp-20 pep-10 pbp-10 w-100 border-style-solid border-2 border-color-bulma" >
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-100 overflow-scroll" />
                   </div>
                 </div>
               </div>
@@ -119,9 +119,9 @@ function Page047(props) {
                 <img src="images/page_047/flechas_naranja.svg" className="wp-25 rotar-flecha position-absolute zindex-1 posicion-flecha2" alt="" />
                 <div className="position-relative bgc-voldemort rounded-p-10 w-90 ptp-5 pbp-10">
                   <div className="position-absolute mtp-30 msp-10 bgc-bulma wp-25 hp-25 text-white text-center rounded-1 f-Ubuntu-R fsp-16 zindex-1">2</div>
-                  <div className="f-Ubuntu-M fsp-15 text-center color-white">Sugiero entrevistar a...</div>
+                  <div className="f-Ubuntu-M fsp-15 text-center color-white">Entrevistaremos a...</div>
                   <div className="position-relative rounded-p-5 bgc-draco mtp-5 msp-20 mep-10 psp-20 pep-10 pbp-10 w-100" >
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-100 overflow-scroll" />
                   </div>
                 </div>
               </div>
@@ -130,7 +130,7 @@ function Page047(props) {
                 <div className="position-relative bgc-voldemort rounded-p-10 w-90 ptp-5 pbp-10">
                   <div className="f-Ubuntu-M fsp-15 text-center color-white">¿Por qué?</div>
                   <div className="position-relative rounded-p-5 bgc-white mtp-5 msp--15 mep-200  psp-20 pep-10 pbp-10 w-100 border-style-solid border-2 border-color-bulma" >
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-100 overflow-scroll" />
                   </div>
                 </div>
               </div>

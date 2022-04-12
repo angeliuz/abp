@@ -110,7 +110,7 @@ function Page048(props) {
                 <div className="position-absolute top-0 start-50 translate-middle mtp-15 msp-0 w-100  f-Ubuntu-R text-start">Entrevistaremos a...</div>
                 <div className="position-absolute top-50 start-0 translate-middle mtp-0 msp-15 rounded-end bgc-hermione border-style-solid border-start-0 border-2 border-color-freezer p-1 text-center color-pidgey wp-25 f-Ubuntu-B fsp-14 zindex-1">1</div>
                 <div className="border-style-solid border-color-freezer rounded-p-5 bgc-white mtp-30 caja-contenedora-respuesta" >
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-100 overflow-scroll" />
                 </div>
 
               </div>
@@ -120,11 +120,11 @@ function Page048(props) {
                 <div className="d-flex flex-column mbp-20 mtp-30 p-2 w-100 rounded-p-10 bgc-white">
                   <div className="p-2 w-100 d-flex flex-column">
                     <div className="f-Ubuntu-L fsp-14 text-start w-100">¿Quién guiará la entrevista?</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35  hp-35 overflow-scroll" />
                   </div>
                   <div className="p-2 w-100 d-flex flex-column">
                     <div className="f-Ubuntu-L fsp-14 text-start w-100">¿Quién registrará la entrevista.</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35  hp-35 overflow-scroll" />
                   </div>
                 </div>
 
@@ -135,7 +135,7 @@ function Page048(props) {
                 <div className="position-absolute top-0 start-50 translate-middle mtp-15 msp-0 w-100  f-Ubuntu-R text-start invisible-768">Entrevistaremos a...</div>
                 <div className="position-absolute top-50 start-0 translate-middle mtp-0 msp-15 rounded-end bgc-hermione border-style-solid border-start-0 border-2 border-color-freezer p-1 text-center color-pidgey wp-25 f-Ubuntu-B fsp-14 zindex-1">2</div>
                 <div className="border-style-solid border-color-freezer rounded-p-5 bgc-white mtp-30 caja-contenedora-respuesta" >
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  hp-100 overflow-scroll" />
                 </div>
 
               </div>
@@ -145,11 +145,11 @@ function Page048(props) {
                 <div className="d-flex flex-column mbp-20 mtp-30 p-2 w-100 rounded-p-10 bgc-white">
                   <div className="p-2 w-100 d-flex flex-column">
                     <div className="f-Ubuntu-L fsp-14 text-start w-100">¿Quién guiará la entrevista?</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  hp-35 overflow-scroll" />
                   </div>
                   <div className="p-2 w-100 d-flex flex-column">
                     <div className="f-Ubuntu-L fsp-14 text-start w-100">¿Quién registrará la entrevista.</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  hp-35 overflow-scroll" />
                   </div>
                 </div>
 

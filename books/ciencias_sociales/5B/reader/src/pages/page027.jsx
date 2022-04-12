@@ -20,25 +20,25 @@ function Page027(props) {
               <div className="d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Las actitudes y los derechos</div>
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
                 Mis objetivos en <br /> esta sesión son:
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_023/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
                 Identificar diferentes<br /> puntos de vista en<br /> situaciones de conflicto.
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_023/flecha1.svg" className="wp-40 arrow-global" alt="" />
               </div>
-              <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
+              <div className="p-2 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
                 Identificar actitudes y<br /> deberes que aportan al<br /> respeto de los derechos.
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_023/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
-              <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
+              <div className="p-3 align-self-center f-colby-compres-bold fsp-17 lh-sm text-center text-white">
                 Comprometerse con que nuestro<br /> trabajo en la revista sea<br /> respetuoso de los derechos.
               </div>
             </div>

@@ -62,28 +62,28 @@ function Page041(props) {
                 <div className="position-absolute top-50 start-50 translate-middle mtp--350 msp--120 conceptos1">
                   <div className="text-center f-colby-condensed-medium fsp-16 color-bulma">Conceptos clave</div>
                   <div className="position-relative bgc-white p-1 rounded-p-5 border-style-solid border-color-bulma border-1 wp-230">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-90" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-90 overflow-scroll" />
                   </div>
                 </div>
 
                 <div className="position-absolute top-50 start-50 translate-middle mtp--350 msp-120 conceptos2">
                   <div className="text-center f-colby-condensed-medium fsp-16 color-blaze">Conceptos clave</div>
                   <div className="position-relative bgc-white p-1 rounded-p-5 border-style-solid border-color-blaze border-1 wp-230">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-90" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-90 overflow-scroll" />
                   </div>
                 </div>
 
                 <div className="position-absolute top-50 start-50 translate-middle mtp-350 msp--120 conceptos3">
                   <div className="text-center f-colby-condensed-medium fsp-16 color-pidgey">Conceptos clave</div>
                   <div className="position-relative bgc-white p-1 rounded-p-5 border-style-solid border-color-pidgey border-1 wp-230">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-90" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-90 overflow-scroll" />
                   </div>
                 </div>
 
                 <div className="position-absolute top-50 start-50 translate-middle mtp-350 msp-120 conceptos4">
                   <div className="text-center f-colby-condensed-medium fsp-16 color-pikachu">Conceptos clave</div>
                   <div className="position-relative bgc-white p-1 rounded-p-5 border-style-solid border-color-pikachu border-1 wp-230">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-90" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-90 overflow-scroll" />
                   </div>
                 </div>
 

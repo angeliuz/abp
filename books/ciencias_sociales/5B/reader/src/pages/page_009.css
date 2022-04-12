@@ -1,7 +1,12 @@
 .cb-page9 {
-    background: url(images/page_009/fondo_003.svg) top left/ cover no-repeat !important;
+    /* background: url(images/page_009/fondo_003.svg) top left/ cover no-repeat !important;
+     -webkit-print-color-adjust: exact !important; */
+     background: url(images/generales/fondo_dosier_e1.svg) top center/cover no-repeat;
+     width: 100% !important;
+     height: 100% !important;
      -webkit-print-color-adjust: exact !important;
- 
+
+
  }
 .cb-block-superior {
     background-color: white;
@@ -100,6 +105,7 @@
 }
 .cb-dosier {
     width: 50%;
+    visibility: hidden;
 }
 .cb-column-line {
     max-width: 200px;
@@ -114,6 +120,10 @@
     .cb-page9 {
         background: url(images/page_009/fondo_004.svg) top left/ cover no-repeat !important;
      }
+     .cb-dosier {
+        width: 50%;
+        visibility: visible;
+    }
 
 }
 
@@ -161,5 +171,12 @@
         margin: auto;
         max-width: 470px;
         margin-top: 30px;
+    }
+}
+@media all and (max-width: 580px){
+
+    .cb-dosier {
+        width: 50%;
+        visibility: visible;
     }
 }

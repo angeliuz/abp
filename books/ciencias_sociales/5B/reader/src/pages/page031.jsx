@@ -58,61 +58,75 @@ function Page031(props) {
             </div>
           </div>
 
-          <div className="cajaEstado  justify-content-center f-colby-compres-medium fsp-30">
+          {/* <div className="cajaEstado  justify-content-center f-colby-compres-medium fsp-30">
             <div className="border border-3 rounded-p-10 w-100 mx-4 p-1">
               El Estado
             </div>
-          </div>
-          <div className="circuloEstado position-absolute top-50 start-50 translate-middle fsp-16 f-Ubuntu-R mtp--50 zindex-1 "><div className="f-colby-compres-medium fsp-30">El Estado</div></div>
+          </div> */}
+          
 
-          <div className="row mx-4 position-relative">
 
-            <div className="col-sm-12 col-md-6 position-relative">
+
+
+
+
+
+
+
+
+
+
+          <div className="d-flex w-100  center-center">
+
+          <div className="wp-550 row mx-4 position-relative">
+
+            <div className=" col-6 position-relative">
+            <div className="circuloEstado position-absolute top-100 start-100 translate-middle fsp-16 f-Ubuntu-R mtp-0 zindex-1 "><div className="f-colby-compres-medium fsp-30">El Estado</div></div>
               {/* <div className="flecha position-absolute"><img src="images/page_031/img_003.svg" className="w-45 " alt=""/></div> */}
-              <div className="position-absolute translate-middle flecha-23-1 zindex-1"><img src="images/page_031/img_003.svg" className="wp-45 rotacion-768-90" alt="" /></div>
+              <div className="position-absolute translate-middle flecha-23-1 zindex-1"><img src="images/page_031/img_003.svg" className="wp-45 " alt="" /></div>
               <div className="mbp-20 mtp-10 ">
                 <div className=" position-relative bgc-genos min-hp-200 p-2 rounded-p-10 ">
-                  <div className="text-center">¿Para qué sirve?</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
+                  <div className="text-center f-Ubuntu-L fsp-16">¿Para qué sirve?</div>
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 mbp-25 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-175 overflow-scroll" />
                 </div>
               </div>
             </div>
 
-            <div className="col-sm-12 col-md-6 position-relative">
+            <div className="col-6 position-relative">
               {/* <div className="flecha1 position-absolute"><img src="images/page_031/img_004.svg" className="w-45 " alt=""/></div> */}
               <div className="position-absolute top-100 start-50 translate-middle flecha-23-2 zindex-1"><img src="images/page_031/img_004.svg" className="wp-45 " alt="" /></div>
               <div className="mbp-20 mtp-10">
                 <div className="bgc-piccolo  min-hp-200 p-2  rounded-p-10 ">
-                  <div className="text-center">
+                  <div className="text-center f-Ubuntu-L fsp-16">
                     ¿Qué elementos tiene y para qué?
                   </div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mbp-25 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-175 overflow-scroll" />
                 </div>
               </div>
             </div>
 
             <div className="row p-0 m-0">
 
-              <div className="col-sm-12 col-md-6 order-md-first order-sm-last">
+              <div className="col-6 ">
                 {/* <div className="flecha2 position-absolute"><img src="images/page_031/img_005.svg" className="w-45 " alt=""/></div> */}
                 <div className="mbp-20 mtp-10 ">
                   <div className="position-relative bgc-trunks  min-hp-200 p-2 rounded-p-10 ">
-                    <div className="msp-10 text-center">
-                      ¿Qué característica es más<br /> creativa y por qué?
+                    <div className="msp-10 text-center f-Ubuntu-L fsp-16">
+                      ¿Qué característica es<br /> más creativa y por qué?
                     </div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mbp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-175 overflow-scroll" />
                   </div>
                 </div>
               </div>
 
-              <div className="col-sm-12 col-md-6 position-relative">
-                <div className="position-absolute translate-middle flecha-23-3 zindex-1"><img src="images/page_031/img_005.svg" className="wp-45 rotacion-768--90" alt="" /></div>
+              <div className=" col-6 position-relative">
+                <div className="position-absolute translate-middle flecha031-morada zindex-1"><img src="images/page_031/img_005.svg" className="wp-45 " alt="" /></div>
                 <div className="mbp-20 mtp-10 ">
                   <div className="position-relative bgc-windu min-hp-200 p-2 border rounded-p-10">
-                    <div className="text-center">
+                    <div className="text-center f-Ubuntu-L fsp-1">
                       ¿Quién o quiénes<br /> pueden utilizarlo?
                     </div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-175 overflow-scroll mbp-20" />
                   </div>
                 </div>
               </div>
@@ -120,6 +134,11 @@ function Page031(props) {
             </div>
 
           </div>
+
+
+          </div>
+
+
 
           <div className="ptp-10 container-titulo-global mbp-20">
             <div className="d-flex">
