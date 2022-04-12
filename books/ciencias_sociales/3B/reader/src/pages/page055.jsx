@@ -80,7 +80,7 @@ function Page055(props) {
                                     superar obstáculos y organizar una maravillosa Fiesta de la Diversidad.
                                     Los invito a disfrutar de ella. ¡No olviden enviarme fotografías!</p>
     
-                                <p>Saludos afectuosos</p>
+                                <p>Saludos afectuosos,</p>
                                 <p>Alejandra </p>                              
                             </div>
                         </div>
