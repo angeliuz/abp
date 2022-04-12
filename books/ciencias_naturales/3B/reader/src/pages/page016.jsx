@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import Check from "../components/Check";
+import CheckMultiple from "../components/CheckMultiple";
 
 import "./page_016.css";
 
@@ -47,8 +48,17 @@ function Page016(props) {
 
               <div className="row p-0 mbp-10 w-100 position-relative">
                 <div className="col-12 col-md-6 position-relative d-flex pbp-30">
-                  <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-0">
+                  <div className="d-flex position-absolute top-0 start-50 translate-middle msp-0 mtp-0">
                     <div className="bgc-white border-style-solid border-2 border-color-android18 rounded-p-10 psp-10 pep-10 ptp-5 pbp-5 f-pixilate-bold fsp-21 ">Coordinación</div>
+                    <div className="col-3 p-0 m-0 position-relative d-flex center-center">
+                                <CheckMultiple
+                                    id={"check_p" + pagina + "_" + (indexInput += 1)}
+                                    image0={"images/page_" + pagina + "/check_vacio.svg"}
+                                    image1={"images/generales/check_azul.svg"}
+  
+                                    classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-circle disable-select d-flex center-center p-1 "
+                                />
+                            </div>
                   </div>
                   <div className="d-flex justify-content-center w-100">
                     <div className="d-flex flex-column psp-10 pep-10 ptp-25 pbp-20 w-100 f-Ubuntu-L border-style-solid border-2 border-color-android18 rounded-p-10 text-start bgc-white">
@@ -73,8 +83,17 @@ function Page016(props) {
                 </div>
 
                 <div className="col-12 col-md-6 position-relative d-flex pbp-30">
-                  <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-0">
+                  <div className="d-flex position-absolute top-0 start-50 translate-middle msp-0 mtp-0">
                     <div className="bgc-white border-style-solid border-2 border-color-android18 rounded-p-10 psp-10 pep-10 ptp-5 pbp-5 f-pixilate-bold fsp-21 ">Supervisión</div>
+                    <div className="col-3 p-0 m-0 position-relative d-flex center-center">
+                                <CheckMultiple
+                                    id={"check_p" + pagina + "_" + (indexInput += 1)}
+                                    image0={"images/page_" + pagina + "/check_vacio.svg"}
+                                    image1={"images/generales/check_azul.svg"}
+  
+                                    classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-circle disable-select d-flex center-center p-1 "
+                                />
+                            </div>
                   </div>
                   <div className="d-flex justify-content-center w-100">
                     <div className="d-flex flex-column psp-10 pep-10 ptp-25 pbp-20 w-100 f-Ubuntu-L border-style-solid border-2 border-color-android18 rounded-p-10 text-start bgc-white">
@@ -99,8 +118,17 @@ function Page016(props) {
                 </div>
 
                 <div className="col-12 col-md-6 position-relative d-flex pbp-30">
-                  <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-0">
-                    <div className="bgc-white border-style-solid border-2 border-color-android18 rounded-p-10 psp-10 pep-10 ptp-5 pbp-5 f-pixilate-bold fsp-21 ">Relaciones públicas</div>
+                  <div className="d-flex position-absolute top-0 start-50 translate-middle msp-0 mtp-0">
+                    <div className="col-12 bgc-white border-style-solid border-2 border-color-android18 rounded-p-10 psp-10 pep-10 ptp-5 pbp-5 f-pixilate-bold fsp-21 ">Relaciones públicas</div>
+                    <div className="col-3 p-0 m-0 position-relative d-flex center-center">
+                                <CheckMultiple
+                                    id={"check_p" + pagina + "_" + (indexInput += 1)}
+                                    image0={"images/page_" + pagina + "/check_vacio.svg"}
+                                    image1={"images/generales/check_azul.svg"}
+  
+                                    classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-circle disable-select d-flex center-center p-1 "
+                                />
+                            </div>
                   </div>
                   <div className="d-flex justify-content-center w-100">
                     <div className="d-flex flex-column psp-10 pep-10 ptp-25 pbp-20 w-100 f-Ubuntu-L border-style-solid border-2 border-color-android18 rounded-p-10 text-start bgc-white">
@@ -125,8 +153,17 @@ function Page016(props) {
                 </div>
 
                 <div className="col-12 col-md-6 position-relative d-flex pbp-30">
-                  <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-0">
+                  <div className="d-flex position-absolute top-0 start-50 translate-middle msp-0 mtp-0">
                     <div className="bgc-white border-style-solid border-2 border-color-android18 rounded-p-10 psp-10 pep-10 ptp-5 pbp-5 f-pixilate-bold fsp-21 ">Intendencia</div>
+                    <div className="col-3 p-0 m-0 position-relative d-flex center-center">
+                                <CheckMultiple
+                                    id={"check_p" + pagina + "_" + (indexInput += 1)}
+                                    image0={"images/page_" + pagina + "/check_vacio.svg"}
+                                    image1={"images/generales/check_azul.svg"}
+  
+                                    classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-circle disable-select d-flex center-center p-1 "
+                                />
+                            </div>
                   </div>
                   <div className="d-flex justify-content-center w-100">
                     <div className="d-flex flex-column psp-10 pep-10 ptp-25 pbp-20 w-100 f-Ubuntu-L border-style-solid border-2 border-color-android18 rounded-p-10 text-start bgc-white">

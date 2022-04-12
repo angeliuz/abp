@@ -109,10 +109,8 @@ function Page048(props) {
     <div className="col-md-12 col-lg-12 position-relative">
 
         <div className="position-absolute top-100 start-0 translate-middle msp-50 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="w-100" alt="" /></div>
-
         <div className="mbp-20 mtp-10 msp-20 mep-20">
             <div className="d-flex center-center p-2 rounded-p-20 border-style-solid border-2 border-color-dark min-hp-300">
-
                 <SubirImagen
                     id={"imagen_" + pagina + "_" + (indexInput += 1)}
                     className="w-100 bgc-white"
@@ -122,8 +120,6 @@ function Page048(props) {
                     titulo="Subir imagen"
                 />
             </div>
-
-
         </div>
 
     </div>
