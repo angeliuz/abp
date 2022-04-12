@@ -1,7 +1,9 @@
-span.underline {
+.underline {
     text-decoration: underline;
     color: blue;
+    background-color: red;
 }
+
 span {
     cursor: pointer;
 }
