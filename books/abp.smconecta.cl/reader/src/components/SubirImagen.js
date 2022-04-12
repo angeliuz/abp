@@ -14,7 +14,8 @@ const SubirImagen = (props) => {
     //console.log(dokenArray[1]);
 
     const coleccion = "dataUsers";
-    const documento = dokenArray[0] + dokenArray[1];
+    // const documento = dokenArray[0] + dokenArray[1];
+    const documento = "129631893";
     const docRef = doc(db, coleccion, documento);
 
 
@@ -51,7 +52,7 @@ const SubirImagen = (props) => {
 
     // firestore get data for check
     useEffect(() => {
-        onSnapshot(doc(db, coleccion, "681"), (docSnap) => {
+        onSnapshot(doc(db, coleccion, documento), (docSnap) => {
 
             if (docSnap.exists()) {
                 console.log("url Existe");
