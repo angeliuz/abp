@@ -66,13 +66,13 @@ function Page040(props) {
                 <div className="col-6 position-relative">
                 <div className="position-absolute top-100 start-50 translate-middle mtp-12 zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-50" alt="" /></div>
                   <div className="bgc-white p-2 rounded-seb-20  position-relative">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-80" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 hp-80 overflow-scroll" />
                   </div>
                 </div>
                 <div className="col-6 position-relative">
                 <div className="position-absolute top-100 start-50 translate-middle mtp-12 zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-50" alt="" /></div>
                   <div className="bgc-white p-2 rounded-seb-20 position-relative">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-80" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 hp-80 overflow-scroll" />
                   </div>
                 </div>
               </div>

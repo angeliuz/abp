@@ -101,11 +101,11 @@ function Page027(props) {
                   de la noticia</div>
               </div>
               <div className="bgc-white msp--20 wp-180 rounded-p-10  p-2">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-35 overflow-scroll" />
               </div>
               <div className="bgc-white msp--20 rounded-p-10 mtp-10 p-2 wp-180">
                 <div className=" f-Ubuntu-L fsp-16 ptp-2 pbp-2 rounded-p-10 color-dark text-center">¿Cuál es su situación?</div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-70 overflow-scroll" />
               </div>
             </div>
 
@@ -117,11 +117,11 @@ function Page027(props) {
               </div>
               <div className="bgc-white msp--20 wp-180 rounded-p-10 p-2">
 
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-35 overflow-scroll" />
               </div>
               <div className="bgc-white msp--20 wp-180 rounded-p-10 mtp-10  p-2">
                 <div className=" f-Ubuntu-L fsp-16 ptp-2 pbp-2 rounded-p-10 color-dark text-center">¿Cuál es su situación?</div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-70 overflow-scroll" />
               </div>
             </div>
 
@@ -131,7 +131,7 @@ function Page027(props) {
               <div className="d-flex flex-column wp-160 psp-10 pep-10 ptp-0 pbp-0 ">
                 <div className=" wp-160 f-Ubuntu-M fsp-16 ptp-2 pbp-2 rounded-p-10 color-dark text-center">Conflicto o problema</div>
                 <div className="bgc-white rounded-p-10 wp-160 p-2">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-110 overflow-scroll" />
                 </div>
               </div>
             </div>
@@ -142,7 +142,7 @@ function Page027(props) {
                   de la noticia</div>
               </div>
               <div className="bgc-white msp--20 wp-180 rounded-p-10  p-2">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-35 overflow-scroll" />
               </div>
 
             </div>
@@ -151,7 +151,7 @@ function Page027(props) {
               <div className="d-flex ">
               <div className="bgc-white msp--20 rounded-p-10 wp-180 mtp-10  p-2">
                 <div className=" f-Ubuntu-L fsp-16 ptp-2 pbp-2 rounded-p-10 color-dark text-center">¿Cuál es su situación?</div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-70 overflow-scroll" />
               </div>
               </div>
               

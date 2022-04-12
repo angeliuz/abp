@@ -40,7 +40,7 @@ function Page038(props) {
             <div className="row w-100 p-0 m-0">
               <div className="row mx-auto d-flex f-Ubuntu-R fsp-15 mbp-20 ">
                 <div className="position-relative">
-                  <div className="position-absolute top-50 start-50 translate-middle msp--0 mtp-40 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-60" alt="" /></div>
+                  {/* <div className="position-absolute top-50 start-50 translate-middle msp--0 mtp-40 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-60" alt="" /></div> */}
                 </div>
 
                 <div className="col-sm-12 col-md-6">
@@ -64,8 +64,8 @@ function Page038(props) {
                   </div>
                 </div>
                 <div className="col-sm-12 col-md-6 position-relative">
-                  <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-90 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-60" alt="" /></div>
-                  <div className="position-absolute top-0 start-0 translate-middle msp-40 mtp--0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-10" alt="" /></div>
+                  {/* <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-90 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.svg"} className="wp-60" alt="" /></div> */}
+                  {/* <div className="position-absolute top-0 start-0 translate-middle msp-40 mtp--0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-10" alt="" /></div> */}
                   <div className="text-center w-100 border-1 border-style-solid border-color-palpatine rounded-p-10 mtp-10">
                     <div className="lhp-15 color-white fw-700 rounded-set-6 hp-50 ptp-5 pbp-5 bgc-palpatine d-flex justify-content-center align-items-center">
                       Una medida de defensa que <br /> puede inspirar nuestra obra es:
@@ -76,7 +76,7 @@ function Page038(props) {
                   </div>
                 </div>
                 <div className="col-sm-12 col-md-6 position-relative">
-                  <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp--0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-10" alt="" /></div>
+                  {/* <div className="position-absolute top-0 start-100 translate-middle msp--40 mtp--0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-10" alt="" /></div> */}
                   <div className="text-center w-100 border-1 border-style-solid border-color-klaus rounded-p-10 mtp-10">
                     <div className="lhp-15 color-white fw-700 rounded-set-6 hp-50 ptp-5 pbp-5 bgc-klaus d-flex justify-content-center align-items-center">
                       ¿Por qué la seleccionamos?
@@ -137,7 +137,7 @@ function Page038(props) {
                           <td className={"border-style-solid border-1 " + borderColor + ""}><Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
                         </tr>
                         <tr>
-                          <td className={"" + bgc_cajas + " f-Ubuntu-L fsp-14 text-start psp-5 border-style-solid border-1 " + borderColor + ""}>Tengo ganas de encontrar soluciones al desafío planteado..</td>
+                          <td className={"" + bgc_cajas + " f-Ubuntu-L fsp-14 text-start psp-5 border-style-solid border-1 " + borderColor + ""}>Tengo ganas de encontrar soluciones al desafío planteado.</td>
                           <td className={"border-style-solid border-1 " + borderColor + ""}><Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
                           <td className={"border-style-solid border-1 " + borderColor + ""}><Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
                           <td className={"border-style-solid border-1 " + borderColor + ""}><Check2 id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check2></td>
