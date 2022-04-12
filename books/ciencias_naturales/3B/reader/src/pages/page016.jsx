@@ -40,7 +40,7 @@ function Page016(props) {
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/generales/play.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_"+pagina+"/img_001.png" className="p-0 px-1" /> */}
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_007/revista65.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
-              <div className="position-absolute top-0 start-100 translate-middle msp-30 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-90 mtp--100" alt="" /></div>
+              <div className="position-absolute top-0 start-100 translate-middle msp--30 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-90 mtp-30" alt="" /></div>
             </div>
           </div>
 
