@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1a6f0a72ebafe3acc50c",
-    "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/css/main.6ed8b1be.chunk.css"
+    "revision": "fb41ab0901b0dd96a4f3",
+    "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/css/main.d0a85301.chunk.css"
   },
   {
-    "revision": "1a6f0a72ebafe3acc50c",
-    "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/js/main.1a6f0a72.chunk.js"
+    "revision": "fb41ab0901b0dd96a4f3",
+    "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/js/main.fb41ab09.chunk.js"
   },
   {
     "revision": "9cd0ba5c41dfeb38d98c",
@@ -24,28 +24,28 @@ self.__precacheManifest = [
     "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/js/runtime~main.c28c644c.js"
   },
   {
-    "revision": "b9fb8ec6248b88d34ff7ff03d707de07",
-    "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/linea.b9fb8ec6.svg"
-  },
-  {
     "revision": "ca5037fca35aa6208557ae298064f2b9",
     "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/caja_sesion.ca5037fc.svg"
   },
   {
-    "revision": "f3c9937229edb7fe203e8f4b780d1709",
-    "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/fondo_e3.f3c99372.svg"
+    "revision": "b9fb8ec6248b88d34ff7ff03d707de07",
+    "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/linea.b9fb8ec6.svg"
   },
   {
     "revision": "3324022121c522bd621171eacadf4065",
     "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/lineas_objetivos.33240221.svg"
   },
   {
-    "revision": "2e263aaac14d7c949bcbb5575db32443",
-    "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/fondo_e1.2e263aaa.svg"
+    "revision": "f3c9937229edb7fe203e8f4b780d1709",
+    "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/fondo_e3.f3c99372.svg"
   },
   {
     "revision": "2d66ac1f2d8399f3ca8ef38ebad3573c",
     "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/fondo_e4.2d66ac1f.svg"
+  },
+  {
+    "revision": "2e263aaac14d7c949bcbb5575db32443",
+    "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/fondo_e1.2e263aaa.svg"
   },
   {
     "revision": "eabd00509bb4c45f5444c3ad1c420392",
@@ -54,10 +54,6 @@ self.__precacheManifest = [
   {
     "revision": "adc0aa0986b233f450edabf19827a273",
     "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/fondo_dosier_e1_2.adc0aa09.svg"
-  },
-  {
-    "revision": "1ec72a5e605c0831002f2e65c1f88aad",
-    "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/fondo_dosier_e1.1ec72a5e.svg"
   },
   {
     "revision": "85c7cc8ed6dca234d4a6731206da9be6",
@@ -74,6 +70,10 @@ self.__precacheManifest = [
   {
     "revision": "24372dca1b91e43f59b2df1a61691704",
     "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/fondo_dosier_e5.24372dca.svg"
+  },
+  {
+    "revision": "7721052830818fb5dd8a78eeda317faa",
+    "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/fondo_dosier_e1.77210528.svg"
   },
   {
     "revision": "bd8318578a86913a63977090de38e7b4",
@@ -144,12 +144,12 @@ self.__precacheManifest = [
     "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/MinionPro-Regular.38711b5b.otf"
   },
   {
-    "revision": "9c949c31bd2c370cb176ab3fc48e6ee9",
-    "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/pixilate-jollygood-proper-condensed-bold.9c949c31.otf"
-  },
-  {
     "revision": "ff9bdc6054a376fb3169a79b501f7cca",
     "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/Montara-Gothic.ff9bdc60.otf"
+  },
+  {
+    "revision": "9c949c31bd2c370cb176ab3fc48e6ee9",
+    "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/pixilate-jollygood-proper-condensed-bold.9c949c31.otf"
   },
   {
     "revision": "7333a4b5fb1f08e7af35fcb0449b62ff",
@@ -200,6 +200,10 @@ self.__precacheManifest = [
     "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/IntroRustG-Base.9d4f7248.otf"
   },
   {
+    "revision": "8610e1797f14b414be4587089cf7851f",
+    "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/fondo_003.8610e179.svg"
+  },
+  {
     "revision": "95e81355ec7d54f7ce17ca6912fc8536",
     "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/img_005.95e81355.svg"
   },
@@ -212,7 +216,7 @@ self.__precacheManifest = [
     "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/static/media/img_004.62e82fb0.svg"
   },
   {
-    "revision": "7b2de23fe73a76909c3d9e44c027fa24",
+    "revision": "f06f09040885aa25163ca95d8fbf1bc1",
     "url": "/libros_abp/books/ciencias_naturales/5B/reader/build/index.html"
   }
 ];
