@@ -48,7 +48,7 @@ function Page073(props) {
             </div>
           </div>
           <div className="row psp-60 pep-60">
-                <div className="col-md-6 col-12 mbp-10 zindex-1">
+                <div className="col-md-6 col-12 p-0 m-0 zindex-1">
                   <div className="bgc-kazuha cb-outline-p73 rounded-p-10 ">
                   <div className="color-pikachu fw-700 text-start psp-15 ptp-15" > ¿Qué aprendí?</div>
                   <div className="w-100 text-start psp-10 pep-10" >
@@ -56,7 +56,7 @@ function Page073(props) {
                   </div>
                 </div>
                 </div>
-                <div className="col-md-6 col-12 mbp-10 zindex-1 position-relative">
+                <div className="col-md-6 col-12 p-0 m-0 zindex-1 position-relative">
                 <img src="images/page_073/img_003.png" className="cb-nube-p73" alt=""></img>
                   <div className="bgc-sayu cb-outline-p73 rounded-p-10">
                   <div className="color-bulma fw-700 text-start psp-15 ptp-15" >¿Cómo aprendí?</div>
@@ -66,7 +66,7 @@ function Page073(props) {
                 </div>
                 </div>
            
-                <div className="col-md-6 col-12 mbp-10 zindex-1 position-relative">
+                <div className="col-md-6 col-12 p-0 m-0 zindex-1 position-relative">
                 <img src="images/page_073/img_004.png" className="cb-notamorada-p73" alt=""></img>
                   <div className="bgc-marcianos cb-outline-p73 rounded-p-10">
                   <div className="color-sektor fw-700 text-start psp-15 ptp-15" >¿Con quién aprendí?</div>
@@ -76,7 +76,7 @@ function Page073(props) {
                 </div>
                 </div>
 
-                <div className="col-md-6 col-12 mbp-10 zindex-1">
+                <div className="col-md-6 col-12 p-0 m-0 zindex-1">
                   <div className="bgc-windu cb-outline-p73 rounded-p-10">
                   <div className="color-saitama fw-700 text-start psp-15 ptp-15" > ¿Cómo me siento aprendiendo?</div>
                   <div className="w-100 text-start psp-10 pep-10" >
