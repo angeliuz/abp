@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 9.175 53.109" style="enable-background:new 0 0 9.175 53.109;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);fill:#4F4F4E;}
+	.st1{clip-path:url(#SVGID_2_);fill:none;stroke:#FFCB00;stroke-width:3.82;stroke-linecap:round;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="9.175" height="53.109"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<path class="st0" d="M9.176,48.521c0-2.534-2.055-4.587-4.588-4.587s-4.587,2.053-4.587,4.587c0,2.534,2.054,4.587,4.587,4.587
+		S9.176,51.056,9.176,48.521"/>
+	<path class="st0" d="M9.176,4.587C9.176,2.053,7.121,0,4.588,0S0.001,2.053,0.001,4.587c0,2.534,2.054,4.587,4.587,4.587
+		S9.176,7.121,9.176,4.587"/>
+	<line class="st1" x1="4.588" y1="46.611" x2="4.588" y2="5.542"/>
+</g>
+</svg>
