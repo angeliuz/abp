@@ -220,7 +220,7 @@ function Page035(props) {
                   </div>
                 </div>
                 <div className="col-md-6 d-flex">
-                  <div className="ptp-10">Fecha de la encuesta</div>
+                  <div className="ptp-10">Fecha de la encuesta:</div>
                   <div className="flex-fill">
                     {" "}
                     <InputBox

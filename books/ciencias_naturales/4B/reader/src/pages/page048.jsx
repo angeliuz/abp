@@ -62,9 +62,9 @@ function Page048(props) {
               
               <div className="col-12 p-1 m-0 position-relative">
               <div className="position-absolute top-0 start-100 translate-middle msp-10 mtp--55"><img src="images/page_048/mono.png" className="wp-110" alt="" /></div>
-              <div className="position-absolute top-100 start-0 translate-middle"><img src="images/page_048/patin.png" className="wp-70 mep-0 mtp--80" alt="" /></div>
-                <div className="rounded-seb-10 bgc-white border-style-solid border-color-dark border-2 hp-430">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-400 mep-10 msp-10" />
+              <div className="position-absolute top-100 start-0 translate-middle"><img src="images/page_048/patin.png" className="wp-70 mep-30 mtp--80" alt="" /></div>
+                <div className="rounded-seb-10 bgc-white border-style-solid border-color-dark border-2 ">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-100 p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-400 mep-10 msp-10" />
                 </div>
               </div>
             </div>

@@ -65,7 +65,7 @@ function Page068(props) {
                   </div>
                 </div>
 
-                <div className="border-style-solid border-color-voldemort rounded-p-10 bgc-white w-100 cb-600 text-start hp-190 ms-auto mtp-20 pep-10 psp-10 ptp-10 ptp-20 position-relative">
+                <div className="border-style-solid border-color-voldemort rounded-p-10 bgc-white w-100 cb-600 text-start  ms-auto mtp-20 pep-10 psp-10 ptp-10 ptp-20 position-relative">
                   <img src="images/page_068/img_001.svg" className="position-absolute wp-10 cb-union-a-p68" alt="" />
                   <img src="images/page_068/img_001.svg" className="position-absolute wp-10 cb-union-b-p68" alt="" />
                   <img src="images/page_068/img_004.png" className="position-absolute wp-70 cb-calendario-p68" alt="" />

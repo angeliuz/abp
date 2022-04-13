@@ -47,31 +47,44 @@ function Page073(props) {
               <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"91"} image="images/page_073/img_002.svg" clasesImagen="hp-40 text-center mtp-10 mbp-10 " className="p-0 px-0" />
             </div>
           </div>
-          <div className="cb-contenedor-dos justify-content-center pe-2 ps-2 pbp-15">
-            <div className="w-100 position-relative">
-              <img src="images/page_073/img_004.png" className="cb-notamorada-p73" alt=""></img>
-              <div className="bgc-kazuha cb-outline-p73 p-3 f-Ubuntu-L fsp-15 border-color-garou cb-caja1" >
-                <p className="cb-psp2 color-pikachu fw-700 text-start">¿Qué aprendí?</p>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-              </div>
-              <div className="bgc-marcianos cb-outline-p73 p-3 f-Ubuntu-L fsp-15 border-color-garou cb-caja2-p73" >
-                <p className="psp-20 color-sektor fw-700 text-start">¿Con quién aprendí?</p>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 w-100 contenedor-linea lhp-35 min-hp-110" />
-              </div>
-            </div>
-            <div className="w-100">
-
-              <div className="bgc-sayu p-3 cb-outline-p73 f-Ubuntu-L fsp-15 border-color-garou cb-caja3 position-relative" >
+          <div className="row psp-60 pep-60">
+                <div className="col-md-6 col-12 mbp-10 zindex-1">
+                  <div className="bgc-kazuha cb-outline-p73 rounded-p-10 ">
+                  <div className="color-pikachu fw-700 text-start psp-15 ptp-15" > ¿Qué aprendí?</div>
+                  <div className="w-100 text-start psp-10 pep-10" >
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                  </div>
+                </div>
+                </div>
+                <div className="col-md-6 col-12 mbp-10 zindex-1 position-relative">
                 <img src="images/page_073/img_003.png" className="cb-nube-p73" alt=""></img>
-                <p className="cb-psp color-bulma fw-700 text-start">¿Cómo aprendí?</p>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp--10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-              </div>
-              <div className="bgc-windu cb-outline-p73 p-3 f-Ubuntu-L fsp-15 border-color-garou cb-caja4" >
-                <p className="cb-psp2 color-saitama fw-700 text-start">¿Cómo me he sentido aprendiendo?</p>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 msp-10 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
-              </div>
+                  <div className="bgc-sayu cb-outline-p73 rounded-p-10">
+                  <div className="color-bulma fw-700 text-start psp-15 ptp-15" >¿Cómo aprendí?</div>
+                  <div className="w-100 text-start psp-10 pep-10" >
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                  </div>
+                </div>
+                </div>
+           
+                <div className="col-md-6 col-12 mbp-10 zindex-1 position-relative">
+                <img src="images/page_073/img_004.png" className="cb-notamorada-p73" alt=""></img>
+                  <div className="bgc-marcianos cb-outline-p73 rounded-p-10">
+                  <div className="color-sektor fw-700 text-start psp-15 ptp-15" >¿Con quién aprendí?</div>
+                  <div className="w-100 text-start psp-10 pep-10" >
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                  </div>
+                </div>
+                </div>
+
+                <div className="col-md-6 col-12 mbp-10 zindex-1">
+                  <div className="bgc-windu cb-outline-p73 rounded-p-10">
+                  <div className="color-saitama fw-700 text-start psp-15 ptp-15" > ¿Cómo me siento aprendiendo?</div>
+                  <div className="w-100 text-start psp-10 pep-10" >
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                  </div>
+                </div>
+                </div>
             </div>
-          </div>
           {/* ETAPA 2*/}
           <div className=" container-titulo-global mbp-∫0">
             <div className="d-flex">
