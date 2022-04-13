@@ -1,7 +1,7 @@
 .underline {
     text-decoration: underline;
-    color: blue;
-    background-color: red;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
 }
 
 span {

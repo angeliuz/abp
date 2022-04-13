@@ -15,6 +15,7 @@ function SeleccionTexto(props) {
     const classNameContenedor = props.classNameContenedor;
     const classNameTexto = props.classNameTexto;
     const id = props.id;
+    var texto = props.children;
     
     let textoReferencia = useRef(null);
     
@@ -40,6 +41,7 @@ function SeleccionTexto(props) {
             console.log("Current data: ", docSnap.data()[id]);
             if (field) {
               setContent1(docSnap.data()[id]);
+              texto = content1;
               console.log("content1: " + content1);
             } else {
               console.log("Sin datos: "+id);
@@ -59,64 +61,92 @@ function SeleccionTexto(props) {
       updateContenido(event.target.value);
     };
   
-    const updateContenido = (data) =>{
+    const updateContenido = (content1) =>{
       //console.log("content1: " + data);
       updateDoc(docRef, {
-        [id]: data,
+        [id]: content1,
       });    
     }
 
 
-    var textoFormateado = false;
+    // var textoFormateado = false;
 
-    const [isActive, setActive] = useState("false");
-    const [estadoTemp, setEstadoTemp] = useState("");
-
-
-    const ToggleClass = () => {
-      setActive(!isActive); 
-     };
+    // const [isActive, setActive] = useState("false");
+    // const [estadoTemp, setEstadoTemp] = useState("");
 
 
-    const concatenaTexto = (e) =>{
+    // const ToggleClass = () => {
+    //   setActive(!isActive); 
+    //  };
 
-      if(textoFormateado != true){
-        console.log("Texto Referencia: ",textoReferencia.current);
-        var contents = textoReferencia.current.textContent.split(' ')
-        var temp = '';
+    //  var palabrasSubrayadas = [];
 
 
-        for (var i = 0; i < contents.length; i++) {
+    // function concatenaTexto (){
 
-          temp += "<span class='"+estadoTemp+"' id='underline_"+i+"'>" + contents[i] + "</span> ";
-        } 
-        textoFormateado = true;
-  
-          setContent1(temp);
-  
-          console.log("texto formateado: ",textoFormateado)
+    //   //console.log(texto[2].split(' '));
+    //  // console.log("Texto firebase: ",content1);
+    //   var palabras = texto[2].split(' ');
 
-      }
+    //   var totalPalabras = palabras.length;
+    //   console.log("total palabras_: ", totalPalabras);
 
-      creaUnderline(e);
+    //   for(var a=0; a<palabras.length; a++){
+    //     palabrasSubrayadas[a]=  " ";
+    //   }
 
-    }
+    //   console.log("palabra Subrayadas: ", palabrasSubrayadas);
 
-    const creaUnderline= (e) =>{
-        console.log("texto underline", e.target.id);
-        if(estadoTemp != ""){
-          setEstadoTemp("underline")
-        }else{
-          setEstadoTemp("")
-        }
-        // e.target.toggleClass('underline');
-    }
+    //   const listItems = palabras.map((palabra, index) =>
+    //     <span> <span className={""} key={index} id={index} onClick={creaUnderline}>{palabra}</span>&nbsp;</span>
+    //   );
+
+    //   return listItems;
+    // }
+
+    // function subrayarPalabra(palabra, index, totalPalabras){
+    //   // var palabrasSubrayadas = ["Al", "", "de"];
+    //   //   if(palabrasSubrayadas[index]=== palabra ){return "user-select-none underline";}
+    // }
+
+    // const creaUnderline= (e) =>{
+    //   e.preventDefault();
+    //     //console.log("texto underline: ", e.target);
+    //     e.target.classList.toggle("underline");   
+    //     setContent1(textoReferencia.current.innerHTML);
+    //     updateContenido(textoReferencia.current.innerHTML);
+
+   // }
      
    // concatenaTexto();
+
+   function handleMouseUp (e){
+    // console.log(`${window.getSelection().getRangeAt(0).getBoundingClientRect()}`);
+    // console.log(`Selected text: ${window.getSelection().toString()}`);
+
+    var selObj = window.getSelection();
+    console.log(selObj);
+    var selRange = selObj.getRangeAt(0);
+    console.log(selRange)
+    console.log( window.getSelection().toString() );
+
+    var span = document.createElement('span');
+
+    span.className = 'underline';
+    span.appendChild(selRange.extractContents());
+    selRange.insertNode(span);
+
+    setContent1(textoReferencia.current.innerHTML);
+    updateContenido(textoReferencia.current.innerHTML);
+
+    // do stuff with the range
+   }
     
     return(
         <div className={classNameContenedor}>
-            <p className={classNameTexto} ref={textoReferencia} onClick={concatenaTexto} dangerouslySetInnerHTML={{ __html: content1 }}></p>
+            {/* <p className={classNameTexto} ref={textoReferencia} onClick={concatenaTexto}></p> */}
+            <div className={classNameTexto} ref={textoReferencia} onMouseUp={handleMouseUp}  dangerouslySetInnerHTML={{ __html: content1 }}></div>
+
         </div>
     );
 }
