@@ -47,7 +47,7 @@ function Page073(props) {
               <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} colorUnidad={background} pagina={"91"} image="images/page_073/img_002.svg" clasesImagen="hp-40 text-center mtp-10 mbp-10 " className="p-0 px-0" />
             </div>
           </div>
-          <div className="row psp-60 pep-60">
+          <div className="row psp-60 pep-60 mbp-20">
                 <div className="col-md-6 col-12 p-0 m-0 zindex-1">
                   <div className="bgc-kazuha cb-outline-p73 rounded-p-10 ">
                   <div className="color-pikachu fw-700 text-start psp-15 ptp-15" > ¿Qué aprendí?</div>
