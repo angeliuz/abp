@@ -29,7 +29,7 @@ function Page068(props) {
                 <div className="border-style-solid border-color-trunks rounded-p-10 w-100 cb-600 mx-auto bgc-white text-center ptp-10 psp-20 pep-10 mtp-90 position-relative">
                   <img src="images/page_068/img_001.svg" className="position-absolute wp-10 cb-union-a-p68" alt="" />
                   <img src="images/page_068/img_001.svg" className="position-absolute wp-10 cb-union-b-p68" alt="" />
-                  <img src="images/page_068/img_002.png" className="position-absolute wp-80 cb-camara-p68" alt="" />
+                  <img src="images/page_068/img_002.png" className="position-absolute wp-80 cb-camara-p68 zindex-1" alt="" />
                   <span className="f-Ubuntu-L fsp-15 fw-700">Las tres frases que identifican nuestra brigada son:</span>
                   <div className="d-flex">
                     <div className="justify-content-between h-100 ptp-20">
