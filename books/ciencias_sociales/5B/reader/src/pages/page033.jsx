@@ -105,7 +105,7 @@ function Page033(props) {
                 <div className="position-relative d-flex flex-column align-items-center justify-content-center bgc-honda min-hp-130 p-2 rounded-p-10 w-100">
                   <div className="text-center f-Ubuntu-R">Otro</div>
                   <div className="w-100 bgc-white rounded-p-10 p-2">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-35 overflow-scroll w-100 bgc-white" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-35 overflow-auto w-100 bgc-white" />
                   </div>
                 </div>
               </div>

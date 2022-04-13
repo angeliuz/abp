@@ -40,12 +40,12 @@ function Page074(props) {
                                     {/*<ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />*/}
                                 </div>
                             </div>
-                            <div className="bgc-miko rounded-p-10 ptp-20">
+                            <div className="bgc-miko rounded-p-10 ptp-20 mbp-60">
                                 {/* BEGIN EJERCICIO 1 */}
                                 <div className="d-flex justify-content-between max-wp-500 mbp-20">
                                     <div className="d-flex justify-content-start align-items-center mbp-5 psp-15 ">
                                         <div className="">
-                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                         </div>
                                         <div className="text-start msp-5 mtp-5 pep-5 rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
                                             muy bien
@@ -53,7 +53,7 @@ function Page074(props) {
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center mbp-5 psp-15 ">
                                         <div className="">
-                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                         </div>
                                         <div className="text-start msp-5 mtp-5 pep-5 rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
                                             bien
@@ -61,7 +61,7 @@ function Page074(props) {
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center mbp-5 psp-15 ">
                                         <div className="">
-                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                         </div>
                                         <div className="text-start msp-5 mtp-5 pep-5 rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
                                             regular
@@ -69,7 +69,7 @@ function Page074(props) {
                                     </div>
                                     <div className="d-flex justify-content-start align-items-center mbp-5 psp-15 ">
                                         <div className="">
-                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                         </div>
                                         <div className="text-start msp-5 mtp-5 pep-5 rounded-1 f-Ubuntu-L fsp-13 d-flex align-items-start">
                                             mal
@@ -88,7 +88,7 @@ function Page074(props) {
                                 </div>
                                 <div className="max-wp-700 mx-auto bgc-white mbp-20 rounded-p-10 border-1 border-style-solid border-color-lightDark position-relative">
                                     <div className="position-absolute top-100 start-0 translate-middle msp--30 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-60" alt="" /></div>
-                                    <div className="position-absolute top-100 start-100 translate-middle msp-20 mtp--50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
+                                    <div className="position-absolute top-100 start-100 translate-middle msp-15 mtp--50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
                                     <div className="text-start rounded-set-6 hp-40 pep-20 psp-20 ptp-5 pbp-5 d-flex  f-Ubuntu-R fsp-14 ptp-15">
                                         Nunca olvidaré
                                     </div>

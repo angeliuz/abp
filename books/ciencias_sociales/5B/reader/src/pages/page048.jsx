@@ -105,51 +105,51 @@ function Page048(props) {
 
             <div className="row ptp-20 ps-12 pe-8 m-0 w-100">
 
-              <div className="col-sm-12 col-md-4 position-relative p-0 m-0 d-flex align-items-center">
-                <img src="images/page_048/espiral.svg" className="wp-60 rotar-elemento-90-768 position-absolute zindex-1 posicion-espiral" alt="" />
+              <div className="col-12 position-relative p-0 m-0 d-flex align-items-center">
+              <img src="images/page_048/espiral_1.svg" className="wp-45 position-absolute top-100 start-100 translate-middle msp--60 mtp-10 zindex-2" alt="" />
                 <div className="position-absolute top-0 start-50 translate-middle mtp-15 msp-0 w-100  f-Ubuntu-R text-start">Entrevistaremos a...</div>
-                <div className="position-absolute top-50 start-0 translate-middle mtp-0 msp-15 rounded-end bgc-hermione border-style-solid border-start-0 border-2 border-color-freezer p-1 text-center color-pidgey wp-25 f-Ubuntu-B fsp-14 zindex-1">1</div>
-                <div className="border-style-solid border-color-freezer rounded-p-5 bgc-white mtp-30 caja-contenedora-respuesta" >
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-100 overflow-scroll" />
+                <div className="position-absolute top-50 start-0 translate-middle mtp-0 msp-25 rounded-end bgc-hermione border-style-solid border-start-0 border-2 border-color-freezer p-1 text-center color-pidgey wp-25 f-Ubuntu-B fsp-14 zindex-1">1</div>
+                <div className="msp-10 mep-10 border-style-solid border-color-freezer rounded-p-5 bgc-white mtp-30 caja-contenedora-respuesta" >
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
                 </div>
 
               </div>
-              <div className="col-sm-12 col-md-8 position-relative ptp-0 pbp-0 m-0">
+              <div className="col-12 position-relative ptp-0 pbp-0 m-0">
 
                 <div className="position-absolute top-0 start-50 translate-middle mtp-15 msp-0 w-100 f-Ubuntu-R text-center">Los roles que asumiremos son...</div>
                 <div className="d-flex flex-column mbp-20 mtp-30 p-2 w-100 rounded-p-10 bgc-white">
                   <div className="p-2 w-100 d-flex flex-column">
                     <div className="f-Ubuntu-L fsp-14 text-start w-100">¿Quién guiará la entrevista?</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35  hp-35 overflow-scroll" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                   </div>
                   <div className="p-2 w-100 d-flex flex-column">
                     <div className="f-Ubuntu-L fsp-14 text-start w-100">¿Quién registrará la entrevista.</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35  hp-35 overflow-scroll" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                   </div>
                 </div>
 
               </div>
 
-              <div className="col-sm-12 col-md-4 position-relative p-0 m-0 d-flex align-items-center">
-                <img src="images/page_048/espiral.svg" className="wp-60 rotar-elemento-90-768  position-absolute zindex-1 posicion-espiral" alt="" />
-                <div className="position-absolute top-0 start-50 translate-middle mtp-15 msp-0 w-100  f-Ubuntu-R text-start invisible-768">Entrevistaremos a...</div>
-                <div className="position-absolute top-50 start-0 translate-middle mtp-0 msp-15 rounded-end bgc-hermione border-style-solid border-start-0 border-2 border-color-freezer p-1 text-center color-pidgey wp-25 f-Ubuntu-B fsp-14 zindex-1">2</div>
-                <div className="border-style-solid border-color-freezer rounded-p-5 bgc-white mtp-30 caja-contenedora-respuesta" >
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  hp-100 overflow-scroll" />
+              <div className="col-12 position-relative p-0 m-0 d-flex align-items-center">
+                <img src="images/page_048/espiral_1.svg" className="wp-45 position-absolute top-100 start-100 translate-middle msp--60 mtp-10 zindex-2" alt="" />
+                <div className="position-absolute top-0 start-50 translate-middle mtp-15 msp-0 w-100  f-Ubuntu-R text-start ">Entrevistaremos a...</div>
+                <div className="position-absolute top-50 start-0 translate-middle mtp-0 msp-25 rounded-end bgc-hermione border-style-solid border-start-0 border-2 border-color-freezer p-1 text-center color-pidgey wp-25 f-Ubuntu-B fsp-14 zindex-1">2</div>
+                <div className="msp-10 mep-10 border-style-solid border-color-freezer rounded-p-5 bgc-white mtp-30 caja-contenedora-respuesta" >
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  min-hp-100" />
                 </div>
 
               </div>
-              <div className="col-sm-12 col-md-8 position-relative ptp-0 pbp-0 m-0">
+              <div className="col-12 position-relative ptp-0 pbp-0 m-0">
 
-                <div className="position-absolute top-0 start-50 translate-middle mtp-15 msp-0 w-100 f-Ubuntu-R text-center invisible-768">Los roles que asumiremos son...</div>
+                <div className="position-absolute top-0 start-50 translate-middle mtp-15 msp-0 w-100 f-Ubuntu-R text-center ">Los roles que asumiremos son...</div>
                 <div className="d-flex flex-column mbp-20 mtp-30 p-2 w-100 rounded-p-10 bgc-white">
                   <div className="p-2 w-100 d-flex flex-column">
                     <div className="f-Ubuntu-L fsp-14 text-start w-100">¿Quién guiará la entrevista?</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  hp-35 overflow-scroll" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  min-hp-35" />
                   </div>
                   <div className="p-2 w-100 d-flex flex-column">
                     <div className="f-Ubuntu-L fsp-14 text-start w-100">¿Quién registrará la entrevista.</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  hp-35 overflow-scroll" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  min-hp-35" />
                   </div>
                 </div>
 

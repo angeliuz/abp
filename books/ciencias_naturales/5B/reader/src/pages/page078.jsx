@@ -20,11 +20,6 @@ function Page078(props) {
             <div className="d-flex flex-column align-items-center pbp-20">
                 <div className={"dosier-e" + etapa + " page bgc-white overflow-hidden position-relative"} id={"page_" + pagina}>
 
-
-
-
-
-
                     <div className="d-flex global-margin mtp-80 mbp-80 psp-0 pep-0 ptp-0 pbp-0">
                         <div className="row p-0 m-0 w-100 mbp-200 ">
                             <div className="f-Ubuntu-R fsp-16 text-start pbp-30 msp--10">Si volviéramos a trabajar juntos en otro proyecto…</div>
@@ -37,7 +32,7 @@ function Page078(props) {
                                 <div className="w-100 bgc-white border-style-solid border-1 border-color-dark rounded-p-10 psp-10 pep-10 mtp-20 sobre   ">
                                     <div className="position-absolute top-50 start-100 translate-middle   msp-30 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-60" alt="" /></div>
                                     <div className="position-absolute top-100 start-0 translate-middle    msp--20 mtp--50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-60" alt="" /></div>
-                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-260" />
+                                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-260 overflow-auto" />
                                 </div>
 
                             </div>
@@ -58,7 +53,7 @@ function Page078(props) {
                                     <div className="w-100 bgc-white border-style-solid border-1 border-color-dark rounded-p-10 psp-10 pep-10 mtp-20 sobre zindex-1 mbp-20 ">
                                         <div className="position-absolute top-100 start-0 translate-middle    msp--20 mtp--50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
                                         <div className="position-absolute top-50 start-100 translate-middle   msp-30 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-30" alt="" /></div>
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-290 " />
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-290 overflow-auto" />
                                     </div>
 
                                 </div>
@@ -66,10 +61,6 @@ function Page078(props) {
                         </div>
 
                     </div>
-
-
-
-
 
                     <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-15">
                         <div className="row p-0 m-0 w-100">
@@ -83,8 +74,6 @@ function Page078(props) {
                             </div>
                         </div>
                     </div>
-
-
 
                     {/* <div className="col-12 position-relative pbp-0">
                         <img src="images/page_080/img_005.svg" className="w-100 " alt="" />

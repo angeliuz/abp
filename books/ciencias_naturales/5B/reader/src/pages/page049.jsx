@@ -67,7 +67,7 @@ function Page049(props) {
             </div>
           </div>
 
-          <div className="psp-60 pep-60 ptp-20">
+          <div className="psp-60 pep-60 ptp-20 pbp-60">
             <div className="bgc-buzz p-3 rounded-p-20 position-relative">
               <div className="border-style-solid border-1 border-color-white psp-10 pep-10 ptp-5 pbp-5 rounded-p-20">
                 <div className="bgc-white rounded-p-20 p-2 position-relative">
@@ -82,7 +82,7 @@ function Page049(props) {
               <div className="position-absolute top-0 start-100 translate-middle msp--20 mtp-20 zindex-1"><img src={"images/page_" + pagina + "/sobre.png"} className="wp-60" alt="" /></div>
             </div>
 
-            <div className="ptp-20"></div>
+            {/* <div className="ptp-20"></div> */}
             <div className="bgc-buzz p-3 rounded-p-20 position-relative">
               <div className="border-style-solid border-1 border-color-white psp-10 pep-10 ptp-5 pbp-5 rounded-p-20">
                 <div className="bgc-white rounded-p-20 p-2 position-relative">

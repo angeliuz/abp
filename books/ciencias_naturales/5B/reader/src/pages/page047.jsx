@@ -28,25 +28,25 @@ function Page047(props) {
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-95">
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Mis objetivos en <br /> esta sesión son:
+                Mis objetivos en esta sesión son:
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Grabar un video con la<br />preparación de las alternativas<br />de alimentación saludable
+                Grabar un video con la preparación de las alternativas de alimentación saludable
               </div>
               <div className="psp-5 pep-5 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Identificar la<br />información que debe<br />contener la propuesta
+                Identificar la información que debe contener la propuesta
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Crear un documento con la<br />propuesta de alimentación<br />saludable para el colegio
+                Crear un documento con la propuesta de alimentación saludable para el colegio
               </div>
             </div>
           </div>
@@ -124,7 +124,7 @@ function Page047(props) {
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image={"images/page_"+pagina+"/revista.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
-            <div className="position-absolute top-100 start-100 translate-middle msp--130 mtp--40 visible-768 zindex-1"><img src={"images/page_" + pagina + "/mono.png"} className="wp-120" alt="" /></div>
+            <div className="position-absolute top-100 start-100 translate-middle msp--130 mtp--40 visible-768 zindex-1"><img src={"images/page_" + pagina + "/mono.png"} className="wp-135" alt="" /></div>
           </div>
 
 

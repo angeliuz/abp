@@ -24,7 +24,7 @@ function Page076(props) {
                     </div>
 
                     {/* SECCION COMO VOY */}
-                    <div className={"d-flex w-100 mtp-50 psp-60 pep-60 ptp-20 mbp-0 border-top-style-solid " + borderColor + " border-2 pbp-80 " + bgc_cajas}>
+                    <div className={"d-flex w-100 mtp-50 psp-60 pep-60 ptp-20 mbp-0 border-top-style-solid border-color-hardDark border-2 pbp-80 " + bgc_cajas}>
                         <div className="row w-100 p-0 m-0">
                             <div className="col-12 position-relative">
                                 <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>

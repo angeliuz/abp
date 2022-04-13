@@ -44,7 +44,7 @@ function Page026(props) {
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-40 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-40 mbp-60 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
 
               <div className="col-6 p-0 m-0 position-relative">

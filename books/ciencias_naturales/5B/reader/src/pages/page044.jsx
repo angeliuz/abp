@@ -130,15 +130,15 @@ function Page044(props) {
             <div className="row p-0 m-0  w-100">
               <div className="col-12 p-0 msp--10 position-relative">
                 <div className="d-flex justify-content-center">
-                  <div className=" wp-500  psp-20 pbp-20  ptp-10 pep-10 border-style-solid border-1 border-color-dark bgc-pantro  position-relative ">
-                    <div className="position-absolute top-0 start-0 translate-middle     msp-20  mtp-20   hp-15 wp-15   border-style-solid  border-color-dark border-1 bgc-saitama rounded-circle "></div>
-                    <div className="position-absolute top-0 start-100 translate-middle   msp--20 mtp-20   hp-15 wp-15   border-style-solid  border-color-dark border-1 bgc-saitama rounded-circle "></div>
-                    <div className="position-absolute top-100 start-100 translate-middle msp--20 mtp--20  hp-15 wp-15   border-style-solid  border-color-dark border-1 bgc-saitama rounded-circle "></div>
-                    <div className="position-absolute top-100 start-0 translate-middle   msp-20  mtp--20  hp-15 wp-15   border-style-solid  border-color-dark border-1 bgc-saitama rounded-circle "></div>
+                  <div className="wp-510 psp-20 pbp-20 ptp-10 pep-10 border-style-solid border-1 border-color-dark bgc-pantro position-relative ">
+                    <div className="position-absolute top-0 start-0 translate-middle msp-20  mtp-20 hp-15 wp-15 border-style-solid border-color-dark border-1 bgc-saitama rounded-circle"></div>
+                    <div className="position-absolute top-0 start-100 translate-middle msp--20 mtp-20 hp-15 wp-15 border-style-solid border-color-dark border-1 bgc-saitama rounded-circle"></div>
+                    <div className="position-absolute top-100 start-100 translate-middle msp--20 mtp--20 hp-15 wp-15 border-style-solid border-color-dark border-1 bgc-saitama rounded-circle"></div>
+                    <div className="position-absolute top-100 start-0 translate-middle msp-20 mtp--20 hp-15 wp-15 border-style-solid border-color-dark border-1 bgc-saitama rounded-circle"></div>
 
-                    <div className="position-absolute top-50 start-0 translate-middle    msp--10 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/libreta.png"} className="wp-60" alt="" /></div>
-                    <div className="position-absolute top-0 start-100 translate-middle   msp-10 mtp-70 visible-768 zindex-1"><img src={"images/page_" + pagina + "/estrella.png"} className="wp-40" alt="" /></div>
-                    <div className="position-absolute top-100 start-100 translate-middle  msp-75 mtp--120 visible-768 zindex-1"><img src={"images/page_" + pagina + "/mono.png"} className="wp-140" alt="" /></div>
+                    <div className="position-absolute top-50 start-0 translate-middle msp--10 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/libreta.png"} className="wp-60" alt="" /></div>
+                    <div className="position-absolute top-0 start-100 translate-middle msp-10 mtp-70 visible-768 zindex-1"><img src={"images/page_" + pagina + "/estrella.png"} className="wp-40" alt="" /></div>
+                    <div className="position-absolute top-100 start-100 translate-middle msp-75 mtp--120 visible-768 zindex-1"><img src={"images/page_" + pagina + "/mono.png"} className="wp-140" alt="" /></div>
                     <div className="f-Ubuntu-R fsp-18 lh-sm fw-700 ptp-18 psp-10 pep-10 text-center">Lista de control</div>
 
 
@@ -156,8 +156,7 @@ function Page044(props) {
                     </div>
                     <div className="d-flex w-100 p-2">
                       <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
-                      <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Tengo las autorizaciones necesarias para aplicar la
-                        encuesta</div>
+                      <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Tengo las autorizaciones necesarias para aplicar la encuesta.</div>
                     </div>
                     <div className="d-flex w-100 p-2">
                       <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
@@ -165,8 +164,7 @@ function Page044(props) {
                     </div>
                     <div className="d-flex w-100 p-2">
                       <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
-                      <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Sé qué decir para agradecer y despedirme de mis
-                        encuestados.</div>
+                      <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Sé qué decir para agradecer y despedirme de mis encuestados.</div>
                     </div>
 
                   </div>

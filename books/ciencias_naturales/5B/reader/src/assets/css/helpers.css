@@ -2939,7 +2939,7 @@
   margin-bottom: 15px;
 }
 .mbp-20 {
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
 }
 .mbp-25 {
   margin-bottom: 25px;
@@ -2957,7 +2957,7 @@
   margin-bottom: 45px;
 }
 .mbp-50 {
-  margin-bottom: 50px;
+  margin-bottom: 50px !important;
 }
 .mbp-55 {
   margin-bottom: 55px;
@@ -5467,6 +5467,18 @@
 }
 
 /* MAX WIDTH */
+.max-wp-30 {
+  max-width: 30px !important;
+}
+.max-wp-35 {
+  max-width: 35px !important;
+}
+.max-wp-40 {
+  max-width: 40px !important;
+}
+.max-wp-45 {
+  max-width: 45px !important;
+}
 .max-wp-100 {
   max-width: 100px !important;
 }
