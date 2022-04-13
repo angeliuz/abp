@@ -111,7 +111,7 @@ function Page067(props) {
                                             id={"imagen_" + pagina + "_" + (indexInput += 1)}
                                             className="w-100 bgc-white"
                                             colorUnidad={background}
-                                            imagenPlaceHolder1="images/generales/subir_imagen2.svg"
+                                            imagenPlaceHolder1="images/generales/subir_imagen1.svg"
                                             imagenPlaceHolder2="images/generales/subir_imagen2.svg"
                                             titulo="Subir imagen"
                                         />
