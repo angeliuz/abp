@@ -48,7 +48,7 @@ xxx
           </div>
 
 
-          <div className="d-flex global-margin mtp-10 mbp-0 psp-30 pep-0 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-30 mbp-0 psp-30 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
                 <ItemLista tipoBullet="letra" valueTipo="a." colorBullet="color-android18" fontSize="fsp-15" fuente="f-Ubuntu-R" color="color-dark">
@@ -83,7 +83,7 @@ xxx
               </div>
 
               <div className="col-6 p-0 m-0 position-relative">
-                <div className="position-absolute top-0 start-50 translate-middle msp--50 mtp--30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-200" alt="" /></div>
+                <div className="position-absolute top-0 start-50 translate-middle msp--20 mtp--40 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="hp-110" alt="" /></div>
                 <div className="position-relative msp-10 mep-10">
 
                   <div className="bgc-buzz rounded-p-10 border-style-solid border-color-saitama border-0 w-100 p-1 f-Ubuntu-L fsp-15 mbp-20">

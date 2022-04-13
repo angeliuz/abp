@@ -162,7 +162,7 @@ xxx
                                     <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mbp-0">
                                         {/* <span className="w-24 f-Ubuntu-L mtp-5 mbp-10">Marco con un <img src="images/generales/ticket.svg" className="hp-17 mtp--3 msp-5 mep-5" alt=""/>el recuadro que mejor me represente.</span> */}
                                         <div className="w-100 p-0 pb-3 position-relative">
-                                            <div className="position-absolute mtp--40 top-0 start-0 msp-10 mtp--10 mbp-10 f-pixilate-bold fsp-18 lh-sm text-start">¿Cómo me siento?</div>
+                                            <div className="position-absolute mtp--50 top-0 start-0 msp-10 mtp--20 mbp-10 f-pixilate-bold fsp-18 lh-sm text-start">¿Cómo me siento?</div>
                                             <div className="d-flex position-absolute align-items-start w-100  mbp-50 top-0 start-0 msp-10 mtp--20 f-Ubuntu-R fsp-15  lh-sm text-start">Marco con un <img src={"images/page_" + pagina + "/ticket.svg"} className="wp-15 msp-5 mep-5 p-0 mpt-0 " alt="" /> el recuadro que mejor me represente.</div>
                                             <table className="w-100">
 

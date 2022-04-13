@@ -107,8 +107,8 @@ function Page017(props) {
 
               </div>
               <div className="col-sm-12 col-md-6 p-0 m-0 position-relative">
-                <div className="position-absolute top-50 start-100 translate-middle msp--51 mtp--108 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-130" alt="" /></div>
-                <div className="position-absolute top-50 start-0 translate-middle msp-30 mtp--80 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-60" alt="" /></div>
+                <div className="position-absolute top-0 start-100 translate-middle msp--51 mtp-85 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-130" alt="" /></div>
+                <div className="position-absolute top-0 start-0 translate-middle msp-30 mtp-100 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-60" alt="" /></div>
 
                 <div className="d-flex msp-10 mep-10 mtp-especial-17 mbp-10 psp-0 pep-0 ptp-0 pbp-0">
                   <div className="row p-0 m-0 w-100">

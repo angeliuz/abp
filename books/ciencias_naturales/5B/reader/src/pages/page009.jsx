@@ -20,10 +20,15 @@ function Page009(props) {
       <div className="d-flex flex-column align-items-center pbp-20">
         <div className={"dosier-e" + etapa + " page bgc-white overflow-hidden position-relative"} id={"page_" + pagina}>
 
+          <div className="mtp-60 ">
+            <div className="d-flex justify-content-center">
+              <img src="images/page_009/fondo_002.svg" className="cb-dosier" alt="" />
+            </div>
+          </div>
 
-          <div className="d-flex global-margin mtp-30 mbp-0 psp-0 pep-0 ptp-0 pbp-0 f-Ubuntu-R fsp-15">
+          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 f-Ubuntu-R fsp-15">
 
-            <div className="position-relative w-100 mtp-150 mbp-10">
+            <div className="position-relative w-100 mtp-0 mbp-10">
               <div className="psp-20 pep-20 ptp-30 pbp-0 position-relative">
                 <div className="fsp-16 f-Ubuntu-R text-start psp-50 pbp-10">Esta página fue completada por:</div>
                 <div className={"psp-50 pep-50 ptp-5 pbp-5 bgc-white rounded-p-10 border-style-solid border-1 " + borderColor + " d-flex justify-content-center position-relative"}>

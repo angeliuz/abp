@@ -110,7 +110,7 @@ function Page033(props) {
           <div className="d-flex global-margin mtp-0 mbp-20 psp-30 pep-30 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-sm-12 col-md-5 position-relative">
-                <table className=" f-Ubuntu-L fsp-16 border-2 border-style-solid border-color-dark text-start mbp-20 ">
+                <table className=" f-Ubuntu-L fsp-15 border-2 border-style-solid border-color-dark text-start mbp-20 ">
                   <thead>
                     <tr>
                       <td
@@ -268,37 +268,67 @@ function Page033(props) {
                       <div className="border-style-solid border-4 border-color-kitana">
                         <div className="d-flex flex-column bgc-white">
                           <div className="psp-10 pep-10 ptp-10 pbp-10 f-Ubuntu-R fsp-15">
-                            <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
-                              <div className="f-Ubuntu-L msp-10 ptp-10 fsp-15 lh-sm pep-5 text-start     ">
-                                El tamaño de la porción es{" "}
-                              </div>
-                              <InputBox
-                                id={"p" + pagina + "_input" + (indexInput += 1)}
-                                className="mtp-0 w-10 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35"
-                              />
+
+                            <div className="d-flex align-items-start justify-content-start f-Ubuntu-L fsp-15 lh-sm text-start">
+                              <div className="ptp-10 pep-5">El tamaño de la porción es</div>
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 w-10 p-0 px-1 text-center flex-grow-1 contenedor-linea lhp-35 hp-35 f-Ubuntu-R overflow-auto" />
                             </div>
-                            <div className="d-flex align-items-start justify-content-start f-Ubuntu-R fsp-15   ">
-                              <div className="f-Ubuntu-L msp-10 ptp-10 fsp-15 lh-sm pep-5 text-start     ">
-                                El producto tiene{" "}
-                              </div>
-                              <InputBox
-                                id={"p" + pagina + "_input" + (indexInput += 1)}
-                                className="mtp-0 w-10 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35"
-                              />
+
+                            <div className="d-flex align-items-start justify-content-start f-Ubuntu-L fsp-15 lh-sm text-start mtp-15">
+                              <div className="ptp-10 pep-5">El producto tiene</div>
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 w-10 p-0 px-1 text-center flex-grow-1 contenedor-linea lhp-35 hp-35 max-wp-45 f-Ubuntu-R overflow-auto" />
+                              <div className="ptp-10 psp-5">porciones por envase.</div>
                             </div>
-                            <div className="text-start f-Ubuntu-L fsp-14 msp-10">
-                              porciones por envase.
+
+                            <div className="d-flex align-items-start justify-content-start f-Ubuntu-L fsp-15 lh-sm text-start mtp-15">
+                              <div className="ptp-10 pep-5">Una porción aporta</div>
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 w-10 p-0 px-1 text-center flex-grow-1 contenedor-linea lhp-35 hp-35 max-wp-45 f-Ubuntu-R overflow-auto" />
+                              <div className="ptp-10 psp-5">kcal de energía,</div>
                             </div>
-                            <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
-                              <div className="f-Ubuntu-L msp-10 ptp-10 fsp-15 lh-sm pep-5 text-start     ">
-                                Una porción aporta{" "}
-                              </div>
-                              <InputBox
-                                id={"p" + pagina + "_input" + (indexInput += 1)}
-                                className="mtp-0 w-10 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35"
-                              />
+
+                            <div className="d-flex align-items-start justify-content-start f-Ubuntu-L fsp-15 lh-sm text-start">
+                              <div className="ptp-10 pep-5">0,6 gramos de</div>
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 w-10 p-0 px-1 text-center flex-grow-1 contenedor-linea lhp-35 hp-35 f-Ubuntu-R overflow-auto" />
+                              <div className="ptp-10 pep-5 psp-5">,</div>
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 w-10 p-0 px-1 text-center flex-grow-1 contenedor-linea lhp-35 hp-35 max-wp-45 f-Ubuntu-R overflow-auto" />
                             </div>
-                            <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+
+                            <div className="d-flex align-items-start justify-content-start f-Ubuntu-L fsp-15 lh-sm text-start">
+                              <div className="ptp-10 pep-5">gramos de grasa,</div>
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 w-10 p-0 px-1 text-center flex-grow-1 contenedor-linea lhp-35 hp-35 f-Ubuntu-R overflow-auto" />
+                              <div className="ptp-10 psp-5">gramos de hidratos</div>
+                            </div>
+
+                            <div className="d-flex align-items-start justify-content-start f-Ubuntu-L fsp-15 lh-sm text-start">
+                              <div className="ptp-10 pep-5">de carbono,</div>
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 w-10 p-0 px-1 text-center flex-grow-1 contenedor-linea lhp-35 hp-35 f-Ubuntu-R overflow-auto" />
+                              <div className="ptp-10 psp-5">gramos de azúcar y</div>
+                            </div>
+
+                            <div className="d-flex align-items-start justify-content-start f-Ubuntu-L fsp-15 lh-sm text-start">
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 w-10 p-0 px-1 text-center flex-grow-1 contenedor-linea lhp-35 hp-35 max-wp-45 f-Ubuntu-R overflow-auto" />
+                              <div className="ptp-10 psp-5">miligramos de sodio.</div>
+                            </div>
+
+                            <div className="d-flex align-items-start justify-content-start f-Ubuntu-L fsp-15 lh-sm text-start mtp-15">
+                              <div className="ptp-10 hp-35">El porcentaje en relación a la dosis diaria</div>
+                            </div>
+
+                            <div className="d-flex align-items-start justify-content-start f-Ubuntu-L fsp-15 lh-sm text-start">
+                              <div className="ptp-10 pep-5">recomendada de la vitamina C es</div>
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 w-10 p-0 px-1 text-center flex-grow-1 contenedor-linea lhp-35 hp-35 f-Ubuntu-R overflow-auto" />
+                              <div className="ptp-10 psp-5">y</div>
+                            </div>
+
+                            <div className="d-flex align-items-start justify-content-start f-Ubuntu-L fsp-15 lh-sm text-start">
+                              <div className="ptp-10 pep-5">de la vitamina B6</div>
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 w-10 p-0 px-1 text-center flex-grow-1 contenedor-linea lhp-35 hp-35 f-Ubuntu-R overflow-auto" />
+                              <div className="ptp-10 psp-5">.</div>
+                            </div>
+
+
+
+                            {/* <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
                               <div className="f-Ubuntu-L msp-10 ptp-10 fsp-15 lh-sm pep-5 text-start     ">
                                 kcal de energía, 0,6 gramos de{" "}
                               </div>
@@ -368,7 +398,7 @@ function Page033(props) {
                                 id={"p" + pagina + "_input" + (indexInput += 1)}
                                 className="mtp-0 w-10 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35"
                               />
-                            </div>
+                            </div> */}
                           </div>
                         </div>
                       </div>
