@@ -103,12 +103,38 @@ function Page072(props) {
 
             </div>
           </div>
+
           <div className="cb-bajada-p72">
             <div className="d-flex mbp-20">
               <div className="f-ccdigitaldelivery-bold fsp- color-pikachu">b.</div>
               <div className="f-Ubuntu-R fsp-16 psp-10">Hacemos una lista con las tareas y las distribuimos.</div>
             </div>
           </div>
+
+          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 m-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative">
+
+                <div className="row bgc-red">
+                  <div className="col">
+                    <div className="bgc-barbie cb-ejercicio-caja mbp-20 triangulo-p72">
+                      <div className="psp-15 pep-15">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-30" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col">
+                    <div className="bgc-windu cb-ejercicio-caja mbp-10">
+                      <div className="psp-15 pep-15">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-30" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="cb-ejercicio2-p72 d-flex mbp-80 position-relative">
             <div className="cb-ejercicio-ladoa pep-5 text-center">
               <img src="images/page_072/img_006.png" className="cb-tarjeta-p72" />
