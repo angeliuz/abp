@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import Check from "../components/Check";
+import CheckMultiple from "../components/CheckMultiple";
 
 import "./page_018.css";
 
@@ -47,7 +48,7 @@ function Page018(props) {
                     <div className="psp-60 pep-60 ptp-20 pbp-40">
                         <div className="bgc-white sombra-2 psp-40 pep-20 ptp-20 pbp-20 position-relative">
                             <div className="row">
-                                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-pidgey">
+                                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-pidgey position-relative">
                                     <div className=" py-2 color-pidgey f-pixilate-bold fsp-18">
                                         Coordinación
                                     </div>
@@ -63,8 +64,17 @@ function Page018(props) {
                                             Se asegura que todos participen.
                                         </div>
                                     </div>
+                                    <div className="position-absolute top-0 start-100 msp--80 mtp-10">
+                                        <CheckMultiple
+                                            id={"check_p" + pagina + "_" + (indexInput += 1)}
+                                            image0={"images/generales/check_vacio.svg"}
+                                            image1={"images/generales/ticket.svg"}
+                                            image2={"images/generales/cruz.svg"}
+                                            classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-circle disable-select d-flex center-center p-1"
+                                        />
+                                    </div>
                                 </div>
-                                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-pikachu">
+                                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-pikachu position-relative">
                                     <div className=" py-2 color-pikachu f-pixilate-bold fsp-18 ">
                                         Supervisión
                                     </div>
@@ -80,9 +90,18 @@ function Page018(props) {
                                             Se asegura que todos cumplan las tareas en el plazo asignado.
                                         </div>
                                     </div>
+                                    <div className="position-absolute top-0 start-100 msp--80 mtp-10">
+                                        <CheckMultiple
+                                            id={"check_p" + pagina + "_" + (indexInput += 1)}
+                                            image0={"images/generales/check_vacio.svg"}
+                                            image1={"images/generales/ticket.svg"}
+                                            image2={"images/generales/cruz.svg"}
+                                            classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-circle disable-select d-flex center-center p-1"
+                                        />
+                                    </div>
                                 </div>
 
-                                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-goten">
+                                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-goten position-relative">
                                     <div className="linea-goten"></div>
                                     <div className=" py-2 color-goten f-pixilate-bold fsp-18 ">
                                         Relaciones públicas
@@ -99,8 +118,17 @@ function Page018(props) {
                                             Pide ayuda a otros equipos.
                                         </div>
                                     </div>
+                                    <div className="position-absolute top-0 start-100 msp--80 mtp-10">
+                                        <CheckMultiple
+                                            id={"check_p" + pagina + "_" + (indexInput += 1)}
+                                            image0={"images/generales/check_vacio.svg"}
+                                            image1={"images/generales/ticket.svg"}
+                                            image2={"images/generales/cruz.svg"}
+                                            classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-circle disable-select d-flex center-center p-1"
+                                        />
+                                    </div>
                                 </div>
-                                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-balrog">
+                                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-balrog position-relative">
                                     <div className=" py-2 color-balrog f-pixilate-bold fsp-18 ">
                                         Intendencia
                                     </div>
@@ -115,6 +143,15 @@ function Page018(props) {
                                         <div className="f-Ubuntu-L py-1 mtp--23 msp-20">
                                             Comprueba que se mantiene un entorno limpio y ordenado.
                                         </div>
+                                    </div>
+                                    <div className="position-absolute top-0 start-100 msp--80 mtp-10">
+                                        <CheckMultiple
+                                            id={"check_p" + pagina + "_" + (indexInput += 1)}
+                                            image0={"images/generales/check_vacio.svg"}
+                                            image1={"images/generales/ticket.svg"}
+                                            image2={"images/generales/cruz.svg"}
+                                            classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-circle disable-select d-flex center-center p-1"
+                                        />
                                     </div>
                                 </div>
                             </div>
@@ -157,7 +194,7 @@ function Page018(props) {
                                     />
                                 </div>
                                 <img src="images/page_020/img_002.png" className="hp-160 position-absolute start-100 top-50 msp--40 mtp--50" alt="" />
-                            <div className="position-absolute top-50 start-100 translate-middle msp-50 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-100" alt="" /></div>
+                                <div className="position-absolute top-50 start-100 translate-middle msp-50 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-100" alt="" /></div>
                             </div>
                         </div>
 
@@ -170,7 +207,7 @@ function Page018(props) {
                                         Marco la alternativa que más me representa.
                                     </div>
                                     <table className="w-100">
-                                    
+
                                         <tbody>
                                             <tr>
                                                 <td> </td>
@@ -197,28 +234,28 @@ function Page018(props) {
                                                 <td className={"bgc-white f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-1 " + borderColorTabla}>
                                                     <div className="d-flex center-center">
                                                         <div className="wp-30 hp-30 rounded-1">
-                                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td className={"bgc-white min-hp-100 p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-1 " + borderColorTabla}>
                                                     <div className="d-flex center-center">
                                                         <div className="wp-30 hp-30 rounded-1">
-                                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td className={"bgc-white min-hp-100 p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-1 " + borderColorTabla}>
                                                     <div className="d-flex center-center">
                                                         <div className="wp-30 hp-30 rounded-1">
-                                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td className={"bgc-white rounded-te-10  min-hp-100 p-0 m-0 border-style-solid border-top-hidden border-left-hidden border-right-hidden border-1 " + borderColorTabla}>
                                                     <div className="d-flex center-center">
                                                         <div className="wp-30 hp-30 bgc-white rounded-1">
-                                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                         </div>
                                                     </div>
                                                 </td>
@@ -234,28 +271,28 @@ function Page018(props) {
                                                 <td className={"bgc-white f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-bottom-hidden border-1 " + borderColorTabla}>
                                                     <div className="d-flex center-center">
                                                         <div className="wp-30 hp-30  rounded-1">
-                                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td className={"bgc-white f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-bottom-hidden border-1 " + borderColorTabla}>
                                                     <div className="d-flex center-center">
                                                         <div className="wp-30 hp-30 rounded-1">
-                                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td className={"bgc-white f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-right-hidden border-bottom-hidden border-1 " + borderColorTabla}>
                                                     <div className="d-flex center-center">
                                                         <div className="wp-30 hp-30 rounded-1">
-                                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td className={"bgc-white rounded-be-10   f-Ubuntu-L fsp-12 text-start p-0 m-0 border-style-solid border-left-hidden border-bottom-hidden border-right-hidden border-1 " + borderColorTabla}>
                                                     <div className="d-flex center-center">
                                                         <div className="wp-30  rounded-1">
-                                                        <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                         </div>
                                                     </div>
                                                 </td>
@@ -309,7 +346,7 @@ function Page018(props) {
                     {/* END PIE DE PAGINA */}
                 </div>
             </div>
-        </div>
+        </div >
 
     );
 }

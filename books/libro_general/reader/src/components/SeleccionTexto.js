@@ -66,29 +66,57 @@ function SeleccionTexto(props) {
       });    
     }
 
-    const concatenaTexto = () =>{
+
+    var textoFormateado = false;
+
+    const [isActive, setActive] = useState("false");
+    const [estadoTemp, setEstadoTemp] = useState("");
+
+
+    const ToggleClass = () => {
+      setActive(!isActive); 
+     };
+
+
+    const concatenaTexto = (e) =>{
+
+      if(textoFormateado != true){
         console.log("Texto Referencia: ",textoReferencia.current);
         var contents = textoReferencia.current.textContent.split(' ')
         var temp = '';
 
+
         for (var i = 0; i < contents.length; i++) {
-            temp += '<span>' + contents[i] + '</span> ';
+
+          temp += "<span class='"+estadoTemp+"' id='underline_"+i+"'>" + contents[i] + "</span> ";
         } 
+        textoFormateado = true;
+  
+          setContent1(temp);
+  
+          console.log("texto formateado: ",textoFormateado)
 
-        setContent1(temp);
+      }
 
-        console.log(temp)
+      creaUnderline(e);
+
     }
 
     const creaUnderline= (e) =>{
-        console.log("underline", e.current);
+        console.log("texto underline", e.target.id);
+        if(estadoTemp != ""){
+          setEstadoTemp("underline")
+        }else{
+          setEstadoTemp("")
+        }
+        // e.target.toggleClass('underline');
     }
      
-    //concatenaTexto();
+   // concatenaTexto();
     
     return(
         <div className={classNameContenedor}>
-            <p className={classNameTexto} ref={textoReferencia} onClick={creaUnderline} onLoad={concatenaTexto} dangerouslySetInnerHTML={{ __html: content1 }}></p>
+            <p className={classNameTexto} ref={textoReferencia} onClick={concatenaTexto} dangerouslySetInnerHTML={{ __html: content1 }}></p>
         </div>
     );
 }

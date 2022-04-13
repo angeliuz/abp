@@ -286,7 +286,7 @@ const SubirImagen = (props) => {
                                         <img src="images/generales/celular.png" alt="icono celular" />
                                     </div>
                                     <div className="p-2 flex-fill text-start">
-                                        Puedes subir una fotografía de tu actividad con tu smartphone ingresando el siguiente código <strong>https://abp.smconecta.cl</strong>
+                                    Puedes subir directamente la imagen de la actividad desde tu computador. También puedes tomar una fotografía con tu celular y cargarla en <strong>https://abp.smconecta.cl</strong> ingresando el siguiente código.
                                     </div>
                                     <div className="bgc-white flex-fill psp-20 pep-20 ptp-10 pbp-10 rounded-p-20 border-style-solid border-color-dark border-2 fsp-25">
                                         {idQR}

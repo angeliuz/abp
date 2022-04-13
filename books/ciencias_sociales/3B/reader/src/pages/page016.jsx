@@ -3,6 +3,7 @@ import { useState } from "react";
 import InputBox from "../components/InputBox";
 import Check from "../components/Check";
 import ModalRecortable from "../components/ModalRecortable";
+import CheckMultiple from "../components/CheckMultiple";
 
 import "./page_016.css";
 
@@ -45,7 +46,7 @@ function Page016(props) {
               <div className="row">
 
 
-                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-pidgey">
+                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-pidgey position-relative">
                   <div className=" py-2 color-pidgey f-pixilate-bold fsp-18">
                     Coordinación
                   </div>
@@ -61,8 +62,17 @@ function Page016(props) {
                       Se asegura de que todos participen.
                     </div>
                   </div>
+                  <div className="position-absolute top-0 start-100 msp--80 mtp-10">
+                    <CheckMultiple
+                      id={"check_p" + pagina + "_" + (indexInput += 1)}
+                      image0={"images/generales/check_vacio.svg"}
+                      image1={"images/generales/ticket.svg"}
+                      image2={"images/generales/cruz.svg"}
+                      classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-circle disable-select d-flex center-center p-1"
+                    />
+                  </div>
                 </div>
-                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-pikachu">
+                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-pikachu position-relative">
                   <div className=" py-2 color-pikachu f-pixilate-bold fsp-18 ">
                     Supervisión
                   </div>
@@ -79,9 +89,18 @@ function Page016(props) {
                       asignado.
                     </div>
                   </div>
+                  <div className="position-absolute top-0 start-100 msp--80 mtp-10">
+                    <CheckMultiple
+                      id={"check_p" + pagina + "_" + (indexInput += 1)}
+                      image0={"images/generales/check_vacio.svg"}
+                      image1={"images/generales/ticket.svg"}
+                      image2={"images/generales/cruz.svg"}
+                      classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-circle disable-select d-flex center-center p-1"
+                    />
+                  </div>
                 </div>
 
-                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-goten">
+                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-goten position-relative">
                   <div className="linea-goten"></div>
                   <div className=" py-2 color-goten f-pixilate-bold fsp-18 ">
                     Relaciones públicas
@@ -98,8 +117,17 @@ function Page016(props) {
                       Pide ayuda a otros equipos.
                     </div>
                   </div>
+                  <div className="position-absolute top-0 start-100 msp--80 mtp-10">
+                    <CheckMultiple
+                      id={"check_p" + pagina + "_" + (indexInput += 1)}
+                      image0={"images/generales/check_vacio.svg"}
+                      image1={"images/generales/ticket.svg"}
+                      image2={"images/generales/cruz.svg"}
+                      classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-circle disable-select d-flex center-center p-1"
+                    />
+                  </div>
                 </div>
-                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-balrog">
+                <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-balrog position-relative">
                   <div className=" py-2 color-balrog f-pixilate-bold fsp-18 ">
                     Intendencia
                   </div>
@@ -114,6 +142,15 @@ function Page016(props) {
                     <div className="f-Ubuntu-L py-1 mtp--23 msp-20">
                       Comprueba que se mantiene un entorno limpio y ordenado.
                     </div>
+                  </div>
+                  <div className="position-absolute top-0 start-100 msp--80 mtp-10">
+                    <CheckMultiple
+                      id={"check_p" + pagina + "_" + (indexInput += 1)}
+                      image0={"images/generales/check_vacio.svg"}
+                      image1={"images/generales/ticket.svg"}
+                      image2={"images/generales/cruz.svg"}
+                      classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-circle disable-select d-flex center-center p-1"
+                    />
                   </div>
                 </div>
               </div>

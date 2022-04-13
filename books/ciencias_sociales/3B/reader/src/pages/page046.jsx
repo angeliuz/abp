@@ -68,12 +68,13 @@ function Page046(props) {
 
 
                     </div>
-                    <div className="col-7 d-flex justify-content-center bgc-red ">
+                    <div className="col-7 d-flex justify-content-center bgc-draco rounded-be-30">
                       <div className="position-relative w-100 ">
                         <div className="text-start mtp-10 msp-10 pbp-20 w-100 pep-30" >
                           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
                         </div>
                         <img className="hp-50 align-center position-absolute top-0 end-0 mtp--5 mep-10 " src="images/page_046/img_003.svg" alt="" />
+                      <div className="position-absolute top-100 start-100 translate-middle msp--16 mtp--15 zindex-1"><img src={"images/page_" + pagina + "/img_007.png"} className="wp-60" alt="" /></div>
                       </div>
                     </div>
 
