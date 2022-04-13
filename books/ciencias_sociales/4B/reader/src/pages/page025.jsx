@@ -82,11 +82,11 @@ function Page025(props) {
               <div className="position-absolute top-0 start-100 translate-middle  mtp-0 visible-768"><img src={"images/page_" + pagina + "/img_002.png"} className=" " alt="" />
                 </div>
 
-                <div className="d-flex align-items-center psp-20 pep-20 ptp-0 pbp-10 min-hp-500 border-style-solid border-3 border-color-android18 w-100 rounded-p-20">
+                <div className="d-flex align-items-center justify-content-center psp-20 pep-20 ptp-0 pbp-10 min-hp-500 border-style-solid border-3 border-color-android18 w-100 rounded-p-20">
 
                 <SubirImagen
                     id={"imagen_" + pagina + "_" + (indexInput += 1)}
-                    className="w-100 bgc-white"
+                    className="wp-300 bgc-white"
                     colorUnidad={background}
                     imagenPlaceHolder="images/generales/subir_imagen.svg"
                     titulo="Subir imagen"

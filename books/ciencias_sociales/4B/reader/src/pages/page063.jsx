@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import SubirImagen from '../components/SubirImagen';
 
 import "./page_063.css";
 
@@ -36,12 +37,19 @@ function Page063(props) {
             </div>
 
             <div className="position-absolute top-0 start-100 hoja-p39 zindex-2">
-              <div className="position-relative bgc-white border-style-solid border-1 border-dark wp-250 hp-200 d-flex flex-column p-2 giro--4deg sombra-1">
+              <div className="position-relative bgc-white border-style-solid border-1 border-dark wp-250 min-hp-200 d-flex flex-column p-2 giro--4deg sombra-1">
                 <div className=" mxwp-160 centrar-hor f-pixilate-regular fsp-21">Dibuja aquí la insignia de tu equipo</div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-25 min-hp-35" />
-
+                <div className="w-100 d-flex justify-content-center align-items-center ">
+                  <SubirImagen
+                    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                    className="wp-140 bgc-white"
+                    colorUnidad={background}
+                    imagenPlaceHolder="images/generales/subir_imagen.svg"
+                    titulo="Subir imagen"
+                  />
+                </div>
                 <div className="position-absolute top-0 start-100 translate-middle msp--30 mtp-17 zindex-1"><img src={"images/page_" + pagina + "/clip.svg"} className="wp-30" alt="" /></div>
-                <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/estrella.png"} className="wp-60" alt="" /></div>
+                {/* <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/estrella.png"} className="wp-60" alt="" /></div> */}
 
               </div>
             </div>
