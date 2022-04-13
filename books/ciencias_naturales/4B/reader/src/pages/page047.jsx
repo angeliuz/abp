@@ -44,7 +44,7 @@ function Page047(props) {
             </div>
           </div>
 
-          <div className="ptp-10 psp-130 pep-80 mbp-0">
+          <div className="ptp-10 psp-130 pep-80 mbp-80">
             <div className="row mbp-10 position-relative">
               
               <div className="d-flex border-style-solid border-color-android18 border-3 p-0 m-0 position-relative">

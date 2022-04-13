@@ -64,15 +64,16 @@ function Page018(props) {
               <div className="position-absolute translate-middle start-0 top-0 mtp-15 msp-15"><img src="images/page_018/img_001.svg" className="hp-60" alt=""/> </div>          
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="w-100 p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-90 msp-15"/>        
+                    className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-90 msp-15 mep-15"/>        
               </div>
               </div>
               <div className="col-md-6 col-12 position-relative"> 
+              <div className="position-absolute translate-middle start-100 top-0 mtp-35 msp-5 zindex-1"><img src="images/page_018/img_010.png" className="hp-50" alt=""/> </div>
               <div className="mxwp-300 centrar bgc-white border-style-solid border-color-dark border-1 position-relative psp-10 pep-10 mbp-10">
               <div className="position-absolute translate-middle start-0 top-0 mtp-15 msp-15"><img src="images/page_018/img_001.svg" className="hp-60" alt=""/> </div>          
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="w-100 p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-90 msp-15"/>        
+                    className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-90 msp-15 mep-15"/>        
               </div>
               </div>
        
@@ -81,7 +82,7 @@ function Page018(props) {
               <div className="position-absolute translate-middle start-0 top-0 mtp-15 msp-15"><img src="images/page_018/img_001.svg" className="hp-60" alt=""/> </div>          
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="w-100 p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-90 msp-15"/>        
+                    className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-90 msp-15 mep-15"/>        
               </div>
               </div>
               <div className="col-md-6 col-12 position-relative"> 
@@ -89,7 +90,7 @@ function Page018(props) {
               <div className="position-absolute translate-middle start-0 top-0 mtp-15 msp-15"><img src="images/page_018/img_001.svg" className="hp-60" alt=""/> </div>          
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="w-100 p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-90 msp-15"/>        
+                    className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-90 msp-15 mep-15"/>        
               </div>
               </div>
          
@@ -118,7 +119,7 @@ function Page018(props) {
               </div>
               <img
                 src="images/page_018/img_011.png"
-                className="position-absolute hp-200 translate-middle top-0 start-100 mtp--95 msp--5 visible-768"
+                className="position-absolute hp-150 translate-middle top-0 start-100 mtp--95 msp-0 visible-768"
                 alt=""
               />
               <img
