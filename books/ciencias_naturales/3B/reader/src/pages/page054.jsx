@@ -85,7 +85,7 @@ function Page054(props) {
           </div>
 
           <div className="d-flex flex-column global-margin mtp-30 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
-            <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-10 w-100">¿cómo vamos?</div>
+            <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-10 w-100">¿Cómo vamos?</div>
             <div className="row p-0 m-0 w-100">
               <div className="col-6 p-0 m-0 position-relative">
                 <div className="d-flex flex-column  mtp-0 mbp-20 psp-0 pep-10 ptp-0 pbp-0">
