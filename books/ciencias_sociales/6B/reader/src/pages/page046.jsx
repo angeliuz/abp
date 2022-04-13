@@ -92,11 +92,11 @@ function Page046(props) {
           <div className="d-flex  mtp-0 mbp-50 psp-60 pep-60 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
-                <div className="col-12 mtp-30">
+                <div className="col-12 mtp-30 psp-10 pep-10">
                   <div className="f-Ubuntu-R fsp-16 border-style-solid rounded-p-10 border-2 p-2 text-start border-color-lightDark">
                     Obra:
                     <div className="">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="msp-40 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                     </div>
                   </div>
                 </div>
