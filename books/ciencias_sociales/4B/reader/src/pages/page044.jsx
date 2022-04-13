@@ -86,7 +86,7 @@ function Page044(props) {
           </div>
 
           <div className="ptp-10 psp-60 pep-50 mbp-60 position-relative">
-            <div className="position-absolute top-0 start-100 translate-middle visible-768"><img src="images/page_044/mono.png" className="wp-140 msp--180 mtp--55" alt="" /></div>
+            <div className="position-absolute top-0 start-100 translate-middle visible-768"><img src="images/page_044/mono.png" className="wp-150 msp--195 mtp--75" alt="" /></div>
             <div className="d-flex">
               <div className="f-ccdigitaldelivery-bold fsp-35 color-pidgey">5</div>
               <div className="f-Ubuntu-R fsp-14 ptp-18 psp-10 text-start">Conversamos: ¿Qué conclusiones podemos sacar a partir de las fichas?</div>
