@@ -106,9 +106,7 @@ function Page046(props) {
                 <div className=" col-4 position-relative">
                   <div className="text-center w-100 border-1 border-style-solid border-color-danger rounded-p-10  mtp-10">
                    
-                    <div className="psp-15 pep-15">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
-                    </div>
+                  <div className="msp--100"><img src="images/page_046/flecha_morada.png" className=" " alt="" /></div>
                   </div>
                 </div>
                 <div className="col-8 position-relative">
