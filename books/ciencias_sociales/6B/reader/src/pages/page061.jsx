@@ -103,162 +103,166 @@ function Page061(props) {
               <div className="col-12">
                 <div className="row">
 
-                <div className="d-flex flex-row bd-highlight mb-3 col-6 p-2 position-relative ">
-                <div className="position-absolute top-0 start-50 translate-middle bgc-haydn mtp-12  w-50 f-Ubuntu-B text-center color-white fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5">
-                        {" "}
-                        Tarea{" "}
-                      </div>
-              <div className="position-absolute top-50 start-100 translate-middle zindex-1 mtp--20"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-45 mtp-55 mep-0" alt="" /></div>
-              
-                <div className=" mtp-20 border-style-solid border-1 border-color-akuma rounded-p-10 bgc-white  p-2 w-100">
-                  
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                </div>
-              </div>
+                  <div className="d-flex flex-row bd-highlight mb-3 col-6 p-2 position-relative ">
+                  <div className="position-absolute top-0 start-0 translate-middle color-akuma fsp-18 fw-700 msp-30 mtp-50">
+                            1
+                          </div>
+                    <div className="position-absolute top-0 start-50 translate-middle bgc-haydn mtp-12  w-50 f-Ubuntu-B text-center color-white fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5">
+                      {" "}
+                      Tarea{" "}
+                    </div>
+                    <div className="position-absolute top-50 start-100 translate-middle zindex-1 mtp--20">
+                      <img
+                        src={"images/page_" + pagina + "/espiral.svg"}
+                        className="wp-45 mtp-55 mep-0"
+                        alt=""
+                      />
+                    </div>
 
-                  <div className="col-6 position-relative">
-                    <div className="mtp-20">
-                      <div className="position-absolute top-0 start-50 translate-middle bgc-haydn mtp-5  w-50 f-Ubuntu-B text-center color-white fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5">
-                        {" "}
-                        Responsable{" "}
-                      </div>
-                      <div className="w-100  p-1 m-2 border-style-solid border-1 border-color-haydn rounded-p-10  lh-sm text-start p-2 position-relative">
-                        <div className="position-absolute top-50 start-0 translate-middle  msp--12 mtp-0   zindex-1">
-                          <img
-                            src={"images/page_" + pagina + "/espiral.svg"}
-                            className="wp-50"
-                            alt=""
-                          />
-                        </div>
+                    <div className=" mtp-20 border-style-solid border-1 border-color-akuma rounded-p-10 bgc-white  p-2 w-100">
+                      <InputBox
+                        id={"p" + pagina + "_input" + (indexInput += 1)}
+                        className="msp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
+                      />
+                    </div>
+                  </div>
 
-                        <div className="position-absolute top-0 start-100 translate-middle  msp-10 mtp-0 visible-768 zindex-1">
-                          <img
-                            src={"images/page_" + pagina + "/img_004.png"}
-                            className="wp-60"
-                            alt=""
-                          />
-                        </div>
-                        <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
-                          <InputBox
-                            id={"p" + pagina + "_input" + (indexInput += 1)}
-                            className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
-                          />
-                        </div>
-                      </div>
+                  <div className="d-flex flex-row bd-highlight mb-3 col-6 p-2 position-relative ">
+                  <div className="position-absolute top-0 start-100 translate-middle zindex-1 mtp--10">
+                      <img
+                        src={"images/page_" + pagina + "/img_004.png"}
+                        className="wp-60 mtp-55 mep-0"
+                        alt=""
+                      />
+                    </div>
+                    <div className="position-absolute top-0 start-50 translate-middle bgc-haydn mtp-12  w-50 f-Ubuntu-B text-center color-white fsp-15 rounded-set-10 psp-10 pep-10 ptp-5 pbp-5">
+                      {" "}
+                      Responsable{" "}
+                    </div>
+
+                    <div className=" mtp-20 border-style-solid border-1 border-color-akuma rounded-p-10 bgc-white  p-2 w-100">
+                      <InputBox
+                        id={"p" + pagina + "_input" + (indexInput += 1)}
+                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
+                      />
                     </div>
                   </div>
 
                   <div className="d-flex flex-row bd-highlight mb-3 col-6 p-2 m-0 position-relative">
-                  <div className="position-absolute top-0 start-50 translate-middle bgc-akuma   mtp--2  w-50 hp-20 f-Ubuntu-B text-center color-white fsp-15   psp-10 pep-10 ptp-5 pbp-5">
-                        {" "}
-                      </div>
-              <div className="position-absolute top-50 start-100 translate-middle zindex-1 mtp--20"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-45 mtp-55 mep-0" alt="" /></div>
-              
-                <div className=" border-style-solid border-1 border-color-akuma rounded-p-10 bgc-white  p-2 w-100">
                   
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                </div>
-              </div>
+                  <div className="position-absolute top-0 start-0 translate-middle color-akuma fsp-18 fw-700 msp-30 mtp-25">
+                            2
+                          </div>
+                    <div className="position-absolute top-0 start-50 translate-middle bgc-akuma   mtp--9  w-50 hp-30 f-Ubuntu-B text-center color-white fsp-15   psp-10 pep-10 ptp-5 pbp-5">
+                      {" "}
+                    </div>
+                    <div className="position-absolute top-50 start-100 translate-middle zindex-1 mtp--20">
+                      <img
+                        src={"images/page_" + pagina + "/espiral.svg"}
+                        className="wp-45 mtp-55 mep-0"
+                        alt=""
+                      />
+                    </div>
 
-              <div className="d-flex flex-row bd-highlight mb-3 col-6 p-2 m-0 position-relative">
-              
-              
-                <div className="border-style-solid border-1 border-color-akuma rounded-p-10 p-2 w-100">
-                  
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
-                </div>
-              </div>
+                    <div className=" mtp--2 border-style-solid border-1 border-color-akuma rounded-p-10 bgc-white  p-2 w-100">
+                      <InputBox
+                        id={"p" + pagina + "_input" + (indexInput += 1)}
+                        className="msp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
+                      />
+                    </div>
+                  </div>
 
-                  <div className="col-6 position-relative">
-                    <div className="mtp-20  position-relative">
-                      <div className="position-absolute top-0 start-50 translate-middle bgc-akuma   mtp--10  w-50 hp-20 f-Ubuntu-B text-center color-white fsp-15   psp-10 pep-10 ptp-5 pbp-5">
-                        {" "}
-                      </div>
-                      <div className="w-100  p-1 m-2 border-style-solid border-1 border-color-akuma rounded-p-10  lh-sm text-start p-2 position-relative">
-                        <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
-                          <div className="psp-5 ptp-10 pep-5 color-akuma fsp-18 fw-700">
+                  <div className="d-flex flex-row bd-highlight mb-3 col-6 p-2 m-0 position-relative">
+                    <div className="position-absolute top-0 start-50 translate-middle bgc-akuma   mtp--9  w-50 hp-30 f-Ubuntu-B text-center color-white fsp-15   psp-10 pep-10 ptp-5 pbp-5">
+                      {" "}
+                    </div>
+                    
+                    <div className=" mtp--2 border-style-solid border-1 border-color-akuma rounded-p-10 bgc-white  p-2 w-100">
+                      <InputBox
+                        id={"p" + pagina + "_input" + (indexInput += 1)}
+                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="d-flex flex-row bd-highlight mb-3 col-6 p-2 m-0 position-relative">
+                  <div className="position-absolute top-100 start-100 translate-middle zindex-1 mtp--22">
+                      <img
+                        src={"images/page_" + pagina + "/img_006.png"}
+                        className="wp-65 mtp-55 mep-0"
+                        alt=""
+                      />
+                    </div>
+                  <div className="position-absolute top-0 start-0 translate-middle color-akuma fsp-18 fw-700 msp-30 mtp-25">
                             3
                           </div>
-                          <InputBox
-                            id={"p" + pagina + "_input" + (indexInput += 1)}
-                            className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
-                          />
-                        </div>
-                      </div>
+                    <div className="position-absolute top-0 start-50 translate-middle bgc-akuma   mtp--9  w-50 hp-30 f-Ubuntu-B text-center color-white fsp-15   psp-10 pep-10 ptp-5 pbp-5">
+                      {" "}
+                    </div>
+                    <div className="position-absolute top-50 start-100 translate-middle zindex-1 mtp--20">
+                      <img
+                        src={"images/page_" + pagina + "/espiral.svg"}
+                        className="wp-45 mtp-55 mep-0"
+                        alt=""
+                      />
+                    </div>
+
+                    <div className=" mtp--2 border-style-solid border-1 border-color-akuma rounded-p-10 bgc-white  p-2 w-100">
+                      <InputBox
+                        id={"p" + pagina + "_input" + (indexInput += 1)}
+                        className="msp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
+                      />
                     </div>
                   </div>
 
-                  <div className="col-6    position-relative">
-                    <div className="mtp-20  position-relative">
-                      <div className="position-absolute top-0 start-50 translate-middle bgc-haydn mtp--10  w-50 hp-20 f-Ubuntu-B text-center color-white fsp-15   psp-10 pep-10 ptp-5 pbp-5">
-                        {" "}
-                      </div>
-                      <div className="w-100  p-1 m-2 border-style-solid border-1 border-color-haydn rounded-p-10  lh-sm text-start p-2 position-relative">
-                        <div className="position-absolute top-100 start-0 translate-middle   zindex-1">
-                          <img
-                            src={"images/page_061/img_006.png"}
-                            className="wp-70 msp--40 mtp-35  "
-                            alt=""
-                          />
-                        </div>
-                        <div className="position-absolute top-50 start-0 translate-middle  msp--12 mtp-0   zindex-1">
-                          <img
-                            src={"images/page_" + pagina + "/espiral.svg"}
-                            className="wp-50"
-                            alt=""
-                          />
-                        </div>
+                  <div className="d-flex flex-row bd-highlight mb-3 col-6 p-2 m-0 position-relative">
+                    <div className="position-absolute top-0 start-50 translate-middle bgc-akuma   mtp--9  w-50 hp-30 f-Ubuntu-B text-center color-white fsp-15   psp-10 pep-10 ptp-5 pbp-5">
+                      {" "}
+                    </div>
+                    
 
-                        <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
-                          <InputBox
-                            id={"p" + pagina + "_input" + (indexInput += 1)}
-                            className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
-                          />
-                        </div>
-                      </div>
+                    <div className=" mtp--2 border-style-solid border-1 border-color-akuma rounded-p-10 bgc-white  p-2 w-100">
+                      <InputBox
+                        id={"p" + pagina + "_input" + (indexInput += 1)}
+                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
+                      />
                     </div>
                   </div>
 
-                  <div className="col-6 position-relative">
-                    <div className="mtp-20  position-relative">
-                      <div className="position-absolute top-0 start-50 translate-middle bgc-akuma   mtp--10  w-50 hp-20 f-Ubuntu-B text-center color-white fsp-15   psp-10 pep-10 ptp-5 pbp-5">
-                        {" "}
-                      </div>
-                      <div className="w-100  p-1 m-2 border-style-solid border-1 border-color-akuma rounded-p-10  lh-sm text-start p-2 position-relative">
-                        <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
-                          <div className="psp-5 ptp-10 pep-5 color-akuma fsp-18 fw-700">
+                  <div className="d-flex flex-row bd-highlight mb-3 col-6 p-2 m-0 position-relative">
+                  <div className="position-absolute top-0 start-0 translate-middle color-akuma fsp-18 fw-700 msp-30 mtp-25">
                             4
                           </div>
-                          <InputBox
-                            id={"p" + pagina + "_input" + (indexInput += 1)}
-                            className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
-                          />
-                        </div>
-                      </div>
+                    <div className="position-absolute top-0 start-50 translate-middle bgc-akuma   mtp--9  w-50 hp-30 f-Ubuntu-B text-center color-white fsp-15   psp-10 pep-10 ptp-5 pbp-5">
+                      {" "}
+                    </div>
+                    <div className="position-absolute top-50 start-100 translate-middle zindex-1 mtp--20">
+                      <img
+                        src={"images/page_" + pagina + "/espiral.svg"}
+                        className="wp-45 mtp-55 mep-0"
+                        alt=""
+                      />
+                    </div>
+
+                    <div className=" mtp--2 border-style-solid border-1 border-color-akuma rounded-p-10 bgc-white  p-2 w-100">
+                      <InputBox
+                        id={"p" + pagina + "_input" + (indexInput += 1)}
+                        className="msp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
+                      />
                     </div>
                   </div>
 
-                  <div className="col-6 position-relative">
-                    <div className="mtp-20  position-relative">
-                      <div className="position-absolute top-0 start-50 translate-middle bgc-haydn mtp--10  w-50 hp-20 f-Ubuntu-B text-center color-white fsp-15   psp-10 pep-10 ptp-5 pbp-5">
-                        {" "}
-                      </div>
-                      <div className="w-100  p-1 m-2 border-style-solid border-1 border-color-haydn rounded-p-10  lh-sm text-start p-2 position-relative">
-                        <div className="position-absolute top-50 start-0 translate-middle  msp--12 mtp-0   zindex-1">
-                          <img
-                            src={"images/page_" + pagina + "/espiral.svg"}
-                            className="wp-50"
-                            alt=""
-                          />
-                        </div>
+                  <div className="d-flex flex-row bd-highlight mb-3 col-6 p-2 m-0 position-relative">
+                    <div className="position-absolute top-0 start-50 translate-middle bgc-akuma   mtp--9  w-50 hp-30 f-Ubuntu-B text-center color-white fsp-15   psp-10 pep-10 ptp-5 pbp-5">
+                      {" "}
+                    </div>
+                    
 
-                        <div className="d-flex align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
-                          <InputBox
-                            id={"p" + pagina + "_input" + (indexInput += 1)}
-                            className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
-                          />
-                        </div>
-                      </div>
+                    <div className=" mtp--2 border-style-solid border-1 border-color-akuma rounded-p-10 bgc-white  p-2 w-100">
+                      <InputBox
+                        id={"p" + pagina + "_input" + (indexInput += 1)}
+                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
+                      />
                     </div>
                   </div>
                 </div>
