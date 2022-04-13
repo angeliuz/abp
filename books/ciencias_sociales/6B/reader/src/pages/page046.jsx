@@ -89,12 +89,15 @@ function Page046(props) {
                         </div>
                     </div> */}
 
-          <div className="d-flex  mtp-0 mbp-0 psp-60 pep-60 ptp-0 pbp-0">
+          <div className="d-flex  mtp-0 mbp-50 psp-60 pep-60 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
-                <div className="col-12 mtp-30">
+                <div className="col-12 mtp-30 psp-10 pep-10">
                   <div className="f-Ubuntu-R fsp-16 border-style-solid rounded-p-10 border-2 p-2 text-start border-color-lightDark">
                     Obra:
+                    <div className="">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="msp-40 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -103,17 +106,77 @@ function Page046(props) {
                   
                 </div>
 
-                <div className=" col-4 position-relative">
-                  <div className="text-center w-100 border-1 border-style-solid border-color-danger rounded-p-10  mtp-10">
+                <div className=" col-4 position-relative p-0 m-0 d-flex flex-row bd-highlight mb-3 ">
+                  <div className="text-center w-100    mtp-10">
                    
-                  <div className="msp--100"><img src="images/page_046/flecha_morada.png" className=" " alt="" /></div>
+                  <div className="center bgc-tertiary"><img src="images/page_046/flecha_morada.png" className="w-70 " alt="" /></div>
                   </div>
                 </div>
-                <div className="col-8 position-relative">
-                  <div className="text-center w-100 border-1 border-style-solid border-color-obiwan rounded-p-10 mtp-10">
+                <div className="col-8 position-relative p-0 m-0 d-flex flex-row bd-highlight mb-3">
+                  <div className="text-center w-100 border-2 border-style-solid border-color-saitama rounded-tbe-10 mtp-10">
                     
                     <div className="psp-15 pep-15">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className=" col-4 position-relative p-0 m-0 d-flex flex-row bd-highlight mb-3 ">
+                  <div className="text-center w-100    mtp-10">
+                   
+                  <div className="center bgc-bang"><img src="images/page_046/flecha_azul.png" className="w-70 " alt="" /></div>
+                  </div>
+                </div>
+                <div className="col-8 position-relative p-0 m-0 d-flex flex-row bd-highlight mb-3">
+                  <div className="text-center w-100 border-2 border-style-solid border-color-calypso3 rounded-tbe-10 mtp-10">
+                    
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className=" col-4 position-relative p-0 m-0 d-flex flex-row bd-highlight mb-3 ">
+                  <div className="text-center w-100    mtp-10">
+                   
+                  <div className="center bgc-grieg"><img src="images/page_046/flecha_verde.png" className="w-70 " alt="" /></div>
+                  </div>
+                </div>
+                <div className="col-8 position-relative p-0 m-0 d-flex flex-row bd-highlight mb-3">
+                  <div className="text-center w-100 border-2 border-style-solid border-color-palpatine rounded-tbe-10 mtp-10">
+                    
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className=" col-4 position-relative p-0 m-0 d-flex flex-row bd-highlight mb-3 ">
+                  <div className="text-center w-100    mtp-10">
+                   
+                  <div className="center bgc-pachelbel"><img src="images/page_046/flecha_naranja.png" className="w-70 " alt="" /></div>
+                  </div>
+                </div>
+                <div className="col-8 position-relative p-0 m-0 d-flex flex-row bd-highlight mb-3">
+                  <div className="text-center w-100 border-2 border-style-solid border-color-dino rounded-tbe-10 mtp-10">
+                    
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className=" col-4 position-relative p-0 m-0 d-flex flex-row bd-highlight mb-3 ">
+                  <div className="text-center w-100    mtp-10">
+                   
+                  <div className="center bgc-pachelbel"><img src="images/page_046/flecha_rojo.png" className="w-70 " alt="" /></div>
+                  </div>
+                </div>
+                <div className="col-8 position-relative p-0 m-0 d-flex flex-row bd-highlight mb-3">
+                  <div className="text-center w-100 border-2 border-style-solid border-color-goten rounded-tbe-10 mtp-10">
+                    
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
                     </div>
                   </div>
                 </div>

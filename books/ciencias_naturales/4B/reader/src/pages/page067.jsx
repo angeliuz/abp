@@ -35,40 +35,45 @@ function Page067(props) {
           </div>
 
 
-          <div className="cb-6 mbp-90">
+          <div className="ptp-30 psp-60 pep-60 pbp-140">
 
-            <div className=" ptp-10 pbp-10 mtp-30 cb-650 pep-20 psp-20 mx-auto position-relative">
-              <img src="images/page_067/img_005.png" class="w-110 cb-fondohoja-p67 position-absolute" alt=""></img>
-              <div className="w-100 cb-cajas-top f-Ubuntu-L fsp-15 justify-content-between">
-                <div className="hp-190 mx-290 w-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-saitama zindex-10">
+            <div className="row">
+            <div className="position-relative">
+            <div className="position-absolute w-100 top-50 start-50 translate-middle msp-0 mtp-280 visible-768"><img src={"images/page_" + pagina + "/img_005.png"} className="w-100" alt="" /></div>
+            </div>
+                <div className="col-md-6 col-12 mbp-10 zindex-1">
+                  <div className="mxwp-300 centrar bgc-white rounded-p-10 border-style-solid border-1 border-color-saitama zindex-10">
                   <div className="wp-200 text-start p-2 bgc-senhe cb-borde-desigual"> Antes creíamos que nuestra brigada sería:</div>
-                  <div className="text-start psp-10 pep-10" >
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                  <div className="w-100 text-start psp-10 pep-10" >
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
                   </div>
                 </div>
-                <div className="hp-190 mx-290 w-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-saitama zindex-10 position-relative">
-                  <img src="images/page_067/img_003.png" class="wp-80 cb-mega-p67 position-absolute" alt=""></img>
-                  <div className="wp-200 text-start p-2 bgc-senhe  cb-borde-desigual">Ahora sabemos que nuestra brigada será:</div>
-                  <div className="text-start psp-10 pep-10" >
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                </div>
+                <div className="col-md-6 col-12 mbp-10 zindex-1">
+                  <div className="mxwp-300 centrar bgc-white rounded-p-10 border-style-solid border-1 border-color-saitama zindex-10">
+                  <div className="wp-200 text-start p-2 bgc-senhe cb-borde-desigual"> Ahora sabemos que nuestra brigada será:</div>
+                  <div className="w-100 text-start psp-10 pep-10" >
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
                   </div>
                 </div>
-              </div>
-              <div className="w-100  cb-cajas-top f-Ubuntu-L fsp-15 justify-content-between mtp-20">
-                <div className="hp-190 mx-290 w-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-saitama zindex-10 position-relative">
-                  <img src="images/page_067/img_004.png" class="wp-80 cb-bino-p67 position-absolute" alt=""></img>
-                  <div className="wp-200 text-start p-2 bgc-senhe  cb-borde-desigual">Lo que ha cambiado desde un inicio es:</div>
-                  <div className="text-start psp-10 pep-10" >
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                </div>
+           
+                <div className="col-md-6 col-12 mbp-10 zindex-1">
+                  <div className="mxwp-300 centrar bgc-white rounded-p-10 border-style-solid border-1 border-color-saitama zindex-10">
+                  <div className="wp-200 text-start p-2 bgc-senhe cb-borde-desigual"> Lo que ha cambiado desde un inicio es:</div>
+                  <div className="w-100 text-start psp-10 pep-10" >
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
                   </div>
                 </div>
-                <div className="hp-190 mx-290 w-100 bgc-white rounded-p-10 border-style-solid border-1 border-color-saitama zindex-10">
-                  <div className="wp-200 text-start p-2 bgc-senhe cb-borde-desigual">Los cambios se deben a:</div>
-                  <div className="text-start psp-10 pep-10" >
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                </div>
+                <div className="col-md-6 col-12 mbp-10 zindex-1">
+                  <div className="mxwp-300 centrar bgc-white rounded-p-10 border-style-solid border-1 border-color-saitama zindex-10">
+                  <div className="wp-200 text-start p-2 bgc-senhe cb-borde-desigual"> Los cambios <br /> se deben a:</div>
+                  <div className="w-100 text-start psp-10 pep-10" >
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-75" />
                   </div>
                 </div>
-              </div>
+                </div>
             </div>
 
             {/* FIN EJERCICIO UNO*/}

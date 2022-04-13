@@ -24,11 +24,21 @@ function Page051(props) {
               </div>
 
               <div className="psp-140 pep-120">
-                <div className="row position-relative">
+                <div className="row position-relative center-center">
                   <div className="position-absolute top-50 start-0 translate-middle"><img src="images/page_051/botones.png" className="wp-60 mep-50 mtp--80" alt=""/></div>
                   <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_051/profe.png" className="wp-70 msp-50 mbp-180" alt=""/></div>
-                  <div className="col-6"><img src="images/page_051/caja_verde.svg" className="w-100" alt="" /></div>
-                  <div className="col-6"><img src="images/page_051/caja_naranja.svg" className="w-100" alt="" /></div>
+                  <div className="col-lg-6 col-md-8 mbp-10 position-relative">
+                    <img src="images/page_051/caja_verde.svg" className="w-100" alt="" />
+                  <div className="position-absolute w-100 top-100 start-50 mtp--50 max-wp-100 translate-middle zindex-1">
+                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="text-center p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                  </div>
+                  </div>
+                  <div className="col-lg-6 col-md-8 mbp-10 position-relative">
+                    <img src="images/page_051/caja_naranja.svg" className="w-100" alt="" />
+                    <div className="position-absolute w-100 top-100 start-50 mtp--50 max-wp-100 translate-middle zindex-1">
+                  <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="text-center p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                  </div>
+                </div>
                 </div>
               </div>
 
@@ -40,7 +50,7 @@ function Page051(props) {
               </div>
 
             <div className="psp-140 pep-120">
-              <div className="w-100 psp-40 ptp-20 pbp-20 pep-15 text-left bgc-white border-style-solid border-1 border-color-muted position-relative box-shadow-simple">
+              <div className="w-100 psp-40 ptp-20 pbp-20 pep-15 text-left bgc-white border-style-solid border-1 border-color-muted position-relative box-shadow-simple mbp-90">
                 <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_051/agenda.png" className="wp-100 msp--60 mtp-20" alt=""/></div>
                 <div className="position-absolute top-50 start-0 translate-middle"><img src="images/page_051/img_011.png" className="wp-70 msp-15" alt=""/></div>
                 <div className="d-flex align-items-center">

@@ -34,7 +34,7 @@ function Page072(props) {
                 <div className="d-flex mtp-10 justify-content-between mbp-5"> 
                   <div><img src="images/page_072/img_003.png" className="cb-computador-carta psp-30" alt=""></img></div> 
                   <div className="cb-datos-1 msp-10 align-items-center d-flex text-start">
-                    <div className="psp-10 f-Ubuntu-l fsp-16"> <span className="fw-700"> Estudiantes 4° básico </span> 4_basico@colegio.cl <br /> Para Estudiantes 4° básico </div>
+                    <div className="psp-10 f-Ubuntu-l fsp-16"> <span className="fw-700"> Estudiantes 4° básico </span> 4_basico@colegio.cl <br /> Para Macarena 4° básico </div>
                   </div>
                 </div>
               </div>
