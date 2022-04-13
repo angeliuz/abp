@@ -2,6 +2,7 @@ import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
 import ModalVideo from "../components/ModalVideo";
+import SubirImagen from '../components/SubirImagen';
 
 import "./page_025.css";
 
@@ -81,11 +82,15 @@ function Page025(props) {
               <div className="position-absolute top-0 start-100 translate-middle  mtp-0 visible-768"><img src={"images/page_" + pagina + "/img_002.png"} className=" " alt="" />
                 </div>
 
-                <div className="d-flex flex-column psp-20 pep-20 ptp-0 pbp-10  border-style-solid border-3 border-color-android18 w-100 rounded-p-20">
+                <div className="d-flex align-items-center justify-content-center psp-20 pep-20 ptp-0 pbp-10 min-hp-500 border-style-solid border-3 border-color-android18 w-100 rounded-p-20">
 
-
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-500" />
-
+                <SubirImagen
+                    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                    className="wp-300 bgc-white"
+                    colorUnidad={background}
+                    imagenPlaceHolder="images/generales/subir_imagen.svg"
+                    titulo="Subir imagen"
+                  />
                 </div>
 
               </div>

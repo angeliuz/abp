@@ -26,7 +26,7 @@ function Page047(props) {
                         </div>
                     </div>
 
-                    <div className="ptp-10 psp-70 pep-60 mbp-0 position-relative">
+                    <div className="ptp-10 psp-70 pep-60 mbp-90 position-relative">
                         <div className="row">
                             <div className="col-11 p-2 m-0 position-relative">
                                 <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_047/bici.png" className="hp-100 mep--65 mtp--105" alt="" /></div>

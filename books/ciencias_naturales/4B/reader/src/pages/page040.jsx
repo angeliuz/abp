@@ -122,7 +122,7 @@ function Page040(props) {
                 <tr>
                   <td className="w-25 border-style-solid border-1 f-Ubuntu-L fsp-16 bgc-genos border-color-soldados" rowspan="2">
                     Relaciones <br />
-                    pùblicas
+                    públicas
                   </td>
                   <td className="w-40 text-start p-2 border-style-solid border-1 f-Ubuntu-L fsp-16 border-color-soldados">
                     ¿Se comunicó con el profesor
@@ -188,7 +188,7 @@ function Page040(props) {
                 </tr>
               </table>
 
-              <div className="ptp-10 container-titulo-global mbp-20">
+              <div className="ptp-10 mbp-20">
                 <div className="d-flex">
                   <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">
                     2

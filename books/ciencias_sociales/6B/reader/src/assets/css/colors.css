@@ -159,6 +159,7 @@
   --jack:#ddf1fd;
   --klaus:#43b7b3;
   --ogro:#005c9c;
+  --dino:#eb8b2e;
 }
 
 /* COLORES */
@@ -909,6 +910,11 @@
 
     }
 
+    .color-dino {
+      color: var(--dino); 
+
+    }
+
 
 
 
@@ -1425,6 +1431,10 @@
 .border-color-ogro {
   border-color: var(--ogro) !important;
 }
+.border-color-dino {
+  border-color: var(--dino) !important;
+}
+
 /* B
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1921,5 +1931,9 @@
 }
 .bgc-ogro {
   background-color: var(--ogro);
+
+}
+.bgc-dino {
+  background-color: var(--dino);
 
 }

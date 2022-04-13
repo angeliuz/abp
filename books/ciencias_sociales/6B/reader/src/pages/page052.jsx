@@ -25,7 +25,7 @@ function Page052(props) {
 
           <div className="ptp-10 container-titulo-global-1 mbp-0">
             {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 " + color}>xxx</div> */}
-            <div className="d-flex psp-0">
+            <div className="d-flex psp-0 mbp-70">
               <img className="hp-15 align-center mtp-20 me-2 mb-2" src={"images/page_" + pagina + "/i_g.svg"} alt="" />
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Acuerdo con mi grupo el olor, la imagen, el sonido, el sabor y la textura que nos gustaría transmitir con nuestra obra. En la franja interior del círculo registro mis propuestas y en la exterior las que acordé con mi grupo.</div>
@@ -36,7 +36,7 @@ function Page052(props) {
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-0 mbp-50 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-500 f-Ubuntu-L fsp-16">
+          {/* <div className="d-flex global-margin mtp-0 mbp-50 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-500 f-Ubuntu-L fsp-16">
             <div className="position-absolute top-50 start-50 translate-middle zindex-2"><img src={"images/page_" + pagina + "/mono.png"} className="hp-95 mtp-125 msp-0" alt="" /></div>
             <div className="position-absolute top-100 start-100 translate-middle zindex-2"><img src={"images/page_" + pagina + "/mono1.png"} className="hp-150 mtp-140 mep-200" alt="" /></div>
             <div className="position-absolute top-50 start-100 translate-middle zindex-2 msp--80 visible-768"><img src={"images/page_" + pagina + "/lapiz.png"} className="hp-80 mbp-50 msp-20" alt="" /></div>
@@ -96,7 +96,241 @@ function Page052(props) {
                 <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-70" />
               </div>
             </div>
+          </div> */}
+
+
+
+
+
+
+
+
+           <div className="d-flex  mtp-0 mbp-30 psp-60 pep-60 ptp-50 pbp-0">
+            <div className="row p-0 m-0 w-100">
+              
+
+              <div className="row p-0 m-0 d-flex f-Ubuntu-R fsp-15 bgc-tertiary rounded-p-10 mtp-40">
+                
+
+                <div className=" col-4 position-relative  d-flex flex-row bd-highlight ">
+                  <div className="text-center w-100 ">
+                   
+                  <div className="center-1 bgc-tertiary"><img src="images/page_046/flecha_morada.png" className="w-70 " alt="" /></div>
+                  </div>
+                </div>
+
+                <div className="col-4 position-relative  d-flex flex-row bd-highlight ">
+                <div className="position-absolute top-0 start-50 translate-middle f-Ubuntu-R fsp-16 mtp--50 border-style-solid rounded-p-10 border-2 p-3 text-center border-color-mozart w-90 bgc-mozart color-white">
+                  Mis propuestas
+                    
+                  </div>
+                  <div className="bgc-white text-center w-100 border-2 border-style-solid border-color-saitama rounded-p-10 ">
+                    
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-4 position-relative d-flex flex-row bd-highlight ">
+                <div className="position-absolute top-0 start-50 translate-middle f-Ubuntu-R fsp-16 mtp--50 border-style-solid rounded-p-10 border-2 p-2 text-center border-color-mozart w-90 bgc-mozart color-white">
+                Las propuestas que acordé con mi grupo
+                    
+                  </div>
+                  <div className="bgc-white text-center w-100 border-2 border-style-solid border-color-saitama rounded-p-10 ">
+                    
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                    </div>
+                  </div>
+                </div>
+
+                </div>
+
+           </div>
           </div>
+
+          <div className="d-flex  mtp-0 mbp-0 psp-60 pep-60 ptp-0 pbp-0">
+              <div className="row p-0 m-0 w-100">
+                  <div className="col-12 p-0 m-0 position-relative">
+                      
+                  <div className="row p-0 m-0 w-100">
+              
+
+              <div className="row p-0 m-0 d-flex f-Ubuntu-R fsp-15 bgc-tertiary rounded-p-10 mtp-40">
+                
+
+                <div className=" col-4 position-relative  d-flex flex-row bd-highlight ">
+                  <div className="text-center w-100 ">
+                   
+                  <div className="center-1 bgc-tertiary"><img src="images/page_046/flecha_azul.png" className="w-70 " alt="" /></div>
+                  </div>
+                </div>
+
+                <div className="col-4 position-relative  d-flex flex-row bd-highlight ">
+                
+                  <div className="bgc-white text-center w-100 border-2 border-style-solid border-color-calypso3 rounded-p-10 ">
+                    
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-4 position-relative d-flex flex-row bd-highlight ">
+                
+                  <div className="bgc-white text-center w-100 border-2 border-style-solid border-color-calypso3 rounded-p-10 ">
+                    
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                    </div>
+                  </div>
+                </div>
+
+                </div>
+
+           </div>
+                  </div>
+              </div>
+          </div>
+
+          <div className="d-flex  mtp-30 mbp-0 psp-60 pep-60 ptp-0 pbp-0">
+              <div className="row p-0 m-0 w-100">
+                  <div className="col-12 p-0 m-0 position-relative">
+                      
+                  <div className="row p-0 m-0 w-100">
+              
+
+              <div className="row p-0 m-0 d-flex f-Ubuntu-R fsp-15 bgc-grieg rounded-p-10 mtp-40">
+                
+
+                <div className=" col-4 position-relative  d-flex flex-row bd-highlight ">
+                  <div className="text-center w-100 ">
+                   
+                  <div className="center-1"><img src="images/page_046/flecha_verde.png" className="w-70 " alt="" /></div>
+                  </div>
+                </div>
+
+                <div className="col-4 position-relative  d-flex flex-row bd-highlight ">
+                
+                  <div className="bgc-white text-center w-100 border-2 border-style-solid border-color-palpatine rounded-p-10 ">
+                    
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-4 position-relative d-flex flex-row bd-highlight ">
+                
+                  <div className="bgc-white text-center w-100 border-2 border-style-solid border-color-palpatine rounded-p-10 ">
+                    
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                    </div>
+                  </div>
+                </div>
+
+                </div>
+
+           </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div className="d-flex  mtp-30 mbp-0 psp-60 pep-60 ptp-0 pbp-0">
+              <div className="row p-0 m-0 w-100">
+                  <div className="col-12 p-0 m-0 position-relative">
+                      
+                  <div className="row p-0 m-0 w-100">
+              
+
+              <div className="row p-0 m-0 d-flex f-Ubuntu-R fsp-15 bgc-grieg rounded-p-10 mtp-40">
+                
+
+                <div className=" col-4 position-relative  d-flex flex-row bd-highlight ">
+                  <div className="text-center w-100 ">
+                   
+                  <div className="center-1 "><img src="images/page_046/flecha_naranja.png" className="w-70 " alt="" /></div>
+                  </div>
+                </div>
+
+                <div className="col-4 position-relative  d-flex flex-row bd-highlight ">
+                
+                  <div className="bgc-white  w-100 border-2 border-style-solid border-color-dino rounded-p-10 ">
+                    
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-4 position-relative d-flex flex-row bd-highlight ">
+                
+                  <div className="bgc-white  w-100 border-2 border-style-solid border-color-dino rounded-p-10 ">
+                    
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                    </div>
+                  </div>
+                </div>
+
+                </div>
+
+           </div>
+                  </div>
+              </div>
+          </div>
+
+
+          <div className="d-flex  mtp-30 mbp-80 psp-60 pep-60 ptp-0 pbp-0">
+              <div className="row p-0 m-0 w-100">
+                  <div className="col-12 p-0 m-0 position-relative">
+                      
+                  <div className="row p-0 m-0 w-100">
+              
+
+              <div className="row p-0 m-0 d-flex f-Ubuntu-R fsp-15 bgc-grieg rounded-p-10 mtp-40">
+                
+
+                <div className=" col-4 position-relative  d-flex flex-row bd-highlight ">
+                  <div className="text-center w-100 ">
+                   
+                  <div className="center-1 "><img src="images/page_046/flecha_rojo.png" className="w-70 " alt="" /></div>
+                  </div>
+                </div>
+
+                <div className="col-4 position-relative  d-flex flex-row bd-highlight ">
+                
+                  <div className="bgc-white w-100 border-2 border-style-solid border-color-goten rounded-p-10 ">
+                    
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-4 position-relative d-flex flex-row bd-highlight ">
+                
+                  <div className="bgc-white w-100 border-2 border-style-solid border-color-goten rounded-p-10 ">
+                    
+                    <div className="psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                    </div>
+                  </div>
+                </div>
+
+                </div>
+
+           </div>
+                  </div>
+              </div>
+          </div>
+
+
+
+
+
 
           {/* BEGIN PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>

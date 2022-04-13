@@ -54,7 +54,7 @@ function Page052(props) {
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
                     </div>
                   </div>
-                  <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/lupa.png"} className="wp-60" alt="" /></div>
+                  <div className="position-absolute top-50 start-0 translate-middle msp--15 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/lupa.png"} className="wp-60" alt="" /></div>
                   <div className="position-absolute flecha-p52 translate-middle zindex-1"><img src={"images/page_" + pagina + "/flecha.svg"} className="wp-20 giro-768" alt="" /></div>
                 </div>
 
@@ -81,7 +81,7 @@ function Page052(props) {
                 </div>
 
                 <div className="col-md-6 col-12 p-2 position-relative">
-                <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/lapiz.png"} className="wp-40" alt="" /></div>
+                  <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/lapiz.png"} className="wp-40" alt="" /></div>
                   <div className="bgc-white w-100 rounded-p-5 p-2">
                     <div className="f-Ubuntu-L fsp-15 lh-sm pbp-10 text-start">Porque</div>
                     <div className="">
@@ -89,7 +89,7 @@ function Page052(props) {
                     </div>
                   </div>
                 </div>
-                
+
               </div>
 
             </div>

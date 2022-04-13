@@ -47,6 +47,12 @@ function Page020(props) {
                   <div className=" py-2 color-pidgey f-pixilate-bold fsp-18">
                     Coordinación
                   </div>
+                  <div className="pt-0 flex-grow-1 mbp-20">
+                  <InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35"
+                  />
+                </div>
                   <div className="text-start psp-10 pep-20">
                     <div className="flecha-pidgey mep-10 mtp-10"></div>
                     <div className="f-Ubuntu-L py-1 mtp--23 msp-20">
@@ -64,6 +70,12 @@ function Page020(props) {
                 <div className="col-md-6 psp-20 pep-20 ptp-10 pbp-10 border-pikachu">
                   <div className=" py-2 color-pikachu f-pixilate-bold fsp-18 ">
                     Supervisión
+                  </div>
+                  <div className="pt-0 flex-grow-1 mbp-20">
+                  <InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35"
+                  />
                   </div>
                   <div className="text-start psp-10 pep-20">
                     <div className="flecha-pikachu mep-10 mtp-10"></div>
@@ -85,6 +97,12 @@ function Page020(props) {
                   <div className=" py-2 color-goten f-pixilate-bold fsp-18 ">
                     Relaciones públicas
                   </div>
+                  <div className="pt-0 flex-grow-1 mbp-20">
+                  <InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35"
+                  />
+                  </div>
                   <div className="text-start psp-10 pep-20">
                     <div className="flecha-goten mep-10 mtp-10"></div>
                     <div className="f-Ubuntu-L py-1 mtp--23 msp-20">
@@ -102,10 +120,16 @@ function Page020(props) {
                   <div className=" py-2 color-balrog f-pixilate-bold fsp-18 ">
                     Intendencia
                   </div>
+                  <div className="pt-0 flex-grow-1 mbp-20">
+                  <InputBox
+                    id={"p" + pagina + "_input" + (indexInput += 1)}
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35"
+                  />
+                  </div>
                   <div className="text-start psp-10 pep-20">
                     <div className="flecha-balrog mep-10 mtp-10"></div>
                     <div className="f-Ubuntu-L py-1 mtp--23 msp-20">
-                      Gestiona los materiales que se necesitan.
+                    Gestiona los materiales que el equipo necesita
                     </div>
                   </div>
                   <div className="text-start psp-10 pep-20">
@@ -135,7 +159,7 @@ function Page020(props) {
               <div className="block-bottom text-start mtp-30 f-pixilate-bold">
                 ¿Cómo voy?
               </div>
-              <div className=" block-bottom  pb-3 psp-15 ptp-10 pep-20 f-Ubuntu-L bgc-white fsp-13 rounded-p-20 position-relative">
+              <div className=" block-bottom  pb-3 psp-15 ptp-10 pep-20 f-Ubuntu-L bgc-white fsp-15 rounded-p-20 position-relative">
                 <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
                   <div className="d-flex">
                     <div className="flecha-bulma pep-10 mtp-3"></div>

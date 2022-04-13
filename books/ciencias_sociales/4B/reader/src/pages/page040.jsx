@@ -71,7 +71,7 @@ function Page040(props) {
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
                   <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 mtp-20 text-start position-relative ">
                     <div className="position-absolute top-100 start-100 translate-middle msp--45 mtp-40 visible-768"><img src="images/page_040/img_007.png" className="wp-120 " alt="" /></div>
-                    <div className="position-absolute top-100 start-0 translate-middle msp-5 mtp-100 visible-768"><img src="images/page_040/img_009.png" className="wp-50 " alt="" /></div>
+                    <div className="position-absolute top-100 start-0 translate-middle msp--5 mtp-110 visible-768"><img src="images/page_040/img_009.png" className="wp-50 " alt="" /></div>
                     <img src="images/generales/flecha_e3.svg" className="mep-5 wp-15" alt="" />
                     <span>Lo que mejor nos ha resultado en el trabajo en equipo es:</span>
                   </div>

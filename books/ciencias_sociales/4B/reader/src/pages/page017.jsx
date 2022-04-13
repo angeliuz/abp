@@ -48,7 +48,7 @@ function Page017(props) {
                   <div className="hoja1-p17">
                     <div className=" bgc-white hoja-p17 sombra-1 position-absolute zindex-1">
                       <div className="f-Ubuntu-M ptp-10 px-2">Portada</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1    flex-grow-1 lhp-20 min-hp-220" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 overflow-auto flex-grow-1 lhp-20 overflow-auto hp-220" />
                     </div>
                     <div className="position-absolute top-50 start-100 translate-middle visible-748 msp-25 mtp-0"><img src={"images/page_" + pagina + "/flecha.svg"} className="wp-80" alt="" /></div>
                   </div>
@@ -58,7 +58,7 @@ function Page017(props) {
                   <div className="hoja2-p17">
                     <div className=" bgc-white hoja-p17 sombra-1 position-absolute zindex-1">
                       <div className="f-Ubuntu-M ptp-10 px-2">Introducción</div>
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1    flex-grow-1 lhp-20 min-hp-220" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1  overflow-auto  flex-grow-1 lhp-20 hp-220" />
                     </div>
                     <div className="position-absolute top-50 start-100 translate-middle visible-748 msp-25 mtp-30"><img src={"images/page_" + pagina + "/flecha.svg"} className="wp-80" alt="" /></div>
                     <div className="position-absolute top-50 start-0 translate-middle invisible-748 msp--80 mtp-0"><img src={"images/page_" + pagina + "/flecha.svg"} className="wp-140" alt="" /></div>
@@ -68,7 +68,7 @@ function Page017(props) {
                 <div className="position-relative">
                   <div className="hoja3-p17">
                     <div className=" bgc-white hoja-p17 sombra-1 position-absolute zindex-1">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1    flex-grow-1 lhp-20 min-hp-250" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1  overflow-auto  flex-grow-1 lhp-20 hp-250" />
                     </div>
                     <div className="position-absolute top-100 start-0 translate-middle visible-768 msp--350 mtp-80"><img src={"images/page_" + pagina + "/linea_v1.svg"} className="w-300" alt="" /></div>
                     <div className="position-absolute top-100 start-0 translate-middle invisible-768 visible-748 msp--350 mtp-80"><img src={"images/page_" + pagina + "/linea_v2.svg"} className="w-300" alt="" /></div>
@@ -78,7 +78,7 @@ function Page017(props) {
                 <div className="position-relative">
                   <div className="hoja4-p17">
                     <div className=" bgc-white hoja-p17 sombra-1 position-absolute zindex-1">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1    flex-grow-1 lhp-20 min-hp-250" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1  overflow-auto  flex-grow-1 lhp-20 hp-250" />
                     </div>
                     <div className="position-absolute top-50 start-100 translate-middle visible-748 msp-25 mtp-30"><img src={"images/page_" + pagina + "/flecha.svg"} className="wp-80" alt="" /></div>
                     <div className="position-absolute top-50 start-0 translate-middle invisible-748 msp--80 mtp-0"><img src={"images/page_" + pagina + "/flecha.svg"} className="wp-140" alt="" /></div>
@@ -88,7 +88,7 @@ function Page017(props) {
                 <div className="position-relative">
                   <div className="hoja5-p17">
                     <div className=" bgc-white hoja-p17 sombra-1 position-absolute zindex-1">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1    flex-grow-1 lhp-20 min-hp-250" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1  overflow-auto  flex-grow-1 lhp-20 hp-250" />
                     </div>
                     <div className="position-absolute top-50 start-100 translate-middle visible-748 msp-25 mtp-60"><img src={"images/page_" + pagina + "/flecha.svg"} className="wp-80" alt="" /></div>
                   </div>
@@ -97,7 +97,7 @@ function Page017(props) {
                 <div className="position-relative">
                   <div className="hoja6-p17">
                     <div className=" bgc-white hoja-p17 sombra-1 position-absolute zindex-1">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1    flex-grow-1 lhp-20 min-hp-250" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1   overflow-auto flex-grow-1 lhp-20 hp-250" />
                     </div>
                   </div>
                   <div className="position-absolute top-50 start-0 translate-middle invisible-748 msp--80 mtp-0"><img src={"images/page_" + pagina + "/flecha.svg"} className="wp-140" alt="" /></div>

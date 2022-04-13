@@ -27,7 +27,7 @@ function Page062(props) {
             <div className="d-flex">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_062/img_004.svg" alt="" /> */}
               <div className="f-ccdigitaldelivery-bold fsp-35 color-saitama">1</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Definimos los objetivos de la jornada de presentación</div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 text-start"> Definimos los objetivos de la jornada de presentación.</div>
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_045/revista.svg" clasesImagen="cambio hp-35 mtp-20" className="p-0 px-1" /> */}
               {/* <ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image="images/page_062/img_002.svg" clasesImagen="hp-40 text-center mtp-10 pep-20" className="p-0 px-0" /> */}
             </div>
@@ -97,18 +97,20 @@ function Page062(props) {
 
           <div className="row container-row px-5 position-relative mbp-140">
             <div className=" position-absolute top-100 start-50 translate-middle visible-768"><img className="hp-130 mtp-30" src="images/page_062/img_006.png" alt="" /></div>
-            <div className="col-sm-12 col-md-6  position relative ">
-              
-              <div className="border-style-solid mtp-25 border-2 border-color-jasper rounded-p-10 hp-260 w-100 hp-190  ">
-                <div className="d-flex align-items-center justify-content-center  rounded-set-10 bgc-jasper hp-45 pixilate-bold fsp-18 fw-700 color-white ">Mi propuesta de presentación </div>
-                <div className="mtp-10 msp-30 mep-30 w-85">    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
+            <div className="col-sm-12 col-md-6  position relative ">     
+              <div className="border-style-solid mtp-25 border-2 border-color-jasper rounded-p-10 w-100 ">
+                <div className="d-flex align-items-center justify-content-center  rounded-set-10 bgc-jasper hp-45 pixilate-bold fsp-18 fw-700 color-white ">Mi propuesta de presentación 
+                </div>
+                <div className="mtp-10 msp-20 mep-30 ">    
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="w-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
+                </div>
               </div>
             </div>
             <div className="col-sm-12 col-md-6  position relative mbp-50">
             <div className="espirales-creacion-62   position-absolute"><img src="images/page_062/img_007.png" className="w-45   " alt="" /></div>
-              <div className="border-style-solid mtp-25 border-2 border-color-arlo rounded-p-10 hp-260 w-100 hp-190  ">
+              <div className="border-style-solid mtp-25 border-2 border-color-arlo rounded-p-10 w-100 ">
                 <div className="d-flex align-items-center justify-content-center  rounded-set-10 bgc-arlo hp-45 pixilate-bold fsp-18 fw-700 color-white ">Justificación: </div>
-                <div className="mtp-10 msp-30 mep-30 w-85">    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" /></div>
+                <div className="mtp-10 msp-30 mep-30 w-85">    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" /></div>
               </div>
             </div>
 

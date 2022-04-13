@@ -92,6 +92,10 @@
 .caja-clou-mini{
   margin-left: 60px;
 }
+
+.wp-530 {
+  width: 530px;
+}
 @media all and (min-width: 717px){
 .position-absolute-767{
   position: absolute;

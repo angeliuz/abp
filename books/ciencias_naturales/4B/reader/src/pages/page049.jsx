@@ -27,7 +27,7 @@ function Page049(props) {
               <div className="row mbp-10 position-relative">
                 
                 
-                <div className="position-absolute top-50 start-50 translate-middle visible-768"><img src="images/page_049/espiral.svg" className="w-100" alt=""/></div>
+                {/* <div className="position-absolute top-50 start-50 translate-middle visible-768"><img src="images/page_049/espiral.svg" className="w-100" alt=""/></div> */}
                 <div className="col-12 col-md-6 p-1 m-0 position-relative">
                 <div className="position-absolute top-0 start-0 translate-middle"><img src="images/page_049/hojas.png" className="wp-60 mep-40 mtp-200" alt=""/></div>
                   <div className="rounded-p-10 bgc-white border-style-solid border-color-akuma border-2">

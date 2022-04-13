@@ -99,7 +99,7 @@ function Page038(props) {
           </div>
 
           <div className="msp-60 mep-60 mtp-20 position-relative">
-            <div className="position-absolute top-0 start-100 translate-middle   msp--30 mtp--75 visible-768 ">
+            <div className="position-absolute top-0 start-100 translate-middle zindex-1 msp--30 mtp--75 visible-768 ">
               <img
                 src="images/page_038/img_003.png"
                 className="wp-130"

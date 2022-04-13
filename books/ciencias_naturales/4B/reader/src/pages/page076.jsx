@@ -37,7 +37,7 @@ function Page076(props) {
                             </div>
                                     </div>
                                     <div className="pep-10 psp-10">
-                                        <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-15">Muy bien</div>
+                                        <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-15">Muy fáci</div>
                                         <img src="images/page_076/img_005.svg" className="pbp-10" alt=""></img>
                                     </div>
                                 </div>
@@ -48,7 +48,7 @@ function Page076(props) {
                             </div>
                                     </div>
                                     <div className="pep-10 psp-10">
-                                        <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-15">Bien</div>
+                                        <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-15">Fácil</div>
                                         <img src="images/page_076/img_006.svg" className="pbp-10" alt=""></img>
                                     </div>
                                 </div>
@@ -59,7 +59,7 @@ function Page076(props) {
                             </div>
                                     </div>
                                     <div className="pep-10 psp-10">
-                                        <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-15">Regular</div>
+                                        <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-15">Difícil</div>
                                         <img src="images/page_076/img_007.svg" className="pbp-10" alt=""></img>
                                     </div>
                                 </div>
@@ -70,7 +70,7 @@ function Page076(props) {
                             </div>
                                     </div>
                                     <div className="pep-10 psp-10">
-                                        <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-15">Tenemos que mejorar</div>
+                                        <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-15">Muy difícil</div>
                                         <img src="images/page_076/img_008.svg" className="pbp-10" alt=""></img>
                                     </div>
                                 </div>

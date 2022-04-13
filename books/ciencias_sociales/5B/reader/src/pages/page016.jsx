@@ -38,10 +38,10 @@ function Page016(props) {
                   </div>
                   <div className="col-sm-12 col-md-6 d-flex position-relative justify-content-center align-items-center m-0 p-3">
                   <div className="wp-125 position-absolute top-50 start-50 translate-middle msp--75 mtp-55">
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-165 overflow-scroll" />
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-165 overflow-auto" />
                             </div>
                   <div className="wp-125 position-absolute top-50 start-50 translate-middle msp-70 mtp-55">
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-165 overflow-scroll" />
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-165 overflow-auto" />
                             </div>
                     <img src="images/page_016/img_006.png" className="" alt="" />
                     <div className="tf-mapa-content position-absolute">
@@ -51,38 +51,38 @@ function Page016(props) {
 
                   <div className="col-sm-12 col-md-6 d-flex justify-content-center align-items-center m-0 p-3 position-relative">
                   <div className="wp-125 position-absolute top-50 start-50 translate-middle msp-75 mtp-">
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-165 overflow-scroll" />
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-165 overflow-auto" />
                             </div>
                             <div className="wp-125 position-absolute top-50 start-50 translate-middle msp--75 mtp-">
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-165 overflow-scroll" />
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-165 overflow-auto" />
                             </div>
                     <img src="images/page_016/img_005.png" className="" alt="" />
 
                   </div>
                   <div className="col-sm-12 col-md-6 d-flex justify-content-center align-items-center m-0 p-3 position-relative">
                   <div className="wp-125 position-absolute top-50 start-50 translate-middle msp-75 mtp-">
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-165 overflow-scroll" />
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-165 overflow-auto" />
                             </div>
                             <div className="wp-125 position-absolute top-50 start-50 translate-middle msp--75 mtp-">
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-165 overflow-scroll" />
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-165 overflow-auto" />
                             </div>
                     <img src="images/page_016/img_005.png" className="" alt="" />
                   </div>
                   <div className="col-sm-12 col-md-6 d-flex justify-content-center align-items-center m-0 p-3 position-relative">
                   <div className="wp-125 position-absolute top-50 start-50 translate-middle msp-75 mtp-">
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-165 overflow-scroll" />
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-165 overflow-auto" />
                             </div>
                             <div className="wp-125 position-absolute top-50 start-50 translate-middle msp--75 mtp-">
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-165 overflow-scroll" />
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-165 overflow-auto" />
                             </div>
                     <img src="images/page_016/img_005.png" className="" alt="" />
                   </div>
                   <div className="col-sm-12 col-md-6 d-flex justify-content-center align-items-center m-0 p-3 position-relative">
                   <div className="wp-125 position-absolute top-50 start-50 translate-middle msp-75 mtp-">
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-165 overflow-scroll" />
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-165 overflow-auto" />
                             </div>
                             <div className="wp-125 position-absolute top-50 start-50 translate-middle msp--75 mtp-">
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-165 overflow-scroll" />
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-165 overflow-auto" />
                             </div>
                     <img src="images/page_016/img_005.png" className="" alt="" />
                   </div>

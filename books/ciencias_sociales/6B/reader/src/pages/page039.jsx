@@ -72,16 +72,16 @@ function Page039(props) {
               <div className="caja1-p39 bgc-mozart rounded-p-10 color-white f-Ubuntu-M ptp-10 position-relative">
                 <span>Elementos que inspiran nuestra obra</span>
 
-                <div className="position-absolute top-50 start-100 translate-middle msp-50 mtp-25">
+                <div className="position-absolute top-50 start-100 translate-middle msp-50 mtp-20">
                   <div className="wp-100 hp-60 border-te border-3 border-color-mozart position-relative pbp-10">
-                    <div className="position-absolute top-100 start-100 translate-middle mtp--10 msp-2">
+                    <div className="position-absolute top-100 start-100 translate-middle mtp--5 msp-2">
                       <img src={"images/page_" + pagina + "/flecha_001.png"} className="hp-15" alt="" />
                     </div>
                   </div>
                 </div>
-                <div className="position-absolute top-50 start-0 translate-middle msp--50 mtp-25">
+                <div className="position-absolute top-50 start-0 translate-middle msp--50 mtp-20">
                   <div className="wp-100 hp-60 border-st border-3 border-color-mozart position-relative">
-                    <div className="position-absolute top-100 start-0 translate-middle mtp--10 msp--1">
+                    <div className="position-absolute top-100 start-0 translate-middle mtp--5 msp--1">
                       <img src={"images/page_" + pagina + "/flecha_001.png"} className="hp-15" alt="" />
                     </div>
                   </div>
@@ -101,7 +101,7 @@ function Page039(props) {
                   </div>
                 </div>
                 <div className="border-style-solid border-color-milk border-2 rounded-p-10 p-3">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-140 overflow-scroll" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-140 overflow-auto" />
                 </div>
               </div>
 
@@ -115,7 +115,7 @@ function Page039(props) {
                   </div>
                 </div>
                 <div className="border-style-solid border-color-sonic border-2 rounded-p-10 p-3 position-relative">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-140 overflow-scroll" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-140 overflow-auto" />
                   <div className="position-absolute top-100 start-50 translate-middle mtp-15 msp--20">
                     <div className="wp-60 hp-30 border-color-sonic border-end border-2"></div>
                   </div>
@@ -147,7 +147,7 @@ function Page039(props) {
                   </div>
                 </div>
                 <div className="border-style-solid border-color-draco border-2 rounded-p-10 p-3 position-relative">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-140 overflow-scroll" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-140 overflow-auto" />
                 </div>
               </div>
               <div className="col-4">
@@ -160,7 +160,7 @@ function Page039(props) {
                   </div>
                 </div>
                 <div className="border-style-solid border-color-kai border-2 rounded-p-10 p-3 position-relative">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-140 overflow-scroll" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-140 overflow-auto" />
                 </div>
               </div>
               <div className="col-4">
@@ -173,7 +173,7 @@ function Page039(props) {
                   </div>
                 </div>
                 <div className="border-style-solid border-color-blanka border-2 rounded-p-10 p-3 position-relative">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-140 overflow-scroll" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-140 overflow-auto" />
                 </div>
               </div>
             </div>

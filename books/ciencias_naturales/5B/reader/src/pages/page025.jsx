@@ -72,17 +72,17 @@ function Page025(props) {
                     <div className="row w-100 zindex-2 p-0 m-0">
                       <div className="col-4 p-0 m-0 d-flex align-items-center">
                         <div className="w-100 psp-40 pep-10 ptp-0 pbp-0">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-185" />
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-185 overflow-auto" />
                         </div>
                       </div>
                       <div className="col-4 p-0 m-0">
                         <div className="w-100 psp-50 pep-50 ptp-0 pbp-0">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-185" />
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-185 overflow-auto" />
                         </div>
                       </div>
                       <div className="col-4 p-0 m-0">
                         <div className="w-100 psp-10 pep-40 ptp-0 pbp-0">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-185" />
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-185 overflow-auto" />
                         </div>
                       </div>
                     </div>
@@ -102,7 +102,7 @@ function Page025(props) {
                         <div className="box-shadow-simple">
                           <div className="d-flex flex-column bgc-white">
                             <div className="psp-10 pep-10">
-                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-150" />
+                              <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180" />
                             </div>
                           </div>
                         </div>
@@ -130,7 +130,7 @@ function Page025(props) {
                     <div className="d-flex flex-column bgc-azuka border-style-solid border-color-white border-2 rounded-p-10">
                       <div className="psp-10 pep-10 ptp-10 pbp-10 f-Ubuntu-L fsp-14 text-start">
                         <div className="min-hp-50">¿Qué tipo de nutriente podrían tener  en común?</div>
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-300 p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-150" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-300 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                       </div>
                     </div>
                   </div>
@@ -144,7 +144,7 @@ function Page025(props) {
                     <div className="d-flex flex-column bgc-azuka border-style-solid border-color-white border-2 rounded-p-10">
                       <div className="psp-10 pep-10 ptp-10 pbp-10 f-Ubuntu-L fsp-14 text-start">
                         <div className="min-hp-50">¿Qué podría ocurrir con las manchas si se cambia el tipo de leche?</div>
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-310 p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-150" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-310 p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-140" />
                       </div>
                     </div>
                   </div>

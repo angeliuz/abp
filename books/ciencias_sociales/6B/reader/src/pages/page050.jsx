@@ -56,6 +56,7 @@ function Page050(props) {
                   <div className="flex-grow-1 bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" /></div>
                 </div>
               </div>
+
               <div className="d-flex flex-row bd-highlight mb-3 col-6 p-2 m-0 position-relative">
               <div className="position-absolute top-50 start-100 translate-middle zindex-1 mtp--20"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-45 mtp-55 mep-0" alt="" /></div>
               
@@ -64,6 +65,7 @@ function Page050(props) {
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-245" />
                 </div>
               </div>
+              
               <div className=" d-flex flex-row bd-highlight mb-3 col-6 p-2 m-0 position-relative">
                 <div className="bgc-white rounded-p-10 p-2 w-100">
                   <div className="f-Ubuntu-R fsp-14 lh-sm text-center">Desventajas</div>
@@ -84,6 +86,7 @@ function Page050(props) {
                   <div className="flex-grow-1 bgc-white rounded-p-10"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" /></div>
                 </div>
               </div>
+
               <div className="d-flex flex-row bd-highlight mb-3 col-6 p-2 m-0 position-relative">
               <div className="position-absolute top-50 start-100 translate-middle zindex-1 mtp--20"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-45 mtp-55 mep-0" alt="" /></div>
               <div className="position-absolute top-50 start-0 translate-middle zindex-1"><img src={"images/page_" + pagina + "/lapiz.png"} className="hp-80 mtp-50 mep-0" alt="" /></div>
@@ -92,6 +95,7 @@ function Page050(props) {
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-245" />
                 </div>
               </div>
+
               <div className="d-flex flex-row bd-highlight mb-3 col-6 p-2 m-0 position-relative">
                 <div className="bgc-white rounded-p-10 p-2 w-100">
                   <div className="f-Ubuntu-R fsp-14 lh-sm text-center">Desventajas</div>

@@ -145,7 +145,7 @@ function Page027(props) {
 
               </div>
             </div>
-            <div className="col-sm-12 col-md-6 position-relative mbp-10">
+            <div className="col-sm-12 col-md-6 position-relative mbp-80">
               <div className="position-absolute top-50 start-100 translate-middle zindex-1 visible-768">
                 <img
                   src="images/page_027/img_005.png"

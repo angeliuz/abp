@@ -51,20 +51,19 @@ function Page008(props) {
                     <div className="d-flex w-100  ptp-5 pbp-5 m-0 text-center f-Ubuntu-B center-center">Acuerdo</div>
                     <div className="d-flex psp-10 pep-10 mbp-10">
                       <div className=" d-flex align-items-center">En</div>
-                      <div className="w-100 "><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-190 msp-5 p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" /></div>
+                      <div className="w-100 "><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-190 msp-5 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-35 overflow-auto" /></div>
                       <div className=" d-flex align-items-center">,a</div>
-                      <div className=" w-100"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-190 msp-5 p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" /></div>
+                      <div className=" w-100"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-190 msp-5 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-35 overflow-auto" /></div>
                       <div className=" d-flex align-items-center">de</div>
-                      <div className=" w-100"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-190 msp-5 p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" /></div>
+                      <div className=" w-100"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="max-wp-190 msp-5 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-35 overflow-auto" /></div>
                     </div>
                     <div className="d-flex w-100  psp-10 ptp-5 pbp-5 m-0 text-center align-items-center">Manifiesto que yo me comprometo a  </div>
                     <div className="d-flex psp-10 pep-10">
-                      <div className=" w-100"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-150" /></div>
+                      <div className=" w-100"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" /></div>
                     </div>
-                    <div className="d-flex w-100  ptp-5 pbp-5 m-0 text-center f-Ubuntu-R center-center">
-                      <div className="bgc-white rounded-p-10 wp-200 hp-50 psp-10 pep-10 ptp-10 pbp-10">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
-
+                    <div className="d-flex w-100 ptp-5 pbp-5 m-0 text-center f-Ubuntu-R center-center">
+                      <div className="bgc-white rounded-p-10 wp-400 hp-50 psp-10 pep-10 ptp-10 pbp-10">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-center flex-grow-1 contenedor-linea lhp-35 hp-35 overflow-auto" />
                       </div>
                     </div>
                     <div className="d-flex w-100  ptp-0 pbp-5 m-0 text-center f-Ubuntu-B center-center">Firma</div>
@@ -78,7 +77,7 @@ function Page008(props) {
           </div>
 
 
-          <div className={"w-100 mtp-50 mbp-0 psp-0 pep-0 ptp-0 pbp-100 " + bgc_cajas + " border-top-style-solid " + borderColor + " border-2"}>
+          <div className={"w-100 mtp-50 mbp-0 psp-0 pep-0 ptp-0 pbp-100 " + bgc_cajas + " border-top-style-solid border-color-hardDark border-2"}>
 
             <div className="d-flex flex-column global-margin mtp-20 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-relative">
               <div className="position-absolute top-0 start-100 translate-middle msp--20 mtp--15 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-100" alt="" /></div>

@@ -34,7 +34,7 @@ function Page067(props) {
 
 
 
-          <div className=" psp-70 pep-50">
+          <div className="psp-70 pep-50 mbp-60">
 
             <div className="max-wp-640 mx-auto position-relative mtp-20">
               <div className="position-absolute top-100 start-100 translate-middle   msp-0 mtp--20 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-35" alt="" /></div>
@@ -47,9 +47,6 @@ function Page067(props) {
                 </div>
               </div>
             </div>
-
-
-
 
             <div className="max-wp-640 mx-auto position-relative mtp-20">
               <div className="position-absolute top-50 start-0 translate-middle  msp--10 mtp-0 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-40" alt="" /></div>
@@ -77,12 +74,6 @@ function Page067(props) {
               </div>
             </div>
           </div>
-
-
-
-
-
-
 
           {/* BEIGN PIE DE PAGINA */}
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
