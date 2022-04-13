@@ -51,8 +51,8 @@ function Page024(props) {
 
                             <div className="col-md-4  position-relative justify-content-center align-items-center ptp-10 pbp-10">
                                 <div className="d-flex justify-content-center w-100 ">
-                                    <div className="bgc-bulma w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
-                                        REALIDAD ACTUAL
+                                    <div className="bgc-bulma w-90 rounded-caja ptp-5 pbp-5 color-white fsp-13 f-pixilate-extrabold ">
+                                        REALIDAD ACTUAL DEL CURSO
                                     </div>
                                 </div>
                                 <div className="position-absolute flecha-p24 translate-middle msp-3 mtp-0 zindex-1 ">
@@ -70,7 +70,7 @@ function Page024(props) {
                                     <img src="images/page_024/img_004.svg" className="wp-30 giro90-res" alt="" />
                                 </div>
                                 <div className="d-flex justify-content-center w-100 ">
-                                    <div className="bgc-android18 w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
+                                    <div className="bgc-android18 w-90 rounded-caja ptp-5 pbp-5 color-white fsp-13 f-pixilate-extrabold ">
                                         ¿QUÉ PASARÍA SI...?
                                     </div>
                                 </div>
@@ -83,7 +83,7 @@ function Page024(props) {
 
                             <div className="col-md-4 position-relative ptp-10 pbp-10">
                                 <div className="d-flex justify-content-center w-100 ">
-                                    <div className="bgc-pidgey w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
+                                    <div className="bgc-pidgey w-90 rounded-caja ptp-5 pbp-5 color-white fsp-13 f-pixilate-extrabold ">
                                         CONSECUENCIAS
                                     </div>
                                 </div>
@@ -99,8 +99,8 @@ function Page024(props) {
 
                             <div className="col-md-4 position-relative justify-content-center align-items-center ptp-10 pbp-10">
                                 <div className="d-flex justify-content-center w-100 invisible-768 ">
-                                    <div className="bgc-bulma w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
-                                        REALIDAD ACTUAL
+                                    <div className="bgc-bulma w-90 rounded-caja ptp-5 pbp-5 color-white fsp-13 f-pixilate-extrabold ">
+                                        REALIDAD ACTUAL DEL CURSO
                                     </div>
                                 </div>
                                 <div className="position-absolute flecha-p24 translate-middle msp-3 mtp-0 zindex-1 ">
@@ -118,7 +118,7 @@ function Page024(props) {
                                     <img src="images/page_024/img_004.svg" className="wp-30 giro90-res" alt="" />
                                 </div>
                                 <div className="d-flex justify-content-center w-100 invisible-768 ">
-                                    <div className="bgc-android18 w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
+                                    <div className="bgc-android18 w-90 rounded-caja ptp-5 pbp-5 color-white fsp-13 f-pixilate-extrabold ">
                                         ¿QUÉ PASARÍA SI...?
                                     </div>
                                 </div>
@@ -131,7 +131,7 @@ function Page024(props) {
 
                             <div className="col-md-4 position-relative ptp-10 pbp-10">
                                 <div className="d-flex justify-content-center w-100 invisible-768 ">
-                                    <div className="bgc-pidgey w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
+                                    <div className="bgc-pidgey w-90 rounded-caja ptp-5 pbp-5 color-white fsp-13 f-pixilate-extrabold ">
                                         CONSECUENCIAS
                                     </div>
                                 </div>
@@ -146,8 +146,8 @@ function Page024(props) {
                             </div>
                             <div className="col-md-4 position-relative justify-content-center align-items-center ptp-10 pbp-10">
                                 <div className="d-flex justify-content-center w-100 invisible-768 ">
-                                    <div className="bgc-bulma w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
-                                        REALIDAD ACTUAL
+                                    <div className="bgc-bulma w-90 rounded-caja ptp-5 pbp-5 color-white fsp-13 f-pixilate-extrabold ">
+                                        REALIDAD ACTUAL DEL CURSO
                                     </div>
                                 </div>
                                 <div className="position-absolute flecha-p24 translate-middle msp-3 mtp-0 zindex-1 ">
@@ -165,7 +165,7 @@ function Page024(props) {
                                     <img src="images/page_024/img_004.svg" className="wp-30 giro90-res" alt="" />
                                 </div>
                                 <div className="d-flex justify-content-center w-100 invisible-768 ">
-                                    <div className="bgc-android18 w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
+                                    <div className="bgc-android18 w-90 rounded-caja ptp-5 pbp-5 color-white fsp-13 f-pixilate-extrabold ">
                                         ¿QUÉ PASARÍA SI...?
                                     </div>
                                 </div>
@@ -178,7 +178,7 @@ function Page024(props) {
 
                             <div className="col-md-4 position-relative ptp-10 pbp-10">
                                 <div className="d-flex justify-content-center w-100 invisible-768 ">
-                                    <div className="bgc-pidgey w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
+                                    <div className="bgc-pidgey w-90 rounded-caja ptp-5 pbp-5 color-white fsp-13 f-pixilate-extrabold ">
                                         CONSECUENCIAS
                                     </div>
                                 </div>

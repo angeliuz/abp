@@ -190,7 +190,16 @@ function Page052(props) {
                 </div>
               </div>              </div>
 
-              <div class="col-8 ps-1 pe-1 pb-1 ptp-2"><div class="bgc-white text-start f-Ubuntu-R fsp-15 p-2 h-100 d-flex align-items-center lh-sm">Otro:</div></div>
+              <div class="col-8 ps-1 pe-1 pb-1 ptp-2">
+                <div class="d-flex bgc-white text-start f-Ubuntu-R fsp-15 p-2 lh-sm align-items-top">
+                  <div className="ptp-10">
+                  Otro:
+                  </div>
+                <div className="w-100">
+              <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="max-wp-400 pep-20 p-0 px-1 text-start flex-grow-1 lhp-35 contenedor-linea w-100 min-hp-35" />
+              </div>
+              </div>
+              </div>
               <div class="col-1 ps-1 pe-1 pb-1 ptp-2">                <div class="bgc-white p-1 h-100 d-flex align-items-center justify-content-center">
                 <div className="wp-30 hp-30">
                   <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>

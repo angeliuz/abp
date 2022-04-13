@@ -155,7 +155,7 @@ function Page061(props) {
 
 
 
-                    <div className="ptp-10 container-titulo-global mbp-30">
+                    <div className="ptp-10 container-titulo-global mbp-20">
                         <div className="d-flex">
                             <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_061/img_004.svg" alt="" />
                             <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
@@ -167,7 +167,7 @@ function Page061(props) {
                     </div>
 
                     <div className="msp-80 mep-60 position-relative  ">
-                        <div className="position-absolute top-0 start-100 translate-middle   zindex-4 visible-768 msp--10 mtp--60 "><img src="images/page_061/img_006.png" className="wp-80 " alt="" /></div>
+                        <div className="position-absolute top-0 start-100 translate-middle   zindex-4 visible-768 msp--10 mtp--70 "><img src="images/page_061/img_006.png" className="wp-90 " alt="" /></div>
                         <div className="position-absolute top-100 start-0 translate-middle   zindex-10 visible-768 msp--10 mtp--30 "><img src="images/page_061/img_007.png" className="wp-50 " alt="" /></div>
                         <div className="row w-100 mb-10   ">
                             <div className="cb-ep-paper-61 ">
