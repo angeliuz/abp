@@ -48,8 +48,8 @@ function Page035(props) {
 
 
                     <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-Ubuntu-L  fsp-16">
-                    <div className="position-absolute top-0 start-100 translate-middle msp--160 mtp-0 visible-768 zindex-2"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-50 " alt="" /></div>
-                    <div className="position-absolute top-100 start-100 translate-middle msp--160 mtp--100 visible-768 zindex-2"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-100 " alt="" /></div>
+                        <div className="position-absolute top-0 start-100 translate-middle msp--160 mtp-0 visible-768 zindex-2"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-50 " alt="" /></div>
+                        <div className="position-absolute top-100 start-100 translate-middle msp--130 mtp--100 visible-768 zindex-2"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-120 " alt="" /></div>
 
 
                         <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp--100 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-580 hp-600" alt="" /></div>
@@ -105,7 +105,7 @@ function Page035(props) {
                                         <div className="d-flex">
                                             <div className="ptp-0">
                                                 <div className="bgc-white">
-                                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                 </div>
                                             </div>
                                             <div className="psp-10 ptp-0 f-Ubuntu-L fsp-16 text-start">Cada integrante del grupo sabe a quién entrevistará.</div>
@@ -113,7 +113,7 @@ function Page035(props) {
                                         <div className="d-flex">
                                             <div className="ptp-10">
                                                 <div className="bgc-white">
-                                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                 </div>
                                             </div>
                                             <div className="psp-10 ptp-10 f-Ubuntu-L fsp-16 text-start">Acordamos la hora y el día de las entrevistas.</div>
@@ -121,7 +121,7 @@ function Page035(props) {
                                         <div className="d-flex">
                                             <div className="ptp-10">
                                                 <div className="bgc-white">
-                                                <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                                                 </div>
                                             </div>
                                             <div className="psp-10 ptp-10 f-Ubuntu-L fsp-16 text-start">Tenemos nuestras pregunas anotadas.</div>
@@ -136,8 +136,8 @@ function Page035(props) {
                         </div>
 
                     </div>
-{/* PIE DE PAGINA */}
-<div
+                    {/* PIE DE PAGINA */}
+                    <div
                         className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2"
                         style={{ bottom: 70, right: 0 }}
                     >
