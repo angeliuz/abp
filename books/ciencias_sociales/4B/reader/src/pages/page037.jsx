@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import SubirImagen from '../components/SubirImagen';
 
 import "./page_037.css";
 
@@ -53,8 +54,16 @@ function Page037(props) {
                 {/* <div className="position-absolute top-50 start-0 translate-middle"><img src="images/page_050/lapiz.png" className="hp-85 mep-5 mtp-45" alt="" /></div> */}
                 {/* <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_050/mono.png" className="hp-110 msp--50 mtp--110" alt="" /></div> */}
                 <div className="bgc-jugador001 border-style-solid border-color-goku border-1 box-shadow-simple min-hp-300 ">
-
-                  <div className=" position-absolute top-50 start-50 translate-middle">
+<div className="d-flex align-center justify-content-center">
+<SubirImagen
+                    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                    className="w-100 bgc-white"
+                    colorUnidad={background}
+                    imagenPlaceHolder="images/generales/subir_imagen.svg"
+                    titulo="Subir imagen"
+                  />
+  </div>
+                  {/* <div className=" position-absolute top-50 start-50 translate-middle">
 
                     <div className="d-flex mbp-20 mtp-10 w-100">
                       <div className="p-2 min-hp-100 min-wp-200  border-style-solid border-2 rounded-p-10 border-color-lightDark bgc-white">
@@ -63,7 +72,7 @@ function Page037(props) {
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 w-100 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   {/* <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-260 mep-70 msp-10" /> */}
                 </div>
               </div>
