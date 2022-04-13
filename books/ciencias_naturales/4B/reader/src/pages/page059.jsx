@@ -113,7 +113,7 @@ function Page059(props) {
                     <ModalRecortableEstatico
                       id={"p" + pagina + "_cutouts_" + (indexInput += 1)}
                       pagina={pagina}
-                      image={"images/page_" + pagina + "/img_005.svg"}
+                      image={"images/page_" + pagina + "/imagen_005.png"}
                       colorUnidad={background}
                       numRecortables="1"
                       grupo="1"
