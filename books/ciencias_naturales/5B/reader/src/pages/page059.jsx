@@ -192,10 +192,10 @@ function Page059(props) {
                 <div className="d-flex justify-content-center">
                   <div className="psp-10 pep-10 ptp-10 mtp-20 border-style-solid border-1 border-color-dark bgc-kai rounded-p-5  wp-200 ">
                     <div className="d-flex justify-content-start  flex-column">
-                      <div className="mbp-10 fw-700 text-start">La información es...</div>
+                      <div className="mbp-10 fw-700 text-start">El diseño es...</div>
                       <div className="d-flex   align-items-center pbp-10 ">
                         <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
-                        <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5"> El diseño es...</div>
+                        <div className="f-Ubuntu-L msp-10 fsp-15 lh-sm pep-5"> fácil de leer</div>
                       </div>
                       <div className="d-flex align-items-center pbp-10">
                         <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>

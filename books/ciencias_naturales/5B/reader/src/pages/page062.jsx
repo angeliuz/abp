@@ -23,9 +23,6 @@ function Page062(props) {
           <div className={"cabecera-v1 hp-80 " + background}></div>
           {/* END CABECERA VERSIÓN 1 */}
 
-
-
-
           <div className="container-titulo-global mtp-20 mbp-0">
             {/* <div className={"f-Ubuntu-B fsp-20 psp-20 text-start lhp-20 "+color}>
 xxx
@@ -45,11 +42,7 @@ xxx
             </div>
           </div>
 
-
-
-
-
-          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-0 mbp-60 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100 bgc-windu rounded-p-10  border-style-solid border-1 border-color-dark">
               <div className="col-md-6 col-md-6 p-0 m-0 position-relative ">
                 <div className="position-absolute bottom-0 start-0    msp--30 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-40" alt="" /></div>
@@ -57,16 +50,12 @@ xxx
 
                 <div className="justify-content-center p-2 h-100 w-100 ">
                   <div className="h-100 border-style-solid border-1 border-color-dark rounded-p-10  bgc-white  ">
-
                     <div className="w-100 psp-50 pep-50 ptp-10 pbp-10  mbp-10  position-relative">
                       <div className="position-absolute top-50 start-0 translate-middle-y    msp-30 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-40" alt="" /></div>
-
-
                       <div className="elipse wp-320 alinea border-style-solid border-2 rounded-p-10 border-color-dark w-100 bgc-bulma hp-120 mtp-20  ">
                         <div className="d-flex justify-content-center text-center align-items-center hp-120 f-Ubuntu-R fsp-15 fw-700 color-white lh-sm">Tengo todos los<br /> materiales que necesito</div>
                       </div>
                       <div className=" w-100 ">
-
                         <div className="d-flex justify-content-around  mt-1 ">
                           <div className="">
                             <img src={"images/page_" + pagina + "/img_005.svg"} className="wp-25 msp-20" alt="" />
@@ -81,10 +70,7 @@ xxx
                             </div>
                           </div>
                         </div>
-
                       </div>
-
-
                     </div>
 
                     <div className="w-100 psp-10 pep-10 ptp-10 pbp-10  mbp-10 ">
@@ -95,9 +81,6 @@ xxx
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-540" />
                       </div>
                     </div>
-
-
-
                   </div>
                 </div>
               </div>
@@ -110,13 +93,10 @@ xxx
 
                     <div className="w-100 psp-50 pep-50 ptp-10 pbp-10  mbp-10  position-relative">
                       <div className="position-absolute top-50 end-0 translate-middle-y  mep-10 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-50" alt="" /></div>
-
-
                       <div className="elipse wp-320 alinea border-style-solid border-2 rounded-p-10 border-color-dark w-100 bgc-bulma hp-120 mtp-20  ">
                         <div className="d-flex justify-content-center text-center align-items-center hp-120 f-Ubuntu-R fsp-15 fw-700 color-white lh-sm">Voy a <br />necesitar ayuda</div>
                       </div>
                       <div className=" w-100 ">
-
                         <div className="d-flex justify-content-around  mt-1 ">
                           <div className="">
                             <img src={"images/page_" + pagina + "/img_005.svg"} className="wp-25 msp-20" alt="" />
@@ -131,10 +111,7 @@ xxx
                             </div>
                           </div>
                         </div>
-
                       </div>
-
-
                     </div>
 
                     <div className="w-100 psp-10 pep-10 ptp-10 pbp-10  mbp-10 ">
@@ -146,17 +123,9 @@ xxx
                       </div>
                     </div>
 
-
-
                   </div>
                 </div>
-
-
-
               </div>
-
-
-
             </div>
           </div>
 

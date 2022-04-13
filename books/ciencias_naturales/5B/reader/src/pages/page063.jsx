@@ -51,11 +51,11 @@ xxx
 
 
 
-                    <div className="d-flex psp-60 pep-60 mtp-20 mbp-0">
+                    <div className="d-flex psp-60 pep-60 mtp-20 mbp-80">
                         <div className="row w-100 p-0 m-0">
                             <div className="col-12 p-0 m-0 position-relative">
                                 {/* <div className="position-absolute top-0 start-100 translate-middle  zindex-1 mep-0 msp--0  mtp-70"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-60" alt="" /></div> */}
-                                <div className="position-absolute top-100 start-100 translate-middle  zindex-1 msp--50 mtp--60"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-190" alt="" /></div>
+                                <div className="position-absolute top-100 start-100 translate-middle zindex-1 msp--80 mtp--60"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-190" alt="" /></div>
                                 {/* <div className="position-absolute top-50 start-100 translate-middle  zindex-1 mep-25 mtp-0"><img src={"images/page_" + pagina + "/img_003.png"} className="hp-80" alt="" /></div> */}
                                 {/* <div className="position-absolute top-100 start-0 translate-middle   zindex-1 msp-20 mtp--40"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-130" alt="" /></div> */}
                                 <div className="border-style-solid border-2 border-color-dark rounded-p-10 min-hp-700">

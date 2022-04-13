@@ -112,7 +112,7 @@ function Page018(props) {
               </div>
               <div className="col-3 p-0 m-0 position-relative hp-100"></div>
               <div className="col-3 p-0 m-0 position-relative d-flex justify-content-center align-items-center">
-                <div className="row justify-content-center align-items-top f-Ubuntu-R fsp-13 lh-sm">
+                <div className="row justify-content-center align-items-top f-Ubuntu-R fsp-15 lh-sm">
 
                   <div className="col-12 bgc-leono rounded-p-10 position-relative pp-20 mtp-40 mbp-40">
                     <p className="p-0 m-0">Difusión</p>
@@ -240,9 +240,10 @@ function Page018(props) {
           </div> */}
 
 
-          <div className={"w-100 mtp-20 mbp-0 psp-0 pep-0 ptp-0 pbp-100 " + bgc_cajas + " border-top-style-solid " + borderColor + " border-2"}>
+          <div className={"w-100 mtp-20 mbp-0 psp-0 pep-0 ptp-0 pbp-100 " + bgc_cajas + " border-top-style-solid border-color-hardDark border-2"}>
 
-            <div className="d-flex flex-column global-margin mtp-20 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
+            <div className="d-flex flex-column global-margin mtp-20 mbp-20 psp-0 pep-0 ptp-0 pbp-0 position-relative">
+              <div className="position-absolute top-0 start-100 translate-middle msp--20 mtp--50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-160" alt="" /></div>
               <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-10">¿Cómo voy?</div>
               <div className="d-flex flex-column bgc-white rounded-p-10 psp-10 pep-10 ptp-10 pbp-10 mtp-0 mbp-0">
                 <div className="row p-0 m-0 w-100">

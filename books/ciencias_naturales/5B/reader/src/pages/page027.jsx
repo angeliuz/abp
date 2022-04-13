@@ -42,7 +42,7 @@ function Page027(props) {
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Relacionar afirmaciones  <br /> diferenciar una alimentación  <br />saludable
+                Relacionar afirmaciones  <br /> con una alimentación <br />saludable
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />

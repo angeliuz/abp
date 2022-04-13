@@ -45,7 +45,7 @@ function Page048(props) {
                 <div className="f-Ubuntu-R text-start ptp-10 pbp-10">El contenido debe incluir:</div>
 
                 <div className="position-relative ptp-10 pbp-10">
-                  <div className="f-Ubuntu-L text-start psp-40">propuestas de snack saludables.</div>
+                  <div className="f-Ubuntu-L text-start psp-40">propuestas de <i>snack</i> saludables.</div>
                   <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0">
                     <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
@@ -103,21 +103,21 @@ function Page048(props) {
                 <div className="f-Ubuntu-R text-start ptp-10 pbp-10">La información debe resultar:</div>
 
                 <div className="position-relative ptp-10 pbp-10">
-                 <div className="f-Ubuntu-L text-start psp-40">clara, estructurada y ordenada.</div>
-                 <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0">
-                   <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                  <div className="f-Ubuntu-L text-start psp-40">clara, estructurada y ordenada.</div>
+                  <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                 </div>
                 <div className="position-relative ptp-10 pbp-10">
-                 <div className="f-Ubuntu-L text-start psp-40">original, atractiva y llamativa.</div>
-                 <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0">
-                   <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                  <div className="f-Ubuntu-L text-start psp-40">original, atractiva y llamativa.</div>
+                  <div className="position-absolute top-50 start-0 translate-middle msp-10 mtp-0">
+                    <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                   </div>
                 </div>
               </div>
               <div className="position-absolute top-0 start-0 translate-middle msp-0 mtp-30 zindex-1"><img src={"images/page_" + pagina + "/lapiz.png"} className="hp-90" alt="" /></div>
               <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/megafono.png"} className="hp-60" alt="" /></div>
-              
+
             </div>
           </div>
 

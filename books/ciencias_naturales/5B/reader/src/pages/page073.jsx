@@ -67,7 +67,7 @@ function Page073(props) {
                   {/*<ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />*/}
                 </div>
               </div>
-              <div className="col-12 border-1 border-style-solid border-color-lightDark mtp-20 rounded-p-10 position-relative">
+              <div className="col-12 border-1 border-style-solid border-color-lightDark mtp-20 rounded-p-10 position-relative mbp-60">
                 <div className="position-absolute top-0 start-100 translate-middle msp-10 mtp-60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-70" alt="" /></div>
                 <div className="position-absolute top-50 start-0 translate-middle msp-0 mtp-60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-50" alt="" /></div>
                 <div className="psp-15 pep-15">

@@ -23,7 +23,7 @@ function Page056(props) {
         <div className={"page " + background + " position-relative pagina-cohete"} id={"page_" + pagina}>
 
           <div className="w-100 mt-15 pe-5 ps-5 ">
-            <div className="pc-lineas-v2 pbp-80">
+            <div className="pc-lineas-v2 pbp-40">
               <div className="pc-cabecera">
                 <div className="pc-titulo-12 color-white fsp-20 lh-sm f-durotype-aspiranar-bold">
                   Mis objetivos <br /> en esta etapa son:
@@ -33,7 +33,7 @@ function Page056(props) {
               </div>
 
               {/* BEGIN OBJETIVOS */}
-              <div className="pc-caja-objetivos-1">
+              <div className="pc-caja-objetivos-1 mbp-20">
                 <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
                   <div className={"d-flex " + bgc_cajas + " psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e" + etapa}>
                     <div className="d-flex align-items-start wp-23 ptp-1 pep-2">
@@ -48,7 +48,7 @@ function Page056(props) {
                   </div>
                 </div>
               </div>
-              <div className="pc-caja-objetivos-2">
+              <div className="pc-caja-objetivos-2 mbp-20">
                 <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-start">
                   <div className={"d-flex " + bgc_cajas + " psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e" + etapa}>
                     <div className="d-flex align-items-start wp-23 ptp-1 pep-2">
@@ -63,7 +63,7 @@ function Page056(props) {
                   </div>
                 </div>
               </div>
-              <div className="pc-caja-objetivos-3">
+              <div className="pc-caja-objetivos-3 mbp-20">
                 <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
                   <div className={"d-flex " + bgc_cajas + " psp-20 ptp-20 pbp-15 pep-20 rounded-p-10 pc-caja-outline-e" + etapa}>
                     <div className="d-flex align-items-start wp-23 ptp-1 pep-2">
