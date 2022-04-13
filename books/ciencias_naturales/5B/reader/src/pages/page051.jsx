@@ -29,26 +29,26 @@ function Page051(props) {
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-0 pep-0 align-self-center justify-content-between w-95">
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Mis objetivos en <br /> esta sesión son:
+                Mis objetivos en esta sesión son:
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Pensar qué tenemos<br />que incluir en el documento<br />con la propuesta
+                Pensar qué tenemos que incluir en el documento con la propuesta
               </div>
               <div className="psp-5 pep-5 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                Establecer una<br />modalidad de trabajo
+                Establecer una modalidad de trabajo
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="psp-5 pep-5 ptp-10 pbp-10 position-relative align-self-center f-colby-compres-bold fsp-17 lh-sm text-center color-white">
                 <div className="position-relative">
-                  Escribir la propuesta<br />y presentarla a<br />los encargados del<br />colegio
+                  Escribir la propuesta y presentarla a los encargados del colegio
                 </div>
               </div>
               <div className="p-0 align-self-center">
@@ -59,7 +59,7 @@ function Page051(props) {
                   <img src="images/cabecera/caja_blanca.png" width="100%" height="100%" alt="" />
                 </div>
                 <div className="position-relative mnwp-120">
-                  Evaluar cómo<br />trabajamos en equipo<br />y cómo podemos<br />mejorar
+                  Evaluar cómo trabajamos en equipo y cómo podemos mejorar
                 </div>
               </div>
             </div>
@@ -200,7 +200,7 @@ function Page051(props) {
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           </div>
                           <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
-                            Contiene una sección que justifique por qué la propuesta se considera un ejemplo alimentación saludable.
+                            Contiene una sección que justifique por qué la propuesta se considera un ejemplo de alimentación saludable.
                           </div>
                         </div>
                       </div>

@@ -58,7 +58,7 @@ function Page071(props) {
                 1
               </div>
               <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">
-                Veo el video, leo el mail y luego respondo
+                Veo el video, leo el mail y luego respondo.
               </div>
               {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
               <ModalVideo
@@ -106,7 +106,7 @@ function Page071(props) {
                     <p>Sé que el trabajo ha sido exigente, y que han debido enfrentar
                       diversos desafíos y obstáculos: no obstante, han logrado superarlos con éxito.</p>
 
-                    <p>No olviden disfrutar de esta etapa final!</p>
+                    <p>¡No olviden disfrutar de esta etapa final!</p>
 
                     <p>Saludos afectuosos. ONG de la salud.
                     </p>
