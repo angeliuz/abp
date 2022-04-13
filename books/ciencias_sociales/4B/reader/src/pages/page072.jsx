@@ -43,7 +43,7 @@ function Page072(props) {
                         </div>
                     </div>
                     <div className="justify-content-end d-flex ptp-0 w-100 position-absolute-767 start-0 bottom-0">
-                        <img src={"images/page_" + pagina + "/img_006.png"} className="wp-700" alt="" />
+                        <img src={"images/page_" + pagina + "/img_006.png"} className="wp-530" alt="" />
                     </div>
 
 

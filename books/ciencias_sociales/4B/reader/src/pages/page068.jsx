@@ -74,6 +74,8 @@ function Page068(props) {
               </div>
               <div className="max-wp-700-68 mx-auto cb-border-multicolor ptp-20 pbp-20 psp-60 bgc-lizt position-relative">
                 <div className="position-absolute top-50 start-100 translate-middle msp--90 mtp-10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-110" alt="" /></div>
+                <div className="ptp-60"></div>
+                <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-30 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-400" alt="" /></div>
                 <span className="text-start f-Ubuntu-L fsp-15 d-flex ">Nuestra jornada “Por la buena convivencia escolar”</span>
                 <div className="d-flex w-100 mtp-10">
                   <span className="text-start f-Ubuntu-L fsp-15 d-flex justify-content-center align-items-center mep-10">se llevará a cabo el día</span>
