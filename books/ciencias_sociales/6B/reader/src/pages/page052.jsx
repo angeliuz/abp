@@ -115,7 +115,7 @@ function Page052(props) {
                 <div className=" col-4 position-relative  d-flex flex-row bd-highlight ">
                   <div className="text-center w-100 ">
                    
-                  <div className="center bgc-tertiary"><img src="images/page_046/flecha_morada.png" className="w-70 " alt="" /></div>
+                  <div className="center-1 bgc-tertiary"><img src="images/page_046/flecha_morada.png" className="w-70 " alt="" /></div>
                   </div>
                 </div>
 
@@ -163,7 +163,7 @@ function Page052(props) {
                 <div className=" col-4 position-relative  d-flex flex-row bd-highlight ">
                   <div className="text-center w-100 ">
                    
-                  <div className="center bgc-tertiary"><img src="images/page_046/flecha_azul.png" className="w-70 " alt="" /></div>
+                  <div className="center-1 bgc-tertiary"><img src="images/page_046/flecha_azul.png" className="w-70 " alt="" /></div>
                   </div>
                 </div>
 
@@ -207,7 +207,7 @@ function Page052(props) {
                 <div className=" col-4 position-relative  d-flex flex-row bd-highlight ">
                   <div className="text-center w-100 ">
                    
-                  <div className="center"><img src="images/page_046/flecha_verde.png" className="w-70 " alt="" /></div>
+                  <div className="center-1"><img src="images/page_046/flecha_verde.png" className="w-70 " alt="" /></div>
                   </div>
                 </div>
 
@@ -251,7 +251,7 @@ function Page052(props) {
                 <div className=" col-4 position-relative  d-flex flex-row bd-highlight ">
                   <div className="text-center w-100 ">
                    
-                  <div className="center "><img src="images/page_046/flecha_naranja.png" className="w-70 " alt="" /></div>
+                  <div className="center-1 "><img src="images/page_046/flecha_naranja.png" className="w-70 " alt="" /></div>
                   </div>
                 </div>
 
@@ -296,7 +296,7 @@ function Page052(props) {
                 <div className=" col-4 position-relative  d-flex flex-row bd-highlight ">
                   <div className="text-center w-100 ">
                    
-                  <div className="center "><img src="images/page_046/flecha_rojo.png" className="w-70 " alt="" /></div>
+                  <div className="center-1 "><img src="images/page_046/flecha_rojo.png" className="w-70 " alt="" /></div>
                   </div>
                 </div>
 

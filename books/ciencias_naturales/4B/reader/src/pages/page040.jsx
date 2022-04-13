@@ -188,7 +188,7 @@ function Page040(props) {
                 </tr>
               </table>
 
-              <div className="ptp-10 container-titulo-global mbp-20">
+              <div className="ptp-10 mbp-20">
                 <div className="d-flex">
                   <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">
                     2
