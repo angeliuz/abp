@@ -95,6 +95,9 @@ function Page046(props) {
                 <div className="col-12 mtp-30">
                   <div className="f-Ubuntu-R fsp-16 border-style-solid rounded-p-10 border-2 p-2 text-start border-color-lightDark">
                     Obra:
+                    <div className="">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35" />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -103,17 +106,17 @@ function Page046(props) {
                   
                 </div>
 
-                <div className=" col-4 position-relative">
-                  <div className="text-center w-100 border-1 border-style-solid border-color-danger rounded-p-10  mtp-10">
+                <div className=" col-4 position-relative p-0 m-0 d-flex flex-row bd-highlight mb-3 ">
+                  <div className="text-center w-100    mtp-10">
                    
-                  <div className="msp--100"><img src="images/page_046/flecha_morada.png" className=" " alt="" /></div>
+                  <div className="center bgc-bang"><img src="images/page_046/flecha_morada.png" className="w-80 " alt="" /></div>
                   </div>
                 </div>
-                <div className="col-8 position-relative">
-                  <div className="text-center w-100 border-1 border-style-solid border-color-obiwan rounded-p-10 mtp-10">
+                <div className="col-8 position-relative p-0 m-0 d-flex flex-row bd-highlight mb-3">
+                  <div className="text-center w-100 border-2 border-style-solid border-color-saitama rounded-tbe-10 mtp-10">
                     
                     <div className="psp-15 pep-15">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-210" />
                     </div>
                   </div>
                 </div>
