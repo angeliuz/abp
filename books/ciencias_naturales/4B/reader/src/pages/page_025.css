@@ -2,7 +2,12 @@
     left: 100% !important;
     top: 50% !important;
 }
-
+.max-wp-700{
+    max-width: 700px;
+}
+.cb-sterch{
+   align-items: stretch;
+}
 @media all and (max-width: 768px) {
     .flecha-p25 {
         left: 50% !important;

@@ -8,7 +8,7 @@ function Page063(props) {
   const pagina = "063";
   var indexInput = 0;
   const background = "bgc-saitama";
-  
+
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
@@ -49,7 +49,7 @@ function Page063(props) {
             {/* <div className="position-absolute top-0 start-100 translate-middle "><img className="hp-100 msp--180 " src="images/page_063/img_002.png" alt="" /></div> */}
 
             <div className="col-sm-12 col-md-6 position-relative  ">
-              <div className="border-style-solid mtp-25 border-2 border-color-android18 rounded-p-10 hp-260 w-100 hp-190 position-relative ">
+              <div className="border-style-solid mtp-25 border-2 border-color-android18 rounded-p-10 w-100 position-relative ">
                 <div className="position-absolute top-50 start-0 translate-middle">
                   <img
                     className="hp-100 "
@@ -58,14 +58,14 @@ function Page063(props) {
                   />
                 </div>
 
-                <div className="d-flex align-items-center justify-content-center   rounded-set-10 bgc-android18  hp-45 pixilate-bold fsp-18 fw-700 color-white  ">
+                <div className="d-flex align-items-center justify-content-center rounded-set-10 bgc-android18 hp-45 pixilate-bold fsp-18 fw-700 color-white  ">
                   Aspectos positivos{" "}
                 </div>
                 <div className="mtp-10 msp-30 mep-30 w-85">
                   {" "}
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140"
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
                   />
                 </div>
               </div>
@@ -85,7 +85,7 @@ function Page063(props) {
                   alt=""
                 />
               </div>
-              <div className="border-style-solid mtp-25 border-2 border-color-pidgey rounded-p-10 hp-260 w-100 hp-190  ">
+              <div className="border-style-solid mtp-25 border-2 border-color-pidgey rounded-p-10 w-100 ">
                 <div className="d-flex align-items-center justify-content-center  rounded-set-10 bgc-pidgey hp-45 pixilate-bold fsp-18 fw-700 color-white ">
                   Aspectos negativos{" "}
                 </div>
@@ -93,7 +93,7 @@ function Page063(props) {
                   {" "}
                   <InputBox
                     id={"p" + pagina + "_input" + (indexInput += 1)}
-                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140"
+                    className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
                   />
                 </div>
               </div>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/css/main.53074f16.css",
-    "main.js": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/js/main.def34338.js",
+    "main.css": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/css/main.a59fd960.css",
+    "main.js": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/js/main.04ca97ee.js",
     "static/js/787.327d116d.chunk.js": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/js/787.327d116d.chunk.js",
     "static/media/Fondo_001.svg": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/Fondo_001.e920e604fad3eb1b1abe.svg",
     "static/media/IntroRustG-Base.otf": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/IntroRustG-Base.550328cf018992102ea6.otf",
@@ -45,12 +45,12 @@
     "static/media/fondo_005.svg": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/fondo_005.d94f5449813804f54e2b.svg",
     "static/media/linea.svg": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/linea.608e36926dfa6d98a1a5.svg",
     "static/media/lineas_objetivos_movile.svg": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/media/lineas_objetivos_movile.bb3e000f820ddef8d96d.svg",
-    "main.53074f16.css.map": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/css/main.53074f16.css.map",
-    "main.def34338.js.map": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/js/main.def34338.js.map",
+    "main.a59fd960.css.map": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/css/main.a59fd960.css.map",
+    "main.04ca97ee.js.map": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/js/main.04ca97ee.js.map",
     "787.327d116d.chunk.js.map": "/libros_abp/books/ciencias_sociales/5B/reader/build/static/js/787.327d116d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53074f16.css",
-    "static/js/main.def34338.js"
+    "static/css/main.a59fd960.css",
+    "static/js/main.04ca97ee.js"
   ]
 }
