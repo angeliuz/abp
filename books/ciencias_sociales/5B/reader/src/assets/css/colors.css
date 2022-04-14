@@ -132,6 +132,8 @@
   --blaze:#5cac3c;
   --kagome:#ffdcb4;
   --naraku:#b0dcec;
+  --triton:#fae117;
+  --atlan:#70b749;
 }
 
 /* COLORES */
@@ -793,6 +795,13 @@
 .color-naraku {
   color: var(--naraku);
 }
+.color-triton {
+  color: var(--triton);
+}
+.color-atlan {
+  color: var(--atlan);
+}
+  
   
   
   
@@ -1228,6 +1237,14 @@
 .border-color-naraku {
   border-color: var(--naraku) !important;
 }
+.border-color-triton {
+  border-color: var(--triton) !important;
+}
+.border-color-atlan {
+  border-color: var(--atlan) !important;
+}
+
+
 /* B
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1659,4 +1676,10 @@
 }
 .bgc-naraku {
   background-color: var(--naraku);
+}
+.bgc-triton {
+  background-color: var(--triton);
+}
+.bgc-atlan {
+  background-color: var(--atlan);
 }

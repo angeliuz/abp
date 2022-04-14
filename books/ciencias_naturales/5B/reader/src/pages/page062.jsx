@@ -60,7 +60,7 @@ xxx
                           <div className="">
                             <img src={"images/page_" + pagina + "/img_005.svg"} className="wp-25 msp-20" alt="" />
                             <div className="d-flex align-items-center justify-content-center mtp-10 rounded-p-50 border-color-dark hp-50 wp-50 bgc-bulma">
-                              <div className="f-Ubuntu-R fsp-15 fw-300 color-white">SI</div>
+                              <div className="f-Ubuntu-R fsp-15 fw-300 color-white">SÍ</div>
                             </div>
                           </div>
                           <div className="">
@@ -101,7 +101,7 @@ xxx
                           <div className="">
                             <img src={"images/page_" + pagina + "/img_005.svg"} className="wp-25 msp-20" alt="" />
                             <div className="d-flex align-items-center justify-content-center mtp-10 rounded-p-50 border-color-dark hp-50 wp-50 bgc-bulma">
-                              <div className="f-Ubuntu-R fsp-15 fw-300 color-white">SI</div>
+                              <div className="f-Ubuntu-R fsp-15 fw-300 color-white">SÍ</div>
                             </div>
                           </div>
                           <div className="">

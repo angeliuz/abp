@@ -38,7 +38,7 @@ function Page072(props) {
               {/*<ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />*/}
             </div>
           </div>
-          <div className="cb-bajada-p72">
+          <div className="cb-bajasda-p72">
             <div className="d-flex mbp-20">
               <div className="f-ccdigitaldelivery-bold fsp- color-pikachu">a.</div>
               <div className="f-Ubuntu-R fsp-16 psp-10">Ponemos <img src="images/page_072/img_002.svg" className="pbp-5" />según corresponda:</div>
@@ -111,31 +111,91 @@ function Page072(props) {
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+          <div className="d-flex cb-ejercicio2-p72 mtp-0 mbp-100 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
 
-                <div className="row bgc-red">
-                  <div className="col">
-                    <div className="bgc-barbie cb-ejercicio-caja mbp-20 triangulo-p72">
-                      <div className="psp-15 pep-15">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-30" />
-                      </div>
+                <div className="row mbp-15">
+                  <img src="images/page_072/img_006.png" className="cb-tarjeta-p72" />
+                  <img src="images/page_072/img_007.png" className="cb-tijeras-p72" />
+                  <div className="col d-flex align-items-stretch">
+                    <div className="cb-fondo-2 color-white text-center f-Ubuntu-R fsp-16 justify-content-center align-items-center d-flex"> <p className="cb-texto-cajaa">Lo que hay que hacer</p></div>
+                  </div>
+                  <div className="col d-flex align-items-stretch">
+                    <div className="cb-fondo-1 color-white text-center f-Ubuntu-R fsp-16 justify-content-center align-items-center d-flex"> <p className="cb-texto-cajab">Estudiante a cargo</p></div>
+                  </div>
+                </div>
+
+                <div className="row mbp-15">
+                  <div className="col d-flex align-items-stretch">
+                    <div className="bgc-barbie rounded-p-5 w-100 h-100 psp-15 pep-15 pbp-5 triangulo-p72">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100" />
                     </div>
                   </div>
-                  <div className="col">
-                    <div className="bgc-windu cb-ejercicio-caja mbp-10">
-                      <div className="psp-15 pep-15">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-30" />
-                      </div>
+                  <div className="col d-flex align-items-stretch">
+                    <div className="bgc-windu rounded-p-5 w-100 h-100 psp-15 pep-15 pbp-5">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100" />
                     </div>
                   </div>
                 </div>
+
+                <div className="row mbp-15">
+                  <div className="col d-flex align-items-stretch">
+                    <div className="bgc-barbie rounded-p-5 w-100 h-100 psp-15 pep-15 pbp-5 triangulo-p72">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100" />
+                    </div>
+                  </div>
+                  <div className="col d-flex align-items-stretch">
+                    <div className="bgc-windu rounded-p-5 w-100 h-100 psp-15 pep-15 pbp-5">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="row mbp-15">
+                  <div className="col d-flex align-items-stretch">
+                    <div className="bgc-barbie rounded-p-5 w-100 h-100 psp-15 pep-15 pbp-5 triangulo-p72">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100" />
+                    </div>
+                  </div>
+                  <div className="col d-flex align-items-stretch">
+                    <div className="bgc-windu rounded-p-5 w-100 h-100 psp-15 pep-15 pbp-5">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="row mbp-15">
+                  <div className="col d-flex align-items-stretch">
+                    <div className="bgc-barbie rounded-p-5 w-100 h-100 psp-15 pep-15 pbp-5 triangulo-p72">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100" />
+                    </div>
+                  </div>
+                  <div className="col d-flex align-items-stretch">
+                    <div className="bgc-windu rounded-p-5 w-100 h-100 psp-15 pep-15 pbp-5">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="row mbp-15">
+                  <div className="col d-flex align-items-stretch">
+                    <div className="bgc-barbie rounded-p-5 w-100 h-100 psp-15 pep-15 pbp-5 triangulo-p72">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100" />
+                    </div>
+                  </div>
+                  <div className="col d-flex align-items-stretch">
+                    <div className="bgc-windu rounded-p-5 w-100 h-100 psp-15 pep-15 pbp-5">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100" />
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
 
-          <div className="cb-ejercicio2-p72 d-flex mbp-80 position-relative">
+          {/* <div className="cb-ejercicio2-p72 d-flex mbp-80 position-relative">
             <div className="cb-ejercicio-ladoa pep-5 text-center">
               <img src="images/page_072/img_006.png" className="cb-tarjeta-p72" />
               <div className="cb-fondo-2 mbp-20 color-white text-center f-Ubuntu-l fsp-16 justify-content-center align-items-center d-flex"> <p className="cb-texto-cajaa">Lo que hay que hacer</p></div>
@@ -194,7 +254,7 @@ function Page072(props) {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* BEGIN PIE DE PAGINA */}
           <div className="d-flex hp-90  p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
