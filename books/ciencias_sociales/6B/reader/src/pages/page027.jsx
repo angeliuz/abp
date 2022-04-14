@@ -35,19 +35,19 @@ function Page027(props) {
                 <img src="images/page_027/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-              Analizar conflictos relacionados<br />con los derechos fundamentales.
+                Analizar conflictos relacionados<br />con los derechos fundamentales.
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_027/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-              Proponer responsabilidades que<br /> ayuden a resolver conflictos.
+                Proponer responsabilidades que<br /> ayuden a resolver conflictos.
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_027/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
-              Analizar nuestras<br /> propuestas.
+                Analizar nuestras<br /> propuestas.
               </div>
               {/* <div className="p-0 align-self-center">
                 <img src="images/page_025/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
@@ -77,20 +77,160 @@ function Page027(props) {
           </div>
 
 
-          <div className="d-flex global-margin mtp-0 mbp-20 psp-60 pep-60 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-60 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
-              <div className="d-flex pbp-20 ">
-                            <div className="d-flex f-Ubuntu-M bgc-alf rounded-tbs-10 zindex-1 px-3  align-self-stretch color-white justify-content-center align-items-center">Noticia:</div>
-                            <div className=" wp-500  border-2 border-style-solid border-color-alf rounded-tbe-20 msp--20 py-2 psp-25 pep-10">
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
-                            </div>
-                        </div>
+                <div className="d-flex pbp-20 ">
+                  <div className="d-flex f-Ubuntu-M bgc-alf rounded-tbs-10 zindex-1 px-3  align-self-stretch color-white justify-content-center align-items-center">Noticia:</div>
+                  <div className=" wp-560  border-2 border-style-solid border-color-alf rounded-tbe-20 msp--20 py-2 psp-25 pep-10">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-0 mbp-250 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-Ubuntu-L  fsp-16">
+          <div className="d-flex global-margin mtp-0 mbp-20 psp-0 pep-70 ptp-0 pbp-0">
+            <div className="row p-0 m-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative">
+                <div className="d-flex pbp-20 ">
+                  <div className="wp-250 d-flex f-Ubuntu-M bgc-alf rounded-tbs-10 zindex-1 px-3  align-self-stretch color-white justify-content-center align-items-center text-start">Conflicto o problema</div>
+                  <div className=" wp-500  border-2 border-style-solid border-color-alf rounded-tbe-20 msp--20 py-2 psp-25 pep-10">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-35" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="d-flex global-margin mtp-20 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
+            <div className="row pep-70 m-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative">
+
+
+                <div className="w-100 h-100 bgc-obiwan rounded-p-10 pbp-5 ptp-5">
+                  <div className="row m-0 p-2 ">
+
+
+                    <div className="col-3 d-flex align-items-center ">
+                      <div className=" f-Ubuntu-M fsp-16 ptp-18 psp-0 pep-20 pbp-0 text-center color-white">Protagonista 1
+                        de la noticia</div>
+                    </div>
+                    <div className="col-9">
+                      <div className="bgc-white w-100 rounded-p-10 ps-2 pe-2 ">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                      </div>
+                    </div>
+
+
+                    <div className="col-12 ptp-20">
+                      <div className="bgc-white w-100  rounded-p-10 p-0 m-0 mbp-0">
+                        <div className="f-Ubuntu-R fsp-16 ptp-18 pep-10 psp-20 text-start">
+                        ¿Cuál es su situación?
+                        </div>
+                        <div className="psp-20 pep-20 ptp-0 pbp-5 m-0  w-100 ">
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                        </div>
+
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div className="d-flex global-margin mtp-20 mbp-20 psp-0 pep-0 ptp-0 pbp-0">
+            <div className="row pep-70 m-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative">
+
+                <div className="w-100 h-100 bgc-android18 rounded-p-10 pbp-5 ptp-5">
+                  <div className="row m-0 p-2 ">
+
+
+                    <div className="col-3 d-flex align-items-center ">
+                      <div className=" f-Ubuntu-M fsp-16 ptp-18 psp-0 pep-20 pbp-0 text-center color-white">Protagonista 2
+                        de la noticia</div>
+                    </div>
+                    <div className="col-9">
+                      <div className="bgc-white w-100 rounded-p-10 ps-2 pe-2 ">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                      </div>
+                    </div>
+
+
+                    <div className="col-12 ptp-20">
+                      <div className="bgc-white w-100  rounded-p-10 p-0 m-0 mbp-0">
+                        <div className="f-Ubuntu-R fsp-16 ptp-18 pep-10 psp-20 text-start">
+                        ¿Cuál es su situación?
+                        </div>
+                        <div className="psp-20 pep-20 ptp-0 pbp-5 m-0  w-100 ">
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                        </div>
+
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div className="d-flex global-margin mtp-20 mbp-80 psp-0 pep-0 ptp-0 pbp-0">
+            <div className="row pep-70 m-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative">
+
+                
+
+                <div className="w-100 h-100 bgc-goten rounded-p-10 pbp-5 ptp-5">
+                  <div className="row m-0 p-2 ">
+
+
+                    <div className="col-3 d-flex align-items-center ">
+                      <div className=" f-Ubuntu-M fsp-16 ptp-18 psp-0 pep-20 pbp-0 text-center color-white">Protagonista 3
+                        de la noticia</div>
+                    </div>
+                    <div className="col-9 position-relative">
+                    
+                      <div className="bgc-white w-100 rounded-p-10 ps-2 pe-2 ">
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-80" />
+                      </div>
+                    </div>
+
+
+                    <div className="col-12 ptp-20 position-relative">
+                    <div className="position-absolute top-50 start-100 translate-middle msp-60 mtp--50 zindex-3"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-110 " alt="" /></div>
+                      <div className="bgc-white w-100  rounded-p-10 p-0 m-0 mbp-0">
+                        <div className="f-Ubuntu-R fsp-16 ptp-18 pep-10 psp-20 text-start">
+                        ¿Cuál es su situación?
+                        </div>
+                        <div className="psp-20 pep-20 ptp-0 pbp-5 m-0  w-100 ">
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                        </div>
+
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+          {/* <div className="d-flex global-margin mtp-0 mbp-250 psp-0 pep-0 ptp-0 pbp-0 position-relative hp-400 f-Ubuntu-L  fsp-16">
             <div className="position-absolute top-100 start-0 translate-middle msp-150 mtp--70 zindex-2 visible-768"><img src="images/page_027/img_001.png" className="wp-200" alt="" /></div>
             
             <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-60 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-580" alt="" /></div>
@@ -157,7 +297,7 @@ function Page027(props) {
               
               
             </div>
-          </div>
+          </div> */}
 
 
 
