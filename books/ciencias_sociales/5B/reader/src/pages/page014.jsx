@@ -150,7 +150,7 @@ function Page014(props) {
             <div className=" col-3 position-relative p-0 m-0">
 
                <div className="mbp-20 mtp-10 w-100 ">
-                <div className="h-250 w-100 border-style-solid border-color-boros p-2 rounded-p-10 ">
+                <div className="h-250 w-100 border-style-solid border-color-triton p-2 rounded-p-10 ">
                 <div className="f-Ubuntu-L fsp-15 text-center">
                 Las dudas que tengo son...
                   </div>
@@ -161,7 +161,7 @@ function Page014(props) {
             <div className=" col-3  position-relative p-0 m-0">
 
               <div className="mbp-20 mtp-10 w-100 ">
-                <div className="h-250 w-100 border-style-solid border-color-voldemort p-2 rounded-p-10 ">
+                <div className="h-250 w-100 border-style-solid border-color-atlan p-2 rounded-p-10 ">
                 <div className="f-Ubuntu-L fsp-15 text-center">
                 Ya sé...
                   </div>
