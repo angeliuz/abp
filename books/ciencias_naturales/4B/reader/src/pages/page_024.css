@@ -5,10 +5,7 @@
   font-size: 27px;
 }
 
-.cb-lineas {
-  background: url(images/page_024/fondo.svg)  top left/ cover no-repeat !important;
-   -webkit-print-color-adjust: exact !important;
-}
+
 
 .cb-outline{
   outline: solid 2px #afca0b;
