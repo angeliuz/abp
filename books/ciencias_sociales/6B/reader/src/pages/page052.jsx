@@ -28,7 +28,7 @@ function Page052(props) {
             <div className="d-flex psp-0 mbp-70">
               <img className="hp-15 align-center mtp-20 me-2 mb-2" src={"images/page_" + pagina + "/i_g.svg"} alt="" />
               <div className={"f-ccdigitaldelivery-bold fsp-35 " + color}>2</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Acuerdo con mi grupo el olor, la imagen, el sonido, el sabor y la textura que nos gustaría transmitir con nuestra obra. En la franja interior del círculo registro mis propuestas y en la exterior las que acordé con mi grupo.</div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Acuerdo con mi grupo el olor, la imagen, el sonido, el sabor y la textura que nos gustaría transmitir con nuestra obra.</div>
               {/* <img src={"images/page_"+pagina+"/img_001.svg"} className="wp-100" alt=""/> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/generales/play.svg"} clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
               {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image={"images/page_"+pagina+"/img_001.png"} className="p-0 px-1" /> */}
