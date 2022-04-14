@@ -141,7 +141,7 @@ function Page008(props) {
           </div>
 
           {/* SECCION COMO VOY */}
-          <div className={"d-flex w-100 mtp-50 psp-60 pep-60 ptp-20 mbp-0 border-top-style-solid " + borderColor + " border-2 pbp-80 " + bgc_cajas}>
+          <div className={"d-flex w-100 mtp-50 psp-60 pep-60 ptp-20 mbp-0 border-top-style-solid border-color-hardDark border-2 pbp-80 " + bgc_cajas}>
             <div className="row w-100 p-0 m-0">
               <div className="col-12 position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp--60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-120" alt="" /></div>
