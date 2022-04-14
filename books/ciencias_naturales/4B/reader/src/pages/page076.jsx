@@ -25,7 +25,7 @@ function Page076(props) {
 
                     {/* contenido DE PAGINA */}
                     <div className="cb-contenedor-ejercicio-1-p76 pep-10 psp-10 ptp-5 pbp-30 mtp-80 position-relative">
-                    <div className="position-absolute top-0 start-100 translate-middle mtp-60 msp--30"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-40" alt="" /></div>
+                        <div className="position-absolute top-0 start-100 translate-middle mtp-60 msp--30"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-40" alt="" /></div>
                         <img src="images/page_076/img_002.png" className="cb-triangulo-p76" alt=""></img>
                         <div className="cb-border-b-p76 mtp-20 mbp-30">
                             <p className="cb-texto-final-p76 f-Ubuntu-L fsp-15 mbp-10 text-start fw-700"> Ponernos de acuerdo ha sido:</p>
@@ -33,19 +33,19 @@ function Page076(props) {
                                 <div className="cb-lado-a-p76">
                                     <div className="cb-izq-p76 w-100 d-flex">
                                         <div className="wp-30 hp-30">
-                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
-                            </div>
+                                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                        </div>
                                     </div>
                                     <div className="pep-10 psp-10">
-                                        <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-15">Muy fáci</div>
+                                        <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-15">Muy fácil</div>
                                         <img src="images/page_076/img_005.svg" className="pbp-10" alt=""></img>
                                     </div>
                                 </div>
                                 <div className="cb-lado-a-p76">
                                     <div className="cb-izq-p76 w-100 d-flex ">
                                         <div className="wp-30 hp-30">
-                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
-                            </div>
+                                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                        </div>
                                     </div>
                                     <div className="pep-10 psp-10">
                                         <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-15">Fácil</div>
@@ -55,8 +55,8 @@ function Page076(props) {
                                 <div className="cb-lado-a-p76">
                                     <div className="cb-izq-p76 w-100 d-flex ">
                                         <div className="wp-30 hp-30">
-                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
-                            </div>
+                                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                        </div>
                                     </div>
                                     <div className="pep-10 psp-10">
                                         <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-15">Difícil</div>
@@ -66,8 +66,8 @@ function Page076(props) {
                                 <div className="cb-lado-a-p76">
                                     <div className="cb-izq-p76 w-100 d-flex ">
                                         <div className="wp-30 hp-30">
-                              <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
-                            </div>
+                                            <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
+                                        </div>
                                     </div>
                                     <div className="pep-10 psp-10">
                                         <div className="text-center ptp-10 pbp-10 f-pixilate-regular fsp-15">Muy difícil</div>

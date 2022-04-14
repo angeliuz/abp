@@ -38,11 +38,11 @@ function SeleccionTexto(props) {
   
         if (docSnap.exists()) {
             const field = docSnap.data()[id];
-            console.log("Current data: ", docSnap.data()[id]);
+           // console.log("Current data: ", docSnap.data()[id]);
             if (field) {
               setContent1(docSnap.data()[id]);
               texto = content1;
-              console.log("content1: " + content1);
+             // console.log("content1: " + content1);
             } else {
               console.log("Sin datos: "+id);
             }
@@ -120,15 +120,19 @@ function SeleccionTexto(props) {
      
    // concatenaTexto();
 
+  function handleClick(e){
+    console.log("e.target ",e.target);
+  }
+
    function handleMouseUp (e){
     // console.log(`${window.getSelection().getRangeAt(0).getBoundingClientRect()}`);
     // console.log(`Selected text: ${window.getSelection().toString()}`);
 
     var selObj = window.getSelection();
-    console.log(selObj);
+    //console.log(selObj);
     var selRange = selObj.getRangeAt(0);
     console.log(selRange)
-    console.log( window.getSelection().toString() );
+    //console.log( window.getSelection().toString() );
 
     var span = document.createElement('span');
 
@@ -145,7 +149,7 @@ function SeleccionTexto(props) {
     return(
         <div className={classNameContenedor}>
             {/* <p className={classNameTexto} ref={textoReferencia} onClick={concatenaTexto}></p> */}
-            <div className={classNameTexto} ref={textoReferencia} onMouseUp={handleMouseUp}  dangerouslySetInnerHTML={{ __html: content1 }}></div>
+            <div className={classNameTexto} ref={textoReferencia} onClick={handleClick} onMouseUp={handleMouseUp}  dangerouslySetInnerHTML={{ __html: content1 }}></div>
 
         </div>
     );

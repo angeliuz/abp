@@ -63,10 +63,10 @@ function Page025(props) {
             </div>
           </div>
 
-          <div className="d-flex msp-60 mep-60 mbp-100 mtp-30 bgc-azuka rounded-p-20 border-style-solid border-1 border-color-azuka">
+          <div className="msp-60 mep-60 mbp-100 mtp-30 bgc-azuka rounded-p-20 border-style-solid border-1 border-color-azuka">
             <div className="row w-100 p-0 m-0">
 
-              <div className="col-md-4 position-relative justify-content-center align-items-center ptp-10 pbp-10">
+              <div className="col-md-4 position-relative justify-content-center align-items-center ptp-10 pbp-10 ">
                 <div className="d-flex justify-content-center w-100 ">
                   <div className="bgc-bulma w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
                     REALIDAD ACTUAL
@@ -77,7 +77,7 @@ function Page025(props) {
                 </div>
                 <div className="d-flex flex-column center-center mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
                   <div className="p-2 w-100 d-flex">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-180" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-380" />
                   </div>
                 </div>
               </div>
@@ -93,7 +93,7 @@ function Page025(props) {
                 </div>
                 <div className="d-flex flex-column mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
                   <div className="p-2 w-100 d-flex">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-180" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-380" />
                   </div>
                 </div>
               </div>
@@ -111,13 +111,13 @@ function Page025(props) {
                   <div className="p-2 w-100 d-flex">
                     <InputBox
                       id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-180"
+                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 w-100 min-hp-380"
                     />
                   </div>
                 </div>
               </div>
 
-              <div className="col-md-4 position-relative justify-content-center align-items-center ptp-10 pbp-10">
+              {/* <div className="col-md-4 position-relative justify-content-center align-items-center ptp-10 pbp-10">
                 <div className="d-flex justify-content-center w-100 invisible-768 ">
                   <div className="bgc-bulma w-90 rounded-caja ptp-5 pbp-5 color-white fsp-15 f-pixilate-extrabold ">
                     REALIDAD ACTUAL
@@ -210,7 +210,7 @@ function Page025(props) {
                     />
                   </div>
                 </div>
-              </div>
+              </div>*/}
             </div>
           </div>
 

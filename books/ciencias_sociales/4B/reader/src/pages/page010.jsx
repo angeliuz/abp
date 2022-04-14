@@ -30,13 +30,15 @@ function Page010(props) {
                 <div className="position-absolute top-0 start-100 translate-middle msp--0 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-150" alt="" /></div>
                 <div className="position-absolute top-50 start-0 translate-middle msp--0 mtp-30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-20" alt="" /></div>
                 <div className="position-absolute top-100 start-100 translate-middle msp--0 mtp--40 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-60" alt="" /></div>
-                <SubirImagen
+                <div className="w-100 d-flex justify-content-center align-items-center">
+                  <SubirImagen
                   id={"imagen_" + pagina + "_" + (indexInput += 1)}
-                  className="w-100 bgc-white"
+                  className="wp-200 bgc-white"
                   colorUnidad={background}
                   imagenPlaceHolder="images/generales/subir_imagen.svg"
                   titulo="Subir imagen"
                 />
+                </div>
               </div>
               <div className="max-wp-600 mx-auto d-flex f-Ubuntu-R fsp-15 mbp-20 position-relative mtp-20">
                 <div className="position-absolute top-0 start-0 translate-middle msp-60 mtp--15 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.svg"} className="wp-10" alt="" /></div>

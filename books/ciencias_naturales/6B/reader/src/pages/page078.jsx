@@ -19,7 +19,7 @@ function Page078(props) {
       <div className="d-flex flex-column align-items-center pbp-20">
         <div className={"dosier-e" + etapa + " page bgc-white overflow-hidden position-relative"} id={"page_" + pagina}>
           {/* BEGIN EJERCICIO 1 */}
-          <div className="d-flex msp-60 mep-60 mbp-20 mtp-90">
+          <div className="d-flex msp-60 mep-60 mbp-50 mtp-100">
             <div className="row w-100 p-0 m-0">
               <div className="max-wp-640 f-Ubuntu-L fsp-15 text-center mx-auto mbp-10 ">
                 Si volviéramos a trabajar juntos en otro proyecto...

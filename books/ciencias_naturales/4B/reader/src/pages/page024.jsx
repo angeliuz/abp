@@ -21,7 +21,7 @@ function Page024(props) {
         <div className={"page " + background + " position-relative pagina-cohete"} id={"page_" + pagina}>
 
           <div className="w-100 mt-15 pe-5 ps-5 ">
-            <div className="pc-lineas-v2 pbp-160">
+            <div className="pc-lineas-v2 pbp-25">
               <div className="pc-cabecera">
                 <div className="pc-titulo-12 color-white fsp-20 lh-sm f-durotype-aspiranar-bold">
                   Mis objetivos <br /> en esta etapa son:
@@ -81,7 +81,7 @@ function Page024(props) {
 
             <div className="d-flex justify-content-center max-img mbp-50 ">
               <div className="">
-                <img src={"images/page_" + pagina + "/img_003.png"} className="img-fluid" alt="" />
+                <img src={"images/page_" + pagina + "/img_003.jpg"} className="img-fluid" alt="" />
               </div>
             </div>
             {/* Begin pie de página */}
