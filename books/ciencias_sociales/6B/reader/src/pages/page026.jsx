@@ -71,7 +71,7 @@ function Page026(props) {
                         centrar nuestra obra?
                       </div>
                       <div className="w-100 p-1 border-style-solid border-2 border-color-lizt rounded-p-10  lh-sm text-start p-2 position-relative bgc-lizt">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 hp-110 overflow-scroll" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 hp-110 overflow-auto" />
                         <div className=" d-flex position-absolute top-0 start-0 translate-middle msp--5 mtp-30 wp-30 hp-30 bgc-bulma border-style-solid border-1 border-color-bulma bgc-white rounded-1 fsp-16 align-items-center justify-content-center f-Ubuntu-M color-white">1
 
                         </div>
@@ -94,7 +94,7 @@ function Page026(props) {
 
                         <div className=" align-items-start justify-content-start w-100 f-Ubuntu-R fsp-15   ">
 
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-110 overflow-scroll" />
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-110 overflow-auto" />
 
                         </div>
 
@@ -109,7 +109,7 @@ function Page026(props) {
                     <div className=" w-100 mtp-20">
 
                       <div className=" w-100 p-1 border-style-solid border-2 border-color-lizt rounded-p-10  lh-sm text-start p-2 position-relative bgc-lizt">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 hp-110 overflow-scroll" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 hp-110 overflow-auto" />
                         <div className=" d-flex position-absolute top-0 start-0 translate-middle msp--5 mtp-30 wp-30 hp-30 bgc-bulma border-style-solid border-1 border-color-bulma bgc-white rounded-1 fsp-16 align-items-center justify-content-center f-Ubuntu-M color-white">2
 
                         </div>
@@ -132,7 +132,7 @@ function Page026(props) {
 
                         <div className=" align-items-start justify-content-start w-100 f-Ubuntu-R fsp-15   ">
 
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-110 overflow-scroll" />
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-110 overflow-auto" />
 
                         </div>
 
@@ -147,7 +147,7 @@ function Page026(props) {
                     <div className=" w-100 mtp-20">
 
                       <div className=" w-100 p-1 border-style-solid border-2 border-color-lizt rounded-p-10  lh-sm text-start p-2 position-relative bgc-lizt">
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 hp-110 overflow-scroll" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 hp-110 overflow-auto" />
                         <div className=" d-flex position-absolute top-0 start-0 translate-middle msp--5 mtp-30 wp-30 hp-30 bgc-bulma border-style-solid border-1 border-color-bulma rounded-1 fsp-16 align-items-center justify-content-center f-Ubuntu-M color-white">3
 
                         </div>
@@ -170,7 +170,7 @@ function Page026(props) {
 
                         <div className=" align-items-start justify-content-start w-100 f-Ubuntu-R fsp-15   ">
 
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-110 overflow-scroll" />
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-110 overflow-auto" />
 
                         </div>
 
