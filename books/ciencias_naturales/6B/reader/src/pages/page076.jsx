@@ -23,7 +23,7 @@ function Page076(props) {
 
           {/* SECCION COMO VOY */}
 
-          <div className="w-100 bgc-kokomi mtp-50 psp-60 pep-60 ptp-20 mbp-50 border-solo-top border-color-hardDark border-style-solid border-2 position-relative">
+          <div className="w-100 bgc-kokomi mtp-50 psp-60 pep-60 ptp-20 mbp-30 border-solo-top border-color-hardDark border-style-solid border-2 position-relative">
           
             <div className="row w-100 p-0 m-0">
               <div className="col-12 position-relative">
