@@ -77,7 +77,7 @@ function Page053(props) {
                   <div className="bgc-white rounded-p-10 p-2 border-style-solid border-color-lightDark border-2 wp-250 position-relative box-shadow-simple">
                     <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/pintura.png"} className="hp-110" alt="" /></div>
                     <div className="f-Ubuntu-R fsp-14 lh-sm text-center ptp-10">El formato de nuestra obra será</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-35 overflow-scroll" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-35 overflow-auto" />
                   </div>
                 </div>
                 <div className="position-absolute top-100 start-100 msp--270 mtp--90 zindex-1">
@@ -85,7 +85,7 @@ function Page053(props) {
                     <div className="position-absolute top-50 start-0 translate-middle msp--30 mtp-20 zindex-1"><img src={"images/page_" + pagina + "/lapices.png"} className="hp-60" alt="" /></div>
                     <div className="position-absolute top-0 start-100 translate-middle msp-0 mtp-20 zindex-1"><img src={"images/page_" + pagina + "/clip.png"} className="hp-25" alt="" /></div>
                     <div className="f-Ubuntu-R fsp-14 lh-sm text-center ptp-10">En grupo, decidimos que el boceto <br /> que orientará nuestra obra es el de</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-70 overflow-scroll" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-70 overflow-auto" />
                   </div>
                 </div>
               <div className="position-relative">

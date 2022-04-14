@@ -53,7 +53,7 @@ function Page032(props) {
                         <div className="position-absolute top-0 start-100 translate-middle zindex-1 msp--40"><img src={"images/page_" + pagina + "/img_002.svg"} className="wp-50" alt="" /></div>
                             <div className=" ptp-10 psp-10 pep-10">
                                 <div className="f-Ubuntu-L fep-20 mtp-5 text-start">¿Cuál es la situación de</div>
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-110 overflow-scroll" />
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-110 overflow-auto" />
                             </div>
                             <div className=" psp-20 pep-10 pbp-20">
                             <div className="f-Ubuntu-L fep-20 mtp-5 text-end">en el mundo actual?</div>
@@ -231,7 +231,7 @@ function Page032(props) {
                                         <div className="w-100  p-1 ">
                                             <div className=" ptp-20 psp-20 pep-10 ">
                                                 <div className="f-Ubuntu-L fep-20 mtp-5">Otro:</div>
-                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-70 overflow-scroll" />
+                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-70 overflow-auto" />
                                             </div>
                                             
                                         </div>
