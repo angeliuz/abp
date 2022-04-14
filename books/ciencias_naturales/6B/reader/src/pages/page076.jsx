@@ -22,13 +22,15 @@ function Page076(props) {
           </div>
 
           {/* SECCION COMO VOY */}
-          <div className={"d-flex w-100 mtp-50 psp-60 pep-60 ptp-20 mbp-0 border-top-style-solid " + borderColor + " border-2 pbp-80 " + bgc_cajas}>
+
+          <div className="w-100 bgc-kokomi mtp-50 psp-60 pep-60 ptp-20 mbp-50 border-solo-top border-color-hardDark border-style-solid border-2 position-relative">
+          
             <div className="row w-100 p-0 m-0">
               <div className="col-12 position-relative">
                 <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
                 <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 text-start">
                   <img src={"images/generales/flecha_e" + etapa + ".svg"} className="mep-5 wp-15" alt="" />
-                  <span>Cuáles son las tres frases con las que resumiría la experiencia vivida en este proyecto?</span>
+                  <span>¿Cuáles son las tres frases con las que resumiría la experiencia vivida en este proyecto?</span>
                 </div>
                 {/* BEGIN EJERCICIO 1 */}
                 <div className="row d-flex f-Ubuntu-R fsp-15 mbp-20 ">

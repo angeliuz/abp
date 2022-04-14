@@ -62,7 +62,7 @@ function Page077(props) {
                                 <td className={"border-style-solid border-1 border-color-obiwan"}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                               </tr>
                               <tr className="bgc-white">
-                                <td className={"bgc-honda f-Ubuntu-L fsp-16 text-start psp-5 border-style-solid border-1 border-color-obiwan"}>Ante una petición de ayuda, dejamos de hacer otras cosas e intentamos ayudar antes de preguntarle al profesor</td>
+                                <td className={"bgc-honda f-Ubuntu-L fsp-16 text-start psp-5 border-style-solid border-1 border-color-obiwan"}>Ante una petición de ayuda, dejamos de hacer otras cosas e intentamos ayudar antes de preguntarle al profesor.</td>
                                 <td className={"border-style-solid border-1 border-color-obiwan"}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                                 <td className={"border-style-solid border-1 border-color-obiwan"}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
                                 <td className={"border-style-solid border-1 border-color-obiwan"}><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check></td>
@@ -118,7 +118,7 @@ function Page077(props) {
                   </div>
                 </div>
 
-                <div className="max-wp-640 mx-auto position-relative">
+                <div className="max-wp-640 mx-auto position-relative mbp-60">
                   <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--50 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-100" alt="" /></div>
                   <div className="text-center w-100 border-1 border-style-solid border-color-dark rounded-p-10 pbp-15 bgc-white">
                     <div className="f-Ubuntu-L fsp-15 rounded-p-10 max-wp-300 mx-auto hp-40 pep-20 psp-20 ptp-10 pbp-10 mtp--5 bgc-trans-homura d-flex justify-content-center align-items-center">
