@@ -117,7 +117,7 @@ function Page039(props) {
                 <div className="border-style-solid border-color-sonic border-2 rounded-p-10 p-3 position-relative">
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-140 overflow-auto" />
                   <div className="position-absolute top-100 start-50 translate-middle mtp-15 msp--20">
-                    <div className="wp-60 hp-30 border-color-sonic border-end border-2"></div>
+                    <div className="hp-30 border-color-sonic border-end border-2"></div>
                   </div>
                 </div>
               </div>
