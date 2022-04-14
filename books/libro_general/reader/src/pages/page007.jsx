@@ -52,6 +52,14 @@ function Page007() {
                         <div className="row p-0 m-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative">
 
+                                <SeleccionTexto
+                                    id={"seleccionTexto_" + pagina + "_" + (indexInput += 1)}
+                                    image={"images/page_" + pagina + "/encierra.svg"}
+                                    classNameContenedor="w-100 psp-60 pep-60"
+                                    classNameTexto="w-100 f-Ubuntu-L fsp-17 text-start"
+                                >
+                                    Estimados estudiantes:
+                                </SeleccionTexto>
 
                                 <SeleccionTexto
                                     id={"seleccionTexto_" + pagina + "_" + (indexInput += 1)}
@@ -59,7 +67,31 @@ function Page007() {
                                     classNameContenedor="w-100 psp-60 pep-60"
                                     classNameTexto="w-100 f-Ubuntu-L fsp-17 text-start"
                                 >
-                                    Estimados estudiantes:<br />Al inicio de este proyecto, junto con sus equipos propusieron ideas de acciones para enseñar a su comunidad en la feria Héroes del medioambiente. Ha llegado el momento de que se organicen, reflexionen sobre estas ideas y propongan otras nuevas si es necesario. Luego, deberán elegir como equipo cuál de ellas van a desarrollar. Reúnanse con sus respectivos equipos y organicen lo necesario para crear un modelo que represente la acción de reciclaje o reutilización, una infografíaque explique en qué consiste y decoraciones para el stand. Luego, piensen en todos los materiales que necesitan para desarrollar esas ideas.Ya están muy cerca de lograr el desafío. ¡Ánimo!
+                                    Al inicio de este proyecto, junto con sus equipos propusieron ideas de acciones para enseñar a su comunidad en la feria Héroes del medioambiente. Ha llegado el momento de que se organicen, reflexionen sobre estas ideas y propongan otras nuevas si es necesario. Luego, deberán elegir como equipo cuál de ellas van a desarrollar.
+                                </SeleccionTexto>
+                                <SeleccionTexto
+                                    id={"seleccionTexto_" + pagina + "_" + (indexInput += 1)}
+                                    image={"images/page_" + pagina + "/encierra.svg"}
+                                    classNameContenedor="w-100 psp-60 pep-60"
+                                    classNameTexto="w-100 f-Ubuntu-L fsp-17 text-start"
+                                >
+                                    Reúnanse con sus respectivos equipos y organicen lo necesario para crear un modelo que represente la acción de reciclaje o reutilización, una infografíaque explique en qué consiste y decoraciones para el stand. Luego, piensen en todos los materiales que necesitan para desarrollar esas ideas.
+                                </SeleccionTexto>
+                                <SeleccionTexto
+                                    id={"seleccionTexto_" + pagina + "_" + (indexInput += 1)}
+                                    image={"images/page_" + pagina + "/encierra.svg"}
+                                    classNameContenedor="w-100 psp-60 pep-60"
+                                    classNameTexto="w-100 f-Ubuntu-L fsp-17 text-start"
+                                >
+                                    Ya están muy cerca de lograr el desafío. ¡Ánimo!
+                                </SeleccionTexto>
+                                <SeleccionTexto
+                                    id={"seleccionTexto_" + pagina + "_" + (indexInput += 1)}
+                                    image={"images/page_" + pagina + "/encierra.svg"}
+                                    classNameContenedor="w-100 psp-60 pep-60"
+                                    classNameTexto="w-100 f-Ubuntu-L fsp-17 text-end"
+                                >
+                                    Atentamente, Javiera.
                                 </SeleccionTexto>
 
 
