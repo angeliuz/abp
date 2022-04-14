@@ -170,7 +170,7 @@ function Page051(props) {
                             <Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg" ></Check>
                           </div>
                           <div className="f-Ubuntu-L psp-15 ptp-5 text-start">
-                            Contiene un sección que analiza los resultados obtenidos en la consulta pública.
+                            Contiene una sección que analiza los resultados obtenidos en la consulta pública.
                           </div>
                         </div>
                       </div>
