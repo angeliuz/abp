@@ -113,6 +113,7 @@ function Page052(props) {
                 
 
                 <div className=" col-4 position-relative  d-flex flex-row bd-highlight ">
+                <div className="position-absolute top-0 start-50 translate-middle zindex-1 "><img src={"images/page_052/mono.png"} className=" msp--25  mtp--120 wp-70" alt="" /></div>
                   <div className="text-center w-100 ">
                    
                   <div className="center-1 bgc-tertiary"><img src="images/page_046/flecha_morada.png" className="w-70 " alt="" /></div>
