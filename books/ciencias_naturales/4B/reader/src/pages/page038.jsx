@@ -54,19 +54,19 @@ function Page038(props) {
 
           <div className="msp-80 mep-60 position-relative">
             {/* <div className="position-absolute top-50 start-100 translate-middle   "><img src="images/page_038/img_003.png" className="hp-90" alt="" /></div> */}
-            <div className="m-2 border-style-solid border-2 border-color-soldados  rounded-p-10  hp-50 w-80 p-1">
+            <div className="m-2 border-style-solid border-2 border-color-soldados rounded-p-10 w-80 p-1">
               <InputBox
                 id={"p" + pagina + "_input" + (indexInput += 1)}
                 className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35"
               />
             </div>
-            <div className="m-2 border-style-solid border-2 border-color-ken  rounded-p-10  hp-50 w-80 p-1">
+            <div className="m-2 border-style-solid border-2 border-color-ken rounded-p-10  w-80 p-1">
               <InputBox
                 id={"p" + pagina + "_input" + (indexInput += 1)}
                 className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35"
               />
             </div>
-            <div className="m-2 border-style-solid border-2 border-color-android18  rounded-p-10  hp-50 w-80 p-1">
+            <div className="m-2 border-style-solid border-2 border-color-android18 rounded-p-10 w-80 p-1">
               <InputBox
                 id={"p" + pagina + "_input" + (indexInput += 1)}
                 className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-35"

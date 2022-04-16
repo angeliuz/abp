@@ -8,15 +8,25 @@ function Page009(props) {
   const pagina = "009";
   var indexInput = 0;
 
+  const etapa = "1"
+  const background = "bgc-goten";
+  const color = "color-goten";
+  const borderColor = "border-color-goten"
+  const borderColorTabla = "border-color-genos"
+  const bgc_cajas = "bgc-genos";
 
   return (
     <div className="wrapper bgc-light">
       <div className="d-flex flex-column align-items-center pbp-20">
-        <div className="cb-page09 page bgc-white overflow-hidden position-relative" id={"page_" + pagina}>
-          {/* <img src="images/page_009/cabecera.svg" className="cb-dossier" alt="" /> */}
+        <div className={"dosier-e" + etapa + " page bgc-white overflow-hidden position-relative"} id={"page_" + pagina}>
 
+          <div className="mtp-60">
+            <div className="d-flex justify-content-center">
+              <img src="images/page_009/fondo_002.svg" className="cb-dosier" alt="" />
+            </div>
+          </div>
 
-          <div className="d-flex msp-90 mep-90 mtp-170 mbp-100">
+          <div className="d-flex msp-90 mep-90 mtp-0 mbp-100">
 
             <div className="row m-0 p-2 w-100 ">
 
