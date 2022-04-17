@@ -1,15 +1,30 @@
-.espiral{
-    background-image: url(images/page_049/espiral.png);
-    background-repeat: repeat;
-    background-size: contain;
-    /* background-color: #ffcc00; */
-  }
-  .espiral-calado{
-    background-image: url(images/page_049/espiral_1.png);
-    background-repeat: repeat;
-    background-size: contain;
-  }
-  
-  .rota{
-    transform: rotate(1deg);
-  }
+.espiral {
+  background-image: url(images/page_049/espiral.png);
+  background-repeat: repeat;
+  background-size: contain;
+  /* background-color: #ffcc00; */
+}
+
+.espiral-calado {
+  background-image: url(images/page_049/espiral_1.png);
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.rota {
+  transform: rotate(1deg);
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-thickness: 3px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.eliminado {
+  z-index: -1;
+  cursor: auto;
+  background-color: yellow;
+}
