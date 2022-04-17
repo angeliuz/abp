@@ -2,8 +2,12 @@
     text-decoration: underline;
     text-decoration-color: red;
     text-decoration-thickness: 3px;
+    cursor: pointer;
+    z-index: 2;
 }
 
-span {
-    cursor: pointer;
+.eliminado {
+    z-index: -1;
+    cursor: auto;
+    background-color: yellow;
 }

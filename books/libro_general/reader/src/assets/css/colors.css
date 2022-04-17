@@ -22,7 +22,7 @@
   --obiwan: #f39200;
   --bulma: #f39200;
   --tiburon: #f59331;
-  --kitana:#f48a31;
+  --kitana: #f48a31;
   --goku: #FECB00;
   --jawa: #FFD000;
   --ibuki: #feca30;
@@ -31,30 +31,30 @@
   --tshinhan: #f9c980;
   --tigro: #FCDFBB;
   --piccolo: #FDE9D4;
-  --goro:#fed894;
-  --milena:#ffe197;
+  --goro: #fed894;
+  --milena: #ffe197;
   --jurihan: #ffe4a1;
   --jaga: #FDEFC3;
   --honda: #ffedbf;
   --urien: #fff2be;
-  --kano:#fffbd7;
+  --kano: #fffbd7;
   --buzz: #fddbb6;
-  --scorpion:#FEDCB5;
-  --kagome:#ffdcb4;
+  --scorpion: #FEDCB5;
+  --kagome: #ffdcb4;
   --draco: #fde9cc;
   --hannah: #fee6cc;
   --tatooine: #F5DAC1;
-  --hotaru:#FFE9CD;
+  --hotaru: #FFE9CD;
   --hutao: #fef7ea;
-  --lizt:#FFF7E6;
+  --lizt: #FFF7E6;
 
   --ryu: #ece9d9;
   --sagat: #e7e3d2;
-  --motaro:#E5E0C9;
-  --baki:#e7e4d1;
-  --shaokhan:#FFF9EC;
+  --motaro: #E5E0C9;
+  --baki: #e7e4d1;
+  --shaokhan: #FFF9EC;
   --makoto: #fef6e6;
-  --baraka:#fdfdfb;
+  --baraka: #fdfdfb;
 
 
   --ron: #e30613;
@@ -72,53 +72,53 @@
   --leono: #db86bf;
   --akuma: #f29eb7;
   --vegeta: #F4B4CF;
-  --bach:#F4D0E7;
+  --bach: #F4D0E7;
   --guile: #e0bad7;
   --klee: #ebd0e4;
   --kokomi: #f4e6f1;
   --itto: #feede9;
   --blanka: #f4e6f0;
-  --blast:#ea90a5;
-  
-  
+  --blast: #ea90a5;
+
+
   --saitama: #7c6eb0;
   --quigon: #A7A1CD;
-  --jade:#b0acd4;
+  --jade: #b0acd4;
   --ash: #beb7d8;
   --yoda: #BAB0D9;
   --windu: #D6D2E8;
-  --kabal:#dbd9ec;
+  --kabal: #dbd9ec;
   --bobafett: #E3E1F0;
-  --kintaro:#e8e4f4;
-  --tanya:#f0ecf4;
-  --smoke:#ebf1f9;
-  
+  --kintaro: #e8e4f4;
+  --tanya: #f0ecf4;
+  --smoke: #ebf1f9;
+
 
   --rukia: #5AB041;
   --palpatine: #67BD43;
   --balrog: #45ad4e;
-  --blaze:#5cac3c;
-  --raiden:#71c078;
+  --blaze: #5cac3c;
+  --raiden: #71c078;
   --dhalsim: #74be4b;
   --birdie: #a7cd45;
   --android18: #afca0b;
   --barbie: #acce8c;
-  --rain:#c5de9e;
+  --rain: #c5de9e;
   --anakin: #DBDA00;
   --boros: #dedc00;
   --misty: #d7dd3b;
   --milk: #d7e585;
   --gohan: #DAE4B0;
-  --reptile:#DAEBC1;  
+  --reptile: #DAEBC1;
   --chitara: #E2EBC4;
   --azuka: #ebf4d5;
   --caradepapa: #ebf3d6;
-  --jarek:#ECF4D5;
-  --ermac:#f0f6df;
+  --jarek: #ECF4D5;
+  --ermac: #f0f6df;
   --betty: #e6e2d0;
   --shogun: #f7f9df;
 
-  --sektor:#0071a1;
+  --sektor: #0071a1;
   /* --pidgey: #00b5d1; */
   --pidgey: #009dc5;
   --leia: #009DC5;
@@ -130,24 +130,24 @@
   --woody: #a7dff8;
   --cammy: #aee0ec;
   --sid: #bde7f9;
-  --naraku:#b0dcec;
+  --naraku: #b0dcec;
   --cyrax: #b0dedb;
   --sonic: #BEE0EE;
   --trunks: #C3E3F5;
   --pantro: #CBE8F7;
   --marcianos: #c8e9f2;
-  --kai:#CAECF3;
+  --kai: #CAECF3;
   --zangief: #caeBea;
   --bison: #d6eef5;
   --qiqi: #d1e0f2;
   --hansolo: #EAF6FB;
   --bang: #EAF4F7;
   --hermione: #e6f5f9;
-  --sindel:#e8f2fa;
+  --sindel: #e8f2fa;
   --ganyu: #eaf1f9;
 
 
- 
+
 
   --garou: #231F20;
 
@@ -313,6 +313,7 @@
 .bgc-green {
   background-color: green;
 }
+
 .bgc-blue {
   background-color: blue;
 }
@@ -718,114 +719,153 @@
 .color-yanfei {
   color: var(--yanfei);
 }
+
 .color-makoto {
   color: var(--makoto);
 }
+
 .color-reptile {
   color: var(--reptile);
 }
+
 .color-scorpion {
   color: var(--scorpion);
 }
+
 .color-itto {
   color: var(--itto);
 }
-.color-baki{
+
+.color-baki {
   color: var(--baki);
 }
-.color-milena{
+
+.color-milena {
   color: var(--milena);
 }
-.color-kitana{
+
+.color-kitana {
   color: var(--kitana);
 }
-.color-goro{
+
+.color-goro {
   color: var(--goro);
 }
-.color-raiden{
+
+.color-raiden {
   color: var(--raiden);
 }
-.color-kano{
+
+.color-kano {
   color: var(--kano);
 }
-.color-baraka{
+
+.color-baraka {
   color: var(--baraka);
 }
-.color-sindel{
+
+.color-sindel {
   color: var(--sindel);
 }
+
 .color-motaro {
   color: var(--motaro);
 }
+
 .color-ganyu {
   color: var(--ganyu);
 }
+
 .color-qiqi {
   color: var(--qiqi);
 }
+
 .color-kabal {
   color: var(--kabal);
 }
+
 .color-rain {
   color: var(--rain);
 }
+
 .color-hutao {
   color: var(--hutao);
 }
+
 .color-cyrax {
   color: var(--cyrax);
 }
+
 .color-smoke {
   color: var(--smoke);
 }
+
 .color-ermac {
   color: var(--ermac);
 }
+
 .color-shaokhan {
   color: var(--shaokhan);
 }
+
 .color-sektor {
   color: var(--sektor);
 }
+
 .color-kintaro {
   color: var(--kintaro);
 }
+
 .color-jade {
   color: var(--jade);
 }
+
 .color-tanya {
   color: var(--tanya);
 }
+
 .color-hotaru {
   color: var(--hotaru);
 }
-  .color-jarek {
+
+.color-jarek {
   color: var(--jarek);
 }
-  .color-kai {
+
+.color-kai {
   color: var(--kai);
 }
+
 .color-blaze {
   color: var(--blaze);
 }
+
 .color-kagome {
   color: var(--kagome);
 }
+
 .color-naraku {
   color: var(--naraku);
 }
+
 .color-lizt {
   color: var(--lizt);
 }
+
 .color-bach {
   color: var(--bach);
 }
+
 .color-blast {
   color: var(--blast);
 }
-    
-  
-  
+
+.color-transparent {
+  color: var(--transparent);
+}
+
+
+
 
 
 
@@ -833,6 +873,7 @@
 .border-color-transparent {
   border-color: var(--transparent) !important;
 }
+
 .border-color-goku {
   border-color: var(--goku) !important;
 }
@@ -1160,116 +1201,152 @@
 .border-color-yanfei {
   border-color: var(--yanfei) !important;
 }
+
 .border-color-makoto {
   border-color: var(--makoto) !important;
 }
+
 .border-color-reptile {
   border-color: var(--reptile) !important;
 }
+
 .border-color-scorpion {
   border-color: var(--scorpion) !important;
 }
+
 .border-color-itto {
   border-color: var(--itto) !important;
 }
+
 .border-color-baki {
   border-color: var(--baki) !important;
 }
+
 .border-color-milena {
   border-color: var(--milena) !important;
 }
+
 .border-color-kitana {
   border-color: var(--kitana) !important;
 }
+
 .border-color-goro {
   border-color: var(--goro) !important;
 }
+
 .border-color-raiden {
   border-color: var(--raiden) !important;
 }
+
 .border-color-kano {
   border-color: var(--kano) !important;
 }
+
 .border-color-baraka {
   border-color: var(--baraka) !important;
 }
+
 .border-color-sindel {
   border-color: var(--sindel) !important;
 }
+
 .border-color-motaro {
   border-color: var(--motaro) !important;
 }
+
 .border-color-ganyu {
   border-color: var(--ganyu) !important;
 }
+
 .border-color-qiqi {
   border-color: var(--qiqi) !important;
 }
+
 .border-color-kabal {
   border-color: var(--kabal) !important;
 }
+
 .border-color-rain {
   border-color: var(--rain) !important;
 }
+
 .border-color-hutao {
   border-color: var(--hutao) !important;
 }
+
 .border-color-cyrax {
   border-color: var(--cyrax) !important;
 }
+
 .border-color-smoke {
   border-color: var(--smoke) !important;
 }
+
 .border-color-ermac {
   border-color: var(--ermac) !important;
 }
+
 .border-color-shaokhan {
   border-color: var(--shaokhan) !important;
 
 }
+
 .border-color-sektor {
   border-color: var(--sektor) !important;
 
 }
+
 .border-color-kintaro {
   border-color: var(--kintaro) !important;
 
 }
+
 .border-color-jade {
   border-color: var(--jade) !important;
 
 }
+
 .border-color-tanya {
   border-color: var(--tanya) !important;
 
 }
+
 .border-color-hotaru {
   border-color: var(--hotaru) !important;
 }
-  .border-color-jarek {
+
+.border-color-jarek {
   border-color: var(--jarek) !important;
 }
-  .border-color-kai {
+
+.border-color-kai {
   border-color: var(--kai) !important;
 }
+
 .border-color-blaze {
   border-color: var(--blaze) !important;
 }
+
 .border-color-kagome {
   border-color: var(--kagome) !important;
 }
+
 .border-color-naraku {
   border-color: var(--naraku) !important;
 }
+
 .border-color-lizt {
   border-color: var(--lizt) !important;
 }
+
 .border-color-bach {
   border-color: var(--bach) !important;
 }
+
 .border-color-blast {
   border-color: var(--blast) !important;
 }
+
 /* B
 /* BACKGROUND COLORS */
 .bgc-goku {
@@ -1599,96 +1676,123 @@
 .bgc-yanfei {
   background-color: var(--yanfei);
 }
+
 .bgc-makoto {
   background-color: var(--makoto);
 }
+
 .bgc-reptile {
   background-color: var(--reptile);
 }
+
 .bgc-scorpion {
   border-color: var(--scorpion) !important;
 }
+
 .bgc-itto {
   background-color: var(--itto) !important;
 }
+
 .bgc-baki {
   background-color: var(--baki) !important;
 }
+
 .bgc-milena {
   background-color: var(--milena) !important;
 }
+
 .bgc-kitana {
   background-color: var(--kitana) !important;
 }
+
 .bgc-goro {
   background-color: var(--goro) !important;
 }
+
 .bgc-raiden {
   background-color: var(--raiden) !important;
 }
+
 .bgc-kano {
   background-color: var(--kano) !important;
 }
+
 .bgc-baraka {
   background-color: var(--baraka) !important;
 }
+
 .bgc-sindel {
   background-color: var(--sindel) !important;
 }
+
 .bgc-motaro {
   background-color: var(--motaro);
 }
+
 .bgc-ganyu {
   background-color: var(--ganyu);
 }
+
 .bgc-qiqi {
   background-color: var(--qiqi);
 }
+
 .bgc-kabal {
   background-color: var(--kabal);
 }
+
 .bgc-rain {
   background-color: var(--rain);
 }
+
 .bgc-hutao {
   background-color: var(--hutao);
 }
+
 .bgc-cyrax {
   background-color: var(--cyrax);
 }
+
 .bgc-smoke {
   background-color: var(--smoke);
 }
+
 .bgc-ermac {
   background-color: var(--ermac);
 }
+
 .bgc-shaokhan {
   background-color: var(--shaokhan);
 
 }
+
 .bgc-sektor {
   background-color: var(--sektor);
 
 }
+
 .bgc-kintaro {
   background-color: var(--kintaro);
 
 }
+
 .bgc-jade {
   background-color: var(--jade);
 
 }
+
 .bgc-tanya {
   background-color: var(--tanya);
 }
+
 .bgc-hotaru {
   background-color: var(--hotaru);
 }
-  
+
 .bgc-jarek {
   background-color: var(--jarek);
 }
-  
+
 .bgc-kai {
   background-color: var(--kai);
 }
@@ -1696,18 +1800,23 @@
 .bgc-blaze {
   background-color: var(--blaze);
 }
+
 .bgc-kagome {
   background-color: var(--kagome);
 }
+
 .bgc-naraku {
   background-color: var(--naraku);
 }
+
 .bgc-lizt {
   background-color: var(--lizt);
 }
+
 .bgc-bach {
   background-color: var(--bach);
 }
+
 .bgc-blast {
   background-color: var(--blast);
 }
