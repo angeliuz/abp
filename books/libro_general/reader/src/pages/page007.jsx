@@ -66,14 +66,13 @@ function Page007() {
 
                                 <SeleccionTexto
                                     id={"seleccionTexto_" + pagina + "_" + (indexInput += 1)}
-                                    image={"images/page_" + pagina + "/encierra.svg"}
                                     classNameContenedor="w-100 psp-60 pep-60 position-relative"
                                     classNameTexto="w-100 f-Ubuntu-L fsp-17 text-start ptp-10"
                                     texto={"Estimados estudiantes: <br/><br/> Al inicio de este proyecto, junto con sus equipos propusieron ideas de acciones para enseñar a su comunidad en la feria <i>Héroes del medioambiente</i>. Ha llegado el momento de que se organicen, reflexionen sobre estas ideas y propongan otras nuevas si es necesario. Luego, deberán elegir como equipo cuál de ellas van a desarrollar. <br /><br />Reúnanse con sus respectivos equipos y organicen lo necesario para crear un <b>modelo</b> que represente la acción de reciclaje o reutilización, una <b>infografía</b> que explique en qué consiste y <b>decoraciones</b> para el stand. Luego, piensen en todos los materiales que necesitan para desarrollar esas ideas. <br /><br />Ya están muy cerca de lograr el desafío. ¡Ánimo!<br/><br />Atentamente, Javiera."}
 
-                                >
+                                />
 
-                                </SeleccionTexto>
+
                                 {/* <SeleccionTexto
                                     id={"seleccionTexto_" + pagina + "_" + (indexInput += 1)}
                                     image={"images/page_" + pagina + "/encierra.svg"}
