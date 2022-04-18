@@ -63,7 +63,7 @@ function Page052(props) {
 
                       <div className="bgc-white rounded-p-10  p-3 mbp-10">
 
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-105" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                       </div>
                     </div>
                   </div>
@@ -73,7 +73,7 @@ function Page052(props) {
 
                       <div className="bgc-white rounded-p-10  p-3 mbp-10">
 
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-105" />
+                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                       </div>
                     </div>
                   </div>
@@ -83,7 +83,7 @@ function Page052(props) {
 
                       <div className="bgc-white rounded-p-10  p-3 mbp-10">
 
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-105" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                       </div>
                     </div>
                   </div>
@@ -93,7 +93,7 @@ function Page052(props) {
 
                       <div className="bgc-white rounded-p-10  p-3 mbp-10">
 
-                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-105" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
                       </div>
                     </div>
                   </div>
@@ -102,7 +102,7 @@ function Page052(props) {
             </div>
           </div>
 
-          <div className="d-flex global-margin mtp-30  psp-0 pep-15 ptp-0 pbp-0">
+          <div className="d-flex global-margin mtp-30  psp-0 pep-15 ptp-0 pbp-40">
             <div className="row p-0 m-0 w-100">
               <div className="col-5 p-0 m-0">
                 <div className="d-flex">

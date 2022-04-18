@@ -60,7 +60,7 @@ function Page024(props) {
 
             <div className="position-absolute top-0 start-0 translate-middle red-0p24 zindex-1">
               <div className="ancho-ansp24 hp-30">
-                <span className="">Energias</span>
+                <span className="">Energías</span>
               </div>
             </div>
 
@@ -68,7 +68,7 @@ function Page024(props) {
               <div className="ancho-ansp24 hp-30">
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-2 px-1 w-100 text-center flex-grow-1 contenedor-linea lhp-35 min-hp-35"
+                  className="p-2 px-1 w-100 text-start flex-grow-1 contenedor-linea lhp-35 hp-45 overflow-auto"
                 />
               </div>
             </div>
@@ -77,7 +77,7 @@ function Page024(props) {
               <div className="ancho-ansp24 hp-30">
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-2 px-1 w-100 text-center flex-grow-1 contenedor-linea lhp-35 min-hp-35"
+                  className="p-2 px-1 w-100 text-start flex-grow-1 contenedor-linea lhp-35 hp-45 overflow-auto"
                 />
               </div>
             </div>
@@ -86,7 +86,7 @@ function Page024(props) {
               <div className="ancho-ansp24 hp-30">
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-2 px-1 w-100 text-center flex-grow-1 contenedor-linea lhp-35 min-hp-35"
+                  className="p-2 px-1 w-100 text-start flex-grow-1 contenedor-linea lhp-35 hp-45 overflow-auto"
                 />
               </div>
             </div>
@@ -95,7 +95,7 @@ function Page024(props) {
               <div className="ancho-ansp24 hp-30">
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-2 px-1 w-100 text-center flex-grow-1 contenedor-linea lhp-35 min-hp-35"
+                  className="p-2 px-1 w-100 text-start flex-grow-1 contenedor-linea lhp-35 hp-45 overflow-auto"
                 />
               </div>
             </div>
@@ -104,97 +104,97 @@ function Page024(props) {
               <div className="ancho-ansp24 hp-30">
                 <InputBox
                   id={"p" + pagina + "_input" + (indexInput += 1)}
-                  className="p-2 px-1 w-100 text-center flex-grow-1 contenedor-linea lhp-35 min-hp-35"
+                  className="p-2 px-1 w-100 text-start flex-grow-1 contenedor-linea lhp-35 hp-45 overflow-auto"
                 />
               </div>
             </div>
             <div className="position-absolute top-0 start-0 translate-middle normal-1p24 zindex-1">
               <div className="ancho-ans2p24 hp-30">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-center flex-grow-1 contenedor-linea lhp-20 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-start flex-grow-1 contenedor-linea lhp-20 hp-35 overflow-auto" />
               </div>
             </div>
 
             <div className="position-absolute top-0 start-0 translate-middle normal-2p24 zindex-1">
               <div className="ancho-ans2p24 hp-30">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-center flex-grow-1 contenedor-linea lhp-20 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-start flex-grow-1 contenedor-linea lhp-20 hp-35 overflow-auto" />
               </div>
             </div>
 
             <div className="position-absolute top-0 start-0 translate-middle normal-3p24 zindex-1">
               <div className="ancho-ans2p24 hp-30">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-center flex-grow-1 contenedor-linea lhp-20 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-start flex-grow-1 contenedor-linea lhp-20 hp-35 overflow-auto" />
               </div>
             </div>
 
             <div className="position-absolute top-0 start-0 translate-middle normal-4p24 zindex-1">
               <div className="ancho-ans2p24 hp-30">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-center flex-grow-1 contenedor-linea lhp-20 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-start flex-grow-1 contenedor-linea lhp-20 hp-35 overflow-auto" />
               </div>
             </div>
 
             <div className="position-absolute top-0 start-0 translate-middle normal-5p24 zindex-1">
               <div className="ancho-ans2p24 hp-30">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-center flex-grow-1 contenedor-linea lhp-20 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-start flex-grow-1 contenedor-linea lhp-20 hp-35 overflow-auto" />
               </div>
             </div>
 
             <div className="position-absolute top-0 start-0 translate-middle normal-6p24 zindex-1">
               <div className="ancho-ans2p24 hp-30">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-center flex-grow-1 contenedor-linea lhp-20 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-start flex-grow-1 contenedor-linea lhp-20 hp-35 overflow-auto" />
               </div>
             </div>
 
             <div className="position-absolute top-0 start-0 translate-middle normal-7p24 zindex-1">
               <div className="ancho-ans2p24 hp-30">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-center flex-grow-1 contenedor-linea lhp-20 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-start flex-grow-1 contenedor-linea lhp-20 hp-35 overflow-auto" />
               </div>
             </div>
 
             <div className="position-absolute top-0 start-0 translate-middle normal-8p24 zindex-1">
               <div className="ancho-ans2p24 hp-30">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-center flex-grow-1 contenedor-linea lhp-20 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-start flex-grow-1 contenedor-linea lhp-20 hp-35 overflow-auto" />
               </div>
             </div>
 
             <div className="position-absolute top-0 start-0 translate-middle normal-9p24 zindex-1">
               <div className="ancho-ans2p24 hp-30">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-center flex-grow-1 contenedor-linea lhp-20 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-start flex-grow-1 contenedor-linea lhp-20 hp-35 overflow-auto" />
               </div>
             </div>
 
             <div className="position-absolute top-0 start-0 translate-middle normal-10p24 zindex-1">
               <div className="ancho-ans2p24 hp-30">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-center flex-grow-1 contenedor-linea lhp-20 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-start flex-grow-1 contenedor-linea lhp-20 hp-35 overflow-auto" />
               </div>
             </div>
 
             <div className="position-absolute top-0 start-0 translate-middle normal-11p24 zindex-1">
               <div className="ancho-ans2p24 hp-30">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-center flex-grow-1 contenedor-linea lhp-20 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-start flex-grow-1 contenedor-linea lhp-20 hp-35 overflow-auto" />
               </div>
             </div>
 
             <div className="position-absolute top-0 start-0 translate-middle normal-12p24 zindex-1">
               <div className="ancho-ans2p24 hp-30">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-center flex-grow-1 contenedor-linea lhp-20 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-start flex-grow-1 contenedor-linea lhp-20 hp-35 overflow-auto" />
               </div>
             </div>
 
             <div className="position-absolute top-0 start-0 translate-middle normal-13p24 zindex-1">
               <div className="ancho-ans2p24 hp-30">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-center flex-grow-1 contenedor-linea lhp-20 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-start flex-grow-1 contenedor-linea lhp-20 hp-35 overflow-auto" />
               </div>
             </div>
 
             <div className="position-absolute top-0 start-0 translate-middle normal-14p24 zindex-1">
               <div className="ancho-ans2p24 hp-30">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-center flex-grow-1 contenedor-linea lhp-20 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-start flex-grow-1 contenedor-linea lhp-20 hp-35 overflow-auto" />
               </div>
             </div>
 
             <div className="position-absolute top-0 start-0 translate-middle normal-15p24 zindex-1">
               <div className="ancho-ans2p24 hp-30">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-center flex-grow-1 contenedor-linea lhp-20 min-hp-35" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 px-1 w-100 text-start flex-grow-1 contenedor-linea lhp-20 hp-35 overflow-auto" />
               </div>
             </div>
           </div>

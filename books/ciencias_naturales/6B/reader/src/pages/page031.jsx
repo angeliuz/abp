@@ -78,21 +78,21 @@ function Page031(props) {
                         <div className="position-absolute top-50 start-50 translate-middle msp--150 mtp--90 zindex-1 ">
                             <div className="d-flex flex-column wp-250 psp-20 pep-10 ptp-0 pbp-0 rotate--40">
 
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-70 overflow-auto" />
                             </div>
                         </div>
 
                         <div className="position-absolute top-50 start-50 translate-middle zindex-1 mtp--110 msp-120">
                             <div className="d-flex flex-column wp-250 psp-20 pep-10 ptp-0 pbp-0 rotate-40">
 
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-70 overflow-auto" />
                             </div>
                         </div>
 
                         <div className="position-absolute top-50 start-50 translate-middle  zindex-1 msp--200 mtp-140">
                             <div className="d-flex flex-column wp-250 psp-10 pep-10 ptp-0 pbp-0 rotate-70">
 
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-70 overflow-auto" />
                             </div>
                         </div>
                         {/* <div className="position-absolute top-50 start-50 msp--275 mtp-20 zindex-1">
@@ -104,13 +104,13 @@ function Page031(props) {
                         <div className="position-absolute top-50 start-50 translate-middle msp-200 mtp-140 zindex-1 ">
                             <div className="d-flex flex-column wp-250 psp-10 pep-10 ptp-0 pbp-0 rotate--70">
 
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-70 overflow-auto" />
                             </div>
                         </div>
                         <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-20 zindex-1">
                             <div className="d-flex flex-column wp-250 psp-10 pep-10 ptp-0 pbp-0 ">
 
-                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-70 overflow-auto" />
                             </div>
                         </div>
                     </div>
@@ -120,7 +120,7 @@ function Page031(props) {
 
                                 <div className="d-flex w-100 p-2">
                                     <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-android18 fsp-17 fw-700 pbp-5">a.</div>
-                                    <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">¿Qué recursos energéticos se podrìan aprovechar en el colegio?</div>
+                                    <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">¿Qué recursos energéticos se podrían aprovechar en el colegio?</div>
 
                                 </div>
 

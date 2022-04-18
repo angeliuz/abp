@@ -95,12 +95,12 @@ function Page049(props) {
                 />
               </div>
               <div className="col-4 p-0 m-0">
-                <div className="pbp-10 ptp-10 w-100"><img src={"images/page_" + pagina + "/mono.png"} alt="" className="w-80 justify-content-center" /></div>
+                <div className="pbp-10 ptp-10 w-100 msp--5"><img src={"images/page_" + pagina + "/mono.png"} alt="" className="wp-210 justify-content-center " /></div>
               </div>
             </div>
           </div>
 
-          <div className="ptp-10 container-titulo-global-1 mbp-0 mep-40">
+          <div className="ptp-10 container-titulo-global-1 mbp-0 mep-40 pbp-70">
             <div className="d-flex ptp-5 psp-70 align-items-top justify-content-start">
               <div className="text-start f-Ubuntu-B color-pidgey fsp-15">b.</div>
               <div className="text-start f-Ubuntu-L fsp-15 psp-5">Compartimos la selección con el equipo, analizamos y llegamos a acuerdo.</div>

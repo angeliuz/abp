@@ -77,7 +77,7 @@ function Page033(props) {
                                 <div className="bgc-zangief px-3 py-2  rounded-p-30">
                                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea mtp-20 lhp-35 min-hp-200" />
                                 </div>
-                                <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-0 bgc-cyrax py-2 psp-20 pep-20 f-Ubuntu-R rounded-ts-be-10">¿Qué se?</div>
+                                <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp-0 bgc-cyrax py-2 psp-20 pep-20 f-Ubuntu-R rounded-ts-be-10">¿Qué sé?</div>
                             </div>
 
                             <div className="col-md-4 col-12 position-relative pbp-40">

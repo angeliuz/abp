@@ -24,7 +24,7 @@ function Page036(props) {
 
           <div className="psp-60 pep-60 ptp-30">
             <div className="d-flex psp-20 pbp-20">
-              <div className={"f-Ubuntu-B fsp-21 mtp--6 " + color}>
+              <div className={"f-Ubuntu-B fsp-16 " + color}>
                 d.
               </div>
               <div className="f-Ubuntu-R fsp-16 psp-10 pep-10 text-start">

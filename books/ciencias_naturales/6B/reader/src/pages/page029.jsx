@@ -33,31 +33,31 @@ function Page029(props) {
                         </div>
                         <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
                             <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                                Mis objetivos <br />en  esta sesión son:
+                                Mis objetivos en  esta sesión son:
                             </div>
                             <div className="p-0 align-self-center">
                                 <img src="images/page_029/flecha.svg" className="wp-40 arrow-global" alt="" />
                             </div>
                             <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                                Reconocer las<br />características de una<br /> solución energética
+                                Reconocer las características de una solución energética
                             </div>
                             <div className="p-0 align-self-center">
                                 <img src="images/page_029/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
                             </div>
                             <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                                Conocer el proyecto<br /> Ayllu Solar
+                                Conocer el proyecto Ayllu Solar
                             </div>
                             <div className="p-0 align-self-center">
                                 <img src="images/page_029/flecha.svg" className="wp-40 arrow-global" alt="" />
                             </div>
                             <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
-                                Identificar las<br /> características del<br />colegio
+                                Identificar las características del colegio
                             </div>
                             <div className="p-0 align-self-center">
                                 <img src="images/page_029/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
                             </div>
                             <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                                Proponer soluciones<br /> energéticas para el<br />colegio
+                                Proponer soluciones energéticas para el colegio
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@ function Page029(props) {
                                 <div className="d-flex w-100 p-2">
                                     <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-android18 fsp-17 fw-700 pbp-5">a.</div>
                                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Escribo las palabras que no conozco, busco su significado y las registro.
-                                        Luego. vuelvo a leer la noticia.</div>
+                                        Luego, vuelvo a leer la noticia.</div>
                                     {/* <ModalVideo
                     id={"p" + pagina + "_video" + (indexInput += 1)}
                     image="images/generales/play.svg"

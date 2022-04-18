@@ -49,7 +49,7 @@ function Page050(props) {
             </div>
           </div>
 
-          <div className={"mtp-20 border-top-style-solid " + borderColor + " border-2 pbp-20 position-relative " + bgc_cajas}>
+          <div className=" ptp-20 mtp-20 bgc-pantro border-top-style-solid border-color-dark border-2 pbp-20 position-relative">
             <div className="global-margin mtp-15 mbp-5 f-pixilate-bold fsp-18 lh-sm text-start psp-10">¿Cómo voy?</div>
             <div className="global-margin mbp-20 psp-20 pep-20 ptp-5 pbp-5 f-Ubuntu-L bgc-white fsp-15 rounded-p-10 ">
               <div className="d-flex flex-wrap w-100 align-items-end titulo-linea mtp-10">
