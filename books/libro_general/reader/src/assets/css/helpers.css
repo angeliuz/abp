@@ -5984,6 +5984,11 @@
   max-width: 400px !important;
 }
 
+.max-wp-700 {
+  max-width: 700px !important;
+}
+
+
 .max-hp-300 {
   max-height: 280px !important;
 }
@@ -5991,6 +5996,7 @@
 .max-hp-400 {
   max-height: 400px !important;
 }
+
 
 
 .disable-select {

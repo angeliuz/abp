@@ -1,6 +1,6 @@
 import React from "react";
 import InputBox from "../components/InputBox";
-import ModalBook from "../components/ModalBook";
+import SeleccionTexto from '../components/SeleccionTexto';
 
 import "./page_047.css";
 
@@ -51,13 +51,19 @@ function Page047(props) {
           <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative d-flex center-center hp-380">
-              <div className="position-absolute top-0 start-100 translate-middle msp--120 mtp-10 zindex-10"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-60" alt="" /></div>
-              <div className="position-absolute top-50 start-0 translate-middle msp-80 mtp-10 zindex-10"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-40" alt="" /></div>
-                <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-580" alt="" /></div>
+                <div className="position-absolute top-0 start-100 translate-middle msp--120 mtp-10 zindex-10 visible-768 "><img src={"images/page_" + pagina + "/img_001.png"} className="wp-60" alt="" /></div>
+                <div className="position-absolute top-50 start-0 translate-middle msp-80 mtp-10 zindex-10 visible-768 "><img src={"images/page_" + pagina + "/img_003.png"} className="wp-40" alt="" /></div>
+                <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1  "><img src={"images/page_" + pagina + "/img_002.png"} className="wp-580" alt="" /></div>
 
                 <div className="position-absolute top-50 start-50 translate-middle msp-0 mtp-0 zindex-1">
-                  <div className="d-flex flex-column wp-580 position-relative mtp-0 psp-45 pep-45 ptp-0 f-Ubuntu-L fsp-14">
-                    <div className="zindex-2 text-start">Estimados estudiantes:</div>
+                  <div className="d-flex flex-column wp-580 position-relative mtp-0 p-0 f-Ubuntu-L fsp-14">
+                    <SeleccionTexto
+                      id={"seleccionTexto_" + pagina + "_" + (indexInput += 1)}
+                      classNameContenedor="w-100 psp-45 pep-45 position-relative"
+                      classNameTexto="w-100 f-Ubuntu-L fsp-14 text-start ptp-10"
+                      texto={"Estimados estudiantes: <p></p> Al inicio de este proyecto, junto con sus equipos propusieron ideas de acciones para enseñar a su comunidad en la feria <i>Héroes del medioambiente</i>. Ha llegado el momento de que se organicen, reflexionen sobre estas ideas y propongan otras nuevas si es necesario. Luego, deberán elegir como equipo cuál de ellas van a desarrollar. <p></p>Reúnanse con sus respectivos equipos y organicen lo necesario para crear un <b>modelo</b> que represente la acción de reciclaje o reutilización, una <b>infografía</b> que explique en qué consiste y <b>decoraciones</b> para el stand. Luego, piensen en todos los materiales que necesitan para desarrollar esas ideas. <p></p>Ya están muy cerca de lograr el desafío. ¡Ánimo!"}
+                    />
+                    {/* <div className="zindex-2 text-start">Estimados estudiantes:</div>
                     <div className="zindex-2 text-start mtp-10">
                       Al inicio de este proyecto, junto con sus equipos propusieron ideas de acciones para enseñar a su comunidad en la feria < i>Héroes del medioambiente</i>. Ha llegado el momento de que se organicen, reflexionen sobre estas ideas y propongan otras nuevas si es necesario. Luego, deberán elegir como equipo cuál de ellas van a desarrollar. <br />
                     </div>
@@ -66,8 +72,8 @@ function Page047(props) {
                     </div>
                     <div className="zindex-2 text-start mtp-10">
                       Ya están muy cerca de lograr el desafío. ¡Ánimo!<br />
-                    </div>
-                    <div className="zindex-2 text-end mtp-10">Atentamente, Javiera.</div>
+                    </div> */}
+                    <div className="zindex-2 text-end pep-45 mtp-10">Atentamente, Javiera.</div>
                   </div>
 
                 </div>

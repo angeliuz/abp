@@ -52,47 +52,57 @@ function Page007() {
                         <div className="row p-0 m-0 w-100">
                             <div className="col-12 p-0 m-0 position-relative">
 
-                                <SeleccionTexto
+                                {/* <SeleccionTexto
                                     id={"seleccionTexto_" + pagina + "_" + (indexInput += 1)}
                                     image={"images/page_" + pagina + "/encierra.svg"}
-                                    classNameContenedor="w-100 psp-60 pep-60"
-                                    classNameTexto="w-100 f-Ubuntu-L fsp-17 text-start"
+                                    classNameContenedor="w-100 psp-60 pep-60 position-relative"
+                                    classNameTexto="f-Ubuntu-L fsp-17 text-start"
+                                    texto={"Estimados estudiantes:"}
+                                    textoSubrayado={"Estimados estudiantes:"}
+
                                 >
-                                    Estimados estudiantes:
-                                </SeleccionTexto>
+
+                                </SeleccionTexto> */}
 
                                 <SeleccionTexto
                                     id={"seleccionTexto_" + pagina + "_" + (indexInput += 1)}
-                                    image={"images/page_" + pagina + "/encierra.svg"}
-                                    classNameContenedor="w-100 psp-60 pep-60"
-                                    classNameTexto="w-100 f-Ubuntu-L fsp-17 text-start"
-                                >
-                                    Al inicio de este proyecto, junto con sus equipos propusieron ideas de acciones para enseñar a su comunidad en la feria Héroes del medioambiente. Ha llegado el momento de que se organicen, reflexionen sobre estas ideas y propongan otras nuevas si es necesario. Luego, deberán elegir como equipo cuál de ellas van a desarrollar.
-                                </SeleccionTexto>
-                                <SeleccionTexto
+                                    classNameContenedor="w-100 psp-60 pep-60 position-relative"
+                                    classNameTexto="w-100 f-Ubuntu-L fsp-17 text-start ptp-10"
+                                    texto={"Estimados estudiantes: <br/><br/> Al inicio de este proyecto, junto con sus equipos propusieron ideas de acciones para enseñar a su comunidad en la feria <i>Héroes del medioambiente</i>. Ha llegado el momento de que se organicen, reflexionen sobre estas ideas y propongan otras nuevas si es necesario. Luego, deberán elegir como equipo cuál de ellas van a desarrollar. <br /><br />Reúnanse con sus respectivos equipos y organicen lo necesario para crear un <b>modelo</b> que represente la acción de reciclaje o reutilización, una <b>infografía</b> que explique en qué consiste y <b>decoraciones</b> para el stand. Luego, piensen en todos los materiales que necesitan para desarrollar esas ideas. <br /><br />Ya están muy cerca de lograr el desafío. ¡Ánimo!<br/><br />Atentamente, Javiera."}
+
+                                />
+
+
+                                {/* <SeleccionTexto
                                     id={"seleccionTexto_" + pagina + "_" + (indexInput += 1)}
                                     image={"images/page_" + pagina + "/encierra.svg"}
-                                    classNameContenedor="w-100 psp-60 pep-60"
-                                    classNameTexto="w-100 f-Ubuntu-L fsp-17 text-start"
+                                    classNameContenedor="w-100 psp-60 pep-60 position-relative"
+                                    classNameTexto="f-Ubuntu-L fsp-17 text-start ptp-10"
+                                    texto={"Reúnanse con sus respectivos equipos y organicen lo necesario para crear un <b>modelo</b> que represente la acción de reciclaje o reutilización, una <b>infografía</b> que explique en qué consiste y <b>decoraciones</b> para el stand. Luego, piensen en todos los materiales que necesitan para desarrollar esas ideas."}
+                                    textoSubrayado={"Reúnanse con sus respectivos equipos y organicen lo necesario para crear un modelo que represente la acción de reciclaje o reutilización, una infografía que explique en qué consiste y decoraciones para el stand. Luego, piensen en todos los materiales que necesitan para desarrollar esas ideas."}
                                 >
-                                    Reúnanse con sus respectivos equipos y organicen lo necesario para crear un modelo que represente la acción de reciclaje o reutilización, una infografíaque explique en qué consiste y decoraciones para el stand. Luego, piensen en todos los materiales que necesitan para desarrollar esas ideas.
-                                </SeleccionTexto>
-                                <SeleccionTexto
+
+                                </SeleccionTexto> */}
+                                {/* <SeleccionTexto
                                     id={"seleccionTexto_" + pagina + "_" + (indexInput += 1)}
                                     image={"images/page_" + pagina + "/encierra.svg"}
-                                    classNameContenedor="w-100 psp-60 pep-60"
-                                    classNameTexto="w-100 f-Ubuntu-L fsp-17 text-start"
+                                    classNameContenedor="w-100 psp-60 pep-60 position-relative"
+                                    classNameTexto="f-Ubuntu-L fsp-17 text-start ptp-10"
+                                    texto={"Ya están muy cerca de lograr el desafío. ¡Ánimo!"}
+                                    textoSubrayado={"Ya están muy cerca de lograr el desafío. ¡Ánimo!"}
                                 >
-                                    Ya están muy cerca de lograr el desafío. ¡Ánimo!
-                                </SeleccionTexto>
-                                <SeleccionTexto
+
+                                </SeleccionTexto> */}
+                                {/* <SeleccionTexto
                                     id={"seleccionTexto_" + pagina + "_" + (indexInput += 1)}
                                     image={"images/page_" + pagina + "/encierra.svg"}
-                                    classNameContenedor="w-100 psp-60 pep-60"
-                                    classNameTexto="w-100 f-Ubuntu-L fsp-17 text-end"
+                                    classNameContenedor="w-100 psp-60 pep-60 position-relative"
+                                    classNameTexto="f-Ubuntu-L fsp-17 text-end ptp-10"
+                                    texto={"Atentamente, Javiera."}
+                                    textoSubrayado={"Atentamente, Javiera."}
                                 >
-                                    Atentamente, Javiera.
-                                </SeleccionTexto>
+
+                                </SeleccionTexto> */}
 
 
                             </div>
