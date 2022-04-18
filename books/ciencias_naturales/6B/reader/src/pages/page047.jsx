@@ -103,7 +103,9 @@ function Page047(props) {
               </div>
               <div className="col-12 mbp-10">
                 <div className="d-flex border-style-solid border-color-ken border-3 p-0 m-0">
-                  <div className="w-20 bgc-kai p-3 border-right-style-solid border-color-ken border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14"></div>
+                  <div className="w-20 bgc-kai p-3 border-right-style-solid border-color-ken border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 bgc-white rounded-p-5 lhp-35 min-hp-35" />
+                  </div>
                   <div className="p-2 w-80">
                     {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Podemos mejorar en...</div> */}
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1  lhp-35 min-hp-110" />
@@ -113,7 +115,10 @@ function Page047(props) {
               <div className="col-12 mbp-10 position-relative">
                 <div className="position-absolute top-50 start-100 translate-middle"><img src="images/page_047/mono.png" className="hp-250 msp-90 mtp-50" alt="" /></div>
                 <div className="d-flex border-style-solid border-color-saitama border-3 p-0 m-0">
-                  <div className="w-20 bgc-windu p-3 border-right-style-solid border-color-saitama border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14"></div>
+                  <div className="w-20 bgc-windu p-3 border-right-style-solid border-color-saitama border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 bgc-white rounded-p-5 lhp-35 min-hp-35" />
+                  </div>
+                  
                   <div className="p-2 w-80">
                     {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Podemos mejorar en...</div> */}
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1  lhp-35 min-hp-110" />
@@ -122,7 +127,9 @@ function Page047(props) {
               </div>
               <div className="col-12 mbp-10">
                 <div className="d-flex border-style-solid border-color-vegeta border-3 p-0 m-0">
-                  <div className="w-20 bgc-itto p-3 border-right-style-solid border-color-vegeta border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14"></div>
+                  <div className="w-20 bgc-itto p-3 border-right-style-solid border-color-vegeta border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14">
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 bgc-white rounded-p-5 lhp-35 min-hp-35" />
+                  </div>
                   <div className="p-2 w-80">
                     {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Podemos mejorar en...</div> */}
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1  lhp-35 min-hp-110" />

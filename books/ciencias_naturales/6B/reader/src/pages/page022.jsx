@@ -117,37 +117,83 @@ function Page022(props) {
             </div>
           </div>
 
-          <div className=" psp-50 pep-50 mbp-100 mtp-10">
+          <div className=" psp-50 pep-50 mbp-140 mtp-10">
 
             <div className="row container-row px-5">
-              <div className="col-sm-12 col-md-6 position-relative mbp-20">
-                {/* <div className="position-absolute top-100 start-0 translate-middle wp-100 msp-40 mtp--70"><img src="images/page_050/carta.png" className="wp-50 mep-70 mtp-30" alt="" /></div> */}
+              <div className="col-12 p-0 m-0">
+                <div className="row d-flex align-items-stretch">
+                <div className="  d-flex flex-row bd-highlight mb-3 col-6 p-2 m-0 position-relative">
+                <div className="position-absolute top-50 start-100 translate-middle zindex-1 mtp-10"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-50 mtp-55 mep-0" alt="" /></div>
 
                 <div className="">
                   <div className="f-Ubuntu-B alinea rounded-set-10 bgc-saitama w-100 p-1 text-center color-white">¿Qué me ha sorprendido de lo que he
                     aprendido sobre la energía?</div>
-                  <div className=" linea1 bgc-white  p-2 rounded-seb-20 border-style-solid border-color-saitama border-2">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                  <div className="h-100 linea1 bgc-white  p-2 rounded-seb-20 border-style-solid border-color-saitama border-2">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                   </div>
                 </div>
               </div>
 
-              <div className="col-sm-12 col-md-6 position-relative">
+              <div className=" d-flex flex-row bd-highlight mb-3 col-6 p-2 m-0 position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle mtp--10 msp-0 "><img src="images/page_022/img_006.png" className="" alt="" /></div>
-                <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 visible-768"><img src="images/page_022/espiral.svg" className="wp-50 " alt="" /></div>
+                
                 <div className="">
                   <div className="f-Ubuntu-B alinea rounded-set-10 bgc-birdie w-100 p-1 text-center color-white">¿Para qué me ha servido la
                     investigación?</div>
-                  <div className="linea1 bgc-white p-2  rounded-seb-20 border-style-solid border-color-birdie border-2">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                  <div className="h-100 linea1 bgc-white p-2  rounded-seb-20 border-style-solid border-color-birdie border-2">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                   </div>
                 </div>
               </div>
+                </div>
+              
+
+              </div>
+              
 
             </div>
 
 
           </div>
+
+
+
+
+          {/* <div className="d-flex global-margin mtp-10 mbp-20 ptp-0 pbp-100">
+            <div className="row m-0 w-100 p-0">
+              <div className="position-absolute top-0 start-100 translate-middle zindex-1"><img src={"images/page_" + pagina + "/megafono.png"} className="hp-50 mtp-50 mep-40" alt="" /></div>
+              <div className="position-absolute top-100 start-100 translate-middle zindex-1"><img src={"images/page_" + pagina + "/mono.png"} className="hp-140 mtp-20 mep-40" alt="" /></div>
+              
+              
+
+              <div className="d-flex flex-row bd-highlight mb-3 col-6 p-2 m-0 position-relative">
+              <div className="position-absolute top-50 start-100 translate-middle zindex-1 mtp-10"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-50 mtp-55 mep-0" alt="" /></div>
+              
+                <div className=" rounded-p-10 p-2 w-100 h-100">
+                <div className="f-Ubuntu-B alinea rounded-set-10 bgc-saitama w-100 p-1 text-center color-white">¿Qué me ha sorprendido de lo que he
+                    aprendido sobre la energía?</div>
+                    <div className="h-100 linea1 bgc-white p-2  rounded-seb-20 border-style-solid border-color-saitama border-2">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                  </div>
+                </div>
+              </div>
+              
+              <div className=" d-flex flex-row bd-highlight mb-3 col-6 p-2 m-0 position-relative">
+                <div className=" rounded-p-10 p-2 w-100 h-100">
+                <div className="f-Ubuntu-B alinea rounded-set-10 bgc-birdie w-100 p-1 text-center color-white">¿Para qué me ha servido la
+                    investigación?</div>
+                    <div className=" h-100 linea1 bgc-white p-2  rounded-seb-20 border-style-solid border-color-birdie border-2">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> */}
+
+
+
+
+
           {/* PIE DE PAGINA */}
           <div
             className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2"
