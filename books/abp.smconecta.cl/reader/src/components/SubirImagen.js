@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useState, useRef } from "react";
-import { doc, updateDoc, onSnapshot } from "firebase/firestore";
+import { doc, getDoc, setDoc, updateDoc, onSnapshot } from "firebase/firestore";
 
 import db from "../firebase/firebaseConfig";
 import { app } from "../firebase/firebaseConfigStorage";
@@ -14,17 +14,17 @@ const SubirImagen = (props) => {
     //console.log(dokenArray[1]);
 
     const coleccion = "dataUsers";
-    // const documento = dokenArray[0] + dokenArray[1];
-    const documento = "129631893";
+    const documento = dokenArray[0] + dokenArray[1];
     const docRef = doc(db, coleccion, documento);
 
 
     // const image = props.image;
     const id = props.id;
-    // const pagina = props.pagina;
+    const pagina = props.pagina;
     const colorUnidad = props.colorUnidad;
     const className = props.className;
-    const imagenPlaceHolder = props.imagenPlaceHolder;
+    const imagenPlaceHolder = props.imagenPlaceHolder1;
+    const imagenPlaceHolder2 = props.imagenPlaceHolder2;
     const imagenCargador = "images/generales/progress2.gif";
 
     const [titulo, setTitulo] = useState(props.titulo);
@@ -48,11 +48,11 @@ const SubirImagen = (props) => {
     var temp = replaceCharacter(String(props.id), 'imagen', '');
     temp = replaceCharacter(temp, '_', '');
 
-    const idQR = props.idQR;
+    const idQR = String(documento + temp);
 
     // firestore get data for check
     useEffect(() => {
-        onSnapshot(doc(db, coleccion, documento), (docSnap) => {
+        onSnapshot(docRef, (docSnap) => {
 
             if (docSnap.exists()) {
                 console.log("url Existe");
@@ -87,13 +87,8 @@ const SubirImagen = (props) => {
         return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
     };
 
-
-
-
-
     const getData = () => {
-
-        // onSnapshot(doc(db, coleccion, "681"), (docSnap) => {
+        // onSnapshot(docRef, (docSnap) => {
         //     console.log("Current data: ", docSnap.data());
         //     if (docSnap.exists()) {
         //         console.log("Existe");
@@ -107,13 +102,10 @@ const SubirImagen = (props) => {
         //             console.log("Actualizar contenido");
         //         }
         //     } else {
+
         //         console.log("No existe");
 
-
         //     }
-        //});
-
-
         // const obtenerDatos = async () => {
         //     const docSnap = await getDoc(docRef);
 
@@ -139,7 +131,9 @@ const SubirImagen = (props) => {
         //     }
         // };
         // obtenerDatos();
-    }
+        //});
+
+    };
 
 
 
@@ -288,15 +282,23 @@ const SubirImagen = (props) => {
                     <div className="d-flex mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0 w-100">
                         <div className="row p-0 m-0 w-100">
                             <div className="col-12 mbp-30 position-relative d-flex center-center">
-                                <div className="d-flex align-items-center w-100  mtp-20 msp-10 mep-10 rounded-p-15 position-relative pep-20 fsp-15 f-Ubuntu-M bgc-jaga">
+                                <div className="d-flex align-items-center w-100  mtp-20 msp-10 mep-10 rounded-p-15 position-relative pep-5 psp-5 fsp-15 f-Ubuntu-M bgc-jaga">
+                                <div className="row ">
+                                <div className="col-lg-6 col-xs-12 d-flex align-items-center">
                                     <div className="p-2 flex-fill">
                                         <img src="images/generales/celular.png" alt="icono celular" />
                                     </div>
+                                    
+                                   
                                     <div className="p-2 flex-fill text-start">
-                                        Puedes subir una fotografía de tu actividad con tu smartphone ingresando el siguiente código <strong>https://abp.smconecta.cl</strong>
+                                    Puedes subir directamente la imagen de la actividad desde tu computador. También puedes tomar una fotografía con tu celular y cargarla en <strong>https://abp.smconecta.cl</strong>  ingresando el siguiente código.
                                     </div>
+                                    </div>
+                                    <div className="col-lg-6 col-xs-12 text-center ptp-20 pbp-5 d-flex align-items-center">
                                     <div className="bgc-white flex-fill psp-20 pep-20 ptp-10 pbp-10 rounded-p-20 border-style-solid border-color-dark border-2 fsp-25">
                                         {idQR}
+                                    </div>
+                                    </div>
                                     </div>
 
 
@@ -310,7 +312,7 @@ const SubirImagen = (props) => {
 
                                 <div className="d-flex hp-300 bgc-red"></div>
 
-                                {url != "" ? <img src={url} alt="Subir imagen" className={visibleCargador1 ? "d-none" : "d-flex w-100 position-relative"} onClick={handleClick} role="button" onLoad={() => setVisibleCargador1(false)} /> : <img src={imagenPlaceHolder} alt="Subir imagen" className={"d-flex w-100 position-relative"} onClick={handleClick} role="button" onLoad={() => setVisibleCargador1(false)} />}
+                                {url != "" ? <img src={url} alt="Subir imagen" className={visibleCargador1 ? "d-none" : "d-flex w-100 position-relative"} onClick={handleClick} role="button" onLoad={() => setVisibleCargador1(false)} /> : <img src={imagenPlaceHolder2} alt="Subir imagen" className={"d-flex w-100 position-relative"} onClick={handleClick} role="button" onLoad={() => setVisibleCargador1(false)} />}
 
                             </div>
                             <div className="col-12 p-0 m-0 position-relative d-flex center-center">
