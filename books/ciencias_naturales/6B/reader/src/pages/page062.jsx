@@ -114,21 +114,21 @@ function Page062(props) {
           <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12">
-                <div className="row">
-                  <div className="col-6 ">
-                    <div className="d-flex justify-content-start text-start"></div>
+                <div className="row d-flex">
+                  <div className="col-6 flex-row position-relative">
+                    <div className=" justify-content-start text-start"></div>
 
                     <div className="mtp-20">
                       <div className="w-100  p-1 m-2 border-style-solid border-1 border-color-lightDark rounded-p-10  lh-sm text-start p-2 position-relative">Nuestros compañeros consideraron que nuestra propuesta es…
                         <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-220" />
-                        <div className="position-absolute top-100 start-100 translate-middle   msp-20 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-70" alt="" /></div>
+                        
                         {/* <div className="position-absolute top-0 start-0  zindex-1 mtp--15"><img class=" hp-45" src="images/page_060/img_001.png" alt="" /></div> */}
                         {/* <div className="position-absolute top-100 start-0 translate-middle  zindex-1 mtp-10"><img class=" hp-60" src="images/page_060/img_003.png" alt="" /></div> */}
                       </div>
                     </div>
                   </div>
-                  <div className="col-6 ">
-                    <div className="d-flex justify-content-start text-start"></div>
+                  <div className="col-6 flex-row position-relative">
+                    <div className="justify-content-start text-start"></div>
 
                     <div className="mtp-20">
                       <div className="w-100  p-1 m-2 border-style-solid border-1 border-color-lightDark rounded-p-10  lh-sm text-start p-2 position-relative">Nos comentaron que…
@@ -159,6 +159,7 @@ function Page062(props) {
             {/* <div className="position-absolute top-0 start-50 translate-middle visible-768 mtp--39 msp--80"><img src="images/page_060/img_004.png" className="wp-80 " alt="" /></div> */}
             <div className="row w-100 p-0 m-0">
               <div className="col-12 position-relative">
+              <div className="position-absolute top-0 start-50 translate-middle  zindex-1 mtp--60 msp-10"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-70" alt="" /></div>
                 <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo voy?</div>
                 <div className="d-flex flex-column mbp-20 mtp-10 w-100">
                   <div className="p-2 min-hp-80 w-100 border-style-solid border-2 rounded-p-10 border-color-white bgc-white">

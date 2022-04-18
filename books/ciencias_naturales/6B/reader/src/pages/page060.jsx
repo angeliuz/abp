@@ -144,7 +144,7 @@ function Page060(props) {
                           />
                         </div>
                         <div className=" d-flex h-50  center-center position-relative m-3 ">
-                          <div className="position-absolute top-100 start-0 translate-middle  msp--250 mtp--120 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-200" alt="" /></div>
+                          <div className="position-absolute top-100 start-0 translate-middle  msp--250 mtp--120 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-230" alt="" /></div>
                         </div>
                         {/* <div className="position-absolute top-0 start-50 translate-middle-x msp-0 mtp-0 zindex-1"><img src={"images/page_" + pagina + "/img_001.svg"} className="wp-300" alt="" /></div> */}
 

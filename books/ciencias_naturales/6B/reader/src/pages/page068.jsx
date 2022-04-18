@@ -19,7 +19,7 @@ function Page068(props) {
       <div className="d-flex flex-column align-items-center pbp-20">
         <div className={"dosier-e" + etapa + " page bgc-white overflow-hidden position-relative"} id={"page_" + pagina}>
 
-          <div className="psp-80 pep-80 ptp-50">
+          <div className="psp-80 pep-80 ptp-60">
 
             <div className="bgc-leono rounded-set-20">
               <div className="f-Ubuntu-B fsp-16 color-white text-center py-2 ">Lo más difícil ha sido...</div>
