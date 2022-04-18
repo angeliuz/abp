@@ -4,7 +4,7 @@ import ContentEditable from "react-contenteditable";
 import { doc, getDoc, setDoc, updateDoc, onSnapshot } from "firebase/firestore";
 import db from "../firebase/firebaseConfig";
 
-function InputCrucigrama(props) {
+function CrucigramaInput(props) {
   const dokenArray = getUrlParameter("doken").split([','])
   //console.log(dokenArray);
 
@@ -29,43 +29,43 @@ function InputCrucigrama(props) {
     return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
   };
 
-  useEffect(() => {
-    getData();
-  },[content1]);
+  // useEffect(() => {
+  //   getData();
+  // },[]);
 
-  const getData = () => {
-    const obtenerDatos = async () => {
-      const docSnap = await getDoc(docRef);
+  // const getData = () => {
+  //   const obtenerDatos = async () => {
+  //     const docSnap = await getDoc(docRef);
 
-      if (docSnap.exists()) {
-          const field = docSnap.data()[id];
-          console.log("Current data: ", docSnap.data()[id]);
-          if (field) {
-            setContent1(docSnap.data()[id]);
-            console.log("content1 crucigrama: " + content1);
-          } else {
-            console.log("Sin datos: "+id);
-          }
-        //console.log("Document data:", docSnap.data());
-      } else {
-        // doc.data() will be undefined in this case
-        console.log("No such document!");
-      }
-    };
-    obtenerDatos();
-  }
+  //     if (docSnap.exists()) {
+  //         const field = docSnap.data()[id];
+  //         console.log("Current data: ", docSnap.data()[id]);
+  //         if (field) {
+  //           setContent1(docSnap.data()[id]);
+  //           console.log("content1 crucigrama: " + content1);
+  //         } else {
+  //           console.log("Sin datos: "+id);
+  //         }
+  //       //console.log("Document data:", docSnap.data());
+  //     } else {
+  //       // doc.data() will be undefined in this case
+  //       console.log("No such document!");
+  //     }
+  //   };
+  //   obtenerDatos();
+  // }
 
-  const handleTextChange = (event) => {
-    //setContent1(event.target.value);
-    updateContenido(event.target.value);
-  };
+  // const handleTextChange = (event) => {
+  //   //setContent1(event.target.value);
+  //   updateContenido(event.target.value);
+  // };
 
-  const updateContenido = (data) =>{
-    //console.log("content1: " + data);
-    updateDoc(docRef, {
-      [id]: data,
-    });
-  }
+  // const updateContenido = (data) =>{
+  //   //console.log("content1: " + data);
+  //   updateDoc(docRef, {
+  //     [id]: data,
+  //   });
+  // }
 
 
 
@@ -80,11 +80,11 @@ function InputCrucigrama(props) {
         maxLength={maxLength}
         onKeyUp={onKeyUp}
         onClick={onClick}
-        onChange={handleTextChange}
-        value={content1}
+        onChange={onChange}
+        value={value}
     />
     </>
   );
 }
 
-export default InputCrucigrama;
+export default CrucigramaInput;

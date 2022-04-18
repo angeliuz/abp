@@ -42,7 +42,7 @@ function SeleccionTexto(props) {
         if (field) {
           setContent1(docSnap.data()[id]);
           textoSubrayado = content1;
-          // console.log("content1: " + content1);
+          console.log("content1: " + content1);
         } else {
           console.log("Sin datos: " + id);
         }
