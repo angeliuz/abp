@@ -46,7 +46,7 @@ function Page021(props) {
                 <img src="images/page_021/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
-                Completar un<br /> crucigrama
+                Completar un crucigrama
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_021/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
