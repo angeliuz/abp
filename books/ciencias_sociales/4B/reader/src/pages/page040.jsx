@@ -27,7 +27,7 @@ function Page040(props) {
 
               <div className="row d-flex mbp-70 position-relative">
                 <div className="col-6 mbp-10 position-relative">
-                  
+
                   <div className="text-start bgc-white rounded-p-10 t-shadow ">
 
                     <div className="position-absolute top-0 start-50 translate-middle msp-0 mtp--5 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-30" alt="" /></div>
@@ -71,12 +71,12 @@ function Page040(props) {
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
                   <div className="f-Ubuntu-L fsp-15 msp-0 mep-10 mtp-20 text-start position-relative ">
                     <div className="position-absolute top-100 start-100 translate-middle msp--45 mtp-40 visible-768"><img src="images/page_040/img_007.png" className="wp-120 " alt="" /></div>
-                    <div className="position-absolute top-100 start-0 translate-middle msp--5 mtp-110 visible-768"><img src="images/page_040/img_009.png" className="wp-50 " alt="" /></div>
                     <img src="images/generales/flecha_e3.svg" className="mep-5 wp-15" alt="" />
                     <span>Lo que mejor nos ha resultado en el trabajo en equipo es:</span>
                   </div>
-                  <div className="pep-70">
+                  <div className="pep-70 position-relative">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-100" />
+                    <div className="position-absolute top-100 start-0 translate-middle msp--5 mtp-10 visible-768"><img src="images/page_040/img_009.png" className="wp-50 " alt="" /></div>
                   </div>
                 </div>
               </div>
