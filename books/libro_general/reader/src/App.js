@@ -12,6 +12,7 @@ import Page004 from "./pages/page004";
 import Page005 from "./pages/page005";
 import Page006 from "./pages/page006";
 import Page007 from "./pages/page007";
+import Page008 from "./pages/page008";
 
 function App() {
   const dokenArray = getUrlParameter("doken").split([',']);
@@ -56,6 +57,7 @@ function App() {
       <Page005 numeroPagina={clearZeros} />
       <Page006 numeroPagina={clearZeros} />
       <Page007 numeroPagina={clearZeros} />
+      <Page008 numeroPagina={clearZeros} />
 
     </div>
   );

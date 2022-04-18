@@ -1,0 +1,51 @@
+#contenedor_drags {
+    width: 580px;
+    height: 540px;
+    background-color: white;
+    position: relative;
+    margin-top: 10px;
+    background-image: url("images/page_008/imagen_fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* transform: scale(1, 1);
+    transform-origin: center; */
+}
+
+.draggable {
+    position: absolute;
+    width: 150px;
+    height: auto;
+}
+
+.draggable:hover .resize-handle {
+    display: block;
+
+}
+
+.draggable:hover {
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #00b0f6;
+
+}
+
+.resize-handle {
+    display: none;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin-top: -14px;
+    margin-left: -14px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    background-color: #00b0f6;
+    cursor: nw-resize !important;
+}
+
+@media (max-width: 767px) {
+    .resize-handle {
+        display: block;
+    }
+}
