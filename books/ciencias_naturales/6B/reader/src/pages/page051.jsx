@@ -291,7 +291,7 @@ function Page051(props) {
                     <div className="d-flex center-center m-1 w-27   rounded-p-10  f-Ubuntu-R fsp-16 p-1 border-style-solid border-2 border-color-mozart bgc-white color-mozart">
                       Otra
                     </div>
-                    <div className=" align-items-center  m-1 w-70  rounded-p-10  f-Ubuntu-L fsp-16 p-1 text-start border-style-solid border-2 border-color-goten bgc-white  psp-5 ">
+                    <div className=" align-items-center  m-1 w-70  rounded-p-10  f-Ubuntu-L fsp-16 p-1 text-start border-style-solid border-2 border-color-mozart bgc-white  psp-5 ">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
                         className=" p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-35 f-Ubuntu-L min-wp-100"
