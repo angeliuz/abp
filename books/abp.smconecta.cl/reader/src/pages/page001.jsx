@@ -25,6 +25,15 @@ function Page001() {
                     {/* BEGIN CABECERA VERSIÓN 2 */}
 
 <div className="bgc-ayato msp-60 mep-60 mtp-60 mbp-60 h-100">
+<div className="d-flex psp-0 pep-0">
+                        <div className="row w-100 p-0 m-0 center-center">
+                            <div className="col-md-8 col-lg-8 position-relative ">
+                                <div className="mbp-30 mtp-40 msp-20 mep-20 text-start f-Ubuntu-L fsp-15 text-center">
+                                <img src={"images/abp.svg"} className="wp-200" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="d-flex psp-0 pep-0">
                         <div className="row w-100 p-0 m-0 center-center">
                             <div className="col-md-8 col-lg-8 position-relative">
@@ -49,7 +58,7 @@ function Page001() {
                     <div className="d-flex psp-0 pep-0 pbp-10">
                         <div className="row w-100 p-0 m-0 center-center">
                             <div className="col-md-12 col-lg-8 position-relative">                         
-                                <div className="mbp-20 mtp-10 msp-20 mep-20">
+                                <div className="mbp-70 mtp-10 msp-20 mep-20">
                                     <div className="d-flex center-center p-2 rounded-p-20 border-style-solid border-2 border-color-white min-hp-200 bgc-white outlinesubir">
                                         <SubirImagen
                                             // id={"imagen_" + pagina + "_" + (indexInput += 1)}
@@ -66,16 +75,16 @@ function Page001() {
                             </div>
                         </div>
                     </div>
-                    <div className="d-flex psp-0 pep-0">
-<div className="row w-100 p-0 m-0 center-center">
+                    {/* <div className="d-flex psp-0 pep-0">
+{/* <div className="row w-100 p-0 m-0 center-center">
     <div className="col-xs-4 col-md-8 col-lg-8 position-relative">
         <div className="mbp-5 mtp-10 msp-20 fw-700 mep-20 rounded-p-30 bgc-shinobu ptp-15 pbp-15 color-white f-Ubuntu-R">
        Subir imágen
 
         </div>
     </div>
-</div>
-</div>
+</div> 
+</div> */}
                     </div>
 
 
