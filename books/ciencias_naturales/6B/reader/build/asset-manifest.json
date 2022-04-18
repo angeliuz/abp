@@ -1,7 +1,7 @@
 {
   "main.css": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/css/main.5954916d.chunk.css",
-  "main.js": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/js/main.0b1421a3.chunk.js",
-  "main.js.map": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/js/main.0b1421a3.chunk.js.map",
+  "main.js": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/js/main.3a65d135.chunk.js",
+  "main.js.map": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/js/main.3a65d135.chunk.js.map",
   "static/js/1.9cd0ba5c.chunk.js": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/js/1.9cd0ba5c.chunk.js",
   "static/js/1.9cd0ba5c.chunk.js.map": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/js/1.9cd0ba5c.chunk.js.map",
   "static/css/2.8fdde40e.chunk.css": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/css/2.8fdde40e.chunk.css",
@@ -22,6 +22,6 @@
   "static/css/main.5954916d.chunk.css.map": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/css/main.5954916d.chunk.css.map",
   "static/css/2.8fdde40e.chunk.css.map": "/libros_abp/books/ciencias_naturales/6B/reader/build/static/css/2.8fdde40e.chunk.css.map",
   "index.html": "/libros_abp/books/ciencias_naturales/6B/reader/build/index.html",
-  "precache-manifest.386ec26bf9e4c7751271b5855b8fa276.js": "/libros_abp/books/ciencias_naturales/6B/reader/build/precache-manifest.386ec26bf9e4c7751271b5855b8fa276.js",
+  "precache-manifest.18a13ece71068a73d5b04e392bbc5731.js": "/libros_abp/books/ciencias_naturales/6B/reader/build/precache-manifest.18a13ece71068a73d5b04e392bbc5731.js",
   "service-worker.js": "/libros_abp/books/ciencias_naturales/6B/reader/build/service-worker.js"
 }
