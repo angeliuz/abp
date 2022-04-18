@@ -119,7 +119,7 @@ function Page020(props) {
                   </div>
                 </div>
               </div>
-              <div className="pc-caja-objetivos-4">
+              <div className="pc-caja-objetivos-4 caja-4">
                 <div className="color-hardDark fsp-16 lh-sm f-pixilate-regular text-star">
                   <div
                     className={

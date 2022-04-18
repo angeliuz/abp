@@ -61,7 +61,7 @@ function Page021(props) {
             <div className="d-flex">
               {/* <img className="hp-20 align-center mt-3 me-2 mb-2" src="images/page_053/g.svg" alt="" /> */}
               <div className="f-ccdigitaldelivery-bold fsp-35 color-android18">1</div>
-              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Leo los reportajes de la revista. Luego, realizo las actividades..</div>
+              <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Leo los reportajes de la revista. Luego, realizo las actividades.</div>
               {/* <ModalBook id={ "p" + pagina + "_book"+ (indexInput+=1) } image="images/page_053/revista.svg" clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" /> */}
             </div>
           </div>
@@ -79,129 +79,64 @@ function Page021(props) {
               Energía
             </div>
           </div>
-          <div className="d-flex msp-60 mep-60 mbp-10  bgc-calypso8 rounded-p-20 border-style-solid border-1 border-color-kai">
+          <div className="d-flex msp-60 mep-60 mbp-10 bgc-calypso8 rounded-p-20 border-style-solid border-1 border-color-kai">
 
-            <div className="row w-100 p-0 m-0">
+            <div className="row p-0 m-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative">
+                <div className="position-absolute top-0 start-0 translate-middle mtp-100 msp-0 zindex-1 visible-768"><img src="images/page_021/img_004.png" className=" " alt="" /></div>
+                <div className="position-absolute top-100 start-100 translate-middle mtp-0 msp--20 zindex-1 visible-768"><img src="images/page_021/img_006.png" className=" " alt="" /></div>
 
-              <div className="col-sm-3 position-relative ptp-60 msp-20">
-                <div className="position-absolute top-50 start-0 translate-middle msp-3 mtp-0 msp--30 zindex-1 visible-768">
-                  <img src="images/page_021/img_004.png" className=" " alt="" />
-                </div>
-
-                <div className="position-absolute top-50 start-100 translate-middle  msp-3 mtp-30 zindex-1">
-                  <img src="images/page_021/img_005.svg" className="wp-30 " alt="" />
-                </div>
-
-                <div className="d-flex flex-column min-hp-170 center-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-sonic border-style-solid border-1 border-color-sonic">
-                  <div className="f-Ubuntu-L fsp-16 text-center w-100 p-1">Se caracteriza
-                    por…</div>
-
-
-                  <div className="p-2 w-100 d-flex">
-                    {/* <InputBox
-                      id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
-                    /> */}
+                <div className="row psp-20 pep-20 ptp-20">
+                  <div className="col-4 d-flex align-items-stretch"></div>
+                  <div className="col-4 d-flex align-items-stretch center-center">
+                    <div className="bgc-freezer w-90 rounded-caja ptp-5 pbp-5 color-black fsp-15 f-Ubuntu-M">Renovable</div>
+                  </div>
+                  <div className="col-4 d-flex align-items-stretch center-center">
+                    <div className="bgc-freezer w-90 rounded-caja ptp-5 pbp-5 color-black fsp-15 f-Ubuntu-M">No Renovable</div>
                   </div>
                 </div>
+
+                <div className="row psp-20 pep-20 pbp-20">
+                  <div className="col-4 d-flex align-items-stretch">
+                    <div className="bgc-sonic rounded-p-5 w-100 h-100 psp-10 pep-10 d-flex center-center">
+                      <div className="f-Ubuntu-L fsp-16 text-center w-100 p-1">Se caracteriza por…</div>
+                    </div>
+                  </div>
+                  <div className="col-4 d-flex align-items-stretch position-relative">
+                    <div className="triangulo-p21"></div>
+                    <div className="bgc-white rounded-p-5 w-100 h-100 psp-10 pep-10 pbp-2">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100 min-hp-150" />
+                    </div>
+                  </div>
+                  <div className="col-4 d-flex align-items-stretch position-relative">
+                    <div className="triangulo-p21"></div>
+                    <div className="bgc-white rounded-p-5 w-100 h-100 psp-10 pep-10 pbp-2">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100 min-hp-150" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="row psp-20 pep-20 pbp-20">
+                  <div className="col-4 d-flex align-items-stretch">
+                    <div className="bgc-sonic rounded-p-5 w-100 h-100 psp-10 pep-10 d-flex center-center">
+                      <div className="f-Ubuntu-L fsp-16 text-center w-100 p-1">¿Cuáles son?</div>
+                    </div>
+                  </div>
+                  <div className="col-4 d-flex align-items-stretch position-relative">
+                    <div className="triangulo-p21"></div>
+                    <div className="bgc-white rounded-p-5 w-100 h-100 psp-10 pep-10 pbp-2">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100 min-hp-150" />
+                    </div>
+                  </div>
+                  <div className="col-4 d-flex align-items-stretch position-relative">
+                    <div className="triangulo-p21"></div>
+                    <div className="bgc-white rounded-p-5 w-100 h-100 psp-10 pep-10 pbp-2">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100 min-hp-150" />
+                    </div>
+                  </div>
+                </div>
+
               </div>
-              <div className="col-sm-4 position-relative ptp-10 ">
-                <div className="position-absolute top-50 start-100 translate-middle  msp-3 mtp-30 zindex-1">
-                  <img
-                    src="images/page_021/img_005.svg"
-                    className="wp-30 "
-                    alt=""
-                  />
-                </div>
-
-                <div className="d-flex justify-content-center w-100 ptp-25">
-                  <div className="bgc-freezer w-90 rounded-caja ptp-5 pbp-5 color-black fsp-15 f-Ubuntu-M  ">
-                    Renovable
-                  </div>
-                </div>
-
-                <div className="d-flex flex-column min-hp-170 mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                  <div className="p-2 w-100">
-                    <InputBox
-                      id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-4 position-relative ptp-10 ">
-
-                <div className="d-flex justify-content-center w-100 ptp-25">
-                  <div className="bgc-freezer w-90 rounded-caja ptp-5 pbp-5 color-black fsp-15 f-Ubuntu-M  ">
-                    No renovable
-                  </div>
-                </div>
-
-                <div className="d-flex flex-column min-hp-170 mbp-5 mtp-0 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                  <div className="p-2 w-100">
-                    <InputBox
-                      id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-3 position-relative  msp-20">
-
-                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
-                  <img
-                    src="images/page_021/img_005.svg"
-                    className="wp-30 "
-                    alt=""
-                  />
-                </div>
-                <div className="d-flex flex-column min-hp-170 center-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-sonic  ">
-                  <div className="f-Ubuntu-L fsp-16 text-center w-100 p-2">¿Cuáles son?</div>
-                  <div className="p-2 w-100">
-                    {/* <InputBox
-                      id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-180"
-                    /> */}
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-4 position-relative">
-                <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1">
-                  <img
-                    src="images/page_021/img_005.svg"
-                    className="wp-30 "
-                    alt=""
-                  />
-                </div>
-                <div className="d-flex flex-column min-hp-170 mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                  <div className="p-2 w-100">
-                    <InputBox
-                      id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-4 position-relative mbp-10">
-                <div className="position-absolute top-100 start-100 translate-middle msp-3 mtp-0 msp-20 zindex-1 visible-768">
-                  <img
-                    src="images/page_021/img_006.png"
-                    className=" "
-                    alt=""
-                  />
-                </div>
-                <div className="d-flex flex-column min-hp-170 mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-white">
-                  <div className="p-2 w-100">
-                    <InputBox
-                      id={"p" + pagina + "_input" + (indexInput += 1)}
-                      className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
-                    />
-                  </div>
-                </div>
-              </div>
-
-
-
             </div>
           </div>
 
@@ -301,7 +236,7 @@ function Page021(props) {
 
         </div>
       </div>
-    </div>
+    </div >
   );
 }
 

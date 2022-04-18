@@ -25,7 +25,7 @@ function Page018(props) {
                         <div className="text-start f-Ubuntu-R">Creemos que, para cumplir nuestro desafío, necesitaremos...</div>
                     </div>
 
-                    <div className="psp-60 pep-60 ptp-20">
+                    <div className="psp-60 pep-60 ptp-20 pbp-20">
                         <div className="position-relative">
 
                             <div className="pbp-30">
@@ -34,7 +34,7 @@ function Page018(props) {
                                         <div className="position-absolute top-0 start-0 mtp--10 msp--10 py-2 px-4 bgc-freezer rounded-p-20 f-Ubuntu-R">investigar sobre</div>
                                     </div>
                                     <div className="pep-65-p18">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 mtp-30 text-start flex-grow-1 lhp-25 min-hp-230" />
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 mtp-30 text-start flex-grow-1 lhp-25 hp-230 overflow-auto" />
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@ function Page018(props) {
                                         <div className="position-absolute top-0 start-0 mtp--10 msp--10 py-2 px-4 bgc-gohan rounded-p-20 f-Ubuntu-R">que nuestra propuesta sea</div>
                                     </div>
                                     <div className="pep-65-p18">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 mtp-30 text-start flex-grow-1 lhp-25 min-hp-230" />
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 mtp-30 text-start flex-grow-1 lhp-25 hp-230 overflow-auto" />
                                     </div>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@ function Page018(props) {
                                         <div className="position-absolute top-0 start-0 mtp--10 msp--20 py-2 px-4 bgc-windu rounded-p-20 f-Ubuntu-R text-start w-110">organizarnos de la siguiente forma</div>
                                     </div>
                                     <div className="">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 mtp-30 text-start flex-grow-1 lhp-25 min-hp-230" />
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 mtp-30 text-start flex-grow-1 lhp-25 hp-230 overflow-auto" />
                                     </div>
                                 </div>
                             </div>

@@ -135,7 +135,7 @@ function Page015(props) {
 
               <div className="col-md-6 col-12 pbp-20">
                 <div className="bgc-draco border-style-solid border-1 border-color-bulma rounded-p-20 p-2 position-relative">
-                  <div className="text-center f-colby-regular color-bulma fsp-18">Supervición</div>
+                  <div className="text-center f-colby-regular color-bulma fsp-18">Supervisión</div>
                   <div className="ptp-10 text-start mnhp-120-p15">
                     <div className="d-flex">
                       <div className="psp-5 pep-5 mtp--3"><img src={"images/page_" + pagina + "/check_2.svg"} className="wp-15" alt="" /></div>

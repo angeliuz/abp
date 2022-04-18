@@ -73,13 +73,13 @@ function Page022(props) {
             <div className="position-absolute top-50 start-50 translate-middle msp--5 mtp-0 zindex-1">
               <div className="d-flex flex-column wp-120 psp-20 pep-10 ptp-0 pbp-0">
 
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-120 overflow-auto" />
               </div>
             </div>
             <div className="position-absolute top-50 start-50 translate-middle msp--120 mtp-0 zindex-1">
               <div className="d-flex flex-column wp-120 psp-10 pep-10 ptp-0 pbp-0 ">
 
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-150 overflow-auto" />
               </div>
             </div>
             {/* <div className="position-absolute top-50 start-50 msp--275 mtp-20 zindex-1">
@@ -91,13 +91,13 @@ function Page022(props) {
             <div className="position-absolute top-50 start-50 translate-middle msp-120 mtp-0 zindex-1">
               <div className="d-flex flex-column wp-120 psp-10 pep-10 ptp-0 pbp-0 ">
 
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-150 overflow-auto" />
               </div>
             </div>
             <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp--20 zindex-1">
               <div className="d-flex flex-column wp-280 psp-10 pep-10 ptp-0 pbp-0 ">
 
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-70" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-70 overflow-auto" />
               </div>
             </div>
           </div>

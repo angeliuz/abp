@@ -1,6 +1,7 @@
 import React from "react";
 import InputBox from "../components/InputBox";
 import ModalBook from "../components/ModalBook";
+import SubirImagen from '../components/SubirImagen';
 
 import "./page_010.css";
 
@@ -34,14 +35,14 @@ function Page010(props) {
                   <div className="cb-bloque-4 text-center bgc-white p-2 pb-2 f-Ubuntu-L fw-700 fsp-13 cb-outline-p10 border-1 border-style-solid border-color-dark">
                     <div className="f-Ubuntu-R fsp-13 color-ken fw-700 text-start psp-5">Simplicidad</div>
                     <div className="psp-10 pep-10 pbp-10 ptp-5">
-                      <div className="d-flex align-items-center w-100 ">
-                        <div className="wp-5 hp-5 bgc-ken rounded-circle"></div>
+                      <div className="d-flex align-items-top w-100 ">
+                        <div className="wp-5 hp-5 bgc-ken rounded-circle mtp-7"></div>
                         <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-13 psp-5">
                           Tiene pocos elementos y colores.
                         </div>
                       </div>
-                      <div className="d-flex align-items-center w-100 ">
-                        <div className="wp-5 hp-5 bgc-ken rounded-circle"></div>
+                      <div className="d-flex align-items-top w-100 ">
+                        <div className="wp-5 hp-5 bgc-ken rounded-circle mtp-7"></div>
                         <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-13 psp-5">
                           Incluye solo lo necesario.
                         </div>
@@ -51,14 +52,14 @@ function Page010(props) {
                   <div className="cb-bloque-5 text-center bgc-white p-2 pb-2 f-Ubuntu-L fw-700 fsp-13 cb-outline-p10 border-1 border-style-solid border-color-dark">
                     <div className="f-Ubuntu-R fsp-13 color-saitama fw-700 text-start psp-5">Representatividad</div>
                     <div className="psp-10 pep-10 pbp-10 ptp-5">
-                      <div className="d-flex align-items-center w-100 ">
-                        <div className="wp-5 hp-5 bgc-saitama rounded-circle"></div>
+                      <div className="d-flex align-items-top w-100 ">
+                        <div className="wp-5 hp-5 bgc-saitama rounded-circle mtp-7"></div>
                         <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-13 psp-5">
                           Refleja el espíritu del equipo.
                         </div>
                       </div>
-                      <div className="d-flex align-items-center w-100 ">
-                        <div className="wp-5 hp-5 bgc-saitama rounded-circle"></div>
+                      <div className="d-flex align-items-top w-100 ">
+                        <div className="wp-5 hp-5 bgc-saitama rounded-circle mtp-7"></div>
                         <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-13 psp-5">
                           Debe estar relacionado con el desafío.
                         </div>
@@ -68,14 +69,14 @@ function Page010(props) {
                   <div className="cb-bloque-6 text-center bgc-white p-2 pb-2 f-Ubuntu-L fw-700 fsp-13 cb-outline-p10 border-1 border-style-solid border-color-dark">
                     <div className="f-Ubuntu-R fsp-13 color-obiwan fw-700 text-start psp-5">Imagen</div>
                     <div className="psp-10 pep-10 pbp-10 ptp-5">
-                      <div className="d-flex align-items-center w-100 ">
-                        <div className="wp-5 hp-5 bgc-obiwan rounded-circle"></div>
+                      <div className="d-flex align-items-top w-100 ">
+                        <div className="wp-5 hp-5 bgc-obiwan rounded-circle mtp-7"></div>
                         <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-13 psp-5">
                           Es visualmente atractivo.
                         </div>
                       </div>
-                      <div className="d-flex align-items-center w-100 ">
-                        <div className="wp-5 hp-5  bgc-obiwan rounded-circle"></div>
+                      <div className="d-flex align-items-top w-100 ">
+                        <div className="wp-5 hp-5 bgc-obiwan rounded-circle mtp-7"></div>
                         <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-L fsp-13 psp-5">
                           Es fácil de recordar.
                         </div>
@@ -88,12 +89,20 @@ function Page010(props) {
                 <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-70" alt="" /></div>
                 <div className="ptp-10 f-Ubuntu-L fsp-15">Nuestro logo:</div>
                 <div className="psp-30 pep-30">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-130" />
+                  {/* <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-130" /> */}
+                  <SubirImagen
+                    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                    className="w-100 bgc-white min-hp-130"
+                    colorUnidad={background}
+                    imagenPlaceHolder1="images/generales/subir_imagen2.svg"
+                    imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                    titulo="Subir imagen"
+                  />
                 </div>
               </div>
               {/* SECCION COMO VOY */}
 
-              <div className="row w-100 p-0 m-0">
+              <div className="row w-100 p-0 mbp-60">
                 <div className="col-12 position-relative max-wp-600 mx-auto">
                   <div className="position-absolute top-50 start-100 translate-middle msp-25 mtp-50 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-100" alt="" /></div>
                   <div className="f-pixilate-bold fsp-18 lh-sm text-start mbp-5">¿Cómo vamos?</div>

@@ -30,25 +30,25 @@ function Page013(props) {
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Mis objetivos en <br /> esta sesión son:
+                Mis objetivos en <br />esta sesión son:
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/generales/flecha_sesion_e2_1.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Poner en común lo que <br />sabemos sobre sostenibilidad<br />y energías renovables.
+                Poner en común lo que <br />sabemos sobre sostenibilidad<br />y energías renovables
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/generales/flecha_sesion_e2_2.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Realizar los pasatiempos <br />de la revista.
+                Realizar los pasatiempos <br />de la revista
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/generales/flecha_sesion_e2_1.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
-                Discutir posibles<br />soluciones a un problema<br /> planteado.
+                Discutir posibles<br />soluciones a un problema<br /> planteado
               </div>
             </div>
           </div>

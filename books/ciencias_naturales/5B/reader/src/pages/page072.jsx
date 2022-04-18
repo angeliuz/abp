@@ -118,21 +118,21 @@ function Page072(props) {
                 <div className="row mbp-15">
                   <img src="images/page_072/img_006.png" className="cb-tarjeta-p72" />
                   <img src="images/page_072/img_007.png" className="cb-tijeras-p72" />
-                  <div className="col d-flex align-items-stretch">
+                  <div className="col-6 d-flex align-items-stretch">
                     <div className="cb-fondo-2 color-white text-center f-Ubuntu-R fsp-16 justify-content-center align-items-center d-flex"> <p className="cb-texto-cajaa">Lo que hay que hacer</p></div>
                   </div>
-                  <div className="col d-flex align-items-stretch">
+                  <div className="col-6 d-flex align-items-stretch">
                     <div className="cb-fondo-1 color-white text-center f-Ubuntu-R fsp-16 justify-content-center align-items-center d-flex"> <p className="cb-texto-cajab">Estudiante a cargo</p></div>
                   </div>
                 </div>
 
                 <div className="row mbp-15">
-                  <div className="col d-flex align-items-stretch">
+                  <div className="col-6 d-flex align-items-stretch">
                     <div className="bgc-barbie rounded-p-5 w-100 h-100 psp-15 pep-15 pbp-5 triangulo-p72">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100" />
                     </div>
                   </div>
-                  <div className="col d-flex align-items-stretch">
+                  <div className="col-6 d-flex align-items-stretch">
                     <div className="bgc-windu rounded-p-5 w-100 h-100 psp-15 pep-15 pbp-5">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100" />
                     </div>
@@ -140,12 +140,12 @@ function Page072(props) {
                 </div>
 
                 <div className="row mbp-15">
-                  <div className="col d-flex align-items-stretch">
+                  <div className="col-6 d-flex align-items-stretch">
                     <div className="bgc-barbie rounded-p-5 w-100 h-100 psp-15 pep-15 pbp-5 triangulo-p72">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100" />
                     </div>
                   </div>
-                  <div className="col d-flex align-items-stretch">
+                  <div className="col-6 d-flex align-items-stretch">
                     <div className="bgc-windu rounded-p-5 w-100 h-100 psp-15 pep-15 pbp-5">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100" />
                     </div>
@@ -153,12 +153,12 @@ function Page072(props) {
                 </div>
 
                 <div className="row mbp-15">
-                  <div className="col d-flex align-items-stretch">
+                  <div className="col-6 d-flex align-items-stretch">
                     <div className="bgc-barbie rounded-p-5 w-100 h-100 psp-15 pep-15 pbp-5 triangulo-p72">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100" />
                     </div>
                   </div>
-                  <div className="col d-flex align-items-stretch">
+                  <div className="col-6 d-flex align-items-stretch">
                     <div className="bgc-windu rounded-p-5 w-100 h-100 psp-15 pep-15 pbp-5">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100" />
                     </div>
@@ -166,12 +166,12 @@ function Page072(props) {
                 </div>
 
                 <div className="row mbp-15">
-                  <div className="col d-flex align-items-stretch">
+                  <div className="col-6 d-flex align-items-stretch">
                     <div className="bgc-barbie rounded-p-5 w-100 h-100 psp-15 pep-15 pbp-5 triangulo-p72">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100" />
                     </div>
                   </div>
-                  <div className="col d-flex align-items-stretch">
+                  <div className="col-6 d-flex align-items-stretch">
                     <div className="bgc-windu rounded-p-5 w-100 h-100 psp-15 pep-15 pbp-5">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100" />
                     </div>
@@ -179,12 +179,12 @@ function Page072(props) {
                 </div>
 
                 <div className="row mbp-15">
-                  <div className="col d-flex align-items-stretch">
+                  <div className="col-6 d-flex align-items-stretch">
                     <div className="bgc-barbie rounded-p-5 w-100 h-100 psp-15 pep-15 pbp-5 triangulo-p72">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100" />
                     </div>
                   </div>
-                  <div className="col d-flex align-items-stretch">
+                  <div className="col-6 d-flex align-items-stretch">
                     <div className="bgc-windu rounded-p-5 w-100 h-100 psp-15 pep-15 pbp-5">
                       <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 h-100" />
                     </div>
