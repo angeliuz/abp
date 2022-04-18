@@ -125,7 +125,7 @@ function Page026(props) {
                 <div className="d-flex w-100 p-2">
                   <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-android18 fsp-17 fw-700 ">b.</div>
                   <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Imaginamos cuáles de estas características, u otras, podrían contribuir a un
-                    colegio sostenible y lo relacionamos con el proyecto..</div>
+                    colegio sostenible y lo relacionamos con el proyecto.</div>
                   {/* <ModalVideo
                     id={"p" + pagina + "_video" + (indexInput += 1)}
                     image="images/generales/play.svg"

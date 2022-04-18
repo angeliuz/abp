@@ -185,7 +185,7 @@ function Page030(props) {
                             <div className="col-12 p-0 m-0 position-relative">
 
                                 <div className="d-flex w-100 p-2">
-                                    <img className="hp-20 align-center mt-3 me-2 mb-4" src={"images/page_" + pagina + "/img_007.svg"} alt="" />
+                                    <img className="hp-20 align-center mt-2 me-2 mb-4" src={"images/page_" + pagina + "/img_007.svg"} alt="" />
                                     <div className="d-flex d-inline justify-content-start align-items-start text-start f-Ubuntu-R color-android18 fsp-17 fw-700 mt-1">d.</div>
                                     <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 psp-5">Analizo con mi equipo la posibilidad de implementar este tipo de soluciones
                                         energéticas en el colegio. Para ello, completamos:</div>

@@ -97,7 +97,7 @@ function Page035(props) {
                             <div className="col-md-6 position-relative pbp-30 ">
 
                                 <div className="d-flex pbp-20">
-                                    <div className={"f-Ubuntu-B fsp-21 mtp--6 " + color}>
+                                    <div className={"f-Ubuntu-B fsp-16 " + color}>
                                         a.
                                     </div>
                                     <div className="f-Ubuntu-R fsp-16 psp-10 pep-10 text-start">
@@ -197,7 +197,7 @@ function Page035(props) {
                             </div>
                             <div className="col-md-6 position-relative pbp-20">
                                 <div className="d-flex psp-20 pbp-20">
-                                    <div className={"f-Ubuntu-B fsp-21 mtp--6 " + color}>
+                                    <div className={"f-Ubuntu-B fsp-16 " + color}>
                                         b.
                                     </div>
                                     <div className="f-Ubuntu-R fsp-16 psp-10 pep-10 text-start">
@@ -238,7 +238,7 @@ function Page035(props) {
                     </div>
                     <div className="psp-60 pep-60">
                         <div className="d-flex psp-20 pbp-20">
-                            <div className={"f-Ubuntu-B fsp-21 mtp--6 " + color}>
+                            <div className={"f-Ubuntu-B fsp-16 " + color}>
                                 c.
                             </div>
                             <div className="f-Ubuntu-R fsp-16 psp-10 pep-10 text-start">

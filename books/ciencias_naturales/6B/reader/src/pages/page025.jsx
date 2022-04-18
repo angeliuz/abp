@@ -30,31 +30,31 @@ function Page025(props) {
             </div>
             <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Mis objetivos <br />en  esta sesión son:
+                Mis objetivos en  esta sesión son:
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_025/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Comprender el<br />concepto de<br /> sostenibilidad
+                Comprender el concepto de sostenibilidad
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_025/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Conocer los objetivos<br /> de desarrollo<br />sostenible
+                Conocer los objetivos de desarrollo sostenible
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_025/flecha.svg" className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
-                Comprender cómo es<br /> una casa sostenible
+                Comprender cómo es una casa sostenible
               </div>
               <div className="p-0 align-self-center">
                 <img src="images/page_025/flecha1.svg" className="wp-40 arrow-global rotate-90" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Imaginar cómo<br /> hacer sostenible el<br />colegio
+                Imaginar cómo hacer sostenible el colegio
               </div>
             </div>
           </div>

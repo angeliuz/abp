@@ -287,11 +287,11 @@ function Page051(props) {
               <div className="d-flex mbp-0 psp-0 pep-0 position-relative p-1 ptp-10">
                 {/* <div className="position-absolute top-50 end-0 translate-middle-y   visible-768 msp-80 mtp--0 "><img src="images/page_061/img_005.png" className="wp-30 " alt="" /></div> */}
                 <div className="row h-100 w-100 m-0 p-0 ">
-                  <div className="col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
-                    <div className="d-flex center-center h-100 m-1 wp-240   rounded-p-10 hp-30 f-Ubuntu-R fsp-16 p-1 border-style-solid border-2 border-color-mozart bgc-white color-mozart">
+                  <div className="w-90 col-sm-11 col-md-11 d-flex justify-content-center p-0 mbp-10">
+                    <div className="d-flex center-center m-1 w-27   rounded-p-10  f-Ubuntu-R fsp-16 p-1 border-style-solid border-2 border-color-mozart bgc-white color-mozart">
                       Otra
                     </div>
-                    <div className="d-flex align-items-center h-100 m-1 w-100  rounded-p-10 hp-60 f-Ubuntu-L fsp-16 p-1 text-start border-style-solid border-2 border-color-goten bgc-white  psp-5 ">
+                    <div className=" align-items-center  m-1 w-70  rounded-p-10  f-Ubuntu-L fsp-16 p-1 text-start border-style-solid border-2 border-color-goten bgc-white  psp-5 ">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
                         className=" p-0 px-1 fsp-15 text-start flex-grow-1 lhp-30 min-hp-35 f-Ubuntu-L min-wp-100"

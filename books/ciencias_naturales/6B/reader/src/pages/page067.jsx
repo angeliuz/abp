@@ -53,7 +53,7 @@ function Page067(props) {
               </div>
             </div>
           </div>
-          <div className="max-wp-640 mx-auto position-relative mtp-20">
+          <div className="max-wp-640 mx-auto position-relative mtp-20 mbp-40">
             <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--50 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-100" alt="" /></div>
             <div className="text-center w-100 border-1 border-style-solid border-color-dark rounded-p-10 pbp-15 bgc-white">
               <div className="f-Ubuntu-L fsp-15 rounded-p-10 wp-600 hp-40 pep-20 psp-20 ptp-10 pbp-10 mtp--5 bgc-trans-satan d-flex justify-content-start ">

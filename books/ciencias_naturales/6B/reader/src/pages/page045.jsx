@@ -73,15 +73,15 @@ function Page045(props) {
                   <div className="position-absolute top-50 start-0 translate-middle h-100 ptp-10 pbp-10"><div className="espiral-calado wp-30 h-100"></div></div>
                   <div className="bgc-white rounded-p-10 msp-20 p-3 mbp-10">
                     <div className="f-Ubuntu-R fsp-14 lh-sm text-start">Antes de inventar un objeto, Da Vinci hacía</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-105" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-105" />
                   </div>
                   <div className="bgc-white rounded-p-10 msp-20 p-3 mbp-10">
                     <div className="f-Ubuntu-R fsp-14 lh-sm text-start">Este paso previo sirve para</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-105" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-105" />
                   </div>
                   <div className="bgc-white rounded-p-10 msp-20 p-3">
                     <div className="f-Ubuntu-R fsp-14 lh-sm text-start">Creo que es útil para el proyecto porque</div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea hp-35 min-hp-105" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-105" />
                   </div>
                 </div>
               </div>
@@ -106,7 +106,7 @@ function Page045(props) {
               <div className="col-12 p-0 m-0 position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_045/clip.png" className="hp-45 mep-40 mtp-0" alt="" /></div>
                 <div className="bgc-pantro p-2 box-shadow-simple">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-250 contenedor-linea" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
                 </div>
               </div>
             </div>

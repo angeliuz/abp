@@ -71,7 +71,7 @@ function Page072(props) {
                                         <div className="top-50 start-50 translate-middle msp-0 mtp--45 wp-70 hp-30 bgc-trans-ros zindex-10 position-absolute"></div>
                                         <div className="cb-paper-content-p72 f-Ubuntu-L pbp-15 ptp-15 psp-15 pep-10 fsp-12  text-start">
                                             <p>Detallar las precauciones y las normas de seguridad
-                                                que hay que respetar para usarla</p>
+                                                que hay que respetar para usarla.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -103,7 +103,7 @@ function Page072(props) {
                                         </div>
                                     </div>
                                     <div className="cb-paper-p72 position-relative">
-                                        <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--70 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-130" alt="" /></div>
+                                        <div className="position-absolute top-100 start-100 translate-middle msp-0 mtp--50 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-170" alt="" /></div>
                                         <div className="cb-scotch msp-0 wp-70 hp-30 bgc-trans-ros zindex-10 position-absolute"></div>
                                         <div className="cb-paper-content-p72 f-Ubuntu-L pbp-15 ptp-15 psp-10 pep-10 fsp-12 text-start">
                                             <div className="text-start">

@@ -40,9 +40,16 @@ function Page046(props) {
           <div className="d-flex global-margin mtp-0 mbp-10 psp-50 pep-0 ptp-10 pbp-0">
             <div className="row p-0 m-0 w-100">
               <div className="col-12 p-0 m-0 position-relative">
-                <div className="position-absolute top-100 start-100 translate-middle"><img src="images/page_046/mono.png" className="hp-210 mep-50 mbp-200" alt="" /></div>
+                <div className="position-absolute top-100 start-100 translate-middle zindex-2"><img src="images/page_046/mono.png" className="wp-140 mep-70 mbp-200" alt="" /></div>
                 <div className="rounded-p-20 border-style-solid border-color-dark border-2 p-2">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mep-85 text-start flex-grow-1 lhp-35 min-hp-320 contenedor-linea" />
+                <SubirImagen
+                    id={"imagen_" + pagina + "_" + (indexInput += 1)}
+                    className="w-100 bgc-white min-hp-320"
+                    colorUnidad={background}
+                    imagenPlaceHolder1="images/generales/subir_imagen2.svg"
+                    imagenPlaceHolder2="images/generales/subir_imagen2.svg"
+                    titulo="Subir imagen"
+                  />
                 </div>
               </div>
             </div>
@@ -61,13 +68,13 @@ function Page046(props) {
             </div>
           </div>
 
-          <div className="d-flex mtp-0 mbp-0 psp-100 pep-0 ptp-10 pbp-0">
+          <div className="d-flex mtp-0 mbp-0 psp-100 pep-0 ptp-10 pbp-60">
             <div className="row p-0 m-0 w-100 bgc-azuka rounded-tbs-10">
               <div className="col-5 p-3 m-0 position-relative">
                 <div className="f-Ubuntu-R fsp-14 ptp-18 psp-0 pep-10 text-start">¿Por qué elegimos este boceto?</div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-140 contenedor-linea" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 p-0 text-start flex-grow-1 lhp-35 min-hp-140 contenedor-linea" />
                 <div className="f-Ubuntu-R fsp-14 ptp-18 psp-0 pep-10 text-start">¿Necesitamos modificarlo?</div>
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="text-start flex-grow-1 lhp-35 min-hp-140 contenedor-linea" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 p-0 text-start flex-grow-1 lhp-35 min-hp-140 contenedor-linea" />
               </div>
               <div className="col-7 m-0 position-relative p-0">
                 <div className="position-absolute top-50 start-0 translate-middle"><img src="images/page_046/pincel.png" className="hp-80 mep-0 mbp-0" alt="" /></div>

@@ -49,7 +49,7 @@ function Page063(props) {
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global rotate-90" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Instalar el aparato o<br />sistema que aprovecha<br />la energía<br />
+                Instalar el aparato <br/> o sistema que aprovecha<br />la energía<br />
               </div>
             </div>
           </div>

@@ -21,31 +21,31 @@ function Page053(props) {
         <div className="page bgc-white overflow-hidden position-relative" id={"page_" + pagina}>
           {/* BEGIN CABECERA VERSIÓN 2 */}
           <div className="cabecera-v2 bgc-pidgey d-flex flex-column">
-            <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-30">
+            <div className="d-flex contenedor-cabecera-v2 ptp-40 psp-30 pep-0">
               <div className="caja-seccion wp-160 hp-70 text-center fsp-24 f-IntroRustG-Base color-dark">SESIÓN 14</div>
               <div className="section-name d-flex align-items-center fsp-24 fw-700 f-Ubuntu-M color-white">Grabamos un video</div>
             </div>
-            <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-30 pep-30 align-self-center justify-content-between w-90">
+            <div className="d-flex contenedor-cabecera-v2 ptp-10 psp-10 pep-0 align-self-center justify-content-between w-90">
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Mis objetivos <br />en  esta sesión son:
+                Mis objetivos en  esta sesión son:
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Seleccionar los temas <br />que vamos a incluir en<br /> el video
+                Seleccionar los temas  que  vamos a  incluir en el video
               </div>
               <div className="psp-5 pep-5 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-2 align-self-center f-colby-compres-bold fsp-15 lh-sm text-white text-center">
-                Escribir una secuencia<br /> de ideas para incluir<br />en el video
+                Escribir una secuencia de ideas para incluir en el video
               </div>
               <div className="p-0 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_1.svg"} className="wp-40 arrow-global" alt="" />
               </div>
               <div className="p-3 align-self-center f-colby-compres-bold fsp-15 lh-sm text-center text-white">
-                Distribuir las<br /> tareas
+                Distribuir las tareas
               </div>
               <div className="psp-5 pep-5 align-self-center">
                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
@@ -145,7 +145,7 @@ function Page053(props) {
               </div>
             </div>
           </div>
-          <div className="d-flex msp-60 mep-60 mbp-0 mtp-10 mbp-">
+          <div className="d-flex msp-60 mep-60 mbp-0 mtp-10 mbp-40">
 
             <div className="row m-0 psp-10 pep-10 ptp-0 pbp-10 rounded-p-20 w-100">
 

@@ -70,22 +70,22 @@ function Page043(props) {
             <div className="position-absolute top-100 start-100 translate-middle msp--50 mtp--95 zindex-1 visible-768"><img src={"images/page_" + pagina + "/mono.png"} className="hp-150" alt="" /></div>
             <div className="position-absolute top-0 start-50 msp--260 mtp-55 zindex-1">
               <div className="d-flex flex-column wp-230 psp-10 pep-10 ptp-0 pbp-0 ">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-120" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 hp-120 overflow-auto" />
               </div>
             </div>
             <div className="position-absolute top-50 start-50 msp--275 mtp-35 zindex-1">
               <div className="d-flex flex-column wp-250 psp-10 pep-10 ptp-0 pbp-0 ">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-120" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 hp-120 overflow-auto" />
               </div>
             </div>
             <div className="position-absolute top-0 start-50 msp-55 mtp-60 zindex-1">
               <div className="d-flex flex-column wp-230 psp-10 pep-10 ptp-0 pbp-0 ">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-120" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 hp-120 overflow-auto" />
               </div>
             </div>
             <div className="position-absolute top-50 start-50 msp-10 mtp-50 zindex-1">
               <div className="d-flex flex-column wp-250 psp-10 pep-10 ptp-0 pbp-0 ">
-                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-120" />
+                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 hp-120 overflow-auto" />
               </div>
             </div>
           </div>
@@ -98,10 +98,10 @@ function Page043(props) {
                   <div className="f-Ubuntu-R fsp-16 ptp-18 psp-10 pep-10 text-start">Propongo un aparato o sistema que aproveche la energía renovable dentro del colegio y justifico mi propuesta.</div>
                 </div>
               </div>
-              <div className="col-7 p-0 m-0 position-relative">
+              <div className="col-7 p-0 mbp-40 position-relative">
                 <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_043/pincho.svg" className="hp-45 mep-40 mtp-0" alt="" /></div>
                 <div className="bgc-draco p-2">
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 hp-35 min-hp-250 contenedor-linea" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-250 contenedor-linea" />
                 </div>
               </div>
             </div>

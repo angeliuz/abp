@@ -32,7 +32,7 @@ function Page066(props) {
                   </div>
                   <div className="d-flex justify-content-start align-items-center text-start f-Ubuntu-R fsp-15 ptp-0 pbp-20 psp-5">
                     Leo la revista y escribo textos llamativos para incluir en
-                    las invitaciones
+                    las invitaciones.
                   </div>
                   <ModalBook
                     id={"p" + pagina + "_book" + (indexInput += 1)}

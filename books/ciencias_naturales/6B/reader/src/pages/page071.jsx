@@ -53,7 +53,7 @@ function Page071(props) {
                                 <img src={"images/generales/flecha_sesion_e" + etapa + "_2.svg"} className="wp-40 arrow-global" alt="" />
                             </div>
                             <div className="psp-5 pep-5 align-self-center f-colby-compres-bold fsp-17 lh-sm text-white text-center">
-                                Valorar lo aprendido sobre las presentaciones
+                                Valorar lo aprendido sobre las<br/> presentaciones
                             </div>
 
                         </div>
@@ -137,7 +137,7 @@ function Page071(props) {
                     {/* INICIO EJERCICIO 2 */}
                     <div className="max-wp-700 mx-auto border-1 border-style-solid border-color-pikachu mbp-90 bgc-kokomi cb-outline-p71">
                         <div className="pep-10 psp-10">
-                            <div className="text-start ptp-10">Tengo claro que</div>
+                            <div className="text-start ptp-10 f-Ubuntu-L fsp-16">Tengo claro que</div>
                             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-170" />
                         </div>
                     </div>

@@ -108,7 +108,7 @@ function Page065(props) {
               <div className="col-12 p-0 m-0 position-relative">
                 <div className="position-absolute top-50 start-0 translate-middle    msp-0 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="hp-80 mtp--160" alt="" /></div>
 
-                <div className="w-100 h-100 bgc-greyson">
+                <div className=" bgc-greyson">
                   <div className="row m-0 p-2  ">
                     <div className="col-8 m-0 p-0">
                       <div className="f-Ubuntu-R fsp-16 ptp-18 psp-20 pep-0 pbp-0 text-start">
@@ -123,12 +123,12 @@ function Page065(props) {
                       <div className="f-Ubuntu-R fsp-14 ptp-18 psp-10 pep-10 text-center">
                         La presentación se <br />realizará el día
                       </div>
-                      <div className="position-relative ">
+                      <div className="position-relative "></div>
                         <div className="position-absolute top-50 start-50 translate-middle   psp-40 pep-40 ptp-30 pbp-15 m-0  w-100">
-                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-190 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120 zindex-2" />
+                          <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-30 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 hp-120 overflow-auto zindex-2" />
                         </div>
                         {/* <img src={"images/page_" + pagina + "/img_007.png"} className="wp-210  mtp-25 " alt="" /> */}
-                      </div>
+                      
                     </div>
 
 
