@@ -28,7 +28,7 @@ function Page001() {
                     <div className="d-flex psp-0 pep-0">
                         <div className="row w-100 p-0 m-0 center-center">
                             <div className="col-md-8 col-lg-8 position-relative">
-                                <div className="mbp-5 mtp-10 msp-20 mep-20 text-start">
+                                <div className="mbp-5 mtp-10 msp-20 mep-20 text-start f-Ubuntu-L fsp-15">
                                 Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno
                                 </div>
                             </div>
@@ -37,7 +37,7 @@ function Page001() {
   <div className="d-flex psp-0 pep-0 pbp-20">
 <div className="row w-100 p-0 m-0 center-center">
     <div className="col-md-8 col-lg-8 position-relative">
-        <div className="mbp-5 mtp-10 msp-20 fw-600 mep-20 rounded-p-20 bgc-white ptp-15 pbp-15">
+        <div className="mbp-5 mtp-10 msp-20 fw-600 mep-20 rounded-p-20 bgc-white ptp-15 pbp-15 f-Ubuntu-R">
         INGRESA EL CÓDIGO
         <div className="psp-35 pep-35">
           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />
@@ -69,7 +69,7 @@ function Page001() {
                     <div className="d-flex psp-0 pep-0">
 <div className="row w-100 p-0 m-0 center-center">
     <div className="col-xs-4 col-md-8 col-lg-8 position-relative">
-        <div className="mbp-5 mtp-10 msp-20 fw-700 mep-20 rounded-p-30 bgc-shinobu ptp-15 pbp-15 color-white">
+        <div className="mbp-5 mtp-10 msp-20 fw-700 mep-20 rounded-p-30 bgc-shinobu ptp-15 pbp-15 color-white f-Ubuntu-R">
        Subir imágen
 
         </div>
