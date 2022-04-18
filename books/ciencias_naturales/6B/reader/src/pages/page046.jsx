@@ -78,7 +78,7 @@ function Page046(props) {
               </div>
               <div className="col-7 m-0 position-relative p-0">
                 <div className="position-absolute top-50 start-0 translate-middle"><img src="images/page_046/pincel.png" className="hp-80 mep-0 mbp-0" alt="" /></div>
-                <div className="position-absolute top-100 start-0 translate-middle"><img src="images/page_046/compas.png" className="hp-50 mep-0 mbp-130" alt="" /></div>
+                <div className="position-absolute top-100 start-0 translate-middle zindex-2"><img src="images/page_046/compas.png" className="hp-50 mep-0 mbp-130" alt="" /></div>
                 <div className="rounded-tbs-10 border-style-solid border-color-android18 border-1 bgc-white p-2 mtp-10 h-100">
                   <div className="f-Ubuntu-R fsp-14 ptp-14 psp-0 pep-10 text-start">Dibujamos el boceto final.</div>
                   {/* <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mep-45 text-start flex-grow-1 lhp-35 min-hp-320" /> */}
