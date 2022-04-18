@@ -54,7 +54,7 @@ function Page016(props) {
                     <div className="col-3 p-0 m-0 position-relative d-flex center-center">
                                 <CheckMultiple
                                     id={"check_p" + pagina + "_" + (indexInput += 1)}
-                                    image0={"images/page_" + pagina + "/check_vacio.svg"}
+                                    image0={"images/generales/check_vacio.svg"}
                                     image1={"images/generales/check_azul.svg"}
   
                                     classContainer="wp-30 hp-30 bgc-white border-style-solid border-2 border-color-dark bgc-white rounded-circle disable-select d-flex center-center p-1 "

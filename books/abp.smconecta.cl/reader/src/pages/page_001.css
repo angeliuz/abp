@@ -1,0 +1,10 @@
+.bgc-shinobu{
+    background-color: #957ef6;
+}
+.bgc-ayato{
+    background-color: #efefef;
+}
+.outlinesubir {
+    outline: solid 2px var(--white);
+    outline-offset: 4px;
+}
