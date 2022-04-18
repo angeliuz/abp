@@ -38,12 +38,14 @@ function Page072(props) {
               {/*<ModalBook id={"p" + pagina + "_book" + (indexInput += 1)} image={"images/page_" + pagina + "/img_001.svg"} clasesImagen="hp-40 text-center mtp-10 " className="p-0 px-0" />*/}
             </div>
           </div>
-          <div className="cb-bajasda-p72">
+
+          <div className="cb-bajada-p72">
             <div className="d-flex mbp-20">
               <div className="f-ccdigitaldelivery-bold fsp- color-pikachu">a.</div>
               <div className="f-Ubuntu-R fsp-16 psp-10">Ponemos <img src="images/page_072/img_002.svg" className="pbp-5" />según corresponda:</div>
             </div>
           </div>
+
           <div className="bgc-tshinhan cb-caja-contenedora-p72 psp-10 pep-10 msp-5 mtp-10 mbp-20 p-3">
             <div className="bgc-hutao cb-block-p72 w-100 p-3 pb-3 f-Ubuntu-L fsp-13 mbp-5 cb-outline-p72 position-relative">
               <img src="images/page_072/img_002.png" className="cb-estrella-verde" />
