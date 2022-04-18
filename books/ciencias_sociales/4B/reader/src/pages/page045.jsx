@@ -3,6 +3,7 @@ import InputBox from "../components/InputBox";
 import ModalVideo from "../components/ModalVideo";
 import ModalBook from "../components/ModalBook";
 import ModalRecortableEstatico from "../components/ModalRecortableEstatico";
+import Arrastrar from "../components/Arrastrar";
 import "./page_045.css";
 
 function Page045(props) {
@@ -43,10 +44,17 @@ function Page045(props) {
             </div>
           </div>
 
-          <div className="ptp-10 position-relative">
-            <div className="position-absolute top-0 start-100 translate-middle"><img src="images/page_045/mono.png" className="hp-130 msp--300 mtp--75" alt="" /></div>
-            <img src="images/page_045/imagen_fondo.jpg" className="h-100" alt="" />
-            {/* <div className="imagen-fondo w-100 h-100"></div> */}
+          <div className="d-flex global-margin mtp-0 mbp-0 psp-0 pep-0 ptp-0 pbp-0">
+            <div className="row p-0 m-0 w-100">
+              <div className="col-12 p-0 m-0 position-relative d-flex justify-content-center">
+
+                <Arrastrar
+                  id={"arrastrar_" + pagina + "_" + (indexInput += 1)}
+                  pagina={pagina}
+                ></Arrastrar>
+
+              </div>
+            </div>
           </div>
 
           <div className="d-flex hp-90 caja-flotante p-0 m-0 position-absolute justify-content-end align-items-end zindex-2" style={{ bottom: 70, right: 0 }}>
