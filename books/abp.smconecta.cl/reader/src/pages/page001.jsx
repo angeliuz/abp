@@ -28,7 +28,7 @@ function Page001() {
 <div className="d-flex psp-0 pep-0">
                         <div className="row w-100 p-0 m-0 center-center">
                             <div className="col-md-8 col-lg-8 position-relative ">
-                                <div className="mbp-30 mtp-40 msp-20 mep-20 text-start f-Ubuntu-L fsp-15 text-center">
+                                <div className="mbp-30 mtp-90 msp-20 mep-20 text-start f-Ubuntu-L fsp-15 text-center">
                                 <img src={"images/abp.svg"} className="wp-200" />
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ function Page001() {
   <div className="d-flex psp-0 pep-0 pbp-20">
 <div className="row w-100 p-0 m-0 center-center">
     <div className="col-md-8 col-lg-8 position-relative">
-        <div className="mbp-5 mtp-10 msp-20 fw-600 mep-20 rounded-p-20 bgc-white ptp-15 pbp-15 f-Ubuntu-R">
+        <div className="mbp-5 mtp-10 msp-20 fw-600 mep-20 rounded-p-60 bgc-white ptp-15 pbp-15 f-Ubuntu-R">
         INGRESA EL CÓDIGO
         <div className="psp-35 pep-35">
           <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />
@@ -58,8 +58,8 @@ function Page001() {
                     <div className="d-flex psp-0 pep-0 pbp-10">
                         <div className="row w-100 p-0 m-0 center-center">
                             <div className="col-md-12 col-lg-8 position-relative">                         
-                                <div className="mbp-70 mtp-10 msp-20 mep-20">
-                                    <div className="d-flex center-center p-2 rounded-p-20 border-style-solid border-2 border-color-white min-hp-200 bgc-white outlinesubir">
+                                <div className="mbp-190 mtp-10 msp-20 mep-20">
+                                    <div className="d-flex center-center p-2 rounded-p-6 border-style-solid border-2 border-color-white min-hp-200 bgc-white outlinesubir">
                                         <SubirImagen
                                             // id={"imagen_" + pagina + "_" + (indexInput += 1)}
                                             id={"imagen_051_4"}
