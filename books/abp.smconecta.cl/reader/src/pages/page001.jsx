@@ -21,7 +21,7 @@ function Page001() {
     return (
         <div className="wrapper bgc-light">
             <div className="d-flex flex-column align-items-center pbp-20">
-                <div className="page bgc-white overflow-hidden position-relative bgc-motivacion" id={"page_" + pagina}>
+                <div className="page bgc-white overflow-hidden position-relative bgc-subir" id={"page_" + pagina}>
                     {/* BEGIN CABECERA VERSIÓN 2 */}
 
 <div className="h-100 ">
@@ -29,7 +29,7 @@ function Page001() {
 <div className="d-flex psp-0 pep-0">
                         <div className="row w-100 p-0 m-0 center-center">
                             <div className="col-md-8 col-lg-8 position-relative ">
-                                <div className="mbp-30 mtp-90 msp-20 mep-20 text-start f-Ubuntu-L fsp-15 text-center">
+                                <div className="mbp-30 mtp-120 msp-20 mep-20 text-start f-Ubuntu-L fsp-15 text-center">
                                 <img src={"images/abp.svg"} className="wp-250" />
                                 </div>
                             </div>
@@ -80,7 +80,7 @@ function Page001() {
  <div className="row w-100 p-0 m-0 center-center">
     <div className="col-xs-4 col-md-8 col-lg-8 position-relative">
         <div className="mbp-0 mtp-10 msp-20 fw-700 mep-20 rounded-p-30 bgc-shinobu ptp-15 pbp-15 color-white f-Ubuntu-R">
-       Subir imágen
+       SUBIR IMAGEN
 
         </div>
     </div>
