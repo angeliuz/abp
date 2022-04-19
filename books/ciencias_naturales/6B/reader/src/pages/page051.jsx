@@ -299,7 +299,7 @@ function Page051(props) {
                     </div>
                   </div>
 
-                  <div className="col-sm-1 col-md-1 d-flex align-items-center justify-content-center position-relative  wp-50 p-0 m-0 ">
+                  <div className="col-sm-1 col-md-1 d-flex align-items-center justify-content-center position-relative wp-50 p-0 mbp-10">
                     <div className="wp-30 hp-30 bgc-white border-style-solid border-1 border-color-mozart bgc-white rounded-1">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
