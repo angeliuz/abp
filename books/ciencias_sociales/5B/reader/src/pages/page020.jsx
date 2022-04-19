@@ -33,16 +33,16 @@ function Page020(props) {
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
                 </div>
               </div>
-              <div className="col-md-6 col-sm-12 ptp-20 ra-ps">
-                <div className="block-bottom-20 p-2 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4 border-style-solid border-2 border-color-dark">
+              <div className="col-md-6 col-sm-12 ptp-20 ra-ps align-items-stretch mbp-50 ">
+                <div className="h-100 block-bottom-20 p-2 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4 border-style-solid border-2 border-color-dark">
                   <div className="fsp-16 f-Ubuntu-B text-center">Ayuda de otras personas</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-95 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
                 </div>
               </div>
-              <div className="col-md-6 col-sm-12 ptp-20 ra-pe mbp-50">
-                <div className="block-bottom-20 p-2 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4 border-style-solid border-2 border-color-dark">
+              <div className="col-md-6 col-sm-12 ptp-20 ra-pe align-items-stretch mbp-50 ">
+                <div className="h-100 block-bottom-20 p-2 f-Ubuntu-L bgc-white fsp-13 rounded-p-10 ps-4 pe-4 border-style-solid border-2 border-color-dark">
                   <div className="fsp-16 f-Ubuntu-B text-center">Permisos</div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-95 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
                 </div>
               </div>
               <div className="block-bottom-20 mtp-10 f-pixilate-bold text-start mbp-5">¿Cómo vamos?</div>
