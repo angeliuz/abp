@@ -24,7 +24,7 @@ function Page001() {
                 <div className="page bgc-white overflow-hidden position-relative" id={"page_" + pagina}>
                     {/* BEGIN CABECERA VERSIÓN 2 */}
 
-<div className="bgc-ayato msp-60 mep-60 mtp-60 mbp-60 h-100">
+<div className="bgc-ayato msp-40 mep-40 mtp-40 mbp-40 h-100">
 <div className="d-flex psp-0 pep-0">
                         <div className="row w-100 p-0 m-0 center-center">
                             <div className="col-md-8 col-lg-8 position-relative ">
