@@ -67,9 +67,9 @@ function Page064(props) {
 
                   <div className="f-pixilate-bold fsp-20 lh-sm text-start mbp-10">¿Cómo voy?</div>
                   <div className="d-flex justify-content-start align-items-center w-70 psp-5 mbp-10 text-start f-Ubuntu-L fsp-15 lh-sm">
-                    Conversamos como equipo en <br /> torno a estas preguntas:
+                    Conversamos como equipo en torno a estas preguntas:
                   </div>
-
+<div className="position-absolute top-100 start-100 translate-middle msp--70 mtp-20 zindex-1"><img src={"images/page_" + pagina + "/img_007.svg"} className="wp-100" alt="" /></div>
                 </div>
               </div>
 
@@ -95,7 +95,6 @@ function Page064(props) {
                   </div>
 
                 </div>
-               <div className="position-absolute top-50 start-50 translate-middle msp--110 mtp-60 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_007.svg"} className="wp-120" alt="" /></div>
 
 
 

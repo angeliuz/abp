@@ -47,7 +47,7 @@ function Page009(props) {
                 ¡Aceptamos el desafío!
               </div>
               <div className="col-sm-12 col-md-12 position-relative">
-                <div className="position-absolute top-100 start-0 translate-middle msp-20 mtp--60 visible-768"><img src="images/page_009/img_005.png" className="wp-60 " alt="" /></div>
+                <div className="position-absolute top-100 start-0 translate-middle msp-0 mtp--50 visible-768"><img src="images/page_009/img_005.png" className="wp-60 " alt="" /></div>
                 <div className="position-absolute top-50 start-100 translate-middle msp-0 mtp--50 visible-768 zindex-2"><img src="images/page_009/img_004.png" className="wp-90 " alt="" /></div>
 
                 <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-goten border-2 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">

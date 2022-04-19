@@ -4,6 +4,7 @@ import "./assets/css/colors.css";
 import "./assets/css/helpers.css";
 import "./assets/css/global.css";
 import "./assets/css/fonts.css";
+import "./assets/css/panels.css";
 
 import Page001 from "./pages/page001";
 import Page002 from "./pages/page002";
@@ -13,6 +14,7 @@ import Page005 from "./pages/page005";
 import Page006 from "./pages/page006";
 import Page007 from "./pages/page007";
 import Page008 from "./pages/page008";
+import Page009 from "./pages/page009";
 
 function App() {
   const dokenArray = getUrlParameter("doken").split([',']);
@@ -49,7 +51,7 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="App position-relative">
       <Page001 numeroPagina={clearZeros} />
       <Page002 numeroPagina={clearZeros} />
       <Page003 numeroPagina={clearZeros} />
@@ -58,6 +60,16 @@ function App() {
       <Page006 numeroPagina={clearZeros} />
       <Page007 numeroPagina={clearZeros} />
       <Page008 numeroPagina={clearZeros} />
+      <Page009 numeroPagina={clearZeros} />
+
+      <div className="position-fixed top-100 start-0 msp-10 mtp--90 zindex-1">
+        <div className="wp-200 hp-80 bgc-white box-shadow-panels rounded-p-50 d-flex align-items-center psp-20 pep-20">
+          <div className="bgc-red wp-50 hp-50">
+            <div className="w-100 h-100 bgc-blue d-flex center-center rounded-circle f-Ubuntu-B fsp-20 color-white">WR</div>
+          </div>
+          <div className="bgc-yellow wp-50 hp-50 flex-grow-1"></div>
+        </div>
+      </div>
 
     </div>
   );
