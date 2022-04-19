@@ -48,9 +48,9 @@ function Page001() {
                         {/* <img src={"images/fondo_001.svg"} className="w-100" /> */}
                         <div className="d-flex psp-0 pep-0">
                             <div className="row w-100 p-0 m-0 center-center">
-                                <div className="col-md-8 col-lg-8 position-relative ">
-                                    <div className="mbp-30 mtp-120 msp-20 mep-20 text-start f-Ubuntu-L fsp-15 text-center">
-                                        <img src={"images/abp.svg"} className="wp-250" />
+                                <div className="col-xs-3 col-sm-5 col-lg-5 position-relative ">
+                                    <div className="mbp-30 mtp-50 msp-20 mep-20 text-start f-Ubuntu-L fsp-15 text-center">
+                                        <img src={"images/abp.svg"} className="w-100" />
                                     </div>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@ function Page001() {
                         <div className="d-flex psp-0 pep-0 pbp-20">
                             <div className="row w-100 p-0 m-0 center-center">
                                 <div className="col-sm-7 col-md-7 col-lg-8 position-relative">
-                                    <div className="mbp-5 mtp-10 msp-20 fw-600 mep-20 rounded-p-60 bgc-white ptp-15 pbp-15 f-Ubuntu-R outlinesubir">
+                                    <div className="mbp-5 mtp-20 msp-20 fw-600 mep-20 rounded-p-60 bgc-white ptp-15 pbp-15 f-Ubuntu-R outlinesubir">
                                         INGRESA EL CÓDIGO
                                         <div className="psp-35 pep-35">
                                             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />
