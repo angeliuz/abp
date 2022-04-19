@@ -21,10 +21,11 @@ function Page001() {
     return (
         <div className="wrapper bgc-light">
             <div className="d-flex flex-column align-items-center pbp-20">
-                <div className="page bgc-white overflow-hidden position-relative" id={"page_" + pagina}>
+                <div className="page bgc-white overflow-hidden position-relative bgc-motivacion" id={"page_" + pagina}>
                     {/* BEGIN CABECERA VERSIÓN 2 */}
 
-<div className="bgc-ayato msp-40 mep-40 mtp-40 mbp-40 h-100">
+<div className="h-100 ">
+{/* <img src={"images/fondo_001.svg"} className="w-100" /> */}
 <div className="d-flex psp-0 pep-0">
                         <div className="row w-100 p-0 m-0 center-center">
                             <div className="col-md-8 col-lg-8 position-relative ">
@@ -57,7 +58,7 @@ function Page001() {
 </div>
                     <div className="d-flex psp-0 pep-0 pbp-10">
                         <div className="row w-100 p-0 m-0 center-center">
-                            <div className="col-md-12 col-lg-8 position-relative">                         
+                            <div className="col-md-8 col-lg-8 position-relative">                         
                                 <div className="mbp-30 mtp-10 msp-20 mep-20">
                                     <div className="d-flex center-center p-2 rounded-p-6 border-style-solid border-2 border-color-white min-hp-200 bgc-white outlinesubir">
                                         <SubirImagen
@@ -78,7 +79,7 @@ function Page001() {
                      <div className="d-flex psp-0 pep-0">
  <div className="row w-100 p-0 m-0 center-center">
     <div className="col-xs-4 col-md-8 col-lg-8 position-relative">
-        <div className="mbp-50 mtp-10 msp-20 fw-700 mep-20 rounded-p-30 bgc-shinobu ptp-15 pbp-15 color-white f-Ubuntu-R">
+        <div className="mbp-0 mtp-10 msp-20 fw-700 mep-20 rounded-p-30 bgc-shinobu ptp-15 pbp-15 color-white f-Ubuntu-R">
        Subir imágen
 
         </div>

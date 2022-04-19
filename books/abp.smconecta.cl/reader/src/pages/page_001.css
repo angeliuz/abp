@@ -8,3 +8,8 @@
     outline: solid 2px var(--white);
     outline-offset: 4px;
 }
+.bgc-motivacion {
+    background: url(../pages/images/fondo_001.svg)  top center/ cover no-repeat !important;
+     -webkit-print-color-adjust: exact !important;
+  
+  }
