@@ -201,42 +201,42 @@ function Page029(props) {
 
                     <div className="msp-70 mep-60 mbp-100 mtp-50">
                         <div className="row   ">
-                        <div className="col-6 m-0 p-0 bgc-white   border-style-solid border-1 border-color-misty  ptp-10 position-relative ">
-                                <div className=" border-start-0 w-100 mbp-10  f-Ubuntu-R fsp-16 ptp-5 pbp-10 psp-10 pep-10 text-start">
+                        <div className="col-6 m-0 p-0 bgc-white   border-style-solid border-1 border-color-misty  ptp-10 position-relative align-items-stretch">
+                                <div className="h-100 border-start-0 w-100 mbp-10  f-Ubuntu-R fsp-16 ptp-5 pbp-10 psp-10 pep-10 text-start">
                                     
-                                    <div className=" ptp-0 m-0 w-100  ">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                                    <div className="h-100 ptp-0 m-0 w-100  ">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-95 mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                                         <div className="w-100 position-absolute top-0 start-50 translate-middle mtp--15 bgc-android18 psp-20 pep-20 ptp-5 pbp-2 ">
                                             <div className="f-Ubuntu-B color-white text-center">Deber o responsabilidad</div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-6 m-0 p-0 bgc-white   border-style-solid border-1 border-color-misty  ptp-10  position-relative">
+                            <div className="col-6 m-0 p-0 bgc-white   border-style-solid border-1 border-color-misty  ptp-10  position-relative align-items-stretch">
                             <div className="position-absolute top-0 start-100 translate-middle zindex-1 msp--40 mtp--45"><img src="images/page_029/img_003.png" className=" " alt="" /></div>
-                                <div className=" border-start-0 w-100 mbp-10  f-Ubuntu-R fsp-16 ptp-5 pbp-10 psp-10 pep-10 text-start">
+                                <div className=" h-100 border-start-0 w-100 mbp-10  f-Ubuntu-R fsp-16 ptp-5 pbp-10 psp-10 pep-10 text-start">
                                     
-                                    <div className=" ptp-0 m-0 w-100  ">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                                    <div className="h-100 ptp-0 m-0 w-100  ">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-95 mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                                         <div className="w-100 position-absolute top-0 start-50 translate-middle mtp--15 bgc-android18 psp-20 pep-20 ptp-5 pbp-2 ">
                                             <div className="f-Ubuntu-B color-white text-center">¿Por qué?</div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-6 m-0 p-0 bgc-white   border-style-solid border-1 border-color-misty  ptp-10  ">
-                                <div className=" border-start-0 w-100 mbp-10  f-Ubuntu-R fsp-16 ptp-5 pbp-10 psp-10 pep-10 text-start">
+                            <div className="col-6 m-0 p-0 bgc-white   border-style-solid border-1 border-color-misty  ptp-10  align-items-stretch">
+                                <div className="h-100 border-start-0 w-100 mbp-10  f-Ubuntu-R fsp-16 ptp-5 pbp-10 psp-10 pep-10 text-start">
                                     
-                                    <div className=" ptp-0 m-0 w-100  ">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                                    <div className="h-100 ptp-0 m-0 w-100  ">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-95 mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-6 m-0 p-0 bgc-white   border-style-solid border-1 border-color-misty  ptp-10  ">
-                                <div className=" border-start-0 w-100 mbp-10  f-Ubuntu-R fsp-16 ptp-5 pbp-10 psp-10 pep-10 text-start">
+                            <div className="col-6 m-0 p-0 bgc-white   border-style-solid border-1 border-color-misty  ptp-10 align-items-stretch ">
+                                <div className="h-100  border-start-0 w-100 mbp-10  f-Ubuntu-R fsp-16 ptp-5 pbp-10 psp-10 pep-10 text-start">
                                     
-                                    <div className=" ptp-0 m-0 w-100  ">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
+                                    <div className="h-100 ptp-0 m-0 w-100  ">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-95 mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150" />
                                         
                                     </div>
                                 </div>

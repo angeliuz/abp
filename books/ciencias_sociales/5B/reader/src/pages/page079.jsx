@@ -91,26 +91,26 @@ function Page079(props) {
                                 Después de todo el trabajo, valoramos así lo que hemos hecho:
                             </div>
 
-                            <div className="col-sm-12 col-md-6 position-relative flex-row bd-highlight mb-3">
+                            <div className="col-sm-12 col-md-6 position-relative align-items-stretch mbp-70">
                                 <div className="position-absolute top-100 start-0 translate-middle wp-100 msp-20 mtp--30"><img src="images/page_079/img_007.png" className="wp-60" /></div>
 
-                                <div className="box-color-24-1">
+                                <div className="h-100 box-color-24-1">
                                     <div className="f-Ubuntu-B alinea rounded-set-10 bgc-android18 w-100 p-2 text-center color-white hp-65 d-flex justify-content-center align-items-center">Lo más difícil del proyecto </div>
-                                    <div className="bgc-white p-2 rounded-seb-20 border-style-solid border-color-android18 border-2">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
+                                    <div className="h-100 bgc-white p-2 rounded-seb-20 border-style-solid border-color-android18 border-2">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="col-sm-12 col-md-6 position-relative flex-row bd-highlight mb-3">
+                            <div className="col-sm-12 col-md-6 position-relative align-items-stretch mbp-70">
 
-                                <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 visible-768"><img src="images/page_050/espiral.svg" className="wp-50 " alt="" /></div>
+                                <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 visible-768 mtp-50"><img src="images/page_050/espiral.svg" className="wp-50 " alt="" /></div>
                                 <div className="position-absolute top-100 start-100 translate-middle wp-100 msp--20 mtp--30"><img src="images/page_079/img_008.png" className="wp-30" /></div>
                                 <div className="position-absolute top-0 start-100 translate-middle wp-100 msp--20 mtp-30"><img src="images/page_079/img_005.png" className="wp-60" /></div>
-                                <div className="box-color-24-2">
+                                <div className="h-100 box-color-24-2">
                                     <div className="f-Ubuntu-B alinea rounded-set-10 bgc-pidgey w-100 p-2 text-center color-white">Lo que más nos ha<br />  gustado del proyecto</div>
-                                    <div className="bgc-white p-2  rounded-seb-20 border-style-solid border-color-pidgey border-2">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
+                                    <div className="h-100 bgc-white p-2  rounded-seb-20 border-style-solid border-color-pidgey border-2">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
                                     </div>
                                 </div>
                             </div>

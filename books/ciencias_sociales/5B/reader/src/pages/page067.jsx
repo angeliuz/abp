@@ -107,7 +107,7 @@ function Page067(props) {
                     </span>
                   </div>
                 </div>
-                <div className="col-md-6 d-flex justify-content-center pbp-70">
+                <div className="col-md-6 d-flex justify-content-center pbp-30">
                   <div className="d-flex flex-column w-90 ptp-40 pbp-30 psp-20 pep-20 bgc-white box-shadow-67-2 rounded-p-20 border-style-solid border-1 border-color-freezer rounded-p-20 position-relative">
                     <div className="position-absolute top-0 start-0 translate-middle zindex-1 mtp-30 msp-30"><Check id={"check" + pagina + "_" + (indexInput += 1)} image="images/generales/ticket.svg"></Check></div>
                     <div className="position-absolute top-0 start-50 translate-middle wp-100 msp-0 mtp-10 zindex-1"><img src="images/page_067/img_006.svg" className="wp-40" /></div>

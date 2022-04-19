@@ -87,39 +87,39 @@ function Page028(props) {
                 </div>
               </div>
 
-              <div className="col-6 position-relative pbp-10">
+              <div className="col-6 position-relative pbp-10 align-items-stretch">
                 {/* <div className="position-absolute top-0 start-100 translate-middle mtp-15 msp--20 zindex-1"><img src="images/page_026/img_002.png" className="" alt="" /></div> */}
-                <div className="w-100 ">
+                
 
-                  <div className="w-100  p-1   rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
+                  <div className="h-100 w-100 p-1 rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
 
-                    <div className=" align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+                    <div className="h-100 align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
 
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
 
                     </div>
 
 
                   </div>
-                </div>
+                
 
               </div>
 
-              <div className="col-6 position-relative pbp-10">
+              <div className="col-6 position-relative pbp-10 align-items-stretch">
                 <div className="position-absolute top-0 start-100 translate-middle zindex-1 visible-768 msp-10"><img src="images/page_028/img_001.png" className="" alt="" /></div>
-                <div className="w-100 ">
+                
 
-                  <div className="w-100  p-1   rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
+                  <div className=" w-100 h-100 p-1   rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
 
-                    <div className=" align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+                    <div className="h-100 align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
 
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
 
                     </div>
 
 
                   </div>
-                </div>
+                
 
               </div>
 
@@ -166,39 +166,39 @@ function Page028(props) {
                 </div>
               </div>
 
-              <div className="col-6 position-relative pbp-10">
+              <div className="col-6 position-relative pbp-10 align-items-stretch">
                 <div className="position-absolute top-100 start-0 translate-middle zindex-1 mtp-10 visible-768"><img src="images/page_028/img_002.png" className="" alt="" /></div>
-                <div className="w-100 ">
+                
 
-                  <div className="w-100  p-1   rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
+                  <div className="w-100  p-1 h-100  rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
 
-                    <div className="align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+                    <div className="h-100 align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
 
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
 
                     </div>
 
 
                   </div>
-                </div>
+                
 
               </div>
 
-              <div className="col-6 position-relative pbp-10">
+              <div className="col-6 position-relative pbp-10 align-items-stretch">
                 {/* <div className="position-absolute top-0 start-100 translate-middle mtp-15 msp--20 zindex-1"><img src="images/page_026/img_002.png" className="" alt="" /></div> */}
-                <div className="w-100 ">
+                
 
-                  <div className="w-100  p-1   rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
+                  <div className="w-100  p-1 h-100  rounded-p-10  lh-sm text-start p-2 position-relative bgc-white">
 
-                    <div className="align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
+                    <div className="h-100 align-items-start justify-content-start    f-Ubuntu-R fsp-15   ">
 
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 mtp-0 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-320" />
 
                     </div>
 
 
                   </div>
-                </div>
+                
 
               </div>
             </div>

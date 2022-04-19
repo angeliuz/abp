@@ -1,10 +1,18 @@
 .bgc-shinobu{
     background-color: #957ef6;
 }
-.bgc-ayato{
-    background-color: #efefef;
-}
+
 .outlinesubir {
     outline: solid 2px var(--white);
     outline-offset: 4px;
+}
+.bgc-subir {
+    background: url(../pages/images/fondo_002.svg)  top center/ cover no-repeat !important;
+     -webkit-print-color-adjust: exact !important;
+  
+  }
+  @media all and (max-width: 580px) {
+    .abp_imagen {
+width: 60%;
+    }
 }

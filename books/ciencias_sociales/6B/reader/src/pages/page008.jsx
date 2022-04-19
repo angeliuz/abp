@@ -44,29 +44,29 @@ function Page008(props) {
                   <div className="position-absolute top-0 start-50 translate-middle msp--170 mtp-10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-30" alt="" /></div>
                 </div>
 
-                <div className="col-sm-12 col-md-6 position-relative">
+                <div className="col-sm-12 col-md-6 position-relative align-items-stretch mbp-20">
                   <div className="color-white wp-20 hp-20 fw-700 position-absolute top-0 start-0 translate-middle msp-10 mtp-35 zindex-1 bgc-goten">
                     a
                   </div>
-                  <div className="text-start w-100 box-shadow-simple rounded-p-10  mtp-10">
+                  <div className="h-100 text-start  w-100 box-shadow-simple rounded-p-10  mtp-10">
                     <div className="rounded-set-6  pep-20 psp-20 ptp-15  d-flex justify-content-start align-items-center">
                       Nos envió un mensaje una persona llamada
                     </div>
-                    <div className="psp-15 pep-15">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
+                    <div className=" psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-md-6 position-relative">
+                <div className="col-sm-12 col-md-6 position-relative align-items-stretch mbp-20">
                   <div className="color-white wp-20 hp-20 fw-700 position-absolute top-0 start-0 translate-middle msp-10 mtp-35 zindex-1 bgc-goten">
                     b
                   </div>
-                  <div className="text-start w-100 box-shadow-simple rounded-p-10 mtp-10">
+                  <div className="h-100 text-start w-100 box-shadow-simple rounded-p-10 mtp-10">
                     <div className="rounded-set-6  pep-20 psp-20 ptp-15  d-flex justify-content-start align-items-center">
                       Ella se dedica a
                     </div>
-                    <div className="psp-15 pep-15">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
+                    <div className=" psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
                     </div>
                   </div>
                 </div>
@@ -79,29 +79,29 @@ function Page008(props) {
                   <div className="position-absolute top-0 start-50 translate-middle msp--40 mtp-10 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-30" alt="" /></div>
                 </div>
 
-                <div className="col-sm-12 col-md-6 position-relative">
+                <div className="col-sm-12 col-md-6 position-relative align-items-stretch mbp-20">
                   <div className="color-white wp-20 hp-20 fw-700 position-absolute top-0 start-0 translate-middle msp-10 mtp-35 zindex-1 bgc-goten">
                     c
                   </div>
-                  <div className="text-start w-100 box-shadow-simple rounded-p-10  mtp-10">
+                  <div className="h-100 text-start w-100 box-shadow-simple rounded-p-10  mtp-10">
                     <div className=" rounded-set-6 pep-20 psp-20 ptp-15  d-flex justify-content-start align-items-center">
                       El desafío que nos propone consiste en
                     </div>
                     <div className="psp-15 pep-15">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-md-6 position-relative">
+                <div className="col-sm-12 col-md-6 position-relative align-items-stretch mbp-20">
                   <div className="color-white wp-20 hp-20 fw-700 position-absolute top-0 start-0 translate-middle msp-10 mtp-35 zindex-1 bgc-goten">
                     d
                   </div>
-                  <div className="text-start w-100 box-shadow-simple rounded-p-10 mtp-10">
+                  <div className="h-100 text-start w-100 box-shadow-simple rounded-p-10 mtp-10">
                     <div className="rounded-set-6  pep-20 psp-20 ptp-15  d-flex justify-content-start align-items-center">
                       Este desafío es importante porque
                     </div>
                     <div className="psp-15 pep-15">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
                     </div>
                   </div>
                 </div>

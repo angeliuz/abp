@@ -37,101 +37,101 @@ function Page070(props) {
               <div className="col-sm-4 position-relative p-2 f-Ubuntu-M">¿Cómo lo haremos?</div>
               <div className="col-sm-4 position-relative p-2 f-Ubuntu-M">Responsable</div>
 
-              <div className="col-sm-4 position-relative">
+              <div className="col-sm-4 position-relative align-items-stretch mbp-20">
                 <div className="position-absolute top-0 start-0 translate-middle msp-3 mtp-0 zindex-1"><img src="images/page_070/img_002.png" className="wp-60 " alt="" /></div>
                 <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1"><img src="images/page_070/img_003.svg" className="wp-30 " alt="" /></div>
-                <div className="d-flex flex-column center-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
-                  <div className="p-2 w-100 d-flex">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90" />
+                <div className="h-100 mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
+                  <div className="h-100 p-2 w-100 d-flex">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90 h-100" />
                   </div>
                 </div>
               </div>
-              <div className="col-sm-4 position-relative">
+              <div className="col-sm-4 position-relative align-items-stretch mbp-20">
                 <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1"><img src="images/page_070/img_003.svg" className="wp-30 " alt="" /></div>
-                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
-                  <div className="p-2 w-100 d-flex">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90" />
+                <div className="h-100 mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
+                  <div className="h-100 p-2 w-100 d-flex">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90 h-100" />
                   </div>
                 </div>
               </div>
-              <div className="col-sm-4 position-relative">
+              <div className="col-sm-4 position-relative align-items-stretch mbp-20">
                 <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-20 zindex-1"><img src="images/page_070/img_004.png" className="wp-40 " alt="" /></div>
-                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
-                  <div className="p-2 w-100 d-flex">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90" />
+                <div className="h-100 mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
+                  <div className="h-100 p-2 w-100 d-flex">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90 h-100" />
                   </div>
                 </div>
               </div>
-              <div className="col-sm-4 position-relative">
+              <div className="col-sm-4 position-relative align-items-stretch mbp-20">
                 <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1"><img src="images/page_070/img_003.svg" className="wp-30 " alt="" /></div>
-                <div className="d-flex flex-column center-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
-                  <div className="p-2 w-100 d-flex">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90" />
+                <div className="h-100  mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
+                  <div className="h-100 p-2 w-100 d-flex">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90 h-100" />
                   </div>
                 </div>
               </div>
-              <div className="col-sm-4 position-relative">
+              <div className="col-sm-4 position-relative align-items-stretch mbp-20">
                 <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1"><img src="images/page_070/img_003.svg" className="wp-30 " alt="" /></div>
-                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
-                  <div className="p-2 w-100 d-flex">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90" />
+                <div className="h-100  mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
+                  <div className="h-100 p-2 w-100 d-flex">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90 h-100" />
                   </div>
                 </div>
               </div>
-              <div className="col-sm-4 position-relative">
+              <div className="col-sm-4 position-relative align-items-stretch mbp-20">
 
-                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
-                  <div className="p-2 w-100 d-flex">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90" />
+                <div className="h-100 mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
+                  <div className="h-100 p-2 w-100 d-flex">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90 h-100" />
                   </div>
                 </div>
               </div>
-              <div className="col-sm-4 position-relative">
+              <div className="col-sm-4 position-relative align-items-stretch mbp-20">
                 <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1"><img src="images/page_070/img_003.svg" className="wp-30 " alt="" /></div>
-                <div className="d-flex flex-column center-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
-                  <div className="p-2 w-100 d-flex">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90" />
+                <div className="h-100 mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
+                  <div className="h-100 p-2 w-100 d-flex">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90 h-100" />
                   </div>
                 </div>
               </div>
-              <div className="col-sm-4 position-relative">
+              <div className="col-sm-4 position-relative align-items-stretch mbp-20">
                 <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1"><img src="images/page_070/img_003.svg" className="wp-30 " alt="" /></div>
-                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
-                  <div className="p-2 w-100 d-flex">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90" />
+                <div className="h-100 mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
+                  <div className="h-100 p-2 w-100 d-flex">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90 h-100" />
                   </div>
                 </div>
               </div>
-              <div className="col-sm-4 position-relative">
+              <div className="col-sm-4 position-relative align-items-stretch mbp-20">
 
-                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
-                  <div className="p-2 w-100 d-flex">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90" />
+                <div className="h-100 mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
+                  <div className="h-100 p-2 w-100 d-flex">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90 h-100" />
                   </div>
                 </div>
               </div>
-              <div className="col-sm-4 position-relative">
+              <div className="col-sm-4 position-relative align-items-stretch mbp-20">
                 <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1"><img src="images/page_070/img_003.svg" className="wp-30 " alt="" /></div>
                 <div className="position-absolute top-100 start-0 translate-middle msp-3 mtp--30 zindex-1"><img src="images/page_070/img_005.png" className="wp-30 " alt="" /></div>
-                <div className="d-flex flex-column center-center mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
-                  <div className="p-2 w-100 d-flex">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90" />
+                <div className="h-100 mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
+                  <div className="h-100 p-2 w-100 d-flex">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90 h-100" />
                   </div>
                 </div>
               </div>
-              <div className="col-sm-4 position-relative">
+              <div className="col-sm-4 position-relative align-items-stretch mbp-20">
                 <div className="position-absolute top-50 start-100 translate-middle msp-3 mtp-0 zindex-1"><img src="images/page_070/img_003.svg" className="wp-30 " alt="" /></div>
-                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
-                  <div className="p-2 w-100 d-flex">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90" />
+                <div className="h-100 mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
+                  <div className="h-100 p-2 w-100 d-flex">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90 h-100" />
                   </div>
                 </div>
               </div>
-              <div className="col-sm-4 position-relative">
+              <div className="col-sm-4 position-relative align-items-stretch mbp-20">
                 <div className="position-absolute top-100 start-100 translate-middle msp-3 mtp-0 zindex-1"><img src="images/page_070/img_006.png" className="wp-60 " alt="" /></div>
-                <div className="d-flex flex-column mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
-                  <div className="p-2 w-100 d-flex">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90" />
+                <div className="h-100 mbp-5 mtp-10 w-100 rounded-p-10 bgc-white border-style-solid border-1 border-color-saitama">
+                  <div className="h-100 p-2 w-100 d-flex">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140 w-90 h-100" />
                   </div>
                 </div>
               </div>

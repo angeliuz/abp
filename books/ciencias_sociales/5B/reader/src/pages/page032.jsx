@@ -37,37 +37,37 @@ function Page032(props) {
 
           <div className="d-flex msp-60 mep-60">
             <div className="row">
-              <div className="col-md-6 col-sm-6 position-relative">
+              <div className="col-md-6 col-sm-6 position-relative align-items-stretch mbp-20">
                 <div className="position-absolute top-100 start-0 translate-middle wp-100 mtp--30 visible-695"><img src="images/page_032/img_002.png" className="w-45" /></div>
-                <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-android18 border-1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
+                <div className="h-100 bgc-white exterior-caja-v1 border-style-solid  border-color-android18 border-1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
                   <div className="d-flex interior-caja-v1 bgc-shogun text-start min-hp-0">
                     <div className="w-100 text-center">La noticia se refiere a</div>
                   </div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-85 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                 </div>
               </div>
-              <div className="col-md-6 col-sm-6">
-                <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-android18 border-1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
+              <div className="col-md-6 col-sm-6 align-items-stretch mbp-20">
+                <div className="h-100 bgc-white exterior-caja-v1 border-style-solid  border-color-android18 border-1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
                   <div className="d-flex interior-caja-v1 bgc-shogun text-start min-hp-0">
                     <div className="w-100 text-center">¿Qué derecho se busca resguardar?</div>
                   </div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-85 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                 </div>
               </div>
-              <div className="col-md-6 col-sm-6">
-                <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-android18 border-1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
+              <div className="col-md-6 col-sm-6 align-items-stretch mbp-20">
+                <div className="h-100 bgc-white exterior-caja-v1 border-style-solid  border-color-android18 border-1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
                   <div className="d-flex interior-caja-v1 bgc-shogun text-start min-hp-0">
                     <div className="w-100 text-center">¿Qué población se vería beneficiada?</div>
                   </div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-85 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                 </div>
               </div>
-              <div className="col-md-6 col-sm-6 position-relative">
-                <div className="bgc-white exterior-caja-v1 border-style-solid  border-color-android18 border-1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
+              <div className="col-md-6 col-sm-6 position-relativealign-items-stretch mbp-20">
+                <div className="h-100 bgc-white exterior-caja-v1 border-style-solid  border-color-android18 border-1 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
                   <div className="d-flex interior-caja-v1 bgc-shogun text-start min-hp-0">
                     <div className="w-100 text-center">¿A qué riesgo estaba expuesta?</div>
                   </div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-110" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-85 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-120" />
                 </div>
               </div>
               <div className="col-md-12 col-sm-12 position-relative">
