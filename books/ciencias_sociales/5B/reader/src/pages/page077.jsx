@@ -68,23 +68,23 @@ function Page077(props) {
           <div className="d-flex msp-60 ptp-0 mep-60 mbp-0">
             <div className="row m-0 p-2 w-100 ">
 
-              <div className="col-sm-12 col-md-6 position-relative">
+              <div className="col-sm-12 col-md-6 position-relative align-items-stretch mbp-20">
                 <div className="position-absolute top-100 start-0 translate-middle msp-3 mtp--80 zindex-1"><img src="images/page_077/img_003.png" className="wp-20 " alt="" /></div>
-                <div className="d-flex flex-column mbp-20 mtp-10 p-2 w-100 border-style-solid border-2 rounded-p-10 border-color-dark bgc-white">
+                <div className="h-100 d-flex flex-column mbp-20 mtp-10 p-2 w-100 border-style-solid border-2 rounded-p-10 border-color-dark bgc-white">
                   <span className="f-Ubuntu-R fsp-15 px-2 ptp-10 text-start min-hp-60">La publicación de la revista resultó</span>
-                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex flex-column">
+                  <div className="h-100 psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex flex-column">
                     {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Cosas que hemos hecho que nos han encantado:</div> */}
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
                   </div>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-6 position-relative">
+              <div className="col-sm-12 col-md-6 position-relative align-items-stretch mbp-20">
                 <div className="position-absolute top-0 start-100 translate-middle msp--20 mtp-20 zindex-1"><img src="images/page_077/img_002.png" className="wp-30 " alt="" /></div>
-                <div className="d-flex flex-column mbp-20 mtp-10 p-2 w-100 border-style-solid border-2 rounded-p-10 border-color-dark bgc-white">
+                <div className="h-100 d-flex flex-column mbp-20 mtp-10 p-2 w-100 border-style-solid border-2 rounded-p-10 border-color-dark bgc-white">
                   <span className="f-Ubuntu-R fsp-15 px-2 ptp-10 text-start min-hp-60">Los comentarios de quienes revisaron la revista fueron</span>
-                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex flex-column">
+                  <div className="h-100 psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex flex-column">
                     {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Cosas que hemos hecho que nos han encantado:</div> */}
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-200" />
                   </div>
                 </div>
               </div>
@@ -110,43 +110,43 @@ function Page077(props) {
           <div className="d-flex msp-60 ptp-0 mep-60 mbp-150">
             <div className="row m-0 p-2 w-100 ">
 
-              <div className="col-sm-12 col-md-6 position-relative p-0 m-0">
+              <div className="col-sm-12 col-md-6 position-relative p-0 m-0 align-items-stretch">
 
-                <div className="d-flex flex-column mbp-0 mtp-10 p-2 w-100 caja-outline-white rounded-p-10 bgc-kokomi">
+                <div className="h-100 d-flex flex-column mbp-0 mtp-10 p-2 w-100 caja-outline-white rounded-p-10 bgc-kokomi">
                   <span className="f-Ubuntu-R fsp-15 px-2 ptp-10 text-start">¿Qué he aprendido?</span>
-                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex flex-column">
+                  <div className="h-100 psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex flex-column">
                     {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Cosas que hemos hecho que nos han encantado:</div> */}
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                   </div>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-6 position-relative p-0 m-0">
+              <div className="col-sm-12 col-md-6 position-relative p-0 m-0 align-items-stretch">
 
-                <div className="d-flex flex-column mbp-0 mtp-10 p-2 w-100 caja-outline-white rounded-p-10 bgc-draco">
+                <div className="h-100 d-flex flex-column mbp-0 mtp-10 p-2 w-100 caja-outline-white rounded-p-10 bgc-draco">
                   <span className="f-Ubuntu-R fsp-15 px-2 ptp-10 text-start"> ¿Cómo he aprendido?</span>
-                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex flex-column">
+                  <div className="h-100 psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex flex-column">
                     {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Cosas que hemos hecho que nos han encantado:</div> */}
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                   </div>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-6 position-relative p-0 m-0">
+              <div className="col-sm-12 col-md-6 position-relative p-0 m-0 align-items-stretch">
 
-                <div className="d-flex flex-column mbp-20 mtp-0 p-2 w-100 caja-outline-white rounded-p-10 bgc-pantro">
+                <div className="h-100 d-flex flex-column mbp-20 mtp-0 p-2 w-100 caja-outline-white rounded-p-10 bgc-pantro">
                   <span className="f-Ubuntu-R fsp-15 px-2 ptp-10 text-start">¿Con quién he aprendido?</span>
-                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex flex-column">
+                  <div className="h-100 psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex flex-column">
                     {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Cosas que hemos hecho que nos han encantado:</div> */}
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                   </div>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-6 position-relative p-0 m-0">
+              <div className="col-sm-12 col-md-6 position-relative p-0 m-0 align-items-stretch">
                 <div className="position-absolute top-0 start-100 translate-middle msp--20 mtp-20 zindex-1"><img src="images/page_077/img_004.png" className="wp-60 " alt="" /></div>
-                <div className="d-flex flex-column mbp-20 mtp-0 p-2 w-100 caja-outline-white rounded-p-10 bgc-shogun">
+                <div className="h-100 d-flex flex-column mbp-20 mtp-0 p-2 w-100 caja-outline-white rounded-p-10 bgc-shogun">
                   <span className="f-Ubuntu-R fsp-15 px-2 ptp-10 text-start">¿Cómo me he sentido aprendiendo?</span>
-                  <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex flex-column">
+                  <div className="h-100 psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex flex-column">
                     {/* <div className="f-Ubuntu-L fsp-16  text-start w-100">Cosas que hemos hecho que nos han encantado:</div> */}
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                   </div>
                 </div>
               </div>

@@ -114,23 +114,23 @@ function Page055(props) {
             <div className="d-flex msp-20">
 
               <div className="row w-100">
-                <div className="col-sm-12 col-md-6 position-relative">
+                <div className="col-sm-12 col-md-6 position-relative align-items-stretch mbp-20">
                   <div className="position-absolute top-100 start-0 translate-middle wp-100 mtp--30 visible-695"><img src="images/page_055/img_011.png" className="wp-60" /></div>
-                  <div className="bgc-bison exterior-caja-v1 border-style-solid  border-color-dark border-2 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
+                  <div className="h-100 bgc-bison exterior-caja-v1 border-style-solid  border-color-dark border-2 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
                     <div className="d-flex interior-caja-v1 bgc-white text-start min-hp-60">
                       <div className="w-100 text-center">¿Qué aspectos de la transcripción preocupan al grupo?</div>
                     </div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-85 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
                   </div>
                 </div>
-                <div className="col-sm-12 col-md-6 position-relative">
+                <div className="col-sm-12 col-md-6 position-relative align-items-stretch mbp-20">
                   <div className="position-absolute top-0 start-100 translate-middle msp--10 mtp-40 visible-695"><img src="images/page_055/img_009.png" className="hp-90" /></div>
                   <div className="position-absolute top-50 start-0 translate-middle visible-695"><img src="images/page_055/img_010.svg" className="hp-40" /></div>
-                  <div className="bgc-bison exterior-caja-v1 border-style-solid  border-color-dark border-2 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
+                  <div className="h-100 bgc-bison exterior-caja-v1 border-style-solid  border-color-dark border-2 w-100 p-2 f-Ubuntu-L fsp-15 mbp-20">
                     <div className="d-flex interior-caja-v1 bgc-white text-start min-hp-60">
                       <div className="w-100 text-center">¿Qué solución le daremos?</div>
                     </div>
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-85 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-250" />
                   </div>
                 </div>
 
