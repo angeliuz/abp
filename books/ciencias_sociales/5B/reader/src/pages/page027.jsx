@@ -52,7 +52,7 @@ function Page027(props) {
           </div>
 
 
-          <div className="row container-row mtp-10 p-0 mx-4">
+          <div className="row container-row mtp-10 p-0 mx-4 mbp-70">
 
             <div className="col-md-12 col-lg-12 d-flex position-relative mtp-10 justify-content-center mbp-20">
               <div className="border-style-solid border-3 border-color-srtoro rounded-p-10 w-80">
@@ -60,46 +60,46 @@ function Page027(props) {
                 <div className="mtp-10 mbp-10 text-center f-Ubuntu-R ">Estudiante insulta a un compañero o una compañera.</div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-4 mtp-20 position-relative">
+            <div className="col-sm-12 col-md-4 mtp-20 position-relative align-items-stretch mbp-20">
 
               <div className="position-absolute top-0 start-50 translate-middle visible-768"><img src="images/page_027/img_003.svg" className="w-35 " alt="" /></div>
 
-              <div className="mbp-20 mtp-10 w-100">
-                <div className="w-100 bgc-trunks p-2 rounded-p-20 min-hp-500">
+              <div className="h-100 mbp-20 mtp-10 w-100">
+                <div className="h-100 w-100 bgc-trunks p-2 rounded-p-20">
                   <div className="p-2 bgc-freezer rounded-p-10 min-hp-95">
                     <div className="f-colby-compres-medium fsp-20 text-center">¿Qué piensa?</div>
                     <div className="f-Ubuntu-L fsp-15 text-center">El o la estudiante al que insultan.</div>
                   </div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-390" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-80 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-390" />
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-4 mtp-20  position-relative">
+            <div className="col-sm-12 col-md-4 mtp-20  position-relative align-items-stretch mbp-20">
 
-              <div className="position-absolute top-0 start-50 translate-middle visible-768"><img src="images/page_027/img_004.svg" className="w-35 " alt="" /></div>
-              <div className="position-absolute top-100 start-50 translate-middle visible-768 mtp--80"><img src="images/page_027/img_006.png" className="w-85 " alt="" /></div>
+              <div className="position-absolute top-0 start-50 translate-middle visible-768 "><img src="images/page_027/img_004.svg" className="w-35 " alt="" /></div>
+              <div className="position-absolute top-100 start-50 translate-middle visible-768 mtp-20"><img src="images/page_027/img_006.png" className="w-85 " alt="" /></div>
 
-              <div className="mbp-20 mtp-10 w-100 ">
-                <div className="w-100 bgc-azuka p-2 rounded-p-20 min-hp-500">
+              <div className="h-100 mbp-20 mtp-10 w-100 ">
+                <div className="h-100 w-100 bgc-azuka p-2 rounded-p-20">
                   <div className="p-2 bgc-milk rounded-p-10 min-hp-95">
                     <div className="f-colby-compres-medium fsp-20 text-center">¿Qué piensa?</div>
                     <div className="f-Ubuntu-L fsp-15 text-center">El o la estudiante que ve que insultan a otro.</div>
                   </div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-390" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" h-80 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-390" />
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-4 mtp-20  position-relative mbp-70">
+            <div className="col-sm-12 col-md-4 mtp-20  position-relative  align-items-stretch mbp-20">
 
               <div className="position-absolute top-0 start-50 translate-middle visible-768"><img src="images/page_027/img_005.svg" className="w-35 " alt="" /></div>
 
-              <div className="mbp-20 mtp-10 w-100 ">
-                <div className="w-100 bgc-windu p-2 rounded-p-20 min-hp-500">
+              <div className="h-100 mbp-20 mtp-10 w-100 ">
+                <div className="h-100 w-100 bgc-windu p-2 rounded-p-20 ">
                   <div className="p-2 bgc-ash rounded-p-10 min-hp-95">
                     <div className="f-colby-compres-medium fsp-20 text-center">¿Qué piensa?</div>
                     <div className="f-Ubuntu-L fsp-15 text-center">El o la estudiante que insulta.</div>
                   </div>
-                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-390" />
+                  <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-80 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-390" />
                 </div>
               </div>
             </div>
