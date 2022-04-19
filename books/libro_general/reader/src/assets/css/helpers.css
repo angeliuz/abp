@@ -6808,6 +6808,18 @@
 }
 
 
+.max-hp-40 {
+  max-height: 40px !important;
+}
+
+.max-hp-70 {
+  max-height: 70px !important;
+}
+
+.max-hp-120 {
+  max-height: 120px !important;
+}
+
 .max-hp-300 {
   max-height: 280px !important;
 }

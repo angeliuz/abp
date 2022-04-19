@@ -62,12 +62,15 @@ function App() {
       <Page008 numeroPagina={clearZeros} />
       <Page009 numeroPagina={clearZeros} />
 
-      <div className="position-fixed top-100 start-0 msp-10 mtp--90 zindex-1">
-        <div className="wp-200 hp-80 bgc-white box-shadow-panels rounded-p-50 d-flex align-items-center psp-20 pep-20">
-          <div className="bgc-red wp-50 hp-50">
-            <div className="w-100 h-100 bgc-blue d-flex center-center rounded-circle f-Ubuntu-B fsp-20 color-white">WR</div>
+      <div className="position-fixed panel-indicadorAlumno-container top-100 start-0 msp-5 mtp--70">
+        <div className="w-auto hp-60 bgc-white box-shadow-panels rounded-p-50 d-flex align-items-center psp-10 pep-20">
+          <div className="wp-50 hp-50">
+            <div className="w-100 h-100 bgc-color-avatar d-flex center-center rounded-circle f-Ubuntu-B fsp-20 color-avatar">JE</div>
           </div>
-          <div className="bgc-yellow wp-50 hp-50 flex-grow-1"></div>
+          <div className="w-auto hp-40 flex-grow-1">
+            <div className="w-100 psp-5 pep-5 f-Ubuntu-R fsp-13 text-start mtp-1 color-lightDark">Estas viendo el cuaderno de:</div>
+            <div className="w-100 psp-5 pep-5 f-Ubuntu-M fsp-16 text-start mtp--5 color-dark">Jorge A. Espinoza Astudillo</div>
+          </div>
         </div>
       </div>
 

@@ -1,4 +1,125 @@
+/* PANEL ALUMNOS */
+
 .box-shadow-panels {
-    -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
+    /* -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15); */
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.27);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.27);
+}
+
+.panel-indicadorAlumno-container {
+    z-index: 9999999999999;
+}
+
+.bgc-color-avatar {
+    background-color: #B9E4FF;
+}
+
+.color-avatar {
+    color: #5B8DEA;
+}
+
+/* PANEL COMENTARIOS */
+.btn-agregarComentarios-container {
+    z-index: 9999999999999;
+
+}
+
+
+.panel-comentarios-container {
+    height: 100%;
+    z-index: 99999999999999;
+    opacity: 1;
+}
+
+.panel-comentarios {
+    min-height: calc(100vh - 30px);
+}
+
+.bgc-iconoComentarios {
+    background-color: #905F96;
+}
+
+.bgc-panelComentarios {
+    background-color: #D5D5D5;
+}
+
+.botonCerrarPanel {
+    cursor: pointer
+}
+
+
+.boton-comentario-container {
+    position: absolute;
+    background: transparent;
+    margin: 0px auto;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    z-index: 9999999999999;
+}
+
+.boton-comentario-hijo {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-radius: 100%;
+    background: #905F96;
+    top: -200px;
+    right: -180px;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+}
+
+
+.boton-comentario-nieto {
+    margin-top: 90px;
+    margin-left: 50px;
+    background-color: transparent;
+    color: white;
+}
+
+.boton-comentario-container:hover .boton-comentario-hijo {
+    /*When hovering over .button change .btnTwo*/
+    right: 0px;
+    top: -100px;
+}
+
+.animateIn {
+    animation: fadeIn 500ms ease-out backwards;
+}
+
+.animateOut {
+    animation: fadeOut 500ms ease-in backwards;
+}
+
+@keyframes fadeIn {
+    from {
+        transform: translateX(250px);
+        opacity: 0;
+        display: none;
+    }
+
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+        display: flex;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateX(250px);
+        opacity: 0;
+    }
 }
