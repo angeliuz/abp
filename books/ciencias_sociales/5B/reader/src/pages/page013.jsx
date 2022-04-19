@@ -108,8 +108,8 @@ function Page013(props) {
 
             <div className="row d-flex p-2 min-h-100 rounded-p-10 border-color-draco bgc-draco">
               <div className="color-dark f-Ubuntu-L ptp-10 text-start">Comparto las respuestas con mi grupo y completo:</div>
-              <div className="col-lg-6 col-md-6 col-sm-12 pt-2">
-                <div className="d-flex flex-column f-Ubuntu-L bgc-white psp-20 ptp-10 pbp-15 pep-20 rounded-p-10 text-center">
+              <div className="col-lg-6 col-md-6 col-sm-12 pt-2 align-items-stretch">
+                <div className="h-100 d-flex flex-column f-Ubuntu-L bgc-white psp-20 ptp-10 pbp-15 pep-20 rounded-p-10 text-center">
                   <span>¿Qué principio ejemplificamos
                     de mejor manera?</span>
                   <div className="w-100 pbp-10">
@@ -117,9 +117,9 @@ function Page013(props) {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-6 col-sm-12 pt-2">
+              <div className="col-lg-6 col-md-6 col-sm-12 pt-2 align-items-stretch">
 
-                <div className="d-flex flex-column f-Ubuntu-L bgc-white psp-20 ptp-10 pbp-15 pep-20 rounded-p-10 text-center">
+                <div className="h-100 d-flex flex-column f-Ubuntu-L bgc-white psp-20 ptp-10 pbp-15 pep-20 rounded-p-10 text-center">
                   <span>¿Qué principio nos costó ejemplificar o generó más dudas?</span>
                   <div className="w-100 pbp-10">
                     <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-2 fsp-12 text-start flex-grow-1 lhp-25 min-hp-95" />
