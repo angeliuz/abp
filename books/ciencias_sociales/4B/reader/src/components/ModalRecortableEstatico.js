@@ -29,7 +29,7 @@ function ModalRecortable(props) {
       column.push(
 
         <div className="col p-0 m-0 position-relative d-flex center-center p-2 pe-auto" id={"reco_" + i} data-bs-dismiss="modal" >
-          <img src={"images/page_" + pagina + "/recortables_"+grupo+"/reco_" + i + ".png"} alt="" style={{ pointerEvents: "none" }} className="user-select-none" />
+          <img src={"images/page_" + pagina + "/recortables_"+grupo+"/reco_" + i + ".png"} alt="" style={{ pointerEvents: "none" }} className="user-select-none hp-140" />
         </div>
       );
     }
