@@ -11,3 +11,8 @@
      -webkit-print-color-adjust: exact !important;
   
   }
+  @media all and (max-width: 580px) {
+    .abp_imagen {
+width: 60%;
+    }
+}
