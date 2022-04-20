@@ -51,25 +51,25 @@ function Page024(props) {
                     <div className=" psp-50 pep-50 mbp-10 mtp-10">
 
                         <div className="row container-row px-5">
-                            <div className="col-sm-12 col-md-6 position-relative mbp-20">
+                            <div className="col-sm-12 col-md-6 position-relative mbp-20 align-items-stretch">
                                 <div className="position-absolute top-100 start-0 translate-middle wp-100  mtp--70"><img src="images/page_024/img_003.png" className="wp-80 mep-70 mtp-30" alt="" /></div>
 
                                 <div className="">
                                     <div className="f-Ubuntu-B alinea rounded-set-20 bgc-saitama w-100 p-1 text-center color-white">Las características que propongo:</div>
-                                    <div className=" linea1 bgc-white  p-2 rounded-seb-20 border-style-solid border-color-saitama border-2">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-380" />
+                                    <div className="h-100  linea1 bgc-white  p-2 rounded-seb-20 border-style-solid border-color-saitama border-2">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-380" />
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="col-sm-12 col-md-6 position-relative ptp-50">
+                            <div className="col-sm-12 col-md-6 position-relative ptp-50 align-items-stretch">
                                 <div className="position-absolute top-100 start-100 translate-middle mtp--100 msp-10"><img src="images/page_024/img_004.png" className="" alt="" /></div>
                                 {/* <div className="position-absolute top-50 start-0 translate-middle wp-100 msp-0 visible-768"><img src="images/page_024/espiral.svg" className="wp-50 " alt="" /></div> */}
                                 <div className="">
                                     <div className="f-Ubuntu-B alinea rounded-set-20 bgc-haydn w-100 p-1 text-center color-white">Las características acordadas
                                         por el grupo:</div>
-                                    <div className="linea1 bgc-white p-2  rounded-seb-20 border-style-solid border-color-haydn border-2">
-                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-380" />
+                                    <div className="h-100 linea1 bgc-white p-2  rounded-seb-20 border-style-solid border-color-haydn border-2">
+                                        <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-380" />
                                     </div>
                                 </div>
                             </div>

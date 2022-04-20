@@ -38,28 +38,28 @@ function Page047(props) {
 
                     <div className="d-flex global-margin mtp-0 mbp-60 psp-50 pep-0 ptp-0 pbp-0">
                         <div className="row p-0 m-0 w-100">
-                            <div className="col-sm-12 col-md-6 p-1 m-0 position-relative">
-                                <div className="bgc-android18 rounded-p-10 p-2">
+                            <div className="col-sm-12 col-md-6 p-1 m-0 position-relative align-items-stretch">
+                                <div className="h-100 bgc-android18 rounded-p-10 p-2">
                                     <p className="text-white f-Ubuntu-M fsp-15 lh-sm min-hp-50 m-0 pb-2 d-flex justify-content-center align-items-center">¿Qué vieron y me pareció sorprendente?</p>
-                                    <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 text-start flex-grow-1 lhp-35 min-hp-320 contenedor-linea" /></div>
+                                    <div className=" bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-320 contenedor-linea" /></div>
                                 </div>
                             </div>
-                            <div className="col-sm-12 col-md-6 p-1 m-0 position-relative">
-                                <div className="bgc-bulma rounded-p-10 p-2">
+                            <div className="col-sm-12 col-md-6 p-1 m-0 position-relative align-items-stretch">
+                                <div className="h-100 bgc-bulma rounded-p-10 p-2">
                                     <p className="text-white f-Ubuntu-M fsp-15 lh-sm min-hp-50 m-0 pb-2 d-flex justify-content-center align-items-center">¿Qué pensamientos me parecen interesantes?</p>
-                                    <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 text-start flex-grow-1 lhp-35 min-hp-320 contenedor-linea" /></div>
+                                    <div className=" bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-320 contenedor-linea" /></div>
                                 </div>
                             </div>
-                            <div className="col-sm-12 col-md-6 p-1 m-0 position-relative">
-                                <div className="bgc-saitama rounded-p-10 p-2">
+                            <div className="col-sm-12 col-md-6 p-1 m-0 position-relative align-items-stretch">
+                                <div className="h-100 bgc-saitama rounded-p-10 p-2">
                                     <p className="text-white f-Ubuntu-M fsp-15 lh-sm min-hp-50 m-0 pb-2 d-flex justify-content-center align-items-center">¿Qué preguntas me gustaría explorar?</p>
-                                    <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 text-start flex-grow-1 lhp-35 min-hp-320 contenedor-linea" /></div>
+                                    <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 p-0 text-start flex-grow-1 lhp-35 min-hp-320 contenedor-linea" /></div>
                                 </div>
                             </div>
-                            <div className="col-sm-12 col-md-6 p-1 m-0 position-relative">
-                                <div className="bgc-vegeta rounded-p-10 p-2">
+                            <div className="col-sm-12 col-md-6 p-1 m-0 position-relative align-items-stretch">
+                                <div className="h-100 bgc-vegeta rounded-p-10 p-2">
                                     <p className="text-white f-Ubuntu-M fsp-15 lh-sm min-hp-50 m-0 pb-2 d-flex justify-content-center align-items-center">¿Qué sensaciones enriquecieron mi forma de ver las obras?</p>
-                                    <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 text-start flex-grow-1 lhp-35 min-hp-320 contenedor-linea" /></div>
+                                    <div className="bgc-white rounded-p-10 p-2"><InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="px-1 p-0 text-start flex-grow-1 lhp-35 min-hp-320 contenedor-linea" /></div>
                                 </div>
                             </div>
                         </div>

@@ -31,7 +31,7 @@ function Page078(props) {
                   <div className="position-absolute top-50 start-50 translate-middle msp--0 mtp-270 visible-768 zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-60" alt="" /></div>
                 </div>
 
-                <div className="col-sm-12 col-md-6 position-relative">
+                <div className="col-sm-12 col-md-6 position-relative align-items-stretch">
                   <div className="position-absolute top-100 start-50 translate-middle msp-0 mtp-5 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-50" alt="" /></div>
                   <div className="text-center bgc-white w-100 border-1 border-style-solid border-color-chopin rounded-p-10">
                     <div className="color-white fw-700 rounded-set-6 hp-40 pep-20 psp-20 ptp-5 pbp-5 bgc-chopin d-flex justify-content-center align-items-center">
@@ -42,7 +42,7 @@ function Page078(props) {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-md-6 position-relative">
+                <div className="col-sm-12 col-md-6 position-relative align-items-stretch">
                   <div className="position-absolute top-100 start-100 translate-middle msp--20 mtp-5 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_006.png"} className="wp-40" alt="" /></div>
                   <div className="text-center bgc-white w-100 border-1 border-style-solid border-color-obiwan rounded-p-10 mtp-15">
                     <div className="color-white fw-700 rounded-set-6 hp-40 ptp-5 pbp-5 bgc-obiwan d-flex justify-content-center align-items-center">

@@ -53,25 +53,25 @@ function Page074(props) {
                                 </div>
                                 {/* BEGIN EJERCICIO 2 */}
                                 <div className="row mx-auto d-flex f-Ubuntu-R fsp-15 mbp-20">
-                                    <div className="col-sm-12 col-md-6 rounded-p-10 position-relative">
+                                    <div className="col-sm-12 col-md-6 rounded-p-10 position-relative align-items-stretch">
                                         <div className="position-absolute top-100 start-0 translate-middle msp--0 mtp--30 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-50" alt="" /></div>
-                                        <div className="text-start w-100 rounded-p-10  mtp-10 bgc-white cb-outline-p74">
+                                        <div className="h-100 text-start w-100 rounded-p-10  mtp-10 bgc-white cb-outline-p74">
                                             <div className="rounded-set-6 hp-40 pep-20 psp-20 ptp-5 pbp-5 ptp-15 f-Ubuntu-R fsp-14">
                                                 ¿Qué nos falta preparar?
                                             </div>
-                                            <div className="psp-15 pep-15">
-                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
+                                            <div className="h-100 psp-15 pep-15">
+                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-sm-12 col-md-6 rounded-p-10 position-relative">
+                                    <div className="col-sm-12 col-md-6 rounded-p-10 position-relative align-items-stretch">
                                         <div className="position-absolute top-100 start-100 translate-middle msp--0 mtp--70 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-120" alt="" /></div>
-                                        <div className="text-start w-100 rounded-p-10 mtp-10 bgc-white cb-outline-p74">
+                                        <div className="h-100 text-start w-100 rounded-p-10 mtp-10 bgc-white cb-outline-p74">
                                             <div className="rounded-set-6 hp-40 ptp-15 pbp-5 psp-10 f-Ubuntu-R fsp-14 ">
                                                 ¿De qué otra manera podemos cooperar con el curso para que la exposición tenga éxito?
                                             </div>
-                                            <div className="psp-15 pep-15">
-                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300" />
+                                            <div className="h-100 psp-15 pep-15">
+                                                <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-300 mtp-20 " />
                                             </div>
                                         </div>
                                     </div>
