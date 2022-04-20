@@ -25,20 +25,40 @@ function Page001() {
                     {/* BEGIN CABECERA VERSIÓN 2 */}
 
                     <div className="h-100 ">
+                        <div className="row position-absolute caja-flotante2 p-0 m-0 " style={{ top: 0 }}>
+                            <div className="col-2 position-relative col-sm-2 p-0 m-0">
+                                <div className="w-100 hp-15 bgc-goten"></div>
+                            </div>
+                            <div className="col-2 position-relative col-sm-2 p-0 m-0">
+                                <div className="w-100 hp-15 bgc-bulma"></div>
+                            </div>
+                            <div className="col-2 position-relative col-sm-2 p-0 m-0">
+                                <div className="w-100 hp-15 bgc-android18"></div>
+                            </div>
+                            <div className="col-2 position-relative col-sm-2 p-0 m-0">
+                                <div className="w-100 hp-15 bgc-pidgey"></div>
+                            </div>
+                            <div className="col-2 position-relative col-sm-2 p-0 m-0">
+                                <div className="w-100 hp-15 bgc-saitama"></div>
+                            </div>
+                            <div className="col-2 position-relative col-sm-2 p-0 m-0">
+                                <div className="w-100 hp-15 bgc-pikachu"></div>
+                            </div>
+                        </div>
                         {/* <img src={"images/fondo_001.svg"} className="w-100" /> */}
                         <div className="d-flex psp-0 pep-0">
                             <div className="row w-100 p-0 m-0 center-center">
-                                <div className="col-md-8 col-lg-8 position-relative ">
-                                    <div className="mbp-30 mtp-120 msp-20 mep-20 text-start f-Ubuntu-L fsp-15 text-center">
-                                        <img src={"images/abp.svg"} className="wp-250" />
+                                <div className="col-xs-3 col-sm-5 col-lg-5 position-relative ">
+                                    <div className="mbp-30 mtp-50 msp-20 mep-20 text-start f-Ubuntu-L fsp-15 text-center">
+                                        <img src={"images/abp.svg"} className="abp_imagen" />
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="d-flex psp-0 pep-0">
                             <div className="row w-100 p-0 m-0 center-center">
-                                <div className="col-md-8 col-lg-8 position-relative">
-                                    <div className="mbp-5 mtp-10 msp-20 mep-20 text-start f-Ubuntu-L fsp-15">
+                                <div className=" col-sm-7 col-md-6 col-lg-8 position-relative">
+                                    <div className="mbp-5  msp-20 mep-20 text-start f-Ubuntu-L fsp-15">
                                         Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno
                                     </div>
                                 </div>
@@ -46,8 +66,8 @@ function Page001() {
                         </div>
                         <div className="d-flex psp-0 pep-0 pbp-20">
                             <div className="row w-100 p-0 m-0 center-center">
-                                <div className="col-md-8 col-lg-8 position-relative">
-                                    <div className="mbp-5 mtp-10 msp-20 fw-600 mep-20 rounded-p-60 bgc-white ptp-15 pbp-15 f-Ubuntu-R outlinesubir">
+                                <div className="col-sm-7 col-md-7 col-lg-8 position-relative">
+                                    <div className="mbp-5 mtp-20 msp-20 fw-600 mep-20 rounded-p-60 bgc-white ptp-15 pbp-15 f-Ubuntu-R">
                                         INGRESA EL CÓDIGO
                                         <div className="psp-35 pep-35">
                                             <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />
@@ -58,7 +78,7 @@ function Page001() {
                         </div>
                         <div className="d-flex psp-0 pep-0 pbp-10">
                             <div className="row w-100 p-0 m-0 center-center">
-                                <div className="col-md-8 col-lg-8 position-relative">
+                                <div className="col-sm-7 col-md-7 col-lg-8 position-relative">
                                     <div className="mbp-30 mtp-10 msp-20 mep-20">
                                         <div className="d-flex center-center p-2 rounded-p-6 border-style-solid border-2 border-color-white min-hp-200 bgc-white outlinesubir">
                                             <SubirImagen
@@ -78,7 +98,7 @@ function Page001() {
                         </div>
                         <div className="d-flex psp-0 pep-0">
                             <div className="row w-100 p-0 m-0 center-center">
-                                <div className="col-xs-4 col-md-8 col-lg-8 position-relative">
+                                <div className="col-sm-7 col-md-7 col-lg-8 position-relative">
                                     <div className="mbp-0 mtp-10 msp-20 fw-700 mep-20 rounded-p-30 bgc-shinobu ptp-15 pbp-15 color-white f-Ubuntu-R">
                                         SUBIR IMAGEN
 

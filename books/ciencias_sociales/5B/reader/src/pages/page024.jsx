@@ -37,7 +37,7 @@ function Page024(props) {
             <div className="row container-row px-5">
                 <div className="col-sm-12 col-md-6 position-relative align-items-stretch mbp-70">
                     <div className="position-absolute top-100 start-0 translate-middle visible-768 zindex-1 msp-60 mtp-70"><img src="images/page_024/img_006.png" className="hp-60" alt=""/></div>
-                    <div className="box-color-24-1">
+                    <div className="h-100 box-color-24-1">
                         <div className="f-Ubuntu-B alinea rounded-set-10 bgc-saitama w-100 p-2 text-center color-white">¿Qué ejemplo o caso de<br /> discriminación conoces?</div>
                         <div className="bgc-white h-100 p-2  rounded-seb-20 border-style-solid border-color-saitama border-2">
                             <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />
@@ -49,7 +49,7 @@ function Page024(props) {
                     <div className="position-absolute top-0 start-100 translate-middle wp-100"><img src="images/page_024/img_002.png" className="w-30 mep-70 mtp-30" alt="" /></div>
                     <div className="position-absolute top-100 start-100 translate-middle visible-768 zindex-1 msp--60 mtp-70"><img src="images/page_024/img_006.png" className="hp-60" alt=""/></div>
                     <div className="position-absolute top-50 start-0 translate-middle mtp-50 visible-768"><img src="images/page_024/img_005.png" className=" " alt=""/></div>
-                    <div className="box-color-24-2">
+                    <div className="h-100 box-color-24-2">
                     <div className="f-Ubuntu-B alinea rounded-set-10 bgc-leia w-100 p-2 text-center color-white">¿Por qué condición o característica<br /> se discriminó en dicho caso?</div>
                     <div className="bgc-white p-2 h-100 rounded-seb-20 border-style-solid border-color-leia border-2">
                         <InputBox id={ "p" + pagina + "_input"+ (indexInput+=1) } className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-175" />

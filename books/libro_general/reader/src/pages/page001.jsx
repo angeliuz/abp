@@ -10,6 +10,7 @@ import ModalVideo from "../components/ModalVideo";
 import ModalPDF from "../components/ModalPDF";
 
 import "./page_001.css";
+import Comentarios from "../components/panels/Comentarios";
 
 function Page001() {
 
@@ -29,6 +30,13 @@ function Page001() {
         <div className="wrapper bgc-light">
             <div className="d-flex flex-column align-items-center pbp-10">
                 <div className="page position-relative bgc-white" id={"page_" + pagina}>
+
+                    <Comentarios
+                        pagina={pagina}
+                        id={"comentarios_" + pagina}
+                        colorUnidad={background}
+                    />
+
                     {/* BEGIN CABECERA VERSIÓN 1 */}
                     <div className={"cabecera-v1 hp-80 " + background}></div>
                     {/* END CABECERA VERSIÓN 1 */}

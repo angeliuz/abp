@@ -32,19 +32,19 @@ function Page054(props) {
 
             <div className="row m-0 psp-10 pep-10 ptp-0 pbp-10 rounded-p-20 w-100">
 
-              <div className="col-sm-12 col-md-6 position-relative">
+              <div className="col-sm-12 col-md-6 position-relative align-items-stretch mbp-20">
 
-                <div className="d-flex mbp-20 mtp-10 w-100">
-                  <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-dark bgc-white">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                <div className="h-100 d-flex mbp-20 mtp-10 w-100">
+                  <div className=" p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-dark bgc-white">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                   </div>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-6 position-relative">
+              <div className="col-sm-12 col-md-6 position-relative align-items-stretch mbp-20">
 
-                <div className="d-flex mbp-20 mtp-10 w-100">
-                  <div className="p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-dark bgc-white">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
+                <div className="h-100 d-flex mbp-20 mtp-10 w-100">
+                  <div className=" p-2 min-hp-100 w-100 border-style-solid border-2 rounded-p-10 border-color-dark bgc-white">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-140" />
                   </div>
                 </div>
               </div>
