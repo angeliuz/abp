@@ -59,33 +59,22 @@ function Page001() {
                             <div className="row w-100 p-0 m-0 center-center">
                                 <div className=" col-sm-7 col-md-6 col-lg-8 position-relative">
                                     <div className="mbp-5  msp-20 mep-20 text-start f-Ubuntu-L fsp-15">
-                                        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno
+                                        Puedes tomar una fotografía con tu celular y cargarla ingresando el siguiente código.
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="d-flex psp-0 pep-0 pbp-20">
-                            <div className="row w-100 p-0 m-0 center-center">
-                                <div className="col-sm-7 col-md-7 col-lg-8 position-relative">
-                                    <div className="mbp-5 mtp-20 msp-20 fw-600 mep-20 rounded-p-60 bgc-white ptp-15 pbp-15 f-Ubuntu-R">
-                                        INGRESA EL CÓDIGO
-                                        <div className="psp-35 pep-35">
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className=" p-0 px-1 text-start flex-grow-1 contenedor-linea  lhp-35 min-hp-35" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
                         <div className="d-flex psp-0 pep-0 pbp-10">
                             <div className="row w-100 p-0 m-0 center-center">
-                                <div className="col-sm-7 col-md-7 col-lg-8 position-relative">
-                                    <div className="mbp-30 mtp-10 msp-20 mep-20">
-                                        <div className="d-flex center-center p-2 rounded-p-6 border-style-solid border-2 border-color-white min-hp-200 bgc-white outlinesubir">
+                                <div className="col-12 position-relative">
+                                    <div className="mbp-30 mtp-10 msp-0 mep-0">
+                                        <div className="d-flex flex-column center-center ">
                                             <SubirImagen
                                                 // id={"imagen_" + pagina + "_" + (indexInput += 1)}
                                                 id={"imagen_051_4"}
-                                                idQR={"1296318930514"}
-                                                className="w-80 bgc-white"
+                                                idQR={"68A9E"}
+                                                className="d-flex psp-0 pep-0 w-80 bgc-white rounded-p-6 border-style-solid border-2 border-color-white min-hp-200 bgc-white outlinesubir"
                                                 colorUnidad={background}
                                                 imagenPlaceHolder1="images/generales/subir_imagen1.svg"
                                                 imagenPlaceHolder2="images/generales/subir_imagen2.svg"
@@ -96,16 +85,7 @@ function Page001() {
                                 </div>
                             </div>
                         </div>
-                        <div className="d-flex psp-0 pep-0">
-                            <div className="row w-100 p-0 m-0 center-center">
-                                <div className="col-sm-7 col-md-7 col-lg-8 position-relative">
-                                    <div className="mbp-0 mtp-10 msp-20 fw-700 mep-20 rounded-p-30 bgc-shinobu ptp-15 pbp-15 color-white f-Ubuntu-R">
-                                        SUBIR IMAGEN
 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
 
 

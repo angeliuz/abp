@@ -48,7 +48,49 @@ const SubirImagen = (props) => {
     var temp = replaceCharacter(String(props.id), 'imagen', '');
     temp = replaceCharacter(temp, '_', '');
 
-    const idQR = String(documento + temp);
+
+
+    function removeZeros(pagina) {
+        let num = pagina;
+        num = num.toString();
+        num = num.replace(/^0+/, '');
+        return num;
+    }
+
+    const matrizLibros = {
+        libros: {
+            2070: "A",
+            2068: "B",
+            2082: "C",
+            2084: "D",
+            2065: "E",
+            2079: "F",
+            2066: "G",
+            2088: "H"
+        }
+    };
+    const matrizIndice = {
+        libros: {
+            1: "A",
+            2: "B",
+            3: "C",
+            4: "D",
+            5: "E",
+            6: "F",
+            7: "G",
+            8: "H",
+            9: "I",
+            10: "J"
+        }
+    };
+
+    const idQR = dokenArray[0] + matrizLibros.libros[dokenArray[1]] + removeZeros(temp.slice(0, 3)) + matrizIndice.libros[temp.slice(3, temp.length)];
+
+    console.log("idQR pagina: " + temp.slice(0, 3));
+    console.log("idQR indice: " + temp.slice(3, temp.length));
+
+    console.log("idQR: " + id);
+    console.log("idQR: " + dokenArray[0] + matrizLibros.libros[dokenArray[1]] + removeZeros(temp.slice(0, 3)) + matrizIndice.libros[temp.slice(3, temp.length)]);
 
     // firestore get data for check
     useEffect(() => {
@@ -86,56 +128,6 @@ const SubirImagen = (props) => {
         var results = regex.exec(window.location.search);
         return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
     };
-
-    const getData = () => {
-        // onSnapshot(docRef, (docSnap) => {
-        //     console.log("Current data: ", docSnap.data());
-        //     if (docSnap.exists()) {
-        //         console.log("Existe");
-        //         const field = docSnap.data()[idQR];
-        //         console.log("Current data: ", docSnap.data()[idQR]);
-        //         if (field) {
-        //             setUrl(docSnap.data()[idQR]);
-        //             console.log("content1: " + visible);
-        //         } else {
-        //             updateContenido();
-        //             console.log("Actualizar contenido");
-        //         }
-        //     } else {
-
-        //         console.log("No existe");
-
-        //     }
-        // const obtenerDatos = async () => {
-        //     const docSnap = await getDoc(docRef);
-
-        //     if (docSnap.exists()) {
-        //         const field = docSnap.data()[idQR];
-        //         console.log("Current data: ", docSnap.data()[idQR]);
-        //         if (field) {
-
-        //             setUrl(docSnap.data()[idQR]);
-
-        //             console.log("content1: " + visible);
-        //         } else {
-        //             if (show) {
-        //                 updateContenido();
-        //             }
-        //             console.log("Sin datos: " + idQR);
-        //         }
-        //         //console.log("Document data:", docSnap.data());
-        //     } else {
-        //         // doc.data() will be undefined in this case
-        //         await setDoc(doc(db, coleccion, documento), { build: "1" });
-        //         console.log("No such document!");
-        //     }
-        // };
-        // obtenerDatos();
-        //});
-
-    };
-
-
 
 
     const updateContenido = (url) => {
@@ -226,6 +218,7 @@ const SubirImagen = (props) => {
     };
 
 
+
     function handleShow(breakpoint) {
         setVisibleCargador1(true);
         updateContenido(url);
@@ -283,22 +276,22 @@ const SubirImagen = (props) => {
                         <div className="row p-0 m-0 w-100">
                             <div className="col-12 mbp-30 position-relative d-flex center-center">
                                 <div className="d-flex align-items-center w-100  mtp-20 msp-10 mep-10 rounded-p-15 position-relative pep-5 psp-5 fsp-15 f-Ubuntu-M bgc-jaga">
-                                <div className="row ">
-                                <div className="col-lg-6 col-xs-12 d-flex align-items-center">
-                                    <div className="p-2 flex-fill">
-                                        <img src="images/generales/celular.png" alt="icono celular" />
-                                    </div>
-                                    
-                                   
-                                    <div className="p-2 flex-fill text-start">
-                                    Puedes subir directamente la imagen de la actividad desde tu computador. También puedes tomar una fotografía con tu celular y cargarla en <strong>https://abp.smconecta.cl</strong>  ingresando el siguiente código.
-                                    </div>
-                                    </div>
-                                    <div className="col-lg-6 col-xs-12 text-center ptp-20 pbp-5 d-flex align-items-center">
-                                    <div className="bgc-white flex-fill psp-20 pep-20 ptp-10 pbp-10 rounded-p-20 border-style-solid border-color-dark border-2 fsp-25">
-                                        {idQR}
-                                    </div>
-                                    </div>
+                                    <div className="row ">
+                                        <div className="col-lg-6 col-xs-12 d-flex align-items-center">
+                                            <div className="p-2 flex-fill">
+                                                <img src="images/generales/celular.png" alt="icono celular" />
+                                            </div>
+
+
+                                            <div className="p-2 flex-fill text-start">
+                                                Puedes subir directamente la imagen de la actividad desde tu computador. También puedes tomar una fotografía con tu celular y cargarla en <strong>https://abp.smconecta.cl</strong>  ingresando el siguiente código.
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6 col-xs-12 text-center ptp-20 pbp-5 d-flex align-items-center">
+                                            <div className="bgc-white flex-fill psp-20 pep-20 ptp-10 pbp-10 rounded-p-20 border-style-solid border-color-dark border-2 fsp-25">
+                                                {idQR}
+                                            </div>
+                                        </div>
                                     </div>
 
 
