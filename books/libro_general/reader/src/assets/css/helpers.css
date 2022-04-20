@@ -4421,6 +4421,10 @@
 }
 
 /* padding-top px */
+.ptp-3 {
+  padding-top: 3px;
+}
+
 .ptp-5 {
   padding-top: 5px;
 }
@@ -6518,6 +6522,10 @@
 
 .min-hp-30 {
   min-height: 30px !important;
+}
+
+.min-hp-35 {
+  min-height: 35px !important;
 }
 
 .min-hp-40 {
