@@ -24,27 +24,27 @@ function Page058(props) {
                     <div className="d-flex msp-60 mep-60 mbp-20 mtp-30 position-relative">
                         <div className="row w-100 p-0 m-0">
                             <div className="row mx-auto d-flex f-Ubuntu-R fsp-15 mbp-20 justify-content-cente ">
-                                <div className="col-sm-12 col-md-6 position-relative ptp-10">
+                                <div className="col-sm-12 col-md-6 position-relative ptp-10 align-items-stretch">
                                     <div className="position-absolute top-0 start-0 translate-middle msp--10 mtp-25 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-70" alt="" /></div>
                                     <div className="position-absolute top-100 start-100 translate-middle msp--30 mtp-0 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-90" alt="" /></div>
-                                    <div className="text-center w-100 border-1 border-style-solid border-color-dark rounded-p-10 pbp-30 bgc-white mtp-10">
+                                    <div className="h-100 text-center w-100 border-1 border-style-solid border-color-dark rounded-p-10 pbp-30 bgc-white mtp-10">
                                         <div className="f-Ubuntu-R fsp-15 rounded-p-10 max-wp-200 mx-auto hp-40 pep-20 psp-20 ptp-10 mtp--5 pbp-10 bgc-obiwan lhp-15 color-white fw-700 d-flex justify-content-center align-items-center">
                                             Lo que más nos costó de diseñar la obra fue...
                                         </div>
-                                        <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex">
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-400" />
+                                        <div className="h-100 psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex">
+                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-400" />
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-sm-12 col-md-6 position-relative ptp-40">
+                                <div className="col-sm-12 col-md-6 position-relative ptp-40 align-items-stretch">
                                     <div className="position-absolute top-0 start-100 translate-middle msp--10 mtp-80 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-70" alt="" /></div>
                                     <div className="position-absolute top-100 start-100 translate-middle msp--30 mtp-0 visible-768 zindex-10"><img src={"images/page_" + pagina + "/img_004.png"} className="wp-80" alt="" /></div>
-                                    <div className="text-center w-100 border-1 border-style-solid border-color-dark rounded-p-10 pbp-30 bgc-white mtp-10">
+                                    <div className="h-100 text-center w-100 border-1 border-style-solid border-color-dark rounded-p-10 pbp-30 bgc-white mtp-10">
                                         <div className="color-white fw-700 f-Ubuntu-R fsp-15 rounded-p-10 max-wp-200 mx-auto  hp-40 pep-20 psp-20 ptp-10 pbp-10 mtp--5 bgc-palpatine d-flex justify-content-center align-items-center">
                                             Lo más sencillo fue...
                                         </div>
-                                        <div className="psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex">
-                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-400" />
+                                        <div className="h-100 psp-10 pep-10 pbp-10 ptp-0 w-100 d-flex">
+                                            <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-400" />
                                         </div>
                                     </div>
                                 </div>

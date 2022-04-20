@@ -32,9 +32,9 @@ function Page066(props) {
 
           <div className="d-flex global-margin mtp-20 mbp-60 psp-10 pep-10 ptp-10 pbp-10 rounded-p-10 bgc-grieg">
             <div className="row p-0 m-0 w-100">
-              <div className="col-sm-6 col-md-5 p-0 m-0 position-relative">
+              <div className="col-sm-6 col-md-5 p-0 m-0 position-relative align-items-stretch">
 
-                <div className="d-flex flex-column align-items-center psp-10 pep-10 ptp-0 pbp-0 border-style-solid border-2 border-color-milk bgc-white   caja-sobre-66">
+                <div className="h-100 align-items-center psp-10 pep-10 ptp-0 pbp-0 border-style-solid border-2 border-color-milk bgc-white   caja-sobre-66">
 
                   <div className="ptp-0 psp-10 pep-10 mbp-0">
                     <div className="d-flex psp-0">
@@ -47,8 +47,8 @@ function Page066(props) {
                     </div>
                   </div>
 
-                  <div className="d-flex flex-column text-start w-100 psp-45 pep-10 ptp-0 pbp-0 mtp-10 f-Ubuntu-L">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-390" />
+                  <div className=" text-start w-100 psp-45 pep-10 ptp-0 pbp-0 mtp-10 f-Ubuntu-L">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-390" />
                   </div>
 
 
@@ -56,17 +56,17 @@ function Page066(props) {
 
 
               </div>
-              <div className="col-sm-6 col-md-7 p-0 m-0 position-relative ">
+              <div className="col-sm-6 col-md-7 p-0 m-0 position-relative align-items-stretch">
                 <div className="position-absolute top-0 start-50 translate-middle  msp-90 mtp-0 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-30" alt="" /></div>
                 <div className="position-absolute top-100 start-100 translate-middle  msp-10 mtp--5 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-60" alt="" /></div>
                 <div className="position-absolute top-100 start-0 translate-middle  msp-50 mtp--5 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_003.png"} className="wp-140" alt="" /></div>
 
                 {/* border-left-hidden */}
-                <div className="d-flex flex-column psp-0 pep-0 ptp-0 pbp-0 mtp-20 border-style-solid border-2 border-color-milk bgc-white  ">
+                <div className="h-100 psp-0 pep-0 ptp-0 pbp-0 mtp-20 border-style-solid border-2 border-color-milk bgc-white  ">
 
-                  <div className="d-flex flex-column text-start w-100 psp-15 pep-10 ptp-10 pbp-0 mtp-10 f-Ubuntu-R">
+                  <div className=" text-start w-100 psp-15 pep-10 ptp-10 pbp-0 mtp-10 f-Ubuntu-R">
                     ... redactamos la invitación...
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-400" />
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-400" />
                   </div>
                   <div className="d-flex justify-content-end mbp-20 ">
 

@@ -446,6 +446,18 @@
 .h-80 {
   height: 80%;
 }
+.h-81 {
+  height: 81%;
+}
+.h-82 {
+  height: 82%;
+}
+.h-83 {
+  height: 83%;
+}
+.h-84 {
+  height: 84%;
+}
 .h-85 {
   height: 85%;
 }
@@ -4984,7 +4996,9 @@
 .min-hp-800 {
   min-height: 800px !important;
 }
-
+.min-h-85 {
+  min-height: 85% !important;
+}
 .min-h-90 {
   min-height: 90% !important;
 }

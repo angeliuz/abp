@@ -79,24 +79,24 @@ function Page075(props) {
                   <div className="position-absolute top-50 start-50 translate-middle msp--0 mtp-160 visible-768 zindex-1"><img src={"images/page_" + pagina + "/espiral.svg"} className="wp-60" alt="" /></div>
                 </div>
 
-                <div className="col-sm-12 col-md-6">
-                  <div className="text-center w-100 border-1 border-style-solid border-color-chopin rounded-p-10  mtp-10">
-                    <div className="color-white fw-700 rounded-set-6 hp-40 pep-20 psp-20 ptp-5 pbp-5 bgc-chopin d-flex justify-content-center align-items-center">
+                <div className="col-sm-12 col-md-6 align-items-stretch mbp-20">
+                  <div className="h-100 text-center w-100 border-1 border-style-solid border-color-chopin rounded-p-10  mtp-10">
+                    <div className=" color-white fw-700 rounded-set-6 hp-40 pep-20 psp-20 ptp-5 pbp-5 bgc-chopin d-flex justify-content-center align-items-center">
                       La exposición resultó
                     </div>
-                    <div className="psp-15 pep-15">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
+                    <div className="min-h-85 psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-md-6 position-relative">
+                <div className="col-sm-12 col-md-6 position-relative align-items-stretch mbp-20">
                 <div className="position-absolute top-0 start-100 translate-middle mtp-20 zindex-1"><img src={"images/page_" + pagina + "/img_001.png"} className="wp-80 " alt="" /></div>
-                  <div className="text-center w-100 border-1 border-style-solid border-color-klaus rounded-p-10 mtp-10">
-                    <div className="lhp-15 color-white fw-700 rounded-set-6 hp-40 ptp-5 pbp-5 bgc-klaus d-flex justify-content-center align-items-center">
+                  <div className="h-100 text-center w-100 border-1 border-style-solid border-color-klaus rounded-p-10 mtp-10">
+                    <div className=" lhp-15 color-white fw-700 rounded-set-6 hp-40 ptp-5 pbp-5 bgc-klaus d-flex justify-content-center align-items-center">
                       Los comentarios de quienes <br /> vieron nuestra obra fueron
                     </div>
-                    <div className="psp-15 pep-15">
-                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
+                    <div className="min-h-85 psp-15 pep-15">
+                      <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-230" />
                     </div>
                   </div>
                 </div>

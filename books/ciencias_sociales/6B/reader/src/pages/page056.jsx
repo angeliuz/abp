@@ -52,30 +52,30 @@ function Page056(props) {
           <div className="d-flex global-margin mtp-10 mbp-60 psp-30 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100 position-relative">
               
-              <div className="col-3 p-1 position-relative">
+              <div className="col-3 p-1 position-relative align-items-stretch">
               <div className="position-absolute top-0 start-0 translate-middle"><img src={"images/page_" + pagina + "/lapiz.png"} className="hp-80 msp--10 mtp-280" alt="" /></div>
-                <div className="border-style-solid border-color-saitama border-3 p-0 m-0">
+                <div className="h-100 border-style-solid border-color-saitama border-3 p-0 m-0">
                   <div className="hp-80 bgc-windu p-2 border-bottom-style-solid border-color-saitama border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14 lh-sm">Materiales que necesitamos</div>
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-670 mep-5 msp-5 mbp-10" />
                 </div>
               </div>
-              <div className="col-3 p-1 position-relative">
+              <div className="col-3 p-1 position-relative align-items-stretch">
               <div className="position-absolute top-100 start-50 translate-middle zindex-2"><img src={"images/page_" + pagina + "/tijera.png"} className="hp-55  mtp--15" alt="" /></div>
-                <div className="border-style-solid border-color-android18 border-3 p-0 m-0">
+                <div className="h-100 border-style-solid border-color-android18 border-3 p-0 m-0">
                   <div className="hp-80 bgc-azuka p-2 border-bottom-style-solid border-color-android18 border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14 lh-sm">Para qué necesitamos cada material</div>
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-670 mep-5 msp-5 mbp-10" />
                 </div>
               </div>
-              <div className="col-3 p-1">
-                <div className="border-style-solid border-color-bulma border-3 p-0 m-0">
+              <div className="col-3 p-1 align-items-stretch">
+                <div className="h-100 border-style-solid border-color-bulma border-3 p-0 m-0">
                   <div className="hp-80 bgc-piccolo p-2 border-bottom-style-solid border-color-bulma border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14 lh-sm">Persona responsable de conseguir cada material</div>
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-670 mep-5 msp-5 mbp-10" />
                 </div>
               </div>
-              <div className="col-3 p-1 position-relative">
+              <div className="col-3 p-1 position-relative align-items-stretch">
               <div className="position-absolute top-0 start-100 translate-middle"><img src={"images/page_" + pagina + "/megafono.png"} className="hp-55 msp--40 mtp-0" alt="" /></div>
               <div className="position-absolute top-50 start-100 translate-middle"><img src={"images/page_" + pagina + "/regla.png"} className="hp-90 msp-0 mtp-0" alt="" /></div>
-                <div className="border-style-solid border-color-goten border-3 p-0 m-0">
+                <div className="h-100 border-style-solid border-color-goten border-3 p-0 m-0">
                   <div className="hp-80 bgc-genos p-2 border-bottom-style-solid border-color-goten border-3 d-flex align-items-center justify-content-center f-Ubuntu-L fsp-14 lh-sm">Costo de cada material</div>
                   <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="p-0 px-1 text-start flex-grow-1 lhp-35 min-hp-670 mep-5 msp-5 mbp-10" />
                 </div>

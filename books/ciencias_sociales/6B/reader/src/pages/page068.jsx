@@ -53,9 +53,9 @@ function Page068(props) {
           <div className="d-flex global-margin mtp-60 mbp-80 psp-30 pep-0 ptp-0 pbp-0">
             <div className="row p-0 m-0 w-100 position-relative">
 
-              <div className="col-sm-6 col-md-6 p-0 m-0 position-relative">
+              <div className="col-sm-6 col-md-6 p-0 m-0 position-relative align-items-stretch">
                 <div className="position-absolute top-100 start-0 translate-middle   msp-30 mtp-35 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_005.png"} className="wp-100" alt="" /></div>
-                <div className="position-relative w-95  border-style-solid border-3 border-color-birdie rounded-p-10 bgc-white">
+                <div className="h-100 position-relative w-95  border-style-solid border-3 border-color-birdie rounded-p-10 bgc-white">
 
                   <div className="gira--2">
 
@@ -66,15 +66,15 @@ function Page068(props) {
 
                   </div>
 
-                  <div className="psp-10 pep-10 ptp-15 pbp-5 m-0  w-100 ">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-600" />
+                  <div className="h-100 psp-10 pep-10 ptp-15 pbp-5 m-0  w-100 ">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-95 mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-600" />
                   </div>
 
                 </div>
               </div>
-              <div className="col-sm-6 col-md-6 p-0 m-0 position-relative">
+              <div className="col-sm-6 col-md-6 p-0 m-0 position-relative align-items-stretch">
                 <div className="position-absolute top-0 start-100 translate-middle   msp--30 mtp--55 visible-768 zindex-1"><img src={"images/page_" + pagina + "/img_002.png"} className="wp-130" alt="" /></div>
-                <div className="position-relative w-95  border-style-solid border-3 border-color-vegeta rounded-p-10 mtp-20 bgc-white ">
+                <div className="h-100 position-relative w-95  border-style-solid border-3 border-color-vegeta rounded-p-10 mtp-20 bgc-white ">
 
                   <div className="gira--2">
 
@@ -85,8 +85,8 @@ function Page068(props) {
 
                   </div>
 
-                  <div className="psp-10 pep-10 ptp-15 pbp-5 m-0  w-100 ">
-                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-600" />
+                  <div className="h-100 psp-10 pep-10 ptp-15 pbp-5 m-0  w-100 ">
+                    <InputBox id={"p" + pagina + "_input" + (indexInput += 1)} className="h-95 mtp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-600" />
                   </div>
 
                 </div>

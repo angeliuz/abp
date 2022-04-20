@@ -122,7 +122,7 @@ function Page061(props) {
                     <div className=" mtp-20 border-style-solid border-1 border-color-akuma rounded-p-10 bgc-white  p-2 w-100">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="msp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
+                        className="h-100 msp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
                       />
                     </div>
                   </div>
@@ -143,7 +143,7 @@ function Page061(props) {
                     <div className=" mtp-20 border-style-solid border-1 border-color-akuma rounded-p-10 bgc-white  p-2 w-100">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
+                        className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
                       />
                     </div>
                   </div>
@@ -167,7 +167,7 @@ function Page061(props) {
                     <div className=" mtp--2 border-style-solid border-1 border-color-akuma rounded-p-10 bgc-white  p-2 w-100">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="msp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
+                        className="h-100 msp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
                       />
                     </div>
                   </div>
@@ -180,7 +180,7 @@ function Page061(props) {
                     <div className=" mtp--2 border-style-solid border-1 border-color-akuma rounded-p-10 bgc-white  p-2 w-100">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
+                        className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
                       />
                     </div>
                   </div>
@@ -210,7 +210,7 @@ function Page061(props) {
                     <div className=" mtp--2 border-style-solid border-1 border-color-akuma rounded-p-10 bgc-white  p-2 w-100">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="msp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
+                        className="h-100 msp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
                       />
                     </div>
                   </div>
@@ -224,7 +224,7 @@ function Page061(props) {
                     <div className=" mtp--2 border-style-solid border-1 border-color-akuma rounded-p-10 bgc-white  p-2 w-100">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
+                        className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
                       />
                     </div>
                   </div>
@@ -247,7 +247,7 @@ function Page061(props) {
                     <div className=" mtp--2 border-style-solid border-1 border-color-akuma rounded-p-10 bgc-white  p-2 w-100">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="msp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
+                        className="h-100 msp-20 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
                       />
                     </div>
                   </div>
@@ -261,7 +261,7 @@ function Page061(props) {
                     <div className=" mtp--2 border-style-solid border-1 border-color-akuma rounded-p-10 bgc-white  p-2 w-100">
                       <InputBox
                         id={"p" + pagina + "_input" + (indexInput += 1)}
-                        className="p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
+                        className="h-100 p-0 px-1 text-start flex-grow-1 contenedor-linea lhp-35 min-hp-150"
                       />
                     </div>
                   </div>
