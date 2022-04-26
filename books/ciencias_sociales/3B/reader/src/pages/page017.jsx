@@ -112,7 +112,7 @@ function Page017(props) {
                   <div className="f-Ubuntu-R text-left pep-10">Elaboramos un <b>cronograma</b> del proyecto con el material que nos entregarán.</div>
                   <ModalPDF
                     id={"p" + pagina + "_video" + (indexInput += 1)}
-                    link="https://www.smconecta.cl/resources/1894/portadas.pdf"
+                    link="https://www.smconecta.cl/resources/1899/soc_3b_md_cronograma.pdf"
                     titulo="Material descargable"
                     tipo="PDF"
                     image={"images/generales/descargable.svg"}

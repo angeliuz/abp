@@ -67,7 +67,7 @@ function Page036(props) {
                 {/* <ModalVideo id={ "p" + pagina + "_video"+ (indexInput+=1) } image="images/page_036/circ.svg" clasesImagen="cambio hp-40 mtp-10" className="p-0 px-1" /> */}
                 <ModalPDF
                   id={"p" + pagina + "_video" + (indexInput += 1)}
-                  link="https://www.smconecta.cl/resources/1894/portadas.pdf"
+                  link="https://www.smconecta.cl/resources/1899/soc_3b_md_grafico.pdf"
                   titulo="Material descargable"
                   tipo="PDF"
                   image={"images/generales/descargable.svg"}
